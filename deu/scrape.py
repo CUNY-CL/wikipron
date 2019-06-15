@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-"""Retrieves IPA transcriptions of words from English Wiktionary."""
 
 import re
 import requests
@@ -8,7 +7,6 @@ import string
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
-# Change the category name to suit the language.
 CATEGORY = "Category:German_terms_with_IPA_pronunciation"
 LIMIT = 500
 INITIAL_QUERY = f"https://en.wiktionary.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle={CATEGORY}&cmlimit={LIMIT}"
@@ -16,12 +14,8 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-
-# Page selectors.
-# Look up entries on Wiktionary and see what the appropriate "Appendix:" subsection is called.
 LI_SELECTOR = '//li[sup[a[@title = "Appendix:German pronunciation"]] and span[@class = "IPA"]]'
 SPAN_SELECTOR = '//span[@class = "IPA"]'
-# Depending on language, entries may be enclosed in //, [], or both.
 PHONEMES = r"/(.+?)/"
 
 

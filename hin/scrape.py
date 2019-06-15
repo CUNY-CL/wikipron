@@ -5,12 +5,14 @@ import requests
 import requests_html
 import string
 
-
+# Queries for the MediaWiki backend.
+# Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
 CATEGORY = "Category:Hindi_terms_with_IPA_pronunciation"
 LIMIT = 500
 INITIAL_QUERY = f"https://en.wiktionary.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle={CATEGORY}&cmlimit={LIMIT}"
 CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
+# Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 LI_SELECTOR = '//li[sup[a[@title = "Appendix:Hindi pronunciation"]] and span[@class = "IPA"]]'
 SPAN_SELECTOR = '//span[@class = "IPA"]'

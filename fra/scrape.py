@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-"""Retrieves IPA transcriptions of words from English Wiktionary."""
 
 import re
 import requests
@@ -15,8 +14,6 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-
-# Page selectors.
 LI_SELECTOR = '//li[sup[a[@title = "Appendix:French pronunciation"]] and span[@class = "IPA"]]'
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"

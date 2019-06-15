@@ -1,17 +1,18 @@
 #!/usr/bin/env python
 
-
 import re
 import requests
 import requests_html
 import string
 
-
+# Queries for the MediaWiki backend.
+# Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
 CATEGORY = "Category:Korean_terms_with_IPA_pronunciation"
 LIMIT = 500
 INITIAL_QUERY = f"https://en.wiktionary.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle={CATEGORY}&cmlimit={LIMIT}"
 CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
+# Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 LI_SELECTOR = '//li[span[sup[a[@title = "Appendix:Korean pronunciation"]]] and span[@class = "IPA"]]'
 SPAN_SELECTOR = '//li[span[@class = "IPA"]]'
@@ -45,12 +46,10 @@ def main():
     _print_data(data)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
-    i = 1
     while True:
         data = requests.get(next_query).json()
         _print_data(data)
         # Then this is the last one.
-        i += 1
         if not "continue" in data:
             break
         code = data["continue"]["cmcontinue"]
