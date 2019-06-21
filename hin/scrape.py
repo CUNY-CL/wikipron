@@ -38,6 +38,7 @@ def _print_data(data):
         request = session.get(query)
         for m in _yield_phn(request):
             pron = m.group(1)
+            pron = re.sub(r'\.', '', pron)
             print(f"{word}\t{pron}")
 
 
