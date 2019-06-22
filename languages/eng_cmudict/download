@@ -1,0 +1,13 @@
+#!/bin/bash
+
+set -euo pipefail
+
+SINK="lexicon-raw.tsv"
+
+main() {
+  curl http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict-0.7b \
+      | perl -ne 'print if /^[A-Z]+\s/' \
+      > "${SINK}"
+}
+
+main
