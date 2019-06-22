@@ -3,6 +3,7 @@
 import requests
 import requests_html
 import string
+import re
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -20,6 +21,12 @@ def _print_data(data):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         katakana = member["title"]
+        #Skips examples starting or ending with a dash.
+        if katakana.startswith("-") or katakana.endswith("-"):
+            continue
+        #Skips examples containing digits.
+        if bool(re.search(r"\d", katakana)):
+            continue
         query = PAGE_TEMPLATE.substitute(word=katakana)
         got = session.get(query).html.find(SELECTOR, first=True)
         if not got:
