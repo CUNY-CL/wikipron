@@ -15,7 +15,19 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-LI_SELECTOR = '//li[sup[a[@title = "Appendix:English pronunciation"]] and span[@class = "IPA"]]'
+LI_SELECTOR = """
+//li[
+  (
+    count(//span[@class = "ib-content qualifier-content"]) = 0
+    or
+    span[a[@title = "w:American English"]]
+  )
+  and
+  sup[a[@title = "Appendix:English pronunciation"]]
+  and
+  span[@class = "IPA"]
+]
+"""
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"
 
