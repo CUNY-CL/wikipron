@@ -47,12 +47,21 @@ def _print_data(data, args):
         # Skips multiword examples.
         if " " in word:
             continue
+        # Skips examples starting or ending with a dash.
+        if word.startswith("-") or word.endswith("-"):
+            continue
+        # Skips examples containing digits.
+        if bool(re.search(r"\d", word)):
+            continue
         query = PAGE_TEMPLATE.substitute(word=word)
         request = session.get(query)
         for m in _yield_phn(request):
             pron = m.group(1)
             # Removes parens around various segments.
             pron = pron.replace("(", "").replace(")", "")
+            # Skips examples with a space in the pron.
+            if " " in pron:
+                break
             if args.no_stress:
                 pron = pron.replace('ˈ', '').replace('ˌ', '')
             if args.no_syllable_boundaries:
