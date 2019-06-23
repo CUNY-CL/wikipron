@@ -43,6 +43,25 @@ def _yield_phn(request):
 
 
 def _print_data(data, args):
+    def process_pron_factory():
+        scrubbers = [
+            fn
+            for cli_flag, fn in [
+                ('no_stress', lambda x: x.replace('ˈ', '').replace('ˌ', '')),
+                ('no_syllable_boundaries', lambda x: x.replace('.', ''))
+            ]
+            if getattr(args, cli_flag)
+        ]
+
+        def wrapper(pron):
+            for scrubber in scrubbers:
+                pron = scrubber(pron)
+            return pron
+
+        return wrapper
+
+    process_pron = process_pron_factory()
+
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -64,10 +83,7 @@ def _print_data(data, args):
             # Skips examples with a space in the pron.
             if " " in pron:
                 break
-            if args.no_stress:
-                pron = pron.replace('ˈ', '').replace('ˌ', '')
-            if args.no_syllable_boundaries:
-                pron = pron.replace('.', '')
+            pron = process_pron(pron)
             print(f"{word}\t{pron}")
 
 
