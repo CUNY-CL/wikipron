@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import re
 import requests
 import requests_html
@@ -27,7 +28,7 @@ def _yield_phn(request):
                 yield m
 
 
-def _print_data(data):
+def _print_data(data, args):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -40,17 +41,21 @@ def _print_data(data):
             pron = m.group(1)
             # Removes parens around various segments.
             pron = pron.replace("(", "").replace(")", "")
+            if args.no_stress:
+                pron = pron.replace('ˈ', '').replace('ˌ', '')
+            if args.no_syllable_boundaries:
+                pron = pron.replace('.', '')
             print(f"{word}\t{pron}")
 
 
-def main():
+def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data)
+    _print_data(data, args)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data)
+        _print_data(data, args)
         # Then this is the last one.
         if not "continue" in data:
             break
@@ -59,4 +64,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='Scrape English Wiktionary')
+    parser.add_argument('--no-stress', action='store_true')
+    parser.add_argument('--no-syllable-boundaries', action='store_true')
+    main(parser.parse_args())
