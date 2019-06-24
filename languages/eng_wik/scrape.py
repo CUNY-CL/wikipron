@@ -17,17 +17,15 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 LI_SELECTOR = """
 //li[
-  (
-    count(span[@class = "ib-content qualifier-content"]) = 0
-    or
-    span[a[@title = "w:American English"]]
-    or
-    span[a[@title = "w:General American"]]
-  )
-  and
   sup[a[@title = "Appendix:English pronunciation"]]
   and
   span[@class = "IPA"]
+  and
+  (
+    span[a[@title = "w:American English" or @title = "w:General American"]]
+    or
+    count(span[@class = "ib-content qualifier-content"]) = 0
+  )
 ]
 """
 SPAN_SELECTOR = '//span[@class = "IPA"]'
