@@ -14,13 +14,14 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-LI_SELECTOR = '//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
+LI_SELECTOR_for_Latin_American_phonemes = '//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
+#LI_SELECTOR_for_Castilian_phonemes = '//li[1][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"
 
 
 def _yield_phn(request):
-    for li in request.html.xpath(LI_SELECTOR):
+    for li in request.html.xpath(LI_SELECTOR_for_Latin_American_phonemes):
         for span in li.xpath(SPAN_SELECTOR):
             m = re.search(PHONEMES, span.text)
             if m:
