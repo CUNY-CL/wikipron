@@ -7,16 +7,16 @@ import string
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
-CATEGORY = "Category:English_terms_with_IPA_pronunciation"
+CATEGORY = "Category:Hungarian_terms_with_IPA_pronunciation"
 LIMIT = 500
 INITIAL_QUERY = f"https://en.wiktionary.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle={CATEGORY}&cmlimit={LIMIT}"
 CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-LI_SELECTOR = '//li[sup[a[@title = "Appendix:English pronunciation"]] and span[@class = "IPA"]]'
+LI_SELECTOR = '//li[sup[a[@title = "Appendix:Hungarian pronunciation"]] and span[@class = "IPA"]]'
 SPAN_SELECTOR = '//span[@class = "IPA"]'
-PHONEMES = r"/(.+?)/"
+PHONEMES = r"\[(.+?)\]"
 
 
 def _yield_phn(request):
@@ -34,8 +34,8 @@ def _print_data(data):
         # Skips multiword examples.
         if " " in word:
             continue
-        # Skips examples containing a dash.
-        if "-" in word:
+        # Skips examples starting or ending with a dash.
+        if word.startswith("-") or word.endswith("-"):
             continue
         # Skips examples containing digits.
         if bool(re.search(r"\d", word)):
@@ -44,8 +44,6 @@ def _print_data(data):
         request = session.get(query)
         for m in _yield_phn(request):
             pron = m.group(1)
-            # Removes parens around various segments.
-            pron = pron.replace("(", "").replace(")", "")
             # Skips examples with a space in the pron.
             if " " in pron:
                 break
