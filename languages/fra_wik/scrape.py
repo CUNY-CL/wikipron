@@ -28,7 +28,7 @@ def _yield_phn(request):
                 yield m
 
 
-def _print_data(data, rm_syldot):
+def _print_data(data, args):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -49,18 +49,19 @@ def _print_data(data, rm_syldot):
             if " " in pron:
                 continue
             # Removes syllable doundaries if flagged.
-            if rm_syldot:
-                pron = pron.replace(".","")
+            if args.no_syllable_boundaries:
+                pron = pron.replace(".", "")
             print(f"{word}\t{pron}")
+
 
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data, args.rm_syldot)
+    _print_data(data, args.no_syllable_boundaries)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data, args.rm_syldot)
+        _print_data(data, args.no_syllable_boundaries)
         # Then this is the last one.
         if not "continue" in data:
             break
@@ -70,5 +71,5 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--rm_syldot", help="flag to remove syllable boundaries", action="store_true")
+    parser.add_argument("--no-syllable-boundaries", action="store_true")
     main(parser.parse_args())
