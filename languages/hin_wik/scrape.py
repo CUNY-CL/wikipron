@@ -44,7 +44,6 @@ def _print_data(data):
         request = session.get(query)
         for m in _yield_phn(request):
             pron = m.group(1)
-            pron = re.sub(r'\.', '', pron)
             # Skips examples with a space in the pron.
             if " " in pron:
                 break

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import re
 import requests
 import requests_html
 import string
@@ -36,6 +37,9 @@ def _print_data(data):
             continue
         if romaji.endswith(")") or romaji.endswith(","):
             romaji = romaji[:-1]
+        # Skips examples starting or ending with a dash.
+        if romaji.startswith("-") or romaji.endswith("-"):
+            continue
         romaji = romaji.casefold()
         print(f"{katakana}\t{romaji}")
 
