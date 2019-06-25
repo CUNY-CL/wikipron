@@ -28,7 +28,7 @@ def _yield_phn(request):
                 yield m
 
 
-def _print_data(data,rm_syldot):
+def _print_data(data, rm_syldot):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -39,7 +39,7 @@ def _print_data(data,rm_syldot):
         if word.startswith("-") or word.endswith("-"):
             continue
         # Skips examples containing digits.
-        if re.search(r"\d", word):
+        if bool(re.search(r"\d", word)):
             continue
         query = PAGE_TEMPLATE.substitute(word=word)
         request = session.get(query)
@@ -50,18 +50,17 @@ def _print_data(data,rm_syldot):
                 continue
             # Removes syllable doundaries if flagged.
             if rm_syldot:
-                print(f"{word}\t{pron.replace('.','')}")
-            else:
-                print(f"{word}\t{pron}")
+                pron = pron.replace(".","")
+            print(f"{word}\t{pron}")
 
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data, rm_syldot=args.rm_syldot)
+    _print_data(data, args.rm_syldot)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data, rm_syldot=args.rm_syldot)
+        _print_data(data, args.rm_syldot)
         # Then this is the last one.
         if not "continue" in data:
             break
@@ -70,6 +69,6 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser()
     parser.add_argument("--rm_syldot", help="flag to remove syllable boundaries", action="store_true")
     main(parser.parse_args())
