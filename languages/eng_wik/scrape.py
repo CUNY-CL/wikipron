@@ -66,8 +66,8 @@ def _print_data(data, args):
         # Skips multiword examples.
         if " " in word:
             continue
-        # Skips examples starting or ending with a dash.
-        if word.startswith("-") or word.endswith("-"):
+        # Skips examples containing a dash.
+        if "-" in word:
             continue
         # Skips examples containing digits.
         if bool(re.search(r"\d", word)):

@@ -7,41 +7,47 @@ import string
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
-CATEGORY = "Category:Japanese_katakana"
+CATEGORY = "Category:Hungarian_terms_with_IPA_pronunciation"
 LIMIT = 500
 INITIAL_QUERY = f"https://en.wiktionary.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle={CATEGORY}&cmlimit={LIMIT}"
 CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-SELECTOR = 'b[class="Latn form-of lang-ja romanized-form-of"]'
+LI_SELECTOR = '//li[sup[a[@title = "Appendix:Hungarian pronunciation"]] and span[@class = "IPA"]]'
+SPAN_SELECTOR = '//span[@class = "IPA"]'
+PHONEMES = r"\[(.+?)\]"
+
+
+def _yield_phn(request):
+    for li in request.html.xpath(LI_SELECTOR):
+        for span in li.xpath(SPAN_SELECTOR):
+            m = re.search(PHONEMES, span.text)
+            if m:
+                yield m
 
 
 def _print_data(data):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
-        katakana = member["title"]
+        word = member["title"]
+        # Skips multiword examples.
+        if " " in word:
+            continue
         # Skips examples starting or ending with a dash.
-        if katakana.startswith("-") or katakana.endswith("-"):
+        if word.startswith("-") or word.endswith("-"):
             continue
         # Skips examples containing digits.
-        if bool(re.search(r"\d", katakana)):
+        if bool(re.search(r"\d", word)):
             continue
-        query = PAGE_TEMPLATE.substitute(word=katakana)
-        got = session.get(query).html.find(SELECTOR, first=True)
-        if not got:
-            continue
-        romaji = got.text
-        # Skips multiword examples.
-        if " " in romaji:
-            continue
-        if romaji.endswith(")") or romaji.endswith(","):
-            romaji = romaji[:-1]
-        # Skips examples starting or ending with a dash.
-        if romaji.startswith("-") or romaji.endswith("-"):
-            continue
-        romaji = romaji.casefold()
-        print(f"{katakana}\t{romaji}")
+        query = PAGE_TEMPLATE.substitute(word=word)
+        request = session.get(query)
+        for m in _yield_phn(request):
+            pron = m.group(1)
+            # Skips examples with a space in the pron.
+            if " " in pron:
+                break
+            print(f"{word}\t{pron}")
 
 
 def main():
