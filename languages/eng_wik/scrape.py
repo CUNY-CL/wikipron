@@ -82,7 +82,7 @@ def _print_data(data, args):
             pron = pron.replace("(", "").replace(")", "")
             # Skips examples with a space in the pron.
             if " " in pron:
-                break
+                continue
             pron = process_pron(pron)
             print(f"{word}\t{pron}")
 
