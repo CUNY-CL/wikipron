@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+"""Scrape English Wiktionary"""
+
 import argparse
 import re
 import requests
@@ -101,7 +103,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Scrape English Wiktionary')
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--no-stress', action='store_true')
     parser.add_argument('--no-syllable-boundaries', action='store_true')
     main(parser.parse_args())
