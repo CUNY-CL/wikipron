@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-"""Scrape English Wiktionary"""
-
 import argparse
 import re
 import requests
@@ -53,7 +51,7 @@ def _print_data(data, args):
         if "-" in word:
             continue
         # Skips examples containing digits.
-        if re.search(r"\d", word):
+        if bool(re.search(r"\d", word)):
             continue
         query = PAGE_TEMPLATE.substitute(word=word)
         request = session.get(query)
@@ -87,7 +85,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description=__doc__)
+    parser = argparse.ArgumentParser()
     parser.add_argument('--no-stress', action='store_true')
     parser.add_argument('--no-syllable-boundaries', action='store_true')
     main(parser.parse_args())
