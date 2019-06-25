@@ -14,13 +14,17 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-LI_SELECTOR = '//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
+#LI_SELECTOR_for_Latin_American_phonemes_v_1 = '//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
+#LI_SELECTOR_for_Latin_American_phonemes_v_2 = '//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"] and count(span[a]) =0]'
+LI_SELECTOR_for_Latin_American_phonemes_v_3 = """//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"] and \
+(span[@class = "ib-content qualifier-content"][text()="Latin America"] or \
+count(span[@class = "ib-content qualifier-content"]) = 0)]"""
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"
 
 
 def _yield_phn(request):
-    for li in request.html.xpath(LI_SELECTOR):
+    for li in request.html.xpath(LI_SELECTOR_for_Latin_American_phonemes_v_3):
         for span in li.xpath(SPAN_SELECTOR):
             m = re.search(PHONEMES, span.text)
             if m:
@@ -47,7 +51,14 @@ def _print_data(data):
             # Skips examples with a space in the pron.
             if " " in pron:
                 break
-            print(f"{word}\t{pron}")
+            pron_chars = []
+            for char in pron: 
+                if char == "ˈ":
+                    continue
+                else: 
+                    pron_chars.append(char)
+            unstressed_pron = "".join(pron_chars)
+            print (f"{word.casefold()}\t{unstressed_pron}")
 
 
 def main():
