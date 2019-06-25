@@ -22,7 +22,7 @@ PHONEMES = r"/(.+?)/"
 
 
 def _yield_phn(request):
-    for li in request.html.xpath(LI_SELECTOR_for_Latin_American_phonemes):
+    for li in request.html.xpath(LI_SELECTOR_for_Latin_American_phonemes_v_3):
         for span in li.xpath(SPAN_SELECTOR):
             m = re.search(PHONEMES, span.text)
             if m:
