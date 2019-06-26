@@ -69,7 +69,7 @@ def _print_data(data, args):
             pron = m.group(1)
             # Skips examples with a space in the pron.
             if " " in pron:
-                break
+                continue
             if args.no_stress:
                 pron_chars = []
                 for char in pron:
