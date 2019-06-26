@@ -31,8 +31,8 @@ E.G. below "Castilian" is hyperlinked and "Latin America" is not, as is the case
 """
 LI_SELECTOR_for_Latin_American_phonemes_v_2 = '//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"] and count(span[a]) =0]'
 
-"""LI_SELECTOR..._v_3 asks only for entries that contain either the text "Latin America", or nothing at all, before the phoneme is provided
-because there are some entries that contain no phoneme description, like the entry for "ababa" below:  
+"""LI_SELECTOR..._v_3 assumes that entries are Latin American if the non-hyperlinked textual description, "Latin America", is provided before the phoneme (like in the last bulleted entry above), 
+or if no description is provided at all, (like in the entry below):  
     
     IPA(key): /aˈbaba/, [aˈβaβa]"""
 LI_SELECTOR_for_Latin_American_phonemes_v_3 = """//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"] and \
