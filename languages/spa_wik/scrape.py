@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import re
 import requests
 import requests_html
@@ -14,8 +15,26 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
+
+"""LI_SELECTOR...v_1 assumes that all Latin American phonemes will be the last bulleted entry in the "//ul" section."""  
+
 LI_SELECTOR_for_Latin_American_phonemes_v_1 = '//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
+
+""" LI_SELECTOR..._v_2 assumes that Latin American phonemes are the only entries that won't have a hyperlinked description before providing the phoneme. 
+This is an important pattern to take note of because every phoneme that contains the description "Latin America" is not hyperlinked, whereas other descriptions, like "Castilian" are. 
+
+E.G. below "Castilian" is hyperlinked and "Latin America" is not, as is the case for every other type, as far as I can see.-- 
+
+    (Castilian) IPA(key): /abaˈθjal/, [aβaˈθjal]
+    (Latin America) IPA(key): /abaˈsjal/, [aβaˈsjal]
+    
+"""
 LI_SELECTOR_for_Latin_American_phonemes_v_2 = '//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"] and count(span[a]) =0]'
+
+"""LI_SELECTOR..._v_3 asks only for entries that contain either the text "Latin America", or nothing at all, before the phoneme is provided
+because there are some entries that contain no phoneme description, like the entry for "ababa" below:  
+    
+    IPA(key): /aˈbaba/, [aˈβaβa]"""
 LI_SELECTOR_for_Latin_American_phonemes_v_3 = """//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"] and \
 (span[@class = "ib-content qualifier-content"][text()="Latin America"] or \
 count(span[@class = "ib-content qualifier-content"]) = 0)]"""
@@ -31,7 +50,7 @@ def _yield_phn(request):
                 yield m
 
 
-def _print_data(data):
+def _print_data(data, args):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -51,24 +70,25 @@ def _print_data(data):
             # Skips examples with a space in the pron.
             if " " in pron:
                 break
-            pron_chars = []
-            for char in pron: 
-                if char == "ˈ":
-                    continue
-                else: 
-                    pron_chars.append(char)
-            unstressed_pron = "".join(pron_chars)
-            print (f"{word.casefold()}\t{unstressed_pron}")
+            if args.no_stress:
+                pron_chars = []
+                for char in pron: 
+                    if char == "ˈ":
+                        continue
+                    else: 
+                        pron_chars.append(char)
+                unstressed_pron = "".join(pron_chars)
+                print (f"{word.casefold()}\t{unstressed_pron}")
 
 
-def main():
+def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data)
+    _print_data(data, args)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data)
+        _print_data(data, args)
         # Then this is the last one.
         if not "continue" in data:
             break
@@ -77,4 +97,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--no-stress', action='store_true')
+    main(parser.parse_args())
