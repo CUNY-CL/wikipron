@@ -16,7 +16,7 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 
-"""LI_SELECTOR...v_1 assumes that all Latin American phonemes will be the last bulleted entry in the "//ul" section."""  
+"""LI_SELECTOR...v_1 assumes that all Latin American phonemes will be the last bulleted entry in the "//ul" section."""
 
 LI_SELECTOR_for_Latin_American_phonemes_v_1 = '//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]'
 
@@ -72,13 +72,13 @@ def _print_data(data, args):
                 break
             if args.no_stress:
                 pron_chars = []
-                for char in pron: 
+                for char in pron:
                     if char == "ˈ":
                         continue
-                    else: 
+                    else:
                         pron_chars.append(char)
                 unstressed_pron = "".join(pron_chars)
-                print (f"{word.casefold()}\t{unstressed_pron}")
+                print(f"{word.casefold()}\t{unstressed_pron}")
 
 
 def main(args):
@@ -98,5 +98,5 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--no-stress', action='store_true')
+    parser.add_argument("--no-stress", action="store_true")
     main(parser.parse_args())
