@@ -10,8 +10,17 @@ import string
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
 CATEGORY = "Category:English_terms_with_IPA_pronunciation"
 LIMIT = 500
-INITIAL_QUERY = f"https://en.wiktionary.org/w/api.php?action=query&format=json&list=categorymembers&cmtitle={CATEGORY}&cmlimit={LIMIT}"
+INITIAL_QUERY = (
+    "https://en.wiktionary.org/w/api.php?"
+    "action=query"
+    "&format=json"
+    "&list=categorymembers"
+    f"&cmtitle={CATEGORY}"
+    f"&cmlimit={LIMIT}"
+    "&cmprop=ids|title|timestamp"
+)
 CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
+CUT_OFF_DATE = '2019-06-07'  # date of the very first project team meeting!
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
@@ -43,6 +52,7 @@ def _yield_phn(request):
 def _print_data(data, args):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
+
         word = member["title"]
         # Skips multiword examples.
         if " " in word:
@@ -53,6 +63,12 @@ def _print_data(data, args):
         # Skips examples containing digits.
         if re.search(r"\d", word):
             continue
+
+        date = re.search(r"\d{4}-\d{2}-\d{2}", member["timestamp"]).group(0)
+        # Skips examples not available on or before the cut-off date.
+        if date > CUT_OFF_DATE:
+            continue
+
         request = session.get(PAGE_TEMPLATE.substitute(word=word))
         # Template lookup is case-sensitive, but we case-fold afterwards.
         word = word.casefold()
