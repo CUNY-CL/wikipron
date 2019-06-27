@@ -25,7 +25,7 @@ def _print_data(data):
         if katakana.startswith("-") or katakana.endswith("-"):
             continue
         # Skips examples containing digits.
-        if bool(re.search(r"\d", katakana)):
+        if re.search(r"\d", katakana):
             continue
         query = PAGE_TEMPLATE.substitute(word=katakana)
         got = session.get(query).html.find(SELECTOR, first=True)

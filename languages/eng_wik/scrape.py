@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import re
 import requests
 import requests_html
@@ -14,7 +15,19 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-LI_SELECTOR = '//li[sup[a[@title = "Appendix:English pronunciation"]] and span[@class = "IPA"]]'
+LI_SELECTOR = """
+//li[
+  sup[a[@title = "Appendix:English pronunciation"]]
+  and
+  span[@class = "IPA"]
+  and
+  (
+    span[a[@title = "w:American English" or @title = "w:General American"]]
+    or
+    count(span[@class = "ib-content qualifier-content"]) = 0
+  )
+]
+"""
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"
 
@@ -27,7 +40,7 @@ def _yield_phn(request):
                 yield m
 
 
-def _print_data(data):
+def _print_data(data, args):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -38,7 +51,7 @@ def _print_data(data):
         if "-" in word:
             continue
         # Skips examples containing digits.
-        if bool(re.search(r"\d", word)):
+        if re.search(r"\d", word):
             continue
         request = session.get(PAGE_TEMPLATE.substitute(word=word))
         # Template lookup is case-sensitive, but we case-fold afterwards.
@@ -50,17 +63,21 @@ def _print_data(data):
             # Skips examples with a space in the pron.
             if " " in pron:
                 break
+            if args.no_stress:
+                pron = pron.replace('ˈ', '').replace('ˌ', '')
+            if args.no_syllable_boundaries:
+                pron = pron.replace('.', '')
             print(f"{word}\t{pron}")
 
 
-def main():
+def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data)
+    _print_data(data, args)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data)
+        _print_data(data, args)
         # Then this is the last one.
         if not "continue" in data:
             break
@@ -69,4 +86,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--no-stress', action='store_true')
+    parser.add_argument('--no-syllable-boundaries', action='store_true')
+    main(parser.parse_args())
