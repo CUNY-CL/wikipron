@@ -51,7 +51,7 @@ def _print_data(data, args):
         if "-" in word:
             continue
         # Skips examples containing digits.
-        if bool(re.search(r"\d", word)):
+        if re.search(r"\d", word):
             continue
         query = PAGE_TEMPLATE.substitute(word=word)
         request = session.get(query)
