@@ -40,8 +40,11 @@ def _print_data(data):
         # Skips examples containing digits.
         if bool(re.search(r"\d", word)):
             continue
-        query = PAGE_TEMPLATE.substitute(word=word)
-        request = session.get(query)
+        if bool(re.search(r"\d", word)):
+            continue
+        request = session.get(PAGE_TEMPLATE.substitute(word=word))
+        # Template lookup is case-sensitive, but we case-fold afterwards.
+        word = word.casefold()
         for m in _yield_phn(request):
             pron = m.group(1)
             # Skips examples with a space in the pron.

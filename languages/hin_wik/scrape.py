@@ -40,8 +40,7 @@ def _print_data(data):
         # Skips examples containing digits.
         if bool(re.search(r"\d", word)):
             continue
-        query = PAGE_TEMPLATE.substitute(word=word)
-        request = session.get(query)
+        request = session.get(PAGE_TEMPLATE.substitute(word=word))
         for m in _yield_phn(request):
             pron = m.group(1)
             # Skips examples with a space in the pron.
