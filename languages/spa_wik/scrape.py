@@ -71,16 +71,9 @@ def _print_data(data, args):
             if " " in pron:
                 continue
             if args.no_stress:
-                pron_chars = []
-                for char in pron:
-                    if char == "ˈ":
-                        continue
-                    else:
-                        pron_chars.append(char)
-                unstressed_pron = "".join(pron_chars)
-                print(f"{word.casefold()}\t{unstressed_pron}")
-
-
+                pron = pron.replace('ˈ', '')
+            print(f"{word.casefold()}\t{unstressed_pron}")
+            
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
     _print_data(data, args)
