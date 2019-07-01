@@ -203,7 +203,6 @@ def _scrape(data, config):
                 continue
             pron = config.process_pron(pron)
             entries.append((word, pron))
-            print(word, pron)  # TODO delete this line
 
     output_entries = "\n".join(f"{word}\t{pron}" for word, pron in entries)
     if config.output:
