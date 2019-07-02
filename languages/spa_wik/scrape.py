@@ -18,9 +18,8 @@ PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 
 """LI_SELECTOR...v_1 assumes that all Latin American phonemes will be the last bulleted entry in the "//ul" section."""
 
-LI_SELECTOR_for_Latin_American_phonemes_v_1 = """\
-//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]]\
-and span[@class = "IPA"]]\
+LI_SELECTOR_for_Latin_American_phonemes_v_1 = """
+//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]
 """
 
 """ 
@@ -28,22 +27,23 @@ LI_SELECTOR..._v_2 assumes that Latin American phonemes are the only entries tha
 before providing the phoneme.    
 """
 
-LI_SELECTOR_for_Latin_American_phonemes_v_2 = """\
-//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]\
-and count(span[a]) =0]\
+LI_SELECTOR_for_Latin_American_phonemes_v_2 = """
+//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]
+and 
+count(span[a]) =0]
 """
 
 """
 LI_SELECTOR..._v_3 assumes that entries are Latin American if the non-hyperlinked textual description,  
-"Latin America", is provided before the phoneme,or if no description is provided at all.   
+"Latin America", is provided before the phoneme, or if no description is provided at all.   
 """
 
-LI_SELECTOR_for_Latin_American_phonemes_v_3 = """\
-//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]\
-and\
-(span[@class = "ib-content qualifier-content"][text()="Latin America"]\
-or\
-count(span[@class = "ib-content qualifier-content"]) = 0)]\
+LI_SELECTOR_for_Latin_American_phonemes_v_3 = """
+//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]
+and
+(span[@class = "ib-content qualifier-content"][text() = "Latin America"]
+or
+count(span[@class = "ib-content qualifier-content"]) = 0)]
 """
 
 SPAN_SELECTOR = '//span[@class = "IPA"]'
