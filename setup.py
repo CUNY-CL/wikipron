@@ -1,25 +1,19 @@
-import os
 from setuptools import find_packages, setup
 
 
-_PACKAGE_NAME = "g2p"
-_THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-
-with open(os.path.join(_THIS_DIR, _PACKAGE_NAME, "__init__.py")) as f:
-    # get __version__ and __doc__
-    exec(f.read())
+__version__ = "0.0.0"
 
 
 def main():
     setup(
-        name=_PACKAGE_NAME,
+        name="g2p",
         version=__version__,
-        description=__doc__,
+        description="Scraping Wiktionary data.",
         packages=find_packages(),
         python_requires=">=3.7",
         zip_safe=False,
-        install_requires=["click", "numpy", "requests", "requests-html"],
-        entry_points={"console_scripts": ["g2p = g2p.__main__:cli"]},
+        install_requires=["requests", "requests-html"],
+        entry_points={"console_scripts": ["g2p = g2p:main"]},
     )
 
 
