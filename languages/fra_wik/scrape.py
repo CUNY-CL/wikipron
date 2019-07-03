@@ -15,7 +15,19 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
-LI_SELECTOR = '//li[sup[a[@title = "Appendix:French pronunciation"]] and span[@class = "IPA"]]'
+LI_SELECTOR = """
+//li[
+  sup[a[@title = "Appendix:French pronunciation"]]
+  and
+  span[@class = "IPA"]
+  and
+  (
+    span[a[@title = "w:Europe"]]
+    or
+    count(span[@class = "ib-content qualifier-content"]) = 0
+  )
+]
+"""
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"
 
@@ -59,12 +71,12 @@ def _print_data(data, args):
 
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data, args.no_syllable_boundaries)
+    _print_data(data, args)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data, args.no_syllable_boundaries)
+        _print_data(data, args)
         # Then this is the last one.
         if not "continue" in data:
             break
