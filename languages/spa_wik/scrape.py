@@ -16,8 +16,8 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 
-"""LI_SELECTOR...v_1 assumes that all Latin American phonemes will be the last bulleted entry in the "//ul" section."""
 
+<<<<<<< HEAD
 LI_SELECTOR_for_Latin_American_phonemes_v_1 = """
 //li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]
 """
@@ -46,12 +46,27 @@ or
 count(span[@class = "ib-content qualifier-content"]) = 0)]
 """
 
+=======
+LI_SELECTOR = """
+//li[
+sup[a[@title = "Appendix:Spanish pronunciation"]] 
+and
+span[@class = "IPA"] 
+and
+(
+span[@class = "ib-content qualifier-content"][text()="Latin America"] 
+or
+count(span[@class = "ib-content qualifier-content"]) = 0
+)
+]
+"""
+>>>>>>> 0cf0ce83571a68d8c0fa0f8348f7ebad9623324e
 SPAN_SELECTOR = '//span[@class = "IPA"]'
 PHONEMES = r"/(.+?)/"
 
 
 def _yield_phn(request):
-    for li in request.html.xpath(LI_SELECTOR_for_Latin_American_phonemes_v_3):
+    for li in request.html.xpath(LI_SELECTOR):
         for span in li.xpath(SPAN_SELECTOR):
             m = re.search(PHONEMES, span.text)
             if m:
@@ -80,8 +95,13 @@ def _print_data(data, args):
             if " " in pron:
                 continue
             if args.no_stress:
+<<<<<<< HEAD
                 pron = pron.replace('ˈ', '').replace('ˌ', '')
             print(f"{word.casefold()}\t{pron}")
+=======
+                pron = pron.replace('ˈ', '')
+            print(f"{word}\t{unstressed_pron}")
+>>>>>>> 0cf0ce83571a68d8c0fa0f8348f7ebad9623324e
             
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
