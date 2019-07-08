@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import argparse
 import re
 import requests
 import requests_html
@@ -27,7 +28,7 @@ def _yield_phn(request):
                 yield m
 
 
-def _print_data(data):
+def _print_data(data, args):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -46,17 +47,19 @@ def _print_data(data):
             # Skips examples with a space in the pron.
             if " " in pron:
                 break
+            if args.no_syllable_boundaries:
+                pron = pron.replace('.','')
             print(f"{word}\t{pron}")
 
 
-def main():
+def main(args):
     data = requests.get(INITIAL_QUERY).json()
-    _print_data(data)
+    _print_data(data, args)
     code = data["continue"]["cmcontinue"]
     next_query = CONTINUE_TEMPLATE.substitute(cmcontinue=code)
     while True:
         data = requests.get(next_query).json()
-        _print_data(data)
+        _print_data(data, args)
         # Then this is the last one.
         if not "continue" in data:
             break
@@ -65,4 +68,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--no_syllable_boundaries', action = 'store_true')
+    main(parser.parse_args())
+   
