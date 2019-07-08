@@ -6,7 +6,6 @@ import argparse
 import logging
 
 
-
 def main(args):
     with open(args.input_path, 'r') as source:  
         g_writer = fst.FarWriter.create(args.g_far_path)
