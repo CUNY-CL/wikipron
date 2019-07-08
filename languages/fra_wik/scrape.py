@@ -22,7 +22,7 @@ LI_SELECTOR = """
   span[@class = "IPA"]
   and
   (
-    span[a[@title = "w:Europe"]]
+    span[@class = "ib-content qualifier-content"][text() = "Europe"]
     or
     count(span[@class = "ib-content qualifier-content"]) = 0
   )
