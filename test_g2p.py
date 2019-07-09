@@ -48,11 +48,6 @@ def test_cli_args():
         assert getattr(actual_cli_args, expected_arg) == expected_value
 
 
-def test_language():
-    # TODO
-    pass
-
-
 def test_output():
     with tempfile.TemporaryDirectory() as temp_dir:
         file_path = os.path.join(temp_dir, "foobar.tsv")

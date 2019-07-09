@@ -56,7 +56,7 @@ class _Config:
     """
 
     def __init__(self, cli_args):
-        self.language = self._get_language(cli_args.language)
+        self.language: str = self._get_language(cli_args.language)
         self.output: Optional[io.TextIOWrapper] = self._get_output(
             cli_args.output
         )
@@ -78,8 +78,8 @@ class _Config:
         )
 
     def _get_language(self, language):
-        # TODO
-        return "English"
+        # TODO handle ISO codes like "eng"? currently only handles "English"
+        return language
 
     def _get_output(self, output):
         if output:
@@ -236,7 +236,7 @@ def _scrape(data, config: _Config):
 
 def _get_cli_args(args):
     parser = argparse.ArgumentParser(description=__doc__)
-    # TODO ISO language code etc.
+    # TODO ISO language code etc. for the help message, if implemented
     parser.add_argument("language", help="Name of language")
     parser.add_argument(
         "--phonetic",
