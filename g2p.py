@@ -5,6 +5,7 @@ import datetime
 import io
 import os
 import re
+import sys
 from typing import Callable, Optional
 
 import requests
@@ -37,8 +38,8 @@ _LI_SELECTOR_TEMPLATE = """
 ]
 """
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
-_PHONEMES = r"/(.+?)/"
-_PHONES = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
+_PHONEMES_REGEX = r"/(.+?)/"
+_PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
 
 class _Config:
@@ -66,7 +67,9 @@ class _Config:
         self.process_word: Callable[[str, str], str] = self._get_process_word(
             _cut_off_date
         )
-        self.ipa_regex: str = _PHONES if cli_args.phonetic else _PHONEMES
+        self.ipa_regex: str = (
+            _PHONES_REGEX if cli_args.phonetic else _PHONEMES_REGEX
+        )
         self.li_selector: str = self._get_li_selector(
             cli_args.language, cli_args.dialect, cli_args.require_dialect_label
         )
@@ -180,7 +183,7 @@ class _Config:
         return wrapper
 
 
-def _yield_phn(request, config):
+def _yield_phn(request, config: _Config):
     for li in request.html.xpath(config.li_selector):
         for span in li.xpath(_SPAN_SELECTOR):
             m = re.search(config.ipa_regex, span.text)
@@ -188,7 +191,7 @@ def _yield_phn(request, config):
                 yield m
 
 
-def _scrape(data, config):
+def _scrape(data, config: _Config):
     session = requests_html.HTMLSession()
     entries = []
     for member in data["query"]["categorymembers"]:
@@ -223,7 +226,7 @@ def _scrape(data, config):
         print(output_entries)
 
 
-def _get_cli_args():
+def _get_cli_args(args):
     parser = argparse.ArgumentParser(description=__doc__)
     # TODO ISO language code etc.
     parser.add_argument("language", help="Name of language")
@@ -282,14 +285,16 @@ def _get_cli_args():
     )
     parser.add_argument(
         "--output",
-        help="Output filename. If the output file already exists, it will be "
-             "overridden. If not given, results appear in stdout.",
+        help=(
+            "Output filename. If the output file already exists, it will be "
+            "overridden. If not given, results appear in stdout."
+        ),
     )
-    return parser.parse_args()
+    return parser.parse_args(args)
 
 
 def main():
-    cli_args = _get_cli_args()
+    cli_args = _get_cli_args(sys.argv[1:])
     config = _Config(cli_args)
     category = _CATEGORY_TEMPLATE.format(language=config.language)
     next_query = _INITIAL_QUERY_TEMPLATE.format(category=category)
