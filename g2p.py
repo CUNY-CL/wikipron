@@ -37,6 +37,9 @@ _LI_SELECTOR_TEMPLATE = """
   ({dialect_selector})
 ]
 """
+_DIALECT_SELECTOR_TEMPLATE = (
+    'span[@class = "ib-content qualifier-content"][{dialects_text}]'
+)
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
@@ -152,12 +155,17 @@ class _Config:
         if not dialect:
             dialect_selector = "true"
         else:
-            dialect_selector = f'span[a[@title = "w:{dialect}"]]'
+            dialect_selector = _DIALECT_SELECTOR_TEMPLATE.format(
+                dialects_text=" or ".join(
+                    f'text() = "{d.strip()}"' for d in dialect.split("|")
+                )
+            )
 
         if not require_dialect_label:
             # include entries with no dialect specification
             dialect_selector += (
-                ' or count(span[@class = "ib-content qualifier-content"]) = 0'
+                '\n   '
+                'or count(span[@class = "ib-content qualifier-content"]) = 0'
             )
 
         return _LI_SELECTOR_TEMPLATE.format(
@@ -248,18 +256,15 @@ def _get_cli_args(args):
         action="store_true",
         help="Remove syllable boundary marks in pronunciations.",
     )
-    # TODO: The UX isn't great.
-    #   Anyway to improve dialect specification?
-    #   e.g., not need to peek the underlying HTML?
-    # TODO: Allow multiple dialects being specified
     parser.add_argument(
         "--dialect",
         help=(
             "Retrieve entries that have this dialect specification. "
             "If not given, then all dialects are included in the output. "
-            "The dialect name is the one in the underlying HTML code, inside "
-            '<span><class="ib-content qualifier-content" title="[dialect-name]">, '  # noqa: E501
-            "not the one seen in the rendered web page on the surface."
+            "The dialect name is found together with the IPA transcription, "
+            "e.g., \"UK\" or \"US\" in \"(UK, US) IPA: /təˈmɑːtəʊ/\". "
+            "To include more than one dialect, use a pipe \"|\" to separate "
+            "the dialect names, e.g., --dialect=\"General American | US\"."
         ),
     )
     parser.add_argument(

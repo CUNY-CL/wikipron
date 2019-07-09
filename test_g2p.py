@@ -61,16 +61,16 @@ def test_output():
 
 
 @pytest.mark.parametrize(
-    "casefold, input_word, output_word",
+    "casefold, input_word, expected_word",
     [(True, "FooBar", "foobar"), (False, "FooBar", "FooBar")],
 )
-def test_casefold(casefold, input_word, output_word):
+def test_casefold(casefold, input_word, expected_word):
     config = _config_factory(casefold=casefold)
-    assert config.casefold(input_word) == output_word
+    assert config.casefold(input_word) == expected_word
 
 
 @pytest.mark.parametrize(
-    "no_stress, no_syllable_boundaries, output_pron",
+    "no_stress, no_syllable_boundaries, expected_pron",
     [
         (True, True, "lɪŋɡwɪstɪks"),
         (True, False, "lɪŋ.ɡwɪs.tɪks"),
@@ -78,15 +78,15 @@ def test_casefold(casefold, input_word, output_word):
         (False, False, "lɪŋ.ˈɡwɪs.tɪks"),
     ],
 )
-def test_process_pron(no_stress, no_syllable_boundaries, output_pron):
+def test_process_pron(no_stress, no_syllable_boundaries, expected_pron):
     config = _config_factory(
         no_stress=no_stress, no_syllable_boundaries=no_syllable_boundaries
     )
-    assert config.process_pron("lɪŋ.ˈɡwɪs.tɪks") == output_pron
+    assert config.process_pron("lɪŋ.ˈɡwɪs.tɪks") == expected_pron
 
 
 @pytest.mark.parametrize(
-    "error, cut_off_date, word_available_date, source_word, output_word",
+    "error, cut_off_date, word_available_date, source_word, expected_word",
     [
         # Input cut_off_date is invalid.
         (True, _DATE_FUTURE, None, None, None),
@@ -108,7 +108,7 @@ def test_process_pron(no_stress, no_syllable_boundaries, output_pron):
     ],
 )
 def test_process_word(
-    error, cut_off_date, word_available_date, source_word, output_word
+    error, cut_off_date, word_available_date, source_word, expected_word
 ):
     if error:
         with pytest.raises(ValueError):
@@ -117,7 +117,7 @@ def test_process_word(
         config = _config_factory(cut_off_date=cut_off_date)
         assert (
             config.process_word(source_word, word_available_date)
-            == output_word
+            == expected_word
         )
 
 
@@ -129,6 +129,70 @@ def test_ipa_regex(phonetic, ipa_regex):
     assert config.ipa_regex == ipa_regex
 
 
-def test_li_selector():
-    # TODO
-    pass
+@pytest.mark.parametrize(
+    "dialect, require_dialect_label, expected_li_selector",
+    [
+        (
+            None,
+            False,
+            (
+                "\n//li[\n"
+                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "  and\n"
+                '  span[@class = "IPA"]\n'
+                "  and\n"
+                '  (true\n'
+                '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
+                "]\n"
+            ),
+        ),
+        (
+            "US",
+            False,
+            (
+                "\n//li[\n"
+                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "  and\n"
+                '  span[@class = "IPA"]\n'
+                "  and\n"
+                '  (span[@class = "ib-content qualifier-content"][text() = "US"]\n'  # noqa: E501
+                '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
+                "]\n"
+            ),
+        ),
+        (
+            "US",
+            True,
+            (
+                "\n//li[\n"
+                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "  and\n"
+                '  span[@class = "IPA"]\n'
+                "  and\n"
+                '  (span[@class = "ib-content qualifier-content"][text() = "US"])\n'  # noqa: E501
+                "]\n"
+            ),
+        ),
+        (
+            "General American | US",
+            False,
+            (
+                "\n//li[\n"
+                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "  and\n"
+                '  span[@class = "IPA"]\n'
+                "  and\n"
+                '  (span[@class = "ib-content qualifier-content"][text() = "General American" or text() = "US"]\n'  # noqa: E501
+                '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
+                "]\n"
+            ),
+        ),
+    ],
+)
+def test_li_selector(dialect, require_dialect_label, expected_li_selector):
+    config = _config_factory(
+        language="English",
+        dialect=dialect,
+        require_dialect_label=require_dialect_label,
+    )
+    assert config.li_selector == expected_li_selector
