@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  test_package:
+  build:
     docker:
       - image: python:3.7
     steps:
