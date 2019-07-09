@@ -16,21 +16,34 @@ CONTINUE_TEMPLATE = string.Template(INITIAL_QUERY + "&cmcontinue=$cmcontinue")
 # Selects the content on the page.
 PAGE_TEMPLATE = string.Template("https://en.wiktionary.org/wiki/$word")
 
-# This LI_SELECTOR selects a list element which contains Spanish IPA pronunciation.
-# The pronunciation must either be unlabeled, or labeled with a plain-text description that says, "Latin America".
-# In the former case, we assume the pronunciation is compatible with Latin American Spanish.
-LI_SELECTOR = """
-//li[
-sup[a[@title = "Appendix:Spanish pronunciation"]] 
+"""LI_SELECTOR...v_1 assumes that all Latin American phonemes will be the last bulleted entry in the "//ul" section."""
+
+LI_SELECTOR_for_Latin_American_phonemes_v_1 = """
+//li[last()][sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]]
+"""
+
+""" 
+LI_SELECTOR..._v_2 assumes that Latin American phonemes are the only entries that won't have a hyperlinked description  
+before providing the phoneme.    
+"""
+
+LI_SELECTOR_for_Latin_American_phonemes_v_2 = """
+//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]
+and 
+count(span[a]) =0]
+"""
+
+"""
+LI_SELECTOR..._v_3 assumes that entries are Latin American if the non-hyperlinked textual description,  
+"Latin America", is provided before the phoneme, or if no description is provided at all.   
+"""
+
+LI_SELECTOR_for_Latin_American_phonemes_v_3 = """
+//li[sup[a[@title = "Appendix:Spanish pronunciation"]] and span[@class = "IPA"]
 and
-span[@class = "IPA"] 
-and
-(
-span[@class = "ib-content qualifier-content"][text()="Latin America"] 
+(span[@class = "ib-content qualifier-content"][text() = "Latin America"]
 or
-count(span[@class = "ib-content qualifier-content"]) = 0
-)
-]
+count(span[@class = "ib-content qualifier-content"]) = 0)]
 """
 
 SPAN_SELECTOR = '//span[@class = "IPA"]'
@@ -38,7 +51,7 @@ PHONEMES = r"/(.+?)/"
 
 
 def _yield_phn(request):
-    for li in request.html.xpath(LI_SELECTOR):
+    for li in request.html.xpath(LI_SELECTOR_for_Latin_American_phonemes_v_3):
         for span in li.xpath(SPAN_SELECTOR):
             m = re.search(PHONEMES, span.text)
             if m:
@@ -67,10 +80,9 @@ def _print_data(data, args):
             if " " in pron:
                 continue
             if args.no_stress:
-                pron = pron.replace("ˈ", "").replace("ˌ", "")
-                print(f"{word}\t{pron}")
-
-
+                pron = pron.replace('ˈ', '').replace('ˌ', '')
+            print(f"{word.casefold()}\t{pron}")
+            
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
     _print_data(data, args)
