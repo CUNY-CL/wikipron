@@ -2,11 +2,10 @@
 
 import argparse
 import datetime
-import io
 import os
 import re
 import sys
-from typing import Callable, Optional
+from typing import Callable, Optional, TextIO
 
 import requests
 import requests_html
@@ -57,9 +56,7 @@ class _Config:
 
     def __init__(self, cli_args):
         self.language: str = self._get_language(cli_args.language)
-        self.output: Optional[io.TextIOWrapper] = self._get_output(
-            cli_args.output
-        )
+        self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
             cli_args.casefold
         )
@@ -77,11 +74,11 @@ class _Config:
             cli_args.language, cli_args.dialect, cli_args.require_dialect_label
         )
 
-    def _get_language(self, language):
+    def _get_language(self, language: str) -> str:
         # TODO handle ISO codes like "eng"? currently only handles "English"
         return language
 
-    def _get_output(self, output):
+    def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
         if output:
             if os.path.exists(output):
                 os.remove(output)
@@ -89,7 +86,7 @@ class _Config:
         else:
             return None
 
-    def _get_cut_off_date(self, cut_off_date):
+    def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
         today = datetime.date.today()
 
         if not cut_off_date:
@@ -113,7 +110,7 @@ class _Config:
 
         return cut_off_date
 
-    def _get_casefold(self, casefold):
+    def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
         if casefold:
 
             def fn(word):
@@ -129,7 +126,9 @@ class _Config:
 
         return wrapper
 
-    def _get_process_pron(self, no_stress, no_syllable_boundaries):
+    def _get_process_pron(
+        self, no_stress: bool, no_syllable_boundaries: bool
+    ) -> Callable[[str], str]:
         processors = []
         if no_stress:
             processors.append(
@@ -145,7 +144,12 @@ class _Config:
 
         return wrapper
 
-    def _get_li_selector(self, language, dialect, require_dialect_label):
+    def _get_li_selector(
+        self,
+        language: str,
+        dialect: Optional[str],
+        require_dialect_label: bool,
+    ) -> str:
         if require_dialect_label and not dialect:
             raise ValueError(
                 "When --require-dialect-label is used, "
@@ -164,7 +168,7 @@ class _Config:
         if not require_dialect_label:
             # include entries with no dialect specification
             dialect_selector += (
-                '\n   '
+                "\n   "
                 'or count(span[@class = "ib-content qualifier-content"]) = 0'
             )
 
@@ -172,7 +176,9 @@ class _Config:
             language=language, dialect_selector=dialect_selector
         )
 
-    def _get_process_word(self, cut_off_date):
+    def _get_process_word(
+        self, cut_off_date: Optional[str]
+    ) -> Callable[[str, str], str]:
         def wrapper(word, date):
             # Skips multiword examples.
             if " " in word:
@@ -262,9 +268,9 @@ def _get_cli_args(args):
             "Retrieve entries that have this dialect specification. "
             "If not given, then all dialects are included in the output. "
             "The dialect name is found together with the IPA transcription, "
-            "e.g., \"UK\" or \"US\" in \"(UK, US) IPA: /təˈmɑːtəʊ/\". "
-            "To include more than one dialect, use a pipe \"|\" to separate "
-            "the dialect names, e.g., --dialect=\"General American | US\"."
+            'e.g., "UK" or "US" in "(UK, US) IPA: /təˈmɑːtəʊ/". '
+            'To include more than one dialect, use a pipe "|" to separate '
+            'the dialect names, e.g., --dialect="General American | US".'
         ),
     )
     parser.add_argument(
