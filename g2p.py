@@ -76,6 +76,7 @@ class _Config:
 
     def _get_language(self, language: str) -> str:
         # TODO handle ISO codes like "eng"? currently only handles "English"
+        # TODO throw an error if language is invalid (e.g., not on Wiktionary)
         return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
