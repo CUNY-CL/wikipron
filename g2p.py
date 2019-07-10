@@ -2,6 +2,7 @@
 
 import argparse
 import datetime
+import functools
 import os
 import re
 import sys
@@ -113,14 +114,9 @@ class _Config:
 
     def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
         if casefold:
-
-            def fn(word):
-                return word.casefold()
-
+            fn = str.casefold
         else:
-
-            def fn(word):
-                return word
+            fn = lambda word: word  # noqa: E731
 
         def wrapper(word):
             return fn(word)
@@ -132,11 +128,9 @@ class _Config:
     ) -> Callable[[str], str]:
         processors = []
         if no_stress:
-            processors.append(
-                lambda pron: pron.replace("ˈ", "").replace("ˌ", "")
-            )
+            processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
         if no_syllable_boundaries:
-            processors.append(lambda pron: pron.replace(".", ""))
+            processors.append(functools.partial(re.sub, r"\.", ""))
 
         def wrapper(pron):
             for processor in processors:
