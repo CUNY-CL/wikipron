@@ -10,7 +10,7 @@ def main():
         version=__version__,
         description="Scraping Wiktionary data.",
         packages=find_packages(),
-        python_requires=">=3.7",
+        python_requires=">=3.6",
         zip_safe=False,
         install_requires=["requests", "requests-html"],
         entry_points={"console_scripts": ["g2p = g2p:main"]},
