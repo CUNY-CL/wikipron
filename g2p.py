@@ -1,5 +1,7 @@
 """Scraping Wiktionary data."""
 
+import json
+from tqdm import tqdm
 import argparse
 import datetime
 import functools
@@ -7,7 +9,6 @@ import os
 import re
 import sys
 from typing import Callable, Optional, TextIO
-
 import requests
 import requests_html
 
@@ -44,7 +45,9 @@ _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
-
+with open("iso_dict.json", "r") as source: 
+    iso_dict = json.load(source)
+    
 class _Config:
     """Configuration for a scraping run.
 
@@ -76,9 +79,15 @@ class _Config:
         )
 
     def _get_language(self, language: str) -> str:
+
+        #self.language = language
+        for lang in iso_dict:
+            if language in iso_dict[lang]:
+                print(lang)
+                return lang
         # TODO handle ISO codes like "eng"? currently only handles "English"
         # TODO throw an error if language is invalid (e.g., not on Wiktionary)
-        return language
+        #return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
         if output:
@@ -203,7 +212,7 @@ def _yield_phn(request, config: _Config):
 def _scrape(data, config: _Config):
     session = requests_html.HTMLSession()
     entries = []
-    for member in data["query"]["categorymembers"]:
+    for member in tqdm(data["query"]["categorymembers"]):
         word = member["title"]
         date = member["timestamp"]
         word = config.process_word(word, date)

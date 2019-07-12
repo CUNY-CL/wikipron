@@ -1,0 +1,3 @@
+[console_scripts]
+g2p = g2p:main
+
