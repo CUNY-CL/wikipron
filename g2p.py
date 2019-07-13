@@ -95,7 +95,9 @@ class _Config:
             return today.isoformat()
 
         try:
-            d = datetime.date.fromisoformat(cut_off_date)
+            # TODO when we require Python 3.7+ later, we can do this:
+            #  d = datetime.date.fromisoformat(cut_off_date)
+            d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
         except ValueError as e:
             msg = (
                 "Cut-off date must be in ISO format (e.g., 2019-10-23): "
