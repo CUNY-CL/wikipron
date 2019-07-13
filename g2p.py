@@ -95,6 +95,8 @@ class _Config:
             return today.isoformat()
 
         try:
+            # TODO when we require Python 3.7+ later, we can do this:
+            #  d = datetime.date.fromisoformat(cut_off_date)
             d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
         except ValueError as e:
             msg = (
