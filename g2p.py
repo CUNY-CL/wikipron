@@ -57,7 +57,7 @@ class _Config:
 
     def __init__(self, cli_args):
         
-        self.language: str = self._get_language(cli_args.language)
+        self.language: str = self._get_language(cli_args.code)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
             cli_args.casefold
@@ -73,20 +73,25 @@ class _Config:
             _PHONES_REGEX if cli_args.phonetic else _PHONEMES_REGEX
         )
         self.li_selector: str = self._get_li_selector(
-            cli_args.language, cli_args.dialect, cli_args.require_dialect_label
+            self.language, cli_args.dialect, cli_args.require_dialect_label
         )
 
-    def _get_language(self, language) -> str:
+    def _get_language(self, code) -> str:
 
-        print(f"language before: {language}")
-        code = iso639.to_iso639_1(language)
-        print(f"code: {code}")
-        language = iso639.to_name(code)
-        print(f"language after: {language}")
-        return language        
-        # TODO handle ISO codes like "eng"? currently only handles "English"
-        # TODO throw an error if language is invalid (e.g., not on Wiktionary)
-        #return language       
+        language = iso639.to_name(code) 
+        
+        #The code below handles cases where the returned language string is in the form, 'Language name; dialect'. 
+        #E.g., $~g2p spa will return 'Spanish; Castilian'  
+        if ";" in language: 
+            language_chars = []
+            for char in language:
+                language_chars.append(char)
+                if ";" == char: 
+                    break
+            language = "".join(language_chars).replace(";","")
+            return language
+        else:        
+            return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
         if output:
@@ -247,7 +252,7 @@ def _get_cli_args(args):
     # Pass in `args` explicitly so that we can write tests for this function.
     parser = argparse.ArgumentParser(description=__doc__)
     # TODO ISO language code etc. for the help message, if implemented
-    parser.add_argument("language", help="Name of language")
+    parser.add_argument("code", help="Retrieve the name of language or ISO-639 code.")
     parser.add_argument(
         "--phonetic",
         action="store_true",
