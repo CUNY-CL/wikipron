@@ -1,7 +1,7 @@
 """Scraping Wiktionary data."""
 
-import json
 from tqdm import tqdm
+import iso639
 import argparse
 import datetime
 import functools
@@ -45,9 +45,6 @@ _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
-with open("iso_dict.json", "r") as source: 
-    iso_dict = json.load(source)
-    
 class _Config:
     """Configuration for a scraping run.
 
@@ -59,6 +56,7 @@ class _Config:
     """
 
     def __init__(self, cli_args):
+        
         self.language: str = self._get_language(cli_args.language)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
@@ -78,16 +76,17 @@ class _Config:
             cli_args.language, cli_args.dialect, cli_args.require_dialect_label
         )
 
-    def _get_language(self, language: str) -> str:
+    def _get_language(self, language) -> str:
 
-        #self.language = language
-        for lang in iso_dict:
-            if language in iso_dict[lang]:
-                print(lang)
-                return lang
+        print(f"language before: {language}")
+        code = iso639.to_iso639_1(language)
+        print(f"code: {code}")
+        language = iso639.to_name(code)
+        print(f"language after: {language}")
+        return language        
         # TODO handle ISO codes like "eng"? currently only handles "English"
         # TODO throw an error if language is invalid (e.g., not on Wiktionary)
-        #return language
+        #return language       
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
         if output:
