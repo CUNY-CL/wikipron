@@ -3,7 +3,6 @@
 import argparse
 import datetime
 import functools
-import os
 import re
 import sys
 from typing import Callable, Optional, TextIO
@@ -81,12 +80,7 @@ class _Config:
         return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
-        if output:
-            if os.path.exists(output):
-                os.remove(output)
-            return open(output, "a")
-        else:
-            return None
+        return open(output, "w") if output else sys.stdout
 
     def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
         today = datetime.date.today()
@@ -226,15 +220,8 @@ def _scrape(data, config: _Config):
                 continue
             pron = config.process_pron(pron)
             entries.append((word, pron))
-
-    if not entries:
-        return
-
-    output_entries = "\n".join(f"{word}\t{pron}" for word, pron in entries)
-    if config.output:
-        config.output.write(output_entries)
-    else:
-        print(output_entries)
+    for (word, pron) in entries:
+        print(f"{word}\t{pron}", file=config.output)
 
 
 def _get_cli_args(args):
