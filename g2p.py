@@ -1,6 +1,5 @@
 """Scraping Wiktionary data."""
 
-from tqdm import tqdm
 import iso639
 import argparse
 import datetime
@@ -57,7 +56,7 @@ class _Config:
 
     def __init__(self, cli_args):
         
-        self.language: str = self._get_language(cli_args.code)
+        self.language: str = self._get_language(cli_args.key)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
             cli_args.casefold
@@ -76,22 +75,11 @@ class _Config:
             self.language, cli_args.dialect, cli_args.require_dialect_label
         )
 
-    def _get_language(self, code) -> str:
+    def _get_language(self, key) -> str:
 
-        language = iso639.to_name(code) 
-        
-        #The code below handles cases where the returned language string is in the form, 'Language name; dialect'. 
-        #E.g., $~g2p spa will return 'Spanish; Castilian'  
-        if ";" in language: 
-            language_chars = []
-            for char in language:
-                language_chars.append(char)
-                if ";" == char: 
-                    break
-            language = "".join(language_chars).replace(";","")
-            return language
-        else:        
-            return language
+        # In some cases it returns "Language; Dialect"; we just save the "first half".
+        language = iso639.to_name(key).split(";")[0] 
+        return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
         if output:
@@ -216,7 +204,7 @@ def _yield_phn(request, config: _Config):
 def _scrape(data, config: _Config):
     session = requests_html.HTMLSession()
     entries = []
-    for member in tqdm(data["query"]["categorymembers"]):
+    for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
         word = config.process_word(word, date)
@@ -252,7 +240,7 @@ def _get_cli_args(args):
     # Pass in `args` explicitly so that we can write tests for this function.
     parser = argparse.ArgumentParser(description=__doc__)
     # TODO ISO language code etc. for the help message, if implemented
-    parser.add_argument("code", help="Retrieve the name of language or ISO-639 code.")
+    parser.add_argument("key", help="Key (i.e., name or ISO-639 code) for the language")
     parser.add_argument(
         "--phonetic",
         action="store_true",
