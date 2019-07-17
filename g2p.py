@@ -3,7 +3,6 @@
 import argparse
 import datetime
 import functools
-import os
 import re
 import sys
 from typing import Callable, Optional, TextIO
