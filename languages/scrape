@@ -30,6 +30,7 @@ time g2p de \
     --cut-off-date="${CUTOFFDATE}" \
     --output de.tsv
 
+<<<<<<< HEAD
 echo "Greek..."
 time g2p el \
     --casefold \
@@ -47,11 +48,17 @@ time g2p en \
     --cut-off-date="${CUTOFFDATE}" \
     --output en.tsv
 
+=======
+>>>>>>> added es to scrape
 echo "Spanish..."
 time g2p es \
     --casefold \
     --no-stress \
+<<<<<<< HEAD
     --dialect="Latin America" \
+=======
+    --dialect=LatinAmerican \
+>>>>>>> added es to scrape
     --cut-off-date="${CUTOFFDATE}" \
     --output es.tsv
 
