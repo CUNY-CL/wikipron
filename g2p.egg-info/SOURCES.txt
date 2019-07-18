@@ -1,9 +1,0 @@
-README.md
-setup.py
-g2p.egg-info/PKG-INFO
-g2p.egg-info/SOURCES.txt
-g2p.egg-info/dependency_links.txt
-g2p.egg-info/entry_points.txt
-g2p.egg-info/not-zip-safe
-g2p.egg-info/requires.txt
-g2p.egg-info/top_level.txt
