@@ -3,11 +3,12 @@
 import argparse
 import datetime
 import functools
-import os
 import re
 import sys
+
 from typing import Callable, Optional, TextIO
 
+import iso639
 import requests
 import requests_html
 
@@ -56,7 +57,8 @@ class _Config:
     """
 
     def __init__(self, cli_args):
-        self.language: str = self._get_language(cli_args.language)
+
+        self.language: str = self._get_language(cli_args.key)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
             cli_args.casefold
@@ -72,21 +74,18 @@ class _Config:
             _PHONES_REGEX if cli_args.phonetic else _PHONEMES_REGEX
         )
         self.li_selector: str = self._get_li_selector(
-            cli_args.language, cli_args.dialect, cli_args.require_dialect_label
+            self.language, cli_args.dialect, cli_args.require_dialect_label
         )
 
-    def _get_language(self, language: str) -> str:
-        # TODO handle ISO codes like "eng"? currently only handles "English"
-        # TODO throw an error if language is invalid (e.g., not on Wiktionary)
+    def _get_language(self, key) -> str:
+
+        # In some cases it returns "Language; Dialect";
+        # we just save the "first half".
+        language = iso639.to_name(key).split(";")[0]
         return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
-        if output:
-            if os.path.exists(output):
-                os.remove(output)
-            return open(output, "a")
-        else:
-            return None
+        return open(output, "w") if output else sys.stdout
 
     def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
         today = datetime.date.today()
@@ -95,7 +94,9 @@ class _Config:
             return today.isoformat()
 
         try:
-            d = datetime.date.fromisoformat(cut_off_date)
+            # TODO when we require Python 3.7+ later, we can do this:
+            #  d = datetime.date.fromisoformat(cut_off_date)
+            d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
         except ValueError as e:
             msg = (
                 "Cut-off date must be in ISO format (e.g., 2019-10-23): "
@@ -224,22 +225,17 @@ def _scrape(data, config: _Config):
                 continue
             pron = config.process_pron(pron)
             entries.append((word, pron))
-
-    if not entries:
-        return
-
-    output_entries = "\n".join(f"{word}\t{pron}" for word, pron in entries)
-    if config.output:
-        config.output.write(output_entries)
-    else:
-        print(output_entries)
+    for (word, pron) in entries:
+        print(f"{word}\t{pron}", file=config.output)
 
 
 def _get_cli_args(args):
     # Pass in `args` explicitly so that we can write tests for this function.
     parser = argparse.ArgumentParser(description=__doc__)
     # TODO ISO language code etc. for the help message, if implemented
-    parser.add_argument("language", help="Name of language")
+    parser.add_argument(
+        "key", help="Key (i.e., name or ISO-639 code) for the language"
+    )
     parser.add_argument(
         "--phonetic",
         action="store_true",
