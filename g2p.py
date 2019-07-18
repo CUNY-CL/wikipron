@@ -5,8 +5,10 @@ import datetime
 import functools
 import re
 import sys
+
 from typing import Callable, Optional, TextIO
 
+import iso639
 import requests
 import requests_html
 
@@ -55,7 +57,8 @@ class _Config:
     """
 
     def __init__(self, cli_args):
-        self.language: str = self._get_language(cli_args.language)
+
+        self.language: str = self._get_language(cli_args.key)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
             cli_args.casefold
@@ -71,12 +74,14 @@ class _Config:
             _PHONES_REGEX if cli_args.phonetic else _PHONEMES_REGEX
         )
         self.li_selector: str = self._get_li_selector(
-            cli_args.language, cli_args.dialect, cli_args.require_dialect_label
+            self.language, cli_args.dialect, cli_args.require_dialect_label
         )
 
-    def _get_language(self, language: str) -> str:
-        # TODO handle ISO codes like "eng"? currently only handles "English"
-        # TODO throw an error if language is invalid (e.g., not on Wiktionary)
+    def _get_language(self, key) -> str:
+
+        # In some cases it returns "Language; Dialect";
+        # we just save the "first half".
+        language = iso639.to_name(key).split(";")[0]
         return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
@@ -228,7 +233,9 @@ def _get_cli_args(args):
     # Pass in `args` explicitly so that we can write tests for this function.
     parser = argparse.ArgumentParser(description=__doc__)
     # TODO ISO language code etc. for the help message, if implemented
-    parser.add_argument("language", help="Name of language")
+    parser.add_argument(
+        "key", help="Key (i.e., name or ISO-639 code) for the language"
+    )
     parser.add_argument(
         "--phonetic",
         action="store_true",

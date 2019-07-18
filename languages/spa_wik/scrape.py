@@ -70,7 +70,6 @@ def _print_data(data, args):
                 pron = pron.replace("ˈ", "").replace("ˌ", "")
                 print(f"{word}\t{pron}")
 
-
 def main(args):
     data = requests.get(INITIAL_QUERY).json()
     _print_data(data, args)
