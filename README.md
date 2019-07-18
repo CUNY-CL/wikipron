@@ -22,5 +22,6 @@
 ### Running Tests
 
 ```bash
+flake8 g2p.py test_g2p.py
 pytest -vv test_g2p.py
 ```
