@@ -136,7 +136,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (true\n'
+                "  (true\n"
                 '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -184,30 +184,26 @@ def test_ipa_regex(phonetic, ipa_regex):
         ),
     ],
 )
-
 def test_li_selector(dialect, require_dialect_label, expected_li_selector):
     config = _config_factory(
         language="English",
         dialect=dialect,
-        require_dialect_label=require_dialect_label)
+        require_dialect_label=require_dialect_label,
+    )
     assert config.li_selector == expected_li_selector
-    
 
 
 @pytest.mark.parametrize(
     "key, expected_language",
     [
-    ("eng", "English"), 
-    ("en", "English"),
-    ("English", "English"), 
-    ("english", "English"), 
-    ("spa", "Spanish"), 
-    ("es", "Spanish"), 
-    ]
+        ("eng", "English"),
+        ("en", "English"),
+        ("English", "English"),
+        ("english", "English"),
+        ("spa", "Spanish"),
+        ("es", "Spanish"),
+    ],
 )
-
-def test_get_language(key, expected_language): 
+def test_get_language(key, expected_language):
     config = _config_factory(key=key)
-    assert config.language == expected_language    
-
-
+    assert config.language == expected_language
