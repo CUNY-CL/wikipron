@@ -1,13 +1,15 @@
 """Scraping Wiktionary data."""
 
-import iso639
 import argparse
 import datetime
 import functools
 import os
 import re
 import sys
+
 from typing import Callable, Optional, TextIO
+
+import iso639
 import requests
 import requests_html
 
@@ -44,6 +46,7 @@ _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
+
 class _Config:
     """Configuration for a scraping run.
 
@@ -55,7 +58,7 @@ class _Config:
     """
 
     def __init__(self, cli_args):
-        
+
         self.language: str = self._get_language(cli_args.key)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
@@ -77,8 +80,9 @@ class _Config:
 
     def _get_language(self, key) -> str:
 
-        # In some cases it returns "Language; Dialect"; we just save the "first half".
-        language = iso639.to_name(key).split(";")[0] 
+        # In some cases it returns "Language; Dialect";
+        # we just save the "first half".
+        language = iso639.to_name(key).split(";")[0]
         return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
@@ -240,7 +244,9 @@ def _get_cli_args(args):
     # Pass in `args` explicitly so that we can write tests for this function.
     parser = argparse.ArgumentParser(description=__doc__)
     # TODO ISO language code etc. for the help message, if implemented
-    parser.add_argument("key", help="Key (i.e., name or ISO-639 code) for the language")
+    parser.add_argument(
+        "key", help="Key (i.e., name or ISO-639 code) for the language"
+    )
     parser.add_argument(
         "--phonetic",
         action="store_true",

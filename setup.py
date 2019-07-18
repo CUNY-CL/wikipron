@@ -12,10 +12,14 @@ def main():
         packages=find_packages(),
         python_requires=">=3.7",
         zip_safe=False,
-        install_requires=["requests", "requests-html"],
+        install_requires=["requests", "requests-html", "iso639"],
         entry_points={"console_scripts": ["g2p = g2p:main"]},
     )
 
 
 if __name__ == "__main__":
     main()
+
+
+
+

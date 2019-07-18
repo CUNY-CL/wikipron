@@ -198,7 +198,9 @@ def test_li_selector(dialect, require_dialect_label, expected_li_selector):
     "key, expected_language",
     [
     ("eng", "English"), 
-    ("en", "English"), 
+    ("en", "English"),
+    ("English", "English"), 
+    ("english", "English"), 
     ("spa", "Spanish"), 
     ("es", "Spanish"), 
     ]
@@ -206,6 +208,6 @@ def test_li_selector(dialect, require_dialect_label, expected_li_selector):
 
 def test_get_language(key, expected_language): 
     config = _config_factory(key=key)
-    assert config._get_language(key) == expected_language    
+    assert config.language == expected_language    
 
 
