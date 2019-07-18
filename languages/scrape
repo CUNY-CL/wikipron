@@ -1,0 +1,31 @@
+#!/bin/bash
+# Script for downloading all languages en-masse.
+#
+# This does not exhaust the set of covered languages, merely those we have tried
+# thus far.
+#
+# It seems that the MediaWiki backend may drop queries if too many are made at
+# once; therefore we have to run this in serial.
+
+set -eou pipefail
+
+# TODO: Increment this from time to time.
+readonly CUTOFFDATE=2019-07-15
+
+# Add these in alphabetic order with respect to their ISO-639-1 codes.
+
+echo "German..."
+time g2p de \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output de.tsv
+
+echo "French (European)..."
+time g2p fr \
+    --casefold \
+    --no-syllable-boundaries \
+    --dialect=European \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output fr.tsv
