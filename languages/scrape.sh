@@ -2,7 +2,7 @@
 
 set -eou pipefail
 
-g2p French \
+g2p fra \
     --no-syllable-boundaries \
     --dialect European \
     --casefold \
