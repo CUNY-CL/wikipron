@@ -55,10 +55,14 @@ time g2p es \
     --casefold \
     --no-stress \
 <<<<<<< HEAD
+<<<<<<< HEAD
     --dialect="Latin America" \
 =======
     --dialect=LatinAmerican \
 >>>>>>> added es to scrape
+=======
+    --dialect="Latin America" \
+>>>>>>> es scrape edits
     --cut-off-date="${CUTOFFDATE}" \
     --output es.tsv
 
