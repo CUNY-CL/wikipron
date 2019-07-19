@@ -232,7 +232,6 @@ def _scrape(data, config: _Config):
 def _get_cli_args(args):
     # Pass in `args` explicitly so that we can write tests for this function.
     parser = argparse.ArgumentParser(description=__doc__)
-    # TODO ISO language code etc. for the help message, if implemented
     parser.add_argument(
         "key", help="Key (i.e., name or ISO-639 code) for the language"
     )
