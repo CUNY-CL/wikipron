@@ -35,7 +35,9 @@ class _CLIArgs:
 def _config_factory(**kwargs):
     """Create a _Config object for testing."""
     cli_args = _CLIArgs()
+    # Use kwargs to specify particular arg-value pairs for testing.
     for arg, value in kwargs.items():
+        assert hasattr(cli_args, arg), f'"{arg}" is not a recognized CLI arg.'
         setattr(cli_args, arg, value)
 
     return _Config(cli_args)
