@@ -35,7 +35,9 @@ class _CLIArgs:
 def _config_factory(**kwargs):
     """Create a _Config object for testing."""
     cli_args = _CLIArgs()
+    # Use kwargs to specify particular arg-value pairs for testing.
     for arg, value in kwargs.items():
+        assert hasattr(cli_args, arg), f'"{arg}" is not a recognized CLI arg.'
         setattr(cli_args, arg, value)
 
     return _Config(cli_args)
@@ -186,7 +188,7 @@ def test_ipa_regex(phonetic, ipa_regex):
 )
 def test_li_selector(dialect, require_dialect_label, expected_li_selector):
     config = _config_factory(
-        language="English",
+        key="en",
         dialect=dialect,
         require_dialect_label=require_dialect_label,
     )
