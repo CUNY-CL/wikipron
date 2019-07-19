@@ -26,7 +26,7 @@ echo "Spanish..."
 time g2p es \
     --casefold \
     --no-stress \
-    --dialect=LatinAmerican \
+    --dialect="Latin America" \
     --cut-off-date="${CUTOFFDATE}" \
     --output es.tsv
 
