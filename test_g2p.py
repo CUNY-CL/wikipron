@@ -1,14 +1,16 @@
 import datetime
 import os
+import shutil
 import tempfile
 
 import pytest
 
-from g2p import _Config, _PHONEMES_REGEX, _PHONES_REGEX, _get_cli_args
+from g2p import __doc__, _Config, _PHONEMES_REGEX, _PHONES_REGEX, _get_cli_args
 
+
+_TERMINAL_COMMAND = "g2p"
 
 _TODAY = datetime.date.today()
-
 _DATE_TODAY = _TODAY.isoformat()
 _DATE_FUTURE = (_TODAY + datetime.timedelta(days=10)).isoformat()
 _DATE_RECENT_PAST = (_TODAY - datetime.timedelta(days=10)).isoformat()
@@ -188,9 +190,7 @@ def test_ipa_regex(phonetic, ipa_regex):
 )
 def test_li_selector(dialect, require_dialect_label, expected_li_selector):
     config = _config_factory(
-        key="en",
-        dialect=dialect,
-        require_dialect_label=require_dialect_label,
+        key="en", dialect=dialect, require_dialect_label=require_dialect_label
     )
     assert config.li_selector == expected_li_selector
 
@@ -209,3 +209,21 @@ def test_li_selector(dialect, require_dialect_label, expected_li_selector):
 def test_get_language(key, expected_language):
     config = _config_factory(key=key)
     assert config.language == expected_language
+
+
+def test_terminal_command_exists():
+    assert shutil.which(_TERMINAL_COMMAND), (
+        f'The terminal command "{_TERMINAL_COMMAND}" does not exist. '
+        "Is the package not installed correctly? "
+        f'Or is the command "{_TERMINAL_COMMAND}" not defined in setup.py?'
+    )
+
+
+def test_terminal_command_works():
+    smoke_test_command = f"{_TERMINAL_COMMAND} --help"
+    help_manual = os.popen(smoke_test_command).read()
+    assert __doc__ in help_manual, (
+        f'The command "{_TERMINAL_COMMAND}" exists but does not work. '
+        f'The smoke test with "{smoke_test_command}" may have diagnostic '
+        "information to stderr."
+    )
