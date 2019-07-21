@@ -22,6 +22,15 @@ time g2p de \
     --cut-off-date="${CUTOFFDATE}" \
     --output de.tsv
 
+echo "English (US)..."
+time g2p en \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --dialect="US | General American" \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output en.tsv
+
 echo "Spanish..."
 time g2p es \
     --casefold \
