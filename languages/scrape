@@ -46,3 +46,16 @@ time g2p fr \
     --dialect=European \
     --cut-off-date="${CUTOFFDATE}" \
     --output fr.tsv
+
+echo "Korean..."
+time g2p ko \
+    --phonetic\
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output ko.tsv
+    
+echo "Hindi..."
+time g2p hi \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output hi.tsv
