@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import re
 import requests
 import requests_html
 import string
@@ -20,6 +21,12 @@ def _print_data(data):
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         katakana = member["title"]
+        # Skips examples starting or ending with a dash.
+        if katakana.startswith("-") or katakana.endswith("-"):
+            continue
+        # Skips examples containing digits.
+        if re.search(r"\d", katakana):
+            continue
         query = PAGE_TEMPLATE.substitute(word=katakana)
         got = session.get(query).html.find(SELECTOR, first=True)
         if not got:
@@ -30,6 +37,9 @@ def _print_data(data):
             continue
         if romaji.endswith(")") or romaji.endswith(","):
             romaji = romaji[:-1]
+        # Skips examples starting or ending with a dash.
+        if romaji.startswith("-") or romaji.endswith("-"):
+            continue
         romaji = romaji.casefold()
         print(f"{katakana}\t{romaji}")
 

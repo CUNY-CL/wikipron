@@ -34,10 +34,20 @@ def _print_data(data):
         # Skips multiword examples.
         if " " in word:
             continue
-        query = PAGE_TEMPLATE.substitute(word=word)
-        request = session.get(query)
+        # Skips examples starting or ending with a dash.
+        if word.startswith("-") or word.endswith("-"):
+            continue
+        # Skips examples containing digits.
+        if re.search(r"\d", word):
+            continue
+        request = session.get(PAGE_TEMPLATE.substitute(word=word))
+        # Template lookup is case-sensitive, but we case-fold afterwards.
+        word = word.casefold()
         for m in _yield_phn(request):
             pron = m.group(1)
+            # Skips examples with a space in the pron.
+            if " " in pron:
+                break
             print(f"{word}\t{pron}")
 
 

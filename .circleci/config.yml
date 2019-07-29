@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: python:3.6
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - pip-{{ checksum "requirements.txt" }}
+      - run:
+          name: Install all Python requirements
+          working_directory: ~/project/
+          command: |
+              pip install --progress-bar off --upgrade pip setuptools
+              pip install --progress-bar off -r requirements.txt
+              pip install --progress-bar off --no-deps -e .
+      - save_cache:
+          key: pip-{{ checksum "requirements.txt" }}
+          paths:
+            - ~/.cache/pip
+      - run:
+          name: Lint
+          command: flake8 g2p.py test_g2p.py
+      - run:
+          name: Run python tests
+          command: PYTHONPATH=. pytest -vv test_g2p.py
