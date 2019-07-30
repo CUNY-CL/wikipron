@@ -1,0 +1,8 @@
+include LICENSE.txt
+include README.md
+include MANIFEST.in
+include requirements.txt
+include wikipron.py 
+include test_wikipron.py 
+include languages/scrape
+include .circleci/config.yml

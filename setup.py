@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 
-__version__ = "0.0.0"
+__version__ = "0.1.0"
 
 
 def main():
@@ -14,6 +14,14 @@ def main():
         zip_safe=False,
         install_requires=["requests", "requests-html", "iso639"],
         entry_points={"console_scripts": ["g2p = g2p:main"]},
+        classifiers=[
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+        "Topic :: Text Processing :: Linguistic",  
+    ],
+        
     )
 
 
