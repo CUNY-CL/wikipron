@@ -14,6 +14,14 @@ readonly CUTOFFDATE=2019-07-15
 
 # Add these in alphabetic order with respect to their ISO-639-1 codes.
 
+echo "Bulgarian..."
+time g2p 'bg' \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output bg.tsv
+
 echo "German..."
 time g2p de \
     --casefold \
@@ -21,6 +29,14 @@ time g2p de \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
     --output de.tsv
+
+echo "Greek..."
+time g2p el \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output el.tsv
 
 echo "English (US)..."
 time g2p en \
@@ -53,6 +69,14 @@ time g2p hi \
     --cut-off-date="${CUTOFFDATE}" \
     --output hi.tsv
     
+echo "Hungarian..."
+time g2p hu \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output hu.tsv
+
 echo "Korean..."
 time g2p ko \
     --phonetic \
