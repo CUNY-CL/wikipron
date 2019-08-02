@@ -34,6 +34,7 @@ time wikipron de \
     --cut-off-date="${CUTOFFDATE}" \
     --output de.tsv
 
+<<<<<<< HEAD
 echo "Greek..."
 <<<<<<< HEAD
 time wikipron el \
@@ -66,6 +67,10 @@ time wikipron es \
 echo "Spanish..."
 time g2p es \
 >>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
+=======
+echo "Spanish..."
+time g2p es \
+>>>>>>> 94b1b52f6df76633e6dcdc06ce340d6cf9630a2e
     --casefold \
     --no-stress \
     --dialect="Latin America" \
