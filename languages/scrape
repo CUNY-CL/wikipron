@@ -15,11 +15,7 @@ readonly CUTOFFDATE=2019-07-15
 # Add these in alphabetic order with respect to their ISO-639-1 codes.
 
 echo "Bulgarian..."
-<<<<<<< HEAD
-time wikipron bg \
-=======
-time g2p 'bg' \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
+time wikipron 'bg' \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -34,13 +30,8 @@ time wikipron de \
     --cut-off-date="${CUTOFFDATE}" \
     --output de.tsv
 
-<<<<<<< HEAD
 echo "Greek..."
-<<<<<<< HEAD
 time wikipron el \
-=======
-time g2p el \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -48,11 +39,7 @@ time g2p el \
     --output el.tsv
 
 echo "English (US)..."
-<<<<<<< HEAD
 time wikipron en \
-=======
-time g2p en \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -60,17 +47,8 @@ time g2p en \
     --cut-off-date="${CUTOFFDATE}" \
     --output en.tsv
 
-<<<<<<< HEAD
 echo "Spanish (Latin America)..."
 time wikipron es \
-=======
-echo "Spanish..."
-time g2p es \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
-=======
-echo "Spanish..."
-time g2p es \
->>>>>>> 94b1b52f6df76633e6dcdc06ce340d6cf9630a2e
     --casefold \
     --no-stress \
     --dialect="Latin America" \
@@ -86,21 +64,13 @@ time wikipron fr \
     --output fr.tsv
 
 echo "Hindi..."
-<<<<<<< HEAD
 time wikipron hi \
-=======
-time g2p hi \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
     --output hi.tsv
     
 echo "Hungarian..."
-<<<<<<< HEAD
 time wikipron hu \
-=======
-time g2p hu \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -108,11 +78,7 @@ time g2p hu \
     --output hu.tsv
 
 echo "Korean..."
-<<<<<<< HEAD
 time wikipron ko \
-=======
-time g2p ko \
->>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad
     --phonetic \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
