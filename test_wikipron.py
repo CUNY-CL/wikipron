@@ -5,10 +5,17 @@ import tempfile
 
 import pytest
 
+<<<<<<< HEAD:test_wikipron.py
 from wikipron import __doc__, _Config, _PHONEMES_REGEX, _PHONES_REGEX, _get_cli_args
 
 
 _TERMINAL_COMMAND = "wikipron"
+=======
+from g2p import __doc__, _Config, _PHONEMES_REGEX, _PHONES_REGEX, _get_cli_args
+
+
+_TERMINAL_COMMAND = "g2p"
+>>>>>>> 93624ec128ef794bebd8540c339adece2de3f8ad:test_g2p.py
 
 _TODAY = datetime.date.today()
 _DATE_TODAY = _TODAY.isoformat()
