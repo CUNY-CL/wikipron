@@ -15,7 +15,7 @@ readonly CUTOFFDATE=2019-07-15
 # Add these in alphabetic order with respect to their ISO-639-1 codes.
 
 echo "Bulgarian..."
-time g2p 'bg' \
+time wikipron bg \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -23,16 +23,15 @@ time g2p 'bg' \
     --output bg.tsv
 
 echo "German..."
-time g2p de \
+time wikipron de \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
     --output de.tsv
 
-<<<<<<< HEAD
 echo "Greek..."
-time g2p el \
+time wikipron el \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -40,7 +39,7 @@ time g2p el \
     --output el.tsv
 
 echo "English (US)..."
-time g2p en \
+time wikipron en \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -48,26 +47,16 @@ time g2p en \
     --cut-off-date="${CUTOFFDATE}" \
     --output en.tsv
 
-=======
->>>>>>> added es to scrape
-echo "Spanish..."
-time g2p es \
+echo "Spanish (Latin America)..."
+time wikipron es \
     --casefold \
     --no-stress \
-<<<<<<< HEAD
-<<<<<<< HEAD
     --dialect="Latin America" \
-=======
-    --dialect=LatinAmerican \
->>>>>>> added es to scrape
-=======
-    --dialect="Latin America" \
->>>>>>> es scrape edits
     --cut-off-date="${CUTOFFDATE}" \
     --output es.tsv
 
 echo "French (European)..."
-time g2p fr \
+time wikipron fr \
     --casefold \
     --no-syllable-boundaries \
     --dialect=European \
@@ -75,13 +64,13 @@ time g2p fr \
     --output fr.tsv
 
 echo "Hindi..."
-time g2p hi \
+time wikipron hi \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
     --output hi.tsv
     
 echo "Hungarian..."
-time g2p hu \
+time wikipron hu \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
@@ -89,7 +78,7 @@ time g2p hu \
     --output hu.tsv
 
 echo "Korean..."
-time g2p ko \
+time wikipron ko \
     --phonetic \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
