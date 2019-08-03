@@ -5,7 +5,13 @@ import tempfile
 
 import pytest
 
-from wikipron import __doc__, _Config, _PHONEMES_REGEX, _PHONES_REGEX, _get_cli_args
+from wikipron import (
+    __doc__,
+    _Config,
+    _PHONEMES_REGEX,
+    _PHONES_REGEX,
+    _get_cli_args,
+)
 
 
 _TERMINAL_COMMAND = "wikipron"
@@ -91,14 +97,12 @@ def test_process_pron(no_stress, no_syllable_boundaries, expected_pron):
         # Input cut_off_date is invalid.
         (True, _DATE_FUTURE, None, None, None),
         (True, "not-a-valid_date", None, None, None),
-
         # Input cut_off_date is valid.
         (False, None, _DATE_RECENT_PAST, "foobar", "foobar"),
         (False, _DATE_TODAY, _DATE_TODAY, "foobar", "foobar"),
         (False, _DATE_TODAY, _DATE_RECENT_PAST, "foobar", "foobar"),
         (False, _DATE_RECENT_PAST, _DATE_DISTANT_PAST, "foobar", "foobar"),
         (False, _DATE_RECENT_PAST, _DATE_TODAY, "foobar", None),
-
         # Now check that filtering works due to the word itself.
         (False, None, _DATE_RECENT_PAST, "a phrase", None),
         (False, None, _DATE_RECENT_PAST, "hyphen-ated", None),
