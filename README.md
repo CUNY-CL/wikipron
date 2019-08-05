@@ -1,6 +1,6 @@
-# g2p
+# wikipron
 
-`g2p` is a toolkit for working on grapheme-to-phoneme (G2P) mapping.
+`wikipron` is a toolkit for working on grapheme-to-phoneme (G2P) mapping.
 
 ## Local Development
 
@@ -22,6 +22,6 @@
 ### Running Tests
 
 ```bash
-flake8 g2p.py test_g2p.py
-pytest -vv test_g2p.py
+flake8 wikipron.py test_wikipron.py
+pytest -vv test_wikipron.py
 ```
