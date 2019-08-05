@@ -1,6 +1,6 @@
 # wikipron
 
-`wikipron` is a toolkit for working on grapheme-to-phoneme (G2P) mapping.
+`wikipron` is a toolkit for scraping grapheme-to-phoneme (G2P) data from Wiktionary.
 
 ## Local Development
 
@@ -12,8 +12,8 @@
 3. Download and install the library within the virtual environment:
 
     ```bash
-    git clone git@github.com:<your-github-username>/g2p-wiktionary.git
-    cd g2p-wiktionary
+    git clone git@github.com:<your-github-username>/wikipron.git
+    cd wikipron
     pip install --upgrade pip setuptools
     pip install -r requirements.txt
     pip install --no-deps -e .
