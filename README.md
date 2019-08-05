@@ -1,27 +1,49 @@
-# wikipron
+# WikiPron
 
-`wikipron` is a toolkit for scraping grapheme-to-phoneme (G2P) data from Wiktionary.
+[![PyPI version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipron)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org/project/wikipron)
+[![CircleCI](https://circleci.com/gh/kylebgorman/wikipron/tree/master.svg?style=svg)](https://circleci.com/gh/kylebgorman/wikipron/tree/master)
 
-## Local Development
 
-### Setting Up A Development Environment
+WikiPron is a command line toolkit for scraping grapheme-to-phoneme (G2P) data
+from Wiktionary.
 
-1. Create a fork of this repo on GitHub.
-2. Make sure you are in some sort of a virtual environment
-   (venv, virtualenv, conda, etc).
-3. Download and install the library within the virtual environment:
+## Installation
 
-    ```bash
-    git clone git@github.com:<your-github-username>/wikipron.git
-    cd wikipron
-    pip install --upgrade pip setuptools
-    pip install -r requirements.txt
-    pip install --no-deps -e .
-    ```
-
-### Running Tests
+WikiPron requires Python 3.6+. It is available through pip:
 
 ```bash
-flake8 wikipron.py test_wikipron.py
-pytest -vv test_wikipron.py
+pip install wikipron
 ```
+
+## Usage
+
+After installation, the terminal command `wikipron` will be available.
+As a basic example, the following command scrapes G2P data for French
+(with the ISO language code `fr`):
+
+```bash
+wikipron fr
+```
+
+By default, the results appear on the terminal,
+where each line has the orthography of a word, followed by a tab and then
+the word's pronunciation in IPA.
+
+For example commands using advanced options,
+the [`languages/scrape`](languages/scrape) script shows
+how a multilingual G2P dataset can be created.
+
+For a full list of the options, please run `wikipron -h`.
+
+## Development and Contribution
+
+For questions, bug reports, and feature requests,
+please [file an issue](https://github.com/kylebgorman/wikipron/issues).
+
+If you would like to contribute to the `wikipron` codebase,
+please see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+## License
+
+Apache 2.0. Please see [`LICENSE.txt`](LICENSE.txt) for details.
