@@ -2,7 +2,7 @@ import os
 from setuptools import find_packages, setup
 
 
-_THIS_DIR = os.path.dirname(os.path.realpath("README.md"))
+_THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
 with open(os.path.join(_THIS_DIR, "README.md")) as f:
     _LONG_DESCRIPTION = f.read().strip()
