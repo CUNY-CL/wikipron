@@ -216,15 +216,12 @@ def test_get_language(key, expected_language):
     assert config.language == expected_language
 
 
-def test_terminal_command_exists():
+def test_terminal_command():
     assert shutil.which(_TERMINAL_COMMAND), (
         f'The terminal command "{_TERMINAL_COMMAND}" does not exist. '
         "Is the package not installed correctly? "
         f'Or is the command "{_TERMINAL_COMMAND}" not defined in setup.py?'
     )
-
-
-def test_terminal_command_works():
     smoke_test_command = f"{_TERMINAL_COMMAND} --help"
     help_manual = os.popen(smoke_test_command).read()
     assert __doc__ in help_manual, (
