@@ -40,7 +40,7 @@ def main():
             "Wiktionary",
         ],
         license="Apache 2.0",
-        packages=setuptools.find_packages(),
+        py_modules=["wikipron"],
         python_requires=">=3.6",
         zip_safe=False,
         install_requires=["requests", "requests-html", "iso639"],
