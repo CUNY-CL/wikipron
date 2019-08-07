@@ -20,14 +20,20 @@ jobs:
             - ~/.cache/pip
       - run:
           name: Build source distribution and install package from it
+          # Ensure we can build a source distribution that can correctly install.
+          # "python setup.py sdist" creates dist/wikipron-x.y.z.tar.gz
           command: |
               python setup.py sdist
               pip install dist/`ls dist/ | grep .tar.gz`
       - run:
           name: Lint
           working_directory: ~/
+          # Avoid being able to import wikipron.py by relative import.
+          # Test code by importing the *installed* wikipron in site-packages.
           command: flake8 project/wikipron.py project/test_wikipron.py
       - run:
           name: Run python tests
           working_directory: ~/
+          # Avoid being able to import wikipron.py by relative import.
+          # Test code by importing the *installed* wikipron in site-packages.
           command: pytest -vv project/test_wikipron.py
