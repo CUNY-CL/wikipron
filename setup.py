@@ -24,8 +24,21 @@ def main():
     setuptools.setup(
         name="wikipron",
         version=__version__,
-        description="Scraping Wiktionary data.",
+        author="Kyle Gorman, Jackson Lee, Elizabeth Garza",
+        author_email="kylebgorman@gmail.com",
+        description="Scraping grapheme-to-phoneme (G2P) data from Wiktionary",
         long_description=_LONG_DESCRIPTION,
+        long_description_content_type="text/markdown",
+        url="https://github.com/kylebgorman/wikipron",
+        keywords=[
+            "computational linguistics",
+            "natural language processing",
+            "phonology",
+            "phonetics",
+            "speech",
+            "language",
+            "Wiktionary",
+        ],
         license="Apache 2.0",
         packages=setuptools.find_packages(),
         python_requires=">=3.6",
@@ -35,8 +48,8 @@ def main():
         classifiers=[
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
-            "Development Status :: 3 - Alpha"
-            "Environment :: Console"
+            "Development Status :: 3 - Alpha",
+            "Environment :: Console",
             "License :: OSI Approved :: Apache Software License",
             "Operating System :: OS Independent",
             "Topic :: Text Processing :: Linguistic",
