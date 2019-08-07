@@ -14,14 +14,26 @@ jobs:
           command: |
               pip install --progress-bar off --upgrade pip setuptools
               pip install --progress-bar off -r requirements.txt
-              pip install --progress-bar off --no-deps -e .
       - save_cache:
           key: pip-{{ checksum "requirements.txt" }}
           paths:
             - ~/.cache/pip
       - run:
+          name: Build source distribution and install package from it
+          # Ensure we can build a source distribution that can correctly install.
+          # "python setup.py sdist" creates dist/wikipron-x.y.z.tar.gz
+          command: |
+              python setup.py sdist
+              pip install dist/`ls dist/ | grep .tar.gz`
+      - run:
           name: Lint
-          command: flake8 wikipron.py test_wikipron.py
+          working_directory: ~/
+          # Avoid being able to import wikipron.py by relative import.
+          # Test code by importing the *installed* wikipron in site-packages.
+          command: flake8 project/wikipron.py project/test_wikipron.py
       - run:
           name: Run python tests
-          command: PYTHONPATH=. pytest -vv test_wikipron.py
+          working_directory: ~/
+          # Avoid being able to import wikipron.py by relative import.
+          # Test code by importing the *installed* wikipron in site-packages.
+          command: pytest -vv project/test_wikipron.py

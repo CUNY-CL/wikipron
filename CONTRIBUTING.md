@@ -25,7 +25,7 @@ Thank you for your interest in contributing to the `wikipron` codebase!
    ```
    
    After this step, running `git remote -v` should show your local Git repo
-   has links to both "origin" (pointing to your fork `<your-github-username/wikipron>`)
+   has links to both "origin" (pointing to your fork `<your-github-username>/wikipron`)
    and "upstream" (pointing to `kylebgorman/wikipron`).
 
 ## Working on a Feature or Bug Fix
