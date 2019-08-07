@@ -54,6 +54,7 @@ def main():
             "Operating System :: OS Independent",
             "Topic :: Text Processing :: Linguistic",
         ],
+        data_files=[(".", ["LICENSE.txt"])],
     )
 
 
