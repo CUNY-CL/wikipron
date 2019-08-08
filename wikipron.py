@@ -203,7 +203,6 @@ def _yield_phn(request, config: _Config):
 
 def _scrape(data, config: _Config):
     session = requests_html.HTMLSession()
-    entries = []
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
@@ -224,9 +223,7 @@ def _scrape(data, config: _Config):
             if " " in pron:
                 continue
             pron = config.process_pron(pron)
-            entries.append((word, pron))
-    for (word, pron) in entries:
-        print(f"{word}\t{pron}", file=config.output)
+            print(f"{word}\t{pron}", file=config.output)
 
 
 def _get_cli_args(args):
