@@ -83,5 +83,3 @@ time wikipron ko \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
     --output ko.tsv
-    
-
