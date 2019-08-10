@@ -2,13 +2,12 @@
 
 import argparse
 import datetime
-import logging
 import functools
 import logging
 import re
 import sys
 
-from typing import Callable, Iterator, List, Optional, TextIO, Tuple
+from typing import Callable, Iterator, Optional, TextIO, Tuple
 
 import iso639
 import requests
