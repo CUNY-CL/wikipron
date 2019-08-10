@@ -4,6 +4,7 @@ import shutil
 import tempfile
 
 import pytest
+import requests
 import requests_html
 
 from wikipron import (
@@ -201,6 +202,16 @@ def test_li_selector(dialect, require_dialect_label, expected_li_selector):
     assert config.li_selector == expected_li_selector
 
 
+def _can_connect_to_wiktionary():
+    try:
+        requests.get("https://en.wiktionary.org/wiki/linguistics")
+    except (requests.ConnectionError, requests.ConnectTimeout):
+        return False
+    else:
+        return True
+
+
+@pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
 def test_american_english_dialect_selection():
     # Pick a word for which Wiktionary has dialect-specified pronunciations
     # for both US and non-US English.
@@ -220,6 +231,7 @@ def test_american_english_dialect_selection():
     )
 
 
+@pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
 def test_require_dialect_label():
     # Pick a word for which Wiktionary doesn't specify the dialect at all.
     word = "examine"
