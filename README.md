@@ -34,7 +34,17 @@ For example commands using advanced options,
 the [`languages/scrape`](languages/scrape) script shows
 how a multilingual G2P dataset can be created.
 
-For a full list of the options, please run `wikipron -h`.
+For a full list of command-line options, please run `wikipron -h`.
+
+The underlying module can also be used from Python. A standard workflow looks lie:
+
+```python
+import wikipron
+
+config = wikipron.Config("fr")  # French, with default options.
+for word, pron in wikipron.scrape(config):
+    ...
+```
 
 ## Development and Contribution
 
