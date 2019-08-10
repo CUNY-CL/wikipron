@@ -159,7 +159,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[@class = "ib-content qualifier-content"][text() = "US"]\n'  # noqa: E501
+                '  (span[@class = "ib-content qualifier-content" and a[text() = "US"]]\n'  # noqa: E501
                 '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -173,7 +173,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[@class = "ib-content qualifier-content"][text() = "US"])\n'  # noqa: E501
+                '  (span[@class = "ib-content qualifier-content" and a[text() = "US"]])\n'  # noqa: E501
                 "]\n"
             ),
         ),
@@ -186,7 +186,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[@class = "ib-content qualifier-content"][text() = "General American" or text() = "US"]\n'  # noqa: E501
+                '  (span[@class = "ib-content qualifier-content" and a[text() = "General American" or text() = "US"]]\n'  # noqa: E501
                 '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
                 "]\n"
             ),

@@ -39,7 +39,7 @@ _LI_SELECTOR_TEMPLATE = """
 ]
 """
 _DIALECT_SELECTOR_TEMPLATE = (
-    'span[@class = "ib-content qualifier-content"][{dialects_text}]'
+    'span[@class = "ib-content qualifier-content" and a[{dialects_text}]]'
 )
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
