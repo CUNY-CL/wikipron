@@ -42,7 +42,7 @@ _LI_SELECTOR_TEMPLATE = """
 ]
 """
 _DIALECT_SELECTOR_TEMPLATE = (
-    'span[@class = "ib-content qualifier-content"][{dialects_text}]'
+    'span[@class = "ib-content qualifier-content" and a[{dialects_text}]]'
 )
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
@@ -157,7 +157,7 @@ class Config:
             )
 
         if not dialect:
-            dialect_selector = "true"
+            dialect_selector = "true()"
         else:
             dialect_selector = _DIALECT_SELECTOR_TEMPLATE.format(
                 dialects_text=" or ".join(
