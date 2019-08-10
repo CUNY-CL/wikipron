@@ -4,10 +4,13 @@ import shutil
 import tempfile
 
 import pytest
+import requests
+import requests_html
 
 from wikipron import (
     __doc__,
     _Config,
+    _PAGE_TEMPLATE,
     _PHONEMES_REGEX,
     _PHONES_REGEX,
     _get_cli_args,
@@ -15,7 +18,6 @@ from wikipron import (
 
 
 _TERMINAL_COMMAND = "wikipron"
-
 
 _TODAY = datetime.date.today()
 _DATE_TODAY = _TODAY.isoformat()
@@ -145,7 +147,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                "  (true\n"
+                "  (true()\n"
                 '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -159,7 +161,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[@class = "ib-content qualifier-content"][text() = "US"]\n'  # noqa: E501
+                '  (span[@class = "ib-content qualifier-content" and a[text() = "US"]]\n'  # noqa: E501
                 '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -173,7 +175,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[@class = "ib-content qualifier-content"][text() = "US"])\n'  # noqa: E501
+                '  (span[@class = "ib-content qualifier-content" and a[text() = "US"]])\n'  # noqa: E501
                 "]\n"
             ),
         ),
@@ -186,7 +188,7 @@ def test_ipa_regex(phonetic, ipa_regex):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[@class = "ib-content qualifier-content"][text() = "General American" or text() = "US"]\n'  # noqa: E501
+                '  (span[@class = "ib-content qualifier-content" and a[text() = "General American" or text() = "US"]]\n'  # noqa: E501
                 '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -198,6 +200,57 @@ def test_li_selector(dialect, require_dialect_label, expected_li_selector):
         key="en", dialect=dialect, require_dialect_label=require_dialect_label
     )
     assert config.li_selector == expected_li_selector
+
+
+def _can_connect_to_wiktionary():
+    try:
+        requests.get("https://en.wiktionary.org/wiki/linguistics")
+    except (requests.ConnectionError, requests.ConnectTimeout):
+        return False
+    else:
+        return True
+
+
+@pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
+def test_american_english_dialect_selection():
+    # Pick a word for which Wiktionary has dialect-specified pronunciations
+    # for both US and non-US English.
+    word = "mocha"
+    html_session = requests_html.HTMLSession()
+    response = html_session.get(_PAGE_TEMPLATE.format(word=word))
+    # Construct two configs to demonstrate the US dialect (non-)selection.
+    config_only_us = _config_factory(key="en", dialect="US | American English")
+    config_any_dialect = _config_factory(key="en")
+    # Apply each config's XPath selector.
+    results_only_us = response.html.xpath(config_only_us.li_selector)
+    results_any_dialect = response.html.xpath(config_any_dialect.li_selector)
+    assert (
+        len(results_any_dialect)  # containing both US and non-US results
+        > len(results_only_us)  # containing only the US result
+        > 0
+    )
+
+
+@pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
+def test_require_dialect_label():
+    # Pick a word for which Wiktionary doesn't specify the dialect at all.
+    word = "examine"
+    html_session = requests_html.HTMLSession()
+    response = html_session.get(_PAGE_TEMPLATE.format(word=word))
+    # Construct two configs to test the "require_dialect_label" param.
+    config_params = dict(key="en", dialect="US | American English")
+    config_dialect_optional = _config_factory(**config_params)
+    config_dialect_required = _config_factory(
+        **config_params, require_dialect_label=True
+    )
+    # Apply each config's XPath selector.
+    results_dialect_optional = response.html.xpath(
+        config_dialect_optional.li_selector
+    )
+    results_dialect_required = response.html.xpath(
+        config_dialect_required.li_selector
+    )
+    assert len(results_dialect_optional) > len(results_dialect_required) == 0
 
 
 @pytest.mark.parametrize(
