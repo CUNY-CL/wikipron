@@ -2,6 +2,7 @@
 
 import argparse
 import datetime
+import logging
 import functools
 import re
 import sys
@@ -57,7 +58,6 @@ class _Config:
     """
 
     def __init__(self, cli_args):
-
         self.language: str = self._get_language(cli_args.key)
         self.output: Optional[TextIO] = self._get_output(cli_args.output)
         self.casefold: Callable[[str], str] = self._get_casefold(
@@ -78,10 +78,10 @@ class _Config:
         )
 
     def _get_language(self, key) -> str:
-
         # In some cases it returns "Language; Dialect";
         # we just save the "first half".
         language = iso639.to_name(key).split(";")[0]
+        logging.info('Language: "%s"', language)
         return language
 
     def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
@@ -91,10 +91,11 @@ class _Config:
         today = datetime.date.today()
 
         if not cut_off_date:
+            logging.info("No cut-off date specified")
             return today.isoformat()
 
         try:
-            # TODO when we require Python 3.7+ later, we can do this:
+            # TODO: when we require Python 3.7+ later, we can do this:
             #  d = datetime.date.fromisoformat(cut_off_date)
             d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
         except ValueError as e:
@@ -111,6 +112,7 @@ class _Config:
             )
             raise ValueError(msg)
 
+        logging.info('Cut-off date: "%s"', cut_off_date)
         return cut_off_date
 
     def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
@@ -292,7 +294,8 @@ def _get_cli_args(args):
     return parser.parse_args(args)
 
 
-def main():
+def main() -> None:
+    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     cli_args = _get_cli_args(sys.argv[1:])
     config = _Config(cli_args)
     category = _CATEGORY_TEMPLATE.format(language=config.language)
