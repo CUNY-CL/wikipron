@@ -3,8 +3,8 @@ import os
 import shutil
 import tempfile
 
-import requests_html
 import pytest
+import requests_html
 
 from wikipron import (
     __doc__,
