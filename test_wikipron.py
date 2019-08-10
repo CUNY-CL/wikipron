@@ -9,7 +9,7 @@ import requests_html
 
 from wikipron import (
     __doc__,
-    _Config,
+    Config,
     _PAGE_TEMPLATE,
     _PHONEMES_REGEX,
     _PHONES_REGEX,
