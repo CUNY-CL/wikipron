@@ -153,7 +153,7 @@ class _Config:
             )
 
         if not dialect:
-            dialect_selector = "true"
+            dialect_selector = "true()"
         else:
             dialect_selector = _DIALECT_SELECTOR_TEMPLATE.format(
                 dialects_text=" or ".join(
