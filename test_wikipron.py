@@ -9,11 +9,10 @@ import requests_html
 
 from wikipron import (
     __doc__,
-    _Config,
+    Config,
     _PAGE_TEMPLATE,
     _PHONEMES_REGEX,
     _PHONES_REGEX,
-    _get_cli_args,
 )
 
 
@@ -26,39 +25,11 @@ _DATE_RECENT_PAST = (_TODAY - datetime.timedelta(days=10)).isoformat()
 _DATE_DISTANT_PAST = (_TODAY - datetime.timedelta(days=20)).isoformat()
 
 
-class _CLIArgs:
-    """A representation of CLI args with attributes and their default value."""
-
-    # We need to provide a value to the only obligatory arg.
-    key = "eng"
-
-    # All other args have their own default value.
-    phonetic = False
-    no_stress = False
-    no_syllable_boundaries = False
-    dialect = None
-    require_dialect_label = False
-    casefold = False
-    cut_off_date = None
-    output = None
-
-
-def _config_factory(**kwargs):
-    """Create a _Config object for testing."""
-    cli_args = _CLIArgs()
-    # Use kwargs to specify particular arg-value pairs for testing.
-    for arg, value in kwargs.items():
-        assert hasattr(cli_args, arg), f'"{arg}" is not a recognized CLI arg.'
-        setattr(cli_args, arg, value)
-
-    return _Config(cli_args)
-
-
-def test_cli_args():
-    actual_cli_args = _get_cli_args(["eng"])
-    expected_cli_args = _CLIArgs()
-    for expected_arg, expected_value in vars(expected_cli_args):
-        assert getattr(actual_cli_args, expected_arg) == expected_value
+def _config_factory(**kwargs) -> Config:
+    """Create a Config object for testing."""
+    config_dict = {"key": "eng"}  # The one default; may be overridden.
+    config_dict.update(**kwargs)
+    return Config(**config_dict)
 
 
 def test_output():

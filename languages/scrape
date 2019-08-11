@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script for downloading all languages en-masse.
+# Script for downloading all languages en masse.
 #
 # This does not exhaust the set of covered languages, merely those we have tried
 # thus far.
@@ -10,7 +10,7 @@
 set -eou pipefail
 
 # TODO: Increment this from time to time.
-readonly CUTOFFDATE=2019-07-15
+readonly CUTOFFDATE="2019-08-01"
 
 # Add these in alphabetic order with respect to their ISO-639-1 codes.
 
@@ -20,7 +20,7 @@ time wikipron 'bg' \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output bg.tsv
+    --output=bg.tsv
 
 echo "German..."
 time wikipron de \
@@ -28,15 +28,16 @@ time wikipron de \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output de.tsv
+    --output=de.tsv
 
-echo "Greek..."
-time wikipron el \
-    --casefold \
-    --no-stress \
-    --no-syllable-boundaries \
-    --cut-off-date="${CUTOFFDATE}" \
-    --output el.tsv
+# TODO: returns no pronunciations due to ISO-639 parsing bug.
+#echo "Greek..."
+#time wikipron el \
+#    --casefold \
+#    --no-stress \
+#    --no-syllable-boundaries \
+#    --cut-off-date="${CUTOFFDATE}" \
+#    --output=el.tsv
 
 echo "English (US)..."
 time wikipron en \
@@ -45,7 +46,7 @@ time wikipron en \
     --no-syllable-boundaries \
     --dialect="US | General American" \
     --cut-off-date="${CUTOFFDATE}" \
-    --output en.tsv
+    --output=en.tsv
 
 echo "Spanish (Latin America)..."
 time wikipron es \
@@ -53,7 +54,7 @@ time wikipron es \
     --no-stress \
     --dialect="Latin America" \
     --cut-off-date="${CUTOFFDATE}" \
-    --output es.tsv
+    --output=es.tsv
 
 echo "French (European)..."
 time wikipron fr \
@@ -61,13 +62,13 @@ time wikipron fr \
     --no-syllable-boundaries \
     --dialect=European \
     --cut-off-date="${CUTOFFDATE}" \
-    --output fr.tsv
+    --output=fr.tsv
 
 echo "Hindi..."
 time wikipron hi \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output hi.tsv
+    --output=hi.tsv
     
 echo "Hungarian..."
 time wikipron hu \
@@ -75,11 +76,11 @@ time wikipron hu \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output hu.tsv
+    --output=hu.tsv
 
 echo "Korean..."
 time wikipron ko \
     --phonetic \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output ko.tsv
+    --output=ko.tsv

@@ -7,11 +7,13 @@ import logging
 import re
 import sys
 
-from typing import Callable, Optional, TextIO
+from typing import Callable, Iterator, Optional, TextIO, Tuple
 
 import iso639
 import requests
 import requests_html
+
+Pair = Tuple[str, str]
 
 
 # Queries for the MediaWiki backend.
@@ -47,7 +49,7 @@ _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
 
-class _Config:
+class Config:
     """Configuration for a scraping run.
 
     A configuration digests the settings for a scraping run and exposes
@@ -57,24 +59,32 @@ class _Config:
     and syllable boundaries) at the inner for loops.
     """
 
-    def __init__(self, cli_args):
-        self.language: str = self._get_language(cli_args.key)
-        self.output: Optional[TextIO] = self._get_output(cli_args.output)
-        self.casefold: Callable[[str], str] = self._get_casefold(
-            cli_args.casefold
-        )
+    def __init__(
+        self,
+        *,
+        key: str,
+        output: Optional[str] = None,
+        casefold: bool = False,
+        no_stress: bool = False,
+        no_syllable_boundaries: bool = False,
+        cut_off_date: Optional[str] = None,
+        phonetic: bool = False,
+        dialect: Optional[str] = None,
+        require_dialect_label: bool = False,
+    ):
+        self.language: str = self._get_language(key)
+        self.output: Optional[str] = self._get_output(output)
+        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
         self.process_pron: Callable[[str], str] = self._get_process_pron(
-            cli_args.no_stress, cli_args.no_syllable_boundaries
+            no_stress, no_syllable_boundaries
         )
-        _cut_off_date: str = self._get_cut_off_date(cli_args.cut_off_date)
+        _cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.process_word: Callable[[str, str], str] = self._get_process_word(
             _cut_off_date
         )
-        self.ipa_regex: str = (
-            _PHONES_REGEX if cli_args.phonetic else _PHONEMES_REGEX
-        )
+        self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.li_selector: str = self._get_li_selector(
-            self.language, cli_args.dialect, cli_args.require_dialect_label
+            self.language, dialect, require_dialect_label
         )
 
     def _get_language(self, key) -> str:
@@ -116,15 +126,7 @@ class _Config:
         return cut_off_date
 
     def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
-        if casefold:
-            fn = str.casefold
-        else:
-            fn = lambda word: word  # noqa: E731
-
-        def wrapper(word):
-            return fn(word)
-
-        return wrapper
+        return str.casefold if casefold else lambda word: word  # noqa: E731
 
     def _get_process_pron(
         self, no_stress: bool, no_syllable_boundaries: bool
@@ -195,7 +197,7 @@ class _Config:
         return wrapper
 
 
-def _yield_phn(request, config: _Config):
+def _yield_phn(request, config: Config):
     for li in request.html.xpath(config.li_selector):
         for span in li.xpath(_SPAN_SELECTOR):
             m = re.search(config.ipa_regex, span.text)
@@ -203,7 +205,7 @@ def _yield_phn(request, config: _Config):
                 yield m
 
 
-def _scrape(data, config: _Config):
+def _scrape_once(data, config: Config) -> Iterator[Pair]:
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -225,11 +227,33 @@ def _scrape(data, config: _Config):
             if " " in pron:
                 continue
             pron = config.process_pron(pron)
-            print(f"{word}\t{pron}", file=config.output)
+            yield (word, pron)
 
 
-def _get_cli_args(args):
-    # Pass in `args` explicitly so that we can write tests for this function.
+def scrape(config: Config) -> Iterator[Pair]:
+    """Scrapes with a given configuration."""
+    category = _CATEGORY_TEMPLATE.format(language=config.language)
+    next_query = _INITIAL_QUERY_TEMPLATE.format(category=category)
+    while True:
+        data = requests.get(next_query).json()
+        yield from _scrape_once(data, config)
+        if "continue" not in data:
+            break
+        code = data["continue"]["cmcontinue"]
+        next_query = _CONTINUE_TEMPLATE.format(
+            category=category, cmcontinue=code
+        )
+
+
+def _scrape_and_write(config: Config) -> None:
+    for i, (word, pron) in enumerate(scrape(config), 1):
+        print(f"{word}\t{pron}", file=config.output)
+        if i % 100 == 0:
+            logging.info("%d pronunciations scraped", i)
+
+
+def main() -> None:
+    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "key", help="Key (i.e., name or ISO-639 code) for the language"
@@ -291,21 +315,6 @@ def _get_cli_args(args):
             "overridden. If not given, results appear in stdout."
         ),
     )
-    return parser.parse_args(args)
-
-
-def main() -> None:
-    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
-    cli_args = _get_cli_args(sys.argv[1:])
-    config = _Config(cli_args)
-    category = _CATEGORY_TEMPLATE.format(language=config.language)
-    next_query = _INITIAL_QUERY_TEMPLATE.format(category=category)
-    while True:
-        data = requests.get(next_query).json()
-        _scrape(data, config)
-        if "continue" not in data:
-            break
-        code = data["continue"]["cmcontinue"]
-        next_query = _CONTINUE_TEMPLATE.format(
-            category=category, cmcontinue=code
-        )
+    args = parser.parse_args()
+    config = Config(**args.__dict__)
+    _scrape_and_write(config)
