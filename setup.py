@@ -16,7 +16,6 @@ _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 with open(os.path.join(_THIS_DIR, "README.md")) as f:
     _LONG_DESCRIPTION = f.read().strip()
 
-
 __version__ = "0.1.0"
 
 

@@ -13,6 +13,7 @@ from wikipron import (
     _PAGE_TEMPLATE,
     _PHONEMES_REGEX,
     _PHONES_REGEX,
+    scrape,
 )
 
 
@@ -222,6 +223,21 @@ def test_require_dialect_label():
         config_dialect_required.li_selector
     )
     assert len(results_dialect_optional) > len(results_dialect_required) == 0
+
+
+@pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
+@pytest.mark.timeout(2)
+def test_scrape():
+    """A smoke test for scrape()."""
+    n = 10  # number of word-pron pairs to scrape
+    config = _config_factory()
+    pairs = []
+    for i, (word, pron) in enumerate(scrape(config)):
+        if i >= n:
+            break
+        pairs.append((word, pron))
+    assert len(pairs) == n
+    assert all(word and pron for (word, pron) in pairs)
 
 
 @pytest.mark.parametrize(
