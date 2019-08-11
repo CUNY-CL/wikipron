@@ -36,12 +36,13 @@ how a multilingual G2P dataset can be created.
 
 For a full list of command-line options, please run `wikipron -h`.
 
-The underlying module can also be used from Python. A standard workflow looks lie:
+The underlying module can also be used from Python.
+A standard workflow looks like:
 
 ```python
 import wikipron
 
-config = wikipron.Config("fr")  # French, with default options.
+config = wikipron.Config(key="fr")  # French, with default options.
 for word, pron in wikipron.scrape(config):
     ...
 ```

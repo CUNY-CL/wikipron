@@ -27,7 +27,7 @@ _DATE_DISTANT_PAST = (_TODAY - datetime.timedelta(days=20)).isoformat()
 
 def _config_factory(**kwargs) -> Config:
     """Create a Config object for testing."""
-    config_dict = {"key": "eng"}  # The one default; may be overriden.
+    config_dict = {"key": "eng"}  # The one default; may be overridden.
     config_dict.update(**kwargs)
     return Config(**config_dict)
 
