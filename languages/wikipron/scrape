@@ -15,7 +15,7 @@ readonly CUTOFFDATE="2019-08-01"
 # Add these in alphabetic order with respect to their ISO-639-1 codes.
 
 echo "Bulgarian..."
-time wikipron 'bg' \
+time wikipron "bg" \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
