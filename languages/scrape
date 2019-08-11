@@ -1,0 +1,86 @@
+#!/bin/bash
+# Script for downloading all languages en masse.
+#
+# This does not exhaust the set of covered languages, merely those we have tried
+# thus far.
+#
+# It seems that the MediaWiki backend may drop queries if too many are made at
+# once; therefore we have to run this in serial.
+
+set -eou pipefail
+
+# TODO: Increment this from time to time.
+readonly CUTOFFDATE="2019-08-01"
+
+# Add these in alphabetic order with respect to their ISO-639-1 codes.
+
+echo "Bulgarian..."
+time wikipron 'bg' \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=bg.tsv
+
+echo "German..."
+time wikipron de \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=de.tsv
+
+# TODO: returns no pronunciations due to ISO-639 parsing bug.
+#echo "Greek..."
+#time wikipron el \
+#    --casefold \
+#    --no-stress \
+#    --no-syllable-boundaries \
+#    --cut-off-date="${CUTOFFDATE}" \
+#    --output=el.tsv
+
+echo "English (US)..."
+time wikipron en \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --dialect="US | General American" \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=en.tsv
+
+echo "Spanish (Latin America)..."
+time wikipron es \
+    --casefold \
+    --no-stress \
+    --dialect="Latin America" \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=es.tsv
+
+echo "French (European)..."
+time wikipron fr \
+    --casefold \
+    --no-syllable-boundaries \
+    --dialect=European \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=fr.tsv
+
+echo "Hindi..."
+time wikipron hi \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=hi.tsv
+    
+echo "Hungarian..."
+time wikipron hu \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=hu.tsv
+
+echo "Korean..."
+time wikipron ko \
+    --phonetic \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=ko.tsv
