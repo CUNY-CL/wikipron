@@ -243,10 +243,12 @@ def test_scrape():
 @pytest.mark.parametrize(
     "expected_language, keys",
     [
+        # Languages that the iso639 package can directly handle.
         ("English", {"en", "eng", "english", "English"}),
         ("Spanish", {"spa", "es"}),
-        ("Greek", {"el", "ell", "gre"}),
-        ("Slovene", {"sl", "slv"}),
+        # Languages handled by our own _LANGUAGE_CODES dict.
+        ("Greek", {"el", "ell", "gre", "Greek"}),
+        ("Slovene", {"sl", "slv", "Slovene", "Slovenian"}),
     ],
 )
 def test_language(expected_language, keys):
