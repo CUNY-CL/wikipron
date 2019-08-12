@@ -49,6 +49,24 @@ _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
 
+# Map from a ISO 639 code to its non-ISO 639 Wiktionary language name.
+# ISO 639-3: https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab  # noqa: E501
+# Wiktionary: https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language  # noqa: E501
+# TODO: Expand this as needed to cover additional languages.
+_LANGUAGE_CODES = {
+    # Greek. Would have been "Modern Greek (1453-)" in ISO 639.
+    "el": "Greek",
+    "ell": "Greek",
+    "gre": "Greek",
+    "greek": "Greek",
+    # Slovene. Would have been "Slovenian" in ISO 639.
+    "sl": "Slovene",
+    "slv": "Slovene",
+    "slovene": "Slovene",
+    "slovenian": "Slovene",
+}
+
+
 class Config:
     """Configuration for a scraping run.
 
@@ -88,9 +106,13 @@ class Config:
         )
 
     def _get_language(self, key) -> str:
-        # In some cases it returns "Language; Dialect";
-        # we just save the "first half".
-        language = iso639.to_name(key).split(";")[0]
+        key = key.lower().strip()
+        try:
+            language = _LANGUAGE_CODES[key]
+        except KeyError:
+            # In some cases it returns "Language; Dialect";
+            # we just save the "first half".
+            language = iso639.to_name(key).split(";")[0]
         logging.info('Language: "%s"', language)
         return language
 
