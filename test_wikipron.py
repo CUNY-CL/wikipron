@@ -254,7 +254,7 @@ def test_scrape():
 def test_language(expected_language, keys):
     for key in keys:
         config = _config_factory(key=key)
-        assert config.language == expected_language
+        assert config.language == expected_language, f"key = {key}"
 
 
 def test_terminal_command():

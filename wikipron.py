@@ -58,12 +58,12 @@ _LANGUAGE_CODES = {
     "el": "Greek",
     "ell": "Greek",
     "gre": "Greek",
-    "Greek": "Greek",
+    "greek": "Greek",
     # Slovene. Would have been "Slovenian" in ISO 639.
     "sl": "Slovene",
     "slv": "Slovene",
-    "Slovene": "Slovene",
-    "Slovenian": "Slovene",
+    "slovene": "Slovene",
+    "slovenian": "Slovene",
 }
 
 
