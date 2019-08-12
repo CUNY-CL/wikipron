@@ -38,8 +38,8 @@ EOF
 }
 
 main() {
-  time download
-  time prepare
+  download
+  prepare
 }
 
 main

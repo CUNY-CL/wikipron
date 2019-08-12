@@ -2,12 +2,8 @@
 
 set -euo pipefail
 
-SINK="lexicon-raw.tsv"
+readonly SINK="lexicon.tsv"
 
-main() {
-  curl http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict-0.7b \
-      | perl -ne 'print if /^[A-Z]+\s/' \
-      > "${SINK}"
-}
-
-main
+curl http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/cmudict-0.7b \
+   | perl -ne 'print if /^[A-Z]+\s/' \
+   > "${SINK}"
