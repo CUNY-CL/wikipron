@@ -49,7 +49,7 @@ _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
 
 
-# Map from a ISO 639 code to its Wiktionary language name.
+# Map from a ISO 639 code to its non-ISO 639 Wiktionary language name.
 # ISO 639-3: https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab  # noqa: E501
 # Wiktionary: https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language  # noqa: E501
 _LANGUAGE_CODES = {
