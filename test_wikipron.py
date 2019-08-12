@@ -241,19 +241,18 @@ def test_scrape():
 
 
 @pytest.mark.parametrize(
-    "key, expected_language",
+    "expected_language, keys",
     [
-        ("eng", "English"),
-        ("en", "English"),
-        ("English", "English"),
-        ("english", "English"),
-        ("spa", "Spanish"),
-        ("es", "Spanish"),
+        ("English", {"en", "eng", "english", "English"}),
+        ("Spanish", {"spa", "es"}),
+        ("Greek", {"el", "ell", "gre"}),
+        ("Slovene", {"sl", "slv"}),
     ],
 )
-def test_get_language(key, expected_language):
-    config = _config_factory(key=key)
-    assert config.language == expected_language
+def test_language(expected_language, keys):
+    for key in keys:
+        config = _config_factory(key=key)
+        assert config.language == expected_language
 
 
 def test_terminal_command():
