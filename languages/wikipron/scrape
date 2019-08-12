@@ -30,14 +30,13 @@ time wikipron de \
     --cut-off-date="${CUTOFFDATE}" \
     --output=de.tsv
 
-# TODO: returns no pronunciations due to ISO-639 parsing bug.
-#echo "Greek..."
-#time wikipron el \
-#    --casefold \
-#    --no-stress \
-#    --no-syllable-boundaries \
-#    --cut-off-date="${CUTOFFDATE}" \
-#    --output=el.tsv
+echo "Greek..."
+time wikipron el \
+    --casefold \
+    --no-stress \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=el.tsv
 
 echo "English (US)..."
 time wikipron en \
