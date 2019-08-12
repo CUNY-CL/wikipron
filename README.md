@@ -31,7 +31,7 @@ where each line has the orthography of a word, followed by a tab and then
 the word's pronunciation in IPA.
 
 For example commands using advanced options,
-the [`languages/scrape`](languages/scrape) script shows
+the [`languages/wikipron/scrape`](languages/wikipron/scrape) script shows
 how a multilingual G2P dataset can be created.
 
 For a full list of command-line options, please run `wikipron -h`.
