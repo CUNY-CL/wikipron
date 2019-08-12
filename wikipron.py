@@ -46,7 +46,7 @@ _DIALECT_SELECTOR_TEMPLATE = (
 )
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
 _PHONEMES_REGEX = r"/(.+?)/"
-_PHONES_REGEX = r"\[(.+?)\]"  # FIXME: it doesn't grab anything now
+_PHONES_REGEX = r"\[(.+?)\]"
 
 
 # Map from a ISO 639 code to its non-ISO 639 Wiktionary language name.
@@ -240,7 +240,7 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
         word = config.casefold(word)
         for m in _yield_phn(request, config):
             try:
-                pron = m.group(1)  # FIXME: really need this try-except block?
+                pron = m.group(1)
             except IndexError:
                 continue
             # Removes parens around various segments.
