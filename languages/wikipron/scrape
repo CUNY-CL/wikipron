@@ -72,15 +72,17 @@ time wikipron hi \
     
 echo "Hungarian..."
 time wikipron hu \
+    --phonetic \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
     --output=hu.tsv
 
-echo "Korean..."
-time wikipron ko \
-    --phonetic \
-    --no-syllable-boundaries \
-    --cut-off-date="${CUTOFFDATE}" \
-    --output=ko.tsv
+# TODO: returns no pronunciations; unclear why.
+#echo "Korean..."
+#time wikipron ko \
+#    --phonetic \
+#    --no-syllable-boundaries \
+#    --cut-off-date="${CUTOFFDATE}" \
+#    --output=ko.tsv
