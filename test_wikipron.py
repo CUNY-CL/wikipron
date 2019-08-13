@@ -1,5 +1,6 @@
 import datetime
 import os
+import re
 import shutil
 import tempfile
 
@@ -100,11 +101,15 @@ def test_process_word(
 
 
 @pytest.mark.parametrize(
-    "phonetic, ipa_regex", [(True, _PHONES_REGEX), (False, _PHONEMES_REGEX)]
+    "phonetic, ipa_regex, word_in_ipa",
+    [(True, _PHONES_REGEX, "[foobar]"), (False, _PHONEMES_REGEX, "/foobar/")],
 )
-def test_ipa_regex(phonetic, ipa_regex):
+def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
     config = _config_factory(phonetic=phonetic)
+    # Make sure we use the correct regex depending on phonetic vs phonemic.
     assert config.ipa_regex == ipa_regex
+    # Make sure the IPA extraction by regex works.
+    assert re.search(ipa_regex, word_in_ipa).group(1) == "foobar"
 
 
 @pytest.mark.parametrize(
