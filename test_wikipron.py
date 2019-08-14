@@ -1,4 +1,5 @@
 import datetime
+import inspect
 import os
 import re
 import shutil
@@ -14,6 +15,7 @@ from wikipron import (
     _PAGE_TEMPLATE,
     _PHONEMES_REGEX,
     _PHONES_REGEX,
+    _get_cli_args,
     scrape,
 )
 
@@ -274,4 +276,12 @@ def test_terminal_command():
         f'The command "{_TERMINAL_COMMAND}" exists but does not work. '
         f'The smoke test with "{smoke_test_command}" may have diagnostic '
         "information to stderr."
+    )
+
+
+def test_cli_args_match_config_args():
+    config_args = inspect.getfullargspec(Config.__init__)
+    cli_args = _get_cli_args(["eng"])
+    assert cli_args.__dict__ == {**config_args.kwonlydefaults, "key": "eng"}, (
+        "CLI and Config.__init__ must have the same args and their defaults."
     )
