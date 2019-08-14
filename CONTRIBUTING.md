@@ -56,6 +56,9 @@ Thank you for your interest in contributing to the `wikipron` codebase!
 5. Go to your fork `https://github.com/<your-github-username>/wikipron` and
    create a pull request off of your branch against the `kylebgorman/wikipron` repo.
 
+6. Add an entry to [CHANGELOG.md](CHANGELOG.md), commit this change,
+   and push this commit to your branch.
+
 ## Running Tests
 
 The `wikipron` repo has continuous integration (CI) turned on,
