@@ -7,7 +7,7 @@ import logging
 import re
 import sys
 
-from typing import Callable, Iterator, Optional, TextIO, Tuple
+from typing import Callable, Iterator, List, Optional, TextIO, Tuple
 
 import iso639
 import requests
@@ -274,8 +274,7 @@ def _scrape_and_write(config: Config) -> None:
             logging.info("%d pronunciations scraped", i)
 
 
-def main() -> None:
-    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
+def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "key", help="Key (i.e., name or ISO-639 code) for the language"
@@ -337,6 +336,11 @@ def main() -> None:
             "overridden. If not given, results appear in stdout."
         ),
     )
-    args = parser.parse_args()
+    return parser.parse_args(args)
+
+
+def main() -> None:
+    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
+    args = _get_cli_args(sys.argv[1:])
     config = Config(**args.__dict__)
     _scrape_and_write(config)
