@@ -9,9 +9,16 @@ import sys
 
 from typing import Callable, Iterator, List, Optional, TextIO, Tuple
 
-import iso639
-import requests
-import requests_html
+try:
+    import iso639
+    import requests
+    import requests_html
+except ModuleNotFoundError:
+    logging.warning(
+        "Thirty-party packages are not imported. "
+        "This situation should arise only in the installation phase, "
+        "where setup.py runs and imports this present module."
+    )
 
 
 __version__ = "0.1.0"
