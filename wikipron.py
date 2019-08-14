@@ -1,4 +1,4 @@
-"""Scraping Wiktionary data."""
+"""Scraping grapheme-to-phoneme data from Wiktionary."""
 
 import argparse
 import datetime
@@ -12,6 +12,9 @@ from typing import Callable, Iterator, List, Optional, TextIO, Tuple
 import iso639
 import requests
 import requests_html
+
+
+__version__ = "0.1.0"
 
 Pair = Tuple[str, str]
 
