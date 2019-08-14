@@ -1,6 +1,8 @@
 import os
 import setuptools
 
+import wikipron
+
 
 if getattr(setuptools, "__version__", "0") < "39":
     # v36.4.0+ needed to automatically include README.md in packaging
@@ -16,16 +18,14 @@ _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 with open(os.path.join(_THIS_DIR, "README.md")) as f:
     _LONG_DESCRIPTION = f.read().strip()
 
-__version__ = "0.1.0"
-
 
 def main():
     setuptools.setup(
         name="wikipron",
-        version=__version__,
+        version=wikipron.__version__,
         author="Kyle Gorman, Jackson Lee, Elizabeth Garza",
         author_email="kylebgorman@gmail.com",
-        description="Scraping grapheme-to-phoneme (G2P) data from Wiktionary",
+        description=wikipron.__doc__,
         long_description=_LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
         url="https://github.com/kylebgorman/wikipron",
