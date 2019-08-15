@@ -4,20 +4,24 @@ import argparse
 import datetime
 import functools
 import logging
-import os
 import re
 import sys
 
 from typing import Callable, Iterator, List, Optional, TextIO, Tuple
 
-import iso639
-import requests
-import requests_html
+try:
+    import iso639
+    import requests
+    import requests_html
+except ModuleNotFoundError:
+    logging.warning(
+        "Thirty-party packages are not imported. "
+        "This situation should arise only in the installation phase, "
+        "where setup.py runs and imports this present module."
+    )
 
 
-_THIS_DIR = os.path.dirname(os.path.realpath(__file__))
-with open(os.path.join(_THIS_DIR, "VERSION")) as f:
-    __version__ = f.read().strip()
+__version__ = "0.1.1"
 
 Pair = Tuple[str, str]
 
