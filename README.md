@@ -28,7 +28,7 @@ wikipron fr
 
 By default, the results appear on the terminal,
 where each line has the orthography of a word, followed by a tab and then
-the word's pronunciation in IPA.
+the word's pronunciation in the [International Phonetic Alphabet (IPA)](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
 For example commands using advanced options,
 the [`languages/wikipron/scrape`](languages/wikipron/scrape) script shows
