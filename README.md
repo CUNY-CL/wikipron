@@ -55,6 +55,8 @@ please [file an issue](https://github.com/kylebgorman/wikipron/issues).
 If you would like to contribute to the `wikipron` codebase,
 please see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
+We keep track of notable changes in [CHANGELOG.md](CHANGELOG.md).
+
 ## License
 
 Apache 2.0. Please see [`LICENSE.txt`](LICENSE.txt) for details.
