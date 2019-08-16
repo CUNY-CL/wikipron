@@ -60,3 +60,6 @@ We keep track of notable changes in [CHANGELOG.md](CHANGELOG.md).
 ## License
 
 Apache 2.0. Please see [LICENSE.txt](LICENSE.txt) for details.
+
+Please note that Wiktionary data has
+[its own licensing terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights).
