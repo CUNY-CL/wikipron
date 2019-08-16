@@ -31,7 +31,7 @@ where each line has the orthography of a word, followed by a tab and then
 the word's pronunciation in the [International Phonetic Alphabet (IPA)](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet).
 
 For example commands using advanced options,
-the [`languages/wikipron/scrape`](languages/wikipron/scrape) script shows
+the [languages/wikipron/scrape](languages/wikipron/scrape) script shows
 how a multilingual G2P dataset can be created.
 
 For a full list of command-line options, please run `wikipron -h`.
@@ -53,10 +53,10 @@ For questions, bug reports, and feature requests,
 please [file an issue](https://github.com/kylebgorman/wikipron/issues).
 
 If you would like to contribute to the `wikipron` codebase,
-please see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 We keep track of notable changes in [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-Apache 2.0. Please see [`LICENSE.txt`](LICENSE.txt) for details.
+Apache 2.0. Please see [LICENSE.txt](LICENSE.txt) for details.
