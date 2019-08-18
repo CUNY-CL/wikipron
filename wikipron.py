@@ -44,7 +44,9 @@ _CONTINUE_TEMPLATE = _INITIAL_QUERY_TEMPLATE + "&cmcontinue={cmcontinue}"
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 _LI_SELECTOR_TEMPLATE = """
 //li[
-  sup[a[@title = "Appendix:{language} pronunciation"]]
+  (sup[a[@title = "Appendix:{language} pronunciation"]]
+   or
+   sup[a[@title = "wikipedia:{language} phonology"]])
   and
   span[@class = "IPA"]
   and

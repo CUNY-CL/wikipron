@@ -122,7 +122,9 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             False,
             (
                 "\n//li[\n"
-                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                '  (sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "   or\n"
+                '   sup[a[@title = "wikipedia:English phonology"]])\n'
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -136,7 +138,9 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             False,
             (
                 "\n//li[\n"
-                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                '  (sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "   or\n"
+                '   sup[a[@title = "wikipedia:English phonology"]])\n'
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -150,7 +154,9 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             True,
             (
                 "\n//li[\n"
-                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                '  (sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "   or\n"
+                '   sup[a[@title = "wikipedia:English phonology"]])\n'
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -163,7 +169,9 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             False,
             (
                 "\n//li[\n"
-                '  sup[a[@title = "Appendix:English pronunciation"]]\n'
+                '  (sup[a[@title = "Appendix:English pronunciation"]]\n'
+                "   or\n"
+                '   sup[a[@title = "wikipedia:English phonology"]])\n'
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
