@@ -241,11 +241,20 @@ def test_require_dialect_label():
 
 
 @pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
+@pytest.mark.parametrize(
+    "key, language",
+    [
+        ("eng", "English"),
+        # Test that 'sup[a[@title = "wikipedia:Slovak phonology"]]' works.
+        ("slk", "Slovak"),
+    ],
+)
 @pytest.mark.timeout(2)
-def test_scrape():
+def test_scrape(key, language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
-    config = _config_factory()
+    config = _config_factory(key=key)
+    assert config.language == language
     pairs = []
     for i, (word, pron) in enumerate(scrape(config)):
         if i >= n:
