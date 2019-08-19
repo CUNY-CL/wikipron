@@ -78,10 +78,9 @@ time wikipron hu \
     --cut-off-date="${CUTOFFDATE}" \
     --output=hu.tsv
 
-# TODO: returns no pronunciations; unclear why.
-#echo "Korean..."
-#time wikipron ko \
-#    --phonetic \
-#    --no-syllable-boundaries \
-#    --cut-off-date="${CUTOFFDATE}" \
-#    --output=ko.tsv
+echo "Korean..."
+time wikipron ko \
+    --phonetic \
+    --no-syllable-boundaries \
+    --cut-off-date="${CUTOFFDATE}" \
+    --output=ko.tsv

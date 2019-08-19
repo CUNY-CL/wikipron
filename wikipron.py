@@ -42,13 +42,15 @@ _CONTINUE_TEMPLATE = _INITIAL_QUERY_TEMPLATE + "&cmcontinue={cmcontinue}"
 
 # Selects the content on the page.
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
+# GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
+# GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
 _LI_SELECTOR_TEMPLATE = """
 //li[
-  sup[a[
+  (.|span)[sup[a[
     @title = "Appendix:{language} pronunciation"
     or
     @title = "wikipedia:{language} phonology"
-  ]]
+  ]]]
   and
   span[@class = "IPA"]
   and

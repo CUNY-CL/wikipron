@@ -12,9 +12,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Deprecated
 ### Removed
 ### Fixed
+- Updated the `<li>` XPath selector for an optional layer of `<span>`
+  to cover previously unhandled languages (e.g., Korean). (#50) 
 - Updated the `<li>` XPath selector for `title="wikipedia:<language> phonology"`
-  to cover languages (e.g., Estonian and Slovak) we previously couldn't
-  scrape data for. (#49)
+  to cover previously unhandled languages (e.g., Estonian and Slovak). (#49)
 
 ### Security
 
