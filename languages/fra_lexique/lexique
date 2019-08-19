@@ -1,6 +1,0 @@
-#!/bin/bash
-
-curl -O http://www.lexique.org/databases/Lexique383/Lexique383.zip
-unzip Lexique383.zip Lexique383.tsv
-cut -f 1-2 Lexique383.tsv > lexicon_raw.tsv
-rm Lexique383.zip Lexique383.tsv
