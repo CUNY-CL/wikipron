@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -eou pipefail
+
+curl -O http://www.lexique.org/databases/Lexique383/Lexique383.zip
+unzip Lexique383.zip Lexique383.tsv
+cut -f 1-2 Lexique383.tsv | sed -n '1!p' > lexicon.tsv
+rm Lexique383.zip Lexique383.tsv
