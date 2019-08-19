@@ -122,11 +122,11 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             False,
             (
                 "\n//li[\n"
-                "  sup[a[\n"
+                "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
-                "  ]]\n"
+                "  ]]]\n"
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -140,11 +140,11 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             False,
             (
                 "\n//li[\n"
-                "  sup[a[\n"
+                "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
-                "  ]]\n"
+                "  ]]]\n"
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -158,11 +158,11 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             True,
             (
                 "\n//li[\n"
-                "  sup[a[\n"
+                "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
-                "  ]]\n"
+                "  ]]]\n"
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -175,11 +175,11 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             False,
             (
                 "\n//li[\n"
-                "  sup[a[\n"
+                "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
-                "  ]]\n"
+                "  ]]]\n"
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
@@ -250,18 +250,21 @@ def test_require_dialect_label():
 
 @pytest.mark.skipif(not _can_connect_to_wiktionary(), reason="need Internet")
 @pytest.mark.parametrize(
-    "key, language",
+    "key, language, other_params",
     [
-        ("eng", "English"),
+        ("eng", "English", {}),
         # Test that 'sup[a[@title = "wikipedia:Slovak phonology"]]' works.
-        ("slk", "Slovak"),
+        ("slk", "Slovak", {}),
+        # Test that the extra "span" layer for Korean is handled.
+        # Korean data is mostly phonetic transcription only.
+        ("kor", "Korean", {"phonetic": True}),
     ],
 )
-@pytest.mark.timeout(2)
-def test_scrape(key, language):
+@pytest.mark.timeout(3)
+def test_scrape(key, language, other_params):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
-    config = _config_factory(key=key)
+    config = _config_factory(key=key, **other_params)
     assert config.language == language
     pairs = []
     for i, (word, pron) in enumerate(scrape(config)):
