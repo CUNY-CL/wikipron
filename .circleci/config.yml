@@ -17,17 +17,19 @@ jobs:
       - run:
           name: Install the full development requirements
           working_directory: ~/project/
-          command: |
-              pip install --progress-bar off -r requirements.txt
+          command: pip install --progress-bar off -r requirements.txt
+      - run:
+          name: Show installed Python packages
+          command: pip list
       - run:
           name: Lint
           working_directory: ~/
-          # Avoid being able to import wikipron.py by relative import.
+          # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
-          command: flake8 project/setup.py project/wikipron.py project/test_wikipron.py
+          command: flake8 project/setup.py project/wikipron project/tests
       - run:
           name: Run python tests
           working_directory: ~/
-          # Avoid being able to import wikipron.py by relative import.
+          # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
-          command: pytest -vv project/test_wikipron.py
+          command: pytest -vv project/tests
