@@ -1,8 +1,6 @@
 import os
 import setuptools
 
-import wikipron
-
 
 if getattr(setuptools, "__version__", "0") < "39":
     # v36.4.0+ needed to automatically include README.md in packaging
@@ -12,8 +10,11 @@ if getattr(setuptools, "__version__", "0") < "39":
         "Please run 'pip install --upgrade pip setuptools'."
     )
 
-
 _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
+
+with open(os.path.join(_THIS_DIR, "wikipron", "_version.py")) as f:
+    # get __version__
+    exec(f.read())
 
 with open(os.path.join(_THIS_DIR, "README.md")) as f:
     _LONG_DESCRIPTION = f.read().strip()
@@ -22,10 +23,10 @@ with open(os.path.join(_THIS_DIR, "README.md")) as f:
 def main():
     setuptools.setup(
         name="wikipron",
-        version=wikipron.__version__,
+        version=__version__,  # noqa: F821
         author="Kyle Gorman, Jackson Lee, Elizabeth Garza",
         author_email="kylebgorman@gmail.com",
-        description=wikipron.__doc__,
+        description="Scraping grapheme-to-phoneme data from Wiktionary.",
         long_description=_LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
         url="https://github.com/kylebgorman/wikipron",
@@ -39,11 +40,11 @@ def main():
             "Wiktionary",
         ],
         license="Apache 2.0",
-        py_modules=["wikipron"],
+        packages=setuptools.find_packages(),
         python_requires=">=3.6",
         zip_safe=False,
         install_requires=["requests", "requests-html", "iso639"],
-        entry_points={"console_scripts": ["wikipron = wikipron:main"]},
+        entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
         classifiers=[
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
