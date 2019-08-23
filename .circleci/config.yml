@@ -26,12 +26,12 @@ jobs:
       - run:
           name: Lint
           working_directory: ~/
-          # Avoid being able to import wikipron.py by relative import.
+          # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
           command: flake8 project/setup.py project/wikipron project/tests
       - run:
           name: Run python tests
           working_directory: ~/
-          # Avoid being able to import wikipron.py by relative import.
+          # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
           command: pytest -vv project/tests
