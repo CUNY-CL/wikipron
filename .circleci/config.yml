@@ -20,6 +20,10 @@ jobs:
           command: |
               pip install --progress-bar off -r requirements.txt
       - run:
+          name: Show installed Python packages
+          command: |
+              pip list
+      - run:
           name: Lint
           working_directory: ~/
           # Avoid being able to import wikipron.py by relative import.
