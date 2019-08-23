@@ -74,6 +74,3 @@ def scrape(config: Config) -> Iterator[Pair]:
         next_query = _CONTINUE_TEMPLATE.format(
             category=category, cmcontinue=code
         )
-
-
-

@@ -180,7 +180,6 @@ def test_li_selector(dialect, require_dialect_label, expected_li_selector):
     assert config.li_selector == expected_li_selector
 
 
-
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 def test_american_english_dialect_selection():
     # Pick a word for which Wiktionary has dialect-specified pronunciations
