@@ -4,10 +4,13 @@ import warnings
 from typing import Dict, List
 
 import iso639
+import pytest
 import requests
 
 import wikipron
 from wikipron.languagecodes import LANGUAGE_CODES
+
+from . import can_connect_to_wiktionary
 
 
 _URL = "https://en.wiktionary.org/w/api.php"
@@ -67,6 +70,7 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
     return language_sizes
 
 
+@pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 def test_language_coverage():
     """Check if WikiPron covers languages with a sufficient amount of data.
 
