@@ -15,7 +15,7 @@ from . import can_connect_to_wiktionary
 
 _URL = "https://en.wiktionary.org/w/api.php"
 # We handle languages with at least this number of pronunciation entries.
-_MIN_LANGUAGE_SIZE = 1000
+_MIN_LANGUAGE_SIZE = 100
 
 
 def _get_language_categories() -> List[str]:
@@ -81,6 +81,10 @@ def test_language_coverage():
     sizes = _get_language_sizes(categories)
     for language, size in sizes.items():
         if size < _MIN_LANGUAGE_SIZE:
+            continue
+        if language in ("Mon", "Translingual"):
+            # "mon" is the ISO 639 code for Mongolian, but there is also
+            # the Mon language (ISO 639 code: "mnw").
             continue
         try:
             language_code = iso639.to_iso639_2(language)

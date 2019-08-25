@@ -231,6 +231,9 @@ def test_require_dialect_label():
         # Languages handled by our own _LANGUAGE_CODES dict.
         ("Greek", {"el", "ell", "gre", "Greek"}),
         ("Slovene", {"sl", "slv", "Slovene", "Slovenian"}),
+        # For all Proto-X languages. X may contain hyphens in the middle.
+        ("Proto-Germanic", {"Proto-Germanic", "proto-germanic"}),
+        ("Proto-Balto-Slavic", {"Proto-Balto-Slavic", "proto-balto-slavic"}),
     ],
 )
 def test_language(expected_language, keys):

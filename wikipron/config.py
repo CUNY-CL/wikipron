@@ -72,6 +72,9 @@ class Config:
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
+        if key.startswith("proto-"):
+            language = "-".join(x.title() for x in key.split("-"))
+            return language
         try:
             language = LANGUAGE_CODES[key]
         except KeyError:
