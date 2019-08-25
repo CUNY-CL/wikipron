@@ -12,75 +12,75 @@ set -eou pipefail
 # TODO: Increment this from time to time.
 readonly CUTOFFDATE="2019-08-01"
 
-# Add these in alphabetic order with respect to their ISO-639-1 codes.
+# Add these in alphabetic order with respect to their ISO 639-2 or 639-3 codes.
 
 echo "Bulgarian..."
-time wikipron "bg" \
+time wikipron bul \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=bg.tsv
+    --output=bul.tsv
 
 echo "German..."
-time wikipron de \
+time wikipron deu \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=de.tsv
+    --output=deu.tsv
 
 echo "Greek..."
-time wikipron el \
+time wikipron ell \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=el.tsv
+    --output=ell.tsv
 
 echo "English (US)..."
-time wikipron en \
+time wikipron eng \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --dialect="US | General American" \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=en.tsv
+    --output=eng.tsv
 
 echo "Spanish (Latin America)..."
-time wikipron es \
+time wikipron spa \
     --casefold \
     --no-stress \
     --dialect="Latin America" \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=es.tsv
+    --output=spa.tsv
 
 echo "French (European)..."
-time wikipron fr \
+time wikipron fra \
     --casefold \
     --no-syllable-boundaries \
     --dialect=European \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=fr.tsv
+    --output=fra.tsv
 
 echo "Hindi..."
-time wikipron hi \
+time wikipron hin \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=hi.tsv
+    --output=hin.tsv
     
 echo "Hungarian..."
-time wikipron hu \
+time wikipron hun \
     --phonetic \
     --casefold \
     --no-stress \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=hu.tsv
+    --output=hun.tsv
 
 echo "Korean..."
-time wikipron ko \
+time wikipron kor \
     --phonetic \
     --no-syllable-boundaries \
     --cut-off-date="${CUTOFFDATE}" \
-    --output=ko.tsv
+    --output=kor.tsv
