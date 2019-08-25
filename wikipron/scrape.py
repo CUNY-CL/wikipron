@@ -12,17 +12,7 @@ Pair = Tuple[str, str]
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
-_CATEGORY_TEMPLATE = "Category:{language}_terms_with_IPA_pronunciation"
-_INITIAL_QUERY_TEMPLATE = (
-    "https://en.wiktionary.org/w/api.php?"
-    "action=query"
-    "&format=json"
-    "&list=categorymembers"
-    "&cmtitle={category}"
-    "&cmlimit=500"
-    "&cmprop=ids|title|timestamp"
-)
-_CONTINUE_TEMPLATE = _INITIAL_QUERY_TEMPLATE + "&cmcontinue={cmcontinue}"
+_CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 # Selects the content on the page.
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
@@ -64,13 +54,21 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
 def scrape(config: Config) -> Iterator[Pair]:
     """Scrapes with a given configuration."""
     category = _CATEGORY_TEMPLATE.format(language=config.language)
-    next_query = _INITIAL_QUERY_TEMPLATE.format(category=category)
+    requests_params = {
+        "action": "query",
+        "format": "json",
+        "list": "categorymembers",
+        "cmtitle": category,
+        "cmlimit": "500",
+        "cmprop": "ids|title|timestamp",
+    }
     while True:
-        data = requests.get(next_query).json()
+        data = requests.get(
+            "https://en.wiktionary.org/w/api.php?",
+            params=requests_params,
+        ).json()
         yield from _scrape_once(data, config)
         if "continue" not in data:
             break
-        code = data["continue"]["cmcontinue"]
-        next_query = _CONTINUE_TEMPLATE.format(
-            category=category, cmcontinue=code
-        )
+        continue_code = data["continue"]["cmcontinue"]
+        requests_params.update({"cmcontinue": continue_code})
