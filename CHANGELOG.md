@@ -8,7 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Added
-- Expanded coverage for languages with at least 1000 pronunciation entries. (#52)
+- Resolved Wiktionary language names for languages with at least 100
+  pronunciation entries. (#52)
 
 ### Changed
 ### Deprecated

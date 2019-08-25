@@ -1,4 +1,4 @@
-# This is a map from a ISO 639 code or common name to its Wiktionary language name.  # noqa: E501
+# This is a map from an ISO 639 code or common name to its Wiktionary language name.  # noqa: E501
 # Note that the iso639 Python package that WikiPron uses can handle only ISO 639-1 and 639-2 codes.  # noqa: E501
 # ISO 639-3: https://iso639-3.sil.org/sites/iso639-3/files/downloads/iso-639-3.tab  # noqa: E501
 # Wiktionary: https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language  # noqa: E501
