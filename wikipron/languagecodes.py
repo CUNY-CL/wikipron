@@ -111,6 +111,9 @@ LANGUAGE_CODES = {
     # Limburgish. Would be "Limburgan, Limburger, Limburgish" in ISO 639.
     "lim": "Limburgish",
     "limburgish": "Limburgish",
+    "limburgan": "Limburgish",
+    "limburger": "Limburgish",
+    "limburgic": "Limburgish",
     # Livonian. Would be "Liv" in ISO 639.
     "liv": "Livonian",
     "livonian": "Livonian",
@@ -209,7 +212,7 @@ LANGUAGE_CODES = {
     "wau": "Wauja",
     "waurá": "Wauja",
     "wauja": "Wauja",
-    # West Frisian. Would be "West Frisian" in ISO 639.
+    # West Frisian. Would be "Western Frisian" in ISO 639.
     "fry": "West Frisian",
     "west frisian": "West Frisian",
     "western frisian": "West Frisian",
