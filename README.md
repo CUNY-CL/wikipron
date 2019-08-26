@@ -19,12 +19,19 @@ pip install wikipron
 ## Usage
 
 After installation, the terminal command `wikipron` will be available.
-As a basic example, the following command scrapes G2P data for French
-(with the ISO language code `fr`):
+As a basic example, the following command scrapes G2P data for French:
 
 ```bash
-wikipron fr
+wikipron fra
 ```
+
+The language is indicated by a three-letter
+[ISO 639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) or
+[ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes)
+language code, e.g., `fra` for French.
+For which languages can be scraped,
+[here](https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language)
+is the complete list of languages on Wiktionary that have pronunciation entries.
 
 By default, the results appear on the terminal,
 where each line has the orthography of a word, followed by a tab and then
@@ -43,7 +50,7 @@ A standard workflow looks like:
 ```python
 import wikipron
 
-config = wikipron.Config(key="fr")  # French, with default options.
+config = wikipron.Config(key="fra")  # French, with default options.
 for word, pron in wikipron.scrape(config):
     ...
 ```
