@@ -1,6 +1,15 @@
 version: 2
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - build-python-3.6
+      - build-python-3.7
+      - build-python-3.8
+
 jobs:
-  build:
+  build-python-3.6: &template
     docker:
       - image: python:3.6
     steps:
@@ -33,3 +42,12 @@ jobs:
           # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
           command: pytest -vv project/tests
+  build-python-3.7:
+    <<: *template
+    docker:
+      - image: python:3.7
+  build-python-3.8:
+    <<: *template
+    docker:
+      # TODO: Switch to python:3.8 after Python 3.8 is out in Oct/Nov 2019.
+      - image: python:3.8-rc
