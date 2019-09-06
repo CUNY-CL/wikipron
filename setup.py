@@ -46,8 +46,11 @@ def main():
         install_requires=["requests", "requests-html", "iso639"],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
         classifiers=[
+            "Programming Language :: Python :: 3",
+            "Programming Language :: Python :: 3 :: Only",
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
             "Development Status :: 3 - Alpha",
             "Environment :: Console",
             "License :: OSI Approved :: Apache Software License",
