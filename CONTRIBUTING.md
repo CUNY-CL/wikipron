@@ -2,33 +2,27 @@
 
 Thank you for your interest in contributing to the `wikipron` codebase!
 
-## Setting Up A Development Environment
-
-1. Create a fork of the `wikipron` repo on GitHub.
-2. Make sure you are in some sort of a virtual environment
-   (venv, virtualenv, conda, etc).
-3. Download and install the library in the "editable" mode
-   together with the core and dev dependencies within the virtual environment:
-
-    ```bash
-    git clone https://github.com/<your-github-username>/wikipron.git
-    cd wikipron
-    pip install --upgrade pip setuptools
-    pip install -r requirements.txt
-    pip install --no-deps -e .
-    ```
-   
-4. Add the upstream `kylebgorman/wikipron` repo link:
-   
-   ```bash
-   git remote add upstream https://github.com/kylebgorman/wikipron.git
-   ```
-   
-   After this step, running `git remote -v` should show your local Git repo
-   has links to both "origin" (pointing to your fork `<your-github-username>/wikipron`)
-   and "upstream" (pointing to `kylebgorman/wikipron`).
+This page assumes that you have already created a fork of the `wikipron` repo
+under your GitHub account and have the codebase available locally for
+development work. If you have followed
+[these steps](https://github.com/kylebgorman/wikipron#development),
+then you are all set.
 
 ## Working on a Feature or Bug Fix
+
+The development steps below assumes that your local Git repo has a remote
+`upstream` link to `kylebgorman/wikipron`:
+   
+```bash
+git remote add upstream https://github.com/kylebgorman/wikipron.git
+```
+
+After this step (which you only have to do once),
+running `git remote -v` should show your local Git repo
+has links to both "origin" (pointing to your fork `<your-github-username>/wikipron`)
+and "upstream" (pointing to `kylebgorman/wikipron`).
+
+To work on a feature or bug fix, here are the development steps: 
 
 1. Before doing any work, check out the master branch and
    make sure that your local master branch is up-to-date with upstream master:
@@ -63,7 +57,7 @@ Thank you for your interest in contributing to the `wikipron` codebase!
 
 The `wikipron` repo has continuous integration (CI) turned on,
 with autobuilds running pytest and flake8 for the test suite
-(in [`test_wikipron.py`](test_wikipron.py)) and code style checks, respectively.
+(in the [`tests/`](tests) directory) and code style checks, respectively.
 If an autobuild at a pending pull request fails because of pytest or flake8
 errors, then the errors must be fixed by further commits pushed to the branch
 by the author.
@@ -73,6 +67,6 @@ If you would like to help avoid wasting free Internet resources
 you can run pytest and flake8 checks locally before pushing commits:
 
 ```bash
-flake8 wikipron.py test_wikipron.py
-pytest -vv test_wikipron.py
+flake8 setup.py wikipron/ tests/
+pytest -vv tests/
 ```

@@ -34,7 +34,7 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
         word = config.process_word(word, date)
         if not word:
             continue
-        request = session.get(_PAGE_TEMPLATE.format(word=word))
+        request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
         # Template lookup is case-sensitive, but we case-fold afterwards.
         word = config.casefold(word)
         for m in _yield_phn(request, config):
