@@ -55,7 +55,33 @@ for word, pron in wikipron.scrape(config):
     ...
 ```
 
-## Development and Contribution
+## Development
+
+The source code of WikiPron is hosted on GitHub at
+https://github.com/kylebgorman/wikipron,
+where development also happens.
+
+For the latest changes not yet released through `pip` or working on the codebase
+yourself, you may obtain the latest source code through GitHub and `git`:
+
+1. Create a fork of the `wikipron` repo on your GitHub account.
+2. Locally, make sure you are in some sort of a virtual environment
+   (venv, virtualenv, conda, etc).
+3. Download and install the library in the "editable" mode
+   together with the core and dev dependencies within the virtual environment:
+
+    ```bash
+    git clone https://github.com/<your-github-username>/wikipron.git
+    cd wikipron
+    pip install --upgrade pip setuptools
+    pip install -r requirements.txt
+    pip install --no-deps -e .
+    ```
+
+We keep track of notable changes in
+[CHANGELOG.md](https://github.com/kylebgorman/wikipron/blob/master/CHANGELOG.md).
+
+## Contribution
 
 For questions, bug reports, and feature requests,
 please [file an issue](https://github.com/kylebgorman/wikipron/issues).
@@ -63,9 +89,6 @@ please [file an issue](https://github.com/kylebgorman/wikipron/issues).
 If you would like to contribute to the `wikipron` codebase,
 please see
 [CONTRIBUTING.md](https://github.com/kylebgorman/wikipron/blob/master/CONTRIBUTING.md).
-
-We keep track of notable changes in
-[CHANGELOG.md](https://github.com/kylebgorman/wikipron/blob/master/CHANGELOG.md).
 
 ## License
 
