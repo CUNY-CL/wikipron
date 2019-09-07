@@ -106,5 +106,5 @@ def test_language_coverage():
 
 def test_language_codes_dict_keys():
     """LANGUAGE_CODES keys must be in lowercase for Config._get_language."""
-    for k, v in LANGUAGE_CODES.items():
+    for k in LANGUAGE_CODES.keys():
         assert k == k.lower()

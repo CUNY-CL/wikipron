@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Resolved Wiktionary language names for languages with at least 100
-  pronunciation entries. (#52)
+  pronunciation entries. (#52, #55)
 
 ### Changed
 ### Deprecated
