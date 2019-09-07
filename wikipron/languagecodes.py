@@ -232,4 +232,11 @@ LANGUAGE_CODES = {
     "dimli": "Zazaki",
     "kirdki": "Zazaki",
     "kirmanjki": "Zazaki",
+    # Okinawan. ISO 639-3 only.
+    "ryu": "Okinawan",
+    "okinawan": "Okinawan",
+    "central okinawan": "Okinawan",
+    # Ottoman Turkish. Would be "Ottoman Turkish (1500-1928)" in ISO 639.
+    "ota": "Ottoman Turkish",
+    "ottoman turkish": "Ottoman Turkish",
 }
