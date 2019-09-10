@@ -4,7 +4,6 @@
 
 import wikipron
 from language_samples import languages
-
 # Needs new line at start.
 readme_string = '''
 | Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Case-folding | Phonetic/Phonemic | # of entries |
@@ -16,13 +15,13 @@ for iso639_code in languages:
   phonemic_iterator = 0
   phonetic_iterator = 0
 
-  config = wikipron.Config(key=iso639_code, casefold=languages[iso639_code]["casefold"])
+  config = wikipron.Config(key=iso639_code, casefold=languages[iso639_code]["casefold"], no_stress=True, no_syllable_boundaries=True)
   for (word, pron) in wikipron.scrape(config):
     phonemic_iterator += 1
     with open(iso639_code + ".tsv", "a") as phonemic_file:
       phonemic_file.write(f"{word}\t{pron}\n")
 
-  phonetic_config = wikipron.Config(key=iso639_code, casefold=languages[iso639_code]["casefold"], phonetic=True)
+  phonetic_config = wikipron.Config(key=iso639_code, casefold=languages[iso639_code]["casefold"], phonetic=True, no_stress=True, no_syllable_boundaries=True)
   for (word, pron) in wikipron.scrape(phonetic_config):
     phonetic_iterator += 1
     with open(iso639_code + "_phonetic" + ".tsv", "a") as phonetic_file:
@@ -43,5 +42,3 @@ for iso639_code in languages:
   
   # Resetting readme_string is only useful after the first language as we no longer need to append headers. 
   readme_string = ''
-
-readme_file.close()
