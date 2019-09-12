@@ -1,13 +1,13 @@
 import wikipron
 from language_samples import LANGUAGES
-
+from datetime import datetime
 
 def main():
   # Readme file needs to have a blank line below table headers to ensure this gets written to correct place. 
   readme_file = open("readme_test.md", "a")
 
   for iso639_code in LANGUAGES:
-    print('Currently running:', LANGUAGES[iso639_code]["wiktionary_name"], iso639_code)
+    print('Currently running:', LANGUAGES[iso639_code]["wiktionary_name"], iso639_code, str(datetime.now()))
 
     row = [iso639_code, LANGUAGES[iso639_code]["iso639_name"], LANGUAGES[iso639_code]["wiktionary_name"], str(LANGUAGES[iso639_code]["casefold"])]
     phonemic_count = 0
