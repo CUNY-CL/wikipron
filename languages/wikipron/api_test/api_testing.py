@@ -1,44 +1,45 @@
-# The alternative to outputting two tsv files is to construct lists in each scrape call of all tuples, compare lengths, and then run another for loop writing the larger list to a tsv file. 
-
-# Should I set enconding for these with open statements?
-
 import wikipron
-from language_samples import languages
-# Needs new line at start.
-readme_string = '''
-| Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Case-folding | Phonetic/Phonemic | # of entries |
-| :---- | :----: | :----: | :----: | :----:| :----: | ----: |
-'''
+from language_samples import LANGUAGES
 
-for iso639_code in languages:
-  row = [iso639_code, languages[iso639_code]["iso639_name"], languages[iso639_code]["wiktionary_name"], str(languages[iso639_code]["casefold"])]
-  phonemic_iterator = 0
-  phonetic_iterator = 0
 
-  config = wikipron.Config(key=iso639_code, casefold=languages[iso639_code]["casefold"], no_stress=True, no_syllable_boundaries=True)
-  for (word, pron) in wikipron.scrape(config):
-    phonemic_iterator += 1
-    with open(iso639_code + ".tsv", "a") as phonemic_file:
-      phonemic_file.write(f"{word}\t{pron}\n")
+def main():
+  # Readme file needs to have a blank line below table headers to ensure this gets written to correct place. 
+  readme_file = open("readme_test.md", "a")
 
-  phonetic_config = wikipron.Config(key=iso639_code, casefold=languages[iso639_code]["casefold"], phonetic=True, no_stress=True, no_syllable_boundaries=True)
-  for (word, pron) in wikipron.scrape(phonetic_config):
-    phonetic_iterator += 1
-    with open(iso639_code + "_phonetic" + ".tsv", "a") as phonetic_file:
-      phonetic_file.write(f"{word}\t{pron}\n")
+  for iso639_code in LANGUAGES:
+    print('Currently running:', LANGUAGES[iso639_code]["wiktionary_name"], iso639_code)
 
-  # Perhaps should do something if they  are equal.
-  if phonemic_iterator >= phonetic_iterator:
-    row = [f"[TSV File]({iso639_code}.tsv)"] + row
-    row.extend(["Phonemic", str(phonemic_iterator)])
-  else:
-    row = [f"[TSV File]({iso639_code}_phonetic.tsv)"] + row
-    row.extend(["Phonetic", str(phonetic_iterator)])
+    row = [iso639_code, LANGUAGES[iso639_code]["iso639_name"], LANGUAGES[iso639_code]["wiktionary_name"], str(LANGUAGES[iso639_code]["casefold"])]
+    phonemic_count = 0
+    phonetic_count = 0
+    phonemic_file = open(iso639_code + '.tsv', 'w')
+    phonetic_file = open(iso639_code + '_phonetic' + '.tsv', 'w')
 
-  readme_string += "| " + " | ".join(row) + " |\n"
+    config = wikipron.Config(key=iso639_code, casefold=LANGUAGES[iso639_code]["casefold"], no_stress=True, no_syllable_boundaries=True)
+    for (word, pron) in wikipron.scrape(config):
+      phonemic_count += 1
+      print(f"{word}\t{pron}", file=phonemic_file)
 
-  with open("readme_test.md", "a") as readme_file:
+    phonetic_config = wikipron.Config(key=iso639_code, casefold=LANGUAGES[iso639_code]["casefold"], phonetic=True, no_stress=True, no_syllable_boundaries=True)
+    for (word, pron) in wikipron.scrape(phonetic_config):
+      phonetic_count += 1
+      print(f"{word}\t{pron}", file=phonetic_file)
+      
+
+    if phonemic_count >= phonetic_count:
+      # Will create link to non-existent tsv file when config call fails - as with 'yue'
+      row = [f"[TSV File]({iso639_code}.tsv)"] + row
+      row.extend(["Phonemic", str(phonemic_count)])
+    else:
+      row = [f"[TSV File]({iso639_code}_phonetic.tsv)"] + row
+      row.extend(["Phonetic", str(phonetic_count)])
+
+    readme_string = "| " + " | ".join(row) + " |\n"
     readme_file.write(readme_string)
-  
-  # Resetting readme_string is only useful after the first language as we no longer need to append headers. 
-  readme_string = ''
+    phonemic_file.close()
+    phonetic_file.close()
+    
+  readme_file.close()
+
+if __name__ == "__main__":
+  main()
