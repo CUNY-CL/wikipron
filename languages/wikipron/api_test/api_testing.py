@@ -5,22 +5,26 @@ from time import sleep
 import requests
 import os
 
-def call_scrape(lang, config, file, retries=0):
-  if retries >= 3:
+def call_scrape(lang, config, file_extension, retries=0):
+  if retries > 3:
     return None
 
+  # Will truncate already existing files if timeout occurs
+  file = open(f"{lang}{file_extension}.tsv", "w")
   count = 0
   try: 
     for (word, pron) in wikipron.scrape(config):
       count += 1
       print(f"{word}\t{pron}", file=file)
-  except requests.exceptions.ReadTimeout as err:
-    print("Timeout error detected during scrape.", lang, err)
+  except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as err:
+    print("Timeout or connection error detected during scrape.", lang, str(datetime.now()), err)
     # Pause execution for 15 min.
     sleep(900)
     retries += 1
-    return call_scrape(lang, config, file, retries)
+    file.close()
+    return call_scrape(lang, config, file_extension, retries)
 
+  file.close()
   return count
 
 
@@ -36,29 +40,32 @@ def main():
     phonemic_config = wikipron.Config(key=iso639_code, casefold=LANGUAGES[iso639_code]["casefold"], no_stress=True, no_syllable_boundaries=True)
     phonetic_config = wikipron.Config(key=iso639_code, casefold=LANGUAGES[iso639_code]["casefold"], phonetic=True, no_stress=True, no_syllable_boundaries=True)
 
-    phonemic_file = open(iso639_code + ".tsv", "w")
-    phonetic_file = open(iso639_code + "_phonetic" + ".tsv", "w")
-
-    phonemic_count = call_scrape(iso639_code, phonemic_config, phonemic_file)
-    phonetic_count = call_scrape(iso639_code, phonetic_config, phonetic_file)
+    phonemic_count = call_scrape(iso639_code, phonemic_config, "_phonemic")
+    phonetic_count = call_scrape(iso639_code, phonetic_config, "_phonetic")
 
     # Remove files for languages that failed to be scraped in 4 tries.
     if phonemic_count == None or phonetic_count == None:
       print(f"TOO MANY RETRIES ON {iso639_code} MOVING ON TO NEXT.")
-      os.remove(iso639_code + ".tsv")
-      os.remove(iso639_code + "_phonetic" + ".tsv")
+      os.remove(f"{iso639_code}_phonemic.tsv")
+      os.remove(f"{iso639_code}_phonetic.tsv")
       continue
-    # Remove files for languages that failed to call scrape
+    # Remove files for languages that failed to call scrape altogether, or for which wikipron returned nothing
     elif phonemic_count == 0 and phonetic_count == 0:
-      print(f"FAILED TO CALL SCRAPE ON {iso639_code}.")
-      os.remove(iso639_code + ".tsv")
-      os.remove(iso639_code + "_phonetic" + ".tsv")
-      continue      
+      print(f"FAILED TO SCRAPE {iso639_code}.")
+      os.remove(f"{iso639_code}_phonemic.tsv")
+      os.remove(f"{iso639_code}_phonetic.tsv")
+      continue 
+    # Remove empty tsv files
+    elif phonemic_count == 0:
+      print(f"{iso639_code} HAS NO ENTRIES IN PHONEMIC TRANSCRIPTION")
+      os.remove(f"{iso639_code}_phonemic.tsv")
+    elif phonetic_count == 0:
+      print(f"{iso639_code} HAS NO ENTRIES IN PHONETIC TRANSCRIPTION")
+      os.remove(f"{iso639_code}_phonetic.tsv")
 
-
+    # Create link to appropriate tsv file, mark as phonetic or phonemic
     if phonemic_count >= phonetic_count:
-      # Will create link to non-existent tsv file when config call fails - as with 'yue'
-      row = [f"[TSV File]({iso639_code}.tsv)"] + row
+      row = [f"[TSV File]({iso639_code}_phonemic.tsv)"] + row
       row.extend(["Phonemic", str(phonemic_count)])
     else:
       row = [f"[TSV File]({iso639_code}_phonetic.tsv)"] + row
@@ -67,8 +74,6 @@ def main():
 
     readme_string = "| " + " | ".join(row) + " |\n"
     readme_file.write(readme_string)
-    phonemic_file.close()
-    phonetic_file.close()
     
   readme_file.close()
 
