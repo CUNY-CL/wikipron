@@ -1,6 +1,6 @@
 # ISO 639-2 Code and English name obtained from the Library of Congress website: https://www.loc.gov/standards/iso639-2/php/code_list.php
 # ISO 639-2 3 Char Code [str]: { 
-#   "iso639_name": [str] ISO 692 Language Name(s), 
+#   "iso639_name": [str] ISO 639-2 Language Name(s),
 #   "wiktionary_name": [str] English Wiktionary name (listed as Canonical name, ex. https://en.wiktionary.org/wiki/Category:Romanian_language),
 #   "casefold": [bool]
 # }
@@ -14,8 +14,7 @@
 
 # ISO 639-1 is listed in a comment if it is the language code listed by Wiktionary
 # In case of multiple ISO 639-2 codes, I've selected the key as those designated B (bibliographic), but have included B and T (terminology) in a comment as B/T.
-
-# Should probably use OrderedDict, for table creation to be somewhat alphabetical on first go.
+# ISO 639-3 Code used with Classical Nahuatl, Cantonese, and Serbo-Croatian
 LANGUAGES = {
   "ady": {
     "iso639_name": "Adygei; Adyghe",
@@ -86,7 +85,7 @@ LANGUAGES = {
     "wiktionary_name": "Burmese",
     "casefold": False
   },
-  # ISO 639-3 only.
+  # ISO 639-3 only. (See comments above Chinese)
   "yue": {
     "iso639_name": "Yue Chinese	",
     "wiktionary_name": "Cantonese",
@@ -99,6 +98,7 @@ LANGUAGES = {
     "casefold": True
   },
   # ISO 639-1 "zh", ISO 639-2 "chi/zho"
+  # For info on how Cantonese and Mandarin are distinguished within ISO 639-2 see: http://www.loc.gov/standards/iso639-2/faq.html#24
   "chi": {
     "iso639_name": "Chinese",
     "wiktionary_name": "Chinese",
@@ -400,7 +400,7 @@ LANGUAGES = {
     "wiktionary_name": "Scottish Gaelic",
     "casefold": True
   },
-  # ISO 639-1 "sh" (listed as deprecated). ISO 639-2 Serbo-Croation codes are deprecated as well. "hbs" is ISO 639-3 only. Bosnian, Croatian, Serbian and Montenegrin have their own ISO 639-2 codes
+  # ISO 639-1 "sh" (listed as deprecated). ISO 639-2 Serbo-Croatian codes are deprecated as well. "hbs" is ISO 639-3 only. Bosnian, Croatian, Serbian and Montenegrin have their own ISO 639-2 codes
   "hbs": {
     "iso639_name": "Serbo-Croatian",
     "wiktionary_name": "Serbo-Croatian",
