@@ -48,7 +48,8 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
             if " " in pron:
                 continue
             pron = config.process_pron(pron)
-            yield (word, pron)
+            if pron:
+                yield (word, pron)
 
 
 def scrape(config: Config) -> Iterator[Pair]:
