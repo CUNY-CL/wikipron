@@ -127,16 +127,16 @@ class Config:
         if no_syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
 
+        prosodic_markers = frozenset(["ˈ", "ˌ", "."])
+
         def wrapper(pron):
             for processor in processors:
                 pron = processor(pron)
             # GH-59: Skip prons that are empty, or have only stress marks or
             # syllable boundaries. The `any()` call is much faster than
             # re.match(r"[^ˈˌ.]", pron).
-            if any(c not in "ˈˌ." for c in pron):
+            if any(c not in prosodic_markers for c in pron):
                 return pron
-            else:
-                return None
 
         return wrapper
 
