@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Deprecated
 ### Removed
 ### Fixed
+- Skipped empty pronunciations in scraping. (#59)
 - Updated the `<li>` XPath selector for an optional layer of `<span>`
   to cover previously unhandled languages (e.g., Korean). (#50) 
 - Updated the `<li>` XPath selector for `title="wikipedia:<language> phonology"`
