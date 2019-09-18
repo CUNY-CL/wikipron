@@ -130,7 +130,13 @@ class Config:
         def wrapper(pron):
             for processor in processors:
                 pron = processor(pron)
-            return pron
+            # GH-59: Skip prons that are empty, or have only stress marks or
+            # syllable boundaries. The `any()` call is much faster than
+            # re.match(r"[^ˈˌ.]", pron).
+            if any(c not in "ˈˌ." for c in pron):
+                return pron
+            else:
+                return None
 
         return wrapper
 

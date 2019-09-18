@@ -48,10 +48,7 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
             if " " in pron:
                 continue
             pron = config.process_pron(pron)
-            # GH-59: Skip prons that are empty, or have only stress marks or
-            # syllable boundaries. The `any()` call is much faster than
-            # re.match(r"[^ˈˌ.]", pron).
-            if any(c not in "ˈˌ." for c in pron):
+            if pron:
                 yield (word, pron)
 
 
@@ -68,8 +65,7 @@ def scrape(config: Config) -> Iterator[Pair]:
     }
     while True:
         data = requests.get(
-            "https://en.wiktionary.org/w/api.php?",
-            params=requests_params,
+            "https://en.wiktionary.org/w/api.php?", params=requests_params
         ).json()
         yield from _scrape_once(data, config)
         if "continue" not in data:
