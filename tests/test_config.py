@@ -44,6 +44,7 @@ def test_casefold(casefold, input_word, expected_word):
         (False, False, "lɪŋ.ˈɡwɪs.tɪks", "lɪŋ.ˈɡwɪs.tɪks"),
         # GH-59: Prons with only stress or syllable boundaries are skipped.
         (False, False, "ˈ", None),
+        (False, False, "", None),
     ],
 )
 def test_process_pron(
