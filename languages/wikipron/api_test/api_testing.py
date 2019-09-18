@@ -5,6 +5,13 @@ from time import sleep
 import requests
 import os
 
+
+
+# Readme should be up a diretory.
+# TSV files should be in a sister directory.
+# This should be in a 'source' directory.
+
+# Change this to while true.
 def call_scrape(lang, config, file_extension, retries=0):
   if retries > 3:
     return None
@@ -26,7 +33,6 @@ def call_scrape(lang, config, file_extension, retries=0):
 
   file.close()
   return count
-
 
 
 def main():
@@ -65,10 +71,10 @@ def main():
 
     # Create link to appropriate tsv file, mark as phonetic or phonemic
     if phonemic_count >= phonetic_count:
-      row = [f"[TSV File]({iso639_code}_phonemic.tsv)"] + row
+      row = [f"[TSV]({iso639_code}_phonemic.tsv)"] + row
       row.extend(["Phonemic", str(phonemic_count)])
     else:
-      row = [f"[TSV File]({iso639_code}_phonetic.tsv)"] + row
+      row = [f"[TSV]({iso639_code}_phonetic.tsv)"] + row
       row.extend(["Phonetic", str(phonetic_count)])
 
 
