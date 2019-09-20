@@ -1,1 +1,206 @@
-{"alr": {"wiktionary_name": "Alutor", "total_pages": 102}, "kxd": {"wiktionary_name": "Brunei Malay", "total_pages": 284}, "yue": {"wiktionary_name": "Cantonese", "total_pages": 1098}, "crx": {"wiktionary_name": "Carrier", "total_pages": 175}, "gmw-cfr": {"wiktionary_name": "Central Franconian", "total_pages": 407}, "nci": {"wiktionary_name": "Classical Nahuatl", "total_pages": 2130}, "dlm": {"wiktionary_name": "Dalmatian", "total_pages": 182}, "sce": {"wiktionary_name": "Dongxiang", "total_pages": 122}, "arz": {"wiktionary_name": "Egyptian Arabic", "total_pages": 105}, "kld": {"wiktionary_name": "Gamilaraay", "total_pages": 465}, "nds-de": {"wiktionary_name": "German Low German", "total_pages": 121}, "afb": {"wiktionary_name": "Gulf Arabic", "total_pages": 315}, "hts": {"wiktionary_name": "Hadza", "total_pages": 283}, "acw": {"wiktionary_name": "Hijazi Arabic", "total_pages": 632}, "hrx": {"wiktionary_name": "Hunsrik", "total_pages": 786}, "quc": {"wiktionary_name": "K'iche'", "total_pages": 117}, "ayl": {"wiktionary_name": "Libyan Arabic", "total_pages": 161}, "lij": {"wiktionary_name": "Ligurian", "total_pages": 821}, "liv": {"wiktionary_name": "Livonian", "total_pages": 364}, "khb": {"wiktionary_name": "L\u00fc", "total_pages": 301}, "mfe": {"wiktionary_name": "Mauritian Creole", "total_pages": 178}, "gml": {"wiktionary_name": "Middle Low German", "total_pages": 147}, "wlm": {"wiktionary_name": "Middle Welsh", "total_pages": 135}, "nan": {"wiktionary_name": "Min Nan", "total_pages": 490}, "mnw": {"wiktionary_name": "Mon", "total_pages": 104}, "ryu": {"wiktionary_name": "Okinawan", "total_pages": 149}, "roa-opt": {"wiktionary_name": "Old Portuguese", "total_pages": 463}, "osx": {"wiktionary_name": "Old Saxon", "total_pages": 176}, "osp": {"wiktionary_name": "Old Spanish", "total_pages": 279}, "tpw": {"wiktionary_name": "Old Tupi", "total_pages": 136}, "pms": {"wiktionary_name": "Piedmontese", "total_pages": 289}, "ppl": {"wiktionary_name": "Pipil", "total_pages": 186}, "pjt": {"wiktionary_name": "Pitjantjatjara", "total_pages": 126}, "map-pro": {"wiktionary_name": "Proto-Austronesian", "total_pages": 134}, "cel-bry-pro": {"wiktionary_name": "Proto-Brythonic", "total_pages": 187}, "gem-pro": {"wiktionary_name": "Proto-Germanic", "total_pages": 3932}, "itc-pro": {"wiktionary_name": "Proto-Italic", "total_pages": 120}, "jpx-pro": {"wiktionary_name": "Proto-Japonic", "total_pages": 117}, "poz-mly-pro": {"wiktionary_name": "Proto-Malayic", "total_pages": 115}, "poz-pro": {"wiktionary_name": "Proto-Malayo-Polynesian", "total_pages": 211}, "jpx-ryu-pro": {"wiktionary_name": "Proto-Ryukyuan", "total_pages": 109}, "gmq-scy": {"wiktionary_name": "Scanian", "total_pages": 137}, "sh": {"wiktionary_name": "Serbo-Croatian", "total_pages": 45209}, "syl": {"wiktionary_name": "Sylheti", "total_pages": 224}, "twf": {"wiktionary_name": "Taos", "total_pages": 180}, "null": {"wiktionary_name": null, "total_pages": 292}, "tzo": {"wiktionary_name": "Tzotzil", "total_pages": 103}, "wau": {"wiktionary_name": "Wauja", "total_pages": 157}, "apw": {"wiktionary_name": "Western Apache", "total_pages": 164}, "gmq-bot": {"wiktionary_name": "Westrobothnian", "total_pages": 846}, "mww": {"wiktionary_name": "White Hmong", "total_pages": 306}}
+{
+    "alr": {
+        "wiktionary_name": "Alutor",
+        "total_pages": 102
+    },
+    "kxd": {
+        "wiktionary_name": "Brunei Malay",
+        "total_pages": 284
+    },
+    "yue": {
+        "wiktionary_name": "Cantonese",
+        "total_pages": 1098
+    },
+    "crx": {
+        "wiktionary_name": "Carrier",
+        "total_pages": 175
+    },
+    "gmw-cfr": {
+        "wiktionary_name": "Central Franconian",
+        "total_pages": 407
+    },
+    "nci": {
+        "wiktionary_name": "Classical Nahuatl",
+        "total_pages": 2130
+    },
+    "dlm": {
+        "wiktionary_name": "Dalmatian",
+        "total_pages": 182
+    },
+    "sce": {
+        "wiktionary_name": "Dongxiang",
+        "total_pages": 122
+    },
+    "arz": {
+        "wiktionary_name": "Egyptian Arabic",
+        "total_pages": 105
+    },
+    "kld": {
+        "wiktionary_name": "Gamilaraay",
+        "total_pages": 465
+    },
+    "nds-de": {
+        "wiktionary_name": "German Low German",
+        "total_pages": 121
+    },
+    "afb": {
+        "wiktionary_name": "Gulf Arabic",
+        "total_pages": 315
+    },
+    "hts": {
+        "wiktionary_name": "Hadza",
+        "total_pages": 283
+    },
+    "acw": {
+        "wiktionary_name": "Hijazi Arabic",
+        "total_pages": 632
+    },
+    "hrx": {
+        "wiktionary_name": "Hunsrik",
+        "total_pages": 786
+    },
+    "quc": {
+        "wiktionary_name": "K'iche'",
+        "total_pages": 117
+    },
+    "ayl": {
+        "wiktionary_name": "Libyan Arabic",
+        "total_pages": 161
+    },
+    "lij": {
+        "wiktionary_name": "Ligurian",
+        "total_pages": 821
+    },
+    "liv": {
+        "wiktionary_name": "Livonian",
+        "total_pages": 364
+    },
+    "khb": {
+        "wiktionary_name": "L\u00fc",
+        "total_pages": 301
+    },
+    "mfe": {
+        "wiktionary_name": "Mauritian Creole",
+        "total_pages": 178
+    },
+    "gml": {
+        "wiktionary_name": "Middle Low German",
+        "total_pages": 147
+    },
+    "wlm": {
+        "wiktionary_name": "Middle Welsh",
+        "total_pages": 135
+    },
+    "nan": {
+        "wiktionary_name": "Min Nan",
+        "total_pages": 490
+    },
+    "mnw": {
+        "wiktionary_name": "Mon",
+        "total_pages": 104
+    },
+    "ryu": {
+        "wiktionary_name": "Okinawan",
+        "total_pages": 150
+    },
+    "roa-opt": {
+        "wiktionary_name": "Old Portuguese",
+        "total_pages": 463
+    },
+    "osx": {
+        "wiktionary_name": "Old Saxon",
+        "total_pages": 176
+    },
+    "osp": {
+        "wiktionary_name": "Old Spanish",
+        "total_pages": 279
+    },
+    "tpw": {
+        "wiktionary_name": "Old Tupi",
+        "total_pages": 136
+    },
+    "pms": {
+        "wiktionary_name": "Piedmontese",
+        "total_pages": 289
+    },
+    "ppl": {
+        "wiktionary_name": "Pipil",
+        "total_pages": 186
+    },
+    "pjt": {
+        "wiktionary_name": "Pitjantjatjara",
+        "total_pages": 126
+    },
+    "map-pro": {
+        "wiktionary_name": "Proto-Austronesian",
+        "total_pages": 134
+    },
+    "cel-bry-pro": {
+        "wiktionary_name": "Proto-Brythonic",
+        "total_pages": 187
+    },
+    "gem-pro": {
+        "wiktionary_name": "Proto-Germanic",
+        "total_pages": 3932
+    },
+    "itc-pro": {
+        "wiktionary_name": "Proto-Italic",
+        "total_pages": 120
+    },
+    "jpx-pro": {
+        "wiktionary_name": "Proto-Japonic",
+        "total_pages": 117
+    },
+    "poz-mly-pro": {
+        "wiktionary_name": "Proto-Malayic",
+        "total_pages": 115
+    },
+    "poz-pro": {
+        "wiktionary_name": "Proto-Malayo-Polynesian",
+        "total_pages": 211
+    },
+    "jpx-ryu-pro": {
+        "wiktionary_name": "Proto-Ryukyuan",
+        "total_pages": 109
+    },
+    "gmq-scy": {
+        "wiktionary_name": "Scanian",
+        "total_pages": 137
+    },
+    "sh": {
+        "wiktionary_name": "Serbo-Croatian",
+        "total_pages": 45209
+    },
+    "syl": {
+        "wiktionary_name": "Sylheti",
+        "total_pages": 224
+    },
+    "twf": {
+        "wiktionary_name": "Taos",
+        "total_pages": 180
+    },
+    "null": {
+        "wiktionary_name": null,
+        "total_pages": 292
+    },
+    "tzo": {
+        "wiktionary_name": "Tzotzil",
+        "total_pages": 103
+    },
+    "wau": {
+        "wiktionary_name": "Wauja",
+        "total_pages": 157
+    },
+    "apw": {
+        "wiktionary_name": "Western Apache",
+        "total_pages": 164
+    },
+    "gmq-bot": {
+        "wiktionary_name": "Westrobothnian",
+        "total_pages": 846
+    },
+    "mww": {
+        "wiktionary_name": "White Hmong",
+        "total_pages": 306
+    }
+}

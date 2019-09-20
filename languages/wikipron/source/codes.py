@@ -108,10 +108,10 @@ def main():
 
     language_codes_file.close()
     with open("languages.json", "w") as json_file:
-        json_dict = json.dumps(languages_dictionary)
+        json_dict = json.dumps(languages_dictionary, indent=4)
         json_file.write(json_dict)
     with open("failed_langauges.json", "w") as failed:
-        failed_dict = json.dumps(failed_languages)
+        failed_dict = json.dumps(failed_languages, indent=4)
         failed.write(failed_dict)
 
 if __name__ == "__main__":
