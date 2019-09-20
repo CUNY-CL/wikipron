@@ -4,7 +4,6 @@ import re
 import csv
 import json
 
-
 def cat_info(cat_title):
     cat_info_params = {
         "action": "query",
@@ -41,14 +40,12 @@ def cat_members():
         cat_member_params["cmcontinue"] = continue_code
 
 
-def scrape_wiktionary_info(page_template, lang_title):
-    lang_title = lang_title.replace(" ", "_")
-    # print(lang_title)
+def scrape_wiktionary_info(lang_title):
     name = None
     code = None
 
     session = requests_html.HTMLSession()
-    language_page = session.get(page_template.format(language=lang_title), timeout=10)
+    language_page = session.get(f"https://en.wiktionary.org/wiki/{lang_title}_language", timeout=10)
     lang_table = language_page.html.find('.language-category-info > tbody > tr')
 
     i = 0
@@ -71,8 +68,6 @@ def scrape_wiktionary_info(page_template, lang_title):
 def main():
     languages_dictionary = {}
     failed_languages = {}
-    # Why is the even up here?
-    lang_page_template = "https://en.wiktionary.org/wiki/{language}_language"
 
     language_codes_file = open('language-codes-full.tsv', 'r')
     tsv_file = csv.reader(language_codes_file, delimiter="\t")
@@ -80,10 +75,12 @@ def main():
     for lang_page_title, total_pages in cat_members():    
         # Reset to beginning of tsv file, else we will continue to iterate from last match
         language_codes_file.seek(0)
+        a_language = {}
         iso639_name = None
         iso639_code = None
 
-        wiktionary_name, wiktionary_code = scrape_wiktionary_info(lang_page_template, lang_page_title)
+        # lang_page_title may come out with a space as in "Category:Ancient Greek", space replaced with _
+        wiktionary_name, wiktionary_code = scrape_wiktionary_info(lang_page_title.replace(" ", "_"))
 
         for row in tsv_file:
             # Convert ISO 639-1 and ISO 639-2 T to ISO-639-2 B and grab ISO language name.
@@ -93,22 +90,24 @@ def main():
                 break
 
         if iso639_code:
-            languages_dictionary[iso639_code] = {
+            a_language[iso639_code] = {
                 "iso639_name": iso639_name, 
                 "wiktionary_name": wiktionary_name, 
                 "wiktionary_code": wiktionary_code,
                 "casefold": None, 
                 "total_pages": total_pages
             }
+            languages_dictionary.update(a_language)
         else:
-            failed_languages[wiktionary_code] = {
+            a_language[wiktionary_code] = {
                 "wiktionary_name": wiktionary_name,
                 "total_pages": total_pages
             }
+            failed_languages.update(a_language)
 
 
     language_codes_file.close()
-    with open("languages_dictionary.json", "w") as json_file:
+    with open("languages.json", "w") as json_file:
         json_dict = json.dumps(languages_dictionary)
         json_file.write(json_dict)
     with open("failed_langauges.json", "w") as failed:
