@@ -1,6 +1,6 @@
 {
     "ady": {
-        "iso639_name": "Adyghe; Adygei",
+        "iso639_name": "Adyghe",
         "wiktionary_name": "Adyghe",
         "wiktionary_code": "ady",
         "casefold": null,
@@ -21,7 +21,7 @@
         "total_pages": 1665
     },
     "gsw": {
-        "iso639_name": "Swiss German; Alemannic; Alsatian",
+        "iso639_name": "Swiss German",
         "wiktionary_name": "Alemannic German",
         "wiktionary_code": "gsw",
         "casefold": null,
@@ -34,8 +34,15 @@
         "casefold": null,
         "total_pages": 105
     },
+    "alr": {
+        "iso639_name": "Alutor",
+        "wiktionary_name": "Alutor",
+        "wiktionary_code": "alr",
+        "casefold": null,
+        "total_pages": 102
+    },
     "grc": {
-        "iso639_name": "Greek, Ancient (to 1453)",
+        "iso639_name": "Ancient Greek (to 1453)",
         "wiktionary_name": "Ancient Greek",
         "wiktionary_code": "grc",
         "casefold": null,
@@ -49,7 +56,7 @@
         "total_pages": 3684
     },
     "arc": {
-        "iso639_name": "Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE)",
+        "iso639_name": "Official Aramaic (700-300 BCE)",
         "wiktionary_name": "Aramaic",
         "wiktionary_code": "arc",
         "casefold": null,
@@ -70,7 +77,7 @@
         "total_pages": 2350
     },
     "ast": {
-        "iso639_name": "Asturian; Bable; Leonese; Asturleonese",
+        "iso639_name": "Asturian",
         "wiktionary_name": "Asturian",
         "wiktionary_code": "ast",
         "casefold": null,
@@ -125,6 +132,13 @@
         "casefold": null,
         "total_pages": 487
     },
+    "kxd": {
+        "iso639_name": "Brunei",
+        "wiktionary_name": "Brunei Malay",
+        "wiktionary_code": "kxd",
+        "casefold": null,
+        "total_pages": 284
+    },
     "bul": {
         "iso639_name": "Bulgarian",
         "wiktionary_name": "Bulgarian",
@@ -139,12 +153,26 @@
         "casefold": null,
         "total_pages": 3961
     },
+    "yue": {
+        "iso639_name": "Yue Chinese",
+        "wiktionary_name": "Cantonese",
+        "wiktionary_code": "yue",
+        "casefold": null,
+        "total_pages": 1098
+    },
+    "crx": {
+        "iso639_name": "Carrier",
+        "wiktionary_name": "Carrier",
+        "wiktionary_code": "crx",
+        "casefold": null,
+        "total_pages": 175
+    },
     "cat": {
-        "iso639_name": "Catalan; Valencian",
+        "iso639_name": "Catalan",
         "wiktionary_name": "Catalan",
         "wiktionary_code": "ca",
         "casefold": null,
-        "total_pages": 19847
+        "total_pages": 19848
     },
     "ceb": {
         "iso639_name": "Cebuano",
@@ -154,7 +182,7 @@
         "total_pages": 202
     },
     "nya": {
-        "iso639_name": "Chichewa; Chewa; Nyanja",
+        "iso639_name": "Nyanja",
         "wiktionary_name": "Chichewa",
         "wiktionary_code": "ny",
         "casefold": null,
@@ -165,7 +193,14 @@
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
         "casefold": null,
-        "total_pages": 178909
+        "total_pages": 178910
+    },
+    "nci": {
+        "iso639_name": "Classical Nahuatl",
+        "wiktionary_name": "Classical Nahuatl",
+        "wiktionary_code": "nci",
+        "casefold": null,
+        "total_pages": 2130
     },
     "syc": {
         "iso639_name": "Classical Syriac",
@@ -195,6 +230,13 @@
         "casefold": null,
         "total_pages": 25136
     },
+    "dlm": {
+        "iso639_name": "Dalmatian",
+        "wiktionary_name": "Dalmatian",
+        "wiktionary_code": "dlm",
+        "casefold": null,
+        "total_pages": 182
+    },
     "dan": {
         "iso639_name": "Danish",
         "wiktionary_name": "Danish",
@@ -202,8 +244,15 @@
         "casefold": null,
         "total_pages": 3737
     },
+    "sce": {
+        "iso639_name": "Dongxiang",
+        "wiktionary_name": "Dongxiang",
+        "wiktionary_code": "sce",
+        "casefold": null,
+        "total_pages": 122
+    },
     "dut": {
-        "iso639_name": "Dutch; Flemish",
+        "iso639_name": "Dutch",
         "wiktionary_name": "Dutch",
         "wiktionary_code": "nl",
         "casefold": null,
@@ -222,6 +271,13 @@
         "wiktionary_code": "egy",
         "casefold": null,
         "total_pages": 2170
+    },
+    "arz": {
+        "iso639_name": "Egyptian Arabic",
+        "wiktionary_name": "Egyptian Arabic",
+        "wiktionary_code": "arz",
+        "casefold": null,
+        "total_pages": 105
     },
     "eng": {
         "iso639_name": "English",
@@ -279,6 +335,13 @@
         "casefold": null,
         "total_pages": 4030
     },
+    "kld": {
+        "iso639_name": "Gamilaraay",
+        "wiktionary_name": "Gamilaraay",
+        "wiktionary_code": "kld",
+        "casefold": null,
+        "total_pages": 465
+    },
     "geo": {
         "iso639_name": "Georgian",
         "wiktionary_name": "Georgian",
@@ -291,7 +354,7 @@
         "wiktionary_name": "German",
         "wiktionary_code": "de",
         "casefold": null,
-        "total_pages": 29297
+        "total_pages": 29301
     },
     "got": {
         "iso639_name": "Gothic",
@@ -301,11 +364,25 @@
         "total_pages": 624
     },
     "gre": {
-        "iso639_name": "Greek, Modern (1453-)",
+        "iso639_name": "Modern Greek (1453-)",
         "wiktionary_name": "Greek",
         "wiktionary_code": "el",
         "casefold": null,
-        "total_pages": 8496
+        "total_pages": 8498
+    },
+    "afb": {
+        "iso639_name": "Gulf Arabic",
+        "wiktionary_name": "Gulf Arabic",
+        "wiktionary_code": "afb",
+        "casefold": null,
+        "total_pages": 316
+    },
+    "hts": {
+        "iso639_name": "Hadza",
+        "wiktionary_name": "Hadza",
+        "wiktionary_code": "hts",
+        "casefold": null,
+        "total_pages": 283
     },
     "haw": {
         "iso639_name": "Hawaiian",
@@ -321,19 +398,33 @@
         "casefold": null,
         "total_pages": 881
     },
+    "acw": {
+        "iso639_name": "Hijazi Arabic",
+        "wiktionary_name": "Hijazi Arabic",
+        "wiktionary_code": "acw",
+        "casefold": null,
+        "total_pages": 632
+    },
     "hin": {
         "iso639_name": "Hindi",
         "wiktionary_name": "Hindi",
         "wiktionary_code": "hi",
         "casefold": null,
-        "total_pages": 8505
+        "total_pages": 8510
     },
     "hun": {
         "iso639_name": "Hungarian",
         "wiktionary_name": "Hungarian",
         "wiktionary_code": "hu",
         "casefold": null,
-        "total_pages": 45240
+        "total_pages": 45241
+    },
+    "hrx": {
+        "iso639_name": "Hunsrik",
+        "wiktionary_name": "Hunsrik",
+        "wiktionary_code": "hrx",
+        "casefold": null,
+        "total_pages": 786
     },
     "ice": {
         "iso639_name": "Icelandic",
@@ -354,7 +445,7 @@
         "wiktionary_name": "Indonesian",
         "wiktionary_code": "id",
         "casefold": null,
-        "total_pages": 1047
+        "total_pages": 1049
     },
     "ina": {
         "iso639_name": "Interlingua (International Auxiliary Language Association)",
@@ -375,14 +466,21 @@
         "wiktionary_name": "Italian",
         "wiktionary_code": "it",
         "casefold": null,
-        "total_pages": 9639
+        "total_pages": 9646
     },
     "jpn": {
         "iso639_name": "Japanese",
         "wiktionary_name": "Japanese",
         "wiktionary_code": "ja",
         "casefold": null,
-        "total_pages": 24785
+        "total_pages": 24787
+    },
+    "quc": {
+        "iso639_name": "K'iche'",
+        "wiktionary_name": "K'iche'",
+        "wiktionary_code": "quc",
+        "casefold": null,
+        "total_pages": 117
     },
     "kbd": {
         "iso639_name": "Kabardian",
@@ -399,14 +497,14 @@
         "total_pages": 103
     },
     "khm": {
-        "iso639_name": "Central Khmer",
+        "iso639_name": "Khmer",
         "wiktionary_name": "Khmer",
         "wiktionary_code": "km",
         "casefold": null,
         "total_pages": 3678
     },
     "kik": {
-        "iso639_name": "Kikuyu; Gikuyu",
+        "iso639_name": "Kikuyu",
         "wiktionary_name": "Kikuyu",
         "wiktionary_code": "ki",
         "casefold": null,
@@ -447,8 +545,22 @@
         "casefold": null,
         "total_pages": 1271
     },
+    "ayl": {
+        "iso639_name": "Libyan Arabic",
+        "wiktionary_name": "Libyan Arabic",
+        "wiktionary_code": "ayl",
+        "casefold": null,
+        "total_pages": 161
+    },
+    "lij": {
+        "iso639_name": "Ligurian",
+        "wiktionary_name": "Ligurian",
+        "wiktionary_code": "lij",
+        "casefold": null,
+        "total_pages": 821
+    },
     "lim": {
-        "iso639_name": "Limburgan; Limburger; Limburgish",
+        "iso639_name": "Limburgan",
         "wiktionary_name": "Limburgish",
         "wiktionary_code": "li",
         "casefold": null,
@@ -461,8 +573,15 @@
         "casefold": null,
         "total_pages": 12900
     },
+    "liv": {
+        "iso639_name": "Liv",
+        "wiktionary_name": "Livonian",
+        "wiktionary_code": "liv",
+        "casefold": null,
+        "total_pages": 364
+    },
     "nds": {
-        "iso639_name": "Low German; Low Saxon; German, Low; Saxon, Low",
+        "iso639_name": "Low German",
         "wiktionary_name": "Low German",
         "wiktionary_code": "nds",
         "casefold": null,
@@ -476,11 +595,18 @@
         "total_pages": 2277
     },
     "ltz": {
-        "iso639_name": "Luxembourgish; Letzeburgesch",
+        "iso639_name": "Luxembourgish",
         "wiktionary_name": "Luxembourgish",
         "wiktionary_code": "lb",
         "casefold": null,
         "total_pages": 4064
+    },
+    "khb": {
+        "iso639_name": "L\u00fc",
+        "wiktionary_name": "L\u00fc",
+        "wiktionary_code": "khb",
+        "casefold": null,
+        "total_pages": 301
     },
     "mac": {
         "iso639_name": "Macedonian",
@@ -497,7 +623,7 @@
         "total_pages": 121
     },
     "may": {
-        "iso639_name": "Malay",
+        "iso639_name": "Malay (macrolanguage)",
         "wiktionary_name": "Malay",
         "wiktionary_code": "ms",
         "casefold": null,
@@ -508,7 +634,7 @@
         "wiktionary_name": "Maltese",
         "wiktionary_code": "mt",
         "casefold": null,
-        "total_pages": 1619
+        "total_pages": 1621
     },
     "glv": {
         "iso639_name": "Manx",
@@ -524,26 +650,54 @@
         "casefold": null,
         "total_pages": 288
     },
+    "mfe": {
+        "iso639_name": "Morisyen",
+        "wiktionary_name": "Mauritian Creole",
+        "wiktionary_code": "mfe",
+        "casefold": null,
+        "total_pages": 178
+    },
     "mic": {
-        "iso639_name": "Mi'kmaq; Micmac",
+        "iso639_name": "Mi'kmaq",
         "wiktionary_name": "Mi'kmaq",
         "wiktionary_code": "mic",
         "casefold": null,
         "total_pages": 134
     },
     "dum": {
-        "iso639_name": "Dutch, Middle (ca.1050-1350)",
+        "iso639_name": "Middle Dutch (ca. 1050-1350)",
         "wiktionary_name": "Middle Dutch",
         "wiktionary_code": "dum",
         "casefold": null,
         "total_pages": 186
     },
     "enm": {
-        "iso639_name": "English, Middle (1100-1500)",
+        "iso639_name": "Middle English (1100-1500)",
         "wiktionary_name": "Middle English",
         "wiktionary_code": "enm",
         "casefold": null,
         "total_pages": 3327
+    },
+    "gml": {
+        "iso639_name": "Middle Low German",
+        "wiktionary_name": "Middle Low German",
+        "wiktionary_code": "gml",
+        "casefold": null,
+        "total_pages": 147
+    },
+    "wlm": {
+        "iso639_name": "Middle Welsh",
+        "wiktionary_name": "Middle Welsh",
+        "wiktionary_code": "wlm",
+        "casefold": null,
+        "total_pages": 135
+    },
+    "nan": {
+        "iso639_name": "Min Nan Chinese",
+        "wiktionary_name": "Min Nan",
+        "wiktionary_code": "nan",
+        "casefold": null,
+        "total_pages": 490
     },
     "mdf": {
         "iso639_name": "Moksha",
@@ -551,6 +705,13 @@
         "wiktionary_code": "mdf",
         "casefold": null,
         "total_pages": 121
+    },
+    "mnw": {
+        "iso639_name": "Mon",
+        "wiktionary_name": "Mon",
+        "wiktionary_code": "mnw",
+        "casefold": null,
+        "total_pages": 104
     },
     "mon": {
         "iso639_name": "Mongolian",
@@ -560,7 +721,7 @@
         "total_pages": 1150
     },
     "nav": {
-        "iso639_name": "Navajo; Navaho",
+        "iso639_name": "Navajo",
         "wiktionary_name": "Navajo",
         "wiktionary_code": "nv",
         "casefold": null,
@@ -595,77 +756,105 @@
         "total_pages": 1806
     },
     "nob": {
-        "iso639_name": "Bokm\u00e5l, Norwegian; Norwegian Bokm\u00e5l",
+        "iso639_name": "Norwegian Bokm\u00e5l",
         "wiktionary_name": "Norwegian Bokm\u00e5l",
         "wiktionary_code": "nb",
         "casefold": null,
         "total_pages": 1129
     },
     "nno": {
-        "iso639_name": "Norwegian Nynorsk; Nynorsk, Norwegian",
+        "iso639_name": "Norwegian Nynorsk",
         "wiktionary_name": "Norwegian Nynorsk",
         "wiktionary_code": "nn",
         "casefold": null,
         "total_pages": 1070
     },
     "oci": {
-        "iso639_name": "Occitan (post 1500); Proven\u00e7al",
+        "iso639_name": "Occitan (post 1500)",
         "wiktionary_name": "Occitan",
         "wiktionary_code": "oc",
         "casefold": null,
         "total_pages": 410
     },
+    "ryu": {
+        "iso639_name": "Central Okinawan",
+        "wiktionary_name": "Okinawan",
+        "wiktionary_code": "ryu",
+        "casefold": null,
+        "total_pages": 150
+    },
     "ang": {
-        "iso639_name": "English, Old (ca.450-1100)",
+        "iso639_name": "Old English (ca. 450-1100)",
         "wiktionary_name": "Old English",
         "wiktionary_code": "ang",
         "casefold": null,
-        "total_pages": 6260
+        "total_pages": 6261
     },
     "fro": {
-        "iso639_name": "French, Old (842-ca.1400)",
+        "iso639_name": "Old French (842-ca. 1400)",
         "wiktionary_name": "Old French",
         "wiktionary_code": "fro",
         "casefold": null,
         "total_pages": 290
     },
     "goh": {
-        "iso639_name": "German, Old High (ca.750-1050)",
+        "iso639_name": "Old High German (ca. 750-1050)",
         "wiktionary_name": "Old High German",
         "wiktionary_code": "goh",
         "casefold": null,
         "total_pages": 103
     },
     "sga": {
-        "iso639_name": "Irish, Old (to 900)",
+        "iso639_name": "Old Irish (to 900)",
         "wiktionary_name": "Old Irish",
         "wiktionary_code": "sga",
         "casefold": null,
         "total_pages": 1701
     },
     "non": {
-        "iso639_name": "Norse, Old",
+        "iso639_name": "Old Norse",
         "wiktionary_name": "Old Norse",
         "wiktionary_code": "non",
         "casefold": null,
         "total_pages": 147
     },
+    "osx": {
+        "iso639_name": "Old Saxon",
+        "wiktionary_name": "Old Saxon",
+        "wiktionary_code": "osx",
+        "casefold": null,
+        "total_pages": 176
+    },
+    "osp": {
+        "iso639_name": "Old Spanish",
+        "wiktionary_name": "Old Spanish",
+        "wiktionary_code": "osp",
+        "casefold": null,
+        "total_pages": 279
+    },
+    "tpw": {
+        "iso639_name": "Tup\u00ed",
+        "wiktionary_name": "Old Tupi",
+        "wiktionary_code": "tpw",
+        "casefold": null,
+        "total_pages": 136
+    },
     "ori": {
-        "iso639_name": "Oriya",
+        "iso639_name": "Oriya (macrolanguage)",
         "wiktionary_name": "Oriya",
         "wiktionary_code": "or",
         "casefold": null,
         "total_pages": 210
     },
     "ota": {
-        "iso639_name": "Turkish, Ottoman (1500-1928)",
+        "iso639_name": "Ottoman Turkish (1500-1928)",
         "wiktionary_name": "Ottoman Turkish",
         "wiktionary_code": "ota",
         "casefold": null,
         "total_pages": 117
     },
     "pus": {
-        "iso639_name": "Pushto; Pashto",
+        "iso639_name": "Pushto",
         "wiktionary_name": "Pashto",
         "wiktionary_code": "ps",
         "casefold": null,
@@ -676,14 +865,35 @@
         "wiktionary_name": "Persian",
         "wiktionary_code": "fa",
         "casefold": null,
-        "total_pages": 3251
+        "total_pages": 3252
+    },
+    "pms": {
+        "iso639_name": "Piemontese",
+        "wiktionary_name": "Piedmontese",
+        "wiktionary_code": "pms",
+        "casefold": null,
+        "total_pages": 289
+    },
+    "ppl": {
+        "iso639_name": "Pipil",
+        "wiktionary_name": "Pipil",
+        "wiktionary_code": "ppl",
+        "casefold": null,
+        "total_pages": 186
+    },
+    "pjt": {
+        "iso639_name": "Pitjantjatjara",
+        "wiktionary_name": "Pitjantjatjara",
+        "wiktionary_code": "pjt",
+        "casefold": null,
+        "total_pages": 126
     },
     "pol": {
         "iso639_name": "Polish",
         "wiktionary_name": "Polish",
         "wiktionary_code": "pl",
         "casefold": null,
-        "total_pages": 62003
+        "total_pages": 62006
     },
     "por": {
         "iso639_name": "Portuguese",
@@ -693,14 +903,14 @@
         "total_pages": 12771
     },
     "pan": {
-        "iso639_name": "Panjabi; Punjabi",
+        "iso639_name": "Panjabi",
         "wiktionary_name": "Punjabi",
         "wiktionary_code": "pa",
         "casefold": null,
         "total_pages": 139
     },
     "rum": {
-        "iso639_name": "Romanian; Moldavian; Moldovan",
+        "iso639_name": "Romanian",
         "wiktionary_name": "Romanian",
         "wiktionary_code": "ro",
         "casefold": null,
@@ -728,7 +938,7 @@
         "total_pages": 871
     },
     "gla": {
-        "iso639_name": "Gaelic; Scottish Gaelic",
+        "iso639_name": "Scottish Gaelic",
         "wiktionary_name": "Scottish Gaelic",
         "wiktionary_code": "gd",
         "casefold": null,
@@ -770,11 +980,11 @@
         "total_pages": 4018
     },
     "spa": {
-        "iso639_name": "Spanish; Castilian",
+        "iso639_name": "Spanish",
         "wiktionary_name": "Spanish",
         "wiktionary_code": "es",
         "casefold": null,
-        "total_pages": 48204
+        "total_pages": 48206
     },
     "srn": {
         "iso639_name": "Sranan Tongo",
@@ -789,6 +999,13 @@
         "wiktionary_code": "sv",
         "casefold": null,
         "total_pages": 2523
+    },
+    "syl": {
+        "iso639_name": "Sylheti",
+        "wiktionary_name": "Sylheti",
+        "wiktionary_code": "syl",
+        "casefold": null,
+        "total_pages": 224
     },
     "tgl": {
         "iso639_name": "Tagalog",
@@ -810,6 +1027,13 @@
         "wiktionary_code": "ta",
         "casefold": null,
         "total_pages": 1112
+    },
+    "twf": {
+        "iso639_name": "Northern Tiwa",
+        "wiktionary_name": "Taos",
+        "wiktionary_code": "twf",
+        "casefold": null,
+        "total_pages": 180
     },
     "tel": {
         "iso639_name": "Telugu",
@@ -846,6 +1070,13 @@
         "casefold": null,
         "total_pages": 4051
     },
+    "tzo": {
+        "iso639_name": "Tzotzil",
+        "wiktionary_name": "Tzotzil",
+        "wiktionary_code": "tzo",
+        "casefold": null,
+        "total_pages": 103
+    },
     "ukr": {
         "iso639_name": "Ukrainian",
         "wiktionary_name": "Ukrainian",
@@ -861,7 +1092,7 @@
         "total_pages": 657
     },
     "uig": {
-        "iso639_name": "Uighur; Uyghur",
+        "iso639_name": "Uighur",
         "wiktionary_name": "Uyghur",
         "wiktionary_code": "ug",
         "casefold": null,
@@ -872,7 +1103,7 @@
         "wiktionary_name": "Vietnamese",
         "wiktionary_code": "vi",
         "casefold": null,
-        "total_pages": 14734
+        "total_pages": 14735
     },
     "vol": {
         "iso639_name": "Volap\u00fck",
@@ -881,12 +1112,19 @@
         "casefold": null,
         "total_pages": 905
     },
+    "wau": {
+        "iso639_name": "Waur\u00e1",
+        "wiktionary_name": "Wauja",
+        "wiktionary_code": "wau",
+        "casefold": null,
+        "total_pages": 157
+    },
     "wel": {
         "iso639_name": "Welsh",
         "wiktionary_name": "Welsh",
         "wiktionary_code": "cy",
         "casefold": null,
-        "total_pages": 3835
+        "total_pages": 3836
     },
     "fry": {
         "iso639_name": "Western Frisian",
@@ -894,6 +1132,20 @@
         "wiktionary_code": "fy",
         "casefold": null,
         "total_pages": 641
+    },
+    "apw": {
+        "iso639_name": "Western Apache",
+        "wiktionary_name": "Western Apache",
+        "wiktionary_code": "apw",
+        "casefold": null,
+        "total_pages": 164
+    },
+    "mww": {
+        "iso639_name": "Hmong Daw",
+        "wiktionary_name": "White Hmong",
+        "wiktionary_code": "mww",
+        "casefold": null,
+        "total_pages": 306
     },
     "xho": {
         "iso639_name": "Xhosa",
@@ -917,14 +1169,14 @@
         "total_pages": 340
     },
     "zza": {
-        "iso639_name": "Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki",
+        "iso639_name": "Zaza",
         "wiktionary_name": "Zazaki",
         "wiktionary_code": "zza",
         "casefold": null,
         "total_pages": 189
     },
     "zha": {
-        "iso639_name": "Zhuang; Chuang",
+        "iso639_name": "Zhuang",
         "wiktionary_name": "Zhuang",
         "wiktionary_code": "za",
         "casefold": null,

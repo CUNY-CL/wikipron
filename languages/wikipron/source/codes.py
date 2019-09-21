@@ -41,6 +41,7 @@ def cat_members():
 
 
 def scrape_wiktionary_info(lang_title):
+    print(lang_title)
     name = None
     code = None
 
@@ -69,8 +70,11 @@ def main():
     languages_dictionary = {}
     failed_languages = {}
 
-    language_codes_file = open('language-codes-full.tsv', 'r')
+    language_codes_file = open("iso-639-3_20190408.tsv", "r")
+    # language_codes_file = open("language-codes-full.tsv", "r")
     tsv_file = csv.reader(language_codes_file, delimiter="\t")
+
+
 
     for lang_page_title, total_pages in cat_members():    
         # Reset to beginning of tsv file, else we will continue to iterate from last match
@@ -82,12 +86,21 @@ def main():
         # lang_page_title may come out with a space as in "Category:Ancient Greek", space replaced with _
         wiktionary_name, wiktionary_code = scrape_wiktionary_info(lang_page_title.replace(" ", "_"))
 
+        # Inefficient (particularly when using full ISO 639-3 codes), but I can't find a faster way. 
         for row in tsv_file:
-            # Convert ISO 639-1 and ISO 639-2 T to ISO-639-2 B and grab ISO language name.
-            if wiktionary_code == row[2] or wiktionary_code == row[1] or wiktionary_code == row[0]:
-                iso639_name = row[3]
-                iso639_code = row[0]
+            # Catches ISO 639-1 (row[3]), ISO 639-2 T (row[2]) and ISO-639-2 B (row[1]) 
+            # Converts all to ISO-639-2 B (row[1]).
+            if wiktionary_code == row[3] or wiktionary_code == row[2] or wiktionary_code == row[1]:
+                iso639_name = row[6]
+                iso639_code = row[1]
                 break
+            # Catches ISO 639-3 codes, converts to ISO 639-2 B if it is not ISO 693-3 only.
+            # Accepts ISO 639-3 code if it is ISO 693-3 only
+            if wiktionary_code == row[0]:
+                iso639_name = row[6]
+                iso639_code = row[1] if row[1] else row[0]
+                break
+
 
         if iso639_code:
             a_language[iso639_code] = {
@@ -107,10 +120,13 @@ def main():
 
 
     language_codes_file.close()
+    # All languages with more than 100 entries
     with open("languages.json", "w") as json_file:
         json_dict = json.dumps(languages_dictionary, indent=4)
         json_file.write(json_dict)
-    with open("failed_langauges.json", "w") as failed:
+    # All languages with more than 100 entries that failed to be paired with data in language-codes-full.tsv
+    # Most likely cause is because their wiktionary codes are ISO 639-3 only
+    with open("failed_languages.json", "w") as failed:
         failed_dict = json.dumps(failed_languages, indent=4)
         failed.write(failed_dict)
 
