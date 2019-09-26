@@ -21,7 +21,7 @@
     },
     "gem-pro": {
         "wiktionary_name": "Proto-Germanic",
-        "total_pages": 3932
+        "total_pages": 3934
     },
     "itc-pro": {
         "wiktionary_name": "Proto-Italic",
@@ -29,11 +29,11 @@
     },
     "jpx-pro": {
         "wiktionary_name": "Proto-Japonic",
-        "total_pages": 117
+        "total_pages": 118
     },
     "poz-mly-pro": {
         "wiktionary_name": "Proto-Malayic",
-        "total_pages": 115
+        "total_pages": 117
     },
     "poz-pro": {
         "wiktionary_name": "Proto-Malayo-Polynesian",
@@ -41,18 +41,14 @@
     },
     "jpx-ryu-pro": {
         "wiktionary_name": "Proto-Ryukyuan",
-        "total_pages": 109
+        "total_pages": 110
     },
     "gmq-scy": {
         "wiktionary_name": "Scanian",
         "total_pages": 137
     },
-    "sh": {
-        "wiktionary_name": "Serbo-Croatian",
-        "total_pages": 45209
-    },
     "gmq-bot": {
         "wiktionary_name": "Westrobothnian",
-        "total_pages": 846
+        "total_pages": 845
     }
 }
