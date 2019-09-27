@@ -59,3 +59,16 @@
 | [TSV](tsv_files/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 60352 |
 | [TSV](tsv_files/por_phonemic.tsv) | por | Portuguese | Portuguese | True | Phonemic | 20336 |
 | [TSV](tsv_files/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4330 |
+| [TSV](tsv_files/san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 5306 |
+| [TSV](tsv_files/gla_phonemic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonemic | 894 |
+| [TSV](tsv_files/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3792 |
+| [TSV](tsv_files/slv_phonemic.tsv) | slv | Slovenian | Slovene | True | Phonemic | 4439 |
+| [TSV](tsv_files/spa_phonemic.tsv) | spa | Spanish; Castilian | Spanish | True | Phonemic | 56409 |
+| [TSV](tsv_files/swe_phonemic.tsv) | swe | Swedish | Swedish | True | Phonemic | 2641 |
+| [TSV](tsv_files/tgl_phonemic.tsv) | tgl | Tagalog | Tagalog | True | Phonemic | 1377 |
+| [TSV](tsv_files/tam_phonemic.tsv) | tam | Tamil | Tamil | False | Phonemic | 1073 |
+| [TSV](tsv_files/tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2020 |
+| [TSV](tsv_files/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 1642 |
+| [TSV](tsv_files/vie_phonetic.tsv) | vie | Vietnamese | Vietnamese | True | Phonetic | 13136 |
+| [TSV](tsv_files/wel_phonemic.tsv) | wel | Welsh | Welsh | True | Phonemic | 9670 |
+| [TSV](tsv_files/zul_phonemic.tsv) | zul | Zulu | Zulu | True | Phonemic | 915 |
