@@ -19,10 +19,10 @@ def call_scrape(lang, config, file_extension):
       return count
     except (requests.exceptions.Timeout, requests.exceptions.ConnectionError) as err:
       print("Timeout or connection error detected during scrape.", lang, file_extension, str(datetime.now()), err)
-      # Pause execution for 15 min.
-      sleep(900)
+      # Pause execution for 30 min.
+      sleep(1800)
       retries += 1
-      if retries > 5:
+      if retries > 9:
         file.close()
         return None
       else: 
@@ -43,9 +43,12 @@ def main():
     phonetic_config = wikipron.Config(key=iso639_code, casefold=LANGUAGES[iso639_code]["casefold"], phonetic=True, no_stress=True, no_syllable_boundaries=True)
 
     phonemic_count = call_scrape(iso639_code, phonemic_config, "_phonemic")
-    phonetic_count = call_scrape(iso639_code, phonetic_config, "_phonetic")
+    # Skip phonetic if phonemic failed to complete scrape
+    if phonemic_count != None:
+      phonetic_count = call_scrape(iso639_code, phonetic_config, "_phonetic")
 
-    # Remove files for languages that failed to be scraped in 4 tries.
+    # Remove files for languages that failed to be scraped within set amount of retries.
+    # Will remove both phonemic and phonetic tsv files even if it only failed to scrape one of those two.
     if phonemic_count == None or phonetic_count == None:
       print(f"TOO MANY RETRIES ON {iso639_code} MOVING ON TO NEXT.")
       os.remove(f"../tsv_files/{iso639_code}_phonemic.tsv")
