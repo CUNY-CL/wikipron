@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Added
+- TSV files for all Wiktionary languages with over 1000 entries (except Russian) (#61)
 - Resolved Wiktionary language names for languages with at least 100
   pronunciation entries. (#52, #55)
 
