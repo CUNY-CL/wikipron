@@ -14,6 +14,7 @@
 | [TSV](tsv_files/bul_phonemic.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic | 34828 |
 | [TSV](tsv_files/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 3951 |
 | [TSV](tsv_files/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 44952 |
+| [TSV](tsv_files/chi_phonemic.tsv) | chi | Chinese | Chinese | False | Phonemic | 4 |
 | [TSV](tsv_files/nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1181 |
 | [TSV](tsv_files/syc_phonetic.tsv) | syc | Classical Syriac | Classical Syriac | False | Phonetic | 6258 |
 | [TSV](tsv_files/cze_phonetic.tsv) | cze | Czech | Czech | True | Phonetic | 19672 |
