@@ -20,7 +20,11 @@ def readme_insert(lang_dict, row_string):
         readme_text = readme_file.read()
         readme_list.extend(readme_text.splitlines(True))
         length = len(readme_list)
-        if length <= 3 or lang_dict["wiktionary_name"] > readme_list[length - 1].split("|")[4][1:-1]:
+        wiki_name_of_last_entry = readme_list[length - 1].split("|")[4][1:-1]
+        if (
+              length <= 3 or
+              lang_dict["wiktionary_name"] > wiki_name_of_last_entry
+            ):
             # Write the input string to the end
             readme_file.write(row_string)
         else:

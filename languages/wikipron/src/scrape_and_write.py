@@ -10,7 +10,7 @@ def call_scrape(lang, config, file_extension):
     retries = 0
 
     while retries < 10:
-        file = open(f"../tsv_files/{lang}{file_extension}.tsv", "w")
+        file = open(f"../tsv/{lang}{file_extension}.tsv", "w")
         count = 0
         try:
             for (word, pron) in wikipron.scrape(config):
@@ -81,8 +81,8 @@ def main():
                 "_phonetic"
             )
 
-        phonemic_path = f"../tsv_files/{iso639_code}_phonemic.tsv"
-        phonetic_path = f"../tsv_files/{iso639_code}_phonetic.tsv"
+        phonemic_path = f"../tsv/{iso639_code}_phonemic.tsv"
+        phonetic_path = f"../tsv/{iso639_code}_phonetic.tsv"
         # Remove files for languages that failed to be scraped
         # within set amount of retries.
         if phonemic_count is None or phonetic_count is None:
@@ -109,10 +109,10 @@ def main():
 
         # Create link to appropriate tsv file, mark as phonetic or phonemic
         if phonemic_count >= phonetic_count:
-            row = [f"[TSV](tsv_files/{iso639_code}_phonemic.tsv)"] + row
+            row = [f"[TSV](tsv/{iso639_code}_phonemic.tsv)"] + row
             row.extend(["Phonemic", str(phonemic_count)])
         else:
-            row = [f"[TSV](tsv_files/{iso639_code}_phonetic.tsv)"] + row
+            row = [f"[TSV](tsv/{iso639_code}_phonetic.tsv)"] + row
             row.extend(["Phonetic", str(phonetic_count)])
 
         readme_row_string = "| " + " | ".join(row) + " |\n"

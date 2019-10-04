@@ -140,7 +140,11 @@ def main():
                 "iso639_name": iso639_name,
                 "wiktionary_name": wiktionary_name,
                 "wiktionary_code": wiktionary_code,
-                "casefold": prev_languages[iso639_code]["casefold"] if iso639_code in prev_languages else None,
+                "casefold": (
+                    prev_languages[iso639_code]["casefold"]
+                    if iso639_code in prev_languages
+                    else None
+                ),
                 "total_pages": total_pages
             }
             new_languages.update(lang)
