@@ -15,7 +15,7 @@ Wikitionary language name.
 
 
 def readme_insert(lang_dict, row_string):
-    with open("../README.md", "r+") as readme_file:
+    with open("../tsv/README.md", "r+") as readme_file:
         readme_list = []
         readme_text = readme_file.read()
         readme_list.extend(readme_text.splitlines(True))

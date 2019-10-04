@@ -1,4 +1,5 @@
 import wikipron
+from readme_insert import readme_insert
 from datetime import datetime
 from time import sleep
 import requests
@@ -40,7 +41,6 @@ def call_scrape(lang, config, file_extension):
 
 
 def main():
-    readme_file = open("../README.md", "a")
     languages_file = open("languages.json", "r")
     LANGUAGES = json.load(languages_file)
 
@@ -116,9 +116,7 @@ def main():
             row.extend(["Phonetic", str(phonetic_count)])
 
         readme_row_string = "| " + " | ".join(row) + " |\n"
-        readme_file.write(readme_row_string)
-
-    readme_file.close()
+        readme_insert(LANGUAGES[iso639_code], readme_row_string)
 
 
 if __name__ == "__main__":
