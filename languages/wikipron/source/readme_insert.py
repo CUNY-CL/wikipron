@@ -1,8 +1,8 @@
 """
 This is a helper function that is useful only
-when want to add to an already built
-README table and keep the table
-alphabetical according to Wiktionary language name.
+when using scrape_and_write.py to add to an already built
+README table. This function will keep the table in
+alphabetical order according to Wiktionary language name.
 If the README table has no language entries and
 we know that we are only going to run scrape_and_write.py once
 with languages obtained through running codes.py,
