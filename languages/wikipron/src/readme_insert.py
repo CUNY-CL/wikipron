@@ -1,17 +1,5 @@
-"""
-This is a helper function that is useful only
-when using scrape_and_write.py to add to an already built
-README table. This function will keep the table in
-alphabetical order according to Wiktionary language name.
-If the README table has no language entries and
-we know that we are only going to run scrape_and_write.py once
-with languages obtained through running codes.py,
-then opening the file for appending and running
-readme_file.write(readme_string)
-is preferable as the languages will already be
-in alphabetical order according to their
-Wikitionary language name.
-"""
+# This function will keep the "../tsv/README.md" table in
+# alphabetical order according to Wiktionary language name.
 
 
 def readme_insert(lang_dict, row_string):
@@ -20,9 +8,13 @@ def readme_insert(lang_dict, row_string):
         readme_text = readme_file.read()
         readme_list.extend(readme_text.splitlines(True))
         length = len(readme_list)
-        wiki_name_of_last_entry = readme_list[length - 1].split("|")[4][1:-1]
+        wiki_name_of_last_entry = readme_list[-1].split("|")[4][1:-1]
+        # If the table is only a newline, a row of headers,
+        # and a formatting row;
+        # or if the Wiktionary name of the last entry
+        # is alphabetically prior to the name we are adding
         if (
-              length <= 3 or
+              length == 3 or
               lang_dict["wiktionary_name"] > wiki_name_of_last_entry
             ):
             # Write the input string to the end
@@ -30,9 +22,11 @@ def readme_insert(lang_dict, row_string):
         else:
             for i in range(3, length):
                 isolated_name = readme_list[i].split("|")[4][1:-1]
+                # Replace old row
                 if isolated_name == lang_dict["wiktionary_name"]:
                     readme_list[i] = row_string
                     break
+                # Insert new row
                 if isolated_name > lang_dict["wiktionary_name"]:
                     readme_list.insert(i, row_string)
                     break
