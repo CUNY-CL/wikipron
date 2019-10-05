@@ -109,10 +109,10 @@ def main():
 
         # Create link to appropriate tsv file, mark as phonetic or phonemic
         if phonemic_count >= phonetic_count:
-            row = [f"[TSV](tsv/{iso639_code}_phonemic.tsv)"] + row
+            row = [f"[TSV]({iso639_code}_phonemic.tsv)"] + row
             row.extend(["Phonemic", str(phonemic_count)])
         else:
-            row = [f"[TSV](tsv/{iso639_code}_phonetic.tsv)"] + row
+            row = [f"[TSV]({iso639_code}_phonetic.tsv)"] + row
             row.extend(["Phonetic", str(phonetic_count)])
 
         readme_row_string = "| " + " | ".join(row) + " |\n"
