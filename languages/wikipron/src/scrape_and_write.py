@@ -24,7 +24,7 @@ def call_scrape(lang, config, filename_suffix):
             requests.exceptions.ConnectionError
         ):
             logging.info(
-                "Exception detected while scraping: '%s', '%s'. Restarting.",
+                'Exception detected while scraping: "%s", "%s". Restarting.',
                 lang, filename_suffix
             )
             # Pause execution for 10 min.
@@ -39,7 +39,7 @@ def call_scrape(lang, config, filename_suffix):
 
 def main():
     logging.basicConfig(
-        format="%(module)s %(levelname)s: %(asctime)s - %(message)s",
+        format="%(filename)s %(levelname)s: %(asctime)s - %(message)s",
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO"
     )
@@ -82,7 +82,7 @@ def main():
         # within set amount of retries.
         if phonemic_count is None or phonetic_count is None:
             logging.info(
-                "Failed to scrape '%s', moving on to next language.",
+                'Failed to scrape "%s", moving on to next language.',
                 LANGUAGES[iso639_code]["wiktionary_name"]
             )
             if os.path.exists(phonemic_path):
@@ -90,11 +90,10 @@ def main():
             if os.path.exists(phonetic_path):
                 os.remove(phonetic_path)
             continue
-        # Remove files for languages that failed to call scrape altogether
-        # or for which wikipron returned nothing
+        # Remove files for languages that returned nothing
         elif phonemic_count == 0 and phonetic_count == 0:
             logging.info(
-                "'%s', returned no entries in phonemic and phonetic settings.",
+                '"%s", returned no entries in phonemic and phonetic settings.',
                 LANGUAGES[iso639_code]["wiktionary_name"]
             )
             os.remove(phonemic_path)
@@ -103,13 +102,13 @@ def main():
         # Remove empty tsv files
         elif phonemic_count == 0:
             logging.info(
-                "'%s', has no entries in phonemic transcription.",
+                '"%s", has no entries in phonemic transcription.',
                 LANGUAGES[iso639_code]["wiktionary_name"]
             )
             os.remove(phonemic_path)
         elif phonetic_count == 0:
             logging.info(
-                "'%s', has no entries in phonetic transcription.",
+                '"%s", has no entries in phonetic transcription.',
                 LANGUAGES[iso639_code]["wiktionary_name"]
             )
             os.remove(phonetic_path)

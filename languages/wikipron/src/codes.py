@@ -112,12 +112,12 @@ def main():
     language_codes_file = open("iso-639-3_20190408.tsv", "r")
     iso_list = csv.reader(language_codes_file, delimiter="\t")
     logging.basicConfig(
-        format="%(module)s %(levelname)s: %(message)s",
+        format="%(filename)s %(levelname)s: %(message)s",
         level="INFO"
     )
 
     for lang_page_title, total_pages in cat_members():
-        logging.info("Working on: %s", lang_page_title)
+        logging.info('Working on: "%s"', lang_page_title)
         lang = {}
         iso639_name = None
         iso639_code = None
