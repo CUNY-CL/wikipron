@@ -23,6 +23,7 @@ import requests_html
 import re
 import csv
 import json
+import logging
 
 
 def cat_info(cat_title):
@@ -49,8 +50,6 @@ def cat_info(cat_title):
                 v["title"][0:isolate_language_category.start()],
                 num_of_pages
             )
-        else:
-            continue
 
 
 def cat_members():
@@ -112,8 +111,13 @@ def main():
     prev_languages = json.load(prev_languages_file)
     language_codes_file = open("iso-639-3_20190408.tsv", "r")
     iso_list = csv.reader(language_codes_file, delimiter="\t")
+    logging.basicConfig(
+        format="%(module)s %(levelname)s: %(message)s",
+        level="INFO"
+    )
 
     for lang_page_title, total_pages in cat_members():
+        logging.info("Currently scraping %s", lang_page_title)
         lang = {}
         iso639_name = None
         iso639_code = None

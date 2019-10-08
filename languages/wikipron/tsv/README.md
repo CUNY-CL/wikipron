@@ -14,7 +14,6 @@
 | [TSV](bul_phonemic.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic | 34828 |
 | [TSV](bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 3951 |
 | [TSV](cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 44952 |
-| [TSV](chi_phonemic.tsv) | chi | Chinese | Chinese | False | Phonemic | 4 |
 | [TSV](nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1181 |
 | [TSV](syc_phonetic.tsv) | syc | Classical Syriac | Classical Syriac | False | Phonetic | 6258 |
 | [TSV](cze_phonetic.tsv) | cze | Czech | Czech | True | Phonetic | 19672 |
@@ -60,6 +59,7 @@
 | [TSV](pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 60352 |
 | [TSV](por_phonemic.tsv) | por | Portuguese | Portuguese | True | Phonemic | 20336 |
 | [TSV](rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4330 |
+| [TSV](rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 389630 |
 | [TSV](san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 5306 |
 | [TSV](gla_phonemic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonemic | 894 |
 | [TSV](slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3792 |
