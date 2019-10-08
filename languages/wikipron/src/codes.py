@@ -112,7 +112,7 @@ def main():
     language_codes_file = open("iso-639-3_20190408.tsv", "r")
     iso_list = csv.reader(language_codes_file, delimiter="\t")
     logging.basicConfig(
-        format="%(module)s %(levelname)s - %(message)s",
+        format="%(module)s %(levelname)s: %(message)s",
         level="INFO"
     )
 
