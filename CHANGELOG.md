@@ -22,6 +22,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   to cover previously unhandled languages (e.g., Estonian and Slovak). (#49)
 
 ### Security
+- Avoided using `exec` to retrieve the version string.
+  Used `pkg_resources` instead. (#63)
 
 ## [0.1.1] - 2019-08-14
 

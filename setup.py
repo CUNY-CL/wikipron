@@ -2,6 +2,8 @@ import os
 import setuptools
 
 
+_VERSION = "0.1.1"
+
 if getattr(setuptools, "__version__", "0") < "39":
     # v36.4.0+ needed to automatically include README.md in packaging
     # v38.6.0+ needed for long_description_content_type in setup()
@@ -12,10 +14,6 @@ if getattr(setuptools, "__version__", "0") < "39":
 
 _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
-with open(os.path.join(_THIS_DIR, "wikipron", "_version.py")) as f:
-    # get __version__
-    exec(f.read())
-
 with open(os.path.join(_THIS_DIR, "README.md")) as f:
     _LONG_DESCRIPTION = f.read().strip()
 
@@ -23,7 +21,7 @@ with open(os.path.join(_THIS_DIR, "README.md")) as f:
 def main():
     setuptools.setup(
         name="wikipron",
-        version=__version__,  # noqa: F821
+        version=_VERSION,
         author="Kyle Gorman, Jackson Lee, Elizabeth Garza",
         author_email="kylebgorman@gmail.com",
         description="Scraping grapheme-to-phoneme data from Wiktionary.",
@@ -43,7 +41,7 @@ def main():
         packages=setuptools.find_packages(),
         python_requires=">=3.6",
         zip_safe=False,
-        install_requires=["requests", "requests-html", "iso639"],
+        install_requires=["iso639", "requests", "requests-html", "setuptools"],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
         classifiers=[
             "Programming Language :: Python :: 3",
