@@ -23,7 +23,7 @@ def readme_insert(lang_dict, row_string):
             for i in range(3, length):
                 isolated_name = readme_list[i].split("|")[4][1:-1]
                 # Replace old row
-                if isolated_name == lang_dict["wiktionary_name"]:
+                if isolated_name == lang_dict["wiktionary_name"] and row_string.split("|")[6][1:-1] in readme_list[i]:
                     readme_list[i] = row_string
                     break
                 # Insert new row

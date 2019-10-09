@@ -113,16 +113,17 @@ def main():
             )
             os.remove(phonetic_path)
 
-        # Create link to appropriate tsv file, mark as phonetic or phonemic
-        if phonemic_count >= phonetic_count:
-            row = [f"[TSV]({iso639_code}_phonemic.tsv)"] + row
-            row.extend(["Phonemic", str(phonemic_count)])
-        else:
-            row = [f"[TSV]({iso639_code}_phonetic.tsv)"] + row
-            row.extend(["Phonetic", str(phonetic_count)])
-
-        readme_row_string = "| " + " | ".join(row) + " |\n"
-        readme_insert(LANGUAGES[iso639_code], readme_row_string)
+        # Create link to tsvs
+        if phonetic_count != 0:
+            phonetic_row = [f"[TSV]({iso639_code}_phonetic.tsv)"] + row
+            phonetic_row.extend(["Phonetic", str(phonetic_count)])
+            phonetic_readme_row_string = "| " + " | ".join(phonetic_row) + " |\n"
+            readme_insert(LANGUAGES[iso639_code], phonetic_readme_row_string)
+        if phonemic_count != 0:
+            phonemic_row = [f"[TSV]({iso639_code}_phonemic.tsv)"] + row
+            phonemic_row.extend(["Phonemic", str(phonemic_count)])
+            phonemic_readme_row_string = "| " + " | ".join(phonemic_row) + " |\n"
+            readme_insert(LANGUAGES[iso639_code], phonemic_readme_row_string)
 
 
 if __name__ == "__main__":
