@@ -1,16 +1,15 @@
 "Big scrape" scripts
 ====================
 
-[scrape\_and\_write.py](./src/scrape_and_write.py) was built to call Wikipron's
-scrape function on all Wiktionary languages with over 100 entries. It writes the
-results of those scrape calls to tsvs and generates a [README](./tsv/README.md)
-with selected information regarding the contents of those tsvs and the
-configuration settings that were passed to scrape.
-[languages.json](./src/languages.json) provides
-[scrape\_and\_write.py](./src/scrape_and_write.py) with a dictionary containing
-the information it needs to call scrape on all Wiktionary languages with over
-100 entries as well as to generate the previously mentioned
-[README](./tsv/README.md). [codes.py](./src/codes.py) is used to generate
+[scrape.py](./src/scrape.py) calls WikiPron's scraping functions on all
+Wiktionary languages with over 100 entries. It writes the results of those
+scrape calls to TSVs and generates a [README](./tsv/README.md) with selected
+information regarding the contents of those TSVs and the configuration settings
+that were passed to scrape. [languages.json](./src/languages.json) provides
+[scrape.py](./src/scrape.py) with a dictionary containing the information it
+needs to call scrape on all Wiktionary languages with over 100 entries as well
+as to generate the previously mentioned [README](./tsv/README.md).
+[codes.py](./src/codes.py) is used to generate
 [languages.json](./src/languages.json). It queries Wiktionary for all languages
 with over 100 entries. It also outputs
 [failed\_langauges.json](./src/failed_languages.json), a list of languages on
@@ -36,4 +35,4 @@ Steps used to update the dataset
         updated for every language already in
         [languages.json](./src/languages.json). Instead just search for `null`
         values within [languages.json](./src/languages.json).
-2.  Run [scrape\_and\_write.py](./src/scrape_and_write.py).
+2.  Run [scrape.py](./src/scrape.py).
