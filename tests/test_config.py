@@ -38,10 +38,10 @@ def test_casefold(casefold, input_word, expected_word):
 @pytest.mark.parametrize(
     "no_stress, no_syllable_boundaries, input_pron, expected_pron",
     [
-        (True, True, "lɪŋ.ˈɡwɪs.tɪks", "lɪŋɡwɪstɪks"),
-        (True, False, "lɪŋ.ˈɡwɪs.tɪks", "lɪŋ.ɡwɪs.tɪks"),
-        (False, True, "lɪŋ.ˈɡwɪs.tɪks", "lɪŋˈɡwɪstɪks"),
-        (False, False, "lɪŋ.ˈɡwɪs.tɪks", "lɪŋ.ˈɡwɪs.tɪks"),
+        (True, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ɡ w ɪ s t ɪ k s"),
+        (True, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ɡ w ɪ s . t ɪ k s"),
+        (False, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ˈ ɡ w ɪ s t ɪ k s"),
+        (False, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ˈ ɡ w ɪ s . t ɪ k s"),
         # GH-59: Prons with only stress or syllable boundaries are skipped.
         (False, False, "ˈ", None),
         (False, False, "", None),
@@ -53,6 +53,18 @@ def test_process_pron(
     config = config_factory(
         no_stress=no_stress, no_syllable_boundaries=no_syllable_boundaries
     )
+    assert config.process_pron(input_pron) == expected_pron
+
+
+@pytest.mark.parametrize(
+    "no_segment, input_pron, expected_pron",
+    [
+        (False, "lɛ̃.ɡɥis.tik", "l ɛ̃ . ɡ ɥ i s . t i k"),
+        (True, "lɛ̃.ɡɥis.tik", "lɛ̃.ɡɥis.tik"),
+    ],
+)
+def test_no_segment(no_segment, input_pron, expected_pron):
+    config = config_factory(no_segment=no_segment)
     assert config.process_pron(input_pron) == expected_pron
 
 
