@@ -71,6 +71,11 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
             "overridden. If not given, results appear in stdout."
         ),
     )
+    parser.add_argument(
+        "--no-segment",
+        action="store_true",
+        help="Disable IPA segmentation with added whitespace."
+    )
     return parser.parse_args(args)
 
 

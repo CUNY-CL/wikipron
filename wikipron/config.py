@@ -7,6 +7,7 @@ import sys
 from typing import Callable, Optional, TextIO
 
 import iso639
+import unicodedata
 
 from wikipron.languagecodes import LANGUAGE_CODES
 
@@ -31,6 +32,50 @@ _DIALECT_SELECTOR_TEMPLATE = (
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
 
+# unicodedata does not have a way to check "modifier" codepoints
+# so we compile a set here.
+# see https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode
+UNICODE_MODIFIERS = frozenset(
+    [
+        "ˡ",
+        "ˍ",
+        "ʲ",
+        "ˠ",
+        "˺",
+        "ː",
+        "˞",
+        "˽",
+        "ˬ",
+        "˖",
+        "ʰ",
+        "ˤ",
+        "˳",
+        "˟",
+        "ⁿ",
+        "ʷ",
+        "˕",
+        "ˌ",
+        "˷",
+        "˔",
+    ]
+)
+
+
+def _parse_combining_modifiers(pron: str) -> str:
+    """Keep combining/modifier diacritics with the previous character and
+    unambiguously segment IPA prons with added whitespace.
+    """
+    chars = []
+    for char in pron:
+        # Unicode has separate codepoints for combining and modifying chars
+        # so we have to check for both.
+        if unicodedata.combining(char) or char in UNICODE_MODIFIERS:
+            last_char = chars.pop()
+            chars.append(f"{last_char}{char}")
+        else:
+            chars.append(char)
+    return " ".join(chars)
+
 
 class Config:
     """Configuration for a scraping run.
@@ -54,12 +99,13 @@ class Config:
         phonetic: bool = False,
         dialect: Optional[str] = None,
         require_dialect_label: bool = False,
+        no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
         self.output: Optional[str] = self._get_output(output)
         self.casefold: Callable[[str], str] = self._get_casefold(casefold)
         self.process_pron: Callable[[str], str] = self._get_process_pron(
-            no_stress, no_syllable_boundaries
+            no_stress, no_syllable_boundaries, no_segment
         )
         _cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.process_word: Callable[[str, str], str] = self._get_process_word(
@@ -119,13 +165,16 @@ class Config:
         return str.casefold if casefold else lambda word: word  # noqa: E731
 
     def _get_process_pron(
-        self, no_stress: bool, no_syllable_boundaries: bool
+        self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
     ) -> Callable[[str], str]:
+
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
         if no_syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
+        if not no_segment:
+            processors.append(_parse_combining_modifiers)
 
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
