@@ -34,6 +34,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--dialect",
+        # TODO: Update help string
         help=(
             "Retrieve entries that have this dialect specification. "
             "If not given, then all dialects are included in the output. "
@@ -41,14 +42,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
             'e.g., "UK" or "US" in "(UK, US) IPA: /təˈmɑːtəʊ/". '
             'To include more than one dialect, use a pipe "|" to separate '
             'the dialect names, e.g., --dialect="General American | US".'
-        ),
-    )
-    parser.add_argument(
-        "--require-dialect-label",
-        action="store_true",
-        help=(
-            "Include only entries that have a dialect specification. "
-            "If applied, then --dialect must also be used."
         ),
     )
     parser.add_argument(
@@ -74,7 +67,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--no-segment",
         action="store_true",
-        help="Disable IPA segmentation with added whitespace."
+        help="Disable IPA segmentation with added whitespace.",
     )
     return parser.parse_args(args)
 

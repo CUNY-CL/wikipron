@@ -115,11 +115,10 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
 
 
 @pytest.mark.parametrize(
-    "dialect, require_dialect_label, expected_li_selector",
+    "dialect, expected_li_selector",
     [
         (
             None,
-            False,
             (
                 "\n//li[\n"
                 "  (.|span)[sup[a[\n"
@@ -129,15 +128,12 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
                 "  ]]]\n"
                 "  and\n"
                 '  span[@class = "IPA"]\n'
-                "  and\n"
-                "  (true()\n"
-                '   or count(span[@class = "ib-content qualifier-content"]) = 0)\n'  # noqa: E501
+                "  \n"
                 "]\n"
             ),
         ),
         (
             "US",
-            False,
             (
                 "\n//li[\n"
                 "  (.|span)[sup[a[\n"
@@ -154,25 +150,7 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
             ),
         ),
         (
-            "US",
-            True,
-            (
-                "\n//li[\n"
-                "  (.|span)[sup[a[\n"
-                '    @title = "Appendix:English pronunciation"\n'
-                "    or\n"
-                '    @title = "wikipedia:English phonology"\n'
-                "  ]]]\n"
-                "  and\n"
-                '  span[@class = "IPA"]\n'
-                "  and\n"
-                '  (span[@class = "ib-content qualifier-content" and a[text() = "US"]])\n'  # noqa: E501
-                "]\n"
-            ),
-        ),
-        (
             "General American | US",
-            False,
             (
                 "\n//li[\n"
                 "  (.|span)[sup[a[\n"
@@ -190,10 +168,8 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
         ),
     ],
 )
-def test_li_selector(dialect, require_dialect_label, expected_li_selector):
-    config = config_factory(
-        key="en", dialect=dialect, require_dialect_label=require_dialect_label
-    )
+def test_li_selector(dialect, expected_li_selector):
+    config = config_factory(key="en", dialect=dialect)
     assert config.li_selector == expected_li_selector
 
 
@@ -215,28 +191,6 @@ def test_american_english_dialect_selection():
         > len(results_only_us)  # containing only the US result
         > 0
     )
-
-
-@pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
-def test_require_dialect_label():
-    # Pick a word for which Wiktionary doesn't specify the dialect at all.
-    word = "examine"
-    html_session = requests_html.HTMLSession()
-    response = html_session.get(_PAGE_TEMPLATE.format(word=word))
-    # Construct two configs to test the "require_dialect_label" param.
-    config_params = dict(key="en", dialect="US | American English")
-    config_dialect_optional = config_factory(**config_params)
-    config_dialect_required = config_factory(
-        **config_params, require_dialect_label=True
-    )
-    # Apply each config's XPath selector.
-    results_dialect_optional = response.html.xpath(
-        config_dialect_optional.li_selector
-    )
-    results_dialect_required = response.html.xpath(
-        config_dialect_required.li_selector
-    )
-    assert len(results_dialect_optional) > len(results_dialect_required) == 0
 
 
 @pytest.mark.parametrize(

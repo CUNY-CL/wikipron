@@ -28,6 +28,7 @@ def test_terminal_command():
 def test_cli_args_match_config_args():
     config_args = inspect.getfullargspec(Config.__init__)
     cli_args = _get_cli_args(["eng"])
-    assert cli_args.__dict__ == {**config_args.kwonlydefaults, "key": "eng"}, (
-        "CLI and Config.__init__ must have the same args and their defaults."
-    )
+    assert cli_args.__dict__ == {
+        **config_args.kwonlydefaults,
+        "key": "eng",
+    }, "CLI and Config.__init__ must have the same args and their defaults."
