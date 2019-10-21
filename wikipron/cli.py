@@ -34,7 +34,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--dialect",
-        # TODO: Update help string
         help=(
             "Retrieve entries that have this dialect specification. "
             "If not given, then all dialects are included in the output. "
