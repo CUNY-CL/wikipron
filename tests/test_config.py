@@ -60,6 +60,7 @@ def test_process_pron(
     "no_segment, input_pron, expected_pron",
     [
         (False, "lɛ̃.ɡɥis.tik", "l ɛ̃ . ɡ ɥ i s . t i k"),
+        (False, "kʰæt", "kʰ æ t"),
         (True, "lɛ̃.ɡɥis.tik", "lɛ̃.ɡɥis.tik"),
     ],
 )
