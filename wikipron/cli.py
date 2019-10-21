@@ -65,23 +65,17 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--output",
-        help=(
-            "Output filename. If the output file already exists, it will be "
-            "overridden. If not given, results appear in stdout."
-        ),
-    )
-    parser.add_argument(
         "--no-segment",
         action="store_true",
-        help="Disable IPA segmentation with added whitespace."
+        help="Disable IPA segmentation with added whitespace.",
     )
     return parser.parse_args(args)
 
 
 def _scrape_and_write(config: Config) -> None:
     for i, (word, pron) in enumerate(scrape(config), 1):
-        print(f"{word}\t{pron}", file=config.output)
+        print(f"{word}\t{pron}")
+        # TODO: Still logging "X pronunciations scraped" to stdout?
         if i % 100 == 0:
             logging.info("%d pronunciations scraped", i)
 
