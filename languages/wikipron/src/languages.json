@@ -365,10 +365,10 @@
         "wiktionary_code": "en",
         "casefold": true,
         "require_dialect_label": true,
-        "dialect": [
-            "US | General American",
-            "UK | Received Pronunciation"
-        ],
+        "dialect": {
+            "_us": "US | General American",
+            "_uk": "UK | Received Pronunciation"
+        },
         "no_stress": true,
         "no_syllable_boundaries": true,
         "cut_off_date": "2019-11-01"
@@ -1288,10 +1288,10 @@
         "wiktionary_code": "es",
         "casefold": true,
         "require_dialect_label": true,
-        "dialect": [
-            "Latin America",
-            "Castilian"
-        ],
+        "dialect": {
+            "_la": "Latin America",
+            "_ca": "Castilian"
+        },
         "no_stress": true,
         "no_syllable_boundaries": true,
         "cut_off_date": "2019-11-01"
