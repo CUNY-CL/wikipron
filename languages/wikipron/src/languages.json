@@ -284,7 +284,9 @@
         "wiktionary_name": "English",
         "wiktionary_code": "en",
         "casefold": true,
-        "total_pages": 54554
+        "total_pages": 54554,
+        "require_dialect_label": true,
+        "dialect": ["US | General American", "UK | Received Pronunciation"]
     },
     "epo": {
         "iso639_name": "Esperanto",
@@ -991,7 +993,9 @@
         "wiktionary_name": "Spanish",
         "wiktionary_code": "es",
         "casefold": true,
-        "total_pages": 48316
+        "total_pages": 48316,
+        "require_dialect_label": true,
+        "dialect": ["Latin America", "Castilian"]
     },
     "srn": {
         "iso639_name": "Sranan Tongo",
