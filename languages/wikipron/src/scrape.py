@@ -66,8 +66,9 @@ def main():
         # within set amount of retries.
         if phonemic_count is None or phonetic_count is None:
             logging.info(
-                'Failed to scrape "%s", moving on to next language.',
+                'Failed to scrape "%s", moving on to next language. %s',
                 languages[iso639_code]["wiktionary_name"],
+                { iso639_code: languages[iso639_code] }
             )
             if os.path.exists(phonemic_path):
                 os.remove(phonemic_path)
@@ -83,16 +84,16 @@ def main():
             os.remove(phonemic_path)
             os.remove(phonetic_path)
             continue
-        # Removes empty TSV files.
-        elif phonemic_count == 0:
+        # Removes TSV files with less than 100 entries.
+        elif phonemic_count < 100:
             logging.info(
-                '"%s", has no entries in phonemic transcription.',
+                '"%s", has less than 100 entries in phonemic transcription.',
                 languages[iso639_code]["wiktionary_name"],
             )
             os.remove(phonemic_path)
-        elif phonetic_count == 0:
+        elif phonetic_count < 100:
             logging.info(
-                '"%s", has no entries in phonetic transcription.',
+                '"%s", has less than 100 entries in phonetic transcription.',
                 languages[iso639_code]["wiktionary_name"],
             )
             os.remove(phonetic_path)
@@ -101,6 +102,10 @@ def main():
 if __name__ == "__main__":
     logging.basicConfig(
         format="%(filename)s %(levelname)s: %(asctime)s - %(message)s",
+        handlers=[
+            logging.FileHandler("scraping.log", mode="w")
+            logging.StreamHandler()
+        ]
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO",
     )
