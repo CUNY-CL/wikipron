@@ -89,6 +89,10 @@
 | [TSV](pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 60352 |
 | [TSV](por_phonetic.tsv) | por | Portuguese | Portuguese | True | Phonetic | 1283 |
 | [TSV](por_phonemic.tsv) | por | Portuguese | Portuguese | True | Phonemic | 20336 |
+| [TSV](por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 366 |
+| [TSV](por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 7947 |
+| [TSV](por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 317 |
+| [TSV](por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 8164 |
 | [TSV](rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4330 |
 | [TSV](rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3108 |
 | [TSV](rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 389630 |

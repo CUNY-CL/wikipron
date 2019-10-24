@@ -103,7 +103,8 @@ def main():
             "no_syllable_boundaries": languages[iso639_code]["no_syllable_boundaries"],
             "cut_off_date": languages[iso639_code]["cut_off_date"],
         }
-        
+        # Assumes we will not want to scrape solely for 'eng'/'spa',
+        # but always for 'eng'/'spa' with dialect specification.
         if "dialect" in languages[iso639_code]:
             config_settings["require_dialect_label"] = languages[iso639_code]["require_dialect_label"]
             for dialect_key in languages[iso639_code]["dialect"]:

@@ -53,7 +53,7 @@ def main():
             transcription_level = file[file.rindex("_") + 1 : file.index(".")].capitalize()
             wiki_name = languages[iso639_code]["wiktionary_name"]
             # Assumes we will not remove eng and spa tsv files
-            # collected in previous big scrape. (No dialect specification)
+            # collected in previous big scrape (with no dialect specification)
             if "dialect" in languages[iso639_code]:
                 # Check to make sure it is a dialect tsv file
                 if file.index("_") != file.rindex("_"):

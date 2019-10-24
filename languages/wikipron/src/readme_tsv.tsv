@@ -86,6 +86,10 @@ per_phonetic.tsv	per	Persian	Persian	False	Phonetic	2561
 pol_phonemic.tsv	pol	Polish	Polish	True	Phonemic	60352
 por_phonetic.tsv	por	Portuguese	Portuguese	True	Phonetic	1283
 por_phonemic.tsv	por	Portuguese	Portuguese	True	Phonemic	20336
+por_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonetic	366
+por_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic	7947
+por_po_phonetic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonetic	317
+por_po_phonemic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonemic	8164
 rum_phonetic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonetic	4330
 rum_phonemic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonemic	3108
 rus_phonetic.tsv	rus	Russian	Russian	True	Phonetic	389630

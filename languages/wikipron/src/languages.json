@@ -1161,6 +1161,11 @@
         "wiktionary_name": "Portuguese",
         "wiktionary_code": "pt",
         "casefold": true,
+        "require_dialect_label": true,
+        "dialect": {
+            "_bz": "Brazil",
+            "_po": "Portugal"
+        },
         "no_stress": true,
         "no_syllable_boundaries": true,
         "cut_off_date": "2019-11-01"
