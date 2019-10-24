@@ -88,7 +88,7 @@ adt				I	L	Adnyamathanha
 adu				I	L	Aduge	
 adw				I	L	Amundava	
 adx				I	L	Amdo Tibetan	
-ady	ady	ady		I	L	Adyghe	
+ady	ady	ady		I	L	Adygei; Adyghe	
 adz				I	L	Adzera	
 aea				I	E	Areba	
 aeb				I	L	Tunisian Arabic	
@@ -346,7 +346,7 @@ aqt				I	L	Angaité
 aqz				I	L	Akuntsu	
 ara	ara	ara	ar	M	L	Arabic	
 arb				I	L	Standard Arabic	
-arc	arc	arc		I	A	Official Aramaic (700-300 BCE)	
+arc	arc	arc		I	A	Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)	
 ard				I	E	Arabana	
 are				I	L	Western Arrarnta	
 arg	arg	arg	an	I	L	Aragonese	
@@ -1165,7 +1165,7 @@ cap				I	L	Chipaya
 caq				I	L	Car Nicobarese	
 car	car	car		I	L	Galibi Carib	
 cas				I	L	Tsimané	
-cat	cat	cat	ca	I	L	Catalan	
+cat	cat	cat	ca	I	L	Catalan; Valencian	
 cav				I	L	Cavineña	
 caw				I	L	Callawalla	
 cax				I	L	Chiquitano	
@@ -2127,7 +2127,7 @@ gkn				I	L	Gokana
 gko				I	E	Kok-Nar	
 gkp				I	L	Guinea Kpelle	
 gku				I	E	ǂUngkue	
-gla	gla	gla	gd	I	L	Scottish Gaelic	
+gla	gla	gla	gd	I	L	Gaelic; Scottish Gaelic	
 glc				I	L	Bon Gula	
 gld				I	L	Nanai	
 gle	gle	gle	ga	I	L	Irish	
@@ -3754,7 +3754,7 @@ ltn				I	L	Latundê
 lto				I	L	Tsotso	
 lts				I	L	Tachoni	
 ltu				I	L	Latu	
-ltz	ltz	ltz	lb	I	L	Luxembourgish	
+ltz	ltz	ltz	lb	I	L	Letzeburgesch; Luxembourgish	
 lua	lua	lua		I	L	Luba-Lulua	
 lub	lub	lub	lu	I	L	Luba-Katanga	
 luc				I	L	Aringa	
@@ -4675,7 +4675,7 @@ nkx				I	L	Nkoroo
 nkz				I	L	Nkari	
 nla				I	L	Ngombale	
 nlc				I	L	Nalca	
-nld	dut	nld	nl	I	L	Dutch	
+nld	dut	nld	nl	I	L	Dutch; Flemish	
 nle				I	L	East Nyala	
 nlg				I	L	Gela	
 nli				I	L	Grangali	
@@ -5611,7 +5611,7 @@ rog				I	L	Northern Roglai
 roh	roh	roh	rm	I	L	Romansh	
 rol				I	L	Romblomanon	
 rom	rom	rom		M	L	Romany	
-ron	rum	ron	ro	I	L	Romanian	
+ron	rum	ron	ro	I	L	Romanian; Moldavian; Moldovan	
 roo				I	L	Rotokas	
 rop				I	L	Kriol	
 ror				I	L	Rongga	
@@ -5978,7 +5978,7 @@ sow				I	L	Sowanda
 sox				I	L	Swo	
 soy				I	L	Miyobe	
 soz				I	L	Temi	
-spa	spa	spa	es	I	L	Spanish	
+spa	spa	spa	es	I	L	Spanish; Castilian	
 spb				I	L	Sepa (Indonesia)	
 spc				I	L	Sapé	
 spd				I	L	Saep	

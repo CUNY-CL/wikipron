@@ -36,7 +36,6 @@ def _call_scrape(lang, config, tsv_path):
 
 
 def build_config_and_filter_scrape_results(config_settings, wiki_name, dialect_extension=''):
-    print("HERE IN THE BUILD")
     phonemic_config = wikipron.Config(
         **config_settings,
     )

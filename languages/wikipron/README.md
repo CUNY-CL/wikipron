@@ -2,9 +2,10 @@
 ====================
 
 [scrape.py](./src/scrape.py) calls WikiPron's scraping functions on all
-Wiktionary languages with over 100 entries. It writes the results of those
-scrape calls to TSVs and generates a [README](./tsv/README.md) with selected
-information regarding the contents of those TSVs and the configuration settings
+Wiktionary languages with over 100 entries. [write.py](./src/write.py)
+generates a [README](./tsv/README.md) and a [TSV](./readme_tsv.tsv) with selected
+information regarding the contents of the TSVs [scrape.py](./src/scrape.py)
+ generated and the configuration settings
 that were passed to scrape. [languages.json](./src/languages.json) provides
 [scrape.py](./src/scrape.py) with a dictionary containing the information it
 needs to call scrape on all Wiktionary languages with over 100 entries as well
@@ -12,14 +13,15 @@ as to generate the previously mentioned [README](./tsv/README.md).
 [codes.py](./src/codes.py) is used to generate
 [languages.json](./src/languages.json). It queries Wiktionary for all languages
 with over 100 entries. It also outputs
-[failed\_langauges.json](./src/failed_languages.json), a list of languages on
+[unmatched\_langauges.json](./src/unmatched_languages.json), a list of languages on
 Wiktionary that have over 100 entries but that could not be matched with an ISO
 639 language code.
 
 Steps used to update the dataset
 --------------------------------
 
-1.  Run [codes.py](./src/codes.py) to update
+1.  Specify a `cut_off_date` within `main()` of [codes.py](./src/codes.py).
+2.  Run [codes.py](./src/codes.py) to update
     [languages.json](./src/languages.json).
     -   If there are new Wiktionary languages with over 100 entries, they will
         be added to [languages.json](./src/languages.json).
@@ -35,4 +37,5 @@ Steps used to update the dataset
         updated for every language already in
         [languages.json](./src/languages.json). Instead just search for `null`
         values within [languages.json](./src/languages.json).
-2.  Run [scrape.py](./src/scrape.py).
+3.  Run [scrape.py](./src/scrape.py).
+4.  Run [write.py](./src/write.py).

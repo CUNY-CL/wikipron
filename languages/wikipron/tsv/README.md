@@ -4,10 +4,10 @@
 | [TSV](ady_phonetic.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic | 4554 |
 | [TSV](alb_phonetic.tsv) | alb | Albanian | Albanian | True | Phonetic | 713 |
 | [TSV](alb_phonemic.tsv) | alb | Albanian | Albanian | True | Phonemic | 1160 |
-| [TSV](grc_phonemic.tsv) | grc | Greek, Ancient (to 1453) | Ancient Greek | True | Phonemic | 153117 |
+| [TSV](grc_phonemic.tsv) | grc | Ancient Greek (to 1453) | Ancient Greek | True | Phonemic | 153117 |
 | [TSV](ara_phonetic.tsv) | ara | Arabic | Arabic | False | Phonetic | 143 |
 | [TSV](ara_phonemic.tsv) | ara | Arabic | Arabic | False | Phonemic | 5083 |
-| [TSV](arc_phonemic.tsv) | arc | Official Aramaic (700-300 BCE); Imperial Aramaic (700-300 BCE) | Aramaic | False | Phonemic | 1169 |
+| [TSV](arc_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic | False | Phonemic | 1169 |
 | [TSV](arm_phonetic.tsv) | arm | Armenian | Armenian | True | Phonetic | 13862 |
 | [TSV](asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2206 |
 | [TSV](aze_phonetic.tsv) | aze | Azerbaijani | Azerbaijani | True | Phonetic | 1841 |
@@ -41,8 +41,8 @@
 | [TSV](geo_phonemic.tsv) | geo | Georgian | Georgian | False | Phonemic | 14037 |
 | [TSV](ger_phonetic.tsv) | ger | German | German | True | Phonetic | 10243 |
 | [TSV](ger_phonemic.tsv) | ger | German | German | True | Phonemic | 25212 |
-| [TSV](gre_phonetic.tsv) | gre | Greek, Modern (1453-) | Greek | True | Phonetic | 424 |
-| [TSV](gre_phonemic.tsv) | gre | Greek, Modern (1453-) | Greek | True | Phonemic | 7653 |
+| [TSV](gre_phonetic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonetic | 424 |
+| [TSV](gre_phonemic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic | 7653 |
 | [TSV](hin_phonetic.tsv) | hin | Hindi | Hindi | False | Phonetic | 264 |
 | [TSV](hin_phonemic.tsv) | hin | Hindi | Hindi | False | Phonemic | 7928 |
 | [TSV](hun_phonetic.tsv) | hun | Hungarian | Hungarian | True | Phonetic | 43525 |
@@ -65,25 +65,25 @@
 | [TSV](lit_phonemic.tsv) | lit | Lithuanian | Lithuanian | True | Phonemic | 294 |
 | [TSV](dsb_phonetic.tsv) | dsb | Lower Sorbian | Lower Sorbian | True | Phonetic | 1331 |
 | [TSV](dsb_phonemic.tsv) | dsb | Lower Sorbian | Lower Sorbian | True | Phonemic | 1916 |
-| [TSV](ltz_phonetic.tsv) | ltz | Luxembourgish; Letzeburgesch | Luxembourgish | True | Phonetic | 1825 |
-| [TSV](ltz_phonemic.tsv) | ltz | Luxembourgish; Letzeburgesch | Luxembourgish | True | Phonemic | 4086 |
+| [TSV](ltz_phonetic.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | True | Phonetic | 1825 |
+| [TSV](ltz_phonemic.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | True | Phonemic | 4086 |
 | [TSV](mac_phonetic.tsv) | mac | Macedonian | Macedonian | True | Phonetic | 4752 |
 | [TSV](mac_phonemic.tsv) | mac | Macedonian | Macedonian | True | Phonemic | 400 |
-| [TSV](may_phonetic.tsv) | may | Malay | Malay | True | Phonetic | 660 |
-| [TSV](may_phonemic.tsv) | may | Malay | Malay | True | Phonemic | 2503 |
+| [TSV](may_phonetic.tsv) | may | Malay (macrolanguage) | Malay | True | Phonetic | 660 |
+| [TSV](may_phonemic.tsv) | may | Malay (macrolanguage) | Malay | True | Phonemic | 2503 |
 | [TSV](mlt_phonemic.tsv) | mlt | Maltese | Maltese | True | Phonemic | 1934 |
-| [TSV](enm_phonemic.tsv) | enm | English, Middle (1100-1500) | Middle English | True | Phonemic | 6473 |
-| [TSV](mon_phonetic.tsv) | mon | Mongolian	 | Mongolian | True | Phonetic | 437 |
-| [TSV](mon_phonemic.tsv) | mon | Mongolian	 | Mongolian | True | Phonemic | 987 |
+| [TSV](enm_phonemic.tsv) | enm | Middle English (1100-1500) | Middle English | True | Phonemic | 6473 |
+| [TSV](mon_phonetic.tsv) | mon | Mongolian | Mongolian | True | Phonetic | 437 |
+| [TSV](mon_phonemic.tsv) | mon | Mongolian | Mongolian | True | Phonemic | 987 |
 | [TSV](sme_phonemic.tsv) | sme | Northern Sami | Northern Sami | True | Phonemic | 3353 |
 | [TSV](nor_phonemic.tsv) | nor | Norwegian | Norwegian | True | Phonemic | 2147 |
-| [TSV](nob_phonetic.tsv) | nob | Bokmål, Norwegian; Norwegian Bokmål | Norwegian Bokmål | True | Phonetic | 509 |
-| [TSV](nob_phonemic.tsv) | nob | Bokmål, Norwegian; Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 886 |
-| [TSV](nno_phonetic.tsv) | nno | Norwegian Nynorsk; Nynorsk, Norwegian | Norwegian Nynorsk | True | Phonetic | 156 |
-| [TSV](nno_phonemic.tsv) | nno | Norwegian Nynorsk; Nynorsk, Norwegian | Norwegian Nynorsk | True | Phonemic | 1110 |
-| [TSV](ang_phonetic.tsv) | ang | English, Old (ca.450-1100) | Old English | True | Phonetic | 1151 |
-| [TSV](ang_phonemic.tsv) | ang | English, Old (ca.450-1100) | Old English | True | Phonemic | 6249 |
-| [TSV](sga_phonemic.tsv) | sga | Irish, Old (to 900) | Old Irish | True | Phonemic | 1676 |
+| [TSV](nob_phonetic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonetic | 509 |
+| [TSV](nob_phonemic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 886 |
+| [TSV](nno_phonetic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonetic | 156 |
+| [TSV](nno_phonemic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonemic | 1110 |
+| [TSV](ang_phonetic.tsv) | ang | Old English (ca. 450-1100) | Old English | True | Phonetic | 1151 |
+| [TSV](ang_phonemic.tsv) | ang | Old English (ca. 450-1100) | Old English | True | Phonemic | 6249 |
+| [TSV](sga_phonemic.tsv) | sga | Old Irish (to 900) | Old Irish | True | Phonemic | 1676 |
 | [TSV](per_phonetic.tsv) | per | Persian | Persian | False | Phonetic | 2561 |
 | [TSV](per_phonemic.tsv) | per | Persian | Persian | False | Phonemic | 3362 |
 | [TSV](pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 60352 |

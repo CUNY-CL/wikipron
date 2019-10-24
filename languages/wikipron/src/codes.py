@@ -11,7 +11,7 @@ For each language it grabs the language name and language code (likely ISO
 It compares that code  with those in iso-639-3_20190408.tsv in order to grab the
 appropriate ISO 639-2 or ISO 639-3 code and language name. A dictionary
 containing this data is created and converted to a JSON file
-(languages.json). Casefolding settings for languages already in
+(languages.json). Config settings for languages already in
 languages.json are transferred to the new languages dictionary being created.
 
 New languages that are added through this process and outputted to languages.json

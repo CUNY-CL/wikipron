@@ -1,6 +1,8 @@
 import os
 import json
 
+LANGUAGES_PATH = "languages.json"
+
 def _readme_insert(wiki_name, row_string):
     with open("../tsv/README.md", "r+") as source:
         readme_list = []
@@ -37,42 +39,55 @@ def _readme_insert(wiki_name, row_string):
             source.write("".join(readme_list))
 
 
-LANGUAGES_PATH = "languages.json"
-with open(LANGUAGES_PATH, "r") as source:
-    languages = json.load(source)
-readme_tsv_list = []
-path = "../tsv"
-for file in os.listdir(path):
-    # Filters out sole README.md file
-    if file.endswith(".tsv"):
-        iso639_code = file[:file.find("_")]
-        transcription_level = file[file.find("_") + 1:file.find(".")].capitalize()
-        with open(f"{path}/{file}", "r") as tsv:
-            num_of_entries = sum(1 for line in tsv)
+def main():
+    with open(LANGUAGES_PATH, "r") as source:
+        languages = json.load(source)
+    readme_tsv_list = []
+    path = "../tsv"
+    for file in os.listdir(path):
+        # Filters out sole README.md file
+        if file.endswith(".tsv"):
+            with open(f"{path}/{file}", "r") as tsv:
+                num_of_entries = sum(1 for line in tsv)
+            iso639_code = file[ : file.index("_")]
+            transcription_level = file[file.rindex("_") + 1 : file.index(".")].capitalize()
+            wiki_name = languages[iso639_code]["wiktionary_name"]
+            # Assumes we will not remove eng and spa tsv files
+            # collected in previous big scrape. (No dialect specification)
+            if "dialect" in languages[iso639_code]:
+                # Check to make sure it is a dialect tsv file
+                if file.index("_") != file.rindex("_"):
+                    dialect_key = file[file.index("_") : file.rindex("_")] 
+                    dialects = languages[iso639_code]["dialect"][dialect_key]
+                    if "|" in dialects:
+                        dialects = dialects.replace(" |", ",")
+                    wiki_name += f" ({dialects})" 
 
-        row = [
-            iso639_code,
-            languages[iso639_code]["iso639_name"],
-            languages[iso639_code]["wiktionary_name"],
-            str(languages[iso639_code]["casefold"]),
-            transcription_level,
-            str(num_of_entries),
-        ]
-        # TSV of the README will only have the name of the file in the link column.
-            # TODO Add additional config options to tsv? Where should the tsv output to?
-                # Add main()
-        readme_tsv_list.append([file] + row)
-        readme_row_string = (
-            "| " + " | ".join([f"[TSV]({file})"] + row) + " |\n"
-        )
-        _readme_insert(languages[iso639_code]["wiktionary_name"], readme_row_string)
+            row = [
+                iso639_code,
+                languages[iso639_code]["iso639_name"],
+                wiki_name,
+                str(languages[iso639_code]["casefold"]),
+                transcription_level,
+                str(num_of_entries),
+            ]
 
-# Write the TSV of the README
-with open("readme_tsv.tsv", "w") as readme_tsv:
-    # Sort by wiktionary language name.
-    def sorting(ele):
-        return ele[3]
-    readme_tsv_list.sort(key=sorting)
-    for lang_row in readme_tsv_list:
-        tsv_string = "\t".join(lang_row)
-        print(tsv_string, file=readme_tsv)
+            readme_tsv_list.append([file] + row)
+            readme_row_string = (
+                "| " + " | ".join([f"[TSV]({file})"] + row) + " |\n"
+            )
+            _readme_insert(wiki_name, readme_row_string)
+
+    # Write the TSV of the README
+    with open("readme_tsv.tsv", "w") as readme_tsv:
+        # Sort by wiktionary language name.
+        def sorting(ele):
+            return ele[3]
+        readme_tsv_list.sort(key=sorting)
+        for lang_row in readme_tsv_list:
+            tsv_string = "\t".join(lang_row)
+            print(tsv_string, file=readme_tsv)
+
+
+if __name__ == "__main__":
+    main()

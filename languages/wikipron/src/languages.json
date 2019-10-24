@@ -1,6 +1,6 @@
 {
     "ady": {
-        "iso639_name": "Adyghe",
+        "iso639_name": "Adygei; Adyghe",
         "wiktionary_name": "Adyghe",
         "wiktionary_code": "ady",
         "casefold": true,
@@ -72,7 +72,7 @@
         "cut_off_date": "2019-11-01"
     },
     "arc": {
-        "iso639_name": "Official Aramaic (700-300 BCE)",
+        "iso639_name": "Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)",
         "wiktionary_name": "Aramaic",
         "wiktionary_code": "arc",
         "casefold": false,
@@ -216,7 +216,7 @@
         "cut_off_date": "2019-11-01"
     },
     "cat": {
-        "iso639_name": "Catalan",
+        "iso639_name": "Catalan; Valencian",
         "wiktionary_name": "Catalan",
         "wiktionary_code": "ca",
         "casefold": true,
@@ -324,7 +324,7 @@
         "cut_off_date": "2019-11-01"
     },
     "dut": {
-        "iso639_name": "Dutch",
+        "iso639_name": "Dutch; Flemish",
         "wiktionary_name": "Dutch",
         "wiktionary_code": "nl",
         "casefold": true,
@@ -770,7 +770,7 @@
         "cut_off_date": "2019-11-01"
     },
     "ltz": {
-        "iso639_name": "Luxembourgish",
+        "iso639_name": "Letzeburgesch; Luxembourgish",
         "wiktionary_name": "Luxembourgish",
         "wiktionary_code": "lb",
         "casefold": true,
@@ -1175,7 +1175,7 @@
         "cut_off_date": "2019-11-01"
     },
     "rum": {
-        "iso639_name": "Romanian",
+        "iso639_name": "Romanian; Moldavian; Moldovan",
         "wiktionary_name": "Romanian",
         "wiktionary_code": "ro",
         "casefold": true,
@@ -1220,7 +1220,7 @@
         "cut_off_date": "2019-11-01"
     },
     "gla": {
-        "iso639_name": "Scottish Gaelic",
+        "iso639_name": "Gaelic; Scottish Gaelic",
         "wiktionary_name": "Scottish Gaelic",
         "wiktionary_code": "gd",
         "casefold": true,
@@ -1283,7 +1283,7 @@
         "cut_off_date": "2019-11-01"
     },
     "spa": {
-        "iso639_name": "Spanish",
+        "iso639_name": "Spanish; Castilian",
         "wiktionary_name": "Spanish",
         "wiktionary_code": "es",
         "casefold": true,
