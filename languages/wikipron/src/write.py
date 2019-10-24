@@ -3,6 +3,7 @@ import json
 
 LANGUAGES_PATH = "languages.json"
 
+
 def _readme_insert(wiki_name, row_string):
     with open("../tsv/README.md", "r+") as source:
         readme_list = []
@@ -10,8 +11,9 @@ def _readme_insert(wiki_name, row_string):
         readme_list.extend(readme_text.splitlines(True))
         length = len(readme_list)
         wiki_name_of_last_entry = readme_list[-1].split("|")[4][1:-1]
-        # If the table is only a newline, a row of headers, and a formatting row
-        # or if the Wiktionary name of the last entry is alphabetically prior to
+        # If the table is only a newline, a row of headers
+        # and a formatting row or if the Wiktionary name
+        # of the last entry is alphabetically prior to
         # the name we are adding.
         if (
             length == 3
@@ -49,19 +51,21 @@ def main():
         if file.endswith(".tsv"):
             with open(f"{path}/{file}", "r") as tsv:
                 num_of_entries = sum(1 for line in tsv)
-            iso639_code = file[ : file.index("_")]
-            transcription_level = file[file.rindex("_") + 1 : file.index(".")].capitalize()
+            iso639_code = file[: file.index("_")]
+            transcription_level = file[
+                file.rindex("_") + 1 : file.index(".")
+            ].capitalize()
             wiki_name = languages[iso639_code]["wiktionary_name"]
             # Assumes we will not remove eng and spa tsv files
             # collected in previous big scrape (with no dialect specification)
             if "dialect" in languages[iso639_code]:
                 # Check to make sure it is a dialect tsv file
                 if file.index("_") != file.rindex("_"):
-                    dialect_key = file[file.index("_") : file.rindex("_")] 
+                    dialect_key = file[file.index("_") : file.rindex("_")]
                     dialects = languages[iso639_code]["dialect"][dialect_key]
                     if "|" in dialects:
                         dialects = dialects.replace(" |", ",")
-                    wiki_name += f" ({dialects})" 
+                    wiki_name += f" ({dialects})"
 
             row = [
                 iso639_code,

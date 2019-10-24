@@ -13,6 +13,7 @@ import wikipron
 
 LANGUAGES_PATH = "languages.json"
 
+
 def _call_scrape(lang, config, tsv_path):
     for unused_retries in range(10):
         with open(tsv_path, "w") as source:
@@ -35,11 +36,16 @@ def _call_scrape(lang, config, tsv_path):
                 time.sleep(600)
 
 
-def build_config_and_filter_scrape_results(config_settings, wiki_name, dialect_extension=''):
+def build_config_and_filter_scrape_results(
+    config_settings, wiki_name,
+    dialect_extension=''
+):
     phonemic_config = wikipron.Config(
         **config_settings,
     )
-    phonemic_path = f"../tsv/{config_settings['key']}{dialect_extension}_phonemic.tsv"
+    phonemic_path = (
+        f"../tsv/{config_settings['key']}{dialect_extension}_phonemic.tsv"
+    )
     phonemic_count = _call_scrape(
         config_settings["key"], phonemic_config, phonemic_path
     )
@@ -48,20 +54,21 @@ def build_config_and_filter_scrape_results(config_settings, wiki_name, dialect_e
         phonetic=True,
         **config_settings,
     )
-    phonetic_path = f"../tsv/{config_settings['key']}{dialect_extension}_phonetic.tsv"
+    phonetic_path = (
+        f"../tsv/{config_settings['key']}{dialect_extension}_phonetic.tsv"
+    )
     # Skips phonetic if phonemic failed to complete scrape.
     if phonemic_count is not None:
         phonetic_count = _call_scrape(
             config_settings["key"], phonetic_config, phonetic_path
         )
-    
     # Remove files for languages that failed to be scraped
     # within set amount of retries.
     if phonemic_count is None or phonetic_count is None:
         logging.info(
             'Failed to scrape "%s", moving on to next language. %s',
             wiki_name,
-            { config_settings["key"]: config_settings }
+            {config_settings["key"]: config_settings}
         )
         if os.path.exists(phonemic_path):
             os.remove(phonemic_path)
@@ -89,7 +96,7 @@ def build_config_and_filter_scrape_results(config_settings, wiki_name, dialect_e
             '"%s", has less than 100 entries in phonetic transcription.',
             wiki_name,
         )
-        os.remove(phonetic_path)    
+        os.remove(phonetic_path)
 
 
 def main():
@@ -103,17 +110,19 @@ def main():
             "no_syllable_boundaries": languages[iso639_code]["no_syllable_boundaries"],
             "cut_off_date": languages[iso639_code]["cut_off_date"],
         }
-        # Assumes we will not want to scrape solely for 'eng'/'spa',
-        # but always for 'eng'/'spa' with dialect specification.
+        build_config_and_filter_scrape_results(
+            config_settings, languages[iso639_code]["wiktionary_name"]
+        )
+        # Assumes we will  want to scrape for a language
+        # and separately for dialects within that language.
         if "dialect" in languages[iso639_code]:
             config_settings["require_dialect_label"] = languages[iso639_code]["require_dialect_label"]
             for dialect_key in languages[iso639_code]["dialect"]:
                 config_settings["dialect"] = languages[iso639_code]["dialect"][dialect_key]
-                build_config_and_filter_scrape_results(config_settings, languages[iso639_code]["wiktionary_name"], dialect_key)
-        else:
-            build_config_and_filter_scrape_results(config_settings, languages[iso639_code]["wiktionary_name"])
-                
-
+                build_config_and_filter_scrape_results(
+                    config_settings, languages[iso639_code]["wiktionary_name"],
+                    dialect_key
+                )
 
 
 if __name__ == "__main__":

@@ -31,7 +31,13 @@ import re
 import requests
 import requests_html
 
+# Set CUT_OFF_DATE below.
+# CUT_OFF_DATE can be no later than the date
+# at which you plan to begin scraping.
+CUT_OFF_DATE = "2019-11-01"
 
+
+# Grabs title of Wikitionary language page if it has more than 100 entries.
 def _cat_info(cat_title):
     cat_info_params = {
         "action": "query",
@@ -54,6 +60,7 @@ def _cat_info(cat_title):
             )
 
 
+# Runs through Wikitionary languages with IPA.
 def _cat_members():
     cat_member_params = {
         "action": "query",
@@ -74,6 +81,8 @@ def _cat_members():
         cat_member_params["cmcontinue"] = continue_code
 
 
+# Uses title of Wiktionary language page to grab
+# Wiktionary language name and Wiktionary language code
 def _scrape_wiktionary_info(lang_title):
     name = None
     code = None
@@ -105,12 +114,11 @@ def _scrape_wiktionary_info(lang_title):
 def main():
     new_languages = {}
     unmatched_languages = {}
-    cut_off_date = "2019-11-01"
     basic_config_options = {
         "casefold": None,
         "no_stress": True,
         "no_syllable_boundaries": True,
-        "cut_off_date": cut_off_date
+        "cut_off_date": CUT_OFF_DATE
     }
     with open("languages.json", "r") as source:
         prev_languages = json.load(source)
@@ -138,7 +146,8 @@ def main():
                     break
             if iso639_code:
                 # Wiki name and code may have changed since last running.
-                # Iso639 name will not (unless we have changed the tsv),
+                # iso639_name will likely not
+                # (unless we have changed/updated the tsv),
                 # but is included in the dict below for when adding
                 # new languages to languages.json
                 potentially_updated = {
@@ -146,18 +155,26 @@ def main():
                     "wiktionary_name": wiktionary_name,
                     "wiktionary_code": wiktionary_code,
                 }
+                # If language already in languages.json
                 if iso639_code in prev_languages:
                     # Impose the potentially updated values on old values.
-                    lang[iso639_code] = {**prev_languages[iso639_code], **potentially_updated}
+                    lang[iso639_code] = {
+                        **prev_languages[iso639_code],
+                        **potentially_updated,
+                    }
                     # Update cut off date
-                    lang[iso639_code]["cut_off_date"] = cut_off_date
+                    lang[iso639_code]["cut_off_date"] = CUT_OFF_DATE
                     new_languages.update(lang)
                 else:
                     # Adding a new language to languages.json
-                    lang[iso639_code] = {**potentially_updated, **basic_config_options}
+                    lang[iso639_code] = {
+                        **potentially_updated,
+                        **basic_config_options,
+                    }
                     new_languages.update(lang)
             else:
-                # Could not find a match for the wikitionary code in our ISO 639-3 tsv.
+                # Could not find a match for the wikitionary code
+                # in our ISO 639-3 tsv.
                 lang[wiktionary_code] = {
                     "wiktionary_name": wiktionary_name,
                 }
