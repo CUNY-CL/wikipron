@@ -5,7 +5,7 @@
 Wiktionary languages with over 100 entries. [write.py](./src/write.py)
 generates a [README](./tsv/README.md) and a [TSV](./readme_tsv.tsv) with selected
 information regarding the contents of the TSVs [scrape.py](./src/scrape.py)
- generated and the configuration settings
+generated and the configuration settings
 that were passed to scrape. [languages.json](./src/languages.json) provides
 [scrape.py](./src/scrape.py) with a dictionary containing the information it
 needs to call scrape on all Wiktionary languages with over 100 entries as well
@@ -32,10 +32,8 @@ Steps used to update the dataset
     -   Whether or not to apply case-folding for these new languages needs to be
         manually set by changing the "casefold" value within
         [languages.json](./src/languages.json).
-    -   To find new languages running `git diff languages.json` is not
-        recommended, as it is likely that the `“total_pages”` value will have
-        updated for every language already in
-        [languages.json](./src/languages.json). Instead just search for `null`
-        values within [languages.json](./src/languages.json).
+    -   To find new languages you can run`git diff languages.json` 
+        or search for `null` values within 
+        [languages.json](./src/languages.json).
 3.  Run [scrape.py](./src/scrape.py).
 4.  Run [write.py](./src/write.py).
