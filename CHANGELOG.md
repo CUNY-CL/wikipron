@@ -8,13 +8,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## Unreleased
 
 ### Added
+- IPA segmentation using spaces by default, with the `--no-segment` flag
+  to optionally turn it off. (#69)
 - TSV files for all Wiktionary languages with over 1000 entries (except Russian) (#61)
 - Resolved Wiktionary language names for languages with at least 100
   pronunciation entries. (#52, #55)
 
 ### Changed
 ### Deprecated
+
 ### Removed
+- Removed the `require_dialect_label` option. (#77)
+
 ### Fixed
 - Skipped empty pronunciations in scraping. (#59)
 - Updated the `<li>` XPath selector for an optional layer of `<span>`
