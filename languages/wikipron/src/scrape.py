@@ -2,6 +2,7 @@
 """Performs the big scrape."""
 
 
+import datetime
 import json
 import logging
 import time
@@ -11,7 +12,7 @@ import requests
 import wikipron
 
 
-LANGUAGES_PATH = "languages.json"
+from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
 def _call_scrape(lang, config, tsv_path):
@@ -28,7 +29,7 @@ def _call_scrape(lang, config, tsv_path):
                 requests.exceptions.ConnectionError,
             ):
                 logging.info(
-                    'Exception detected while scraping: "%s", "%s". Restarting.',
+                    'Exception detected while scraping: "%s", "%s".',
                     lang,
                     tsv_path,
                 )
@@ -38,14 +39,14 @@ def _call_scrape(lang, config, tsv_path):
 
 def build_config_and_filter_scrape_results(
     config_settings, wiki_name,
-    dialect_extension=''
+    dialect_suffix=''
 ):
+    path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
+
     phonemic_config = wikipron.Config(
         **config_settings,
     )
-    phonemic_path = (
-        f"../tsv/{config_settings['key']}{dialect_extension}_phonemic.tsv"
-    )
+    phonemic_path = f"{path_affix}phonemic.tsv"
     phonemic_count = _call_scrape(
         config_settings["key"], phonemic_config, phonemic_path
     )
@@ -54,9 +55,7 @@ def build_config_and_filter_scrape_results(
         phonetic=True,
         **config_settings,
     )
-    phonetic_path = (
-        f"../tsv/{config_settings['key']}{dialect_extension}_phonetic.tsv"
-    )
+    phonetic_path = f"{path_affix}phonetic.tsv"
     # Skips phonetic if phonemic failed to complete scrape.
     if phonemic_count is not None:
         phonetic_count = _call_scrape(
@@ -68,7 +67,7 @@ def build_config_and_filter_scrape_results(
         logging.info(
             'Failed to scrape "%s", moving on to next language. %s',
             wiki_name,
-            {config_settings["key"]: config_settings}
+            {config_settings["key"]: config_settings},
         )
         if os.path.exists(phonemic_path):
             os.remove(phonemic_path)
@@ -78,7 +77,7 @@ def build_config_and_filter_scrape_results(
     # Remove files for languages that returned nothing
     elif phonemic_count == 0 and phonetic_count == 0:
         logging.info(
-            '"%s", returned no entries in phonemic and phonetic settings.',
+            '"%s" returned no entries in phonemic and phonetic settings.',
             wiki_name,
         )
         os.remove(phonemic_path)
@@ -87,13 +86,13 @@ def build_config_and_filter_scrape_results(
     # Removes TSV files with less than 100 entries.
     if phonemic_count < 100:
         logging.info(
-            '"%s", has less than 100 entries in phonemic transcription.',
+            '"%s" has less than 100 entries in phonemic transcription.',
             wiki_name,
         )
         os.remove(phonemic_path)
     if phonetic_count < 100:
         logging.info(
-            '"%s", has less than 100 entries in phonetic transcription.',
+            '"%s" has less than 100 entries in phonetic transcription.',
             wiki_name,
         )
         os.remove(phonetic_path)
@@ -102,26 +101,27 @@ def build_config_and_filter_scrape_results(
 def main():
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
+    cut_off_date = datetime.date.today().isoformat()
     for iso639_code in languages:
         config_settings = {
             "key": iso639_code,
             "casefold": languages[iso639_code]["casefold"],
-            "no_stress": languages[iso639_code]["no_stress"],
-            "no_syllable_boundaries": languages[iso639_code]["no_syllable_boundaries"],
-            "cut_off_date": languages[iso639_code]["cut_off_date"],
+            "no_stress": True,
+            "no_syllable_boundaries": True,
+            "cut_off_date": cut_off_date,
         }
-        build_config_and_filter_scrape_results(
-            config_settings, languages[iso639_code]["wiktionary_name"]
-        )
-        # Assumes we will  want to scrape for a language
-        # and separately for dialects within that language.
-        if "dialect" in languages[iso639_code]:
-            config_settings["require_dialect_label"] = languages[iso639_code]["require_dialect_label"]
+        if "dialect" not in languages[iso639_code]:
+            build_config_and_filter_scrape_results(
+                config_settings, languages[iso639_code]["wiktionary_name"]
+            )
+        else:
             for dialect_key in languages[iso639_code]["dialect"]:
-                config_settings["dialect"] = languages[iso639_code]["dialect"][dialect_key]
+                config_settings["dialect"] = (
+                    languages[iso639_code]["dialect"][dialect_key],
+                )
                 build_config_and_filter_scrape_results(
                     config_settings, languages[iso639_code]["wiktionary_name"],
-                    dialect_key
+                    dialect_key + "_"
                 )
 
 
@@ -129,8 +129,8 @@ if __name__ == "__main__":
     logging.basicConfig(
         format="%(filename)s %(levelname)s: %(asctime)s - %(message)s",
         handlers=[
-            logging.FileHandler("scraping.log", mode="w"),
-            logging.StreamHandler()
+            logging.FileHandler(LOGGING_PATH, mode="w"),
+            logging.StreamHandler(),
         ],
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO",

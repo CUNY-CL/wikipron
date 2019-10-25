@@ -3,7 +3,7 @@
 
 [scrape.py](./src/scrape.py) calls WikiPron's scraping functions on all
 Wiktionary languages with over 100 entries. [write.py](./src/write.py)
-generates a [README](./tsv/README.md) and a [TSV](./readme_tsv.tsv) with selected
+generates a [README](./tsv/README.md) and a [TSV](languages_summary.tsv) with selected
 information regarding the contents of the TSVs [scrape.py](./src/scrape.py)
 generated and the configuration settings
 that were passed to scrape. [languages.json](./src/languages.json) provides
@@ -20,8 +20,7 @@ Wiktionary that have over 100 entries but that could not be matched with an ISO
 Steps used to update the dataset
 --------------------------------
 
-1.  Specify a `cut_off_date` within `main()` of [codes.py](./src/codes.py).
-2.  Run [codes.py](./src/codes.py) to update
+1.  Run [codes.py](./src/codes.py) to update
     [languages.json](./src/languages.json).
     -   If there are new Wiktionary languages with over 100 entries, they will
         be added to [languages.json](./src/languages.json).
@@ -35,5 +34,5 @@ Steps used to update the dataset
     -   To find new languages you can run`git diff languages.json` 
         or search for `null` values within 
         [languages.json](./src/languages.json).
-3.  Run [scrape.py](./src/scrape.py).
-4.  Run [write.py](./src/write.py).
+2.  Run [scrape.py](./src/scrape.py).
+3.  Run [write.py](./src/write.py).
