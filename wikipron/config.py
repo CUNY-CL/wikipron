@@ -21,12 +21,13 @@ _LI_SELECTOR_TEMPLATE = """
   ]]]
   and
   span[@class = "IPA"]
-  and
-  ({dialect_selector})
+  {dialect_selector}
 ]
 """
 _DIALECT_SELECTOR_TEMPLATE = (
-    'span[@class = "ib-content qualifier-content" and a[{dialects_text}]]'
+    "and\n"
+    '  (span[@class = "ib-content qualifier-content" and a[{dialects_text}]]\n'
+    '   or count(span[@class = "ib-content qualifier-content"]) = 0)'
 )
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
@@ -96,7 +97,6 @@ class Config:
         cut_off_date: Optional[str] = None,
         phonetic: bool = False,
         dialect: Optional[str] = None,
-        require_dialect_label: bool = False,
         no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
@@ -109,9 +109,7 @@ class Config:
             _cut_off_date
         )
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
-        self.li_selector: str = self._get_li_selector(
-            self.language, dialect, require_dialect_label
-        )
+        self.li_selector: str = self._get_li_selector(self.language, dialect)
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -183,32 +181,14 @@ class Config:
 
         return wrapper
 
-    def _get_li_selector(
-        self,
-        language: str,
-        dialect: Optional[str],
-        require_dialect_label: bool,
-    ) -> str:
-        if require_dialect_label and not dialect:
-            raise ValueError(
-                "When --require-dialect-label is used, "
-                "--dialect must also be used."
-            )
-
+    def _get_li_selector(self, language: str, dialect: Optional[str]) -> str:
         if not dialect:
-            dialect_selector = "true()"
+            dialect_selector = ""
         else:
             dialect_selector = _DIALECT_SELECTOR_TEMPLATE.format(
                 dialects_text=" or ".join(
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
-            )
-
-        if not require_dialect_label:
-            # include entries with no dialect specification
-            dialect_selector += (
-                "\n   "
-                'or count(span[@class = "ib-content qualifier-content"]) = 0'
             )
 
         return _LI_SELECTOR_TEMPLATE.format(

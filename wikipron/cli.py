@@ -40,15 +40,9 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
             "The dialect name is found together with the IPA transcription, "
             'e.g., "UK" or "US" in "(UK, US) IPA: /təˈmɑːtəʊ/". '
             'To include more than one dialect, use a pipe "|" to separate '
-            'the dialect names, e.g., --dialect="General American | US".'
-        ),
-    )
-    parser.add_argument(
-        "--require-dialect-label",
-        action="store_true",
-        help=(
-            "Include only entries that have a dialect specification. "
-            "If applied, then --dialect must also be used."
+            'the dialect names, e.g., --dialect="General American | US". '
+            "Note that whether or not --dialect is used, all entries that "
+            "have no dialects specified are included in the output."
         ),
     )
     parser.add_argument(
@@ -67,7 +61,14 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--no-segment",
         action="store_true",
-        help="Disable IPA segmentation with added whitespace.",
+        help=(
+            "By default, the IPA pronunciation is segmented by whitespace and,"
+            "to the extent possible, with a diacritic (either combining "
+            "or modifier) immediately following the parent symbol. "
+            'For example, "kʰæt" is segmented as "kʰ æ t", with kʰ '
+            "conveniently segmented as an aspirated k for modeling purposes. "
+            "To disable such IPA segmentation, apply this flag."
+        ),
     )
     return parser.parse_args(args)
 
