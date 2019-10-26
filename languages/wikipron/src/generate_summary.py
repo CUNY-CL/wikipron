@@ -12,18 +12,18 @@ def main():
     languages_summary_list = []
     path = "../tsv"
     for file in os.listdir(path):
-        # Filter out README.md file
+        # Filter out README.md file.
         if file.endswith(".md"):
             continue
         with open(f"{path}/{file}", "r") as tsv:
             num_of_entries = sum(1 for line in tsv)
         iso639_code = file[: file.index("_")]
         transcription_level = file[
-            file.rindex("_") + 1: file.index(".")
+            file.rindex("_") + 1 : file.index(".")
         ].capitalize()
         wiki_name = languages[iso639_code]["wiktionary_name"]
         if "dialect" in languages[iso639_code]:
-            dialect_key = file[file.index("_") + 1: file.rindex("_")]
+            dialect_key = file[file.index("_") + 1 : file.rindex("_")]
             dialects = languages[iso639_code]["dialect"][dialect_key]
             if "|" in dialects:
                 dialects = dialects.replace(" |", ",")
@@ -42,28 +42,35 @@ def main():
         readme_list.append([f"[TSV]({file})"] + row)
 
     # Sort by wiktionary language name,
-    # with phonemic entries before phonetic
-    def sorting(ele):
-        return ele[3] + ele[5]
-    languages_summary_list.sort(key=sorting)
-    readme_list.sort(key=sorting)
+    # with phonemic entries before phonetic.
+    languages_summary_list.sort(key=lambda ele: ele[3] + ele[5])
+    readme_list.sort(key=lambda ele: ele[3] + ele[5])
 
-    # Write the TSV
+    # Write the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w") as source:
         tsv_writer_object = csv.writer(source, delimiter="\t")
         tsv_writer_object.writerows(languages_summary_list)
-    # Write the README
+    # Write the README.
     with open(README_PATH, "w") as source:
         headers = [
             [
-                "Link", "ISO 639-2 Code", "ISO 639 Language Name",
-                "Wiktionary Language Name", "Case-folding",
-                "Phonetic/Phonemic", "# of entries",
+                "Link",
+                "ISO 639-2 Code",
+                "ISO 639 Language Name",
+                "Wiktionary Language Name",
+                "Case-folding",
+                "Phonetic/Phonemic",
+                "# of entries",
             ],
             [
-                ":----", ":----:", ":----:", ":----:",
-                ":----:", ":----:", "----:",
-            ]
+                ":----",
+                ":----:",
+                ":----:",
+                ":----:",
+                ":----:",
+                ":----:",
+                "----:",
+            ],
         ]
         readme_list = headers + readme_list
         formatted_and_converted_to_strings = [

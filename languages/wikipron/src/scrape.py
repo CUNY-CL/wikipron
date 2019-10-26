@@ -38,23 +38,17 @@ def _call_scrape(lang, config, tsv_path):
 
 
 def build_config_and_filter_scrape_results(
-    config_settings, wiki_name,
-    dialect_suffix=''
+    config_settings, wiki_name, dialect_suffix=""
 ):
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
 
-    phonemic_config = wikipron.Config(
-        **config_settings,
-    )
+    phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
     phonemic_count = _call_scrape(
         config_settings["key"], phonemic_config, phonemic_path
     )
 
-    phonetic_config = wikipron.Config(
-        phonetic=True,
-        **config_settings,
-    )
+    phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
     # Skips phonetic if phonemic failed to complete scrape.
     if phonemic_count is not None:
@@ -62,20 +56,31 @@ def build_config_and_filter_scrape_results(
             config_settings["key"], phonetic_config, phonetic_path
         )
     # Remove files for languages that failed to be scraped
-    # within set amount of retries.
+    # within set amount of retries. These langauges
+    # will need to be run again.
     if phonemic_count is None or phonetic_count is None:
         logging.info(
             'Failed to scrape "%s", moving on to next language. %s',
             wiki_name,
             {config_settings["key"]: config_settings},
         )
-        if os.path.exists(phonemic_path):
+        # Logging the error here would be potentially confusing
+        # as encountering an error removing the phonetic TSV
+        # file after the phonemic scrape fails to complete is expected.
+        # Files that genuinely fail to be removed will be
+        # overwritten when rerunning failed languages.
+        try:
             os.remove(phonemic_path)
-        if os.path.exists(phonetic_path):
+        except FileNotFoundError:
+            pass
+        try:
             os.remove(phonetic_path)
+        except FileNotFoundError:
+            pass
         return
-    # Remove files for languages that returned nothing
-    elif phonemic_count == 0 and phonetic_count == 0:
+    # Remove files for languages that returned nothing.
+    # WikiPron is unable to scrape these languages.
+    if not phonemic_count and not phonetic_count:
         logging.info(
             '"%s" returned no entries in phonemic and phonetic settings.',
             wiki_name,
@@ -120,8 +125,9 @@ def main():
                     languages[iso639_code]["dialect"][dialect_key],
                 )
                 build_config_and_filter_scrape_results(
-                    config_settings, languages[iso639_code]["wiktionary_name"],
-                    dialect_key + "_"
+                    config_settings,
+                    languages[iso639_code]["wiktionary_name"],
+                    dialect_key + "_",
                 )
 
 
