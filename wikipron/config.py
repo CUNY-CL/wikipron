@@ -73,6 +73,9 @@ def _parse_combining_modifiers(pron: str) -> str:
         if unicodedata.combining(char) or char in UNICODE_MODIFIERS:
             last_char = chars.pop()
             chars.append(f"{last_char}{char}")
+        elif chars and re.match("\w[͜͡]$", chars[-1]):
+            last_char = chars.pop()
+            chars.append(f"{last_char}{char}")
         else:
             chars.append(char)
     return " ".join(chars)
