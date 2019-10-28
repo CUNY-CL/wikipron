@@ -33,9 +33,11 @@ import requests
 import requests_html
 
 LANGUAGES_PATH = "languages.json"
+UNMATCHED_LANGUAGES_PATH = "unmatched_languages.json"
 README_PATH = "../tsv/README.md"
 LANGUAGES_SUMMARY_PATH = "../languages_summary.tsv"
 LOGGING_PATH = "scraping.log"
+ISO_TSV_PATH = "iso-639-3_20190408.tsv"
 
 
 # Grabs title of Wikitionary language page if it has more than 100 entries.
@@ -116,7 +118,7 @@ def main():
     unmatched_languages = {}
     with open(LANGUAGES_PATH, "r") as source:
         prev_languages = json.load(source)
-    with open("iso-639-3_20190408.tsv", "r") as source:
+    with open(ISO_TSV_PATH, "r") as source:
         iso_list = csv.reader(source, delimiter="\t")
         for lang_page_title in _cat_members():
             logging.info('Working on: "%s"', lang_page_title)
@@ -175,7 +177,7 @@ def main():
         json_dict = json.dumps(new_languages, indent=4)
         json_file.write(json_dict)
     # All languages that failed to be matched with data in ISO 639 TSV file.
-    with open("unmatched_languages.json", "w") as unmatched:
+    with open(UNMATCHED_LANGUAGES_PATH, "w") as unmatched:
         unnmatched_json_dict = json.dumps(unmatched_languages, indent=4)
         unmatched.write(unnmatched_json_dict)
 

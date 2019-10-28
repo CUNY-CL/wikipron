@@ -5,6 +5,10 @@ import csv
 from codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 
 
+def _wiki_name_and_transcription_level(ele):
+    return ele[3] + ele[5]
+
+
 def main():
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
@@ -43,10 +47,10 @@ def main():
         languages_summary_list.append([file_path] + row)
         readme_list.append([f"[TSV]({file_path})"] + row)
 
-    # Sort by wiktionary language name,
+    # Sort by Wiktionary language name,
     # with phonemic entries before phonetic.
-    languages_summary_list.sort(key=lambda ele: ele[3] + ele[5])
-    readme_list.sort(key=lambda ele: ele[3] + ele[5])
+    languages_summary_list.sort(key=_wiki_name_and_transcription_level)
+    readme_list.sort(key=_wiki_name_and_transcription_level)
 
     # Write the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w") as source:
