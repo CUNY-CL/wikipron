@@ -56,7 +56,7 @@ def _cat_info(cat_title):
             isolate_language_category = re.search(
                 r"(\s+)terms(\s+)", v["title"]
             )
-            yield (v["title"][: isolate_language_category.start()])
+            yield v["title"][: isolate_language_category.start()]
 
 
 # Runs through Wikitionary languages with IPA.
@@ -103,7 +103,7 @@ def _scrape_wiktionary_info(lang_title):
             # to compare/confirm with ISO 639 TSV File because
             # Wiktionary name does not always correspond with
             # ISO language name.
-            # Wiktionary: Ancient Greek; ISO: Greek, Ancient (to 1453)
+            # Wiktionary: Ancient Greek; ISO: Greek, Ancient (to 1453).
             code = lang_table[i].text
             code = code.split("\n")[1]
             break
@@ -131,7 +131,7 @@ def main():
             )
             for row in iso_list:
                 # Catches ISO 639-3 (row[0]), ISO-639-2 B (row[1])
-                # and ISO 639-2 T (row[2]), ISO 639-1 (row[3])
+                # and ISO 639-2 T (row[2]), ISO 639-1 (row[3]).
                 # Converts all to ISO-639-2 B (row[1]) if available.
                 # If not available converts to ISO 639-3 (row[0]).
                 if wiktionary_code in row[0:4]:

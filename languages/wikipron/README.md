@@ -2,7 +2,7 @@
 ====================
 
 [scrape.py](./src/scrape.py) calls WikiPron's scraping functions on all
-Wiktionary languages with over 100 entries. [write.py](./src/write.py)
+Wiktionary languages with over 100 entries. [generate_summary.py](./src/generate_summary.py)
 generates a [README](./tsv/README.md) and a [TSV](languages_summary.tsv) with selected
 information regarding the contents of the TSVs [scrape.py](./src/scrape.py)
 generated and the configuration settings
@@ -35,4 +35,4 @@ Steps used to update the dataset
         or search for `null` values within 
         [languages.json](./src/languages.json).
 2.  Run [scrape.py](./src/scrape.py).
-3.  Run [write.py](./src/write.py).
+3.  Run [generate_summary.py](./src/generate_summary.py).

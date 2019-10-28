@@ -11,19 +11,21 @@ def main():
     readme_list = []
     languages_summary_list = []
     path = "../tsv"
-    for file in os.listdir(path):
-        # Filter out README.md file.
-        if file.endswith(".md"):
+    for file_path in os.listdir(path):
+        # Filter out README.md.
+        if file_path.endswith(".md"):
             continue
-        with open(f"{path}/{file}", "r") as tsv:
+        with open(f"{path}/{file_path}", "r") as tsv:
             num_of_entries = sum(1 for line in tsv)
-        iso639_code = file[: file.index("_")]
-        transcription_level = file[
-            file.rindex("_") + 1 : file.index(".")
+        iso639_code = file_path[: file_path.index("_")]
+        transcription_level = file_path[
+            file_path.rindex("_") + 1 : file_path.index(".")
         ].capitalize()
         wiki_name = languages[iso639_code]["wiktionary_name"]
         if "dialect" in languages[iso639_code]:
-            dialect_key = file[file.index("_") + 1 : file.rindex("_")]
+            dialect_key = file_path[
+                file_path.index("_") + 1 : file_path.rindex("_")
+            ]
             dialects = languages[iso639_code]["dialect"][dialect_key]
             if "|" in dialects:
                 dialects = dialects.replace(" |", ",")
@@ -38,8 +40,8 @@ def main():
             str(num_of_entries),
         ]
         # TSV and README have different first column.
-        languages_summary_list.append([file] + row)
-        readme_list.append([f"[TSV]({file})"] + row)
+        languages_summary_list.append([file_path] + row)
+        readme_list.append([f"[TSV]({file_path})"] + row)
 
     # Sort by wiktionary language name,
     # with phonemic entries before phonetic.
