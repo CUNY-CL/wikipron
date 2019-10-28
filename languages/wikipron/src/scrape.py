@@ -97,10 +97,10 @@ def main():
                 config_settings, languages[iso639_code]["wiktionary_name"]
             )
         else:
-            for dialect_key in languages[iso639_code]["dialect"]:
-                config_settings["dialect"] = (
-                    languages[iso639_code]["dialect"][dialect_key],
-                )
+            for (dialect_key, dialect_value) in languages[iso639_code][
+                "dialect"
+            ].items():
+                config_settings["dialect"] = dialect_value
                 _build_config_and_filter_files(
                     config_settings,
                     languages[iso639_code]["wiktionary_name"],
