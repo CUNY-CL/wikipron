@@ -61,6 +61,7 @@ def test_process_pron(
     [
         (False, "lɛ̃.ɡɥis.tik", "l ɛ̃ . ɡ ɥ i s . t i k"),
         (False, "kʰæt", "kʰ æ t"),
+        (False, "ad͡ʒisɐ̃w", "a d͡ʒ i s ɐ̃ w"),
         (True, "lɛ̃.ɡɥis.tik", "lɛ̃.ɡɥis.tik"),
     ],
 )
