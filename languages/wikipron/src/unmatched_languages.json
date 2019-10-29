@@ -1,0 +1,44 @@
+{
+    "gmw-cfr": {
+        "wiktionary_name": "Central Franconian"
+    },
+    "nds-de": {
+        "wiktionary_name": "German Low German"
+    },
+    "roa-opt": {
+        "wiktionary_name": "Old Portuguese"
+    },
+    "map-pro": {
+        "wiktionary_name": "Proto-Austronesian"
+    },
+    "cel-bry-pro": {
+        "wiktionary_name": "Proto-Brythonic"
+    },
+    "gem-pro": {
+        "wiktionary_name": "Proto-Germanic"
+    },
+    "itc-pro": {
+        "wiktionary_name": "Proto-Italic"
+    },
+    "jpx-pro": {
+        "wiktionary_name": "Proto-Japonic"
+    },
+    "poz-mly-pro": {
+        "wiktionary_name": "Proto-Malayic"
+    },
+    "poz-pro": {
+        "wiktionary_name": "Proto-Malayo-Polynesian"
+    },
+    "jpx-ryu-pro": {
+        "wiktionary_name": "Proto-Ryukyuan"
+    },
+    "gmq-scy": {
+        "wiktionary_name": "Scanian"
+    },
+    "null": {
+        "wiktionary_name": null
+    },
+    "gmq-bot": {
+        "wiktionary_name": "Westrobothnian"
+    }
+}

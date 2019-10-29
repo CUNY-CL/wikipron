@@ -8,19 +8,21 @@ https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language
 For each language it grabs the language name and language code (likely ISO
 639-1) that Wiktionary uses.
 
-It compares that code  with those in iso-639-3_20190408.tsv in order to grab the
-appropriate ISO 639-2 or ISO 639-3 code and language name. A dictionary
+It compares that code  with those in iso-639-3_20190408.tsv in order to grab
+the appropriate ISO 639-2 or ISO 639-3 code and language name. A dictionary
 containing this data is created and converted to a JSON file
-(languages.json). Casefolding settings for languages already in
+(languages.json). Config settings for languages already in
 languages.json are transferred to the new languages dictionary being created.
 
-New languages that are added through this process and outputted to languages.json
-require further processing before being imported by scrape_and_write.py:
+New languages that are added through this process and outputted to
+languages.json require further processing before being
+imported by scrape_and_write.py:
 
 * Casefolding needs to be specified
 * Dialect information may also need to be added manually
 """
 
+# TODO Generate and use a lookup table for the iso639-3 TSV file.
 
 import csv
 import logging
@@ -30,7 +32,15 @@ import re
 import requests
 import requests_html
 
+LANGUAGES_PATH = "languages.json"
+UNMATCHED_LANGUAGES_PATH = "unmatched_languages.json"
+README_PATH = "../tsv/README.md"
+LANGUAGES_SUMMARY_PATH = "../languages_summary.tsv"
+LOGGING_PATH = "scraping.log"
+ISO_TSV_PATH = "iso-639-3_20190408.tsv"
 
+
+# Grabs title of Wikitionary language page if it has more than 100 entries.
 def _cat_info(cat_title):
     cat_info_params = {
         "action": "query",
@@ -48,12 +58,10 @@ def _cat_info(cat_title):
             isolate_language_category = re.search(
                 r"(\s+)terms(\s+)", v["title"]
             )
-            yield (
-                v["title"][0 : isolate_language_category.start()],
-                num_of_pages,
-            )
+            yield v["title"][: isolate_language_category.start()]
 
 
+# Runs through Wikitionary languages with IPA.
 def _cat_members():
     cat_member_params = {
         "action": "query",
@@ -74,6 +82,8 @@ def _cat_members():
         cat_member_params["cmcontinue"] = continue_code
 
 
+# Uses title of Wiktionary language page to grab
+# Wiktionary language name and Wiktionary language code.
 def _scrape_wiktionary_info(lang_title):
     name = None
     code = None
@@ -93,8 +103,9 @@ def _scrape_wiktionary_info(lang_title):
             # Canonical name (should) always be filled already.
             # We grab Wiktionary language code as our entry point
             # to compare/confirm with ISO 639 TSV File because
-            # Wiktionary name does not always correspond with ISO language name
-            # Wiktionary: Ancient Greek; ISO: Greek, Ancient (to 1453)
+            # Wiktionary name does not always correspond with
+            # ISO language name.
+            # Wiktionary: Ancient Greek; ISO: Greek, Ancient (to 1453).
             code = lang_table[i].text
             code = code.split("\n")[1]
             break
@@ -104,12 +115,12 @@ def _scrape_wiktionary_info(lang_title):
 
 def main():
     new_languages = {}
-    failed_languages = {}
-    with open("languages.json", "r") as source:
+    unmatched_languages = {}
+    with open(LANGUAGES_PATH, "r") as source:
         prev_languages = json.load(source)
-    with open("iso-639-3_20190408.tsv", "r") as source:
+    with open(ISO_TSV_PATH, "r") as source:
         iso_list = csv.reader(source, delimiter="\t")
-        for (lang_page_title, total_pages) in _cat_members():
+        for lang_page_title in _cat_members():
             logging.info('Working on: "%s"', lang_page_title)
             lang = {}
             iso639_name = None
@@ -122,40 +133,53 @@ def main():
             )
             for row in iso_list:
                 # Catches ISO 639-3 (row[0]), ISO-639-2 B (row[1])
-                # and ISO 639-2 T (row[2]), ISO 639-1 (row[3])
-                # Converts all to ISO-639-2 B (row[1]) if available
-                # If not available converts to ISO 639-3 (row[0])
+                # and ISO 639-2 T (row[2]), ISO 639-1 (row[3]).
+                # Converts all to ISO-639-2 B (row[1]) if available.
+                # If not available converts to ISO 639-3 (row[0]).
                 if wiktionary_code in row[0:4]:
                     iso639_name = row[6]
                     iso639_code = row[1] if row[1] else row[0]
                     break
             if iso639_code:
-                lang[iso639_code] = {
+                # Wiki name and code may have changed since last running.
+                # iso639_name will likely not
+                # (unless we have changed/updated the ISO 639-3 TSV),
+                # but is included in the dict below for when adding
+                # new languages to languages.json.
+                potentially_updated = {
                     "iso639_name": iso639_name,
                     "wiktionary_name": wiktionary_name,
                     "wiktionary_code": wiktionary_code,
-                    "casefold": (
-                        prev_languages[iso639_code]["casefold"]
-                        if iso639_code in prev_languages
-                        else None
-                    ),
-                    "total_pages": total_pages,
                 }
-                new_languages.update(lang)
+                # If language already in languages.json.
+                if iso639_code in prev_languages:
+                    # Impose the potentially updated values on old values.
+                    # Retains previously set casefold setting.
+                    lang[iso639_code] = {
+                        **prev_languages[iso639_code],
+                        **potentially_updated,
+                    }
+                    new_languages.update(lang)
+                else:
+                    # Add new language to languages.json.
+                    lang[iso639_code] = {
+                        **potentially_updated,
+                        "casefold": None,
+                    }
+                    new_languages.update(lang)
             else:
-                lang[wiktionary_code] = {
-                    "wiktionary_name": wiktionary_name,
-                    "total_pages": total_pages,
-                }
-                failed_languages.update(lang)
+                # Could not find a match for the wikitionary code
+                # in our ISO 639-3 TSV.
+                lang[wiktionary_code] = {"wiktionary_name": wiktionary_name}
+                unmatched_languages.update(lang)
             source.seek(0)
-    with open("languages.json", "w") as json_file:
+    with open(LANGUAGES_PATH, "w") as json_file:
         json_dict = json.dumps(new_languages, indent=4)
         json_file.write(json_dict)
-    # All languages that failed to be paired with data in ISO 639 TSV file.
-    with open("failed_languages.json", "w") as failed:
-        failed_dict = json.dumps(failed_languages, indent=4)
-        failed.write(failed_dict)
+    # All languages that failed to be matched with data in ISO 639 TSV file.
+    with open(UNMATCHED_LANGUAGES_PATH, "w") as unmatched:
+        unnmatched_json_dict = json.dumps(unmatched_languages, indent=4)
+        unmatched.write(unnmatched_json_dict)
 
 
 if __name__ == "__main__":

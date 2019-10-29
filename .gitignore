@@ -3,3 +3,4 @@ __pycache__/
 .mypy_cache/
 *.py[cdo]
 *.egg-info/
+*.log
