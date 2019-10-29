@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Deprecated
 
 ### Removed
-- Removed the `output` option. (#78)
+- Removed the `output` option. (#82)
 - Removed the `require_dialect_label` option. (#77)
 
 ### Fixed
