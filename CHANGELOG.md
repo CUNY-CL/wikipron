@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - IPA segmentation using spaces by default, with the `--no-segment` flag
-  to optionally turn it off. (#69)
+  to optionally turn it off. (#69, #79)
 - TSV files for all Wiktionary languages with over 1000 entries (except Russian) (#61)
 - Resolved Wiktionary language names for languages with at least 100
   pronunciation entries. (#52, #55)
