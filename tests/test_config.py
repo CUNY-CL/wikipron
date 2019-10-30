@@ -1,7 +1,5 @@
 import datetime
-import os
 import re
-import tempfile
 
 import pytest
 import requests_html
@@ -17,13 +15,6 @@ _DATE_TODAY = _TODAY.isoformat()
 _DATE_FUTURE = (_TODAY + datetime.timedelta(days=10)).isoformat()
 _DATE_RECENT_PAST = (_TODAY - datetime.timedelta(days=10)).isoformat()
 _DATE_DISTANT_PAST = (_TODAY - datetime.timedelta(days=20)).isoformat()
-
-
-def test_output():
-    with tempfile.TemporaryDirectory() as temp_dir:
-        file_path = os.path.join(temp_dir, "foobar.tsv")
-        config = config_factory(output=file_path)
-        assert config.output.name == file_path
 
 
 @pytest.mark.parametrize(

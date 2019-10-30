@@ -12,7 +12,7 @@ from wikipron.scrape import scrape
 def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=wikipron.__doc__)
     parser.add_argument(
-        "key", help="Key (i.e., name or ISO-639 code) for the language"
+        "key", help="Key (i.e., ISO 639 code or name) for the language"
     )
     parser.add_argument(
         "--phonetic",
@@ -37,7 +37,8 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         help=(
             "Retrieve entries that have this dialect specification. "
             "If not given, then all dialects are included in the output. "
-            "The dialect name is found together with the IPA transcription, "
+            "The dialect name can be found together with the IPA transcription"
+            " in the Wiktionary entries, "
             'e.g., "UK" or "US" in "(UK, US) IPA: /təˈmɑːtəʊ/". '
             'To include more than one dialect, use a pipe "|" to separate '
             'the dialect names, e.g., --dialect="General American | US". '
@@ -59,13 +60,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--output",
-        help=(
-            "Output filename. If the output file already exists, it will be "
-            "overridden. If not given, results appear in stdout."
-        ),
-    )
-    parser.add_argument(
         "--no-segment",
         action="store_true",
         help=(
@@ -82,7 +76,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
 
 def _scrape_and_write(config: Config) -> None:
     for i, (word, pron) in enumerate(scrape(config), 1):
-        print(f"{word}\t{pron}", file=config.output)
+        print(f"{word}\t{pron}")
         if i % 100 == 0:
             logging.info("%d pronunciations scraped", i)
 

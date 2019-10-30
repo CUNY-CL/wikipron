@@ -2,9 +2,8 @@ import datetime
 import functools
 import logging
 import re
-import sys
 
-from typing import Callable, Optional, TextIO
+from typing import Callable, Optional
 
 import iso639
 import unicodedata
@@ -96,7 +95,6 @@ class Config:
         self,
         *,
         key: str,
-        output: Optional[str] = None,
         casefold: bool = False,
         no_stress: bool = False,
         no_syllable_boundaries: bool = False,
@@ -106,7 +104,6 @@ class Config:
         no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
-        self.output: Optional[str] = self._get_output(output)
         self.casefold: Callable[[str], str] = self._get_casefold(casefold)
         self.process_pron: Callable[[str], str] = self._get_process_pron(
             no_stress, no_syllable_boundaries, no_segment
@@ -131,9 +128,6 @@ class Config:
             language = iso639.to_name(key).split(";")[0]
         logging.info('Language: "%s"', language)
         return language
-
-    def _get_output(self, output: Optional[str]) -> Optional[TextIO]:
-        return open(output, "w") if output else sys.stdout
 
     def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
         today = datetime.date.today()
