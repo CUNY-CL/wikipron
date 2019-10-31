@@ -39,12 +39,16 @@ def _skip_word(word: str) -> bool:
     return False
 
 
+def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
+    return date_from_word > cut_off_date
+
+
 def _scrape_once(data, config: Config) -> Iterator[Pair]:
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
-        if date > config.cut_off_date:
+        if _skip_date(date, config.cut_off_date):
             continue
         if _skip_word(word):
             continue

@@ -35,3 +35,8 @@ def test_scrape(key, language, other_params):
 def test__skip_word():
     # TODO
     pass
+
+
+def test__skip_date():
+    # TODO
+    pass
