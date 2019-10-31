@@ -62,39 +62,27 @@ def test_no_segment(no_segment, input_pron, expected_pron):
     assert config.process_pron(input_pron) == expected_pron
 
 
-@pytest.mark.skip(reason="delete this test?")  # TODO
 @pytest.mark.parametrize(
-    "error, cut_off_date, word_available_date, source_word, expected_word",
+    "error, cut_off_date, word_available_date, expected",
     [
         # Input cut_off_date is invalid.
-        (True, _DATE_FUTURE, None, None, None),
-        (True, "not-a-valid_date", None, None, None),
+        (True, _DATE_FUTURE, None, None),
+        (True, "not-a-valid_date", None, None),
         # Input cut_off_date is valid.
-        (False, None, _DATE_RECENT_PAST, "foobar", "foobar"),
-        (False, _DATE_TODAY, _DATE_TODAY, "foobar", "foobar"),
-        (False, _DATE_TODAY, _DATE_RECENT_PAST, "foobar", "foobar"),
-        (False, _DATE_RECENT_PAST, _DATE_DISTANT_PAST, "foobar", "foobar"),
-        (False, _DATE_RECENT_PAST, _DATE_TODAY, "foobar", None),
-        # Now check that filtering works due to the word itself.
-        (False, None, _DATE_RECENT_PAST, "a phrase", None),
-        (False, None, _DATE_RECENT_PAST, "hyphen-ated", None),
-        (False, None, _DATE_RECENT_PAST, "prefix-", None),
-        (False, None, _DATE_RECENT_PAST, "-suffix", None),
-        (False, None, _DATE_RECENT_PAST, "hasdigit2", None),
+        (False, None, _DATE_RECENT_PAST, _DATE_TODAY),
+        (False, _DATE_TODAY, _DATE_TODAY, _DATE_TODAY),
+        (False, _DATE_TODAY, _DATE_RECENT_PAST, _DATE_TODAY),
+        (False, _DATE_RECENT_PAST, _DATE_DISTANT_PAST, _DATE_RECENT_PAST),
+        (False, _DATE_RECENT_PAST, _DATE_TODAY, _DATE_RECENT_PAST),
     ],
 )
-def test_process_word(
-    error, cut_off_date, word_available_date, source_word, expected_word
-):
+def test_cut_off_date(error, cut_off_date, word_available_date, expected):
     if error:
         with pytest.raises(ValueError):
             config_factory(cut_off_date=cut_off_date)
     else:
         config = config_factory(cut_off_date=cut_off_date)
-        assert (
-            config.process_word(source_word, word_available_date)
-            == expected_word
-        )
+        assert config.cut_off_date == expected
 
 
 @pytest.mark.parametrize(

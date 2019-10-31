@@ -48,9 +48,7 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
-        if _skip_date(date, config.cut_off_date):
-            continue
-        if _skip_word(word):
+        if _skip_word(word) or _skip_date(date, config.cut_off_date):
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
         word = config.extract_word(word, request)

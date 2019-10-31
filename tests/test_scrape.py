@@ -1,6 +1,6 @@
 import pytest
 
-from wikipron.scrape import scrape
+from wikipron.scrape import scrape, _skip_word, _skip_date
 
 from . import can_connect_to_wiktionary, config_factory
 
@@ -32,11 +32,28 @@ def test_scrape(key, language, other_params):
     assert all(word and pron for (word, pron) in pairs)
 
 
-def test__skip_word():
-    # TODO
-    pass
+@pytest.mark.parametrize(
+    "word, expected",
+    [
+        ("foobar", False),
+        ("a phrase", True),
+        ("hyphen-ated", True),
+        ("prefix-", True),
+        ("-suffix", True),
+        ("hasdigit2", True),
+    ],
+)
+def test__skip_word(word, expected):
+    assert _skip_word(word) == expected
 
 
-def test__skip_date():
-    # TODO
-    pass
+@pytest.mark.parametrize(
+    "date_from_word, cut_off_date, expected",
+    [
+        ("2019-10-15", "2019-10-20", False),
+        ("2019-10-20", "2019-10-20", False),
+        ("2019-10-25", "2019-10-20", True),
+    ],
+)
+def test__skip_date(date_from_word, cut_off_date, expected):
+    assert _skip_date(date_from_word, cut_off_date) == expected
