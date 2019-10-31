@@ -17,6 +17,7 @@ _DATE_RECENT_PAST = (_TODAY - datetime.timedelta(days=10)).isoformat()
 _DATE_DISTANT_PAST = (_TODAY - datetime.timedelta(days=20)).isoformat()
 
 
+@pytest.mark.skip(reason="delete this test?")  # TODO
 @pytest.mark.parametrize(
     "casefold, input_word, expected_word",
     [(True, "FooBar", "foobar"), (False, "FooBar", "FooBar")],
@@ -61,6 +62,7 @@ def test_no_segment(no_segment, input_pron, expected_pron):
     assert config.process_pron(input_pron) == expected_pron
 
 
+@pytest.mark.skip(reason="delete this test?")  # TODO
 @pytest.mark.parametrize(
     "error, cut_off_date, word_available_date, source_word, expected_word",
     [

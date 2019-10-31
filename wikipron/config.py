@@ -104,14 +104,15 @@ class Config:
         no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
-        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
+        self._casefold: Callable[[str], str] = self._get_casefold(casefold)
         self.process_pron: Callable[[str], str] = self._get_process_pron(
             no_stress, no_syllable_boundaries, no_segment
         )
-        _cut_off_date: str = self._get_cut_off_date(cut_off_date)
-        self.process_word: Callable[[str, str], str] = self._get_process_word(
-            _cut_off_date
-        )
+        self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
+
+        # TODO data type is wrong?
+        self.extract_word: Callable[[str, str], str] = self._get_extract_word()
+
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.li_selector: str = self._get_li_selector(self.language, dialect)
 
@@ -199,22 +200,8 @@ class Config:
             language=language, dialect_selector=dialect_selector
         )
 
-    def _get_process_word(
-        self, cut_off_date: Optional[str]
-    ) -> Callable[[str, str], str]:
-        def wrapper(word, date):
-            # Skips multiword examples.
-            if " " in word:
-                return None
-            # Skips examples containing a dash.
-            if "-" in word:
-                return None
-            # Skips examples containing digits.
-            if re.search(r"\d", word):
-                return None
-            # Skips examples available later than the cut-off date.
-            if date > cut_off_date:
-                return None
-            return word
-
+    def _get_extract_word(self):
+        # TODO
+        def wrapper(word, request):
+            return self._casefold(word)
         return wrapper

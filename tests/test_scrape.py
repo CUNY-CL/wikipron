@@ -30,3 +30,8 @@ def test_scrape(key, language, other_params):
         pairs.append((word, pron))
     assert len(pairs) == n
     assert all(word and pron for (word, pron) in pairs)
+
+
+def test__skip_word():
+    # TODO
+    pass

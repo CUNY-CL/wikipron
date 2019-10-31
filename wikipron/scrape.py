@@ -26,17 +26,35 @@ def _yield_phn(request, config: Config):
                 yield m
 
 
+def _skip_word(word: str) -> bool:
+    # Skips multiword examples.
+    if " " in word:
+        return True
+    # Skips examples containing a dash.
+    if "-" in word:
+        return True
+    # Skips examples containing digits.
+    if re.search(r"\d", word):
+        return True
+    return False
+
+
 def _scrape_once(data, config: Config) -> Iterator[Pair]:
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
-        word = config.process_word(word, date)
-        if not word:
+        if date > config.cut_off_date:
+            continue
+        if _skip_word(word):
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
-        # Template lookup is case-sensitive, but we case-fold afterwards.
-        word = config.casefold(word)
+        word = config.extract_word(word, request)
+
+        # TODO need this if check?
+        if not word:
+            continue
+
         for m in _yield_phn(request, config):
             try:
                 pron = m.group(1)
