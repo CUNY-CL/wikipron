@@ -6,6 +6,7 @@ import requests
 import requests_html
 
 from wikipron.config import Config
+from wikipron.extract.core import extract_word_pron
 
 
 Pair = Tuple[str, str]
@@ -15,15 +16,6 @@ Pair = Tuple[str, str]
 _CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 # Selects the content on the page.
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
-_SPAN_SELECTOR = '//span[@class = "IPA"]'
-
-
-def _yield_phn(request, config: Config):
-    for li in request.html.xpath(config.li_selector):
-        for span in li.xpath(_SPAN_SELECTOR):
-            m = re.search(config.ipa_regex, span.text)
-            if m:
-                yield m
 
 
 def _skip_word(word: str) -> bool:
@@ -51,25 +43,8 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
         if _skip_word(word) or _skip_date(date, config.cut_off_date):
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
-        word = config.extract_word(word, request)
-
-        # TODO need this if check?
-        if not word:
-            continue
-
-        for m in _yield_phn(request, config):
-            try:
-                pron = m.group(1)
-            except IndexError:
-                continue
-            # Removes parens around various segments.
-            pron = pron.replace("(", "").replace(")", "")
-            # Skips examples with a space in the pron.
-            if " " in pron:
-                continue
-            pron = config.process_pron(pron)
-            if pron:
-                yield (word, pron)
+        for word, pron in extract_word_pron(word, request, config):
+            yield word, pron
 
 
 def scrape(config: Config) -> Iterator[Pair]:
