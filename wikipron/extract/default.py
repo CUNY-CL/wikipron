@@ -1,12 +1,10 @@
 import re
 
-from wikipron.config import Config
-
 
 _SPAN_SELECTOR = '//span[@class = "IPA"]'
 
 
-def _yield_phn(request, config: Config):
+def _yield_phn(request, config):
     for li in request.html.xpath(config.li_selector):
         for span in li.xpath(_SPAN_SELECTOR):
             m = re.search(config.ipa_regex, span.text)
@@ -14,7 +12,7 @@ def _yield_phn(request, config: Config):
                 yield m
 
 
-def extract_word_pron(word, request, config):
+def extract_word_pron_default(word, request, config):
     word = config.extract_word(word, request)
 
     # TODO need this if check?

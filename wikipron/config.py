@@ -11,6 +11,7 @@ import iso639
 import unicodedata
 
 from wikipron.languagecodes import LANGUAGE_CODES
+from wikipron.extract import EXTRACTION_FUNCTIONS
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
@@ -120,6 +121,9 @@ class Config:
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.li_selector: str = self._get_li_selector(self.language, dialect)
 
+        # TODO data type
+        self.extract_word_pron = self._get_extract_word_pron(self.language)
+
     def _get_language(self, key) -> str:
         key = key.lower().strip()
         if key.startswith("proto-"):
@@ -211,3 +215,9 @@ class Config:
             return word
 
         return wrapper
+
+    def _get_extract_word_pron(self, language):
+        try:
+            return EXTRACTION_FUNCTIONS[language]
+        except KeyError:
+            return EXTRACTION_FUNCTIONS["default"]
