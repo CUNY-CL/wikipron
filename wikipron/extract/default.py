@@ -1,12 +1,12 @@
 import re
 
 
-_SPAN_SELECTOR = '//span[@class = "IPA"]'
+IPA_XPATH = '//span[@class = "IPA"]'
 
 
 def _yield_phn(request, config):
     for li in request.html.xpath(config.li_selector):
-        for span in li.xpath(_SPAN_SELECTOR):
+        for span in li.xpath(IPA_XPATH):
             m = re.search(config.ipa_regex, span.text)
             if m:
                 yield m
