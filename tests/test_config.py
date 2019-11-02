@@ -17,7 +17,6 @@ _DATE_RECENT_PAST = (_TODAY - datetime.timedelta(days=10)).isoformat()
 _DATE_DISTANT_PAST = (_TODAY - datetime.timedelta(days=20)).isoformat()
 
 
-@pytest.mark.skip(reason="delete this test?")  # TODO
 @pytest.mark.parametrize(
     "casefold, input_word, expected_word",
     [(True, "FooBar", "foobar"), (False, "FooBar", "FooBar")],

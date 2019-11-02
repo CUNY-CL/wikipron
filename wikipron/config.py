@@ -3,8 +3,6 @@ import functools
 import logging
 import re
 
-import requests
-
 from typing import Callable, Optional
 
 import iso639
@@ -107,17 +105,11 @@ class Config:
         no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
-        self._casefold: Callable[[str], str] = self._get_casefold(casefold)
+        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
         self.process_pron: Callable[[str], str] = self._get_process_pron(
             no_stress, no_syllable_boundaries, no_segment
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
-
-        # TODO data type is wrong?
-        self.extract_word: Callable[
-            [str, requests.Response], str
-        ] = self._get_extract_word()
-
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.li_selector: str = self._get_li_selector(self.language, dialect)
 
@@ -207,14 +199,6 @@ class Config:
         return _LI_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
         )
-
-    def _get_extract_word(self) -> Callable[[str, requests.Response], str]:
-        # TODO
-        def wrapper(word: str, request: requests.Response) -> str:
-            word = self._casefold(word)
-            return word
-
-        return wrapper
 
     def _get_extract_word_pron(self, language):
         try:

@@ -13,12 +13,7 @@ def _yield_phn(request, config):
 
 
 def extract_word_pron_default(word, request, config):
-    word = config.extract_word(word, request)
-
-    # TODO need this if check?
-    if not word:
-        return
-
+    word = config.casefold(word)
     for m in _yield_phn(request, config):
         try:
             pron = m.group(1)
