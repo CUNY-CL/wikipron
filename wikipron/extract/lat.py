@@ -46,9 +46,11 @@ def extract_word_pron_lat(word, request, config):
     words = _extract_words(request)
     prons = _extract_prons(request, config)
 
+    # TODO: Delete.
     print()
     print(words, prons)
 
+    # FIXME: This logic is wrong, because a word can have multiple prons.
     # In case words and prons don't match up for numbers, give up.
     if len(words) != len(prons):
         return
