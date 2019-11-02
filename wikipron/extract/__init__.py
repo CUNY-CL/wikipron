@@ -1,9 +1,9 @@
 from wikipron.extract.default import extract_word_pron_default
-from wikipron.extract.lat import extract_word_pron_lat
+from wikipron.extract.khm import extract_word_pron_khm
 
 
 EXTRACTION_FUNCTIONS = {
     "default": extract_word_pron_default,
     # Key has to be the language name used by Wiktionary.
-    "Latin": extract_word_pron_lat,
+    "Khmer": extract_word_pron_khm,
 }
