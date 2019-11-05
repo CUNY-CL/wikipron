@@ -1,28 +1,50 @@
+import collections
+
 import pytest
 
 from wikipron.scrape import scrape, _skip_word, _skip_date
+from wikipron.extract import EXTRACTION_FUNCTIONS
 
 from . import can_connect_to_wiktionary, config_factory
 
 
-@pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
-@pytest.mark.parametrize(
-    "key, language, other_params",
-    [
-        ("eng", "English", {}),
-        # Test that 'sup[a[@title = "wikipedia:Slovak phonology"]]' works.
-        ("slk", "Slovak", {}),
-        # Test that the extra "span" layer for Korean is handled.
-        # Korean data is mostly phonetic transcription only.
-        ("kor", "Korean", {"phonetic": True}),
-    ],
+SmokeTestLanguage = collections.namedtuple(
+    "SmokeTestLanguage", ("key", "language", "other_params")
 )
+SmokeTestLanguage.__doc__ = """
+Represents a language to run a smoke test on.
+
+Parameters
+----------
+key : str
+    An ISO 639 code or language name.
+language : str
+    The language name used by Wiktionary.
+other_params : dict
+    Optional parameters for the Config class.
+"""
+
+_SMOKE_TEST_LANGUAGES = [
+    SmokeTestLanguage("eng", "English", {}),
+    # Test that 'sup[a[@title = "wikipedia:Slovak phonology"]]' works.
+    SmokeTestLanguage("slk", "Slovak", {}),
+    # Test that the extra "span" layer for Korean is handled.
+    # Korean data is mostly phonetic transcription only.
+    SmokeTestLanguage("kor", "Korean", {"phonetic": True}),
+    SmokeTestLanguage("khm", "Khmer", {}),
+]
+
+
+@pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
+@pytest.mark.parametrize("smoke_test_language", _SMOKE_TEST_LANGUAGES)
 @pytest.mark.timeout(3)
-def test_scrape(key, language, other_params):
+def test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
-    config = config_factory(key=key, **other_params)
-    assert config.language == language
+    config = config_factory(
+        key=smoke_test_language.key, **smoke_test_language.other_params
+    )
+    assert config.language == smoke_test_language.language
     pairs = []
     for i, (word, pron) in enumerate(scrape(config)):
         if i >= n:
@@ -30,6 +52,18 @@ def test_scrape(key, language, other_params):
         pairs.append((word, pron))
     assert len(pairs) == n
     assert all(word and pron for (word, pron) in pairs)
+
+
+def test_special_languages_covered_by_smoke_test():
+    """All languages handled by wikipron.extract must have a smoke test."""
+    special_languages = {
+        lang for lang in EXTRACTION_FUNCTIONS.keys() if lang != "default"
+    }
+    smoke_test_languages = {lang.language for lang in _SMOKE_TEST_LANGUAGES}
+    assert special_languages.issubset(smoke_test_languages), (
+        "These languages must also be included in the smoke test: "
+        f"{special_languages - smoke_test_languages}"
+    )
 
 
 @pytest.mark.parametrize(
