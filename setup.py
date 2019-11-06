@@ -43,7 +43,7 @@ def main():
         zip_safe=False,
         install_requires=[
             "iso639",
-            "segments",
+            "segments < 3",
             "requests",
             "requests-html",
             "setuptools",
