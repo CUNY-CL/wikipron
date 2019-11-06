@@ -31,10 +31,11 @@ def test_casefold(casefold, input_word, expected_word):
     [
         (True, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ɡ w ɪ s t ɪ k s"),
         (True, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ɡ w ɪ s . t ɪ k s"),
-        (False, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ˈ ɡ w ɪ s t ɪ k s"),
-        (False, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ˈ ɡ w ɪ s . t ɪ k s"),
+        (False, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ˈɡ w ɪ s t ɪ k s"),
+        (False, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ˈɡ w ɪ s . t ɪ k s"),
         # GH-59: Prons with only stress or syllable boundaries are skipped.
         (False, False, "ˈ", None),
+        (False, False, ".", None),
         (False, False, "", None),
     ],
 )
@@ -53,6 +54,11 @@ def test_process_pron(
         (False, "lɛ̃.ɡɥis.tik", "l ɛ̃ . ɡ ɥ i s . t i k"),
         (False, "kʰæt", "kʰ æ t"),
         (False, "ad͡ʒisɐ̃w", "a d͡ʒ i s ɐ̃ w"),
+        (False, "ovoɫˈnʲɤ", "o v o ɫ ˈnʲ ɤ"),
+        # GH-83: Challenging IPA tokenizations.
+        (False, "ˌæb.oʊˈmaɪ.sɪn", "ˌæ b . o ʊ ˈm a ɪ . s ɪ n"),
+        (False, "ʷoˈtɤu̯", "ʷo ˈt ɤ u̯"),
+        (False, "ⁿdaˈɽá.ma", "ⁿd a ˈɽ á . m a"),
         (True, "lɛ̃.ɡɥis.tik", "lɛ̃.ɡɥis.tik"),
     ],
 )

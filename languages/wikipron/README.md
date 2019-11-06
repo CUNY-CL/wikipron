@@ -6,7 +6,10 @@ Wiktionary languages with over 100 entries. [generate\_summary.py](./src/generat
 generates a [README](./tsv/README.md) and a [TSV](languages_summary.tsv) with selected
 information regarding the contents of the TSVs [scrape.py](./src/scrape.py)
 generated and the configuration settings
-that were passed to scrape. [languages.json](./src/languages.json) provides
+that were passed to scrape. [remove\_duplicates.sh](./src/remove_duplicates.sh)
+sorts and removes entries in each TSV if they have 
+the same graphemic form and phonemic form as a previous entry.
+ [languages.json](./src/languages.json) provides
 [scrape.py](./src/scrape.py) with a dictionary containing the information it
 needs to call scrape on all Wiktionary languages with over 100 entries as well
 as to generate the previously mentioned [README](./tsv/README.md).
@@ -35,4 +38,5 @@ Steps used to update the dataset
         or search for `null` values within 
         [languages.json](./src/languages.json).
 2.  Run [scrape.py](./src/scrape.py).
-3.  Run [generate\_summary.py](./src/generate_summary.py).
+3.  Run [remove\_duplicates.sh](./src/remove_duplicates.sh)
+4.  Run [generate\_summary.py](./src/generate_summary.py).

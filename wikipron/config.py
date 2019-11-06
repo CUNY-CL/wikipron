@@ -6,7 +6,7 @@ import re
 from typing import Callable, Optional
 
 import iso639
-import unicodedata
+import segments
 
 from wikipron.languagecodes import LANGUAGE_CODES
 from wikipron.extract import EXTRACTION_FUNCTIONS
@@ -32,54 +32,6 @@ _DIALECT_SELECTOR_TEMPLATE = (
 )
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
-
-# unicodedata does not have a way to check "modifier" codepoints
-# so we compile a set here.
-# see https://en.wikipedia.org/wiki/Phonetic_symbols_in_Unicode
-UNICODE_MODIFIERS = frozenset(
-    [
-        "ˡ",
-        "ˍ",
-        "ʲ",
-        "ˠ",
-        "˺",
-        "ː",
-        "˞",
-        "˽",
-        "ˬ",
-        "˖",
-        "ʰ",
-        "ˤ",
-        "˳",
-        "˟",
-        "ⁿ",
-        "ʷ",
-        "˕",
-        "ˌ",
-        "˷",
-        "˔",
-    ]
-)
-
-
-def _parse_combining_modifiers(pron: str) -> str:
-    """Keep combining/modifier diacritics with the previous character and
-    unambiguously segment IPA prons with added whitespace.
-    """
-    chars = []
-    for char in pron:
-        # Unicode has separate codepoints for combining and modifying chars
-        # so we have to check for both.
-        if unicodedata.combining(char) or char in UNICODE_MODIFIERS:
-            last_char = chars.pop()
-            chars.append(f"{last_char}{char}")
-        # We also check for char+tie (as in double articulation/affricates).
-        elif chars and re.match(r"\w[͜͡]$", chars[-1]):
-            last_char = chars.pop()
-            chars.append(f"{last_char}{char}")
-        else:
-            chars.append(char)
-    return " ".join(chars)
 
 
 class Config:
@@ -132,11 +84,9 @@ class Config:
 
     def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
         today = datetime.date.today()
-
         if not cut_off_date:
             logging.info("No cut-off date specified")
             return today.isoformat()
-
         try:
             # TODO: when we require Python 3.7+ later, we can do this:
             #  d = datetime.date.fromisoformat(cut_off_date)
@@ -147,7 +97,6 @@ class Config:
                 f"{cut_off_date}"
             )
             raise ValueError(msg) from e
-
         if d > today:
             msg = (
                 "Cut-off date cannot be later than today's date: "
@@ -164,25 +113,26 @@ class Config:
     def _get_process_pron(
         self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
     ) -> Callable[[str], str]:
-
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
         if no_syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
         if not no_segment:
-            processors.append(_parse_combining_modifiers)
-
+            processors.append(
+                functools.partial(segments.Tokenizer(), ipa=True)
+            )
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
         def wrapper(pron):
-            for processor in processors:
-                pron = processor(pron)
             # GH-59: Skip prons that are empty, or have only stress marks or
             # syllable boundaries. The `any()` call is much faster than
             # re.match(r"[^ˈˌ.]", pron).
-            if any(c not in prosodic_markers for c in pron):
-                return pron
+            if all(ch in prosodic_markers for ch in pron):
+                return
+            for processor in processors:
+                pron = processor(pron)
+            return pron
 
         return wrapper
 
