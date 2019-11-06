@@ -14,7 +14,6 @@ def _yield_phn(request, config):
 
 
 def extract_word_pron_default(word, request, config):
-    # TODO: Document (and test?) what the function signature must look like.
     words = itertools.repeat(config.casefold(word))
     prons = _yield_phn(request, config)
     yield from zip(words, prons)

@@ -64,9 +64,9 @@ class Config:
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.li_selector: str = self._get_li_selector(self.language, dialect)
-
-        # TODO data type
-        self.extract_word_pron = self._get_extract_word_pron(self.language)
+        self.extract_word_pron: Callable = self._get_extract_word_pron(
+            self.language
+        )
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -150,7 +150,7 @@ class Config:
             language=language, dialect_selector=dialect_selector
         )
 
-    def _get_extract_word_pron(self, language):
+    def _get_extract_word_pron(self, language: str) -> Callable:
         try:
             return EXTRACTION_FUNCTIONS[language]
         except KeyError:
