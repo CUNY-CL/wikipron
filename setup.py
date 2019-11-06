@@ -41,7 +41,13 @@ def main():
         packages=setuptools.find_packages(),
         python_requires=">=3.6",
         zip_safe=False,
-        install_requires=["iso639", "requests", "requests-html", "setuptools"],
+        install_requires=[
+            "iso639",
+            "segments < 3",
+            "requests",
+            "requests-html",
+            "setuptools",
+        ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
         classifiers=[
             "Programming Language :: Python :: 3",
