@@ -12,7 +12,7 @@ Unreleased
 
 ### Added
 
--   Handled Khmer, whose pronunciations are embedded in HTML tables. (\# ???)
+-   Handled Khmer, whose pronunciations are embedded in HTML tables. (\#88)
 -   IPA segmentation using spaces by default, with the `--no-segment` flag to
     optionally turn it off. (\#69, \#79, \#83)
 -   TSV files for all Wiktionary languages with over 1000 entries (except
@@ -22,7 +22,7 @@ Unreleased
 
 ### Changed
 
--   Generalized word and pronunciation extraction. (\# ???)
+-   Generalized word and pronunciation extraction. (\#88)
 
 ### Deprecated
 
