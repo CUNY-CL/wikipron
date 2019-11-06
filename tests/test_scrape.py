@@ -9,7 +9,7 @@ from . import can_connect_to_wiktionary, config_factory
 
 
 SmokeTestLanguage = collections.namedtuple(
-    "SmokeTestLanguage", ("key", "language", "other_params")
+    "SmokeTestLanguage", ("key", "wik_name", "config_params")
 )
 SmokeTestLanguage.__doc__ = """
 Represents a language to run a smoke test on.
@@ -18,10 +18,10 @@ Parameters
 ----------
 key : str
     An ISO 639 code or language name.
-language : str
+wik_name : str
     The language name used by Wiktionary.
-other_params : dict
-    Optional parameters for the Config class.
+config_params : dict
+    Parameters for the Config class.
 """
 
 _SMOKE_TEST_LANGUAGES = [
@@ -42,9 +42,9 @@ def test_smoke_test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
     config = config_factory(
-        key=smoke_test_language.key, **smoke_test_language.other_params
+        key=smoke_test_language.key, **smoke_test_language.config_params
     )
-    assert config.language == smoke_test_language.language
+    assert config.language == smoke_test_language.wik_name
     pairs = []
     for i, (word, pron) in enumerate(scrape(config)):
         if i >= n:
@@ -59,7 +59,7 @@ def test_special_languages_covered_by_smoke_test():
     special_languages = {
         lang for lang in EXTRACTION_FUNCTIONS.keys() if lang != "default"
     }
-    smoke_test_languages = {lang.language for lang in _SMOKE_TEST_LANGUAGES}
+    smoke_test_languages = {lang.wik_name for lang in _SMOKE_TEST_LANGUAGES}
     assert special_languages.issubset(smoke_test_languages), (
         "These languages must also be included in the smoke test: "
         f"{special_languages - smoke_test_languages}"
