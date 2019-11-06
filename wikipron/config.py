@@ -13,7 +13,7 @@ from wikipron.extract import EXTRACTION_FUNCTIONS
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
-_LI_SELECTOR_TEMPLATE = """
+_PRON_XPATH_SELECTOR_TEMPLATE = """
 //li[
   (.|span)[sup[a[
     @title = "Appendix:{language} pronunciation"
@@ -25,7 +25,7 @@ _LI_SELECTOR_TEMPLATE = """
   {dialect_selector}
 ]
 """
-_DIALECT_SELECTOR_TEMPLATE = (
+_DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
     '  (span[@class = "ib-content qualifier-content" and a[{dialects_text}]]\n'
     '   or count(span[@class = "ib-content qualifier-content"]) = 0)'
@@ -63,7 +63,9 @@ class Config:
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
-        self.li_selector: str = self._get_li_selector(self.language, dialect)
+        self.pron_xpath_selector: str = self._get_pron_xpath_selector(
+            self.language, dialect
+        )
         self.extract_word_pron: Callable = self._get_extract_word_pron(
             self.language
         )
@@ -136,17 +138,19 @@ class Config:
 
         return wrapper
 
-    def _get_li_selector(self, language: str, dialect: Optional[str]) -> str:
+    def _get_pron_xpath_selector(
+        self, language: str, dialect: Optional[str]
+    ) -> str:
         if not dialect:
             dialect_selector = ""
         else:
-            dialect_selector = _DIALECT_SELECTOR_TEMPLATE.format(
+            dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(
                 dialects_text=" or ".join(
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
             )
 
-        return _LI_SELECTOR_TEMPLATE.format(
+        return _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
         )
 

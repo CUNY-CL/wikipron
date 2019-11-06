@@ -103,7 +103,7 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
 
 
 @pytest.mark.parametrize(
-    "dialect, expected_li_selector",
+    "dialect, expected_pron_xpath_selector",
     [
         (
             None,
@@ -156,9 +156,9 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
         ),
     ],
 )
-def test_li_selector(dialect, expected_li_selector):
+def test_pron_xpath_selector(dialect, expected_pron_xpath_selector):
     config = config_factory(key="en", dialect=dialect)
-    assert config.li_selector == expected_li_selector
+    assert config.pron_xpath_selector == expected_pron_xpath_selector
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
@@ -172,8 +172,10 @@ def test_american_english_dialect_selection():
     config_only_us = config_factory(key="en", dialect="US | American English")
     config_any_dialect = config_factory(key="en")
     # Apply each config's XPath selector.
-    results_only_us = response.html.xpath(config_only_us.li_selector)
-    results_any_dialect = response.html.xpath(config_any_dialect.li_selector)
+    results_only_us = response.html.xpath(config_only_us.pron_xpath_selector)
+    results_any_dialect = response.html.xpath(
+        config_any_dialect.pron_xpath_selector
+    )
     assert (
         len(results_any_dialect)  # containing both US and non-US results
         > len(results_only_us)  # containing only the US result

@@ -9,8 +9,8 @@ IPA_XPATH = '//span[@class = "IPA"]'
 
 
 def _yield_phn(request, config):
-    for li in request.html.xpath(config.li_selector):
-        yield from yield_pron(li, IPA_XPATH, config)
+    for pron_xpath in request.html.xpath(config.pron_xpath_selector):
+        yield from yield_pron(pron_xpath, IPA_XPATH, config)
 
 
 def extract_word_pron_default(word, request, config):
