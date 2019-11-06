@@ -31,10 +31,11 @@ def test_casefold(casefold, input_word, expected_word):
     [
         (True, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ɡ w ɪ s t ɪ k s"),
         (True, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ɡ w ɪ s . t ɪ k s"),
-        (False, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ˈ ɡ w ɪ s t ɪ k s"),
-        (False, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ˈ ɡ w ɪ s . t ɪ k s"),
+        (False, True, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ ˈɡ w ɪ s t ɪ k s"),
+        (False, False, "lɪŋ.ˈɡwɪs.tɪks", "l ɪ ŋ . ˈɡ w ɪ s . t ɪ k s"),
         # GH-59: Prons with only stress or syllable boundaries are skipped.
         (False, False, "ˈ", None),
+        (False, False, ".", None),
         (False, False, "", None),
     ],
 )
