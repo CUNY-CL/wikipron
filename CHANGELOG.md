@@ -42,14 +42,14 @@ Unreleased
 -   Avoided using `exec` to retrieve the version string. Used `pkg_resources`
     instead. (\#63)
 
-\[0.1.1\] - 2019-08-14
+[0.1.1] - 2019-08-14
 ----------------------
 
 ### Fixed
 
 -   Fixed import bug. (\#45)
 
-\[0.1.0\] - 2019-08-14
+[0.1.0] - 2019-08-14
 ----------------------
 
 First Release
