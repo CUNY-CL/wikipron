@@ -14,10 +14,6 @@ def yield_pron(request_html, ipa_xpath_selector, config):
         # Skips examples with a space in the pron.
         if " " in pron:
             continue
-        try:
-            pron = config.process_pron(pron)
-        except IndexError:
-            print(pron)
-            raise
+        pron = config.process_pron(pron)
         if pron:
             yield pron
