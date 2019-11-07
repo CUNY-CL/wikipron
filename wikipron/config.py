@@ -10,6 +10,7 @@ import segments
 
 from wikipron.languagecodes import LANGUAGE_CODES
 from wikipron.extract import EXTRACTION_FUNCTIONS
+from wikipron.typing import ExtractFunc, Pron, Word
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
@@ -57,8 +58,8 @@ class Config:
         no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
-        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
-        self.process_pron: Callable[[str], str] = self._get_process_pron(
+        self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
+        self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
             no_stress, no_syllable_boundaries, no_segment
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
@@ -66,7 +67,7 @@ class Config:
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
-        self.extract_word_pron: Callable = self._get_extract_word_pron(
+        self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
             self.language
         )
 
@@ -109,12 +110,12 @@ class Config:
         logging.info('Cut-off date: "%s"', cut_off_date)
         return cut_off_date
 
-    def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
+    def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
         return str.casefold if casefold else lambda word: word  # noqa: E731
 
     def _get_process_pron(
         self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
-    ) -> Callable[[str], str]:
+    ) -> Callable[[Pron], Pron]:
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
@@ -154,7 +155,7 @@ class Config:
             language=language, dialect_selector=dialect_selector
         )
 
-    def _get_extract_word_pron(self, language: str) -> Callable:
+    def _get_extract_word_pron(self, language: str) -> ExtractFunc:
         try:
             return EXTRACTION_FUNCTIONS[language]
         except KeyError:

@@ -1,14 +1,11 @@
 import re
 
-from typing import Iterator, Tuple
-
 import requests
 import requests_html
 
 from wikipron.config import Config
+from wikipron.typing import Iterator, WordPronPair
 
-
-Pair = Tuple[str, str]
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -34,7 +31,7 @@ def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word > cut_off_date
 
 
-def _scrape_once(data, config: Config) -> Iterator[Pair]:
+def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
         word = member["title"]
@@ -46,7 +43,7 @@ def _scrape_once(data, config: Config) -> Iterator[Pair]:
             yield word, pron
 
 
-def scrape(config: Config) -> Iterator[Pair]:
+def scrape(config: Config) -> Iterator[WordPronPair]:
     """Scrapes with a given configuration."""
     category = _CATEGORY_TEMPLATE.format(language=config.language)
     requests_params = {

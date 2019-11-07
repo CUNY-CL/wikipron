@@ -1,9 +1,19 @@
 """Core functionality for word and pron extraction."""
 
 import re
+import typing
+
+import requests
 
 
-def yield_pron(request_html, ipa_xpath_selector, config):
+if typing.TYPE_CHECKING:
+    from wikipron.config import Config
+    from wikipron.typing import Iterator, Pron
+
+
+def yield_pron(
+    request_html: requests.Response, ipa_xpath_selector: str, config: "Config"
+) -> "Iterator[Pron]":
     for x in request_html.xpath(ipa_xpath_selector):
         m = re.search(config.ipa_regex, x.text)
         if not m:
