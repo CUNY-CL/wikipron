@@ -68,37 +68,26 @@ def test_no_segment(no_segment, input_pron, expected_pron):
 
 
 @pytest.mark.parametrize(
-    "error, cut_off_date, word_available_date, source_word, expected_word",
+    "error, cut_off_date, word_available_date, expected",
     [
         # Input cut_off_date is invalid.
-        (True, _DATE_FUTURE, None, None, None),
-        (True, "not-a-valid_date", None, None, None),
+        (True, _DATE_FUTURE, None, None),
+        (True, "not-a-valid_date", None, None),
         # Input cut_off_date is valid.
-        (False, None, _DATE_RECENT_PAST, "foobar", "foobar"),
-        (False, _DATE_TODAY, _DATE_TODAY, "foobar", "foobar"),
-        (False, _DATE_TODAY, _DATE_RECENT_PAST, "foobar", "foobar"),
-        (False, _DATE_RECENT_PAST, _DATE_DISTANT_PAST, "foobar", "foobar"),
-        (False, _DATE_RECENT_PAST, _DATE_TODAY, "foobar", None),
-        # Now check that filtering works due to the word itself.
-        (False, None, _DATE_RECENT_PAST, "a phrase", None),
-        (False, None, _DATE_RECENT_PAST, "hyphen-ated", None),
-        (False, None, _DATE_RECENT_PAST, "prefix-", None),
-        (False, None, _DATE_RECENT_PAST, "-suffix", None),
-        (False, None, _DATE_RECENT_PAST, "hasdigit2", None),
+        (False, None, _DATE_RECENT_PAST, _DATE_TODAY),
+        (False, _DATE_TODAY, _DATE_TODAY, _DATE_TODAY),
+        (False, _DATE_TODAY, _DATE_RECENT_PAST, _DATE_TODAY),
+        (False, _DATE_RECENT_PAST, _DATE_DISTANT_PAST, _DATE_RECENT_PAST),
+        (False, _DATE_RECENT_PAST, _DATE_TODAY, _DATE_RECENT_PAST),
     ],
 )
-def test_process_word(
-    error, cut_off_date, word_available_date, source_word, expected_word
-):
+def test_cut_off_date(error, cut_off_date, word_available_date, expected):
     if error:
         with pytest.raises(ValueError):
             config_factory(cut_off_date=cut_off_date)
     else:
         config = config_factory(cut_off_date=cut_off_date)
-        assert (
-            config.process_word(source_word, word_available_date)
-            == expected_word
-        )
+        assert config.cut_off_date == expected
 
 
 @pytest.mark.parametrize(
@@ -114,7 +103,7 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
 
 
 @pytest.mark.parametrize(
-    "dialect, expected_li_selector",
+    "dialect, expected_pron_xpath_selector",
     [
         (
             None,
@@ -167,9 +156,9 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
         ),
     ],
 )
-def test_li_selector(dialect, expected_li_selector):
+def test_pron_xpath_selector(dialect, expected_pron_xpath_selector):
     config = config_factory(key="en", dialect=dialect)
-    assert config.li_selector == expected_li_selector
+    assert config.pron_xpath_selector == expected_pron_xpath_selector
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
@@ -183,8 +172,10 @@ def test_american_english_dialect_selection():
     config_only_us = config_factory(key="en", dialect="US | American English")
     config_any_dialect = config_factory(key="en")
     # Apply each config's XPath selector.
-    results_only_us = response.html.xpath(config_only_us.li_selector)
-    results_any_dialect = response.html.xpath(config_any_dialect.li_selector)
+    results_only_us = response.html.xpath(config_only_us.pron_xpath_selector)
+    results_any_dialect = response.html.xpath(
+        config_any_dialect.pron_xpath_selector
+    )
     assert (
         len(results_any_dialect)  # containing both US and non-US results
         > len(results_only_us)  # containing only the US result

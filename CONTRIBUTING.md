@@ -19,7 +19,8 @@ git remote add upstream https://github.com/kylebgorman/wikipron.git
 
 After this step (which you only have to do once),
 running `git remote -v` should show your local Git repo
-has links to both "origin" (pointing to your fork `<your-github-username>/wikipron`)
+has links to both "origin"
+(pointing to your fork `<your-github-username>/wikipron`)
 and "upstream" (pointing to `kylebgorman/wikipron`).
 
 To work on a feature or bug fix, here are the development steps: 
@@ -32,7 +33,8 @@ To work on a feature or bug fix, here are the development steps:
    git pull upstream master
    ``` 
    
-2. Create a new branch. This branch is where you will make commits of your work.
+2. Create a new branch.
+   This branch is where you will make commits of your work.
    (As best practice, never make commits while on a master branch.
    Running `git branch` tells you which branch you are on.)
    
@@ -48,10 +50,24 @@ To work on a feature or bug fix, here are the development steps:
    git push origin new-branch-name
    ```
 5. Go to your fork `https://github.com/<your-github-username>/wikipron` and
-   create a pull request off of your branch against the `kylebgorman/wikipron` repo.
+   create a pull request off of your branch against the `kylebgorman/wikipron`
+   repo.
 
-6. Add an entry to [CHANGELOG.md](CHANGELOG.md), commit this change,
-   and push this commit to your branch.
+6. Add an entry to
+   [CHANGELOG.md](https://github.com/kylebgorman/wikipron/blob/master/CHANGELOG.md),
+   commit this change, and push this commit to your branch.
+
+## Documentation
+
+* If relevant, please update the top-level
+  [README](https://github.com/kylebgorman/wikipron/blob/master/README.md)
+  for your changes.
+
+* To document functions and class methods, please name them transparently and
+  type them. If it helps, please add a one-liner docstring immediately
+  under the function signature, in the form of `"""Docstring here"""` with
+  triple double quotes. For more elaborate docstrings, please follow the
+  [numpydoc docstring format](https://numpydoc.readthedocs.io/en/latest/format.html).
 
 ## Running Tests
 

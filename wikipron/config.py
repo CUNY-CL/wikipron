@@ -9,10 +9,12 @@ import iso639
 import segments
 
 from wikipron.languagecodes import LANGUAGE_CODES
+from wikipron.extract import EXTRACTION_FUNCTIONS
+from wikipron.typing import ExtractFunc, Pron, Word
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
-_LI_SELECTOR_TEMPLATE = """
+_PRON_XPATH_SELECTOR_TEMPLATE = """
 //li[
   (.|span)[sup[a[
     @title = "Appendix:{language} pronunciation"
@@ -24,7 +26,7 @@ _LI_SELECTOR_TEMPLATE = """
   {dialect_selector}
 ]
 """
-_DIALECT_SELECTOR_TEMPLATE = (
+_DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
     '  (span[@class = "ib-content qualifier-content" and a[{dialects_text}]]\n'
     '   or count(span[@class = "ib-content qualifier-content"]) = 0)'
@@ -56,16 +58,18 @@ class Config:
         no_segment: bool = False,
     ):
         self.language: str = self._get_language(key)
-        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
-        self.process_pron: Callable[[str], str] = self._get_process_pron(
+        self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
+        self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
             no_stress, no_syllable_boundaries, no_segment
         )
-        _cut_off_date: str = self._get_cut_off_date(cut_off_date)
-        self.process_word: Callable[[str, str], str] = self._get_process_word(
-            _cut_off_date
-        )
+        self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
-        self.li_selector: str = self._get_li_selector(self.language, dialect)
+        self.pron_xpath_selector: str = self._get_pron_xpath_selector(
+            self.language, dialect
+        )
+        self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
+            self.language
+        )
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -106,12 +110,12 @@ class Config:
         logging.info('Cut-off date: "%s"', cut_off_date)
         return cut_off_date
 
-    def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
+    def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
         return str.casefold if casefold else lambda word: word  # noqa: E731
 
     def _get_process_pron(
         self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
-    ) -> Callable[[str], str]:
+    ) -> Callable[[Pron], Pron]:
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
@@ -135,36 +139,24 @@ class Config:
 
         return wrapper
 
-    def _get_li_selector(self, language: str, dialect: Optional[str]) -> str:
+    def _get_pron_xpath_selector(
+        self, language: str, dialect: Optional[str]
+    ) -> str:
         if not dialect:
             dialect_selector = ""
         else:
-            dialect_selector = _DIALECT_SELECTOR_TEMPLATE.format(
+            dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(
                 dialects_text=" or ".join(
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
             )
 
-        return _LI_SELECTOR_TEMPLATE.format(
+        return _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
         )
 
-    def _get_process_word(
-        self, cut_off_date: Optional[str]
-    ) -> Callable[[str, str], str]:
-        def wrapper(word, date):
-            # Skips multiword examples.
-            if " " in word:
-                return None
-            # Skips examples containing a dash.
-            if "-" in word:
-                return None
-            # Skips examples containing digits.
-            if re.search(r"\d", word):
-                return None
-            # Skips examples available later than the cut-off date.
-            if date > cut_off_date:
-                return None
-            return word
-
-        return wrapper
+    def _get_extract_word_pron(self, language: str) -> ExtractFunc:
+        try:
+            return EXTRACTION_FUNCTIONS[language]
+        except KeyError:
+            return EXTRACTION_FUNCTIONS["default"]
