@@ -1,5 +1,6 @@
 from wikipron.extract.default import extract_word_pron_default
 from wikipron.extract.khm import extract_word_pron_khmer
+from wikipron.extract.tha import extract_word_pron_thai
 from wikipron.extract.lat import extract_word_pron_latin
 
 
@@ -8,5 +9,6 @@ EXTRACTION_FUNCTIONS = {
     "default": extract_word_pron_default,
     # Key has to be the language name used by Wiktionary.
     "Khmer": extract_word_pron_khmer,
+    "Thai": extract_word_pron_thai,
     "Latin": extract_word_pron_latin,
 }
