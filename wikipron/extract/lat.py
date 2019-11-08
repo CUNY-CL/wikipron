@@ -101,8 +101,8 @@ def extract_word_pron_latin(
         # the targeted words and prons are at the same hierarchical in the
         # underlying HTML, and may be separated by other irrelevant sibling
         # tags. Trying to get both words and prons while walking through
-        # the request response only once might be technically be, but the
-        # result would be less maintainable.
+        # the request response only once might be technically possible,
+        # but the result would be less maintainable.
         words = _yield_latin_word(request, etymology_tag)
         prons = _yield_latin_pron(request, config, etymology_tag)
         yield from zip(words, prons)
