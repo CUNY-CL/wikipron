@@ -13,14 +13,14 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Pron, Word, WordPronPair
 
 
-IPA_XPATH = '//span[@class = "IPA"]'
+IPA_XPATH_SELECTOR = '//span[@class = "IPA"]'
 
 
 def _yield_phn(
     request: requests.Response, config: "Config"
 ) -> "Iterator[Pron]":
-    for pron_xpath in request.html.xpath(config.pron_xpath_selector):
-        yield from yield_pron(pron_xpath, IPA_XPATH, config)
+    for pron_element in request.html.xpath(config.pron_xpath_selector):
+        yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_default(

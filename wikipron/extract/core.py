@@ -3,7 +3,7 @@
 import re
 import typing
 
-import requests
+import requests_html
 
 
 if typing.TYPE_CHECKING:
@@ -12,10 +12,12 @@ if typing.TYPE_CHECKING:
 
 
 def yield_pron(
-    request_html: requests.Response, ipa_xpath_selector: str, config: "Config"
+    request_html: requests_html.Element,
+    ipa_xpath_selector: str,
+    config: "Config",
 ) -> "Iterator[Pron]":
-    for x in request_html.xpath(ipa_xpath_selector):
-        m = re.search(config.ipa_regex, x.text)
+    for ipa_element in request_html.xpath(ipa_xpath_selector):
+        m = re.search(config.ipa_regex, ipa_element.text)
         if not m:
             continue
         pron = m.group(1)

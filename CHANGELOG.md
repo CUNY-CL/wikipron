@@ -12,6 +12,8 @@ Unreleased
 
 ### Added
 
+-   Handled Latin, for which the actual graphemes cannot be the Wiktionary
+    page titles and have to come from within the page. (\# ???)
 -   Handled Khmer, whose pronunciations are embedded in HTML tables. (\#88)
 -   IPA segmentation using spaces by default, with the `--no-segment` flag to
     optionally turn it off. (\#69, \#79, \#83)
