@@ -64,7 +64,13 @@ def _yield_latin_word(
     word_xpath_selector = _WORD_XPATH_TEMPLATE.format(
         etymology_tag=etymology_tag
     )
-    word_element = request.html.xpath(word_xpath_selector)[0]
+    try:
+        # Within each "Etymology", we expect exactly one word to extract,
+        # and therefore we don't loop through `request.html.xpath`.
+        word_element = request.html.xpath(word_xpath_selector)[0]
+    except IndexError:
+        # Skip if this "Etymology" doesn't have a word.
+        return
     # Unfortunately, word_element.text is sometimes incorrectly appended with
     # " (" or " (+" as the beginning of some morphological information.
     word = word_element.text.rstrip(" (+")
