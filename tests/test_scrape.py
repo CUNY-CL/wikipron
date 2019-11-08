@@ -38,7 +38,7 @@ _SMOKE_TEST_LANGUAGES = [
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 @pytest.mark.parametrize("smoke_test_language", _SMOKE_TEST_LANGUAGES)
-@pytest.mark.timeout(4.5)
+@pytest.mark.timeout(6)
 def test_smoke_test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
