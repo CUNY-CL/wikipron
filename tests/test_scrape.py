@@ -32,6 +32,7 @@ _SMOKE_TEST_LANGUAGES = [
     # Korean data is mostly phonetic transcription only.
     SmokeTestLanguage("kor", "Korean", {"phonetic": True}),
     SmokeTestLanguage("khm", "Khmer", {}),
+    SmokeTestLanguage("tha", "Thai", {}),
 ]
 
 
