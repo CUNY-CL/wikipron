@@ -45,7 +45,9 @@ def _get_etymology_tags(request: requests.Response) -> List[str]:
     return tags
 
 
-def _get_latin_word(request: requests.Response, etymology_tag: str) -> "Word":
+def _yield_latin_word(
+    request: requests.Response, etymology_tag: str
+) -> "Iterator[Word]":
     word_xpath_selector = _WORD_XPATH_TEMPLATE.format(
         etymology_tag=etymology_tag
     )
@@ -53,7 +55,7 @@ def _get_latin_word(request: requests.Response, etymology_tag: str) -> "Word":
     # Unfortunately, word_element.text is sometimes incorrectly appended with
     # " (" or " (+" as the beginning of some morphological information.
     word = word_element.text.rstrip(" (+")
-    return word
+    yield from itertools.repeat(word)
 
 
 def _yield_latin_pron(
@@ -71,11 +73,10 @@ def extract_word_pron_latin(
 ) -> "Iterator[WordPronPair]":
     # For Latin, we don't use the title word from the Wiktionary page,
     # because it never has macrons (necessary for Latin vowel length).
-    # We will get the word from each "Etymology" section.
+    # We will get the word from each "Etymology" section within the page.
     word = None
     etymology_tags = _get_etymology_tags(request)
     for etymology_tag in etymology_tags:
-        word = _get_latin_word(request, etymology_tag)
-        words = itertools.repeat(word)
+        words = _yield_latin_word(request, etymology_tag)
         prons = _yield_latin_pron(request, config, etymology_tag)
         yield from zip(words, prons)
