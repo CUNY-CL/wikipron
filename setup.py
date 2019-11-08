@@ -43,9 +43,9 @@ def main():
         zip_safe=False,
         install_requires=[
             "iso639",
-            "segments < 3",
             "requests",
             "requests-html",
+            "segments>=2.1.2,<3",
             "setuptools",
         ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
