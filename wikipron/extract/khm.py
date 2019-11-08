@@ -13,12 +13,12 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Word, WordPronPair
 
 
-_IPA_XPATH = '//span[@class = "IPA" and @lang = "km"]'
+_IPA_XPATH_SELECTOR = '//span[@class = "IPA" and @lang = "km"]'
 
 
 def extract_word_pron_khmer(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(config.casefold(word))
-    prons = yield_pron(request.html, _IPA_XPATH, config)
+    prons = yield_pron(request.html, _IPA_XPATH_SELECTOR, config)
     yield from zip(words, prons)
