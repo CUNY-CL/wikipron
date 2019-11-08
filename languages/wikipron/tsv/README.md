@@ -103,6 +103,7 @@
 | [TSV](tgl_phonemic.tsv) | tgl | Tagalog | Tagalog | True | Phonemic | 1306 |
 | [TSV](tam_phonemic.tsv) | tam | Tamil | Tamil | False | Phonemic | 1073 |
 | [TSV](tam_phonetic.tsv) | tam | Tamil | Tamil | False | Phonetic | 1014 |
+| [TSV](tha_phonemic.tsv) | tha | Thai | Thai | False | Phonemic | 14095 |
 | [TSV](tur_phonemic.tsv) | tur | Turkish | Turkish | True | Phonemic | 1698 |
 | [TSV](tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2004 |
 | [TSV](ukr_phonemic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonemic | 211 |
