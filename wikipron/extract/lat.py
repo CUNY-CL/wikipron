@@ -98,8 +98,8 @@ def extract_word_pron_latin(
     for etymology_tag in etymology_tags:
         # The words and prons are extracted from the same request response but
         # separately (so with somewhat overlapping XPath selectors), because
-        # the targeted words and prons are at the same hierarchical in the
-        # underlying HTML, and may be separated by other irrelevant sibling
+        # the targeted words and prons are at the same hierarchical level in
+        # the underlying HTML, and may be separated by other irrelevant sibling
         # tags. Trying to get both words and prons while walking through
         # the request response only once might be technically possible,
         # but the result would be less maintainable.
