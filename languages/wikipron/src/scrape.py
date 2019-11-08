@@ -15,7 +15,7 @@ import wikipron
 from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
-def _call_scrape(lang, config, tsv_path):
+def _call_scrape(lang_settings, config, tsv_path):
     for unused_retries in range(10):
         count = 0
         with open(tsv_path, "w") as source:
@@ -28,14 +28,18 @@ def _call_scrape(lang, config, tsv_path):
                 requests.exceptions.Timeout,
                 requests.exceptions.ConnectionError,
             ):
-                logging.info(
+                logger.info(
                     'Exception detected while scraping: "%s", "%s".',
-                    lang,
+                    lang_settings["key"],
                     tsv_path,
                 )
                 # Pauses execution for 10 min.
                 time.sleep(600)
-    logging.info('Failed to scrape "%s" within 10 retries. %s', lang, config)
+    logger.info(
+        'Failed to scrape "%s" within 10 retries. %s',
+        lang_settings["key"],
+        lang_settings,
+    )
     return 0
 
 
@@ -47,19 +51,19 @@ def _build_config_and_filter_files(
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
     phonemic_count = _call_scrape(
-        config_settings["key"], phonemic_config, phonemic_path
+        config_settings, phonemic_config, phonemic_path
     )
 
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
     phonetic_count = _call_scrape(
-        config_settings["key"], phonetic_config, phonetic_path
+        config_settings, phonetic_config, phonetic_path
     )
 
     # Removes TSVs with less than 100 lines.
     # Log language name and count to check whether Wikipron scraped any data.
     if phonemic_count < 100:
-        logging.info(
+        logger.info(
             (
                 '"%s" (count: %s) has less than '
                 "100 entries in phonemic transcription."
@@ -70,7 +74,7 @@ def _build_config_and_filter_files(
         os.remove(phonemic_path)
     if phonetic_count < 100:
         os.remove(phonetic_path)
-        logging.info(
+        logger.info(
             (
                 '"%s" (count: %s) has less than '
                 "100 entries in phonetic transcription."
@@ -85,6 +89,10 @@ def main():
         languages = json.load(source)
     cut_off_date = datetime.date.today().isoformat()
     for iso639_code in languages:
+        logger.info(
+            'Current language: "%s"',
+            languages[iso639_code]["wiktionary_name"],
+        )
         config_settings = {
             "key": iso639_code,
             "casefold": languages[iso639_code]["casefold"],
@@ -109,13 +117,17 @@ def main():
 
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        format="%(filename)s %(levelname)s: %(asctime)s - %(message)s",
-        handlers=[
-            logging.FileHandler(LOGGING_PATH, mode="w"),
-            logging.StreamHandler(),
-        ],
+    logger = logging.getLogger(__name__)
+    logger.propagate = False
+    logger.setLevel(logging.INFO)
+    ch = logging.StreamHandler()
+    fh = logging.FileHandler(LOGGING_PATH, mode="a")
+    formatter = logging.Formatter(
+        "%(filename)s %(levelname)s: %(asctime)s - %(message)s",
         datefmt="%d-%b-%y %H:%M:%S",
-        level="INFO",
     )
+    ch.setFormatter(formatter)
+    fh.setFormatter(formatter)
+    logger.addHandler(ch)
+    logger.addHandler(fh)
     main()
