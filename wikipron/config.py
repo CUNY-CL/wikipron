@@ -116,7 +116,7 @@ class Config:
         self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
     ) -> Callable[[Pron], Pron]:
         # segments v2.1.2 oddly sets a global logging configuration
-        # that interferes with downloading logging.
+        # that interferes with downstream logging.
         # See: https://github.com/cldf/segments/issues/47
         import segments
         processors = []
