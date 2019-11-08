@@ -14,9 +14,9 @@ Unreleased
 
 -   Handled Khmer, whose pronunciations are embedded in HTML tables. (\#88)
 -   IPA segmentation using spaces by default, with the `--no-segment` flag to
-    optionally turn it off. (\#69, \#79, \#83)
+    optionally turn it off. (\#69, \#79, \#83, \#89)
 -   TSV files for all Wiktionary languages with over 1000 entries (except
-    Russian) (\#61)
+    Russian). (\#61)
 -   Resolved Wiktionary language names for languages with at least 100
     pronunciation entries. (\#52, \#55)
 
@@ -55,4 +55,4 @@ Unreleased
 [0.1.0] - 2019-08-14
 ----------------------
 
-First Release
+First release.
