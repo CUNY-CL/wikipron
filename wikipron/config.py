@@ -7,8 +7,9 @@ from typing import Callable, Optional
 
 import iso639
 
-from wikipron.languagecodes import LANGUAGE_CODES
 from wikipron.extract import EXTRACTION_FUNCTIONS
+from wikipron.extract.default import extract_word_pron_default
+from wikipron.languagecodes import LANGUAGE_CODES
 from wikipron.typing import ExtractFunc, Pron, Word
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
@@ -160,4 +161,4 @@ class Config:
         try:
             return EXTRACTION_FUNCTIONS[language]
         except KeyError:
-            return EXTRACTION_FUNCTIONS["default"]
+            return extract_word_pron_default

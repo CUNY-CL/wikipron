@@ -58,9 +58,7 @@ def test_smoke_test_scrape(smoke_test_language):
 
 def test_special_languages_covered_by_smoke_test():
     """All languages handled by wikipron.extract must have a smoke test."""
-    special_languages = {
-        lang for lang in EXTRACTION_FUNCTIONS.keys() if lang != "default"
-    }
+    special_languages = {lang for lang in EXTRACTION_FUNCTIONS.keys()}
     smoke_test_languages = {lang.wik_name for lang in _SMOKE_TEST_LANGUAGES}
     assert special_languages.issubset(smoke_test_languages), (
         "These languages must also be included in the smoke test: "
