@@ -50,8 +50,10 @@ def _get_latin_word(request: requests.Response, etymology_tag: str) -> "Word":
         etymology_tag=etymology_tag
     )
     word_element = request.html.xpath(word_xpath_selector)[0]
-    # FIXME: Why do many words have " ("?
-    return word_element.text
+    # Unfortunately, word_element.text is sometimes incorrectly appended with
+    # " (" or " (+" as the beginning of some morphological information.
+    word = word_element.text.rstrip(" (+")
+    return word
 
 
 def _yield_latin_pron(
