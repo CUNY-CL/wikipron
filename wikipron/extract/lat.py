@@ -1,6 +1,18 @@
-# TODO: More documentation.
+"""Word and pron extraction for Latin.
 
-"""Word and pron extraction for Latin."""
+As of writing (November 2019), Latin cannot use the default extraction
+function because of the following:
+
+1. The default extraction function uses the Wiktionary entry page title
+   as the graphemes. Latin uses the macrons orthographically (for vowel
+   length), but the Wiktionary entry page titles never have them.
+2. Relatedly, because the orthographic distinction by macrons is collapsed,
+   a Latin entry page organizes the "homographs" in terms of "Etymologies".
+   Each etymology has its own (correct) orthographic form and pronunciations.
+
+The solution for Latin is to go through each "Etymology" and extract the
+word and pronunciation at this level.
+"""
 
 import itertools
 import typing
@@ -38,6 +50,7 @@ _WORD_XPATH_TEMPLATE = """
 
 
 def _get_etymology_tags(request: requests.Response) -> List[str]:
+    """Extract the Latin Etymology ID tags from the table of contents."""
     tags = []
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
         tag = a_element.attrs["href"].lstrip("#")
@@ -74,7 +87,7 @@ def extract_word_pron_latin(
     # For Latin, we don't use the title word from the Wiktionary page,
     # because it never has macrons (necessary for Latin vowel length).
     # We will get the word from each "Etymology" section within the page.
-    word = None
+    word = None  # noqa: F841
     etymology_tags = _get_etymology_tags(request)
     for etymology_tag in etymology_tags:
         words = _yield_latin_word(request, etymology_tag)
