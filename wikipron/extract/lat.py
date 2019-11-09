@@ -1,3 +1,5 @@
+# TODO: Update documentation as well as names of functions and variables.
+
 """Word and pron extraction for Latin.
 
 As of writing (November 2019), Latin cannot use the default extraction
@@ -38,12 +40,12 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 """
 
 _PRON_XPATH_TEMPLATE = """
-//h3[span[@class = "mw-headline" and @id = "{etymology_tag}"]]
+//{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
   /following-sibling::ul[1]
 """
 
 _WORD_XPATH_TEMPLATE = """
-//h3[span[@class = "mw-headline" and @id = "{etymology_tag}"]]
+//{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
   /following-sibling::p
     /strong[@class = "Latn headword" and @lang = "la"][1]
 """
@@ -55,15 +57,16 @@ def _get_etymology_tags(request: requests.Response) -> List[str]:
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
         tag = a_element.attrs["href"].lstrip("#")
         tags.append(tag)
+    if not tags:
+        tags = ["Latin"]
     return tags
 
 
 def _yield_latin_word(
-    request: requests.Response, etymology_tag: str
+    request: requests.Response, tag: str
 ) -> "Iterator[Word]":
-    word_xpath_selector = _WORD_XPATH_TEMPLATE.format(
-        etymology_tag=etymology_tag
-    )
+    heading = "h2" if tag == "Latin" else "h3"
+    word_xpath_selector = _WORD_XPATH_TEMPLATE.format(heading=heading, tag=tag)
     try:
         # Within each "Etymology", we expect exactly one word to extract,
         # and therefore we don't loop through `request.html.xpath`.
@@ -78,11 +81,10 @@ def _yield_latin_word(
 
 
 def _yield_latin_pron(
-    request: requests.Response, config: "Config", etymology_tag: str
+    request: requests.Response, config: "Config", tag: str
 ) -> "Iterator[Pron]":
-    pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(
-        etymology_tag=etymology_tag
-    )
+    heading = "h2" if tag == "Latin" else "h3"
+    pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(heading=heading, tag=tag)
     for pron_element in request.html.xpath(pron_xpath_selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
