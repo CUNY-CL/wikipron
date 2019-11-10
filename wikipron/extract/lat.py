@@ -1,19 +1,45 @@
-# TODO: Update documentation as well as names of functions and variables.
-
 """Word and pron extraction for Latin.
 
 As of writing (November 2019), Latin cannot use the default extraction
-function because of the following:
+function, which uses the Wiktionary entry page title as the graphemes.
+Latin uses the macrons orthographically (for vowel length),
+but the Wiktionary entry page titles never have them.
+The correct orthographic form is available from within the entry page.
 
-1. The default extraction function uses the Wiktionary entry page title
-   as the graphemes. Latin uses the macrons orthographically (for vowel
-   length), but the Wiktionary entry page titles never have them.
-2. Relatedly, because the orthographic distinction by macrons is collapsed,
+In the underlying HTML, the Latin entry pages are in two different forms.
+
+1. Because the orthographic distinction by macrons is collapsed,
    a Latin entry page organizes the "homographs" in terms of "Etymologies".
-   Each etymology has its own (correct) orthographic form and pronunciations.
+   Each etymology has its own (correct) orthographic form and pronunciations:
 
-The solution for Latin is to go through each "Etymology" and extract the
-word and pronunciation at this level.
+   <h3>
+       <!-- Tag for etymology, e.g., "Etymology_1" -->
+       <span id = "Etymology...">
+       <p>
+           <!-- The orthographic form we want. -->
+           <strong class="Latn headword" lang="la">...</strong>
+       </p>
+       <ul>
+           <!-- The pronunciation we want. -->
+           <span class="IPA">...</span>
+       </ul>
+   </h3>
+
+2. For entries that don't have "Etymology" sections, the underlying HTML
+   structure is very similar, with everything moved up one level,
+   from <h3> for an etymology to <h2> for Latin.
+
+   <h2>
+       <span id = "Latin">
+       <p>
+           <!-- The orthographic form we want. -->
+           <strong class="Latn headword" lang="la">...</strong>
+       </p>
+       <ul>
+           <!-- The pronunciation we want. -->
+           <span class="IPA">...</span>
+       </ul>
+   </h2>
 """
 
 import itertools
@@ -51,12 +77,14 @@ _WORD_XPATH_TEMPLATE = """
 """
 
 
-def _get_etymology_tags(request: requests.Response) -> List[str]:
+def _get_tags(request: requests.Response) -> List[str]:
     """Extract the Latin Etymology ID tags from the table of contents."""
     tags = []
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
         tag = a_element.attrs["href"].lstrip("#")
         tags.append(tag)
+    # If the entry doesn't have etymology sections, we target the "Latin"
+    # language section directly.
     if not tags:
         tags = ["Latin"]
     return tags
@@ -96,8 +124,8 @@ def extract_word_pron_latin(
     # because it never has macrons (necessary for Latin vowel length).
     # We will get the word from each "Etymology" section within the page.
     word = None  # noqa: F841
-    etymology_tags = _get_etymology_tags(request)
-    for etymology_tag in etymology_tags:
+    tags = _get_tags(request)
+    for tag in tags:
         # The words and prons are extracted from the same request response but
         # separately (so with somewhat overlapping XPath selectors), because
         # the targeted words and prons are at the same hierarchical level in
@@ -105,6 +133,6 @@ def extract_word_pron_latin(
         # tags. Trying to get both words and prons while walking through
         # the request response only once might be technically possible,
         # but the result would be less maintainable.
-        words = _yield_latin_word(request, etymology_tag)
-        prons = _yield_latin_pron(request, config, etymology_tag)
+        words = _yield_latin_word(request, tag)
+        prons = _yield_latin_pron(request, config, tag)
         yield from zip(words, prons)
