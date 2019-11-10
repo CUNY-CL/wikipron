@@ -13,33 +13,32 @@ In the underlying HTML, the Latin entry pages are in two different forms.
    Each etymology has its own (correct) orthographic form and pronunciations:
 
    <h3>
-       <!-- Tag for etymology, e.g., "Etymology_1" -->
-       <span id = "Etymology...">
-       <p>
-           <!-- The orthographic form we want. -->
-           <strong class="Latn headword" lang="la">...</strong>
-       </p>
-       <ul>
-           <!-- The pronunciation we want. -->
-           <span class="IPA">...</span>
-       </ul>
+       <span class="mw-headline" id = "Etymology_1">Etymology 1</span>
    </h3>
+   <p>
+       <!-- The orthographic form we want. -->
+       <strong class="Latn headword" lang="la">...</strong>
+   </p>
+   <ul>
+       <!-- The pronunciation we want. -->
+       <span class="IPA">...</span>
+   </ul>
 
 2. For entries that don't have "Etymology" sections, the underlying HTML
    structure is very similar, with everything moved up one level,
    from <h3> for an etymology to <h2> for Latin.
 
    <h2>
-       <span id = "Latin">
-       <p>
-           <!-- The orthographic form we want. -->
-           <strong class="Latn headword" lang="la">...</strong>
-       </p>
-       <ul>
-           <!-- The pronunciation we want. -->
-           <span class="IPA">...</span>
-       </ul>
+       <span class="mw-headline" id = "Latin">Latin</span>
    </h2>
+   <p>
+       <!-- The orthographic form we want. -->
+       <strong class="Latn headword" lang="la">...</strong>
+   </p>
+   <ul>
+       <!-- The pronunciation we want. -->
+       <span class="IPA">...</span>
+   </ul>
 """
 
 import itertools
