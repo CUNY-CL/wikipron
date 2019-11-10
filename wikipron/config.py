@@ -120,6 +120,7 @@ class Config:
         # that interferes with downstream logging.
         # See: https://github.com/cldf/segments/issues/47
         import segments
+
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
