@@ -19,9 +19,9 @@ bangiri	β à ŋ ɡ í r í
 bara	β à ɾ à ꜜ
 barabara	β à ɾ à β à ɾ à ꜜ
 barĩthiramu	β à ɾ éː ð ì ɾ á m ú
-biribiri	β ì ɾ ì β í ɾ í ꜜ
-biribiri	β ì ɾ ì β ì ɾ ì ꜜ
 biribiri	β ì ɾ ì β ì ɾ ì
+biribiri	β ì ɾ ì β ì ɾ ì ꜜ
+biribiri	β ì ɾ ì β í ɾ í ꜜ
 bitharĩ	β ì ð áː ɾ è ꜜ
 bongwe	β ɔ́ ᵑ ɡ w ɛ̌ ꜜ
 borithi	β ɔ̀ ɾ í ð ì ꜜ
@@ -35,13 +35,13 @@ ciara	ɕ i à ɾ à ꜜ
 ciara	ɕ i à ɾ á ꜜ
 cimba	ɕ i ᵐ b a
 cindano	ɕ iⁿ d a n ɔ
-cindano	ɕ ìːⁿ d à n ɔ̀ ꜜ
 cindano	ɕ ìːⁿ d à n ɔ̀
+cindano	ɕ ìːⁿ d à n ɔ̀ ꜜ
 coka	ɕ ɔː k a
 cokia	ɕ ɔː k i a
 conoka	ɕ ɔ n ɔ k a
-cuba	ʃ ùː β à ꜜ
 cuba	ɕ ùː β à ꜜ
+cuba	ʃ ùː β à ꜜ
 cukari	ɕ ù k àː ɾ ì ꜜ
 cukuru	ɕ ù k ú ɾ ù ꜜ
 cuma	t ɕ ùː m à ꜜ
@@ -65,8 +65,8 @@ gwata	ɣ w a t a
 gĩathĩ	ɣ e à ð ě
 gĩcagi	ɣ è ɕ à ɣ è ꜜ
 gĩcanjama	ɣ e ɕ a ᶮ d͡ʑ a m a
-gĩcanũri	ɣ è ɕ à n ó ɾ ǐ ꜜ
 gĩcanũri	ɣ è ɕ à n ó ɾ í ꜜ
+gĩcanũri	ɣ è ɕ à n ó ɾ ǐ ꜜ
 gĩcicio	ɣ e ɕ iː ɕ i ɔ
 gĩcigĩrĩra	ɣ è ɕ ì ɣ é ɾ è ɾ á ꜜ
 gĩciko	ɣ è ɕ ì k ɔ̀ ꜜ
@@ -86,10 +86,11 @@ gĩkorora	ɣ è k ɔ̀ ɾ ɔ́ ɾ à
 gĩkorora	ɣ è k ɔ́ ɾ ɔ́ ɾ à
 gĩkundi	ɣ è k ùⁿ d ǐ
 gĩkuũ	ɣ è k u ǒ ꜜ
-gĩkwa	ɣ è k w ǎ
 gĩkwa	ɣ è k o ǎ
+gĩkwa	ɣ è k w ǎ
 gĩkĩngĩ	ɣ è k è ᵑ ɡ ě
 gĩkũnjo	ɣ è k ò ᶮ d ʑ ɔ́ ꜜ
+gũra	ɣ o ɾ a
 gĩtahi	ɣ è t à h í ꜜ
 gĩtaigua	ɣ è t a ì ɣ u á
 gĩtanda	ɣ è t àⁿ d ǎ
@@ -114,14 +115,12 @@ gĩtore	ɣ e t ɔː ɾ ɛ
 gĩtugĩ	ɣ è t ù ɣ é
 gĩtukũ	ɣ è t ù k ó ꜜ
 gĩtumumu	ɣ e t ú m ùː m ú ꜜ
-gĩtumumu	ɣ é t ú m ùː m ú ꜜ
 gĩtumumu	ɣ è t ú m ùː m ú ꜜ
+gĩtumumu	ɣ é t ú m ùː m ú ꜜ
+gũtũ	ɣ o t o
 gĩtĩ	ɣ è t ě
 gĩtũngũrũ	ɣ e t o ᵑ ɡ o ɾ o
 gĩĩko	ɣ è è k ɔ̀ ꜜ
-gĩĩko	ɣ è è k ɔ̀ ꜜ
-gũra	ɣ o ɾ a
-gũtũ	ɣ o t o
 haaro	h àː ɾ ɔ̀ ꜜ
 haica	h a i ɕ a
 haka	h a k a
@@ -132,8 +131,8 @@ hanyũka	h a ɲ o k a
 harika	h à ɾ í k á ꜜ
 he	h ɛ
 heho	h ɛ̀ h ɔ́ ꜜ
-heke	h ɛ̀ k ɛ́ ꜜ
 heke	h ɛ̀ k ɛ́
+heke	h ɛ̀ k ɛ́ ꜜ
 higo	h ì ɣ ɔ́ ꜜ
 hinya	h ì ɲ á ꜜ
 hitha	h i ð a
@@ -143,24 +142,24 @@ huko	h ù k ɔ̀ ꜜ
 huria	h u ɾ i a
 huria	h ù ɾ i ǎ
 hwaĩ	h w à é ꜜ
-hĩtũka	h e t o k a
-hĩtũkĩra	h e t o k e ɾ a
 hũngũ	h ò ᵑ ɡ ó
 hũnĩro	h oː n e ɾ ɔ
 hũra	h oː ɾ a
+hĩtũka	h e t o k a
+hĩtũkĩra	h e t o k e ɾ a
 ibabai	ì β à β à ì ꜜ
 ibuku	ì β ù k ù ꜜ
 iburi	ì β ù ɾ ì ꜜ
 icani	ì ɕ áː n ì ꜜ
 icembe	ì ɕ ɛ̀ ᵐ b ɛ́
-icungwa	i ɕ u ᵑ ɡ w a
-icungwa	i ɕ u ᵑ ɡ o a
 icungwa	i ɕ o ᵑ ɡ o a
+icungwa	i ɕ u ᵑ ɡ o a
+icungwa	i ɕ u ᵑ ɡ w a
 iga	i ɣ a
 igana	i ɣ a n a
 igego	ì ɣ ɛ̀ ɣ ɔ̀ ꜜ
-igoko	ì ɣ ɔ̀ k ɔ́ ꜜ
 igoko	ì ɣ ɔ̀ k ɔ́
+igoko	ì ɣ ɔ̀ k ɔ́ ꜜ
 igoti	ì ɣ ɔ̀ t ì ꜜ
 igua	i ɣ u a
 igua	i ɣ w a
@@ -174,12 +173,12 @@ ihooru	i h ɔ̀ː ɾ ú
 ihuti	ì h ù t ì ꜜ
 ihĩa	ì h e ǎ ꜜ
 ihĩa	ì h è á ꜜ
-ihĩndu	ì h èⁿ d ǔ
-ihĩndĩ	ì h èⁿ d é
-ihĩtia	ì h è t i á
 ihũa	ì h ó w á ꜜ
 ihũha	ì h ò h á ꜜ
+ihĩndu	ì h èⁿ d ǔ
+ihĩndĩ	ì h èⁿ d é
 ihũri	ì h ò ɾ í ꜜ
+ihĩtia	ì h è t i á
 ikai	i k a i
 ikamburu	i k a ᵐ b u ɾ u
 ikara	ì k à ɾ á ꜜ
@@ -190,7 +189,6 @@ ikoro	ì k ɔ̀ ɾ ɔ̀ ꜜ
 ikorobia	ì k ɔ̀ ɾ ɔ̀ β í j à ꜜ
 ikundo	ì k ùⁿ d ɔ́ ꜜ
 ikunũ	ì k ù n ó
-ikũmbĩ	ì k ò ᵐ b è ꜜ
 ikũmbĩ	ì k ò ᵐ b è ꜜ
 ikũmbĩ	ì k ù ᵐ b è ꜜ
 ikũmi	ì k ò m í ꜜ
@@ -208,17 +206,16 @@ inũka	i n o k a
 ira	i ɾ a
 irathĩro	ì ɾ à ð é ɾ ɔ̀ ꜜ
 irebeta	ì ɾ ɛ̀ β ɛ́ t à ꜜ
-iria	ì ɾ ì j á ꜜ
 iria	ì ɾ ì j à ꜜ
+iria	ì ɾ ì j á ꜜ
 irigithathi	ì ɾ ì ɣ í ð àː ð ì ꜜ
 irigũ	ì ɾ ì ɣ ò ꜜ
 irima	ì ɾ ì m à ꜜ
-irimũ	ì ɾ í m ó ꜜ
 irimũ	ì ɾ ì m ó ꜜ
+irimũ	ì ɾ í m ó ꜜ
 irio	ì ɾ i ɔ̌ ꜜ
 iru	ì ɾ ǔ ꜜ
 irurumĩ	ì ɾ ù ɾ ù m ě
-ita	i t a
 ita	i t a
 ita	ì t ǎ
 ita	ì t ǎ ꜜ
@@ -227,12 +224,12 @@ itahuha	ì t á h ùː h á ꜜ
 itangi	ì t à ᵑ ɡ ì ꜜ
 itangi	ì t à ᵑ ɡ ǐ
 itarara	ì t áː ɾ àː ɾ á ꜜ
-ithagu	ì ð à ɣ ǔ
 ithagu	ì ð à ɣ ú
+ithagu	ì ð à ɣ ǔ
 ithandũkũ	ì ð àⁿ d ó k ó ꜜ
 ithangũ	ì ð à ᵑ ɡ ǒ
-ithanwa	ì ð á n w á ꜜ
 ithanwa	ì ð á n o á ꜜ
+ithanwa	ì ð á n w á ꜜ
 ithe	ì ð ɛ̌
 itherero	ì ð ɛ̀ ɾ ɛ̀ ɾ ɔ̀ ꜜ
 ithĩnjĩro	ì ð è ᶮ d͡ʑ é ɾ ɔ̀ ꜜ
@@ -249,8 +246,8 @@ itũũra	ì t óː ɾ ǎ ꜜ
 iya	i j a
 kaana	k a à n á ꜜ
 kaara	k aː ɾ a
-kahĩĩ	k à h è é
 kahũa	k à h ó w á ꜜ
+kahĩĩ	k à h è é
 kaingĩ	k a i ᵑ ɡ e
 kaiyaba	k a ì j á β à ꜜ
 kamau	k à m à ú ꜜ
@@ -282,29 +279,29 @@ kumia	k u m i a
 kundĩka	k uⁿ d e k a
 kunya	k u ɲ a
 kuuma	k u u m a
-kĩande	k e àⁿ d ɛ́ ꜜ
 kĩande	k e àⁿ d ɛ́
+kĩande	k e àⁿ d ɛ́ ꜜ
 kĩara	k e à ɾ à ꜜ
 kĩara	k e à ɾ á ꜜ
 kĩbaũ	k è β àː ó ꜜ
-kĩbaũ	k è β àː ó ꜜ
 kĩbiriti	k è β ì ɾ ìː t ì ꜜ
-kĩboko	k è β ɔ̀ k ɔ̌
 kĩboko	k è β ɔ̀ k ɔ́
+kĩboko	k è β ɔ̀ k ɔ̌
 kĩegetha	k e ɛ̀ ɣ ɛ́ ð à ꜜ
 kĩeha	k e ɛ̀ h á
 kĩero	k e ɛ̀ ɾ ɔ̀ ꜜ
 kĩganda	k è ɣ àⁿ d à ꜜ
 kĩganda	k è ɣ àⁿ d ǎ
 kĩgera	k è ɣ ɛ̀ ɾ à ꜜ
-kĩgokora	k è ɣ ɔ̀ː k ɔ́ː ɾ à ꜜ
 kĩgokora	k è ɣ ɔ̀ k ɔ́ː ɾ à ꜜ
 kĩgokora	k è ɣ ɔ̀ː k ɔ́ː ɾ à
+kĩgokora	k è ɣ ɔ̀ː k ɔ́ː ɾ à ꜜ
 kĩgomano	k è ɣ ɔ̀ m à n ɔ̀ ꜜ
 kĩgunyarĩrĩ	k è ɣ ù ɲ àː ɾ è ɾ è ꜜ
 kĩgunyũ	k è ɣ ù ɲ ǒ
-kĩgwa	k è ɣ w ǎ
 kĩgwa	k è ɣ o ǎ
+kĩgwa	k è ɣ w ǎ
+kũgũrũ	k ò ɣ ò ɾ ò ꜜ
 kĩhaaro	k è h àː ɾ ɔ̀ ꜜ
 kĩhaato	k è h àː t ɔ́ ꜜ
 kĩhara	k è h à ɾ á ꜜ
@@ -323,6 +320,7 @@ kĩmũrĩ	k è m ò ɾ è ꜜ
 kĩndũ	k èⁿ d ò ꜜ
 kĩnena	k è n ɛ̀ n à ꜜ
 kĩng'ang'i	k è ŋ à ŋ í
+kũnja	k o ᶮ d ʑ a
 kĩnundu	k è n ùⁿ d ù ꜜ
 kĩohe	k e ɔ h ɛ
 kĩoho	k e ɔ̀ h ɔ́ ꜜ
@@ -348,24 +346,22 @@ kĩrĩkanĩro	k è ɾ èː k à n è ɾ ɔ̀ ꜜ
 kĩrĩma	k è ɾ è m à ꜜ
 kĩrĩma	k è ɾ è m á
 kĩrĩndĩ	k è ɾ èⁿ d ě
-kĩrĩro	k è ɾ è ɾ ɔ́ ꜜ
-kĩrĩro	k è ɾ è ɾ ɔ̀ ꜜ
 kĩrũngũrĩra	k e ɾ o ᵑ ɡ o ɾ e ɾ a
 kĩrũngũrĩra	k è ɾ ò ᵑ ɡ ò ɾ è ɾ ɔ̀ ꜜ
-kĩrũũmi	k è ɾ òː m ǐ
+kĩrĩro	k è ɾ è ɾ ɔ̀ ꜜ
+kĩrĩro	k è ɾ è ɾ ɔ́ ꜜ
 kĩrũũmi	k è ɾ òː m ì ꜜ
+kĩrũũmi	k è ɾ òː m ǐ
 kĩĩgamba	k e è ɣ á ᵐ b ǎ ꜜ
+kĩũgũ	k e ò ɣ ò ꜜ
 kĩĩhindiĩ	k e e h iⁿ d i e
 kĩĩhuruta	k èː h ú ɾ ùː t á ꜜ
-kĩĩmbu	k e è ᵐ b ǔ
-kĩĩruru	k e è ɾ ú ɾ ǔ ꜜ
-kĩĩruru	k e è ɾ ú ɾ ú ꜜ
-kĩĩrũma	k e e ɾ o m a
-kĩũgũ	k e ò ɣ ò ꜜ
 kĩũma	k e ò m á ꜜ
+kĩĩmbu	k e è ᵐ b ǔ
 kĩũra	k e ò ɾ ǎ
-kũgũrũ	k ò ɣ ò ɾ ò ꜜ
-kũnja	k o ᶮ d ʑ a
+kĩĩruru	k e è ɾ ú ɾ ú ꜜ
+kĩĩruru	k e è ɾ ú ɾ ǔ ꜜ
+kĩĩrũma	k e e ɾ o m a
 ma	m ǎ ꜜ
 maatha	m aː ð a
 magathĩ	m à ɣ á ð è ꜜ
@@ -395,16 +391,16 @@ mbarĩ	ᵐ b à ɾ é
 mbarĩ	ᵐ b à ɾ é ꜜ
 mbarĩki	ᵐ b à ɾ é k ì ꜜ
 mbeca	ᵐ b ɛ̀ː ɕ à ꜜ
-mbegũ	ᵐ b ɛ̀ ɣ ǒ
 mbegũ	ᵐ b ɛ̀ ɣ ó
+mbegũ	ᵐ b ɛ̀ ɣ ǒ
 mbembe	ᵐ b ɛ̀ ᵐ b ɛ́ ꜜ
 mbere	ᵐ b ɛ̀ ɾ ɛ̀ ꜜ
 mbeũ	ᵐ b ɛ̀ ó
 mbica	ᵐ b ì ɕ á
 mbiro	ᵐ b ì ɾ ɔ́ ꜜ
 mboco	ᵐ b ɔ̀ː ɕ ɔ̀ ꜜ
-mbogo	ᵐ b ɔ̀ ɣ ɔ̌
 mbogo	ᵐ b ɔ̀ ɣ ɔ́
+mbogo	ᵐ b ɔ̀ ɣ ɔ̌
 mbogoro	ᵐ b ɔ̀ ɣ ɔ̀ ɾ ɔ̀ ꜜ
 mbugi	ᵐ b ù ɣ í ꜜ
 mbuku	ᵐ b ù k ù ꜜ
@@ -412,10 +408,10 @@ mbura	ᵐ b ù ɾ á ꜜ
 mbuĩ	ᵐ b u e
 mbwe	ᵐ b w ɛ̌ ꜜ
 mbwe	ᵐ b ò ɛ́ ꜜ
-mbĩrĩra	ᵐ b èː ɾ é ɾ à ꜜ
 mbũkũ	ᵐ b ó k ó ꜜ
 mbũmbũĩ	ᵐ b ò ᵐ b ò è ꜜ
 mbũri	ᵐ b ò ɾ í ꜜ
+mbĩrĩra	ᵐ b èː ɾ é ɾ à ꜜ
 mbũtũ	ᵐ b ò t ó
 mbũũ	ᵐ b ò ǒ
 mena	m ɛ n a
@@ -431,26 +427,26 @@ muuma	m u ù m ǎ
 muunjuga	m u ù ᶮ d͡ʑ ù ɣ à ꜜ
 muuto	m ùː t ɔ̀ ꜜ
 mwaka	m o à k á ꜜ
-mwaki	m w à k ì ꜜ
 mwaki	m o à k ì ꜜ
-mwaki	m w à k í ꜜ
 mwaki	m o à k í ꜜ
+mwaki	m w à k ì ꜜ
+mwaki	m w à k í ꜜ
 mwambato	m o à ᵐ b à t ɔ̀ ꜜ
 mwana	m ò à n á ꜜ
 mwanake	m o à n á k ɛ́
 mwanga	m o à ᵑ ɡ à ꜜ
 mwarimũ	m o à ɾ í m ó ꜜ
-mwario	m w àː ɾ i ɔ̀ ꜜ
 mwario	m o à ɾ i ɔ̀ ꜜ
-mwarĩ	m w àː ɾ ě
+mwario	m w àː ɾ i ɔ̀ ꜜ
 mwarĩ	m o à ɾ ě
+mwarĩ	m w àː ɾ ě
 mwarĩki	m o à ɾ é k ì ꜜ
 mwathani	m o à ð à n ì ꜜ
 mwathimũro	m o à ð í m ò ɾ ɔ̀ ꜜ
 mwatĩ	m o à t é ꜜ
 mwatũ	m o à t ǒ
-mwatũka	m w à t ó k ǎ ꜜ
 mwatũka	m o à t ó k á ꜜ
+mwatũka	m w à t ó k ǎ ꜜ
 mwegetho	m o ɛ̀ ɣ ɛ́ ð ɔ̀ ꜜ
 mwena	m o ɛ̀ n à ꜜ
 mwendwa	m o ɛ̀ⁿ d o ǎ
@@ -462,9 +458,6 @@ mwĩnũ	m o è n ǒ
 mwĩrĩ	m ò è r è ꜜ
 mwĩrĩ	m ò è r ě
 mwĩthũa	m o è ð ó w ǎ ꜜ
-mĩhũmũ	m è h óː m ò ꜜ
-mĩhũmũ	m è h òː m ó
-mĩhũmũ	m è h òː m ǒ
 mũbangi	m ò β à ᵑ ɡ ì ꜜ
 mũbango	m ò β à ᵑ ɡ ɔ́ ꜜ
 mũbariti	m o β a ɾ iː t i
@@ -474,22 +467,22 @@ mũbeebe	m ò β ɛ̀ː β ɛ́ ꜜ
 mũbira	m ò β íː ɾ ǎ ꜜ
 mũbirũbirũ	m ò β ì ɾ ó β ì ɾ ó ꜜ
 mũbĩngũ	m ò β è ᵑ ɡ ǒ
-mũcakwe	m ò ɕ á k o ɛ́ ꜜ
 mũcakwe	m ò ɕ á k o ɛ̀ ꜜ
+mũcakwe	m ò ɕ á k o ɛ́ ꜜ
 mũcarage	m ò ɕ à ɾ á ɣ ɛ̀ ꜜ
-mũceere	m ó ɕ ɛ́ː ɾ ɛ̀
 mũceere	m ò ɕ ɛ́ː ɾ ɛ̌ ꜜ
+mũceere	m ó ɕ ɛ́ː ɾ ɛ̀
 mũcege	m o t ɕ ɛː ɣ ɛ
 mũcemanio	m ò ɕ ɛ̀ m à n i ɔ́
 mũcemanio	m ò ɕ ɛ̀ m á n i ɔ̀ ꜜ
 mũcemeki	m ò ɕ ɛ̀ m ɛ́ k ì ꜜ
 mũciari	m ò ɕ i à ɾ í ꜜ
-mũciarithia	m ò ɕ i à ɾ í ð i á
 mũciarithia	m ò ɕ i à ɾ ì ð i á
+mũciarithia	m ò ɕ i à ɾ í ð i á
 mũciciũ	m ò t ɕ ì t ɕ i ó
 mũcinga	m ò ɕ ì ᵑ ɡ ǎ
-mũcingo	m ò ɕ ì ᵑ ɡ ɔ̌
 mũcingo	m ò ɕ ì ᵑ ɡ ɔ́
+mũcingo	m ò ɕ ì ᵑ ɡ ɔ̌
 mũcingũ	m ò ɕ ì ᵑ ɡ ó
 mũcingũ	m ò ɕ ì ᵑ ɡ ǒ
 mũciĩ	m ò ɕ ì è ꜜ
@@ -504,24 +497,23 @@ mũgagaca	m ò ɣ à ɣ á ɕ á
 mũgaita	m o ɣ a i t a
 mũgambo	m ò ɣ à ᵐ b ɔ̀ ꜜ
 mũgate	m ò ɣ à t ɛ̌
-mũgathĩ	m ó ɣ á ð ì
 mũgathĩ	m ò ɣ á ð ě
+mũgathĩ	m ó ɣ á ð ì
 mũgeka	m ò ɣ ɛ̀ k á ꜜ
 mũgendi	m ò ɣ ɛ̀ⁿ d ì ꜜ
 mũgeni	m ò ɣ ɛ̀ n ì ꜜ
 mũgiro	m o ɣ i ɾ ɔ
 mũgogo	m ò ɣ ɔ́ː ɣ ɔ̀ ꜜ
 mũgoma	m ò ɣ ɔ́ m ǎ
-mũgoma	m ò ɣ ɔ́ m ǎ
 mũgongo	m ò ɣ ɔ̀ ᵑ ɡ ɔ̀ ꜜ
 mũgoro	m ò ɣ ɔ̀ ɾ ɔ̀ ꜜ
 mũgumo	m ò ɣ ù m ɔ̀ ꜜ
-mũguongo	m ò ɣ u ɔ̀ ᵑ ɡ ɔ́ ꜜ
 mũguongo	m ò ɣ u ɔ̀ ᵑ ɡ ɔ́
-mũguĩ	m o ɣ w e
+mũguongo	m ò ɣ u ɔ̀ ᵑ ɡ ɔ́ ꜜ
 mũguĩ	m o ɣ o e
-mũguĩmi	m ò ɣ u è m í ꜜ
+mũguĩ	m o ɣ w e
 mũguĩmi	m ò ɣ o è m í ꜜ
+mũguĩmi	m ò ɣ u è m í ꜜ
 mũgwanja	m ò ɣ o à ᶮ d͡ʑ á ꜜ
 mũgĩmbĩ	m ò ɣ è ᵐ b ě
 mũgũnda	m ò ɣ òⁿ d à ꜜ
@@ -538,13 +530,16 @@ mũhoko	m ò h ɔ̀ k ɔ̌
 mũhu	m ò h ǔ ꜜ
 mũhĩa	m ò h e ǎ
 mũhĩa	m ò h è á
-mũhĩnga	m ò h é ᵑ ɡ ǎ ꜜ
-mũhĩrĩgo	m ò h è ɾ é ɣ ɔ̀ ꜜ
 mũhũgũ	m ò h ò ɣ ó
-mũhũmũ	m ò h óː m ò ꜜ
+mĩhũmũ	m è h òː m ó
+mĩhũmũ	m è h òː m ǒ
+mĩhũmũ	m è h óː m ò ꜜ
 mũhũmũ	m ò h òː m ó
 mũhũmũ	m ò h òː m ǒ
+mũhũmũ	m ò h óː m ò ꜜ
+mũhĩnga	m ò h é ᵑ ɡ ǎ ꜜ
 mũhũri	m ò h ò ɾ í
+mũhĩrĩgo	m ò h è ɾ é ɣ ɔ̀ ꜜ
 mũici	m ò ì ɕ í ꜜ
 mũigaigua	m o i ɣ a i ɣ u a
 mũigua	m o i ɣ u a
@@ -554,8 +549,8 @@ mũiko	m ò ì k ɔ́ ꜜ
 mũikũrũko	m ò ì k ò ɾ ò k ɔ̀ ꜜ
 mũiri	m ò ìː ɾ í ꜜ
 mũiru	m ò ì ɾ ǔ
-mũirĩtu	m o ì ɾ éː t ú
 mũirĩtu	m o ì ɾ éː t ù ꜜ
+mũirĩtu	m o ì ɾ éː t ú
 mũitĩrĩro	m ò ì t è ɾ è ɾ ɔ̀ ꜜ
 mũka	m ò k ǎ
 mũkamo	m ò k à m ɔ́ ꜜ
@@ -581,12 +576,12 @@ mũkorombothi	m ò k ɔ̀ ɾ ɔ̀ ᵐ b ɔ̀ ð ì ꜜ
 mũkuha	m ò k ù h á ꜜ
 mũkururo	m ò k ù ɾ ù ɾ ɔ̀ ꜜ
 mũkĩndũ	m ò k èⁿ d ó ꜜ
-mũkĩra	m ò k é ɾ á ꜜ
-mũkĩra	m ò k é ɾ ǎ ꜜ
-mũkũndũ	m ò k òⁿ d ó ꜜ
 mũkũndũ	m ò k òⁿ d ó
+mũkũndũ	m ò k òⁿ d ó ꜜ
 mũkũnga	m ò k ò ᵑ ɡ á ꜜ
 mũkũngũgũ	m o k o ᵑ ɡ o ɣ o
+mũkĩra	m ò k é ɾ á ꜜ
+mũkĩra	m ò k é ɾ ǎ ꜜ
 mũkũyũ	m ò k ò j ó ꜜ
 mũmero	m ò m ɛ̀ ɾ ɔ̀ ꜜ
 mũmondo	m ò m ɔ̀ⁿ d ɔ̀ ꜜ
@@ -621,12 +616,12 @@ mũrogi	m ò ɾ ɔ̀ ɣ ì ꜜ
 mũromo	m ò ɾ ɔ̀ m ɔ̀ ꜜ
 mũrongo	m ò ɾ ɔ̀ ᵑ ɡ ɔ̀ ꜜ
 mũrutani	m ò ɾ ù t à n ì ꜜ
-mũrĩithi	m ò ɾ e ì ð í ꜜ
-mũrĩmi	m ò ɾ è m ì ꜜ
-mũrĩmo	m ò ɾ é m ɔ̀ ꜜ
 mũrũaru	m ò ɾ o à ɾ ú
 mũrũarũ	m ò ɾ o à ɾ ó
 mũrũgũ	m ò ɾ ó ɣ ò ꜜ
+mũrĩithi	m ò ɾ e ì ð í ꜜ
+mũrĩmi	m ò ɾ è m ì ꜜ
+mũrĩmo	m ò ɾ é m ɔ̀ ꜜ
 mũrũngũru	m ò ɾ ò ᵑ ɡ ó ɾ ú
 mũrũrũ	m ò ɾ ò ɾ ò ꜜ
 mũrũrũa	m ò ɾ òː ɾ òː á ꜜ
@@ -645,7 +640,6 @@ mũthaithi	m ò ð à ì ð ì ꜜ
 mũthaitĩ	m o ð a i t e
 mũthamaki	m ò ð à m á k ì ꜜ
 mũthandũkũ	m ò ð àⁿ d ó k ó ꜜ
-mũthandũkũ	m ò ð àⁿ d ó k ó ꜜ
 mũthanga	m ò ð á ᵑ ɡ à ꜜ
 mũtharaba	m ò ð à ɾ à β á ꜜ
 mũthece	m ò ð ɛ̀ː ɕ ɛ́
@@ -654,9 +648,7 @@ mũthemba	m ò ð ɛ̀ ᵐ b à ꜜ
 mũthia	m ò ð ì j á ꜜ
 mũthia	m ò ð ì á ꜜ
 mũthigari	m òː ð ì ɣ á ɾ í ꜜ
-mũthigari	m òː ð ì ɣ á ɾ í ꜜ
 mũthigari	m òː ð í ɣ á ɾ ì
-mũthigari	m òː ð ì ɣ á ɾ í ꜜ
 mũthigiti	m ò ð ì ɣ í t ì ꜜ
 mũthita	m ò ð ìː t á ꜜ
 mũthita	m ò ð ìː t ǎ
@@ -667,9 +659,9 @@ mũthiũrũrũko	m ò ð i ò ɾ ó ɾ ò k ɔ̀ ꜜ
 mũthongorima	m ò ð ɔ̀ ᵑ ɡ ɔ́ ɾ í m á
 mũthuru	m ò ð ù ɾ ú ꜜ
 mũthuuri	m ò ð ùː ɾ ì ꜜ
-mũthĩga	m ò ð è ɣ á ꜜ
 mũthũ	m o ð o
 mũthũa	m ò ð ò w á
+mũthĩga	m ò ð è ɣ á ꜜ
 mũthũngũ	m ò ð ó ᵑ ɡ ò ꜜ
 mũthũũri	m ò ð óː ɾ ǐ ꜜ
 mũting'oe	m ò t ìː ŋ ɔ̀ ɛ́ ꜜ
@@ -679,16 +671,16 @@ mũtokaa	m ò t ɔ̀ k á à ꜜ
 mũtomoko	m ò t ɔ̀ː m ɔ́ k ɔ̀ ꜜ
 mũtongoria	m ò t ɔ̀ ᵑ ɡ ɔ́ ɾ i á
 mũtongu	m ò t ɔ̀ ᵑ ɡ ú
-mũtore	m ò t ɔ̀ ɾ ɛ̀ ꜜ
 mũtore	m ò t ɔ̀ ɾ ɛ̌
+mũtore	m ò t ɔ̀ ɾ ɛ̀ ꜜ
 mũtumia	m ò t ù m í j à ꜜ
 mũturi	m ò t ù ɾ í ꜜ
 mũtuuya	m ò t ùː j á ꜜ
-mũtwe	m o t w ɛ
 mũtwe	m o t o ɛ
+mũtwe	m o t w ɛ
 mũtĩ	m ò t ě
-mũtũma	m ò t óː m ǎ ꜜ
 mũtũma	m ò t òː m à ꜜ
+mũtũma	m ò t óː m ǎ ꜜ
 mũtũng'ũ	m ò t ò ŋ ó ꜜ
 mũtũngũrũ	m ò t ò ᵑ ɡ ó ɾ ó
 namba	n à ᵐ b á
@@ -710,8 +702,8 @@ ngatia	ᵑ ɡ á t i á ꜜ
 ngemi	ᵑ ɡ ɛ̀ m í ꜜ
 ngi	ᵑ ɡ ì ꜜ
 ngigĩ	ᵑ ɡ ì ɣ è ꜜ
-ngingo	ŋ ɡ í ŋ ɡ ɔ́
 ngingo	ŋ ɡ ì ŋ ɡ ɔ́
+ngingo	ŋ ɡ í ŋ ɡ ɔ́
 nginya	ᵑ ɡ ì ɲ à ꜜ
 ngirathi	ᵑ ɡ ì ɾ áː ð ì
 ngiria	ᵑ ɡ ì ɾ i á
@@ -736,21 +728,21 @@ nguruu	ᵑ ɡ ù ɾ ú ù ꜜ
 nguuũ	ᵑ ɡ ùː ǒ
 nguya	ᵑ ɡ u j a
 nguyo	ᵑ ɡ ùː j ɔ̀ ꜜ
-ngwacĩ	ᵑ ɡ w à ɕ ě ꜜ
 ngwacĩ	ᵑ ɡ o à ɕ ě ꜜ
+ngwacĩ	ᵑ ɡ w à ɕ ě ꜜ
 ngware	ᵑ ɡ o à ɾ ɛ̌
-ngĩma	ᵑ ɡ è m á ꜜ
-ngĩrĩ	ᵑ ɡ è ɾ ě
-ngũbia	ᵑ ɡ ò β í j ǎ ꜜ
 ngũbia	ᵑ ɡ ò β í j á ꜜ
+ngũbia	ᵑ ɡ ò β í j ǎ ꜜ
 ngũgũ	ᵑ ɡ óː ɣ ǒ ꜜ
 ngũgũtũ	ᵑ ɡ ò ɣ ó t ó
 ngũha	ᵑ ɡ ò h á ꜜ
 ngũkũ	ᵑ ɡ ò k ó
 ngũkũma	ᵑ ɡ oː k o m a
+ngĩma	ᵑ ɡ è m á ꜜ
 ngũngũni	ŋ ɡ óː ŋ ɡ ò n í ꜜ
-ngũrũe	ᵑ ɡ ò ɾ ò ɛ̀ ꜜ
+ngĩrĩ	ᵑ ɡ è ɾ ě
 ngũrũe	ŋ ò ɾ ò w ɛ̀ ꜜ
+ngũrũe	ᵑ ɡ ò ɾ ò ɛ̀ ꜜ
 njagathi	ᶮ d ʑ à ɣ à ð ì ꜜ
 njagĩ	ᶮ d ʑ à ɣ ě
 njahĩ	ᶮ d ʑ à h ě
@@ -764,16 +756,15 @@ njikarĩro	ᶮ d ʑ ì k à ɾ è ɾ ɔ̀ ꜜ
 njogoo	ᶮ d ʑ ɔ̀ ɣ ɔ́ ɔ̀ ꜜ
 njogu	ᶮ d ʑ ɔ ɣ u
 njohero	ᶮ d ʑ ɔ̀ h ɛ́ ɾ ɔ̀
-njohero	ᶮ d ʑ ɔ̀ h ɛ́ ɾ ɔ̀
 njohero	ᶮ d ʑ ɔ́ h ɛ́ ɾ ɔ̀
 njohi	ᶮ d ʑ ɔ̀ː h ǐ
 njoka	ᶮ d ʑ ɔ̀ k á ꜜ
 njoroge	ᶮ d ʑ ɔ̀ ɾ ɔ̀ ɣ ɛ́ ꜜ
-njĩmbĩrĩ	ᶮ d ʑ è ᵐ b é ɾ é
-njĩra	ᶮ d ʑ è ɾ ǎ
 njũgũma	ᶮ d ʑ ò ɣ ò m ǎ
 njũi	ᶮ d ʑ óː ì ꜜ
 njũkĩ	ᶮ d ʑ ò k é ꜜ
+njĩmbĩrĩ	ᶮ d ʑ è ᵐ b é ɾ é
+njĩra	ᶮ d ʑ è ɾ ǎ
 no	n ɔ
 noe	n ɔ̀ ɛ́ ꜜ
 noora	n ɔː ɾ a
@@ -781,20 +772,19 @@ numĩra	n ù m è ɾ à ꜜ
 nyaga	ɲ à ɣ á ꜜ
 nyama	ɲ à m à ꜜ
 nyama	ɲ à m á ꜜ
-nyamĩndigi	ɲ á m éːⁿ d ì ɣ ì
-nyamĩndigi	ɲ á m íːⁿ d ì ɣ í ꜜ
-nyamĩndigi	ɲ à m éːⁿ d í ɣ ì
 nyamũ	ɲ à m ǒ ꜜ
 nyamũga	ɲ a m o ɣ a
 nyamũga	ɲ à m ó ɣ á ꜜ
-nyau	ɲ àː ú ꜜ
+nyamĩndigi	ɲ à m éːⁿ d í ɣ ì
+nyamĩndigi	ɲ á m éːⁿ d ì ɣ ì
+nyamĩndigi	ɲ á m íːⁿ d ì ɣ í ꜜ
 nyau	ɲ à ú ꜜ
+nyau	ɲ àː ú ꜜ
 nyee	ɲ ɛ́ ɛ́ ꜜ
 nyeni	ɲ ɛ n i
 nyenje	ɲ ɛ̀ ᶮ d ʑ ɛ́
 nyina	ɲ ì n ǎ ꜜ
 nyoka	ɲ ɔ̀ k á ꜜ
-nyondo	ɲ ɔ̀ⁿ d ɔ̀ ꜜ
 nyondo	ɲ ɔ̀ⁿ d ɔ̀ ꜜ
 nyoni	ɲ ɔ̀ n ì ꜜ
 nyoro	ɲ ɔ̀ ɾ ɔ̀ ꜜ
@@ -802,9 +792,9 @@ nyua	ɲ u a
 nyũmba	ɲ ò ᵐ b ǎ
 nyũngũ	ɲ ò ᵑ ɡ ǒ
 nĩ	n e
-nĩkĩ	n e k e
 nũgũ	n ó ɣ ó ꜜ
 nũgũ	n ó ɣ ǒ ꜜ
+nĩkĩ	n e k e
 nũũ	n oː
 oha	ɔ h a
 ona	ɔ n a
@@ -835,22 +825,12 @@ rwagĩ	ɾ o a ɣ e
 rwambo	ɾ o à ᵐ b ɔ̀ ꜜ
 rwara	ɾ o a ɾ a
 rĩa	ɾ e a
-rĩera	ɾ e ɛ́ ɾ ǎ ꜜ
-rĩithia	ɾ e i ð i a
-rĩithori	ɾ è ì ð ɔ́ ɾ ì ꜜ
-rĩithori	ɾ è ì ð ɔ́ ɾ ì ꜜ
-rĩma	ɾ e m a
-rĩra	ɾ e ɾ a
-rĩrĩa	ɾ e ɾ e a
-rĩu	ɾ e u
-rĩĩtwa	ɾ e e t w a
-rĩĩtwa	ɾ e e t o a
-rĩũmba	ɾ e ò ᵐ b á ꜜ
 rũathe	ɾ o à ð ɛ̌
 rũbaru	ɾ ò β à ɾ ù ꜜ
 rũbaũ	ɾ ò β àː ó ꜜ
 rũbũa	ɾ ò β ò w ǎ
 rũcinĩ	ɾ òː ɕ íː n ě ꜜ
+rĩera	ɾ e ɛ́ ɾ ǎ ꜜ
 rũga	ɾ ò ɣ à ꜜ
 rũgama	ɾ oː ɣ a m a
 rũgano	ɾ ò ɣ à n ɔ̀ ꜜ
@@ -867,15 +847,20 @@ rũhuho	ɾ ò h ùː h ɔ̀ ꜜ
 rũhĩ	ɾ ò h ě ꜜ
 rũhĩa	ɾ ò h e ǎ
 rũhĩa	ɾ ò h è á
-rũkunyũ	ɾ ò k ù ɲ ǒ
+rĩithia	ɾ e i ð i a
+rĩithori	ɾ è ì ð ɔ́ ɾ ì ꜜ
 rũkunyũ	ɾ ò k ò ɲ ǒ
+rũkunyũ	ɾ ò k ù ɲ ǒ
 rũkũngũ	ɾ ò k ò ᵑ ɡ ǒ
+rĩma	ɾ e m a
 rũng'ũthũ	ɾ ò ŋ ò ð ó ꜜ
 rũnyarĩrĩ	ɾ o ɲ aː ɾ e ɾ e
 rũnyarĩrĩ	ɾ ò ɲ àː ɾ è ɾ è ꜜ
+rĩra	ɾ e ɾ a
 rũraacio	ɾ ò ɾ àː ɕ i ɔ̀ ꜜ
 rũrigi	ɾ ò ɾ ì ɣ í ꜜ
 rũru	ɾ òː ɾ ù ꜜ
+rĩrĩa	ɾ e ɾ e a
 rũrĩmĩ	ɾ ò ɾ è m é ꜜ
 rũrĩra	ɾ ò ɾ è ɾ à ꜜ
 rũrĩra	ɾ ò ɾ ɛ̀ ɾ à ꜜ
@@ -883,8 +868,12 @@ rũthingo	ɾ o ð i ᵑ ɡ ɔ
 rũthiomi	ɾ ò ð i ɔ̀ m í ꜜ
 rũthirũ	ɾ ò ð ì ɾ ó
 rũthĩa	ɾ ò ð è j á
-rũĩmbo	ɾ o è ᵐ b ɔ́ ꜜ
+rĩu	ɾ e u
 rũũga	ɾ oː ɣ a
+rĩũmba	ɾ e ò ᵐ b á ꜜ
+rũĩmbo	ɾ o è ᵐ b ɔ́ ꜜ
+rĩĩtwa	ɾ e e t o a
+rĩĩtwa	ɾ e e t w a
 rũũĩ	ɾ òː é ꜜ
 taara	t aː ɾ a
 taha	t a h a
@@ -898,8 +887,8 @@ teta	t ɛ t a
 thaatũ	ð àː t ó
 thabina	ð à β í n à ꜜ
 thabuni	ð a β uː n i
-thaburia	ð à β ú ɾ i ǎ ꜜ
 thaburia	ð à β ú ɾ i á ꜜ
+thaburia	ð à β ú ɾ i ǎ ꜜ
 thahabu	ð à h á β ù ꜜ
 thahabu	ð à h á β ǔ ꜜ
 thakame	ð à k á m ɛ́
@@ -922,10 +911,10 @@ thimbũ	ð íː ᵐ b ǒ ꜜ
 thimo	ð i m ɔ
 thiota	ð ì ɔ̀ t à ꜜ
 thirikari	ð i ɾ i k aː ɾ i
-thiruai	ð i ɾ u a i
 thiruai	ð i ɾ o a i
-thiruai	ð í ɾ w à í ꜜ
+thiruai	ð i ɾ u a i
 thiruai	ð ì ɾ w á ǐ
+thiruai	ð í ɾ w à í ꜜ
 thiruai	ð í ɾ w á ì
 thithino	ð ì ð ì n ɔ̀ ꜜ
 thitima	ð ìː t í m à ꜜ
@@ -943,11 +932,11 @@ thuraku	ð ù ɾ á k ù ꜜ
 thutha	ð ùː ð à ꜜ
 thuya	ð ùː j á ꜜ
 thwara	ð o á ɾ à ꜜ
-thwariga	ð w a ɾ i ɣ a
 thwariga	ð o à ɾ ì ɣ ǎ
+thwariga	ð w a ɾ i ɣ a
 thĩ	ð e
-thĩgĩngĩ	ð è ɣ é ᵑ ɡ è ꜜ
 thũ	ð ǒ ꜜ
+thĩgĩngĩ	ð è ɣ é ᵑ ɡ è ꜜ
 thũng'wa	ð ó ŋ o á ꜜ
 thũngũri	ð o ᵑ ɡ o ɾ i
 thũngũri	ð ò ᵑ ɡ ò ɾ ì ꜜ
@@ -978,20 +967,16 @@ werũ	w ɛ̀ ɾ ó ꜜ
 wonjoria	w ɔ̀ ᶮ d͡ʑ ɔ̀ ɾ i á
 wĩra	w èː ɾ à ꜜ
 ĩ	e
-ĩka	e k a
-ĩrorera	e ɾ ɔ ɾ ɛ ɾ a
-ĩta	e t a
-ĩtigĩra	e t i ɣ e ɾ a
-ĩĩ	e e
 ũ	o
 ũbuthu	ò β ù ð ǔ
 ũcũrũ	ò t ɕ ò ɾ ǒ
 ũgwati	ò ɣ w à t ì ꜜ
 ũgũrũki	ò ɣ ò ɾ ò k ì ꜜ
-ũhere	ò h ɛ̀ r ɛ̀ ꜜ
 ũhere	ò h ɛ̀ r ɛ̌
+ũhere	ò h ɛ̀ r ɛ̀ ꜜ
 ũhoro	ò h ɔ̀ ɾ ɔ́ ꜜ
 ũiru	ò ì ɾ ǔ
+ĩka	e k a
 ũka	o k a
 ũkuhĩ	ò k ù h é
 ũkĩra	o k e ɾ a
@@ -1005,16 +990,20 @@ wĩra	w èː ɾ à ꜜ
 ũrata	ò ɾ àː t á ꜜ
 ũria	o ɾ i a
 ũrimũ	ò ɾ ì m ó ꜜ
+ĩrorera	e ɾ ɔ ɾ ɛ ɾ a
 ũruu	ò ɾ ù ǔ
 ũrĩmi	ò ɾ è m ì ꜜ
 ũrĩo	ò ɾ e ɔ̌ ꜜ
 ũrĩrĩ	ò ɾ è ɾ è ꜜ
+ĩta	e t a
 ũta	ò t ǎ ꜜ
 ũtheri	ò ð ɛ̀ ɾ í ꜜ
 ũthiũ	o ð i o
+ĩtigĩra	e t i ɣ e ɾ a
 ũtonga	ò t ɔ̀ ᵑ ɡ ǎ
 ũtukũ	ò t ù k ó ꜜ
 ũtune	ò t ùː n ɛ́ ꜜ
+ĩĩ	e e
 ũĩ	oː w e
 ũũgĩ	ò ò ɣ é
 ũũkĩ	o ò k é ꜜ
