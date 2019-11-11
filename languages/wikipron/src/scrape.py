@@ -28,14 +28,14 @@ def _call_scrape(lang_settings, config, tsv_path):
                 requests.exceptions.Timeout,
                 requests.exceptions.ConnectionError,
             ):
-                logger.info(
+                logging.info(
                     'Exception detected while scraping: "%s", "%s".',
                     lang_settings["key"],
                     tsv_path,
                 )
                 # Pauses execution for 10 min.
                 time.sleep(600)
-    logger.info(
+    logging.info(
         'Failed to scrape "%s" within 10 retries. %s',
         lang_settings["key"],
         lang_settings,
@@ -63,7 +63,7 @@ def _build_config_and_filter_files(
     # Removes TSVs with less than 100 lines.
     # Log language name and count to check whether Wikipron scraped any data.
     if phonemic_count < 100:
-        logger.info(
+        logging.info(
             (
                 '"%s" (count: %s) has less than '
                 "100 entries in phonemic transcription."
@@ -74,7 +74,7 @@ def _build_config_and_filter_files(
         os.remove(phonemic_path)
     if phonetic_count < 100:
         os.remove(phonetic_path)
-        logger.info(
+        logging.info(
             (
                 '"%s" (count: %s) has less than '
                 "100 entries in phonetic transcription."
@@ -87,9 +87,10 @@ def _build_config_and_filter_files(
 def main():
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
+    # "2019-10-31" (Big Scrape 2)
     cut_off_date = datetime.date.today().isoformat()
     for iso639_code in languages:
-        logger.info(
+        logging.info(
             'Current language: "%s"',
             languages[iso639_code]["wiktionary_name"],
         )
@@ -117,17 +118,13 @@ def main():
 
 
 if __name__ == "__main__":
-    logger = logging.getLogger(__name__)
-    logger.propagate = False
-    logger.setLevel(logging.INFO)
-    ch = logging.StreamHandler()
-    fh = logging.FileHandler(LOGGING_PATH, mode="a")
-    formatter = logging.Formatter(
-        "%(filename)s %(levelname)s: %(asctime)s - %(message)s",
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(asctime)s - %(message)s",
+        handlers=[
+            logging.FileHandler(LOGGING_PATH, mode="a"),
+            logging.StreamHandler(),
+        ],
         datefmt="%d-%b-%y %H:%M:%S",
+        level="INFO",
     )
-    ch.setFormatter(formatter)
-    fh.setFormatter(formatter)
-    logger.addHandler(ch)
-    logger.addHandler(fh)
     main()
