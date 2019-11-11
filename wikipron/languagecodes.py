@@ -163,6 +163,7 @@ LANGUAGE_CODES = {
     "osp": "Old Spanish",
     "old spanish": "Old Spanish",
     # Old Tupi. Not an ISO 639 language.
+    "tpw": "Old Tupi",
     "old tupi": "Old Tupi",
     "classical tupi": "Old Tupi",
     # Pashto. Would be "Pashto, Pushto" in ISO 639.
@@ -239,4 +240,10 @@ LANGUAGE_CODES = {
     # Ottoman Turkish. Would be "Ottoman Turkish (1500-1928)" in ISO 639.
     "ota": "Ottoman Turkish",
     "ottoman turkish": "Ottoman Turkish",
+    # Brunei Malay. Would be "Brunei" in ISO 639. ISO 693-3 only.
+    "kxd": "Brunei Malay",
+    "brunei malay": "Brunei Malay",
+    # Mecayapan Nahuatl. Would be "Isthmus-Mecayapan Nahuatl" in ISO 639. ISO 693-3 only.
+    "nhx": "Mecayapan Nahuatl",
+    "mecayapan nahuatl": "Mecayapan Nahuatl",
 }
