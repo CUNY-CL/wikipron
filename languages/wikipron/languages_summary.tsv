@@ -29,6 +29,7 @@ crx_phonemic.tsv	crx	Carrier	Carrier	False	Phonemic	175
 cat_phonemic.tsv	cat	Catalan; Valencian	Catalan	True	Phonemic	46948
 ceb_phonemic.tsv	ceb	Cebuano	Cebuano	True	Phonemic	266
 nya_phonemic.tsv	nya	Nyanja	Chichewa	True	Phonemic	734
+cho_phonemic.tsv	cho	Choctaw	Choctaw	True	Phonemic	109
 nci_phonemic.tsv	nci	Classical Nahuatl	Classical Nahuatl	True	Phonemic	837
 nci_phonetic.tsv	nci	Classical Nahuatl	Classical Nahuatl	True	Phonetic	1182
 syc_phonetic.tsv	syc	Classical Syriac	Classical Syriac	False	Phonetic	5924
@@ -91,12 +92,13 @@ ita_phonetic.tsv	ita	Italian	Italian	True	Phonetic	5504
 jpn_phonemic.tsv	jpn	Japanese	Japanese	False	Phonemic	135
 jpn_phonetic.tsv	jpn	Japanese	Japanese	False	Phonetic	24746
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	824
+khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	2950
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1010
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	12623
 kur_phonemic.tsv	kur	Kurdish	Kurdish	True	Phonemic	1152
 lao_phonemic.tsv	lao	Lao	Lao	False	Phonemic	299
-lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	35161
-lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	34523
+lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	34077
+lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	33468
 lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1269
 ayl_phonemic.tsv	ayl	Libyan Arabic	Libyan Arabic	False	Phonemic	154
 lij_phonemic.tsv	lij	Ligurian	Ligurian	True	Phonemic	753
@@ -119,6 +121,7 @@ glv_phonetic.tsv	glv	Manx	Manx	True	Phonetic	123
 mah_phonemic.tsv	mah	Marshallese	Marshallese	True	Phonemic	321
 mah_phonetic.tsv	mah	Marshallese	Marshallese	True	Phonetic	324
 mfe_phonemic.tsv	mfe	Morisyen	Mauritian Creole	True	Phonemic	184
+nhx_phonemic.tsv	nhx	Isthmus-Mecayapan Nahuatl	Mecayapan Nahuatl	True	Phonemic	111
 mic_phonemic.tsv	mic	Mi'kmaq	Mi'kmaq	True	Phonemic	134
 mic_phonetic.tsv	mic	Mi'kmaq	Mi'kmaq	True	Phonetic	132
 dum_phonemic.tsv	dum	Middle Dutch (ca. 1050-1350)	Middle Dutch	True	Phonemic	210

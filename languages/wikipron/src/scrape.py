@@ -90,10 +90,6 @@ def main():
     # "2019-10-31" (Big Scrape 2)
     cut_off_date = datetime.date.today().isoformat()
     for iso639_code in languages:
-        logging.info(
-            'Current language: "%s"',
-            languages[iso639_code]["wiktionary_name"],
-        )
         config_settings = {
             "key": iso639_code,
             "casefold": languages[iso639_code]["casefold"],

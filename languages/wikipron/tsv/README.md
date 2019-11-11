@@ -31,6 +31,7 @@
 | [TSV](cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 46948 |
 | [TSV](ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 266 |
 | [TSV](nya_phonemic.tsv) | nya | Nyanja | Chichewa | True | Phonemic | 734 |
+| [TSV](cho_phonemic.tsv) | cho | Choctaw | Choctaw | True | Phonemic | 109 |
 | [TSV](nci_phonemic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonemic | 837 |
 | [TSV](nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1182 |
 | [TSV](syc_phonetic.tsv) | syc | Classical Syriac | Classical Syriac | False | Phonetic | 5924 |
@@ -93,12 +94,13 @@
 | [TSV](jpn_phonemic.tsv) | jpn | Japanese | Japanese | False | Phonemic | 135 |
 | [TSV](jpn_phonetic.tsv) | jpn | Japanese | Japanese | False | Phonetic | 24746 |
 | [TSV](kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 824 |
+| [TSV](khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 2950 |
 | [TSV](kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1010 |
 | [TSV](kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12623 |
 | [TSV](kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1152 |
 | [TSV](lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 299 |
-| [TSV](lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 35161 |
-| [TSV](lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 34523 |
+| [TSV](lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 34077 |
+| [TSV](lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 33468 |
 | [TSV](lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1269 |
 | [TSV](ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
 | [TSV](lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
@@ -121,6 +123,7 @@
 | [TSV](mah_phonemic.tsv) | mah | Marshallese | Marshallese | True | Phonemic | 321 |
 | [TSV](mah_phonetic.tsv) | mah | Marshallese | Marshallese | True | Phonetic | 324 |
 | [TSV](mfe_phonemic.tsv) | mfe | Morisyen | Mauritian Creole | True | Phonemic | 184 |
+| [TSV](nhx_phonemic.tsv) | nhx | Isthmus-Mecayapan Nahuatl | Mecayapan Nahuatl | True | Phonemic | 111 |
 | [TSV](mic_phonemic.tsv) | mic | Mi'kmaq | Mi'kmaq | True | Phonemic | 134 |
 | [TSV](mic_phonetic.tsv) | mic | Mi'kmaq | Mi'kmaq | True | Phonetic | 132 |
 | [TSV](dum_phonemic.tsv) | dum | Middle Dutch (ca. 1050-1350) | Middle Dutch | True | Phonemic | 210 |
