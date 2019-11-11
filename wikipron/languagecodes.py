@@ -246,4 +246,7 @@ LANGUAGE_CODES = {
     # Mecayapan Nahuatl. Would be "Isthmus-Mecayapan Nahuatl" in ISO 639. ISO 693-3 only.
     "nhx": "Mecayapan Nahuatl",
     "mecayapan nahuatl": "Mecayapan Nahuatl",
+    # Tetelcingo Nahuatl. ISO 639-3 only.
+    "nhg": "Tetelcingo Nahuatl",
+    "tetelcingo nahuatl": "Tetelcingo Nahuatl",
 }
