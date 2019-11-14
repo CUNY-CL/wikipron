@@ -167,6 +167,12 @@
         "wiktionary_code": "zh",
         "casefold": false
     },
+    "cho": {
+        "iso639_name": "Choctaw",
+        "wiktionary_name": "Choctaw",
+        "wiktionary_code": "cho",
+        "casefold": true
+    },
     "nci": {
         "iso639_name": "Classical Nahuatl",
         "wiktionary_name": "Classical Nahuatl",
@@ -567,6 +573,12 @@
         "wiktionary_code": "mfe",
         "casefold": true
     },
+    "nhx": {
+        "iso639_name": "Isthmus-Mecayapan Nahuatl",
+        "wiktionary_name": "Mecayapan Nahuatl",
+        "wiktionary_code": "nhx",
+        "casefold": true
+    },
     "mic": {
         "iso639_name": "Mi'kmaq",
         "wiktionary_name": "Mi'kmaq",
@@ -916,6 +928,12 @@
         "wiktionary_name": "Telugu",
         "wiktionary_code": "te",
         "casefold": false
+    },
+    "nhg": {
+        "iso639_name": "Tetelcingo Nahuatl",
+        "wiktionary_name": "Tetelcingo Nahuatl",
+        "wiktionary_code": "nhg",
+        "casefold": true
     },
     "tha": {
         "iso639_name": "Thai",
