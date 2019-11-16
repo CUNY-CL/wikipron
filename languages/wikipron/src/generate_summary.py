@@ -13,14 +13,11 @@ def _handle_wiki_name(language, file_path, modifiers):
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:
-            key = file_path[
-                file_path.index("_") + 1 : file_path.rindex("_")
-            ]
+            key = file_path[file_path.index("_") + 1 : file_path.rindex("_")]
             values = language[modifier][key]
             if "|" in values:
                 values = values.replace(" |", ",")
             name += f" ({values})"
-        
     return name
 
 
@@ -42,7 +39,9 @@ def main():
             file_path.rindex("_") + 1 : file_path.index(".")
         ].capitalize()
 
-        wiki_name = _handle_wiki_name(languages[iso639_code], file_path, modifiers)
+        wiki_name = _handle_wiki_name(
+            languages[iso639_code], file_path, modifiers
+        )
 
         row = [
             iso639_code,
@@ -54,7 +53,7 @@ def main():
         ]
         # TSV and README have different first column.
         languages_summary_list.append([file_path] + row)
-        readme_list.append([f"[TSV]({file_path})"] + row)
+        readme_list.append([f"[TSV](tsv/{file_path})"] + row)
 
     # Sort by Wiktionary language name,
     # with phonemic entries before phonetic.
