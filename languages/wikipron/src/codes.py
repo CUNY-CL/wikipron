@@ -38,7 +38,7 @@ README_PATH = "../tsv/README.md"
 LANGUAGES_SUMMARY_PATH = "../languages_summary.tsv"
 LOGGING_PATH = "scraping.log"
 ISO_TSV_PATH = "iso-639-3_20190408.tsv"
-
+SERB_CROAT_PATH = "../tsv/hbs_"
 
 # Grabs title of Wikitionary language page if it has more than 100 entries.
 def _cat_info(cat_title):
