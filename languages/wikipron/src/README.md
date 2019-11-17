@@ -66,11 +66,12 @@ the big scrape finishes. These are the steps to follow should you need
     string) to the date of the original big scrape run - which can be
     found in the messages logged to the console or in `scraping.log`.
 3.  Run [scrape.py](scrape.py).
-4.  If you have not already done so,
-    run [serbo\_croat\_split.py](serbo_croat_split.py)
+4.  If you scraped Serbo-Croatian and have not yet run
+    [serbo\_croat\_split.py](serbo_croat_split.py),
+    then run [serbo\_croat\_split.py](serbo_croat_split.py).
 5.  Run [remove\_duplicates.sh](remove_duplicates.sh).
-6.  Reset [languages.json](languages.json) to its unmodified state.
-    (Using `git checkout` or `git reset`)
+6.  Reset [languages.json](languages.json) to its unmodified state
+    (using `git checkout` or `git reset`).
 7.  Run [generate\_summary.py](generate_summary.py).
 
 Steps 1-3 can be repeated until you have successfully scraped all languages.
