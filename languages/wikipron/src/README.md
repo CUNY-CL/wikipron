@@ -55,7 +55,7 @@ remove the incomplete data scraped from that language,
 and move on to the next language in [languages.json](languages.json). 
 There may therefore be a few languages that you need to run again when 
 the big scrape finishes. These are the steps to follow should you need
- to run the big scrape scripts for a smaller set of languages:
+to run the big scrape scripts for a smaller set of languages:
 
 1.  Modify [languages.json](languages.json) so it only contains
     the languages you want to scrape.
