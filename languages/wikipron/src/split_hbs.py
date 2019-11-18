@@ -11,7 +11,7 @@ def _all_latin(word):
     try:
         word.encode('iso8859_2')
         return True
-    except UnicodeError:
+    except UnicodeEncodeError:
         return False
 
 
@@ -19,7 +19,7 @@ def _all_cyrillic(word):
     try:
         word.encode('iso8859_5')
         return True
-    except UnicodeError:
+    except UnicodeEncodeError:
         return False
 
 
