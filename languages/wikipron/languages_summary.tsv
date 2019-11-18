@@ -56,7 +56,7 @@ fao_phonetic.tsv	fao	Faroese	Faroese	True	Phonetic	1130
 fin_phonemic.tsv	fin	Finnish	Finnish	True	Phonemic	38613
 fin_phonetic.tsv	fin	Finnish	Finnish	True	Phonetic	38578
 fre_phonemic.tsv	fre	French	French	True	Phonemic	53655
-fre_phonetic.tsv	fre	French	French	True	Phonetic	196
+fre_phonetic.tsv	fre	French	French	True	Phonetic	146
 glg_phonemic.tsv	glg	Galician	Galician	True	Phonemic	4645
 glg_phonetic.tsv	glg	Galician	Galician	True	Phonetic	105
 kld_phonemic.tsv	kld	Gamilaraay	Gamilaraay	True	Phonemic	444
@@ -166,7 +166,7 @@ por_po_phonetic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonetic	359
 pan_phonemic.tsv	pan	Panjabi	Punjabi	False	Phonemic	132
 rum_phonemic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonemic	3114
 rum_phonetic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonetic	4300
-rus_phonetic.tsv	rus	Russian	Russian	True	Phonetic	388848
+rus_phonetic.tsv	rus	Russian	Russian	True	Phonetic	384367
 san_phonemic.tsv	san	Sanskrit	Sanskrit	False	Phonemic	4577
 san_phonetic.tsv	san	Sanskrit	Sanskrit	False	Phonetic	383
 srd_phonemic.tsv	srd	Sardinian	Sardinian	True	Phonemic	107
