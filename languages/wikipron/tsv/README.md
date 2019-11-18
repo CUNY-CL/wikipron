@@ -58,7 +58,7 @@
 | [TSV](fin_phonemic.tsv) | fin | Finnish | Finnish | True | Phonemic | 38613 |
 | [TSV](fin_phonetic.tsv) | fin | Finnish | Finnish | True | Phonetic | 38578 |
 | [TSV](fre_phonemic.tsv) | fre | French | French | True | Phonemic | 53655 |
-| [TSV](fre_phonetic.tsv) | fre | French | French | True | Phonetic | 196 |
+| [TSV](fre_phonetic.tsv) | fre | French | French | True | Phonetic | 146 |
 | [TSV](glg_phonemic.tsv) | glg | Galician | Galician | True | Phonemic | 4645 |
 | [TSV](glg_phonetic.tsv) | glg | Galician | Galician | True | Phonetic | 105 |
 | [TSV](kld_phonemic.tsv) | kld | Gamilaraay | Gamilaraay | True | Phonemic | 444 |
@@ -168,7 +168,7 @@
 | [TSV](pan_phonemic.tsv) | pan | Panjabi | Punjabi | False | Phonemic | 132 |
 | [TSV](rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3114 |
 | [TSV](rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4300 |
-| [TSV](rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 388848 |
+| [TSV](rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 384367 |
 | [TSV](san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 4577 |
 | [TSV](san_phonetic.tsv) | san | Sanskrit | Sanskrit | False | Phonetic | 383 |
 | [TSV](srd_phonemic.tsv) | srd | Sardinian | Sardinian | True | Phonemic | 107 |
