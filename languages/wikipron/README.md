@@ -176,8 +176,8 @@
 | [TSV](tsv/sco_phonetic.tsv) | sco | Scots | Scots | True | Phonetic | 420 |
 | [TSV](tsv/gla_phonemic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonemic | 904 |
 | [TSV](tsv/gla_phonetic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonetic | 118 |
-| [TSV](tsv/hbs_cyrillic_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic | 22690 |
-| [TSV](tsv/hbs_latin_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23680 |
+| [TSV](tsv/hbs_cyrl_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic | 22683 |
+| [TSV](tsv/hbs_latn_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23685 |
 | [TSV](tsv/scn_phonemic.tsv) | scn | Sicilian | Sicilian | True | Phonemic | 736 |
 | [TSV](tsv/scn_phonetic.tsv) | scn | Sicilian | Sicilian | True | Phonetic | 141 |
 | [TSV](tsv/sms_phonemic.tsv) | sms | Skolt Sami | Skolt Sami | True | Phonemic | 77 |

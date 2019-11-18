@@ -841,8 +841,8 @@
         "wiktionary_code": "sh",
         "casefold": true,
         "script": {
-            "latin": "Latin",
-            "cyrillic": "Cyrillic"
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
         }
     },
     "shn": {

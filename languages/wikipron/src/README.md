@@ -35,14 +35,14 @@ Steps used to update the dataset
     -   Whether or not to apply case-folding for these new languages needs
         to be manually set by changing the "casefold" value within
         [languages.json](languages.json).
-    -   To find new languages you can run`git diff languages.json` 
+    -   To find new languages you can run `git diff languages.json` 
         or search for `null` values within 
         [languages.json](languages.json).
 2.  Run [scrape.py](scrape.py).
     -   By default `cut_off_date` in `main()` is set using
         `datetime.date.today().isoformat()` but can be set manually 
         using an ISO formatted string (ex. "2019-10-31").
-3.  Run [serbo\_croat\_split.py](serbo_croat_split.py).
+3.  Run [split\_hbs.py](split_hbs.py).
 4.  Run [remove\_duplicates.sh](remove_duplicates.sh).
 5.  Run [generate\_summary.py](generate_summary.py).
 
@@ -67,8 +67,8 @@ to run the big scrape scripts for a smaller set of languages:
     found in the messages logged to the console or in `scraping.log`.
 3.  Run [scrape.py](scrape.py).
 4.  If you scraped Serbo-Croatian and have not yet run
-    [serbo\_croat\_split.py](serbo_croat_split.py),
-    then run [serbo\_croat\_split.py](serbo_croat_split.py).
+    [split\_hbs.py](split_hbs.py),
+    then run [split\_hbs.py](split_hbs.py).
 5.  Run [remove\_duplicates.sh](remove_duplicates.sh).
 6.  Reset [languages.json](languages.json) to its unmodified state
     (using `git checkout` or `git reset`).
