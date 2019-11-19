@@ -839,7 +839,11 @@
         "iso639_name": "Serbo-Croatian",
         "wiktionary_name": "Serbo-Croatian",
         "wiktionary_code": "sh",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
+        }
     },
     "shn": {
         "iso639_name": "Shan",
