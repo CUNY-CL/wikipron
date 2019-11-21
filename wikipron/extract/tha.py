@@ -16,6 +16,6 @@ if typing.TYPE_CHECKING:
 def extract_word_pron_thai(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
-    words = itertools.repeat(config.casefold(word))
+    words = itertools.repeat(word)
     prons = yield_pron(request.html, IPA_XPATH_SELECTOR, config)
     yield from zip(words, prons)
