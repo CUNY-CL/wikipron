@@ -156,6 +156,12 @@ class Config:
 
     def _get_extract_word_pron(self, language: str) -> ExtractFunc:
         try:
-            return EXTRACTION_FUNCTIONS[language]
+            extraction_function = EXTRACTION_FUNCTIONS[language]
         except KeyError:
-            return extract_word_pron_default
+            extraction_function = extract_word_pron_default
+
+        def extract_word_pron_with_casefolding(*args, **kwargs):
+            for word, pron in extraction_function(*args, **kwargs):
+                yield self.casefold(word), pron
+
+        return extract_word_pron_with_casefolding
