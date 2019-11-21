@@ -10,11 +10,11 @@
 | [TSV](tsv/grc_phonemic.tsv) | grc | Ancient Greek (to 1453) | Ancient Greek | True | Phonemic | 68783 |
 | [TSV](tsv/ara_phonemic.tsv) | ara | Arabic | Arabic | False | Phonemic | 5036 |
 | [TSV](tsv/ara_phonetic.tsv) | ara | Arabic | Arabic | False | Phonetic | 112 |
-| [TSV](tsv/arc_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic | False | Phonemic | 2333 |
+| [TSV](tsv/arc_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic | False | Phonemic | 2330 |
 | [TSV](tsv/arm_phonetic.tsv) | arm | Armenian | Armenian | True | Phonetic | 13568 |
-| [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 4387 |
+| [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 4384 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 130 |
-| [TSV](tsv/aze_phonemic.tsv) | aze | Azerbaijani | Azerbaijani | True | Phonemic | 296 |
+| [TSV](tsv/aze_phonemic.tsv) | aze | Azerbaijani | Azerbaijani | True | Phonemic | 293 |
 | [TSV](tsv/aze_phonetic.tsv) | aze | Azerbaijani | Azerbaijani | True | Phonetic | 1985 |
 | [TSV](tsv/ban_phonemic.tsv) | ban | Balinese | Balinese | False | Phonemic | 172 |
 | [TSV](tsv/bak_phonetic.tsv) | bak | Bashkir | Bashkir | True | Phonetic | 1932 |
@@ -81,7 +81,7 @@
 | [TSV](tsv/hin_phonetic.tsv) | hin | Hindi | Hindi | False | Phonetic | 252 |
 | [TSV](tsv/hun_phonetic.tsv) | hun | Hungarian | Hungarian | True | Phonetic | 44670 |
 | [TSV](tsv/hrx_phonemic.tsv) | hrx | Hunsrik | Hunsrik | True | Phonemic | 812 |
-| [TSV](tsv/ice_phonemic.tsv) | ice | Icelandic | Icelandic | True | Phonemic | 9617 |
+| [TSV](tsv/ice_phonemic.tsv) | ice | Icelandic | Icelandic | True | Phonemic | 9614 |
 | [TSV](tsv/ice_phonetic.tsv) | ice | Icelandic | Icelandic | True | Phonetic | 338 |
 | [TSV](tsv/ido_phonemic.tsv) | ido | Ido | Ido | True | Phonemic | 5110 |
 | [TSV](tsv/ind_phonemic.tsv) | ind | Indonesian | Indonesian | True | Phonemic | 1182 |
@@ -160,7 +160,7 @@
 | [TSV](tsv/pms_phonemic.tsv) | pms | Piemontese | Piedmontese | True | Phonemic | 281 |
 | [TSV](tsv/ppl_phonemic.tsv) | ppl | Pipil | Pipil | True | Phonemic | 262 |
 | [TSV](tsv/pjt_phonetic.tsv) | pjt | Pitjantjatjara | Pitjantjatjara | True | Phonetic | 125 |
-| [TSV](tsv/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 118950 |
+| [TSV](tsv/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 118947 |
 | [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 9315 |
 | [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 388 |
 | [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 9539 |
@@ -189,7 +189,7 @@
 | [TSV](tsv/spa_la_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonemic | 38184 |
 | [TSV](tsv/spa_la_phonetic.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonetic | 32666 |
 | [TSV](tsv/srn_phonemic.tsv) | srn | Sranan Tongo | Sranan Tongo | True | Phonemic | 153 |
-| [TSV](tsv/swe_phonemic.tsv) | swe | Swedish | Swedish | True | Phonemic | 2829 |
+| [TSV](tsv/swe_phonemic.tsv) | swe | Swedish | Swedish | True | Phonemic | 2826 |
 | [TSV](tsv/swe_phonetic.tsv) | swe | Swedish | Swedish | True | Phonetic | 149 |
 | [TSV](tsv/syl_phonemic.tsv) | syl | Sylheti | Sylheti | False | Phonemic | 224 |
 | [TSV](tsv/tgl_phonemic.tsv) | tgl | Tagalog | Tagalog | True | Phonemic | 1391 |
