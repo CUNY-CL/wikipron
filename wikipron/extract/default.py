@@ -26,6 +26,6 @@ def _yield_phn(
 def extract_word_pron_default(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
-    words = itertools.repeat(config.casefold(word))
+    words = itertools.repeat(word)
     prons = _yield_phn(request, config)
     yield from zip(words, prons)

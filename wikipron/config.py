@@ -6,6 +6,7 @@ import re
 from typing import Callable, Optional
 
 import iso639
+import segments
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.default import extract_word_pron_default
@@ -116,11 +117,6 @@ class Config:
     def _get_process_pron(
         self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
     ) -> Callable[[Pron], Pron]:
-        # segments v2.1.2 oddly sets a global logging configuration
-        # that interferes with downstream logging.
-        # See: https://github.com/cldf/segments/issues/47
-        import segments
-
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
@@ -160,6 +156,12 @@ class Config:
 
     def _get_extract_word_pron(self, language: str) -> ExtractFunc:
         try:
-            return EXTRACTION_FUNCTIONS[language]
+            extraction_function = EXTRACTION_FUNCTIONS[language]
         except KeyError:
-            return extract_word_pron_default
+            extraction_function = extract_word_pron_default
+
+        def extract_word_pron_with_casefolding(*args, **kwargs):
+            for word, pron in extraction_function(*args, **kwargs):
+                yield self.casefold(word), pron
+
+        return extract_word_pron_with_casefolding

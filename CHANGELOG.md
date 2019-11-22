@@ -13,11 +13,11 @@ Unreleased
 ### Added
 
 -   Handled Latin, for which the actual graphemes cannot be the Wiktionary
-    page titles and have to come from within the page. (\# 92, \# 93)
+    page titles and have to come from within the page. (\#92, \#93)
 -   Handled Thai, whose pronunciations are embedded in HTML tables. (\#90)
 -   Handled Khmer, whose pronunciations are embedded in HTML tables. (\#88)
 -   IPA segmentation using spaces by default, with the `--no-segment` flag to
-    optionally turn it off. (\#69, \#79, \#83, \#89)
+    optionally turn it off. (\#69, \#79, \#83, \#89, \#100)
 -   TSV files for all Wiktionary languages with over 1000 entries (except
     Russian). (\#61)
 -   Resolved Wiktionary language names for languages with at least 100
@@ -25,6 +25,7 @@ Unreleased
 
 ### Changed
 
+-   Factored out casefolding. (\#102)
 -   Generalized word and pronunciation extraction. (\#88)
 
 ### Deprecated
