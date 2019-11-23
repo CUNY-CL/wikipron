@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-# import re
 import os
 import logging
 
@@ -27,15 +26,15 @@ def _split_file(path_prefix, path_affix, data):
     with open(f"{path_prefix}latn_{path_affix}", "w") as latin_file:
         with open(f"{path_prefix}cyrl_{path_affix}", "w") as cyrillic_file:
             for line in data:
-                pron = line.split("\t", 1)[0]
-                if _all_latin(pron):
+                word = line.split("\t", 1)[0]
+                if _all_latin(word):
                     print(line.rstrip(), file=latin_file)
                     continue
-                elif _all_cyrillic(pron):
+                elif _all_cyrillic(word):
                     print(line.rstrip(), file=cyrillic_file)
                     continue
                 logging.info(
-                    '"%s" is neither Latin nor Cyrllic.', pron
+                    '"%s" is neither Latin nor Cyrllic.', word
                 )
 
 
