@@ -19,6 +19,8 @@ def _all_hiragana(word):
     return bool(re.match("^[\u3040-\u309F]+$", word))
 
 
+# Including half-width katakana forms does not catch
+# additional words.
 def _all_katakana(word):
     return bool(re.match("^[\u30A0-\u30FF]+$", word))
 
