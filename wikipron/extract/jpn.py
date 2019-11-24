@@ -79,7 +79,6 @@ _PAIR_CHECK_XPATH_SELECTOR = """
 ]
 """
 
-
 # Check for more than one etymology for the same reason as in lat.py
 # If there is more than one etymology, the headings get shifted down a level.
 _TOC_ETYMOLOGY_XPATH_SELECTOR = """
@@ -122,9 +121,7 @@ def _yield_jpn_word(
     # first hiragana word in each.
     for pair_group in request.html.xpath(pair_check_path):
         try:
-            word_element = pair_group.xpath(
-                word_path
-            )[0]
+            word_element = pair_group.xpath(word_path)[0]
         except IndexError:
             return
         word = word_element.text.rstrip(",(")
@@ -143,7 +140,7 @@ def _yield_jpn_upper_pron(
     pron_path = _PRON_XPATH_SELECTOR.format(
         word_to_work_from=word_target,
         heading=_check_etymologies(request),
-        second_ul="[preceding-sibling::*[1][self::ul]]"
+        second_ul="[preceding-sibling::*[1][self::ul]]",
     )
     try:
         request.html.xpath(pron_path)[0]
@@ -163,7 +160,7 @@ def _yield_jpn_lower_pron(
     pron_path = _PRON_XPATH_SELECTOR.format(
         word_to_work_from=word_target,
         heading=_check_etymologies(request),
-        second_ul=''
+        second_ul="",
     )
     for pron_element in request.html.xpath(pron_path):
         prons = []
@@ -195,12 +192,10 @@ def _combine_word_pron_pairs(
 def extract_word_pron_jpn(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
-    if _check_hiragana(
-        request, _HIRAGANA_WORD_XPATH_SELECTOR
-    ):
+    if _check_hiragana(request, _HIRAGANA_WORD_XPATH_SELECTOR):
         pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
             heading=_check_etymologies(request),
-            word_to_grab=_HIRAGANA_WORD_XPATH_SELECTOR
+            word_to_grab=_HIRAGANA_WORD_XPATH_SELECTOR,
         )
         words = _yield_jpn_word(
             request, pair_check_xpath_selector, _HIRAGANA_WORD_XPATH_SELECTOR
@@ -211,7 +206,7 @@ def extract_word_pron_jpn(
     else:
         pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
             heading=_check_etymologies(request),
-            word_to_grab=_KATAKANA_WORD_XPATH_SELECTOR
+            word_to_grab=_KATAKANA_WORD_XPATH_SELECTOR,
         )
         words = _yield_jpn_word(
             request, pair_check_xpath_selector, _KATAKANA_WORD_XPATH_SELECTOR

@@ -55,7 +55,7 @@ def main():
         os.remove(f"{JPN_PATH}{phonetic_affix}")
     except FileNotFoundError as err:
         logging.info(
-            'No Japanese phonetic TSV: %s', err,
+            "No Japanese phonetic TSV: %s", err,
         )
 
     try:
@@ -64,7 +64,7 @@ def main():
         os.remove(f"{JPN_PATH}{phonemic_affix}")
     except FileNotFoundError as err:
         logging.info(
-            'No Japanese phonemic TSV: %s', err,
+            "No Japanese phonemic TSV: %s", err,
         )
 
 
