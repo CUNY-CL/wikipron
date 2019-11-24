@@ -89,8 +89,10 @@ gle_phonemic.tsv	gle	Irish	Irish	True	Phonemic	6117
 gle_phonetic.tsv	gle	Irish	Irish	True	Phonetic	1646
 ita_phonemic.tsv	ita	Italian	Italian	True	Phonemic	9612
 ita_phonetic.tsv	ita	Italian	Italian	True	Phonetic	5504
-jpn_phonemic.tsv	jpn	Japanese	Japanese	False	Phonemic	135
-jpn_phonetic.tsv	jpn	Japanese	Japanese	False	Phonetic	24746
+jpn_hira_phonemic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonemic	137
+jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	14494
+jpn_kana_phonemic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonemic	1
+jpn_kana_phonetic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic	4549
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	824
 khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	2950
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1010
