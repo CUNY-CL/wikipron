@@ -3,33 +3,31 @@
 Japanese cannot use the default extraction function because Japanese entry page
 titles may contain a mix of three scripts: kanji, hiragana, and katakana.
 The goal of this extraction function is to grab the corresponding hiragana
-form of entries containing kanji and grab entries that are solely katakana.
+form of entries containing kanji and grab entries that are solely katakana
+or hiragana.
 
 Japanese entry pages may differ from one another in a variety of ways and
 on the whole Japanese entry pages appear to be less consistent in their
 underlying HTML than other languages on Wiktionary.
 Entry pages may use inconsistent HTML both within a single page
-and across pages. For example:
-    - In https://en.wiktionary.org/wiki/%E8%84%9A#Japanese the hiragana
-    entry under "Etymology 1" is contained within a <b> element that has
-    the class: "Jpan form-of lang-ja kana-noun-form-of". The <b> elements
-    containing the hirgana under "Etymology 2" lack that class.
-    - In https://en.wiktionary.org/wiki/%E6%9C%AC%E5%91%BD#Japanese each
-    "Pronunciation" section is numbered and given a numbered "id":
-    <span class="mw-headline" id="Pronunciation_1">Pronunciation 1</span>
-    while in https://en.wiktionary.org/wiki/%E3%81%82%E3%81%84#Japanese the
-    first "Pronunciation" section and its "id" are not numbered,
-    but the second is.
+and across pages.
 
 This extraction function attempts to grab data from as many entries
 as possible, but may not always grab all potential data on a given entry page.
-It works by first checking if the page contains hiragana. If it does, it will
-grab the first hiragana word and whatever pronunciations are connected to that
-hiragana word. If we can't find hiragana, we grab the "headword" and its
-connected prons. The assumption is that no kanji is listed without 
-corresponding hiragana and thus we shouldn't ever pick up any kanji
-if we can't find hiragana.
+To reduce the complexity of scraping the sometimes widely different Japanese
+entry pages, this extraction function attempts to target "pairs" of words
+and pronunciations. It thus only grabs a word if it can find a "local"
+pronunciation entry on the page, and only grabs a pronunciation if it can
+find a "local" word on the page.
 
+The reason for not indiscriminately scraping each entry page for words or
+pronunciations that share a class is because of pages like:
+https://en.wiktionary.org/wiki/%E8%84%9A#Japanese
+https://en.wiktionary.org/wiki/%E5%B9%B3%E5%9C%B0#Japanese
+Where not all "Etymologies" contain pronunciations and not all "Etymologies"
+(as in the first link) are listed as a missing or incomplete. Scraping
+indiscriminately may lead to matching words and pronunciations that are not
+meant to be together.
 """
 
 import itertools
@@ -47,24 +45,28 @@ if typing.TYPE_CHECKING:
 _HIRAGANA_WORD_XPATH_SELECTOR = """
 //b[contains(@class, "Jpan form-of lang-ja kana")]
 """
+
+# Will also catch some purely hiragana entries and
+# hiragana entries that do not use the above HTML despite
+# being in the same position as them on the page.
 _KATAKANA_WORD_XPATH_SELECTOR = """
 //strong[@class = "Jpan headword" and @lang = "ja"]
 """
 
+# Works upward from the word to its pronunciation
 _PRON_XPATH_SELECTOR = """
 {word_to_work_from}/..
         /preceding-sibling::*[1][self::{heading}]
             /preceding-sibling::*[1][self::ul]
-                {single_pron}
-            
-
+                {second_ul}
 """
 
-# Assume nothing comes between Pronunciation and word heading
-# Assume never more than 2 prons.
-# Table may be in the way, just skip that for now.
+# Assumes never more than two <ul>'s containing IPA pronunciations.
+# There may be an intervening <table>, <div>, or <h4>
+# between the "Pronunciation" heading and the word.
+# The selector as written does not handle skipping those.
 _PAIR_CHECK_XPATH_SELECTOR = """
-{script_to_grab}[
+{word_to_grab}[
     ..
         /preceding-sibling::*[1][self::{heading}]
             /preceding-sibling::*[1][self::ul][
@@ -89,25 +91,33 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 """
 
 
-# Confirms that the page has a pron and a hiragana form.
-def _check_hiragana_pron_pair(request, pair_path, hiragana_path):
-    try:
-        # Check if hiragana entry on page
-        request.html.xpath(hiragana_path)[0]
-        return True
-    except IndexError:
-        return False
-
-
 # Some pages may not have etymology section.
-def _check_etymologies(request):
+def _check_etymologies(request: requests.Response):
     count = 0
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
         count += 1
     return "h4" if count > 1 else "h3"
 
 
-def _yield_jpn_word(request, pair_check_path, word_path):
+# Check if hiragana entry on page
+def _check_hiragana(request: requests.Response, hiragana_path: str):
+    try:
+        request.html.xpath(hiragana_path)[0]
+        return True
+    except IndexError:
+        return False
+
+
+# The extraction functions below speak to some of the complexity
+# involved with Japanese. In other languages, on each entry page,
+# we are always mapping prons to a single word. In Japanese an entry page
+# may contain multiple prons that need to be mapped to multiple words.
+# This extraction function avoids some of this complexity by always only
+# taking one word for each word-pron pairing we find on an entry page,
+# but it does this for as many pairings as we can find on the entry page.
+def _yield_jpn_word(
+    request: requests.Response, pair_check_path: str, word_path: str
+) -> "Iterator[Word]":
     # Iterate through the pair groups, grabbing the
     # first hiragana word in each.
     for pair_group in request.html.xpath(pair_check_path):
@@ -116,31 +126,24 @@ def _yield_jpn_word(request, pair_check_path, word_path):
                 word_path
             )[0]
         except IndexError:
-            # Should not expect to see this printed.
-            print('INDEX ERROR')
             return
         word = word_element.text.rstrip(",(")
         yield word
 
 
-def _check_multi_ul(request, script):
+# Japanese "Pronunciation" headers are most often sibling to a <ul> containing
+# an IPA transcription. There may also be a <ul> sibling to that <ul> which
+# contains a second IPA transcription. The only way I could work in grabbing
+# the transcriptions in both <ul>'s with my attempt to connect words and prons
+# "locally" - by moving stepwise from the word to the pron - was to update
+# _PRON_XPATH_SELECTOR with the second <ul> and run a separate request.
+def _yield_jpn_upper_pron(
+    request: requests.Response, config: "Config", word_target: str
+) -> "Iterator[Pron]":
     pron_path = _PRON_XPATH_SELECTOR.format(
-        word_to_work_from=script,
+        word_to_work_from=word_target,
         heading=_check_etymologies(request),
-        single_pron="[preceding-sibling::*[1][self::ul]]"
-    )
-    try:
-        request.html.xpath(pron_path)[0]
-        return True
-    except IndexError:
-        return False
-
-
-def _yield_jpn_upper_pron(request, config, script):
-    pron_path = _PRON_XPATH_SELECTOR.format(
-        word_to_work_from=script,
-        heading=_check_etymologies(request),
-        single_pron="[preceding-sibling::*[1][self::ul]]"
+        second_ul="[preceding-sibling::*[1][self::ul]]"
     )
     try:
         request.html.xpath(pron_path)[0]
@@ -154,26 +157,33 @@ def _yield_jpn_upper_pron(request, config, script):
         yield prons
 
 
-def _yield_jpn_lower_pron(request, config, script):
+def _yield_jpn_lower_pron(
+    request: requests.Response, config: "Config", word_target: str
+) -> "Iterator[Pron]":
     pron_path = _PRON_XPATH_SELECTOR.format(
-        word_to_work_from=script,
+        word_to_work_from=word_target,
         heading=_check_etymologies(request),
-        single_pron=''
+        second_ul=''
     )
-
     for pron_element in request.html.xpath(pron_path):
         prons = []
         for pron in yield_pron(pron_element, IPA_XPATH_SELECTOR, config):
             prons.append(pron)
-        upper_prons = _yield_jpn_upper_pron(request, config, script)
+        upper_prons = _yield_jpn_upper_pron(request, config, word_target)
         try:
             prons += next(upper_prons)
         except StopIteration:
             pass
+        # Yielding here because we don't want to collect all pronunciation
+        # entries on a page at the same time. Doing so would make it difficult
+        # to connect words to their prons appropriately. We only want to grab
+        # the prons that are linked to the word we have scraped.
         yield prons
 
 
-def _combine_word_pron_pairs(words, prons):
+def _combine_word_pron_pairs(
+    words: "Iterator[Word]", prons: "Iterator[Pron]"
+) -> "Iterator[WordPronPair]":
     for word in words:
         try:
             associated_prons = next(prons)
@@ -185,28 +195,29 @@ def _combine_word_pron_pairs(words, prons):
 def extract_word_pron_jpn(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
-    pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
-        heading=_check_etymologies(request),
-        script_to_grab=_HIRAGANA_WORD_XPATH_SELECTOR
-    )
-    # print('HEADWORD', word)
-    if _check_hiragana_pron_pair(
-        request, pair_check_xpath_selector, _HIRAGANA_WORD_XPATH_SELECTOR
+    if _check_hiragana(
+        request, _HIRAGANA_WORD_XPATH_SELECTOR
     ):
+        pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
+            heading=_check_etymologies(request),
+            word_to_grab=_HIRAGANA_WORD_XPATH_SELECTOR
+        )
         words = _yield_jpn_word(
             request, pair_check_xpath_selector, _HIRAGANA_WORD_XPATH_SELECTOR
         )
-
-        prons = _yield_jpn_lower_pron(request, config, _HIRAGANA_WORD_XPATH_SELECTOR)
+        prons = _yield_jpn_lower_pron(
+            request, config, _HIRAGANA_WORD_XPATH_SELECTOR
+        )
     else:
         pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
             heading=_check_etymologies(request),
-            script_to_grab=_KATAKANA_WORD_XPATH_SELECTOR
+            word_to_grab=_KATAKANA_WORD_XPATH_SELECTOR
         )
         words = _yield_jpn_word(
             request, pair_check_xpath_selector, _KATAKANA_WORD_XPATH_SELECTOR
         )
-
-        prons = _yield_jpn_lower_pron(request, config, _KATAKANA_WORD_XPATH_SELECTOR)
-    for vals in _combine_word_pron_pairs(words, prons):
-        yield vals
+        prons = _yield_jpn_lower_pron(
+            request, config, _KATAKANA_WORD_XPATH_SELECTOR
+        )
+    for pairs in _combine_word_pron_pairs(words, prons):
+        yield pairs
