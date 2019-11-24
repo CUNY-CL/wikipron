@@ -80,6 +80,16 @@ def test_special_languages_covered_by_smoke_test():
 def test__skip_word(word, expected):
     assert _skip_word(word) == expected
 
+@pytest.mark.parametrize(
+    "pron, expected",
+    [
+        ("əbzɝvɚ", True),
+        # GH-105: Dashed prons are skipped.
+        ("ɑb-", False)
+    ]
+)
+def test__skip_pron(pron, expected):
+    assert skip_pron(pron) == expected
 
 @pytest.mark.parametrize(
     "date_from_word, cut_off_date, expected",
