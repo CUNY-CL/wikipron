@@ -28,7 +28,7 @@ def _skip_word(word: str) -> bool:
 
 
 def _skip_pron(pron: str) -> bool:
-    return not "-" in pron
+    return "-" not in pron
 
 
 def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
