@@ -13,10 +13,10 @@ if typing.TYPE_CHECKING:
 
 def _skip_pron(pron: str) -> bool:
     if "-" in pron:
-        return False
+        return True
     if " " in pron:
-        return False
-    return True
+        return True
+    return False
 
 
 def yield_pron(

@@ -25,9 +25,9 @@ def test_extraction_functions_have_the_same_signature(func):
 @pytest.mark.parametrize(
     "pron, expected",
     [
-        ("əbzɝvɚ", True),
+        ("əbzɝvɚ", False),
         # GH-105: Dashed prons are skipped.
-        ("ɑb-", False),
+        ("ɑb-", True),
     ],
 )
 def test__skip_pron(pron, expected):
