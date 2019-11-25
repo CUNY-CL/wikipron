@@ -27,7 +27,6 @@ def _skip_word(word: str) -> bool:
     return False
 
 
-
 def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word > cut_off_date
 
