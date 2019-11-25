@@ -11,6 +11,14 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Pron
 
 
+def _skip_pron(pron: str) -> bool:
+    if "-" in pron:
+        return True
+    if " " in pron:
+        return True
+    return False
+
+
 def yield_pron(
     request_html: requests_html.Element,
     ipa_xpath_selector: str,
@@ -23,8 +31,7 @@ def yield_pron(
         pron = m.group(1)
         # Removes parens around various segments.
         pron = pron.replace("(", "").replace(")", "")
-        # Skips examples with a space in the pron.
-        if " " in pron:
+        if _skip_pron(pron):
             continue
         pron = config.process_pron(pron)
         if pron:
