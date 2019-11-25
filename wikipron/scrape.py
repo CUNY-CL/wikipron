@@ -27,9 +27,6 @@ def _skip_word(word: str) -> bool:
     return False
 
 
-def _skip_pron(pron: str) -> bool:
-    return "-" not in pron
-
 
 def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word > cut_off_date
@@ -44,8 +41,6 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
         for word, pron in config.extract_word_pron(word, request, config):
-            if _skip_pron(pron):
-                continue
             yield word, pron
 
 
