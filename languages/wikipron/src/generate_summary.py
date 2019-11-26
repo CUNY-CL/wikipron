@@ -15,7 +15,7 @@ def _handle_wiki_name(language, file_path, modifiers):
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:
-            key = file_path[file_path.index("_") + 1 : file_path.rindex("_")]
+            key = file_path[file_path.index("_") + 1: file_path.rindex("_")]
             values = language[modifier][key]
             if "|" in values:
                 values = values.replace(" |", ",")
@@ -38,7 +38,7 @@ def main():
             num_of_entries = sum(1 for line in tsv)
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
-            file_path.rindex("_") + 1 : file_path.index(".")
+            file_path.rindex("_") + 1: file_path.index(".")
         ].capitalize()
 
         wiki_name = _handle_wiki_name(
