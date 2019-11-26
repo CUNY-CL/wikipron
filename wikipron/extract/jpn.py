@@ -130,10 +130,12 @@ def _yield_jpn_word(
 
 # Japanese "Pronunciation" headers are most often sibling to a <ul> containing
 # an IPA transcription. There may also be a <ul> sibling to that <ul> which
-# contains a second IPA transcription. The only way I could work in grabbing
-# the transcriptions in both <ul>'s with my attempt to connect words and prons
-# "locally" - by moving stepwise from the word to the pron - was to update
-# _PRON_XPATH_SELECTOR with the second <ul> and run a separate request.
+# contains a second IPA transcription (though second transcriptions are not
+# always contained within a separate <ul>). The only way I could work in
+# grabbing the transcriptions in both <ul>'s with my attempt to connect
+# words and prons "locally" - by moving stepwise from the word to the pron -
+# was to update _PRON_XPATH_SELECTOR with the second <ul> and
+# run a separate request.
 def _yield_jpn_upper_pron(
     request: requests.Response, config: "Config", word_target: str
 ) -> "Iterator[Pron]":
@@ -168,6 +170,15 @@ def _yield_jpn_lower_pron(
             prons.append(pron)
         upper_prons = _yield_jpn_upper_pron(request, config, word_target)
         try:
+            # Possible, though seemingly unlikely, bug here. This could
+            # potentially match a second "upper" pronunciation (most likely
+            # in a second Etymology) and append it to the "lower"
+            # pronunciations yielded from the first Etymology. Or append
+            # the "upper" pronunciation of the first Etymology to the
+            # "lower" pronunciation of the second Etymology, etc.
+            # Fortunately entries with multiple <ul>'s and multiple
+            # etymologies are exceedingly rare. I'm not sure I've seen
+            # any.
             prons += next(upper_prons)
         except StopIteration:
             pass

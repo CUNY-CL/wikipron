@@ -9,7 +9,7 @@ from codes import JPN_PATH
 
 # Filters out kanji that may have snuck in
 # as a result of inconsistencies in Wiktionary
-# hiragana html elements.
+# hiragana HTML elements.
 def _contains_kanji(word):
     reg = r"[\u3400-\u4DB5\u4E00-\u9FCB\uF900-\uFA6A]"
     return bool(re.search(reg, word))
@@ -26,23 +26,35 @@ def _all_katakana(word):
 
 
 def _split_file(path_prefix, path_affix, data):
-    with open(f"{path_prefix}hira_{path_affix}", "w") as hira_file:
-        with open(f"{path_prefix}kana_{path_affix}", "w") as kana_file:
+    hiragana_count = 0
+    katakana_count = 0
+    hira_path = f"{path_prefix}hira_{path_affix}"
+    kana_path = f"{path_prefix}kana_{path_affix}"
+    with open(hira_path, "w") as hira_file:
+        with open(kana_path, "w") as kana_file:
             for line in data:
                 word = line.split("\t", 1)[0].rstrip()
                 if _contains_kanji(word):
                     continue
                 if _all_hiragana(word):
                     print(line.rstrip(), file=hira_file)
+                    hiragana_count += 1
                     continue
                 elif _all_katakana(word):
                     print(line.rstrip(), file=kana_file)
+                    katakana_count += 1
                     continue
                 # Terms with a mixture of hiragana and katakana, for example:
                 # https://en.wiktionary.org/wiki/%E3%83%A2%E3%83%92%E3%82%AB%E3%83%B3%E5%88%88%E3%82%8A
                 logging.info(
                     '"%s" is neither purely Hiragana nor Katakana.', word
                 )
+    if hiragana_count < 100:
+        os.remove(hira_path)
+        logging.info('"%s" contains less than 100 entires.', hira_path)
+    if katakana_count < 100:
+        os.remove(kana_path)
+        logging.info('"%s" contains less than 100 entires.', kana_path)
 
 
 def main():
