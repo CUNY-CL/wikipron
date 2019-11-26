@@ -34,7 +34,8 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("khm", "Khmer", {}),
     SmokeTestLanguage("tha", "Thai", {}),
     SmokeTestLanguage("lat", "Latin", {}),
-    SmokeTestLanguage("jpn", "Japanese", {}),
+    # Japanese data is mostly phonetic transcription.
+    SmokeTestLanguage("jpn", "Japanese", {"phonetic": True}),
 ]
 
 
