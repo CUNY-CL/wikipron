@@ -1009,7 +1009,11 @@
         "iso639_name": "Welsh",
         "wiktionary_name": "Welsh",
         "wiktionary_code": "cy",
-        "casefold": true
+        "casefold": true,
+        "dialect": {
+            "nw": "North Wales",
+            "sw": "South Wales"
+        }
     },
     "fry": {
         "iso639_name": "Western Frisian",

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import json
 import csv
@@ -62,7 +64,9 @@ def main():
 
     # Write the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w") as source:
-        tsv_writer_object = csv.writer(source, delimiter="\t")
+        tsv_writer_object = csv.writer(
+            source, delimiter="\t", lineterminator="\n"
+        )
         tsv_writer_object.writerows(languages_summary_list)
     # Write the README.
     with open(README_PATH, "w") as source:
