@@ -212,8 +212,10 @@
 | [TSV](tsv/vol_phonemic.tsv) | vol | Volapük | Volapük | True | Phonemic | 348 |
 | [TSV](tsv/vol_phonetic.tsv) | vol | Volapük | Volapük | True | Phonetic | 562 |
 | [TSV](tsv/wau_phonemic.tsv) | wau | Waurá | Wauja | True | Phonemic | 146 |
-| [TSV](tsv/wel_phonemic.tsv) | wel | Welsh | Welsh | True | Phonemic | 7167 |
-| [TSV](tsv/wel_phonetic.tsv) | wel | Welsh | Welsh | True | Phonetic | 361 |
+| [TSV](tsv/wel_nw_phonemic.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonemic | 4271 |
+| [TSV](tsv/wel_nw_phonetic.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonetic | 216 |
+| [TSV](tsv/wel_sw_phonemic.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonemic | 5203 |
+| [TSV](tsv/wel_sw_phonetic.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonetic | 246 |
 | [TSV](tsv/fry_phonemic.tsv) | fry | Western Frisian | West Frisian | True | Phonemic | 720 |
 | [TSV](tsv/apw_phonetic.tsv) | apw | Western Apache | Western Apache | True | Phonetic | 147 |
 | [TSV](tsv/mww_phonemic.tsv) | mww | Hmong Daw | White Hmong | True | Phonemic | 214 |
