@@ -2,7 +2,7 @@ import os
 import setuptools
 
 
-_VERSION = "0.1.1"
+_VERSION = "1.0.0"
 
 if getattr(setuptools, "__version__", "0") < "39":
     # v36.4.0+ needed to automatically include README.md in packaging
