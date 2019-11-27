@@ -83,6 +83,10 @@ for word, pron in wikipron.scrape(config):
     ...
 ```
 
+## Data
+
+# TODO: Describe the contents of `languages/`.
+
 ## Development
 
 The source code of WikiPron is hosted on GitHub at

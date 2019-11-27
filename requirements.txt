@@ -1,3 +1,4 @@
+# TODO: Update dependency versions.
 flake8==3.7.8
 iso639==0.1.4
 pytest==5.0.1
