@@ -32,11 +32,13 @@ Unreleased
 
 ### Removed
 
+-   Removed the timeout in smoke tests. (\#107)
 -   Removed the `output` option. (\#82)
 -   Removed the `require_dialect_label` option. (\#77)
 
 ### Fixed
 
+-   Skipped pronunciations with a dash. (\#106)
 -   Skipped empty pronunciations in scraping. (\#59)
 -   Updated the `<li>` XPath selector for an optional layer of `<span>` to cover
     previously unhandled languages (e.g., Korean). (\#50)
