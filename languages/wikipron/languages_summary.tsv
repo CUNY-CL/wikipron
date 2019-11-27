@@ -45,10 +45,10 @@ dut_phonemic.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic	22175
 dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	635
 dzo_phonemic.tsv	dzo	Dzongkha	Dzongkha	False	Phonemic	190
 egy_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	False	Phonemic	2684
-eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	52490
+eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	52425
 eng_uk_phonetic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonetic	1090
-eng_us_phonemic.tsv	eng	English	English (US, General American)	True	Phonemic	48704
-eng_us_phonetic.tsv	eng	English	English (US, General American)	True	Phonetic	1435
+eng_us_phonemic.tsv	eng	English	English (US, General American)	True	Phonemic	48556
+eng_us_phonetic.tsv	eng	English	English (US, General American)	True	Phonetic	1411
 epo_phonemic.tsv	epo	Esperanto	Esperanto	True	Phonemic	14086
 est_phonemic.tsv	est	Estonian	Estonian	True	Phonemic	283
 fao_phonemic.tsv	fao	Faroese	Faroese	True	Phonemic	1639
@@ -89,18 +89,16 @@ gle_phonemic.tsv	gle	Irish	Irish	True	Phonemic	6117
 gle_phonetic.tsv	gle	Irish	Irish	True	Phonetic	1646
 ita_phonemic.tsv	ita	Italian	Italian	True	Phonemic	9612
 ita_phonetic.tsv	ita	Italian	Italian	True	Phonetic	5504
-jpn_hira_phonemic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonemic	137
-jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	14494
-jpn_kana_phonemic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonemic	1
-jpn_kana_phonetic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic	4549
+jpn_phonemic.tsv	jpn	Japanese	Japanese	False	Phonemic	135
+jpn_phonetic.tsv	jpn	Japanese	Japanese	False	Phonetic	24746
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	824
 khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	2950
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1010
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	12623
 kur_phonemic.tsv	kur	Kurdish	Kurdish	True	Phonemic	1152
 lao_phonemic.tsv	lao	Lao	Lao	False	Phonemic	299
-lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	34077
-lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	33468
+lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	34017
+lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	33417
 lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1269
 ayl_phonemic.tsv	ayl	Libyan Arabic	Libyan Arabic	False	Phonemic	154
 lij_phonemic.tsv	lij	Ligurian	Ligurian	True	Phonemic	753
@@ -212,8 +210,10 @@ vie_phonetic.tsv	vie	Vietnamese	Vietnamese	True	Phonetic	10975
 vol_phonemic.tsv	vol	Volapük	Volapük	True	Phonemic	348
 vol_phonetic.tsv	vol	Volapük	Volapük	True	Phonetic	562
 wau_phonemic.tsv	wau	Waurá	Wauja	True	Phonemic	146
-wel_phonemic.tsv	wel	Welsh	Welsh	True	Phonemic	7167
-wel_phonetic.tsv	wel	Welsh	Welsh	True	Phonetic	361
+wel_nw_phonemic.tsv	wel	Welsh	Welsh (North Wales)	True	Phonemic	4271
+wel_nw_phonetic.tsv	wel	Welsh	Welsh (North Wales)	True	Phonetic	216
+wel_sw_phonemic.tsv	wel	Welsh	Welsh (South Wales)	True	Phonemic	5203
+wel_sw_phonetic.tsv	wel	Welsh	Welsh (South Wales)	True	Phonetic	246
 fry_phonemic.tsv	fry	Western Frisian	West Frisian	True	Phonemic	720
 apw_phonetic.tsv	apw	Western Apache	Western Apache	True	Phonetic	147
 mww_phonemic.tsv	mww	Hmong Daw	White Hmong	True	Phonemic	214

@@ -47,10 +47,10 @@
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 635 |
 | [TSV](tsv/dzo_phonemic.tsv) | dzo | Dzongkha | Dzongkha | False | Phonemic | 190 |
 | [TSV](tsv/egy_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | False | Phonemic | 2684 |
-| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 52490 |
+| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 52425 |
 | [TSV](tsv/eng_uk_phonetic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonetic | 1090 |
-| [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 48704 |
-| [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1435 |
+| [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 48556 |
+| [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1411 |
 | [TSV](tsv/epo_phonemic.tsv) | epo | Esperanto | Esperanto | True | Phonemic | 14086 |
 | [TSV](tsv/est_phonemic.tsv) | est | Estonian | Estonian | True | Phonemic | 283 |
 | [TSV](tsv/fao_phonemic.tsv) | fao | Faroese | Faroese | True | Phonemic | 1639 |
@@ -101,8 +101,8 @@
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12623 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1152 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 299 |
-| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 34077 |
-| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 33468 |
+| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 34017 |
+| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 33417 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1269 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
@@ -214,8 +214,10 @@
 | [TSV](tsv/vol_phonemic.tsv) | vol | Volapük | Volapük | True | Phonemic | 348 |
 | [TSV](tsv/vol_phonetic.tsv) | vol | Volapük | Volapük | True | Phonetic | 562 |
 | [TSV](tsv/wau_phonemic.tsv) | wau | Waurá | Wauja | True | Phonemic | 146 |
-| [TSV](tsv/wel_phonemic.tsv) | wel | Welsh | Welsh | True | Phonemic | 7167 |
-| [TSV](tsv/wel_phonetic.tsv) | wel | Welsh | Welsh | True | Phonetic | 361 |
+| [TSV](tsv/wel_nw_phonemic.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonemic | 4271 |
+| [TSV](tsv/wel_nw_phonetic.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonetic | 216 |
+| [TSV](tsv/wel_sw_phonemic.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonemic | 5203 |
+| [TSV](tsv/wel_sw_phonetic.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonetic | 246 |
 | [TSV](tsv/fry_phonemic.tsv) | fry | Western Frisian | West Frisian | True | Phonemic | 720 |
 | [TSV](tsv/apw_phonetic.tsv) | apw | Western Apache | Western Apache | True | Phonetic | 147 |
 | [TSV](tsv/mww_phonemic.tsv) | mww | Hmong Daw | White Hmong | True | Phonemic | 214 |

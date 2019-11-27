@@ -8,7 +8,7 @@ from codes import HBS_PATH
 
 def _all_latin(word):
     try:
-        word.encode('iso8859_2')
+        word.encode("iso8859_2")
         return True
     except UnicodeEncodeError:
         return False
@@ -16,7 +16,7 @@ def _all_latin(word):
 
 def _all_cyrillic(word):
     try:
-        word.encode('iso8859_5')
+        word.encode("iso8859_5")
         return True
     except UnicodeEncodeError:
         return False
@@ -33,9 +33,7 @@ def _split_file(path_prefix, path_affix, data):
                 elif _all_cyrillic(word):
                     print(line.rstrip(), file=cyrillic_file)
                     continue
-                logging.info(
-                    '"%s" is neither Latin nor Cyrllic.', word
-                )
+                logging.info('"%s" is neither Latin nor Cyrllic.', word)
 
 
 # There is currently no hbs_phonetic.tsv
@@ -48,18 +46,14 @@ def main():
             _split_file(HBS_PATH, phonetic_affix, serb_croat_data)
         os.remove(f"{HBS_PATH}{phonetic_affix}")
     except FileNotFoundError as err:
-        logging.info(
-            'No Serbo-Croatian phonetic TSV: %s', err,
-        )
+        logging.info("No Serbo-Croatian phonetic TSV: %s", err)
 
     try:
         with open(f"{HBS_PATH}{phonemic_affix}") as serb_croat_data:
             _split_file(HBS_PATH, phonemic_affix, serb_croat_data)
         os.remove(f"{HBS_PATH}{phonemic_affix}")
     except FileNotFoundError as err:
-        logging.info(
-            'No Serbo-Croatian phonemic TSV: %s', err,
-        )
+        logging.info("No Serbo-Croatian phonemic TSV: %s", err)
 
 
 if __name__ == "__main__":
