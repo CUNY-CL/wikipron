@@ -11,6 +11,16 @@ Unreleased
 ----------
 
 ### Added
+### Changed
+### Deprecated
+### Removed
+### Fixed
+### Security
+
+[1.0.0] - 2019-??-??
+----------------------
+
+### Added
 
 -   Handled Latin, for which the actual graphemes cannot be the Wiktionary
     page titles and have to come from within the page. (\#92, \#93)
@@ -27,8 +37,6 @@ Unreleased
 
 -   Factored out casefolding. (\#102)
 -   Generalized word and pronunciation extraction. (\#88)
-
-### Deprecated
 
 ### Removed
 
