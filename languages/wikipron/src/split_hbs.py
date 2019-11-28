@@ -23,17 +23,29 @@ def _all_cyrillic(word):
 
 
 def _split_file(path_prefix, path_affix, data):
-    with open(f"{path_prefix}latn_{path_affix}", "w") as latin_file:
-        with open(f"{path_prefix}cyrl_{path_affix}", "w") as cyrillic_file:
+    latin_count = 0
+    cyrillic_count = 0
+    latin_path = f"{path_prefix}latn_{path_affix}"
+    cyrillic_path = f"{path_prefix}cyrl_{path_affix}"
+    with open(latin_path, "w") as latin_file:
+        with open(cyrillic_path, "w") as cyrillic_file:
             for line in data:
                 word = line.split("\t", 1)[0]
                 if _all_latin(word):
                     print(line.rstrip(), file=latin_file)
+                    latin_count += 1
                     continue
                 elif _all_cyrillic(word):
                     print(line.rstrip(), file=cyrillic_file)
+                    cyrillic_count += 1
                     continue
                 logging.info('"%s" is neither Latin nor Cyrllic.', word)
+    if latin_count < 100:
+        os.remove(latin_path)
+        logging.info('"%s" contains less than 100 entires.', latin_path)
+    if cyrillic_count < 100:
+        os.remove(cyrillic_path)
+        logging.info('"%s" contains less than 100 entires.', cyrillic_path)
 
 
 # There is currently no hbs_phonetic.tsv

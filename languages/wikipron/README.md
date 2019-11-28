@@ -93,7 +93,6 @@
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 5504 |
 | [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 137 |
 | [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14494 |
-| [TSV](tsv/jpn_kana_phonemic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonemic | 1 |
 | [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4549 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 824 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 2950 |

@@ -25,7 +25,7 @@ pronunciations that share a class is because of pages like:
 https://en.wiktionary.org/wiki/%E8%84%9A#Japanese
 https://en.wiktionary.org/wiki/%E5%B9%B3%E5%9C%B0#Japanese
 Where not all "Etymologies" contain pronunciations and not all "Etymologies"
-(as in the first link) are listed as a missing or incomplete. Scraping
+(as in the first link) are listed as missing or incomplete. Scraping
 indiscriminately may lead to matching words and pronunciations that are not
 meant to be together.
 """
@@ -92,9 +92,7 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 
 # Some pages may not have etymology section.
 def _check_etymologies(request: requests.Response):
-    count = 0
-    for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
-        count += 1
+    count = len(request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR))
     return "h4" if count > 1 else "h3"
 
 
@@ -137,11 +135,12 @@ def _yield_jpn_word(
 # was to update _PRON_XPATH_SELECTOR with the second <ul> and
 # run a separate request.
 def _yield_jpn_upper_pron(
-    request: requests.Response, config: "Config", word_target: str
+    request: requests.Response, config: "Config",
+    word_target: str, heading: str
 ) -> "Iterator[Pron]":
     pron_path = _PRON_XPATH_SELECTOR.format(
         word_to_work_from=word_target,
-        heading=_check_etymologies(request),
+        heading=heading,
         second_ul="[preceding-sibling::*[1][self::ul]]",
     )
     try:
@@ -150,37 +149,36 @@ def _yield_jpn_upper_pron(
         return
 
     for upper_pron_ele in request.html.xpath(pron_path):
-        prons = []
-        for pron in yield_pron(upper_pron_ele, IPA_XPATH_SELECTOR, config):
-            prons.append(pron)
+        prons = list(yield_pron(upper_pron_ele, IPA_XPATH_SELECTOR, config))
         yield prons
 
 
 def _yield_jpn_lower_pron(
-    request: requests.Response, config: "Config", word_target: str
+    request: requests.Response, config: "Config",
+    word_target: str, heading: str
 ) -> "Iterator[Pron]":
     pron_path = _PRON_XPATH_SELECTOR.format(
         word_to_work_from=word_target,
-        heading=_check_etymologies(request),
+        heading=heading,
         second_ul="",
     )
     for pron_element in request.html.xpath(pron_path):
-        prons = []
-        for pron in yield_pron(pron_element, IPA_XPATH_SELECTOR, config):
-            prons.append(pron)
-        upper_prons = _yield_jpn_upper_pron(request, config, word_target)
+        prons = list(yield_pron(pron_element, IPA_XPATH_SELECTOR, config))
+        upper_prons = _yield_jpn_upper_pron(
+            request, config, word_target, heading
+        )
+        # There is a possible, though seemingly unlikely, undesirable side
+        # effect of this approach. This could potentially match a second
+        # "upper" pronunciation (most likely in a second Etymology) and
+        # append it to the "lower" pronunciations yielded from the first
+        # Etymology. Or append the "upper" pronunciation of the first
+        # Etymology to the "lower" pronunciation of the second Etymology, etc.
+        # Fortunately entries with multiple <ul>'s and multiple
+        # etymologies are exceedingly rare. I'm not sure I've seen any.
         try:
-            # Possible, though seemingly unlikely, bug here. This could
-            # potentially match a second "upper" pronunciation (most likely
-            # in a second Etymology) and append it to the "lower"
-            # pronunciations yielded from the first Etymology. Or append
-            # the "upper" pronunciation of the first Etymology to the
-            # "lower" pronunciation of the second Etymology, etc.
-            # Fortunately entries with multiple <ul>'s and multiple
-            # etymologies are exceedingly rare. I'm not sure I've seen
-            # any.
             prons += next(upper_prons)
         except StopIteration:
+            # Did not find a second <ul>
             pass
         # Yielding here because we don't want to collect all pronunciation
         # entries on a page at the same time. Doing so would make it difficult
@@ -195,35 +193,38 @@ def _combine_word_pron_pairs(
     for word in words:
         try:
             associated_prons = next(prons)
+        # With the selectors we use, we should never hit this except block.
+        # A StopIteration error could only occur if our selectors told us
+        # there was a word-pron pair on the page and we grabbed
+        # the word associated with the pron, but could not grab the pron
+        # associated with the word. This is possible if an entry page
+        # has a "Pronunciation" heading that is sister to a <ul>
+        # containing no span[@class = "IPA"] elements. This try-except
+        # block therefore handles a theoretically possible error that
+        # would stop the scrape.
         except StopIteration:
-            pass
-        yield from (zip(itertools.repeat(word), associated_prons))
+            continue
+        yield from zip(itertools.repeat(word), associated_prons)
 
 
 def extract_word_pron_jpn(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
     if _check_hiragana(request, _HIRAGANA_WORD_XPATH_SELECTOR):
-        pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
-            heading=_check_etymologies(request),
-            word_to_grab=_HIRAGANA_WORD_XPATH_SELECTOR,
-        )
-        words = _yield_jpn_word(
-            request, pair_check_xpath_selector, _HIRAGANA_WORD_XPATH_SELECTOR
-        )
-        prons = _yield_jpn_lower_pron(
-            request, config, _HIRAGANA_WORD_XPATH_SELECTOR
-        )
+        xpath_selector = _HIRAGANA_WORD_XPATH_SELECTOR
     else:
-        pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
-            heading=_check_etymologies(request),
-            word_to_grab=_KATAKANA_WORD_XPATH_SELECTOR,
-        )
-        words = _yield_jpn_word(
-            request, pair_check_xpath_selector, _KATAKANA_WORD_XPATH_SELECTOR
-        )
-        prons = _yield_jpn_lower_pron(
-            request, config, _KATAKANA_WORD_XPATH_SELECTOR
-        )
-    for pairs in _combine_word_pron_pairs(words, prons):
-        yield pairs
+        xpath_selector = _KATAKANA_WORD_XPATH_SELECTOR
+
+    heading = _check_etymologies(request)
+    pair_check_xpath_selector = _PAIR_CHECK_XPATH_SELECTOR.format(
+        heading=heading,
+        word_to_grab=xpath_selector,
+    )
+    words = _yield_jpn_word(
+        request, pair_check_xpath_selector, xpath_selector
+    )
+    prons = _yield_jpn_lower_pron(
+        request, config, xpath_selector, heading
+    )
+    for word, pron in _combine_word_pron_pairs(words, prons):
+        yield word, pron
