@@ -22,7 +22,7 @@ Unreleased
 
 ### Added
 
--   Handled Japanese. (\#109)
+-   Handled Japanese. (\#109, \#114)
 -   Handled Latin, for which the actual graphemes cannot be the Wiktionary
     page titles and have to come from within the page. (\#92, \#93)
 -   Handled Thai, whose pronunciations are embedded in HTML tables. (\#90)
