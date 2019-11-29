@@ -415,7 +415,11 @@
         "iso639_name": "Japanese",
         "wiktionary_name": "Japanese",
         "wiktionary_code": "ja",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "hira": "Hiragana",
+            "kana": "Katakana"
+        }
     },
     "quc": {
         "iso639_name": "K'iche'",
