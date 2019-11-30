@@ -22,9 +22,9 @@ caerwysg	kʰ a ɨ̯ r w ɨ̯ː s k
 carest	kʰ a r ɛ s t
 casgen	kʰ a s k ɛ n
 casglu	kʰ a s k l ɨ
+castanwydd	kʰ a s t a n w ɨ̞ ð
 castanwydden	k a s t a n w ɨ̞ ð a n
 castanwydden	k a s t a n w ɨ̞ ð ɛ n
-castanwydd	kʰ a s t a n w ɨ̞ ð
 castell	kʰ a s t a ɬ
 castell	kʰ a s t ɛ ɬ
 cenedl	kʰ ɛ n ɛ d l̩ˠ
@@ -63,12 +63,12 @@ dysgu	d ə s k ɨ̞
 dysgwr	d ə s k ʊ r
 edn	ɛ d n̩
 eistedd	e i̯ s t ɛ ð
+eistedd	ɪ s t a
+eistedd	ɪ s t ɛ
 eisteddfodau	e i̯ s t ɛ ð v ɔ d a ɨ̯
 eisteddfodau	s t ɛ ð v ɔ d a
 eisteddfodau	s t ɛ ð v ɔ d ɛ
 eisteddle	e i̯ s t ɛ ð l ɛ
-eistedd	ɪ s t a
-eistedd	ɪ s t ɛ
 elltydd	ɛ ɬ t ɨ̞ ð
 enghraifft	ɛ ŋ̊ r a i̯ f t
 enghraifft	ɛ ŋ̊ r ɛ f t
@@ -93,14 +93,14 @@ gostyngaidd	ɡ ɔ s t ə ŋ a i̯ ð
 gwallt	ɡ w aː ɬ t
 gwastraff	ɡ w a s t r a f
 gwellt	ɡ w eː ɬ t
-gwisgo	ɡ w ɪ s k ɔ
 gwisg	ɡ w iː s k
+gwisgo	ɡ w ɪ s k ɔ
 gwyllt	ɡ w ɨː ɬ t
 gwystl	ɡ w ɨ̞ s t l̩ˠ
+heisteddfod	h e i̯ s t ɛ ð v ɔ d
 heisteddfodau	h e i̯ s t ɛ ð v ɔ d a
 heisteddfodau	h e i̯ s t ɛ ð v ɔ d a ɨ̯
 heisteddfodau	h e i̯ s t ɛ ð v ɔ d ɛ
-heisteddfod	h e i̯ s t ɛ ð v ɔ d
 henghraifft	h ɛ ŋ̊ r a i̯ f t
 henghraifft	h ɛ ŋ̊ r ɛ f t
 hoffest	h ɔ f ɛ s t
@@ -115,8 +115,8 @@ lledr	ɬ ɛ d r̩
 lleidr	ɬ e i̯ d r̩
 llestr	ɬ ɛ s t r̩
 lloegr	ɬ ɔ ɨ̯ ɡ r̩
-llosgi	ɬ ɔ s k i
 llosg	ɬ ɔ s k
+llosgi	ɬ ɔ s k i
 llost	ɬ ɔ s t
 llwybr	ɬ ʊ ɨ̯ b r̩
 llyfr	ɬ ɨ̞ v r
@@ -138,8 +138,8 @@ nheigr	n̥ e i̯ ɡ r̩
 ocr	ɔ k r̩
 odl	ɔ d l̩
 pasg	pʰ aː s k
-pedrongl	pʰ ɛ d r ɔ ŋ l̩
 pedr	pʰ ɛ d r̩
+pedrongl	pʰ ɛ d r ɔ ŋ l̩
 pedrsill	pʰ ɛ d r̩ s ɪ ɬ
 phobl	f ɔ b l̩ˠ
 plastig	p lʰ a s t ɪ ɡ
@@ -160,18 +160,18 @@ sgandinafia	s k a n d ɪ n a v j a
 sgarff	s k a r f
 sgert	s k ɛ r t
 sgiwen	s k i u̯ ɛ n
-sgôr	s k oː r
-sgrechian	s ɡ r ɛ χ j a n
 sgrech	s k r eː χ
-sgwâr	s k w aː r
-sgwrsio	s k ʊ r ʃ o
+sgrechian	s ɡ r ɛ χ j a n
 sgwrs	s k ʊ r s
+sgwrsio	s k ʊ r ʃ o
+sgwâr	s k w aː r
+sgôr	s k oː r
 siwgr	ʃ ʊ ɡ r̩
 stafell	s t a v a ɬ
 stafell	s t a v ɛ ɬ
+stopi	s t ɔ p i
 stopiem	s t ɔ p j ɛ m
 stopio	s t ɔ p j ɔ
-stopi	s t ɔ p i
 stori	s t ɔ r i
 stryd	s t r ɨː d
 stŵr	s t uː r
@@ -194,22 +194,22 @@ ysbryd	ə s p r ɨ̞ d
 ysbrydol	ə s p r ə d ɔ l
 ysbrydoli	ə s p r ə d ɔ l i
 ysbyty	ə s p ə t ɨ
+ysgaw	ə s k a u̯
 ysgawen	ə s k a u̯ a n
 ysgawen	ə s k a u̯ ɛ n
-ysgaw	ə s k a u̯
-ysglodyn	ə s k l ɔ d ɨ̞ n
 ysglodyn	s k l ɔ d ɨ̞ n
-ysgrifen	ə s k r ɪ v ɛ n
-ysgrifennu	ə s k r ɪ v ɛ n ɨ
-ysgrifennu	s k r ɪ v ɛ n ɨ
+ysglodyn	ə s k l ɔ d ɨ̞ n
 ysgrifen	s k r ɪ v a n
 ysgrifen	s k r ɪ v ɛ n
+ysgrifen	ə s k r ɪ v ɛ n
+ysgrifennu	s k r ɪ v ɛ n ɨ
+ysgrifennu	ə s k r ɪ v ɛ n ɨ
 ysgubor	ə s k ɨ̞ b ɔ r
-ysguthan	ə s k ɨ̞ θ a n
 ysguthan	s k ɨ̞ θ a n
-ystafell	ə s t a v ɛ ɬ
+ysguthan	ə s k ɨ̞ θ a n
 ystafell	s t a v a ɬ
 ystafell	s t a v ɛ ɬ
+ystafell	ə s t a v ɛ ɬ
 ystifflog	ə s t ɪ f l ɔ ɡ
 ystradwel	ə s t r a d w ɛ l
 ystyr	ə s t ɨ̞ r

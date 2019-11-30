@@ -168,7 +168,7 @@
 | [TSV](tsv/pan_phonemic.tsv) | pan | Panjabi | Punjabi | False | Phonemic | 132 |
 | [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3114 |
 | [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4300 |
-| [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 384367 |
+| [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 388999 |
 | [TSV](tsv/san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 4577 |
 | [TSV](tsv/san_phonetic.tsv) | san | Sanskrit | Sanskrit | False | Phonetic | 383 |
 | [TSV](tsv/srd_phonemic.tsv) | srd | Sardinian | Sardinian | True | Phonemic | 107 |
