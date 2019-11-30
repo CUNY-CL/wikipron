@@ -43,8 +43,9 @@ Steps used to update the dataset
         `datetime.date.today().isoformat()` but can be set manually 
         using an ISO formatted string (ex. "2019-10-31").
 3.  Run [split\_hbs.py](split_hbs.py).
-4.  Run [remove\_duplicates.sh](remove_duplicates.sh).
-5.  Run [generate\_summary.py](generate_summary.py).
+4.  Run [split\_jpn.py](split_jpn.py).
+5.  Run [remove\_duplicates.sh](remove_duplicates.sh).
+6.  Run [generate\_summary.py](generate_summary.py).
 
 Running a subset of languages using the big scrape
 --------------------------------------------------
@@ -69,6 +70,7 @@ to run the big scrape scripts for a smaller set of languages:
 4.  If you scraped Serbo-Croatian and have not yet run
     [split\_hbs.py](split_hbs.py),
     then run [split\_hbs.py](split_hbs.py).
+    The same applies to Japanese and [split\_jpn.py](split_jpn.py).
 5.  Run [remove\_duplicates.sh](remove_duplicates.sh).
 6.  Reset [languages.json](languages.json) to its unmodified state
     (using `git checkout` or `git reset`).
