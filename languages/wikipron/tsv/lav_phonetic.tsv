@@ -201,10 +201,10 @@ broms	b r ɔ m s
 broms	b r ɔː m s
 bruņas	b r u ɲ ɑ s
 brālis	b r āː l i s
+brīvs	b r īː w s
 brūngans	b r ūː n ɡ a n s
 brūngans	b r ūː ŋ ɡ a n s
 brūns	b ɾ ū n s
-brīvs	b r īː w s
 bulta	b ū l t a
 bumba	b ū m b a
 bumbieris	b u m b i ɐ̯ r i s
@@ -212,11 +212,8 @@ burkāns	b ū ɾ k āː n s
 burtnīca	b ū r t n ì t s a
 burts	b ū r t s
 buča	b u t ʃ a
-bē	b ɛː
-bēda	b æ̀ː d a
 bāls	b āː l s
 bālums	b āː l u m s
-bļoda	b ʎ ū ō d a
 bārabērns	b àː ɾ a b æ̀ː ɾ n s
 bārda	b àː ɾ d a
 bārdains	b àː ɾ d ā j n s
@@ -224,10 +221,13 @@ bāre	b àː ɾ ɛ
 bārene	b àː ɾ ɛ n ɛ
 bārenis	b àː ɾ ɛ n i s
 bāris	b àː ɾ i s
+bē	b ɛː
+bēda	b æ̀ː d a
 bērns	b æ̀ː ɾ n s
 bērzs	b ǣː r s
-būt	b ûː t
 bīties	b îː t i ɛ̂ s
+bļoda	b ʎ ū ō d a
+būt	b ûː t
 c	t s
 cauna	t s a û n a
 caur	t s ā ū ɾ
@@ -257,15 +257,15 @@ cirslis	t s ì ɾ s l i s
 citronkoks	t s i t ɾ o n k ù o k s
 citrons	t s i t ɾ oː n s
 cukurs	t s u k u ɾ s
-cē	t s ɛː
-cūka	t s uːː k a
-cūkgaļa	t s ūː k ɡ a ʎ a
 cālis	t s āː l i s
+cē	t s ɛː
 cēls	t s eː l s
 cērijs	t s ɛ̄ː ɾ i j s
 cēsis	t s ēː s i s
 cēsnieks	t s ēː s i n i ɛ k s
 cēsnieks	t s ēː s n i ɛ k s
+cūka	t s uːː k a
+cūkgaļa	t s ūː k ɡ a ʎ a
 d	d
 dabūt	d a b ûː t
 daile	d ā ī l ɛ
@@ -299,9 +299,9 @@ drakons	d ɾ a k oː n s
 draugs	d r à w k s
 drosme	d ɾ ù o s m e
 drošs	d ɾ ù o ʃ
+drāna	d r āː n a
 drēgns	d r ǣː ɡ n s
 drīkstēt	d ɾ ìː k s t ɛ̂ː t
-drāna	d r āː n a
 dundurs	d ū n d u ɾ s
 dusa	d u s a
 dusēt	d u s ɛ̂ː t
@@ -337,12 +337,12 @@ dzīvot	d z îː v u ô t
 dzīvs	d z îː w s
 dzīšana	d z î ʃ a n a
 dzīšana	d z ī ʃ a n a
-dē	d ɛː
-dēls	d æ̂ː l s
 dārgs	d àː ɾ ɡ s
 dārzs	d àː ɾ s
 dāsns	d âː s n s
 dāsns	d āː s n s
+dē	d ɛː
+dēls	d æ̂ː l s
 dīvains	d īː v a j n s
 e	æ
 e	ɛ
@@ -385,8 +385,8 @@ gatavs	ɡ a t a w s
 gaume	ɡ ā ū m e
 gaļa	ɡ a ʎ a
 glābt	ɡ l âː p t
-glīts	ɡ l îː t s
 glāze	ɡ l āː z ɛ
+glīts	ɡ l îː t s
 gnīda	ɡ n īː d a
 govs	ɡ ù o w s
 gredzens	ɡ ɾ æ d z æ n s
@@ -398,10 +398,10 @@ griezt	ɡ r ī ɛ̄ s t
 griešana	ɡ r i ê ʃː a n a
 griešana	ɡ r ī ē ʃː a n a
 grāmata	ɡ ɾ āː m a t a
+grīva	ɡ ɾ īː v a
 grūsns	ɡ ɾ ūː s n s
 grūts	ɡ ɾ ūː t s
 grūtums	ɡ ɾ ūː t u m s
-grīva	ɡ ɾ īː v a
 gulta	ɡ ù l t a
 gulēt	ɡ u l ɛ̂ː t
 gurķis	ɡ û ɾ c i s
@@ -420,8 +420,8 @@ hā	x aː
 i	i
 iecept	i ɛ t s ɛ p t
 iedvesma	ì ɛ d v ɛ s m a
-iekša	ì ɛ k ʃ a
 iekļūt	ì ɛ k ʎ ûː t
+iekša	ì ɛ k ʃ a
 iela	ì ɛ l a
 ierocis	ì ɛ ɾ u ô t s i s
 iet	i ɛ̂ t
@@ -466,9 +466,9 @@ jē	j ɛː
 jēga	j ǣ ɡ a
 jēgt	j ɛ̄ k t
 jēls	j æ̂ː l s
+jērs	j ǣː ɾ s
 jūra	j ūː ɾ a
 jūrmala	j ūː ɾ m a l a
-jērs	j ǣː ɾ s
 jūs	j ūː s
 k	k
 ka	k a
@@ -519,16 +519,16 @@ krievs	k ɾ ì e w s
 krona	k r ōː n a
 kronis	k ɾ ū ō n i s
 krāce	k ɾ āː t s ɛ
-krūms	k ɾ ūː m s
 krāsa	k r āː s a
+krāsns	k ɾ âː s n s
+krāšņs	k ɾ àː ʃ ɲ s
 krēsla	k r ǣː s l a
 krēslains	k r ǣː s l a i n s
 krēslot	k ɾ æ̀ː s l u ô t
 krēslot	k ɾ ǣː s l u ô t
 krēslošana	k r ǣː s l u ɔ ʃ a n a
 krēsls	k r ǣː s l s
-krāsns	k ɾ âː s n s
-krāšņs	k ɾ àː ʃ ɲ s
+krūms	k ɾ ūː m s
 kukainis	k u k â j n i s
 kult	k ū l t
 kur	k ù ɾ
@@ -550,16 +550,16 @@ kvieši	k v ì ɛ ʃ i
 kā	k âː
 kā	k āː
 kāja	k āː j a
-kūka	k uːː k a
 kāposti	k àː p u ô s t i
 kāpēc	k âː p êː t s
 kārs	k āː r s
 kārts	k āː ɾ t s
 kāsis	k àː s i s
 kāss	k āː s
-kūts	k ūː t s
 kļūda	k ʎ ûː d a
 kļūt	k ʎ ûː t
+kūka	k uːː k a
+kūts	k ūː t s
 l	l
 labrīt	l a b ɾ îː t
 labrīts	l a b ɾ îː t s
@@ -603,17 +603,17 @@ loks	l ù ɔ̯ k s
 loks	l û ɔ̯ k s
 loks	l ū ɔ̯ k s
 lops	l ū ō p s
-lēca	l ǣː t s a
 lācene	l âː t s ɛ n ɛ
 lācis	l âː t s i s
-līdzskanis	l īː d s k a n i s
-līdzēt	l īː d z ɛ̂ː t
-lēns	l æ̀ː n s
-lūpa	l ūː p a
 lāpsta	l âː p s t a
 lāpstiņa	l âː p s t i ɲ a
+lēca	l ǣː t s a
+lēns	l æ̀ː n s
 lēts	l ǣː t s
+līdzskanis	l īː d s k a n i s
+līdzēt	l īː d z ɛ̂ː t
 līķis	l īː c i s
+lūpa	l ūː p a
 m	m
 mainīt	m ā ī n îː t
 maisiņš	m à j s i ɲ ʃ
@@ -672,22 +672,22 @@ možs	m u ô ʃ
 mukls	m u k l s
 mundrs	m ū n d ɾ s
 mute	m u t ɛ
-muša	m u ʃ a
 muļķis	m û ʎ c i s
+muša	m u ʃ a
 māja	m āː j a
-mūks	m ūː k s
-mīksts	m îː k s t s
+māte	m āː t ɛ
 mēle	m ɛ̀ː l ɛ
 mērs	m eː r s
 mērs	m æː r s
 mēs	m ɛ̄ː s
 mēsli	m æ̂ː s l i
-mūsu	m uː s u
-māte	m āː t ɛ
+mīksts	m îː k s t s
 mīts	m îː t s
 mīts	m īː t s
-mūķene	m ūː c ɛ n ɛ
 mīļš	m īː ʎ ʃ
+mūks	m ūː k s
+mūsu	m uː s u
+mūķene	m ūː c ɛ n ɛ
 n	n
 nakts	n a k t s
 nasks	n a s k s
@@ -792,25 +792,25 @@ punšs	p u n ʃ
 purvs	p ù ɾ v s
 pusdienas	p u s d ì ɛ n a
 pusnakts	p u s n a k t s
+pāksts	p âː k s t s
+pār	p āː r
+pārcept	p aː ɾ t s ɛ p t
+pārtulkot	p āː ɾ t ū l k u ô t
+pātaga	p àː t a ɡ a
+pāvests	p āː v ɛ s t s
 pē	p ɛː
+pēc	p ɛː̂ t s
+pēcpusdiena	p ɛː̂ t s p u s d ì ɛ n a
+pēkšņs	p ɛ̀ː k ʃ ɲ s
+pērn	p ǣː ɾ n
+pērns	p ǣː ɾ n s
+pīle	p īː l ɛ
 pļaujmašīna	p ʎ ā w m a ʃ īː n a
 pļaut	p ʎ ā w t
 pļava	p ʎ a v a
-pēc	p ɛː̂ t s
-pēcpusdiena	p ɛː̂ t s p u s d ì ɛ n a
-pāksts	p âː k s t s
-pēkšņs	p ɛ̀ː k ʃ ɲ s
-pīle	p īː l ɛ
-pār	p āː r
-pārcept	p aː ɾ t s ɛ p t
-pērn	p ǣː ɾ n
-pērns	p ǣː ɾ n s
-pārtulkot	p āː ɾ t ū l k u ô t
-pūt	p ūː t
-pātaga	p àː t a ɡ a
-pāvests	p āː v ɛ s t s
-pūķis	p ūː c i s
 pļāpāt	p ʎ āː p â t
+pūt	p ūː t
+pūķis	p ūː c i s
 r	ɾ
 rags	ɾ a k s
 raize	r a î z ɛ
@@ -834,15 +834,15 @@ ronis	ɾ ū ō n i s
 roze	r ū ō z ɛ
 runcis	ɾ ū n t s i s
 rupjš	r u pʲ ʃ
+rātns	ɾ āː t n s
+rēzekne	ɾ ɛ̄ː z ɛ k n ɛ
 rīga	ɾ īː ɡ a
-rūgts	ɾ ûː k t
 rīks	ɾ ì k s
 rīt	r îː t
 rīt	r īː t
 rītdiena	ɾ îː d d ì ɛ n a
-rātns	ɾ āː t n s
 rīts	ɾ îː t s
-rēzekne	ɾ ɛ̄ː z ɛ k n ɛ
+rūgts	ɾ ûː k t
 s	s
 saart	s a â ɾ t
 sacept	s a t s ɛ p t
@@ -933,11 +933,11 @@ spriedums	s p ɾ i ɛ̂ d u m s
 spriest	s p ɾ i ɛ̂ s t
 spuldze	s p û l d z ɛ
 spulgs	s p û l k s
-spļaut	s p ʎ ā w t
+spārns	s p àː ɾ n s
 spējš	s p ɛ̀ː j ʃ
 spējš	s p ɛ̄ː j ʃ
 spēks	s p æ̀ː k s
-spārns	s p àː ɾ n s
+spļaut	s p ʎ ā w t
 staigns	s t à j ɡ n s
 starp	s t a ɾ p
 stingrs	s t î ŋ ɡ ɾ s
@@ -962,8 +962,8 @@ stārķis	s t āː ɾ ɟ i s
 stāsts	s t âː s t s
 stāstīt	s t âː s t îː t
 stāvoklis	s t āː v u o k l i s
-stīvs	s t īː w s
 stāvēt	s t āː v ɛ̂ː t
+stīvs	s t īː w s
 svaine	s v â j n ɛ
 svainis	s v â j n i s
 svece	s v ɛ t s ɛ
@@ -972,15 +972,15 @@ svešs	s v ɛ ʃ
 sviests	s v i ɛ̂ s t s
 svārki	s v àː ɾ k i
 svārki	s v āː ɾ k i
+sākt	s âː k t
+sāls	s àː l s
+sārts	s āː ɾ t s
 sēklis	s ɛ̀ː k l i s
 sēklis	s ɛ̄ː k l i s
-sīks	s îː k s
-sākt	s âː k t
-sūkt	s ùː k t
-sāls	s àː l s
-sīpols	s īː p u o l s
 sērs	s ǣː r s
-sārts	s āː ɾ t s
+sīks	s îː k s
+sīpols	s īː p u o l s
+sūkt	s ùː k t
 t	t
 tabaka	t a b a k a
 tabakmaks	t a b a k m a k s
@@ -1005,8 +1005,8 @@ tornis	t ū ō r n i s
 traks	t ɾ a k s
 trakums	t ɾ a k u m s
 traucēt	t r à w t s ɛ̂ː t
-trūkt	t ɾ ūː k t
 trīs	t r îː s
+trūkt	t ɾ ūː k t
 tu	t u
 tuksnesis	t u k s n ɛ s i s
 tulkot	t ū l k u ô t
@@ -1021,14 +1021,14 @@ tuvs	t u w s
 tā	t àː
 tā	t âː
 tā	t āː
-tē	t ɛː
 tāfele	t āː f ɛ l ɛ
 tāls	t âː l s
-tīrs	t īː ɾ s
 tāss	t āː s s
+tē	t ɛː
 tētis	t ɛ̄ː t i s
 tēvocis	t ǣː v u ô t͡s i s
 tēvs	t ǣː w s
+tīrs	t īː ɾ s
 u	u
 ubagot	u b a ɡ u ô t
 ubags	u b a k s
@@ -1088,28 +1088,25 @@ virsis	v ì r s i s
 virsus	v ì r s u s
 viss	v i s
 viņš	v i ɲ ʃ
-vē	v ɛː
 vāci	v āː t s i
-vēdeklis	v ɛ̄ː d ɛ k l i s
-vēdzele	v ɛ̂ː d z ɛ l ɛ
 vājš	v âː j ʃ
-vējš	v ɛ̄ː j ʃ
 vāks	v âː k s
-vēl	v ɛ̂ l
-vīle	v ìː l ɛ
-vīle	v īː l ɛ
 vālodze	v āː l u ô d z ɛ
-vēlreiz	v ɛ̂ l r e ī z
-vēls	v æ̂ l s
-vīns	v īː n s
 vārdnīca	v ɑː r d n iː t s ɑ
 vārds	v àː ɾ d s
-vīrietis	v īː ɾ i e t i s
 vārna	v āː ɾ n a
-vīrs	v īː ɾ s
-vērsis	v ɛ̀ː r s i s
 vārīt	v àː ɾ îː t
 vārīt	v āː ɾ îː t
+vāvere	v aː v ɛ ɾ ɛ
+vāverēns	v āː v ɛ ɾ ɛ̄ː n s
+vē	v ɛː
+vēdeklis	v ɛ̄ː d ɛ k l i s
+vēdzele	v ɛ̂ː d z ɛ l ɛ
+vējš	v ɛ̄ː j ʃ
+vēl	v ɛ̂ l
+vēlreiz	v ɛ̂ l r e ī z
+vēls	v æ̂ l s
+vērsis	v ɛ̀ː r s i s
 vēsma	v ǣː s m a
 vēss	v ǣː s
 vēstule	v æ̀ː s t u l ɛ
@@ -1117,9 +1114,12 @@ vēsture	v æ̀ː s t u ɾ ɛ
 vēsturniece	v æ̀ː s t u ɾ n i ɛ t s ɛ
 vēsturnieks	v æ̀ː s t u ɾ n i ɛ k s
 vētra	v ǣː t ɾ a
-vāvere	v aː v ɛ ɾ ɛ
-vāverēns	v āː v ɛ ɾ ɛ̄ː n s
 vēzis	v ɛ̂ː z i s
+vīle	v ìː l ɛ
+vīle	v īː l ɛ
+vīns	v īː n s
+vīrietis	v īː ɾ i e t i s
+vīrs	v īː ɾ s
 z	z
 zagle	z a ɡ l ɛ
 zaglis	z a ɡ l i s
@@ -1156,109 +1156,96 @@ zviegt	z v ì ɛ k t
 zvirbulis	z v ī ɾ b u l i s
 zvērs	z v æ̂ː ɾ s
 zvīņa	z v īː ɲ a
-zē	z ɛː
 zābaks	z àː b a k s
-zīlīte	z īː l ìː t ɛ
-zīmulis	z ìː m u l i s
-zēns	z ǣː n s
-zīst	z î s t
 zāģis	z āː ɟ i s
 zāģēt	z āː ɟ ɛ̂ː t
+zē	z ɛː
+zēns	z ǣː n s
+zīlīte	z īː l ìː t ɛ
+zīmulis	z ìː m u l i s
+zīst	z î s t
 ā	aː
-ķ	c
-ī	iː
-č	t ʃ
-ū	uː
-ē	æː
-ģ	ɟ
-ļ	ʎ
-ņ	ɲ
-š	ʃ
-ž	ʒ
-ē	ɛː
-čakls	t ʃ a k l s
-ļaudis	ʎ à w d i s
-ļauns	ʎ ā ū n s
-šaurs	ʃ à u ɾ s
-šausmas	ʃ ā ū s m a s
-ķauķis	c a u c i s
-šašliks	ʃ a ʃ l i k s
 ābele	âː b ɛ l e
 ābols	âː b u o l s
 āda	âː d a
-ūdens	ûː d ɛ n s
-ēdiens	êː d i e n s
-ūdrs	ûː d r s
-šeit	ʃ ɛ î t
-šeit	ʃ ɛ̄ ī t
-ķemme	c ɛ̄ m m ɛ
-ņemt	ɲ ɛ̂ m t
-ņemt	ɲ ɛ̄ m̄ t
-ģerbonis	ɟ æ̀ r b ù o n i s
-ģerbonis	ɟ æ̂ː r b u o n i s
-ķermenis	c ɛ̄ ɾ m ɛ n i s
-ķerra	c æ rː a
-četri	t ʃ ɛ t r i
-īgns	î ɡ n s
-īgt	îː k t
-čiekurs	t ʃ i ē k u r s
-žigls	ʒ i ɡ l s
-ģimene	ɟ i m ɛ n ɛ
-ģints	ɟ ì n t s
-ķiploks	c i p l u ō k s
-ņiprs	ɲ i p ɾ s
-ķirbis	c ī r b i s
-žirgts	ʒ ī ɾ k t s
-ķirzaka	c ī r z a k a
-šis	ʃ i s
 ālants	āː l a n t s
-īlens	īː l æ n s
-šmaukt	ʃ m à w k t
 āmurs	āː m u ɾ s
-ēna	ǣː n a
-žogs	ʒ ù o ɡ s
-žoklis	ʒ u ô k l i s
-čoms	t ʃ o m s
-ļoti	ʎ ù o t i
-īpašs	īː p a ʃ
-īpašība	īː p a ʃ ìː b a
 āpsis	âː p s i s
-ērce	ɛ̄ː ɾ t s ɛ
 āre	âː ɾ ɛ
 āre	āː ɾ ɛ
-ērglis	ɛ̀ː r ɡ l i s
-ērkšķis	êː r k ʃ t͡ʃ i s
-ērkšķis	ɛ̄ː ɾ k ʃ t͡ʃ i s
 ārs	âː ɾ s
 ārs	āː ɾ s
 ārsts	āː r s t s
+ātrs	āː t ɾ s
+āzis	âː z i s
+āķis	āː c i s
+č	t ʃ
+čakls	t ʃ a k l s
+četri	t ʃ ɛ t r i
+čiekurs	t ʃ i ē k u r s
+čoms	t ʃ o m s
+čē	t ʃ ɛː
+čība	t ʃ īː b a
+čūska	t ʃ ū s k a
+ē	æː
+ē	ɛː
+ēdiens	êː d i e n s
+ēna	ǣː n a
+ērce	ɛ̄ː ɾ t s ɛ
+ērglis	ɛ̀ː r ɡ l i s
+ērkšķis	êː r k ʃ t͡ʃ i s
+ērkšķis	ɛ̄ː ɾ k ʃ t͡ʃ i s
 ērts	æ̀ː ɾ t s
-ūsa	ūː s a
-īss	îː s
 ēst	ɛ̂ː s t
+ēzelis	ɛ̄ː z ɛ l i s
+ģ	ɟ
+ģerbonis	ɟ æ̀ r b ù o n i s
+ģerbonis	ɟ æ̂ː r b u o n i s
+ģimene	ɟ i m ɛ n ɛ
+ģints	ɟ ì n t s
+ģē	ɟ ɛː
+ī	iː
+īgns	î ɡ n s
+īgt	îː k t
+īlens	īː l æ n s
+īpašs	īː p a ʃ
+īpašība	īː p a ʃ ìː b a
+īss	îː s
 īstens	īː s t ɛ n s
 īsts	īː s t s
 īstums	īː s t u m s
-ātrs	āː t ɾ s
-žurka	ʒ ù r k a
-žurka	ʒ ū r k a
-švaks	ʃ v a k s̪
-ēzelis	ɛ̄ː z ɛ l i s
-āzis	âː z i s
+ķ	c
+ķauķis	c a u c i s
+ķemme	c ɛ̄ m m ɛ
+ķermenis	c ɛ̄ ɾ m ɛ n i s
+ķerra	c æ rː a
+ķiploks	c i p l u ō k s
+ķirbis	c ī r b i s
+ķirzaka	c ī r z a k a
 ķē	c ɛː
-čē	t ʃ ɛː
-ģē	ɟ ɛː
-žē	ʒ ɛː
-čība	t ʃ īː b a
 ķēde	c ɛ̄ː d ɛ
+ķēniņš	c ɛ̄ː n i ɲ ʃ
+ķēve	c ɛ̄ː v ɛ
+ķīsis	c īː s i s
+ļ	ʎ
+ļaudis	ʎ à w d i s
+ļauns	ʎ ā ū n s
+ļoti	ʎ ù o t i
+ņ	ɲ
+ņemt	ɲ ɛ̂ m t
+ņemt	ɲ ɛ̄ m̄ t
+ņiprs	ɲ i p ɾ s
+š	ʃ
+šaurs	ʃ à u ɾ s
+šausmas	ʃ ā ū s m a s
+šašliks	ʃ a ʃ l i k s
+šeit	ʃ ɛ î t
+šeit	ʃ ɛ̄ ī t
+šis	ʃ i s
+šmaukt	ʃ m à w k t
+švaks	ʃ v a k s̪
 šķidrs	ʃ c i d ɾ s
 šķirklis	ʃ c ī ɾ k l i s
-āķis	āː c i s
-ķēniņš	c ɛ̄ː n i ɲ ʃ
-ķīsis	c īː s i s
-čūska	t ʃ ū s k a
-šūt	ʃ ūː t
-ķēve	c ɛ̄ː v ɛ
 šķēps	ʃ c æ̀ p s
 šķēres	ʃ c ɛ̄ː ɾ ɛ s
 šķērslis	ʃ c ɛ̀ː ɾ s l i s
@@ -1267,3 +1254,16 @@ zāģēt	z āː ɟ ɛ̂ː t
 šķērst	ʃ c ɛ̀ː ɾ s t
 šķīsts	ʃ c îː s t s
 šķīvis	ʃ c īː v i s
+šūt	ʃ ūː t
+ū	uː
+ūdens	ûː d ɛ n s
+ūdrs	ûː d r s
+ūsa	ūː s a
+ž	ʒ
+žigls	ʒ i ɡ l s
+žirgts	ʒ ī ɾ k t s
+žogs	ʒ ù o ɡ s
+žoklis	ʒ u ô k l i s
+žurka	ʒ ù r k a
+žurka	ʒ ū r k a
+žē	ʒ ɛː

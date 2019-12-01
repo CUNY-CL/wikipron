@@ -94,8 +94,8 @@ basa	bˠ a sˠ ə
 basa	bˠ ɑ sˠ ə
 basún	bˠ a sˠ uː nˠ
 beagnach	bʲ ɔ ɡ nˠ ə x
-beagnach	bʲ ɛ ɡ nˠ ə x
 beagnach	bʲ ɔ ɡ n̪ˠ ə x
+beagnach	bʲ ɛ ɡ nˠ ə x
 beathaí	bʲ a h iː
 beifear	bʲ ɛ j ɑː ɾˠ
 beimid	bʲ ɛ mʲ ə dʲ
@@ -462,22 +462,22 @@ cois	k ɔ ʃ
 cois	k ɞ ʃ
 col	k ɔ l̪ˠ
 colanna	k ɔ lˠ ə n̪ˠ ə
-collach	k ʌ l̪ˠ a h
-collach	k ʌ l̪ˠ a x
 collach	k ɔ l̪ˠ ə x
 collach	k ə l̪ˠ ɑ x
+collach	k ʌ l̪ˠ a h
+collach	k ʌ l̪ˠ a x
 collaíocht	k ɔ l̪ˠ i ə x t
 collaíocht	k ɔ l̪ˠ iː x t
 coláiste	k lˠ ɑː ʃ tʲ ə
-coláiste	k ʌ lˠ æ ʃ tʲ ə
 coláiste	k ɔ lˠ ɑː ʃ tʲ ə
 coláiste	k ə lˠ ɑː ʃ tʲ ə
 coláiste	k ʊ lˠ ɑː ʃ tʲ ə
+coláiste	k ʌ lˠ æ ʃ tʲ ə
 coláistí	k lˠ ɑː ʃ tʲ iː
-coláistí	k ʌ lˠ æ ʃ tʲ i
 coláistí	k ɔ lˠ ɑː ʃ tʲ iː
 coláistí	k ə lˠ ɑː ʃ tʲ iː
 coláistí	k ʊ lˠ ɑː ʃ tʲ iː
+coláistí	k ʌ lˠ æ ʃ tʲ i
 compóirteach	k uː mˠ pˠ oː ɾˠ tʲ ə x
 con	k ɔ nˠ
 craice	k ɾˠ a c ə
@@ -501,12 +501,12 @@ cuimil	k ɪ mʲ ɪ lʲ
 cuirim	k ɪ ɾʲ ə mʲ
 cuirimid	k ɪ ɾʲ ə mʲ ə dʲ
 culaith	k l̪ˠ ɪ h
-culaith	k ʌ lˠ i
 culaith	k ɔ l̪ˠ ə
+culaith	k ʌ lˠ i
 culaithe	k ʊ lˠ ɪ h ə
-cultacha	k ʌ l̪ˠ t̪ˠ a x ə
 cultacha	k ɔ l̪ˠ t̪ˠ ə x iː
 cultacha	k ɔ l̪ˠ t̪ˠ ə x ə
+cultacha	k ʌ l̪ˠ t̪ˠ a x ə
 cupla	k ʊ pˠ lˠ ə
 cupáin	k ʊ pˠ æ nʲ
 cupáin	k ʊ pˠ ɑː nʲ
@@ -774,11 +774,11 @@ fuilim	fˠ ɪ lʲ ə mʲ
 fuilimid	fˠ ɪ lʲ ə mʲ ə dʲ
 fuilir	fˠ ɪ lʲ ə ɾʲ
 fuiltear	fˠ ɪ l̠ʲ tʲ ə ɾʲ
-fuinneoig	fˠ ɪ n̠ʲ a ɟ
 fuinneoig	fˠ ə n̠ʲ oː ɟ
+fuinneoig	fˠ ə ɲ oː ɟ
+fuinneoig	fˠ ɪ n̠ʲ a ɟ
 fuinneoig	fˠ ɪ n̠ʲ oː ɟ
 fuinneoig	fˠ ɪ n̠ʲ ɔ ɟ
-fuinneoig	fˠ ə ɲ oː ɟ
 fuinneoige	f i ɲ oː ɡʲ ə
 fuáil	fˠ uː aː lʲ
 fuála	fˠ uː aː lˠ ə
@@ -1035,8 +1035,8 @@ lofa	l̪ˠ ɔ fˠ ə
 loime	l̪ˠ ɪ mʲ ə
 loin	l̪ˠ ɪ nˠ
 longa	l̪ˠ ɔ ŋ ə
-longa	l̪ˠ ʊ ŋ ə
 longa	l̪ˠ ɔ ŋ ɡ ə
+longa	l̪ˠ ʊ ŋ ə
 longa	l̪ˠ ʊ ŋ ɡ ə
 luasanna	l̪ˠ u ə sˠ ə n̪ˠ iː
 luasanna	l̪ˠ u ə sˠ ə n̪ˠ ə
@@ -1256,8 +1256,8 @@ piteog	pʲ ɪ tʲ ɔ ɡ
 plátaí	pˠ lˠ æː t̪ˠ i
 plátaí	pˠ lˠ ɑː t̪ˠ iː
 poipín	pˠ ɛ pʲ iː nʲ
-poitín	pˠ ɛ tʲ i nʲ
 poitín	pˠ ə tʲ iː nʲ
+poitín	pˠ ɛ tʲ i nʲ
 poitín	pˠ ɛ tʲ iː nʲ
 pol	pˠ ɔ lˠ
 polla	pˠ ɔ l̪ˠ ə
@@ -1265,8 +1265,8 @@ post	pˠ ɔ sˠ t̪ˠ
 posta	pˠ ɔ sˠ t̪ˠ ə
 pota	pˠ ɔ t̪ˠ ə
 pota	pˠ ʌ t̪ˠ ə
-potaí	pˠ ʌ t̪ˠ i
 potaí	pˠ ɔ t̪ˠ iː
+potaí	pˠ ʌ t̪ˠ i
 práta	pˠ ɾˠ æː t̪ˠ ə
 práta	pˠ ɾˠ ɑː t̪ˠ ə
 prátaí	pˠ ɾˠ æː t̪ˠ i
@@ -1310,12 +1310,12 @@ rincí	ɾˠ ɪ ɲ c iː
 rinneabhair	ɾˠ ɪ nʲ ə w ə ɾʲ
 rinnis	ɾˠ ɪ nʲ ə ʃ
 roinnt	ɾˠ iː n̠ʲ tʲ
-roinnt	ɾˠ ɪ n̠ʲ tʲ
 roinnt	ɾˠ ə ɪ n̠ʲ tʲ
-ronnach	ɾˠ ɤ n̪ˠ a h
-ronnach	ɾˠ ə n̪ˠ a x
-ronnach	ɾˠ ɤ n̪ˠ a x
+roinnt	ɾˠ ɪ n̠ʲ tʲ
 ronnach	ɾˠ ɔ n̪ˠ ə x
+ronnach	ɾˠ ə n̪ˠ a x
+ronnach	ɾˠ ɤ n̪ˠ a h
+ronnach	ɾˠ ɤ n̪ˠ a x
 ronnach	ɾˠ ʊ n̪ˠ ə x
 rop	ɾˠ ɔ pˠ
 ropa	ɾˠ ɔ pˠ ə
@@ -1336,8 +1336,8 @@ rugadh	ɾˠ ʊ ɡ ə ɡ
 rugais	ɾˠ ʊ ɡ ə ʃ
 rugamar	ɾˠ ʊ ɡ ə mˠ ə ɾˠ
 rugas	ɾˠ ʊ ɡ ə sˠ
-ruifíneach	ɾˠ ɪ fʲ i nʲ a h
 ruifíneach	ɾˠ ə fʲ iː nʲ ə x
+ruifíneach	ɾˠ ɪ fʲ i nʲ a h
 ruifíneach	ɾˠ ɪ fʲ iː nʲ ə x
 ruán	ɾˠ uː ɑː nˠ
 ruóg	ɾˠ uː oː ɡ
@@ -1547,11 +1547,11 @@ tochais	t̪ˠ ɔ x ə ʃ
 tochas	t̪ˠ ɔ x ə sˠ
 toirbh	t̪ˠ ɛ ɾʲ ə vʲ
 tola	t̪ˠ ɔ l̪ˠ ə
-tomáisín	t̪ˠ ʊ mˠ æ ʃ i nʲ
 tomáisín	t̪ˠ ə mˠ ɑː ʃ iː nʲ
+tomáisín	t̪ˠ ʊ mˠ æ ʃ i nʲ
 tomáisín	t̪ˠ ʊ mˠ ɑː ʃ iː nʲ
-tomás	t̪ˠ ʊ mˠ æ sˠ
 tomás	t̪ˠ ə mˠ ɑː sˠ
+tomás	t̪ˠ ʊ mˠ æ sˠ
 tomás	t̪ˠ ʊ mˠ ɑː sˠ
 tor	t̪ˠ ɔ ɾˠ
 tosta	t̪ˠ ɔ sˠ t̪ˠ ə
@@ -1574,10 +1574,10 @@ tsneachta	tʲ ɾʲ ã x t̪ˠ ə
 tsneachta	tʲ ɾʲ æː x t̪ˠ ə
 tuillidh	t̪ˠ ɪ lʲ ɪ ɟ
 tuillidh	t̪ˠ ɪ l̠ʲ iː
-tuirseach	t̪ˠ ɤ ɾˠ ʃ a h
-tuirseach	t̪ˠ ə ɾˠ ʃ a x
-tuirseach	t̪ˠ ɤ ɾˠ ʃ a x
 tuirseach	t̪ˠ ɔ ɾˠ ʃ ə x
+tuirseach	t̪ˠ ə ɾˠ ʃ a x
+tuirseach	t̪ˠ ɤ ɾˠ ʃ a h
+tuirseach	t̪ˠ ɤ ɾˠ ʃ a x
 tábhachtach	t̪ˠ æː w ə x t̪ˠ a h
 tábhachtach	t̪ˠ ɑː w ə x t̪ˠ ə x
 tábhachtach	t̪ˠ ɑː x t̪ˠ ə x

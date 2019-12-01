@@ -3657,13 +3657,13 @@ belük	b ɛ l y k
 belül	b ɛ l y l
 belüli	b ɛ l y l i
 belünk	b ɛ l y ŋ k
-belű	b ɛ l yː
 belőle	b ɛ l øː l ɛ
 belőled	b ɛ l øː l ɛ d
 belőlem	b ɛ l øː l ɛ m
 belőletek	b ɛ l øː l ɛ t ɛ k
 belőlük	b ɛ l øː l y k
 belőlünk	b ɛ l øː l y ŋ k
+belű	b ɛ l yː
 bemegy	b ɛ m ɛ ɟ
 bemelegítés	b ɛ m ɛ l ɛ ɡ iː t eː ʃ
 bemelegítések	b ɛ m ɛ l ɛ ɡ iː t eː ʃ ɛ k
@@ -5192,27 +5192,6 @@ bőbeszédű	b øː b ɛ s eː d yː
 bőbeszédűség	b øː b ɛ s eː d yː ʃ eː ɡ
 bőg	b øː ɡ
 bőghet	b øː k h ɛ t
-bűn	b yː n
-bűnbak	b yː m b ɒ k
-bűnbakok	b yː m b ɒ k o k
-bűnbánat	b yː m b aː n ɒ t
-bűncselekmény	b yː n t͡ʃ ɛ l ɛ k m eː ɲ
-bűncselekmények	b yː n t͡ʃ ɛ l ɛ k m eː ɲ ɛ k
-bűnt	b yː n t
-bűntett	b yː n t ɛ tː
-bűntudat	b yː n t u d ɒ t
-bűntény	b yː n t eː ɲ
-bűnök	b yː n ø k
-bűnös	b yː n ø ʃ
-bűnösnek	b yː n ø ʃ n ɛ k
-bűnösök	b yː n ø ʃ ø k
-bűnöz	b yː n ø z
-bűnözés	b yː n ø z eː ʃ
-bűnözések	b yː n ø z eː ʃ ɛ k
-bűnöző	b yː n ø z øː
-bűnözők	b yː n ø z øː k
-bűnügy	b yː n y ɟ
-bűnügyi	b yː n y ɟ i
 bőr	b øː r
 bőrbaj	b øː r b ɒ j
 bőrcipő	b øː r t͡s i p øː
@@ -5247,8 +5226,6 @@ bőségesen	b øː ʃ eː ɡ ɛ ʃ ɛ n
 bővebb	b øː v ɛ bː
 bővebben	b øː v ɛ bː ɛ n
 bőven	b øː v ɛ n
-bűvész	b yː v eː s
-bűvészek	b yː v eː s ɛ k
 bővít	b øː v iː t
 bővíteni	b øː v iː t ɛ n i
 bővítmény	b øː v iː t m eː ɲ
@@ -5257,11 +5234,34 @@ bővítés	b øː v iː t eː ʃ
 bővítése	b øː v iː t eː ʃ ɛ
 bővítések	b øː v iː t eː ʃ ɛ k
 bővítést	b øː v iː t eː ʃ t
+bővül	b øː v y l
+bővülő	b øː v y l øː
+bűn	b yː n
+bűnbak	b yː m b ɒ k
+bűnbakok	b yː m b ɒ k o k
+bűnbánat	b yː m b aː n ɒ t
+bűncselekmény	b yː n t͡ʃ ɛ l ɛ k m eː ɲ
+bűncselekmények	b yː n t͡ʃ ɛ l ɛ k m eː ɲ ɛ k
+bűnt	b yː n t
+bűntett	b yː n t ɛ tː
+bűntudat	b yː n t u d ɒ t
+bűntény	b yː n t eː ɲ
+bűnök	b yː n ø k
+bűnös	b yː n ø ʃ
+bűnösnek	b yː n ø ʃ n ɛ k
+bűnösök	b yː n ø ʃ ø k
+bűnöz	b yː n ø z
+bűnözés	b yː n ø z eː ʃ
+bűnözések	b yː n ø z eː ʃ ɛ k
+bűnöző	b yː n ø z øː
+bűnözők	b yː n ø z øː k
+bűnügy	b yː n y ɟ
+bűnügyi	b yː n y ɟ i
+bűvész	b yː v eː s
+bűvészek	b yː v eː s ɛ k
 bűvöl	b yː v ø l
 bűvös	b yː v ø ʃ
 bűvösebb	b yː v ø ʃ ɛ bː
-bővül	b øː v y l
-bővülő	b øː v y l øː
 bűz	b yː z
 bűzlik	b yː z l i k
 bűzösborz	b yː z ø ʒ b o r z
@@ -6383,16 +6383,16 @@ csődör	t͡ʃ øː d ø r
 csődörök	t͡ʃ øː d ø r ø k
 csődöt	t͡ʃ øː d ø t
 csőharang	t͡ʃ øː ɦ ɒ r ɒ ŋ ɡ
-csűr	t͡ʃ yː r
 csőr	t͡ʃ øː r
 csőre	t͡ʃ øː r ɛ
-csűrök	t͡ʃ yː r ø k
 csőrök	t͡ʃ øː r ø k
 csőrű	t͡ʃ øː r yː
 csővezeték	t͡ʃ øː v ɛ z ɛ t eː k
 csővezetékek	t͡ʃ øː v ɛ z ɛ t eː k ɛ k
 csőváz	t͡ʃ øː v aː z
 csővázas	t͡ʃ øː v aː z ɒ ʃ
+csűr	t͡ʃ yː r
+csűrök	t͡ʃ yː r ø k
 cucc	t͡s u t͡sː
 cuccok	t͡s u t͡sː o k
 cuccokat	t͡s u t͡sː o k ɒ t
@@ -7784,9 +7784,9 @@ dől	d øː l
 dőlhet	d øː l ɦ ɛ t
 dőlt	d øː l t
 dőltebb	d øː l t ɛ bː
+dőre	d øː r ɛ
 dűne	d yː n ɛ
 dűnék	d yː n eː k
-dőre	d øː r ɛ
 e	ɛ
 e.	ɛ l øː tː
 eb	ɛ b
@@ -10351,7 +10351,6 @@ fejük	f ɛ j y k
 fejüket	f ɛ j y k ɛ t
 fejünk	f ɛ j y ŋ k
 fejünket	f ɛ j y ŋ k ɛ t
-fejű	f ɛ j yː
 fejő	f ɛ j øː
 fejőlány	f ɛ j øː l aː ɲ
 fejős	f ɛ j øː ʃ
@@ -10359,6 +10358,7 @@ fejőstehenek	f ɛ j øː ʃ t ɛ h ɛ n ɛ k
 fejőstehén	f ɛ j øː ʃ t ɛ ɦ eː n
 fejőszék	f ɛ j øː s eː k
 fejőszékek	f ɛ j øː s eː k ɛ k
+fejű	f ɛ j yː
 fekete	f ɛ k ɛ t ɛ
 feketebors	f ɛ k ɛ t ɛ b o r ʃ
 feketedoboz	f ɛ k ɛ t ɛ d o b o z
@@ -12477,7 +12477,6 @@ füzet	f y z ɛ t
 füzetek	f y z ɛ t ɛ k
 füzér	f y z eː r
 füzérek	f y z eː r ɛ k
-fű	f yː
 fő	f øː
 főbb	f øː bː
 főherceg	f øː ɦ ɛ r t͡s ɛ ɡ
@@ -12503,11 +12502,9 @@ főleg	f øː l ɛ ɡ
 főmufti	f øː m u f t i
 főmuftik	f øː m u f t i k
 főn	f øː n
-fűnek	f yː n ɛ k
 főnevek	f øː n ɛ v ɛ k
 főnix	f øː n i k s
 főnixmadár	f øː n i k s m ɒ d aː r
-fűnyíró	f yː ɲ iː r oː
 főnév	f øː n eː v
 főnök	f øː n ø k
 főnökök	f øː n ø k ø k
@@ -12521,44 +12518,22 @@ főpap	f øː p ɒ p
 főpolgármester	f øː p o l ɡ aː r m ɛ ʃ t ɛ r
 főposta	f øː p o ʃ t ɒ
 főpénztáros	f øː p eː n s t aː r o ʃ
-fűre	f yː r ɛ
 főre	f øː r ɛ
-fűrész	f yː r eː s
-fűrészek	f yː r eː s ɛ k
-fűrészel	f yː r eː s ɛ l
-fűrészgép	f yː r eː z ɡ eː p
-fűrészpor	f yː r eː s p o r
-fűszer	f yː s ɛ r
-fűszerek	f yː s ɛ r ɛ k
 főszerep	f øː s ɛ r ɛ p
 főszereplés	f øː s ɛ r ɛ p l eː ʃ
 főszereplése	f øː s ɛ r ɛ p l eː ʃ ɛ
 főszereplésével	f øː s ɛ r ɛ p l eː ʃ eː v ɛ l
 főszereplő	f øː s ɛ r ɛ p l øː
-fűszeres	f yː s ɛ r ɛ ʃ
-fűszeresek	f yː s ɛ r ɛ ʃ ɛ k
-fűszerez	f yː s ɛ r ɛ z
 főszerkesztő	f øː s ɛ r k ɛ s t øː
 főszerkesztője	f øː s ɛ r k ɛ s t øː j ɛ
 főszerkesztők	f øː s ɛ r k ɛ s t øː k
-fűt	f yː t
 főt	f øː t
-fűteni	f yː t ɛ n i
 főtere	f øː t ɛ r ɛ
 főterén	f øː t ɛ r eː n
-fűthet	f yː t h ɛ t
 főtitkár	f øː t i t k aː r
 főtt	f øː tː
 főtér	f øː t eː r
 főtéren	f øː t eː r ɛ n
-fűtés	f yː t eː ʃ
-fűtések	f yː t eː ʃ ɛ k
-fűtési	f yː t eː ʃ i
-fűtésszerelő	f yː t eː ʃ s ɛ r ɛ l øː
-fűtő	f yː t øː
-fűtők	f yː t øː k
-fűtőtest	f yː t øː t ɛ ʃ t
-fűtőtestek	f yː t øː t ɛ ʃ t ɛ k
 fővel	f øː v ɛ l
 fővállalkozó	f øː v aː lː ɒ l k o z oː
 fővállalkozók	f øː v aː lː ɒ l k o z oː k
@@ -12568,16 +12543,11 @@ fővárosból	f øː v aː r o ʒ b oː l
 fővárosi	f øː v aː r o ʃ i
 fővárosok	f øː v aː r o ʃ o k
 fővárosokban	f øː v aː r o ʃ o ɡ b ɒ n
-fűz	f yː z
 főz	f øː z
 főzelék	f øː z ɛ l eː k
 főzelékek	f øː z ɛ l eː k ɛ k
 főzet	f øː z ɛ t
 főzetek	f øː z ɛ t ɛ k
-fűzfa	f yː s f ɒ
-fűzfapoéta	f yː s f ɒ p oʲ eː t ɒ
-fűzfák	f yː s f aː k
-fűzhet	f yː s h ɛ t
 főzhet	f øː s h ɛ t
 főzni	f øː z n i
 főznie	f øː z n iʲ ɛ
@@ -12587,14 +12557,44 @@ főznünk	f øː z n y ŋ k
 főzzük	f øː zː y k
 főzés	f øː z eː ʃ
 főzöl	f øː z ø l
+főző	f øː z øː
+főzőkanál	f øː z øː k ɒ n aː l
+főút	f øː uː t
+fű	f yː
+fűnek	f yː n ɛ k
+fűnyíró	f yː ɲ iː r oː
+fűre	f yː r ɛ
+fűrész	f yː r eː s
+fűrészek	f yː r eː s ɛ k
+fűrészel	f yː r eː s ɛ l
+fűrészgép	f yː r eː z ɡ eː p
+fűrészpor	f yː r eː s p o r
+fűszer	f yː s ɛ r
+fűszerek	f yː s ɛ r ɛ k
+fűszeres	f yː s ɛ r ɛ ʃ
+fűszeresek	f yː s ɛ r ɛ ʃ ɛ k
+fűszerez	f yː s ɛ r ɛ z
+fűt	f yː t
+fűteni	f yː t ɛ n i
+fűthet	f yː t h ɛ t
+fűtés	f yː t eː ʃ
+fűtések	f yː t eː ʃ ɛ k
+fűtési	f yː t eː ʃ i
+fűtésszerelő	f yː t eː ʃ s ɛ r ɛ l øː
+fűtő	f yː t øː
+fűtők	f yː t øː k
+fűtőtest	f yː t øː t ɛ ʃ t
+fűtőtestek	f yː t øː t ɛ ʃ t ɛ k
+fűz	f yː z
+fűzfa	f yː s f ɒ
+fűzfapoéta	f yː s f ɒ p oʲ eː t ɒ
+fűzfák	f yː s f aː k
+fűzhet	f yː s h ɛ t
 fűzöld	f yː z ø l d
 fűző	f yː z øː
-főző	f øː z øː
 fűződik	f yː z øː d i k
 fűződő	f yː z øː d øː
 fűzők	f yː z øː k
-főzőkanál	f øː z øː k ɒ n aː l
-főút	f øː uː t
 gabi	ɡ ɒ b i
 gabon	ɡ ɒ b o n
 gabona	ɡ ɒ b o n ɒ
@@ -13517,6 +13517,22 @@ gyümölcsöt	ɟ y m ø l t͡ʃ ø t
 gyümölcsözik	ɟ y m ø l t͡ʃ ø z i k
 gyümölcsözés	ɟ y m ø l t͡ʃ ø z eː ʃ
 gyümölcsözések	ɟ y m ø l t͡ʃ ø z eː ʃ ɛ k
+győr	ɟ øː r
+győrben	ɟ øː r b ɛ n
+győri	ɟ øː r i
+győrött	ɟ øː r ø tː
+győz	ɟ øː z
+győzelem	ɟ øː z ɛ l ɛ m
+győzelemben	ɟ øː z ɛ l ɛ m b ɛ n
+győzelmek	ɟ øː z ɛ l m ɛ k
+győzelmeket	ɟ øː z ɛ l m ɛ k ɛ t
+győzelmes	ɟ øː z ɛ l m ɛ ʃ
+győzelmet	ɟ øː z ɛ l m ɛ t
+győzhet	ɟ øː s h ɛ t
+győzni	ɟ øː z n i
+győztes	ɟ øː s t ɛ ʃ
+győzött	ɟ øː z ø tː
+győző	ɟ øː z øː
 gyűjt	ɟ yː j t
 gyűjtemény	ɟ yː j t ɛ m eː ɲ
 gyűjteménye	ɟ yː j t ɛ m eː ɲ ɛ
@@ -13542,14 +13558,10 @@ gyűlöletek	ɟ yː l ø l ɛ t ɛ k
 gyűlöletes	ɟ yː l ø l ɛ t ɛ ʃ
 gyűlölködő	ɟ yː l ø l k ø d øː
 gyűr	ɟ yː r
-győr	ɟ øː r
-győrben	ɟ øː r b ɛ n
 gyűrhet	ɟ yː r ɦ ɛ t
-győri	ɟ øː r i
-győrött	ɟ øː r ø tː
-gyűrű	ɟ yː r yː
 gyűrődés	ɟ yː r øː d eː ʃ
 gyűrődések	ɟ yː r øː d eː ʃ ɛ k
+gyűrű	ɟ yː r yː
 gyűrűitek	ɟ yː r yːʲ i t ɛ k
 gyűrűje	ɟ yː r yː j ɛ
 gyűrűjéből	ɟ yː r yː j eː b øː l
@@ -13561,18 +13573,6 @@ gyűrűtök	ɟ yː r yː t ø k
 gyűszű	ɟ yː s yː
 gyűszűvirág	ɟ yː s yː v i r aː ɡ
 gyűszűvirágok	ɟ yː s yː v i r aː ɡ o k
-győz	ɟ øː z
-győzelem	ɟ øː z ɛ l ɛ m
-győzelemben	ɟ øː z ɛ l ɛ m b ɛ n
-győzelmek	ɟ øː z ɛ l m ɛ k
-győzelmeket	ɟ øː z ɛ l m ɛ k ɛ t
-győzelmes	ɟ øː z ɛ l m ɛ ʃ
-győzelmet	ɟ øː z ɛ l m ɛ t
-győzhet	ɟ øː s h ɛ t
-győzni	ɟ øː z n i
-győztes	ɟ øː s t ɛ ʃ
-győzött	ɟ øː z ø tː
-győző	ɟ øː z øː
 gá	ɡ aː
 gábor	ɡ aː b o r
 gácsér	ɡ aː t͡ʃ eː r
@@ -16210,21 +16210,15 @@ hüvelyk	h y v ɛ j k
 hüvelykek	h y v ɛ j k ɛ k
 hüvelykujj	h y v ɛ j k u jː
 hüvelykujjak	h y v ɛ j k u jː ɒ k
-hű	h yː
 hő	h øː
-hűen	h yː ɛ n
 hőguta	h øː ɡ u t ɒ
-hűha	h yː ɦ ɒ
 hőhullám	h øː ɦ u lː aː m
 hőhullámok	h øː ɦ u lː aː m o k
 hők	h øː k
-hűl	h yː l
-hűlhet	h yː l ɦ ɛ t
 hőmérséklet	h øː m eː r ʃ eː k l ɛ t
 hőmérsékletek	h øː m eː r ʃ eː k l ɛ t ɛ k
 hőmérő	h øː m eː r øː
 hőmérők	h øː m eː r øː k
-hűs	h yː ʃ
 hős	h øː ʃ
 hőse	h øː ʃ ɛ
 hősi	h øː ʃ i
@@ -16234,14 +16228,21 @@ hősnők	h øː ʃ n øː k
 hőssé	h øː ʃː eː
 hősugárzó	h øː ʃ u ɡ aː r z oː
 hősugárzók	h øː ʃ u ɡ aː r z oː k
-hűség	h yː ʃ eː ɡ
 hőség	h øː ʃ eː ɡ
-hűséges	h yː ʃ eː ɡ ɛ ʃ
 hősöd	h øː ʃ ø d
 hősök	h øː ʃ ø k
+hőtan	h øː t ɒ n
+hővezetés	h øː v ɛ z ɛ t eː ʃ
+hű	h yː
+hűen	h yː ɛ n
+hűha	h yː ɦ ɒ
+hűl	h yː l
+hűlhet	h yː l ɦ ɛ t
+hűs	h yː ʃ
+hűség	h yː ʃ eː ɡ
+hűséges	h yː ʃ eː ɡ ɛ ʃ
 hűsöl	h yː ʃ ø l
 hűt	h yː t
-hőtan	h øː t ɒ n
 hűthet	h yː t h ɛ t
 hűtlen	h yː t l ɛ n
 hűtlenség	h yː t l ɛ n ʃ eː ɡ
@@ -16252,7 +16253,6 @@ hűtőszekrény	h yː t øː s ɛ k r eː ɲ
 hűtőszekrények	h yː t øː s ɛ k r eː ɲ ɛ k
 hűtőtáska	h yː t øː t aː ʃ k ɒ
 hűtőtáskák	h yː t øː t aː ʃ k aː k
-hővezetés	h øː v ɛ z ɛ t eː ʃ
 hűvös	h yː v ø ʃ
 hűvösebb	h yː v ø ʃ ɛ bː
 iaszón	j ɒ s oː n
@@ -16269,8 +16269,8 @@ ibrikem	i b r i k ɛ m
 ibriketek	i b r i k ɛ t ɛ k
 ibrikük	i b r i k y k
 ibrikünk	i b r i k y ŋ k
-id.	i d øː ʒ b
 id.	i d øː ʃ ɛ bː
+id.	i d øː ʒ b
 ida	i d ɒ
 idd	i dː
 ide	i d ɛ
@@ -22275,16 +22275,16 @@ kőomlás	k øː o m l aː ʃ
 kőomlások	k øː o m l aː ʃ o k
 kőpad	k øː p ɒ d
 kőpadok	k øː p ɒ d o k
-kűr	k yː r
 kőr	k øː r
 kőris	k øː r i ʃ
-kűrium	k yː r iʲ u m
 kőrök	k øː r ø k
 kővel	k øː v ɛ l
 kővé	k øː v eː
 kőzet	k øː z ɛ t
 kőzetlemez	k øː z ɛ t l ɛ m ɛ z
 kőzettan	k øː z ɛ tː ɒ n
+kűr	k yː r
+kűrium	k yː r iʲ u m
 la	l ɒ
 labda	l ɒ b d ɒ
 labdacs	l ɒ b d ɒ t͡ʃ
@@ -25512,7 +25512,6 @@ mellétek	m ɛ lː eː t ɛ k
 mellúszás	m ɛ lː uː s aː ʃ
 mellüreg	m ɛ lː y r ɛ ɡ
 mellüregek	m ɛ lː y r ɛ ɡ ɛ k
-mellű	m ɛ lː yː
 mellől	m ɛ lː øː l
 mellőle	m ɛ lː øː l ɛ
 mellőled	m ɛ lː øː l ɛ d
@@ -25520,6 +25519,7 @@ mellőlem	m ɛ lː øː l ɛ m
 mellőletek	m ɛ lː øː l ɛ t ɛ k
 mellőlük	m ɛ lː øː l y k
 mellőlünk	m ɛ lː øː l y ŋ k
+mellű	m ɛ lː yː
 melpomené	m ɛ l p o m ɛ n eː
 mely	m ɛ j
 melybe	m ɛ j b ɛ
@@ -28059,9 +28059,9 @@ nyelvük	ɲ ɛ l v y k
 nyelvünk	ɲ ɛ l v y ŋ k
 nyelvű	ɲ ɛ l v yː
 nyelés	ɲ ɛ l eː ʃ
-nyelű	ɲ ɛ l yː
 nyelőcsövek	ɲ ɛ l øː t͡ʃ ø v ɛ k
 nyelőcső	ɲ ɛ l øː t͡ʃ øː
+nyelű	ɲ ɛ l yː
 nyenyec	ɲ ɛ ɲ ɛ t͡s
 nyenyecek	ɲ ɛ ɲ ɛ t͡s ɛ k
 nyenyere	ɲ ɛ ɲ ɛ r ɛ
@@ -28558,7 +28558,6 @@ növénytan	n ø v eː ɲ t ɒ n
 növés	n ø v eː ʃ
 növések	n ø v eː ʃ ɛ k
 nüx	n y k s
-nű	n yː
 nő	n øː
 nődögél	n øː d ø ɡ eː l
 nőgyógyász	n øː ɟ oː ɟ aː s
@@ -28591,6 +28590,7 @@ nővel	n øː v ɛ l
 nővé	n øː v eː
 nővér	n øː v eː r
 nővérek	n øː v eː r ɛ k
+nű	n yː
 obeliszk	o b ɛ l i s k
 obi	o b i
 objektivitás	o b j ɛ k t i v i t aː ʃ
@@ -32263,8 +32263,8 @@ rühön	r y ɦ ø n
 rühöt	r y ɦ ø t
 rőzse	r øː ʒ ɛ
 rőzsék	r øː ʒ eː k
-s	ʃ
 s	ɛ ʃː
+s	ʃ
 sablon	ʃ ɒ b l o n
 sablonja	ʃ ɒ b l o ɲː ɒ
 sablonjai	ʃ ɒ b l o ɲː ɒʲ i
@@ -32627,9 +32627,9 @@ senkin	ʃ ɛ ŋ k i n
 senkinek	ʃ ɛ ŋ k i n ɛ k
 senkit	ʃ ɛ ŋ k i t
 seper	ʃ ɛ p ɛ r
-seprű	ʃ ɛ p r yː
 seprő	ʃ ɛ p r øː
 seprők	ʃ ɛ p r øː k
+seprű	ʃ ɛ p r yː
 ser	ʃ ɛ r
 serbli	ʃ ɛ r b l i
 serblik	ʃ ɛ r b l i k
@@ -35473,37 +35473,26 @@ szürrealistább	s y rː ɛ ɒ l i ʃ t aː bː
 szüzesség	s y z ɛ ʃː eː ɡ
 szüzességek	s y z ɛ ʃː eː ɡ ɛ k
 sző	s øː
-szűcs	s yː t͡ʃ
 szőhet	s øː ɦ ɛ t
 szőj	s øː j
-szűk	s yː k
 szőke	s øː k ɛ
-szűkebb	s yː k ɛ bː
-szűkszavú	s yː k s ɒ v uː
 szőkés	s øː k eː ʃ
 szőkít	s øː k iː t
-szűkös	s yː k ø ʃ
 szőlő	s øː l øː
 szőlők	s øː l øː k
 szőlőszem	s øː l øː s ɛ m
 szőlőzsír	s øː l øː ʒ iː r
-szűnik	s yː n i k
 szőnyeg	s øː ɲ ɛ ɡ
 szőnyegek	s øː ɲ ɛ ɡ ɛ k
 szőnyegen	s øː ɲ ɛ ɡ ɛ n
 szőnyegporoló	s øː ɲ ɛ k p o r o l oː
-szűr	s yː r
 szőr	s øː r
-szűrhet	s yː r ɦ ɛ t
 szőrme	s øː r m ɛ
 szőrmék	s øː r m eː k
 szőrtelen	s øː r t ɛ l ɛ n
-szűrök	s yː r ø k
 szőrös	s øː r ø ʃ
 szőrösek	s øː r ø ʃ ɛ k
-szűrő	s yː r øː
 szőrű	s øː r yː
-szűrők	s yː r øː k
 szőttek	s øː tː ɛ k
 szőttem	s øː tː ɛ m
 szőttetek	s øː tː ɛ t ɛ k
@@ -35511,6 +35500,17 @@ szőttél	s øː tː eː l
 szőttétek	s øː tː eː t ɛ k
 szőttük	s øː tː y k
 szőttünk	s øː tː y ŋ k
+szűcs	s yː t͡ʃ
+szűk	s yː k
+szűkebb	s yː k ɛ bː
+szűkszavú	s yː k s ɒ v uː
+szűkös	s yː k ø ʃ
+szűnik	s yː n i k
+szűr	s yː r
+szűrhet	s yː r ɦ ɛ t
+szűrök	s yː r ø k
+szűrő	s yː r øː
+szűrők	s yː r øː k
 szűz	s yː z
 szűzhártya	s yː s h aː r c ɒ
 sábát	ʃ aː b aː t
@@ -35835,6 +35835,7 @@ süveg	ʃ y v ɛ ɡ
 süvegcukor	ʃ y v ɛ k t͡s u k o r
 süvegcukrok	ʃ y v ɛ k t͡s u k r o k
 süvegel	ʃ y v ɛ ɡ ɛ l
+sőt	ʃ øː t
 sűrít	ʃ yː r iː t
 sűrítmény	ʃ yː r iː t m eː ɲ
 sűrítmények	ʃ yː r iː t m eː ɲ ɛ k
@@ -35842,7 +35843,6 @@ sűrű	ʃ yː r yː
 sűrűn	ʃ yː r yː n
 sűrűség	ʃ yː r yː ʃ eː ɡ
 sűrűségek	ʃ yː r yː ʃ eː ɡ ɛ k
-sőt	ʃ øː t
 t.	t i s t ɛ l t
 tabletta	t ɒ b l ɛ tː ɒ
 tabulátor	t ɒ b u l aː t o r
@@ -37116,9 +37116,9 @@ testület	t ɛ ʃ t y l ɛ t
 testületek	t ɛ ʃ t y l ɛ t ɛ k
 testületi	t ɛ ʃ t y l ɛ t i
 testünk	t ɛ ʃ t y ŋ k
-testű	t ɛ ʃ t yː
 testőr	t ɛ ʃ t øː r
 testőrök	t ɛ ʃ t øː r ø k
+testű	t ɛ ʃ t yː
 tesz	t ɛ s
 teszed	t ɛ s ɛ d
 teszek	t ɛ s ɛ k
@@ -37174,7 +37174,6 @@ tették	t ɛ tː eː k
 tettük	t ɛ tː y k
 tettünk	t ɛ tː y ŋ k
 tetves	t ɛ t v ɛ ʃ
-tetű	t ɛ t yː
 tető	t ɛ t øː
 tetőcsomagtartó	t ɛ t øː t͡ʃ o m ɒ k t ɒ r t oː
 tetők	t ɛ t øː k
@@ -37184,6 +37183,7 @@ tetőled	t ɛ t øː l ɛ d
 tetőn	t ɛ t øː n
 tetőt	t ɛ t øː t
 tetőtől	t ɛ t øː t øː l
+tetű	t ɛ t yː
 teve	t ɛ v ɛ
 tevegel	t ɛ v ɛ ɡ ɛ l
 teveled	t ɛ v ɛ l ɛ d
@@ -38757,46 +38757,52 @@ tüzér	t y z eː r
 tüzérek	t y z eː r ɛ k
 tüzérség	t y z eː r ʃ eː ɡ
 tüzérségek	t y z eː r ʃ eː ɡ ɛ k
-tű	t yː
 tő	t øː
 tőből	t øː b øː l
 tőgy	t øː ɟ
-tűk	t yː k
 tőke	t øː k ɛ
 tőkehal	t øː k ɛ ɦ ɒ l
 tőkehalak	t øː k ɛ ɦ ɒ l ɒ k
 tőkék	t øː k eː k
 tőkét	t øː k eː t
-tűkön	t yː k ø n
 tőle	t øː l ɛ
 tőled	t øː l ɛ d
 tőlem	t øː l ɛ m
 tőletek	t øː l ɛ t ɛ k
 tőlük	t øː l y k
 tőlünk	t øː l y ŋ k
+tőr	t øː r
+tőre	t øː r ɛ
+tőrök	t øː r ø k
+tőszám	t øː s aː m
+tőszámnevek	t øː s aː m n ɛ v ɛ k
+tőszámnév	t øː s aː m n eː v
+tőszámok	t øː s aː m o k
+tőzeg	t øː z ɛ ɡ
+tőzegek	t øː z ɛ ɡ ɛ k
+tőzegáfonya	t øː z ɛ ɡ aː f o ɲ ɒ
+tőzike	t øː z i k ɛ
+tőzikék	t øː z i k eː k
+tőzsde	t øː ʒ d ɛ
+tőzsdei	t øː ʒ d ɛʲ i
+tőzsdeügynök	t øː ʒ d ɛ y ɟ n ø k
+tőzsdék	t øː ʒ d eː k
+tű	t yː
+tűk	t yː k
+tűkön	t yː k ø n
 tűnik	t yː n i k
 tűnt	t yː n t
 tűpárna	t yː p aː r n ɒ
 tűpárnák	t yː p aː r n aː k
 tűr	t yː r
-tőr	t øː r
-tőre	t øː r ɛ
 tűrhetetlen	t yː r ɦ ɛ t ɛ t l ɛ n
-tőrök	t øː r ø k
 tűrő	t yː r øː
 tűrőképesség	t yː r øː k eː p ɛ ʃː eː ɡ
 tűsarok	t yː ʃ ɒ r o k
-tőszám	t øː s aː m
-tőszámnevek	t øː s aː m n ɛ v ɛ k
-tőszámnév	t øː s aː m n eː v
-tőszámok	t øː s aː m o k
 tűvé	t yː v eː
 tűz	t yː z
 tűzcsap	t yː s t͡ʃ ɒ p
 tűzcsapok	t yː s t͡ʃ ɒ p o k
-tőzeg	t øː z ɛ ɡ
-tőzegek	t øː z ɛ ɡ ɛ k
-tőzegáfonya	t øː z ɛ ɡ aː f o ɲ ɒ
 tűzfal	t yː s f ɒ l
 tűzfalak	t yː s f ɒ l ɒ k
 tűzfegyver	t yː s f ɛ ɟ v ɛ r
@@ -38817,8 +38823,6 @@ tűzijáték	t y z i j aː t eː k
 tűzijáték	t yː z i j aː t eː k
 tűzijátékok	t y z i j aː t eː k o k
 tűzijátékok	t yː z i j aː t eː k o k
-tőzike	t øː z i k ɛ
-tőzikék	t øː z i k eː k
 tűzoltó	t yː z o l t oː
 tűzoltóautó	t yː z o l t oː ɒ u t oː
 tűzoltók	t yː z o l t oː k
@@ -38826,10 +38830,6 @@ tűzoltókat	t yː z o l t oː k ɒ t
 tűzoltóság	t yː z o l t oː ʃ aː ɡ
 tűzoltóságok	t yː z o l t oː ʃ aː ɡ o k
 tűzre	t yː z r ɛ
-tőzsde	t øː ʒ d ɛ
-tőzsdei	t øː ʒ d ɛʲ i
-tőzsdeügynök	t øː ʒ d ɛ y ɟ n ø k
-tőzsdék	t øː ʒ d eː k
 tűzszünet	t yː sː y n ɛ t
 tűzszünetek	t yː sː y n ɛ t ɛ k
 tűzveszélyes	t yː z v ɛ s eː j ɛ ʃ
@@ -44541,7 +44541,6 @@ zűrök	z yː r ø k
 őnáluk	øː n aː l u k
 őnéki	øː n eː k i
 őnékik	øː n eː k i k
-űr	yː r
 őr	øː r
 őrajta	øː r ɒ j t ɒ
 őrajtuk	øː r ɒ j t u k
@@ -44555,43 +44554,19 @@ zűrök	z yː r ø k
 őrgrófné	øː r ɡ r oː f n eː
 őrgrófság	øː r ɡ r oː f ʃ aː ɡ
 őrgrófságok	øː r ɡ r oː f ʃ aː ɡ o k
-űrhajó	yː r ɦ ɒ j oː
-űrhajók	yː r ɦ ɒ j oː k
-űrhajós	yː r ɦ ɒ j oː ʃ
-űrhajószemélyzet	yː r ɦ ɒ j oː s ɛ m eː j z ɛ t
 őriz	øː r i z
 őrizet	øː r i z ɛ t
 őrizetbe	øː r i z ɛ d b ɛ
 őrizetek	øː r i z ɛ t ɛ k
-űrkutatás	yː r k u t ɒ t aː ʃ
-űrlap	yː r l ɒ p
-űrlapok	yː r l ɒ p o k
 őrlemény	øː r l ɛ m eː ɲ
 őrlemények	øː r l ɛ m eː ɲ ɛ k
-űrlény	yː r l eː ɲ
 őrmester	øː r m ɛ ʃ t ɛ r
 őrmesterek	øː r m ɛ ʃ t ɛ r ɛ k
 őrnagy	øː r n ɒ ɟ
 őrnek	øː r n ɛ k
-űrpálya	yː r p aː j ɒ
-űrpályák	yː r p aː j aː k
-űrrepülés	yː rː ɛ p y l eː ʃ
-űrrepülőgép	yː rː ɛ p y l øː ɡ eː p
-űrrepülőgépek	yː rː ɛ p y l øː ɡ eː p ɛ k
-űrruha	yː rː u ɦ ɒ
-űrruhák	yː rː u ɦ aː k
-űrruhát	yː rː u ɦ aː t
-űrsikló	yː r ʃ i k l oː
-űrsiklók	yː r ʃ i k l oː k
-űrszonda	yː r s o n d ɒ
-űrszondák	yː r s o n d aː k
-űrséta	yː r ʃ eː t ɒ
-űrséták	yː r ʃ eː t aː k
 őrá	øː r aː
 őrája	øː r aː j ɒ
 őrájuk	øː r aː j u k
-űrállomás	yː r aː lː o m aː ʃ
-űrállomások	yː r aː lː o m aː ʃ o k
 őróla	øː r oː l ɒ
 őróluk	øː r oː l u k
 őrök	øː r ø k
@@ -44653,18 +44628,43 @@ zűrök	z yː r ø k
 ővelük	øː v ɛ l y k
 ővéle	øː v eː l ɛ
 ővélük	øː v eː l y k
-űz	yː z
 őz	øː z
 őzbarna	øː z b ɒ r n ɒ
-űzd	yː z d
 őzek	øː z ɛ k
-űzhet	yː s h ɛ t
 őzik	øː z i k
-űzz	yː zː
-űző	yː z øː
 őáltala	øː aː l t ɒ l ɒ
 őáltaluk	øː aː l t ɒ l u k
 őérette	øːʲ eː r ɛ tː ɛ
 őérettük	øːʲ eː r ɛ tː y k
 őérte	øːʲ eː r t ɛ
 őértük	øːʲ eː r t y k
+űr	yː r
+űrhajó	yː r ɦ ɒ j oː
+űrhajók	yː r ɦ ɒ j oː k
+űrhajós	yː r ɦ ɒ j oː ʃ
+űrhajószemélyzet	yː r ɦ ɒ j oː s ɛ m eː j z ɛ t
+űrkutatás	yː r k u t ɒ t aː ʃ
+űrlap	yː r l ɒ p
+űrlapok	yː r l ɒ p o k
+űrlény	yː r l eː ɲ
+űrpálya	yː r p aː j ɒ
+űrpályák	yː r p aː j aː k
+űrrepülés	yː rː ɛ p y l eː ʃ
+űrrepülőgép	yː rː ɛ p y l øː ɡ eː p
+űrrepülőgépek	yː rː ɛ p y l øː ɡ eː p ɛ k
+űrruha	yː rː u ɦ ɒ
+űrruhák	yː rː u ɦ aː k
+űrruhát	yː rː u ɦ aː t
+űrsikló	yː r ʃ i k l oː
+űrsiklók	yː r ʃ i k l oː k
+űrszonda	yː r s o n d ɒ
+űrszondák	yː r s o n d aː k
+űrséta	yː r ʃ eː t ɒ
+űrséták	yː r ʃ eː t aː k
+űrállomás	yː r aː lː o m aː ʃ
+űrállomások	yː r aː lː o m aː ʃ o k
+űz	yː z
+űzd	yː z d
+űzhet	yː s h ɛ t
+űzz	yː zː
+űző	yː z øː

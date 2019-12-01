@@ -135,8 +135,8 @@ aer	aː ɨ̯ r
 aeron	e ɨ̯ r ɔ n
 aeronen	e ɨ̯ r ɔ n a n
 aeronen	e ɨ̯ r ɔ n ɛ n
-aeth	aː θ
 aeth	aː ɨ̯ θ
+aeth	aː θ
 aethai	e ɨ̯ θ a i̯
 aethant	e ɨ̯ θ a n t
 aethech	e ɨ̯ θ ɛ χ
@@ -1445,8 +1445,8 @@ derbynfa	d ɛ r b ə n v a
 derbyniad	d ɛ r b ə n j a d
 derbyniol	d ɛ r b ə n j o l
 derbynneb	d ɛ r b ə n ɛ b
-derbynnydd	d ɛ r b ə n ɪ ð
 derbynnydd	d ɛ r b ə n ɨ̞ ð
+derbynnydd	d ɛ r b ə n ɪ ð
 deri	d ɛ r ɪ
 derw	d ɛ r ʊ
 derwen	d ɛ r w ɛ n
@@ -1505,18 +1505,18 @@ dirmygu	d ɪ r m ə ɡ ɨ
 dirmygus	d ɪ r m ə ɡ ɨ̞ s
 dirwy	d ɪ r ʊ ɨ̯
 disgwyl	d ɪ s ɡ ʊ ɨ̯ l
-disgybl	d ɪ s ɡ ɪ b l
 disgybl	d ɪ s ɡ ɨ̞ b l
-disgyn	d ɪ s ɡ ɪ n
+disgybl	d ɪ s ɡ ɪ b l
 disgyn	d ɪ s ɡ ɨ̞ n
+disgyn	d ɪ s ɡ ɪ n
 diwedd	d ɪ u̯ a ð
 diwedd	d ɪ u̯ ɛ ð
 diwethaf	d w ɛ θ a
 diwethaf	d w ɪ θ a
 diwethaf	d ɪ u̯ ɛ θ a
 diwethaf	d ɪ u̯ ɛ θ a v
-diwrnod	d ʊ r n ɔ d
 diwrnod	d ɪ u̯ r n ɔ d
+diwrnod	d ʊ r n ɔ d
 diwyd	d ɪ u̯ ɨ̞ d
 diwyr	d ɪ ʊ ɨ̯ r
 do'ch	d oː χ
@@ -1597,8 +1597,8 @@ dw	d w
 dw	d ʊ
 dweud	d e i̯ d
 dweud	d w e i̯ d
-dwfn	d ʊ v n
 dwfn	d ɨ̞ v n
+dwfn	d ʊ v n
 dwfr	d ʊ v r
 dwg	d uː ɡ
 dwrgi	d ʊ r ɡ ɪ
@@ -1649,8 +1649,8 @@ dâl	d aː l
 dân	d aː n
 dâr	d aː r
 dòl	d ɔ l
-dŷ	d ɨː
 dŵr	d uː r
+dŷ	d ɨː
 e	eː
 eang	ɛ a ŋ
 ebargofiant	ɛ b a r ɡ ɔ v j a n t
@@ -2143,8 +2143,8 @@ golwr	ɡ ɔ l ʊ r
 golygfeydd	ɡ ɔ l ə ɡ v e ɨ̯ ð
 gor	ɡ ɔ r
 gorchaw	ɡ ɔ r χ a u̯
-gorchudd	ɡ ɔ r χ ɪ ð
 gorchudd	ɡ ɔ r χ ɨ̞ ð
+gorchudd	ɡ ɔ r χ ɪ ð
 gorchuddio	ɡ ɔ r χ ɨ̞ ð j ɔ
 gorffen	ɡ ɔ r f a n
 gorffen	ɡ ɔ r f ɛ n
@@ -2314,8 +2314,8 @@ gwyddon	ɡ w ə ð ɔ n
 gwyddor	ɡ ʊ ɨ̯ ð ɔ r
 gwyfyn	ɡ w ə v ɨ̞ n
 gwylan	ɡ ʊ ɨ̯ l a n
-gwylio	ɡ w ɪ l j ɔ
 gwylio	ɡ w ɨ̞ l j ɔ
+gwylio	ɡ w ɪ l j ɔ
 gwyll	ɡ w ɨ̞ ɬ
 gwylliaid	ɡ w ɨ̞ ɬ j a i̯ d
 gwylliaid	ɡ w ɨ̞ ɬ j ɛ d
@@ -2364,12 +2364,12 @@ gêm	ɡ eː m
 gên	ɡ eː n
 gôl	ɡ oː l
 gŵr	ɡ uː r
-gẃraidd	ɡ ʊ r a i̯ ð
 gŵydd	ɡ uː ɨ̯ ð
 gŵyl	ɡ uː ɨ̯ l
 gŵyll	ɡ uː ɨ̯ ɬ
 gŵyr	ɡ uː ɨ̯ r
 gŵyth	ɡ uː ɨ̯ θ
+gẃraidd	ɡ ʊ r a i̯ ð
 haber	h a b ɛ r
 habwyd	h a b ʊ ɨ̯ d
 hach	aː χ
@@ -2450,8 +2450,8 @@ helaeth	h ɛ l a ɨ̞ θ
 helaeth	h ɛ l ɛ θ
 heliwm	h ɛ l j ʊ m
 help	h ɛ l p
-helyg	h ɛ l ɪ ɡ
 helyg	h ɛ l ɨ̞ ɡ
+helyg	h ɛ l ɪ ɡ
 helygen	h ɛ l ə ɡ a n
 helygen	h ɛ l ə ɡ ɛ n
 hen	h eː n
@@ -2537,8 +2537,8 @@ hydrefau	h ə d r ɛ v a ɨ̯
 hydrefau	h ə d r ɛ v ɛ
 hyfed	h ə v ɛ d
 hylif	h ə l ɪ v
-hyll	h ɪ ɬ
 hyll	h ɨ̞ ɬ
+hyll	h ɪ ɬ
 hymasiad	h ə m a ʃ a d
 hymenyn	h ə m ɛ n ɨ̞ n
 hynafol	h ə n a v ɔ l
@@ -3180,8 +3180,8 @@ nhyrrau	n̥ ə r a ɨ
 nhyrrau	n̥ ə r ɛ
 nhâl	n̥ aː l
 nhân	n̥ aː n
-nhŷ	n̥ ɨː
 nhŵr	n̥ uː r
+nhŷ	n̥ ɨː
 ni	n iː
 nid	n ɪ d
 nitrogen	n ɪ t r ɔ ɡ ɛ n
@@ -3409,8 +3409,8 @@ porchell	p ɔ r χ ɛ ɬ
 porffor	p ɔ r f ɔ r
 pori	p ɔ r i
 post	p oː s d
-powys	p o u̯ ɪ s
 powys	p o u̯ ɨ̞ s
+powys	p o u̯ ɪ s
 prawf	p r a u̯ v
 pren	p r ɛ n
 preswyl	p r ɛ s ʊ ɨ̯ l
@@ -3562,15 +3562,15 @@ rhyfel	r̥ ə v a l
 rhyfel	r̥ ə v ɛ l
 rhyfelwr	r̥ ə v ɛ l ʊ r
 rhyw	r̥ ɪ u̯
-rhywbeth	r̥ ʊ b a θ
-rhywbeth	r̥ ʊ b ɛ θ
 rhywbeth	r̥ ɪ u̯ b a θ
 rhywbeth	r̥ ɪ u̯ b ɛ θ
+rhywbeth	r̥ ʊ b a θ
+rhywbeth	r̥ ʊ b ɛ θ
 rhywiol	r̥ ɪ u̯ j ɔ l
-rhywle	r̥ ʊ l a
-rhywle	r̥ ʊ l ɛ
 rhywle	r̥ ɪ u̯ l a
 rhywle	r̥ ɪ u̯ l ɛ
+rhywle	r̥ ʊ l a
+rhywle	r̥ ʊ l ɛ
 rhywsut	r̥ ɪ u̯ s ɨ̞ t
 rhywun	r̥ ɪ u̯ ɨ̞ n
 rif	r iː v
@@ -3594,14 +3594,14 @@ ryddhau	r ə ð h a ɨ̯
 rydw	r ə d u
 rydw	r ə d w
 rygbi	r ə ɡ b i
-rywbeth	r ʊ b a θ
-rywbeth	r ʊ b ɛ θ
 rywbeth	r ɪ u̯ b a θ
 rywbeth	r ɪ u̯ b ɛ θ
-rywle	r ʊ l a
-rywle	r ʊ l ɛ
+rywbeth	r ʊ b a θ
+rywbeth	r ʊ b ɛ θ
 rywle	r ɪ u̯ l a
 rywle	r ɪ u̯ l ɛ
+rywle	r ʊ l a
+rywle	r ʊ l ɛ
 rywsut	r ɪ u̯ s ɨ̞ t
 rywun	r ɪ u̯ ɨ̞ n
 sach	s aː χ
@@ -3813,8 +3813,8 @@ tawa	t a u̯ a
 tawe	t a u̯ ɛ
 tawel	t a u̯ ɛ l
 tawn	t a u̯ n
-tebyg	t ɛ b ɪ ɡ
 tebyg	t ɛ b ɨ̞ ɡ
+tebyg	t ɛ b ɪ ɡ
 teg	t eː ɡ
 tei	t e i̯
 teigr	t e i̯ ɡ r
@@ -3911,8 +3911,8 @@ thyrrau	θ ə r a ɨ
 thyrrau	θ ə r ɛ
 thâl	θ aː l
 thân	θ aː n
-thŷ	θ ɨː
 thŵr	θ uː r
+thŷ	θ ɨː
 ti	t iː
 tir	t iː r
 titr	t ɪ t r
@@ -4059,8 +4059,8 @@ tywyll	t ə u̯ ɨ̞ ɬ
 tâl	t aː l
 tân	t aː n
 tâp	t aː p
-tŷ	t ɨː
 tŵr	t uː r
+tŷ	t ɨː
 uchel	ə χ a l
 uchel	ə χ ɛ l
 uchel	ɨ̞ χ ɛ l
@@ -4178,8 +4178,8 @@ wythfed	ʊ ɨ̯ θ v a d
 wythfed	ʊ ɨ̯ θ v ɛ d
 wythnos	ʊ s n ɔ s
 wythnos	ʊ s ɔ s
-wythnos	ʊ θ n ɔ s
 wythnos	ʊ ɨ̯ θ n ɔ s
+wythnos	ʊ θ n ɔ s
 wŷdd	w ɨː ð
 wŷn	w ɨː n
 wŷr	w ɨː r
@@ -4188,8 +4188,8 @@ ych	ɨː χ
 ychen	ə χ ɛ n
 ychwanegiad	ə χ w a n ɛ ɡ j a d
 ychwanegu	ə χ w a n ɛ ɡ ɨ
-ychydig	χ ə d ɨ̞ ɡ
 ychydig	ə χ ə d ɨ̞ ɡ
+ychydig	χ ə d ɨ̞ ɡ
 ydfran	ə d v r a n
 ydw	n d u
 ydw	ə d u
@@ -4224,8 +4224,8 @@ ynn	ɨ̞ n
 yr	ə r
 ysaf	ə s a v
 ysboncio	ə s b ɔ ŋ k j ɔ
-ysbryd	ə s b r ɪ d
 ysbryd	ə s b r ɨ̞ d
+ysbryd	ə s b r ɪ d
 ysbrydol	ə s b r ə d ɔ l
 ysbrydoli	ə s b r ə d ɔ l i
 ysbyty	ə s b ə t ɨ
@@ -4253,11 +4253,11 @@ ystradwel	ə s d r a d w ɛ l
 ystyr	ə s d ɨ̞ r
 ystyried	ə s d ə r j ɛ d
 ysu	ə s ɨ
-yw	ɪ u̯
 yw	ɨ̞ u̯
+yw	ɪ u̯
 ywen	ə u̯ ɛ n
-ywen	ɪ u̯ ɛ n
 ywen	ɨ̞ u̯ ɛ n
+ywen	ɪ u̯ ɛ n
 â	a
 âi	aː i̯
 âl	aː l

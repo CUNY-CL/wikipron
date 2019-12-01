@@ -712,8 +712,8 @@ bwrdd	b ʊ r ð
 bwrw	b uː r u
 bwrw	b ʊ r u
 bwyd	b ʊ i̯ d
-bwyta	b ʊ i̯ t a
 bwyta	b ɪ t a
+bwyta	b ʊ i̯ t a
 bwytadwy	b ʊ i̯ t a d ʊ i̯
 bwytadwy	b ʊ i̯ t aː d ʊ i̯
 bychan	b ə χ a n
@@ -1186,23 +1186,23 @@ chwech	h w eː χ
 chwech	w eː χ
 chwech	χ w eː χ
 chwedl	ʍ eː d ɛ l
+chwedl	ʍ ɛ d ɛ l
 chwedl	χ w eː d ɛ l
 chwedl	χ w ɛ d l
 chwedl	χ w ɛ d ɛ l
-chwedl	ʍ ɛ d ɛ l
-chwefror	χ w ɛ v r ɔ r
 chwefror	ʍ ɛ v r ɔ r
+chwefror	χ w ɛ v r ɔ r
 chwern	h w ɛ r n
 chwerw	ʍ eː r u
+chwerw	ʍ ɛ r u
 chwerw	χ w eː r u
 chwerw	χ w ɛ r u
-chwerw	ʍ ɛ r u
 chwi	χ w iː
 chwilio	w ɪ l j ɔ
 chwilio	w ɪ l ɔ
-chwilio	χ w ɪ l j ɔ
 chwilio	ʍ ɪ l j ɔ
 chwilio	ʍ ɪ l ɔ
+chwilio	χ w ɪ l j ɔ
 chwisgi	h w ɪ s ɡ i
 chwisgi	w ɪ s ɡ i
 chwith	w iː θ
@@ -1211,19 +1211,19 @@ chwith	χ w iː θ
 chwrs	χ ʊ r s
 chwydd	h w iː ð
 chwydd	χ ʊ i̯ ð
-chwyrn	χ w ɪ r n
 chwyrn	ʍ ɪ r n
+chwyrn	χ w ɪ r n
 chwyrnaf	χ w ə r n a v
 chwyrnu	h ʊ r n i
-chwyrnu	χ w ə r n i
 chwyrnu	ʍ ə r n i
+chwyrnu	χ w ə r n i
 chwys	ʍ iː s
 chwys	χ w iː s
 chwyth	h w iː θ
 chwythaf	h ʊ θ a
+chwythaf	ʍ ə θ a
 chwythaf	χ w ə θ a
 chwythaf	χ w ə θ a v
-chwythaf	ʍ ə θ a
 chwythu	h w ə θ i
 chwythu	h ʊ θ i
 chwythu	χ w ə θ i
@@ -1593,15 +1593,15 @@ cynghrair	k ə ŋ r a i̯ r
 cynghrair	k ə ŋ r ɛ r
 cynghrair	k ə ŋ r̥ a i̯ r
 cyngor	k ə ŋ ɔ r
-cyngyd	k ə ŋ ɪ d
 cyngyd	k ə ŋ ɡ ɪ d
+cyngyd	k ə ŋ ɪ d
 cynhadledd	k ə n h a d l ɛ ð
 cynhaeaf	k ə n h aː i̯ a v
 cynhorthwy	k ə n h ɔ r θ ʊ i̯
 cynhyrchu	k ə n h ə r χ i
 cynnau	k ə n a i̯
-cynnau	k ɪ n i
 cynnau	k ə n ɛ
+cynnau	k ɪ n i
 cynnau	k ɪ n ɛ
 cynnig	k ə n ɪ ɡ
 cynnud	k ə n ɪ d
@@ -1611,14 +1611,14 @@ cynnwys	k ə n ʊ i̯ s
 cynnydd	k ə n ɪ ð
 cynnyrch	k ə n ɪ r χ
 cyntaf	k ə n t a
-cyntaf	k ɪ n t a
 cyntaf	k ə n t a v
+cyntaf	k ɪ n t a
 cyntedd	k ə n t ɛ ð
 cyntefin	k ə n t eː v ɪ n
 cyntefin	k ə n t ɛ v ɪ n
 cynyddu	k ə n ə ð i
-cyn‌gyd	k ə ŋ ɪ d
 cyn‌gyd	k ə ŋ ɡ ɪ d
+cyn‌gyd	k ə ŋ ɪ d
 cyrchu	k ə r χ i
 cyrraedd	k ə r a i̯ ð
 cyrraedd	k ə r a ð
@@ -1643,8 +1643,8 @@ cywyddau	k ə w ə ð ɛ
 cân	k aː n
 câr	k aː r
 côr	k oː r
-cŷn	k iː n
 cŵn	k uː n
+cŷn	k iː n
 da	d aː
 dad	d aː d
 dadiol	d a d j ɔ l
@@ -1884,8 +1884,8 @@ diwethaf	d w ɛ θ a
 diwethaf	d ɪ u̯ ɛ θ a
 diwethaf	d ɪ u̯ ɛ θ a v
 diwrnod	d w ə r n ɔ d
-diwrnod	d ʊ r n ɔ d
 diwrnod	d ɪ u̯ r n ɔ d
+diwrnod	d ʊ r n ɔ d
 diwyd	d ɪ u̯ ɪ d
 diwyr	d i ʊ i̯ r
 diwyr	d iː ʊ i̯ r
@@ -2027,8 +2027,8 @@ dâl	d aː l
 dân	d aː n
 dâr	d aː r
 dòl	d ɔ l
-dŷ	d iː
 dŵr	d uː r
+dŷ	d iː
 e	eː
 eang	eː a ŋ
 eang	ɛ a ŋ
@@ -2369,11 +2369,11 @@ fwyaf	v ʊ i̯ a v
 fwyd	v ʊ i̯ d
 fyned	v ə n ɛ d
 fynydd	v ə n i
-fynydd	v ɪ n i
 fynydd	v ə n ɪ ð
-fynyddoedd	v ə n ə ð ɛ
+fynydd	v ɪ n i
 fynyddoedd	v ə n ə ð ɔ i̯ ð
 fynyddoedd	v ə n ə ð ɔ ð
+fynyddoedd	v ə n ə ð ɛ
 fyr	v ɪ r
 fys	v iː s
 fôn	v oː n
@@ -2867,12 +2867,12 @@ gwybod	ɡ w ɪ b ɔ d
 gwybod	ɡ ʊ b ɔ d
 gwybod	ɡ ʊ i̯ b ɔ d
 gwybodaeth	ɡ w ə b oː d a i̯ θ
-gwybodaeth	ɡ w ɪ b oː d a i̯ θ
 gwybodaeth	ɡ w ə b oː d ɛ θ
-gwybodaeth	ɡ w ɪ b oː d ɛ θ
 gwybodaeth	ɡ w ə b ɔ d a i̯ θ
-gwybodaeth	ɡ w ɪ b ɔ d a i̯ θ
 gwybodaeth	ɡ w ə b ɔ d ɛ θ
+gwybodaeth	ɡ w ɪ b oː d a i̯ θ
+gwybodaeth	ɡ w ɪ b oː d ɛ θ
+gwybodaeth	ɡ w ɪ b ɔ d a i̯ θ
 gwybodaeth	ɡ w ɪ b ɔ d ɛ θ
 gwybodaeth	ɡ ʊ i̯ b oː d a i̯ θ
 gwybodaeth	ɡ ʊ i̯ b oː d ɛ θ
@@ -2947,13 +2947,13 @@ gêm	ɡ eː m
 gên	ɡ eː n
 gôl	ɡ oː l
 gŵr	ɡ uː r
-gẃraidd	ɡ uː r a i̯ ð
-gẃraidd	ɡ ʊ r a i̯ ð
 gŵydd	ɡ ʊ i̯ ð
 gŵyl	ɡ ʊ i̯ l
 gŵyll	ɡ ʊ i̯ ɬ
 gŵyr	ɡ ʊ i̯ r
 gŵyth	ɡ ʊ i̯ θ
+gẃraidd	ɡ uː r a i̯ ð
+gẃraidd	ɡ ʊ r a i̯ ð
 haber	h a b ɛ r
 haber	h aː b ɛ r
 habwyd	h a b ʊ i̯ d
@@ -3158,8 +3158,8 @@ hydrefau	h ə d r ɛ v a i̯
 hydrefau	h ə d r ɛ v ɛ
 hyfed	h ə v ɛ d
 hylif	h ə l ɪ v
-hyll	h ɪ ɬ
 hyll	h ɨ̞ ɬ
+hyll	h ɪ ɬ
 hymasiad	h ə m a s j a d
 hymasiad	h ə m a ʃ a d
 hymenyn	h ə m eː n ɪ n
@@ -3390,8 +3390,8 @@ llydan	ɬ ə d a n
 llydaw	ɬ ə d a u̯
 llyf	ɬ iː v
 llyffant	ɬ ə f a n t
-llyfr	ɬ ɪ v r
 llyfr	ɬ ə v ɪ r
+llyfr	ɬ ɪ v r
 llyfr	ɬ ɪ v ɪ r
 llyfrau	ɬ ə v r a i̯
 llyfrau	ɬ ə v r ɛ
@@ -3414,9 +3414,9 @@ llysenw	ɬ ɪ s eː n u
 llysenw	ɬ ɪ s ɛ n u
 llysiau	ɬ ə s j a i̯
 llysiau	ɬ ə s j ɛ
-llysiau	ɬ ɪ s j ɛ
 llysiau	ɬ ə ʃ a i̯
 llysiau	ɬ ə ʃ ɛ
+llysiau	ɬ ɪ s j ɛ
 llysiau	ɬ ɪ ʃ ɛ
 llysieuyn	ɬ ə s j e i̯ ɪ n
 llysieuyn	ɬ ə ʃ e i̯ ɪ n
@@ -3440,8 +3440,8 @@ lun	l iː n
 lydan	l ə d a n
 lydaw	l ə d a u̯
 lyf	l iː v
-lyfr	l ɪ v r
 lyfr	l ə v ɪ r
+lyfr	l ɪ v r
 lyfr	l ɪ v ɪ r
 lyfrau	l ə v r a i̯
 lyfrau	l ə v r ɛ
@@ -3666,12 +3666,12 @@ mynediad	m ə n ɛ d j a d
 mynwy	m ə n ʊ i̯
 mynychu	m ə n ə χ i
 mynydd	m ə n i
-mynydd	m ɪ n i
 mynydd	m ə n ɪ ð
+mynydd	m ɪ n i
 mynyddig	m ə n ə ð ɪ ɡ
-mynyddoedd	m ə n ə ð ɛ
 mynyddoedd	m ə n ə ð ɔ i̯ ð
 mynyddoedd	m ə n ə ð ɔ ð
+mynyddoedd	m ə n ə ð ɛ
 myr	m ɪ r
 myrdd	m ɪ r ð
 myrddiwn	m ə r ð j ʊ n
@@ -3862,12 +3862,12 @@ ngwybod	ŋ w ɪ b ɔ d
 ngwybod	ŋ ʊ b ɔ d
 ngwybod	ŋ ʊ i̯ b ɔ d
 ngwybodaeth	ŋ w ə b oː d a i̯ θ
-ngwybodaeth	ŋ w ɪ b oː d a i̯ θ
 ngwybodaeth	ŋ w ə b oː d ɛ θ
-ngwybodaeth	ŋ w ɪ b oː d ɛ θ
 ngwybodaeth	ŋ w ə b ɔ d a i̯ θ
-ngwybodaeth	ŋ w ɪ b ɔ d a i̯ θ
 ngwybodaeth	ŋ w ə b ɔ d ɛ θ
+ngwybodaeth	ŋ w ɪ b oː d a i̯ θ
+ngwybodaeth	ŋ w ɪ b oː d ɛ θ
+ngwybodaeth	ŋ w ɪ b ɔ d a i̯ θ
 ngwybodaeth	ŋ w ɪ b ɔ d ɛ θ
 ngwybodaeth	ŋ ʊ i̯ b oː d a i̯ θ
 ngwybodaeth	ŋ ʊ i̯ b oː d ɛ θ
@@ -3924,8 +3924,8 @@ nhyrrau	n̥ ə r a i̯
 nhyrrau	n̥ ə r ɛ
 nhâl	n̥ aː l
 nhân	n̥ aː n
-nhŷ	n̥ iː
 nhŵr	n̥ uː r
+nhŷ	n̥ iː
 ni	n iː
 nid	n ɪ d
 nitrogen	n ɪ t r ɔ ɡ ɛ n
@@ -4351,12 +4351,12 @@ rhyfelwr	r̥ ə v eː l ʊ r
 rhyfelwr	r̥ ə v ɛ l ʊ r
 rhyw	r̥ ɪ u̯
 rhywbeth	r ʊ b ɛ θ
-rhywbeth	r̥ ʊ b ɛ θ
 rhywbeth	r̥ ɪ u̯ b ɛ θ
+rhywbeth	r̥ ʊ b ɛ θ
 rhywiol	r̥ ɪ u̯ j ɔ l
 rhywle	r ʊ l ɛ
-rhywle	r̥ ʊ l ɛ
 rhywle	r̥ ɪ u̯ l ɛ
+rhywle	r̥ ʊ l ɛ
 rhywsut	r ɪ u̯ s ɪ t
 rhywsut	r̥ ɪ u̯ s ɪ t
 rhywun	r ɪ u̯ ɪ n
@@ -4382,10 +4382,10 @@ rydw	r ə d u
 rydw	r ə d w
 rydw	r ə d ʊ
 rygbi	r ə ɡ b i
-rywbeth	r ʊ b ɛ θ
 rywbeth	r ɪ u̯ b ɛ θ
-rywle	r ʊ l ɛ
+rywbeth	r ʊ b ɛ θ
 rywle	r ɪ u̯ l ɛ
+rywle	r ʊ l ɛ
 rywsut	r ɪ u̯ s ɪ t
 rywun	r ɪ u̯ ɪ n
 sach	s aː χ
@@ -4776,8 +4776,8 @@ thyrrau	θ ə r a i̯
 thyrrau	θ ə r ɛ
 thâl	θ aː l
 thân	θ aː n
-thŷ	θ iː
 thŵr	θ uː r
+thŷ	θ iː
 ti	t iː
 tir	t iː r
 titr	t ɪ t r
@@ -4941,8 +4941,8 @@ tywyll	t ə ʊ i̯ ɬ
 tâl	t aː l
 tân	t aː n
 tâp	t aː p
-tŷ	t iː
 tŵr	t uː r
+tŷ	t iː
 uchel	iː χ ɛ l
 uchel	ə χ ɛ l
 uchel	ɪ χ ɛ l
@@ -5072,12 +5072,12 @@ wybod	w ɪ b ɔ d
 wybod	ʊ b ɔ d
 wybod	ʊ i̯ b ɔ d
 wybodaeth	w ə b oː d a i̯ θ
-wybodaeth	w ɪ b oː d a i̯ θ
 wybodaeth	w ə b oː d ɛ θ
-wybodaeth	w ɪ b oː d ɛ θ
 wybodaeth	w ə b ɔ d a i̯ θ
-wybodaeth	w ɪ b ɔ d a i̯ θ
 wybodaeth	w ə b ɔ d ɛ θ
+wybodaeth	w ɪ b oː d a i̯ θ
+wybodaeth	w ɪ b oː d ɛ θ
+wybodaeth	w ɪ b ɔ d a i̯ θ
 wybodaeth	w ɪ b ɔ d ɛ θ
 wybodaeth	ʊ i̯ b oː d a i̯ θ
 wybodaeth	ʊ i̯ b oː d ɛ θ
@@ -5119,8 +5119,8 @@ ychen	ə χ ɛ n
 ychwanegiad	ə χ w a n ɛ ɡ j a d
 ychwanegu	ə χ w a n eː ɡ i
 ychwanegu	ə χ w a n ɛ ɡ i
-ychydig	χ ə d ɪ ɡ
 ychydig	ə χ ə d ɪ ɡ
+ychydig	χ ə d ɪ ɡ
 ydfran	ə d v r a n
 ydw	ɔ d u
 ydw	ə d u

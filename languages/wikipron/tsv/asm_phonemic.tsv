@@ -1,4321 +1,2830 @@
-আ	a
-ব	b ɔ
-ভ	b ʱ ɔ
-ব	bɔ
-ভ	bʱɔ
-ড	d ɔ
-দ	d ɔ
-ঢ	d ʱ ɔ
-ধ	d ʱ ɔ
-ড	dɔ
-দ	dɔ
-ঢ	dʱɔ
-ধ	dʱɔ
-ফ	f ɔ
-ফ	fɔ
-হ	h ɔ
-হ	hɔ
-ই	i
-ঈ	i
-ই	iː
-ঞ	j ɔ
-ঞ	jɔ
-ক	k ɔ
-খ	k ʱ ɔ
-ক	kɔ
-খ	kʱɔ
-ঌ	l i
-ল	l ɔ
-ঌ	li
-ল	lɔ
-ম	m ɔ
-ম	mɔ
-ণ	n ɔ
-ন	n ɔ
-ণ	nɔ
-ন	nɔ
-ঐ	o ɪ
-ঔ	o ʊ
-ঐ	oɪ
-ঔ	oʊ
-প	p ɔ
-প	pɔ
-ফ	pʰ ɔ
-ফ	pʰɔ
-শ	s
-ষ	s
-স	s
-চ	s ɔ
-চ	sɔ
-ট	t ɔ
-ত	t ɔ
-ঠ	t ʱ ɔ
-থ	t ʱ ɔ
-ট	tɔ
-ত	tɔ
-ঠ	tʱɔ
-থ	tʱɔ
-উ	u
-ঊ	u
-ৱ	w ɔ
-ৱ	wɔ
-শ	x ɔ
-ষ	x ɔ
-স	x ɔ
-শ	xɔ
-ষ	xɔ
-স	xɔ
-জ	z ɔ
-য	z ɔ
-ঝ	z ʱ ɔ
-জ	zɔ
-য	zɔ
-ঝ	zʱɔ
 অ	ɔ
-এ	ɛ
-ও	ʊ
-ঋ	ɹ i
-গ	ɡ ɔ
-ঙ	ŋ ɔ
-ছ	ɕ ɔ
-ফ	ɸ ɔ
-হ	ɦ ɔ
-ৰ	ɹ ɔ
-ৱ	β ɔ
-ঘ	ɡ ʱ ɔ
-ঋ	ɹi
-গ	ɡɔ
-ঙ	ŋɔ
-ছ	ɕɔ
-ফ	ɸɔ
-হ	ɦɔ
-ৰ	ɹɔ
-ৱ	βɔ
-ঘ	ɡʱɔ
-ল'ৰা	l o ɹ a
-ল'ৰা	loɹa
-আল	a l
-আম	a m
-আন	a n
-আট	a t
-আঠ	a tʰ
-আই	a ɪ
-আও	a ʊ
-আহ	a ʱ
-আল	al
-আম	am
-আন	an
-আট	at
-আঠ	atʰ
-আই	aɪ
-আও	aʊ
-আহ	aʱ
-বা	b a
-বা	b aː
-বল	b ɔ l
-বন	b ɔ n
-বগ	b ɔ ɡ
-বহ	b ɔ ɦ
-বা	ba
-বা	baː
-বল	bɔl
-বন	bɔn
-বগ	bɔɡ
-বহ	bɔɦ
-দা	d aː
-দহ	d ɔ ɦ
-ধৰ	d ʱ ɔ ɹ
-দা	daː
-দহ	dɔɦ
-ধৰ	dʱɔɹ
-এ’	e
-ফল	f ɔ l
-ফল	fɔl
-ঈহ	i ʱ
-ঈহ	iʱ
-য়	j ɔ
-য়	jɔ
-কি	k i
-কম	k ɔ m
-কৰ	k ɔ ɹ
-কি	ki
-খং	kʰ ɔ ŋ
-কম	kɔm
-কৰ	kɔɹ
-খং	kʰɔŋ
-লো	l ʊ
-লো	lʊ
-মা	m a
-মা	m aː
-মৈ	m o ɪ
-মই	m ɔ ɪ
-মগ	m ɔ ɡ
-মহ	m ɔ ɦ
-মৰ	m ɔ ɹ
-মা	ma
-মা	maː
-মৈ	moɪ
-মই	mɔɪ
-মগ	mɔɡ
-মহ	mɔɦ
-মৰ	mɔɹ
-নৈ	n o ɪ
-নে	n ɛ
-নখ	n ɔ kʰ
-নৈ	noɪ
-নে	nɛ
-নখ	nɔkʰ
-অ’	o
-পৈ	p o ɪ
-পো	p ʊ
-পৰ	p ɔ ɹ
-পৈ	poɪ
-পো	pʊ
-ফল	pʰ ɔ l
-পৰ	pɔɹ
-ফল	pʰɔl
-চা	s a
-চু	s u
-ছু	s u
-ছো	s ʊ
-চন	s ɔ n
-চা	sa
-চু	su
-ছু	su
-ছো	sʊ
-চন	sɔn
-তল	t ɔ l
-তই	t ɔ ɪ
-থু	tʰ u
-ঠগ	tʰ ɔ ɡ
-তল	tɔl
-থু	tʰu
-তই	tɔɪ
-ঠগ	tʰɔɡ
-উম	u m
-উট	u t
-উৰ	u ɹ
-উম	um
-উট	ut
-উৰ	uɹ
-সি	x i
-শল	x ɔ l
-খং	x ɔ ŋ
-সৰ	x ɔ ɹ
-সি	xi
-শল	xɔl
-খং	xɔŋ
-সৰ	xɔɹ
-জী	z i
-জী	z iː
-জল	z ɔ l
-জী	zi
-জী	ziː
-জল	zɔl
-গা	ɡ aː
-এই	ɛ i
-এক	ɛ k
-ওখ	ʊ kʰ ɔ
-হৈ	ɦ o ɪ
-ৰৌ	ɹ o ʊ
-এপ	ɛ p
-গু	ɡ u
-গু	ɡ uː
-এশ	ɛ x ɔ
-ওৰ	ʊ ɹ
-ড়	ɾ ɔ
-ঢ়	ɾ ɔ
-ঘা	ɡ ʱ a
-ফল	ɸ ɔ l
-গম	ɡ ɔ m
-গছ	ɡ ɔ s
-ৰস	ɹ ɔ x
-ঘা	ɡ ʱ ã
-ৰং	ɹ ɔ ŋ
-ৰহ	ɹ ɔ ɦ
-ঘৰ	ɡ ʱ ɔ ɹ
-গা	ɡaː
-এই	ɛi
-এক	ɛk
-ওখ	ʊkʰɔ
-হৈ	ɦoɪ
-ৰৌ	ɹoʊ
-এপ	ɛp
-গু	ɡu
-গু	ɡuː
-এশ	ɛxɔ
-ওৰ	ʊɹ
-ড়	ɾɔ
-ঢ়	ɾɔ
-ঘা	ɡʱa
-ফল	ɸɔl
-গম	ɡɔm
-গছ	ɡɔs
-ৰস	ɹɔx
-ঘা	ɡʱã
-ৰং	ɹɔŋ
-ৰহ	ɹɔɦ
-ঘৰ	ɡʱɔɹ
-আবা	a b a
-আবৰ	a b ɔ ɹ
-আদা	a d a
-আধা	a d ʱ a
-আদহ	a d ɔ ɦ
-আকণ	a k ɔ n
-আকন	a k ɔ n
-আখৈ	a kʰ o ɪ
-আখৰ	a kʰ ɔ ɹ
-আলি	a l i
-আলু	a l u
-আলগ	a l ɔ ɡ
-আনা	a n a
-আপা	a p a
-আফৰ	a pʰ ɔ ɹ
-আছে	a s ɛ
-আচল	a s ɔ l
-আটা	a t a
-আতৰ	a t ɔ ɹ
-আঠা	a tʰ a
-আথৰ	a tʰ ɔ ɹ
-আশী	a x i
-আখৰ	a x ɔ ɹ
-আজি	a z i
-আজো	a z ʊ
-আহা	a ɦ a
-আউল	a ʊ l
-আইন	a ɪ n
-আহু	a ɦ u
-আৰু	a ɹ u
-আগত	a ɡ ɔ t
-আবা	aba
-আবৰ	abɔɹ
-আদা	ada
-আধা	adʱa
-আদহ	adɔɦ
-আকণ	akɔn
-আকন	akɔn
-আখৈ	akʰoɪ
-আখৰ	akʰɔɹ
-আলি	ali
-আলু	alu
-আলগ	alɔɡ
-আনা	ana
-আপা	apa
-আফৰ	apʰɔɹ
-আছে	asɛ
-আচল	asɔl
-আটা	ata
-আঠা	atʰa
-আতৰ	atɔɹ
-আথৰ	atʰɔɹ
-আশী	axi
-আখৰ	axɔɹ
-আজি	azi
-আজো	azʊ
-আহা	aɦa
-আউল	aʊl
-আইন	aɪn
-আহু	aɦu
-আৰু	aɹu
-আগত	aɡɔt
-বাল	b a l
-বাম	b a m
-বান	b a n
-বাপ	b a p
-বাচ	b a s
-বাছ	b a s
-বাট	b a t
-বাজ	b a z
-বাঃ	b a ʱ
-বাই	b a ɪ
-বাহ	b a ʱ
-বাঃ	b aː
-বিল	b i l
-বিছ	b i s
-বিষ	b i x
-বিহ	b i ʱ
-ব’ল	b o l
-বহী	b o ɦ i
-বৰি	b o ɹ i
-বুট	b u t
-ভাদ	b ʱ a d ɔ
-ভাপ	b ʱ a p
-ভাত	b ʱ a t
-ভাই	b ʱ a ɪ
-ভাগ	b ʱ a ɡ
-বকা	b ɔ k a
-বেল	b ɛ l
-বোল	b ʊ l
-বলা	b ɔ l a
-বমি	b ɔ m i
-বচা	b ɔ s a
-বছৰ	b ɔ s ɔ ɹ
-বেত	b ɛ t
-বটল	b ɔ t ɔ l
-বতৰ	b ɔ t ɔ ɹ
-বঠা	b ɔ tʰ a
-ভূত	b ʱ u t
-ভূৰ	b ʱ u ɹ
-বেজ	b ɛ z
-বেং	b ɛ ŋ
-বেৰ	b ɛ ɹ
-বগা	b ɔ ɡ a
-বহা	b ɔ ɦ a
-বৰা	b ɔ ɹ a
-ভবা	b ʱ ɔ b a
-ভয়	b ʱ ɔ e
-ভয়	b ʱ ɔ j
-ভেক	b ʱ ɛ k
-ভোক	b ʱ ʊ k
-ভকত	b ʱ ɔ k ɔ t
-ভেল	b ʱ ɛ l
-ভনী	b ʱ ɔ n i
-ভোট	b ʱ ʊ t
-ভোজ	b ʱ ʊ z
-ভজা	b ʱ ɔ z a
-ভগা	b ʱ ɔ ɡ a
-ভঙা	b ʱ ɔ ŋ a
-ভহা	b ʱ ɔ ɦ a
-ভৰা	b ʱ ɔ ɹ a
-বৰফ	b ɔ ɹ ɔ f
-ভৰি	b ʱ ɔ ɹ i
-বহল	b ɔ ɦ ɔ l
-বৰল	b ɔ ɹ ɔ l
-বৰণ	b ɔ ɹ ɔ n
-বৰফ	b ɔ ɹ ɔ pʰ
-বৰষ	b ɔ ɹ ɔ x
-বঙহ	b ɔ ŋ ɔ ɦ
-বৰফ	b ɔ ɹ ɔ ɸ
-বৰষ	b ɔ ɹ ɔ ɦ
-বাল	bal
-বাম	bam
-বান	ban
-বাপ	bap
-বাচ	bas
-বাছ	bas
-বাট	bat
-বাজ	baz
-বাঃ	baʱ
-বাঃ	baː
-বাই	baɪ
-বাহ	baʱ
-বিল	bil
-বিছ	bis
-বিষ	bix
-বিহ	biʱ
-ব’ল	bol
-বহী	boɦi
-বৰি	boɹi
-বুট	but
-ভাদ	bʱadɔ
-ভাপ	bʱap
-ভাত	bʱat
-ভাই	bʱaɪ
-ভাগ	bʱaɡ
-বকা	bɔka
-বেল	bɛl
-বোল	bʊl
-বলা	bɔla
-বমি	bɔmi
-বচা	bɔsa
-বছৰ	bɔsɔɹ
-বেত	bɛt
-বঠা	bɔtʰa
-বটল	bɔtɔl
-বতৰ	bɔtɔɹ
-ভূত	bʱut
-ভূৰ	bʱuɹ
-বেজ	bɛz
-বেং	bɛŋ
-বেৰ	bɛɹ
-বগা	bɔɡa
-বহা	bɔɦa
-বৰা	bɔɹa
-ভবা	bʱɔba
-ভয়	bʱɔe
-ভয়	bʱɔj
-ভেক	bʱɛk
-ভোক	bʱʊk
-ভকত	bʱɔkɔt
-ভেল	bʱɛl
-ভনী	bʱɔni
-ভোট	bʱʊt
-ভোজ	bʱʊz
-ভজা	bʱɔza
-ভগা	bʱɔɡa
-ভঙা	bʱɔŋa
-ভহা	bʱɔɦa
-ভৰা	bʱɔɹa
-বৰফ	bɔɹɔf
-ভৰি	bʱɔɹi
-বহল	bɔɦɔl
-বৰল	bɔɹɔl
-বৰণ	bɔɹɔn
-বৰফ	bɔɹɔpʰ
-বৰষ	bɔɹɔx
-বঙহ	bɔŋɔɦ
-বৰফ	bɔɹɔɸ
-বৰষ	bɔɹɔɦ
-ডাব	d a b
-ডাল	d a l
-দাম	d a m
-ডাঠ	d a tʰ
-ডিল	d i l
-দিন	d i n
-দীগ	d i ɡ
-দীঘ	d i ɡ
-দুধ	d u d
-দুধ	d u d ʱ
-দুই	d u i
-ধান	d ʱ a n
-ঢাপ	d ʱ a p
-দবা	d ɔ b a
-দখল	d ɔ kʰ ɔ l
-ডোল	d ʊ l
-ডলা	d ɔ l a
-দলং	d ɔ l ɔ ŋ
-দমা	d ɔ m a
-দফা	d ɔ pʰ a
-দখল	d ɔ x ɔ l
-ডোং	d ʊ ŋ
-ডোৰ	d ʊ ɹ
-দঙা	d ɔ ŋ a
-দৰা	d ɔ ɹ a
-ঢকা	d ʱ ɔ k a
-ঢলা	d ʱ ɔ l a
-ধৰণ	d ʱ ɔ ɹ ɔ n
-ডাব	dab
-ডাল	dal
-দাম	dam
-ডাঠ	datʰ
-ডিল	dil
-দিন	din
-দীগ	diɡ
-দীঘ	diɡ
-দুধ	dud
-দুধ	dudʱ
-দুই	dui
-ধান	dʱan
-ঢাপ	dʱap
-দবা	dɔba
-দখল	dɔkʰɔl
-ডোল	dʊl
-ডলা	dɔla
-দলং	dɔlɔŋ
-দমা	dɔma
-দফা	dɔpʰa
-দখল	dɔxɔl
-ডোং	dʊŋ
-ডোৰ	dʊɹ
-দঙা	dɔŋa
-দৰা	dɔɹa
-ঢকা	dʱɔka
-ঢলা	dʱɔla
-ধৰণ	dʱɔɹɔn
-ফুল	f u l
-ফুল	ful
-ইতৰ	i t ɔ ɹ
-ইতৰ	itɔɹ
-কাণ	k a n
-কাট	k a t
-কাঠ	k a tʰ
-কাজ	k a z
-কাহ	k a ʱ
-কিন	k i n
-ক’ত	k o t
-কোব	k ʊ b
-ক্ষ	k ʱ j ɔ
-ককা	k ɔ k a
-কলি	k ɔ l i
-কলম	k ɔ l ɔ m
-কলহ	k ɔ l ɔ ɦ
-কমা	k ɔ m a
-কোন	k ʊ n
-কণা	k ɔ n a
-কণী	k ɔ n i
-কচা	k ɔ s a
-কচু	k ɔ s u
-কটা	k ɔ t a
-কথা	k ɔ tʰ a
-কঁহ	k ɔ ɦ
-কেও	k ɛ ʊ
-কোৰ	k ʊ ɹ
-কহা	k ɔ ɦ a
-কৰা	k ɔ ɹ a
-কাণ	kan
-কাট	kat
-কাঠ	katʰ
-কাজ	kaz
-কাহ	kaʱ
-কিন	kin
-ক’ত	kot
-খাল	kʰ a l
-খাট	kʰ a t
-খীৰ	kʰ i ɹ
-খুল	kʰ u l
-খুৰ	kʰ u ɹ
-খটা	kʰ ɔ t a
-খোজ	kʰ ʊ z
-খেৰ	kʰ ɛ ɹ
-খহা	kʰ ɔ ɦ a
-খৰি	kʰ ɔ ɹ i
-খৰম	kʰ ɔ ɹ ɔ m
-খৰচ	kʰ ɔ ɹ ɔ s
-খাল	kʰal
-খাট	kʰat
-কোব	kʊb
-খীৰ	kʰiɹ
-ক্ষ	kʱjɔ
-ককা	kɔka
-কলি	kɔli
-কলম	kɔlɔm
-কলহ	kɔlɔɦ
-কমা	kɔma
-কোন	kʊn
-কণা	kɔna
-কণী	kɔni
-কচা	kɔsa
-কচু	kɔsu
-কটা	kɔta
-কথা	kɔtʰa
-খুল	kʰul
-খুৰ	kʰuɹ
-কঁহ	kɔɦ
-কেও	kɛʊ
-কোৰ	kʊɹ
-কহা	kɔɦa
-কৰা	kɔɹa
-খটা	kʰɔta
-খোজ	kʰʊz
-খেৰ	kʰɛɹ
-খহা	kʰɔɦa
-খৰি	kʰɔɹi
-খৰম	kʰɔɹɔm
-খৰচ	kʰɔɹɔs
-লাভ	l a b
-লাভ	l a b ʱ
-লাখ	l a kʰ
-লাথ	l a t
-লাথ	l a tʰ
-লাউ	l a u
-লাখ	l a x
-লাজ	l a z
-লাও	l a ʊ
-লোণ	l ʊ n
-লতা	l ɔ t a
-লগা	l ɔ ɡ a
-লৰা	l ɔ ɹ a
-লগত	l ɔ ɡ ɔ t
-লাভ	lab
-লাভ	labʱ
-লাখ	lakʰ
-লাথ	lat
-লাথ	latʰ
-লাউ	lau
-লাখ	lax
-লাজ	laz
-লাও	laʊ
-লোণ	lʊn
-লতা	lɔta
-লগা	lɔɡa
-লৰা	lɔɹa
-লগত	lɔɡɔt
-মাছ	m a s
-মাত	m a t
-মাজ	m a z
-মাই	m a ɪ
-মাও	m a ʊ
-মাহ	m a ʱ
-মুখ	m u kʰ
-মূত	m u t
-মুখ	m u x
-মুহ	m u ʱ
-মূৰ	m u ɹ
-মোল	m ʊ l
-মলি	m ɔ l i
-মোন	m ʊ n
-মনা	m ɔ n a
-মণি	m ɔ n i
-মচা	m ɔ s a
-মোত	m ʊ t
-মতা	m ɔ t a
-মঠা	m ɔ tʰ a
-মজা	m ɔ z a
-মেঘ	m ɛ ɡ
-মেহ	m ɛ ɦ
-মোৰ	m ʊ ɹ
-মগা	m ɔ ɡ a
-মৰা	m ɔ ɹ a
-মহী	m ɔ ɦ i
-মেঘ	m ɛ ɡ ʱ
-মৰম	m ɔ ɹ ɔ m
-মগজ	m ɔ ɡ ɔ z
-মঙহ	m ɔ ŋ ɔ ɦ
-মাছ	mas
-মাত	mat
-মাজ	maz
-মাই	maɪ
-মাও	maʊ
-মাহ	maʱ
-মুখ	mukʰ
-মূত	mut
-মুখ	mux
-মুহ	muʱ
-মূৰ	muɹ
-মোল	mʊl
-মলি	mɔli
-মোন	mʊn
-মনা	mɔna
-মণি	mɔni
-মচা	mɔsa
-মোত	mʊt
-মতা	mɔta
-মঠা	mɔtʰa
-মজা	mɔza
-মেঘ	mɛɡ
-মেহ	mɛɦ
-মোৰ	mʊɹ
-মগা	mɔɡa
-মৰা	mɔɹa
-মহী	mɔɦi
-মেঘ	mɛɡʱ
-মৰম	mɔɹɔm
-মগজ	mɔɡɔz
-মঙহ	mɔŋɔɦ
-নাক	n a k
-নাট	n a t
-নাই	n a ɪ
-নাও	n a ʊ
-নিজ	n i z
-নদী	n ɔ d i
-নকল	n ɔ k ɔ l
-নমা	n ɔ m a
-নচা	n ɔ s a
-নেজ	n ɛ z
-নৰম	n ɔ ɹ ɔ m
-নগৰ	n ɔ ɡ ɔ ɹ
-নাক	nak
-নাট	nat
-নাই	naɪ
-নাও	naʊ
-নিজ	niz
-নদী	nɔdi
-নকল	nɔkɔl
-নমা	nɔma
-নচা	nɔsa
-নেজ	nɛz
-নৰম	nɔɹɔm
-নগৰ	nɔɡɔɹ
-পাক	p a k
-পাল	p a l
-পাণ	p a n
-পাট	p a t
-পাং	p a ŋ
-পাগ	p a ɡ
-পাৰ	p a ɹ
-পিক	p i k
-পিত	p i t
-পুত	p u t
-পুং	p u ŋ
-পোক	p ʊ k
-পকা	p ɔ k a
-পলা	p ɔ l a
-পলু	p ɔ l u
-পোন	p ʊ n
-পচা	p ɔ s a
-পচন	p ɔ s ɔ n
-পেট	p ɛ t
-পতা	p ɔ t a
-পঠা	p ɔ tʰ a
-পশু	p ɔ x u
-পৰা	p ɔ ɹ a
-পহু	p ɔ ɦ u
-পঘা	p ɔ ɡ ʱ a
-পাক	pak
-পাল	pal
-পাণ	pan
-পাট	pat
-পাং	paŋ
-পাগ	paɡ
-পাৰ	paɹ
-পিক	pik
-পিত	pit
-পুত	put
-পুং	puŋ
-ফাল	pʰ a l
-ফাট	pʰ a t
-ফুল	pʰ u l
-ফলা	pʰ ɔ l a
-ফেন	pʰ ɛ n
-ফণী	pʰ ɔ n i
-ফটা	pʰ ɔ t a
-ফটো	pʰ ɔ t ʊ
-ফাল	pʰal
-ফাট	pʰat
-পোক	pʊk
-পকা	pɔka
-পলা	pɔla
-পলু	pɔlu
-পোন	pʊn
-পচা	pɔsa
-পচন	pɔsɔn
-পেট	pɛt
-পতা	pɔta
-পঠা	pɔtʰa
-ফুল	pʰul
-পশু	pɔxu
-পৰা	pɔɹa
-ফলা	pʰɔla
-ফেন	pʰɛn
-ফণী	pʰɔni
-ফটা	pʰɔta
-ফটো	pʰɔtʊ
-পহু	pɔɦu
-পঘা	pɔɡʱa
-চাক	s a k
-ছাল	s a l
-চাম	s a m
-চান	s a n
-ছাৱ	s a w
-চাজ	s a z
-চাহ	s a ʱ
-ছাই	s a ɪ
-চাহ	s aː
-চিন	s i n
-চিপ	s i p
-ছিপ	s i p
-চূণ	s u n
-চুট	s u t
-ছবি	s ɔ b i
-চোদ	s ʊ d
-ছয়	s ɔ j
-চকা	s ɔ k a
-চকু	s ɔ k u
-চকৰ	s ɔ k ɔ ɹ
-চলা	s ɔ l a
-ছলি	s ɔ l i
-চমু	s ɔ m u
-ছনা	s ɔ n a
-চহী	s ɔ ɦ i
-চৰু	s ɔ ɹ u
-চাক	sak
-ছাল	sal
-চাম	sam
-চান	san
-ছাৱ	saw
-চাজ	saz
-চাহ	saʱ
-চাহ	saː
-ছাই	saɪ
-চিন	sin
-চিপ	sip
-ছিপ	sip
-চূণ	sun
-চুট	sut
-ছবি	sɔbi
-চোদ	sʊd
-ছয়	sɔj
-চকা	sɔka
-চকু	sɔku
-চকৰ	sɔkɔɹ
-চলা	sɔla
-ছলি	sɔli
-চমু	sɔmu
-ছনা	sɔna
-চহী	sɔɦi
-চৰু	sɔɹu
-তাল	t a l
-তাপ	t a p
-তাত	t a t
-তাই	t a ɪ
-তিল	t i l
-টুল	t u l
-টুট	t u t
-তেল	t ɛ l
-তলা	t ɔ l a
-টনা	t ɔ n a
-তপত	t ɔ p ɔ t
-তথা	t ɔ tʰ a
-তৰা	t ɔ ɹ a
-তাল	tal
-তাপ	tap
-তাত	tat
-তাই	taɪ
-তিল	til
-টুল	tul
-টুট	tut
-থাক	tʰ a k
-ঠাল	tʰ a l
-থাল	tʰ a l
-থাম	tʰ a m
-ঠান	tʰ a n
-থান	tʰ a n
-থাপ	tʰ a p
-ঠাই	tʰ a ɪ
-থিৰ	tʰ i ɹ
-থুম	tʰ u m
-ঠেক	tʰ ɛ k
-থকা	tʰ ɔ k a
-থপা	tʰ ɔ p a
-থপৰ	tʰ ɔ p ɔ ɹ
-ঠেং	tʰ ɛ ŋ
-ঠগা	tʰ ɔ ɡ a
-থাক	tʰak
-ঠাল	tʰal
-থাল	tʰal
-থাম	tʰam
-ঠান	tʰan
-থান	tʰan
-থাপ	tʰap
-ঠাই	tʰaɪ
-থিৰ	tʰiɹ
-তেল	tɛl
-তলা	tɔla
-টনা	tɔna
-তপত	tɔpɔt
-তথা	tɔtʰa
-থুম	tʰum
-তৰা	tɔɹa
-ঠেক	tʰɛk
-থকা	tʰɔka
-থপা	tʰɔpa
-থপৰ	tʰɔpɔɹ
-ঠেং	tʰɛŋ
-ঠগা	tʰɔɡa
-উভত	u b ʱ ɔ t
-উকল	u k ɔ l
-উকহ	u k ɔ ɦ
-উলূ	u l u
-উমা	u m a
-উফি	u pʰ i
-উতল	u t ɔ l
-উঁহ	u ʱ
-উৰহ	u ɹ ɔ ʱ
-উভত	ubʱɔt
-উকল	ukɔl
-উকহ	ukɔɦ
-উলূ	ulu
-উমা	uma
-উফি	upʰi
-উতল	utɔl
-উঁহ	uʱ
-উৰহ	uɹɔʱ
-শাল	x a l
-সাপ	x a p
-সাত	x a t
-সাজ	x a z
-শাহ	x a ʱ
-সাহ	x a ʱ
-শিল	x i l
-খীৰ	x i ɹ
-শিং	x i ŋ
-সিৰ	x i ɹ
-শ’ল	x o l
-শুধ	x u d ʱ ɔ
-সূত	x u t
-খুৰ	x u ɹ
-সদৰ	x ɔ d ɔ ɹ
-শকত	x ɔ k ɔ t
-শলা	x ɔ l a
-সোণ	x ʊ n
-সনা	x ɔ n a
-খোজ	x ʊ z
-সজা	x ɔ z a
-শহা	x ɔ ɦ a
-সহা	x ɔ ɦ a
-সৰা	x ɔ ɹ a
-সৰু	x ɔ ɹ u
-খৰম	x ɔ ɹ ɔ m
-খৰচ	x ɔ ɹ ɔ s
-সোঁ	x ʊ̃
-শাল	xal
-সাপ	xap
-সাত	xat
-সাজ	xaz
-শাহ	xaʱ
-সাহ	xaʱ
-শিল	xil
-খীৰ	xiɹ
-শিং	xiŋ
-সিৰ	xiɹ
-শ’ল	xol
-শুধ	xudʱɔ
-সূত	xut
-খুৰ	xuɹ
-সদৰ	xɔdɔɹ
-শকত	xɔkɔt
-শলা	xɔla
-সোণ	xʊn
-সনা	xɔna
-খোজ	xʊz
-সজা	xɔza
-সোঁ	xʊ̃
-শহা	xɔɦa
-সহা	xɔɦa
-সৰা	xɔɹa
-সৰু	xɔɹu
-খৰম	xɔɹɔm
-খৰচ	xɔɹɔs
-জাক	z a k
-জাল	z a l
-জাম	z a m
-জান	z a n
-জাপ	z a p
-জাং	z a ŋ
-জাৰ	z a ɹ
-জীৱ	z i b ɔ
-জীউ	z i u
-জীৱ	z i β ɔ
-য’ত	z o t
-জুই	z u i
-জোক	z ʊ k
-জকা	z ɔ k a
-জোখ	z ʊ kʰ
-জলা	z ɔ l a
-জোন	z ʊ n
-জনা	z ɔ n a
-জেপ	z ɛ p
-জপা	z ɔ p a
-জোখ	z ʊ x
-জোং	z ʊ ŋ
-জগা	z ɔ ɡ a
-জৰা	z ɔ ɹ a
-জৰি	z ɔ ɹ i
-জৰী	z ɔ ɹ i
-জাক	zak
-জাল	zal
-জাম	zam
-জান	zan
-জাপ	zap
-জাং	zaŋ
-জাৰ	zaɹ
-জীৱ	zibɔ
-জীউ	ziu
-জীৱ	ziβɔ
-য’ত	zot
-জুই	zui
-জোক	zʊk
-জকা	zɔka
-জোখ	zʊkʰ
-জলা	zɔla
-জোন	zʊn
-জনা	zɔna
-জেপ	zɛp
-জপা	zɔpa
-জোখ	zʊx
-জোং	zʊŋ
-জগা	zɔɡa
-জৰা	zɔɹa
-জৰি	zɔɹi
-জৰী	zɔɹi
-আঁক	ã k
-আঁচ	ã s
-আঁত	ã t
-আঁহ	ã ʱ
-আঁৰ	ã ɹ
-আঁক	ãk
-আঁচ	ãs
-আঁত	ãt
-আঁহ	ãʱ
-আঁৰ	ãɹ
-গাধ	ɡ a d ʱ ɔ
-গাল	ɡ a l
-হাল	ɦ a l
-হাট	ɦ a t
-গাং	ɡ a ŋ
-গাই	ɡ a ɪ
-ৰাং	ɹ a ŋ
-উঁই	ũ i
-একে	ɛ k ɛ
-অকল	ɔ k ɔ l
-ওখল	ʊ kʰ ɔ l
-ওখৰ	ʊ kʰ ɔ ɹ
-ওলা	ʊ l a
-অলপ	ɔ l ɔ p
-ওলগ	ʊ l ɔ ɡ
-অনা	ɔ n a
-এনে	ɛ n ɛ
-ৰ’দ	ɹ o d
-ওপৰ	ʊ p ɔ ɹ
-ওচৰ	ʊ s ɔ ɹ
-অটা	ɔ t a
-এটা	ɛ t a
-ওটা	ʊ t a
-এটি	ɛ t i
-ওঁঠ	ʊ tʰ
-এঠা	ɛ tʰ a
-ওঠৰ	ʊ tʰ ɔ ɹ ɔ
-ফুল	ɸ u l
-অসম	ɔ x ɔ m
-ওজা	ʊ z a
-ওজন	ʊ z ɔ n
-অহা	ɔ ɦ a
-এৰা	ɛ ɹ a
-ঘাম	ɡ ʱ a m
-ঘাৰ	ɡ ʱ a ɹ
-ৰভা	ɹ ɔ b ʱ a
-হয়	ɦ ɔ e
-ঘিণ	ɡ ʱ i n
 অংক	ɔ ŋ k ɔ
-ৰখা	ɹ ɔ kʰ a
-গোল	ɡ ʊ l
-গলা	ɡ ɔ l a
-হলা	ɦ ɔ l a
-হলৌ	ɦ ɔ l o ʊ
-গমা	ɡ ɔ m a
-অইন	ɔ ɪ n
-গণা	ɡ ɔ n a
-হনা	ɦ ɔ n a
-গেছ	ɡ ɛ s
-গোছ	ɡ ʊ s
-ৰছী	ɹ ɔ s i
-গোট	ɡ ʊ t
-গজা	ɡ ɔ z a
-ৰজা	ɹ ɔ z a
-হজম	ɦ ɔ z ɔ m
-গোৰ	ɡ ʊ ɹ
-গঙা	ɡ ɔ ŋ a
-হগা	ɦ ɔ ɡ a
-হৰা	ɦ ɔ ɹ a
-ৰঙা	ɹ ɔ ŋ a
-ঘমা	ɡ ʱ ɔ m a
-ঘটা	ɡ ʱ ɔ t a
-গৰু	ɡ ɔ ɹ u
-অংগ	ɔ ŋ ɡ ɔ
-ঘৰা	ɡ ʱ ɔ ɹ a
-গৰম	ɡ ɔ ɹ ɔ m
-ৰহণ	ɹ ɔ ɦ ɔ n
-এওঁ	ɛ ʊ̃
-গাধ	ɡadʱɔ
-গাল	ɡal
-হাল	ɦal
-হাট	ɦat
-গাং	ɡaŋ
-গাই	ɡaɪ
-ৰাং	ɹaŋ
-উঁই	ũi
-একে	ɛkɛ
-অকল	ɔkɔl
-ওখল	ʊkʰɔl
-ওখৰ	ʊkʰɔɹ
-ওলা	ʊla
-অলপ	ɔlɔp
-ওলগ	ʊlɔɡ
-অনা	ɔna
-এনে	ɛnɛ
-ৰ’দ	ɹod
-ওপৰ	ʊpɔɹ
-ওচৰ	ʊsɔɹ
-অটা	ɔta
-এটা	ɛta
-ওটা	ʊta
-এটি	ɛti
-ওঁঠ	ʊtʰ
-এঠা	ɛtʰa
-ওঠৰ	ʊtʰɔɹɔ
-ফুল	ɸul
-অসম	ɔxɔm
-ওজা	ʊza
-ওজন	ʊzɔn
-ওঁঠ	ʊ̃ tʰ
-অহা	ɔɦa
-এৰা	ɛɹa
-ঘাম	ɡʱam
-ঘাৰ	ɡʱaɹ
-ৰভা	ɹɔbʱa
-হয়	ɦɔe
-ঘিণ	ɡʱin
 অংক	ɔŋkɔ
-ৰখা	ɹɔkʰa
-গোল	ɡʊl
-গলা	ɡɔla
-হলা	ɦɔla
-হলৌ	ɦɔloʊ
-গমা	ɡɔma
-অইন	ɔɪn
-গণা	ɡɔna
-হনা	ɦɔna
-গেছ	ɡɛs
-গোছ	ɡʊs
-ৰছী	ɹɔsi
-গোট	ɡʊt
-ওঁঠ	ʊ̃tʰ
-গজা	ɡɔza
-ৰজা	ɹɔza
-হজম	ɦɔzɔm
-এওঁ	ɛʊ̃
-গোৰ	ɡʊɹ
-গঙা	ɡɔŋa
-হগা	ɦɔɡa
-হৰা	ɦɔɹa
-ৰঙা	ɹɔŋa
-ঘমা	ɡʱɔma
-ঘটা	ɡʱɔta
-গৰু	ɡɔɹu
+অংগ	ɔ ŋ ɡ ɔ
 অংগ	ɔŋɡɔ
-ঘৰা	ɡʱɔɹa
-গৰম	ɡɔɹɔm
-ৰহণ	ɹɔɦɔn
-আবৰা	a b ɔ ɹ a
-আলহী	a l ɔ ɦ i
-আমাৰ	a m a ɹ
-আমঠি	a m ɔ tʰ i
-আমঠু	a m ɔ tʰ u
-আপোন	a p ʊ n
-আটাই	a t a ɪ
-আটিল	a t i l
-আৱাজ	a w a z
-আজান	a z a n
-আৱাজ	a ʊ a z
-আঙাৰ	a ŋ a ɹ
-আইনা	a ɪ n a
-আইতা	a ɪ t a
-আউটি	a ʊ t i
-আঙুল	a ŋ u l
-আওৰা	a ʊ ɹ a
-আগনি	a ɡ ɔ n i
-আগতে	a ɡ ɔ t ɛ
-আঙঠা	a ŋ ɔ tʰ a
-আঙঠি	a ŋ ɔ tʰ i
-আঘোণ	a ɡ ʱ ʊ n
-আবৰা	abɔɹa
-আলহী	alɔɦi
-আমাৰ	amaɹ
-আমঠি	amɔtʰi
-আমঠু	amɔtʰu
-আপোন	apʊn
-আটাই	ataɪ
-আটিল	atil
-আৱাজ	awaz
-আজান	azan
-আৱাজ	aʊaz
-আঙাৰ	aŋaɹ
-আইনা	aɪna
-আইতা	aɪta
-আউটি	aʊti
-আঙুল	aŋul
-আওৰা	aʊɹa
-আগনি	aɡɔni
-আগতে	aɡɔtɛ
-আঙঠা	aŋɔtʰa
-আঙঠি	aŋɔtʰi
-আঘোণ	aɡʱʊn
-বাকী	b a k i
-বাকচ	b a k ɔ s
-বালি	b a l i
-বালু	b a l u
-বামী	b a m i
-বাচন	b a s ɔ n
-বাজে	b a z ɛ
-বাহা	b a ɦ a
-বাৰি	b a ɹ i
-বাৱন	b a ɔ n
-বাইছ	b a ɪ s
-বাহু	b a ɦ u
-বাওঁ	b a ʊ̃
-বেলি	b e l i
-বেজী	b e z i
-বিকা	b i k a
-বিচা	b i s a
-বিছা	b i s a
-বিহু	b i ɦ u
-ব’লা	b o l a
-ব’লক	b o l ɔ k
-বুকু	b u k u
-বুলা	b u l a
-বুলি	b u l i
-বুজা	b u z a
-বাঁহ	b ã ʱ
-বোৱা	b ʊ a
-ভাবা	b ʱ a b a
-ভাষা	b ʱ a x a
-ভাজা	b ʱ a z a
-ভাগা	b ʱ a ɡ a
-ভাঙা	b ʱ a ŋ a
-ভাহা	b ʱ a ɦ a
-ভাৰী	b ʱ a ɹ i
-ভাৰত	b ʱ a ɹ ɔ t
-ভাগৰ	b ʱ a ɡ ɔ ɹ
-ভিতৰ	b ʱ i t ɔ ɹ
-ভিজা	b ʱ i z a
-বকলা	b ɔ k ɔ l a
-বেলা	b ɛ l a
-বোলা	b ʊ l a
-বন্ধ	b ɔ n
-বন্ধ	b ɔ n d ʱ
-বন্ধ	b ɔ n d ʱ ɔ
-বোপা	b ʊ p a
-বেছা	b ɛ s a
-বেছি	b ɛ s i
-বঁটা	b ɔ t a
-বতাহ	b ɔ t a ʱ
-ভুকা	b ʱ u k a
-বোজা	b ʊ z a
-বজাৰ	b ɔ z a ɹ
-ভাঁৰ	b ʱ ã ɹ
-বঢ়া	b ɔ ɦ a
-বঢ়া	b ɔ ɹ a
-বেৰা	b ɛ ɹ a
-বঙাল	b ɔ ŋ a l
-ভূঁই	b ʱ ũ i
-বেংক	b ɛ ŋ k
-ভেলা	b ʱ ɛ l a
-বৰমা	b ɔ ɹ m a
-ভেটা	b ʱ ɛ t a
-বঢ়া	b ɔ ɹ ʱ a
-ভেৰা	b ʱ ɛ ɹ a
-বগলী	b ɔ ɡ ɔ l i
-বৰশী	b ɔ ɹ ɔ x i
-বগৰী	b ɔ ɡ ɔ ɹ i
-বাকী	baki
-বাকচ	bakɔs
-বালি	bali
-বালু	balu
-বামী	bami
-বাচন	basɔn
-বাজে	bazɛ
-বাহা	baɦa
-বাৰি	baɹi
-বাৱন	baɔn
-বাইছ	baɪs
-বাহু	baɦu
-বাওঁ	baʊ̃
-বেলি	beli
-বেজী	bezi
-বিকা	bika
-বিচা	bisa
-বিছা	bisa
-বিহু	biɦu
-ব’লা	bola
-ব’লক	bolɔk
-বুকু	buku
-বুলা	bula
-বুলি	buli
-বুজা	buza
-বাঁহ	bãʱ
-বোৱা	bʊa
-ভাবা	bʱaba
-ভাষা	bʱaxa
-ভাজা	bʱaza
-ভাগা	bʱaɡa
-ভাঙা	bʱaŋa
-ভাহা	bʱaɦa
-ভাৰী	bʱaɹi
-ভাৰত	bʱaɹɔt
-ভাগৰ	bʱaɡɔɹ
-ভিতৰ	bʱitɔɹ
-ভিজা	bʱiza
-বকলা	bɔkɔla
-বেলা	bɛla
-বোলা	bʊla
-বন্ধ	bɔn
-বন্ধ	bɔndʱ
-বন্ধ	bɔndʱɔ
-বোপা	bʊpa
-বেছা	bɛsa
-বেছি	bɛsi
-বঁটা	bɔta
-বতাহ	bɔtaʱ
-ভুকা	bʱuka
-বোজা	bʊza
-বজাৰ	bɔzaɹ
-ভাঁৰ	bʱãɹ
-বঢ়া	bɔɦa
-বঢ়া	bɔɹa
-বেৰা	bɛɹa
-বঙাল	bɔŋal
-ভূঁই	bʱũi
-বেংক	bɛŋk
-ভেলা	bʱɛla
-বৰমা	bɔɹma
-ভেটা	bʱɛta
-বঢ়া	bɔɹʱa
-ভেৰা	bʱɛɹa
-বগলী	bɔɡɔli
-বৰশী	bɔɹɔxi
-বগৰী	bɔɡɔɹi
-ডালি	d a l i
-দামী	d a m i
-ডাউক	d a u k
-দাঙা	d a ŋ a
-দাৰি	d a ɹ i
-দাৱত	d a ɔ t
-ডাৱৰ	d a ɔ ɹ
-ডাঙৰ	d a ŋ ɔ ɹ
-ডিলা	d i l a
-দিঠক	d i tʰ ɔ k
-ডিঙি	d i ŋ i
-দীঘা	d i ɡ ʱ a
-দ’তি	d o t i
-ডুবা	d u b a
-ডুৰি	d u ɹ i
-দাঁত	d ã t
-ডাঁৰ	d ã ɹ
-দাঁৰ	d ã ɹ
-দোৱা	d ʊ a
-ঢাকা	d ʱ a k a
-ঢাকন	d ʱ a k ɔ n
-ঢালা	d ʱ a l a
-ঢাপৰ	d ʱ a p ɔ ɹ
-ডেকা	d ɛ k a
-দেখা	d ɛ kʰ a
-দোলা	d ʊ l a
-দমৰা	d ɔ m ɔ ɹ a
-দেতা	d ɛ t a
-ঢুকা	d ʱ u k a
-ধূলি	d ʱ u l i
-ধুৰা	d ʱ u ɹ a
-দেখা	d ɛ x a
-ডেৰা	d ɛ ɹ a
-ডোঙা	d ʊ ŋ a
-ডোৰা	d ʊ ɹ a
-দেহা	d ɛ ɦ a
-ধোৱা	d ʱ ʊ a
-ঢেৰা	d ʱ ɛ ɹ a
-ডালি	dali
-দামী	dami
-ডাউক	dauk
-দাঙা	daŋa
-দাৰি	daɹi
-দাৱত	daɔt
-ডাৱৰ	daɔɹ
-ডাঙৰ	daŋɔɹ
-ডিলা	dila
-দিঠক	ditʰɔk
-ডিঙি	diŋi
-দীঘা	diɡʱa
-দ’তি	doti
-ডুবা	duba
-ডুৰি	duɹi
-দাঁত	dãt
-ডাঁৰ	dãɹ
-দাঁৰ	dãɹ
-দোৱা	dʊa
-ঢাকা	dʱaka
-ঢাকন	dʱakɔn
-ঢালা	dʱala
-ঢাপৰ	dʱapɔɹ
-ডেকা	dɛka
-দেখা	dɛkʰa
-দোলা	dʊla
-দমৰা	dɔmɔɹa
-দেতা	dɛta
-ঢুকা	dʱuka
-ধূলি	dʱuli
-ধুৰা	dʱuɹa
-দেখা	dɛxa
-ডেৰা	dɛɹa
-ডোঙা	dʊŋa
-ডোৰা	dʊɹa
-দেহা	dɛɦa
-ধোৱা	dʱʊa
-ঢেৰা	dʱɛɹa
-ইকৰা	i k ɔ ɹ a
-ইলিছ	i l i s
-ইলীহ	i l i ʱ
-ইমান	i m a n
-ইকৰা	ikɔɹa
-ইলিছ	ilis
-ইলীহ	iliʱ
-ইমান	iman
-কাকত	k a k ɔ t
-কামি	k a m i
-কানি	k a n i
-কাটা	k a t a
-কাহা	k a ɦ a
-কাগজ	k a ɡ ɔ z
-কে’ক	k e k
-কিবা	k i b a
-কিনা	k i n a
-কিছু	k i s u
-কিয়	k i ɔ
-কুলা	k u l a
-কুটা	k u t a
-কাঁহ	k ã ɦ
-কোৱা	k ʊ a
-কোদো	k ʊ d ʊ
-ককাই	k ɔ k a ɪ
-কোলা	k ʊ l a
-কমলা	k ɔ m ɔ l a
-কেনে	k ɛ n ɛ
-কঁপা	k ɔ p a
-কপাহ	k ɔ p a ʱ
-কঁটা	k ɔ t a
-কোটি	k ʊ t i
-কুঁজ	k ũ z
-কইনা	k ɔ ɪ n a
-কঢ়া	k ɔ ɹ ʱ a
-কাকত	kakɔt
-কামি	kami
-কানি	kani
-কাটা	kata
-কাহা	kaɦa
-কাগজ	kaɡɔz
-কে’ক	kek
-কিবা	kiba
-কিনা	kina
-কিছু	kisu
-কিয়	kiɔ
-কুলা	kula
-কুটা	kuta
-কাঁহ	kãɦ
-খাটা	kʰ a t a
-খাৰু	kʰ a ɹ u
-খেতি	kʰ e t i
-খুৱা	kʰ u a
-খুটা	kʰ u t a
-খুটি	kʰ u t i
-খুৰা	kʰ u ɹ a
-খুৰী	kʰ u ɹ i
-খোৱা	kʰ ʊ a
-খেদা	kʰ ɛ d a
-খোলা	kʰ ʊ l a
-খচকা	kʰ ɔ s ɔ k a
-খচৰা	kʰ ɔ s ɔ ɹ a
-খোজা	kʰ ʊ z a
-খৰচী	kʰ ɔ ɹ ɔ s i
-কোৱা	kʊa
-খাটা	kʰata
-খাৰু	kʰaɹu
-কোদো	kʊdʊ
-খেতি	kʰeti
-ককাই	kɔkaɪ
-কোলা	kʊla
-কমলা	kɔmɔla
-কেনে	kɛnɛ
-কঁপা	kɔpa
-কপাহ	kɔpaʱ
-কঁটা	kɔta
-কোটি	kʊti
-খুৱা	kʰua
-খুটা	kʰuta
-খুটি	kʰuti
-খুৰা	kʰuɹa
-খুৰী	kʰuɹi
-কুঁজ	kũz
-খোৱা	kʰʊa
-খেদা	kʰɛda
-খোলা	kʰʊla
-কইনা	kɔɪna
-খচকা	kʰɔsɔka
-খচৰা	kʰɔsɔɹa
-খোজা	kʰʊza
-কঢ়া	kɔɹʱa
-খৰচী	kʰɔɹɔsi
-লাথি	l a tʰ i
-লাগা	l a ɡ a
-লাৰা	l a ɹ a
-লিপি	l i p i
-লিচু	l i s u
-ল’ৰা	l o ɹ a
-লেধা	l ɛ d ʱ a
-লেচু	l ɛ s u
-ল’ৰা	l ɔ ɹ a
-লহুন	l ɔ ɦ u n
-লাথি	latʰi
-লাগা	laɡa
-লাৰা	laɹa
-লিপি	lipi
-লিচু	lisu
-ল’ৰা	loɹa
-লেধা	lɛdʱa
-লেচু	lɛsu
-ল’ৰা	lɔɹa
-লহুন	lɔɦun
-মাকৈ	m a k o ɪ
-মাকো	m a k ʊ
-মামী	m a m i
-মামৰ	m a m ɔ ɹ
-মানা	m a n a
-মানে	m a n ɛ
-মাতা	m a t a
-মাটি	m a t i
-মাঠা	m a tʰ a
-মাজু	m a z u
-মাগা	m a ɡ a
-মাৰা	m a ɹ a
-মাৰি	m a ɹ i
-মাংস	m a ŋ k ˣ ɔ
-মাংস	m a ŋ kʰ ɔ
-মাংস	m a ŋ x ɔ
-মাংস	m a ŋ ʃ o
-মিছা	m i s a
-মিঠা	m i tʰ a
-ম’ৰা	m o ɹ a
-মৈটা	m o ɪ t a
-মুৱা	m u a
-মুদা	m u d a
-মূলা	m u l a
-মুচি	m u s i
-মুচী	m u s i
-মূতা	m u t a
-মুজা	m u z a
-মৈৰা	m ɔ i ɹ a
-মকৰা	m ɔ k ɔ ɹ a
-মেলা	m ɛ l a
-মোলা	m ʊ l a
-মোনা	m ʊ n a
-মোছা	m ʊ s a
-মস্ত	m ɔ s t ɔ
-মচলা	m ɔ s ɔ l a
-মেঠন	m ɛ tʰ ɔ n
-মোজা	m ʊ z a
-মইনা	m ɔ ɪ n a
-মৰমৰ	m ɔ ɹ ɔ m ɔ ɹ
-মগজু	m ɔ ɡ ɔ z u
-মহঙা	m ɔ ɦ ɔ ŋ a
-মাকৈ	makoɪ
-মাকো	makʊ
-মামী	mami
-মামৰ	mamɔɹ
-মানা	mana
-মানে	manɛ
-মাতা	mata
-মাটি	mati
-মাঠা	matʰa
-মাজু	mazu
-মাগা	maɡa
-মাৰা	maɹa
-মাৰি	maɹi
-মাংস	maŋkʰɔ
-মাংস	maŋkˣɔ
-মাংস	maŋxɔ
-মাংস	maŋʃo
-মিছা	misa
-মিঠা	mitʰa
-ম’ৰা	moɹa
-মৈটা	moɪta
-মুৱা	mua
-মুদা	muda
-মূলা	mula
-মুচি	musi
-মুচী	musi
-মূতা	muta
-মুজা	muza
-মৈৰা	mɔiɹa
-মকৰা	mɔkɔɹa
-মেলা	mɛla
-মোলা	mʊla
-মোনা	mʊna
-মোছা	mʊsa
-মস্ত	mɔstɔ
-মচলা	mɔsɔla
-মেঠন	mɛtʰɔn
-মোজা	mʊza
-মইনা	mɔɪna
-মৰমৰ	mɔɹɔmɔɹ
-মগজু	mɔɡɔzu
-মহঙা	mɔɦɔŋa
-নামা	n a m a
-নাচা	n a s a
-নাঙল	n a ŋ ɔ l
-নাহৰ	n a ɦ ɔ ɹ
-নেকি	n e k i
-নেকি	n i k i
-নীলা	n i l a
-নিমখ	n i m ɔ kʰ
-নিচা	n i s a
-নিজা	n i z a
-নিজে	n i z ɛ
-নিজৰ	n i z ɔ ɹ
-নমাজ	n ɔ m a z
-নতুন	n ɔ t u n
-নেউল	n ɛ u l
-নহয়	n ɔ ɦ ɔ ɛ
-নহৰু	n ɔ ɦ ɔ ɹ u
-নামা	nama
-নাচা	nasa
-নাঙল	naŋɔl
-নাহৰ	naɦɔɹ
-নেকি	neki
-নেকি	niki
-নীলা	nila
-নিমখ	nimɔkʰ
-নিচা	nisa
-নিজা	niza
-নিজে	nizɛ
-নিজৰ	nizɔɹ
-নমাজ	nɔmaz
-নতুন	nɔtun
-নেউল	nɛul
-নহয়	nɔɦɔɛ
-নহৰু	nɔɦɔɹu
-পাখি	p a kʰ i
-পানী	p a n i
-পাতল	p a t ɔ l
-পাথৰ	p a tʰ ɔ ɹ
-পাখি	p a x i
-পাৰা	p a ɹ a
-পাহি	p a ɦ i
-পিপৰ	p i p ɔ ɹ
-পিটা	p i t a
-পিতা	p i t a
-পিঠা	p i tʰ a
-পিঠি	p i tʰ i
-পিহা	p i ɦ a
-পিৰা	p i ɹ a
-পুৱা	p u a
-পুলি	p u l i
-পুথি	p u tʰ i
-পূৰঠ	p u ɹ ɔ tʰ
-পাঁচ	p ã s
-পেলু	p ɛ l u
-পোনা	p ʊ n a
-পনৰু	p ɔ n ɔ ɹ u
-পচলা	p ɔ s ɔ l a
-পোতা	p ʊ t a
-পেটী	p ɛ t i
-পেটু	p ɛ t u
-পথাৰ	p ɔ tʰ a ɹ
-পঢ়া	p ɔ ɦ a
-পেহা	p ɛ ɦ a
-পেৰা	p ɛ ɹ a
-পোহা	p ʊ ɦ a
-পেহী	p ɛ ɦ i
-পঢ়া	p ɔ ʴ ɦ a
-পোহৰ	p ʊ ɦ ɔ ɹ
-পোহৰ	p ʊ ɦ ɔː
-পাখি	pakʰi
-পানী	pani
-পাতল	patɔl
-পাথৰ	patʰɔɹ
-পাখি	paxi
-পাৰা	paɹa
-পাহি	paɦi
-পিপৰ	pipɔɹ
-পিটা	pita
-পিতা	pita
-পিঠা	pitʰa
-পিঠি	pitʰi
-পিহা	piɦa
-পিৰা	piɹa
-পুৱা	pua
-পুলি	puli
-পুথি	putʰi
-পূৰঠ	puɹɔtʰ
-পাঁচ	pãs
-ফালা	pʰ a l a
-ফাটা	pʰ a t a
-ফুলা	pʰ u l a
-ফুটা	pʰ u t a
-ফুৰা	pʰ u ɹ a
-ফাঁক	pʰ ã k
-ফেনা	pʰ ɛ n a
-ফেঁট	pʰ ẽ t
-ফটকা	pʰ ɔ t ɔ k a
-ফৰিং	pʰ ɔ ɹ i ŋ
-ফালা	pʰala
-ফাটা	pʰata
-পেলু	pɛlu
-পোনা	pʊna
-পনৰু	pɔnɔɹu
-পচলা	pɔsɔla
-পোতা	pʊta
-পেটী	pɛti
-পেটু	pɛtu
-পথাৰ	pɔtʰaɹ
-ফুলা	pʰula
-ফুটা	pʰuta
-ফুৰা	pʰuɹa
-ফাঁক	pʰãk
-পঢ়া	pɔɦa
-পেহা	pɛɦa
-পেৰা	pɛɹa
-পোহা	pʊɦa
-পেহী	pɛɦi
-ফেনা	pʰɛna
-ফেঁট	pʰẽt
-ফটকা	pʰɔtɔka
-পঢ়া	pɔʴɦa
-ফৰিং	pʰɔɹiŋ
-পোহৰ	pʊɦɔɹ
-পোহৰ	pʊɦɔː
-চাবন	s a b ɔ n
-চাদৰ	s a d ɔ ɹ
-চাকা	s a k a
-চালা	s a l a
-ছানা	s a n a
-ছাপন	s a p ɔ n
-চাপৰ	s a p ɔ ɹ
-ছাতি	s a t i
-ছাৱা	s a w a
-চাহী	s a ɦ i
-চাৰি	s a ɹ i
-চেনি	s e n i
-চিকা	s i k a
-চিনা	s i n a
-ছিটা	s i t a
-চিঠি	s i tʰ i
-ছিগা	s i ɡ a
-ছিঙা	s i ŋ a
-চৌকা	s o ʊ k a
-চৌখা	s o ʊ kʰ a
-চুটি	s u t i
-চুঙা	s u ŋ a
-ছুৰী	s u ɹ i
-চাঁদ	s ã d
-চোৱা	s ʊ a
-ছোৱা	s ʊ a
-চোবা	s ʊ b a
-ছেকা	s ɛ k a
-চকৰা	s ɔ k ɔ ɹ a
-চকৰি	s ɔ k ɔ ɹ i
-চকৰী	s ɔ k ɔ ɹ i
-চেলা	s ɛ l a
-চোলা	s ʊ l a
-চেপা	s ɛ p a
-ছৱাল	s ɔ w a l
-চৰাই	s ɔ ɹ a ɪ
-চৌৱন	s ɔ ʊ ɔ n
-চাবন	sabɔn
-চাদৰ	sadɔɹ
-চাকা	saka
-চালা	sala
-ছানা	sana
-ছাপন	sapɔn
-চাপৰ	sapɔɹ
-ছাতি	sati
-ছাৱা	sawa
-চাহী	saɦi
-চাৰি	saɹi
-চেনি	seni
-চিকা	sika
-চিনা	sina
-ছিটা	sita
-চিঠি	sitʰi
-ছিগা	siɡa
-ছিঙা	siŋa
-চৌকা	soʊka
-চৌখা	soʊkʰa
-চুটি	suti
-চুঙা	suŋa
-ছুৰী	suɹi
-চাঁদ	sãd
-চোৱা	sʊa
-ছোৱা	sʊa
-চোবা	sʊba
-ছেকা	sɛka
-চকৰা	sɔkɔɹa
-চকৰি	sɔkɔɹi
-চকৰী	sɔkɔɹi
-চেলা	sɛla
-চোলা	sʊla
-চেপা	sɛpa
-ছৱাল	sɔwal
-চৰাই	sɔɹaɪ
-চৌৱন	sɔʊɔn
-টানা	t a n a
-তাজা	t a z a
-তাইক	t a ɪ k
-তাইৰ	t a ɪ ɹ
-টিভি	t i b ʱ i
-টিকা	t i k a
-টিলা	t i l a
-তিমি	t i m i
-তিনি	t i n i
-টিপা	t i p a
-তিতা	t i t a
-তিতৌ	t i t o ʊ
-তিতৰ	t i t ɔ ɹ
-তুলা	t u l a
-তুলি	t u l i
-তুলী	t u l i
-তূলী	t u l i
-তুমি	t u m i
-টুপী	t u p i
-তাঁত	t ã t
-তবলা	t ɔ b ɔ l a
-তেইছ	t ɛ i s
-টোকা	t ʊ k a
-তোলা	t ʊ l a
-টেমা	t ɛ m a
-তেনে	t ɛ n ɛ
-তত্ব	t ɔ t t ɔ
-তেজা	t ɛ z a
-টেঙা	t ɛ ŋ a
-তেৱন	t ɛ ɔ n
-তহঁত	t ɔ ɦ ɔ t
-তেওঁ	t ɛ ʊ̃
-টানা	tana
-তাজা	taza
-তাইক	taɪk
-তাইৰ	taɪɹ
-টিভি	tibʱi
-টিকা	tika
-টিলা	tila
-তিমি	timi
-তিনি	tini
-টিপা	tipa
-তিতা	tita
-তিতৌ	titoʊ
-তিতৰ	titɔɹ
-তুলা	tula
-তুলি	tuli
-তুলী	tuli
-তূলী	tuli
-তুমি	tumi
-টুপী	tupi
-তাঁত	tãt
-থাকা	tʰ a k a
-ঠালি	tʰ a l i
-থালি	tʰ a l i
-ঠানি	tʰ a n i
-থাপা	tʰ a p a
-থাপৰ	tʰ a p ɔ ɹ
-ঠাৰি	tʰ a ɹ i
-ঠিলা	tʰ i l a
-থিয়	tʰ i ɔ
-থোৱা	tʰ ʊ a
-থুঁপ	tʰ ũ p
-ঠোঙা	tʰ ʊ ŋ a
-ঠোঁট	tʰ ʊ̃ t
-থাকা	tʰaka
-ঠালি	tʰali
-থালি	tʰali
-ঠানি	tʰani
-থাপা	tʰapa
-থাপৰ	tʰapɔɹ
-ঠাৰি	tʰaɹi
-তবলা	tɔbɔla
-ঠিলা	tʰila
-তেইছ	tɛis
-থিয়	tʰiɔ
-টোকা	tʊka
-তোলা	tʊla
-টেমা	tɛma
-তেনে	tɛnɛ
-তত্ব	tɔttɔ
-তেজা	tɛza
-টেঙা	tɛŋa
-থোৱা	tʰʊa
-তেৱন	tɛɔn
-থুঁপ	tʰũp
-তেওঁ	tɛʊ̃
-ঠোঙা	tʰʊŋa
-ঠোঁট	tʰʊ̃t
-তহঁত	tɔɦɔt
-উভাল	u b ʱ a l
-উকাহ	u k a ʱ
-উকিল	u k i l
-উখৰা	u kʰ ɔ ɹ a
-উমনি	u m ɔ n i
-ঊনৈছ	u n o ɪ s
-উতলা	u t ɔ l a
-উশাহ	u x a ʱ
-উখৰা	u x ɔ ɹ a
-উজান	u z a n
-উজলা	u z ɔ l a
-উজনি	u z ɔ n i
-উগাৰ	u ɡ a ɹ
-উঘাল	u ɡ ʱ a l
-উৰহী	u ɹ ɔ ɦ i
-উঘলা	u ɡ ʱ ɔ l a
-উভাল	ubʱal
-উকাহ	ukaʱ
-উকিল	ukil
-উখৰা	ukʰɔɹa
-উমনি	umɔni
-ঊনৈছ	unoɪs
-উতলা	utɔla
-উশাহ	uxaʱ
-উখৰা	uxɔɹa
-উজান	uzan
-উজলা	uzɔla
-উজনি	uzɔni
-উগাৰ	uɡaɹ
-উঘাল	uɡʱal
-উৰহী	uɹɔɦi
-উঘলা	uɡʱɔla
-সাবট	x a b ɔ t
-শালি	x a l i
-সামৰ	x a m ɔ ɹ
-সানা	x a n a
-ষাঠি	x a tʰ i
-সাজু	x a z u
-সাজো	x a z ʊ
-শাহু	x a ɦ u
-সাবট	x a β ɔ t
-সাগৰ	x a ɡ ɔ ɹ
-খেতি	x e t i
-শিপা	x i p a
-সিজা	x i z a
-শিহা	x i ɦ a
-শিহু	x i ɦ u
-সমান	x m a n
-সৈতে	x o ɪ t ɛ
-খুৱা	x u a
-শুনা	x u n a
-সূতা	x u t a
-খুৰা	x u ɹ a
-শুঙা	x u ŋ a
-সাঁজ	x ã z
-খোৱা	x ʊ a
-শোৱা	x ʊ a
-শব্দ	x ɔ b d ɔ
-সোধা	x ʊ d ʱ a
-সেকা	x ɛ k a
-সকলো	x ɔ k ɔ l ʊ
-সলনি	x ɔ l ɔ n i
-সময়	x ɔ m ɔ ɛ
-সোণৰ	x ʊ n ɔ ɹ
-সোপা	x ʊ p a
-সপোন	x ɔ p ʊ n
-সঁচা	x ɔ s a
-খচৰা	x ɔ s ɔ ɹ a
-সতেজ	x ɔ t ɛ z
-সোতৰ	x ʊ t ɔ ɹ ɔ
-শগুন	x ɔ ɡ u n
-শহুৰ	x ɔ ɦ u ɹ
-খৰচী	x ɔ ɹ ɔ s i
-সোঁত	x ʊ̃ t
-সাবট	xabɔt
-শালি	xali
-সামৰ	xamɔɹ
-সানা	xana
-ষাঠি	xatʰi
-সাজু	xazu
-সাজো	xazʊ
-শাহু	xaɦu
-সাবট	xaβɔt
-সাগৰ	xaɡɔɹ
-খেতি	xeti
-শিপা	xipa
-সিজা	xiza
-শিহা	xiɦa
-শিহু	xiɦu
-সমান	xman
-সৈতে	xoɪtɛ
-খুৱা	xua
-শুনা	xuna
-সূতা	xuta
-খুৰা	xuɹa
-শুঙা	xuŋa
-সাঁজ	xãz
-খোৱা	xʊa
-শোৱা	xʊa
-শব্দ	xɔbdɔ
-সোধা	xʊdʱa
-সেকা	xɛka
-সকলো	xɔkɔlʊ
-সলনি	xɔlɔni
-সময়	xɔmɔɛ
-সোণৰ	xʊnɔɹ
-সোপা	xʊpa
-সপোন	xɔpʊn
-সঁচা	xɔsa
-খচৰা	xɔsɔɹa
-সতেজ	xɔtɛz
-সোতৰ	xʊtɔɹɔ
-সোঁত	xʊ̃t
-শগুন	xɔɡun
-শহুৰ	xɔɦuɹ
-খৰচী	xɔɹɔsi
-যাদু	z a d u
-জালা	z a l a
-জামু	z a m u
-জানা	z a n a
-জাপা	z a p a
-জাগা	z a ɡ a
-জাৰা	z a ɹ a
-জাৰু	z a ɹ u
-জিভা	z i b ʱ a
-জিলি	z i l i
-জিলী	z i l i
-জিনা	z i n a
-জুলা	z u l a
-জাঁপ	z ã p
-জাঁত	z ã t
-যোৱা	z ʊ a
-ঝাৰা	z ʱ a ɹ a
-জবকা	z ɔ b ɔ k a
-ঝিঞা	z ʱ i a
-ঝিলি	z ʱ i l i
-ঝিলী	z ʱ i l i
-জঁকা	z ɔ k a
-জেকা	z ɛ k a
-জোখা	z ʊ kʰ a
-জখলা	z ɔ kʰ ɔ l a
-জলাহ	z ɔ l a ʱ
-যেনে	z ɛ n ɛ
-জঁপা	z ɔ p a
-জপনা	z ɔ p ɔ n a
-জোতা	z ʊ t a
-যঁতৰ	z ɔ t ɔ ɹ
-জেঠা	z ɛ tʰ a
-জেঠী	z ɛ tʰ i
-জেঠু	z ɛ tʰ u
-জোখা	z ʊ x a
-জখলা	z ɔ x ɔ l a
-যুঁজ	z ũ z
-জ্বৰ	z ɔ ɹ
-জেগা	z ɛ ɡ a
-ঝিঞা	z ʱ ĩ ã
-যাদু	zadu
-জালা	zala
-জামু	zamu
-জানা	zana
-জাপা	zapa
-জাগা	zaɡa
-জাৰা	zaɹa
-জাৰু	zaɹu
-জিভা	zibʱa
-জিলি	zili
-জিলী	zili
-জিনা	zina
-জুলা	zula
-জাঁপ	zãp
-জাঁত	zãt
-যোৱা	zʊa
-ঝাৰা	zʱaɹa
-জবকা	zɔbɔka
-ঝিঞা	zʱia
-ঝিলি	zʱili
-ঝিলী	zʱili
-জঁকা	zɔka
-জেকা	zɛka
-জোখা	zʊkʰa
-জখলা	zɔkʰɔla
-জলাহ	zɔlaʱ
-যেনে	zɛnɛ
-জঁপা	zɔpa
-জপনা	zɔpɔna
-জোতা	zʊta
-জেঠা	zɛtʰa
-জেঠী	zɛtʰi
-জেঠু	zɛtʰu
-যঁতৰ	zɔtɔɹ
-জোখা	zʊxa
-জখলা	zɔxɔla
-যুঁজ	zũz
-জ্বৰ	zɔɹ
-জেগা	zɛɡa
-ঝিঞা	zʱĩã
-আঁকা	ã k a
-আঁচল	ã s ɔ l
-আঁতৰ	ã t ɔ ɹ
-আঁউজ	ã u z
-আঁহত	ã ɦ ɔ t
-আঁকা	ãka
-আঁচল	ãsɔl
-আঁতৰ	ãtɔɹ
-আঁউজ	ãuz
-আঁহত	ãɦɔt
-হাবি	ɦ a b i
-হাদং	ɦ a d ɔ ŋ
-হামি	ɦ a m i
-হানা	ɦ a n a
-হাটী	ɦ a t i
-ৰাতি	ɹ a t i
-হাড়	ɦ a ɹ
-হাগা	ɦ a ɡ a
-হাৰা	ɦ a ɹ a
-গাৰু	ɡ a ɹ u
-ৰাইজ	ɹ a ɪ z
-হাওৰ	ɦ a ʊ ɹ
-হাৱৰ	ɦ a ɔ ɹ
-অভাৱ	ɔ b ʱ a w
-গিলা	ɡ i l a
-এইটো	ɛ i t ʊ
-হীৰা	ɦ i ɹ a
-গিৰি	ɡ i ɹ i
-একৈছ	ɛ k o ɪ s
+অইন	ɔ ɪ n
+অইন	ɔɪn
+অকল	ɔ k ɔ l
+অকল	ɔkɔl
+অকলশৰীয়া	ɔ k ɔ l x ɔ ɹ i a
+অকলশৰীয়া	ɔkɔlxɔɹia
 অকলে	ɔ k ɔ l ɛ
-এলাহ	ɛ l a ʱ
-ওলমা	ʊ l ɔ m a
-ওলটা	ʊ l ɔ t a
-ওপঙা	ʊ p ɔ ŋ a
-গুচা	ɡ u s a
-গুটি	ɡ u t i
-ৰুটি	ɹ u t i
-গুহা	ɡ u ɦ a
-গুৰা	ɡ u ɹ a
-গুৰি	ɡ u ɹ i
-অযুত	ɔ z u t
-অজগৰ	ɔ z ɔ ɡ ɔ ɹ
-গাঁত	ɡ ã t
-গাঁও	ɡ ã ʊ
-হাঁহ	ɦ ã ɦ
-গোৱা	ɡ ʊ a
-হোৱা	ɦ ʊ a
-ৰোৱা	ɹ ʊ a
-এৰাল	ɛ ɹ a l
-ঘামা	ɡ ʱ a m a
-এঙাৰ	ɛ ŋ a ɹ
-গোবৰ	ɡ ʊ b ɔ ɹ
-গধুৰ	ɡ ɔ d ʱ u ɹ
-গুঁই	ɡ ũ i
-ঘিঁউ	ɡ ʱ i u
-ৰোকা	ɹ ʊ k a
-গেলা	ɡ ɛ l a
-গোলা	ɡ ʊ l a
-অন্য	ɔ ɪ n n ɔ
-ঘৈণী	ɡ ʱ o ɪ n i
-হোপা	ɦ ʊ p a
-গচকা	ɡ ɔ s ɔ k a
-ৰচনা	ɹ ɔ s ɔ n a
-গোটা	ɡ ʊ t a
-ঘাঁহ	ɡ ʱ ã ʱ
-গঁড়	ɡ ɔ ɹ
-গৰাহ	ɡ ɔ ɹ a ʱ
-অৰকা	ɔ ɹ ɔ k a
-ওৰণি	ʊ ɹ ɔ n i
-গঢ়া	ɡ ɔ ɹ ʱ a
-ঘঁহা	ɡ ʱ ɔ ɦ a
-ঘড়ী	ɡ ʱ ɔ ɹ i
-গহনা	ɡ ɔ ɦ ɔ n a
-হাবি	ɦabi
-হাদং	ɦadɔŋ
-হামি	ɦami
-হানা	ɦana
-হাটী	ɦati
-ৰাতি	ɹati
-হাড়	ɦaɹ
-হাগা	ɦaɡa
-হাৰা	ɦaɹa
-গাৰু	ɡaɹu
-ৰাইজ	ɹaɪz
-হাওৰ	ɦaʊɹ
-হাৱৰ	ɦaɔɹ
-অভাৱ	ɔbʱaw
-গিলা	ɡila
-এইটো	ɛitʊ
-হীৰা	ɦiɹa
-গিৰি	ɡiɹi
-একৈছ	ɛkoɪs
 অকলে	ɔkɔlɛ
-এলাহ	ɛlaʱ
-ওলমা	ʊlɔma
-ওলটা	ʊlɔta
-ওপঙা	ʊpɔŋa
-গুচা	ɡusa
-গুটি	ɡuti
-ৰুটি	ɹuti
-গুহা	ɡuɦa
-গুৰা	ɡuɹa
-গুৰি	ɡuɹi
-অযুত	ɔzut
-অজগৰ	ɔzɔɡɔɹ
-গাঁত	ɡãt
-গাঁও	ɡãʊ
-হাঁহ	ɦãɦ
-গোৱা	ɡʊa
-হোৱা	ɦʊa
-ৰোৱা	ɹʊa
-এৰাল	ɛɹal
-ঘামা	ɡʱama
-এঙাৰ	ɛŋaɹ
-গোবৰ	ɡʊbɔɹ
-গধুৰ	ɡɔdʱuɹ
-গুঁই	ɡũi
-ঘিঁউ	ɡʱiu
-ৰোকা	ɹʊka
-গেলা	ɡɛla
-গোলা	ɡʊla
-অন্য	ɔɪnnɔ
-ঘৈণী	ɡʱoɪni
-হোপা	ɦʊpa
-গচকা	ɡɔsɔka
-ৰচনা	ɹɔsɔna
-গোটা	ɡʊta
-ঘাঁহ	ɡʱãʱ
-গঁড়	ɡɔɹ
-গৰাহ	ɡɔɹaʱ
-অৰকা	ɔɹɔka
-ওৰণি	ʊɹɔni
-গঢ়া	ɡɔɹʱa
-ঘঁহা	ɡʱɔɦa
-ঘড়ী	ɡʱɔɹi
-গহনা	ɡɔɦɔna
-আব্বা	a b b a
-আবেলি	a b ɛ l i
-আদালত	a d a l ɔ t
-আম্মা	a m m a
-আম্মী	a m m i
-আমুৱা	a m u a
-আঞ্জা	a n z a
-আনোৱা	a n ʊ a
-আফচোচ	a p s ʊ s
-আপুনি	a p u n i
-আফচোচ	a pʰ s ʊ s
-আচলটল	a s ɔ l ɔ t ɔ l
-আঠাশী	a tʰ a x i
-আঠাৱন	a tʰ a ɔ n
-আঠাইছ	a tʰ a ɪ s
-আৰ্চি	a ɹ s i
-আঙুলি	a ŋ u l i
-আগুনি	a ɡ u n i
-আঙুঠি	a ŋ u tʰ i
-আংগাৰ	a ŋ ɡ a ɹ
-আৰ্হি	a ɹ ɦ i
-আঙুঠি	a ŋ ʊ tʰ i
-আব্বা	abba
-আবেলি	abɛli
-আদালত	adalɔt
-আম্মা	amma
-আম্মী	ammi
-আমুৱা	amua
-আঞ্জা	anza
-আনোৱা	anʊa
-আফচোচ	apsʊs
-আপুনি	apuni
-আফচোচ	apʰsʊs
-আচলটল	asɔlɔtɔl
-আঠাশী	atʰaxi
-আঠাৱন	atʰaɔn
-আঠাইছ	atʰaɪs
-আৰ্চি	aɹsi
-আঙুলি	aŋuli
-আগুনি	aɡuni
-আঙুঠি	aŋutʰi
-আংগাৰ	aŋɡaɹ
-আৰ্হি	aɹɦi
-আঙুঠি	aŋʊtʰi
-বাকলি	b a k ɔ l i
-বালিছ	b a l i s
-বানান	b a n a n
-বান্ধ	b a n d ʱ
-বান্ধ	b a n ʱ
-বাঢ়া	b a ɦ a
-বাঢ়া	b a ɹ a
-বাগান	b a ɡ a n
-বাহিৰ	b a ɦ i ɹ
-বাঢ়ৈ	b a ɦ o ɪ
-বাঢ়ৈ	b a ɹ o ɪ
-বাইচন	b a ɪ s ɔ n
-বাঢ়া	b a ɹ ʱ a
-বাঢ়ৈ	b a ɹ ʱ o ɪ
-বিয়া	b i a
-বিচাৰ	b i s a ɹ
-বিছনা	b i s ɔ n a
-বিচনী	b i s ɔ n i
-বিচৰা	b i s ɔ ɹ a
-বিষয়	b i x ɔ j
-বিৰিং	b i ɹ i ŋ
-বুটাম	b u t a m
-বাঁহী	b ã ɦ i
-বেয়া	b ɛ a
-ভালকৈ	b ʱ a l k o ɪ
-ভালকে	b ʱ a l k ɛ
-ভালনে	b ʱ a l n ɛ
-ভালুক	b ʱ a l u k
-ভাওনা	b ʱ a ʊ n a
-ভাইটি	b ʱ a ɪ t i
-ভাঙনি	b ʱ a ŋ ɔ n i
-ভিতৰত	b ʱ i t ɔ ɹ ɔ t
-বেঁকা	b ẽ k a
-বেল্ট	b ɛ l
-বেল্ট	b ɛ l t
-বেলেগ	b ɛ l ɛ ɡ
-বেমাৰ	b ɛ m a ɹ
-বন্ধা	b ɔ n d ʱ a
-বোৱনী	b ʊ n i
-বনোৱা	b ɔ n ʊ a
-বেপাৰ	b ɛ p a ɹ
-বোপাই	b ʊ p a ɪ
-বস্তু	b ɔ s t u
-বজোৱা	b ɔ z ʊ a
-বৰালি	b ɔ ɹ a l i
-বেহাৰ	b ɛ ɦ a ɹ
-ভকুৱা	b ʱ ɔ k u a
-ভনীটি	b ʱ ɔ n i t i
-ভণ্টি	b ʱ ɔ n t i
-ভণ্টী	b ʱ ɔ n t i
-বগোৱা	b ɔ ɡ ʊ a
-বহোৱা	b ɔ ɦ ʊ a
-ভেড়া	b ʱ ɛ ɹ a
-ভগোৱা	b ʱ ɔ ɡ ʊ a
-ভৰোৱা	b ʱ ɔ ɹ ʊ a
-বাকলি	bakɔli
-বালিছ	balis
-বানান	banan
-বান্ধ	bandʱ
-বান্ধ	banʱ
-বাঢ়া	baɦa
-বাঢ়া	baɹa
-বাগান	baɡan
-বাহিৰ	baɦiɹ
-বাঢ়ৈ	baɦoɪ
-বাঢ়ৈ	baɹoɪ
-বাইচন	baɪsɔn
-বাঢ়া	baɹʱa
-বাঢ়ৈ	baɹʱoɪ
-বিয়া	bia
-বিচাৰ	bisaɹ
-বিছনা	bisɔna
-বিচনী	bisɔni
-বিচৰা	bisɔɹa
-বিষয়	bixɔj
-বিৰিং	biɹiŋ
-বুটাম	butam
-বাঁহী	bãɦi
-বেয়া	bɛa
-ভালকৈ	bʱalkoɪ
-ভালকে	bʱalkɛ
-ভালনে	bʱalnɛ
-ভালুক	bʱaluk
-ভাওনা	bʱaʊna
-ভাইটি	bʱaɪti
-ভাঙনি	bʱaŋɔni
-ভিতৰত	bʱitɔɹɔt
-বেঁকা	bẽka
-বেল্ট	bɛl
-বেল্ট	bɛlt
-বেলেগ	bɛlɛɡ
-বেমাৰ	bɛmaɹ
-বন্ধা	bɔndʱa
-বোৱনী	bʊni
-বনোৱা	bɔnʊa
-বেপাৰ	bɛpaɹ
-বোপাই	bʊpaɪ
-বস্তু	bɔstu
-বজোৱা	bɔzʊa
-বৰালি	bɔɹali
-বেহাৰ	bɛɦaɹ
-ভকুৱা	bʱɔkua
-ভনীটি	bʱɔniti
-ভণ্টি	bʱɔnti
-ভণ্টী	bʱɔnti
-বগোৱা	bɔɡʊa
-বহোৱা	bɔɦʊa
-ভেড়া	bʱɛɹa
-ভগোৱা	bʱɔɡʊa
-ভৰোৱা	bʱɔɹʊa
-দালাল	d a l a l
-ডালিম	d a l i m
-দাপোণ	d a p ʊ n
-দিয়া	d i a
-ডিমৰু	d i m ɔ ɹ u
-দ্বীপ	d i p
-দিওৱা	d i ʊ a
-দুৱাৰ	d u a ɹ
-ডাঁৰা	d ã ɹ a
-ডাঁৰি	d ã ɹ i
-ঢাকনি	d ʱ a k ɔ n i
-ঢাকনী	d ʱ a k ɔ n i
-ধাননি	d ʱ a n ɔ n i
-ঢাপলি	d ʱ a p ɔ l i
-দোৱাত	d ʊ a t
-দৈকলা	d ɔ i k ɔ l a
-দমোৱা	d ɔ m ʊ a
-ডেউকা	d ɛ u k a
-দেউতি	d ɛ u t i
-দোহাৰ	d ʊ ɦ a ɹ
-ঢেঁকী	d ʱ ẽ k i
-দেউতা	d ɛ ʊ t a
-দৰ্জা	d ɔ ɹ z a
-দৰ্জী	d ɔ ɹ z i
-ধৰ্ষণ	d ʱ ɔ ɹ x ɔ n
-দালাল	dalal
-ডালিম	dalim
-দাপোণ	dapʊn
-দিয়া	dia
-ডিমৰু	dimɔɹu
-দ্বীপ	dip
-দিওৱা	diʊa
-দুৱাৰ	duaɹ
-ডাঁৰা	dãɹa
-ডাঁৰি	dãɹi
-ঢাকনি	dʱakɔni
-ঢাকনী	dʱakɔni
-ধাননি	dʱanɔni
-ঢাপলি	dʱapɔli
-দোৱাত	dʊat
-দৈকলা	dɔikɔla
-দমোৱা	dɔmʊa
-ডেউকা	dɛuka
-দেউতি	dɛuti
-দোহাৰ	dʊɦaɹ
-ঢেঁকী	dʱẽki
-দেউতা	dɛʊta
-দৰ্জা	dɔɹza
-দৰ্জী	dɔɹzi
-ধৰ্ষণ	dʱɔɹxɔn
-ফেঁচা	f ɛ s a
-ফৰাচী	f ɔ ɹ a s i
-ফেঁচা	fɛsa
-ফৰাচী	fɔɹasi
-হালধি	h a l ɔ d ʱ i
-হালধি	halɔdʱi
-ইয়াত	i a t
-ইলীহি	i l i ɦ i
-স্কুল	i s k u l
-ইউজাৰ	i u z a ɹ
-ইগ্লো	i ɡ l ʊ
-ইয়াত	iat
-ইলীহি	iliɦi
-স্কুল	iskul
-ইউজাৰ	iuzaɹ
-ইগ্লো	iɡlʊ
-কায়ম	k a e ɔ m
-কাকতি	k a k ɔ t i
-কান্দ	k a n
-কান্দ	k a n d
-কান্ধ	k a n d ʱ
-কান্ধ	k a n ʱ
-কাপোৰ	k a p ʊ ɹ
-কাউৰী	k a u ɹ i
-কাঢ়া	k a ɹ a
-কাঢ়া	k a ɹ ʱ a
-কিলিপ	k i l i p
-কিমান	k i m a n
-কিতাপ	k i t a p
-ক‌’লা	k o l a
-কুকুৰ	k u k u ɹ
-কুমটি	k u m ɔ t i
-কুটুম	k u t u m
-কুঠাৰ	k u tʰ a ɹ
-কুৰুই	k u ɹ u i
-কুহুম	k u ɦ u m
-কাঁইট	k ã i t
-কাঁচি	k ã s i
-কাঁটা	k ã t a
-কাঁড়	k ã ɹ
-কাঁহী	k ã ɦ i
-কোদাল	k ʊ d a l
-কঁকাল	k ɔ k a l
-কেঁকো	k ẽ k ʊ
-ক‌’লা	k ɔ l a
-ক‌’লা	k ʊ l a
-কলডিল	k ɔ l d i l
-কেলেই	k ɛ l e
-কেলেই	k ɛ l e ɪ
-কলিজা	k ɔ l i z a
-কমোৱা	k ɔ m ʊ a
-কন্দা	k ɔ n d a
-কটোৱা	k ɔ t ʊ a
-কেঁথা	k ẽ tʰ a
-কঁঠাল	k ɔ tʰ a l
-কুঁজা	k ũ z a
-কেঁহা	k ẽ ɦ a
-কোওৱা	k ʊ ʊ a
-কঁহাৰ	k ɔ ɦ a ɹ
-কৰোৱা	k ɔ ɹ ʊ a
-কেঁচি	k ɛ̃ s i
-কায়ম	kaeɔm
-কাকতি	kakɔti
-কান্দ	kan
-কান্দ	kand
-কান্ধ	kandʱ
-কান্ধ	kanʱ
-কাপোৰ	kapʊɹ
-কাউৰী	kauɹi
-কাঢ়া	kaɹa
-কাঢ়া	kaɹʱa
-কিলিপ	kilip
-কিমান	kiman
-কিতাপ	kitap
-ক‌’লা	kola
-কুকুৰ	kukuɹ
-কুমটি	kumɔti
-কুটুম	kutum
-কুঠাৰ	kutʰaɹ
-কুৰুই	kuɹui
-কুহুম	kuɦum
-কাঁইট	kãit
-কাঁচি	kãsi
-কাঁটা	kãta
-কাঁড়	kãɹ
-কাঁহী	kãɦi
-খাজুৰ	kʰ a z u ɹ
-খুন্দ	kʰ u n
-খুন্দ	kʰ u n d
-খুউৱা	kʰ u u a
-খুড়া	kʰ u ɹ a
-খুড়ী	kʰ u ɹ i
-খাঁটি	kʰ ã t i
-খন্দা	kʰ ɔ n d a
-খন্তি	kʰ ɔ n t i
-খুঁটি	kʰ ũ t i
-খজুলি	kʰ ɔ z u l i
-খজুটি	kʰ ɔ z u t i
-খেজুৰ	kʰ ɛ z u ɹ
-খোওৱা	kʰ ʊ ʊ a
-খোঁচা	kʰ ʊ̃ s a
-খাজুৰ	kʰazuɹ
-কোদাল	kʊdal
-কঁকাল	kɔkal
-কেঁকো	kẽkʊ
-ক‌’লা	kɔla
-ক‌’লা	kʊla
-কলডিল	kɔldil
-কেলেই	kɛle
-কেলেই	kɛleɪ
-কলিজা	kɔliza
-কমোৱা	kɔmʊa
-কন্দা	kɔnda
-কেঁচি	kɛsi
-কটোৱা	kɔtʊa
-কেঁথা	kẽtʰa
-কঁঠাল	kɔtʰal
-খুন্দ	kʰun
-খুন্দ	kʰund
-খুউৱা	kʰuua
-খুড়া	kʰuɹa
-খুড়ী	kʰuɹi
-কুঁজা	kũza
-খাঁটি	kʰãti
-কেঁহা	kẽɦa
-কোওৱা	kʊʊa
-কঁহাৰ	kɔɦaɹ
-খন্দা	kʰɔnda
-খন্তি	kʰɔnti
-খুঁটি	kʰũti
-খজুলি	kʰɔzuli
-খজুটি	kʰɔzuti
-খেজুৰ	kʰɛzuɹ
-কৰোৱা	kɔɹʊa
-খোওৱা	kʰʊʊa
-খোঁচা	kʰʊ̃sa
-লৰোৱা	l ɔ ɹ ʊ a
-লেহেম	l ɛ ɦ ɛ m
-লৰোৱা	lɔɹʊa
-লেহেম	lɛɦɛm
-মালিক	m a l i k
-মাণিক	m a n i k
-মাথোন	m a tʰ ʊ n
-মাথোঁ	m a tʰ ʊ̃
-মাইকী	m a ɪ k i
-মাগুৰ	m a ɡ u ɹ
-মিতিৰ	m i t i ɹ
-মিহলা	m i ɦ ɔ l a
-মিহলি	m i ɦ ɔ l i
-মৈদাম	m o ɪ d a m
-মৈলাম	m o ɪ l a m
-মৌচাক	m o ʊ s a k
-মুনিহ	m u n i ʱ
-মুঢ়া	m u ɦ a
-মুঢ়া	m u ɹ a
-মুঢ়া	m u ɹ ʱ a
-মূঢ়া	m u ɹ ʱ a
-মধুৰি	m ɔ d ʱ u ɹ i
-ময়ূৰ	m ɔ j u ɹ
-মোমাই	m ʊ m a ɪ
-মেঠোন	m ɛ tʰ ʊ n
-মহিলা	m ɔ ɦ i l a
-মৰ্মৰ	m ɔ ɹ m ɔ ɹ
-মালিক	malik
-মাণিক	manik
-মাথোন	matʰʊn
-মাথোঁ	matʰʊ̃
-মাইকী	maɪki
-মাগুৰ	maɡuɹ
-মিতিৰ	mitiɹ
-মিহলা	miɦɔla
-মিহলি	miɦɔli
-মৈদাম	moɪdam
-মৈলাম	moɪlam
-মৌচাক	moʊsak
-মুনিহ	muniʱ
-মুঢ়া	muɦa
-মুঢ়া	muɹa
-মুঢ়া	muɹʱa
-মূঢ়া	muɹʱa
-মধুৰি	mɔdʱuɹi
-ময়ূৰ	mɔjuɹ
-মোমাই	mʊmaɪ
-মেঠোন	mɛtʰʊn
-মহিলা	mɔɦila
-মৰ্মৰ	mɔɹmɔɹ
-নামাজ	n a m a z
-নামনি	n a m ɔ n i
-নাটনি	n a t ɔ n i
-নিয়া	n i a
-নিচান	n i s a n
-নিশাহ	n i x a ʱ
-নিযুত	n i z u t
-নিওৱা	n i ʊ a
-নব্বৈ	n ɔ b b o ɪ
-নক্সা	n ɔ k s a
-নম্বৰ	n ɔ m b ɔ ɹ
-নমোৱা	n ɔ m ʊ a
-নহ’লে	n ɔ ɦ o l ɛ
-নেগুৰ	n ɛ ɡ u ɹ
-নামাজ	namaz
-নামনি	namɔni
-নাটনি	natɔni
-নিয়া	nia
-নিচান	nisan
-নিশাহ	nixaʱ
-নিযুত	nizut
-নিওৱা	niʊa
-নব্বৈ	nɔbboɪ
-নক্সা	nɔksa
-নম্বৰ	nɔmbɔɹ
-নমোৱা	nɔmʊa
-নহ’লে	nɔɦolɛ
-নেগুৰ	nɛɡuɹ
-অমিতা	o m i t a
-অমিতা	omita
-পালিচ	p a l i s
-পালেং	p a l ɛ ŋ
-পাচলি	p a s ɔ l i
-পাহাৰ	p a ɦ a ɹ
-পাহৰা	p a ɦ ɔ ɹ a
-পাকঘৰ	p a ɡ ɡ ʱ ɔ ɹ
-পিয়া	p i a
-পিপৰা	p i p ɔ ɹ a
-পিচলা	p i s ɔ l a
-পুতাই	p u t a ɪ
-পুৰুষ	p u ɹ u x
-পুৰণা	p u ɹ ɔ n a
-পুৰণি	p u ɹ ɔ n i
-পাঁজৰ	p ã z ɔ ɹ
-পোৱাল	p ʊ a l
-পদূলি	p ɔ d u l i
-পকোৱা	p ɔ k ʊ a
-পখিলা	p ɔ kʰ i l a
-পলোৱা	p ɔ l ʊ a
-পেঁপা	p ẽ p a
-পঁচিছ	p ɔ s i s
-পঁচপন	p ɔ s p ɔ n
-পচোৱা	p ɔ s ʊ a
-পচন্দ	p ɔ s ɔ n
-পছন্দ	p ɔ s ɔ n
-পচন্দ	p ɔ s ɔ n d
-পছন্দ	p ɔ s ɔ n d
-পথালি	p ɔ tʰ a l i
-পঠোৱা	p ɔ tʰ ʊ a
-পোহাৰ	p ʊ ɦ a ɹ
-পৰ্বত	p ɔ ɹ b ɔ t
-পহিলা	p ɔ ɦ i l a
-পৰুৱা	p ɔ ɹ u a
-পগোৱা	p ɔ ɡ ʊ a
-পৰ্বত	p ɔː b ɔ t
-পালিচ	palis
-পালেং	palɛŋ
-পাচলি	pasɔli
-পাহাৰ	paɦaɹ
-পাহৰা	paɦɔɹa
-পাকঘৰ	paɡɡʱɔɹ
-পিয়া	pia
-পিপৰা	pipɔɹa
-পিচলা	pisɔla
-পুতাই	putaɪ
-পুৰুষ	puɹux
-পুৰণা	puɹɔna
-পুৰণি	puɹɔni
-পাঁজৰ	pãzɔɹ
-ফান্দ	pʰ a n
-ফান্দ	pʰ a n d
-ফুলনি	pʰ u l ɔ n i
-ফেঁচা	pʰ ɛ s a
-ফেঁটী	pʰ ẽ t i
-ফৰিঙা	pʰ ɔ ɹ i ŋ a
-পোৱাল	pʊal
-ফান্দ	pʰan
-ফান্দ	pʰand
-পদূলি	pɔduli
-পকোৱা	pɔkʊa
-পখিলা	pɔkʰila
-পলোৱা	pɔlʊa
-পেঁপা	pẽpa
-পঁচিছ	pɔsis
-পঁচপন	pɔspɔn
-পচোৱা	pɔsʊa
-পচন্দ	pɔsɔn
-পছন্দ	pɔsɔn
-পচন্দ	pɔsɔnd
-পছন্দ	pɔsɔnd
-পথালি	pɔtʰali
-পঠোৱা	pɔtʰʊa
-ফুলনি	pʰulɔni
-পোহাৰ	pʊɦaɹ
-পৰ্বত	pɔɹbɔt
-পৰ্বত	pɔːbɔt
-পহিলা	pɔɦila
-ফেঁচা	pʰɛsa
-ফেঁটী	pʰẽti
-পৰুৱা	pɔɹua
-পগোৱা	pɔɡʊa
-ফৰিঙা	pʰɔɹiŋa
-চাবাচ	s a b a s
-ছাবিছ	s a b i s
-চাবোন	s a b ʊ n
-চালনি	s a l ɔ n i
-চান্দ	s a n
-চান্দ	s a n d
-চাইগা	s a ɪ ɡ a
-ছাগলী	s a ɡ ɔ l i
-চিকাৰ	s i k a ɹ
-চিকুট	s i k u t
-চিকৰা	s i k ɔ ɹ a
-চিংৰা	s i ŋ ɹ a
-চিঙৰা	s i ŋ ɔ ɹ a
-স্কুল	s k u l
-চৌবিছ	s o ʊ b i s
-চবতকে	s ɔ b ɔ t k ɛ
-চকুলো	s ɔ k u l ʊ
-ছেকনী	s ɛ k ɔ n i
-চলোৱা	s ɔ l ʊ a
-চমুকৈ	s ɔ m u k o ɪ
-চমুকে	s ɔ m u k ɛ
-চেউৰী	s ɛ u ɹ i
-চোৰাং	s ʊ ɹ a ŋ
-চৰ্বি	s ɔ ɹ b i
-চৰ্বত	s ɔ ɹ b ɔ t
-ছৰ্বত	s ɔ ɹ b ɔ t
-চৰকাৰ	s ɔ ɹ k a ɹ
-ছৰ্পত	s ɔ ɹ p ɔ t
-চৰ্বত	s ɔː b ɔ t
-ছৰ্বত	s ɔː b ɔ t
-চাবাচ	sabas
-ছাবিছ	sabis
-চাবোন	sabʊn
-চালনি	salɔni
-চান্দ	san
-চান্দ	sand
-চাইগা	saɪɡa
-ছাগলী	saɡɔli
-চিকাৰ	sikaɹ
-চিকুট	sikut
-চিকৰা	sikɔɹa
-চিংৰা	siŋɹa
-চিঙৰা	siŋɔɹa
-স্কুল	skul
-চৌবিছ	soʊbis
-চবতকে	sɔbɔtkɛ
-চকুলো	sɔkulʊ
-ছেকনী	sɛkɔni
-চলোৱা	sɔlʊa
-চমুকৈ	sɔmukoɪ
-চমুকে	sɔmukɛ
-চেউৰী	sɛuɹi
-চোৰাং	sʊɹaŋ
-চৰ্বি	sɔɹbi
-চৰ্বত	sɔɹbɔt
-চৰ্বত	sɔːbɔt
-ছৰ্বত	sɔɹbɔt
-ছৰ্বত	sɔːbɔt
-চৰকাৰ	sɔɹkaɹ
-ছৰ্পত	sɔɹpɔt
-তামাম	t a m a m
-তামোল	t a m ʊ l
-তাৰিখ	t a ɹ i kʰ
-তাৰিখ	t a ɹ i x
-তাঁতী	t ã t i
-ত্ৰিছ	t ɹ i s
-টকিঅ’	t ɔ k i o
-তেখেত	t ɛ kʰ ɛ t
-তেলাল	t ɛ l a l
-তোমাৰ	t ʊ m a ɹ
-তম্বু	t ɔ m b u
-তপিনা	t ɔ p i n a
-তথাপি	t ɔ tʰ a p i
-টেংকি	t ɛ ŋ k i
-তৰমুজ	t ɔ ɹ m u z
-তামাম	tamam
-তামোল	tamʊl
-তাৰিখ	taɹikʰ
-তাৰিখ	taɹix
-তাঁতী	tãti
-ঠগোৱা	tʰ ɔ ɡ ʊ a
-থোঁতা	tʰ ʊ̃ t a
-ত্ৰিছ	tɹis
-টকিঅ’	tɔkio
-তেখেত	tɛkʰɛt
-তেলাল	tɛlal
-তোমাৰ	tʊmaɹ
-তম্বু	tɔmbu
-তপিনা	tɔpina
-তথাপি	tɔtʰapi
-টেংকি	tɛŋki
-তৰমুজ	tɔɹmuz
-থোঁতা	tʰʊ̃ta
-ঠগোৱা	tʰɔɡʊa
-ঊনআশী	u n ɔ a x i
-উঠোৱা	u tʰ ʊ a
-উঘালা	u ɡ ʱ a l a
-ঊনআশী	unɔaxi
-উঠোৱা	utʰʊa
-উঘালা	uɡʱala
-শামুক	x a m u k
-খাজুৰ	x a z u ɹ
-সাৰেং	x a ɹ ɛ ŋ
-শিয়া	x i a
-সীয়া	x i a
-সিমান	x i m a n
-শিমলু	x i m ɔ l u
-সিঁচা	x i s a
-সীওৱা	x i ʊ a
-সিহঁত	x i ʱ ɔ t
-শিঙৰি	x i ŋ ɔ ɹ i
-শিহৰি	x i ɦ ɔ ɹ i
-শুধৰা	x u d ʱ ɔ ɹ a
-শূন্য	x u i n n ɔ
-শুকান	x u k a n
-খুন্দ	x u n
-খুন্দ	x u n d
-সূতাৰ	x u t a ɹ
-সাঁকো	x ã k ʊ
-সাঁফৰ	x ã pʰ ɔ ɹ
-সাঁচা	x ã s a
-সেইটো	x ɛ i t ʊ
-শেলাই	x ɛ l a ɪ
-সলোৱা	x ɔ l ʊ a
-খন্তি	x ɔ n t i
-সুঁতি	x ũ t i
-সত্তৰ	x ɔ t t ɔ ɹ
-খজুলি	x ɔ z u l i
-খজুটি	x ɔ z u t i
-খেজুৰ	x ɛ z u ɹ
-সজোৱা	x ɔ z ʊ a
-শৰালি	x ɔ ɹ a l i
-শেঙুন	x ɛ ŋ u n
-সোঁতা	x ʊ̃ t a
-শামুক	xamuk
-খাজুৰ	xazuɹ
-সাৰেং	xaɹɛŋ
-শিয়া	xia
-সীয়া	xia
-সিমান	ximan
-শিমলু	ximɔlu
-সিঁচা	xisa
-সীওৱা	xiʊa
-সিহঁত	xiʱɔt
-শিঙৰি	xiŋɔɹi
-শিহৰি	xiɦɔɹi
-শুধৰা	xudʱɔɹa
-শূন্য	xuinnɔ
-শুকান	xukan
-খুন্দ	xun
-খুন্দ	xund
-সূতাৰ	xutaɹ
-সাঁকো	xãkʊ
-সাঁফৰ	xãpʰɔɹ
-সাঁচা	xãsa
-সেইটো	xɛitʊ
-শেলাই	xɛlaɪ
-সলোৱা	xɔlʊa
-খন্তি	xɔnti
-সুঁতি	xũti
-সত্তৰ	xɔttɔɹ
-খজুলি	xɔzuli
-খজুটি	xɔzuti
-খেজুৰ	xɛzuɹ
-সজোৱা	xɔzʊa
-শৰালি	xɔɹali
-সোঁতা	xʊ̃ta
-শেঙুন	xɛŋun
-জালুক	z a l u k
-জামুক	z a m u k
-জানোঁ	z a n ʊ̃
-ঝাড়ু	z a ɹ u
-জিঞাঁ	z i a
-জীয়া	z i a
-যিমান	z i m a n
-জিৰাফ	z i ɹ a pʰ
-জিৰণি	z i ɹ ɔ n i
-জাঁতি	z ã t i
-ঝাড়ু	z ʱ a ɹ u
-জ্বলা	z ɔ l a
-জলফাই	z ɔ l f a ɪ
-জলফাই	z ɔ l pʰ a ɪ
-জেলুক	z ɛ l u k
-জলোৱা	z ɔ l ʊ a
-জলফাই	z ɔ l ɸ a ɪ
-জ্বলন	z ɔ l ɔ n
-জোনাক	z ʊ n a k
-জপোৱা	z ɔ p ʊ a
-জেঠাই	z ɛ tʰ a ɪ
-যুঁজা	z ũ z a
-জিঞাঁ	z ĩ ã
-যোগান	z ʊ ɡ a n
-জৰিগছ	z ɔ ɹ i ɡ ɔ s
-জগোৱা	z ɔ ɡ ʊ a
-জালুক	zaluk
-জামুক	zamuk
-জানোঁ	zanʊ̃
-ঝাড়ু	zaɹu
-জিঞাঁ	zia
-জীয়া	zia
-যিমান	ziman
-জিৰাফ	ziɹapʰ
-জিৰণি	ziɹɔni
-জাঁতি	zãti
-ঝাড়ু	zʱaɹu
-জ্বলা	zɔla
-জলফাই	zɔlfaɪ
-জলফাই	zɔlpʰaɪ
-জেলুক	zɛluk
-জলোৱা	zɔlʊa
-জলফাই	zɔlɸaɪ
-জ্বলন	zɔlɔn
-জোনাক	zʊnak
-জপোৱা	zɔpʊa
-জেঠাই	zɛtʰaɪ
-যুঁজা	zũza
-জিঞাঁ	zĩã
-যোগান	zʊɡan
-জৰিগছ	zɔɹiɡɔs
-জগোৱা	zɔɡʊa
-আঁচনি	ã s ɔ n i
-আঁচোৰ	ã s ʊ ɹ
-আঁতৰা	ã t ɔ ɹ a
-আঁউজা	ã u z a
-আঁচনি	ãsɔni
-আঁচোৰ	ãsʊɹ
-আঁতৰা	ãtɔɹa
-আঁউজা	ãuza
-গাভৰু	ɡ a b ʱ ɔ ɹ u
-হাকিম	ɦ a k i m
-গাখীৰ	ɡ a kʰ i ɹ
-ফান্দ	ɸ a n
-ফান্দ	ɸ a n d
-গাৱাল	ɡ a w a l
-গাখীৰ	ɡ a x i ɹ
-হাজাৰ	ɦ a z a ɹ
-গাহৰি	ɡ a ɦ o ɹ i
-হিয়া	ɦ i a
-হিচাপ	ɦ i s a p
-হিংসা	ɦ i ŋ kʰ a
-হিংসা	ɦ i ŋ x a
 অকাপী	ɔ k a p i
-একাশী	ɛ k a x i
-একাৱন	ɛ k a ɔ n
-ওলোৱা	ʊ l ʊ a
-ওলোমা	ʊ l ʊ m a
-ওলোটা	ʊ l ʊ t a
-অনাটন	ɔ n a t ɔ n
-অনোৱা	ɔ n ʊ a
-এনেকৈ	ɛ n ɛ k o ɪ
-এনেকে	ɛ n ɛ k ɛ
-গুদাম	ɡ u d a m
-ৰুমাল	ɹ u m a l
-গুড়া	ɡ u ɹ a
-গুড়ি	ɡ u ɹ i
-হাঁচি	ɦ ã s i
-গাঁঠি	ɡ ã tʰ i
-গধূলা	ɡ ɔ d ʱ u l a
-গধূলি	ɡ ɔ d ʱ u l i
-গলোৱা	ɡ ɔ l ʊ a
-হলোৱা	ɦ ɔ l ʊ a
-ৰন্ধা	ɹ ɔ n d ʱ a
-ফেঁচা	ɸ ɛ s a
-হেঁচা	ɦ ẽ s a
-গোটেই	ɡ ʊ t e
-গতোৱা	ɡ ɔ t ʊ a
-গোটেই	ɡ ʊ t ɛ ɪ
-গজালি	ɡ ɔ z a l i
-হেজাৰ	ɦ ɛ z a ɹ
-এৰোৱা	ɛ ɹ ʊ a
-গৰাকী	ɡ ɔ ɹ a k i
-গঁৰাল	ɡ ɔ ɹ a l
-এংগাৰ	ɛ ŋ ɡ a ɹ
-ওৰোণা	ʊ ɹ ʊ n a
-ৰঙোৱা	ɹ ɔ ŋ ʊ a
-ঘেঁহু	ɡ ʱ ẽ ɦ u
-গেৰেজ	ɡ ɛ ɹ ɛ z
-ঘঁহনি	ɡ ʱ ɔ ɦ ɔ n i
-ৰহঘৰা	ɹ ɔ ɦ ɡ ʱ ɔ ɹ a
-গাভৰু	ɡabʱɔɹu
-হাকিম	ɦakim
-গাখীৰ	ɡakʰiɹ
-ফান্দ	ɸan
-ফান্দ	ɸand
-গাৱাল	ɡawal
-গাখীৰ	ɡaxiɹ
-হাজাৰ	ɦazaɹ
-গাহৰি	ɡaɦoɹi
-হিয়া	ɦia
-হিচাপ	ɦisap
-হিংসা	ɦiŋkʰa
-হিংসা	ɦiŋxa
 অকাপী	ɔkapi
-একাশী	ɛkaxi
-একাৱন	ɛkaɔn
-ওলোৱা	ʊlʊa
-ওলোমা	ʊlʊma
-ওলোটা	ʊlʊta
-অনাটন	ɔnatɔn
-অনোৱা	ɔnʊa
-এনেকৈ	ɛnɛkoɪ
-এনেকে	ɛnɛkɛ
-গুদাম	ɡudam
-ৰুমাল	ɹumal
-গুড়া	ɡuɹa
-গুড়ি	ɡuɹi
-হাঁচি	ɦãsi
-গাঁঠি	ɡãtʰi
-গধূলা	ɡɔdʱula
-গধূলি	ɡɔdʱuli
-গলোৱা	ɡɔlʊa
-হলোৱা	ɦɔlʊa
-ৰন্ধা	ɹɔndʱa
-ফেঁচা	ɸɛsa
-হেঁচা	ɦẽsa
-গোটেই	ɡʊte
-গতোৱা	ɡɔtʊa
-গোটেই	ɡʊtɛɪ
-গজালি	ɡɔzali
-হেজাৰ	ɦɛzaɹ
-এৰোৱা	ɛɹʊa
-গৰাকী	ɡɔɹaki
-গঁৰাল	ɡɔɹal
-এংগাৰ	ɛŋɡaɹ
-ওৰোণা	ʊɹʊna
-ৰঙোৱা	ɹɔŋʊa
-ঘেঁহু	ɡʱẽɦu
-গেৰেজ	ɡɛɹɛz
-ঘঁহনি	ɡʱɔɦɔni
-ৰহঘৰা	ɹɔɦɡʱɔɹa
-জানোঁ!	z aː n ʊ̃
-জানোঁ!	zaːnʊ̃
-আধৰুৱা	a d ʱ ɔ ɹ u a
-আলমাৰী	a l m a ɹ i
-আমুউৱা	a m u u a
-আন্দাজ	a n d a z
-আন্ধাৰ	a n d ʱ a ɹ
-আপোনাক	a p ʊ n a k
-আপোনাৰ	a p ʊ n a ɹ
-আচহুৱা	a s ɔ ɦ u a
-আজিনাই	a z i n a ɪ
-আঙ্গাৰ	a ŋ ɡ a ɹ
-আগেয়ে	a ɡ ɛ ɛ
-আধৰুৱা	adʱɔɹua
-আলমাৰী	almaɹi
-আমুউৱা	amuua
-আন্দাজ	andaz
-আন্ধাৰ	andʱaɹ
-আপোনাক	apʊnak
-আপোনাৰ	apʊnaɹ
-আচহুৱা	asɔɦua
-আজিনাই	azinaɪ
-আঙ্গাৰ	aŋɡaɹ
-আগেয়ে	aɡɛɛ
-বাদুলি	b a d u l i
-বাল্টি	b a l t i
-বান্ধা	b a n d ʱ a
-বান্দৰ	b a n d ɔ ɹ
-বাইদেউ	b a ɪ d o
-বাইদেউ	b a ɪ d ɛ ʊ
-বাগিচা	b a ɡ i s a
-বাৰিষা	b a ɹ i x a
-বাহিৰা	b a ɦ i ɹ a
-বাহিৰে	b a ɦ i ɹ ɛ
-বাহিৰত	b a ɦ i ɹ ɔ t
-বাঢ়নী	b a ɦ ɔ n i
-বঢ়োৱা	b a ɹ ʱ ʊ a
-বাঢ়নী	b a ɹ ʱ ɔ n i
-বিলাতী	b i l a t i
-বিলাহী	b i l a ɦ i
-বিলোৱা	b i l ʊ a
-বিন্ধা	b i n d ʱ a
-বিচাৰা	b i s a ɹ a
-বিষোৱা	b i x ʊ a
-বিজুলী	b i z u l i
-বিয়লি	b i ɔ l i
-বুধবাৰ	b u d b a ɹ
-বোৱাৰী	b ʊ a ɹ i
-বন্ধনী	b ɔ n d ʱ ɔ n i
-ভৈয়াম	b ʱ o ɪ a m
-বেপাৰী	b ɛ p a ɹ i
-বত্ৰিছ	b ɔ t ɹ i s
-ভোক্তা	b ʱ ʊ k t a
-ভেকোলা	b ʱ ɛ k ʊ l a
-ভেলেকী	b ʱ ɛ l ɛ k i
-বেংছটা	b ɛ ŋ s ɔ t a
-বঢ়োৱা	b ɔ ɦ ʊ a
-বেহেলা	b ɛ ɦ ɛ l a
-বহলোৱা	b ɔ ɦ ɔ l ʊ a
-বেঙেনা	b ɛ ŋ ɛ n a
-বেৰেটি	b ɛ ɹ ɛ t i
-বাদুলি	baduli
-বাল্টি	balti
-বান্ধা	bandʱa
-বান্দৰ	bandɔɹ
-বাইদেউ	baɪdo
-বাইদেউ	baɪdɛʊ
-বাগিচা	baɡisa
-বাৰিষা	baɹixa
-বাহিৰা	baɦiɹa
-বাহিৰে	baɦiɹɛ
-বাহিৰত	baɦiɹɔt
-বাঢ়নী	baɦɔni
-বঢ়োৱা	baɹʱʊa
-বাঢ়নী	baɹʱɔni
-বিলাতী	bilati
-বিলাহী	bilaɦi
-বিলোৱা	bilʊa
-বিন্ধা	bindʱa
-বিচাৰা	bisaɹa
-বিষোৱা	bixʊa
-বিজুলী	bizuli
-বিয়লি	biɔli
-বুধবাৰ	budbaɹ
-বোৱাৰী	bʊaɹi
-বন্ধনী	bɔndʱɔni
-ভৈয়াম	bʱoɪam
-বেপাৰী	bɛpaɹi
-বত্ৰিছ	bɔtɹis
-ভোক্তা	bʱʊkta
-ভেকোলা	bʱɛkʊla
-ভেলেকী	bʱɛlɛki
-বেংছটা	bɛŋsɔta
-বঢ়োৱা	bɔɦʊa
-বেহেলা	bɛɦɛla
-বহলোৱা	bɔɦɔlʊa
-বেঙেনা	bɛŋɛna
-বেৰেটি	bɛɹɛti
-ডাক্তৰ	d a k t ɔ ɹ
-দালালি	d a l a l i
-ডালিমা	d a l i m a
-ডাঠুৱা	d a tʰ u a
-ডুবাৰু	d u b a ɹ u
-দবাখেল	d ɔ b a kʰ ɛ l
-দবাখেল	d ɔ b a x ɛ l
-ডেকেৰী	d ɛ k ɛ ɹ i
-দলিওৱা	d ɔ l i ʊ a
-দলম’ৰা	d ɔ l m o ɹ a
-দোতাৰা	d ʊ t a ɹ a
-দোতোৰা	d ʊ t ʊ ɹ a
-ধুমুহা	d ʱ u m u ɦ a
-ধেমালি	d ʱ ɛ m a l i
-ধনিয়া	d ʱ ɔ n i a
-ডাক্তৰ	daktɔɹ
-দালালি	dalali
-ডালিমা	dalima
-ডাঠুৱা	datʰua
-ডুবাৰু	dubaɹu
-দবাখেল	dɔbakʰɛl
-দবাখেল	dɔbaxɛl
-ডেকেৰী	dɛkɛɹi
-দলিওৱা	dɔliʊa
-দলম’ৰা	dɔlmoɹa
-দোতাৰা	dʊtaɹa
-দোতোৰা	dʊtʊɹa
-ধুমুহা	dʱumuɦa
-ধেমালি	dʱɛmali
-ধনিয়া	dʱɔnia
-ইস্কুল	i s k u l
-ইস্পাত	i s p a t
-ইটানগৰ	i t a n ɔ ɡ ɔ ɹ
-ইস্কুল	iskul
-ইস্পাত	ispat
-ইটানগৰ	itanɔɡɔɹ
-কামোৰা	k a m ʊ ɹ a
-কান্দা	k a n d a
-কিন্তু	k i n t u
-কিচমিচ	k i s m i s
-ক’ৰবাত	k o ɹ b a t
-কুকুহা	k u k u ɦ a
-কুকুৰা	k u k u ɹ a
-কুৰুৱা	k u ɹ u a
-কাঁচকল	k ã s k ɔ l
-কোবোৱা	k ʊ b ʊ a
-কোদালি	k ʊ d a l i
-কলামলা	k ɔ l a m ɔ l a
-কেমটাই	k ɛ m ɔ t a ɪ
-কোনোবা	k ʊ n ʊ b a
-কেনেকৈ	k ɛ n ɛ k o ɪ
-কেনেকে	k ɛ n ɛ k ɛ
-কপৌফুল	k ɔ p o ʊ pʰ u l
-কেছাল’	k ɛ s a l o
-কেৰাহী	k ɛ ɹ a ɦ i
-কঁহুৱা	k ɔ ɦ u a
-কামোৰা	kamʊɹa
-কান্দা	kanda
-কিন্তু	kintu
-কিচমিচ	kismis
-ক’ৰবাত	koɹbat
-কুকুহা	kukuɦa
-কুকুৰা	kukuɹa
-কুৰুৱা	kuɹua
-কাঁচকল	kãskɔl
-খান্দা	kʰ a n d a
-খিৰিকী	kʰ i ɹ i k i
-খিৰোৱা	kʰ i ɹ ʊ a
-খীৰোৱা	kʰ i ɹ ʊ a
-খুন্দা	kʰ u n d a
-খুৰুৱা	kʰ u ɹ u a
-খুৰোৱা	kʰ u ɹ ʊ a
-খেলুৱৈ	kʰ ɛ l u o ɪ
-খজুউৱা	kʰ ɔ z u a
-খজুৱতি	kʰ ɔ z u ɔ t i
-খজুউৱা	kʰ ɔ z uː a
-খোঁচৰা	kʰ ʊ̃ s ɔ ɹ a
-খান্দা	kʰanda
-কোবোৱা	kʊbʊa
-কোদালি	kʊdali
-খিৰিকী	kʰiɹiki
-খিৰোৱা	kʰiɹʊa
-খীৰোৱা	kʰiɹʊa
-কলামলা	kɔlamɔla
-কেমটাই	kɛmɔtaɪ
-কোনোবা	kʊnʊba
-কেনেকৈ	kɛnɛkoɪ
-কেনেকে	kɛnɛkɛ
-কপৌফুল	kɔpoʊpʰul
-কেছাল’	kɛsalo
-খুন্দা	kʰunda
-খুৰুৱা	kʰuɹua
-খুৰোৱা	kʰuɹʊa
-কেৰাহী	kɛɹaɦi
-খেলুৱৈ	kʰɛluoɪ
-কঁহুৱা	kɔɦua
-খজুউৱা	kʰɔzua
-খজুউৱা	kʰɔzuːa
-খজুৱতি	kʰɔzuɔti
-খোঁচৰা	kʰʊ̃sɔɹa
-লাজুকা	l a z u k a
-লাজুকী	l a z u k i
-লুকুৱা	l u k u a
-লুথুৰী	l u tʰ u ɹ i
-লেটেকু	l ɛ t ɛ k u
-লেতেৰা	l ɛ t ɛ ɹ a
-লথিওৱা	l ɔ tʰ i ʊ a
-লহিয়া	l ɔ ɦ i a
-লাজুকা	lazuka
-লাজুকী	lazuki
-লুকুৱা	lukua
-লুথুৰী	lutʰuɹi
-লথিওৱা	lɔtʰiʊa
-লেটেকু	lɛtɛku
-লেতেৰা	lɛtɛɹa
-লহিয়া	lɔɦia
-মাজেদি	m a z ɛ d i
-মাজেৰে	m a z ɛ ɹ ɛ
-মাৰ্বল	m a ɹ b ɔ l
-মৃত্যু	m i t t u
-মৌচুমী	m o ʊ s u m i
-মুজুৰা	m u z u ɹ a
-মোবাইল	m ʊ b a ɪ l
-মধুমেহ	m ɔ d ʱ u m ɛ ɦ
-মৃত্যু	m ɹ i t t u
-ময়ূৰী	m ɔ j u ɹ i
-মেকুৰী	m ɛ k u ɹ i
-মেচেকা	m ɛ s ɛ k a
-মটীয়া	m ɔ t i a
-মেটেকা	m ɛ t ɛ k a
-মথাউৰি	m ɔ tʰ a u ɹ i
-মৰাপাট	m ɔ ɹ a p a t
-মৰমলগা	m ɔ ɹ ɔ m l ɔ ɡ a
-মাজেদি	mazɛdi
-মাজেৰে	mazɛɹɛ
-মাৰ্বল	maɹbɔl
-মৃত্যু	mittu
-মৌচুমী	moʊsumi
-মুজুৰা	muzuɹa
-মোবাইল	mʊbaɪl
-মধুমেহ	mɔdʱumɛɦ
-মৃত্যু	mɹittu
-ময়ূৰী	mɔjuɹi
-মেকুৰী	mɛkuɹi
-মেচেকা	mɛsɛka
-মটীয়া	mɔtia
-মথাউৰি	mɔtʰauɹi
-মেটেকা	mɛtɛka
-মৰাপাট	mɔɹapat
-মৰমলগা	mɔɹɔmlɔɡa
-নাৰিকল	n a ɹ i k ɔ l
-নাৰিকল	n a ɪ k ɔ l
-নিলিখা	n i l i kʰ a
-নিলিখা	n i l i x a
-নুমুৱা	n u m u a
-নাৰিকল	naɹikɔl
-নাৰিকল	naɪkɔl
-নিলিখা	nilikʰa
-নিলিখা	nilixa
-নুমুৱা	numua
-𑜒𑜪𑜨𑜍𑜣𑜄	o m ɹ i t a
-𑜒𑜪𑜨𑜍𑜣𑜄	omɹita
-পাণ্ডা	p a n d a
-পাত্থৰ	p a t tʰ ɔ ɹ
-পাউণ্ড	p a ʊ n
-পাউণ্ড	p a ʊ n d
-পাগুলা	p a ɡ u l a
-পাগুৰি	p a ɡ u ɹ i
-পিকোৱা	p i k ʊ a
-পিন্ধা	p i n d ʱ a
-পিটিকা	p i t i k a
-পৃথিৱী	p i tʰ i b i
-পৃথিৱী	p i tʰ i w i
-পিঁজৰা	p i z ɔ ɹ a
-পিৰানা	p i ɹ a n a
-পুখুৰী	p u kʰ u ɹ i
-পাঁজৰা	p ã z ɔ ɹ a
-পোৱালী	p ʊ a l i
-পৃথিৱী	p ɹ i tʰ i w i
-পলিথিন	p ɔ l i tʰ i n
-পেলোৱা	p ɛ l ʊ a
-পনীয়া	p ɔ n i a
-পঞ্চাছ	p ɔ n s a s
-পঞ্জাৱ	p ɔ n z a b
-পঞ্জাৱ	p ɔ n z a ᵇ
-পঁচাশী	p ɔ s a x i
-পটাখৰি	p ɔ t a kʰ ɔ ɹ i
-পেটাৰি	p ɛ t a ɹ i
-পঠিওৱা	p ɔ tʰ i ʊ a
-প্ৰথমে	p ɔ tʰ ɔ m ɛ
-পথৰুৱা	p ɔ tʰ ɔ ɹ u a
-পুঁওৱা	p ũ ʊ a
-প্ৰথমে	p ɹ ɔ tʰ ɔ m ɛ
-পঢ়োৱা	p ɔ ɦ ʊ a
-পঢ়োৱা	p ɔ ʴ ɦ ʊ a
-পাণ্ডা	panda
-পাত্থৰ	pattʰɔɹ
-পাউণ্ড	paʊn
-পাউণ্ড	paʊnd
-পাগুলা	paɡula
-পাগুৰি	paɡuɹi
-পিকোৱা	pikʊa
-পিন্ধা	pindʱa
-পিটিকা	pitika
-পৃথিৱী	pitʰibi
-পৃথিৱী	pitʰiwi
-পিঁজৰা	pizɔɹa
-পিৰানা	piɹana
-পুখুৰী	pukʰuɹi
-পাঁজৰা	pãzɔɹa
-ফুলোৱা	pʰ u l ʊ a
-পোৱালী	pʊali
-পৃথিৱী	pɹitʰiwi
-পলিথিন	pɔlitʰin
-পেলোৱা	pɛlʊa
-পনীয়া	pɔnia
-পঞ্চাছ	pɔnsas
-পঞ্জাৱ	pɔnzab
-পঞ্জাৱ	pɔnzaᵇ
-পঁচাশী	pɔsaxi
-পটাখৰি	pɔtakʰɔɹi
-পেটাৰি	pɛtaɹi
-পঠিওৱা	pɔtʰiʊa
-প্ৰথমে	pɔtʰɔmɛ
-পথৰুৱা	pɔtʰɔɹua
-ফুলোৱা	pʰulʊa
-পুঁওৱা	pũʊa
-প্ৰথমে	pɹɔtʰɔmɛ
-পঢ়োৱা	pɔɦʊa
-পঢ়োৱা	pɔʴɦʊa
-চাবাইচ	s a b a ɪ s
-চায়না	s a e n a
-চালগোম	s a l ɡ ʊ m
-চাংমাই	s a ŋ m a ɪ
-চিকাৰী	s i k a ɹ i
-চিকুটা	s i k u t a
-চিলোৱা	s i l ʊ a
-চিনাকি	s i n a k i
-চিনাকী	s i n a k i
-চিন্তা	s i n t a
-ছিটিকা	s i t i k a
-চ’বতকে	s o b ɔ t k ɛ
-চৌৰাশী	s o ʊ ɹ a x i
-চুটিকৈ	s u t i k o ɪ
-চুটিকে	s u t i k ɛ
-ছোৱালী	s ʊ a l i
-চোবোৱা	s ʊ b ʊ a
-ছয়াশী	s ɔ e a x i
-চক্লেট	s ɔ k l ɛ t
-চল্লিছ	s ɔ l l i s
-চেল্ফি	s ɛ l pʰ i
-ছেলোৱা	s ɛ l ʊ a
-চেলেকা	s ɛ l ɛ k a
-চমুউৱা	s ɔ m u u a
-চন্দুক	s ɔ n d u k
-চন্দ্ৰ	s ɔ n d ɔ
-চন্দ্ৰ	s ɔ n d ɹ ɔ
-চেপেটা	s ɛ p ɛ t a
-ছটিওৱা	s ɔ t i ʊ a
-চৰিত্ৰ	s ɔ ɹ i t ɹ ɔ
-চৰিওৱা	s ɔ ɹ i ʊ a
-চেহেৰা	s ɛ ɦ ɛ ɹ a
-চাবাইচ	sabaɪs
-চায়না	saena
-চালগোম	salɡʊm
-চাংমাই	saŋmaɪ
-চিকাৰী	sikaɹi
-চিকুটা	sikuta
-চিলোৱা	silʊa
-চিনাকি	sinaki
-চিনাকী	sinaki
-চিন্তা	sinta
-ছিটিকা	sitika
-চ’বতকে	sobɔtkɛ
-চৌৰাশী	soʊɹaxi
-চুটিকৈ	sutikoɪ
-চুটিকে	sutikɛ
-ছোৱালী	sʊali
-চোবোৱা	sʊbʊa
-ছয়াশী	sɔeaxi
-চক্লেট	sɔklɛt
-চল্লিছ	sɔllis
-চেল্ফি	sɛlpʰi
-ছেলোৱা	sɛlʊa
-চেলেকা	sɛlɛka
-চমুউৱা	sɔmuua
-চন্দুক	sɔnduk
-চন্দ্ৰ	sɔndɔ
-চন্দ্ৰ	sɔndɹɔ
-চেপেটা	sɛpɛta
-ছটিওৱা	sɔtiʊa
-চৰিত্ৰ	sɔɹitɹɔ
-চৰিওৱা	sɔɹiʊa
-চেহেৰা	sɛɦɛɹa
-তাজমহল	t a z m ɔ ɦ ɔ l
-তিৰাশী	t i ɹ a x i
-তিয়ঁহ	t i ɔ ʱ
-টুকুৰা	t u k u ɹ a
-টোপোলা	t ʊ p ʊ l a
-তৰামাছ	t ɔ ɹ a m a s
-তৰ্জমা	t ɔ ɹ z ɔ m a
-তৰোৱাল	t ɔ ɹ ʊ a l
-তাজমহল	tazmɔɦɔl
-তিৰাশী	tiɹaxi
-তিয়ঁহ	tiɔʱ
-টুকুৰা	tukuɹa
-থাপ্পৰ	tʰ a p p ɔ ɹ
-থপিওৱা	tʰ ɔ p i ʊ a
-থুঁতৰি	tʰ ũ t ɔ ɹ i
-থাপ্পৰ	tʰappɔɹ
-টোপোলা	tʊpʊla
-তৰামাছ	tɔɹamas
-থপিওৱা	tʰɔpiʊa
-থুঁতৰি	tʰũtɔɹi
-তৰ্জমা	tɔɹzɔma
-তৰোৱাল	tɔɹʊal
-উদ্যোগ	u d d ʊ ɡ
-উলিয়া	u l i a
-উলিওৱা	u l i ʊ a
-ঊনষাঠি	u n ɔ x a tʰ i
-উতলোৱা	u t ɔ l ʊ a
-উতনুৱা	u t ɔ n u a
-উদ্যোগ	u ɪ d d ʊ ɡ
-উদ্যোগ	uddʊɡ
-উলিয়া	ulia
-উলিওৱা	uliʊa
-ঊনষাঠি	unɔxatʰi
-উতলোৱা	utɔlʊa
-উতনুৱা	utɔnua
-উদ্যোগ	uɪddʊɡ
-শালিকা	x a l i k a
-সাতাশী	x a t a x i
-সাতাৱন	x a t a ɔ n
-সাতাইছ	x a t a ɪ s
-শিক্ষা	x i k kʰ a
-শিকোৱা	x i k ʊ a
-শিপিনী	x i p i n i
-সিজোৱা	x i z ʊ a
-খিৰিকী	x i ɹ i k i
-খিৰোৱা	x i ɹ ʊ a
-খীৰোৱা	x i ɹ ʊ a
-সিহঁতৰ	x i ʱ ɔ t ɔ ɹ
-সুবিধা	x u b i d ʱ a
-শুকুৱা	x u k u a
-খুন্দা	x u n d a
-সূচোৱা	x u s ʊ a
-খুৰুৱা	x u ɹ u a
-খুৰোৱা	x u ɹ ʊ a
-সোমবাৰ	x ʊ m b a ɹ
-সোমোৱা	x ʊ m ʊ a
-সেমেকা	x ɛ m ɛ k a
-সোণালী	x ʊ n a l i
-সোনাৰি	x ʊ n a ɹ i
-সন্দেহ	x ɔ n d ɛ ʱ
-শনিবাৰ	x ɔ n i b a ɹ
-শেৱালি	x ɛ w a l i
-খজুউৱা	x ɔ z u a
-সঁজুলি	x ɔ z u l i
-খজুৱতি	x ɔ z u ɔ t i
-খজুউৱা	x ɔ z uː a
-সোঁফাল	x ʊ̃ pʰ a l
-শালিকা	xalika
-সাতাশী	xataxi
-সাতাৱন	xataɔn
-সাতাইছ	xataɪs
-শিক্ষা	xikkʰa
-শিকোৱা	xikʊa
-শিপিনী	xipini
-সিজোৱা	xizʊa
-খিৰিকী	xiɹiki
-খিৰোৱা	xiɹʊa
-খীৰোৱা	xiɹʊa
-সিহঁতৰ	xiʱɔtɔɹ
-সুবিধা	xubidʱa
-শুকুৱা	xukua
-খুন্দা	xunda
-সূচোৱা	xusʊa
-খুৰুৱা	xuɹua
-খুৰোৱা	xuɹʊa
-সোমবাৰ	xʊmbaɹ
-সোমোৱা	xʊmʊa
-সেমেকা	xɛmɛka
-সোণালী	xʊnali
-সোনাৰি	xʊnaɹi
-সন্দেহ	xɔndɛʱ
-শনিবাৰ	xɔnibaɹ
-শেৱালি	xɛwali
-খজুউৱা	xɔzua
-সঁজুলি	xɔzuli
-খজুউৱা	xɔzuːa
-খজুৱতি	xɔzuɔti
-সোঁফাল	xʊ̃pʰal
-যাদুঘৰ	z a d u ɡ ʱ ɔ ɹ
-জ্বালা	z a l a
-জাংফাই	z a ŋ pʰ a ɪ
-জিয়াঁ	z i a
-জীৱাণু	z i b a n u
-জিলিকা	z i l i k a
-জীৱাণু	z i β a n u
-জিৰোৱা	z i ɹ ʊ a
-জুইশাল	z u i x a l
-জুইশলা	z u i x ɔ l a
-জুপুৰি	z u p u ɹ i
-জেব্ৰা	z ɛ b ɹ a
-জোকাৰা	z ʊ k a ɹ a
-জোলোঙা	z ʊ l ʊ ŋ a
-জলহুৱা	z ɔ l ɔ ɦ u a
-জোনাকী	z ʊ n a k i
-জোনবাই	z ʊ n b a ɪ
-জেতুকা	z ɛ t u k a
-জিয়াঁ	z ĩ ã
-জহামাল	z ɔ ɦ a m a l
-জহামলা	z ɔ ɦ a m ɔ l a
-যোগোৱা	z ʊ ɡ ʊ a
-জোঁৱাই	z ʊ̃ a ɪ
-যাদুঘৰ	zaduɡʱɔɹ
-জ্বালা	zala
-জাংফাই	zaŋpʰaɪ
-জিয়াঁ	zia
-জীৱাণু	zibanu
-জিলিকা	zilika
-জীৱাণু	ziβanu
-জিৰোৱা	ziɹʊa
-জুইশাল	zuixal
-জুইশলা	zuixɔla
-জুপুৰি	zupuɹi
-জেব্ৰা	zɛbɹa
-জোকাৰা	zʊkaɹa
-জোলোঙা	zʊlʊŋa
-জলহুৱা	zɔlɔɦua
-জোনাকী	zʊnaki
-জোনবাই	zʊnbaɪ
-জেতুকা	zɛtuka
-জিয়াঁ	zĩã
-জহামাল	zɔɦamal
-জহামলা	zɔɦamɔla
-জোঁৱাই	zʊ̃aɪ
-যোগোৱা	zʊɡʊa
-আঁচোৰা	ã s ʊ ɹ a
-আঁচোৰা	ãsʊɹa
-গাভিনী	ɡ a b ʱ i n i
-হালুৱা	ɦ a l u a
-হালোৱা	ɦ a l ʊ a
-গামোচা	ɡ a m ʊ s a
-ৰান্ধা	ɹ a n d ʱ a
-গাগিনী	ɡ a ɡ i n i
-ৰাংপতা	ɹ a ŋ p ɔ t a
-ৰিক্সা	ɹ i k s a
-উঁইপোক	ũ i p ʊ k
-ঐতিহ্য	ɔ i t i d ʑ ɔ
-ৰিজোৱা	ɹ i z ʊ a
-ওকালতি	ʊ k a l ɔ t i
-ওলমোৱা	ʊ l ɔ m ʊ a
-ওলটোৱা	ʊ l ɔ t ʊ a
-অমিয়া	ɔ m i a
-এন্দুৰ	ɛ n d u ɹ
-এন্ধাৰ	ɛ n d ʱ a ɹ
-অনুবাদ	ɔ n u b a d
+অচিনাকি	ɔ s i n a k i
+অচিনাকি	ɔsinaki
+অচিনাকী	ɔ s i n a k i
+অচিনাকী	ɔsinaki
+অজগৰ	ɔ z ɔ ɡ ɔ ɹ
+অজগৰ	ɔzɔɡɔɹ
+অটা	ɔ t a
+অটা	ɔta
 অণুজীৱ	ɔ n u z i b ɔ
 অণুজীৱ	ɔ n u z i β ɔ
-ৰ’দোৱা	ɹ o d ʊ a
-ওস্তাদ	ʊ s t a d
-এতিয়া	ɛ t i a
-গুচোৱা	ɡ u s ʊ a
-এষষ্ঠি	ɛ x ɔ s tʰ i
-এসত্তৰ	ɛ x ɔ t t ɔ ɹ
-এহাজাৰ	ɛ ɦ a z a ɹ
-অভ্যাস	ɔ ɪ b b ʱ a x
-ৰবিবাৰ	ɹ ɔ b i b a ɹ
-গেলোৱা	ɡ ɛ l ʊ a
-গোমধান	ɡ ʊ m d ʱ a n
-হেঁপাহ	ɦ ẽ p a ʱ
-গেছীয়	ɡ ɛ s i ɔ
-গোটোৱা	ɡ ʊ t ʊ a
-ঘাঁহনি	ɡ ʱ ã ɦ ɔ n i
-ৰঙালাও	ɹ ɔ ŋ a l a ʊ
-গঙাটোপ	ɡ ɔ ŋ a t ʊ p
-এঙ্গাৰ	ɛ ŋ ɡ a ɹ
-হেংদাং	ɦ ɛ ŋ d a ŋ
-গৰীয়া	ɡ ɔ ɹ i a
-গেৰোৱা	ɡ ɛ ɹ u a
-এহেজাৰ	ɛ ɦ ɛ z a ɹ
-হেৰোৱা	ɦ ɛ ɹ ʊ a
-এওঁলোক	ɛ ʊ̃ l ʊ k
-গাভিনী	ɡabʱini
-হালুৱা	ɦalua
-হালোৱা	ɦalʊa
-গামোচা	ɡamʊsa
-ৰান্ধা	ɹandʱa
-গাগিনী	ɡaɡini
-ৰাংপতা	ɹaŋpɔta
-ৰিক্সা	ɹiksa
-উঁইপোক	ũipʊk
-ঐতিহ্য	ɔitidʑɔ
-ৰিজোৱা	ɹizʊa
-ওকালতি	ʊkalɔti
-ওলমোৱা	ʊlɔmʊa
-ওলটোৱা	ʊlɔtʊa
-অমিয়া	ɔmia
-এন্দুৰ	ɛnduɹ
-এন্ধাৰ	ɛndʱaɹ
-অনুবাদ	ɔnubad
 অণুজীৱ	ɔnuzibɔ
 অণুজীৱ	ɔnuziβɔ
-ৰ’দোৱা	ɹodʊa
-ওস্তাদ	ʊstad
-এতিয়া	ɛtia
-গুচোৱা	ɡusʊa
-এষষ্ঠি	ɛxɔstʰi
-এসত্তৰ	ɛxɔttɔɹ
-এহাজাৰ	ɛɦazaɹ
-অভ্যাস	ɔɪbbʱax
-ৰবিবাৰ	ɹɔbibaɹ
-গেলোৱা	ɡɛlʊa
-গোমধান	ɡʊmdʱan
-হেঁপাহ	ɦẽpaʱ
-গেছীয়	ɡɛsiɔ
-গোটোৱা	ɡʊtʊa
-ঘাঁহনি	ɡʱãɦɔni
-ৰঙালাও	ɹɔŋalaʊ
-গঙাটোপ	ɡɔŋatʊp
-এঙ্গাৰ	ɛŋɡaɹ
-হেংদাং	ɦɛŋdaŋ
-গৰীয়া	ɡɔɹia
-এওঁলোক	ɛʊ̃lʊk
-গেৰোৱা	ɡɛɹua
-এহেজাৰ	ɛɦɛzaɹ
-হেৰোৱা	ɦɛɹʊa
-আধিপত্য	a d ʱ i p ɔ ɪ t t ɔ
-আদহীয়া	a d ɔ ɦ i a
-আলুগুটি	a l u ɡ u t i
-আচাভুৱা	a s a b ʱ u a
-আটাইতকৈ	a t a ɪ t k o ɪ
-আটাইতকে	a t a ɪ t k ɛ
-আঠষষ্ঠি	a t x ɔ s tʰ i
-আঠসত্তৰ	a t x ɔ t t ɔ ɹ
-আঠত্ৰিছ	a tʰ ɔ t ɹ i s
-আধিপত্য	adʱipɔɪttɔ
-আদহীয়া	adɔɦia
-আলুগুটি	aluɡuti
-আচাভুৱা	asabʱua
-আটাইতকৈ	ataɪtkoɪ
-আটাইতকে	ataɪtkɛ
-আঠষষ্ঠি	atxɔstʰi
-আঠসত্তৰ	atxɔttɔɹ
-আঠত্ৰিছ	atʰɔtɹis
-বাল্টিং	b a l t i ŋ
-বানপানী	b a n p a n i
-বাষষ্ঠি	b a x ɔ s tʰ i
-বাসত্তৰ	b a x ɔ t t ɔ ɹ
-বাওঁফাল	b a ʊ̃ pʰ a l
-ব্যৱহাৰ	b e ɔ ɦ a ɹ
-বিয়াশী	b i a x i
-বৃশ্চিক	b i s s i k
-বুলীয়া	b u l i a
-বাঁহফুল	b ã ʱ pʰ u l
-বাঁহগাজ	b ã ʱ ɡ a z
-ভালপোৱা	b ʱ a l p ʊ a
-ভাৰতীয়	b ʱ a ɹ ɔ t i ɔ
-ব্যৱহাৰ	b ɛ b ɔ ɦ a ɹ
-বৃশ্চিক	b ɹ i s s i k
-ভিতৰুৱা	b ʱ i t ɔ ɹ u a
-বখলিওৱা	b ɔ kʰ ɔ l i ʊ a
-বলাৎকাৰ	b ɔ l a t k a ɹ
-বেলেগকৈ	b ɛ l ɛ ɡ k o ɪ
-বেপৰোৱা	b ɛ p ɔ ɹ ʊ a
-ভূটীয়া	b ʱ u t i a
-বখলিওৱা	b ɔ x ɔ l i ʊ a
-ভূঁইকঁপ	b ʱ ũ i k ɔ p
-বহিখোৱা	b ɔ ɦ i kʰ ʊ a
-বেংছাটি	b ɛ ŋ s a t i
-বৰ্ত্তা	b ɔ ɹ t t a
-বৰদেউতা	b ɔ ɹ ɔ d ɛ u t a
-বৰণীয়া	b ɔ ɹ ɔ n i a
-বাল্টিং	baltiŋ
-বানপানী	banpani
-বাষষ্ঠি	baxɔstʰi
-বাসত্তৰ	baxɔttɔɹ
-বাওঁফাল	baʊ̃pʰal
-ব্যৱহাৰ	beɔɦaɹ
-বিয়াশী	biaxi
-বৃশ্চিক	bissik
-বুলীয়া	bulia
-বাঁহফুল	bãʱpʰul
-বাঁহগাজ	bãʱɡaz
-ভালপোৱা	bʱalpʊa
-ভাৰতীয়	bʱaɹɔtiɔ
-ব্যৱহাৰ	bɛbɔɦaɹ
-বৃশ্চিক	bɹissik
-ভিতৰুৱা	bʱitɔɹua
-বখলিওৱা	bɔkʰɔliʊa
-বলাৎকাৰ	bɔlatkaɹ
-বেলেগকৈ	bɛlɛɡkoɪ
-বেপৰোৱা	bɛpɔɹʊa
-ভূটীয়া	bʱutia
-বখলিওৱা	bɔxɔliʊa
-ভূঁইকঁপ	bʱũikɔp
-বহিখোৱা	bɔɦikʰʊa
-বেংছাটি	bɛŋsati
-বৰ্ত্তা	bɔɹtta
-বৰদেউতা	bɔɹɔdɛuta
-বৰণীয়া	bɔɹɔnia
-দীঘলোৱা	d i ɡ ʱ ɔ l ʊ a
-ঢাপলিকা	d ʱ a p ɔ l i k a
-ধুনীয়া	d ʱ u n i a
-ধন্যবাদ	d ʱ ɔ ɪ nː ɔ b a d
-দীঘলোৱা	diɡʱɔlʊa
-ঢাপলিকা	dʱapɔlika
-ধুনীয়া	dʱunia
-ধন্যবাদ	dʱɔɪnːɔbad
-ইয়ংচাক	i j ɔ ŋ s a k
-ইস্ত্ৰি	i s t i
-ইস্ত্ৰি	i s t ɹ i
-ইয়ংচাক	ijɔŋsak
-ইস্ত্ৰি	isti
-ইস্ত্ৰি	istɹi
-কানিয়া	k a n i a
-কানীয়া	k a n i a
-কাষ্টাৰ	k a s t a ɹ
-কাঠফুলা	k a tʰ pʰ u l a
-কাঠৰোকা	k a tʰ ɹ ʊ k a
-কাজিয়া	k a z i a
-কাৰখানা	k a ɹ kʰ a n a
-কাৰখানা	k a ɹ x a n a
-কিছুমান	k i s u m a n
-ক’ৰবালৈ	k o ɹ b a l ɔ ɪ
-কোকলোঙা	k ʊ k l ʊ ŋ a
-কোকলোঙা	k ʊ k ɔ l ʊ ŋ a
-কেকোসাপ	k ɛ k ʊ x a p
-কেঁকোৰা	k ẽ k ʊ ɹ a
-কন্দুৱা	k ɔ n d u a
-কেন্দ্ৰ	k ɛ n d ɹ ɔ
-কেঁচুৱা	k ẽ s u a
-কেতিয়া	k ɛ t i a
-কেৰাচিন	k ɛ ɹ a s i n
-কঢ়িওৱা	k ɔ ɦ i ʊ a
-কঢ়িওৱা	k ɔ ɹ ʱ i ʊ a
-কংগ্ৰেছ	k ɔ ŋ ɡ ɛ s
-কংগ্ৰেছ	k ɔ ŋ ɡ ɹ ɛ s
-কানিয়া	kania
-কানীয়া	kania
-কাষ্টাৰ	kastaɹ
-কাঠফুলা	katʰpʰula
-কাঠৰোকা	katʰɹʊka
-কাজিয়া	kazia
-কাৰখানা	kaɹkʰana
-কাৰখানা	kaɹxana
-কিছুমান	kisuman
-ক’ৰবালৈ	koɹbalɔɪ
-খানচামা	kʰ a n s a m a
-খেতিয়ক	kʰ e t i ɔ k
-খুন্দনা	kʰ u n d ɔ n a
-খুন্দনি	kʰ u n d ɔ n i
-খেপিওৱা	kʰ ɛ p i ʊ a
-খানচামা	kʰansama
-খেতিয়ক	kʰetiɔk
-কোকলোঙা	kʊklʊŋa
-কোকলোঙা	kʊkɔlʊŋa
-কেকোসাপ	kɛkʊxap
-কেঁকোৰা	kẽkʊɹa
-কন্দুৱা	kɔndua
-কেন্দ্ৰ	kɛndɹɔ
-কেঁচুৱা	kẽsua
-কেতিয়া	kɛtia
-খুন্দনা	kʰundɔna
-খুন্দনি	kʰundɔni
-কেৰাচিন	kɛɹasin
-কঢ়িওৱা	kɔɦiʊa
-খেপিওৱা	kʰɛpiʊa
-কঢ়িওৱা	kɔɹʱiʊa
-কংগ্ৰেছ	kɔŋɡɛs
-কংগ্ৰেছ	kɔŋɡɹɛs
-লাউখোলা	l a u kʰ ʊ l a
-লাউখোলা	l a u x ʊ l a
-লাওখোলা	l a ʊ kʰ ʊ l a
-লাওখোলা	l a ʊ x ʊ l a
-লুকুউৱা	l u k u u a
-লুটিওৱা	l u t i ʊ a
-লাউখোলা	laukʰʊla
-লাউখোলা	lauxʊla
-লাওখোলা	laʊkʰʊla
-লাওখোলা	laʊxʊla
-লুকুউৱা	lukuua
-লুটিওৱা	lutiʊa
-মালিকনী	m a l i k ɔ n i
-মাছৰোকা	m a s ɹ ʊ k a
-মিঠাতেল	m i tʰ a t ɛ l
-মিহলোৱা	m i ɦ ɔ l ʊ a
-মৌপিয়া	m o ʊ p i a
-মনিয়ৰী	m ɔ n i ɔ ɹ i
-মন্ত্ৰী	m ɔ n t i
-মন্ত্ৰী	m ɔ n t ɹ i
-মেৰামতি	m ɛ ɹ a m ɔ t i
-মৰাঠাৰি	m ɔ ɹ a tʰ a ɹ i
-মহাসাগৰ	m ɔ ɦ a x a ɡ ɔ ɹ
-মেৰিওৱা	m ɛ ɹ i ʊ a
-মে’ওনিজ	m ɛ ʊ n ɪ z
-মালিকনী	malikɔni
-মাছৰোকা	masɹʊka
-মিঠাতেল	mitʰatɛl
-মিহলোৱা	miɦɔlʊa
-মৌপিয়া	moʊpia
-মনিয়ৰী	mɔniɔɹi
-মন্ত্ৰী	mɔnti
-মন্ত্ৰী	mɔntɹi
-মেৰামতি	mɛɹamɔti
-মৰাঠাৰি	mɔɹatʰaɹi
-মহাসাগৰ	mɔɦaxaɡɔɹ
-মেৰিওৱা	mɛɹiʊa
-মে’ওনিজ	mɛʊnɪz
-নাম্বাৰ	n a m b a ɹ
-নাজানোঁ	n a z a n ʊ̃
-নুমুউৱা	n u m u a
-নুমুউৱা	n u m uː a
-নখপালিচ	n ɔ k p a l i s
-নেজানোঁ	n ɛ z a n ʊ̃
-নাম্বাৰ	nambaɹ
-নাজানোঁ	nazanʊ̃
-নুমুউৱা	numua
-নুমুউৱা	numuːa
-নখপালিচ	nɔkpalis
-নেজানোঁ	nɛzanʊ̃
-পানীচকু	p a n i s ɔ k u
-পাগলামি	p a ɡ ɔ l a m i
-পিয়াঁজ	p i ã s
-পিয়াঁজ	p i ã z
-প্ৰথমতে	p ɔ tʰ ɔ m ɔ t ɛ
-পঁষষ্ঠি	p ɔ x ɔ s tʰ i
-পঁসত্তৰ	p ɔ x ɔ t t ɔ ɹ
-পৰিয়াল	p ɔ ɹ i a l
-প্ৰথমতে	p ɹ ɔ tʰ ɔ m ɔ t ɛ
-পৰম্পৰা	p ɔ ɹ ɔ m p ɔ ɹ a
-পোহৰোৱা	p ʊ ɦ ɔ ɹ ʊ a
-পানীচকু	panisɔku
-পাগলামি	paɡɔlami
-পিয়াঁজ	piãs
-পিয়াঁজ	piãz
-ফুলবাৰী	pʰ u l b a ɹ i
-প্ৰথমতে	pɔtʰɔmɔtɛ
-ফুলবাৰী	pʰulbaɹi
-পঁষষ্ঠি	pɔxɔstʰi
-পঁসত্তৰ	pɔxɔttɔɹ
-পৰিয়াল	pɔɹial
-প্ৰথমতে	pɹɔtʰɔmɔtɛ
-পৰম্পৰা	pɔɹɔmpɔɹa
-পোহৰোৱা	pʊɦɔɹʊa
-চিকিৎসক	s i k i s s ɔ k
-চিকিৎসক	s i k i t s ɔ k
-ছিটিকনি	s i t i k ɔ n i
-চিগাৰেট	s i ɡ a ɹ ɛ t
-চৌত্ৰিছ	s o ʊ t ɹ i s
-চৌষষ্ঠি	s o ʊ x ɔ s tʰ i
-চৌসত্তৰ	s o ʊ x ɔ t t ɔ ɹ
-চকুপানী	s ɔ k u p a n i
-চেলাউৰি	s ɛ l a u ɹ i
-চমুটোকা	s ɔ m u t ʊ k a
-চিকিৎসক	sikissɔk
-চিকিৎসক	sikitsɔk
-ছিটিকনি	sitikɔni
-চিগাৰেট	siɡaɹɛt
-চৌত্ৰিছ	soʊtɹis
-চৌষষ্ঠি	soʊxɔstʰi
-চৌসত্তৰ	soʊxɔttɔɹ
-চকুপানী	sɔkupani
-চেলাউৰি	sɛlauɹi
-চমুটোকা	sɔmutʊka
-তামীঘৰা	t a m i ɡ ʱ ɔ ɹ a
-তিতামৰা	t i t a m ɔ ɹ a
-তাঁতিনী	t ã t i n i
-তাঁতশাল	t ã t x a l
-তেলীয়া	t ɛ l i a
-তেলটুপি	t ɛ l t u p i
-তোমালোক	t ʊ m a l ʊ k
-তেনেহলে	t ɛ n ɛ ɦ ɔ l ɛ
-তেতিয়া	t ɛ t i a
-তেত্ৰিছ	t ɛ t ɹ i s
-তেঁতেলী	t ẽ t ɛ l i
-তেষষ্ঠি	t ɛ x ɔ s tʰ i
-তেসত্তৰ	t ɛ x ɔ t t ɔ ɹ
-তেওঁলোক	t ɛ ʊ̃ l ʊ k
-তামীঘৰা	tamiɡʱɔɹa
-তিতামৰা	titamɔɹa
-তাঁতিনী	tãtini
-তাঁতশাল	tãtxal
-থপৰিওৱা	tʰ ɔ p ɔ ɹ i ʊ a
-তেলীয়া	tɛlia
-তেলটুপি	tɛltupi
-তোমালোক	tʊmalʊk
-তেনেহলে	tɛnɛɦɔlɛ
-তেতিয়া	tɛtia
-তেত্ৰিছ	tɛtɹis
-তেঁতেলী	tẽtɛli
-তেষষ্ঠি	tɛxɔstʰi
-তেসত্তৰ	tɛxɔttɔɹ
-থপৰিওৱা	tʰɔpɔɹiʊa
-তেওঁলোক	tɛʊ̃lʊk
-উলূম’ৰা	u l u m o ɹ a
-ঊননব্বৈ	u n ɔ n ɔ b b o ɪ
-ঊনসত্তৰ	u n ɔ x ɔ t t ɔ ɹ
-উপত্যকা	u p ɔ ɪ t t ɔ k a
-উলূম’ৰা	ulumoɹa
-ঊননব্বৈ	unɔnɔbboɪ
-ঊনসত্তৰ	unɔxɔttɔɹ
-উপত্যকা	upɔɪttɔka
-খেতিয়ক	x e t i ɔ k
-শিকোওৱা	x i k ʊ ʊ a
-শুধৰোৱা	x u d ʱ ɔ ɹ ʊ a
-শুকুউৱা	x u k u a
-শুকুউৱা	x u k uː a
-খুন্দনা	x u n d ɔ n a
-খুন্দনি	x u n d ɔ n i
-সুণীয়া	x u n i a
-সবাতোকৈ	x ɔ b a t ʊ k o ɪ
-সবাতোকে	x ɔ b a t ʊ k ɛ
-সকলোতকৈ	x ɔ k ɔ l ʊ t k o ɪ
-সকলোতকে	x ɔ k ɔ l ʊ t k ɛ
-সমনীয়া	x ɔ m ɔ n i a
-খেপিওৱা	x ɛ p i ʊ a
-সোঁফালে	x ʊ̃ pʰ a l ɛ
-খেতিয়ক	xetiɔk
-শিকোওৱা	xikʊʊa
-শুধৰোৱা	xudʱɔɹʊa
-শুকুউৱা	xukua
-শুকুউৱা	xukuːa
-খুন্দনা	xundɔna
-খুন্দনি	xundɔni
-সুণীয়া	xunia
-সবাতোকৈ	xɔbatʊkoɪ
-সবাতোকে	xɔbatʊkɛ
-সকলোতকৈ	xɔkɔlʊtkoɪ
-সকলোতকে	xɔkɔlʊtkɛ
-সমনীয়া	xɔmɔnia
-খেপিওৱা	xɛpiʊa
-সোঁফালে	xʊ̃pʰalɛ
-জুলীয়া	z u l i a
-জাঁতমিল	z ã t m i l
-জ্বলোৱা	z ɔ l ʊ a
-জলবায়ু	z ɔ l ɔ b a j u
-যেতিয়া	z ɛ t i a
-যুঁজাৰু	z ũ z a ɹ u
-জুলীয়া	zulia
-জাঁতমিল	zãtmil
-জ্বলোৱা	zɔlʊa
-জলবায়ু	zɔlɔbaju
-যেতিয়া	zɛtia
-যুঁজাৰু	zũzaɹu
-আঁকোৱাল	ã k ʊ a l
-আঁতৰোৱা	ã t ɔ ɹ ʊ a
-আঁউজোৱা	ã u z ʊ a
-আঁকোৱাল	ãkʊal
-আঁতৰোৱা	ãtɔɹʊa
-আঁউজোৱা	ãuzʊa
-ৰামধেনু	ɹ a m d ʱ ɛ n u
-হামিওৱা	ɦ a m i ʊ a
-ৰান্ধনি	ɹ a n d ʱ ɔ n i
-হাতমোজা	ɦ a t m ʊ z a
-হাহাকাৰ	ɦ a ɦ a k a ɹ
-ৰাংঢালী	ɹ a ŋ d ʱ a l i
-একাডেমি	ɛ k a d ɛ m i
-একনায়ক	ɛ k ɔ n a ɛ ɔ k
-একত্ৰিছ	ɛ k ɔ t ɹ i s
-এল্পেকা	ɛ l p ɛ k a
-ওলোমোৱা	ʊ l ʊ m ʊ a
-ওলোটোৱা	ʊ l ʊ t ʊ a
-এলেহুৱা	ɛ l ɛ ɦ u a
+অনা	ɔ n a
+অনা	ɔna
+অনাটন	ɔ n a t ɔ n
+অনাটন	ɔnatɔn
+অনুবাদ	ɔ n u b a d
+অনুবাদ	ɔnubad
 অনুবাদক	ɔ n u b a d ɔ k
-অচিনাকি	ɔ s i n a k i
-অচিনাকী	ɔ s i n a k i
-গুবৰুৱা	ɡ u b ɔ ɹ u a
-গুৰিওৱা	ɡ u ɹ i ʊ a
-গুৰুবাৰ	ɡ u ɹ u b a ɹ
-অসমীয়া	ɔ x o m i a
-এৰাখাতী	ɛ ɹ a kʰ a t i
-গেছীয়া	ɡ ɛ s i a
-হেৰুউৱা	ɦ ɛ ɹ u a
-হেৰুউৱা	ɦ ɛ ɹ uː a
-গংগাটোপ	ɡ ɔ ŋ ɡ a t ʊ p
-ঘোৰঘোৰা	ɡ ʱ ʊ ɹ ɡ ʱ ʊ ɹ a
-ৰামধেনু	ɹamdʱɛnu
-হামিওৱা	ɦamiʊa
-ৰান্ধনি	ɹandʱɔni
-হাতমোজা	ɦatmʊza
-হাহাকাৰ	ɦaɦakaɹ
-ৰাংঢালী	ɹaŋdʱali
-একাডেমি	ɛkadɛmi
-একনায়ক	ɛkɔnaɛɔk
-একত্ৰিছ	ɛkɔtɹis
-এল্পেকা	ɛlpɛka
-ওলোমোৱা	ʊlʊmʊa
-ওলোটোৱা	ʊlʊtʊa
-এলেহুৱা	ɛlɛɦua
 অনুবাদক	ɔnubadɔk
-অচিনাকি	ɔsinaki
-অচিনাকী	ɔsinaki
-গুবৰুৱা	ɡubɔɹua
-গুৰিওৱা	ɡuɹiʊa
-গুৰুবাৰ	ɡuɹubaɹ
+অনোৱা	ɔ n ʊ a
+অনোৱা	ɔnʊa
+অন্য	ɔ ɪ n n ɔ
+অন্য	ɔɪnnɔ
+অভাৱ	ɔ b ʱ a w
+অভাৱ	ɔbʱaw
+অভ্যাস	ɔ ɪ b b ʱ a x
+অভ্যাস	ɔɪbbʱax
+অমিতা	o m i t a
+অমিতা	omita
+অমিয়া	ɔ m i a
+অমিয়া	ɔmia
+অযুত	ɔ z u t
+অযুত	ɔzut
+অলপ	ɔ l ɔ p
+অলপ	ɔlɔp
+অসম	ɔ x ɔ m
+অসম	ɔxɔm
+অসমীয়া	ɔ x o m i a
 অসমীয়া	ɔxomia
-এৰাখাতী	ɛɹakʰati
-গেছীয়া	ɡɛsia
-হেৰুউৱা	ɦɛɹua
-হেৰুউৱা	ɦɛɹuːa
-গংগাটোপ	ɡɔŋɡatʊp
-ঘোৰঘোৰা	ɡʱʊɹɡʱʊɹa
+অহা	ɔ ɦ a
+অহা	ɔɦa
+অৰকা	ɔ ɹ ɔ k a
+অৰকা	ɔɹɔka
+অ’	o
+আ	a
+আঁউজ	ã u z
+আঁউজ	ãuz
+আঁউজা	ã u z a
+আঁউজা	ãuza
+আঁউজোৱা	ã u z ʊ a
+আঁউজোৱা	ãuzʊa
+আঁক	ã k
+আঁক	ãk
+আঁকা	ã k a
+আঁকা	ãka
+আঁকোৱাল	ã k ʊ a l
+আঁকোৱাল	ãkʊal
+আঁচ	ã s
+আঁচ	ãs
+আঁচনি	ã s ɔ n i
+আঁচনি	ãsɔni
+আঁচল	ã s ɔ l
+আঁচল	ãsɔl
+আঁচোৰ	ã s ʊ ɹ
+আঁচোৰ	ãsʊɹ
+আঁচোৰা	ã s ʊ ɹ a
+আঁচোৰা	ãsʊɹa
+আঁত	ã t
+আঁত	ãt
+আঁতৰ	ã t ɔ ɹ
+আঁতৰ	ãtɔɹ
+আঁতৰা	ã t ɔ ɹ a
+আঁতৰা	ãtɔɹa
+আঁতৰোৱা	ã t ɔ ɹ ʊ a
+আঁতৰোৱা	ãtɔɹʊa
+আঁহ	ã ʱ
+আঁহ	ãʱ
+আঁহত	ã ɦ ɔ t
+আঁহত	ãɦɔt
+আঁৰ	ã ɹ
+আঁৰ	ãɹ
+আংগাৰ	a ŋ ɡ a ɹ
+আংগাৰ	aŋɡaɹ
+আই	a ɪ
+আই	aɪ
 আইচলেণ্ড	a i s l ɛ n
-আপোনালোক	a p ʊ n a l ʊ k
-আঠচল্লিছ	a t s ɔ l l i s
-আঙুলিয়া	a ŋ u l i a
-আঙুলিওৱা	a ŋ u l i ʊ a
 আইচলেণ্ড	aislɛn
-আপোনালোক	apʊnalʊk
-আঠচল্লিছ	atsɔllis
-আঙুলিয়া	aŋulia
+আইতা	a ɪ t a
+আইতা	aɪta
+আইন	a ɪ n
+আইন	aɪn
+আইনা	a ɪ n a
+আইনা	aɪna
+আউটি	a ʊ t i
+আউটি	aʊti
+আউল	a ʊ l
+আউল	aʊl
+আও	a ʊ
+আও	aʊ
+আওৰা	a ʊ ɹ a
+আওৰা	aʊɹa
+আকণ	a k ɔ n
+আকণ	akɔn
+আকন	a k ɔ n
+আকন	akɔn
+আখৈ	a kʰ o ɪ
+আখৈ	akʰoɪ
+আখৰ	a kʰ ɔ ɹ
+আখৰ	a x ɔ ɹ
+আখৰ	akʰɔɹ
+আখৰ	axɔɹ
+আগত	a ɡ ɔ t
+আগত	aɡɔt
+আগতে	a ɡ ɔ t ɛ
+আগতে	aɡɔtɛ
+আগনি	a ɡ ɔ n i
+আগনি	aɡɔni
+আগুনি	a ɡ u n i
+আগুনি	aɡuni
+আগেয়ে	a ɡ ɛ ɛ
+আগেয়ে	aɡɛɛ
+আঘোণ	a ɡ ʱ ʊ n
+আঘোণ	aɡʱʊn
+আঙঠা	a ŋ ɔ tʰ a
+আঙঠা	aŋɔtʰa
+আঙঠি	a ŋ ɔ tʰ i
+আঙঠি	aŋɔtʰi
+আঙাৰ	a ŋ a ɹ
+আঙাৰ	aŋaɹ
+আঙুঠি	a ŋ u tʰ i
+আঙুঠি	a ŋ ʊ tʰ i
+আঙুঠি	aŋutʰi
+আঙুঠি	aŋʊtʰi
+আঙুল	a ŋ u l
+আঙুল	aŋul
+আঙুলি	a ŋ u l i
+আঙুলি	aŋuli
+আঙুলিওৱা	a ŋ u l i ʊ a
 আঙুলিওৱা	aŋuliʊa
-বাবুৰ্চি	b a b u ɹ s i
-ব্যাখ্যা	b a ɪ k kʰ a
-বাওঁফালে	b a ʊ̃ pʰ a l ɛ
-বাঁহপাতী	b ã ʱ p a t i
-ভাৰতীয়া	b ʱ a ɹ ɔ t i a
-ভিতৰুৱাল	b ʱ i t ɔ ɹ u a l
-বন্ধাকবি	b ɔ n d ʱ a k ɔ b i
-বৎচোৱানা	b ɔ s s ʊ a n a
-বৎচোৱানা	b ɔ t s ʊ a n a
-বাবুৰ্চি	babuɹsi
-ব্যাখ্যা	baɪkkʰa
-বাওঁফালে	baʊ̃pʰalɛ
-বাঁহপাতী	bãʱpati
-ভাৰতীয়া	bʱaɹɔtia
-ভিতৰুৱাল	bʱitɔɹual
-বন্ধাকবি	bɔndʱakɔbi
-বৎচোৱানা	bɔssʊana
-বৎচোৱানা	bɔtsʊana
-ডিলামাৰি	d i l a m a ɹ i
-দেৱনাগৰী	d ɛ w n a ɡ ɔ ɹ i
-দৰ্খাস্ত	d ɔ ɹ kʰ a s t ɔ
-দৰ্খাস্ত	d ɔ ɹ x a s t ɔ
-ডিলামাৰি	dilamaɹi
-দেৱনাগৰী	dɛwnaɡɔɹi
-দৰ্খাস্ত	dɔɹkʰastɔ
-দৰ্খাস্ত	dɔɹxastɔ
+আঙুলিয়া	a ŋ u l i a
+আঙুলিয়া	aŋulia
+আঙ্গাৰ	a ŋ ɡ a ɹ
+আঙ্গাৰ	aŋɡaɹ
+আচল	a s ɔ l
+আচল	asɔl
+আচলটল	a s ɔ l ɔ t ɔ l
+আচলটল	asɔlɔtɔl
+আচহুৱা	a s ɔ ɦ u a
+আচহুৱা	asɔɦua
+আচাভুৱা	a s a b ʱ u a
+আচাভুৱা	asabʱua
+আছে	a s ɛ
+আছে	asɛ
+আজান	a z a n
+আজান	azan
+আজি	a z i
+আজি	azi
+আজিনাই	a z i n a ɪ
+আজিনাই	azinaɪ
+আজো	a z ʊ
+আজো	azʊ
+আঞ্জা	a n z a
+আঞ্জা	anza
+আট	a t
+আট	at
+আটা	a t a
+আটা	ata
+আটাই	a t a ɪ
+আটাই	ataɪ
+আটাইতকে	a t a ɪ t k ɛ
+আটাইতকে	ataɪtkɛ
+আটাইতকৈ	a t a ɪ t k o ɪ
+আটাইতকৈ	ataɪtkoɪ
+আটিল	a t i l
+আটিল	atil
+আঠ	a tʰ
+আঠ	atʰ
+আঠচল্লিছ	a t s ɔ l l i s
+আঠচল্লিছ	atsɔllis
+আঠত্ৰিছ	a tʰ ɔ t ɹ i s
+আঠত্ৰিছ	atʰɔtɹis
+আঠষষ্ঠি	a t x ɔ s tʰ i
+আঠষষ্ঠি	atxɔstʰi
+আঠসত্তৰ	a t x ɔ t t ɔ ɹ
+আঠসত্তৰ	atxɔttɔɹ
+আঠা	a tʰ a
+আঠা	atʰa
+আঠাইছ	a tʰ a ɪ s
+আঠাইছ	atʰaɪs
+আঠান্নব্বৈ	a tʰ a n n ɔ b b o ɪ
+আঠান্নব্বৈ	atʰannɔbboɪ
+আঠাশী	a tʰ a x i
+আঠাশী	atʰaxi
+আঠাৱন	a tʰ a ɔ n
+আঠাৱন	atʰaɔn
+আতৰ	a t ɔ ɹ
+আতৰ	atɔɹ
+আথৰ	a tʰ ɔ ɹ
+আথৰ	atʰɔɹ
+আদহ	a d ɔ ɦ
+আদহ	adɔɦ
+আদহীয়া	a d ɔ ɦ i a
+আদহীয়া	adɔɦia
+আদা	a d a
+আদা	ada
+আদালত	a d a l ɔ t
+আদালত	adalɔt
+আধা	a d ʱ a
+আধা	adʱa
+আধিপত্য	a d ʱ i p ɔ ɪ t t ɔ
+আধিপত্য	adʱipɔɪttɔ
+আধৰুৱা	a d ʱ ɔ ɹ u a
+আধৰুৱা	adʱɔɹua
+আন	a n
+আন	an
+আনা	a n a
+আনা	ana
+আনোৱা	a n ʊ a
+আনোৱা	anʊa
+আন্দাজ	a n d a z
+আন্দাজ	andaz
+আন্ধাৰ	a n d ʱ a ɹ
+আন্ধাৰ	andʱaɹ
+আপা	a p a
+আপা	apa
+আপুনি	a p u n i
+আপুনি	apuni
+আপোন	a p ʊ n
+আপোন	apʊn
+আপোনাক	a p ʊ n a k
+আপোনাক	apʊnak
+আপোনালোক	a p ʊ n a l ʊ k
+আপোনালোক	apʊnalʊk
+আপোনাৰ	a p ʊ n a ɹ
+আপোনাৰ	apʊnaɹ
+আফচোচ	a p s ʊ s
+আফচোচ	a pʰ s ʊ s
+আফচোচ	apsʊs
+আফচোচ	apʰsʊs
+আফৰ	a pʰ ɔ ɹ
+আফৰ	apʰɔɹ
+আবা	a b a
+আবা	aba
+আবেলি	a b ɛ l i
+আবেলি	abɛli
+আব্বা	a b b a
+আব্বা	abba
+আবৰ	a b ɔ ɹ
+আবৰ	abɔɹ
+আবৰা	a b ɔ ɹ a
+আবৰা	abɔɹa
+আম	a m
+আম	am
+আমঠি	a m ɔ tʰ i
+আমঠি	amɔtʰi
+আমঠু	a m ɔ tʰ u
+আমঠু	amɔtʰu
+আমাৰ	a m a ɹ
+আমাৰ	amaɹ
+আমুউৱা	a m u u a
+আমুউৱা	amuua
+আমুৱা	a m u a
+আমুৱা	amua
+আম্মা	a m m a
+আম্মা	amma
+আম্মী	a m m i
+আম্মী	ammi
+আল	a l
+আল	al
+আলগ	a l ɔ ɡ
+আলগ	alɔɡ
+আলমাৰী	a l m a ɹ i
+আলমাৰী	almaɹi
+আলহী	a l ɔ ɦ i
+আলহী	alɔɦi
+আলি	a l i
+আলি	ali
+আলু	a l u
+আলু	alu
+আলুগুটি	a l u ɡ u t i
+আলুগুটি	aluɡuti
+আশী	a x i
+আশী	axi
+আহ	a ʱ
+আহ	aʱ
+আহা	a ɦ a
+আহা	aɦa
+আহু	a ɦ u
+আহু	aɦu
+আৰু	a ɹ u
+আৰু	aɹu
+আৰ্চি	a ɹ s i
+আৰ্চি	aɹsi
+আৰ্হি	a ɹ ɦ i
+আৰ্হি	aɹɦi
+আৱাজ	a w a z
+আৱাজ	a ʊ a z
+আৱাজ	awaz
+আৱাজ	aʊaz
+ই	i
+ই	iː
+ইউজাৰ	i u z a ɹ
+ইউজাৰ	iuzaɹ
+ইকৰা	i k ɔ ɹ a
+ইকৰা	ikɔɹa
+ইগ্লো	i ɡ l ʊ
+ইগ্লো	iɡlʊ
+ইটানগৰ	i t a n ɔ ɡ ɔ ɹ
+ইটানগৰ	itanɔɡɔɹ
+ইণ্ডোনেচিয়া	i n d ʊ n ɛ s i a
+ইণ্ডোনেচিয়া	indʊnɛsia
+ইতৰ	i t ɔ ɹ
+ইতৰ	itɔɹ
+ইমান	i m a n
+ইমান	iman
+ইয়ংচাক	i j ɔ ŋ s a k
+ইয়ংচাক	ijɔŋsak
+ইয়াত	i a t
+ইয়াত	iat
+ইলিছ	i l i s
+ইলিছ	ilis
+ইলীহ	i l i ʱ
+ইলীহ	iliʱ
+ইলীহি	i l i ɦ i
+ইলীহি	iliɦi
 ইষ্টেবুল	i s t ɛ b u l
 ইষ্টেবুল	istɛbul
-কামিহাড়	k a m i ɦ a ɹ
-কুহুমসাৰ	k u ɦ u m x a ɹ
-কেঁকোসাপ	k ẽ k ʊ x a p
-কেনেবাকৈ	k ɛ n ɛ b a k o ɪ
-কেনেকুৱা	k ɛ n ɛ k u a
-কেপিৱাৰা	k ɛ p i w a ɹ a
-কেৰেলুৱা	k ɛ ɹ ɛ l u a
-কামিহাড়	kamiɦaɹ
-কুহুমসাৰ	kuɦumxaɹ
-খুন্দোৱা	kʰ u n d ʊ a
-খেলিমেলি	kʰ ɛ l i m ɛ l i
-কেঁকোসাপ	kẽkʊxap
-কেনেবাকৈ	kɛnɛbakoɪ
-কেনেকুৱা	kɛnɛkua
-কেপিৱাৰা	kɛpiwaɹa
-খুন্দোৱা	kʰundʊa
-খেলিমেলি	kʰɛlimɛli
-কেৰেলুৱা	kɛɹɛlua
-লতামাকৰি	l ɔ t a m a k ɔ ɹ i
-লতামাকৰি	lɔtamakɔɹi
-মালিকানা	m a l i k a n a
-মানচিত্ৰ	m a n s i t t ɔ
-মানচিত্ৰ	m a n s i t ɹ ɔ
-মিস্ত্ৰী	m i s t i
-মিস্ত্ৰী	m i s t ɹ i
-মঙ্গলবাৰ	m ɔ ŋ ɔ l b a ɹ
-মৰমিয়াল	m ɔ ɹ ɔ m i a l
-মঙ্গলবাৰ	m ɔ ŋ ɡ ɔ l b a ɹ
-মালিকানা	malikana
-মানচিত্ৰ	mansittɔ
-মানচিত্ৰ	mansitɹɔ
-মিস্ত্ৰী	misti
-মিস্ত্ৰী	mistɹi
-মঙ্গলবাৰ	mɔŋɔlbaɹ
-মৰমিয়াল	mɔɹɔmial
-মঙ্গলবাৰ	mɔŋɡɔlbaɹ
-নাইপিয়া	n a ɪ p i a
-নাইপিয়া	naɪpia
-পাতিহাঁহ	p a t i ʱ ã ɦ
-পঢ়াশালি	p ɔ ɦ a x a l i
-পঢ়াশালি	p ɔ ɹ ʱ a x a l i
-পেঙ্গুইন	p ɛ ŋ ɡ u i n
-পাতিহাঁহ	patiʱãɦ
-ফ্লেমিংগ	pʰ l ɛ m i ŋ ɡ ɔ
-ফ্লেমিংগ	pʰlɛmiŋɡɔ
-পঢ়াশালি	pɔɦaxali
-পঢ়াশালি	pɔɹʱaxali
-পেঙ্গুইন	pɛŋɡuin
-শ্ৰীলংকা	s i l ɔ ŋ k a
-ছিটিকোৱা	s i t i k ʊ a
-চিয়াঁহী	s i ã ɦ i
-শ্ৰীলংকা	s i ɹ i l ɔ ŋ k a
-চুটিগল্প	s u t i ɡ ɔ l p ɔ
-ছয়ত্ৰিছ	s ɔ e t ɹ i s
-ছয়ষষ্ঠি	s ɔ e x ɔ s tʰ i
-ছয়সত্তৰ	s ɔ e x ɔ t t ɔ ɹ
-শ্ৰীলংকা	s ɹ i l ɔ ŋ k a
-শ্ৰীলংকা	silɔŋka
-ছিটিকোৱা	sitikʊa
-চিয়াঁহী	siãɦi
-শ্ৰীলংকা	siɹilɔŋka
-চুটিগল্প	sutiɡɔlpɔ
-ছয়ত্ৰিছ	sɔetɹis
-ছয়ষষ্ঠি	sɔexɔstʰi
-ছয়সত্তৰ	sɔexɔttɔɹ
-শ্ৰীলংকা	sɹilɔŋka
-তেলাকুচা	t ɛ l a k u s a
-তেনেহ’লে	t ɛ n ɛ ɦ o l ɛ
-তেজপিয়া	t ɛ z p i a
-থাইলেণ্ড	tʰ a ɪ l ɛ n d
-থাইলেণ্ড	tʰaɪlɛnd
-তেলাকুচা	tɛlakusa
-তেনেহ’লে	tɛnɛɦolɛ
-তেজপিয়া	tɛzpia
+ইস্কুল	i s k u l
+ইস্কুল	iskul
+ইস্ত্ৰি	i s t i
+ইস্ত্ৰি	i s t ɹ i
+ইস্ত্ৰি	isti
+ইস্ত্ৰি	istɹi
+ইস্পাত	i s p a t
+ইস্পাত	ispat
+ঈ	i
+ঈহ	i ʱ
+ঈহ	iʱ
+উ	u
+উঁই	ũ i
+উঁই	ũi
+উঁইপোক	ũ i p ʊ k
+উঁইপোক	ũipʊk
+উঁইপৰুৱা	ũ i p ɔ ɹ u a
+উঁইপৰুৱা	ũipɔɹua
+উঁহ	u ʱ
+উঁহ	uʱ
+উকল	u k ɔ l
+উকল	ukɔl
+উকহ	u k ɔ ɦ
+উকহ	ukɔɦ
+উকাহ	u k a ʱ
+উকাহ	ukaʱ
+উকিল	u k i l
+উকিল	ukil
+উখৰা	u kʰ ɔ ɹ a
+উখৰা	u x ɔ ɹ a
+উখৰা	ukʰɔɹa
+উখৰা	uxɔɹa
+উগাৰ	u ɡ a ɹ
+উগাৰ	uɡaɹ
+উঘলা	u ɡ ʱ ɔ l a
+উঘলা	uɡʱɔla
+উঘাল	u ɡ ʱ a l
+উঘাল	uɡʱal
+উঘালা	u ɡ ʱ a l a
+উঘালা	uɡʱala
+উজনি	u z ɔ n i
+উজনি	uzɔni
+উজলা	u z ɔ l a
+উজলা	uzɔla
+উজান	u z a n
+উজান	uzan
+উট	u t
+উট	ut
+উঠোৱা	u tʰ ʊ a
+উঠোৱা	utʰʊa
+উতনুৱা	u t ɔ n u a
+উতনুৱা	utɔnua
+উতল	u t ɔ l
+উতল	utɔl
+উতলা	u t ɔ l a
+উতলা	utɔla
+উতলোৱা	u t ɔ l ʊ a
+উতলোৱা	utɔlʊa
+উদ্যোগ	u d d ʊ ɡ
+উদ্যোগ	u ɪ d d ʊ ɡ
+উদ্যোগ	uddʊɡ
+উদ্যোগ	uɪddʊɡ
+উপত্যকা	u p ɔ ɪ t t ɔ k a
+উপত্যকা	upɔɪttɔka
+উফি	u pʰ i
+উফি	upʰi
+উভত	u b ʱ ɔ t
+উভত	ubʱɔt
+উভাল	u b ʱ a l
+উভাল	ubʱal
+উম	u m
+উম	um
+উমনি	u m ɔ n i
+উমনি	umɔni
+উমা	u m a
+উমা	uma
+উলিওৱা	u l i ʊ a
+উলিওৱা	uliʊa
+উলিয়া	u l i a
+উলিয়া	ulia
+উলূ	u l u
+উলূ	ulu
+উলূম’ৰা	u l u m o ɹ a
+উলূম’ৰা	ulumoɹa
+উশাহ	u x a ʱ
+উশাহ	uxaʱ
+উৰ	u ɹ
+উৰ	uɹ
+উৰহ	u ɹ ɔ ʱ
+উৰহ	uɹɔʱ
+উৰহী	u ɹ ɔ ɦ i
+উৰহী	uɹɔɦi
+ঊ	u
+ঊনআশী	u n ɔ a x i
+ঊনআশী	unɔaxi
 ঊনচল্লিছ	u n s ɔ l l i s
-ঊন্ত্ৰিছ	u n t ɹ i s
-ঊনপঞ্চাছ	u n ɔ p ɔ n s a s
 ঊনচল্লিছ	unsɔllis
-ঊন্ত্ৰিছ	untɹis
+ঊননব্বৈ	u n ɔ n ɔ b b o ɪ
+ঊননব্বৈ	unɔnɔbboɪ
+ঊনপঞ্চাছ	u n ɔ p ɔ n s a s
 ঊনপঞ্চাছ	unɔpɔnsas
-সাতষষ্ঠি	x a t x ɔ s tʰ i
-সাতসত্তৰ	x a t x ɔ t t ɔ ɹ
-সাতত্ৰিছ	x a t ɔ t ɹ i s
-শুকুৰবাৰ	x u k u ɹ b a ɹ
-শুক্ৰবাৰ	x u k ɹ b a ɹ
+ঊনষাঠি	u n ɔ x a tʰ i
+ঊনষাঠি	unɔxatʰi
+ঊনসত্তৰ	u n ɔ x ɔ t t ɔ ɹ
+ঊনসত্তৰ	unɔxɔttɔɹ
+ঊনৈছ	u n o ɪ s
+ঊনৈছ	unoɪs
+ঊন্ত্ৰিছ	u n t ɹ i s
+ঊন্ত্ৰিছ	untɹis
+ঋ	ɹ i
+ঋ	ɹi
+ঌ	l i
+ঌ	li
+এ	ɛ
+এংগাৰ	ɛ ŋ ɡ a ɹ
+এংগাৰ	ɛŋɡaɹ
+এই	ɛ i
+এই	ɛi
+এইটো	ɛ i t ʊ
+এইটো	ɛitʊ
+এওঁ	ɛ ʊ̃
+এওঁ	ɛʊ̃
+এওঁলোক	ɛ ʊ̃ l ʊ k
+এওঁলোক	ɛʊ̃lʊk
+এক	ɛ k
+এক	ɛk
+একচল্লিছ	ɛ k s ɔ l l i s
+একচল্লিছ	ɛksɔllis
+একত্ৰিছ	ɛ k ɔ t ɹ i s
+একত্ৰিছ	ɛkɔtɹis
+একনায়ক	ɛ k ɔ n a ɛ ɔ k
+একনায়ক	ɛkɔnaɛɔk
+একাডেমি	ɛ k a d ɛ m i
+একাডেমি	ɛkadɛmi
+একাধিপতি	ɛ k a d ʱ i p ɔ t i
+একাধিপতি	ɛkadʱipɔti
+একান্নব্বৈ	ɛ k a n n ɔ b b o ɪ
+একান্নব্বৈ	ɛkannɔbboɪ
+একাশী	ɛ k a x i
+একাশী	ɛkaxi
+একাৱন	ɛ k a ɔ n
+একাৱন	ɛkaɔn
+একে	ɛ k ɛ
+একে	ɛkɛ
+একৈছ	ɛ k o ɪ s
+একৈছ	ɛkoɪs
+এঙাৰ	ɛ ŋ a ɹ
+এঙাৰ	ɛŋaɹ
+এঙ্গাৰ	ɛ ŋ ɡ a ɹ
+এঙ্গাৰ	ɛŋɡaɹ
+এটা	ɛ t a
+এটা	ɛta
+এটি	ɛ t i
+এটি	ɛti
+এঠা	ɛ tʰ a
+এঠা	ɛtʰa
+এণ্ড্ৰৈড	ɛ n d ɹ ɔ i d
+এণ্ড্ৰৈড	ɛndɹɔid
+এতিয়া	ɛ t i a
+এতিয়া	ɛtia
+এনে	ɛ n ɛ
+এনে	ɛnɛ
+এনেকে	ɛ n ɛ k ɛ
+এনেকে	ɛnɛkɛ
+এনেকৈ	ɛ n ɛ k o ɪ
+এনেকৈ	ɛnɛkoɪ
+এন্দুৰ	ɛ n d u ɹ
+এন্দুৰ	ɛnduɹ
+এন্ধাৰ	ɛ n d ʱ a ɹ
+এন্ধাৰ	ɛndʱaɹ
+এপ	ɛ p
+এপ	ɛp
+এপ্লিকেচন	ɛ p l i k ɛ s ɔ n
+এপ্লিকেচন	ɛplikɛsɔn
+এলাহ	ɛ l a ʱ
+এলাহ	ɛlaʱ
+এলেহুৱা	ɛ l ɛ ɦ u a
+এলেহুৱা	ɛlɛɦua
+এল্পেকা	ɛ l p ɛ k a
+এল্পেকা	ɛlpɛka
+এশ	ɛ x ɔ
+এশ	ɛxɔ
+এষষ্ঠি	ɛ x ɔ s tʰ i
+এষষ্ঠি	ɛxɔstʰi
+এসত্তৰ	ɛ x ɔ t t ɔ ɹ
+এসত্তৰ	ɛxɔttɔɹ
+এহাজাৰ	ɛ ɦ a z a ɹ
+এহাজাৰ	ɛɦazaɹ
+এহেজাৰ	ɛ ɦ ɛ z a ɹ
+এহেজাৰ	ɛɦɛzaɹ
+এৰা	ɛ ɹ a
+এৰা	ɛɹa
+এৰাখাতী	ɛ ɹ a kʰ a t i
+এৰাখাতী	ɛɹakʰati
+এৰাল	ɛ ɹ a l
+এৰাল	ɛɹal
+এৰোৱা	ɛ ɹ ʊ a
+এৰোৱা	ɛɹʊa
+এ’	e
+ঐ	o ɪ
+ঐ	oɪ
+ঐতিহ্য	ɔ i t i d ʑ ɔ
+ঐতিহ্য	ɔitidʑɔ
+ও	ʊ
+ওঁঠ	ʊ tʰ
+ওঁঠ	ʊtʰ
+ওঁঠ	ʊ̃ tʰ
+ওঁঠ	ʊ̃tʰ
+ওকালতি	ʊ k a l ɔ t i
+ওকালতি	ʊkalɔti
+ওখ	ʊ kʰ ɔ
+ওখ	ʊkʰɔ
+ওখল	ʊ kʰ ɔ l
+ওখল	ʊkʰɔl
+ওখৰ	ʊ kʰ ɔ ɹ
+ওখৰ	ʊkʰɔɹ
+ওচৰ	ʊ s ɔ ɹ
+ওচৰ	ʊsɔɹ
+ওজন	ʊ z ɔ n
+ওজন	ʊzɔn
+ওজা	ʊ z a
+ওজা	ʊza
+ওটা	ʊ t a
+ওটা	ʊta
+ওঠৰ	ʊ tʰ ɔ ɹ ɔ
+ওঠৰ	ʊtʰɔɹɔ
+ওপঙা	ʊ p ɔ ŋ a
+ওপঙা	ʊpɔŋa
+ওপৰ	ʊ p ɔ ɹ
+ওপৰ	ʊpɔɹ
+ওলগ	ʊ l ɔ ɡ
+ওলগ	ʊlɔɡ
+ওলটা	ʊ l ɔ t a
+ওলটা	ʊlɔta
+ওলটোৱা	ʊ l ɔ t ʊ a
+ওলটোৱা	ʊlɔtʊa
+ওলমা	ʊ l ɔ m a
+ওলমা	ʊlɔma
+ওলমোৱা	ʊ l ɔ m ʊ a
+ওলমোৱা	ʊlɔmʊa
+ওলা	ʊ l a
+ওলা	ʊla
+ওলোটা	ʊ l ʊ t a
+ওলোটা	ʊlʊta
+ওলোটোৱা	ʊ l ʊ t ʊ a
+ওলোটোৱা	ʊlʊtʊa
+ওলোমা	ʊ l ʊ m a
+ওলোমা	ʊlʊma
+ওলোমোৱা	ʊ l ʊ m ʊ a
+ওলোমোৱা	ʊlʊmʊa
+ওলোৱা	ʊ l ʊ a
+ওলোৱা	ʊlʊa
+ওস্তাদ	ʊ s t a d
+ওস্তাদ	ʊstad
+ওৰ	ʊ ɹ
+ওৰ	ʊɹ
+ওৰণি	ʊ ɹ ɔ n i
+ওৰণি	ʊɹɔni
+ওৰোণা	ʊ ɹ ʊ n a
+ওৰোণা	ʊɹʊna
+ঔ	o ʊ
+ঔ	oʊ
+ক	k ɔ
+ক	kɔ
+কঁকাল	k ɔ k a l
+কঁকাল	kɔkal
+কঁটা	k ɔ t a
+কঁটা	kɔta
+কঁঠাল	k ɔ tʰ a l
+কঁঠাল	kɔtʰal
+কঁপা	k ɔ p a
+কঁপা	kɔpa
+কঁহ	k ɔ ɦ
+কঁহ	kɔɦ
+কঁহকঁহীয়া	k ɔ ɦ k ɔ ɦ i a
+কঁহকঁহীয়া	kɔɦkɔɦia
+কঁহকহীয়া	k ɔ ɦ k ɔ ɦ i a
+কঁহকহীয়া	kɔɦkɔɦia
+কঁহাৰ	k ɔ ɦ a ɹ
+কঁহাৰ	kɔɦaɹ
+কঁহুৱা	k ɔ ɦ u a
+কঁহুৱা	kɔɦua
+কংগ্ৰেছ	k ɔ ŋ ɡ ɛ s
+কংগ্ৰেছ	k ɔ ŋ ɡ ɹ ɛ s
+কংগ্ৰেছ	kɔŋɡɛs
+কংগ্ৰেছ	kɔŋɡɹɛs
+কইনা	k ɔ ɪ n a
+কইনা	kɔɪna
+ককা	k ɔ k a
+ককা	kɔka
+ককাই	k ɔ k a ɪ
+ককাই	kɔkaɪ
+কচা	k ɔ s a
+কচা	kɔsa
+কচু	k ɔ s u
+কচু	kɔsu
+কটা	k ɔ t a
+কটা	kɔta
+কটোৱা	k ɔ t ʊ a
+কটোৱা	kɔtʊa
+কঢ়া	k ɔ ɹ ʱ a
+কঢ়া	kɔɹʱa
+কঢ়িওৱা	k ɔ ɦ i ʊ a
+কঢ়িওৱা	k ɔ ɹ ʱ i ʊ a
+কঢ়িওৱা	kɔɦiʊa
+কঢ়িওৱা	kɔɹʱiʊa
+কণা	k ɔ n a
+কণা	kɔna
+কণী	k ɔ n i
+কণী	kɔni
+কথা	k ɔ tʰ a
+কথা	kɔtʰa
+কন্দা	k ɔ n d a
+কন্দা	kɔnda
+কন্দুৱা	k ɔ n d u a
+কন্দুৱা	kɔndua
+কপাহ	k ɔ p a ʱ
+কপাহ	kɔpaʱ
+কপৌফুল	k ɔ p o ʊ pʰ u l
+কপৌফুল	kɔpoʊpʰul
+কম	k ɔ m
+কম	kɔm
+কমলা	k ɔ m ɔ l a
+কমলা	kɔmɔla
+কমা	k ɔ m a
+কমা	kɔma
+কমোৱা	k ɔ m ʊ a
+কমোৱা	kɔmʊa
+কলডিল	k ɔ l d i l
+কলডিল	kɔldil
+কলম	k ɔ l ɔ m
+কলম	kɔlɔm
+কলহ	k ɔ l ɔ ɦ
+কলহ	kɔlɔɦ
+কলাঘুমটীয়া	k ɔ l a ɡ ʱ u m ɔ t i a
+কলাঘুমটীয়া	kɔlaɡʱumɔtia
+কলামলা	k ɔ l a m ɔ l a
+কলামলা	kɔlamɔla
+কলি	k ɔ l i
+কলি	kɔli
+কলিজা	k ɔ l i z a
+কলিজা	kɔliza
+কহা	k ɔ ɦ a
+কহা	kɔɦa
+কাঁইট	k ã i t
+কাঁইট	kãit
+কাঁইটীয়া	k ã ɪ t i a
+কাঁইটীয়া	kãɪtia
+কাঁচকল	k ã s k ɔ l
+কাঁচকল	kãskɔl
+কাঁচি	k ã s i
+কাঁচি	kãsi
+কাঁটা	k ã t a
+কাঁটা	kãta
+কাঁটাচামুচ	k ã t a s a m u s
+কাঁটাচামুচ	kãtasamus
+কাঁড়	k ã ɹ
+কাঁড়	kãɹ
+কাঁহ	k ã ɦ
+কাঁহ	kãɦ
+কাঁহী	k ã ɦ i
+কাঁহী	kãɦi
+কাউৰী	k a u ɹ i
+কাউৰী	kauɹi
+কাকত	k a k ɔ t
+কাকত	kakɔt
+কাকতি	k a k ɔ t i
+কাকতি	kakɔti
+কাগজ	k a ɡ ɔ z
+কাগজ	kaɡɔz
+কাজ	k a z
+কাজ	kaz
+কাজিয়া	k a z i a
+কাজিয়া	kazia
+কাট	k a t
+কাট	kat
+কাটা	k a t a
+কাটা	kata
+কাঠ	k a tʰ
+কাঠ	katʰ
+কাঠফুলা	k a tʰ pʰ u l a
+কাঠফুলা	katʰpʰula
+কাঠৰোকা	k a tʰ ɹ ʊ k a
+কাঠৰোকা	katʰɹʊka
+কাঢ়া	k a ɹ a
+কাঢ়া	k a ɹ ʱ a
+কাঢ়া	kaɹa
+কাঢ়া	kaɹʱa
+কাণ	k a n
+কাণ	kan
+কানি	k a n i
+কানি	kani
+কানিয়া	k a n i a
+কানিয়া	kania
+কানীয়া	k a n i a
+কানীয়া	kania
+কান্দ	k a n
+কান্দ	k a n d
+কান্দ	kan
+কান্দ	kand
+কান্দা	k a n d a
+কান্দা	kanda
+কান্ধ	k a n d ʱ
+কান্ধ	k a n ʱ
+কান্ধ	kandʱ
+কান্ধ	kanʱ
+কাপোৰ	k a p ʊ ɹ
+কাপোৰ	kapʊɹ
+কামি	k a m i
+কামি	kami
+কামিহাড়	k a m i ɦ a ɹ
+কামিহাড়	kamiɦaɹ
+কামোৰা	k a m ʊ ɹ a
+কামোৰা	kamʊɹa
+কায়ম	k a e ɔ m
+কায়ম	kaeɔm
+কাষ্টাৰ	k a s t a ɹ
+কাষ্টাৰ	kastaɹ
+কাহ	k a ʱ
+কাহ	kaʱ
+কাহা	k a ɦ a
+কাহা	kaɦa
+কাৰখানা	k a ɹ kʰ a n a
+কাৰখানা	k a ɹ x a n a
+কাৰখানা	kaɹkʰana
+কাৰখানা	kaɹxana
+কি	k i
+কি	ki
+কিচমিচ	k i s m i s
+কিচমিচ	kismis
+কিছু	k i s u
+কিছু	kisu
+কিছুমান	k i s u m a n
+কিছুমান	kisuman
+কিতাপ	k i t a p
+কিতাপ	kitap
+কিন	k i n
+কিন	kin
+কিনা	k i n a
+কিনা	kina
+কিন্তু	k i n t u
+কিন্তু	kintu
+কিবা	k i b a
+কিবা	kiba
+কিমান	k i m a n
+কিমান	kiman
+কিয়	k i ɔ
+কিয়	kiɔ
+কিলিপ	k i l i p
+কিলিপ	kilip
+কুঁজ	k ũ z
+কুঁজ	kũz
+কুঁজা	k ũ z a
+কুঁজা	kũza
+কুঁহিয়াৰ	k ũ ɦ i a ɹ
+কুঁহিয়াৰ	kũɦiaɹ
+কুকুহা	k u k u ɦ a
+কুকুহা	kukuɦa
+কুকুৰ	k u k u ɹ
+কুকুৰ	kukuɹ
+কুকুৰা	k u k u ɹ a
+কুকুৰা	kukuɹa
+কুটা	k u t a
+কুটা	kuta
+কুটুম	k u t u m
+কুটুম	kutum
+কুঠাৰ	k u tʰ a ɹ
+কুঠাৰ	kutʰaɹ
+কুমজেলুকা	k u m z ɛ l u k a
+কুমজেলুকা	kumzɛluka
+কুমজেলেকুৱা	k u m z ɛ l ɛ k u a
+কুমজেলেকুৱা	kumzɛlɛkua
+কুমটি	k u m ɔ t i
+কুমটি	kumɔti
+কুলা	k u l a
+কুলা	kula
+কুহুম	k u ɦ u m
+কুহুম	kuɦum
+কুহুমকাঁটা	k u ɦ u m k ã t a
+কুহুমকাঁটা	kuɦumkãta
+কুহুমবুলীয়া	k u ɦ u m b u l i a
+কুহুমবুলীয়া	kuɦumbulia
+কুহুমসাৰ	k u ɦ u m x a ɹ
+কুহুমসাৰ	kuɦumxaɹ
+কুৰুই	k u ɹ u i
+কুৰুই	kuɹui
+কুৰুৱা	k u ɹ u a
+কুৰুৱা	kuɹua
+কেঁকো	k ẽ k ʊ
+কেঁকো	kẽkʊ
+কেঁকোসাপ	k ẽ k ʊ x a p
+কেঁকোসাপ	kẽkʊxap
+কেঁকোৰা	k ẽ k ʊ ɹ a
+কেঁকোৰা	kẽkʊɹa
+কেঁচি	k ɛ̃ s i
+কেঁচি	kɛsi
+কেঁচুৱা	k ẽ s u a
+কেঁচুৱা	kẽsua
+কেঁথা	k ẽ tʰ a
+কেঁথা	kẽtʰa
+কেঁহা	k ẽ ɦ a
+কেঁহা	kẽɦa
+কেও	k ɛ ʊ
+কেও	kɛʊ
+কেকোসাপ	k ɛ k ʊ x a p
+কেকোসাপ	kɛkʊxap
+কেছাল’	k ɛ s a l o
+কেছাল’	kɛsalo
+কেতিয়া	k ɛ t i a
+কেতিয়া	kɛtia
+কেতিয়াবা	k ɛ t i a b a
+কেতিয়াবা	kɛtiaba
+কেনে	k ɛ n ɛ
+কেনে	kɛnɛ
+কেনেকুৱা	k ɛ n ɛ k u a
+কেনেকুৱা	kɛnɛkua
+কেনেকে	k ɛ n ɛ k ɛ
+কেনেকে	kɛnɛkɛ
+কেনেকৈ	k ɛ n ɛ k o ɪ
+কেনেকৈ	kɛnɛkoɪ
+কেনেবাকৈ	k ɛ n ɛ b a k o ɪ
+কেনেবাকৈ	kɛnɛbakoɪ
+কেন্দ্ৰ	k ɛ n d ɹ ɔ
+কেন্দ্ৰ	kɛndɹɔ
+কেপিৱাৰা	k ɛ p i w a ɹ a
+কেপিৱাৰা	kɛpiwaɹa
+কেমটাই	k ɛ m ɔ t a ɪ
+কেমটাই	kɛmɔtaɪ
+কেলেই	k ɛ l e
+কেলেই	k ɛ l e ɪ
+কেলেই	kɛle
+কেলেই	kɛleɪ
+কেৰাচিন	k ɛ ɹ a s i n
+কেৰাচিন	kɛɹasin
+কেৰাহী	k ɛ ɹ a ɦ i
+কেৰাহী	kɛɹaɦi
+কেৰেলুৱা	k ɛ ɹ ɛ l u a
+কেৰেলুৱা	kɛɹɛlua
+কেৰ্কেটুৱা	k ɛ ɹ k ɛ t u a
+কেৰ্কেটুৱা	kɛɹkɛtua
+কে’ক	k e k
+কে’ক	kek
+কোওৱা	k ʊ ʊ a
+কোওৱা	kʊʊa
+কোকলোঙা	k ʊ k l ʊ ŋ a
+কোকলোঙা	k ʊ k ɔ l ʊ ŋ a
+কোকলোঙা	kʊklʊŋa
+কোকলোঙা	kʊkɔlʊŋa
+কোটি	k ʊ t i
+কোটি	kʊti
+কোদাল	k ʊ d a l
+কোদাল	kʊdal
+কোদালি	k ʊ d a l i
+কোদালি	kʊdali
+কোদো	k ʊ d ʊ
+কোদো	kʊdʊ
+কোন	k ʊ n
+কোন	kʊn
+কোনোবা	k ʊ n ʊ b a
+কোনোবা	kʊnʊba
+কোব	k ʊ b
+কোব	kʊb
+কোবোৱা	k ʊ b ʊ a
+কোবোৱা	kʊbʊa
+কোলা	k ʊ l a
+কোলা	kʊla
+কোৰ	k ʊ ɹ
+কোৰ	kʊɹ
+কোৱা	k ʊ a
+কোৱা	kʊa
+ক্ষ	k ʱ j ɔ
+ক্ষ	kʱjɔ
+কৰ	k ɔ ɹ
+কৰ	kɔɹ
+কৰা	k ɔ ɹ a
+কৰা	kɔɹa
+কৰোৱা	k ɔ ɹ ʊ a
+কৰোৱা	kɔɹʊa
+ক‌’লা	k o l a
+ক‌’লা	k ɔ l a
+ক‌’লা	k ʊ l a
+ক‌’লা	kola
+ক‌’লা	kɔla
+ক‌’লা	kʊla
+ক’ত	k o t
+ক’ত	kot
+ক’ৰবাত	k o ɹ b a t
+ক’ৰবাত	koɹbat
+ক’ৰবালৈ	k o ɹ b a l ɔ ɪ
+ক’ৰবালৈ	koɹbalɔɪ
+খ	k ʱ ɔ
+খ	kʱɔ
+খং	kʰ ɔ ŋ
+খং	kʰɔŋ
+খং	x ɔ ŋ
+খং	xɔŋ
+খচকা	kʰ ɔ s ɔ k a
+খচকা	kʰɔsɔka
+খচৰা	kʰ ɔ s ɔ ɹ a
+খচৰা	kʰɔsɔɹa
+খচৰা	x ɔ s ɔ ɹ a
+খচৰা	xɔsɔɹa
+খজুউৱা	kʰ ɔ z u a
+খজুউৱা	kʰ ɔ z uː a
+খজুউৱা	kʰɔzua
+খজুউৱা	kʰɔzuːa
+খজুউৱা	x ɔ z u a
+খজুউৱা	x ɔ z uː a
+খজুউৱা	xɔzua
+খজুউৱা	xɔzuːa
+খজুটি	kʰ ɔ z u t i
+খজুটি	kʰɔzuti
+খজুটি	x ɔ z u t i
+খজুটি	xɔzuti
+খজুলি	kʰ ɔ z u l i
+খজুলি	kʰɔzuli
+খজুলি	x ɔ z u l i
+খজুলি	xɔzuli
+খজুৱতি	kʰ ɔ z u ɔ t i
+খজুৱতি	kʰɔzuɔti
+খজুৱতি	x ɔ z u ɔ t i
+খজুৱতি	xɔzuɔti
+খটা	kʰ ɔ t a
+খটা	kʰɔta
+খন্তি	kʰ ɔ n t i
+খন্তি	kʰɔnti
+খন্তি	x ɔ n t i
+খন্তি	xɔnti
+খন্দা	kʰ ɔ n d a
+খন্দা	kʰɔnda
+খহা	kʰ ɔ ɦ a
+খহা	kʰɔɦa
+খাঁটি	kʰ ã t i
+খাঁটি	kʰãti
+খাজুৰ	kʰ a z u ɹ
+খাজুৰ	kʰazuɹ
+খাজুৰ	x a z u ɹ
+খাজুৰ	xazuɹ
+খাট	kʰ a t
+খাট	kʰat
+খাটা	kʰ a t a
+খাটা	kʰata
+খানচামা	kʰ a n s a m a
+খানচামা	kʰansama
+খান্দা	kʰ a n d a
+খান্দা	kʰanda
+খাল	kʰ a l
+খাল	kʰal
+খাৰু	kʰ a ɹ u
+খাৰু	kʰaɹu
+খিৰিকী	kʰ i ɹ i k i
+খিৰিকী	kʰiɹiki
+খিৰিকী	x i ɹ i k i
+খিৰিকী	xiɹiki
+খিৰোৱা	kʰ i ɹ ʊ a
+খিৰোৱা	kʰiɹʊa
+খিৰোৱা	x i ɹ ʊ a
+খিৰোৱা	xiɹʊa
+খীৰ	kʰ i ɹ
+খীৰ	kʰiɹ
+খীৰ	x i ɹ
+খীৰ	xiɹ
+খীৰোৱা	kʰ i ɹ ʊ a
+খীৰোৱা	kʰiɹʊa
+খীৰোৱা	x i ɹ ʊ a
+খীৰোৱা	xiɹʊa
+খুঁটি	kʰ ũ t i
+খুঁটি	kʰũti
+খুউৱা	kʰ u u a
+খুউৱা	kʰuua
+খুটা	kʰ u t a
+খুটা	kʰuta
+খুটি	kʰ u t i
+খুটি	kʰuti
+খুড়া	kʰ u ɹ a
+খুড়া	kʰuɹa
+খুড়ী	kʰ u ɹ i
+খুড়ী	kʰuɹi
+খুন্দ	kʰ u n
+খুন্দ	kʰ u n d
+খুন্দ	kʰun
+খুন্দ	kʰund
+খুন্দ	x u n
+খুন্দ	x u n d
+খুন্দ	xun
+খুন্দ	xund
+খুন্দনা	kʰ u n d ɔ n a
+খুন্দনা	kʰundɔna
+খুন্দনা	x u n d ɔ n a
+খুন্দনা	xundɔna
+খুন্দনি	kʰ u n d ɔ n i
+খুন্দনি	kʰundɔni
+খুন্দনি	x u n d ɔ n i
+খুন্দনি	xundɔni
+খুন্দা	kʰ u n d a
+খুন্দা	kʰunda
+খুন্দা	x u n d a
+খুন্দা	xunda
+খুন্দিওৱা	kʰ u n d i ʊ a
+খুন্দিওৱা	kʰundiʊa
+খুন্দিয়াখুন্দি	kʰ u n d i a kʰ u n d i
+খুন্দিয়াখুন্দি	kʰundiakʰundi
+খুন্দোৱা	kʰ u n d ʊ a
+খুন্দোৱা	kʰundʊa
 খুন্দোৱা	x u n d ʊ a
-সন্ধিয়া	x ɔ n d ʱ i a
-সেউজীয়া	x ɛ u z i a
-শৰণাৰ্থী	x ɔ ɹ ɔ n a ɹ tʰ i
-সাতষষ্ঠি	xatxɔstʰi
-সাতসত্তৰ	xatxɔttɔɹ
-সাতত্ৰিছ	xatɔtɹis
-শুকুৰবাৰ	xukuɹbaɹ
-শুক্ৰবাৰ	xukɹbaɹ
 খুন্দোৱা	xundʊa
-সন্ধিয়া	xɔndʱia
-সেউজীয়া	xɛuzia
-শৰণাৰ্থী	xɔɹɔnaɹtʰi
+খুল	kʰ u l
+খুল	kʰul
+খুৰ	kʰ u ɹ
+খুৰ	kʰuɹ
+খুৰ	x u ɹ
+খুৰ	xuɹ
+খুৰা	kʰ u ɹ a
+খুৰা	kʰuɹa
+খুৰা	x u ɹ a
+খুৰা	xuɹa
+খুৰী	kʰ u ɹ i
+খুৰী	kʰuɹi
+খুৰুৱা	kʰ u ɹ u a
+খুৰুৱা	kʰuɹua
+খুৰুৱা	x u ɹ u a
+খুৰুৱা	xuɹua
+খুৰোৱা	kʰ u ɹ ʊ a
+খুৰোৱা	kʰuɹʊa
+খুৰোৱা	x u ɹ ʊ a
+খুৰোৱা	xuɹʊa
+খুৱা	kʰ u a
+খুৱা	kʰua
+খুৱা	x u a
+খুৱা	xua
+খেজুৰ	kʰ ɛ z u ɹ
+খেজুৰ	kʰɛzuɹ
+খেজুৰ	x ɛ z u ɹ
+খেজুৰ	xɛzuɹ
+খেতি	kʰ e t i
+খেতি	kʰeti
+খেতি	x e t i
+খেতি	xeti
+খেতিয়ক	kʰ e t i ɔ k
+খেতিয়ক	kʰetiɔk
+খেতিয়ক	x e t i ɔ k
+খেতিয়ক	xetiɔk
+খেদা	kʰ ɛ d a
+খেদা	kʰɛda
+খেপিওৱা	kʰ ɛ p i ʊ a
+খেপিওৱা	kʰɛpiʊa
+খেপিওৱা	x ɛ p i ʊ a
+খেপিওৱা	xɛpiʊa
+খেলাবস্তু	kʰ ɛ l a b ɔ s t u
+খেলাবস্তু	kʰɛlabɔstu
+খেলিমেলি	kʰ ɛ l i m ɛ l i
+খেলিমেলি	kʰɛlimɛli
+খেলুৱৈ	kʰ ɛ l u o ɪ
+খেলুৱৈ	kʰɛluoɪ
+খেৰ	kʰ ɛ ɹ
+খেৰ	kʰɛɹ
+খোঁচা	kʰ ʊ̃ s a
+খোঁচা	kʰʊ̃sa
+খোঁচৰা	kʰ ʊ̃ s ɔ ɹ a
+খোঁচৰা	kʰʊ̃sɔɹa
+খোওৱা	kʰ ʊ ʊ a
+খোওৱা	kʰʊʊa
+খোজ	kʰ ʊ z
+খোজ	kʰʊz
+খোজ	x ʊ z
+খোজ	xʊz
+খোজা	kʰ ʊ z a
+খোজা	kʰʊza
+খোলা	kʰ ʊ l a
+খোলা	kʰʊla
+খোৱা	kʰ ʊ a
+খোৱা	kʰʊa
+খোৱা	x ʊ a
+খোৱা	xʊa
+খোৱাবস্তু	kʰ ʊ a b ɔ s t u
+খোৱাবস্তু	kʰʊabɔstu
+খৰচ	kʰ ɔ ɹ ɔ s
+খৰচ	kʰɔɹɔs
+খৰচ	x ɔ ɹ ɔ s
+খৰচ	xɔɹɔs
+খৰচী	kʰ ɔ ɹ ɔ s i
+খৰচী	kʰɔɹɔsi
+খৰচী	x ɔ ɹ ɔ s i
+খৰচী	xɔɹɔsi
+খৰম	kʰ ɔ ɹ ɔ m
+খৰম	kʰɔɹɔm
+খৰম	x ɔ ɹ ɔ m
+খৰম	xɔɹɔm
+খৰি	kʰ ɔ ɹ i
+খৰি	kʰɔɹi
+খৰিকটীয়া	kʰ ɔ ɹ i k ɔ t i a
+খৰিকটীয়া	kʰɔɹikɔtia
+গ	ɡ ɔ
+গ	ɡɔ
+গঁড়	ɡ ɔ ɹ
+গঁড়	ɡɔɹ
+গঁৰাল	ɡ ɔ ɹ a l
+গঁৰাল	ɡɔɹal
+গংগাটোপ	ɡ ɔ ŋ ɡ a t ʊ p
+গংগাটোপ	ɡɔŋɡatʊp
+গঙা	ɡ ɔ ŋ a
+গঙা	ɡɔŋa
+গঙাটোপ	ɡ ɔ ŋ a t ʊ p
+গঙাটোপ	ɡɔŋatʊp
+গঙ্গাটোপ	ɡ ɔ ŋ ɡ a t ʊ p
+গঙ্গাটোপ	ɡɔŋɡatʊp
+গচকা	ɡ ɔ s ɔ k a
+গচকা	ɡɔsɔka
+গছ	ɡ ɔ s
+গছ	ɡɔs
+গজা	ɡ ɔ z a
+গজা	ɡɔza
+গজালি	ɡ ɔ z a l i
+গজালি	ɡɔzali
+গঢ়া	ɡ ɔ ɹ ʱ a
+গঢ়া	ɡɔɹʱa
+গণা	ɡ ɔ n a
+গণা	ɡɔna
+গতোৱা	ɡ ɔ t ʊ a
+গতোৱা	ɡɔtʊa
+গধুৰ	ɡ ɔ d ʱ u ɹ
+গধুৰ	ɡɔdʱuɹ
+গধূলা	ɡ ɔ d ʱ u l a
+গধূলা	ɡɔdʱula
+গধূলি	ɡ ɔ d ʱ u l i
+গধূলি	ɡɔdʱuli
+গন্ধবিৰিণা	ɡ ɔ n d ʱ ɔ b i ɹ i n a
+গন্ধবিৰিণা	ɡɔndʱɔbiɹina
+গম	ɡ ɔ m
+গম	ɡɔm
+গমা	ɡ ɔ m a
+গমা	ɡɔma
+গলা	ɡ ɔ l a
+গলা	ɡɔla
+গলোৱা	ɡ ɔ l ʊ a
+গলোৱা	ɡɔlʊa
+গহনা	ɡ ɔ ɦ ɔ n a
+গহনা	ɡɔɦɔna
+গা	ɡ aː
+গা	ɡaː
+গাঁও	ɡ ã ʊ
+গাঁও	ɡãʊ
+গাঁঠি	ɡ ã tʰ i
+গাঁঠি	ɡãtʰi
+গাঁত	ɡ ã t
+গাঁত	ɡãt
+গাং	ɡ a ŋ
+গাং	ɡaŋ
+গাই	ɡ a ɪ
+গাই	ɡaɪ
+গাখীৰ	ɡ a kʰ i ɹ
+গাখীৰ	ɡ a x i ɹ
+গাখীৰ	ɡakʰiɹ
+গাখীৰ	ɡaxiɹ
+গাখীৰজাত	ɡ a kʰ i ɹ z a t
+গাখীৰজাত	ɡakʰiɹzat
+গাখীৰদাঁত	ɡ a kʰ i ɹ d ã t
+গাখীৰদাঁত	ɡakʰiɹdãt
+গাগিনী	ɡ a ɡ i n i
+গাগিনী	ɡaɡini
+গাধ	ɡ a d ʱ ɔ
+গাধ	ɡadʱɔ
+গান্ধবিৰিণা	ɡ a n d ʱ ɔ b i ɹ i n a
+গান্ধবিৰিণা	ɡandʱɔbiɹina
+গাভিনী	ɡ a b ʱ i n i
+গাভিনী	ɡabʱini
+গাভৰু	ɡ a b ʱ ɔ ɹ u
+গাভৰু	ɡabʱɔɹu
+গামোচা	ɡ a m ʊ s a
+গামোচা	ɡamʊsa
+গাল	ɡ a l
+গাল	ɡal
+গাহৰি	ɡ a ɦ o ɹ i
+গাহৰি	ɡaɦoɹi
+গাৰু	ɡ a ɹ u
+গাৰু	ɡaɹu
+গাৱাল	ɡ a w a l
+গাৱাল	ɡawal
+গিলা	ɡ i l a
+গিলা	ɡila
+গিৰি	ɡ i ɹ i
+গিৰি	ɡiɹi
+গু	ɡ u
+গু	ɡ uː
+গু	ɡu
+গু	ɡuː
+গুঁই	ɡ ũ i
+গুঁই	ɡũi
+গুচা	ɡ u s a
+গুচা	ɡusa
+গুচোৱা	ɡ u s ʊ a
+গুচোৱা	ɡusʊa
+গুটি	ɡ u t i
+গুটি	ɡuti
+গুড়া	ɡ u ɹ a
+গুড়া	ɡuɹa
+গুড়ি	ɡ u ɹ i
+গুড়ি	ɡuɹi
+গুদাম	ɡ u d a m
+গুদাম	ɡudam
+গুবৰুৱা	ɡ u b ɔ ɹ u a
+গুবৰুৱা	ɡubɔɹua
+গুলপীয়া	ɡ u l ɔ p i a
+গুলপীয়া	ɡulɔpia
+গুলীয়াগুলী	ɡ u l i a ɡ u l i
+গুলীয়াগুলী	ɡuliaɡuli
+গুহা	ɡ u ɦ a
+গুহা	ɡuɦa
+গুৰা	ɡ u ɹ a
+গুৰা	ɡuɹa
+গুৰি	ɡ u ɹ i
+গুৰি	ɡuɹi
+গুৰিওৱা	ɡ u ɹ i ʊ a
+গুৰিওৱা	ɡuɹiʊa
+গুৰুবাৰ	ɡ u ɹ u b a ɹ
+গুৰুবাৰ	ɡuɹubaɹ
+গুৰুমুখীয়া	ɡ u ɹ u m u kʰ i a
+গুৰুমুখীয়া	ɡuɹumukʰia
+গেছ	ɡ ɛ s
+গেছ	ɡɛs
+গেছীয়	ɡ ɛ s i ɔ
+গেছীয়	ɡɛsiɔ
+গেছীয়া	ɡ ɛ s i a
+গেছীয়া	ɡɛsia
+গেলা	ɡ ɛ l a
+গেলা	ɡɛla
+গেলোৱা	ɡ ɛ l ʊ a
+গেলোৱা	ɡɛlʊa
+গেৰেজ	ɡ ɛ ɹ ɛ z
+গেৰেজ	ɡɛɹɛz
+গেৰোৱা	ɡ ɛ ɹ u a
+গেৰোৱা	ɡɛɹua
+গোছ	ɡ ʊ s
+গোছ	ɡʊs
+গোট	ɡ ʊ t
+গোট	ɡʊt
+গোটা	ɡ ʊ t a
+গোটা	ɡʊta
+গোটেই	ɡ ʊ t e
+গোটেই	ɡ ʊ t ɛ ɪ
+গোটেই	ɡʊte
+গোটেই	ɡʊtɛɪ
+গোটোৱা	ɡ ʊ t ʊ a
+গোটোৱা	ɡʊtʊa
+গোবৰ	ɡ ʊ b ɔ ɹ
+গোবৰ	ɡʊbɔɹ
+গোমধান	ɡ ʊ m d ʱ a n
+গোমধান	ɡʊmdʱan
+গোল	ɡ ʊ l
+গোল	ɡʊl
+গোলা	ɡ ʊ l a
+গোলা	ɡʊla
+গোৰ	ɡ ʊ ɹ
+গোৰ	ɡʊɹ
+গোৱা	ɡ ʊ a
+গোৱা	ɡʊa
+গৰম	ɡ ɔ ɹ ɔ m
+গৰম	ɡɔɹɔm
+গৰাকী	ɡ ɔ ɹ a k i
+গৰাকী	ɡɔɹaki
+গৰাহ	ɡ ɔ ɹ a ʱ
+গৰাহ	ɡɔɹaʱ
+গৰীয়া	ɡ ɔ ɹ i a
+গৰীয়া	ɡɔɹia
+গৰু	ɡ ɔ ɹ u
+গৰু	ɡɔɹu
+ঘ	ɡ ʱ ɔ
+ঘ	ɡʱɔ
+ঘঁহনি	ɡ ʱ ɔ ɦ ɔ n i
+ঘঁহনি	ɡʱɔɦɔni
+ঘঁহা	ɡ ʱ ɔ ɦ a
+ঘঁহা	ɡʱɔɦa
+ঘটা	ɡ ʱ ɔ t a
+ঘটা	ɡʱɔta
+ঘড়ী	ɡ ʱ ɔ ɹ i
+ঘড়ী	ɡʱɔɹi
+ঘমা	ɡ ʱ ɔ m a
+ঘমা	ɡʱɔma
+ঘা	ɡ ʱ a
+ঘা	ɡ ʱ ã
+ঘা	ɡʱa
+ঘা	ɡʱã
+ঘাঁহ	ɡ ʱ ã ʱ
+ঘাঁহ	ɡʱãʱ
+ঘাঁহনি	ɡ ʱ ã ɦ ɔ n i
+ঘাঁহনি	ɡʱãɦɔni
+ঘাম	ɡ ʱ a m
+ঘাম	ɡʱam
+ঘামা	ɡ ʱ a m a
+ঘামা	ɡʱama
+ঘাৰ	ɡ ʱ a ɹ
+ঘাৰ	ɡʱaɹ
+ঘিঁউ	ɡ ʱ i u
+ঘিঁউ	ɡʱiu
+ঘিণ	ɡ ʱ i n
+ঘিণ	ɡʱin
+ঘেঁহু	ɡ ʱ ẽ ɦ u
+ঘেঁহু	ɡʱẽɦu
+ঘৈণী	ɡ ʱ o ɪ n i
+ঘৈণী	ɡʱoɪni
+ঘোৰঘোৰা	ɡ ʱ ʊ ɹ ɡ ʱ ʊ ɹ a
+ঘোৰঘোৰা	ɡʱʊɹɡʱʊɹa
+ঘৰ	ɡ ʱ ɔ ɹ
+ঘৰ	ɡʱɔɹ
+ঘৰা	ɡ ʱ ɔ ɹ a
+ঘৰা	ɡʱɔɹa
+ঙ	ŋ ɔ
+ঙ	ŋɔ
+চ	s ɔ
+চ	sɔ
+চকা	s ɔ k a
+চকা	sɔka
+চকু	s ɔ k u
+চকু	sɔku
+চকুপানী	s ɔ k u p a n i
+চকুপানী	sɔkupani
+চকুলো	s ɔ k u l ʊ
+চকুলো	sɔkulʊ
+চক্লেট	s ɔ k l ɛ t
+চক্লেট	sɔklɛt
+চকৰ	s ɔ k ɔ ɹ
+চকৰ	sɔkɔɹ
+চকৰা	s ɔ k ɔ ɹ a
+চকৰা	sɔkɔɹa
+চকৰি	s ɔ k ɔ ɹ i
+চকৰি	sɔkɔɹi
+চকৰিফেঁটী	s ɔ k ɔ ɹ i pʰ ẽ t i
+চকৰিফেঁটী	sɔkɔɹipʰẽti
+চকৰী	s ɔ k ɔ ɹ i
+চকৰী	sɔkɔɹi
+চন	s ɔ n
+চন	sɔn
+চন্দুক	s ɔ n d u k
+চন্দুক	sɔnduk
+চন্দ্ৰ	s ɔ n d ɔ
+চন্দ্ৰ	s ɔ n d ɹ ɔ
+চন্দ্ৰ	sɔndɔ
+চন্দ্ৰ	sɔndɹɔ
+চবতকে	s ɔ b ɔ t k ɛ
+চবতকে	sɔbɔtkɛ
+চমু	s ɔ m u
+চমু	sɔmu
+চমুউৱা	s ɔ m u u a
+চমুউৱা	sɔmuua
+চমুকে	s ɔ m u k ɛ
+চমুকে	sɔmukɛ
+চমুকৈ	s ɔ m u k o ɪ
+চমুকৈ	sɔmukoɪ
+চমুটোকা	s ɔ m u t ʊ k a
+চমুটোকা	sɔmutʊka
+চলা	s ɔ l a
+চলা	sɔla
+চলোৱা	s ɔ l ʊ a
+চলোৱা	sɔlʊa
+চল্লিছ	s ɔ l l i s
+চল্লিছ	sɔllis
+চহী	s ɔ ɦ i
+চহী	sɔɦi
+চা	s a
+চা	sa
+চাঁদ	s ã d
+চাঁদ	sãd
+চাংমাই	s a ŋ m a ɪ
+চাংমাই	saŋmaɪ
+চাইগা	s a ɪ ɡ a
+চাইগা	saɪɡa
+চাক	s a k
+চাক	sak
+চাকা	s a k a
+চাকা	saka
+চাজ	s a z
+চাজ	saz
+চাদৰ	s a d ɔ ɹ
+চাদৰ	sadɔɹ
+চান	s a n
+চান	san
+চান্দ	s a n
+চান্দ	s a n d
+চান্দ	san
+চান্দ	sand
+চাপৰ	s a p ɔ ɹ
+চাপৰ	sapɔɹ
+চাবন	s a b ɔ n
+চাবন	sabɔn
+চাবাইচ	s a b a ɪ s
+চাবাইচ	sabaɪs
+চাবাচ	s a b a s
+চাবাচ	sabas
+চাবোন	s a b ʊ n
+চাবোন	sabʊn
+চাম	s a m
+চাম	sam
+চায়না	s a e n a
+চায়না	saena
+চালগোম	s a l ɡ ʊ m
+চালগোম	salɡʊm
+চালনি	s a l ɔ n i
+চালনি	salɔni
+চালা	s a l a
+চালা	sala
+চাহ	s a ʱ
+চাহ	s aː
+চাহ	saʱ
+চাহ	saː
+চাহী	s a ɦ i
+চাহী	saɦi
+চাৰি	s a ɹ i
+চাৰি	saɹi
+চিংৰা	s i ŋ ɹ a
+চিংৰা	siŋɹa
+চিকা	s i k a
+চিকা	sika
+চিকাৰ	s i k a ɹ
+চিকাৰ	sikaɹ
+চিকাৰী	s i k a ɹ i
+চিকাৰী	sikaɹi
+চিকিৎসক	s i k i s s ɔ k
+চিকিৎসক	s i k i t s ɔ k
+চিকিৎসক	sikissɔk
+চিকিৎসক	sikitsɔk
+চিকুট	s i k u t
+চিকুট	sikut
+চিকুটা	s i k u t a
+চিকুটা	sikuta
+চিকৰা	s i k ɔ ɹ a
+চিকৰা	sikɔɹa
+চিগাৰেট	s i ɡ a ɹ ɛ t
+চিগাৰেট	siɡaɹɛt
+চিঙৰা	s i ŋ ɔ ɹ a
+চিঙৰা	siŋɔɹa
+চিঠি	s i tʰ i
+চিঠি	sitʰi
+চিন	s i n
+চিন	sin
+চিনা	s i n a
+চিনা	sina
+চিনাকি	s i n a k i
+চিনাকি	sinaki
+চিনাকী	s i n a k i
+চিনাকী	sinaki
+চিন্তা	s i n t a
+চিন্তা	sinta
+চিপ	s i p
+চিপ	sip
+চিম্পাঞ্জী	s i m p a n z i
+চিম্পাঞ্জী	simpanzi
+চিয়াঁহী	s i ã ɦ i
+চিয়াঁহী	siãɦi
+চিলাকেন্থ	s i l a k ɛ n tʰ ɔ
+চিলাকেন্থ	silakɛntʰɔ
+চিলোৱা	s i l ʊ a
+চিলোৱা	silʊa
+চিৰিয়াখানা	s i ɹ i a kʰ a n a
+চিৰিয়াখানা	s i ɹ i a x a n a
+চিৰিয়াখানা	siɹiakʰana
+চিৰিয়াখানা	siɹiaxana
+চু	s u
+চু	su
+চুঙা	s u ŋ a
+চুঙা	suŋa
+চুট	s u t
+চুট	sut
+চুটি	s u t i
+চুটি	suti
+চুটিকে	s u t i k ɛ
+চুটিকে	sutikɛ
+চুটিকৈ	s u t i k o ɪ
+চুটিকৈ	sutikoɪ
+চুটিগল্প	s u t i ɡ ɔ l p ɔ
+চুটিগল্প	sutiɡɔlpɔ
+চূণ	s u n
+চূণ	sun
+চেউৰী	s ɛ u ɹ i
+চেউৰী	sɛuɹi
+চেনি	s e n i
+চেনি	seni
+চেপা	s ɛ p a
+চেপা	sɛpa
+চেপেটা	s ɛ p ɛ t a
+চেপেটা	sɛpɛta
+চেলা	s ɛ l a
+চেলা	sɛla
+চেলাউৰি	s ɛ l a u ɹ i
+চেলাউৰি	sɛlauɹi
+চেলেকা	s ɛ l ɛ k a
+চেলেকা	sɛlɛka
+চেল্ফি	s ɛ l pʰ i
+চেল্ফি	sɛlpʰi
+চেহেৰা	s ɛ ɦ ɛ ɹ a
+চেহেৰা	sɛɦɛɹa
+চোদ	s ʊ d
+চোদ	sʊd
+চোবা	s ʊ b a
+চোবা	sʊba
+চোবোৱা	s ʊ b ʊ a
+চোবোৱা	sʊbʊa
+চোলা	s ʊ l a
+চোলা	sʊla
+চোৰাং	s ʊ ɹ a ŋ
+চোৰাং	sʊɹaŋ
+চোৰাংচোৱা	s ʊ ɹ a ŋ s ʊ a
+চোৰাংচোৱা	sʊɹaŋsʊa
+চোৱা	s ʊ a
+চোৱা	sʊa
+চৌকা	s o ʊ k a
+চৌকা	soʊka
+চৌখা	s o ʊ kʰ a
+চৌখা	soʊkʰa
+চৌত্ৰিছ	s o ʊ t ɹ i s
+চৌত্ৰিছ	soʊtɹis
+চৌবিছ	s o ʊ b i s
+চৌবিছ	soʊbis
+চৌষষ্ঠি	s o ʊ x ɔ s tʰ i
+চৌষষ্ঠি	soʊxɔstʰi
+চৌসত্তৰ	s o ʊ x ɔ t t ɔ ɹ
+চৌসত্তৰ	soʊxɔttɔɹ
+চৌৰান্নব্বৈ	s o ʊ ɹ a n n ɔ b b o ɪ
+চৌৰান্নব্বৈ	soʊɹannɔbboɪ
+চৌৰাল্লিছ	s o ʊ ɹ a l l i s
+চৌৰাল্লিছ	soʊɹallis
+চৌৰাশী	s o ʊ ɹ a x i
+চৌৰাশী	soʊɹaxi
+চৌৱন	s ɔ ʊ ɔ n
+চৌৱন	sɔʊɔn
+চৰকাৰ	s ɔ ɹ k a ɹ
+চৰকাৰ	sɔɹkaɹ
+চৰাই	s ɔ ɹ a ɪ
+চৰাই	sɔɹaɪ
+চৰিওৱা	s ɔ ɹ i ʊ a
+চৰিওৱা	sɔɹiʊa
+চৰিত্ৰ	s ɔ ɹ i t ɹ ɔ
+চৰিত্ৰ	sɔɹitɹɔ
+চৰু	s ɔ ɹ u
+চৰু	sɔɹu
+চৰ্বত	s ɔ ɹ b ɔ t
+চৰ্বত	s ɔː b ɔ t
+চৰ্বত	sɔɹbɔt
+চৰ্বত	sɔːbɔt
+চৰ্বি	s ɔ ɹ b i
+চৰ্বি	sɔɹbi
+চ’বতকে	s o b ɔ t k ɛ
+চ’বতকে	sobɔtkɛ
+ছ	ɕ ɔ
+ছ	ɕɔ
+ছটিওৱা	s ɔ t i ʊ a
+ছটিওৱা	sɔtiʊa
+ছনা	s ɔ n a
+ছনা	sɔna
+ছবি	s ɔ b i
+ছবি	sɔbi
+ছয়	s ɔ j
+ছয়	sɔj
+ছয়চল্লিছ	s ɔ e s ɔ l l i s
+ছয়চল্লিছ	sɔesɔllis
+ছয়ত্ৰিছ	s ɔ e t ɹ i s
+ছয়ত্ৰিছ	sɔetɹis
+ছয়ষষ্ঠি	s ɔ e x ɔ s tʰ i
+ছয়ষষ্ঠি	sɔexɔstʰi
+ছয়সত্তৰ	s ɔ e x ɔ t t ɔ ɹ
+ছয়সত্তৰ	sɔexɔttɔɹ
+ছয়ান্নব্বৈ	s ɔ e a n n ɔ b b o ɪ
+ছয়ান্নব্বৈ	sɔeannɔbboɪ
+ছয়াশী	s ɔ e a x i
+ছয়াশী	sɔeaxi
+ছলি	s ɔ l i
+ছলি	sɔli
+ছাই	s a ɪ
+ছাই	saɪ
+ছাগলী	s a ɡ ɔ l i
+ছাগলী	saɡɔli
+ছাতি	s a t i
+ছাতি	sati
+ছানা	s a n a
+ছানা	sana
+ছাপন	s a p ɔ n
+ছাপন	sapɔn
+ছাবিছ	s a b i s
+ছাবিছ	sabis
+ছাল	s a l
+ছাল	sal
+ছাৱ	s a w
+ছাৱ	saw
+ছাৱা	s a w a
+ছাৱা	sawa
+ছিগা	s i ɡ a
+ছিগা	siɡa
+ছিঙা	s i ŋ a
+ছিঙা	siŋa
+ছিটা	s i t a
+ছিটা	sita
+ছিটিকনি	s i t i k ɔ n i
+ছিটিকনি	sitikɔni
+ছিটিকা	s i t i k a
+ছিটিকা	sitika
+ছিটিকোৱা	s i t i k ʊ a
+ছিটিকোৱা	sitikʊa
+ছিপ	s i p
+ছিপ	sip
+ছু	s u
+ছু	su
+ছুৰী	s u ɹ i
+ছুৰী	suɹi
+ছেকনী	s ɛ k ɔ n i
+ছেকনী	sɛkɔni
+ছেকা	s ɛ k a
+ছেকা	sɛka
+ছেলোৱা	s ɛ l ʊ a
+ছেলোৱা	sɛlʊa
+ছো	s ʊ
+ছো	sʊ
+ছোৱা	s ʊ a
+ছোৱা	sʊa
+ছোৱালী	s ʊ a l i
+ছোৱালী	sʊali
+ছৰ্পত	s ɔ ɹ p ɔ t
+ছৰ্পত	sɔɹpɔt
+ছৰ্বত	s ɔ ɹ b ɔ t
+ছৰ্বত	s ɔː b ɔ t
+ছৰ্বত	sɔɹbɔt
+ছৰ্বত	sɔːbɔt
+ছৱাল	s ɔ w a l
+ছৱাল	sɔwal
+জ	z ɔ
+জ	zɔ
+জঁকা	z ɔ k a
+জঁকা	zɔka
+জঁপা	z ɔ p a
+জঁপা	zɔpa
+জকা	z ɔ k a
+জকা	zɔka
+জখলা	z ɔ kʰ ɔ l a
+জখলা	z ɔ x ɔ l a
+জখলা	zɔkʰɔla
+জখলা	zɔxɔla
+জগা	z ɔ ɡ a
+জগা	zɔɡa
+জগোৱা	z ɔ ɡ ʊ a
+জগোৱা	zɔɡʊa
 জনপ্ৰিয়	z ɔ n ɔ p i ɔ
 জনপ্ৰিয়	z ɔ n ɔ p ɹ i ɔ
 জনপ্ৰিয়	zɔnɔpiɔ
 জনপ্ৰিয়	zɔnɔpɹiɔ
-গাখীৰজাত	ɡ a kʰ i ɹ z a t
-হালধীয়া	ɦ a l ɔ d ʱ i a
-ৰাতিপুৱা	ɹ a t i p u a
-হাড়গিলা	ɦ a ɹ ɡ i l a
-উঁইপৰুৱা	ũ i p ɔ ɹ u a
-একাধিপতি	ɛ k a d ʱ i p ɔ t i
-একচল্লিছ	ɛ k s ɔ l l i s
-এণ্ড্ৰৈড	ɛ n d ɹ ɔ i d
-হুৱাদুৱা	ɦ u a d u a
-গুলপীয়া	ɡ u l ɔ p i a
-হাঁচিওৱা	ɦ ã s i ʊ a
-গঙ্গাটোপ	ɡ ɔ ŋ ɡ a t ʊ p
-গাখীৰজাত	ɡakʰiɹzat
-হালধীয়া	ɦalɔdʱia
-ৰাতিপুৱা	ɹatipua
-হাড়গিলা	ɦaɹɡila
-উঁইপৰুৱা	ũipɔɹua
-একাধিপতি	ɛkadʱipɔti
-একচল্লিছ	ɛksɔllis
-এণ্ড্ৰৈড	ɛndɹɔid
-হুৱাদুৱা	ɦuadua
-গুলপীয়া	ɡulɔpia
-হাঁচিওৱা	ɦãsiʊa
-গঙ্গাটোপ	ɡɔŋɡatʊp
-বাঢ়ৈটোকা	b a ɹ ʱ o ɪ t ʊ k a
-বাওঁফাললৈ	b a ʊ̃ pʰ a l ɔ l o ɪ
-বেঙুনীয়া	b ɛ ŋ u n i a
-বেঙুনীয়া	b ɛ ɡ u n i a
-বাঢ়ৈটোকা	baɹʱoɪtʊka
-বাওঁফাললৈ	baʊ̃pʰalɔloɪ
-বেঙুনীয়া	bɛŋunia
-বেঙুনীয়া	bɛɡunia
-কুমজেলুকা	k u m z ɛ l u k a
-কাঁইটীয়া	k ã ɪ t i a
-কেতিয়াবা	k ɛ t i a b a
-কুঁহিয়াৰ	k ũ ɦ i a ɹ
-কঁহকহীয়া	k ɔ ɦ k ɔ ɦ i a
-কুমজেলুকা	kumzɛluka
-কাঁইটীয়া	kãɪtia
-খুন্দিওৱা	kʰ u n d i ʊ a
-খোৱাবস্তু	kʰ ʊ a b ɔ s t u
-খেলাবস্তু	kʰ ɛ l a b ɔ s t u
-খৰিকটীয়া	kʰ ɔ ɹ i k ɔ t i a
-কেতিয়াবা	kɛtiaba
-খুন্দিওৱা	kʰundiʊa
-খোৱাবস্তু	kʰʊabɔstu
-কুঁহিয়াৰ	kũɦiaɹ
-কঁহকহীয়া	kɔɦkɔɦia
-খেলাবস্তু	kʰɛlabɔstu
-খৰিকটীয়া	kʰɔɹikɔtia
-লিপিষ্টিক	l i p i s t i k
-লোকপ্ৰিয়	l ʊ k ɔ p i ɔ
-লোকপ্ৰিয়	l ʊ k ɔ p ɹ i ɔ
-লতামেকুৰী	l ɔ t a m ɛ k u ɹ i
-লতাফুটুকি	l ɔ t a pʰ u t u k i
-লেহেমীয়া	l ɛ ɦ ɛ m i a
-লিপিষ্টিক	lipistik
-লোকপ্ৰিয়	lʊkɔpiɔ
-লোকপ্ৰিয়	lʊkɔpɹiɔ
-লতামেকুৰী	lɔtamɛkuɹi
-লতাফুটুকি	lɔtapʰutuki
-লেহেমীয়া	lɛɦɛmia
-প্লেটিপাছ	p l ɛ t i p a s
-পঁয়ত্ৰিছ	p ɔ e t ɹ i s
-পঞ্চল্লিছ	p ɔ n s ɔ l l i s
-পঁচানব্বৈ	p ɔ s a n ɔ b b o ɪ
-প্লেটিপাছ	plɛtipas
-ফ্লেমিঙ্গ	pʰ l ɛ m i ŋ ɡ ɔ
-ফুলনিবাৰী	pʰ u l ɔ n i b a ɹ i
-পঁয়ত্ৰিছ	pɔetɹis
-ফ্লেমিঙ্গ	pʰlɛmiŋɡɔ
-পঞ্চল্লিছ	pɔnsɔllis
-পঁচানব্বৈ	pɔsanɔbboɪ
-ফুলনিবাৰী	pʰulɔnibaɹi
-চিলাকেন্থ	s i l a k ɛ n tʰ ɔ
-চৌৰাল্লিছ	s o ʊ ɹ a l l i s
-ছয়চল্লিছ	s ɔ e s ɔ l l i s
-চকৰিফেঁটী	s ɔ k ɔ ɹ i pʰ ẽ t i
-চোৰাংচোৱা	s ʊ ɹ a ŋ s ʊ a
-চিলাকেন্থ	silakɛntʰɔ
-চৌৰাল্লিছ	soʊɹallis
-ছয়চল্লিছ	sɔesɔllis
-চকৰিফেঁটী	sɔkɔɹipʰẽti
-চোৰাংচোৱা	sʊɹaŋsʊa
+জনা	z ɔ n a
+জনা	zɔna
+জপনা	z ɔ p ɔ n a
+জপনা	zɔpɔna
+জপা	z ɔ p a
+জপা	zɔpa
+জপোৱা	z ɔ p ʊ a
+জপোৱা	zɔpʊa
+জবকা	z ɔ b ɔ k a
+জবকা	zɔbɔka
+জল	z ɔ l
+জল	zɔl
+জলফাই	z ɔ l f a ɪ
+জলফাই	z ɔ l pʰ a ɪ
+জলফাই	z ɔ l ɸ a ɪ
+জলফাই	zɔlfaɪ
+জলফাই	zɔlpʰaɪ
+জলফাই	zɔlɸaɪ
+জলবায়ু	z ɔ l ɔ b a j u
+জলবায়ু	zɔlɔbaju
+জলহুৱা	z ɔ l ɔ ɦ u a
+জলহুৱা	zɔlɔɦua
+জলা	z ɔ l a
+জলা	zɔla
+জলাহ	z ɔ l a ʱ
+জলাহ	zɔlaʱ
+জলোৱা	z ɔ l ʊ a
+জলোৱা	zɔlʊa
+জহামলা	z ɔ ɦ a m ɔ l a
+জহামলা	zɔɦamɔla
+জহামাল	z ɔ ɦ a m a l
+জহামাল	zɔɦamal
+জাঁত	z ã t
+জাঁত	zãt
+জাঁতমিল	z ã t m i l
+জাঁতমিল	zãtmil
+জাঁতি	z ã t i
+জাঁতি	zãti
+জাঁপ	z ã p
+জাঁপ	zãp
+জাং	z a ŋ
+জাং	zaŋ
+জাংফাই	z a ŋ pʰ a ɪ
+জাংফাই	zaŋpʰaɪ
+জাক	z a k
+জাক	zak
+জাগা	z a ɡ a
+জাগা	zaɡa
+জান	z a n
+জান	zan
+জানা	z a n a
+জানা	zana
+জানোঁ	z a n ʊ̃
+জানোঁ	zanʊ̃
+জানোঁ!	z aː n ʊ̃
+জানোঁ!	zaːnʊ̃
+জাপ	z a p
+জাপ	zap
+জাপা	z a p a
+জাপা	zapa
+জাম	z a m
+জাম	zam
+জামু	z a m u
+জামু	zamu
+জামুক	z a m u k
+জামুক	zamuk
+জাল	z a l
+জাল	zal
+জালা	z a l a
+জালা	zala
+জালুক	z a l u k
+জালুক	zaluk
+জাৰ	z a ɹ
+জাৰ	zaɹ
+জাৰা	z a ɹ a
+জাৰা	zaɹa
+জাৰু	z a ɹ u
+জাৰু	zaɹu
+জিঞাঁ	z i a
+জিঞাঁ	z ĩ ã
+জিঞাঁ	zia
+জিঞাঁ	zĩã
+জিনা	z i n a
+জিনা	zina
+জিভা	z i b ʱ a
+জিভা	zibʱa
+জিয়াঁ	z i a
+জিয়াঁ	z ĩ ã
+জিয়াঁ	zia
+জিয়াঁ	zĩã
+জিলি	z i l i
+জিলি	zili
+জিলিকা	z i l i k a
+জিলিকা	zilika
+জিলী	z i l i
+জিলী	zili
+জিৰণি	z i ɹ ɔ n i
+জিৰণি	ziɹɔni
+জিৰাফ	z i ɹ a pʰ
+জিৰাফ	ziɹapʰ
+জিৰোৱা	z i ɹ ʊ a
+জিৰোৱা	ziɹʊa
+জী	z i
+জী	z iː
+জী	zi
+জী	ziː
+জীউ	z i u
+জীউ	ziu
+জীয়া	z i a
+জীয়া	zia
+জীৱ	z i b ɔ
+জীৱ	z i β ɔ
+জীৱ	zibɔ
+জীৱ	ziβɔ
+জীৱাণু	z i b a n u
+জীৱাণু	z i β a n u
+জীৱাণু	zibanu
+জীৱাণু	ziβanu
+জুই	z u i
+জুই	zui
+জুইশলা	z u i x ɔ l a
+জুইশলা	zuixɔla
+জুইশাল	z u i x a l
+জুইশাল	zuixal
+জুটুলিপকা	z u t u l i p ɔ k a
+জুটুলিপকা	zutulipɔka
+জুপুৰি	z u p u ɹ i
+জুপুৰি	zupuɹi
+জুবুৰিয়া	z u b u ɹ i a
+জুবুৰিয়া	zubuɹia
+জুলা	z u l a
+জুলা	zula
+জুলীয়া	z u l i a
+জুলীয়া	zulia
+জেকা	z ɛ k a
+জেকা	zɛka
+জেগা	z ɛ ɡ a
+জেগা	zɛɡa
+জেঠা	z ɛ tʰ a
+জেঠা	zɛtʰa
+জেঠাই	z ɛ tʰ a ɪ
+জেঠাই	zɛtʰaɪ
+জেঠী	z ɛ tʰ i
+জেঠী	zɛtʰi
+জেঠু	z ɛ tʰ u
+জেঠু	zɛtʰu
+জেতুকা	z ɛ t u k a
+জেতুকা	zɛtuka
+জেপ	z ɛ p
+জেপ	zɛp
+জেব্ৰা	z ɛ b ɹ a
+জেব্ৰা	zɛbɹa
+জেলুক	z ɛ l u k
+জেলুক	zɛluk
+জোঁৱাই	z ʊ̃ a ɪ
+জোঁৱাই	zʊ̃aɪ
+জোং	z ʊ ŋ
+জোং	zʊŋ
+জোক	z ʊ k
+জোক	zʊk
+জোকাৰা	z ʊ k a ɹ a
+জোকাৰা	zʊkaɹa
+জোখ	z ʊ kʰ
+জোখ	z ʊ x
+জোখ	zʊkʰ
+জোখ	zʊx
+জোখা	z ʊ kʰ a
+জোখা	z ʊ x a
+জোখা	zʊkʰa
+জোখা	zʊxa
+জোতা	z ʊ t a
+জোতা	zʊta
+জোতাঠোঁটীয়া	z ʊ t a tʰ ʊ̃ t i a
+জোতাঠোঁটীয়া	zʊtatʰʊ̃tia
+জোন	z ʊ n
+জোন	zʊn
+জোনবাই	z ʊ n b a ɪ
+জোনবাই	zʊnbaɪ
+জোনাক	z ʊ n a k
+জোনাক	zʊnak
+জোনাকী	z ʊ n a k i
+জোনাকী	zʊnaki
+জোলোঙা	z ʊ l ʊ ŋ a
+জোলোঙা	zʊlʊŋa
+জ্বলন	z ɔ l ɔ n
+জ্বলন	zɔlɔn
+জ্বলা	z ɔ l a
+জ্বলা	zɔla
+জ্বলোৱা	z ɔ l ʊ a
+জ্বলোৱা	zɔlʊa
+জ্বালা	z a l a
+জ্বালা	zala
+জ্বৰ	z ɔ ɹ
+জ্বৰ	zɔɹ
+জৰা	z ɔ ɹ a
+জৰা	zɔɹa
+জৰি	z ɔ ɹ i
+জৰি	zɔɹi
+জৰিগছ	z ɔ ɹ i ɡ ɔ s
+জৰিগছ	zɔɹiɡɔs
+জৰী	z ɔ ɹ i
+জৰী	zɔɹi
+ঝ	z ʱ ɔ
+ঝ	zʱɔ
+ঝাড়ু	z a ɹ u
+ঝাড়ু	z ʱ a ɹ u
+ঝাড়ু	zaɹu
+ঝাড়ু	zʱaɹu
+ঝাৰা	z ʱ a ɹ a
+ঝাৰা	zʱaɹa
+ঝিঞা	z ʱ i a
+ঝিঞা	z ʱ ĩ ã
+ঝিঞা	zʱia
+ঝিঞা	zʱĩã
+ঝিলি	z ʱ i l i
+ঝিলি	zʱili
+ঝিলী	z ʱ i l i
+ঝিলী	zʱili
+ঞ	j ɔ
+ঞ	jɔ
+ট	t ɔ
+ট	tɔ
+টকিঅ’	t ɔ k i o
+টকিঅ’	tɔkio
+টনা	t ɔ n a
+টনা	tɔna
+টানা	t a n a
+টানা	tana
+টালিটোপোলা	t a l i t ʊ p ʊ l a
+টালিটোপোলা	talitʊpʊla
+টিকা	t i k a
+টিকা	tika
+টিপা	t i p a
+টিপা	tipa
+টিভি	t i b ʱ i
+টিভি	tibʱi
+টিলা	t i l a
+টিলা	tila
+টুকুৰা	t u k u ɹ a
+টুকুৰা	tukuɹa
 টুকুৰিওৱা	t u k u ɹ i ʊ a
 টুকুৰিওৱা	tukuɹiʊa
-সাতচল্লিছ	x a t s ɔ l l i s
-শিহুজাহাজ	x i ɦ u z a ɦ a z
-সাতচল্লিছ	xatsɔllis
-শিহুজাহাজ	xiɦuzaɦaz
-জুবুৰিয়া	z u b u ɹ i a
-জুটুলিপকা	z u t u l i p ɔ k a
-জুবুৰিয়া	zubuɹia
-জুটুলিপকা	zutulipɔka
-গাখীৰদাঁত	ɡ a kʰ i ɹ d ã t
-অকলশৰীয়া	ɔ k ɔ l x ɔ ɹ i a
-এপ্লিকেচন	ɛ p l i k ɛ s ɔ n
-গাখীৰদাঁত	ɡakʰiɹdãt
-অকলশৰীয়া	ɔkɔlxɔɹia
-এপ্লিকেচন	ɛplikɛsɔn
-আঠান্নব্বৈ	a tʰ a n n ɔ b b o ɪ
-আঠান্নব্বৈ	atʰannɔbboɪ
-বিয়াল্লিছ	b i a l l i s
-বিমানবন্দৰ	b i m a n b ɔ n d ɔ ɹ
-বিয়াল্লিছ	biallis
-বিমানবন্দৰ	bimanbɔndɔɹ
-কুহুমকাঁটা	k u ɦ u m k ã t a
-কাঁটাচামুচ	k ã t a s a m u s
-কেৰ্কেটুৱা	k ɛ ɹ k ɛ t u a
-কঁহকঁহীয়া	k ɔ ɦ k ɔ ɦ i a
-কুহুমকাঁটা	kuɦumkãta
-কাঁটাচামুচ	kãtasamus
-কেৰ্কেটুৱা	kɛɹkɛtua
-কঁহকঁহীয়া	kɔɦkɔɦia
+টুট	t u t
+টুট	tut
+টুপী	t u p i
+টুপী	tupi
+টুল	t u l
+টুল	tul
+টেংকি	t ɛ ŋ k i
+টেংকি	tɛŋki
+টেঙা	t ɛ ŋ a
+টেঙা	tɛŋa
+টেমা	t ɛ m a
+টেমা	tɛma
+টোকা	t ʊ k a
+টোকা	tʊka
+টোপোলা	t ʊ p ʊ l a
+টোপোলা	tʊpʊla
+টোপোলাটাপলি	t ʊ p ʊ l a t a p ɔ l i
+টোপোলাটাপলি	tʊpʊlatapɔli
+ঠ	t ʱ ɔ
+ঠ	tʱɔ
+ঠগ	tʰ ɔ ɡ
+ঠগ	tʰɔɡ
+ঠগা	tʰ ɔ ɡ a
+ঠগা	tʰɔɡa
+ঠগোৱা	tʰ ɔ ɡ ʊ a
+ঠগোৱা	tʰɔɡʊa
+ঠাই	tʰ a ɪ
+ঠাই	tʰaɪ
+ঠান	tʰ a n
+ঠান	tʰan
+ঠানি	tʰ a n i
+ঠানি	tʰani
+ঠাল	tʰ a l
+ঠাল	tʰal
+ঠালি	tʰ a l i
+ঠালি	tʰali
+ঠাৰি	tʰ a ɹ i
+ঠাৰি	tʰaɹi
+ঠিলা	tʰ i l a
+ঠিলা	tʰila
+ঠেং	tʰ ɛ ŋ
+ঠেং	tʰɛŋ
+ঠেক	tʰ ɛ k
+ঠেক	tʰɛk
+ঠোঁট	tʰ ʊ̃ t
+ঠোঁট	tʰʊ̃t
+ঠোঙা	tʰ ʊ ŋ a
+ঠোঙা	tʰʊŋa
+ড	d ɔ
+ড	dɔ
+ডলা	d ɔ l a
+ডলা	dɔla
+ড়	ɾ ɔ
+ড়	ɾɔ
+ডাঁৰ	d ã ɹ
+ডাঁৰ	dãɹ
+ডাঁৰা	d ã ɹ a
+ডাঁৰা	dãɹa
+ডাঁৰি	d ã ɹ i
+ডাঁৰি	dãɹi
+ডাউক	d a u k
+ডাউক	dauk
+ডাক্তৰ	d a k t ɔ ɹ
+ডাক্তৰ	daktɔɹ
+ডাঙৰ	d a ŋ ɔ ɹ
+ডাঙৰ	daŋɔɹ
+ডাঠ	d a tʰ
+ডাঠ	datʰ
+ডাঠুৱা	d a tʰ u a
+ডাঠুৱা	datʰua
+ডাব	d a b
+ডাব	dab
+ডাল	d a l
+ডাল	dal
+ডালি	d a l i
+ডালি	dali
+ডালিম	d a l i m
+ডালিম	dalim
+ডালিমা	d a l i m a
+ডালিমা	dalima
+ডাৱৰ	d a ɔ ɹ
+ডাৱৰ	daɔɹ
+ডিঙি	d i ŋ i
+ডিঙি	diŋi
+ডিমৰু	d i m ɔ ɹ u
+ডিমৰু	dimɔɹu
+ডিল	d i l
+ডিল	dil
+ডিলা	d i l a
+ডিলা	dila
+ডিলামাৰি	d i l a m a ɹ i
+ডিলামাৰি	dilamaɹi
+ডুবা	d u b a
+ডুবা	duba
+ডুবাৰু	d u b a ɹ u
+ডুবাৰু	dubaɹu
+ডুৰি	d u ɹ i
+ডুৰি	duɹi
+ডেউকা	d ɛ u k a
+ডেউকা	dɛuka
+ডেকা	d ɛ k a
+ডেকা	dɛka
+ডেকেৰী	d ɛ k ɛ ɹ i
+ডেকেৰী	dɛkɛɹi
+ডেৰা	d ɛ ɹ a
+ডেৰা	dɛɹa
+ডোং	d ʊ ŋ
+ডোং	dʊŋ
+ডোঙা	d ʊ ŋ a
+ডোঙা	dʊŋa
+ডোল	d ʊ l
+ডোল	dʊl
+ডোৰ	d ʊ ɹ
+ডোৰ	dʊɹ
+ডোৰা	d ʊ ɹ a
+ডোৰা	dʊɹa
+ঢ	d ʱ ɔ
+ঢ	dʱɔ
+ঢকা	d ʱ ɔ k a
+ঢকা	dʱɔka
+ঢলা	d ʱ ɔ l a
+ঢলা	dʱɔla
+ঢ়	ɾ ɔ
+ঢ়	ɾɔ
+ঢাকন	d ʱ a k ɔ n
+ঢাকন	dʱakɔn
+ঢাকনি	d ʱ a k ɔ n i
+ঢাকনি	dʱakɔni
+ঢাকনী	d ʱ a k ɔ n i
+ঢাকনী	dʱakɔni
+ঢাকা	d ʱ a k a
+ঢাকা	dʱaka
+ঢাপ	d ʱ a p
+ঢাপ	dʱap
+ঢাপলি	d ʱ a p ɔ l i
+ঢাপলি	dʱapɔli
+ঢাপলিকা	d ʱ a p ɔ l i k a
+ঢাপলিকা	dʱapɔlika
+ঢাপৰ	d ʱ a p ɔ ɹ
+ঢাপৰ	dʱapɔɹ
+ঢালা	d ʱ a l a
+ঢালা	dʱala
+ঢুকা	d ʱ u k a
+ঢুকা	dʱuka
+ঢেঁকী	d ʱ ẽ k i
+ঢেঁকী	dʱẽki
+ঢেৰা	d ʱ ɛ ɹ a
+ঢেৰা	dʱɛɹa
+ণ	n ɔ
+ণ	nɔ
+ত	t ɔ
+ত	tɔ
+তই	t ɔ ɪ
+তই	tɔɪ
+তত্ব	t ɔ t t ɔ
+তত্ব	tɔttɔ
+তথা	t ɔ tʰ a
+তথা	tɔtʰa
+তথাপি	t ɔ tʰ a p i
+তথাপি	tɔtʰapi
+তপত	t ɔ p ɔ t
+তপত	tɔpɔt
+তপিনা	t ɔ p i n a
+তপিনা	tɔpina
+তবলা	t ɔ b ɔ l a
+তবলা	tɔbɔla
+তম্বু	t ɔ m b u
+তম্বু	tɔmbu
+তল	t ɔ l
+তল	tɔl
+তলা	t ɔ l a
+তলা	tɔla
+তহঁত	t ɔ ɦ ɔ t
+তহঁত	tɔɦɔt
+তাঁত	t ã t
+তাঁত	tãt
+তাঁতশাল	t ã t x a l
+তাঁতশাল	tãtxal
+তাঁতিনী	t ã t i n i
+তাঁতিনী	tãtini
+তাঁতী	t ã t i
+তাঁতী	tãti
+তাই	t a ɪ
+তাই	taɪ
+তাইক	t a ɪ k
+তাইক	taɪk
+তাইৰ	t a ɪ ɹ
+তাইৰ	taɪɹ
+তাজমহল	t a z m ɔ ɦ ɔ l
+তাজমহল	tazmɔɦɔl
+তাজা	t a z a
+তাজা	taza
+তাত	t a t
+তাত	tat
+তাপ	t a p
+তাপ	tap
+তামাম	t a m a m
+তামাম	tamam
+তামীঘৰা	t a m i ɡ ʱ ɔ ɹ a
+তামীঘৰা	tamiɡʱɔɹa
+তামোল	t a m ʊ l
+তামোল	tamʊl
+তাল	t a l
+তাল	tal
+তাৰিখ	t a ɹ i kʰ
+তাৰিখ	t a ɹ i x
+তাৰিখ	taɹikʰ
+তাৰিখ	taɹix
+তিতা	t i t a
+তিতা	tita
+তিতামৰা	t i t a m ɔ ɹ a
+তিতামৰা	titamɔɹa
+তিতৌ	t i t o ʊ
+তিতৌ	titoʊ
+তিতৰ	t i t ɔ ɹ
+তিতৰ	titɔɹ
+তিনি	t i n i
+তিনি	tini
+তিমি	t i m i
+তিমি	timi
+তিয়ঁহ	t i ɔ ʱ
+তিয়ঁহ	tiɔʱ
+তিয়াল্লিছ	t i a l l i s
+তিয়াল্লিছ	tiallis
+তিল	t i l
+তিল	til
+তিৰান্নব্বৈ	t i ɹ a n n ɔ b b o ɪ
+তিৰান্নব্বৈ	tiɹannɔbboɪ
+তিৰাশী	t i ɹ a x i
+তিৰাশী	tiɹaxi
+তুতাংসামোন	t u t a ŋ x a m ʊ n
+তুতাংসামোন	tutaŋxamʊn
+তুমি	t u m i
+তুমি	tumi
+তুলা	t u l a
+তুলা	tula
+তুলি	t u l i
+তুলি	tuli
+তুলী	t u l i
+তুলী	tuli
+তূলী	t u l i
+তূলী	tuli
+তেঁতেলী	t ẽ t ɛ l i
+তেঁতেলী	tẽtɛli
+তেইছ	t ɛ i s
+তেইছ	tɛis
+তেওঁ	t ɛ ʊ̃
+তেওঁ	tɛʊ̃
+তেওঁলোক	t ɛ ʊ̃ l ʊ k
+তেওঁলোক	tɛʊ̃lʊk
+তেখেত	t ɛ kʰ ɛ t
+তেখেত	tɛkʰɛt
+তেজপিয়া	t ɛ z p i a
+তেজপিয়া	tɛzpia
+তেজা	t ɛ z a
+তেজা	tɛza
+তেতিয়া	t ɛ t i a
+তেতিয়া	tɛtia
+তেত্ৰিছ	t ɛ t ɹ i s
+তেত্ৰিছ	tɛtɹis
+তেনে	t ɛ n ɛ
+তেনে	tɛnɛ
+তেনেহলে	t ɛ n ɛ ɦ ɔ l ɛ
+তেনেহলে	tɛnɛɦɔlɛ
+তেনেহ’লে	t ɛ n ɛ ɦ o l ɛ
+তেনেহ’লে	tɛnɛɦolɛ
+তেল	t ɛ l
+তেল	tɛl
+তেলটুপি	t ɛ l t u p i
+তেলটুপি	tɛltupi
+তেলাকুচা	t ɛ l a k u s a
+তেলাকুচা	tɛlakusa
+তেলাল	t ɛ l a l
+তেলাল	tɛlal
+তেলীয়া	t ɛ l i a
+তেলীয়া	tɛlia
+তেলীয়াসাৰেং	t ɛ l i a x a ɹ ɛ ŋ
+তেলীয়াসাৰেং	tɛliaxaɹɛŋ
+তেষষ্ঠি	t ɛ x ɔ s tʰ i
+তেষষ্ঠি	tɛxɔstʰi
+তেসত্তৰ	t ɛ x ɔ t t ɔ ɹ
+তেসত্তৰ	tɛxɔttɔɹ
+তেৱন	t ɛ ɔ n
+তেৱন	tɛɔn
+তোমালোক	t ʊ m a l ʊ k
+তোমালোক	tʊmalʊk
+তোমাৰ	t ʊ m a ɹ
+তোমাৰ	tʊmaɹ
+তোলা	t ʊ l a
+তোলা	tʊla
+ত্ৰিছ	t ɹ i s
+ত্ৰিছ	tɹis
+তৰমুজ	t ɔ ɹ m u z
+তৰমুজ	tɔɹmuz
+তৰা	t ɔ ɹ a
+তৰা	tɔɹa
+তৰামাছ	t ɔ ɹ a m a s
+তৰামাছ	tɔɹamas
+তৰোৱাল	t ɔ ɹ ʊ a l
+তৰোৱাল	tɔɹʊal
+তৰ্জমা	t ɔ ɹ z ɔ m a
+তৰ্জমা	tɔɹzɔma
+থ	t ʱ ɔ
+থ	tʱɔ
+থকা	tʰ ɔ k a
+থকা	tʰɔka
+থপা	tʰ ɔ p a
+থপা	tʰɔpa
+থপিওৱা	tʰ ɔ p i ʊ a
+থপিওৱা	tʰɔpiʊa
+থপৰ	tʰ ɔ p ɔ ɹ
+থপৰ	tʰɔpɔɹ
+থপৰিওৱা	tʰ ɔ p ɔ ɹ i ʊ a
+থপৰিওৱা	tʰɔpɔɹiʊa
+থাইলেণ্ড	tʰ a ɪ l ɛ n d
+থাইলেণ্ড	tʰaɪlɛnd
+থাক	tʰ a k
+থাক	tʰak
+থাকা	tʰ a k a
+থাকা	tʰaka
+থান	tʰ a n
+থান	tʰan
+থাপ	tʰ a p
+থাপ	tʰap
+থাপা	tʰ a p a
+থাপা	tʰapa
+থাপ্পৰ	tʰ a p p ɔ ɹ
+থাপ্পৰ	tʰappɔɹ
+থাপৰ	tʰ a p ɔ ɹ
+থাপৰ	tʰapɔɹ
+থাম	tʰ a m
+থাম	tʰam
+থাল	tʰ a l
+থাল	tʰal
+থালি	tʰ a l i
+থালি	tʰali
+থিয়	tʰ i ɔ
+থিয়	tʰiɔ
+থিৰ	tʰ i ɹ
+থিৰ	tʰiɹ
+থু	tʰ u
+থু	tʰu
+থুঁতৰি	tʰ ũ t ɔ ɹ i
+থুঁতৰি	tʰũtɔɹi
+থুঁপ	tʰ ũ p
+থুঁপ	tʰũp
+থুম	tʰ u m
+থুম	tʰum
+থোঁতা	tʰ ʊ̃ t a
+থোঁতা	tʰʊ̃ta
+থোৱা	tʰ ʊ a
+থোৱা	tʰʊa
+দ	d ɔ
+দ	dɔ
+দখল	d ɔ kʰ ɔ l
+দখল	d ɔ x ɔ l
+দখল	dɔkʰɔl
+দখল	dɔxɔl
+দঙা	d ɔ ŋ a
+দঙা	dɔŋa
+দফা	d ɔ pʰ a
+দফা	dɔpʰa
+দবা	d ɔ b a
+দবা	dɔba
+দবাখেল	d ɔ b a kʰ ɛ l
+দবাখেল	d ɔ b a x ɛ l
+দবাখেল	dɔbakʰɛl
+দবাখেল	dɔbaxɛl
+দমা	d ɔ m a
+দমা	dɔma
+দমোৱা	d ɔ m ʊ a
+দমোৱা	dɔmʊa
+দমৰা	d ɔ m ɔ ɹ a
+দমৰা	dɔmɔɹa
+দলং	d ɔ l ɔ ŋ
+দলং	dɔlɔŋ
+দলম’ৰা	d ɔ l m o ɹ a
+দলম’ৰা	dɔlmoɹa
+দলিওৱা	d ɔ l i ʊ a
+দলিওৱা	dɔliʊa
+দহ	d ɔ ɦ
+দহ	dɔɦ
+দা	d aː
+দা	daː
+দাঁত	d ã t
+দাঁত	dãt
+দাঁৰ	d ã ɹ
+দাঁৰ	dãɹ
+দাঙা	d a ŋ a
+দাঙা	daŋa
+দাপোণ	d a p ʊ n
+দাপোণ	dapʊn
+দাম	d a m
+দাম	dam
+দামী	d a m i
+দামী	dami
+দালাল	d a l a l
+দালাল	dalal
+দালালি	d a l a l i
+দালালি	dalali
+দাৰি	d a ɹ i
+দাৰি	daɹi
+দাৱত	d a ɔ t
+দাৱত	daɔt
+দিওৱা	d i ʊ a
+দিওৱা	diʊa
+দিঠক	d i tʰ ɔ k
+দিঠক	ditʰɔk
+দিন	d i n
+দিন	din
+দিয়া	d i a
+দিয়া	dia
+দীগ	d i ɡ
+দীগ	diɡ
+দীঘ	d i ɡ
+দীঘ	diɡ
+দীঘলোৱা	d i ɡ ʱ ɔ l ʊ a
+দীঘলোৱা	diɡʱɔlʊa
+দীঘা	d i ɡ ʱ a
+দীঘা	diɡʱa
+দুই	d u i
+দুই	dui
+দুধ	d u d
+দুধ	d u d ʱ
+দুধ	dud
+দুধ	dudʱ
+দুৱাৰ	d u a ɹ
+দুৱাৰ	duaɹ
+দেউতা	d ɛ ʊ t a
+দেউতা	dɛʊta
+দেউতি	d ɛ u t i
+দেউতি	dɛuti
+দেখা	d ɛ kʰ a
+দেখা	d ɛ x a
+দেখা	dɛkʰa
+দেখা	dɛxa
+দেতা	d ɛ t a
+দেতা	dɛta
+দেহা	d ɛ ɦ a
+দেহা	dɛɦa
+দেৱনাগৰী	d ɛ w n a ɡ ɔ ɹ i
+দেৱনাগৰী	dɛwnaɡɔɹi
+দৈকলা	d ɔ i k ɔ l a
+দৈকলা	dɔikɔla
+দোতাৰা	d ʊ t a ɹ a
+দোতাৰা	dʊtaɹa
+দোতোৰা	d ʊ t ʊ ɹ a
+দোতোৰা	dʊtʊɹa
+দোলা	d ʊ l a
+দোলা	dʊla
+দোহাৰ	d ʊ ɦ a ɹ
+দোহাৰ	dʊɦaɹ
+দোৱা	d ʊ a
+দোৱা	dʊa
+দোৱাত	d ʊ a t
+দোৱাত	dʊat
+দ্বীপ	d i p
+দ্বীপ	dip
+দৰা	d ɔ ɹ a
+দৰা	dɔɹa
+দৰ্খাস্ত	d ɔ ɹ kʰ a s t ɔ
+দৰ্খাস্ত	d ɔ ɹ x a s t ɔ
+দৰ্খাস্ত	dɔɹkʰastɔ
+দৰ্খাস্ত	dɔɹxastɔ
+দৰ্জা	d ɔ ɹ z a
+দৰ্জা	dɔɹza
+দৰ্জী	d ɔ ɹ z i
+দৰ্জী	dɔɹzi
+দ’তি	d o t i
+দ’তি	doti
+ধ	d ʱ ɔ
+ধ	dʱɔ
+ধনিয়া	d ʱ ɔ n i a
+ধনিয়া	dʱɔnia
+ধন্যবাদ	d ʱ ɔ ɪ nː ɔ b a d
+ধন্যবাদ	dʱɔɪnːɔbad
+ধান	d ʱ a n
+ধান	dʱan
+ধাননি	d ʱ a n ɔ n i
+ধাননি	dʱanɔni
+ধুনীয়া	d ʱ u n i a
+ধুনীয়া	dʱunia
+ধুমুহা	d ʱ u m u ɦ a
+ধুমুহা	dʱumuɦa
+ধুৰা	d ʱ u ɹ a
+ধুৰা	dʱuɹa
+ধূলি	d ʱ u l i
+ধূলি	dʱuli
+ধেমালি	d ʱ ɛ m a l i
+ধেমালি	dʱɛmali
+ধোৱা	d ʱ ʊ a
+ধোৱা	dʱʊa
+ধৰ	d ʱ ɔ ɹ
+ধৰ	dʱɔɹ
+ধৰণ	d ʱ ɔ ɹ ɔ n
+ধৰণ	dʱɔɹɔn
+ধৰ্ষণ	d ʱ ɔ ɹ x ɔ n
+ধৰ্ষণ	dʱɔɹxɔn
+ন	n ɔ
+ন	nɔ
+নকল	n ɔ k ɔ l
+নকল	nɔkɔl
+নক্সা	n ɔ k s a
+নক্সা	nɔksa
+নখ	n ɔ kʰ
+নখ	nɔkʰ
+নখপালিচ	n ɔ k p a l i s
+নখপালিচ	nɔkpalis
+নগৰ	n ɔ ɡ ɔ ɹ
+নগৰ	nɔɡɔɹ
+নচা	n ɔ s a
+নচা	nɔsa
+নতুন	n ɔ t u n
+নতুন	nɔtun
+নদী	n ɔ d i
+নদী	nɔdi
+নব্বৈ	n ɔ b b o ɪ
+নব্বৈ	nɔbboɪ
+নমা	n ɔ m a
+নমা	nɔma
+নমাজ	n ɔ m a z
+নমাজ	nɔmaz
+নমোৱা	n ɔ m ʊ a
+নমোৱা	nɔmʊa
+নম্বৰ	n ɔ m b ɔ ɹ
+নম্বৰ	nɔmbɔɹ
+নহয়	n ɔ ɦ ɔ ɛ
+নহয়	nɔɦɔɛ
+নহৰু	n ɔ ɦ ɔ ɹ u
+নহৰু	nɔɦɔɹu
+নহ’লে	n ɔ ɦ o l ɛ
+নহ’লে	nɔɦolɛ
+নাই	n a ɪ
+নাই	naɪ
+নাইপিয়া	n a ɪ p i a
+নাইপিয়া	naɪpia
+নাও	n a ʊ
+নাও	naʊ
+নাক	n a k
+নাক	nak
+নাঙল	n a ŋ ɔ l
+নাঙল	naŋɔl
+নাচা	n a s a
+নাচা	nasa
+নাজানোঁ	n a z a n ʊ̃
+নাজানোঁ	nazanʊ̃
+নাট	n a t
+নাট	nat
+নাটনি	n a t ɔ n i
+নাটনি	natɔni
+নামনি	n a m ɔ n i
+নামনি	namɔni
+নামা	n a m a
+নামা	nama
+নামাজ	n a m a z
+নামাজ	namaz
+নাম্বাৰ	n a m b a ɹ
+নাম্বাৰ	nambaɹ
+নাহৰ	n a ɦ ɔ ɹ
+নাহৰ	naɦɔɹ
 নাহৰফুটুকী	n a ɦ ɔ ɹ pʰ u t u k i
 নাহৰফুটুকী	naɦɔɹpʰutuki
+নাৰিকল	n a ɪ k ɔ l
+নাৰিকল	n a ɹ i k ɔ l
+নাৰিকল	naɪkɔl
+নাৰিকল	naɹikɔl
+নিওৱা	n i ʊ a
+নিওৱা	niʊa
+নিচা	n i s a
+নিচা	nisa
+নিচান	n i s a n
+নিচান	nisan
+নিজ	n i z
+নিজ	niz
+নিজা	n i z a
+নিজা	niza
+নিজে	n i z ɛ
+নিজে	nizɛ
+নিজৰ	n i z ɔ ɹ
+নিজৰ	nizɔɹ
+নিমখ	n i m ɔ kʰ
+নিমখ	nimɔkʰ
+নিয়া	n i a
+নিয়া	nia
+নিয়ান্নব্বৈ	n i a n n ɔ b b o ɪ
+নিয়ান্নব্বৈ	niannɔbboɪ
+নিযুত	n i z u t
+নিযুত	nizut
+নিলিখা	n i l i kʰ a
+নিলিখা	n i l i x a
+নিলিখা	nilikʰa
+নিলিখা	nilixa
+নিশাহ	n i x a ʱ
+নিশাহ	nixaʱ
+নীলা	n i l a
+নীলা	nila
+নুমুউৱা	n u m u a
+নুমুউৱা	n u m uː a
+নুমুউৱা	numua
+নুমুউৱা	numuːa
+নুমুৱা	n u m u a
+নুমুৱা	numua
+নে	n ɛ
+নে	nɛ
+নেউল	n ɛ u l
+নেউল	nɛul
+নেকি	n e k i
+নেকি	n i k i
+নেকি	neki
+নেকি	niki
+নেগুৰ	n ɛ ɡ u ɹ
+নেগুৰ	nɛɡuɹ
+নেজ	n ɛ z
+নেজ	nɛz
+নেজানোঁ	n ɛ z a n ʊ̃
+নেজানোঁ	nɛzanʊ̃
+নৈ	n o ɪ
+নৈ	noɪ
+নৰম	n ɔ ɹ ɔ m
+নৰম	nɔɹɔm
+প	p ɔ
+প	pɔ
+পঁচপন	p ɔ s p ɔ n
+পঁচপন	pɔspɔn
+পঁচানব্বৈ	p ɔ s a n ɔ b b o ɪ
+পঁচানব্বৈ	pɔsanɔbboɪ
+পঁচাশী	p ɔ s a x i
+পঁচাশী	pɔsaxi
+পঁচিছ	p ɔ s i s
+পঁচিছ	pɔsis
+পঁয়ত্ৰিছ	p ɔ e t ɹ i s
+পঁয়ত্ৰিছ	pɔetɹis
+পঁষষ্ঠি	p ɔ x ɔ s tʰ i
+পঁষষ্ঠি	pɔxɔstʰi
+পঁসত্তৰ	p ɔ x ɔ t t ɔ ɹ
+পঁসত্তৰ	pɔxɔttɔɹ
+পকা	p ɔ k a
+পকা	pɔka
+পকোৱা	p ɔ k ʊ a
+পকোৱা	pɔkʊa
+পখিলা	p ɔ kʰ i l a
+পখিলা	pɔkʰila
+পগোৱা	p ɔ ɡ ʊ a
+পগোৱা	pɔɡʊa
+পঘা	p ɔ ɡ ʱ a
+পঘা	pɔɡʱa
+পচন	p ɔ s ɔ n
+পচন	pɔsɔn
+পচন্দ	p ɔ s ɔ n
+পচন্দ	p ɔ s ɔ n d
+পচন্দ	pɔsɔn
+পচন্দ	pɔsɔnd
+পচলা	p ɔ s ɔ l a
+পচলা	pɔsɔla
+পচা	p ɔ s a
+পচা	pɔsa
+পচোৱা	p ɔ s ʊ a
+পচোৱা	pɔsʊa
+পছন্দ	p ɔ s ɔ n
+পছন্দ	p ɔ s ɔ n d
+পছন্দ	pɔsɔn
+পছন্দ	pɔsɔnd
+পঞ্চল্লিছ	p ɔ n s ɔ l l i s
+পঞ্চল্লিছ	pɔnsɔllis
+পঞ্চাছ	p ɔ n s a s
+পঞ্চাছ	pɔnsas
+পঞ্জাৱ	p ɔ n z a b
+পঞ্জাৱ	p ɔ n z a ᵇ
+পঞ্জাৱ	pɔnzab
+পঞ্জাৱ	pɔnzaᵇ
+পটাখৰি	p ɔ t a kʰ ɔ ɹ i
+পটাখৰি	pɔtakʰɔɹi
+পঠা	p ɔ tʰ a
+পঠা	pɔtʰa
+পঠিওৱা	p ɔ tʰ i ʊ a
+পঠিওৱা	pɔtʰiʊa
+পঠোৱা	p ɔ tʰ ʊ a
+পঠোৱা	pɔtʰʊa
+পঢ়া	p ɔ ɦ a
+পঢ়া	p ɔ ʴ ɦ a
+পঢ়া	pɔɦa
+পঢ়া	pɔʴɦa
+পঢ়াশালি	p ɔ ɦ a x a l i
+পঢ়াশালি	p ɔ ɹ ʱ a x a l i
+পঢ়াশালি	pɔɦaxali
+পঢ়াশালি	pɔɹʱaxali
+পঢ়োৱা	p ɔ ɦ ʊ a
+পঢ়োৱা	p ɔ ʴ ɦ ʊ a
+পঢ়োৱা	pɔɦʊa
+পঢ়োৱা	pɔʴɦʊa
+পতা	p ɔ t a
+পতা	pɔta
+পথালি	p ɔ tʰ a l i
+পথালি	pɔtʰali
+পথাৰ	p ɔ tʰ a ɹ
+পথাৰ	pɔtʰaɹ
+পথৰুৱা	p ɔ tʰ ɔ ɹ u a
+পথৰুৱা	pɔtʰɔɹua
+পদূলি	p ɔ d u l i
+পদূলি	pɔduli
+পনীয়া	p ɔ n i a
+পনীয়া	pɔnia
+পনৰু	p ɔ n ɔ ɹ u
+পনৰু	pɔnɔɹu
+পলা	p ɔ l a
+পলা	pɔla
+পলিথিন	p ɔ l i tʰ i n
+পলিথিন	pɔlitʰin
+পলু	p ɔ l u
+পলু	pɔlu
+পলোৱা	p ɔ l ʊ a
+পলোৱা	pɔlʊa
+পশু	p ɔ x u
+পশু	pɔxu
+পহিলা	p ɔ ɦ i l a
+পহিলা	pɔɦila
+পহু	p ɔ ɦ u
+পহু	pɔɦu
+পাঁচ	p ã s
+পাঁচ	pãs
+পাঁজৰ	p ã z ɔ ɹ
+পাঁজৰ	pãzɔɹ
+পাঁজৰা	p ã z ɔ ɹ a
+পাঁজৰা	pãzɔɹa
+পাং	p a ŋ
+পাং	paŋ
+পাউণ্ড	p a ʊ n
+পাউণ্ড	p a ʊ n d
+পাউণ্ড	paʊn
+পাউণ্ড	paʊnd
+পাক	p a k
+পাক	pak
+পাকঘৰ	p a ɡ ɡ ʱ ɔ ɹ
+পাকঘৰ	paɡɡʱɔɹ
+পাখি	p a kʰ i
+পাখি	p a x i
+পাখি	pakʰi
+পাখি	paxi
+পাগ	p a ɡ
+পাগ	paɡ
+পাগলামি	p a ɡ ɔ l a m i
+পাগলামি	paɡɔlami
+পাগুলা	p a ɡ u l a
+পাগুলা	paɡula
+পাগুৰি	p a ɡ u ɹ i
+পাগুৰি	paɡuɹi
+পাচলি	p a s ɔ l i
+পাচলি	pasɔli
+পাট	p a t
+পাট	pat
+পাণ	p a n
+পাণ	pan
+পাণ্ডা	p a n d a
+পাণ্ডা	panda
+পাতল	p a t ɔ l
+পাতল	patɔl
+পাতিহাঁহ	p a t i ʱ ã ɦ
+পাতিহাঁহ	patiʱãɦ
+পাত্থৰ	p a t tʰ ɔ ɹ
+পাত্থৰ	pattʰɔɹ
+পাথৰ	p a tʰ ɔ ɹ
+পাথৰ	patʰɔɹ
+পানী	p a n i
+পানী	pani
+পানীচকু	p a n i s ɔ k u
+পানীচকু	panisɔku
+পাল	p a l
+পাল	pal
+পালিচ	p a l i s
+পালিচ	palis
+পালেং	p a l ɛ ŋ
+পালেং	palɛŋ
+পাহাৰ	p a ɦ a ɹ
+পাহাৰ	paɦaɹ
+পাহি	p a ɦ i
+পাহি	paɦi
+পাহৰা	p a ɦ ɔ ɹ a
+পাহৰা	paɦɔɹa
+পাৰ	p a ɹ
+পাৰ	paɹ
+পাৰা	p a ɹ a
+পাৰা	paɹa
+পিঁজৰা	p i z ɔ ɹ a
+পিঁজৰা	pizɔɹa
+পিক	p i k
+পিক	pik
+পিকোৱা	p i k ʊ a
+পিকোৱা	pikʊa
+পিচলা	p i s ɔ l a
+পিচলা	pisɔla
+পিটা	p i t a
+পিটা	pita
+পিটিকা	p i t i k a
+পিটিকা	pitika
+পিঠা	p i tʰ a
+পিঠা	pitʰa
+পিঠি	p i tʰ i
+পিঠি	pitʰi
+পিত	p i t
+পিত	pit
+পিতা	p i t a
+পিতা	pita
+পিন্ধা	p i n d ʱ a
+পিন্ধা	pindʱa
+পিপৰ	p i p ɔ ɹ
+পিপৰ	pipɔɹ
+পিপৰা	p i p ɔ ɹ a
+পিপৰা	pipɔɹa
+পিয়া	p i a
+পিয়া	pia
+পিয়াঁজ	p i ã s
+পিয়াঁজ	p i ã z
+পিয়াঁজ	piãs
+পিয়াঁজ	piãz
+পিহা	p i ɦ a
+পিহা	piɦa
+পিৰা	p i ɹ a
+পিৰা	piɹa
+পিৰানা	p i ɹ a n a
+পিৰানা	piɹana
+পুঁওৱা	p ũ ʊ a
+পুঁওৱা	pũʊa
+পুং	p u ŋ
+পুং	puŋ
+পুখুৰী	p u kʰ u ɹ i
+পুখুৰী	pukʰuɹi
+পুত	p u t
+পুত	put
+পুতাই	p u t a ɪ
+পুতাই	putaɪ
+পুথি	p u tʰ i
+পুথি	putʰi
+পুলি	p u l i
+পুলি	puli
+পুৰণা	p u ɹ ɔ n a
+পুৰণা	puɹɔna
+পুৰণি	p u ɹ ɔ n i
+পুৰণি	puɹɔni
+পুৰুষ	p u ɹ u x
+পুৰুষ	puɹux
+পুৱা	p u a
+পুৱা	pua
+পূৰঠ	p u ɹ ɔ tʰ
+পূৰঠ	puɹɔtʰ
+পৃথিৱী	p i tʰ i b i
+পৃথিৱী	p i tʰ i w i
+পৃথিৱী	p ɹ i tʰ i w i
+পৃথিৱী	pitʰibi
+পৃথিৱী	pitʰiwi
+পৃথিৱী	pɹitʰiwi
+পেঁপা	p ẽ p a
+পেঁপা	pẽpa
+পেঙ্গুইন	p ɛ ŋ ɡ u i n
+পেঙ্গুইন	pɛŋɡuin
+পেট	p ɛ t
+পেট	pɛt
+পেটাৰি	p ɛ t a ɹ i
+পেটাৰি	pɛtaɹi
+পেটী	p ɛ t i
+পেটী	pɛti
+পেটু	p ɛ t u
+পেটু	pɛtu
+পেলু	p ɛ l u
+পেলু	pɛlu
+পেলোৱা	p ɛ l ʊ a
+পেলোৱা	pɛlʊa
+পেহা	p ɛ ɦ a
+পেহা	pɛɦa
+পেহী	p ɛ ɦ i
+পেহী	pɛɦi
+পেৰা	p ɛ ɹ a
+পেৰা	pɛɹa
+পৈ	p o ɪ
+পৈ	poɪ
+পো	p ʊ
+পো	pʊ
+পোক	p ʊ k
+পোক	pʊk
+পোতা	p ʊ t a
+পোতা	pʊta
+পোন	p ʊ n
+পোন	pʊn
+পোনা	p ʊ n a
+পোনা	pʊna
+পোহা	p ʊ ɦ a
+পোহা	pʊɦa
+পোহাৰ	p ʊ ɦ a ɹ
+পোহাৰ	pʊɦaɹ
+পোহৰ	p ʊ ɦ ɔ ɹ
+পোহৰ	p ʊ ɦ ɔː
+পোহৰ	pʊɦɔɹ
+পোহৰ	pʊɦɔː
+পোহৰোৱা	p ʊ ɦ ɔ ɹ ʊ a
+পোহৰোৱা	pʊɦɔɹʊa
+পোৱাল	p ʊ a l
+পোৱাল	pʊal
+পোৱালী	p ʊ a l i
+পোৱালী	pʊali
+প্লেটিপাছ	p l ɛ t i p a s
+প্লেটিপাছ	plɛtipas
 প্ৰক্ৰিয়া	p ɔ k i a
 প্ৰক্ৰিয়া	p ɔ k ɹ i a
 প্ৰক্ৰিয়া	p ɹ ɔ k i a
@@ -4324,61 +2833,1552 @@
 প্ৰক্ৰিয়া	pɔkɹia
 প্ৰক্ৰিয়া	pɹɔkia
 প্ৰক্ৰিয়া	pɹɔkɹia
-চিম্পাঞ্জী	s i m p a n z i
-চিম্পাঞ্জী	simpanzi
-টালিটোপোলা	t a l i t ʊ p ʊ l a
-তিয়াল্লিছ	t i a l l i s
-তুতাংসামোন	t u t a ŋ x a m ʊ n
-টালিটোপোলা	talitʊpʊla
-তিয়াল্লিছ	tiallis
-তুতাংসামোন	tutaŋxamʊn
-একান্নব্বৈ	ɛ k a n n ɔ b b o ɪ
-গন্ধবিৰিণা	ɡ ɔ n d ʱ ɔ b i ɹ i n a
-একান্নব্বৈ	ɛkannɔbboɪ
-গন্ধবিৰিণা	ɡɔndʱɔbiɹina
-বৃহস্পতিবাৰ	b i ɦ ɔ s p ɔ t i b a ɹ
-বৃহস্পতিবাৰ	b ɹ i ʱ ɔ s p ɔ t i b a ɹ
-বেক্টেৰিয়া	b ɛ k t ɛ ɹ i a
-বৃহস্পতিবাৰ	biɦɔspɔtibaɹ
-বৃহস্পতিবাৰ	bɹiʱɔspɔtibaɹ
-বেক্টেৰিয়া	bɛktɛɹia
-কুমজেলেকুৱা	k u m z ɛ l ɛ k u a
-কলাঘুমটীয়া	k ɔ l a ɡ ʱ u m ɔ t i a
-কুমজেলেকুৱা	kumzɛlɛkua
-কলাঘুমটীয়া	kɔlaɡʱumɔtia
-চিৰিয়াখানা	s i ɹ i a kʰ a n a
-চিৰিয়াখানা	s i ɹ i a x a n a
-চৌৰান্নব্বৈ	s o ʊ ɹ a n n ɔ b b o ɪ
-ছয়ান্নব্বৈ	s ɔ e a n n ɔ b b o ɪ
-চিৰিয়াখানা	siɹiakʰana
-চিৰিয়াখানা	siɹiaxana
-চৌৰান্নব্বৈ	soʊɹannɔbboɪ
-ছয়ান্নব্বৈ	sɔeannɔbboɪ
-তিৰান্নব্বৈ	t i ɹ a n n ɔ b b o ɪ
-টোপোলাটাপলি	t ʊ p ʊ l a t a p ɔ l i
-তিৰান্নব্বৈ	tiɹannɔbboɪ
-টোপোলাটাপলি	tʊpʊlatapɔli
-সাতান্নব্বৈ	x a t a n n ɔ b b o ɪ
-সাতান্নব্বৈ	xatannɔbboɪ
-গান্ধবিৰিণা	ɡ a n d ʱ ɔ b i ɹ i n a
-গুলীয়াগুলী	ɡ u l i a ɡ u l i
-গুৰুমুখীয়া	ɡ u ɹ u m u kʰ i a
-গান্ধবিৰিণা	ɡandʱɔbiɹina
-গুলীয়াগুলী	ɡuliaɡuli
-গুৰুমুখীয়া	ɡuɹumukʰia
+প্ৰথমতে	p ɔ tʰ ɔ m ɔ t ɛ
+প্ৰথমতে	p ɹ ɔ tʰ ɔ m ɔ t ɛ
+প্ৰথমতে	pɔtʰɔmɔtɛ
+প্ৰথমতে	pɹɔtʰɔmɔtɛ
+প্ৰথমে	p ɔ tʰ ɔ m ɛ
+প্ৰথমে	p ɹ ɔ tʰ ɔ m ɛ
+প্ৰথমে	pɔtʰɔmɛ
+প্ৰথমে	pɹɔtʰɔmɛ
+পৰ	p ɔ ɹ
+পৰ	pɔɹ
+পৰম্পৰা	p ɔ ɹ ɔ m p ɔ ɹ a
+পৰম্পৰা	pɔɹɔmpɔɹa
+পৰা	p ɔ ɹ a
+পৰা	pɔɹa
+পৰিয়াল	p ɔ ɹ i a l
+পৰিয়াল	pɔɹial
+পৰুৱা	p ɔ ɹ u a
+পৰুৱা	pɔɹua
+পৰ্বত	p ɔ ɹ b ɔ t
+পৰ্বত	p ɔː b ɔ t
+পৰ্বত	pɔɹbɔt
+পৰ্বত	pɔːbɔt
+ফ	f ɔ
+ফ	fɔ
+ফ	pʰ ɔ
+ফ	pʰɔ
+ফ	ɸ ɔ
+ফ	ɸɔ
+ফটকা	pʰ ɔ t ɔ k a
+ফটকা	pʰɔtɔka
+ফটা	pʰ ɔ t a
+ফটা	pʰɔta
+ফটো	pʰ ɔ t ʊ
+ফটো	pʰɔtʊ
+ফণী	pʰ ɔ n i
+ফণী	pʰɔni
+ফল	f ɔ l
+ফল	fɔl
+ফল	pʰ ɔ l
+ফল	pʰɔl
+ফল	ɸ ɔ l
+ফল	ɸɔl
+ফলা	pʰ ɔ l a
+ফলা	pʰɔla
+ফাঁক	pʰ ã k
+ফাঁক	pʰãk
+ফাট	pʰ a t
+ফাট	pʰat
+ফাটা	pʰ a t a
+ফাটা	pʰata
+ফান্দ	pʰ a n
+ফান্দ	pʰ a n d
+ফান্দ	pʰan
+ফান্দ	pʰand
+ফান্দ	ɸ a n
+ফান্দ	ɸ a n d
+ফান্দ	ɸan
+ফান্দ	ɸand
+ফাল	pʰ a l
+ফাল	pʰal
+ফালা	pʰ a l a
+ফালা	pʰala
+ফুটা	pʰ u t a
+ফুটা	pʰuta
+ফুল	f u l
+ফুল	ful
+ফুল	pʰ u l
+ফুল	pʰul
+ফুল	ɸ u l
+ফুল	ɸul
+ফুলনি	pʰ u l ɔ n i
+ফুলনি	pʰulɔni
+ফুলনিবাৰী	pʰ u l ɔ n i b a ɹ i
+ফুলনিবাৰী	pʰulɔnibaɹi
+ফুলবাৰী	pʰ u l b a ɹ i
+ফুলবাৰী	pʰulbaɹi
+ফুলা	pʰ u l a
+ফুলা	pʰula
+ফুলোৱা	pʰ u l ʊ a
+ফুলোৱা	pʰulʊa
+ফুৰা	pʰ u ɹ a
+ফুৰা	pʰuɹa
+ফেঁচা	f ɛ s a
+ফেঁচা	fɛsa
+ফেঁচা	pʰ ɛ s a
+ফেঁচা	pʰɛsa
+ফেঁচা	ɸ ɛ s a
+ফেঁচা	ɸɛsa
+ফেঁট	pʰ ẽ t
+ফেঁট	pʰẽt
+ফেঁটী	pʰ ẽ t i
+ফেঁটী	pʰẽti
+ফেন	pʰ ɛ n
+ফেন	pʰɛn
+ফেনা	pʰ ɛ n a
+ফেনা	pʰɛna
+ফ্লেমিংগ	pʰ l ɛ m i ŋ ɡ ɔ
+ফ্লেমিংগ	pʰlɛmiŋɡɔ
+ফ্লেমিঙ্গ	pʰ l ɛ m i ŋ ɡ ɔ
+ফ্লেমিঙ্গ	pʰlɛmiŋɡɔ
+ফৰাচী	f ɔ ɹ a s i
+ফৰাচী	fɔɹasi
+ফৰিং	pʰ ɔ ɹ i ŋ
+ফৰিং	pʰɔɹiŋ
+ফৰিঙা	pʰ ɔ ɹ i ŋ a
+ফৰিঙা	pʰɔɹiŋa
+ব	b ɔ
+ব	bɔ
+বঁটা	b ɔ t a
+বঁটা	bɔta
+বকলা	b ɔ k ɔ l a
+বকলা	bɔkɔla
+বকা	b ɔ k a
+বকা	bɔka
+বখলিওৱা	b ɔ kʰ ɔ l i ʊ a
+বখলিওৱা	b ɔ x ɔ l i ʊ a
+বখলিওৱা	bɔkʰɔliʊa
+বখলিওৱা	bɔxɔliʊa
+বগ	b ɔ ɡ
+বগ	bɔɡ
+বগলী	b ɔ ɡ ɔ l i
+বগলী	bɔɡɔli
+বগা	b ɔ ɡ a
+বগা	bɔɡa
+বগোৱা	b ɔ ɡ ʊ a
+বগোৱা	bɔɡʊa
+বগৰী	b ɔ ɡ ɔ ɹ i
+বগৰী	bɔɡɔɹi
+বঙহ	b ɔ ŋ ɔ ɦ
+বঙহ	bɔŋɔɦ
+বঙাল	b ɔ ŋ a l
+বঙাল	bɔŋal
+বচা	b ɔ s a
+বচা	bɔsa
+বছৰ	b ɔ s ɔ ɹ
+বছৰ	bɔsɔɹ
+বজাৰ	b ɔ z a ɹ
+বজাৰ	bɔzaɹ
+বজোৱা	b ɔ z ʊ a
+বজোৱা	bɔzʊa
+বটল	b ɔ t ɔ l
+বটল	bɔtɔl
+বঠা	b ɔ tʰ a
+বঠা	bɔtʰa
+বঢ়া	b ɔ ɦ a
+বঢ়া	b ɔ ɹ a
+বঢ়া	b ɔ ɹ ʱ a
+বঢ়া	bɔɦa
+বঢ়া	bɔɹa
+বঢ়া	bɔɹʱa
+বঢ়োৱা	b a ɹ ʱ ʊ a
+বঢ়োৱা	b ɔ ɦ ʊ a
+বঢ়োৱা	baɹʱʊa
+বঢ়োৱা	bɔɦʊa
+বতাহ	b ɔ t a ʱ
+বতাহ	bɔtaʱ
+বত্ৰিছ	b ɔ t ɹ i s
+বত্ৰিছ	bɔtɹis
+বতৰ	b ɔ t ɔ ɹ
+বতৰ	bɔtɔɹ
+বন	b ɔ n
+বন	bɔn
+বনোৱা	b ɔ n ʊ a
+বনোৱা	bɔnʊa
+বন্ধ	b ɔ n
+বন্ধ	b ɔ n d ʱ
+বন্ধ	b ɔ n d ʱ ɔ
+বন্ধ	bɔn
+বন্ধ	bɔndʱ
+বন্ধ	bɔndʱɔ
+বন্ধনী	b ɔ n d ʱ ɔ n i
+বন্ধনী	bɔndʱɔni
+বন্ধা	b ɔ n d ʱ a
+বন্ধা	bɔndʱa
+বন্ধাকবি	b ɔ n d ʱ a k ɔ b i
+বন্ধাকবি	bɔndʱakɔbi
+বমি	b ɔ m i
+বমি	bɔmi
+বল	b ɔ l
+বল	bɔl
+বলা	b ɔ l a
+বলা	bɔla
+বলাৎকাৰ	b ɔ l a t k a ɹ
+বলাৎকাৰ	bɔlatkaɹ
+বস্তু	b ɔ s t u
+বস্তু	bɔstu
+বহ	b ɔ ɦ
+বহ	bɔɦ
+বহল	b ɔ ɦ ɔ l
+বহল	bɔɦɔl
+বহলোৱা	b ɔ ɦ ɔ l ʊ a
+বহলোৱা	bɔɦɔlʊa
+বহা	b ɔ ɦ a
+বহা	bɔɦa
+বহিখোৱা	b ɔ ɦ i kʰ ʊ a
+বহিখোৱা	bɔɦikʰʊa
+বহী	b o ɦ i
+বহী	boɦi
+বহোৱা	b ɔ ɦ ʊ a
+বহোৱা	bɔɦʊa
+বা	b a
+বা	b aː
+বা	ba
+বা	baː
+বাঁহ	b ã ʱ
+বাঁহ	bãʱ
+বাঁহগাজ	b ã ʱ ɡ a z
+বাঁহগাজ	bãʱɡaz
+বাঁহপাতী	b ã ʱ p a t i
+বাঁহপাতী	bãʱpati
+বাঁহফুল	b ã ʱ pʰ u l
+বাঁহফুল	bãʱpʰul
+বাঁহী	b ã ɦ i
+বাঁহী	bãɦi
+বাঃ	b a ʱ
+বাঃ	b aː
+বাঃ	baʱ
+বাঃ	baː
+বাই	b a ɪ
+বাই	baɪ
+বাইচন	b a ɪ s ɔ n
+বাইচন	baɪsɔn
+বাইছ	b a ɪ s
+বাইছ	baɪs
+বাইদেউ	b a ɪ d o
+বাইদেউ	b a ɪ d ɛ ʊ
+বাইদেউ	baɪdo
+বাইদেউ	baɪdɛʊ
+বাওঁ	b a ʊ̃
+বাওঁ	baʊ̃
+বাওঁফাল	b a ʊ̃ pʰ a l
+বাওঁফাল	baʊ̃pʰal
+বাওঁফাললৈ	b a ʊ̃ pʰ a l ɔ l o ɪ
+বাওঁফাললৈ	baʊ̃pʰalɔloɪ
+বাওঁফালে	b a ʊ̃ pʰ a l ɛ
+বাওঁফালে	baʊ̃pʰalɛ
+বাকচ	b a k ɔ s
+বাকচ	bakɔs
+বাকলি	b a k ɔ l i
+বাকলি	bakɔli
+বাকী	b a k i
+বাকী	baki
+বাগান	b a ɡ a n
+বাগান	baɡan
+বাগিচা	b a ɡ i s a
+বাগিচা	baɡisa
+বাচ	b a s
+বাচ	bas
+বাচন	b a s ɔ n
+বাচন	basɔn
+বাছ	b a s
+বাছ	bas
+বাজ	b a z
+বাজ	baz
+বাজে	b a z ɛ
+বাজে	bazɛ
+বাট	b a t
+বাট	bat
+বাঢ়নী	b a ɦ ɔ n i
+বাঢ়নী	b a ɹ ʱ ɔ n i
+বাঢ়নী	baɦɔni
+বাঢ়নী	baɹʱɔni
+বাঢ়া	b a ɦ a
+বাঢ়া	b a ɹ a
+বাঢ়া	b a ɹ ʱ a
+বাঢ়া	baɦa
+বাঢ়া	baɹa
+বাঢ়া	baɹʱa
+বাঢ়ৈ	b a ɦ o ɪ
+বাঢ়ৈ	b a ɹ o ɪ
+বাঢ়ৈ	b a ɹ ʱ o ɪ
+বাঢ়ৈ	baɦoɪ
+বাঢ়ৈ	baɹoɪ
+বাঢ়ৈ	baɹʱoɪ
+বাঢ়ৈটোকা	b a ɹ ʱ o ɪ t ʊ k a
+বাঢ়ৈটোকা	baɹʱoɪtʊka
+বাদুলি	b a d u l i
+বাদুলি	baduli
+বান	b a n
+বান	ban
+বানপানী	b a n p a n i
+বানপানী	banpani
+বানান	b a n a n
+বানান	banan
+বান্দৰ	b a n d ɔ ɹ
+বান্দৰ	bandɔɹ
+বান্ধ	b a n d ʱ
+বান্ধ	b a n ʱ
+বান্ধ	bandʱ
+বান্ধ	banʱ
+বান্ধা	b a n d ʱ a
+বান্ধা	bandʱa
+বাপ	b a p
+বাপ	bap
+বাবুৰ্চি	b a b u ɹ s i
+বাবুৰ্চি	babuɹsi
+বাম	b a m
+বাম	bam
+বামী	b a m i
+বামী	bami
+বাল	b a l
+বাল	bal
+বালি	b a l i
+বালি	bali
+বালিছ	b a l i s
+বালিছ	balis
+বালু	b a l u
+বালু	balu
+বাল্টি	b a l t i
+বাল্টি	balti
+বাল্টিং	b a l t i ŋ
+বাল্টিং	baltiŋ
+বাষষ্ঠি	b a x ɔ s tʰ i
+বাষষ্ঠি	baxɔstʰi
+বাসত্তৰ	b a x ɔ t t ɔ ɹ
+বাসত্তৰ	baxɔttɔɹ
+বাহ	b a ʱ
+বাহ	baʱ
+বাহা	b a ɦ a
+বাহা	baɦa
+বাহিৰ	b a ɦ i ɹ
+বাহিৰ	baɦiɹ
+বাহিৰত	b a ɦ i ɹ ɔ t
+বাহিৰত	baɦiɹɔt
+বাহিৰা	b a ɦ i ɹ a
+বাহিৰা	baɦiɹa
+বাহিৰে	b a ɦ i ɹ ɛ
+বাহিৰে	baɦiɹɛ
+বাহু	b a ɦ u
+বাহু	baɦu
+বাৰি	b a ɹ i
+বাৰি	baɹi
+বাৰিষা	b a ɹ i x a
+বাৰিষা	baɹixa
+বাৱন	b a ɔ n
+বাৱন	baɔn
+বিকা	b i k a
+বিকা	bika
+বিচনী	b i s ɔ n i
+বিচনী	bisɔni
+বিচা	b i s a
+বিচা	bisa
+বিচাৰ	b i s a ɹ
+বিচাৰ	bisaɹ
+বিচাৰা	b i s a ɹ a
+বিচাৰা	bisaɹa
+বিচৰা	b i s ɔ ɹ a
+বিচৰা	bisɔɹa
+বিছ	b i s
+বিছ	bis
+বিছনা	b i s ɔ n a
+বিছনা	bisɔna
+বিছা	b i s a
+বিছা	bisa
+বিজুলী	b i z u l i
+বিজুলী	bizuli
+বিন্ধা	b i n d ʱ a
+বিন্ধা	bindʱa
+বিমানবন্দৰ	b i m a n b ɔ n d ɔ ɹ
+বিমানবন্দৰ	bimanbɔndɔɹ
+বিয়লি	b i ɔ l i
+বিয়লি	biɔli
+বিয়া	b i a
+বিয়া	bia
 বিয়ান্নব্বৈ	b i a n n ɔ b b o ɪ
 বিয়ান্নব্বৈ	biannɔbboɪ
-ইণ্ডোনেচিয়া	i n d ʊ n ɛ s i a
-ইণ্ডোনেচিয়া	indʊnɛsia
-কুহুমবুলীয়া	k u ɦ u m b u l i a
-কুহুমবুলীয়া	kuɦumbulia
-নিয়ান্নব্বৈ	n i a n n ɔ b b o ɪ
-নিয়ান্নব্বৈ	niannɔbboɪ
-তেলীয়াসাৰেং	t ɛ l i a x a ɹ ɛ ŋ
-তেলীয়াসাৰেং	tɛliaxaɹɛŋ
-জোতাঠোঁটীয়া	z ʊ t a tʰ ʊ̃ t i a
-জোতাঠোঁটীয়া	zʊtatʰʊ̃tia
+বিয়াল্লিছ	b i a l l i s
+বিয়াল্লিছ	biallis
+বিয়াশী	b i a x i
+বিয়াশী	biaxi
+বিল	b i l
+বিল	bil
+বিলাতী	b i l a t i
+বিলাতী	bilati
+বিলাহী	b i l a ɦ i
+বিলাহী	bilaɦi
+বিলোৱা	b i l ʊ a
+বিলোৱা	bilʊa
+বিষ	b i x
+বিষ	bix
+বিষয়	b i x ɔ j
+বিষয়	bixɔj
+বিষোৱা	b i x ʊ a
+বিষোৱা	bixʊa
+বিহ	b i ʱ
+বিহ	biʱ
+বিহু	b i ɦ u
+বিহু	biɦu
+বিৰিং	b i ɹ i ŋ
+বিৰিং	biɹiŋ
+বুকু	b u k u
+বুকু	buku
+বুজা	b u z a
+বুজা	buza
+বুট	b u t
+বুট	but
+বুটাম	b u t a m
+বুটাম	butam
+বুধবাৰ	b u d b a ɹ
+বুধবাৰ	budbaɹ
+বুলা	b u l a
+বুলা	bula
+বুলি	b u l i
+বুলি	buli
+বুলীয়া	b u l i a
+বুলীয়া	bulia
+বৃশ্চিক	b i s s i k
+বৃশ্চিক	b ɹ i s s i k
+বৃশ্চিক	bissik
+বৃশ্চিক	bɹissik
+বৃহস্পতিবাৰ	b i ɦ ɔ s p ɔ t i b a ɹ
+বৃহস্পতিবাৰ	b ɹ i ʱ ɔ s p ɔ t i b a ɹ
+বৃহস্পতিবাৰ	biɦɔspɔtibaɹ
+বৃহস্পতিবাৰ	bɹiʱɔspɔtibaɹ
+বেঁকা	b ẽ k a
+বেঁকা	bẽka
+বেং	b ɛ ŋ
+বেং	bɛŋ
+বেংক	b ɛ ŋ k
+বেংক	bɛŋk
+বেংছটা	b ɛ ŋ s ɔ t a
+বেংছটা	bɛŋsɔta
+বেংছাটি	b ɛ ŋ s a t i
+বেংছাটি	bɛŋsati
+বেক্টেৰিয়া	b ɛ k t ɛ ɹ i a
+বেক্টেৰিয়া	bɛktɛɹia
+বেঙুনীয়া	b ɛ ŋ u n i a
+বেঙুনীয়া	b ɛ ɡ u n i a
+বেঙুনীয়া	bɛŋunia
+বেঙুনীয়া	bɛɡunia
+বেঙেনা	b ɛ ŋ ɛ n a
+বেঙেনা	bɛŋɛna
+বেছা	b ɛ s a
+বেছা	bɛsa
+বেছি	b ɛ s i
+বেছি	bɛsi
+বেজ	b ɛ z
+বেজ	bɛz
+বেজী	b e z i
+বেজী	bezi
+বেত	b ɛ t
+বেত	bɛt
+বেপাৰ	b ɛ p a ɹ
+বেপাৰ	bɛpaɹ
+বেপাৰী	b ɛ p a ɹ i
+বেপাৰী	bɛpaɹi
+বেপৰোৱা	b ɛ p ɔ ɹ ʊ a
+বেপৰোৱা	bɛpɔɹʊa
+বেমাৰ	b ɛ m a ɹ
+বেমাৰ	bɛmaɹ
+বেয়া	b ɛ a
+বেয়া	bɛa
+বেল	b ɛ l
+বেল	bɛl
+বেলা	b ɛ l a
+বেলা	bɛla
+বেলি	b e l i
+বেলি	beli
+বেলেগ	b ɛ l ɛ ɡ
+বেলেগ	bɛlɛɡ
+বেলেগকৈ	b ɛ l ɛ ɡ k o ɪ
+বেলেগকৈ	bɛlɛɡkoɪ
+বেল্ট	b ɛ l
+বেল্ট	b ɛ l t
+বেল্ট	bɛl
+বেল্ট	bɛlt
+বেহাৰ	b ɛ ɦ a ɹ
+বেহাৰ	bɛɦaɹ
+বেহেলা	b ɛ ɦ ɛ l a
+বেহেলা	bɛɦɛla
+বেৰ	b ɛ ɹ
+বেৰ	bɛɹ
+বেৰা	b ɛ ɹ a
+বেৰা	bɛɹa
+বেৰেটি	b ɛ ɹ ɛ t i
+বেৰেটি	bɛɹɛti
+বোজা	b ʊ z a
+বোজা	bʊza
+বোপা	b ʊ p a
+বোপা	bʊpa
+বোপাই	b ʊ p a ɪ
+বোপাই	bʊpaɪ
+বোল	b ʊ l
+বোল	bʊl
+বোলা	b ʊ l a
+বোলা	bʊla
+বোৱনী	b ʊ n i
+বোৱনী	bʊni
+বোৱা	b ʊ a
+বোৱা	bʊa
+বোৱাৰী	b ʊ a ɹ i
+বোৱাৰী	bʊaɹi
+ব্যাখ্যা	b a ɪ k kʰ a
+ব্যাখ্যা	baɪkkʰa
+ব্যৱহাৰ	b e ɔ ɦ a ɹ
+ব্যৱহাৰ	b ɛ b ɔ ɦ a ɹ
+ব্যৱহাৰ	beɔɦaɹ
+ব্যৱহাৰ	bɛbɔɦaɹ
+বৎচোৱানা	b ɔ s s ʊ a n a
+বৎচোৱানা	b ɔ t s ʊ a n a
+বৎচোৱানা	bɔssʊana
+বৎচোৱানা	bɔtsʊana
+বৰণ	b ɔ ɹ ɔ n
+বৰণ	bɔɹɔn
+বৰণীয়া	b ɔ ɹ ɔ n i a
+বৰণীয়া	bɔɹɔnia
+বৰদেউতা	b ɔ ɹ ɔ d ɛ u t a
+বৰদেউতা	bɔɹɔdɛuta
+বৰফ	b ɔ ɹ ɔ f
+বৰফ	b ɔ ɹ ɔ pʰ
+বৰফ	b ɔ ɹ ɔ ɸ
+বৰফ	bɔɹɔf
+বৰফ	bɔɹɔpʰ
+বৰফ	bɔɹɔɸ
+বৰমা	b ɔ ɹ m a
+বৰমা	bɔɹma
+বৰল	b ɔ ɹ ɔ l
+বৰল	bɔɹɔl
+বৰশী	b ɔ ɹ ɔ x i
+বৰশী	bɔɹɔxi
+বৰষ	b ɔ ɹ ɔ x
+বৰষ	b ɔ ɹ ɔ ɦ
+বৰষ	bɔɹɔx
+বৰষ	bɔɹɔɦ
+বৰা	b ɔ ɹ a
+বৰা	bɔɹa
+বৰালি	b ɔ ɹ a l i
+বৰালি	bɔɹali
+বৰি	b o ɹ i
+বৰি	boɹi
+বৰ্ত্তা	b ɔ ɹ t t a
+বৰ্ত্তা	bɔɹtta
+ব’ল	b o l
+ব’ল	bol
+ব’লক	b o l ɔ k
+ব’লক	bolɔk
+ব’লা	b o l a
+ব’লা	bola
+ভ	b ʱ ɔ
+ভ	bʱɔ
+ভকত	b ʱ ɔ k ɔ t
+ভকত	bʱɔkɔt
+ভকুৱা	b ʱ ɔ k u a
+ভকুৱা	bʱɔkua
+ভগা	b ʱ ɔ ɡ a
+ভগা	bʱɔɡa
+ভগোৱা	b ʱ ɔ ɡ ʊ a
+ভগোৱা	bʱɔɡʊa
+ভঙা	b ʱ ɔ ŋ a
+ভঙা	bʱɔŋa
+ভজা	b ʱ ɔ z a
+ভজা	bʱɔza
+ভণ্টি	b ʱ ɔ n t i
+ভণ্টি	bʱɔnti
+ভণ্টী	b ʱ ɔ n t i
+ভণ্টী	bʱɔnti
+ভনী	b ʱ ɔ n i
+ভনী	bʱɔni
+ভনীটি	b ʱ ɔ n i t i
+ভনীটি	bʱɔniti
+ভবা	b ʱ ɔ b a
+ভবা	bʱɔba
+ভয়	b ʱ ɔ e
+ভয়	b ʱ ɔ j
+ভয়	bʱɔe
+ভয়	bʱɔj
+ভহা	b ʱ ɔ ɦ a
+ভহা	bʱɔɦa
+ভাঁৰ	b ʱ ã ɹ
+ভাঁৰ	bʱãɹ
+ভাই	b ʱ a ɪ
+ভাই	bʱaɪ
+ভাইটি	b ʱ a ɪ t i
+ভাইটি	bʱaɪti
+ভাওনা	b ʱ a ʊ n a
+ভাওনা	bʱaʊna
+ভাগ	b ʱ a ɡ
+ভাগ	bʱaɡ
+ভাগা	b ʱ a ɡ a
+ভাগা	bʱaɡa
+ভাগৰ	b ʱ a ɡ ɔ ɹ
+ভাগৰ	bʱaɡɔɹ
+ভাঙনি	b ʱ a ŋ ɔ n i
+ভাঙনি	bʱaŋɔni
+ভাঙা	b ʱ a ŋ a
+ভাঙা	bʱaŋa
+ভাজা	b ʱ a z a
+ভাজা	bʱaza
+ভাত	b ʱ a t
+ভাত	bʱat
+ভাদ	b ʱ a d ɔ
+ভাদ	bʱadɔ
+ভাপ	b ʱ a p
+ভাপ	bʱap
+ভাবা	b ʱ a b a
+ভাবা	bʱaba
+ভালকে	b ʱ a l k ɛ
+ভালকে	bʱalkɛ
+ভালকৈ	b ʱ a l k o ɪ
+ভালকৈ	bʱalkoɪ
+ভালনে	b ʱ a l n ɛ
+ভালনে	bʱalnɛ
+ভালপোৱা	b ʱ a l p ʊ a
+ভালপোৱা	bʱalpʊa
+ভালুক	b ʱ a l u k
+ভালুক	bʱaluk
+ভাষা	b ʱ a x a
+ভাষা	bʱaxa
+ভাহা	b ʱ a ɦ a
+ভাহা	bʱaɦa
+ভাৰত	b ʱ a ɹ ɔ t
+ভাৰত	bʱaɹɔt
+ভাৰতীয়	b ʱ a ɹ ɔ t i ɔ
+ভাৰতীয়	bʱaɹɔtiɔ
+ভাৰতীয়া	b ʱ a ɹ ɔ t i a
+ভাৰতীয়া	bʱaɹɔtia
+ভাৰী	b ʱ a ɹ i
+ভাৰী	bʱaɹi
+ভিজা	b ʱ i z a
+ভিজা	bʱiza
+ভিতৰ	b ʱ i t ɔ ɹ
+ভিতৰ	bʱitɔɹ
+ভিতৰত	b ʱ i t ɔ ɹ ɔ t
+ভিতৰত	bʱitɔɹɔt
+ভিতৰুৱা	b ʱ i t ɔ ɹ u a
+ভিতৰুৱা	bʱitɔɹua
+ভিতৰুৱাল	b ʱ i t ɔ ɹ u a l
+ভিতৰুৱাল	bʱitɔɹual
+ভুকা	b ʱ u k a
+ভুকা	bʱuka
+ভূঁই	b ʱ ũ i
+ভূঁই	bʱũi
+ভূঁইকঁপ	b ʱ ũ i k ɔ p
+ভূঁইকঁপ	bʱũikɔp
+ভূটীয়া	b ʱ u t i a
+ভূটীয়া	bʱutia
+ভূত	b ʱ u t
+ভূত	bʱut
+ভূৰ	b ʱ u ɹ
+ভূৰ	bʱuɹ
+ভেক	b ʱ ɛ k
+ভেক	bʱɛk
+ভেকোলা	b ʱ ɛ k ʊ l a
+ভেকোলা	bʱɛkʊla
+ভেটা	b ʱ ɛ t a
+ভেটা	bʱɛta
+ভেড়া	b ʱ ɛ ɹ a
+ভেড়া	bʱɛɹa
+ভেল	b ʱ ɛ l
+ভেল	bʱɛl
+ভেলা	b ʱ ɛ l a
+ভেলা	bʱɛla
+ভেলেকী	b ʱ ɛ l ɛ k i
+ভেলেকী	bʱɛlɛki
+ভেৰা	b ʱ ɛ ɹ a
+ভেৰা	bʱɛɹa
+ভৈয়াম	b ʱ o ɪ a m
+ভৈয়াম	bʱoɪam
+ভোক	b ʱ ʊ k
+ভোক	bʱʊk
+ভোক্তা	b ʱ ʊ k t a
+ভোক্তা	bʱʊkta
+ভোজ	b ʱ ʊ z
+ভোজ	bʱʊz
+ভোট	b ʱ ʊ t
+ভোট	bʱʊt
+ভৰা	b ʱ ɔ ɹ a
+ভৰা	bʱɔɹa
+ভৰি	b ʱ ɔ ɹ i
+ভৰি	bʱɔɹi
+ভৰোৱা	b ʱ ɔ ɹ ʊ a
+ভৰোৱা	bʱɔɹʊa
+ম	m ɔ
+ম	mɔ
+মই	m ɔ ɪ
+মই	mɔɪ
+মইনা	m ɔ ɪ n a
+মইনা	mɔɪna
+মকৰা	m ɔ k ɔ ɹ a
+মকৰা	mɔkɔɹa
+মগ	m ɔ ɡ
+মগ	mɔɡ
+মগজ	m ɔ ɡ ɔ z
+মগজ	mɔɡɔz
+মগজু	m ɔ ɡ ɔ z u
+মগজু	mɔɡɔzu
+মগা	m ɔ ɡ a
+মগা	mɔɡa
+মঙহ	m ɔ ŋ ɔ ɦ
+মঙহ	mɔŋɔɦ
+মঙ্গলবাৰ	m ɔ ŋ ɔ l b a ɹ
+মঙ্গলবাৰ	m ɔ ŋ ɡ ɔ l b a ɹ
+মঙ্গলবাৰ	mɔŋɔlbaɹ
+মঙ্গলবাৰ	mɔŋɡɔlbaɹ
+মচলা	m ɔ s ɔ l a
+মচলা	mɔsɔla
+মচা	m ɔ s a
+মচা	mɔsa
+মজা	m ɔ z a
+মজা	mɔza
+মটীয়া	m ɔ t i a
+মটীয়া	mɔtia
+মঠা	m ɔ tʰ a
+মঠা	mɔtʰa
+মণি	m ɔ n i
+মণি	mɔni
+মতা	m ɔ t a
+মতা	mɔta
+মথাউৰি	m ɔ tʰ a u ɹ i
+মথাউৰি	mɔtʰauɹi
+মধুমেহ	m ɔ d ʱ u m ɛ ɦ
+মধুমেহ	mɔdʱumɛɦ
+মধুৰি	m ɔ d ʱ u ɹ i
+মধুৰি	mɔdʱuɹi
+মনা	m ɔ n a
+মনা	mɔna
+মনিয়ৰী	m ɔ n i ɔ ɹ i
+মনিয়ৰী	mɔniɔɹi
+মন্ত্ৰী	m ɔ n t i
+মন্ত্ৰী	m ɔ n t ɹ i
+মন্ত্ৰী	mɔnti
+মন্ত্ৰী	mɔntɹi
+ময়ূৰ	m ɔ j u ɹ
+ময়ূৰ	mɔjuɹ
+ময়ূৰী	m ɔ j u ɹ i
+ময়ূৰী	mɔjuɹi
+মলি	m ɔ l i
+মলি	mɔli
+মস্ত	m ɔ s t ɔ
+মস্ত	mɔstɔ
+মহ	m ɔ ɦ
+মহ	mɔɦ
+মহঙা	m ɔ ɦ ɔ ŋ a
+মহঙা	mɔɦɔŋa
+মহাসাগৰ	m ɔ ɦ a x a ɡ ɔ ɹ
+মহাসাগৰ	mɔɦaxaɡɔɹ
+মহিলা	m ɔ ɦ i l a
+মহিলা	mɔɦila
+মহী	m ɔ ɦ i
+মহী	mɔɦi
+মা	m a
+মা	m aː
+মা	ma
+মা	maː
+মাংস	m a ŋ k ˣ ɔ
+মাংস	m a ŋ kʰ ɔ
+মাংস	m a ŋ x ɔ
+মাংস	m a ŋ ʃ o
+মাংস	maŋkʰɔ
+মাংস	maŋkˣɔ
+মাংস	maŋxɔ
+মাংস	maŋʃo
+মাই	m a ɪ
+মাই	maɪ
+মাইকী	m a ɪ k i
+মাইকী	maɪki
+মাও	m a ʊ
+মাও	maʊ
+মাকৈ	m a k o ɪ
+মাকৈ	makoɪ
+মাকো	m a k ʊ
+মাকো	makʊ
+মাগা	m a ɡ a
+মাগা	maɡa
+মাগুৰ	m a ɡ u ɹ
+মাগুৰ	maɡuɹ
+মাছ	m a s
+মাছ	mas
+মাছৰোকা	m a s ɹ ʊ k a
+মাছৰোকা	masɹʊka
+মাজ	m a z
+মাজ	maz
+মাজু	m a z u
+মাজু	mazu
+মাজেদি	m a z ɛ d i
+মাজেদি	mazɛdi
+মাজেৰে	m a z ɛ ɹ ɛ
+মাজেৰে	mazɛɹɛ
+মাটি	m a t i
+মাটি	mati
+মাঠা	m a tʰ a
+মাঠা	matʰa
+মাণিক	m a n i k
+মাণিক	manik
+মাত	m a t
+মাত	mat
+মাতা	m a t a
+মাতা	mata
+মাথোঁ	m a tʰ ʊ̃
+মাথোঁ	matʰʊ̃
+মাথোন	m a tʰ ʊ n
+মাথোন	matʰʊn
+মানচিত্ৰ	m a n s i t t ɔ
+মানচিত্ৰ	m a n s i t ɹ ɔ
+মানচিত্ৰ	mansittɔ
+মানচিত্ৰ	mansitɹɔ
+মানা	m a n a
+মানা	mana
+মানে	m a n ɛ
+মানে	manɛ
+মামী	m a m i
+মামী	mami
+মামৰ	m a m ɔ ɹ
+মামৰ	mamɔɹ
+মালিক	m a l i k
+মালিক	malik
+মালিকনী	m a l i k ɔ n i
+মালিকনী	malikɔni
+মালিকানা	m a l i k a n a
+মালিকানা	malikana
+মাহ	m a ʱ
+মাহ	maʱ
+মাৰা	m a ɹ a
+মাৰা	maɹa
+মাৰি	m a ɹ i
+মাৰি	maɹi
+মাৰ্বল	m a ɹ b ɔ l
+মাৰ্বল	maɹbɔl
+মিছা	m i s a
+মিছা	misa
+মিঠা	m i tʰ a
+মিঠা	mitʰa
+মিঠাতেল	m i tʰ a t ɛ l
+মিঠাতেল	mitʰatɛl
+মিতিৰ	m i t i ɹ
+মিতিৰ	mitiɹ
+মিস্ত্ৰী	m i s t i
+মিস্ত্ৰী	m i s t ɹ i
+মিস্ত্ৰী	misti
+মিস্ত্ৰী	mistɹi
+মিহলা	m i ɦ ɔ l a
+মিহলা	miɦɔla
+মিহলি	m i ɦ ɔ l i
+মিহলি	miɦɔli
+মিহলোৱা	m i ɦ ɔ l ʊ a
+মিহলোৱা	miɦɔlʊa
+মুখ	m u kʰ
+মুখ	m u x
+মুখ	mukʰ
+মুখ	mux
+মুচি	m u s i
+মুচি	musi
+মুচী	m u s i
+মুচী	musi
+মুজা	m u z a
+মুজা	muza
+মুজুৰা	m u z u ɹ a
+মুজুৰা	muzuɹa
+মুঢ়া	m u ɦ a
+মুঢ়া	m u ɹ a
+মুঢ়া	m u ɹ ʱ a
+মুঢ়া	muɦa
+মুঢ়া	muɹa
+মুঢ়া	muɹʱa
+মুদা	m u d a
+মুদা	muda
+মুনিহ	m u n i ʱ
+মুনিহ	muniʱ
+মুহ	m u ʱ
+মুহ	muʱ
+মুৱা	m u a
+মুৱা	mua
+মূঢ়া	m u ɹ ʱ a
+মূঢ়া	muɹʱa
+মূত	m u t
+মূত	mut
+মূতা	m u t a
+মূতা	muta
+মূলা	m u l a
+মূলা	mula
+মূৰ	m u ɹ
+মূৰ	muɹ
+মৃত্যু	m i t t u
+মৃত্যু	m ɹ i t t u
+মৃত্যু	mittu
+মৃত্যু	mɹittu
+মেকুৰী	m ɛ k u ɹ i
+মেকুৰী	mɛkuɹi
+মেঘ	m ɛ ɡ
+মেঘ	m ɛ ɡ ʱ
+মেঘ	mɛɡ
+মেঘ	mɛɡʱ
+মেচেকা	m ɛ s ɛ k a
+মেচেকা	mɛsɛka
+মেটেকা	m ɛ t ɛ k a
+মেটেকা	mɛtɛka
+মেঠন	m ɛ tʰ ɔ n
+মেঠন	mɛtʰɔn
+মেঠোন	m ɛ tʰ ʊ n
+মেঠোন	mɛtʰʊn
+মেলা	m ɛ l a
+মেলা	mɛla
+মেহ	m ɛ ɦ
+মেহ	mɛɦ
+মেৰামতি	m ɛ ɹ a m ɔ t i
+মেৰামতি	mɛɹamɔti
+মেৰিওৱা	m ɛ ɹ i ʊ a
+মেৰিওৱা	mɛɹiʊa
+মে’ওনিজ	m ɛ ʊ n ɪ z
+মে’ওনিজ	mɛʊnɪz
+মৈ	m o ɪ
+মৈ	moɪ
+মৈটা	m o ɪ t a
+মৈটা	moɪta
+মৈদাম	m o ɪ d a m
+মৈদাম	moɪdam
+মৈলাম	m o ɪ l a m
+মৈলাম	moɪlam
+মৈৰা	m ɔ i ɹ a
+মৈৰা	mɔiɹa
+মোছা	m ʊ s a
+মোছা	mʊsa
+মোজা	m ʊ z a
+মোজা	mʊza
+মোত	m ʊ t
+মোত	mʊt
+মোন	m ʊ n
+মোন	mʊn
+মোনা	m ʊ n a
+মোনা	mʊna
+মোবাইল	m ʊ b a ɪ l
+মোবাইল	mʊbaɪl
+মোমাই	m ʊ m a ɪ
+মোমাই	mʊmaɪ
+মোল	m ʊ l
+মোল	mʊl
+মোলা	m ʊ l a
+মোলা	mʊla
+মোৰ	m ʊ ɹ
+মোৰ	mʊɹ
+মৌচাক	m o ʊ s a k
+মৌচাক	moʊsak
+মৌচুমী	m o ʊ s u m i
+মৌচুমী	moʊsumi
+মৌপিয়া	m o ʊ p i a
+মৌপিয়া	moʊpia
+মৰ	m ɔ ɹ
+মৰ	mɔɹ
+মৰম	m ɔ ɹ ɔ m
+মৰম	mɔɹɔm
+মৰমলগা	m ɔ ɹ ɔ m l ɔ ɡ a
+মৰমলগা	mɔɹɔmlɔɡa
+মৰমিয়াল	m ɔ ɹ ɔ m i a l
+মৰমিয়াল	mɔɹɔmial
+মৰমৰ	m ɔ ɹ ɔ m ɔ ɹ
+মৰমৰ	mɔɹɔmɔɹ
+মৰা	m ɔ ɹ a
+মৰা	mɔɹa
+মৰাঠাৰি	m ɔ ɹ a tʰ a ɹ i
+মৰাঠাৰি	mɔɹatʰaɹi
+মৰাপাট	m ɔ ɹ a p a t
+মৰাপাট	mɔɹapat
+মৰ্মৰ	m ɔ ɹ m ɔ ɹ
+মৰ্মৰ	mɔɹmɔɹ
+ম’ৰা	m o ɹ a
+ম’ৰা	moɹa
+য	z ɔ
+য	zɔ
+যঁতৰ	z ɔ t ɔ ɹ
+যঁতৰ	zɔtɔɹ
+য়	j ɔ
+য়	jɔ
+যাদু	z a d u
+যাদু	zadu
+যাদুঘৰ	z a d u ɡ ʱ ɔ ɹ
+যাদুঘৰ	zaduɡʱɔɹ
+যিমান	z i m a n
+যিমান	ziman
+যুঁজ	z ũ z
+যুঁজ	zũz
+যুঁজা	z ũ z a
+যুঁজা	zũza
+যুঁজাৰু	z ũ z a ɹ u
+যুঁজাৰু	zũzaɹu
+যেতিয়া	z ɛ t i a
+যেতিয়া	zɛtia
+যেনে	z ɛ n ɛ
+যেনে	zɛnɛ
+যোগান	z ʊ ɡ a n
+যোগান	zʊɡan
+যোগোৱা	z ʊ ɡ ʊ a
+যোগোৱা	zʊɡʊa
+যোৱা	z ʊ a
+যোৱা	zʊa
+য’ত	z o t
+য’ত	zot
+ল	l ɔ
+ল	lɔ
+ল'ৰা	l o ɹ a
+ল'ৰা	loɹa
+লগত	l ɔ ɡ ɔ t
+লগত	lɔɡɔt
+লগা	l ɔ ɡ a
+লগা	lɔɡa
+লতা	l ɔ t a
+লতা	lɔta
+লতাফুটুকি	l ɔ t a pʰ u t u k i
+লতাফুটুকি	lɔtapʰutuki
+লতামাকৰি	l ɔ t a m a k ɔ ɹ i
+লতামাকৰি	lɔtamakɔɹi
+লতামেকুৰী	l ɔ t a m ɛ k u ɹ i
+লতামেকুৰী	lɔtamɛkuɹi
+লথিওৱা	l ɔ tʰ i ʊ a
+লথিওৱা	lɔtʰiʊa
+লহিয়া	l ɔ ɦ i a
+লহিয়া	lɔɦia
+লহুন	l ɔ ɦ u n
+লহুন	lɔɦun
+লাউ	l a u
+লাউ	lau
+লাউখোলা	l a u kʰ ʊ l a
+লাউখোলা	l a u x ʊ l a
+লাউখোলা	laukʰʊla
+লাউখোলা	lauxʊla
+লাও	l a ʊ
+লাও	laʊ
+লাওখোলা	l a ʊ kʰ ʊ l a
+লাওখোলা	l a ʊ x ʊ l a
+লাওখোলা	laʊkʰʊla
+লাওখোলা	laʊxʊla
+লাখ	l a kʰ
+লাখ	l a x
+লাখ	lakʰ
+লাখ	lax
+লাগা	l a ɡ a
+লাগা	laɡa
+লাজ	l a z
+লাজ	laz
+লাজুকা	l a z u k a
+লাজুকা	lazuka
+লাজুকী	l a z u k i
+লাজুকী	lazuki
+লাথ	l a t
+লাথ	l a tʰ
+লাথ	lat
+লাথ	latʰ
+লাথি	l a tʰ i
+লাথি	latʰi
+লাভ	l a b
+লাভ	l a b ʱ
+লাভ	lab
+লাভ	labʱ
+লাৰা	l a ɹ a
+লাৰা	laɹa
+লিচু	l i s u
+লিচু	lisu
+লিপি	l i p i
+লিপি	lipi
+লিপিষ্টিক	l i p i s t i k
+লিপিষ্টিক	lipistik
+লুকুউৱা	l u k u u a
+লুকুউৱা	lukuua
+লুকুৱা	l u k u a
+লুকুৱা	lukua
+লুটিওৱা	l u t i ʊ a
+লুটিওৱা	lutiʊa
+লুথুৰী	l u tʰ u ɹ i
+লুথুৰী	lutʰuɹi
+লেচু	l ɛ s u
+লেচু	lɛsu
+লেটেকু	l ɛ t ɛ k u
+লেটেকু	lɛtɛku
+লেতেৰা	l ɛ t ɛ ɹ a
+লেতেৰা	lɛtɛɹa
+লেধা	l ɛ d ʱ a
+লেধা	lɛdʱa
+লেহেম	l ɛ ɦ ɛ m
+লেহেম	lɛɦɛm
+লেহেমীয়া	l ɛ ɦ ɛ m i a
+লেহেমীয়া	lɛɦɛmia
+লো	l ʊ
+লো	lʊ
+লোকপ্ৰিয়	l ʊ k ɔ p i ɔ
+লোকপ্ৰিয়	l ʊ k ɔ p ɹ i ɔ
+লোকপ্ৰিয়	lʊkɔpiɔ
+লোকপ্ৰিয়	lʊkɔpɹiɔ
+লোণ	l ʊ n
+লোণ	lʊn
+লৰা	l ɔ ɹ a
+লৰা	lɔɹa
+লৰোৱা	l ɔ ɹ ʊ a
+লৰোৱা	lɔɹʊa
+ল’ৰা	l o ɹ a
+ল’ৰা	l ɔ ɹ a
+ল’ৰা	loɹa
+ল’ৰা	lɔɹa
+শ	s
+শ	x ɔ
+শ	xɔ
+শকত	x ɔ k ɔ t
+শকত	xɔkɔt
+শগুন	x ɔ ɡ u n
+শগুন	xɔɡun
+শনিবাৰ	x ɔ n i b a ɹ
+শনিবাৰ	xɔnibaɹ
+শব্দ	x ɔ b d ɔ
+শব্দ	xɔbdɔ
+শল	x ɔ l
+শল	xɔl
+শলা	x ɔ l a
+শলা	xɔla
+শহা	x ɔ ɦ a
+শহা	xɔɦa
+শহুৰ	x ɔ ɦ u ɹ
+শহুৰ	xɔɦuɹ
+শামুক	x a m u k
+শামুক	xamuk
+শাল	x a l
+শাল	xal
+শালি	x a l i
+শালি	xali
+শালিকা	x a l i k a
+শালিকা	xalika
+শাহ	x a ʱ
+শাহ	xaʱ
+শাহু	x a ɦ u
+শাহু	xaɦu
+শিং	x i ŋ
+শিং	xiŋ
+শিকোওৱা	x i k ʊ ʊ a
+শিকোওৱা	xikʊʊa
+শিকোৱা	x i k ʊ a
+শিকোৱা	xikʊa
+শিক্ষা	x i k kʰ a
+শিক্ষা	xikkʰa
+শিঙৰি	x i ŋ ɔ ɹ i
+শিঙৰি	xiŋɔɹi
+শিপা	x i p a
+শিপা	xipa
+শিপিনী	x i p i n i
+শিপিনী	xipini
+শিমলু	x i m ɔ l u
+শিমলু	ximɔlu
+শিয়া	x i a
+শিয়া	xia
+শিল	x i l
+শিল	xil
+শিহা	x i ɦ a
+শিহা	xiɦa
+শিহু	x i ɦ u
+শিহু	xiɦu
+শিহুজাহাজ	x i ɦ u z a ɦ a z
+শিহুজাহাজ	xiɦuzaɦaz
+শিহৰি	x i ɦ ɔ ɹ i
+শিহৰি	xiɦɔɹi
+শুকান	x u k a n
+শুকান	xukan
+শুকুউৱা	x u k u a
+শুকুউৱা	x u k uː a
+শুকুউৱা	xukua
+শুকুউৱা	xukuːa
+শুকুৰবাৰ	x u k u ɹ b a ɹ
+শুকুৰবাৰ	xukuɹbaɹ
+শুকুৱা	x u k u a
+শুকুৱা	xukua
+শুক্ৰবাৰ	x u k ɹ b a ɹ
+শুক্ৰবাৰ	xukɹbaɹ
+শুঙা	x u ŋ a
+শুঙা	xuŋa
+শুধ	x u d ʱ ɔ
+শুধ	xudʱɔ
+শুধৰা	x u d ʱ ɔ ɹ a
+শুধৰা	xudʱɔɹa
+শুধৰোৱা	x u d ʱ ɔ ɹ ʊ a
+শুধৰোৱা	xudʱɔɹʊa
+শুনা	x u n a
+শুনা	xuna
+শূন্য	x u i n n ɔ
+শূন্য	xuinnɔ
+শেঙুন	x ɛ ŋ u n
+শেঙুন	xɛŋun
+শেলাই	x ɛ l a ɪ
+শেলাই	xɛlaɪ
+শেৱালি	x ɛ w a l i
+শেৱালি	xɛwali
+শোৱা	x ʊ a
+শোৱা	xʊa
+শ্ৰীলংকা	s i l ɔ ŋ k a
+শ্ৰীলংকা	s i ɹ i l ɔ ŋ k a
+শ্ৰীলংকা	s ɹ i l ɔ ŋ k a
+শ্ৰীলংকা	silɔŋka
+শ্ৰীলংকা	siɹilɔŋka
+শ্ৰীলংকা	sɹilɔŋka
+শৰণাৰ্থী	x ɔ ɹ ɔ n a ɹ tʰ i
+শৰণাৰ্থী	xɔɹɔnaɹtʰi
+শৰালি	x ɔ ɹ a l i
+শৰালি	xɔɹali
+শ’ল	x o l
+শ’ল	xol
+ষ	s
+ষ	x ɔ
+ষ	xɔ
+ষাঠি	x a tʰ i
+ষাঠি	xatʰi
+স	s
+স	x ɔ
+স	xɔ
+সঁচা	x ɔ s a
+সঁচা	xɔsa
+সঁজুলি	x ɔ z u l i
+সঁজুলি	xɔzuli
+সকলো	x ɔ k ɔ l ʊ
+সকলো	xɔkɔlʊ
+সকলোতকে	x ɔ k ɔ l ʊ t k ɛ
+সকলোতকে	xɔkɔlʊtkɛ
+সকলোতকৈ	x ɔ k ɔ l ʊ t k o ɪ
+সকলোতকৈ	xɔkɔlʊtkoɪ
+সজা	x ɔ z a
+সজা	xɔza
+সজোৱা	x ɔ z ʊ a
+সজোৱা	xɔzʊa
+সতেজ	x ɔ t ɛ z
+সতেজ	xɔtɛz
+সত্তৰ	x ɔ t t ɔ ɹ
+সত্তৰ	xɔttɔɹ
+সদৰ	x ɔ d ɔ ɹ
+সদৰ	xɔdɔɹ
+সনা	x ɔ n a
+সনা	xɔna
+সন্দেহ	x ɔ n d ɛ ʱ
+সন্দেহ	xɔndɛʱ
+সন্ধিয়া	x ɔ n d ʱ i a
+সন্ধিয়া	xɔndʱia
+সপোন	x ɔ p ʊ n
+সপোন	xɔpʊn
+সবাতোকে	x ɔ b a t ʊ k ɛ
+সবাতোকে	xɔbatʊkɛ
+সবাতোকৈ	x ɔ b a t ʊ k o ɪ
+সবাতোকৈ	xɔbatʊkoɪ
+সমনীয়া	x ɔ m ɔ n i a
+সমনীয়া	xɔmɔnia
+সময়	x ɔ m ɔ ɛ
+সময়	xɔmɔɛ
+সমান	x m a n
+সমান	xman
+সলনি	x ɔ l ɔ n i
+সলনি	xɔlɔni
+সলোৱা	x ɔ l ʊ a
+সলোৱা	xɔlʊa
+সহা	x ɔ ɦ a
+সহা	xɔɦa
+সাঁকো	x ã k ʊ
+সাঁকো	xãkʊ
+সাঁচা	x ã s a
+সাঁচা	xãsa
+সাঁজ	x ã z
+সাঁজ	xãz
+সাঁফৰ	x ã pʰ ɔ ɹ
+সাঁফৰ	xãpʰɔɹ
+সাগৰ	x a ɡ ɔ ɹ
+সাগৰ	xaɡɔɹ
+সাজ	x a z
+সাজ	xaz
+সাজু	x a z u
+সাজু	xazu
+সাজো	x a z ʊ
+সাজো	xazʊ
+সাত	x a t
+সাত	xat
+সাতচল্লিছ	x a t s ɔ l l i s
+সাতচল্লিছ	xatsɔllis
+সাতত্ৰিছ	x a t ɔ t ɹ i s
+সাতত্ৰিছ	xatɔtɹis
+সাতষষ্ঠি	x a t x ɔ s tʰ i
+সাতষষ্ঠি	xatxɔstʰi
+সাতসত্তৰ	x a t x ɔ t t ɔ ɹ
+সাতসত্তৰ	xatxɔttɔɹ
+সাতাইছ	x a t a ɪ s
+সাতাইছ	xataɪs
+সাতান্নব্বৈ	x a t a n n ɔ b b o ɪ
+সাতান্নব্বৈ	xatannɔbboɪ
+সাতাশী	x a t a x i
+সাতাশী	xataxi
+সাতাৱন	x a t a ɔ n
+সাতাৱন	xataɔn
+সানা	x a n a
+সানা	xana
+সাপ	x a p
+সাপ	xap
+সাবট	x a b ɔ t
+সাবট	x a β ɔ t
+সাবট	xabɔt
+সাবট	xaβɔt
+সামৰ	x a m ɔ ɹ
+সামৰ	xamɔɹ
+সাহ	x a ʱ
+সাহ	xaʱ
+সাৰেং	x a ɹ ɛ ŋ
+সাৰেং	xaɹɛŋ
+সি	x i
+সি	xi
+সিঁচা	x i s a
+সিঁচা	xisa
+সিজা	x i z a
+সিজা	xiza
+সিজোৱা	x i z ʊ a
+সিজোৱা	xizʊa
+সিমান	x i m a n
+সিমান	ximan
+সিহঁত	x i ʱ ɔ t
+সিহঁত	xiʱɔt
+সিহঁতৰ	x i ʱ ɔ t ɔ ɹ
+সিহঁতৰ	xiʱɔtɔɹ
+সিৰ	x i ɹ
+সিৰ	xiɹ
+সীওৱা	x i ʊ a
+সীওৱা	xiʊa
+সীয়া	x i a
+সীয়া	xia
+সুঁতি	x ũ t i
+সুঁতি	xũti
+সুণীয়া	x u n i a
+সুণীয়া	xunia
+সুবিধা	x u b i d ʱ a
+সুবিধা	xubidʱa
+সূচোৱা	x u s ʊ a
+সূচোৱা	xusʊa
+সূত	x u t
+সূত	xut
+সূতা	x u t a
+সূতা	xuta
+সূতাৰ	x u t a ɹ
+সূতাৰ	xutaɹ
+সেইটো	x ɛ i t ʊ
+সেইটো	xɛitʊ
+সেউজীয়া	x ɛ u z i a
+সেউজীয়া	xɛuzia
+সেকা	x ɛ k a
+সেকা	xɛka
+সেমেকা	x ɛ m ɛ k a
+সেমেকা	xɛmɛka
+সৈতে	x o ɪ t ɛ
+সৈতে	xoɪtɛ
+সোঁ	x ʊ̃
+সোঁ	xʊ̃
+সোঁত	x ʊ̃ t
+সোঁত	xʊ̃t
+সোঁতা	x ʊ̃ t a
+সোঁতা	xʊ̃ta
+সোঁফাল	x ʊ̃ pʰ a l
+সোঁফাল	xʊ̃pʰal
+সোঁফালে	x ʊ̃ pʰ a l ɛ
+সোঁফালে	xʊ̃pʰalɛ
+সোণ	x ʊ n
+সোণ	xʊn
+সোণালী	x ʊ n a l i
+সোণালী	xʊnali
+সোণৰ	x ʊ n ɔ ɹ
+সোণৰ	xʊnɔɹ
+সোতৰ	x ʊ t ɔ ɹ ɔ
+সোতৰ	xʊtɔɹɔ
+সোধা	x ʊ d ʱ a
+সোধা	xʊdʱa
+সোনাৰি	x ʊ n a ɹ i
+সোনাৰি	xʊnaɹi
+সোপা	x ʊ p a
+সোপা	xʊpa
+সোমবাৰ	x ʊ m b a ɹ
+সোমবাৰ	xʊmbaɹ
+সোমোৱা	x ʊ m ʊ a
+সোমোৱা	xʊmʊa
+স্কুল	i s k u l
+স্কুল	iskul
+স্কুল	s k u l
+স্কুল	skul
+সৰ	x ɔ ɹ
+সৰ	xɔɹ
+সৰা	x ɔ ɹ a
+সৰা	xɔɹa
+সৰু	x ɔ ɹ u
+সৰু	xɔɹu
+হ	h ɔ
+হ	hɔ
+হ	ɦ ɔ
+হ	ɦɔ
+হগা	ɦ ɔ ɡ a
+হগা	ɦɔɡa
+হজম	ɦ ɔ z ɔ m
+হজম	ɦɔzɔm
+হনা	ɦ ɔ n a
+হনা	ɦɔna
+হয়	ɦ ɔ e
+হয়	ɦɔe
+হলা	ɦ ɔ l a
+হলা	ɦɔla
+হলোৱা	ɦ ɔ l ʊ a
+হলোৱা	ɦɔlʊa
+হলৌ	ɦ ɔ l o ʊ
+হলৌ	ɦɔloʊ
+হাঁচি	ɦ ã s i
+হাঁচি	ɦãsi
+হাঁচিওৱা	ɦ ã s i ʊ a
+হাঁচিওৱা	ɦãsiʊa
+হাঁহ	ɦ ã ɦ
+হাঁহ	ɦãɦ
 হাঁহঠুঁটীয়া	ɦ ã ɦ tʰ ũ t i a
 হাঁহঠুঁটীয়া	ɦãɦtʰũtia
-খুন্দিয়াখুন্দি	kʰ u n d i a kʰ u n d i
-খুন্দিয়াখুন্দি	kʰundiakʰundi
+হাওৰ	ɦ a ʊ ɹ
+হাওৰ	ɦaʊɹ
+হাকিম	ɦ a k i m
+হাকিম	ɦakim
+হাগা	ɦ a ɡ a
+হাগা	ɦaɡa
+হাজাৰ	ɦ a z a ɹ
+হাজাৰ	ɦazaɹ
+হাট	ɦ a t
+হাট	ɦat
+হাটী	ɦ a t i
+হাটী	ɦati
+হাড়	ɦ a ɹ
+হাড়	ɦaɹ
+হাড়গিলা	ɦ a ɹ ɡ i l a
+হাড়গিলা	ɦaɹɡila
+হাতমোজা	ɦ a t m ʊ z a
+হাতমোজা	ɦatmʊza
+হাদং	ɦ a d ɔ ŋ
+হাদং	ɦadɔŋ
+হানা	ɦ a n a
+হানা	ɦana
+হাবি	ɦ a b i
+হাবি	ɦabi
+হামি	ɦ a m i
+হামি	ɦami
+হামিওৱা	ɦ a m i ʊ a
+হামিওৱা	ɦamiʊa
+হাল	ɦ a l
+হাল	ɦal
+হালধি	h a l ɔ d ʱ i
+হালধি	halɔdʱi
+হালধীয়া	ɦ a l ɔ d ʱ i a
+হালধীয়া	ɦalɔdʱia
+হালুৱা	ɦ a l u a
+হালুৱা	ɦalua
+হালোৱা	ɦ a l ʊ a
+হালোৱা	ɦalʊa
+হাহাকাৰ	ɦ a ɦ a k a ɹ
+হাহাকাৰ	ɦaɦakaɹ
+হাৰা	ɦ a ɹ a
+হাৰা	ɦaɹa
+হাৱৰ	ɦ a ɔ ɹ
+হাৱৰ	ɦaɔɹ
+হিংসা	ɦ i ŋ kʰ a
+হিংসা	ɦ i ŋ x a
+হিংসা	ɦiŋkʰa
+হিংসা	ɦiŋxa
+হিচাপ	ɦ i s a p
+হিচাপ	ɦisap
+হিয়া	ɦ i a
+হিয়া	ɦia
+হীৰা	ɦ i ɹ a
+হীৰা	ɦiɹa
+হুৱাদুৱা	ɦ u a d u a
+হুৱাদুৱা	ɦuadua
+হেঁচা	ɦ ẽ s a
+হেঁচা	ɦẽsa
+হেঁপাহ	ɦ ẽ p a ʱ
+হেঁপাহ	ɦẽpaʱ
+হেংদাং	ɦ ɛ ŋ d a ŋ
+হেংদাং	ɦɛŋdaŋ
+হেজাৰ	ɦ ɛ z a ɹ
+হেজাৰ	ɦɛzaɹ
+হেৰুউৱা	ɦ ɛ ɹ u a
+হেৰুউৱা	ɦ ɛ ɹ uː a
+হেৰুউৱা	ɦɛɹua
+হেৰুউৱা	ɦɛɹuːa
+হেৰোৱা	ɦ ɛ ɹ ʊ a
+হেৰোৱা	ɦɛɹʊa
+হৈ	ɦ o ɪ
+হৈ	ɦoɪ
+হোপা	ɦ ʊ p a
+হোপা	ɦʊpa
+হোৱা	ɦ ʊ a
+হোৱা	ɦʊa
+হৰা	ɦ ɔ ɹ a
+হৰা	ɦɔɹa
+ৰ	ɹ ɔ
+ৰ	ɹɔ
+ৰং	ɹ ɔ ŋ
+ৰং	ɹɔŋ
+ৰখা	ɹ ɔ kʰ a
+ৰখা	ɹɔkʰa
+ৰঙা	ɹ ɔ ŋ a
+ৰঙা	ɹɔŋa
+ৰঙালাও	ɹ ɔ ŋ a l a ʊ
+ৰঙালাও	ɹɔŋalaʊ
+ৰঙোৱা	ɹ ɔ ŋ ʊ a
+ৰঙোৱা	ɹɔŋʊa
+ৰচনা	ɹ ɔ s ɔ n a
+ৰচনা	ɹɔsɔna
+ৰছী	ɹ ɔ s i
+ৰছী	ɹɔsi
+ৰজা	ɹ ɔ z a
+ৰজা	ɹɔza
+ৰন্ধা	ɹ ɔ n d ʱ a
+ৰন্ধা	ɹɔndʱa
+ৰবিবাৰ	ɹ ɔ b i b a ɹ
+ৰবিবাৰ	ɹɔbibaɹ
+ৰভা	ɹ ɔ b ʱ a
+ৰভা	ɹɔbʱa
+ৰস	ɹ ɔ x
+ৰস	ɹɔx
+ৰহ	ɹ ɔ ɦ
+ৰহ	ɹɔɦ
+ৰহঘৰা	ɹ ɔ ɦ ɡ ʱ ɔ ɹ a
+ৰহঘৰা	ɹɔɦɡʱɔɹa
+ৰহণ	ɹ ɔ ɦ ɔ n
+ৰহণ	ɹɔɦɔn
+ৰাং	ɹ a ŋ
+ৰাং	ɹaŋ
+ৰাংঢালী	ɹ a ŋ d ʱ a l i
+ৰাংঢালী	ɹaŋdʱali
+ৰাংপতা	ɹ a ŋ p ɔ t a
+ৰাংপতা	ɹaŋpɔta
+ৰাইজ	ɹ a ɪ z
+ৰাইজ	ɹaɪz
+ৰাতি	ɹ a t i
+ৰাতি	ɹati
+ৰাতিপুৱা	ɹ a t i p u a
+ৰাতিপুৱা	ɹatipua
+ৰান্ধনি	ɹ a n d ʱ ɔ n i
+ৰান্ধনি	ɹandʱɔni
+ৰান্ধা	ɹ a n d ʱ a
+ৰান্ধা	ɹandʱa
+ৰামধেনু	ɹ a m d ʱ ɛ n u
+ৰামধেনু	ɹamdʱɛnu
+ৰিক্সা	ɹ i k s a
+ৰিক্সা	ɹiksa
+ৰিজোৱা	ɹ i z ʊ a
+ৰিজোৱা	ɹizʊa
+ৰুটি	ɹ u t i
+ৰুটি	ɹuti
+ৰুমাল	ɹ u m a l
+ৰুমাল	ɹumal
+ৰোকা	ɹ ʊ k a
+ৰোকা	ɹʊka
+ৰোৱা	ɹ ʊ a
+ৰোৱা	ɹʊa
+ৰৌ	ɹ o ʊ
+ৰৌ	ɹoʊ
+ৰ’দ	ɹ o d
+ৰ’দ	ɹod
+ৰ’দোৱা	ɹ o d ʊ a
+ৰ’দোৱা	ɹodʊa
+ৱ	w ɔ
+ৱ	wɔ
+ৱ	β ɔ
+ৱ	βɔ
+𑜒𑜪𑜨𑜍𑜣𑜄	o m ɹ i t a
+𑜒𑜪𑜨𑜍𑜣𑜄	omɹita

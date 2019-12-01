@@ -36,7 +36,7 @@ Unreleased
 
 ### Changed
 
--   Removed duplicate <word, pronunciation> pairs in the persisted data. (\#85, \#111)
+-   Removed duplicate <word, pronunciation> pairs in the persisted data. (\#85, \#111, \#116)
 -   Split Welsh into Northern Wales and Southern dialects in the persisted data. (\#110)
 -   Factored out casefolding. (\#102)
 -   Split Serbo-Croatian into Cyrillic and Latin TSVs. (\#96)
