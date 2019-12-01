@@ -28,8 +28,8 @@ altmışıncı	ɑ l t m ɯ ʃ ɯ n d͡ʒ ɯ
 altıncı	ɑ l t ɯ n d͡ʒ ɯ
 altında	ɑ ɫ t ɯ n d ɑ
 alver	ɑ l v e r
-alət	ɑː l æ t
 alış	ɑ ɫ ɯ ʃ
+alət	ɑː l æ t
 amma	ɑ m b ɑ
 amma	ɑ mː ɑ
 ancaq	ɑ n d͡z ɑ χ
@@ -65,8 +65,8 @@ avtoş	ɑ f t o ʃ
 axsamaq	ɑ χ s ɑ m ɑ χ
 axtarmaq	ɑ χ t ɑ r m ɑ χ
 axtarış	ɑ χ t ɑ r ɯ ʃ
-axşam	a χ ʃ a m
 axır	ɑ χ ɯ r
+axşam	a χ ʃ a m
 ayaq	ɑ j ɑ χ
 ayaqqabı	ɑ j ɑ kː ɑ b ɯ
 ayaqqabı	ɑ j ɑ χ k ɑ b ɯ
@@ -102,7 +102,6 @@ açılış	ɑ t͡s ɯ l ɯ ʃ
 açılış	ɑ t͡ʃ ɯ l ɯ ʃ
 açıq	ɑ t͡s ɯ χ
 açıq	ɑ t͡ʃ ɯ χ
-aş	ɑ ʃ
 ağac	ɑ ɣ ɑ d͡z
 ağac	ɑ ɣ ɑ d͡ʒ
 ağac	ɑ ɣ ɑ ʃ
@@ -110,7 +109,6 @@ ağacdələn	ɑ ɣ ɑ d ʒ d æ l æ n
 ağlabatmaz	ɑ ɣ ɫ ɑ b a ɯ t m ɑ z
 ağlamaq	ɑ ɣ l ɑ m ɑ χ
 ağlasığmaz	ɑ ɣ ɫ a s ɯ ɣ m ɑ z
-aşpaz	ɑ ʃ p ɑ z
 ağqoval	ɑ ɣ ɡ o v ɑ ɫ
 ağrı	ɑ ɣ r ɯ
 ağrımaq	ɑ ɣ r ɯ m ɑ χ
@@ -118,6 +116,8 @@ ağrısız	ɑ ɣ r ɯ s ɯ z
 ağı	ɑ ɣ ɯ
 ağıllı	ɑ ɣ ɯ ɫː ɯ
 ağız	ɑ ɣ ɯ z
+aş	ɑ ʃ
+aşpaz	ɑ ʃ p ɑ z
 baba	b ɑ b ɑ
 bacanaq	b ɑ d͡z ɑ n ɑ χ
 bacanaq	b ɑ d͡ʒ ɑ n ɑ χ
@@ -161,20 +161,20 @@ bayaq	b ɑ j ɑ χ
 bayraq	b ɑ j r ɑ χ
 bazarlıq	b ɑ z ɑ r ɫ ɯ χ
 bağ	b ɑ ɣ
-baş	b ɑ ʃ
 bağana	b ɑ ɣ ɑ n ɑ
 bağban	b ɑː b ɑ n
 bağlamaq	b ɑ ɣ ɫ ɑ m ɑ χ
+bağlı	b ɑ ɣ l ɯ
+bağırmaq	b ɑ ɣ ɯ r m ɑ χ
+bağışlamaq	b ɑ ɣ ɯ ʃ t ɑ m ɑ χ
+bağışlamaq	b ɑ ɣ ɯ ʃ ɫ ɑ m ɑ χ
+baş	b ɑ ʃ
 başlanğıc	b ɑ ʃ t ɑ n ɣ ɯ d͡z
 başlanğıc	b ɑ ʃ t ɑ n ɣ ɯ d͡ʒ
 başlanğıc	b ɑ ʃ ɫ ɑ n ɣ ɯ d͡z
 başlanğıc	b ɑ ʃ ɫ ɑ n ɣ ɯ d͡ʒ
-bağlı	b ɑ ɣ l ɯ
 başçı	b ɑ ʃ t͡s ɯ
 başçı	b ɑ ʃ t͡ʃ ɯ
-bağırmaq	b ɑ ɣ ɯ r m ɑ χ
-bağışlamaq	b ɑ ɣ ɯ ʃ t ɑ m ɑ χ
-bağışlamaq	b ɑ ɣ ɯ ʃ ɫ ɑ m ɑ χ
 belibağlı	b e l i b ɑ ɣ ɫ ɯ
 belə	b e l æ
 beyin	b e i n
@@ -234,9 +234,9 @@ borc	b o r d͡ʒ
 boyamaq	b o j ɑ m ɑ χ
 boyaqotu	b o j ɑ ɣ o t u
 bozbaş	b o z b ɑ ʃ
+boğaz	b o ɣ ɑ z
 boş	b o ʃ
 boşanmaq	b o ʃ ɑ mː ɑ χ
-boğaz	b o ɣ ɑ z
 boşqab	b o ʃ ɡ ɑ b
 boşqab	b o ʃ ɡ ɑ b̥
 brilyant	b ɾ ɪ l j ɑ n t
@@ -261,6 +261,9 @@ böyürtkən	b œ j y ɾ t k æ n
 bülbül	b y l b y l
 bütöv	p y̥ t œ v
 bütün	p y̥ t y n
+bıçaq	b ɯ t͡ʃ ɑ χ
+bıçaq	p ɯ t͡s ɑ χ
+bıçaq	p ɯ t͡ʃ ɑ χ
 bədbin	b æ d b i n
 bədən	b æ d æ n
 bəlkə	b æ l k æ
@@ -283,9 +286,6 @@ bəz	b æ z
 bəzi	b æ z i
 bəzi	b æː z i
 bəzən	b æː z æ n
-bıçaq	b ɯ t͡ʃ ɑ χ
-bıçaq	p ɯ t͡s ɑ χ
-bıçaq	p ɯ t͡ʃ ɑ χ
 camaat	d͡z ɑ m ɑ h ɑ t
 camaat	d͡z ɑ m ɑ ɑ t
 camaat	d͡ʒ ɑ m ɑ h ɑ t
@@ -313,12 +313,13 @@ cütçü	d͡z y t t͡s y
 cütçü	d͡ʒ y t t͡ʃ y
 cütçülük	d͡z y t t͡s y l y k
 cütçülük	d͡ʒ y t t͡ʃ y l y k
-cəmiyyət	d͡z æ m i j æ t
-cəmiyyət	d͡ʒ æ m i j æ t
 cırmaq	d͡z ɯ r m ɑ χ
 cırmaq	d͡ʒ ɯ r m ɑ χ
 cırıq	d͡z ɯ r ɯ χ
 cırıq	d͡ʒ ɯ r ɯ χ
+cığal	d͡ʒ ɯ ɣ ɑ ɫ
+cəmiyyət	d͡z æ m i j æ t
+cəmiyyət	d͡ʒ æ m i j æ t
 cəza	d͡z æ z ɑ
 cəza	d͡ʒ æ z ɑ
 cəzalandırmaq	d͡z æ z ɑ ɫ ɑ n d ɯ r m ɑ χ
@@ -327,7 +328,6 @@ cəzalandırıcı	d͡z æ z ɑ ɫ ɑ n d ɯ r ɯ d͡z ɯ
 cəzalandırıcı	d͡ʒ æ z ɑ ɫ ɑ n d ɯ r ɯ d͡ʒ ɯ
 cəzalanmaq	d͡z æ z ɑ ɫ ɑ n m ɑ χ
 cəzalanmaq	d͡ʒ æ z ɑ ɫ ɑ n m ɑ χ
-cığal	d͡ʒ ɯ ɣ ɑ ɫ
 dad	d ɑ d
 dad	d ɑː d
 dadı	d ɑ d ɯ
@@ -459,6 +459,9 @@ düşmək	d y ʃ m æ k
 düşmək	t y ʃ m æ k
 düşünmək	d y ʃ y mː æ j
 düşünmək	d y ʃ y mː ɑ χ
+dırmıq	d ɯ r m ɯ χ
+dırnaq	d ɯ r n ɑ χ
+dığa	d ɯ ɣ ɑ
 dəftər	d æ f t æ r
 dəfə	d æ f æ
 dəli	d æ l i
@@ -477,8 +480,6 @@ dəri	d æ r i
 dərin	d æ r i n
 dərinlik	d æ r i n l i j
 dərman	d æ r m ɑ n
-dırmıq	d ɯ r m ɯ χ
-dırnaq	d ɯ r n ɑ χ
 dərs	d æ r s
 dəstək	d æ s t æ j
 dəstək	d æ s t æ ç
@@ -498,7 +499,6 @@ dəymək	d æ j m ɑ χ
 dəyməz	d æ j m æ z
 dəyə	d æ j æ
 dəyər	d æ j æ r
-dığa	d ɯ ɣ ɑ
 elə	e l æ
 etimoloji	e t i m o l o ʒ ɯ
 etiraf	eː t i r ɑ f
@@ -516,10 +516,10 @@ film	f i l m
 fit	f i t
 fonoloji	f o n o l o ʒ ɯ
 futbolçu	f u t b o ɫ t ʃ u
+fırtına	f ɯ ɾ t ɯ n ɑ
 fəaliyyət	f æ ɑ l i j æ t
 fəhlə	f æ h l æ
 fəlsəfə	f æ l s æ f æ
-fırtına	f ɯ ɾ t ɯ n ɑ
 fəsil	f æ s i l
 gec	ɡ e d͡ʒ æ
 geniş	d͡ʒ e n i ʃ
@@ -697,8 +697,8 @@ ikinci	i c i n d͡ʒ i
 ilbiz	i l b i z
 ildırım	i ɫ d ɯ r ɯ m
 ilk	i l k
-ilə	i l æ
 ilıq	i ɫ ɯ χ
+ilə	i l æ
 imkan	i m kʲ ɑ n
 imkan	i m t͡ʃ ɑ n
 inad	i n ɑ d
@@ -941,12 +941,13 @@ müstəqillik	m y s t æ ɡ i l l i k
 müvəffəqiyyət	m y v æ f æ ɡ i j æ t
 müxalifət	m u χ ɑ l i f æ t
 müxalifət	m y χ ɑː l i f æ t
+müştəri	m y ʃ t æ r i
 müəllif	m y æ lː i f
 müəllif	mʷ æ lː i f
 müəllim	m y æ lː i m
 müəllimə	m y æ lː i m æ
-müştəri	m y ʃ t æ r i
 müəzzəm	m y æ zː æ m
+mıx	m ɯ χ
 məcazi	m æ d͡z ɑː z i
 məcazi	m æ d͡ʒ ɑː z i
 məclis	m æ d͡z l i s
@@ -955,8 +956,8 @@ mədrəsə	m æ d r æ s æ
 mədəni	m æ d æ n i
 mədəniyyət	m æ d æ n i j æ t
 məfhum	m æ f h u m
-məhəlli	m æ h æ lː i
 məhşur	m æ h ʃ u r
+məhəlli	m æ h æ lː i
 məktub	m æ h t u b
 məktub	m æ k t u b
 məktəb	m æ k t æ b
@@ -976,7 +977,6 @@ mərkəzi	m æ r k æ z i
 məsafə	m æ s ɑː f æ
 məsləhət	m æ s l æ h æ t
 məsələn	m æ s æ l æ n
-mıx	m ɯ χ
 məxəz	m æ χ æ z
 məzuniyyət	m æ z u n i j æ t
 namaz	n ɑ m ɑ z
@@ -1129,31 +1129,31 @@ qapmaq	ɡ ɑ p m ɑ χ
 qapı	ɡ ɑ p ɯ
 qar	ɡ ɑ r
 qara	ɡ æ r æ
-qara	ɢ æ r æ
 qara	ɡ ɑ r ɑ
+qara	ɢ æ r æ
 qarayara	ɡ ɑ r ɑ j ɑ r ɑ
 qarın	ɡ ɑ r ɯ n
 qarınca	ɡ ɑ r ɯ n d͡z ɑ
 qarınca	ɡ ɑ r ɯ n d͡ʒ ɑ
-qarət	ɡ ɑː r æ t
-qarşı	ɡ ɑ r ʃ ɯ
 qarışmaq	ɡ ɑ r ɯ ʃ m ɑ χ
 qarışqa	ɡ ɑ r ɯ ʃ k ɑ
 qarışqa	ɡ ɑ r ɯ ʃ ɡ ɑ
+qarşı	ɡ ɑ r ʃ ɯ
 qarşısında	ɡ ɑ r ʃ ɯ s ɯ n d ɑ
+qarət	ɡ ɑː r æ t
 qasırğa	ɡ ɑ s ɯ r ɣ a
 qaytarmaq	ɡ e j t æ r m ɑ χ
-qaytarmaq	ɢ e j t æ r m ɑ χ
 qaytarmaq	ɡ ɑ j t ɑ r m ɑ χ
+qaytarmaq	ɢ e j t æ r m ɑ χ
 qayçı	ɡ e j t͡s i
 qayçı	ɡ ɑ j t͡ʃ ɯ
+qayğı	ɡ ɑ j ɣ ɯ
 qayıdış	ɡ ɑ j ɯ d ɯ ʃ
 qayınana	ɡ ɑ j ɯ n ɑ n ɑ
 qayınata	ɡ ɑ j ɯ n ɑ t ɑ
 qayıtmaq	ɡ e j i t m ɑ χ
-qayıtmaq	ɢ e j i t m ɑ χ
 qayıtmaq	ɡ ɑ j ɯ t m ɑ χ
-qayğı	ɡ ɑ j ɣ ɯ
+qayıtmaq	ɢ e j i t m ɑ χ
 qaz	ɡ ɑ z
 qazanc	ɡ ɑ z ɑ n d͡z
 qazanc	ɡ ɑ z ɑ n d͡ʒ
@@ -1214,13 +1214,34 @@ qusmaq	ɡ u s m ɑ χ
 quyruq	ɡ u j r u ɣ
 quyu	ɡ u j u
 quş	ɡ u ʃ
+qıfıl	ɡ ɯ f ɯ ɫ
+qıfıllı	ɡ ɯ f ɯ ɫː ɯ
+qılmaq	ɡ ɯ ɫ m ɑ χ
+qılmaq	ɢ ɯ ɫ m ɑ χ
+qınaq	ɡ ɯ n ɑ χ
+qırmaq	ɡ ɯ r m ɑ χ
+qırmızı	ɡ ɯ r m ɯ z ɯ
+qırxmaq	ɡ ɯ r χ m ɑ χ
+qırğın	ɡ ɯ r ɣ ɯ n
+qısa	k ɯ̥ s ɑ
+qısa	ɡ ɯ s ɑ
+qızdırmaq	ɡ ɯ z d ɯ r m a χ
+qızlıq	ɡ ɯ z ɫ ɯ χ
+qızmaq	ɡ ɯ z m ɑ χ
+qızılquş	ɡ ɯ z ɯ ɫ ɡ u ʃ
+qızışmaq	ɡ ɯ z ɯ ʃ m a χ
+qığılcım	ɡ ɯ ɣ ɯ ɫ d͡z ɯ m
+qığılcım	ɡ ɯ ɣ ɯ ɫ d͡ʒ ɯ m
+qış	ɡ ɯ ʃ
+qışlaq	ɡ ɯ ʃ l ɑ χ
+qışlaq	ɡ ɯ ʃ t ɑ χ
+qışqırmaq	k ɯ ʃ k ɯ r m ɑ χ
+qışqırmaq	ɡ ɯ ʃ ɡ ɯ r m ɑ χ
 qəbiristan	ɡ æ b r i s t ɑ n
-qədər	χ æ d æ r
 qədər	ɡ æ d æ ɾ
 qədər	ɡ æ d æ ɾ̥
 qədər	ɢ æ d æ ɾ̥
-qıfıl	ɡ ɯ f ɯ ɫ
-qıfıllı	ɡ ɯ f ɯ ɫː ɯ
+qədər	χ æ d æ r
 qəhbə	ɡ æ h b æ
 qəhbə	ɡ æ h p æ
 qəhbəlik	ɡ æ h b æ l i j
@@ -1232,34 +1253,13 @@ qəhrəmanlıq	ɡ æ h r æ m ɑ n ɫ ɯ χ
 qəhvə	ɡ æ h v æ
 qəlb	ɡ æ l b
 qəlb	ɢ æ l b
-qılmaq	ɡ ɯ ɫ m ɑ χ
-qılmaq	ɢ ɯ ɫ m ɑ χ
 qələbə	ɡ æ l æ b æ
-qınaq	ɡ ɯ n ɑ χ
-qırmaq	ɡ ɯ r m ɑ χ
-qırmızı	ɡ ɯ r m ɯ z ɯ
-qırxmaq	ɡ ɯ r χ m ɑ χ
 qərənfil	ɟ æ ɾ æ n f ɪ l
-qırğın	ɡ ɯ r ɣ ɯ n
-qısa	k ɯ̥ s ɑ
-qısa	ɡ ɯ s ɑ
 qəssab	ɡ æ sː ɑ b
 qəssab	ɢ æ sː ɑ b
 qətl	ɡ æ t l
-qızdırmaq	ɡ ɯ z d ɯ r m a χ
 qəzet	ɡ æ z e t
-qızlıq	ɡ ɯ z ɫ ɯ χ
-qızmaq	ɡ ɯ z m ɑ χ
 qəzəl	ɡ æ z æ l
-qızılquş	ɡ ɯ z ɯ ɫ ɡ u ʃ
-qızışmaq	ɡ ɯ z ɯ ʃ m a χ
-qış	ɡ ɯ ʃ
-qışlaq	ɡ ɯ ʃ l ɑ χ
-qışlaq	ɡ ɯ ʃ t ɑ χ
-qışqırmaq	k ɯ ʃ k ɯ r m ɑ χ
-qışqırmaq	ɡ ɯ ʃ ɡ ɯ r m ɑ χ
-qığılcım	ɡ ɯ ɣ ɯ ɫ d͡z ɯ m
-qığılcım	ɡ ɯ ɣ ɯ ɫ d͡ʒ ɯ m
 rahat	r ɑ h ɑ t
 rahatlıq	r ɑ h ɑ t l ɯ χ
 rejissor	r e ʒ i sː o r
@@ -1382,9 +1382,16 @@ sürücü	s y r y d͡z y
 sürücü	s y r y d͡ʒ y
 sürüşkən	s y r y ʃ k æ n
 sürüşkən	s y r y ʃ ɡ æ n
+sıfır	s ɯ f ɯ ɾ
+sındırmaq	s ɯ n d ɯ r m ɑ χ
+sınmaq	s ɯ mː ɑ χ
+sırğa	s ɯ r ɣ ɑ
+sıxmaq	s ɯ χ m a χ
+sıçmaq	s ɯ t͡s m ɑ χ
+sıçmaq	s ɯ t͡ʃ m ɑ χ
+sığmaq	s ɯ ɣ m ɑ χ
 səbəb	s æ b æ b
 səfər	s æ f æ r
-sıfır	s ɯ f ɯ ɾ
 səhnə	s æ h n æ
 səhv	s æ f
 səhər	s æ h æ r
@@ -1393,8 +1400,6 @@ səkkiz	s æ c c i z
 səkkizinci	s æ c c i z i n d͡ʒ i
 səksəninci	s æ ç s æ n i n d͡ʒ i
 səndemə	s æ n d e m æ
-sındırmaq	s ɯ n d ɯ r m ɑ χ
-sınmaq	s ɯ mː ɑ χ
 səpmək	s æ p m æ j
 sərin	s æ r i n
 sərinləmək	s æ r i nː æ m æ j
@@ -1403,14 +1408,9 @@ səriştə	s æ r i ʃ t æ
 sərxoş	s æ r χ o ʃ
 sərçə	s æ r t͡s æ
 sərçə	s æ r t͡ʃ æ
-sırğa	s ɯ r ɣ ɑ
 səs	s æ s
 səsvermə	s æ s v e r m æ
 səviyyə	s æ v i jː æ
-sıxmaq	s ɯ χ m a χ
-sıçmaq	s ɯ t͡s m ɑ χ
-sıçmaq	s ɯ t͡ʃ m ɑ χ
-sığmaq	s ɯ ɣ m ɑ χ
 tala	t ɑ ɫ ɑ
 tamaşa	t ɑ m ɑ ʃ ɑ
 tamaşaçı	t ɑ m ɑ ʃ ɑ t͡s ɯ
@@ -1457,6 +1457,9 @@ tökmək	t œ k m ɑ χ
 tülkü	t y l k y
 tüstü	t y s t y
 tüstü	t y sː i
+tıncıxmaq	t ɯ n d͡z ɯ χ m ɑ χ
+tıncıxmaq	t ɯ n d͡ʒ ɯ χ m ɑ χ
+tısbağa	t ɯ s b ɑ ɣ ɑ
 təbii	t æ b ɪː
 tədbir	t æ d b i r
 təhqir	t æ h ɡ i r
@@ -1473,8 +1476,6 @@ tələbə	t æ l æ b æ
 tələffüz	t æ l æ fː y z
 təmizkar	t æ m i z kʲʰ ɑ r
 təmizkarlıq	t æ m i z kʲʰ ɑ r ɫ ɯ χ
-tıncıxmaq	t ɯ n d͡z ɯ χ m ɑ χ
-tıncıxmaq	t ɯ n d͡ʒ ɯ χ m ɑ χ
 tər	t æ r
 tərcüməçi	t æ ɾ d͡z y m æ t͡s i
 tərcüməçi	t æ ɾ d͡ʒ y m æ t͡ʃ i
@@ -1484,7 +1485,6 @@ tərləmək	t æ rː æ m æ j
 tərləmək	t æ rː æ m æ k
 tərləmək	t æ rː æ m ɑ χ
 tərpənmək	t æ r p æ mː m æ j
-tısbağa	t ɯ s b ɑ ɣ ɑ
 təsirli	t æ s i r l i
 təsirli	t æ s i rː i
 təsirsiz	t æ s i r s i z
@@ -1516,10 +1516,10 @@ uçmaq	u t͡s m ɑ χ
 uçmaq	u t͡ʃ m ɑ χ
 uçuş	u t͡s ɯ ʃ
 uçuş	u t͡ʃ ɯ ʃ
+uğur	u ɣ u r
 uşaq	u ʃ ɑ χ
 uşaqbaz	u ʃ ɑ χ b ɑ z̥
 uşaqbazlıq	u ʃ ɑ χ b ɑ z ɫ ɯ χ
-uğur	u ɣ u r
 valideyn	v ɑ l i d e j n
 vanil	v ɑ n i l
 varlıq	v ɑ r ɫ ɯ χ
@@ -1581,10 +1581,10 @@ yanaq	j ɑ n ɑ χ
 yandırmaq	j ɑ n d ɯ r m ɑ χ
 yanmaq	j ɑ mː ɑ χ
 yanmaq	j ɑ n m ɑ χ
-yanında	j ɑ n ɯ n d ɑ
 yanğın	j ɑ n ɣ ɯ n
 yanğın	j ɑ ŋ ɣ ɯ n
 yanğınsöndürən	j ɑ n ɣ ɯ n s œ n d y r æ n
+yanında	j ɑ n ɯ n d ɑ
 yapışdırmaq	j ɑ p ɯ ʃ d ɯ r m ɑ χ
 yara	j ɑ r ɑ
 yaramaq	j ɑ r ɑ m ɑ χ
@@ -1622,12 +1622,12 @@ yazıq	j ɑː z ɯ ɣ
 yazıq	j ɑː z ɯ χ
 yazıçı	j ɑ z ɯ t͡s ɯ
 yazıçı	j ɑ z ɯ t͡ʃ ɯ
+yağış	j a ɣ ɯ ʃ
 yaş	j ɑ ʃ
 yaşasın	j ɑ ʃ ɑ s ɯ n
 yaşayış	j ɑ ʃ ɑ j ɯ ʃ
 yaşdaş	j ɑ ʃ d ɑ ʃ
 yaşlı	j ɑ ʃ ɫ ɯ
-yağış	j a ɣ ɯ ʃ
 yeddi	j e tː i
 yeddinci	j e tː i n d͡z i
 yeddinci	j e tː i n d͡ʒ i
@@ -1684,8 +1684,6 @@ yüngül	j y n ɡ y l
 yürümək	j y r y m æ j
 yürümək	j y r y m æ k
 yüzüncü	j y z y n d͡ʒ y
-yəqin	j æ ɡ i n
-yəqin	j æː ɡ i n
 yırtmaq	j ɯ r t m ɑ χ
 yırtıcı	j ɯ r t ɯ d͡z ɯ
 yırtıcı	j ɯ r t ɯ d͡ʒ ɯ
@@ -1693,6 +1691,8 @@ yıxmaq	j ɯ χ m ɑ χ
 yığmaq	j ɯ ɣ m ɑ χ
 yığışdırmaq	j ɯ ɣ ɯ ʃ d ɯ r m ɑ χ
 yığışmaq	j ɯ ɣ ɯ ʃ m ɑ χ
+yəqin	j æ ɡ i n
+yəqin	j æː ɡ i n
 zaman	z ɑ m ɑ n
 zaqafqaziya	z ɑ ɡ ɑ f k ɑ z j ɑ
 zaqafqaziya	z ɑ ɡ ɑ f ɡ a z i j ɑ
@@ -1732,12 +1732,12 @@ zərər	z æ r æ r
 çayxana	t͡ʃ ɑ j χ ɑ n ɑ
 çağ	t͡s ɑ ɣ
 çağ	t͡ʃ ɑ ɣ
-çaşmaq	t͡s ɑ ʃ m ɑ χ
-çaşmaq	t͡ʃ ɑ ʃ m ɑ χ
 çağırmaq	t͡s ɑ ɣ ɯ r m ɑ χ
 çağırmaq	t͡ʃ ɑ ɣ ɯ r m ɑ χ
 çağırış	t͡s ɑ ɣ ɯ r ɯ ʃ
 çağırış	t͡ʃ ɑ ɣ ɯ r ɯ ʃ
+çaşmaq	t͡s ɑ ʃ m ɑ χ
+çaşmaq	t͡ʃ ɑ ʃ m ɑ χ
 çibin	t͡s i b i n
 çibin	t͡ʃ i b i n
 çimizdirmək	t͡s i m i z d i r m æ k
@@ -1777,6 +1777,12 @@ zərər	z æ r æ r
 çünki	t͡s y n k y
 çünki	t͡ʃ y n k i
 çünki	t͡ʃ y n k y
+çıxartmaq	t͡s ɯ χ ɑ r t m ɑ χ
+çıxartmaq	t͡ʃ ɯ χ ɑ r t m ɑ χ
+çıxmaq	t͡s ɯ χ m ɑ χ
+çıxmaq	t͡ʃ ɯ χ m ɑ χ
+çıxış	t͡s ɯ χ ɯ ʃ
+çıxış	t͡ʃ ɯ χ ɯ ʃ
 çəkic	t͡s æ t͡ʃ i d͡z
 çəkic	t͡ʃ æ k i d͡ʒ
 çəkilmək	t͡s æ k i l m æ j
@@ -1795,12 +1801,6 @@ zərər	z æ r æ r
 çətin	t͡ʃ æ t i n
 çətir	t͡s æ t i r
 çətir	t͡ʃ æ t i r
-çıxartmaq	t͡s ɯ χ ɑ r t m ɑ χ
-çıxartmaq	t͡ʃ ɯ χ ɑ r t m ɑ χ
-çıxmaq	t͡s ɯ χ m ɑ χ
-çıxmaq	t͡ʃ ɯ χ m ɑ χ
-çıxış	t͡s ɯ χ ɯ ʃ
-çıxış	t͡ʃ ɯ χ ɯ ʃ
 öd	œ d
 ödlük	œ d l y j
 ödlük	œ d l y k
@@ -1873,26 +1873,35 @@ zərər	z æ r æ r
 şahmat	ʃ ɑ h m ɑ t
 şair	ʃ ɑː i r
 şapalaq	ʃ ɑ p ɑ ɫ ɑ χ
+şeir	ʃ e j i r
+şer	ʃ e i r
+şer	ʃ e r
+şimşək	ʃ i m ʃ æ j
+şimşək	ʃ i m ʃ æ k
+şirkət	ʃ i r kʲ æ t
+şişirtmək	ʃ i ʃ i r m æ j
+şişirtmək	ʃ i ʃ i r m æ k
+şüar	ʃ u ɑ r
+şüar	ʃ y ɑ r
+şüur	ʃ y uː r
+şüşə	ʃ y ʃ æ
+şəhər	ʃ æ h æ ɾ
+şəkil	ʃ æ k i l
+şəkər	ʃ æ ç æ ɾ
+şənbə	ʃ æ m b æ
+şəxsiyyət	ʃ æ χ s i j æ t
 əbədilik	æ b æ d i l i j
 əbədilik	æ b æ d i l i k
 əbədiyyət	æ b æ d i j æ t
 ədalət	æ d ɑː l æ t
 ədat	æ d a t
 ədviyyəli	æ d v i j æ l i
-şeir	ʃ e j i r
-şer	ʃ e i r
-şer	ʃ e r
 əfsanəvi	æ f s ɑː n æ v ɪː
 əgər	æ d͡ʒ æ r
 əgər	æ j æ ɾ
 əgər	æ ɡʲ æ r̥
 əgər	æ ɡʲ æ ɾ
 əhali	æ h ɑː l i
-şimşək	ʃ i m ʃ æ j
-şimşək	ʃ i m ʃ æ k
-şirkət	ʃ i r kʲ æ t
-şişirtmək	ʃ i ʃ i r m æ j
-şişirtmək	ʃ i ʃ i r m æ k
 əjdaha	æ ʒ d ɑ h ɑː
 əkinçi	æ k ɪ i n t͡s i
 əkinçi	æ k ɪ i n t͡ʃ i
@@ -1939,47 +1948,38 @@ zərər	z æ r æ r
 əvvəl	æ vː æ l
 əymək	æ j m æ k
 əzizə	æ z i z æ
-şüar	ʃ u ɑ r
-şüar	ʃ y ɑ r
-şüur	ʃ y uː r
-şüşə	ʃ y ʃ æ
-әр	æ ɾ
-ار	æ ɾ
-şəhər	ʃ æ h æ ɾ
-şəkil	ʃ æ k i l
-şəkər	ʃ æ ç æ ɾ
-şənbə	ʃ æ m b æ
-şəxsiyyət	ʃ æ χ s i j æ t
 əşya	æ ʃ j ɑ
-آدا	a d á
-јүз	j y z
-ظفر	z æ f æ ɾ
-филм	f i l m
-فیلم	f i l m
-گونش	ɡʲ y n æ ʃ
-ҝәми	ɡʲ æ m i
-بێچاق	b ɯ t ʃ ɑː ɡ
-کؤلگه	c œ l ɟ æ
-دالغا	d ɑ ɫ ɣ ɑ
-једди	j e d d i
-مدرسە	m æ d r æ s æ
-түлкү	t y l c y
-تۆلکۆ	t y l c y
-улдуз	u ɫ d ú z
-زلزله	z æ l z æ l æ
-шәһәр	ʃ æ h æ ɾ
-آرخیو	ɑ ɾ x i v
-ҝүнәш	ɡʲ y n æ ʃ
-کلبتین	c æ l b æ t ɪ n
-میسمار	m i s m ɑ ɾ
-шаһмат	ʃ ɑ h m ɑ t
-هؤرومچک	h œ r y m t͡ʃ æ c
-کرتنکله	k æ r t æ n k æ l æ
-سامیسئن	s ɑ m ɪ s e n
-توراتان	t o r ʌ t ʌ n
 тысбаға	t ɯ s b ɑ ɣ ɑ
 тысбаға	t ɯ s b ɑː ɑ
+түлкү	t y l c y
+улдуз	u ɫ d ú z
+филм	f i l m
 чијәләк	t͡ʃ i j æ l æ c
-دوندورما	d ɔ n d u ɾ m ɑ
-һөрүмчәк	h œ r y m t͡ʃ æ c
+шаһмат	ʃ ɑ h m ɑ t
+шәһәр	ʃ æ h æ ɾ
+једди	j e d d i
+јүз	j y z
+ҝүнәш	ɡʲ y n æ ʃ
+ҝәми	ɡʲ æ m i
 ҝөјдәлән	ɡʲ œ j d æ l æ n
+һөрүмчәк	h œ r y m t͡ʃ æ c
+әр	æ ɾ
+آدا	a d á
+آرخیو	ɑ ɾ x i v
+ار	æ ɾ
+بێچاق	b ɯ t ʃ ɑː ɡ
+توراتان	t o r ʌ t ʌ n
+تۆلکۆ	t y l c y
+دالغا	d ɑ ɫ ɣ ɑ
+دوندورما	d ɔ n d u ɾ m ɑ
+زلزله	z æ l z æ l æ
+سامیسئن	s ɑ m ɪ s e n
+ظفر	z æ f æ ɾ
+فیلم	f i l m
+مدرسە	m æ d r æ s æ
+میسمار	m i s m ɑ ɾ
+هؤرومچک	h œ r y m t͡ʃ æ c
+کؤلگه	c œ l ɟ æ
+کرتنکله	k æ r t æ n k æ l æ
+کلبتین	c æ l b æ t ɪ n
+گونش	ɡʲ y n æ ʃ

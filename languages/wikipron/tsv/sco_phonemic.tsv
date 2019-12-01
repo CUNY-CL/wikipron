@@ -1,7 +1,7 @@
 a	aː
-a	ə
 a	ɑː
 a	ɔː
+a	ə
 a	ɛː
 a'll	aː l
 a'll	ə l
@@ -31,10 +31,10 @@ abstersion	ə b s t ɛ r ʃ ə n
 abstract	ə b s t r a k t
 abuilyiement	ə b u l ɪ m ə n t
 abuilyiement	ə b ø l j ɪ m ə n t
-abuilyiement	ə b ʌ l j ə m ə n t
 abuilyiement	ə b ɔ l ɪ m ə n t
-abuilyiement	ə b ʌ l ɪ m ə n t
 abuilyiement	ə b ɔ ɪ l ɪ m ɪ n t
+abuilyiement	ə b ʌ l j ə m ə n t
+abuilyiement	ə b ʌ l ɪ m ə n t
 abuin	ə b e n
 abuin	ə b i n
 abuin	ə b y n
@@ -133,8 +133,8 @@ agricultur	a ɡ r ɪ k ʌ l t ə r
 ague	e ɡ j u
 ague	ə ɡ j u
 ahauchill	ə h ɑ x ə l
-ahint	ə h ɪ n d
 ahint	ə h ɛ n t
+ahint	ə h ɪ n d
 ahint	ə h ɪ n t
 aiberdeen	a b ə r d i n
 aiberdeen	e b ə r d i n
@@ -166,14 +166,14 @@ aik	e k
 aiker	ɛ k ə r
 aipple	e p l
 airchibauld	- b aː l d
-airchibauld	- b ʌ u l d
 airchibauld	- b ɔː l d
+airchibauld	- b ʌ u l d
 airchibauld	eː r t ʃ ɪ b ɑː l d
 airchibauld	ɛ r t ʃ ɪ -
 airt	e ɪ r t
 airt	ɛ r t
-aller	ɛ l ə r
 aller	ɑː l ʌ ɹ
+aller	ɛ l ə r
 ander	a n d ə r
 andra	ɑ n d r ə
 andra	ɔ n d r ə
@@ -228,8 +228,8 @@ birkenshaw	b ɛ r k ə n ʃ aː
 birkenshaw	b ɛ r k ə n ʃ ɑː
 birkenshaw	b ɪ r k ə n ʃ ɒː
 birkenshaw	b ʌ r k ə n ʃ ɔː
-birkie	b ʌ r k ɪ
 birkie	b ɪ̈ r k ɪ
+birkie	b ʌ r k ɪ
 birstle	b ɪ r s ə l
 birstle	b ʌ r s ə l
 blackmail	b l ɑ kʰ ɱ ɛ l
@@ -348,8 +348,8 @@ cole	k o l
 cole	k uː l
 cole	k w ə i l
 cole	k ɔ i l
-cole	k ə i l
 cole	k ɔ l
+cole	k ə i l
 collogue	k o l o ɡ
 coo	k uː
 copshie	k ɔ p ʃ i
@@ -393,8 +393,8 @@ doo	d uː
 doo	d ʌ u
 dooker	d uː k ə r
 doup	d ʌ u p
-dover	d ə ʊː v ʌ r
 dover	d ɔː v ə r
+dover	d ə ʊː v ʌ r
 dowie	d ʌ u i
 draucht	d r a f t
 draucht	d r ɑ x t
@@ -431,9 +431,9 @@ elm	ɛ l ʌ m
 eneuch	ɪ n j u x
 eneuch	ɪ n j ʌ x
 enfauld	ɛ n f aː l d
-enfauld	ɛ n f ʌ u l d
 enfauld	ɛ n f ɑː l d
 enfauld	ɛ n f ɔː l d
+enfauld	ɛ n f ʌ u l d
 ettle	ɛ t l
 evite	ə v i t
 evite	ɛ v i ʔ
@@ -540,8 +540,8 @@ he	h i
 he	h ɪ
 hech	h i
 hech	h ɛ
-hech	h ɪ
 hech	h ɛ x
+hech	h ɪ
 heh'i	h ɛ ʔ ɪ
 heich	h i x
 heid	h i d

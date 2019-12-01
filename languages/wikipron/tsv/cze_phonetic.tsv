@@ -294,6 +294,7 @@ alveolární	a l v ɛ o l aː r ɲ iː
 alánek	a l aː n ɛ k
 alébrž	a l ɛː b r̩ ʃ
 alča	a l t͡ʃ a
+alšův	a l ʃ uː f
 alžběta	a l ʒ b j ɛ t a
 alžbětka	a l ʒ b j ɛ t k a
 alžír	a l ʒ iː r
@@ -301,7 +302,6 @@ alžírsko	a l ʒ iː r s k o
 alžírský	a l ʒ iː r s k iː
 alžířan	a l ʒ iː r̝ a n
 alžířanka	a l ʒ iː r̝ a ŋ k a
-alšův	a l ʃ uː f
 amada	a m a d a
 amadina	a m a d ɪ n a
 amarant	a m a r a n t
@@ -413,9 +413,9 @@ angolský	a ŋ ɡ o l s k iː
 angrešt	a ŋ ɡ r ɛ ʃ t
 angulární	a ŋ ɡ u l aː r ɲ iː
 anilin	a ɲ ɪ l ɪ n
-aniž	a ɲ ɪ ʃ
 anička	a ɲ ɪ t͡ʃ k a
 aniččin	a ɲ ɪ t͡ʃ t͡ʃ ɪ n
+aniž	a ɲ ɪ ʃ
 ankara	a ŋ k a r a
 anketa	a ŋ k ɛ t a
 anketka	a ŋ k ɛ t k a
@@ -675,11 +675,11 @@ azory	a z o r ɪ
 aztécký	a s t ɛː t͡s k iː
 azték	a s t ɛː k
 aztéčtina	a s t ɛː t͡ʃ c ɪ n a
-ať	a c
-ažaž	a ʒ a ʃ
-ašchabad	a ʃ x a b a t
 ačkoli	a t͡ʃ k o l ɪ
 ačkoliv	a t͡ʃ k o l ɪ f
+ašchabad	a ʃ x a b a t
+ať	a c
+ažaž	a ʒ a ʃ
 babice	b a b ɪ t͡s ɛ
 babizna	b a b ɪ z n a
 babiččin	b a b ɪ t͡ʃ t͡ʃ ɪ n
@@ -751,8 +751,8 @@ barončin	b a r o n t͡ʃ ɪ n
 baronův	b a r o n uː f
 barový	b a r o v iː
 bartoloměj	b a r t o l o m ɲ ɛ j
-bartoš	b a r t o ʃ
 bartoňová	b a r t o ɲ o v aː
+bartoš	b a r t o ʃ
 bartůněk	b a r t uː ɲ ɛ k
 barunka	b a r u ŋ k a
 baruška	b a r u ʃ k a
@@ -779,16 +779,16 @@ bavlna	b a v l̩ n a
 bavlněný	b a v l̩ ɲ ɛ n iː
 bazický	b a z ɪ t͡s k iː
 baziliščí	b a z ɪ l ɪ ʃ t͡ʃ iː
-bažantí	b a ʒ a n c iː
-bažina	b a ʒ ɪ n a
-bažit	b a ʒ ɪ t
-baškir	b a ʃ k ɪ r
-baškirština	b a ʃ k ɪ r ʃ c ɪ n a
 bačkora	b a t͡ʃ k o r a
 bačkůrka	b a t͡ʃ k uː r k a
+baškir	b a ʃ k ɪ r
+baškirština	b a ʃ k ɪ r ʃ c ɪ n a
 baštit	b a ʃ c ɪ t
 baťův	b a c uː f
 baťůžek	b a c uː ʒ ɛ k
+bažantí	b a ʒ a n c iː
+bažina	b a ʒ ɪ n a
+bažit	b a ʒ ɪ t
 bdělost	b ɟ ɛ l o s t
 bdělý	b ɟ ɛ l iː
 bederní	b ɛ d ɛ r ɲ iː
@@ -982,12 +982,12 @@ bitý	b ɪ t iː
 bivalentní	b ɪ v a l ɛ n t ɲ iː
 bizoní	b ɪ z o ɲ iː
 bič	b ɪ t͡ʃ
+bičovat	b ɪ t͡ʃ o v a t
+bičík	b ɪ t͡ʃ iː k
 biřic	b ɪ r̝ ɪ t͡s
 biřmovat	b ɪ r̝ m o v a t
 biřmování	b ɪ r̝ m o v aː ɲ iː
 bišonek	b ɪ ʃ o n ɛ k
-bičovat	b ɪ t͡ʃ o v a t
-bičík	b ɪ t͡ʃ iː k
 blafovat	b l a f o v a t
 blagověščensk	b l a ɡ o v j ɛ ʃ t͡ʃ ɛ n s k
 blaha	b l a ɦ a
@@ -1073,9 +1073,9 @@ bobe	b o b ɛ
 bobech	b o b ɛ x
 bobr	b o b r̩
 boby	b o b ɪ
-bobům	b o b uː m
 bobří	b o b r̝ iː
 bobřík	b o b r̝ iː k
+bobům	b o b uː m
 boccacciovský	b o k a t͡ʃ o f s k iː
 bochník	b o x ɲ iː k
 bochníček	b o x ɲ iː t͡ʃ ɛ k
@@ -1198,13 +1198,13 @@ bort	b o r t
 boru	b o r u
 boru	b oː r u
 borát	b o r aː t
+boršč	b o r ʃ t͡ʃ
 borů	b o r uː
 borů	b oː r uː
 borům	b o r uː m
 borům	b oː r uː m
 borůvkový	b o r uː f k o v iː
 borůvčí	b o r uː f t͡ʃ iː
-boršč	b o r ʃ t͡ʃ
 bos	b o s
 bosky	b o s k ɪ
 bosý	b o s iː
@@ -1220,28 +1220,28 @@ boubelatý	b o u̯ b ɛ l a t iː
 bouda	b o u̯ d a
 boule	b o u̯ l ɛ
 bourat	b o u̯ r a t
-bouře	b o u̯ r̝ ɛ
 bouček	b o u̯ t͡ʃ ɛ k
+bouře	b o u̯ r̝ ɛ
 bouřit	b o u̯ r̝ ɪ t
 bouřkový	b o u̯ r̝̊ k o v iː
 boxovat	b o k s o v a t
 bozděch	b o z ɟ ɛ x
 bozi	b o z ɪ
 bozích	b o z iː x
-boža	b o ʒ a
 bořek	b o r̝ ɛ k
+bořit	b o r̝ ɪ t
+bořivoj	b o r̝ ɪ v o j
+bořík	b o r̝ iː k
+boža	b o ʒ a
 božena	b o ʒ ɛ n a
 boženin	b o ʒ ɛ ɲ ɪ n
 boženka	b o ʒ ɛ ŋ k a
 boženčin	b o ʒ ɛ n t͡ʃ ɪ n
-bořit	b o r̝ ɪ t
-bořivoj	b o r̝ ɪ v o j
 božka	b o ʃ k a
 božský	b o ʃ s k iː
 božstvo	b o ʃ s t v o
 božství	b o ʃ s t v iː
 boží	b o ʒ iː
-bořík	b o r̝ iː k
 božčin	b o ʃ t͡ʃ ɪ n
 brabec	b r a b ɛ t͡s
 brach	b r a x
@@ -1337,8 +1337,8 @@ broukat	b r o u̯ k a t
 brousek	b r o u̯ s ɛ k
 brousit	b r o u̯ s ɪ t
 broučí	b r o u̯ t͡ʃ iː
-brož	b r o ʃ
 broňa	b r o ɲ a
+brož	b r o ʃ
 brožek	b r o ʒ ɛ k
 brucelóza	b r u t͡s ɛ l oː z a
 brum	b r u m
@@ -1377,12 +1377,12 @@ brémy	b r ɛː m ɪ
 bróm	b r oː m
 brýlový	b r iː l o v iː
 brýtro	b r iː t r o
+brčko	b r̩ t͡ʃ k o
+brčál	b r̩ t͡ʃ aː l
 brňan	b r̩ ɲ a n
 brňanka	b r̩ ɲ a ŋ k a
 brňačka	b r̩ ɲ a t͡ʃ k a
-brčko	b r̩ t͡ʃ k o
 brňák	b r̩ ɲ aː k
-brčál	b r̩ t͡ʃ aː l
 buben	b u b ɛ n
 bubeník	b u b ɛ ɲ iː k
 bublat	b u b l a t
@@ -1443,12 +1443,12 @@ buvolí	b u v o l iː
 buzerant	b u z ɛ r a n t
 buzna	b u z n a
 buzík	b u z iː k
+buďme	b u ɟ m ɛ
+buďte	b u c t ɛ
+buňka	b u ɲ k a
 buřinka	b u r̝ ɪ ŋ k a
 buřičský	b u r̝ ɪ t͡ʃ s k iː
-buňka	b u ɲ k a
-buďme	b u ɟ m ɛ
 buřt	b u r̝̊ t
-buďte	b u c t ɛ
 buřňák	b u r̝ ɲ aː k
 buřňáček	b u r̝ ɲ aː t ʃ ɛ k
 bydhošť	b ɪ d ɦ o ʃ c
@@ -1503,8 +1503,8 @@ bázlivec	b aː z l ɪ v ɛ t͡s
 bářin	b aː r̝ ɪ n
 bé	b ɛː
 béda	b ɛː d a
-béďa	b ɛː ɟ a
 béčko	b ɛː t͡ʃ k o
+béďa	b ɛː ɟ a
 béžový	b ɛː ʒ o v iː
 bílek	b iː l ɛ k
 bílkovina	b iː l k o v ɪ n a
@@ -1524,37 +1524,14 @@ býložravý	b iː l o ʒ r a v iː
 býlí	b iː l iː
 býček	b iː t͡ʃ ɛ k
 býčí	b iː t͡ʃ iː
-břeh	b r̝ ɛ x
-břehouš	b r̝ ɛ ɦ o u̯ ʃ
-břehule	b r̝ ɛ ɦ u l ɛ
-břemeno	b r̝ ɛ m ɛ n o
-břetislav	b r̝ ɛ c ɪ s l a f
-břetík	b r̝ ɛ c iː k
-břevno	b r̝ ɛ v n o
-března	b r̝ ɛ z n a
-březnový	b r̝ ɛ z n o v iː
-březový	b r̝ ɛ z o v iː
-březí	b r̝ ɛ z iː
-břeťa	b r̝ ɛ c a
-břečťan	b r̝ ɛ t͡ʃ c a n
-bůh	b uː x
 běhat	b j ɛ ɦ a t
 běhna	b j ɛ ɦ n a
 běhoun	b j ɛ ɦ o u̯ n
 běhu	b j ɛ ɦ u
 běhulík	b j ɛ ɦ u l iː k
-bůhví	b uː ɦ v iː
 běhy	b j ɛ ɦ ɪ
 běhů	b j ɛ ɦ uː
 běhům	b j ɛ ɦ uː m
-břichatec	b r̝ ɪ x a t ɛ t͡s
-břicho	b r̝ ɪ x o
-břichomluva	b r̝ ɪ x o m l u v a
-břichomluvec	b r̝ ɪ x o m l u v ɛ t͡s
-břichomluvectví	b r̝ ɪ x o m l u v ɛ t͡s t v iː
-břicháč	b r̝ ɪ x aː t͡ʃ
-břitva	b r̝ ɪ t v a
-břišní	b r̝ ɪ ʃ ɲ iː
 bělehrad	b j ɛ l ɛ ɦ r a t
 bělehraďan	b j ɛ l ɛ ɦ r a ɟ a n
 bělin	b j ɛ l ɪ n
@@ -1572,7 +1549,6 @@ bělořit	b j ɛ l o r̝ ɪ t
 běloška	b j ɛ l o ʃ k a
 bělošský	b j ɛ l o ʃ s k iː
 bělásčí	b j ɛ l aː s t͡ʃ iː
-bůr	b uː r
 běs	b j ɛ s
 běsa	b j ɛ s a
 běsi	b j ɛ s ɪ
@@ -1583,8 +1559,38 @@ běta	b j ɛ t a
 bětka	b j ɛ t k a
 bětunka	b j ɛ t u ŋ k a
 bětuška	b j ɛ t u ʃ k a
-bžunda	b ʒ u n d a
 bězích	b j ɛ z iː x
+běž	b j ɛ ʃ
+běžec	b j ɛ ʒ ɛ t͡s
+běženec	b j ɛ ʒ ɛ n ɛ t͡s
+běžkař	b j ɛ ʃ k a r̝̊
+běžkovat	b j ɛ ʃ k o v a t
+běžkování	b j ɛ ʃ k o v aː ɲ iː
+běžky	b j ɛ ʃ k ɪ
+běžkyně	b j ɛ ʃ k ɪ ɲ ɛ
+běžný	b j ɛ ʒ n iː
+běžně	b j ɛ ʒ ɲ ɛ
+břeh	b r̝ ɛ x
+břehouš	b r̝ ɛ ɦ o u̯ ʃ
+břehule	b r̝ ɛ ɦ u l ɛ
+břemeno	b r̝ ɛ m ɛ n o
+břetislav	b r̝ ɛ c ɪ s l a f
+břetík	b r̝ ɛ c iː k
+břevno	b r̝ ɛ v n o
+března	b r̝ ɛ z n a
+březnový	b r̝ ɛ z n o v iː
+březový	b r̝ ɛ z o v iː
+březí	b r̝ ɛ z iː
+břečťan	b r̝ ɛ t͡ʃ c a n
+břeťa	b r̝ ɛ c a
+břichatec	b r̝ ɪ x a t ɛ t͡s
+břicho	b r̝ ɪ x o
+břichomluva	b r̝ ɪ x o m l u v a
+břichomluvec	b r̝ ɪ x o m l u v ɛ t͡s
+břichomluvectví	b r̝ ɪ x o m l u v ɛ t͡s t v iː
+břicháč	b r̝ ɪ x aː t͡ʃ
+břitva	b r̝ ɪ t v a
+břišní	b r̝ ɪ ʃ ɲ iː
 břídil	b r̝ iː ɟ ɪ l
 bříz	b r̝ iː s
 bříza	b r̝ iː z a
@@ -1598,16 +1604,10 @@ břízy	b r̝ iː z ɪ
 břízách	b r̝ iː z aː x
 břízám	b r̝ iː z aː m
 bříško	b r̝ iː ʃ k o
-běž	b j ɛ ʃ
-běžec	b j ɛ ʒ ɛ t͡s
-běženec	b j ɛ ʒ ɛ n ɛ t͡s
-běžkař	b j ɛ ʃ k a r̝̊
-běžkovat	b j ɛ ʃ k o v a t
-běžkování	b j ɛ ʃ k o v aː ɲ iː
-běžky	b j ɛ ʃ k ɪ
-běžkyně	b j ɛ ʃ k ɪ ɲ ɛ
-běžný	b j ɛ ʒ n iː
-běžně	b j ɛ ʒ ɲ ɛ
+bůh	b uː x
+bůhví	b uː ɦ v iː
+bůr	b uː r
+bžunda	b ʒ u n d a
 cajk	t͡s a j k
 candát	t͡s a n d aː t
 candátí	t͡s a n d aː c iː
@@ -1645,8 +1645,8 @@ celoroční	t͡s ɛ l o r o t͡ʃ ɲ iː
 celostátní	t͡s ɛ l o s t aː t ɲ iː
 celosvětový	t͡s ɛ l o s v j ɛ t o v iː
 celou	t͡s ɛ l o u̯
-celoživotní	t͡s ɛ l o ʒ ɪ v o t ɲ iː
 celočíselný	t͡s ɛ l o t͡ʃ iː s ɛ l n iː
+celoživotní	t͡s ɛ l o ʒ ɪ v o t ɲ iː
 celá	t͡s ɛ l aː
 celé	t͡s ɛ l ɛː
 celého	t͡s ɛ l ɛː ɦ o
@@ -1917,8 +1917,8 @@ chumelit	x u m ɛ l ɪ t
 churavý	x u r a v iː
 churavět	x u r a v j ɛ t
 chutný	x u t n iː
-chuť	x u c
 chuďas	x u ɟ a s
+chuť	x u c
 chuťovka	x u c o f k a
 chvalitebný	x v a l ɪ t ɛ b n iː
 chvalozpěv	x v a l o s p j ɛ f
@@ -1964,17 +1964,17 @@ chátrat	x aː t r a t
 chór	x oː r
 chóre	x oː r ɛ
 chýška	x iː ʃ k a
-chůdy	x uː d ɪ
 chřest	x r̝̊ ɛ s t
 chřestýš	x r̝̊ ɛ s t iː ʃ
 chřipajzna	x r̝̊ ɪ p a j z n a
 chřipka	x r̝̊ ɪ p k a
-chůva	x uː v a
-chůvička	x uː v ɪ t͡ʃ k a
-chůze	x uː z ɛ
 chřástal	x r̝̊ aː s t a l
 chřástalí	x r̝̊ aː s t a l iː
 chřípí	x r̝̊ iː p iː
+chůdy	x uː d ɪ
+chůva	x uː v a
+chůvička	x uː v ɪ t͡ʃ k a
+chůze	x uː z ɛ
 cibulačka	t͡s ɪ b u l a t͡ʃ k a
 cibulka	t͡s ɪ b u l k a
 cicmat	t͡s ɪ t͡s m a t
@@ -2173,15 +2173,15 @@ datlíček	d a t l iː t ʃ ɛ k
 datovat	d a t o v a t
 datový	d a t o v iː
 dauphin	d o f ɛː n
-dauphine	d o f ɪ n
 dauphine	d o f ɛː n ɛ
+dauphine	d o f ɪ n
 dav	d a f
 david	d a v ɪ t
 davisův	d a v ɪ s uː f
 davídek	d a v iː d ɛ k
-dařit	d a r̝ ɪ t
 daňový	d a ɲ o v iː
 daňčí	d a ɲ t͡ʃ iː
+dařit	d a r̝ ɪ t
 dbání	d b aː ɲ iː
 dbát	d b aː t
 dcera	t͡s ɛ r a
@@ -2203,8 +2203,8 @@ debilní	d ɛ b ɪ l ɲ iː
 debitor	d ɛ b ɪ t o r
 debře	d ɛ b r̝ ɛ
 debři	d ɛ b r̝ ɪ
-debžot	d ɛ b ʒ o t
 debří	d ɛ b r̝ iː
+debžot	d ɛ b ʒ o t
 decelerace	d ɛ t͡s ɛ l ɛ r a t͡s ɛ
 decelerovat	d ɛ t͡s ɛ l ɛ r o v a t
 decentralizace	d ɛ t͡s ɛ n t r a l ɪ z a t͡s ɛ
@@ -2642,8 +2642,8 @@ domýt	d o m iː t
 domývat	d o m iː v a t
 domýšlivost	d o m iː ʃ l ɪ v o s t
 domýšlivý	d o m iː ʃ l ɪ v iː
-domě	d o m ɲ ɛ
 domča	d o m t͡ʃ a
+domě	d o m ɲ ɛ
 domům	d o m uː m
 donašeč	d o n a ʃ ɛ t͡ʃ
 donucení	d o n u t͡s ɛ ɲ iː
@@ -2733,9 +2733,9 @@ dozkoušet	d o s k o u̯ ʃ ɛ t
 dozrát	d o z r aː t
 dočasný	d o t͡ʃ a s n iː
 dočasně	d o t͡ʃ a s ɲ ɛ
-došek	d o ʃ ɛ k
 dočkal	d o t͡ʃ k a l
 dočkat	d o t͡ʃ k a t
+došek	d o ʃ ɛ k
 draha	d r a ɦ a
 drahocenný	d r a ɦ o t͡s ɛ n iː
 drahokam	d r a ɦ o k a m
@@ -2758,8 +2758,8 @@ dravčí	d r a f t͡ʃ iː
 draze	d r a z ɛ
 drazí	d r a z iː
 drač	d r a t͡ʃ
-dražit	d r a ʒ ɪ t
 dračí	d r a t͡ʃ iː
+dražit	d r a ʒ ɪ t
 draží	d r a ʒ iː
 dražší	d r a ʃ iː
 drb	d r̩ p
@@ -2821,13 +2821,13 @@ dráže	d r aː ʒ ɛ
 drážka	d r aː ʃ k a
 drážďanský	d r aː ʒ ɟ a n s k iː
 drážďany	d r aː ʒ ɟ a n ɪ
+dršťka	d r̩ ʃ c k a
 drť	d r̩ c
 drž	d r̩ ʃ
 držadlo	d r̩ ʒ a d l o
 držený	d r̩ ʒ ɛ n iː
 držgrešle	d r̩ ʒ ɡ r ɛ ʃ l ɛ
 držka	d r̩ ʃ k a
-dršťka	d r̩ ʃ c k a
 dualistický	d u a l ɪ s t ɪ t͡s k iː
 dub	d u p
 dube	d u b ɛ
@@ -2859,10 +2859,10 @@ dušení	d u ʃ ɛ ɲ iː
 dušený	d u ʃ ɛ n iː
 duševní	d u ʃ ɛ v ɲ iː
 duševně	d u ʃ ɛ v ɲ ɛ
-dužina	d u ʒ ɪ n a
 dušinka	d u ʃ ɪ ŋ k a
 dušička	d u ʃ ɪ t͡ʃ k a
 dušičky	d u ʃ ɪ t͡ʃ k ɪ
+dužina	d u ʒ ɪ n a
 dvacetistěn	d v a t͡s ɛ c ɪ s c ɛ n
 dvacetkrát	d v a t͡s ɛ t k r aː t
 dvanácterník	d v a n aː t͡s t ɛ r ɲ iː k
@@ -2981,19 +2981,14 @@ dívenka	ɟ iː v ɛ ŋ k a
 dívka	ɟ iː f k a
 dívčin	ɟ iː f t͡ʃ ɪ n
 dívčí	ɟ iː f t͡ʃ iː
-díš	ɟ iː ʃ
 díře	ɟ iː r̝ ɛ
+díš	ɟ iː ʃ
 dózička	d oː z ɪ t͡ʃ k a
 dýchací	d iː x a t͡s iː
 dýchání	d iː x aː ɲ iː
 dýmat	d iː m a t
 dýmka	d iː m k a
 dýmčička	d iː m t͡ʃ ɪ t͡ʃ k a
-džber	d ʒ b ɛ r
-džbán	d ʒ b aː n
-důchod	d uː x o t
-důchodce	d uː x o t͡s ɛ
-důchodkyně	d uː x o t k ɪ ɲ ɛ
 děcko	ɟ ɛ t͡s k o
 děcák	ɟ ɛ t͡s aː k
 děd	ɟ ɛ t
@@ -3009,20 +3004,7 @@ dědička	ɟ ɛ ɟ ɪ t͡ʃ k a
 dědičnost	ɟ ɛ ɟ ɪ t͡ʃ n o s t
 dědičný	ɟ ɛ ɟ ɪ t͡ʃ n iː
 dědův	ɟ ɛ d uː f
-dřemlík	d r̝ ɛ m l iː k
-dřep	d r̝ ɛ p
-dřepnout	d r̝ ɛ p n o u̯ t
-dřevorubec	d r̝ ɛ v o r u b ɛ t͡s
-dřevoryt	d r̝ ɛ v o r ɪ t
-dřevotříska	d r̝ ɛ v o t r̝̊ iː s k a
-dřevěný	d r̝ ɛ v j ɛ n iː
-dřez	d r̝ ɛ s
 děhel	ɟ ɛ ɦ ɛ l
-džibutsko	d ʒ ɪ b u t s k o
-džibutský	d ʒ ɪ b u t s k iː
-džibuťan	d ʒ ɪ b u c a n
-džin	d ʒ ɪ n
-džingl	d ʒ ɪ ŋ ɡ l̩
 děje	ɟ ɛ j ɛ
 dějepisectví	ɟ ɛ j ɛ p ɪ s ɛ t͡s t v iː
 ději	ɟ ɛ j ɪ
@@ -3030,12 +3012,8 @@ dějinný	ɟ ɛ j ɪ n iː
 dějiny	ɟ ɛ j ɪ n ɪ
 dějství	ɟ ɛ j s t v iː
 dějí	ɟ ɛ j iː
-důkladnost	d uː k l a d n o s t
-důkladný	d uː k l a d n iː
-důkladně	d uː k l a d ɲ ɛ
 děkuji	ɟ ɛ k u j ɪ
 děkuju	ɟ ɛ k u j u
-důl	d uː l
 děl	ɟ ɛ l
 děla	ɟ ɛ l a
 dělají	ɟ ɛ l a j iː
@@ -3046,11 +3024,9 @@ dělech	ɟ ɛ l ɛ x
 dělej	ɟ ɛ l ɛ j
 dělejme	ɟ ɛ l ɛ j m ɛ
 dělejte	ɟ ɛ l ɛ j t ɛ
-důlek	d uː l ɛ k
 dělem	ɟ ɛ l ɛ m
 dělenec	ɟ ɛ l ɛ n ɛ t͡s
 dělení	ɟ ɛ l ɛ ɲ iː
-důležitost	d uː l ɛ ʒ ɪ t o s t
 děli	ɟ ɛ l ɪ
 dělit	ɟ ɛ l ɪ t
 dělitel	ɟ ɛ l ɪ t ɛ l
@@ -3071,8 +3047,6 @@ děr	ɟ ɛ r
 děrovačka	ɟ ɛ r o v a t͡ʃ k a
 děsem	ɟ ɛ s ɛ m
 děsit	ɟ ɛ s ɪ t
-důsledek	d uː s l ɛ d ɛ k
-důsledný	d uː s l ɛ d n iː
 děsný	ɟ ɛ s n iː
 děste	ɟ ɛ s t ɛ
 děsu	ɟ ɛ s u
@@ -3087,13 +3061,39 @@ dětmi	ɟ ɛ t m ɪ
 dětský	ɟ ɛ t s k iː
 dětství	ɟ ɛ t s t v iː
 dětí	ɟ ɛ c iː
-dštít	t ʃ c iː t
-džudo	d ʒ u d o
-džungle	d ʒ u ŋ ɡ l ɛ
-džus	d ʒ u s
 děva	ɟ ɛ v a
 děvka	ɟ ɛ f k a
 děvkař	ɟ ɛ f k a r̝̊
+děčín	ɟ ɛ t͡ʃ iː n
+děčínský	ɟ ɛ t͡ʃ iː n s k iː
+děšen	ɟ ɛ ʃ ɛ n
+děšena	ɟ ɛ ʃ ɛ n a
+děšeni	ɟ ɛ ʃ ɛ ɲ ɪ
+děťátko	ɟ ɛ c aː t k o
+dřemlík	d r̝ ɛ m l iː k
+dřep	d r̝ ɛ p
+dřepnout	d r̝ ɛ p n o u̯ t
+dřevorubec	d r̝ ɛ v o r u b ɛ t͡s
+dřevoryt	d r̝ ɛ v o r ɪ t
+dřevotříska	d r̝ ɛ v o t r̝̊ iː s k a
+dřevěný	d r̝ ɛ v j ɛ n iː
+dřez	d r̝ ɛ s
+dřít	d r̝ iː t
+dřív	d r̝ iː f
+dříve	d r̝ iː v ɛ
+dřívější	d r̝ iː v j ɛ j ʃ iː
+dštít	t ʃ c iː t
+důchod	d uː x o t
+důchodce	d uː x o t͡s ɛ
+důchodkyně	d uː x o t k ɪ ɲ ɛ
+důkladnost	d uː k l a d n o s t
+důkladný	d uː k l a d n iː
+důkladně	d uː k l a d ɲ ɛ
+důl	d uː l
+důlek	d uː l ɛ k
+důležitost	d uː l ɛ ʒ ɪ t o s t
+důsledek	d uː s l ɛ d ɛ k
+důsledný	d uː s l ɛ d n iː
 důvod	d uː v o t
 důvtip	d uː f c ɪ p
 důvěra	d uː v j ɛ r a
@@ -3105,17 +3105,17 @@ důvěřivost	d uː v j ɛ r̝ ɪ v o s t
 důvěřivý	d uː v j ɛ r̝ ɪ v iː
 důvěřivější	d uː v j ɛ r̝ ɪ v j ɛ j ʃ iː
 důvěřovat	d uː v j ɛ r̝ o v a t
+džber	d ʒ b ɛ r
+džbán	d ʒ b aː n
+džibutsko	d ʒ ɪ b u t s k o
+džibutský	d ʒ ɪ b u t s k iː
+džibuťan	d ʒ ɪ b u c a n
+džin	d ʒ ɪ n
+džingl	d ʒ ɪ ŋ ɡ l̩
+džudo	d ʒ u d o
+džungle	d ʒ u ŋ ɡ l ɛ
+džus	d ʒ u s
 džíp	d ʒ iː p
-dřít	d r̝ iː t
-dřív	d r̝ iː f
-dříve	d r̝ iː v ɛ
-dřívější	d r̝ iː v j ɛ j ʃ iː
-děšen	ɟ ɛ ʃ ɛ n
-děšena	ɟ ɛ ʃ ɛ n a
-děšeni	ɟ ɛ ʃ ɛ ɲ ɪ
-děťátko	ɟ ɛ c aː t k o
-děčín	ɟ ɛ t͡ʃ iː n
-děčínský	ɟ ɛ t͡ʃ iː n s k iː
 edikt	ɛ d ɪ k t
 edita	ɛ ɟ ɪ t a
 editka	ɛ ɟ ɪ t k a
@@ -3405,8 +3405,8 @@ extáze	ɛ k s t aː z ɛ
 exulant	ɛ ɡ z u l a n t
 exulantka	ɛ k s u l a n t k a
 exředitel	ɛ k s r̝̊ ɛ ɟ ɪ t ɛ l
-eř	ɛ r̝̊
 eň	ɛ ɲ
+eř	ɛ r̝̊
 eš	ɛ ʃ
 fabrička	f a b r ɪ t͡ʃ k a
 fachčit	f a x t͡ʃ ɪ t
@@ -3625,11 +3625,11 @@ funkce	f u ŋ k t͡s ɛ
 funkcionalista	f u ŋ k t͡s ɪ o n a l ɪ s t a
 funkcionář	f u ŋ k t͡s ɪ o n aː r̝̊
 funkční	f u ŋ k t͡ʃ ɲ iː
-fušer	f u ʃ ɛ r
 fučet	f u t͡ʃ ɛ t
+fučák	f u t͡ʃ aː k
+fušer	f u ʃ ɛ r
 fušeřina	f u ʃ ɛ r̝ ɪ n a
 fušovat	f u ʃ o v a t
-fučák	f u t͡ʃ aː k
 fytologie	f ɪ t o l o ɡ ɪ j ɛ
 fytoterapie	f ɪ t o t ɛ r a p ɪ j ɛ
 fyzicky	f ɪ z ɪ t͡s k ɪ
@@ -3656,10 +3656,10 @@ fór	f oː r
 fóra	f oː r a
 fóre	f oː r ɛ
 fóru	f oː r u
+fčíl	f t͡ʃ iː l
 fňukat	f ɲ u k a t
 fňukavý	f ɲ u k a v iː
 fňukavě	f ɲ u k a v j ɛ
-fčíl	f t͡ʃ iː l
 gabriel	ɡ a b r ɪ ɛ l
 galaktóza	ɡ a l a k t oː z a
 galicijec	ɡ a l ɪ t͡s ɪ j ɛ t͡s
@@ -3828,9 +3828,9 @@ hadry	ɦ a d r ɪ
 hadu	ɦ a d u
 hady	ɦ a d ɪ
 hadí	ɦ a ɟ iː
+hadřík	ɦ a d r̝ iː k
 hadů	ɦ a d uː
 hadům	ɦ a d uː m
-hadřík	ɦ a d r̝ iː k
 haf	ɦ a f
 haiťanka	ɦ a ɪ c a ŋ k a
 hajat	ɦ a j a t
@@ -3922,7 +3922,6 @@ havěť	ɦ a v j ɛ c
 hawking	ɦ oː k ɪ ŋ k
 hawkingův	ɦ oː k ɪ ŋ ɡ uː f
 hayato	ɦ a ɪ a t o
-hať	ɦ a c
 hašek	ɦ a ʃ ɛ k
 hašen	ɦ a ʃ ɛ n
 hašena	ɦ a ʃ ɛ n a
@@ -3932,6 +3931,7 @@ hašteřit	ɦ a ʃ t ɛ r̝ ɪ t
 hašteřivý	ɦ a ʃ t ɛ r̝ ɪ v iː
 hašteřivě	ɦ a ʃ t ɛ r̝ ɪ v j ɛ
 hašteřivěji	ɦ a ʃ t ɛ r̝ ɪ v j ɛ j ɪ
+hať	ɦ a c
 hbitost	ɦ b ɪ t o s t
 hbitý	ɦ b ɪ t iː
 hebrej	ɦ ɛ b r ɛ j
@@ -4093,9 +4093,9 @@ hluchota	ɦ l u x o t a
 hluchý	ɦ l u x iː
 hluk	ɦ l u k
 hlupák	ɦ l u p aː k
-hlušec	ɦ l u ʃ ɛ t͡s
 hlučet	ɦ l u t͡ʃ ɛ t
 hlučný	ɦ l u t͡ʃ n iː
+hlušec	ɦ l u ʃ ɛ t͡s
 hlásit	ɦ l aː s ɪ t
 hláska	ɦ l aː s k a
 hláskovat	ɦ l aː s k o v a t
@@ -4150,11 +4150,11 @@ hnědavý	ɦ ɲ ɛ d a v iː
 hnědovlasý	ɦ ɲ ɛ d o v l a s iː
 hnědozem	ɦ ɲ ɛ d o z ɛ m
 hnědák	ɦ ɲ ɛ d aː k
-hnůj	ɦ n uː j
 hněvat	ɦ ɲ ɛ v a t
 hněvivý	ɦ ɲ ɛ v ɪ v iː
 hněvný	ɦ ɲ ɛ v n iː
 hněď	ɦ ɲ ɛ c
+hnůj	ɦ n uː j
 ho	ɦ o
 hoblovat	ɦ o b l o v a t
 hoblík	ɦ o b l iː k
@@ -4178,8 +4178,8 @@ hodnověrný	ɦ o d n o v j ɛ r n iː
 hodu	ɦ o d u
 hody	ɦ o d ɪ
 hodí	ɦ o ɟ iː
-hodů	ɦ o d uː
 hodě	ɦ o ɟ ɛ
+hodů	ɦ o d uː
 hodům	ɦ o d uː m
 hohol	ɦ o ɦ o l
 hoholka	ɦ o ɦ o l k a
@@ -4340,19 +4340,19 @@ hozeni	ɦ o z ɛ ɲ ɪ
 hozeno	ɦ o z ɛ n o
 hozeny	ɦ o z ɛ n ɪ
 hoň	ɦ o ɲ
+hoňte	ɦ o ɲ t ɛ
 hořava	ɦ o r̝ a v a
-hošek	ɦ o ʃ ɛ k
 hořet	ɦ o r̝ ɛ t
 hořkost	ɦ o r̝̊ k o s t
 hořký	ɦ o r̝̊ k iː
 hořlavost	ɦ o r̝ l a v o s t
 hořlavý	ɦ o r̝ l a v iː
-hoňte	ɦ o ɲ t ɛ
-hošík	ɦ o ʃ iː k
-hošíček	ɦ o ʃ iː t͡ʃ ɛ k
 hořčice	ɦ o r̝̊ t͡ʃ ɪ t͡s ɛ
 hořčičný	ɦ o r̝̊ t͡ʃ ɪ t͡ʃ n iː
 hořčík	ɦ o r̝̊ t͡ʃ iː k
+hošek	ɦ o ʃ ɛ k
+hošík	ɦ o ʃ iː k
+hošíček	ɦ o ʃ iː t͡ʃ ɛ k
 hrabalův	ɦ r a b a l uː f
 hrabat	ɦ r a b a t
 hrabivost	ɦ r a b ɪ v o s t
@@ -4375,8 +4375,8 @@ hradiště	ɦ r a ɟ ɪ ʃ c ɛ
 hradišťský	ɦ r a ɟ ɪ ʃ c s k iː
 hradní	ɦ r a d ɲ iː
 hradu	ɦ r a d u
-hradů	ɦ r a d uː
 hradě	ɦ r a ɟ ɛ
+hradů	ɦ r a d uː
 hradům	ɦ r a d uː m
 hrají	ɦ r a j iː
 hrami	ɦ r a m ɪ
@@ -4513,8 +4513,8 @@ humr	ɦ u m r
 humus	ɦ u m u s
 humánnost	ɦ u m aː n o s t
 humánní	ɦ u m aː ɲ iː
-humův	ɦ u m uː f
 humří	ɦ u m r̝ iː
+humův	ɦ u m uː f
 huriska	ɦ u r ɪ s k a
 hurá	ɦ u r aː
 hus	ɦ u s
@@ -4627,6 +4627,7 @@ hýkat	ɦ iː k a t
 hýkot	ɦ iː k o t
 hýl	ɦ iː l
 hýždě	ɦ iː ʒ ɟ ɛ
+hňup	ɦ ɲ u p
 hřbet	ɦ r̝ b ɛ t
 hřbitov	ɦ r̝ b ɪ t o f
 hřbitůvek	ɦ r̝ b ɪ t uː v ɛ k
@@ -4637,8 +4638,6 @@ hřebice	ɦ r̝ ɛ b ɪ t͡s ɛ
 hřebík	ɦ r̝ ɛ b iː k
 hřešit	ɦ r̝ ɛ ʃ ɪ t
 hřivnáč	ɦ r̝ ɪ v n aː t͡ʃ
-hůrka	ɦ uː r k a
-hňup	ɦ ɲ u p
 hřát	ɦ r̝ aː t
 hříbek	ɦ r̝ iː b ɛ k
 hříbeček	ɦ r̝ iː b ɛ t͡ʃ ɛ k
@@ -4647,6 +4646,7 @@ hříbě	ɦ r̝ iː b j ɛ
 hřídel	ɦ r̝ iː d ɛ l
 hříčka	ɦ r̝ iː t͡ʃ k a
 hříšný	ɦ r̝ iː ʃ n iː
+hůrka	ɦ uː r k a
 ida	ɪ d a
 idealismus	ɪ d ɛ a l ɪ z m u s
 idealista	ɪ d ɛ a l ɪ s t a
@@ -4902,9 +4902,9 @@ izraelec	ɪ z r a ɛ l ɛ t͡s
 izraelka	ɪ z r a ɛ l k a
 izraelský	ɪ z r a ɛ l s k iː
 izák	ɪ z aː k
-iževsk	ɪ ʒ ɛ f s k
 ištar	ɪ ʃ t a r
 ištařin	ɪ ʃ t a r̝ ɪ n
+iževsk	ɪ ʒ ɛ f s k
 jabko	j a p k o
 jablečný	j a b l ɛ t͡ʃ n iː
 jablkový	j a b l̩ k o v iː
@@ -5006,12 +5006,12 @@ jazykozpyt	j a z ɪ k o s p ɪ t
 jazykozpytec	j a z ɪ k o s p ɪ t ɛ t͡s
 jazykozpytný	j a z ɪ k o s p ɪ t n iː
 jazýček	j a z iː t͡ʃ ɛ k
+jačí	j a t͡ʃ iː
 jaře	j a r̝ ɛ
 jařem	j a r̝ ɛ m
 jařma	j a r̝ m a
 jařmo	j a r̝ m o
 jaří	j a r̝ iː
-jačí	j a t͡ʃ iː
 jde	j d ɛ
 jdi	j ɟ ɪ
 jebačka	j ɛ b a t͡ʃ k a
@@ -5159,17 +5159,17 @@ jezu	j ɛ z u
 jezy	j ɛ z ɪ
 jezů	j ɛ z uː
 jezům	j ɛ z uː m
-jež	j ɛ ʃ
-ježek	j ɛ ʒ ɛ k
 ječet	j ɛ t͡ʃ ɛ t
-ježice	j ɛ ʒ ɪ t͡s ɛ
-ježiš	j ɛ ʒ ɪ ʃ
 ječmen	j ɛ t͡ʃ m ɛ n
+jeřábí	j ɛ r̝ aː b iː
 ještěr	j ɛ ʃ c ɛ r
 ještěrka	j ɛ ʃ c ɛ r k a
 ještěrčí	j ɛ ʃ c ɛ r t͡ʃ iː
+jež	j ɛ ʃ
+ježek	j ɛ ʒ ɛ k
+ježice	j ɛ ʒ ɪ t͡s ɛ
+ježiš	j ɛ ʒ ɪ ʃ
 ježura	j ɛ ʒ u r a
-jeřábí	j ɛ r̝ aː b iː
 ježíš	j ɛ ʒ iː ʃ
 ježíšek	j ɛ ʒ iː ʃ ɛ k
 ježíšikriste	j ɛ ʒ iː ʃ ɪ k r ɪ s t ɛ
@@ -5241,20 +5241,20 @@ jitrocel	j ɪ t r o t͡s ɛ l
 jitunka	j ɪ t u ŋ k a
 jituš	j ɪ t u ʃ
 jituška	j ɪ t u ʃ k a
-jitřenka	j ɪ t r̝̊ ɛ ŋ k a
 jitčin	j ɪ t͡ʃ ɪ n
+jitřenka	j ɪ t r̝̊ ɛ ŋ k a
 jizvička	j ɪ z v ɪ t͡ʃ k a
-již	j ɪ ʃ
+jičín	j ɪ t͡ʃ iː n
 jiřina	j ɪ r̝ ɪ n a
 jiřinin	j ɪ r̝ ɪ ɲ ɪ n
 jiřinka	j ɪ r̝ ɪ ŋ k a
 jiřička	j ɪ r̝ ɪ t͡ʃ k a
 jiřka	j ɪ r̝̊ k a
-jižně	j ɪ ʒ ɲ ɛ
 jiří	j ɪ r̝ iː
 jiřík	j ɪ r̝ iː k
-jičín	j ɪ t͡ʃ iː n
 jiříček	j ɪ r̝ iː t͡ʃ ɛ k
+již	j ɪ ʃ
+jižně	j ɪ ʒ ɲ ɛ
 jmelí	j m ɛ l iː
 jmeniny	j m ɛ ɲ ɪ n ɪ
 jmenovatel	j m ɛ n o v a t ɛ l
@@ -5349,10 +5349,10 @@ jívou	j iː v o u̯
 jívu	j iː v u
 jívy	j iː v ɪ
 jívě	j iː v j ɛ
-jíš	j iː ʃ
-jíťa	j iː c a
 jířa	j iː r̝ a
+jíš	j iː ʃ
 jíška	j iː ʃ k a
+jíťa	j iː c a
 jód	j oː t
 jódlovat	j oː d l o v a t
 jódlovačka	j oː d l o v a t͡ʃ k a
@@ -5589,8 +5589,8 @@ katovi	k a t o v ɪ
 katu	k a t u
 katuška	k a t u ʃ k a
 katy	k a t ɪ
-katů	k a t uː
 katčin	k a t͡ʃ ɪ n
+katů	k a t uː
 katům	k a t uː m
 kauzální	k a u̯ z aː l ɲ iː
 kauzálně	k a u̯ z aː l ɲ ɛ
@@ -5626,28 +5626,28 @@ kazíte	k a z iː t ɛ
 kazíš	k a z iː ʃ
 kazů	k a z uː
 kazům	k a z uː m
-kaňa	k a ɲ a
-každopádně	k a ʒ d o p aː d ɲ ɛ
-kaše	k a ʃ ɛ
-kašel	k a ʃ ɛ l
-kažen	k a ʒ ɛ n
 kačena	k a t͡ʃ ɛ n a
-kažena	k a ʒ ɛ n a
-kaženi	k a ʒ ɛ ɲ ɪ
 kačenka	k a t͡ʃ ɛ ŋ k a
-kaženo	k a ʒ ɛ n o
-kaženy	k a ʒ ɛ n ɪ
 kačení	k a t͡ʃ ɛ ɲ iː
 kačeří	k a t͡ʃ ɛ r̝ iː
+kačka	k a t͡ʃ k a
+kaňa	k a ɲ a
+kaňon	k a ɲ o n
+kaše	k a ʃ ɛ
+kašel	k a ʃ ɛ l
 kašgar	k a ʒ ɡ a r
 kaši	k a ʃ ɪ
 kašička	k a ʃ ɪ t͡ʃ k a
-kačka	k a t͡ʃ k a
 kašmír	k a ʃ m iː r
 kašmírština	k a ʃ m iː r ʃ c ɪ n a
 kašmířan	k a ʃ m iː r̝ a n
-kaňon	k a ɲ o n
 kašpar	k a ʃ p a r
+každopádně	k a ʒ d o p aː d ɲ ɛ
+kažen	k a ʒ ɛ n
+kažena	k a ʒ ɛ n a
+kaženi	k a ʒ ɛ ɲ ɪ
+kaženo	k a ʒ ɛ n o
+kaženy	k a ʒ ɛ n ɪ
 kbelík	ɡ b ɛ l iː k
 kdekoliv	ɡ d ɛ k o l ɪ f
 kdokoli	ɡ d o k o l ɪ
@@ -5679,14 +5679,14 @@ kerblík	k ɛ r b l iː k
 ketoacidóza	k ɛ t o a t͡s ɪ d oː z a
 ketóza	k ɛ t oː z a
 ketština	k ɛ t ʃ c ɪ n a
+kečuánský	k ɛ t͡ʃ u aː n s k iː
+kečuánština	k ɛ t͡ʃ u aː n ʃ c ɪ n a
 keňan	k ɛ ɲ a n
 keňanka	k ɛ ɲ a ŋ k a
 keňský	k ɛ ɲ s k iː
-kešu	k ɛ ʃ u
-kečuánský	k ɛ t͡ʃ u aː n s k iː
-kečuánština	k ɛ t͡ʃ u aː n ʃ c ɪ n a
 keřík	k ɛ r̝ iː k
 keříček	k ɛ r̝ iː t͡ʃ ɛ k
+kešu	k ɛ ʃ u
 kibicovat	k ɪ b ɪ t͡s o v a t
 kikirikí	k ɪ k ɪ r ɪ k iː
 kilo	k ɪ l o
@@ -5786,9 +5786,9 @@ klimoška	k l ɪ m o ʃ k a
 klinický	k l ɪ n ɪ t͡s k iː
 klisna	k l ɪ s n a
 klitoris	k l ɪ t o r ɪ s
-kliďas	k l ɪ ɟ a s
 klička	k l ɪ t͡ʃ k a
 kličkovat	k l ɪ t͡ʃ k o v a t
+kliďas	k l ɪ ɟ a s
 klišé	k l ɪ ʃ ɛː
 klobouček	k l o b o u̯ t͡ʃ ɛ k
 kloboučník	k l o b o u̯ t͡ʃ ɲ iː k
@@ -5825,9 +5825,9 @@ klus	k l u s
 klusat	k l u s a t
 kluzký	k l u s k iː
 kluzák	k l u z aː k
-kluž	k l u ʃ
 klučičí	k l u t͡ʃ ɪ t͡ʃ iː
 klučík	k l u t͡ʃ iː k
+kluž	k l u ʃ
 kly	k l ɪ
 klystýr	k l ɪ s t iː r
 klára	k l aː r a
@@ -6009,9 +6009,9 @@ kolumbijec	k o l u m b ɪ j ɛ t͡s
 kolumbijka	k o l u m b ɪ j k a
 kolumbijský	k o l u m b ɪ j s k iː
 kolumbův	k o l u m b uː f
-kolář	k o l aː r̝̊
 koláček	k o l aː t͡ʃ ɛ k
 koláčový	k o l aː t͡ʃ o v iː
+kolář	k o l aː r̝̊
 kolébat	k o l ɛː b a t
 kolébka	k o l ɛː p k a
 kolík	k o l iː k
@@ -6206,10 +6206,10 @@ konzultant	k o n z u l t a n t
 koní	k o ɲ iː
 koník	k o ɲ iː k
 koníček	k o ɲ iː t͡ʃ ɛ k
+končetina	k o n t͡ʃ ɛ c ɪ n a
 koně	k o ɲ ɛ
 konžan	k o n ʒ a n
 konžanka	k o n ʒ a ŋ k a
-končetina	k o n t͡ʃ ɛ c ɪ n a
 konžský	k o n ʃ s k iː
 kop	k o p
 kopa	k o p a
@@ -6398,38 +6398,38 @@ kozlík	k o z l iː k
 kozoroh	k o z o r o x
 kozorožec	k o z o r o ʒ ɛ t͡s
 kozí	k o z iː
-koš	k o ʃ
-koňadra	k o ɲ a d r a
-kořen	k o r̝ ɛ n
-koženka	k o ʒ ɛ ŋ k a
-koženkový	k o ʒ ɛ ŋ k o v iː
-kořenový	k o r̝ ɛ n o v iː
-kořenáč	k o r̝ ɛ n aː t͡ʃ
-kožený	k o ʒ ɛ n iː
-kožešina	k o ʒ ɛ ʃ ɪ n a
-kožich	k o ʒ ɪ x
-košilka	k o ʃ ɪ l k a
-kořist	k o r̝ ɪ s t
 kočička	k o t͡ʃ ɪ t͡ʃ k a
 kočičí	k o t͡ʃ ɪ t͡ʃ iː
 kočkami	k o t͡ʃ k a m ɪ
 kočkodan	k o t͡ʃ k o d a n
 kočkovitý	k o t͡ʃ k o v ɪ t iː
-kožní	k o ʒ ɲ iː
-košonek	k o ʃ o n ɛ k
+kočár	k o t͡ʃ aː r
+kočárek	k o t͡ʃ aː r ɛ k
+kočí	k o t͡ʃ iː
+koňadra	k o ɲ a d r a
 koňská	k o ɲ s k aː
 koňský	k o ɲ s k iː
+kořen	k o r̝ ɛ n
+kořenový	k o r̝ ɛ n o v iː
+kořenáč	k o r̝ ɛ n aː t͡ʃ
+kořist	k o r̝ ɪ s t
+kořínek	k o r̝ iː n ɛ k
+koš	k o ʃ
+košilka	k o ʃ ɪ l k a
+košonek	k o ʃ o n ɛ k
 koštnout	k o ʃ t n o u̯ t
 koštovat	k o ʃ t o v a t
 koště	k o ʃ c ɛ
-kočár	k o t͡ʃ aː r
-kočárek	k o t͡ʃ aː r ɛ k
-kožárová	k o ʒ aː r o v aː
-kočí	k o t͡ʃ iː
 košík	k o ʃ iː k
 košíková	k o ʃ iː k o v aː
-kořínek	k o r̝ iː n ɛ k
 košťálový	k o ʃ c aː l o v iː
+koženka	k o ʒ ɛ ŋ k a
+koženkový	k o ʒ ɛ ŋ k o v iː
+kožený	k o ʒ ɛ n iː
+kožešina	k o ʒ ɛ ʃ ɪ n a
+kožich	k o ʒ ɪ x
+kožní	k o ʒ ɲ iː
+kožárová	k o ʒ aː r o v aː
 krabice	k r a b ɪ t͡s ɛ
 krabí	k r a b iː
 krach	k r a x
@@ -6547,7 +6547,6 @@ krutihlav	k r u c ɪ ɦ l a f
 krutost	k r u t o s t
 krutovláda	k r u t o v l aː d a
 krutý	k r u t iː
-kružnice	k r u ʒ ɲ ɪ t͡s ɛ
 krušnou	k r ʊ ʃ n o ʊ̯
 krušná	k r ʊ ʃ n aː
 krušné	k r ʊ ʃ n ɛː
@@ -6560,6 +6559,7 @@ krušných	k r ʊ ʃ n iː x
 krušným	k r ʊ ʃ n iː m
 krušnými	k r ʊ ʃ n iː m ɪ
 krušnější	k r ʊ ʃ ɲ ɛ j ʃ iː
+kružnice	k r u ʒ ɲ ɪ t͡s ɛ
 kružítko	k r u ʒ iː t k o
 krvavý	k r̩ v a v iː
 krveprolití	k r̩ v ɛ p r o l ɪ c iː
@@ -6702,8 +6702,8 @@ kurz	k u r s
 kuráž	k u r aː ʃ
 kurážný	k u r aː ʒ n iː
 kurýr	k u r iː r
-kurů	k u r uː
 kurňa	k u r ɲ a
+kurů	k u r uː
 kurům	k u r uː m
 kus	k u s
 kutě	k u c ɛ
@@ -6711,18 +6711,18 @@ kuvajt	k u v a j t
 kuvajtský	k u v a j t s k iː
 kuvajťan	k u v a j c a n
 kuvajťanka	k u v a j c a ŋ k a
+kučera	k u t͡ʃ ɛ r a
+kuňk	k u ɲ k
+kuňkat	k u ɲ k a t
 kuřecí	k u r̝ ɛ t͡s iː
+kuřice	k u r̝ ɪ t͡s ɛ
+kuřácký	k u r̝ aː t͡s k iː
+kuří	k u r̝ iː
+kušna	k u ʃ n a
+kušovat	k u ʃ o v a t
 kužel	k u ʒ ɛ l
 kuželosečka	k u ʒ ɛ l o s ɛ t͡ʃ k a
 kuželový	k u ʒ ɛ l o v iː
-kučera	k u t͡ʃ ɛ r a
-kuřice	k u r̝ ɪ t͡s ɛ
-kuňk	k u ɲ k
-kuňkat	k u ɲ k a t
-kušna	k u ʃ n a
-kušovat	k u ʃ o v a t
-kuřácký	k u r̝ aː t͡s k iː
-kuří	k u r̝ iː
 kvadratický	k v a d r a t ɪ t͡s k iː
 kvak	k v a k
 kvaker	k v a k ɛ r
@@ -6764,8 +6764,8 @@ květa	k v j ɛ t a
 květena	k v j ɛ t ɛ n a
 květenství	k v j ɛ t ɛ n s t v iː
 květina	k v j ɛ c ɪ n a
-květinář	k v j ɛ c ɪ n aː r̝̊
 květináč	k v j ɛ c ɪ n aː t͡ʃ
+květinář	k v j ɛ c ɪ n aː r̝̊
 květinářka	k v j ɛ c ɪ n aː r̝̊ k a
 květinářství	k v j ɛ c ɪ n aː r̝̊ s t v iː
 květka	k v j ɛ t k a
@@ -6853,8 +6853,8 @@ kázáni	k aː z aː ɲ ɪ
 kázáno	k aː z aː n o
 kázány	k aː z aː n ɪ
 kázání	k aː z aː ɲ iː
-káťa	k aː c a
 káča	k aː t͡ʃ a
+káťa	k aː c a
 káže	k aː ʒ ɛ
 kážeš	k aː ʒ ɛ ʃ
 kážu	k aː ʒ u
@@ -6898,19 +6898,29 @@ křečová	k r̝̊ ɛ t͡ʃ o v aː
 křečový	k r̝̊ ɛ t͡ʃ o v iː
 křidélko	k r̝̊ ɪ d ɛː l k o
 křik	k r̝̊ ɪ k
-kšilt	k ʃ ɪ l t
-kšiltovka	k ʃ ɪ l t o f k a
 křis	k r̝̊ ɪ s
 křivý	k r̝̊ ɪ v iː
+křičí	k r̝̊ ɪ t͡ʃ iː
+křišťál	k r̝̊ ɪ ʃ c aː l
+křišťálový	k r̝̊ ɪ ʃ c aː l o v iː
 křižník	k r̝̊ ɪ ʒ ɲ iː k
 křižovat	k r̝̊ ɪ ʒ o v a t
 křižák	k r̝̊ ɪ ʒ aː k
-křičí	k r̝̊ ɪ t͡ʃ iː
 křižíkův	k r̝̊ ɪ ʒ iː k uː f
-křišťál	k r̝̊ ɪ ʃ c aː l
-křišťálový	k r̝̊ ɪ ʃ c aː l o v iː
 křováček	k r̝ o v aː t ʃ ɛ k
 křoví	k r̝̊ o v iː
+křtít	k r̝̊ c iː t
+křupan	k r̝̊ u p a n
+křídlovka	k r̝̊ iː d l o f k a
+kříže	k r̝̊ iː ʒ ɛ
+křížem	k r̝̊ iː ʒ ɛ m
+kříženec	k r̝̊ iː ʒ ɛ n ɛ t͡s
+křížení	k r̝̊ iː ʒ ɛ ɲ iː
+křížit	k r̝̊ iː ʒ ɪ t
+křížovka	k r̝̊ iː ʒ o f k a
+křížový	k r̝̊ iː ʒ o v iː
+kšilt	k ʃ ɪ l t
+kšiltovka	k ʃ ɪ l t o f k a
 kůr	k uː r
 kůra	k uː r a
 kůrami	k uː r a m ɪ
@@ -6925,22 +6935,12 @@ kůru	k uː r u
 kůry	k uː r ɪ
 kůrách	k uː r aː x
 kůrám	k uː r aː m
-kůrů	k uː r uː
 kůrčička	k uː r t͡ʃ ɪ t͡ʃ k a
+kůrů	k uː r uː
 kůrům	k uː r uː m
 kůstka	k uː s t k a
-křtít	k r̝̊ c iː t
-křupan	k r̝̊ u p a n
 kůzle	k uː z l ɛ
 kůzlátko	k uː z l aː t k o
-křídlovka	k r̝̊ iː d l o f k a
-kříže	k r̝̊ iː ʒ ɛ
-křížem	k r̝̊ iː ʒ ɛ m
-kříženec	k r̝̊ iː ʒ ɛ n ɛ t͡s
-křížení	k r̝̊ iː ʒ ɛ ɲ iː
-křížit	k r̝̊ iː ʒ ɪ t
-křížovka	k r̝̊ iː ʒ o f k a
-křížový	k r̝̊ iː ʒ o v iː
 kůře	k uː r̝ ɛ
 laborantka	l a b o r a n t k a
 labutí	l a b u c iː
@@ -7117,8 +7117,8 @@ letu	l ɛ t u
 letuška	l ɛ t u ʃ k a
 lety	l ɛ t ɪ
 leták	l ɛ t aː k
-letů	l ɛ t uː
 letče	l ɛ t͡ʃ ɛ
+letů	l ɛ t uː
 letům	l ɛ t uː m
 leucin	l ɛ u̯ t͡s iː n
 leucin	l ɛ u̯ t͡s ɪ n
@@ -7150,10 +7150,10 @@ lexikon	l ɛ k s ɪ k o n
 lexikální	l ɛ k s ɪ k aː l ɲ iː
 lexém	l ɛ k s ɛː m
 leč	l ɛ t͡ʃ
-ležel	l ɛ ʒ ɛ l
 lečo	l ɛ t͡ʃ o
 leštidlo	l ɛ ʃ c ɪ d l o
 leštit	l ɛ ʃ c ɪ t
+ležel	l ɛ ʒ ɛ l
 lhostejnost	l ɦ o s t ɛ j n o s t
 lhostejný	l ɦ o s t ɛ j n iː
 lhostejně	l ɦ o s t ɛ j ɲ ɛ
@@ -7282,8 +7282,8 @@ lodivod	l o ɟ ɪ v o t
 lodička	l o ɟ ɪ t͡ʃ k a
 lodí	l o ɟ iː
 lodím	l o ɟ iː m
-lodž	l o t ʃ
 lodě	l o ɟ ɛ
+lodž	l o t ʃ
 logaritmický	l o ɡ a r ɪ t m ɪ t͡s k iː
 logaritmus	l o ɡ a r ɪ t m u s
 logicky	l o ɡ ɪ t͡s k ɪ
@@ -7365,9 +7365,9 @@ loutkoherec	l o u̯ t k o ɦ ɛ r ɛ t͡s
 loutkový	l o u̯ t k o v iː
 loutna	l o u̯ t n a
 loutnista	l o u̯ t ɲ ɪ s t a
-louže	l o u̯ ʒ ɛ
 loučení	l o u̯ t͡ʃ ɛ ɲ iː
 loučit	l o u̯ t͡ʃ ɪ t
+louže	l o u̯ ʒ ɛ
 loužička	l o u̯ ʒ ɪ t͡ʃ k a
 lovce	l o f t͡s ɛ
 lovci	l o f t͡s ɪ
@@ -7398,12 +7398,12 @@ lovíte	l o v iː t ɛ
 lovíš	l o v iː ʃ
 lovče	l o f t͡ʃ ɛ
 lozit	l o z ɪ t
-lože	l o ʒ ɛ
-ložisko	l o ʒ ɪ s k o
 loďka	l o c k a
-ložnička	l o ʒ ɲ ɪ t͡ʃ k a
 loňská	l o ɲ s k aː
 loňský	l o ɲ s k iː
+lože	l o ʒ ɛ
+ložisko	l o ʒ ɪ s k o
+ložnička	l o ʒ ɲ ɪ t͡ʃ k a
 lublaň	l u b l a ɲ
 lublaňan	l u b l a ɲ a n
 lubomír	l u b o m iː r
@@ -7450,15 +7450,15 @@ lusk	l u s k
 luterán	l u t ɛ r aː n
 luteránský	l u t ɛ r aː n s k iː
 luteránství	l u t ɛ r aː n s t v iː
-luďa	l u ɟ a
 lučba	l u d͡ʒ b a
-lužice	l u ʒ ɪ t͡s ɛ
-lužický	l u ʒ ɪ t͡s k iː
 lučiště	l u t͡ʃ ɪ ʃ c ɛ
 luční	l u t͡ʃ ɲ iː
+luďa	l u ɟ a
+luňák	l u ɲ aː k
 luštit	l u ʃ c ɪ t
 luštěnina	l u ʃ c ɛ ɲ ɪ n a
-luňák	l u ɲ aː k
+lužice	l u ʒ ɪ t͡s ɛ
+lužický	l u ʒ ɪ t͡s k iː
 lvice	l v ɪ t͡s ɛ
 lvov	l v o f
 lví	l v iː
@@ -7508,12 +7508,12 @@ léty	l ɛː t ɪ
 létě	l ɛː c ɛ
 létům	l ɛː t uː m
 lézt	l ɛː s t
-léňa	l ɛː ɲ a
 léče	l ɛː t͡ʃ ɛ
 léčit	l ɛː t͡ʃ ɪ t
 léčivý	l ɛː t͡ʃ ɪ v iː
 léčka	l ɛː t͡ʃ k a
 léčí	l ɛː t͡ʃ iː
+léňa	l ɛː ɲ a
 líba	l iː b a
 líbezný	l iː b ɛ z n iː
 líbánky	l iː b aː ŋ k ɪ
@@ -7539,14 +7539,14 @@ líčit	l iː t͡ʃ ɪ t
 lóže	l oː ʒ ɛ
 lýko	l iː k o
 lýtko	l iː t k o
-lžidoktor	l ʒ ɪ d o k t o r
-lživý	l ʒ ɪ v iː
-lžička	l ʒ ɪ t͡ʃ k a
-lžičák	l ʒ ɪ t͡ʃ aː k
 lůj	l uː j
 lůza	l uː z a
 lůzovláda	l uː z o v l aː d a
 lůžko	l uː ʃ k o
+lžidoktor	l ʒ ɪ d o k t o r
+lživý	l ʒ ɪ v iː
+lžička	l ʒ ɪ t͡ʃ k a
+lžičák	l ʒ ɪ t͡ʃ aː k
 macecha	m a t͡s ɛ x a
 macek	m a t͡s ɛ k
 maceška	m a t͡s ɛ ʃ k a
@@ -7618,8 +7618,8 @@ malijský	m a l ɪ j s k iː
 malina	m a l ɪ n a
 malinami	m a l ɪ n a m ɪ
 maliský	m a l ɪ s k iː
-mališ	m a l ɪ ʃ
 maličký	m a l ɪ t͡ʃ k iː
+mališ	m a l ɪ ʃ
 malomocný	m a l o m o t͡s n iː
 maloobchod	m a l o o p x o t
 malta	m a l t a
@@ -7678,8 +7678,8 @@ marcela	m a r t͡s ɛ l a
 marcelin	m a r t͡s ɛ l ɪ n
 marcelka	m a r t͡s ɛ l k a
 marek	m a r ɛ k
-mareš	m a r ɛ ʃ
 mareček	m a r ɛ t͡ʃ ɛ k
+mareš	m a r ɛ ʃ
 marika	m a r ɪ k a
 marina	m a r ɪ n a
 marinin	m a r ɪ ɲ ɪ n
@@ -7831,31 +7831,31 @@ mazána	m a z aː n a
 mazáni	m a z aː ɲ ɪ
 mazáno	m a z aː n o
 mazány	m a z aː n ɪ
-maž	m a ʃ
+mačka	m a t͡ʃ k a
+mačkat	m a t͡ʃ k a t
 maďar	m a ɟ a r
 maďarka	m a ɟ a r k a
 maďarsko	m a ɟ a r s k o
 maďarsky	m a ɟ a r s k ɪ
 maďarský	m a ɟ a r s k iː
 maďarština	m a ɟ a r ʃ c ɪ n a
-maže	m a ʒ ɛ
-mažeme	m a ʒ ɛ m ɛ
+maňásek	m a ɲ aː s ɛ k
 mařena	m a r̝ ɛ n a
 mařenka	m a r̝ ɛ ŋ k a
 mařenčin	m a r̝ ɛ n t͡ʃ ɪ n
-mažete	m a ʒ ɛ t ɛ
-mažeš	m a ʒ ɛ ʃ
+mařka	m a r̝̊ k a
 mašinfíra	m a ʃ ɪ n f iː r a
 mašinka	m a ʃ ɪ ŋ k a
 mašinérie	m a ʃ ɪ n ɛː r ɪ j ɛ
-mařka	m a r̝̊ k a
-mačka	m a t͡ʃ k a
-mačkat	m a t͡ʃ k a t
 mašlička	m a ʃ l ɪ t͡ʃ k a
+mašíbl	m a ʃ iː b l̩
+maž	m a ʃ
+maže	m a ʒ ɛ
+mažeme	m a ʒ ɛ m ɛ
+mažete	m a ʒ ɛ t ɛ
+mažeš	m a ʒ ɛ ʃ
 mažou	m a ʒ o u̯
 mažu	m a ʒ u
-maňásek	m a ɲ aː s ɛ k
-mašíbl	m a ʃ iː b l̩
 mdle	m d l ɛ
 mdlo	m d l o
 mdlost	m d l o s t
@@ -7951,11 +7951,11 @@ mezičas	m ɛ z ɪ t͡ʃ a s
 mezník	m ɛ z ɲ iː k
 mezosféra	m ɛ z o s f ɛː r a
 mezčí	m ɛ s t͡ʃ iː
-meť	m ɛ c
 meč	m ɛ t͡ʃ
 mečoun	m ɛ t͡ʃ o u̯ n
 mečík	m ɛ t͡ʃ iː k
 mečíř	m ɛ t͡ʃ iː r̝̊
+meť	m ɛ c
 mha	m ɦ a
 mhouřit	m ɦ o u̯ r̝ ɪ t
 michaela	m ɪ x a ɛ l a
@@ -8146,8 +8146,8 @@ mnohovesmír	m n o ɦ o v ɛ s m iː r
 mnohoznačnost	m n o ɦ o z n a t͡ʃ n o s t
 mnohoznačný	m n o ɦ o z n a t͡ʃ n iː
 mnohoúhelník	m n o ɦ o uː ɦ ɛ l ɲ iː k
-mnohoženství	m n o ɦ o ʒ ɛ n s t v iː
 mnohočlen	m n o ɦ o t͡ʃ l ɛ n
+mnohoženství	m n o ɦ o ʒ ɛ n s t v iː
 mnohý	m n o ɦ iː
 mnou	m n o u̯
 množina	m n o ʒ ɪ n a
@@ -8323,17 +8323,17 @@ mozkovna	m o s k o v n a
 mozkový	m o s k o v iː
 mozol	m o z o l
 moč	m o t͡ʃ
-moždíř	m o ʒ ɟ iː r̝̊
 močení	m o t͡ʃ ɛ ɲ iː
-mořeplavba	m o r̝ ɛ p l a v b a
-mořeplavec	m o r̝ ɛ p l a v ɛ t͡s
-mořic	m o r̝ ɪ t͡s
 močit	m o t͡ʃ ɪ t
 močovina	m o t͡ʃ o v ɪ n a
 močovod	m o t͡ʃ o v o t
 močový	m o t͡ʃ o v iː
-mošt	m o ʃ t
 močál	m o t͡ʃ aː l
+mořeplavba	m o r̝ ɛ p l a v b a
+mořeplavec	m o r̝ ɛ p l a v ɛ t͡s
+mořic	m o r̝ ɪ t͡s
+mošt	m o ʃ t
+moždíř	m o ʒ ɟ iː r̝̊
 mrakodrap	m r a k o d r a p
 mrav	m r a f
 mravenec	m r a v ɛ n ɛ t͡s
@@ -8380,9 +8380,9 @@ mrzl	m r̩ z l̩
 mrzout	m r̩ z o u̯ t
 mrzák	m r̩ z aː k
 mráček	m r aː t͡ʃ ɛ k
-mrť	m r̩ c
 mršina	m r̩ ʃ ɪ n a
 mrška	m r̩ ʃ k a
+mrť	m r̩ c
 msta	m s t a
 mstitel	m s c ɪ t ɛ l
 mu	m u
@@ -8420,23 +8420,23 @@ muzika	m u z ɪ k a
 muzikant	m u z ɪ k a n t
 muzikantka	m u z ɪ k a n t k a
 muzikál	m u z ɪ k aː l
-muž	m u ʃ
-muže	m u ʒ ɛ
-mužem	m u ʒ ɛ m
 mučení	m u t͡ʃ ɛ ɲ iː
 mučit	m u t͡ʃ ɪ t
 mučitel	m u t͡ʃ ɪ t ɛ l
 muňka	m u ɲ k a
+muří	m u r̝ iː
 muška	m u ʃ k a
 muškát	m u ʃ k aː t
 muškátovník	m u ʃ k aː t o v ɲ iː k
 muškátový	m u ʃ k aː t o v iː
 mušle	m u ʃ l e
+muší	m u ʃ iː
+muž	m u ʃ
+muže	m u ʒ ɛ
+mužem	m u ʒ ɛ m
 mužný	m u ʒ n iː
 mužovi	m u ʒ o v ɪ
 mužové	m u ʒ o v ɛː
-muří	m u r̝ iː
-muší	m u ʃ iː
 mužích	m u ʒ iː x
 mužů	m u ʒ uː
 mužům	m u ʒ uː m
@@ -8463,8 +8463,8 @@ mystický	m ɪ s t ɪ t͡s k iː
 mytický	m ɪ t ɪ t͡s k iː
 mytolog	m ɪ t o l o k
 mytologický	m ɪ t o l o ɡ ɪ t͡s k iː
-myš	m ɪ ʃ
 myčka	m ɪ t͡ʃ k a
+myš	m ɪ ʃ
 myška	m ɪ ʃ k a
 myšlenka	m ɪ ʃ l ɛ ŋ k a
 myšlenkový	m ɪ ʃ l ɛ ŋ k o v iː
@@ -8491,10 +8491,10 @@ máte	m aː t ɛ
 máti	m aː c ɪ
 mávat	m aː v a t
 mávnout	m aː v n o u̯ t
-máš	m aː ʃ
-mářa	m aː r̝ a
-máňa	m aː ɲ a
 máčka	m aː t͡ʃ k a
+máňa	m aː ɲ a
+mářa	m aː r̝ a
+máš	m aː ʃ
 mé	m ɛː
 méně	m ɛː ɲ ɛ
 méďa	m ɛː ɟ a
@@ -8529,19 +8529,19 @@ místopředseda	m iː s t o p r̝̊ ɛ t s ɛ d a
 místopředsedkyně	m iː s t o p r̝̊ ɛ t s ɛ t k ɪ ɲ ɛ
 míza	m iː z a
 mízní	m iː z ɲ iː
-míň	m iː ɲ
-míša	m iː ʃ a
-míře	m iː r̝ ɛ
 míček	m iː t͡ʃ ɛ k
+míň	m iː ɲ
+míře	m iː r̝ ɛ
 mířen	m iː r̝ ɛ n
 mířena	m iː r̝ ɛ n a
-míšeň	m iː ʃ ɛ ɲ
 mířila	m iː r̝ ɪ l a
-míšin	m iː ʃ ɪ n
 mířit	m iː r̝ ɪ t
-míšní	m iː ʃ ɲ iː
 míří	m iː r̝ iː
 mířím	m iː r̝ iː m
+míša	m iː ʃ a
+míšeň	m iː ʃ ɛ ɲ
+míšin	m iː ʃ ɪ n
+míšní	m iː ʃ ɲ iː
 mód	m oː t
 móda	m oː d a
 módní	m oː d ɲ iː
@@ -8555,13 +8555,9 @@ mýto	m iː t o
 mýtus	m iː t u s
 mýval	m iː v a l
 mývalí	m iː v a l iː
-mňamózní	m ɲ a m oː z ɲ iː
-mňau	m ɲ a u̯
 měchýř	m ɲ ɛ x iː r̝̊
 mědikovec	m ɲ ɛ ɟ ɪ k o v ɛ t͡s
 měděný	m ɲ ɛ ɟ ɛ n iː
-mše	m ʃ ɛ
-mžení	m ʒ ɛ ɲ iː
 měj	m ɲ ɛ j
 mějme	m ɲ ɛ j m ɛ
 mějte	m ɲ ɛ j t ɛ
@@ -8591,10 +8587,7 @@ měníš	m ɲ ɛ ɲ iː ʃ
 měně	m ɲ ɛ ɲ ɛ
 měněn	m ɲ ɛ ɲ ɛ n
 měněna	m ɲ ɛ ɲ ɛ n a
-mňoukat	m ɲ o u̯ k a t
-mžourat	m ʒ o u̯ r a t
 měr	m ɲ ɛ r
-můra	m uː r a
 měrný	m ɲ ɛ r n iː
 měst	m ɲ ɛ s t
 města	m ɲ ɛ s t a
@@ -8604,23 +8597,30 @@ měsíčky	m ɲ ɛ s iː t͡ʃ k ɪ
 měsíční	m ɲ ɛ s iː t͡ʃ ɲ iː
 měsíčník	m ɲ ɛ s iː t͡ʃ ɲ iː k
 měsíčně	m ɲ ɛ s iː t͡ʃ ɲ ɛ
-mřít	m r̝ iː t
-měř	m ɲ ɛ r̝̊
+měďák	m ɲ ɛ ɟ aː k
 měň	m ɲ ɛ ɲ
-můžeme	m uː ʒ ɛ m ɛ
+měňme	m ɲ ɛ ɲ m ɛ
+měňte	m ɲ ɛ ɲ t ɛ
+měř	m ɲ ɛ r̝̊
 měření	m ɲ ɛ r̝ ɛ ɲ iː
-můžete	m uː ʒ ɛ t ɛ
 měřidlo	m ɲ ɛ r̝ ɪ d l o
 měřitelnost	m ɲ ɛ r̝ ɪ t ɛ l n o s t
 měřitelný	m ɲ ɛ r̝ ɪ t ɛ l n iː
-měňme	m ɲ ɛ ɲ m ɛ
-můžou	m uː ʒ o u̯
-měňte	m ɲ ɛ ɲ t ɛ
-můžu	m uː ʒ u
-měďák	m ɲ ɛ ɟ aː k
-můří	m uː r̝ iː
 měřící	m ɲ ɛ r̝ iː t͡s iː
 měřítko	m ɲ ɛ r̝ iː t k o
+mňamózní	m ɲ a m oː z ɲ iː
+mňau	m ɲ a u̯
+mňoukat	m ɲ o u̯ k a t
+mřít	m r̝ iː t
+mše	m ʃ ɛ
+můra	m uː r a
+můří	m uː r̝ iː
+můžeme	m uː ʒ ɛ m ɛ
+můžete	m uː ʒ ɛ t ɛ
+můžou	m uː ʒ o u̯
+můžu	m uː ʒ u
+mžení	m ʒ ɛ ɲ iː
+mžourat	m ʒ o u̯ r a t
 nabídka	n a b iː t k a
 nabíjet	n a b iː j ɛ t
 nabíječka	n a b iː j ɛ t͡ʃ k a
@@ -8672,14 +8672,14 @@ nadávat	n a d aː v a t
 nadávka	n a d aː f k a
 nadýmání	n a d iː m aː ɲ iː
 nadčasový	n a t͡ʃ a s o v iː
+nadčlověk	n a t͡ʃ l o v j ɛ k
+nadějný	n a ɟ ɛ j n iː
+nadějně	n a ɟ ɛ j ɲ ɛ
+naděnka	n a ɟ ɛ ŋ k a
+naděžda	n a ɟ ɛ ʒ d a
 nadšenec	n a t ʃ ɛ n ɛ t͡s
 nadšení	n a t ʃ ɛ ɲ iː
 nadšeně	n a t ʃ ɛ ɲ ɛ
-nadějný	n a ɟ ɛ j n iː
-nadějně	n a ɟ ɛ j ɲ ɛ
-nadčlověk	n a t͡ʃ l o v j ɛ k
-naděnka	n a ɟ ɛ ŋ k a
-naděžda	n a ɟ ɛ ʒ d a
 naformátovat	n a f o r m aː t o v a t
 nafoukanec	n a f o u̯ k a n ɛ t͡s
 nafoukaný	n a f o u̯ k a n iː
@@ -8861,20 +8861,20 @@ nazpaměť	n a s p a m ɲ ɛ c
 nazpátek	n a s p aː t ɛ k
 nazpět	n a s p j ɛ t
 nazývat	n a z iː v a t
-nať	n a c
-naďa	n a ɟ a
 načasovat	n a t͡ʃ a s o v a t
 načasování	n a t͡ʃ a s o v aː ɲ iː
 načechrat	n a t͡ʃ ɛ x r a t
-našeptávání	n a ʃ ɛ p t aː v aː ɲ iː
+načrtnout	n a t͡ʃ r̩ t n o u̯ t
+načíst	n a t͡ʃ iː s t
+naďa	n a ɟ a
 nařizovat	n a r̝ ɪ z o v a t
 nařknout	n a r̝̊ k n o u̯ t
-načrtnout	n a t͡ʃ r̩ t n o u̯ t
+nařídit	n a r̝ iː ɟ ɪ t
+nařízení	n a r̝ iː z ɛ ɲ iː
+našeptávání	n a ʃ ɛ p t aː v aː ɲ iː
 naštvat	n a ʃ t v a t
 naštěstí	n a ʃ c ɛ s c iː
-nařídit	n a r̝ iː ɟ ɪ t
-načíst	n a t͡ʃ iː s t
-nařízení	n a r̝ iː z ɛ ɲ iː
+nať	n a c
 ne	n ɛ
 nealkoholický	n ɛ a l k o ɦ o l ɪ t͡s k iː
 neandertálec	n ɛ a n d r̩ t aː l ɛ t͡s
@@ -8958,9 +8958,9 @@ nedvěd	n ɛ d v j ɛ t
 nedávno	n ɛ d aː v n o
 neděl	n ɛ ɟ ɛ l
 neděle	n ɛ ɟ ɛ l ɛ
-nedůležitý	n ɛ d uː l ɛ ʒ ɪ t iː
 neděli	n ɛ ɟ ɛ l ɪ
 nedělí	n ɛ ɟ ɛ l iː
+nedůležitý	n ɛ d uː l ɛ ʒ ɪ t iː
 nedůvěra	n ɛ d uː v j ɛ r a
 nedůvěryhodný	n ɛ d uː v j ɛ r ɪ ɦ o d n iː
 nedůvěřivý	n ɛ d uː v j ɛ r̝ ɪ v iː
@@ -8993,8 +8993,8 @@ nejdostatečněji	n ɛ j d o s t a t ɛ t͡ʃ ɲ ɛ j ɪ
 nejdražší	n ɛ j d r a ʃ iː
 nejdrzeji	n ɛ j d r̩ z ɛ j ɪ
 nejdrzejší	n ɛ j d r̩ z ɛ j ʃ iː
-nejdůvěřivější	n ɛ j d uː v j ɛ r̝ ɪ v j ɛ j ʃ iː
 nejdříve	n ɛ j d r̝ iː v ɛ
+nejdůvěřivější	n ɛ j d uː v j ɛ r̝ ɪ v j ɛ j ʃ iː
 nejede	n ɛ j ɛ d ɛ
 nejedlý	n ɛ j ɛ d l iː
 nejen	n ɛ j ɛ n
@@ -9280,8 +9280,8 @@ nesčetný	n ɛ s t͡ʃ ɛ t n iː
 netaktní	n ɛ t a k t ɲ iː
 neterminál	n ɛ t ɛ r m ɪ n aː l
 netestovaný	n ɛ t ɛ s t o v a n iː
-neteř	n ɛ t ɛ r̝̊
 netečný	n ɛ t ɛ t͡ʃ n iː
+neteř	n ɛ t ɛ r̝̊
 netopýří	n ɛ t o p iː r̝ iː
 netrpělivost	n ɛ t r̩ p j ɛ l ɪ v o s t
 netrpělivý	n ɛ t r̩ p j ɛ l ɪ v iː
@@ -9390,22 +9390,22 @@ neústavní	n ɛ uː s t a v ɲ iː
 neústupný	n ɛ uː s t u p n iː
 nečadivý	n ɛ t͡ʃ a ɟ ɪ v iː
 nečas	n ɛ t͡ʃ a s
+nečekaný	n ɛ t͡ʃ ɛ k a n iː
+nečinnost	n ɛ t͡ʃ ɪ n o s t
+nečinný	n ɛ t͡ʃ ɪ n iː
+nečitelný	n ɛ t͡ʃ ɪ t ɛ l n iː
 neředín	n ɛ r̝ ɛ ɟ iː n
 neředínský	n ɛ r̝ ɛ ɟ iː n s k iː
 neředínští	n ɛ r̝ ɛ ɟ iː n ʃ c iː
-nečekaný	n ɛ t͡ʃ ɛ k a n iː
 neřest	n ɛ r̝ ɛ s t
 neřetín	n ɛ r̝ ɛ c iː n
 neřešitelný	n ɛ r̝ ɛ ʃ ɪ t ɛ l n iː
 nešikovný	n ɛ ʃ ɪ k o v n iː
-nečinnost	n ɛ t͡ʃ ɪ n o s t
-nečinný	n ɛ t͡ʃ ɪ n iː
-nečitelný	n ɛ t͡ʃ ɪ t ɛ l n iː
-neživotný	n ɛ ʒ ɪ v o t n iː
 neškodný	n ɛ ʃ k o d n iː
 neštovice	n ɛ ʃ t o v ɪ t͡s ɛ
 neštěstí	n ɛ ʃ c ɛ s c iː
 nešvar	n ɛ ʃ v a r
+neživotný	n ɛ ʒ ɪ v o t n iː
 nežádoucí	n ɛ ʒ aː d o u̯ t͡s iː
 nic	ɲ ɪ t͡s
 nice	n ɪ t͡s ɛ
@@ -9680,19 +9680,19 @@ návrhář	n aː v r̩ ɦ aː r̝̊
 návyk	n aː v ɪ k
 návykový	n aː v ɪ k o v iː
 návěs	n aː v j ɛ s
+návěští	n aː v j ɛ ʃ c iː
 návštěva	n aː f ʃ c ɛ v a
 návštěvník	n aː f ʃ c ɛ v ɲ iː k
-návěští	n aː v j ɛ ʃ c iː
 název	n aː z ɛ f
 náznak	n aː z n a k
 názvosloví	n aː z v o s l o v iː
-nářadí	n aː r̝ a ɟ iː
-nářek	n aː r̝ ɛ k
 náčelník	n aː t͡ʃ ɛ l ɲ iː k
 náčelníkův	n aː t͡ʃ ɛ l ɲ iː k uː f
+náčrt	n aː t͡ʃ r̩ t
+nářadí	n aː r̝ a ɟ iː
+nářek	n aː r̝ ɛ k
 nářeční	n aː r̝ ɛ t͡ʃ ɲ iː
 nářečí	n aː r̝ ɛ t͡ʃ iː
-náčrt	n aː t͡ʃ r̩ t
 ní	ɲ iː
 nízce	ɲ iː s t͡s ɛ
 nízko	ɲ iː s k o
@@ -9889,7 +9889,6 @@ obávat	o b aː v a t
 obídek	o b iː d ɛ k
 obíhat	o b iː ɦ a t
 obývat	o b iː v a t
-obžalovat	o b ʒ a l o v a t
 občan	o p t͡ʃ a n
 občanka	o p t͡ʃ a ŋ k a
 občanskoprávní	o p t͡ʃ a n s k o p r aː v ɲ iː
@@ -9898,21 +9897,22 @@ občanstvo	o p t͡ʃ a n s t v o
 občanství	o p t͡ʃ a n s t v iː
 občas	o p t͡ʃ a s
 občasný	o p t͡ʃ a s n iː
-obědvat	o b j ɛ d v a t
-obžera	o b ʒ ɛ r a
 občerstvit	o p t͡ʃ ɛ r s t v ɪ t
-obřezat	o b r̝ ɛ z a t
+občánek	o p t͡ʃ aː n ɛ k
+obědvat	o b j ɛ d v a t
 oběh	o b j ɛ x
 oběhový	o b j ɛ ɦ o v iː
-obživa	o b ʒ ɪ v a
-obšlehnout	o p ʃ l ɛ ɦ n o u̯ t
 oběsit	o b j ɛ s ɪ t
 obětovat	o b j ɛ t o v a t
-občánek	o p t͡ʃ aː n ɛ k
-obří	o b r̝ iː
-obřízka	o b r̝ iː s k a
 oběť	o b j ɛ c
 oběžnice	o b j ɛ ʒ ɲ ɪ t͡s ɛ
+obřezat	o b r̝ ɛ z a t
+obří	o b r̝ iː
+obřízka	o b r̝ iː s k a
+obšlehnout	o p ʃ l ɛ ɦ n o u̯ t
+obžalovat	o b ʒ a l o v a t
+obžera	o b ʒ ɛ r a
+obživa	o b ʒ ɪ v a
 ocejchovat	o t͡s ɛ j x o v a t
 ocelový	o t͡s ɛ l o v iː
 ocenit	o t͡s ɛ ɲ ɪ t
@@ -10069,9 +10069,9 @@ odstranění	o t s t r a ɲ ɛ ɲ iː
 odstraňovat	o t s t r a ɲ o v a t
 odstupné	o t s t u p n ɛː
 odstín	o t s c iː n
+odstěhovat	o t s c ɛ ɦ o v a t
 odstředivka	o t s t r̝̊ ɛ ɟ ɪ f k a
 odstředivý	o t s t r̝̊ ɛ ɟ ɪ v iː
-odstěhovat	o t s c ɛ ɦ o v a t
 odsýpat	o t s iː p a t
 odtamtud	o t a m t u t
 odvaha	o d v a ɦ a
@@ -10097,14 +10097,14 @@ odvážný	o d v aː ʒ n iː
 odzdola	o d z d o l a
 odčinit	o t͡ʃ ɪ ɲ ɪ t
 odčinění	o t͡ʃ ɪ ɲ ɛ ɲ iː
-odštěpit	o t ʃ c ɛ p ɪ t
-odštěpovat	o t ʃ c ɛ p o v a t
-oděv	o ɟ ɛ f
-odůvodnit	o d uː v o d ɲ ɪ t
-odůvodnění	o d uː v o d ɲ ɛ ɲ iː
-odřít	o d r̝ iː t
 odčítat	o t͡ʃ iː t a t
 odčítání	o t͡ʃ iː t aː ɲ iː
+oděv	o ɟ ɛ f
+odřít	o d r̝ iː t
+odštěpit	o t ʃ c ɛ p ɪ t
+odštěpovat	o t ʃ c ɛ p o v a t
+odůvodnit	o d uː v o d ɲ ɪ t
+odůvodnění	o d uː v o d ɲ ɛ ɲ iː
 oferta	o f ɛ r t a
 ofotit	o f o c ɪ t
 ogar	o ɡ a r
@@ -10208,8 +10208,8 @@ olovnice	o l o v ɲ ɪ t͡s ɛ
 olovo	o l o v o
 olovu	o l o v u
 olovy	o l o v ɪ
-olovům	o l o v uː m
 olověný	o l o v j ɛ n iː
+olovům	o l o v uː m
 olše	o l ʃ ɛ
 olžin	o l ʒ ɪ n
 oman	o m a n
@@ -10526,10 +10526,10 @@ otékat	o t ɛː k a t
 otík	o c iː k
 otče	o t͡ʃ ɛ
 otčenáš	o t͡ʃ ɛ n aː ʃ
-otřepaný	o t r̝̊ ɛ p a n iː
-otřesný	o t r̝̊ ɛ s n iː
 otčina	o t͡ʃ ɪ n a
 otčím	o t͡ʃ iː m
+otřepaný	o t r̝̊ ɛ p a n iː
+otřesný	o t r̝̊ ɛ s n iː
 ouhorlík	o u ɦ o r l iː k
 oukej	o u̯ k ɛ j
 oukrop	o u̯ k r o p
@@ -10549,13 +10549,13 @@ ovládání	o v l aː d aː ɲ iː
 ovocnář	o v o t͡s n aː r̝̊
 ovocný	o v o t͡s n iː
 ovál	o v aː l
-ovšem	o f ʃ ɛ m
 ovčička	o f t͡ʃ ɪ t͡ʃ k a
 ovčák	o f t͡ʃ aː k
 ovčí	o f t͡ʃ iː
 ověření	o v j ɛ r̝ ɛ ɲ iː
 ověřit	o v j ɛ r̝ ɪ t
 ověřovat	o v j ɛ r̝ o v a t
+ovšem	o f ʃ ɛ m
 oxalát	o k s a l aː t
 oxidace	o k s ɪ d a t͡s ɛ
 oxidovat	o k s ɪ d o v a t
@@ -10568,41 +10568,41 @@ ozobí	o z o b iː
 ozonosféra	o z o n o s f ɛː r a
 ozvat	o z v a t
 ozřejmit	o z r̝ ɛ j m ɪ t
-oťas	o c a s
 očař	o t͡ʃ a r̝̊
-ořechový	o r̝ ɛ x o v iː
 očekávaný	o t͡ʃ ɛ k aː v a n iː
 očekávat	o t͡ʃ ɛ k aː v a t
 očekávání	o t͡ʃ ɛ k aː v aː ɲ iː
-oželet	o ʒ ɛ l ɛ t
 očernit	o t͡ʃ ɛ r ɲ ɪ t
-ošetřit	o ʃ ɛ t r̝̊ ɪ t
+očistec	o t͡ʃ ɪ s t ɛ t͡s
+očistit	o t͡ʃ ɪ s c ɪ t
+očividný	o t͡ʃ ɪ v ɪ d n iː
+očividně	o t͡ʃ ɪ v ɪ d ɲ ɛ
+očičko	o t͡ʃ ɪ t͡ʃ k o
+očko	o t͡ʃ k o
+očkovat	o t͡ʃ k o v a t
+očkování	o t͡ʃ k o v aː ɲ iː
+očnice	o t͡ʃ ɲ ɪ t͡s ɛ
+oční	o t͡ʃ ɲ iː
+očumovat	o t͡ʃ u m o v a t
+ořechový	o r̝ ɛ x o v iː
 ořez	o r̝ ɛ s
 ořezat	o r̝ ɛ z a t
 ořezávátko	o r̝ ɛ z aː v aː t k o
 ořešák	o r̝ ɛ ʃ aː k
-očistec	o t͡ʃ ɪ s t ɛ t͡s
-očistit	o t͡ʃ ɪ s c ɪ t
-oživení	o ʒ ɪ v ɛ ɲ iː
-očividný	o t͡ʃ ɪ v ɪ d n iː
-očividně	o t͡ʃ ɪ v ɪ d ɲ ɛ
-oživit	o ʒ ɪ v ɪ t
-očičko	o t͡ʃ ɪ t͡ʃ k o
-ošklivit	o ʃ k l ɪ v ɪ t
-ošklivost	o ʃ k l ɪ v o s t
-očko	o t͡ʃ k o
-očkovat	o t͡ʃ k o v a t
-očkování	o t͡ʃ k o v aː ɲ iː
-oškrt	o ʃ k r̩ t
-očnice	o t͡ʃ ɲ ɪ t͡s ɛ
-oční	o t͡ʃ ɲ iː
-ožrala	o ʒ r a l a
-ožralec	o ʒ r a l ɛ t͡s
-oštěp	o ʃ c ɛ p
-očumovat	o t͡ʃ u m o v a t
-ožíračka	o ʒ iː r a t͡ʃ k a
 oříznout	o r̝ iː z n o u̯ t
 oříšek	o r̝ iː ʃ ɛ k
+ošetřit	o ʃ ɛ t r̝̊ ɪ t
+ošklivit	o ʃ k l ɪ v ɪ t
+ošklivost	o ʃ k l ɪ v o s t
+oškrt	o ʃ k r̩ t
+oštěp	o ʃ c ɛ p
+oťas	o c a s
+oželet	o ʒ ɛ l ɛ t
+oživení	o ʒ ɪ v ɛ ɲ iː
+oživit	o ʒ ɪ v ɪ t
+ožrala	o ʒ r a l a
+ožralec	o ʒ r a l ɛ t͡s
+ožíračka	o ʒ iː r a t͡ʃ k a
 pach	p a x
 pachatel	p a x a t ɛ l
 pachem	p a x ɛ m
@@ -10829,23 +10829,23 @@ pavěda	p a v j ɛ d a
 pazour	p a z o u̯ r
 pazourek	p a z o u̯ r ɛ k
 pač	p a t͡ʃ
-pařba	p a r̝ b a
+pačte	p a t͡ʃ t ɛ
 paňdžáb	p a ɲ d ʒ aː p
 paňdžábský	p a ɲ d ʒ aː p s k iː
 paňdžábština	p a ɲ d ʒ aː p ʃ c ɪ n a
-paže	p a ʒ ɛ
-pašerák	p a ʃ ɛ r aː k
+pařba	p a r̝ b a
 pařez	p a r̝ ɛ s
-pašije	p a ʃ ɪ j ɛ
-pažitka	p a ʒ ɪ t k a
-pašovat	p a ʃ o v a t
-pačte	p a t͡ʃ t ɛ
-paštika	p a ʃ c ɪ k a
 pařát	p a r̝ aː t
 paříž	p a r̝ iː ʃ
 pařížan	p a r̝ iː ʒ a n
 pařížanka	p a r̝ iː ʒ a ŋ k a
 pařížský	p a r̝ iː ʃ s k iː
+pašerák	p a ʃ ɛ r aː k
+pašije	p a ʃ ɪ j ɛ
+pašovat	p a ʃ o v a t
+paštika	p a ʃ c ɪ k a
+paže	p a ʒ ɛ
+pažitka	p a ʒ ɪ t k a
 pecce	p ɛ t͡s t͡s ɛ
 pecek	p ɛ t͡s ɛ k
 pecen	p ɛ t͡s ɛ n
@@ -10962,8 +10962,6 @@ pevnina	p ɛ v ɲ ɪ n a
 pevninský	p ɛ v ɲ ɪ n s k iː
 pevnost	p ɛ v n o s t
 peč	p ɛ t͡ʃ
-peň	p ɛ ɲ
-peťa	p ɛ c a
 peče	p ɛ t͡ʃ ɛ
 pečeme	p ɛ t͡ʃ ɛ m ɛ
 pečen	p ɛ t͡ʃ ɛ n
@@ -10976,8 +10974,6 @@ pečení	p ɛ t͡ʃ ɛ ɲ iː
 pečeně	p ɛ t͡ʃ ɛ ɲ ɛ
 pečete	p ɛ t͡ʃ ɛ t ɛ
 pečeš	p ɛ t͡ʃ ɛ ʃ
-peřina	p ɛ r̝ ɪ n a
-peřinka	p ɛ r̝ ɪ ŋ k a
 pečivo	p ɛ t͡ʃ ɪ v o
 pečlivost	p ɛ t͡ʃ l ɪ v o s t
 pečlivý	p ɛ t͡ʃ l ɪ v iː
@@ -10987,8 +10983,12 @@ pečou	p ɛ t͡ʃ o u̯
 pečovat	p ɛ t͡ʃ o v a t
 pečte	p ɛ t͡ʃ t ɛ
 peču	p ɛ t͡ʃ u
-peťulka	p ɛ c u l k a
 pečínka	p ɛ t͡ʃ iː ŋ k a
+peň	p ɛ ɲ
+peřina	p ɛ r̝ ɪ n a
+peřinka	p ɛ r̝ ɪ ŋ k a
+peťa	p ɛ c a
+peťulka	p ɛ c u l k a
 phobos	f o b o s
 picat	p ɪ t͡s a t
 pice	p ɪ t͡s ɛ
@@ -11049,16 +11049,16 @@ pizda	p ɪ z d a
 pize	p ɪ z ɛ
 pizza	p ɪ t͡s a
 pizze	p ɪ t͡s ɛ
-piš	p ɪ ʃ
 piča	p ɪ t͡ʃ a
 pička	p ɪ t͡ʃ k a
+pičus	p ɪ t͡ʃ u s
+piš	p ɪ ʃ
 piškot	p ɪ ʃ k o t
 piškotový	p ɪ ʃ k o t o v iː
-pižlat	p ɪ ʒ l a t
 pišme	p ɪ ʃ m ɛ
 pište	p ɪ ʃ t ɛ
 pištec	p i ʃ t ɛ t s
-pičus	p ɪ t͡ʃ u s
+pižlat	p ɪ ʒ l a t
 plac	p l a t͡s
 place	p l a t͡s ɛ
 placem	p l a t͡s ɛ m
@@ -11127,8 +11127,8 @@ plavání	p l a v aː ɲ iː
 plaví	p l a v iː
 plavím	p l a v iː m
 plavíš	p l a v iː ʃ
-plavě	p l a v j ɛ
 plavčík	p l a f t͡ʃ iː k
+plavě	p l a v j ɛ
 plaz	p l a s
 plaze	p l a z ɛ
 plazem	p l a z ɛ m
@@ -11163,11 +11163,11 @@ plevou	p l ɛ v o u̯
 plevu	p l ɛ v u
 plevy	p l ɛ v ɪ
 plevě	p l ɛ v j ɛ
-pleť	p l ɛ c
 pleš	p l ɛ ʃ
 plešatost	p l ɛ ʃ a t o s t
 plešatý	p l ɛ ʃ a t iː
 pleška	p l ɛ ʃ k a
+pleť	p l ɛ c
 plic	p l ɪ t͡s
 plicní	p l ɪ t͡s ɲ iː
 plika	p l ɪ k a
@@ -11254,19 +11254,19 @@ plátek	p l aː t ɛ k
 plátno	p l aː t n o
 plátěný	p l aː c ɛ n iː
 pláč	p l aː t͡ʃ
-pláň	p l aː ɲ
 pláče	p l aː t͡ʃ ɛ
 pláčem	p l aː t͡ʃ ɛ m
 pláčeme	p l aː t͡ʃ ɛ m ɛ
 pláčete	p l aː t͡ʃ ɛ t ɛ
 pláčeš	p l aː t͡ʃ ɛ ʃ
 pláči	p l aː t͡ʃ ɪ
-plášil	p l aː ʃ ɪ l
 pláčou	p l aː t͡ʃ o u̯
-plážový	p l aː ʒ o v iː
-pláštěnka	p l aː ʃ c ɛ ŋ k a
 pláčů	p l aː t͡ʃ uː
+pláň	p l aː ɲ
+plášil	p l aː ʃ ɪ l
+pláštěnka	p l aː ʃ c ɛ ŋ k a
 plášť	p l aː ʃ c
+plážový	p l aː ʒ o v iː
 plést	p l ɛː s t
 plíce	p l iː t͡s ɛ
 plískanice	p l iː s k a ɲ ɪ t͡s ɛ
@@ -11306,8 +11306,8 @@ poctivě	p o t͡s c ɪ v j ɛ
 pocítit	p o t͡s iː c ɪ t
 podat	p o d a t
 podařit	p o d a r̝ ɪ t
-podbřišek	p o d b r̝ ɪ ʃ ɛ k
 podběl	p o d b j ɛ l
+podbřišek	p o d b r̝ ɪ ʃ ɛ k
 podcenit	p o t͡s ɛ ɲ ɪ t
 podceňovat	p o t͡s ɛ ɲ o v a t
 podchlazení	p o t x l a z ɛ ɲ iː
@@ -11423,15 +11423,15 @@ podíl	p o ɟ iː l
 podílel	p o ɟ iː l ɛ l
 podílet	p o ɟ iː l ɛ t
 podívej	p o ɟ iː v ɛ j
-podřadit	p o d r̝ a ɟ ɪ t
 podědit	p o ɟ ɛ ɟ ɪ t
 poděděný	p o ɟ ɛ ɟ ɛ n iː
-podřetězec	p o d r̝ ɛ c ɛ z ɛ t͡s
 podělaný	p o ɟ ɛ l a n iː
 podělat	p o ɟ ɛ l a t
-podšálek	p o t ʃ aː l ɛ k
+podřadit	p o d r̝ a ɟ ɪ t
+podřetězec	p o d r̝ ɛ c ɛ z ɛ t͡s
 podřídit	p o d r̝ iː ɟ ɪ t
 podřízený	p o d r̝ iː z ɛ n iː
+podšálek	p o t ʃ aː l ɛ k
 poetický	p o ɛ t ɪ t͡s k iː
 pohan	p o ɦ a n
 pohanka	p o ɦ a ŋ k a
@@ -11620,10 +11620,10 @@ pomocný	p o m o t͡s n iː
 pomocí	p o m o t͡s iː
 pomsta	p o m s t a
 pomstychtivý	p o m s t ɪ x c ɪ v iː
-pomůcka	p o m uː t͡s k a
 poměr	p o m ɲ ɛ r
 poměrně	p o m ɲ ɛ r ɲ ɛ
 poměrový	p o m ɲ ɛ r o v iː
+pomůcka	p o m uː t͡s k a
 pondělí	p o n ɟ ɛ l iː
 ponechat	p o n ɛ x a t
 ponechávat	p o n ɛ x aː v a t
@@ -11705,10 +11705,10 @@ portugalština	p o r t u ɡ a l ʃ c ɪ n a
 porucha	p o r u x a
 poruchovost	p o r u x o v o s t
 poruchový	p o r u x o v iː
+poručík	p o r u t͡ʃ iː k
 porušení	p o r u ʃ ɛ ɲ iː
 porušit	p o r u ʃ ɪ t
 porušovat	p o r u ʃ o v a t
-poručík	p o r u t͡ʃ iː k
 poryv	p o r ɪ f
 porážka	p o r aː ʃ k a
 posadit	p o s a ɟ ɪ t
@@ -11819,18 +11819,18 @@ potvrzení	p o t v r̩ z ɛ ɲ iː
 potvrzovat	p o t v r̩ z o v a t
 potyčka	p o t ɪ t͡ʃ k a
 potápka	p o t aː p k a
-potápět	p o t aː p j ɛ t
 potápčí	p o t aː p t͡ʃ iː
+potápět	p o t aː p j ɛ t
 potápěč	p o t aː p j ɛ t͡ʃ
 potápěčka	p o t aː p j ɛ t͡ʃ k a
 potíž	p o c iː ʃ
 potížista	p o c iː ʒ ɪ s t a
-potřeba	p o t r̝̊ ɛ b a
-potřebný	p o t r̝̊ ɛ b n iː
-potřetí	p o t r̝̊ ɛ c iː
 potěrání	p o c ɛ r aː ɲ iː
 potěšení	p o c ɛ ʃ ɛ ɲ iː
 potěšit	p o c ɛ ʃ ɪ t
+potřeba	p o t r̝̊ ɛ b a
+potřebný	p o t r̝̊ ɛ b n iː
+potřetí	p o t r̝̊ ɛ c iː
 pouhý	p o u̯ ɦ iː
 poustevna	p o u̯ s t ɛ v n a
 poutat	p o u̯ t a t
@@ -11841,10 +11841,10 @@ pouto	p o u̯ t o
 poutí	p o u̯ c iː
 poutě	p o u̯ c ɛ
 pouzdro	p o u̯ z d r o
+poušť	p o u̯ ʃ c
 pouť	p o u̯ c
 použitelný	p o u̯ ʒ ɪ t ɛ l n iː
 použití	p o u̯ ʒ ɪ c iː
-poušť	p o u̯ ʃ c
 povaha	p o v a ɦ a
 povaleč	p o v a l ɛ t͡ʃ
 povel	p o v ɛ l
@@ -11928,27 +11928,29 @@ pozoun	p o z o u̯ n
 pozpátku	p o s p aː t k u
 pozvolný	p o z v o l n iː
 pozítří	p o z iː t r̝̊ iː
-pořad	p o r̝ a t
-pořadatel	p o r̝ a d a t ɛ l
-požadavek	p o ʒ a d a v ɛ k
-požadovaný	p o ʒ a d o v a n iː
-požadovat	p o ʒ a d o v a t
-pořadový	p o r̝ a d o v iː
-požehnaný	p o ʒ ɛ ɦ n a n iː
-požehnat	p o ʒ ɛ ɦ n a t
-požehnání	p o ʒ ɛ ɦ n aː ɲ iː
-pošel	p o ʃ ɛ l
 počet	p o t͡ʃ ɛ t
-pošetilost	p o ʃ ɛ c ɪ l o s t
-pošetilý	p o ʃ ɛ c ɪ l iː
 početný	p o t͡ʃ ɛ t n iː
 početí	p o t͡ʃ ɛ c iː
-poševní	p o ʃ ɛ v ɲ iː
 počitadlo	p o t͡ʃ ɪ t a d l o
 počitatelný	p o t͡ʃ ɪ t a t ɛ l n iː
-poživatelný	p o ʒ ɪ v a t ɛ l n iː
-poživatina	p o ʒ ɪ v a c ɪ n a
 počkej	p o t͡ʃ k ɛ j
+počtvrté	p o t͡ʃ t v r̩ t ɛː
+počtář	p o t͡ʃ t aː r̝̊
+počátek	p o t͡ʃ aː t ɛ k
+počáteční	p o t͡ʃ aː t ɛ t͡ʃ ɲ iː
+počít	p o t͡ʃ iː t
+počítadlo	p o t͡ʃ iː t a d l o
+počítačový	p o t͡ʃ iː t a t͡ʃ o v iː
+pořad	p o r̝ a t
+pořadatel	p o r̝ a d a t ɛ l
+pořadový	p o r̝ a d o v iː
+pořád	p o r̝ aː t
+pořádat	p o r̝ aː d a t
+pořádku	p o r̝ aː t k u
+pošel	p o ʃ ɛ l
+pošetilost	p o ʃ ɛ c ɪ l o s t
+pošetilý	p o ʃ ɛ c ɪ l iː
+poševní	p o ʃ ɛ v ɲ iː
 poškodit	p o ʃ k o ɟ ɪ t
 poškození	p o ʃ k o z ɛ ɲ iː
 poškozovat	p o ʃ k o z o v a t
@@ -11964,20 +11966,18 @@ poštolka	p o ʃ t o l k a
 poštolčí	p o ʃ t o l t͡ʃ iː
 poštovné	p o ʃ t o v n ɛː
 poštovní	p o ʃ t o v ɲ iː
-počtvrté	p o t͡ʃ t v r̩ t ɛː
-počtář	p o t͡ʃ t aː r̝̊
 poštěváček	p o ʃ c ɛ v aː t͡ʃ ɛ k
-pořád	p o r̝ aː t
-pořádat	p o r̝ aː d a t
-pořádku	p o r̝ aː t k u
+pošťák	p o ʃ c aː k
+požadavek	p o ʒ a d a v ɛ k
+požadovaný	p o ʒ a d o v a n iː
+požadovat	p o ʒ a d o v a t
+požehnaný	p o ʒ ɛ ɦ n a n iː
+požehnat	p o ʒ ɛ ɦ n a t
+požehnání	p o ʒ ɛ ɦ n aː ɲ iː
+poživatelný	p o ʒ ɪ v a t ɛ l n iː
+poživatina	p o ʒ ɪ v a c ɪ n a
 požár	p o ʒ aː r
 požární	p o ʒ aː r ɲ iː
-počátek	p o t͡ʃ aː t ɛ k
-počáteční	p o t͡ʃ aː t ɛ t͡ʃ ɲ iː
-počít	p o t͡ʃ iː t
-počítadlo	p o t͡ʃ iː t a d l o
-počítačový	p o t͡ʃ iː t a t͡ʃ o v iː
-pošťák	p o ʃ c aː k
 prababička	p r a b a b ɪ t͡ʃ k a
 prabába	p r a b aː b a
 prach	p r a x
@@ -12086,14 +12086,14 @@ pravěk	p r a v j ɛ k
 pravěký	p r a v j ɛ k iː
 praxe	p r a k s ɛ
 praze	p r a z ɛ
+pračka	p r a t͡ʃ k a
+prašule	p r a ʃ u l ɛ
+prašulky	p r a ʃ u l k ɪ
 pražan	p r a ʒ a n
 pražec	p r a ʒ ɛ t͡s
 pražený	p r a ʒ ɛ n iː
 pražit	p r a ʒ ɪ t
-pračka	p r a t͡ʃ k a
 pražský	p r a ʃ s k iː
-prašule	p r a ʃ u l ɛ
-prašulky	p r a ʃ u l k ɪ
 pražádný	p r a ʒ aː d n iː
 prcek	p r̩ t͡s ɛ k
 prchat	p r̩ x a t
@@ -12294,12 +12294,12 @@ prostudovat	p r o s t u d o v a t
 prostydlý	p r o s t ɪ d l iː
 prostý	p r o s t iː
 prostě	p r o s c ɛ
+prostějov	p r o s c ɛ j o f
 prostředek	p r o s t r̝̊ ɛ d ɛ k
 prostřední	p r o s t r̝̊ ɛ d ɲ iː
 prostředník	p r o s t r̝̊ ɛ d ɲ iː k
 prostředníček	p r o s t r̝̊ ɛ d ɲ iː t͡ʃ ɛ k
 prostředí	p r o s t r̝̊ ɛ ɟ iː
-prostějov	p r o s c ɛ j o f
 prostřít	p r o s t r̝̊ iː t
 prosťáček	p r o s c aː t͡ʃ ɛ k
 protagonistka	p r o t a ɡ o n ɪ s t k a
@@ -12378,12 +12378,12 @@ prozrazovat	p r o z r a z o v a t
 prozvonit	p r o z v o ɲ ɪ t
 prozíravý	p r o z iː r a v iː
 prozřetelnost	p r o z r̝ ɛ t ɛ l n o s t
+pročíst	p r o t͡ʃ iː s t
 prořeknout	p r o r̝ ɛ k n o u̯ t
 prořezat	p r o r̝ ɛ z a t
 prořezávání	p r o r̝ ɛ z aː v aː ɲ iː
 prožitek	p r o ʒ ɪ t ɛ k
 prožluklý	p r o ʒ l u k l iː
-pročíst	p r o t͡ʃ iː s t
 prsní	p r̩ s ɲ iː
 prso	p r̩ s o
 prstenec	p r̩ s t ɛ n ɛ t͡s
@@ -12395,10 +12395,10 @@ prus	p r u s
 prut	p r u t
 pruď	p r u c
 prušan	p r u ʃ a n
+prušák	p r u ʃ aː k
 pružina	p r u ʒ ɪ n a
 pružnost	p r u ʒ n o s t
 pružný	p r u ʒ n iː
-prušák	p r u ʃ aː k
 prvně	p r̩ v ɲ ɛ
 prvorozený	p r̩ v o r o z ɛ n iː
 prvosenka	p r̩ v o s ɛ ŋ k a
@@ -12559,8 +12559,8 @@ pythagorejec	p ɪ t a ɡ o r ɛ j ɛ t͡s
 pytlačit	p ɪ t l a t͡ʃ ɪ t
 pytláctví	p ɪ t l aː t͡s t v iː
 pytlák	p ɪ t l aː k
-pyžamo	p ɪ ʒ a m o
 pyšný	p ɪ ʃ n iː
+pyžamo	p ɪ ʒ a m o
 pábitel	p aː b ɪ t ɛ l
 páchat	p aː x a t
 páchnout	p aː x n o u̯ t
@@ -12620,22 +12620,22 @@ páteř	p aː t ɛ r̝̊
 páteřní	p aː t ɛ r̝ ɲ iː
 pátrat	p aː t r a t
 pávice	p aː v ɪ t͡s ɛ
-páře	p aː r̝ ɛ
 páče	p aː t͡ʃ ɛ
 páčen	p aː t͡ʃ ɛ n
 páčena	p aː t͡ʃ ɛ n a
 páčeno	p aː t͡ʃ ɛ n o
 páčidlo	p aː t͡ʃ ɪ d l o
 páčit	p aː t͡ʃ ɪ t
-pářu	p aː r̝ u
-páťák	p aː c aː k
 páčí	p aː t͡ʃ iː
 páčím	p aː t͡ʃ iː m
 páčíš	p aː t͡ʃ iː ʃ
+páře	p aː r̝ ɛ
+pářu	p aː r̝ u
+páťák	p aː c aː k
 péct	p ɛː t͡s t
 péro	p ɛː r o
-péťa	p ɛː c a
 péče	p ɛː t͡ʃ ɛ
+péťa	p ɛː c a
 píce	p iː t͡s ɛ
 píchnout	p iː x n o u̯ t
 pícnina	p iː t͡s ɲ ɪ n a
@@ -12660,6 +12660,7 @@ píst	p iː s t
 pístový	p iː s t o v iː
 písčina	p iː s t͡ʃ ɪ n a
 písčitý	p iː s t͡ʃ ɪ t iː
+píčovina	p iː t͡ʃ o v ɪ n a
 píď	p iː c
 píše	p iː ʃ ɛ
 píšeme	p iː ʃ ɛ m ɛ
@@ -12667,7 +12668,6 @@ píšete	p iː ʃ ɛ t ɛ
 píšeš	p iː ʃ ɛ ʃ
 píši	p iː ʃ ɪ
 píšou	p iː ʃ o u̯
-píčovina	p iː t͡ʃ o v ɪ n a
 píšu	p iː ʃ u
 píší	p iː ʃ iː
 pól	p oː l
@@ -12686,14 +12686,52 @@ póza	p oː z a
 pýcha	p iː x a
 pýr	p iː r
 pěchota	p j ɛ x o t a
-půd	p uː t
-půdo	p uː d o
-půdorys	p uː d o r ɪ s
-půdou	p uː d o u̯
-půdu	p uː d u
-půdy	p uː d ɪ
-půdám	p uː d aː m
-půdě	p uː ɟ ɛ
+pěj	p j ɛ j
+pěje	p j ɛ j ɛ
+pějete	p j ɛ j ɛ t ɛ
+pěješ	p j ɛ j ɛ ʃ
+pěji	p j ɛ j ɪ
+pěkná	p j ɛ k n aː
+pěkné	p j ɛ k n ɛː
+pěkně	p j ɛ k ɲ ɛ
+pěl	p j ɛ l
+pěla	p j ɛ l a
+pěli	p j ɛ l ɪ
+pělo	p j ɛ l o
+pěly	p j ɛ l ɪ
+pěn	p j ɛ n
+pěni	p j ɛ ɲ ɪ
+pěnice	p j ɛ ɲ ɪ t͡s ɛ
+pěnkava	p j ɛ ŋ k a v a
+pěnkavka	p j ɛ ŋ k a f k a
+pěnkavák	p j ɛ ŋ k a v aː k
+pěnkaví	p j ɛ ŋ k a v iː
+pěnkavčí	p j ɛ ŋ k a f t͡ʃ iː
+pěno	p j ɛ n o
+pěnou	p j ɛ n o u̯
+pěnu	p j ɛ n u
+pěny	p j ɛ n ɪ
+pěnčák	p j ɛ ŋ t ʃ aː k
+pěně	p j ɛ ɲ ɛ
+pěst	p j ɛ s t
+pěsti	p j ɛ s c ɪ
+pěstoun	p j ɛ s t o u̯ n
+pěstovat	p j ɛ s t o v a t
+pěstí	p j ɛ s c iː
+pětiboj	p j ɛ c ɪ b o j
+pětibojař	p j ɛ c ɪ b o j a r̝̊
+pětikilo	p j ɛ c ɪ k ɪ l o
+pětikoruna	p j ɛ c ɪ k o r u n a
+pětina	p j ɛ c ɪ n a
+pětistěn	p j ɛ c ɪ s c ɛ n
+pětiúhelník	p j ɛ c ɪ uː ɦ ɛ l ɲ iː k
+pětkrát	p j ɛ t k r aː t
+pěvec	p j ɛ v ɛ t s
+pěvkyně	p j ɛ f k ɪ ɲ ɛ
+pěvuška	p j ɛ v u ʃ k a
+pěšec	p j ɛ ʃ ɛ t͡s
+pěšina	p j ɛ ʃ ɪ n a
+pěšák	p j ɛ ʃ aː k
 pře	p r̝̊ ɛ
 přeborník	p r̝̊ ɛ b o r ɲ iː k
 přebytek	p r̝̊ ɛ b ɪ t ɛ k
@@ -12771,8 +12809,8 @@ předávat	p r̝̊ ɛ d aː v a t
 předávkovat	p r̝̊ ɛ d aː f k o v a t
 předávkování	p r̝̊ ɛ d aː f k o v aː ɲ iː
 předčasný	p r̝̊ ɛ t͡ʃ a s n iː
-předškolní	p r̝̊ ɛ t ʃ k o l ɲ iː
 předělávat	p r̝̊ ɛ ɟ ɛ l aː v a t
+předškolní	p r̝̊ ɛ t ʃ k o l ɲ iː
 přefiknout	p r̝̊ ɛ f ɪ k n o u̯ t
 přeformulovat	p r̝̊ ɛ f o r m u l o v a t
 přeformulování	p r̝̊ ɛ f o r m u l o v aː ɲ iː
@@ -12832,9 +12870,8 @@ přemítat	p r̝̊ ɛ m iː t a t
 přemýšlet	p r̝̊ ɛ m iː ʃ l ɛ t
 přeměna	p r̝̊ ɛ m ɲ ɛ n a
 přeměnit	p r̝̊ ɛ m ɲ ɛ ɲ ɪ t
-přeměřit	p r̝̊ ɛ m ɲ ɛ r̝ ɪ t
 přeměňovat	p r̝̊ ɛ m ɲ ɛ ɲ o v a t
-pšenice	p ʃ ɛ ɲ ɪ t͡s ɛ
+přeměřit	p r̝̊ ɛ m ɲ ɛ r̝ ɪ t
 přenos	p r̝̊ ɛ n o s
 přenosnost	p r̝̊ ɛ n o s n o s t
 přenosný	p r̝̊ ɛ n o s n iː
@@ -12985,76 +13022,11 @@ přizpůsobit	p r̝̊ ɪ s p uː s o b ɪ t
 přizpůsobivost	p r̝̊ ɪ s p uː s o b ɪ v o s t
 přizpůsobivý	p r̝̊ ɪ s p uː s o b ɪ v iː
 přizpůsobovat	p r̝̊ ɪ s p uː s o b o v a t
-přiřadit	p r̝̊ ɪ r̝ a ɟ ɪ t
-přiřazení	p r̝̊ ɪ r̝ a z ɛ ɲ iː
 přičinlivý	p r̝̊ ɪ t͡ʃ ɪ n l ɪ v iː
 přičíst	p r̝̊ ɪ t͡ʃ iː s t
 přičítat	p r̝̊ ɪ t͡ʃ iː t a t
-pěj	p j ɛ j
-pěje	p j ɛ j ɛ
-pějete	p j ɛ j ɛ t ɛ
-pěješ	p j ɛ j ɛ ʃ
-pěji	p j ɛ j ɪ
-půjčka	p uː j t͡ʃ k a
-pěkná	p j ɛ k n aː
-pěkné	p j ɛ k n ɛː
-pěkně	p j ɛ k ɲ ɛ
-pěl	p j ɛ l
-pěla	p j ɛ l a
-půlení	p uː l ɛ ɲ iː
-pěli	p j ɛ l ɪ
-půlit	p uː l ɪ t
-půlka	p uː l k a
-půllitr	p uː l ɪ t r̩
-půlmaraton	p uː l m a r a t o n
-půlměsíc	p uː l m̩ ɲ ɛ s iː t͡s
-půlnoc	p uː l n o t͡s
-půlnoční	p uː l n o t͡ʃ ɲ iː
-pělo	p j ɛ l o
-půltón	p uː l t oː n
-pěly	p j ɛ l ɪ
-pěn	p j ɛ n
-pěni	p j ɛ ɲ ɪ
-pěnice	p j ɛ ɲ ɪ t͡s ɛ
-pěnkava	p j ɛ ŋ k a v a
-pěnkavka	p j ɛ ŋ k a f k a
-pěnkavák	p j ɛ ŋ k a v aː k
-pěnkaví	p j ɛ ŋ k a v iː
-pěnkavčí	p j ɛ ŋ k a f t͡ʃ iː
-pěno	p j ɛ n o
-pěnou	p j ɛ n o u̯
-pěnu	p j ɛ n u
-pěny	p j ɛ n ɪ
-pěně	p j ɛ ɲ ɛ
-pěnčák	p j ɛ ŋ t ʃ aː k
-pšouk	p ʃ o u̯ k
-pšoukat	p ʃ o u̯ k a t
-působit	p uː s o b ɪ t
-působivost	p uː s o b ɪ v o s t
-působivý	p uː s o b ɪ v iː
-pěst	p j ɛ s t
-půst	p uː s t
-pěsti	p j ɛ s c ɪ
-pěstoun	p j ɛ s t o u̯ n
-pěstovat	p j ɛ s t o v a t
-pěstí	p j ɛ s c iː
-pětiboj	p j ɛ c ɪ b o j
-pětibojař	p j ɛ c ɪ b o j a r̝̊
-pětikilo	p j ɛ c ɪ k ɪ l o
-pětikoruna	p j ɛ c ɪ k o r u n a
-pětina	p j ɛ c ɪ n a
-pětistěn	p j ɛ c ɪ s c ɛ n
-pětiúhelník	p j ɛ c ɪ uː ɦ ɛ l ɲ iː k
-půtka	p uː t k a
-pětkrát	p j ɛ t k r aː t
-pštrosice	p ʃ t r o s ɪ t͡s ɛ
-pštrosí	p ʃ t r o s iː
-pěvec	p j ɛ v ɛ t s
-pěvkyně	p j ɛ f k ɪ ɲ ɛ
-původ	p uː v o t
-původní	p uː v o d ɲ iː
-původně	p uː v o d ɲ ɛ
-pěvuška	p j ɛ v u ʃ k a
+přiřadit	p r̝̊ ɪ r̝ a ɟ ɪ t
+přiřazení	p r̝̊ ɪ r̝ a z ɛ ɲ iː
 přádelník	p r̝ aː d ɛ l ɲ iː k
 přáníčko	p r̝̊ aː ɲ iː t͡ʃ k o
 přátelský	p r̝̊ aː t ɛ l s k iː
@@ -13135,9 +13107,6 @@ příznivec	p r̝̊ iː z ɲ ɪ v ɛ t͡s
 příznivý	p r̝̊ iː z ɲ ɪ v iː
 příznivě	p r̝̊ iː z ɲ ɪ v j ɛ
 přízrak	p r̝̊ iː z r a k
-příď	p r̝̊ iː c
-příšera	p r̝̊ iː ʃ ɛ r a
-příšerný	p r̝̊ iː ʃ ɛ r n iː
 příčestí	p r̝̊ iː t͡ʃ ɛ s c iː
 příčina	p r̝̊ iː t͡ʃ ɪ n a
 příčinnost	p r̝̊ iː t͡ʃ ɪ n o s t
@@ -13145,10 +13114,41 @@ příčinný	p r̝̊ iː t͡ʃ ɪ n iː
 příčit	p r̝̊ iː t͡ʃ ɪ t
 příčka	p r̝̊ iː t͡ʃ k a
 příčný	p r̝̊ iː t͡ʃ n iː
+příď	p r̝̊ iː c
+příšera	p r̝̊ iː ʃ ɛ r a
+příšerný	p r̝̊ iː ʃ ɛ r n iː
 příště	p r̝̊ iː ʃ c ɛ
-pěšec	p j ɛ ʃ ɛ t͡s
-pěšina	p j ɛ ʃ ɪ n a
-pěšák	p j ɛ ʃ aː k
+pšenice	p ʃ ɛ ɲ ɪ t͡s ɛ
+pšouk	p ʃ o u̯ k
+pšoukat	p ʃ o u̯ k a t
+pštrosice	p ʃ t r o s ɪ t͡s ɛ
+pštrosí	p ʃ t r o s iː
+půd	p uː t
+půdo	p uː d o
+půdorys	p uː d o r ɪ s
+půdou	p uː d o u̯
+půdu	p uː d u
+půdy	p uː d ɪ
+půdám	p uː d aː m
+půdě	p uː ɟ ɛ
+půjčka	p uː j t͡ʃ k a
+půlení	p uː l ɛ ɲ iː
+půlit	p uː l ɪ t
+půlka	p uː l k a
+půllitr	p uː l ɪ t r̩
+půlmaraton	p uː l m a r a t o n
+půlměsíc	p uː l m̩ ɲ ɛ s iː t͡s
+půlnoc	p uː l n o t͡s
+půlnoční	p uː l n o t͡ʃ ɲ iː
+půltón	p uː l t oː n
+působit	p uː s o b ɪ t
+působivost	p uː s o b ɪ v o s t
+působivý	p uː s o b ɪ v iː
+půst	p uː s t
+půtka	p uː t k a
+původ	p uː v o t
+původní	p uː v o d ɲ iː
+původně	p uː v o d ɲ ɛ
 rabiát	r a b ɪ aː t
 rabovat	r a b o v a t
 racek	r a t͡s ɛ k
@@ -13198,8 +13198,8 @@ radím	r a ɟ iː m
 radíme	r a ɟ iː m ɛ
 radíte	r a ɟ iː t ɛ
 radíš	r a ɟ iː ʃ
-radě	r a ɟ ɛ
 radčin	r a t͡ʃ ɪ n
+radě	r a ɟ ɛ
 raf	r a f
 rafinovaný	r a f ɪ n o v a n iː
 rafinovat	r a f ɪ n o v a t
@@ -13255,17 +13255,17 @@ razí	r a z iː
 razím	r a z iː m
 razítko	r a z iː t k o
 razíš	r a z iː ʃ
+račí	r a t͡ʃ iː
+rašelina	r a ʃ ɛ l ɪ n a
+rašple	r a ʃ p l ɛ
+rašplovat	r a ʃ p l o v a t
 raťafák	r a c a f aː k
 ražba	r a ʒ b a
-rašelina	r a ʃ ɛ l ɪ n a
 ražen	r a ʒ ɛ n
 ražena	r a ʒ ɛ n a
 raženi	r a ʒ ɛ ɲ ɪ
 raženo	r a ʒ ɛ n o
 raženy	r a ʒ ɛ n ɪ
-rašple	r a ʃ p l ɛ
-rašplovat	r a ʃ p l o v a t
-račí	r a t͡ʃ iː
 rdousit	r d o u̯ s ɪ t
 reagens	r ɛ a ɡ ɛ n s
 reagovat	r ɛ a ɡ o v a t
@@ -13462,8 +13462,8 @@ rodím	r o ɟ iː m
 rodíme	r o ɟ iː m ɛ
 rodíte	r o ɟ iː t ɛ
 rodíš	r o ɟ iː ʃ
-rodů	r o d uː
 rodě	r o ɟ ɛ
+rodů	r o d uː
 rodům	r o d uː m
 roh	r o x
 rohatý	r o ɦ a t iː
@@ -13611,9 +13611,9 @@ rozkulačován	r o s k u l a t͡ʃ o v aː n
 rozkulačování	r o s k u l a t͡ʃ o v aː ɲ iː
 rozkázat	r o s k aː z a t
 rozlehnout	r o z l ɛ ɦ n o u̯ t
+rozličný	r o z l ɪ t͡ʃ n iː
 rozlišení	r o z l ɪ ʃ ɛ ɲ iː
 rozlišit	r o z l ɪ ʃ ɪ t
-rozličný	r o z l ɪ t͡ʃ n iː
 rozlišovat	r o z l ɪ ʃ o v a t
 rozloha	r o z l o ɦ a
 rozloučit	r o z l o u̯ t͡ʃ ɪ t
@@ -13676,8 +13676,8 @@ roztoč	r o s t o t͡ʃ
 roztroušený	r o s t r o u̯ ʃ ɛ n iː
 roztáhnout	r o s t aː ɦ n o u̯ t
 roztát	r o s t aː t
-roztřetit	r o s t r̝̊ ɛ c ɪ t
 roztěkaný	r o s c ɛ k a n iː
+roztřetit	r o s t r̝̊ ɛ c ɪ t
 roztřídit	r o s t r̝̊ iː ɟ ɪ t
 rozum	r o z u m
 rozumnost	r o z u m n o s t
@@ -13699,20 +13699,20 @@ rozzlobený	r o z l o b ɛ n iː
 rozzuřit	r o z u r̝ ɪ t
 rozárčin	r o z aː r t͡ʃ ɪ n
 rozích	r o z iː x
-rozředit	r o z r̝ ɛ ɟ ɪ t
 rozčilovat	r o s t͡ʃ ɪ l o v a t
-rozšiřovat	r o s ʃ ɪ r̝ o v a t
 rozčtvrtit	r o s t͡ʃ t v r̩ c ɪ t
-rozštěpit	r o s ʃ c ɛ p ɪ t
 rozčílit	r o s t͡ʃ iː l ɪ t
+rozředit	r o z r̝ ɛ ɟ ɪ t
+rozšiřovat	r o s ʃ ɪ r̝ o v a t
+rozštěpit	r o s ʃ c ɛ p ɪ t
 rozšířený	r o s ʃ iː r̝ ɛ n iː
 rozšířit	r o s ʃ iː r̝ ɪ t
-roď	r o c
 ročenka	r o t͡ʃ ɛ ŋ k a
-rožnout	r o ʒ n o u̯ t
 roční	r o t͡ʃ ɲ iː
 ročník	r o t͡ʃ ɲ iː k
 ročně	r o t͡ʃ ɲ ɛ
+roď	r o c
+rožnout	r o ʒ n o u̯ t
 rte	r t ɛ
 rtech	r t ɛ x
 rtem	r t ɛ m
@@ -13749,6 +13749,10 @@ ruska	r u s k a
 rusky	r u s k ɪ
 ruský	r u s k iː
 rusák	r u s aː k
+ručit	r u t͡ʃ ɪ t
+ručitel	r u t͡ʃ ɪ t ɛ l
+ručička	r u t͡ʃ ɪ t͡ʃ k a
+ručně	r u t͡ʃ ɲ ɛ
 ruš	r u ʃ
 ruše	r u ʃ ɛ
 rušen	r u ʃ ɛ n
@@ -13757,11 +13761,7 @@ rušeni	r u ʃ ɛ ɲ ɪ
 rušeno	r u ʃ ɛ n o
 rušeny	r u ʃ ɛ n ɪ
 rušení	r u ʃ ɛ ɲ iː
-ručit	r u t͡ʃ ɪ t
 rušit	r u ʃ ɪ t
-ručitel	r u t͡ʃ ɪ t ɛ l
-ručička	r u t͡ʃ ɪ t͡ʃ k a
-ručně	r u t͡ʃ ɲ ɛ
 rušte	r u ʃ t ɛ
 ruštinář	r u ʃ c ɪ n aː r̝̊
 ruší	r u ʃ iː
@@ -13802,9 +13802,9 @@ rámec	r aː m ɛ t͡s
 rámeček	r aː m ɛ t͡ʃ ɛ k
 rámus	r aː m u s
 rána	r aː n a
-ráďa	r aː ɟ a
 ráčkovat	r aː t͡ʃ k o v a t
 ráčkování	r aː t͡ʃ k o v aː ɲ iː
+ráďa	r aː ɟ a
 rétor	r ɛː t o r
 rétoricky	r ɛː t o r ɪ t͡s k ɪ
 rétorický	r ɛː t o r ɪ t͡s k iː
@@ -13830,8 +13830,7 @@ různorodost	r uː z n o r o d o s t
 různorodý	r uː z n o r o d iː
 různost	r uː z n o s t
 různý	r uː z n iː
-ržání	r ʒ aː ɲ iː
-ržát	r ʒ aː t
+růčo	r uː t͡ʃ o
 růža	r uː ʒ a
 růžena	r uː ʒ ɛ n a
 růženec	r uː ʒ ɛ n ɛ t͡s
@@ -13840,8 +13839,9 @@ růženka	r uː ʒ ɛ ŋ k a
 růžice	r uː ʒ ɪ t͡s ɛ
 růžička	r uː ʒ ɪ t͡ʃ k a
 růžičková	r uː ʒ ɪ t͡ʃ k o v aː
-růčo	r uː t͡ʃ o
 růžovka	r uː ʒ o f k a
+ržání	r ʒ aː ɲ iː
+ržát	r ʒ aː t
 sabina	s a b ɪ n a
 sabinin	s a b ɪ ɲ ɪ n
 sabinka	s a b ɪ ŋ k a
@@ -13908,8 +13908,8 @@ samuel	s a m u ɛ l
 samuraj	s a m u r a j
 samá	s a m aː
 samý	s a m iː
-samův	s a m uː f
 samčí	s a m t͡ʃ iː
+samův	s a m uː f
 sandokan	s a n d o k a n
 sandra	s a n d r a
 sandál	s a n d aː l
@@ -14171,9 +14171,9 @@ seznamka	s ɛ z n a m k a
 seznamovat	s ɛ z n a m o v a t
 seznámit	s ɛ z n aː m ɪ t
 sezónní	s ɛ z oː ɲ iː
+sečíst	s ɛ t͡ʃ iː s t
 seřadit	s ɛ r̝ a ɟ ɪ t
 seřvat	s ɛ r̝ v a t
-sečíst	s ɛ t͡ʃ iː s t
 sešít	s ɛ ʃ iː t
 sešívat	s ɛ ʃ iː v a t
 sféra	s f ɛː r a
@@ -14326,8 +14326,8 @@ skotka	s k o t k a
 skotu	s k o t u
 skotština	s k o t ʃ c ɪ n a
 skoupý	s k o u̯ p iː
-skořicovník	s k o r̝ ɪ t͡s o v ɲ iː k
 skočit	s k o t͡ʃ ɪ t
+skořicovník	s k o r̝ ɪ t͡s o v ɲ iː k
 skořápka	s k o r̝ aː p k a
 skrblit	s k r̩ b l ɪ t
 skrblík	s k r̩ b l iː k
@@ -14412,8 +14412,8 @@ slezina	s l ɛ z ɪ n a
 slezsko	s l ɛ s k o
 slezský	s l ɛ s k iː
 slezština	s l ɛ s ʃ c ɪ n a
-sleť	s l ɛ c
 slečnin	s l ɛ t͡ʃ ɲ ɪ n
+sleť	s l ɛ c
 slibe	s l ɪ b ɛ
 slibný	s l ɪ b n iː
 slibotechna	s l ɪ b o t ɛ x n a
@@ -14519,13 +14519,13 @@ sluta	s l u t a
 sluti	s l u c ɪ
 sluto	s l u t o
 sluty	s l u t ɪ
+slučka	s l u t ʃ k a
+slušný	s l u ʃ n iː
 služba	s l u ʒ b a
 služebnictvo	s l u ʒ ɛ b ɲ ɪ t͡s t v o
 služební	s l u ʒ ɛ b ɲ iː
 služebník	s l u ʒ ɛ b ɲ iː k
-slučka	s l u t ʃ k a
 služka	s l u ʃ k a
-slušný	s l u ʃ n iː
 služčin	s l u ʃ t͡ʃ ɪ n
 slyšení	s l ɪ ʃ ɛ ɲ iː
 slyšitelný	s l ɪ ʃ ɪ t ɛ l n iː
@@ -14559,8 +14559,8 @@ smetou	s m ɛ t o u̯
 smetu	s m ɛ t u
 smeták	s m ɛ t aː k
 smetánka	s m ɛ t aː ŋ k a
-smeť	s m ɛ c
 smečka	s m ɛ t͡ʃ k a
+smeť	s m ɛ c
 smeťák	s m ɛ c aː k
 smilný	s m ɪ l n iː
 smilstvo	s m ɪ l s t v o
@@ -14594,12 +14594,8 @@ smysluplný	s m ɪ s l u p l̩ n iː
 smyčka	s m ɪ t͡ʃ k a
 smyšlený	s m ɪ ʃ l ɛ n iː
 smísit	s m iː s ɪ t
-smíšený	s m iː ʃ ɛ n iː
 smířit	s m iː r̝ ɪ t
-smůl	s m uː l
-smůle	s m uː l ɛ
-smůlo	s m uː l o
-smůlu	s m uː l u
+smíšený	s m iː ʃ ɛ n iː
 smělý	s m̩ ɲ ɛ l iː
 směna	s m̩ ɲ ɛ n a
 směnka	s m̩ ɲ ɛ ŋ k a
@@ -14610,10 +14606,14 @@ směrovací	s m̩ ɲ ɛ r o v a t͡s iː
 směrovač	s m̩ ɲ ɛ r o v a t͡ʃ
 směrový	s m̩ ɲ ɛ r o v iː
 směs	s m̩ ɲ ɛ s
+směřovat	s m̩ ɲ ɛ r̝ o v a t
 směšnost	s m̩ ɲ ɛ ʃ n o s t
 směšný	s m̩ ɲ ɛ ʃ n iː
 směšně	s m̩ ɲ ɛ ʃ ɲ ɛ
-směřovat	s m̩ ɲ ɛ r̝ o v a t
+smůl	s m uː l
+smůle	s m uː l ɛ
+smůlo	s m uː l o
+smůlu	s m uː l u
 snach	s n a x
 snacha	s n a x a
 snad	s n a t
@@ -14655,9 +14655,9 @@ sněhurka	s ɲ ɛ ɦ u r k a
 sněmovna	s ɲ ɛ m o v n a
 snění	s ɲ ɛ ɲ iː
 sněženka	s ɲ ɛ ʒ ɛ ŋ k a
-snůška	s n uː ʃ k a
 sněžka	s ɲ ɛ ʃ k a
 sněžný	s ɲ ɛ ʒ n iː
+snůška	s n uː ʃ k a
 sobec	s o b ɛ t͡s
 sobeckost	s o b ɛ t͡s k o s t
 sobecký	s o b ɛ t͡s k iː
@@ -14790,9 +14790,9 @@ součást	s o u̯ t͡ʃ aː s t
 sova	s o v a
 sovice	s o v ɪ t͡s ɛ
 soví	s o v iː
+soči	s o t͡ʃ ɪ
 soňa	s o n j a
 soše	s o ʃ ɛ
-soči	s o t͡ʃ ɪ
 spacák	s p a t͡s aː k
 spad	s p a t
 spadla	s p a d l a
@@ -14898,13 +14898,13 @@ spočetnost	s p o t͡ʃ ɛ t n o s t
 spočetný	s p o t͡ʃ ɛ t n iː
 spočetně	s p o t͡ʃ ɛ t ɲ ɛ
 spočinout	s p o t͡ʃ ɪ n o u̯ t
+spočíst	s p o t͡ʃ iː s t
+spočívat	s p o t͡ʃ iː v a t
 spořit	s p o r̝ ɪ t
 spořitel	s p o r̝ ɪ t ɛ l
 spořitelna	s p o r̝ ɪ t ɛ l n a
 spořivost	s p o r̝ ɪ v o s t
 spořivý	s p o r̝ ɪ v iː
-spočíst	s p o t͡ʃ iː s t
-spočívat	s p o t͡ʃ iː v a t
 spravedlivost	s p r a v ɛ d l ɪ v o s t
 spravedlivý	s p r a v ɛ d l ɪ v iː
 spravedlnost	s p r a v ɛ d l̩ n o s t
@@ -14936,8 +14936,8 @@ sralbotka	s r a l b o t k a
 sranda	s r a n d a
 sranec	s r a n ɛ t͡s
 srazit	s r a z ɪ t
-sraženina	s r a ʒ ɛ ɲ ɪ n a
 sračka	s r a t͡ʃ k a
+sraženina	s r a ʒ ɛ ɲ ɪ n a
 srbka	s r̩ p k a
 srbochorvatština	s r̩ b o x o r v a t ʃ c ɪ n a
 srbsko	s r̩ p s k o
@@ -15117,16 +15117,16 @@ stratosférický	s t r a t o s f ɛː r ɪ t͡s k iː
 stratég	s t r a t ɛː k
 strava	s t r a v a
 stravenka	s t r a v ɛ ŋ k a
+stračka	s t r a t ʃ k a
+stračí	s t r a t͡ʃ iː
 strašidelný	s t r a ʃ ɪ d ɛ l n iː
 strašidlo	s t r a ʃ ɪ d l o
 strašit	s t r a ʃ ɪ t
-stračka	s t r a t ʃ k a
 strašný	s t r a ʃ n iː
 strašně	s t r a ʃ ɲ ɛ
 strašpytel	s t r a ʃ p ɪ t ɛ l
 strašpytlovský	s t r a ʃ p ɪ t l o f s k iː
 strašák	s t r a ʃ aː k
-stračí	s t r a t͡ʃ iː
 strdimil	s t r̩ ɟ ɪ m ɪ l
 strejda	s t r ɛ j d a
 stres	s t r ɛ s
@@ -15153,8 +15153,8 @@ stromeček	s t r o m ɛ t͡ʃ ɛ k
 stromořadí	s t r o m o r̝ a ɟ iː
 stromu	s t r o m u
 stromy	s t r o m ɪ
-stromů	s t r o m uː
 stromě	s t r o m ɲ ɛ
+stromů	s t r o m uː
 stromům	s t r o m uː m
 strop	s t r o p
 strouhanka	s t r o u̯ ɦ a ŋ k a
@@ -15221,9 +15221,9 @@ státník	s t aː t ɲ iː k
 stáza	s t aː z a
 stázička	s t aː z ɪ t͡ʃ k a
 stázka	s t aː s k a
-stáž	s t aː ʃ
 stáňa	s t aː ɲ a
 stáří	s t aː r̝ iː
+stáž	s t aː ʃ
 stíhat	s c iː ɦ a t
 stíhání	s c iː ɦ aː ɲ iː
 stínit	s c iː ɲ ɪ t
@@ -15231,6 +15231,15 @@ stínový	s c iː n o v iː
 stínítko	s c iː ɲ iː t k o
 stížnost	s c iː ʒ n o s t
 stý	s t iː
+stěhovat	s c ɛ ɦ o v a t
+stěhovavý	s c ɛ ɦ o v a v iː
+stěhování	s c ɛ ɦ o v aː ɲ iː
+stěna	s c ɛ n a
+stěně	s c ɛ ɲ ɛ
+stěrka	s c ɛ r k a
+stěžeň	s c ɛ ʒ ɛ ɲ
+stěžovatel	s c ɛ ʒ o v a t ɛ l
+stěží	s c ɛ ʒ iː
 střecha	s t r̝̊ ɛ x a
 středa	s t r̝̊ ɛ d a
 středisko	s t r̝̊ ɛ ɟ ɪ s k o
@@ -15254,15 +15263,9 @@ střevle	s t r̝̊ ɛ v l ɛ
 střevní	s t r̝̊ ɛ v ɲ iː
 střevíc	s t r̝̊ ɛ v iː t͡s
 střežit	s t r̝̊ ɛ ʒ ɪ t
-stěhovat	s c ɛ ɦ o v a t
-stěhovavý	s c ɛ ɦ o v a v iː
-stěhování	s c ɛ ɦ o v aː ɲ iː
 střih	s t r̝̊ ɪ x
 střihač	s t r̝̊ ɪ ɦ a t͡ʃ
 střihnout	s t r̝̊ ɪ ɦ n o u̯ t
-stěna	s c ɛ n a
-stěně	s c ɛ ɲ ɛ
-stěrka	s c ɛ r k a
 stříbrný	s t r̝̊ iː b r̩ n iː
 stříbrotepec	s t r̝̊ iː b r o t ɛ p ɛ t͡s
 stříbrozobka	s t r̝ iː b r o z o p k a
@@ -15275,9 +15278,6 @@ střízlivost	s t r̝̊ iː z l ɪ v o s t
 střízlivý	s t r̝̊ iː z l ɪ v iː
 střízlík	s t r̝̊ iː z l iː k
 střízlíkovec	s t r̝ iː z l iː k o v ɛ t s
-stěžeň	s c ɛ ʒ ɛ ɲ
-stěžovatel	s c ɛ ʒ o v a t ɛ l
-stěží	s c ɛ ʒ iː
 subjekt	s u b j ɛ k t
 subjektivismus	s u b j ɛ k t ɪ v ɪ z m u s
 subjektivita	s u b j ɛ k t ɪ v ɪ t a
@@ -15346,10 +15346,10 @@ suspektní	s u s p ɛ k t ɲ iː
 sussexský	s u s ɛ k s k iː
 suti	s u c ɪ
 sutě	s u c ɛ
-suť	s u c
 sušenka	s u ʃ ɛ ŋ k a
 sušený	s u ʃ ɛ n iː
 sušit	s u ʃ ɪ t
+suť	s u c
 svah	s v a x
 svahilština	s v a ɦ ɪ l ʃ c ɪ n a
 sval	s v a l
@@ -15412,9 +15412,9 @@ svátek	s v aː t ɛ k
 sváteční	s v aː t ɛ t͡ʃ ɲ iː
 svátost	s v aː t o s t
 svázat	s v aː z a t
-sváťa	s v aː c a
 svářet	s v aː r̝ ɛ t
 svářeč	s v aː r̝ ɛ t͡ʃ
+sváťa	s v aː c a
 svérázný	s v ɛː r aː z n iː
 svést	s v ɛː s t
 sví	s v iː
@@ -15426,12 +15426,9 @@ svízel	s v iː z ɛ l
 svíčka	s v iː t͡ʃ k a
 svíčkař	s v iː t͡ʃ k a r̝̊
 svěcený	s v j ɛ t͡s ɛ n iː
-svůdce	s v uː t͡s ɛ
 svědectví	s v j ɛ d ɛ t͡s t v iː
 svědek	s v j ɛ d ɛ k
 svědkyně	s v j ɛ t k ɪ ɲ ɛ
-svůdkyně	s v uː t k ɪ ɲ ɛ
-svůdný	s v uː d n iː
 svědomitost	s v j ɛ d o m ɪ t o s t
 svědomitý	s v j ɛ d o m ɪ t iː
 svědomí	s v j ɛ d o m iː
@@ -15457,6 +15454,9 @@ světoobčanství	s v j ɛ t o o p t͡ʃ a n s t v iː
 světoznámý	s v j ɛ t o z n aː m iː
 světský	s v j ɛ t s k iː
 světák	s v j ɛ t aː k
+svůdce	s v uː t͡s ɛ
+svůdkyně	s v uː t k ɪ ɲ ɛ
+svůdný	s v uː d n iː
 sychravý	s ɪ x r a v iː
 sykat	s ɪ k a t
 sykavka	s ɪ k a f k a
@@ -15499,10 +15499,10 @@ systém	s ɪ s t ɛː m
 systémový	s ɪ s t ɛː m o v iː
 sytost	s ɪ t o s t
 sytý	s ɪ t iː
-syřan	s ɪ r̝ a n
-syřanka	s ɪ r̝ a ŋ k a
 syčet	s ɪ t͡ʃ ɛ t
 syčák	s ɪ t͡ʃ aː k
+syřan	s ɪ r̝ a n
+syřanka	s ɪ r̝ a ŋ k a
 sádlo	s aː d l o
 ságo	s aː ɡ o
 ságovník	s aː ɡ o v ɲ iː k
@@ -15556,8 +15556,8 @@ sít	s iː t
 síto	s iː t o
 sítotisk	s iː t o c ɪ s k
 sívíčko	s iː v iː t͡ʃ k o
-síť	s iː c
 síň	s iː ɲ
+síť	s iː c
 síťkovaný	s iː c k o v a n iː
 síťovka	s iː c o f k a
 síťový	s iː c o v iː
@@ -15583,6 +15583,8 @@ sýry	s iː r ɪ
 sýrů	s iː r uː
 sýrům	s iː r uː m
 sýček	s iː t͡ʃ ɛ k
+sčítanec	s t͡ʃ iː t a n ɛ t͡s
+sčítání	s t͡ʃ iː t aː ɲ iː
 sňatek	s ɲ a t ɛ k
 sův	s uː f
 sůva	s uː v a
@@ -15592,8 +15594,6 @@ sůvu	s uː v u
 sůvy	s uː v ɪ
 sůvám	s uː v aː m
 sůvě	s uː v j ɛ
-sčítanec	s t͡ʃ iː t a n ɛ t͡s
-sčítání	s t͡ʃ iː t aː ɲ iː
 tabelátor	t a b ɛ l aː t o r
 tableta	t a b l ɛ t a
 tabule	t a b u l ɛ
@@ -15637,9 +15637,9 @@ taktika	t a k t ɪ k a
 taktní	t a k t ɲ iː
 takto	t a k t o
 taky	t a k ɪ
-takže	t a ɡ ʒ ɛ
 takřka	t a k r̝̊ k a
 takříkajíc	t a k r̝̊ iː k a j iː t͡s
+takže	t a ɡ ʒ ɛ
 talián	t a l ɪ aː n
 taloš	t a l o ʃ
 tamara	t a m a r a
@@ -15693,13 +15693,13 @@ tautologie	t a u̯ t o l o ɡ ɪ ɛ
 tavit	t a v ɪ t
 tazatel	t a z a t ɛ l
 tazích	t a z iː x
-taťka	t a c k a
 taškent	t a ʃ k ɛ n t
-tažnost	t a ʒ n o s t
-tažný	t a ʒ n iː
+taťka	t a c k a
 taťulda	t a c u l d a
 taťána	t a c aː n a
 taťánin	t a c aː ɲ ɪ n
+tažnost	t a ʒ n o s t
+tažný	t a ʒ n iː
 tchořice	t x o r̝ ɪ t͡s ɛ
 tchoří	t x o r̝ iː
 tchynin	t x ɪ ɲ ɪ n
@@ -15812,10 +15812,10 @@ tetřev	t ɛ t r̝̊ ɛ f
 tetřevice	t ɛ t r̝̊ ɛ v ɪ t͡s ɛ
 tetřívek	t ɛ t r̝̊ iː v ɛ k
 tezaurus	t ɛ z a u̯ r u s
-teďka	t ɛ c k a
-teďkon	t ɛ c k o n
 tečna	t ɛ t͡ʃ n a
 teču	t ɛ t͡ʃ u
+teďka	t ɛ c k a
+teďkon	t ɛ c k o n
 tibeťanka	t ɪ b ɛ c a ŋ k a
 tibor	c ɪ b o r
 ticho	c ɪ x o
@@ -15935,8 +15935,8 @@ tovaryš	t o v a r ɪ ʃ
 tovární	t o v aː r ɲ iː
 továrník	t o v aː r ɲ iː k
 toxický	t o k s ɪ t͡s k iː
-tožan	t o ʒ a n
 točit	t o t͡ʃ ɪ t
+tožan	t o ʒ a n
 tožský	t o ʃ s k iː
 trabzon	t r a b z o n
 tradičně	t r a ɟ ɪ t͡ʃ ɲ ɛ
@@ -15991,8 +15991,8 @@ trestanec	t r ɛ s t a n ɛ t͡s
 trestat	t r ɛ s t a t
 trestní	t r ɛ s t ɲ iː
 trestný	t r ɛ s t n iː
-tresť	t r ɛ s c
 tresčí	t r ɛ s t͡ʃ iː
+tresť	t r ɛ s c
 trevír	t r ɛ v iː r
 trhat	t r̩ ɦ a t
 trhavý	t r̩ ɦ a v iː
@@ -16085,8 +16085,8 @@ trávník	t r aː v ɲ iː k
 trávníček	t r aː v ɲ iː t͡ʃ ɛ k
 trénovat	t r ɛː n o v a t
 trójan	t r oː j a n
-tržiště	t r̩ ʒ ɪ ʃ c ɛ
 trůn	t r uː n
+tržiště	t r̩ ʒ ɪ ʃ c ɛ
 tržní	t r̩ ʒ ɲ iː
 tuba	t u b a
 tucet	t u t͡s ɛ t
@@ -16130,11 +16130,11 @@ turkyně	t u r k ɪ ɲ ɛ
 turpan	t u r p a n
 turíňan	t u r iː ɲ a n
 tuze	t u z ɛ
-tužba	t u ʒ b a
-tušení	t u ʃ ɛ ɲ iː
-tušit	t u ʃ ɪ t
 tučný	t u t͡ʃ n iː
 tuřín	t u r̝ iː n
+tušení	t u ʃ ɛ ɲ iː
+tušit	t u ʃ ɪ t
+tužba	t u ʒ b a
 tvar	t v a r
 tvargle	t v a r ɡ l ɛ
 tvaroh	t v a r o x
@@ -16195,8 +16195,8 @@ tátův	t aː t uː f
 tázací	t aː z a t͡s iː
 tázat	t aː z a t
 táňa	t aː ɲ a
-též	t ɛː ʃ
 téčko	t ɛː t͡ʃ k o
+též	t ɛː ʃ
 tíha	c iː ɦ a
 tílko	c iː l k o
 tím	c iː m
@@ -16215,24 +16215,8 @@ týrat	t iː r a t
 týž	t iː ʃ
 tě	c ɛ
 těch	c ɛ x
-třeba	t r̝̊ ɛ b a
-třebaže	t r̝̊ ɛ b a ʒ ɛ
-tření	t r̝̊ ɛ ɲ iː
-třese	t r̝̊ ɛ s ɛ
-třeseš	t r̝̊ ɛ s ɛ ʃ
-třesot	t r̝̊ ɛ s o t
-třetina	t r̝̊ ɛ c ɪ n a
-třetit	t r̝̊ ɛ c ɪ t
-třetí	t r̝̊ ɛ c iː
-třešeň	t r̝̊ ɛ ʃ ɛ ɲ
-třeťák	t r̝̊ ɛ c aː k
-třešňový	t r̝̊ ɛ ʃ ɲ o v iː
 těhotenství	c ɛ ɦ o t ɛ n s t v iː
 těhotný	c ɛ ɦ o t n iː
-tři	t r̝̊ ɪ
-třiadvacet	t r̝̊ ɪ a d v a t͡s ɛ t
-třicetkrát	t r̝̊ ɪ t͡s ɛ t k r aː t
-třináctkrát	t r̝̊ ɪ n aː t͡s t k r aː t
 těkat	c ɛ k a t
 těkavý	c ɛ k a v iː
 těl	c ɛ l
@@ -16254,9 +16238,6 @@ těly	c ɛ l ɪ
 tělísko	c ɛ l iː s k o
 tělíčko	c ɛ l iː t͡ʃ k o
 tělům	c ɛ l uː m
-třmen	t r̝̊ m ɛ n
-třpytit	t r̝̊ p ɪ c ɪ t
-třpytivý	t r̝̊ p ɪ c ɪ v iː
 těrka	c ɛ r k a
 těsnopis	c ɛ s n o p ɪ s
 těsný	c ɛ s n iː
@@ -16264,6 +16245,34 @@ těsně	c ɛ s ɲ ɛ
 těstoviny	c ɛ s t o v ɪ n ɪ
 těstíčko	c ɛ s c iː t͡ʃ k o
 tětiva	c ɛ c ɪ v a
+těšit	c ɛ ʃ ɪ t
+těšín	c ɛ ʃ iː n
+těžbě	c ɛ ʒ b j ɛ
+těžce	c ɛ ʃ t͡s ɛ
+těžeb	c ɛ ʒ ɛ p
+těžit	c ɛ ʒ ɪ t
+těžknout	c ɛ ʃ k n o u̯ t
+těžko	c ɛ ʃ k o
+těžší	c ɛ ʃ iː
+třeba	t r̝̊ ɛ b a
+třebaže	t r̝̊ ɛ b a ʒ ɛ
+tření	t r̝̊ ɛ ɲ iː
+třese	t r̝̊ ɛ s ɛ
+třeseš	t r̝̊ ɛ s ɛ ʃ
+třesot	t r̝̊ ɛ s o t
+třetina	t r̝̊ ɛ c ɪ n a
+třetit	t r̝̊ ɛ c ɪ t
+třetí	t r̝̊ ɛ c iː
+třešeň	t r̝̊ ɛ ʃ ɛ ɲ
+třešňový	t r̝̊ ɛ ʃ ɲ o v iː
+třeťák	t r̝̊ ɛ c aː k
+tři	t r̝̊ ɪ
+třiadvacet	t r̝̊ ɪ a d v a t͡s ɛ t
+třicetkrát	t r̝̊ ɪ t͡s ɛ t k r aː t
+třináctkrát	t r̝̊ ɪ n aː t͡s t k r aː t
+třmen	t r̝̊ m ɛ n
+třpytit	t r̝̊ p ɪ c ɪ t
+třpytivý	t r̝̊ p ɪ c ɪ v iː
 třást	t r̝̊ aː s t
 třídit	t r̝̊ iː ɟ ɪ t
 třídní	t r̝̊ iː d ɲ iː
@@ -16272,15 +16281,6 @@ tříhlavý	t r̝̊ iː ɦ l a v iː
 třípětinový	t r̝̊ iː p j ɛ c ɪ n o v iː
 tříska	t r̝̊ iː s k a
 tříštit	t r̝̊ iː ʃ c ɪ t
-těžbě	c ɛ ʒ b j ɛ
-těžce	c ɛ ʃ t͡s ɛ
-těžeb	c ɛ ʒ ɛ p
-těšit	c ɛ ʃ ɪ t
-těžit	c ɛ ʒ ɪ t
-těžknout	c ɛ ʃ k n o u̯ t
-těžko	c ɛ ʃ k o
-těšín	c ɛ ʃ iː n
-těžší	c ɛ ʃ iː
 uber	u b ɛ r
 ubezdušit	u b ɛ z d u ʃ ɪ t
 ubezpečit	u b ɛ s p ɛ t͡ʃ ɪ t
@@ -16559,8 +16559,8 @@ utéct	u t ɛː t͡s t
 utíkat	u c iː k a t
 utírat	u c iː r a t
 utěrka	u c ɛ r k a
-utřít	u t r̝̊ iː t
 utěšit	u c ɛ ʃ ɪ t
+utřít	u t r̝̊ iː t
 uvařit	u v a r̝ ɪ t
 uvažovat	u v a ʒ o v a t
 uveřejnit	u v ɛ r̝ ɛ j ɲ ɪ t
@@ -16614,8 +16614,6 @@ uznávat	u z n aː v a t
 uzákonit	u z aː k o ɲ ɪ t
 uzávěr	u z aː v j ɛ r
 uzávěrka	u z aː v j ɛ r k a
-uď	u c
-ušanka	u ʃ a ŋ k a
 učebnice	u t͡ʃ ɛ b ɲ ɪ t͡s ɛ
 učebnicový	u t͡ʃ ɛ b ɲ ɪ t͡s o v iː
 učedník	u t͡ʃ ɛ d ɲ iː k
@@ -16624,25 +16622,27 @@ učenost	u t͡ʃ ɛ n o s t
 učení	u t͡ʃ ɛ ɲ iː
 učený	u t͡ʃ ɛ n iː
 učesat	u t͡ʃ ɛ s a t
-ušetřit	u ʃ ɛ t r̝̊ ɪ t
-užhorod	u ʒ ɦ o r o t
 učiliště	u t͡ʃ ɪ l ɪ ʃ c ɛ
 učinit	u t͡ʃ ɪ ɲ ɪ t
-užitek	u ʒ ɪ t ɛ k
 učitelský	u t͡ʃ ɪ t ɛ l s k iː
 učitelčin	u t͡ʃ ɪ t ɛ l t͡ʃ ɪ n
 učitelův	u t͡ʃ ɪ t ɛ l uː f
+uď	u c
+ušanka	u ʃ a ŋ k a
+ušetřit	u ʃ ɛ t r̝̊ ɪ t
+uškrtit	u ʃ k r̩ c ɪ t
+ušlechtilý	u ʃ l ɛ x c ɪ l iː
+ušní	u ʃ ɲ iː
+uštknout	u ʃ t k n o u̯ t
+užhorod	u ʒ ɦ o r o t
+užitek	u ʒ ɪ t ɛ k
 užitečnost	u ʒ ɪ t ɛ t͡ʃ n o s t
 užitečně	u ʒ ɪ t ɛ t͡ʃ ɲ ɛ
 užitkový	u ʒ ɪ t k o v iː
 uživatel	u ʒ ɪ v a t ɛ l
 uživatelský	u ʒ ɪ v a t ɛ l s k iː
 uživit	u ʒ ɪ v ɪ t
-uškrtit	u ʃ k r̩ c ɪ t
-ušlechtilý	u ʃ l ɛ x c ɪ l iː
-ušní	u ʃ ɲ iː
 užovka	u ʒ o f k a
-uštknout	u ʃ t k n o u̯ t
 užvaněný	u ʒ v a ɲ ɛ n iː
 užít	u ʒ iː t
 užívat	u ʒ iː v a t
@@ -16704,8 +16704,8 @@ varovat	v a r o v a t
 varování	v a r o v aː ɲ iː
 varu	v a r u
 vary	v a r ɪ
-varů	v a r uː
 varšava	v a r ʃ a v a
+varů	v a r uː
 varům	v a r uː m
 vatra	v a t r a
 vavruška	v a v r u ʃ k a
@@ -16717,15 +16717,15 @@ vazač	v a z a t͡ʃ
 vazba	v a z b a
 vazokonstrikce	v a z o k o n s t r ɪ k t͡s ɛ
 vazák	v a z aː k
+vačnatec	v a t͡ʃ n a t ɛ t͡s
 vaď	v a c
 vař	v a r̝̊
-vaše	v a ʃ ɛ
-vašek	v a ʃ ɛ k
 vaření	v a r̝ ɛ ɲ iː
 vařečka	v a r̝ ɛ t͡ʃ k a
 vařit	v a r̝ ɪ t
 vařič	v a r̝ ɪ t͡ʃ
-vačnatec	v a t͡ʃ n a t ɛ t͡s
+vaše	v a ʃ ɛ
+vašek	v a ʃ ɛ k
 vašík	v a ʃ iː k
 vašíček	v a ʃ iː t͡ʃ ɛ k
 vcítění	f t͡s iː c ɛ ɲ iː
@@ -16819,8 +16819,8 @@ veronika	v ɛ r o n ɪ k a
 veroničin	v ɛ r o n ɪ t͡ʃ ɪ n
 versatilka	v ɛ r z a t ɪ l k a
 verunka	v ɛ r u ŋ k a
-verš	v ɛ r ʃ
 verča	v ɛ r t͡ʃ a
+verš	v ɛ r ʃ
 veršotepec	v ɛ r ʃ o t ɛ p ɛ t͡s
 veršovnictví	v ɛ r ʃ o v ɲ ɪ t͡s t v iː
 veselka	v ɛ s ɛ l k a
@@ -16871,15 +16871,15 @@ vezměte	v ɛ z m̩ ɲ ɛ t ɛ
 vezou	v ɛ z o u̯
 vezte	v ɛ s t ɛ
 vezu	v ɛ z u
-veš	v ɛ ʃ
+večernice	v ɛ t͡ʃ ɛ r ɲ ɪ t͡s ɛ
+večeřet	v ɛ t͡ʃ ɛ r̝ ɛ t
+večírek	v ɛ t͡ʃ iː r ɛ k
 veřejnost	v ɛ r̝ ɛ j n o s t
 veřejný	v ɛ r̝ ɛ j n iː
 veřejně	v ɛ r̝ ɛ j ɲ ɛ
-večernice	v ɛ t͡ʃ ɛ r ɲ ɪ t͡s ɛ
-večeřet	v ɛ t͡ʃ ɛ r̝ ɛ t
+veš	v ɛ ʃ
 veška	v ɛ ʃ k a
 veškerý	v ɛ ʃ k ɛ r iː
-večírek	v ɛ t͡ʃ iː r ɛ k
 vhodnost	v ɦ o d n o s t
 vhodný	v ɦ o d n iː
 vichr	v ɪ x r̩
@@ -16903,19 +16903,19 @@ vidím	v ɪ ɟ iː m
 vidíme	v ɪ ɟ iː m ɛ
 vidíte	v ɪ ɟ iː t ɛ
 vidíš	v ɪ ɟ iː ʃ
-vidů	v ɪ d uː
 viděl	v ɪ ɟ ɛ l
 viděla	v ɪ ɟ ɛ l a
 viděli	v ɪ ɟ ɛ l ɪ
 vidělo	v ɪ ɟ ɛ l o
 viděly	v ɪ ɟ ɛ l ɪ
-vidům	v ɪ d uː m
 viděn	v ɪ ɟ ɛ n
 viděna	v ɪ ɟ ɛ n a
 viděni	v ɪ ɟ ɛ ɲ ɪ
 viděno	v ɪ ɟ ɛ n o
 viděny	v ɪ ɟ ɛ n ɪ
 vidění	v ɪ ɟ ɛ ɲ iː
+vidů	v ɪ d uː
+vidům	v ɪ d uː m
 vikev	v ɪ k ɛ f
 viktor	v ɪ k t o r
 viktorka	v ɪ k t o r k a
@@ -16960,9 +16960,9 @@ vizme	v ɪ z m ɛ
 vizte	v ɪ s t ɛ
 vizuální	v ɪ z u aː l ɲ iː
 viď	v ɪ c
+viďte	v ɪ c t ɛ
 višeň	v ɪ ʃ ɛ ɲ
 višně	v ɪ ʃ ɲ ɛ
-viďte	v ɪ c t ɛ
 vkapat	f k a p a t
 vklad	f k l a t
 vladan	v l a d a n
@@ -16992,9 +16992,9 @@ vlastnost	v l a s t n o s t
 vlastně	v l a s t ɲ ɛ
 vlastík	v l a s c iː k
 vlasy	v l a s ɪ
-vlažný	v l a ʒ n iː
 vlaštovka	v l a ʃ t o f k a
 vlaštovčí	v l a ʃ t o f t͡ʃ iː
+vlažný	v l a ʒ n iː
 vlezdoprdelista	v l ɛ z d o p r̩ d ɛ l ɪ s t a
 vlezdoprdelka	v l ɛ z d o p r̩ d ɛ l k a
 vlha	v l̩ ɦ a
@@ -17013,9 +17013,9 @@ vlnolam	v l̩ n o l a m
 vlnovka	v l̩ n o f k a
 vloupat	v l o u̯ p a t
 vloupání	v l o u̯ p aː ɲ iː
-vložit	v l o ʒ ɪ t
 vločka	v l ɔ t͡ʃ k a
 vločkovník	v l o k t ʃ o v n iː k
+vložit	v l o ʒ ɪ t
 vládce	v l aː t͡s ɛ
 vládkyně	v l aː t k ɪ ɲ ɛ
 vládnout	v l aː d n o u̯ t
@@ -17023,9 +17023,9 @@ vládní	v l aː d ɲ iː
 vláknina	v l aː k ɲ ɪ n a
 vlákno	v l aː k n o
 vlásečnice	v l aː s ɛ t͡ʃ ɲ ɪ t͡s ɛ
-vláďa	v l aː ɟ a
 vláček	v l aː t͡ʃ ɛ k
 vláčkodráha	v l aː t͡ʃ k o d r aː ɦ a
+vláďa	v l aː ɟ a
 vléci	v l ɛː t͡s ɪ
 vléct	v l ɛː t͡s t
 vlídný	v l iː d n iː
@@ -17283,10 +17283,10 @@ vydírat	v ɪ ɟ iː r a t
 vydírání	v ɪ ɟ iː r aː ɲ iː
 vydědit	v ɪ ɟ ɛ ɟ ɪ t
 vydědění	v ɪ ɟ ɛ ɟ ɛ ɲ iː
-vydře	v ɪ d r̝ ɛ
 vydělaný	v ɪ ɟ ɛ l a n iː
-vydří	v ɪ d r̝ iː
 vyděšený	v ɪ ɟ ɛ ʃ ɛ n iː
+vydře	v ɪ d r̝ ɛ
+vydří	v ɪ d r̝ iː
 vyfiltrovat	v ɪ f ɪ l t r o v a t
 vyhazov	v ɪ ɦ a z o f
 vyhlazování	v ɪ ɦ l a z o v aː ɲ iː
@@ -17476,9 +17476,9 @@ vytuhnout	v ɪ t u ɦ n o u̯ t
 vytáhnout	v ɪ t aː ɦ n o u̯ t
 vytáčet	v ɪ t aː t͡ʃ ɛ t
 vytýkat	v ɪ t iː k a t
-využití	v ɪ u ʒ ɪ c iː
 vyučovat	v ɪ u t͡ʃ o v a t
 vyučování	v ɪ u t͡ʃ o v aː ɲ iː
+využití	v ɪ u ʒ ɪ c iː
 využít	v ɪ u ʒ iː t
 využívat	v ɪ u ʒ iː v a t
 vyvinout	v ɪ v ɪ n o u̯ t
@@ -17503,29 +17503,29 @@ vyzunknout	v ɪ z u ŋ k n o u̯ t
 vyzvat	v ɪ z v a t
 vyzývat	v ɪ z iː v a t
 vyústit	v ɪ uː s c ɪ t
-vyžadovat	v ɪ ʒ a d o v a t
-vyžehlit	v ɪ ʒ ɛ ɦ l ɪ t
 vyčerpaný	v ɪ t͡ʃ ɛ r p a n iː
 vyčerpat	v ɪ t͡ʃ ɛ r p a t
 vyčerpání	v ɪ t͡ʃ ɛ r p aː ɲ iː
 vyčerpávající	v ɪ t͡ʃ ɛ r p aː v a j iː t͡s iː
-vyšetření	v ɪ ʃ ɛ t r̝̊ ɛ ɲ iː
-vyšetřovatel	v ɪ ʃ ɛ t r̝̊ o v a t ɛ l
-vyřezávat	v ɪ r̝ ɛ z aː v a t
-vyřešit	v ɪ r̝ ɛ ʃ ɪ t
 vyčinit	v ɪ t͡ʃ ɪ ɲ ɪ t
 vyčiněný	v ɪ t͡ʃ ɪ ɲ ɛ n iː
 vyčistit	v ɪ t͡ʃ ɪ s c ɪ t
-vyřizovat	v ɪ r̝ ɪ z o v a t
-vyštejnová	v ɪ ʃ t ɛ j n o v aː
-vyřídit	v ɪ r̝ iː ɟ ɪ t
 vyčíslit	v ɪ t͡ʃ iː s l ɪ t
 vyčíslitelný	v ɪ t͡ʃ iː s l ɪ t ɛ l n iː
 vyčítat	v ɪ t͡ʃ iː t a t
+vyřezávat	v ɪ r̝ ɛ z aː v a t
+vyřešit	v ɪ r̝ ɛ ʃ ɪ t
+vyřizovat	v ɪ r̝ ɪ z o v a t
+vyřídit	v ɪ r̝ iː ɟ ɪ t
+vyšetření	v ɪ ʃ ɛ t r̝̊ ɛ ɲ iː
+vyšetřovatel	v ɪ ʃ ɛ t r̝̊ o v a t ɛ l
+vyštejnová	v ɪ ʃ t ɛ j n o v aː
 vyšívat	v ɪ ʃ iː v a t
+vyšší	v ɪ ʃ iː
 vyšťavený	v ɪ ʃ c a v ɛ n iː
 vyšťavit	v ɪ ʃ c a v ɪ t
-vyšší	v ɪ ʃ iː
+vyžadovat	v ɪ ʒ a d o v a t
+vyžehlit	v ɪ ʒ ɛ ɦ l ɪ t
 vzad	v z a t
 vzadu	v z a d u
 vzal	v z a l
@@ -17652,9 +17652,9 @@ vázaný	v aː z a n iː
 vázat	v aː z a t
 váňa	v aː ɲ a
 váša	v aː ʃ a
-vážený	v aː ʒ ɛ n iː
 vášeň	v aː ʃ ɛ ɲ
 vášnivý	v aː ʃ ɲ ɪ v iː
+vážený	v aː ʒ ɛ n iː
 vážnost	v aː ʒ n o s t
 vážně	v aː ʒ ɲ ɛ
 véna	v ɛː n a
@@ -17715,10 +17715,10 @@ vítězný	v iː c ɛ z n iː
 vítězslav	v iː c ɛ s l a f
 vítězství	v iː c ɛ s t v iː
 vízum	v iː z u m
+víčko	v iː t͡ʃ k o
+víře	v iː r̝ ɛ
 víš	v iː ʃ
 víťa	v iː c a
-víře	v iː r̝ ɛ
-víčko	v iː t͡ʃ k o
 výboj	v iː b o j
 výbor	v iː b o r
 výbuch	v iː b u x
@@ -17826,25 +17826,29 @@ významný	v iː z n a m n iː
 významně	v iː z n a m ɲ ɛ
 významový	v iː z n a m o v iː
 výzva	v iː z v a
-výše	v iː ʃ ɛ
 výčitka	v iː t͡ʃ ɪ t k a
-výživné	v iː ʒ ɪ v n ɛː
+výše	v iː ʃ ɛ
 výška	v iː ʃ k a
 výškoměr	v iː ʃ k o m ɲ ɛ r
 výškový	v iː ʃ k o v iː
 výškáč	v iː ʃ k aː t͡ʃ
-však	f ʃ a k
+výživné	v iː ʒ ɪ v n ɛː
 včas	f t͡ʃ a s
-vřava	v r̝ a v a
+včela	f t͡ʃ ɛ l a
+včelař	f t͡ʃ ɛ l a r̝̊
+včelička	f t͡ʃ ɛ l ɪ t͡ʃ k a
+včelojed	f t͡ʃ ɛ l o j ɛ t
+včelí	f t͡ʃ ɛ l iː
+včelín	f t͡ʃ ɛ l iː n
+včerejšek	f t͡ʃ ɛ r ɛ j ʃ ɛ k
+včerejší	f t͡ʃ ɛ r ɛ j ʃ iː
+včetně	f t͡ʃ ɛ t ɲ ɛ
+včil	f t͡ʃ ɪ l
 věda	v j ɛ d a
-vůdce	v uː t͡s ɛ
-vůdcovství	v uː t͡s o f s t v iː
-vůdcův	v uː t͡s uː f
 vědeckost	v j ɛ d ɛ t͡s k o s t
 vědecky	v j ɛ d ɛ t͡s k ɪ
 věder	v j ɛ d ɛ r
 vědkyně	v j ɛ t k ɪ ɲ ɛ
-vůdkyně	v uː t k ɪ ɲ ɛ
 vědma	v j ɛ d m a
 vědom	v j ɛ d o m
 vědomost	v j ɛ d o m o s t
@@ -17859,8 +17863,6 @@ vědro	v j ɛ d r o
 vědru	v j ɛ d r u
 vědry	v j ɛ d r ɪ
 vědrům	v j ɛ d r uː m
-vždycky	v ʒ d ɪ t͡s k ɪ
-vždyť	v ʒ d ɪ c
 vědí	v j ɛ ɟ iː
 věděl	v j ɛ ɟ ɛ l
 věděla	v j ɛ ɟ ɛ l a
@@ -17868,44 +17870,8 @@ věděli	v j ɛ ɟ ɛ l ɪ
 vědělo	v j ɛ ɟ ɛ l o
 věděly	v j ɛ ɟ ɛ l ɪ
 vědění	v j ɛ ɟ ɛ ɲ iː
-vše	f ʃ ɛ
-všechno	f ʃ ɛ x n o
-všechny	f ʃ ɛ x n ɪ
-všední	f ʃ ɛ d ɲ iː
-vředový	v r̝ ɛ d o v iː
-všekaz	f ʃ ɛ k a s
-včela	f t͡ʃ ɛ l a
-včelař	f t͡ʃ ɛ l a r̝̊
-vřele	v r̝ ɛ l ɛ
-včelička	f t͡ʃ ɛ l ɪ t͡ʃ k a
-včelojed	f t͡ʃ ɛ l o j ɛ t
-všelék	f ʃ ɛ l ɛː k
-včelí	f t͡ʃ ɛ l iː
-včelín	f t͡ʃ ɛ l iː n
-vřelý	v r̝ ɛ l iː
-všemocný	f ʃ ɛ m o t͡s n iː
-všemohoucnost	f ʃ ɛ m o ɦ o u̯ t͡s n o s t
-všemohoucí	f ʃ ɛ m o ɦ o u̯ t͡s iː
-včerejšek	f t͡ʃ ɛ r ɛ j ʃ ɛ k
-včerejší	f t͡ʃ ɛ r ɛ j ʃ iː
-vřesoviště	v r̝ ɛ s o v ɪ ʃ c ɛ
-vřesový	v r̝ ɛ s o v iː
-všestrannost	f ʃ ɛ s t r a n o s t
-všestranný	f ʃ ɛ s t r a n iː
-včetně	f t͡ʃ ɛ t ɲ ɛ
-vševidoucí	f ʃ ɛ v ɪ d o u̯ t͡s iː
-vševěd	f ʃ ɛ v j ɛ t
-vševědoucí	f ʃ ɛ v j ɛ d o u̯ t͡s iː
-vřešťan	v r̝ ɛ ʃ c a n
 věhlas	v j ɛ ɦ l a s
 věhlasný	v j ɛ ɦ l a s n iː
-vši	f ʃ ɪ
-všichni	f ʃ ɪ x ɲ ɪ
-všici	f ʃ ɪ t͡s ɪ
-včil	f t͡ʃ ɪ l
-všimnout	f ʃ ɪ m n o u̯ t
-všivák	f ʃ ɪ v aː k
-vůle	v uː l ɛ
 vělička	v j ɛ l ɪ t͡ʃ k a
 věn	v j ɛ n
 věna	v j ɛ n a
@@ -17914,15 +17880,13 @@ věnceslava	v j ɛ n t͡s ɛ s l a v a
 věnec	v j ɛ n ɛ t͡s
 věnem	v j ɛ n ɛ m
 věneček	v j ɛ n ɛ t͡ʃ ɛ k
-vůni	v uː ɲ ɪ
 věno	v j ɛ n o
 věnovat	v j ɛ n o v a t
 věnování	v j ɛ n o v aː ɲ iː
 věnu	v j ɛ n u
 věny	v j ɛ n ɪ
-věně	v j ɛ ɲ ɛ
-vůně	v uː ɲ ɛ
 věnčitý	v j ɛ n t͡ʃ ɪ t iː
+věně	v j ɛ ɲ ɛ
 věnům	v j ɛ n uː m
 věr	v j ɛ r
 věra	v j ɛ r a
@@ -17944,12 +17908,10 @@ větroň	v j ɛ t r o ɲ
 větvit	v j ɛ t v ɪ t
 větvička	v j ɛ t v ɪ t͡ʃ k a
 větévka	v j ɛ t ɛː f k a
-vštípit	f ʃ c iː p ɪ t
 většina	v j ɛ t ʃ ɪ n a
 většinou	v j ɛ t͡ʃ ɪ n o u̯
 většinový	v j ɛ t ʃ ɪ n o v iː
 větší	v j ɛ t ʃ iː
-všudypřítomný	f ʃ u d ɪ p r̝̊ iː t o m n iː
 věz	v j ɛ s
 vězení	v j ɛ z ɛ ɲ iː
 vězeň	v j ɛ z ɛ ɲ
@@ -17958,21 +17920,16 @@ vězeňský	v j ɛ z ɛ ɲ s k iː
 vězme	v j ɛ z m ɛ
 věznit	v j ɛ z ɲ ɪ t
 vězte	v j ɛ s t ɛ
-vší	f ʃ iː
-vřídek	v r̝ iː d ɛ k
-všímat	f ʃ iː m a t
+věčnost	v j ɛ t͡ʃ n o s t
+věčná	v j ɛ t͡ʃ n aː
+věčný	v j ɛ t͡ʃ n iː
 věř	v j ɛ r̝̊
-věž	v j ɛ ʃ
 věře	v j ɛ r̝ ɛ
-věže	v j ɛ ʒ ɛ
 věřen	v j ɛ r̝ ɛ n
 věřena	v j ɛ r̝ ɛ n a
 věřeni	v j ɛ r̝ ɛ ɲ ɪ
 věřeno	v j ɛ r̝ ɛ n o
 věřeny	v j ɛ r̝ ɛ n ɪ
-věži	v j ɛ ʒ ɪ
-vůči	v uː t͡ʃ ɪ
-vůčihledně	v uː t͡ʃ ɪ ɦ l ɛ d ɲ ɛ
 věřil	v j ɛ r̝ ɪ l
 věřila	v j ɛ r̝ ɪ l a
 věřili	v j ɛ r̝ ɪ l ɪ
@@ -17980,28 +17937,71 @@ věřilo	v j ɛ r̝ ɪ l o
 věřily	v j ɛ r̝ ɪ l ɪ
 věřin	v j ɛ r̝ ɪ n
 věřitel	v j ɛ r̝ ɪ t ɛ l
-věžička	v j ɛ ʒ ɪ t͡ʃ k a
 věřme	v j ɛ r̝ m ɛ
-věčnost	v j ɛ t͡ʃ n o s t
-věčná	v j ɛ t͡ʃ n aː
-věčný	v j ɛ t͡ʃ n iː
-věštba	v j ɛ ʒ d b a
 věřte	v j ɛ r̝̊ t ɛ
+věří	v j ɛ r̝ iː
+věříc	v j ɛ r̝ iː t͡s
+věříce	v j ɛ r̝ iː t͡s ɛ
+věřící	v j ɛ r̝ iː t͡s iː
+věřím	v j ɛ r̝ iː m
+věříme	v j ɛ r̝ iː m ɛ
+věříte	v j ɛ r̝ iː t ɛ
+věříš	v j ɛ r̝ iː ʃ
+věštba	v j ɛ ʒ d b a
 věštec	v j ɛ ʃ t ɛ t͡s
 věštit	v j ɛ ʃ c ɪ t
 věštkyně	v j ɛ ʃ t k ɪ ɲ ɛ
 věštění	v j ɛ ʃ c ɛ ɲ iː
 věšák	v j ɛ ʃ aː k
-věří	v j ɛ r̝ iː
+věž	v j ɛ ʃ
+věže	v j ɛ ʒ ɛ
+věži	v j ɛ ʒ ɪ
+věžička	v j ɛ ʒ ɪ t͡ʃ k a
 věží	v j ɛ ʒ iː
-věříc	v j ɛ r̝ iː t͡s
-věříce	v j ɛ r̝ iː t͡s ɛ
-věřící	v j ɛ r̝ iː t͡s iː
-věřím	v j ɛ r̝ iː m
 věžím	v j ɛ ʒ iː m
-věříme	v j ɛ r̝ iː m ɛ
-věříte	v j ɛ r̝ iː t ɛ
-věříš	v j ɛ r̝ iː ʃ
+vřava	v r̝ a v a
+vředový	v r̝ ɛ d o v iː
+vřele	v r̝ ɛ l ɛ
+vřelý	v r̝ ɛ l iː
+vřesoviště	v r̝ ɛ s o v ɪ ʃ c ɛ
+vřesový	v r̝ ɛ s o v iː
+vřešťan	v r̝ ɛ ʃ c a n
+vřídek	v r̝ iː d ɛ k
+však	f ʃ a k
+vše	f ʃ ɛ
+všechno	f ʃ ɛ x n o
+všechny	f ʃ ɛ x n ɪ
+všední	f ʃ ɛ d ɲ iː
+všekaz	f ʃ ɛ k a s
+všelék	f ʃ ɛ l ɛː k
+všemocný	f ʃ ɛ m o t͡s n iː
+všemohoucnost	f ʃ ɛ m o ɦ o u̯ t͡s n o s t
+všemohoucí	f ʃ ɛ m o ɦ o u̯ t͡s iː
+všestrannost	f ʃ ɛ s t r a n o s t
+všestranný	f ʃ ɛ s t r a n iː
+vševidoucí	f ʃ ɛ v ɪ d o u̯ t͡s iː
+vševěd	f ʃ ɛ v j ɛ t
+vševědoucí	f ʃ ɛ v j ɛ d o u̯ t͡s iː
+vši	f ʃ ɪ
+všichni	f ʃ ɪ x ɲ ɪ
+všici	f ʃ ɪ t͡s ɪ
+všimnout	f ʃ ɪ m n o u̯ t
+všivák	f ʃ ɪ v aː k
+vštípit	f ʃ c iː p ɪ t
+všudypřítomný	f ʃ u d ɪ p r̝̊ iː t o m n iː
+vší	f ʃ iː
+všímat	f ʃ iː m a t
+vůdce	v uː t͡s ɛ
+vůdcovství	v uː t͡s o f s t v iː
+vůdcův	v uː t͡s uː f
+vůdkyně	v uː t k ɪ ɲ ɛ
+vůle	v uː l ɛ
+vůni	v uː ɲ ɪ
+vůně	v uː ɲ ɛ
+vůči	v uː t͡ʃ ɪ
+vůčihledně	v uː t͡ʃ ɪ ɦ l ɛ d ɲ ɛ
+vždycky	v ʒ d ɪ t͡s k ɪ
+vždyť	v ʒ d ɪ c
 waltz	v a l t͡s
 westminsterský	v ɛ s t m ɪ n s t ɛ r s k iː
 woman	v o m a n
@@ -18152,6 +18152,7 @@ zamítat	z a m iː t a t
 zamítnout	z a m iː t n o u̯ t
 zamířit	z a m iː r̝ ɪ t
 zamýšlet	z a m iː ʃ l ɛ t
+zamčít	z a m t͡ʃ iː t
 zaměnit	z a m ɲ ɛ ɲ ɪ t
 zaměnitelný	z a m ɲ ɛ ɲ ɪ t ɛ l n iː
 zaměstnanecký	z a m ɲ ɛ s t n a n ɛ t͡s k iː
@@ -18161,10 +18162,9 @@ zaměstnat	z a m ɲ ɛ s t n a t
 zaměstnavatel	z a m ɲ ɛ s t n a v a t ɛ l
 zaměstnavatelka	z a m ɲ ɛ s t n a v a t ɛ l k a
 zaměstnávat	z a m ɲ ɛ s t n aː v a t
-zamčít	z a m t͡ʃ iː t
+zaměňovat	z a m ɲ ɛ ɲ o v a t
 zaměření	z a m ɲ ɛ r̝ ɛ ɲ iː
 zaměřit	z a m ɲ ɛ r̝ ɪ t
-zaměňovat	z a m ɲ ɛ ɲ o v a t
 zaměřování	z a m ɲ ɛ r̝ o v aː ɲ iː
 zanechat	z a n ɛ x a t
 zanechávat	z a n ɛ x aː v a t
@@ -18277,16 +18277,16 @@ zaznamenat	z a z n a m ɛ n a t
 zazobanec	z a z o b a n ɛ t͡s
 zazobaný	z a z o b a n iː
 zazpívá	z a s p iː v aː
+začlenit	z a t͡ʃ l ɛ ɲ ɪ t
+začátečník	z a t͡ʃ aː t ɛ t͡ʃ ɲ iː k
 zařadit	z a r̝ a ɟ ɪ t
 zařehtání	z a r̝ ɛ x t aː ɲ iː
-zaškrtit	z a ʃ k r̩ c ɪ t
-začlenit	z a t͡ʃ l ɛ ɲ ɪ t
 zařvat	z a r̝ v a t
-začátečník	z a t͡ʃ aː t ɛ t͡ʃ ɲ iː k
 zařídit	z a r̝ iː ɟ ɪ t
-zažít	z a ʒ iː t
 zařízení	z a r̝ iː z ɛ ɲ iː
 zařízený	z a r̝ iː z ɛ n iː
+zaškrtit	z a ʃ k r̩ c ɪ t
+zažít	z a ʒ iː t
 zbabrat	z b a b r a t
 zbaběle	z b a b j ɛ l ɛ
 zbabělec	z b a b j ɛ l ɛ t͡s
@@ -18443,8 +18443,6 @@ země	z ɛ m ɲ ɛ
 zemědělec	z ɛ m ɲ ɛ ɟ ɛ l ɛ t͡s
 zemědělský	z ɛ m ɲ ɛ ɟ ɛ l s k iː
 zemědělství	z ɛ m ɲ ɛ ɟ ɛ l s t v iː
-zemřelý	z ɛ m r̝ ɛ l iː
-zemření	z ɛ m r̝ ɛ ɲ iː
 zeměkoule	z ɛ m ɲ ɛ k o u̯ l ɛ
 zeměměřič	z ɛ m ɲ ɛ m ɲ ɛ r̝ ɪ t͡ʃ
 zeměměřičství	z ɛ m ɲ ɛ m ɲ ɛ r̝ ɪ t͡ʃ s t v iː
@@ -18453,6 +18451,8 @@ zeměpisec	z ɛ m ɲ ɛ p ɪ s ɛ t͡s
 zeměpisný	z ɛ m ɲ ɛ p ɪ s n iː
 zeměpisář	z ɛ m ɲ ɛ p ɪ s aː r̝̊
 zemězpyt	z ɛ m ɲ ɛ s p ɪ t
+zemřelý	z ɛ m r̝ ɛ l iː
+zemření	z ɛ m r̝ ɛ ɲ iː
 zemřít	z ɛ m r̝ iː t
 zepředu	z ɛ p r̝̊ ɛ d u
 zesilovač	z ɛ s ɪ l o v a t͡ʃ
@@ -18464,8 +18464,8 @@ zevrubný	z ɛ v r u b n iː
 zezadu	z ɛ z a d u
 zezelenat	z ɛ z ɛ l ɛ n a t
 zeď	z ɛ c
-zeť	z ɛ c
 zešílet	z ɛ ʃ iː l ɛ t
+zeť	z ɛ c
 zfalšovat	s f a l ʃ o v a t
 zfušovat	s f u ʃ o v a t
 zgruntu	z ɡ r u n t u
@@ -18760,11 +18760,6 @@ zpátečka	s p aː t ɛ t͡ʃ k a
 zpátky	s p aː t k ɪ
 zpíčený	s p iː t͡ʃ ɛ n iː
 zpěněný	s p j ɛ ɲ ɛ n iː
-způsob	s p uː s o p
-způsobený	s p uː s o b ɛ n iː
-způsobilý	s p uː s o b ɪ l iː
-způsobit	s p uː s o b ɪ t
-způsobovat	s p uː s o b o v a t
 zpět	s p j ɛ t
 zpěv	s p j ɛ f
 zpěvaččin	s p j ɛ v a t͡ʃ t͡ʃ ɪ n
@@ -18772,6 +18767,11 @@ zpěvník	s p j ɛ v ɲ iː k
 zpěvákův	s p j ɛ v aː k uː f
 zpěváček	s p j ɛ v aː t͡ʃ ɛ k
 zpěčovat	s p j ɛ t͡ʃ o v a t
+způsob	s p uː s o p
+způsobený	s p uː s o b ɛ n iː
+způsobilý	s p uː s o b ɪ l iː
+způsobit	s p uː s o b ɪ t
+způsobovat	s p uː s o b o v a t
 zrada	z r a d a
 zradit	z r a ɟ ɪ t
 zrak	z r a k
@@ -18795,10 +18795,10 @@ zrníčko	z r̩ ɲ iː t͡ʃ k o
 zrod	z r o t
 zrovna	z r o v n a
 zrudnout	z r u d n o u̯ t
-zrušení	z r u ʃ ɛ ɲ iː
-zrušit	z r u ʃ ɪ t
 zručnost	z r u t͡ʃ n o s t
 zručný	z r u t͡ʃ n iː
+zrušení	z r u ʃ ɛ ɲ iː
+zrušit	z r u ʃ ɪ t
 zrychlení	z r ɪ x l ɛ ɲ iː
 zrychlit	z r ɪ x l ɪ t
 zrychlovat	z r ɪ x l o v a t
@@ -18828,9 +18828,9 @@ ztělesnění	s c ɛ l ɛ s ɲ ɛ ɲ iː
 ztěžka	s c ɛ ʃ k a
 ztěžknout	s c ɛ ʃ k n o u̯ t
 ztěžovat	s c ɛ ʒ o v a t
+zubačka	z u b a t͡ʃ k a
 zubař	z u b a r̝̊
 zubařka	z u b a r̝̊ k a
-zubačka	z u b a t͡ʃ k a
 zubařský	z u b a r̝̊ s k iː
 zubovina	z u b o v ɪ n a
 zubr	z u b r̩
@@ -19060,10 +19060,10 @@ záď	z aː c
 záře	z aː r̝ ɛ
 zářijový	z aː r̝ ɪ j o v iː
 zářit	z aː r̝ ɪ t
-zážitek	z aː ʒ ɪ t ɛ k
 zářivý	z aː r̝ ɪ v iː
 zářivě	z aː r̝ ɪ v j ɛ
 zášť	z aː ʃ c
+zážitek	z aː ʒ ɪ t ɛ k
 zírat	z iː r a t
 získat	z iː s k a t
 získávat	z iː s k aː v a t
@@ -19073,19 +19073,19 @@ zóna	z oː n a
 zúčastnit	z uː t͡ʃ a s t ɲ ɪ t
 zúžení	z uː ʒ ɛ ɲ iː
 zúžit	z uː ʒ ɪ t
+zčistajasna	s t͡ʃ ɪ s t a j a s n a
+zčásti	s t͡ʃ aː s c ɪ
 zředit	z r̝ ɛ ɟ ɪ t
 zředěný	z r̝ ɛ ɟ ɛ n iː
 zřejmě	z r̝ ɛ j m̩ ɲ ɛ
-zženštilý	z ʒ ɛ n ʃ c ɪ l iː
 zřetel	z r̝ ɛ t ɛ l
 zřetelný	z r̝ ɛ t ɛ l n iː
 zřetelně	z r̝ ɛ t ɛ l ɲ ɛ
-zčistajasna	s t͡ʃ ɪ s t a j a s n a
-zůstatek	z uː s t a t ɛ k
-zůstavitel	z uː s t a v ɪ t ɛ l
-zčásti	s t͡ʃ aː s c ɪ
 zříci	z r̝ iː t͡s ɪ
 zříct	z r̝ iː t͡s t
+zůstatek	z uː s t a t ɛ k
+zůstavitel	z uː s t a v ɪ t ɛ l
+zženštilý	z ʒ ɛ n ʃ c ɪ l iː
 áda	aː d a
 ája	aː j a
 ájurvéda	aː j u r v ɛː d a
@@ -19207,17 +19207,12 @@ zříct	z r̝ iː t͡s t
 úzkost	uː s k o s t
 úzkostný	uː s k o s t n iː
 úča	uː t͡ʃ a
-úžas	uː ʒ a s
-úžasný	uː ʒ a s n iː
 účastnit	uː t͡ʃ a s t ɲ ɪ t
 účastník	uː t͡ʃ a s t ɲ iː k
-úředník	uː r̝ ɛ d ɲ iː k
-úžeh	uː ʒ ɛ x
 účel	uː t͡ʃ ɛ l
 účelový	uː t͡ʃ ɛ l o v iː
 účes	uː t͡ʃ ɛ s
 účetnictví	uː t͡ʃ ɛ t ɲ ɪ t͡s t v iː
-úžina	uː ʒ ɪ n a
 účinek	uː t͡ʃ ɪ n ɛ k
 účinkovat	uː t͡ʃ ɪ ŋ k o v a t
 účinnost	uː t͡ʃ ɪ n o s t
@@ -19225,93 +19220,29 @@ zříct	z r̝ iː t͡s t
 účinně	uː t͡ʃ ɪ ɲ ɛ
 účtenka	uː t͡ʃ t ɛ ŋ k a
 účtovat	uː t͡ʃ t o v a t
-ě	j ɛ
-žaber	ʒ a b ɛ r
-žaberní	ʒ a b ɛ r ɲ iː
-žabinec	ʒ a b ɪ n ɛ t͡s
-žabička	ʒ a b ɪ t͡ʃ k a
-žabka	ʒ a p k a
-žabomyší	ʒ a b o m ɪ ʃ iː
-žabožrout	ʒ a b o ʒ r o u̯ t
-žabák	ʒ a b aː k
-žabí	ʒ a b iː
-šachy	ʃ a x ɪ
-řad	r̝ a t
-řadit	r̝ a ɟ ɪ t
+úředník	uː r̝ ɛ d ɲ iː k
+úžas	uː ʒ a s
+úžasný	uː ʒ a s n iː
+úžeh	uː ʒ ɛ x
+úžina	uː ʒ ɪ n a
 čadit	t͡ʃ a ɟ ɪ t
 čadivý	t͡ʃ a ɟ ɪ v iː
-řadič	r̝ a ɟ ɪ t͡ʃ
-řado	r̝ a d o
-žadonit	ʒ a d o ɲ ɪ t
-řadová	r̝ a d o v aː
-řadový	r̝ a d o v iː
 čadský	t͡ʃ a t s k iː
-řadu	r̝ a d u
-řady	r̝ a d ɪ
-řadách	r̝ a d aː x
-řadí	r̝ a ɟ iː
-řadíc	r̝ a ɟ iː t͡s
-řadíce	r̝ a ɟ iː t͡s ɛ
 čadící	t͡ʃ a ɟ iː t͡s iː
-řadím	r̝ a ɟ iː m
-řadíme	r̝ a ɟ iː m ɛ
-řadíte	r̝ a ɟ iː t ɛ
-řadíš	r̝ a ɟ iː ʃ
-řadě	r̝ a ɟ ɛ
-šafránek	ʃ a f r aː n ɛ k
-šafránková	ʃ a f r aː ŋ k o v aː
-žahavec	ʒ a ɦ a v ɛ t͡s
 čajník	t͡ʃ a j ɲ iː k
 čajovna	t͡ʃ a j o v n a
 čajovník	t͡ʃ a j o v ɲ iː k
 čajový	t͡ʃ a j o v iː
 čajznout	t͡ʃ a j z n o u̯ t
-šak	ʃ a k
-šakal	ʃ a k a l
-šakalí	ʃ a k a l iː
-žako	ʒ a k o
 čakra	t͡ʃ a k r a
-žala	ʒ a l a
-šalamoun	ʃ a l a m o u̯ n
-šalamounův	ʃ a l a m o u̯ n uː f
 čalamáda	t͡ʃ a l a m aː d a
-žali	ʒ a l ɪ
-šalina	ʃ a l ɪ n a
-žalo	ʒ a l o
-žaloba	ʒ a l o b a
-žalobce	ʒ a l o p t͡s ɛ
-žalobkyně	ʒ a l o p k ɪ ɲ ɛ
-šalomounův	ʃ a l o m o u̯ n uː f
-žalostný	ʒ a l o s t n iː
-šalotka	ʃ a l o t k a
-žalovat	ʒ a l o v a t
-žalozpěv	ʒ a l o s p j ɛ f
-žalud	ʒ a l u t
-žaludek	ʒ a l u d ɛ k
-žaludeční	ʒ a l u d ɛ t͡ʃ ɲ iː
-žaludy	ʒ a l u d ɪ
-žalující	ʒ a l u j iː t͡s iː
-žaly	ʒ a l ɪ
-žalář	ʒ a l aː r̝̊
-šamanka	ʃ a m a ŋ k a
-šamanův	ʃ a m a n uː f
-žandarmerie	ʒ a n d a r m ɛ r ɪ j ɛ
-žandár	ʒ a n d aː r
-žaneta	ʒ a n ɛ t a
-žanetka	ʒ a n ɛ t k a
-šanghaj	ʃ a ŋ ɡ ɦ a j
-šanghajan	ʃ a ŋ ɡ ɦ a j a n
-šanghajec	ʃ a ŋ ɡ ɦ a j ɛ t͡s
 čapek	t͡ʃ a p ɛ k
 čapka	t͡ʃ a p k a
 čapkův	t͡ʃ a p k uː f
 čapla	t͡ʃ a p l a
 čapnout	t͡ʃ a p n o u̯ t
 čapí	t͡ʃ a p iː
-řapík	r̝ a p iː k
 čardáš	t͡ʃ a r d aː ʃ
-šarlatánství	ʃ a r l a t aː n s t v iː
-šarlota	ʃ a r l o t a
 čaroděj	t͡ʃ a r o ɟ ɛ j
 čarodějka	t͡ʃ a r o ɟ ɛ j k a
 čarodějnice	t͡ʃ a r o ɟ ɛ j ɲ ɪ t͡s ɛ
@@ -19320,11 +19251,6 @@ zříct	z r̝ iː t͡s t
 čarovat	t͡ʃ a r o v a t
 čarovný	t͡ʃ a r o v n iː
 čarování	t͡ʃ a r o v aː ɲ iː
-šarvátka	ʃ a r v aː t k a
-řasa	r̝ a s a
-řasenka	r̝ a s ɛ ŋ k a
-řasinka	r̝ a s ɪ ŋ k a
-žasnout	ʒ a s n o u̯ t
 časný	t͡ʃ a s n iː
 časně	t͡ʃ a s ɲ ɛ
 časomíra	t͡ʃ a s o m iː r a
@@ -19339,108 +19265,37 @@ zříct	z r̝ iː t͡s t
 častost	t͡ʃ a s t o s t
 častý	t͡ʃ a s t iː
 časák	t͡ʃ a s aː k
-žat	ʒ a t
-žata	ʒ a t a
-žatecko	ʒ a t ɛ t͡s k o
-žati	ʒ a c ɪ
-šatna	ʃ a t n a
-šatnář	ʃ a t n aː r̝̊
-šatnářka	ʃ a t n aː r̝̊ k a
 čatní	t ʃ a t n iː
-šatní	ʃ a t ɲ iː
-šatník	ʃ a t ɲ iː k
-žato	ʒ a t o
-šatovník	ʃ a t o v ɲ iː k
-žaty	ʒ a t ɪ
 čau	t͡ʃ a u̯
 čauky	t͡ʃ a u̯ k ɪ
 čauves	t͡ʃ a u̯ v ɛ s
 čača	t͡ʃ a t͡ʃ a
 čaďan	t͡ʃ a ɟ a n
-žačka	ʒ a t͡ʃ k a
-ždímat	ʒ ɟ iː m a t
-ždímačka	ʒ ɟ iː m a t͡ʃ k a
-žeberní	ʒ ɛ b ɛ r ɲ iː
-šebesta	ʃ ɛ b ɛ s t a
-šebestián	ʃ ɛ b ɛ s c ɪ aː n
-žebrat	ʒ ɛ b r a t
-žebračka	ʒ ɛ b r a t͡ʃ k a
-žebro	ʒ ɛ b r o
-žebrácký	ʒ ɛ b r aː t͡s k iː
-žebrák	ʒ ɛ b r aː k
-žebřiny	ʒ ɛ b r̝ ɪ n ɪ
-žebřík	ʒ ɛ b r̝ iː k
-řebříček	r̝ ɛ b r̝ iː t͡ʃ ɛ k
-žebříček	ʒ ɛ b r̝ iː t͡ʃ ɛ k
 čech	t͡ʃ ɛ x
 čechoamerický	t͡ʃ ɛ x o a m ɛ r ɪ t͡s k iː
 čechoameričan	t͡ʃ ɛ x o a m ɛ r ɪ t͡ʃ a n
 čechoameričanka	t͡ʃ ɛ x o a m ɛ r ɪ t͡ʃ a ŋ k a
 čechrat	t͡ʃ ɛ x r a t
-řecko	r̝ ɛ t͡s k o
-řeckořímský	r̝ ɛ t͡s k o r̝ iː m s k iː
-řecká	r̝ ɛ t͡s k aː
-řecký	r̝ ɛ t͡s k iː
 čedar	t͡ʃ ɛ d a r
-šedesátiletý	ʃ ɛ d ɛ s aː c ɪ l ɛ t iː
-šedesátiprocentní	ʃ ɛ d ɛ s aː c ɪ p r o t͡s ɛ n t ɲ iː
-šedesátý	ʃ ɛ d ɛ s aː t iː
-ředidlo	r̝ ɛ ɟ ɪ d l o
-ředit	r̝ ɛ ɟ ɪ t
-ředitelka	r̝ ɛ ɟ ɪ t ɛ l k a
-ředitelný	r̝ ɛ ɟ ɪ t ɛ l n iː
-ředitelský	r̝ ɛ ɟ ɪ t ɛ l s k iː
-ředitelství	r̝ ɛ ɟ ɪ t ɛ l s t v iː
-ředitelčin	r̝ ɛ ɟ ɪ t ɛ l t͡ʃ ɪ n
-ředitelův	r̝ ɛ ɟ ɪ t ɛ l uː f
-šedivý	ʃ ɛ ɟ ɪ v iː
 čedič	t͡ʃ ɛ ɟ ɪ t͡ʃ
-ředkev	r̝ ɛ t k ɛ f
-šedl	ʃ ɛ d l̩
-šedohnědý	ʃ ɛ d o ɦ ɲ ɛ d iː
-šedá	ʃ ɛ d aː
-ředění	r̝ ɛ ɟ ɛ ɲ iː
-ředěný	r̝ ɛ ɟ ɛ n iː
-žehlit	ʒ ɛ ɦ l ɪ t
-řehoř	r̝ ɛ ɦ o r̝̊
-řehořek	r̝ ɛ ɦ o r̝ ɛ k
-žehrat	ʒ ɛ ɦ r a t
-řehtat	r̝ ɛ x t a t
-řehtání	r̝ ɛ x t aː ɲ iː
 čejen	t͡ʃ ɛ j ɛ n
-šejk	ʃ ɛ j k
 čejka	t͡ʃ ɛ j k a
 čejčí	t͡ʃ ɛ j t͡ʃ iː
 čekají	t͡ʃ ɛ k a j iː
 čekanka	t͡ʃ ɛ k a ŋ k a
-řekla	r̝ ɛ k l a
-řekne	r̝ ɛ k n ɛ
-řekni	r̝ ɛ k ɲ ɪ
-šekový	ʃ ɛ k o v iː
-řekyně	r̝ ɛ k ɪ ɲ ɛ
 čekám	t͡ʃ ɛ k aː m
 čekáme	t͡ʃ ɛ k aː m ɛ
 čekání	t͡ʃ ɛ k aː ɲ iː
 čekáte	t͡ʃ ɛ k aː t ɛ
 čekáš	t͡ʃ ɛ k aː ʃ
 čel	t͡ʃ ɛ l
-šel	ʃ ɛ l
-žel	ʒ ɛ l
 čela	t͡ʃ ɛ l a
 čele	t͡ʃ ɛ l ɛ
 čelech	t͡ʃ ɛ l ɛ x
 čelem	t͡ʃ ɛ l ɛ m
 čelen	t͡ʃ ɛ l ɛ n
 čelenka	t͡ʃ ɛ l ɛ ŋ k a
-želet	ʒ ɛ l ɛ t
-železnatý	ʒ ɛ l ɛ z n a t iː
-železnice	ʒ ɛ l ɛ z ɲ ɪ t͡s ɛ
-železniční	ʒ ɛ l ɛ z ɲ ɪ t͡ʃ ɲ iː
-železná	ʒ ɛ l ɛ z n aː
-železný	ʒ ɛ l ɛ z n iː
-železářství	ʒ ɛ l ɛ z aː r̝̊ s t v iː
 čeleď	t͡ʃ ɛ l ɛ c
-šelf	ʃ ɛ l f
 čelil	t͡ʃ ɛ l ɪ l
 čelila	t͡ʃ ɛ l ɪ l a
 čelili	t͡ʃ ɛ l ɪ l ɪ
@@ -19449,87 +19304,31 @@ zříct	z r̝ iː t͡s t
 čelist	t͡ʃ ɛ l ɪ s t
 čelit	t͡ʃ ɛ l ɪ t
 čeljabinsk	t͡ʃ ɛ l j a b ɪ n s k
-šelma	ʃ ɛ l m a
 čelme	t͡ʃ ɛ l m ɛ
 čelní	t͡ʃ ɛ l ɲ iː
 čelo	t͡ʃ ɛ l o
 čelovka	t͡ʃ ɛ l o f k a
 čelte	t͡ʃ ɛ l t ɛ
 čelu	t͡ʃ ɛ l u
-želvička	ʒ ɛ l v ɪ t͡ʃ k a
-želvovina	ʒ ɛ l v o v ɪ n a
-želvovinový	ʒ ɛ l v o v ɪ n o v iː
-želví	ʒ ɛ l v iː
 čelí	t͡ʃ ɛ l iː
 čelím	t͡ʃ ɛ l iː m
 čelíme	t͡ʃ ɛ l iː m ɛ
 čelíte	t͡ʃ ɛ l iː t ɛ
-čelíš	t͡ʃ ɛ l iː ʃ
 čelíčko	t͡ʃ ɛ l iː t͡ʃ k o
+čelíš	t͡ʃ ɛ l iː ʃ
 čelům	t͡ʃ ɛ l uː m
-řemdih	r̝ ɛ m ɟ ɪ x
-řemen	r̝ ɛ m ɛ n
-řemeslník	r̝ ɛ m ɛ s l̩ ɲ iː k
-řemeslný	r̝ ɛ m ɛ s l̩ n iː
-řemeslo	r̝ ɛ m ɛ s l o
 čemeřice	t͡ʃ ɛ m ɛ r̝ ɪ t͡s ɛ
-žemle	ʒ ɛ m l ɛ
-žemlička	ʒ ɛ m l ɪ t͡ʃ k a
-žemlovka	ʒ ɛ m l o f k a
-žen	ʒ ɛ n
-ženami	ʒ ɛ n a m ɪ
 čenda	t͡ʃ ɛ n d a
-žene	ʒ ɛ n ɛ
-ženeme	ʒ ɛ n ɛ m ɛ
-ženete	ʒ ɛ n ɛ t ɛ
-ženeva	ʒ ɛ n ɛ v a
-ženevan	ʒ ɛ n ɛ v a n
-ženevský	ʒ ɛ n ɛ f s k iː
-ženeš	ʒ ɛ n ɛ ʃ
 čenich	t͡ʃ ɛ ɲ ɪ x
-ženich	ʒ ɛ ɲ ɪ x
-ženin	ʒ ɛ ɲ ɪ n
-ženit	ʒ ɛ ɲ ɪ t
-ženitba	ʒ ɛ ɲ ɪ d b a
-šenkýřka	ʃ ɛ ŋ k iː r̝̊ k a
-ženo	ʒ ɛ n o
-ženou	ʒ ɛ n o u̯
-ženouc	ʒ ɛ n o u̯ t͡s
-ženská	ʒ ɛ n s k aː
-ženský	ʒ ɛ n s k iː
 čenstochová	t͡ʃ ɛ n s t o x o v aː
-ženu	ʒ ɛ n u
-ženy	ʒ ɛ n ɪ
-ženách	ʒ ɛ n aː x
-ženám	ʒ ɛ n aː m
-ženáč	ʒ ɛ n aː t͡ʃ
-žení	ʒ ɛ ɲ iː
-ženíc	ʒ ɛ ɲ iː t͡s
-ženíce	ʒ ɛ ɲ iː t͡s ɛ
-ženíme	ʒ ɛ ɲ iː m ɛ
-ženíte	ʒ ɛ ɲ iː t ɛ
-ženíš	ʒ ɛ ɲ iː ʃ
-ženě	ʒ ɛ ɲ ɛ
 čeněk	t͡ʃ ɛ ɲ ɛ k
 čep	t͡ʃ ɛ p
 čepec	t͡ʃ ɛ p ɛ t͡s
 čepel	t͡ʃ ɛ p ɛ l
 čepeček	t͡ʃ ɛ p ɛ t͡ʃ ɛ k
 čepička	t͡ʃ ɛ p ɪ t͡ʃ k a
-řepka	r̝ ɛ p k a
 čepka	t͡ʃ ɛ p k a
 čepovec	t͡ʃ ɛ p o v ɛ t͡s
-řepčín	r̝ ɛ p t͡ʃ iː n
-řepčínský	r̝ ɛ p t͡ʃ iː n s k iː
-řepčínští	r̝ ɛ p t͡ʃ iː n ʃ c iː
-žer	ʒ ɛ r
-žera	ʒ ɛ r a
-žere	ʒ ɛ r ɛ
-šeredný	ʃ ɛ r ɛ d n iː
-žereš	ʒ ɛ r ɛ ʃ
-šerif	ʃ ɛ r ɪ f
-šerifův	ʃ ɛ r ɪ f uː f
-žerme	ʒ ɛ r m ɛ
 čermák	t͡ʃ ɛ r m aː k
 čermáková	t͡ʃ ɛ r m aː k o v aː
 černobyl	t͡ʃ ɛ r n o b ɪ l
@@ -19556,34 +19355,25 @@ zříct	z r̝ iː t͡s t
 černý	t͡ʃ ɛ r n iː
 čerokéz	t͡ʃ ɛ r o k ɛː s
 čerokí	t͡ʃ ɛ r o k iː
-šeroslepost	ʃ ɛ r o s l ɛ p o s t
-šeroslepý	ʃ ɛ r o s l ɛ p iː
-žerou	ʒ ɛ r o u̯
 čerpací	t͡ʃ ɛ r p a t͡s iː
 čerpadlo	t͡ʃ ɛ r p a d l o
 čerpat	t͡ʃ ɛ r p a t
 čerstvost	t͡ʃ ɛ r s t v o s t
 čerstvý	t͡ʃ ɛ r s t v iː
 čert	t͡ʃ ɛ r t
-žert	ʒ ɛ r t
 čerta	t͡ʃ ɛ r t a
 čerte	t͡ʃ ɛ r t ɛ
-žerte	ʒ ɛ r t ɛ
 čertech	t͡ʃ ɛ r t ɛ x
 čertem	t͡ʃ ɛ r t ɛ m
 čerti	t͡ʃ ɛ r c ɪ
 čertice	t͡ʃ ɛ r c ɪ t͡s ɛ
-žertovat	ʒ ɛ r t o v a t
 čertu	t͡ʃ ɛ r t u
 čerty	t͡ʃ ɛ r t ɪ
 čertí	t͡ʃ ɛ r c iː
 čertík	t͡ʃ ɛ r c iː k
-žertík	ʒ ɛ r c iː k
-žertíček	ʒ ɛ r c iː t͡ʃ ɛ k
 čertů	t͡ʃ ɛ r t uː
 čertům	t͡ʃ ɛ r t uː m
 čertův	t͡ʃ ɛ r t uː f
-žeru	ʒ ɛ r u
 červ	t͡ʃ ɛ r f
 červenat	t͡ʃ ɛ r v ɛ n a t
 červenavý	t͡ʃ ɛ r v ɛ n a v iː
@@ -19610,26 +19400,10 @@ zříct	z r̝ iː t͡s t
 česnečka	t͡ʃ ɛ s n ɛ t͡ʃ k a
 česno	t͡ʃ ɛ s n o
 čest	t͡ʃ ɛ s t
-šestikřídlý	ʃ ɛ s c ɪ k r̝̊ iː d l iː
-šestiletý	ʃ ɛ s c ɪ l ɛ t iː
-šestimocný	ʃ ɛ s c ɪ m o t͡s n iː
-šestiprocentní	ʃ ɛ s c ɪ p r o t͡s ɛ n t ɲ iː
-šestistý	ʃ ɛ s c ɪ s t iː
-šestistěn	ʃ ɛ s c ɪ s c ɛ n
-šestiúhelník	ʃ ɛ s c ɪ uː ɦ ɛ l ɲ iː k
-šestka	ʃ ɛ s t k a
-šestkrát	ʃ ɛ s t k r aː t
 čestmír	t͡ʃ ɛ s t m iː r
-šestnáctibitový	ʃ ɛ s t n aː t͡s c ɪ b ɪ t o v iː
-šestnáctiletý	ʃ ɛ s t n aː t͡s c ɪ l ɛ t iː
-šestnáctiprocentní	ʃ ɛ s t n aː t͡s c ɪ p r o t͡s ɛ n t ɲ iː
-šestnáctkový	ʃ ɛ s t n aː t͡s t k o v iː
-šestnáctkrát	ʃ ɛ s t n aː t͡s t k r aː t
 čestný	t͡ʃ ɛ s t n iː
 čestně	t͡ʃ ɛ s t ɲ ɛ
 čestněji	t͡ʃ ɛ s t ɲ ɛ j ɪ
-žesťový	ʒ ɛ s c o v iː
-šesťák	ʃ ɛ s c aː k
 četa	t͡ʃ ɛ t a
 četař	t͡ʃ ɛ t a r̝̊
 četba	t͡ʃ ɛ d b a
@@ -19643,25 +19417,244 @@ zříct	z r̝ iː t͡s t
 četní	t͡ʃ ɛ t ɲ iː
 četník	t͡ʃ ɛ t ɲ iː k
 četný	t͡ʃ ɛ t n iː
-šetrný	ʃ ɛ t r̩ n iː
-šetř	ʃ ɛ t r̝̊
-šetři	ʃ ɛ t r̝̊ ɪ
-šetřit	ʃ ɛ t r̝̊ ɪ t
-řetěz	r̝ ɛ c ɛ s
-řetězec	r̝ ɛ c ɛ z ɛ t͡s
-šev	ʃ ɛ f
 čevabčiči	t͡ʃ ɛ v a p t͡ʃ ɪ t͡ʃ ɪ
 čevapčiči	t͡ʃ ɛ v a p t͡ʃ ɪ t͡ʃ ɪ
-ševeček	ʃ ɛ v ɛ t͡ʃ ɛ k
+čečen	t͡ʃ ɛ t͡ʃ ɛ n
+čečenec	t͡ʃ ɛ t͡ʃ ɛ n ɛ t͡s
+čečenka	t͡ʃ ɛ t͡ʃ ɛ ŋ k a
+čečensko	t͡ʃ ɛ t͡ʃ ɛ n s k o
+čečenský	t͡ʃ ɛ t͡ʃ ɛ n s k iː
+čečenština	t͡ʃ ɛ t͡ʃ ɛ n ʃ c ɪ n a
+čečetka	t ʃ ɛ t ʃ ɛ t k a
+čečna	t͡ʃ ɛ t͡ʃ n a
+češtinář	t͡ʃ ɛ ʃ c ɪ n aː r̝̊
+či	t͡ʃ ɪ
+čich	t͡ʃ ɪ x
+čichový	t͡ʃ ɪ x o v iː
+čichu	t͡ʃ ɪ x u
+čidlo	t͡ʃ ɪ d l o
+čifut	t͡ʃ ɪ f u t
+čihař	t͡ʃ ɪ ɦ a r̝̊
+čili	t͡ʃ ɪ l ɪ
+čilost	t͡ʃ ɪ l o s t
+čilský	t͡ʃ ɪ l s k iː
+čilý	t͡ʃ ɪ l iː
+čina	t͡ʃ ɪ n a
+čine	t͡ʃ ɪ n ɛ
+činech	t͡ʃ ɪ n ɛ x
+činem	t͡ʃ ɪ n ɛ m
+činidlo	t͡ʃ ɪ ɲ ɪ d l o
+činit	t͡ʃ ɪ ɲ ɪ t
+činitel	t͡ʃ ɪ ɲ ɪ t ɛ l
+činka	t͡ʃ ɪ ŋ k a
+činnost	t͡ʃ ɪ n o s t
+činný	t͡ʃ ɪ n iː
+činohra	t͡ʃ ɪ n o ɦ r a
+činorodý	t͡ʃ ɪ n o r o d iː
+činu	t͡ʃ ɪ n u
+činy	t͡ʃ ɪ n ɪ
+činěnice	t͡ʃ ɪ ɲ ɛ ɲ ɪ t͡s ɛ
+činům	t͡ʃ ɪ n uː m
+činžák	t͡ʃ ɪ n ʒ aː k
+čip	t͡ʃ ɪ p
+čipový	t͡ʃ ɪ p o v iː
+čirok	t͡ʃ ɪ r o k
+čirý	t͡ʃ ɪ r iː
+čistit	t͡ʃ ɪ s c ɪ t
+čistka	t͡ʃ ɪ s t k a
+čistokrevný	t͡ʃ ɪ s t o k r ɛ v n iː
+čistota	t͡ʃ ɪ s t o t a
+čistotnost	t͡ʃ ɪ s t o t n o s t
+čistotný	t͡ʃ ɪ s t o t n iː
+čita	t͡ʃ ɪ t a
+čitatel	t͡ʃ ɪ t a t ɛ l
+čitelnost	t͡ʃ ɪ t ɛ l n o s t
+čitelný	t͡ʃ ɪ t ɛ l n iː
+čivava	t͡ʃ ɪ v a v a
+čičinka	t͡ʃ ɪ t͡ʃ ɪ ŋ k a
+čičmunda	t͡ʃ ɪ t͡ʃ m u n d a
+člen	t͡ʃ l ɛ n
+členit	t͡ʃ l ɛ ɲ ɪ t
+členitost	t͡ʃ l ɛ ɲ ɪ t o s t
+členitý	t͡ʃ l ɛ ɲ ɪ t iː
+členka	t͡ʃ l ɛ ŋ k a
+členovec	t͡ʃ l ɛ n o v ɛ t͡s
+členský	t͡ʃ l ɛ n s k iː
+členství	t͡ʃ l ɛ n s t v iː
+členění	t͡ʃ l ɛ ɲ ɛ ɲ iː
+človíček	t͡ʃ l o v iː t͡ʃ ɛ k
+člověkohodina	t͡ʃ l o v j ɛ k o ɦ o ɟ ɪ n a
+člověkův	t͡ʃ l o v j ɛ k uː f
+člověčí	t͡ʃ l o v j ɛ t͡ʃ iː
+článeček	t͡ʃ l aː n ɛ t͡ʃ ɛ k
+čmajznout	t͡ʃ m a j z n o u̯ t
+čmelák	t͡ʃ m ɛ l aː k
+čmeláčí	t͡ʃ m ɛ l aː t͡ʃ iː
+čmáranice	t͡ʃ m aː r a ɲ ɪ t͡s ɛ
+čoklí	t͡ʃ o k l iː
+čokoládový	t͡ʃ o k o l aː d o v iː
+čop	t͡ʃ o p
+čočka	t͡ʃ o t͡ʃ k a
+čpavek	t͡ʃ p a v ɛ k
+črta	t͡ʃ r̩ t a
+čta	t͡ʃ t a
+čte	t͡ʃ t ɛ
+čteme	t͡ʃ t ɛ m ɛ
+čten	t͡ʃ t ɛ n
+čtena	t͡ʃ t ɛ n a
+čteno	t͡ʃ t ɛ n o
+čtenář	t͡ʃ t ɛ n aː r̝̊
+čtenářka	t͡ʃ t ɛ n aː r̝̊ k a
+čtení	t͡ʃ t ɛ ɲ iː
+čtete	t͡ʃ t ɛ t ɛ
+čtečka	t͡ʃ t ɛ t͡ʃ k a
+čteš	t͡ʃ t ɛ ʃ
+čti	t͡ʃ c ɪ
+čtivost	t͡ʃ c ɪ v o s t
+čtivý	t͡ʃ c ɪ v iː
+čtou	t͡ʃ t o u̯
+čtouc	t͡ʃ t o u̯ t͡s
+čtouce	t͡ʃ t o u̯ t͡s ɛ
+čtrnáctideník	t͡ʃ t r̩ n aː t͡s c ɪ d ɛ ɲ iː k
+čtrnáctiletý	t͡ʃ t r̩ n aː t͡s c ɪ l ɛ t iː
+čtrnáctiprocentní	t͡ʃ t r̩ n aː t͡s c ɪ p r o t͡s ɛ n t ɲ iː
+čtrnáctkrát	t͡ʃ t r̩ n aː t͡s t k r aː t
+čtu	t͡ʃ t u
+čtvercový	t͡ʃ t v ɛ r t͡s o v iː
+čtverec	t͡ʃ t v ɛ r ɛ t͡s
+čtvrtek	t͡ʃ t v r̩ t ɛ k
+čtvrtfinále	t͡ʃ t v r̩ t f ɪ n aː l ɛ
+čtvrthrst	t ʃ t v r̩ t ɦ r̩ s t
+čtvrtina	t͡ʃ t v r̩ c ɪ n a
+čtvrtka	t͡ʃ t v r̩ t k a
+čtvrť	t͡ʃ t v r̩ c
+čtyřlístek	t͡ʃ t ɪ r̝ l iː s t ɛ k
+čtyřpětinový	t͡ʃ t ɪ r̝̊ p j ɛ c ɪ n o v iː
+čtyřslabičný	t͡ʃ t ɪ r̝̊ s l a b ɪ t͡ʃ n iː
+čtyřstěn	t͡ʃ t ɪ r̝̊ s c ɛ n
+čtyřverší	t͡ʃ t ɪ r̝ v ɛ r ʃ iː
+čtyřúhelník	t͡ʃ t ɪ r̝ uː ɦ ɛ l ɲ iː k
+čuba	t͡ʃ u b a
+čubka	t͡ʃ u p k a
+čubčí	t͡ʃ u p t͡ʃ iː
+čuchat	t͡ʃ u x a t
+čukotka	t͡ʃ u k o t k a
+čukotský	t͡ʃ u k o t s k iː
+čukotština	t͡ʃ u k o t ʃ c ɪ n a
+čumák	t͡ʃ u m aː k
+čumět	t͡ʃ u m ɲ ɛ t
+čuník	t͡ʃ u ɲ iː k
+čuně	t͡ʃ u ɲ ɛ
+čurat	t͡ʃ u r a t
+čurbes	t͡ʃ u r b ɛ s
+čurák	t͡ʃ u r aː k
+čuránky	t͡ʃ u r aː ŋ k ɪ
+čuráček	t͡ʃ u r aː t͡ʃ ɛ k
+čus	t͡ʃ u s
+čágo	t͡ʃ aː ɡ o
+čápice	t͡ʃ aː p ɪ t͡s ɛ
+čáry	t͡ʃ aː r ɪ
+část	t͡ʃ aː s t
+částečný	t͡ʃ aː s t ɛ t͡ʃ n iː
+částečně	t͡ʃ aː s t ɛ t͡ʃ ɲ ɛ
+částice	t͡ʃ aː s c ɪ t͡s ɛ
+částicový	t͡ʃ aː s c ɪ t͡s o v iː
+částka	t͡ʃ aː s t k a
+číhaná	t͡ʃ iː ɦ a n aː
+číhat	t͡ʃ iː ɦ a t
+čím	t͡ʃ iː m
+čína	t͡ʃ iː n a
+čínský	t͡ʃ iː n s k iː
+čínština	t͡ʃ iː n ʃ c ɪ n a
+čípek	t͡ʃ iː p ɛ k
+čírka	t͡ʃ iː r k a
+číselník	t͡ʃ iː s ɛ l ɲ iː k
+číslice	t͡ʃ iː s l ɪ t͡s ɛ
+číslicový	t͡ʃ iː s l ɪ t͡s o v iː
+číslovaný	t͡ʃ iː s l o v a n iː
+číslovat	t͡ʃ iː s l o v a t
+číslovka	t͡ʃ iː s l o f k a
+číslovky	t͡ʃ iː s l o f k ɪ
+čítanka	t͡ʃ iː t a ŋ k a
+čítankový	t͡ʃ iː t a ŋ k o v iː
+čítat	t͡ʃ iː t a t
+čítač	t͡ʃ iː t a t͡ʃ
+čítárna	t͡ʃ iː t aː r n a
+číča	t͡ʃ iː t͡ʃ a
+číňan	t͡ʃ iː ɲ a n
+číňanka	t͡ʃ iː ɲ a ŋ k a
+číše	t͡ʃ iː ʃ ɛ
+číšnice	t͡ʃ iː ʃ ɲ ɪ t͡s ɛ
+čížek	t͡ʃ iː ʒ ɛ k
+čórnout	t͡ʃ oː r n o u̯ t
+čůrat	t͡ʃ uː r a t
+ďábelský	ɟ aː b ɛ l s k iː
+ďáblice	ɟ aː b l ɪ t͡s ɛ
+ďáblí	ɟ aː b l iː
+ďáblův	ɟ aː b l uː f
+ě	j ɛ
+řad	r̝ a t
+řadit	r̝ a ɟ ɪ t
+řadič	r̝ a ɟ ɪ t͡ʃ
+řado	r̝ a d o
+řadová	r̝ a d o v aː
+řadový	r̝ a d o v iː
+řadu	r̝ a d u
+řady	r̝ a d ɪ
+řadách	r̝ a d aː x
+řadí	r̝ a ɟ iː
+řadíc	r̝ a ɟ iː t͡s
+řadíce	r̝ a ɟ iː t͡s ɛ
+řadím	r̝ a ɟ iː m
+řadíme	r̝ a ɟ iː m ɛ
+řadíte	r̝ a ɟ iː t ɛ
+řadíš	r̝ a ɟ iː ʃ
+řadě	r̝ a ɟ ɛ
+řapík	r̝ a p iː k
+řasa	r̝ a s a
+řasenka	r̝ a s ɛ ŋ k a
+řasinka	r̝ a s ɪ ŋ k a
+řebříček	r̝ ɛ b r̝ iː t͡ʃ ɛ k
+řecko	r̝ ɛ t͡s k o
+řeckořímský	r̝ ɛ t͡s k o r̝ iː m s k iː
+řecká	r̝ ɛ t͡s k aː
+řecký	r̝ ɛ t͡s k iː
+ředidlo	r̝ ɛ ɟ ɪ d l o
+ředit	r̝ ɛ ɟ ɪ t
+ředitelka	r̝ ɛ ɟ ɪ t ɛ l k a
+ředitelný	r̝ ɛ ɟ ɪ t ɛ l n iː
+ředitelský	r̝ ɛ ɟ ɪ t ɛ l s k iː
+ředitelství	r̝ ɛ ɟ ɪ t ɛ l s t v iː
+ředitelčin	r̝ ɛ ɟ ɪ t ɛ l t͡ʃ ɪ n
+ředitelův	r̝ ɛ ɟ ɪ t ɛ l uː f
+ředkev	r̝ ɛ t k ɛ f
+ředění	r̝ ɛ ɟ ɛ ɲ iː
+ředěný	r̝ ɛ ɟ ɛ n iː
+řehoř	r̝ ɛ ɦ o r̝̊
+řehořek	r̝ ɛ ɦ o r̝ ɛ k
+řehtat	r̝ ɛ x t a t
+řehtání	r̝ ɛ x t aː ɲ iː
+řekla	r̝ ɛ k l a
+řekne	r̝ ɛ k n ɛ
+řekni	r̝ ɛ k ɲ ɪ
+řekyně	r̝ ɛ k ɪ ɲ ɛ
+řemdih	r̝ ɛ m ɟ ɪ x
+řemen	r̝ ɛ m ɛ n
+řemeslník	r̝ ɛ m ɛ s l̩ ɲ iː k
+řemeslný	r̝ ɛ m ɛ s l̩ n iː
+řemeslo	r̝ ɛ m ɛ s l o
+řepka	r̝ ɛ p k a
+řepčín	r̝ ɛ p t͡ʃ iː n
+řepčínský	r̝ ɛ p t͡ʃ iː n s k iː
+řepčínští	r̝ ɛ p t͡ʃ iː n ʃ c iː
+řetěz	r̝ ɛ c ɛ s
+řetězec	r̝ ɛ c ɛ z ɛ t͡s
 řevnit	r̝ ɛ v ɲ ɪ t
 řevnivý	r̝ ɛ v ɲ ɪ v iː
-ševčík	ʃ ɛ f t͡ʃ iː k
 řez	r̝ ɛ s
 řezat	r̝ ɛ z a t
 řezbář	r̝ ɛ z b aː r̝̊
 řezbářství	r̝ ɛ z b aː r̝̊ s t v iː
-žezlo	ʒ ɛ z l o
-šezlong	ʃ ɛ z l o ŋ k
 řeznický	r̝ ɛ z ɲ ɪ t͡s k iː
 řezno	r̝ ɛ z n o
 řezná	r̝ ɛ z n aː
@@ -19669,70 +19662,154 @@ zříct	z r̝ iː t͡s t
 řezníček	r̝ ɛ z ɲ iː t͡ʃ ɛ k
 řezák	r̝ ɛ z aː k
 řeč	r̝ ɛ t͡ʃ
-řež	r̝ ɛ ʃ
-žeň	ʒ ɛ ɲ
-čečen	t͡ʃ ɛ t͡ʃ ɛ n
-čečenec	t͡ʃ ɛ t͡ʃ ɛ n ɛ t͡s
-čečenka	t͡ʃ ɛ t͡ʃ ɛ ŋ k a
-čečensko	t͡ʃ ɛ t͡ʃ ɛ n s k o
-čečenský	t͡ʃ ɛ t͡ʃ ɛ n s k iː
-řešení	r̝ ɛ ʃ ɛ ɲ iː
 řečený	r̝ ɛ t͡ʃ ɛ n iː
-čečenština	t͡ʃ ɛ t͡ʃ ɛ n ʃ c ɪ n a
-čečetka	t ʃ ɛ t ʃ ɛ t k a
+řečnický	r̝ ɛ t͡ʃ ɲ ɪ t͡s k iː
+řečnictví	r̝ ɛ t͡ʃ ɲ ɪ t͡s t v iː
+řečník	r̝ ɛ t͡ʃ ɲ iː k
+řečtina	r̝ ɛ t͡ʃ c ɪ n a
+řešení	r̝ ɛ ʃ ɛ ɲ iː
 řešeto	r̝ ɛ ʃ ɛ t o
 řešit	r̝ ɛ ʃ ɪ t
 řešitel	r̝ ɛ ʃ ɪ t ɛ l
 řešitelnost	r̝ ɛ ʃ ɪ t ɛ l n o s t
 řešitelný	r̝ ɛ ʃ ɪ t ɛ l n iː
-žeňme	ʒ ɛ ɲ m ɛ
-čečna	t͡ʃ ɛ t͡ʃ n a
-řečnický	r̝ ɛ t͡ʃ ɲ ɪ t͡s k iː
-řečnictví	r̝ ɛ t͡ʃ ɲ ɪ t͡s t v iː
-řečník	r̝ ɛ t͡ʃ ɲ iː k
 řešov	r̝ ɛ ʃ o f
-žeňte	ʒ ɛ ɲ t ɛ
-řečtina	r̝ ɛ t͡ʃ c ɪ n a
-češtinář	t͡ʃ ɛ ʃ c ɪ n aː r̝̊
-žežulka	ʒ ɛ ʒ u l k a
-žgrt	ʒ ɡ r̩ t
-žhnout	ʒ ɦ n o u̯ t
-žhář	ʒ ɦ aː r̝̊
-žhářka	ʒ ɦ aː r̝̊ k a
-žhářský	ʒ ɦ aː r̝̊ s k iː
-žhářství	ʒ ɦ aː r̝̊ s t v iː
-či	t͡ʃ ɪ
+řež	r̝ ɛ ʃ
+řidička	r̝ ɪ ɟ ɪ t͡ʃ k a
+řidičák	r̝ ɪ ɟ ɪ t͡ʃ aː k
+řidičův	r̝ ɪ ɟ ɪ t͡ʃ uː f
+řidítka	r̝ ɪ ɟ iː t k a
+řinout	r̝ ɪ n o u̯ t
+řiti	r̝ ɪ c ɪ
+řitní	r̝ ɪ t ɲ iː
+řití	r̝ ɪ c iː
+řitích	r̝ ɪ c iː x
+řitím	r̝ ɪ c iː m
+řitě	r̝ ɪ c ɛ
+řitěmi	r̝ ɪ c ɛ m ɪ
+řiď	r̝ ɪ c
+řiť	r̝ ɪ c
+řiťka	r̝ ɪ c k a
+řiťolez	r̝ ɪ c o l ɛ s
+řiťolezec	r̝ ɪ c o l ɛ z ɛ t͡s
+řvaní	r̝ v a ɲ iː
+řvavý	r̝ v a v iː
+řádek	r̝ aː d ɛ k
+řádit	r̝ aː ɟ ɪ t
+řádka	r̝ aː t k a
+řádný	r̝ aː d n iː
+řádu	r̝ aː d u
+řády	r̝ aː d ɪ
+řádí	r̝ aː ɟ iː
+řádíc	r̝ aː ɟ iː t͡s
+řádíce	r̝ aː ɟ iː t͡s ɛ
+řádím	r̝ aː ɟ iː m
+řádíme	r̝ aː ɟ iː m ɛ
+řádíte	r̝ aː ɟ iː t ɛ
+řádíš	r̝ aː ɟ iː ʃ
+řádě	r̝ aː ɟ ɛ
+řádění	r̝ aː ɟ ɛ ɲ iː
+říci	r̝ iː t͡s ɪ
+řídce	r̝ iː t͡s ɛ
+řídkost	r̝ iː t k o s t
+řídký	r̝ iː t k iː
+řídnout	r̝ iː d n o u̯ t
+řídící	r̝ iː ɟ iː t͡s iː
+říha	r̝ iː ɦ a
+říhat	r̝ iː ɦ a t
+říhnout	r̝ iː ɦ n o u̯ t
+říhnutí	r̝ iː ɦ n u c iː
+říhání	r̝ iː ɦ aː ɲ iː
+říje	r̝ iː j ɛ
+října	r̝ iː j n a
+říjnový	r̝ iː j n o v iː
+říkanka	r̝ iː k a ŋ k a
+říká	r̝ iː k aː
+říman	r̝ iː m a n
+římanka	r̝ iː m a ŋ k a
+římskokatolický	r̝ iː m s k o k a t o l ɪ t͡s k iː
+římský	r̝ iː m s k iː
+řítit	r̝ iː c ɪ t
+řízení	r̝ iː z ɛ ɲ iː
+řízený	r̝ iː z ɛ n iː
+říznutí	r̝ iː z n u c iː
+říčka	r̝ iː t͡ʃ k a
+říční	r̝ iː t͡ʃ ɲ iː
+říďa	r̝ iː ɟ a
+říše	r̝ iː ʃ ɛ
+říšský	r̝ iː ʃ s k iː
+šachy	ʃ a x ɪ
+šafránek	ʃ a f r aː n ɛ k
+šafránková	ʃ a f r aː ŋ k o v aː
+šak	ʃ a k
+šakal	ʃ a k a l
+šakalí	ʃ a k a l iː
+šalamoun	ʃ a l a m o u̯ n
+šalamounův	ʃ a l a m o u̯ n uː f
+šalina	ʃ a l ɪ n a
+šalomounův	ʃ a l o m o u̯ n uː f
+šalotka	ʃ a l o t k a
+šamanka	ʃ a m a ŋ k a
+šamanův	ʃ a m a n uː f
+šanghaj	ʃ a ŋ ɡ ɦ a j
+šanghajan	ʃ a ŋ ɡ ɦ a j a n
+šanghajec	ʃ a ŋ ɡ ɦ a j ɛ t͡s
+šarlatánství	ʃ a r l a t aː n s t v iː
+šarlota	ʃ a r l o t a
+šarvátka	ʃ a r v aː t k a
+šatna	ʃ a t n a
+šatnář	ʃ a t n aː r̝̊
+šatnářka	ʃ a t n aː r̝̊ k a
+šatní	ʃ a t ɲ iː
+šatník	ʃ a t ɲ iː k
+šatovník	ʃ a t o v ɲ iː k
+šebesta	ʃ ɛ b ɛ s t a
+šebestián	ʃ ɛ b ɛ s c ɪ aː n
+šedesátiletý	ʃ ɛ d ɛ s aː c ɪ l ɛ t iː
+šedesátiprocentní	ʃ ɛ d ɛ s aː c ɪ p r o t͡s ɛ n t ɲ iː
+šedesátý	ʃ ɛ d ɛ s aː t iː
+šedivý	ʃ ɛ ɟ ɪ v iː
+šedl	ʃ ɛ d l̩
+šedohnědý	ʃ ɛ d o ɦ ɲ ɛ d iː
+šedá	ʃ ɛ d aː
+šejk	ʃ ɛ j k
+šekový	ʃ ɛ k o v iː
+šel	ʃ ɛ l
+šelf	ʃ ɛ l f
+šelma	ʃ ɛ l m a
+šenkýřka	ʃ ɛ ŋ k iː r̝̊ k a
+šeredný	ʃ ɛ r ɛ d n iː
+šerif	ʃ ɛ r ɪ f
+šerifův	ʃ ɛ r ɪ f uː f
+šeroslepost	ʃ ɛ r o s l ɛ p o s t
+šeroslepý	ʃ ɛ r o s l ɛ p iː
+šestikřídlý	ʃ ɛ s c ɪ k r̝̊ iː d l iː
+šestiletý	ʃ ɛ s c ɪ l ɛ t iː
+šestimocný	ʃ ɛ s c ɪ m o t͡s n iː
+šestiprocentní	ʃ ɛ s c ɪ p r o t͡s ɛ n t ɲ iː
+šestistý	ʃ ɛ s c ɪ s t iː
+šestistěn	ʃ ɛ s c ɪ s c ɛ n
+šestiúhelník	ʃ ɛ s c ɪ uː ɦ ɛ l ɲ iː k
+šestka	ʃ ɛ s t k a
+šestkrát	ʃ ɛ s t k r aː t
+šestnáctibitový	ʃ ɛ s t n aː t͡s c ɪ b ɪ t o v iː
+šestnáctiletý	ʃ ɛ s t n aː t͡s c ɪ l ɛ t iː
+šestnáctiprocentní	ʃ ɛ s t n aː t͡s c ɪ p r o t͡s ɛ n t ɲ iː
+šestnáctkový	ʃ ɛ s t n aː t͡s t k o v iː
+šestnáctkrát	ʃ ɛ s t n aː t͡s t k r aː t
+šesťák	ʃ ɛ s c aː k
+šetrný	ʃ ɛ t r̩ n iː
+šetř	ʃ ɛ t r̝̊
+šetři	ʃ ɛ t r̝̊ ɪ
+šetřit	ʃ ɛ t r̝̊ ɪ t
+šev	ʃ ɛ f
+ševeček	ʃ ɛ v ɛ t͡ʃ ɛ k
+ševčík	ʃ ɛ f t͡ʃ iː k
+šezlong	ʃ ɛ z l o ŋ k
 šibal	ʃ ɪ b a l
 šibalský	ʃ ɪ b a l s k iː
 šibenice	ʃ ɪ b ɛ ɲ ɪ t͡s ɛ
 šibenička	ʃ ɪ b ɛ ɲ ɪ t͡ʃ k a
-čich	t͡ʃ ɪ x
-čichový	t͡ʃ ɪ x o v iː
-čichu	t͡ʃ ɪ x u
-žid	ʒ ɪ t
-žida	ʒ ɪ d a
-žide	ʒ ɪ d ɛ
-židech	ʒ ɪ d ɛ x
-židem	ʒ ɪ d ɛ m
-židi	ʒ ɪ ɟ ɪ
-řidička	r̝ ɪ ɟ ɪ t͡ʃ k a
-řidičák	r̝ ɪ ɟ ɪ t͡ʃ aː k
-řidičův	r̝ ɪ ɟ ɪ t͡ʃ uː f
-židlička	ʒ ɪ d l ɪ t͡ʃ k a
-čidlo	t͡ʃ ɪ d l o
-židovi	ʒ ɪ d o v ɪ
-židovka	ʒ ɪ d o f k a
-židovský	ʒ ɪ d o f s k iː
-židovství	ʒ ɪ d o f s t v iː
-židu	ʒ ɪ d u
-židy	ʒ ɪ d ɪ
-židé	ʒ ɪ d ɛː
-řidítka	r̝ ɪ ɟ iː t k a
-židů	ʒ ɪ d uː
-židům	ʒ ɪ d uː m
-čifut	t͡ʃ ɪ f u t
-žihadlo	ʒ ɪ ɦ a d l o
-čihař	t͡ʃ ɪ ɦ a r̝̊
 šij	ʃ ɪ j
 šije	ʃ ɪ j ɛ
 šijeme	ʃ ɪ j ɛ m ɛ
@@ -19742,7 +19819,6 @@ zříct	z r̝ iː t͡s t
 šijou	ʃ ɪ j o u̯
 šiju	ʃ ɪ j u
 šijí	ʃ ɪ j iː
-žijící	ʒ ɪ j iː t͡s iː
 šik	ʃ ɪ k
 šikana	ʃ ɪ k a n a
 šikanovat	ʃ ɪ k a n o v a t
@@ -19757,103 +19833,23 @@ zříct	z r̝ iː t͡s t
 šilhat	ʃ ɪ l ɦ a t
 šilhavost	ʃ ɪ l ɦ a v o s t
 šilhavý	ʃ ɪ l ɦ a v iː
-čili	t͡ʃ ɪ l ɪ
 šili	ʃ ɪ l ɪ
-žilka	ʒ ɪ l k a
-žilní	ʒ ɪ l ɲ iː
 šilo	ʃ ɪ l o
-čilost	t͡ʃ ɪ l o s t
-čilský	t͡ʃ ɪ l s k iː
 šily	ʃ ɪ l ɪ
-čilý	t͡ʃ ɪ l iː
 šimek	ʃ ɪ m ɛ k
 šimon	ʃ ɪ m o n
 šimpanz	ʃ ɪ m p a n s
 šimpanzí	ʃ ɪ m p a n z iː
 šimůnek	ʃ ɪ m uː n ɛ k
-čina	t͡ʃ ɪ n a
-žinantní	ʒ ɪ n a n t ɲ iː
-čine	t͡ʃ ɪ n ɛ
-činech	t͡ʃ ɪ n ɛ x
-činem	t͡ʃ ɪ n ɛ m
-činidlo	t͡ʃ ɪ ɲ ɪ d l o
-činit	t͡ʃ ɪ ɲ ɪ t
-činitel	t͡ʃ ɪ ɲ ɪ t ɛ l
-činka	t͡ʃ ɪ ŋ k a
-činnost	t͡ʃ ɪ n o s t
-činný	t͡ʃ ɪ n iː
-činohra	t͡ʃ ɪ n o ɦ r a
-činorodý	t͡ʃ ɪ n o r o d iː
-řinout	r̝ ɪ n o u̯ t
-činu	t͡ʃ ɪ n u
-činy	t͡ʃ ɪ n ɪ
-žinýrovat	ʒ ɪ n iː r o v a t
-činům	t͡ʃ ɪ n uː m
-činěnice	t͡ʃ ɪ ɲ ɛ ɲ ɪ t͡s ɛ
-činžák	t͡ʃ ɪ n ʒ aː k
-čip	t͡ʃ ɪ p
 šipka	ʃ ɪ p k a
-čipový	t͡ʃ ɪ p o v iː
-žirafí	ʒ ɪ r a f iː
-čirok	t͡ʃ ɪ r o k
 širokospektrální	ʃ ɪ r o k o s p ɛ k t r aː l ɲ iː
 širokospektrý	ʃ ɪ r o k o s p ɛ k t r iː
-čirý	t͡ʃ ɪ r iː
-čistit	t͡ʃ ɪ s c ɪ t
-čistka	t͡ʃ ɪ s t k a
-čistokrevný	t͡ʃ ɪ s t o k r ɛ v n iː
-čistota	t͡ʃ ɪ s t o t a
-čistotnost	t͡ʃ ɪ s t o t n o s t
-čistotný	t͡ʃ ɪ s t o t n iː
 šit	ʃ ɪ t
-čita	t͡ʃ ɪ t a
 šita	ʃ ɪ t a
-čitatel	t͡ʃ ɪ t a t ɛ l
-žitava	ʒ ɪ t a v a
-čitelnost	t͡ʃ ɪ t ɛ l n o s t
-čitelný	t͡ʃ ɪ t ɛ l n iː
-řiti	r̝ ɪ c ɪ
 šiti	ʃ ɪ c ɪ
-řitní	r̝ ɪ t ɲ iː
 šito	ʃ ɪ t o
-žito	ʒ ɪ t o
 šity	ʃ ɪ t ɪ
-řití	r̝ ɪ c iː
-žití	ʒ ɪ c iː
-řitích	r̝ ɪ c iː x
-řitím	r̝ ɪ c iː m
-řitě	r̝ ɪ c ɛ
-řitěmi	r̝ ɪ c ɛ m ɪ
-čivava	t͡ʃ ɪ v a v a
-živec	ʒ ɪ v ɛ t͡s
-živel	ʒ ɪ v ɛ l
-živina	ʒ ɪ v ɪ n a
-živit	ʒ ɪ v ɪ t
-živnůstka	ʒ ɪ v n uː s t k a
-živobytí	ʒ ɪ v o b ɪ c iː
-živost	ʒ ɪ v o s t
-životabudič	ʒ ɪ v o t a b u ɟ ɪ t͡ʃ
-životaschopnost	ʒ ɪ v o t a s x o p n o s t
-životaschopný	ʒ ɪ v o t a s x o p n iː
-životnost	ʒ ɪ v o t n o s t
-životní	ʒ ɪ v o t ɲ iː
-životný	ʒ ɪ v o t n iː
-životodárný	ʒ ɪ v o t o d aː r n iː
-životopis	ʒ ɪ v o t o p ɪ s
-životopisný	ʒ ɪ v o t o p ɪ s n iː
-živočich	ʒ ɪ v o t͡ʃ ɪ x
-živořit	ʒ ɪ v o r̝ ɪ t
-živočišný	ʒ ɪ v o t͡ʃ ɪ ʃ n iː
-živáček	ʒ ɪ v aː t͡ʃ ɛ k
-řiď	r̝ ɪ c
-řiť	r̝ ɪ c
-čičinka	t͡ʃ ɪ t͡ʃ ɪ ŋ k a
 šišinka	ʃ ɪ ʃ ɪ ŋ k a
-řiťka	r̝ ɪ c k a
-žižkův	ʒ ɪ ʃ k uː f
-čičmunda	t͡ʃ ɪ t͡ʃ m u n d a
-řiťolez	r̝ ɪ c o l ɛ s
-řiťolezec	r̝ ɪ c o l ɛ z ɛ t͡s
 škaredý	ʃ k a r ɛ d iː
 škarohlíd	ʃ k a r o ɦ l iː t
 škoda	ʃ k o d a
@@ -19878,7 +19874,6 @@ zříct	z r̝ iː t͡s t
 škálovatelnost	ʃ k aː l o v a t ɛ l n o s t
 škálovatelný	ʃ k aː l o v a t ɛ l n iː
 šla	ʃ l a
-žlab	ʒ l a p
 šlacha	ʃ l a x a
 šlapka	ʃ l a p k a
 šlechta	ʃ l ɛ x t a
@@ -19886,68 +19881,25 @@ zříct	z r̝ iː t͡s t
 šlechtit	ʃ l ɛ x c ɪ t
 šlehat	ʃ l ɛ ɦ a t
 šlehačka	ʃ l ɛ ɦ a t͡ʃ k a
-člen	t͡ʃ l ɛ n
 šlendriánský	ʃ l ɛ n d r ɪ aː n s k iː
-členit	t͡ʃ l ɛ ɲ ɪ t
-členitost	t͡ʃ l ɛ ɲ ɪ t o s t
-členitý	t͡ʃ l ɛ ɲ ɪ t iː
-členka	t͡ʃ l ɛ ŋ k a
-členovec	t͡ʃ l ɛ n o v ɛ t͡s
-členský	t͡ʃ l ɛ n s k iː
-členství	t͡ʃ l ɛ n s t v iː
-členění	t͡ʃ l ɛ ɲ ɛ ɲ iː
 šlesvicko	ʃ l ɛ s v ɪ t͡s k o
 šlohnout	ʃ l o ɦ n o u̯ t
 šlompácký	ʃ l o m p aː t͡s k iː
-žloutek	ʒ l o u̯ t ɛ k
-žloutenka	ʒ l o u̯ t ɛ ŋ k a
-človíček	t͡ʃ l o v iː t͡ʃ ɛ k
-člověkohodina	t͡ʃ l o v j ɛ k o ɦ o ɟ ɪ n a
-člověkův	t͡ʃ l o v j ɛ k uː f
-člověčí	t͡ʃ l o v j ɛ t͡ʃ iː
-žluna	ʒ l u n a
-žlutavý	ʒ l u t a v iː
-žluva	ʒ l u v a
-žluč	ʒ l u t͡ʃ
-žlučník	ʒ l u t͡ʃ ɲ iː k
-žlučovod	ʒ l u t͡ʃ o v o t
-žlučový	ʒ l u t͡ʃ o v iː
-článeček	t͡ʃ l aː n ɛ t͡ʃ ɛ k
 šlápota	ʃ l aː p o t a
-žláza	ʒ l aː z a
-žlázový	ʒ l aː z o v iː
 šmahinou	ʃ m a ɦ ɪ n o u̯
-čmajznout	t͡ʃ m a j z n o u̯ t
 šmakovný	ʃ m a k o v n iː
 šmejd	ʃ m ɛ j t
-čmelák	t͡ʃ m ɛ l aː k
-čmeláčí	t͡ʃ m ɛ l aː t͡ʃ iː
 šmirgl	ʃ m ɪ r ɡ l̩
 šmirglpapír	ʃ m ɪ r ɡ l̩ p a p iː r
 šmoula	ʃ m o u̯ l a
-čmáranice	t͡ʃ m aː r a ɲ ɪ t͡s ɛ
-žna	ʒ n a
-žne	ʒ n ɛ
 šnečí	ʃ n ɛ t͡ʃ iː
-žni	ʒ ɲ ɪ
-žnu	ʒ n u
-žnul	ʒ n u l
-žnula	ʒ n u l a
 šnytlík	ʃ n ɪ t l iː k
-žofka	ʒ o f k a
 šofér	ʃ o f ɛː r
 šoférovat	ʃ o f ɛː r o v a t
 šok	ʃ o k
-čoklí	t͡ʃ o k l iː
-čokoládový	t͡ʃ o k o l aː d o v iː
 šokovaný	ʃ o k o v a n iː
 šokovat	ʃ o k o v a t
 šokující	ʃ o k u j iː t͡s iː
-žold	ʒ o l t
-žoldnéř	ʒ o l d n ɛː r̝̊
-žoldák	ʒ o l d aː k
-žolík	ʒ o l iː k
-čop	t͡ʃ o p
 šoproň	ʃ o p r o ɲ
 šotek	ʃ o t ɛ k
 šoufl	ʃ o u̯ f l̩
@@ -19959,10 +19911,8 @@ zříct	z r̝ iː t͡s t
 šovinista	ʃ o v ɪ n ɪ s t a
 šovinistický	ʃ o v ɪ n ɪ s t ɪ t͡s k iː
 šovinizmus	ʃ o v ɪ n ɪ z m u s
-žoviální	ʒ o v ɪ aː l ɲ iː
 šovén	ʃ o v ɛː n
 šovénství	ʃ o v ɛː n s t v iː
-čočka	t͡ʃ o t͡ʃ k a
 špachtle	ʃ p a x t l ɛ
 špajska	ʃ p a j s k a
 špajzka	ʃ p a j s k a
@@ -19973,7 +19923,6 @@ zříct	z r̝ iː t͡s t
 španělský	ʃ p a ɲ ɛ l s k iː
 španělština	ʃ p a ɲ ɛ l ʃ c ɪ n a
 špargl	ʃ p a r ɡ l̩
-čpavek	t͡ʃ p a v ɛ k
 špaček	ʃ p a t͡ʃ ɛ k
 špehovat	ʃ p ɛ ɦ o v a t
 špek	ʃ p ɛ k
@@ -19994,72 +19943,28 @@ zříct	z r̝ iː t͡s t
 špunt	ʃ p u n t
 špína	ʃ p iː n a
 špíz	ʃ p iː s
-žral	ʒ r a l
-žrala	ʒ r a l a
-žralok	ʒ r a l o k
-žraločí	ʒ r a l o t͡ʃ iː
 šrot	ʃ r o t
 šrotiště	ʃ r o c ɪ ʃ c ɛ
 šroub	ʃ r o u̯ p
 šroubovice	ʃ r o u̯ b o v ɪ t͡s ɛ
-črta	t͡ʃ r̩ t a
-žrádlo	ʒ r aː d l o
 šrámek	ʃ r aː m ɛ k
-žrán	ʒ r aː n
 šrínagar	ʃ r iː n a ɡ a r
-čta	t͡ʃ t a
 štace	ʃ t a t͡s ɛ
-čte	t͡ʃ t ɛ
 štefan	ʃ t ɛ f a n
 štefánek	ʃ t ɛ f aː n ɛ k
 štefánikův	ʃ t ɛ f aː ɲ ɪ k uː f
-čteme	t͡ʃ t ɛ m ɛ
-čten	t͡ʃ t ɛ n
-čtena	t͡ʃ t ɛ n a
-čteno	t͡ʃ t ɛ n o
-čtenář	t͡ʃ t ɛ n aː r̝̊
-čtenářka	t͡ʃ t ɛ n aː r̝̊ k a
-čtení	t͡ʃ t ɛ ɲ iː
-čtete	t͡ʃ t ɛ t ɛ
-čteš	t͡ʃ t ɛ ʃ
-čtečka	t͡ʃ t ɛ t͡ʃ k a
-čti	t͡ʃ c ɪ
 štidlák	ʃ c ɪ d l aː k
-čtivost	t͡ʃ c ɪ v o s t
-čtivý	t͡ʃ c ɪ v iː
 štičí	ʃ c ɪ t͡ʃ iː
 štola	ʃ t o l a
-čtou	t͡ʃ t o u̯
-čtouc	t͡ʃ t o u̯ t͡s
-čtouce	t͡ʃ t o u̯ t͡s ɛ
 štoček	ʃ t o t͡ʃ ɛ k
 štočkař	ʃ t o t͡ʃ k a r̝̊
 štrasburg	ʃ t r a z b u r k
 štrasburk	ʃ t r a z b u r k
-čtrnáctideník	t͡ʃ t r̩ n aː t͡s c ɪ d ɛ ɲ iː k
-čtrnáctiletý	t͡ʃ t r̩ n aː t͡s c ɪ l ɛ t iː
-čtrnáctiprocentní	t͡ʃ t r̩ n aː t͡s c ɪ p r o t͡s ɛ n t ɲ iː
-čtrnáctkrát	t͡ʃ t r̩ n aː t͡s t k r aː t
-čtu	t͡ʃ t u
 študák	ʃ t u d aː k
 štupovat	ʃ t u p o v a t
 štvanice	ʃ t v a ɲ ɪ t͡s ɛ
 štvavý	ʃ t v a v iː
-čtvercový	t͡ʃ t v ɛ r t͡s o v iː
-čtverec	t͡ʃ t v ɛ r ɛ t͡s
-čtvrtek	t͡ʃ t v r̩ t ɛ k
-čtvrtfinále	t͡ʃ t v r̩ t f ɪ n aː l ɛ
-čtvrthrst	t ʃ t v r̩ t ɦ r̩ s t
-čtvrtina	t͡ʃ t v r̩ c ɪ n a
-čtvrtka	t͡ʃ t v r̩ t k a
-čtvrť	t͡ʃ t v r̩ c
 štvát	ʃ t v aː t
-čtyřlístek	t͡ʃ t ɪ r̝ l iː s t ɛ k
-čtyřpětinový	t͡ʃ t ɪ r̝̊ p j ɛ c ɪ n o v iː
-čtyřslabičný	t͡ʃ t ɪ r̝̊ s l a b ɪ t͡ʃ n iː
-čtyřstěn	t͡ʃ t ɪ r̝̊ s c ɛ n
-čtyřverší	t͡ʃ t ɪ r̝ v ɛ r ʃ iː
-čtyřúhelník	t͡ʃ t ɪ r̝ uː ɦ ɛ l ɲ iː k
 štáb	ʃ t aː p
 štípat	ʃ c iː p a t
 štípnout	ʃ c iː p n o u̯ t
@@ -20099,15 +20004,8 @@ zříct	z r̝ iː t͡s t
 štětka	ʃ c ɛ t k a
 štětín	ʃ c ɛ c iː n
 štěňátko	ʃ c ɛ ɲ aː t k o
-čuba	t͡ʃ u b a
-čubka	t͡ʃ u p k a
-čubčí	t͡ʃ u p t͡ʃ iː
-čuchat	t͡ʃ u x a t
 šuk	ʃ u k
 šukačka	ʃ u k a t͡ʃ k a
-čukotka	t͡ʃ u k o t k a
-čukotský	t͡ʃ u k o t s k iː
-čukotština	t͡ʃ u k o t ʃ c ɪ n a
 šukézní	ʃ u k ɛː z ɲ iː
 šulin	ʃ u l ɪ n
 šulín	ʃ u l iː n
@@ -20115,40 +20013,22 @@ zříct	z r̝ iː t͡s t
 šum	ʃ u m
 šume	ʃ u m ɛ
 šumem	ʃ u m ɛ m
-ťumeň	c u m ɛ ɲ
 šumivý	ʃ u m ɪ v iː
 šumný	ʃ u m n iː
 šumu	ʃ u m u
 šumy	ʃ u m ɪ
-čumák	t͡ʃ u m aː k
 šumák	ʃ u m aː k
-čumět	t͡ʃ u m ɲ ɛ t
 šunkofleky	ʃ u ŋ k o f l ɛ k ɪ
 šunt	ʃ u n t
-čuník	t͡ʃ u ɲ iː k
-čuně	t͡ʃ u ɲ ɛ
 šuple	ʃ u p l ɛ
 šuplík	ʃ u p l iː k
 šural	ʃ u r a l
-čurat	t͡ʃ u r a t
-čurbes	t͡ʃ u r b ɛ s
-žurnalista	ʒ u r n a l ɪ s t a
-čurák	t͡ʃ u r aː k
-čuránky	t͡ʃ u r aː ŋ k ɪ
-čuráček	t͡ʃ u r aː t͡ʃ ɛ k
-čus	t͡ʃ u s
 švagr	ʃ v a ɡ r̩
 švagrová	ʃ v a ɡ r o v aː
 švanda	ʃ v a n d a
-žvanit	ʒ v a ɲ ɪ t
-řvaní	r̝ v a ɲ iː
 švarný	ʃ v a r n iː
-řvavý	r̝ v a v iː
 šve	ʃ v ɛ
 švec	ʃ v ɛ t͡s
-žvejda	ʒ v ɛ j d a
-žvejka	ʒ v ɛ j k a
-žvejkačka	ʒ v ɛ j k a t͡ʃ k a
 švejkovat	ʃ v ɛ j k o v a t
 švem	ʃ v ɛ m
 švindl	ʃ v ɪ n d l̩
@@ -20168,155 +20048,44 @@ zříct	z r̝ iː t͡s t
 švýcarka	ʃ v iː t͡s a r k a
 švýcarsko	ʃ v iː t͡s a r s k o
 švýcarský	ʃ v iː t͡s a r s k iː
-ďábelský	ɟ aː b ɛ l s k iː
-ďáblice	ɟ aː b l ɪ t͡s ɛ
-ďáblí	ɟ aː b l iː
-ďáblův	ɟ aː b l uː f
-žábra	ʒ aː b r a
-žábry	ʒ aː b r ɪ
-žádanka	ʒ aː d a ŋ k a
-žádat	ʒ aː d a t
-řádek	r̝ aː d ɛ k
-řádit	r̝ aː ɟ ɪ t
-řádka	r̝ aː t k a
-řádný	r̝ aː d n iː
-žádost	ʒ aː d o s t
-žádostivost	ʒ aː d o s c ɪ v o s t
-žádostivý	ʒ aː d o s c ɪ v iː
-žádoucí	ʒ aː d o u̯ t͡s iː
-řádu	r̝ aː d u
-řády	r̝ aː d ɪ
-řádí	r̝ aː ɟ iː
-řádíc	r̝ aː ɟ iː t͡s
-řádíce	r̝ aː ɟ iː t͡s ɛ
-řádím	r̝ aː ɟ iː m
-řádíme	r̝ aː ɟ iː m ɛ
-řádíte	r̝ aː ɟ iː t ɛ
-řádíš	r̝ aː ɟ iː ʃ
-řádě	r̝ aː ɟ ɛ
-řádění	r̝ aː ɟ ɛ ɲ iː
-čágo	t͡ʃ aː ɡ o
-žákajda	ʒ aː k a j d a
-žákovský	ʒ aː k o f s k iː
 šála	ʃ aː l a
-čápice	t͡ʃ aː p ɪ t͡s ɛ
-žárlit	ʒ aː r l ɪ t
-žárlivost	ʒ aː r l ɪ v o s t
-žárlivý	ʒ aː r l ɪ v iː
-žárovička	ʒ aː r o v ɪ t͡ʃ k a
-žárovka	ʒ aː r o f k a
-žáruvzdorný	ʒ aː r u v z d o r n iː
-čáry	t͡ʃ aː r ɪ
 šárčin	ʃ aː r t͡ʃ ɪ n
-část	t͡ʃ aː s t
-částečný	t͡ʃ aː s t ɛ t͡ʃ n iː
-částečně	t͡ʃ aː s t ɛ t͡ʃ ɲ ɛ
-částice	t͡ʃ aː s c ɪ t͡s ɛ
-částicový	t͡ʃ aː s c ɪ t͡s o v iː
-částka	t͡ʃ aː s t k a
 šátek	ʃ aː t ɛ k
 šáteček	ʃ aː t ɛ t͡ʃ ɛ k
-žáček	ʒ aː t͡ʃ ɛ k
 šéf	ʃ ɛː f
 šéfredaktor	ʃ ɛː f r ɛ d a k t o r
 šéfredaktorka	ʃ ɛː f r ɛ d a k t o r k a
 šéfův	ʃ ɛː f uː f
-říci	r̝ iː t͡s ɪ
-řídce	r̝ iː t͡s ɛ
 šídel	ʃ iː d ɛ l
-řídkost	r̝ iː t k o s t
-řídký	r̝ iː t k iː
 šídla	ʃ iː d l a
 šídle	ʃ iː d l ɛ
 šídlo	ʃ iː d l o
-řídnout	r̝ iː d n o u̯ t
-řídící	r̝ iː ɟ iː t͡s iː
-říha	r̝ iː ɦ a
-číhaná	t͡ʃ iː ɦ a n aː
-říhat	r̝ iː ɦ a t
-číhat	t͡ʃ iː ɦ a t
-žíhat	ʒ iː ɦ a t
-říhnout	r̝ iː ɦ n o u̯ t
-říhnutí	r̝ iː ɦ n u c iː
-říhání	r̝ iː ɦ aː ɲ iː
-žíhání	ʒ iː ɦ aː ɲ iː
 šíita	ʃ iː ɪ t a
 šíitský	ʃ iː ɪ t s k iː
-říje	r̝ iː j ɛ
 šíje	ʃ iː j ɛ
 šíji	ʃ iː j ɪ
-října	r̝ iː j n a
-říjnový	r̝ iː j n o v iː
 šíjí	ʃ iː j iː
-říkanka	r̝ iː k a ŋ k a
-říká	r̝ iː k aː
-žíla	ʒ iː l a
 šílenec	ʃ iː l ɛ n ɛ t͡s
 šílenství	ʃ iː l ɛ n s t v iː
 šílený	ʃ iː l ɛ n iː
 šíleně	ʃ iː l ɛ ɲ ɛ
 šílet	ʃ iː l ɛ t
-čím	t͡ʃ iː m
-říman	r̝ iː m a n
-římanka	r̝ iː m a ŋ k a
-římskokatolický	r̝ iː m s k o k a t o l ɪ t͡s k iː
-římský	r̝ iː m s k iː
-čína	t͡ʃ iː n a
-žínka	ʒ iː ŋ k a
-čínský	t͡ʃ iː n s k iː
-žíně	ʒ iː ɲ ɛ
-žíněnka	ʒ iː ɲ ɛ ŋ k a
-čínština	t͡ʃ iː n ʃ c ɪ n a
 šípe	ʃ iː p ɛ
-čípek	t͡ʃ iː p ɛ k
 šípek	ʃ iː p ɛ k
 šípem	ʃ iː p ɛ m
 šípu	ʃ iː p u
 šípy	ʃ iː p ɪ
 šípů	ʃ iː p uː
-žíravina	ʒ iː r a v ɪ n a
-žíravý	ʒ iː r a v iː
-čírka	t͡ʃ iː r k a
 šíráz	ʃ iː r aː s
-číselník	t͡ʃ iː s ɛ l ɲ iː k
-číslice	t͡ʃ iː s l ɪ t͡s ɛ
-číslicový	t͡ʃ iː s l ɪ t͡s o v iː
-číslovaný	t͡ʃ iː s l o v a n iː
-číslovat	t͡ʃ iː s l o v a t
-číslovka	t͡ʃ iː s l o f k a
-číslovky	t͡ʃ iː s l o f k ɪ
-čítanka	t͡ʃ iː t a ŋ k a
-čítankový	t͡ʃ iː t a ŋ k o v iː
-čítat	t͡ʃ iː t a t
-čítač	t͡ʃ iː t a t͡ʃ
-řítit	r̝ iː c ɪ t
-čítárna	t͡ʃ iː t aː r n a
-řízení	r̝ iː z ɛ ɲ iː
-řízený	r̝ iː z ɛ n iː
-žíznivý	ʒ iː z ɲ ɪ v iː
-říznutí	r̝ iː z n u c iː
-říďa	r̝ iː ɟ a
-číča	t͡ʃ iː t͡ʃ a
-šíša	ʃ iː ʃ a
-žížalí	ʒ iː ʒ a l iː
-číňan	t͡ʃ iː ɲ a n
-číňanka	t͡ʃ iː ɲ a ŋ k a
-říše	r̝ iː ʃ ɛ
-číše	t͡ʃ iː ʃ ɛ
-čížek	t͡ʃ iː ʒ ɛ k
 šířit	ʃ iː r̝ ɪ t
-říčka	r̝ iː t͡ʃ k a
 šířka	ʃ iː r̝̊ k a
-číšnice	t͡ʃ iː ʃ ɲ ɪ t͡s ɛ
-říční	r̝ iː t͡ʃ ɲ iː
-říšský	r̝ iː ʃ s k iː
-čórnout	t͡ʃ oː r n o u̯ t
+šíša	ʃ iː ʃ a
+šči	ʃ t͡ʃ ɪ
+šňůra	ʃ ɲ uː r a
 šťavel	ʃ c a v ɛ l
 šťavelan	ʃ c a v ɛ l a n
 šťavnatý	ʃ c a v n a t iː
-šči	ʃ t͡ʃ ɪ
 šťovík	ʃ c o v iː k
-čůrat	t͡ʃ uː r a t
 šťára	ʃ c aː ɾ a
 šťáv	ʃ c aː f
 šťáva	ʃ c aː v a
@@ -20325,4 +20094,235 @@ zříct	z r̝ iː t͡s t
 šťávu	ʃ c aː v u
 šťávy	ʃ c aː v ɪ
 šťávě	ʃ c aː v j ɛ
-šňůra	ʃ ɲ uː r a
+ťumeň	c u m ɛ ɲ
+žaber	ʒ a b ɛ r
+žaberní	ʒ a b ɛ r ɲ iː
+žabinec	ʒ a b ɪ n ɛ t͡s
+žabička	ʒ a b ɪ t͡ʃ k a
+žabka	ʒ a p k a
+žabomyší	ʒ a b o m ɪ ʃ iː
+žabožrout	ʒ a b o ʒ r o u̯ t
+žabák	ʒ a b aː k
+žabí	ʒ a b iː
+žadonit	ʒ a d o ɲ ɪ t
+žahavec	ʒ a ɦ a v ɛ t͡s
+žako	ʒ a k o
+žala	ʒ a l a
+žali	ʒ a l ɪ
+žalo	ʒ a l o
+žaloba	ʒ a l o b a
+žalobce	ʒ a l o p t͡s ɛ
+žalobkyně	ʒ a l o p k ɪ ɲ ɛ
+žalostný	ʒ a l o s t n iː
+žalovat	ʒ a l o v a t
+žalozpěv	ʒ a l o s p j ɛ f
+žalud	ʒ a l u t
+žaludek	ʒ a l u d ɛ k
+žaludeční	ʒ a l u d ɛ t͡ʃ ɲ iː
+žaludy	ʒ a l u d ɪ
+žalující	ʒ a l u j iː t͡s iː
+žaly	ʒ a l ɪ
+žalář	ʒ a l aː r̝̊
+žandarmerie	ʒ a n d a r m ɛ r ɪ j ɛ
+žandár	ʒ a n d aː r
+žaneta	ʒ a n ɛ t a
+žanetka	ʒ a n ɛ t k a
+žasnout	ʒ a s n o u̯ t
+žat	ʒ a t
+žata	ʒ a t a
+žatecko	ʒ a t ɛ t͡s k o
+žati	ʒ a c ɪ
+žato	ʒ a t o
+žaty	ʒ a t ɪ
+žačka	ʒ a t͡ʃ k a
+ždímat	ʒ ɟ iː m a t
+ždímačka	ʒ ɟ iː m a t͡ʃ k a
+žeberní	ʒ ɛ b ɛ r ɲ iː
+žebrat	ʒ ɛ b r a t
+žebračka	ʒ ɛ b r a t͡ʃ k a
+žebro	ʒ ɛ b r o
+žebrácký	ʒ ɛ b r aː t͡s k iː
+žebrák	ʒ ɛ b r aː k
+žebřiny	ʒ ɛ b r̝ ɪ n ɪ
+žebřík	ʒ ɛ b r̝ iː k
+žebříček	ʒ ɛ b r̝ iː t͡ʃ ɛ k
+žehlit	ʒ ɛ ɦ l ɪ t
+žehrat	ʒ ɛ ɦ r a t
+žel	ʒ ɛ l
+želet	ʒ ɛ l ɛ t
+železnatý	ʒ ɛ l ɛ z n a t iː
+železnice	ʒ ɛ l ɛ z ɲ ɪ t͡s ɛ
+železniční	ʒ ɛ l ɛ z ɲ ɪ t͡ʃ ɲ iː
+železná	ʒ ɛ l ɛ z n aː
+železný	ʒ ɛ l ɛ z n iː
+železářství	ʒ ɛ l ɛ z aː r̝̊ s t v iː
+želvička	ʒ ɛ l v ɪ t͡ʃ k a
+želvovina	ʒ ɛ l v o v ɪ n a
+želvovinový	ʒ ɛ l v o v ɪ n o v iː
+želví	ʒ ɛ l v iː
+žemle	ʒ ɛ m l ɛ
+žemlička	ʒ ɛ m l ɪ t͡ʃ k a
+žemlovka	ʒ ɛ m l o f k a
+žen	ʒ ɛ n
+ženami	ʒ ɛ n a m ɪ
+žene	ʒ ɛ n ɛ
+ženeme	ʒ ɛ n ɛ m ɛ
+ženete	ʒ ɛ n ɛ t ɛ
+ženeva	ʒ ɛ n ɛ v a
+ženevan	ʒ ɛ n ɛ v a n
+ženevský	ʒ ɛ n ɛ f s k iː
+ženeš	ʒ ɛ n ɛ ʃ
+ženich	ʒ ɛ ɲ ɪ x
+ženin	ʒ ɛ ɲ ɪ n
+ženit	ʒ ɛ ɲ ɪ t
+ženitba	ʒ ɛ ɲ ɪ d b a
+ženo	ʒ ɛ n o
+ženou	ʒ ɛ n o u̯
+ženouc	ʒ ɛ n o u̯ t͡s
+ženská	ʒ ɛ n s k aː
+ženský	ʒ ɛ n s k iː
+ženu	ʒ ɛ n u
+ženy	ʒ ɛ n ɪ
+ženách	ʒ ɛ n aː x
+ženám	ʒ ɛ n aː m
+ženáč	ʒ ɛ n aː t͡ʃ
+žení	ʒ ɛ ɲ iː
+ženíc	ʒ ɛ ɲ iː t͡s
+ženíce	ʒ ɛ ɲ iː t͡s ɛ
+ženíme	ʒ ɛ ɲ iː m ɛ
+ženíte	ʒ ɛ ɲ iː t ɛ
+ženíš	ʒ ɛ ɲ iː ʃ
+ženě	ʒ ɛ ɲ ɛ
+žer	ʒ ɛ r
+žera	ʒ ɛ r a
+žere	ʒ ɛ r ɛ
+žereš	ʒ ɛ r ɛ ʃ
+žerme	ʒ ɛ r m ɛ
+žerou	ʒ ɛ r o u̯
+žert	ʒ ɛ r t
+žerte	ʒ ɛ r t ɛ
+žertovat	ʒ ɛ r t o v a t
+žertík	ʒ ɛ r c iː k
+žertíček	ʒ ɛ r c iː t͡ʃ ɛ k
+žeru	ʒ ɛ r u
+žesťový	ʒ ɛ s c o v iː
+žezlo	ʒ ɛ z l o
+žeň	ʒ ɛ ɲ
+žeňme	ʒ ɛ ɲ m ɛ
+žeňte	ʒ ɛ ɲ t ɛ
+žežulka	ʒ ɛ ʒ u l k a
+žgrt	ʒ ɡ r̩ t
+žhnout	ʒ ɦ n o u̯ t
+žhář	ʒ ɦ aː r̝̊
+žhářka	ʒ ɦ aː r̝̊ k a
+žhářský	ʒ ɦ aː r̝̊ s k iː
+žhářství	ʒ ɦ aː r̝̊ s t v iː
+žid	ʒ ɪ t
+žida	ʒ ɪ d a
+žide	ʒ ɪ d ɛ
+židech	ʒ ɪ d ɛ x
+židem	ʒ ɪ d ɛ m
+židi	ʒ ɪ ɟ ɪ
+židlička	ʒ ɪ d l ɪ t͡ʃ k a
+židovi	ʒ ɪ d o v ɪ
+židovka	ʒ ɪ d o f k a
+židovský	ʒ ɪ d o f s k iː
+židovství	ʒ ɪ d o f s t v iː
+židu	ʒ ɪ d u
+židy	ʒ ɪ d ɪ
+židé	ʒ ɪ d ɛː
+židů	ʒ ɪ d uː
+židům	ʒ ɪ d uː m
+žihadlo	ʒ ɪ ɦ a d l o
+žijící	ʒ ɪ j iː t͡s iː
+žilka	ʒ ɪ l k a
+žilní	ʒ ɪ l ɲ iː
+žinantní	ʒ ɪ n a n t ɲ iː
+žinýrovat	ʒ ɪ n iː r o v a t
+žirafí	ʒ ɪ r a f iː
+žitava	ʒ ɪ t a v a
+žito	ʒ ɪ t o
+žití	ʒ ɪ c iː
+živec	ʒ ɪ v ɛ t͡s
+živel	ʒ ɪ v ɛ l
+živina	ʒ ɪ v ɪ n a
+živit	ʒ ɪ v ɪ t
+živnůstka	ʒ ɪ v n uː s t k a
+živobytí	ʒ ɪ v o b ɪ c iː
+živost	ʒ ɪ v o s t
+životabudič	ʒ ɪ v o t a b u ɟ ɪ t͡ʃ
+životaschopnost	ʒ ɪ v o t a s x o p n o s t
+životaschopný	ʒ ɪ v o t a s x o p n iː
+životnost	ʒ ɪ v o t n o s t
+životní	ʒ ɪ v o t ɲ iː
+životný	ʒ ɪ v o t n iː
+životodárný	ʒ ɪ v o t o d aː r n iː
+životopis	ʒ ɪ v o t o p ɪ s
+životopisný	ʒ ɪ v o t o p ɪ s n iː
+živočich	ʒ ɪ v o t͡ʃ ɪ x
+živočišný	ʒ ɪ v o t͡ʃ ɪ ʃ n iː
+živořit	ʒ ɪ v o r̝ ɪ t
+živáček	ʒ ɪ v aː t͡ʃ ɛ k
+žižkův	ʒ ɪ ʃ k uː f
+žlab	ʒ l a p
+žloutek	ʒ l o u̯ t ɛ k
+žloutenka	ʒ l o u̯ t ɛ ŋ k a
+žluna	ʒ l u n a
+žlutavý	ʒ l u t a v iː
+žluva	ʒ l u v a
+žluč	ʒ l u t͡ʃ
+žlučník	ʒ l u t͡ʃ ɲ iː k
+žlučovod	ʒ l u t͡ʃ o v o t
+žlučový	ʒ l u t͡ʃ o v iː
+žláza	ʒ l aː z a
+žlázový	ʒ l aː z o v iː
+žna	ʒ n a
+žne	ʒ n ɛ
+žni	ʒ ɲ ɪ
+žnu	ʒ n u
+žnul	ʒ n u l
+žnula	ʒ n u l a
+žofka	ʒ o f k a
+žold	ʒ o l t
+žoldnéř	ʒ o l d n ɛː r̝̊
+žoldák	ʒ o l d aː k
+žolík	ʒ o l iː k
+žoviální	ʒ o v ɪ aː l ɲ iː
+žral	ʒ r a l
+žrala	ʒ r a l a
+žralok	ʒ r a l o k
+žraločí	ʒ r a l o t͡ʃ iː
+žrádlo	ʒ r aː d l o
+žrán	ʒ r aː n
+žurnalista	ʒ u r n a l ɪ s t a
+žvanit	ʒ v a ɲ ɪ t
+žvejda	ʒ v ɛ j d a
+žvejka	ʒ v ɛ j k a
+žvejkačka	ʒ v ɛ j k a t͡ʃ k a
+žábra	ʒ aː b r a
+žábry	ʒ aː b r ɪ
+žádanka	ʒ aː d a ŋ k a
+žádat	ʒ aː d a t
+žádost	ʒ aː d o s t
+žádostivost	ʒ aː d o s c ɪ v o s t
+žádostivý	ʒ aː d o s c ɪ v iː
+žádoucí	ʒ aː d o u̯ t͡s iː
+žákajda	ʒ aː k a j d a
+žákovský	ʒ aː k o f s k iː
+žárlit	ʒ aː r l ɪ t
+žárlivost	ʒ aː r l ɪ v o s t
+žárlivý	ʒ aː r l ɪ v iː
+žárovička	ʒ aː r o v ɪ t͡ʃ k a
+žárovka	ʒ aː r o f k a
+žáruvzdorný	ʒ aː r u v z d o r n iː
+žáček	ʒ aː t͡ʃ ɛ k
+žíhat	ʒ iː ɦ a t
+žíhání	ʒ iː ɦ aː ɲ iː
+žíla	ʒ iː l a
+žínka	ʒ iː ŋ k a
+žíně	ʒ iː ɲ ɛ
+žíněnka	ʒ iː ɲ ɛ ŋ k a
+žíravina	ʒ iː r a v ɪ n a
+žíravý	ʒ iː r a v iː
+žíznivý	ʒ iː z ɲ ɪ v iː
+žížalí	ʒ iː ʒ a l iː
