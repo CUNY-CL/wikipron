@@ -32,12 +32,15 @@ _SMOKE_TEST_LANGUAGES = [
     # Korean data is mostly phonetic transcription only.
     SmokeTestLanguage("kor", "Korean", {"phonetic": True}),
     SmokeTestLanguage("khm", "Khmer", {}),
+    SmokeTestLanguage("tha", "Thai", {}),
+    SmokeTestLanguage("lat", "Latin", {}),
+    # Japanese data is mostly phonetic transcription.
+    SmokeTestLanguage("jpn", "Japanese", {"phonetic": True}),
 ]
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 @pytest.mark.parametrize("smoke_test_language", _SMOKE_TEST_LANGUAGES)
-@pytest.mark.timeout(3)
 def test_smoke_test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
@@ -56,9 +59,7 @@ def test_smoke_test_scrape(smoke_test_language):
 
 def test_special_languages_covered_by_smoke_test():
     """All languages handled by wikipron.extract must have a smoke test."""
-    special_languages = {
-        lang for lang in EXTRACTION_FUNCTIONS.keys() if lang != "default"
-    }
+    special_languages = {lang for lang in EXTRACTION_FUNCTIONS.keys()}
     smoke_test_languages = {lang.wik_name for lang in _SMOKE_TEST_LANGUAGES}
     assert special_languages.issubset(smoke_test_languages), (
         "These languages must also be included in the smoke test: "

@@ -8,8 +8,9 @@ from typing import Callable, Optional
 import iso639
 import segments
 
-from wikipron.languagecodes import LANGUAGE_CODES
 from wikipron.extract import EXTRACTION_FUNCTIONS
+from wikipron.extract.default import extract_word_pron_default
+from wikipron.languagecodes import LANGUAGE_CODES
 from wikipron.typing import ExtractFunc, Pron, Word
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
@@ -155,6 +156,12 @@ class Config:
 
     def _get_extract_word_pron(self, language: str) -> ExtractFunc:
         try:
-            return EXTRACTION_FUNCTIONS[language]
+            extraction_function = EXTRACTION_FUNCTIONS[language]
         except KeyError:
-            return EXTRACTION_FUNCTIONS["default"]
+            extraction_function = extract_word_pron_default
+
+        def extract_word_pron_with_casefolding(*args, **kwargs):
+            for word, pron in extraction_function(*args, **kwargs):
+                yield self.casefold(word), pron
+
+        return extract_word_pron_with_casefolding

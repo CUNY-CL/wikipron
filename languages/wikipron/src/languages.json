@@ -167,6 +167,12 @@
         "wiktionary_code": "zh",
         "casefold": false
     },
+    "cho": {
+        "iso639_name": "Choctaw",
+        "wiktionary_name": "Choctaw",
+        "wiktionary_code": "cho",
+        "casefold": true
+    },
     "nci": {
         "iso639_name": "Classical Nahuatl",
         "wiktionary_name": "Classical Nahuatl",
@@ -409,7 +415,11 @@
         "iso639_name": "Japanese",
         "wiktionary_name": "Japanese",
         "wiktionary_code": "ja",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "hira": "Hiragana",
+            "kana": "Katakana"
+        }
     },
     "quc": {
         "iso639_name": "K'iche'",
@@ -565,6 +575,12 @@
         "iso639_name": "Morisyen",
         "wiktionary_name": "Mauritian Creole",
         "wiktionary_code": "mfe",
+        "casefold": true
+    },
+    "nhx": {
+        "iso639_name": "Isthmus-Mecayapan Nahuatl",
+        "wiktionary_name": "Mecayapan Nahuatl",
+        "wiktionary_code": "nhx",
         "casefold": true
     },
     "mic": {
@@ -827,7 +843,11 @@
         "iso639_name": "Serbo-Croatian",
         "wiktionary_name": "Serbo-Croatian",
         "wiktionary_code": "sh",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
+        }
     },
     "shn": {
         "iso639_name": "Shan",
@@ -917,6 +937,12 @@
         "wiktionary_code": "te",
         "casefold": false
     },
+    "nhg": {
+        "iso639_name": "Tetelcingo Nahuatl",
+        "wiktionary_name": "Tetelcingo Nahuatl",
+        "wiktionary_code": "nhg",
+        "casefold": true
+    },
     "tha": {
         "iso639_name": "Thai",
         "wiktionary_name": "Thai",
@@ -987,7 +1013,11 @@
         "iso639_name": "Welsh",
         "wiktionary_name": "Welsh",
         "wiktionary_code": "cy",
-        "casefold": true
+        "casefold": true,
+        "dialect": {
+            "nw": "North Wales",
+            "sw": "South Wales"
+        }
     },
     "fry": {
         "iso639_name": "Western Frisian",

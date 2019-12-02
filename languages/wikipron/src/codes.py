@@ -34,10 +34,12 @@ import requests_html
 
 LANGUAGES_PATH = "languages.json"
 UNMATCHED_LANGUAGES_PATH = "unmatched_languages.json"
-README_PATH = "../tsv/README.md"
+README_PATH = "../README.md"
 LANGUAGES_SUMMARY_PATH = "../languages_summary.tsv"
 LOGGING_PATH = "scraping.log"
 ISO_TSV_PATH = "iso-639-3_20190408.tsv"
+HBS_PATH = "../tsv/hbs_"
+JPN_PATH = "../tsv/jpn_"
 
 
 # Grabs title of Wikitionary language page if it has more than 100 entries.

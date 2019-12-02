@@ -2,15 +2,7 @@ import os
 import setuptools
 
 
-_VERSION = "0.1.1"
-
-if getattr(setuptools, "__version__", "0") < "39":
-    # v36.4.0+ needed to automatically include README.md in packaging
-    # v38.6.0+ needed for long_description_content_type in setup()
-    raise EnvironmentError(
-        "Your setuptools is too old. "
-        "Please run 'pip install --upgrade pip setuptools'."
-    )
+_VERSION = "1.0.0"
 
 _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -41,11 +33,12 @@ def main():
         packages=setuptools.find_packages(),
         python_requires=">=3.6",
         zip_safe=False,
+        setup_requires=["setuptools>=39"],
         install_requires=[
             "iso639",
             "requests",
             "requests-html",
-            "segments>=2.1.2,<3",
+            "segments>=2.1.3,<3",
             "setuptools",
         ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},

@@ -49,5 +49,4 @@ jobs:
   build-python-3.8:
     <<: *template
     docker:
-      # TODO: Switch to python:3.8 after Python 3.8 is out in Oct/Nov 2019.
-      - image: python:3.8-rc
+      - image: python:3.8

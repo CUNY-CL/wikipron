@@ -56,7 +56,10 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         help=(
             "Retrieve only entries that were added to Wiktionary "
             "on or before this date (in ISO format, e.g., 2018-10-23). "
-            "If not given, today's date is used."
+            "If not given, today's date is used. "
+            "Explicitly setting a cut-off date is useful if you want a "
+            "relatively stable dataset no matter when you initiate a "
+            "scraping run."
         ),
     )
     parser.add_argument(

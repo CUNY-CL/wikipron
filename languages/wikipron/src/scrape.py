@@ -15,7 +15,7 @@ import wikipron
 from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
-def _call_scrape(lang, config, tsv_path):
+def _call_scrape(lang_settings, config, tsv_path):
     for unused_retries in range(10):
         count = 0
         with open(tsv_path, "w") as source:
@@ -30,12 +30,16 @@ def _call_scrape(lang, config, tsv_path):
             ):
                 logging.info(
                     'Exception detected while scraping: "%s", "%s".',
-                    lang,
+                    lang_settings["key"],
                     tsv_path,
                 )
                 # Pauses execution for 10 min.
                 time.sleep(600)
-    logging.info('Failed to scrape "%s" within 10 retries. %s', lang, config)
+    logging.info(
+        'Failed to scrape "%s" within 10 retries. %s',
+        lang_settings["key"],
+        lang_settings,
+    )
     return 0
 
 
@@ -47,13 +51,13 @@ def _build_config_and_filter_files(
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
     phonemic_count = _call_scrape(
-        config_settings["key"], phonemic_config, phonemic_path
+        config_settings, phonemic_config, phonemic_path
     )
 
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
     phonetic_count = _call_scrape(
-        config_settings["key"], phonetic_config, phonetic_path
+        config_settings, phonetic_config, phonetic_path
     )
 
     # Removes TSVs with less than 100 lines.
@@ -83,6 +87,7 @@ def _build_config_and_filter_files(
 def main():
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
+    # "2019-10-31" (Big Scrape 2)
     cut_off_date = datetime.date.today().isoformat()
     for iso639_code in languages:
         config_settings = {
@@ -112,7 +117,7 @@ if __name__ == "__main__":
     logging.basicConfig(
         format="%(filename)s %(levelname)s: %(asctime)s - %(message)s",
         handlers=[
-            logging.FileHandler(LOGGING_PATH, mode="w"),
+            logging.FileHandler(LOGGING_PATH, mode="a"),
             logging.StreamHandler(),
         ],
         datefmt="%d-%b-%y %H:%M:%S",
