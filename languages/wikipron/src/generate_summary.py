@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-import os
-import json
 import csv
+import logging
+import json
+import os
 
 from codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 
@@ -36,6 +37,15 @@ def main():
             continue
         with open(f"{path}/{file_path}", "r") as tsv:
             num_of_entries = sum(1 for line in tsv)
+        if num_of_entries < 100:
+            # Log count of entries to check whether Wikipron scraped any data.
+            logging.info(
+                '"%s" (count: %s) has less than 100 entries.',
+                file_path,
+                num_of_entries,
+            )
+            os.remove(f"{path}/{file_path}")
+            continue
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
             file_path.rindex("_") + 1: file_path.index(".")
@@ -98,4 +108,7 @@ def main():
 
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(message)s", level="INFO"
+    )
     main()

@@ -40,7 +40,7 @@ def _call_scrape(lang_settings, config, tsv_path):
         lang_settings["key"],
         lang_settings,
     )
-    return 0
+    return -1
 
 
 def _build_config_and_filter_files(
@@ -60,28 +60,11 @@ def _build_config_and_filter_files(
         config_settings, phonetic_config, phonetic_path
     )
 
-    # Removes TSVs with less than 100 lines.
-    # Log language name and count to check whether Wikipron scraped any data.
-    if phonemic_count < 100:
-        logging.info(
-            (
-                '"%s" (count: %s) has less than '
-                "100 entries in phonemic transcription."
-            ),
-            wiki_name,
-            phonemic_count,
-        )
+    # Removes TSVs that failed to be scraped within 10 retries.
+    if phonemic_count == -1:
         os.remove(phonemic_path)
-    if phonetic_count < 100:
+    if phonetic_count == -1:
         os.remove(phonetic_path)
-        logging.info(
-            (
-                '"%s" (count: %s) has less than '
-                "100 entries in phonetic transcription."
-            ),
-            wiki_name,
-            phonetic_count,
-        )
 
 
 def main():
