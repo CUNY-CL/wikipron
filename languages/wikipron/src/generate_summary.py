@@ -16,7 +16,7 @@ def _handle_wiki_name(language, file_path, modifiers):
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:
-            key = file_path[file_path.index("_") + 1: file_path.rindex("_")]
+            key = file_path[file_path.index("_") + 1 : file_path.rindex("_")]
             values = language[modifier][key]
             if "|" in values:
                 values = values.replace(" |", ",")
@@ -37,6 +37,7 @@ def main():
             continue
         with open(f"{path}/{file_path}", "r") as tsv:
             num_of_entries = sum(1 for line in tsv)
+        # Remove files with less than 100 entries.
         if num_of_entries < 100:
             # Log count of entries to check whether Wikipron scraped any data.
             logging.info(
@@ -48,7 +49,7 @@ def main():
             continue
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
-            file_path.rindex("_") + 1: file_path.index(".")
+            file_path.rindex("_") + 1 : file_path.index(".")
         ].capitalize()
 
         wiki_name = _handle_wiki_name(
