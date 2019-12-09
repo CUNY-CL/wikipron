@@ -181,7 +181,6 @@
 | [TSV](tsv/hbs_latn_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23685 |
 | [TSV](tsv/scn_phonemic.tsv) | scn | Sicilian | Sicilian | True | Phonemic | 736 |
 | [TSV](tsv/scn_phonetic.tsv) | scn | Sicilian | Sicilian | True | Phonetic | 141 |
-| [TSV](tsv/sms_phonemic.tsv) | sms | Skolt Sami | Skolt Sami | True | Phonemic | 77 |
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3742 |
 | [TSV](tsv/slo_phonetic.tsv) | slo | Slovak | Slovak | True | Phonetic | 358 |
 | [TSV](tsv/slv_phonemic.tsv) | slv | Slovenian | Slovene | True | Phonemic | 4360 |
