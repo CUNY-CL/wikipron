@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 import csv
-import logging
 import json
+import logging
 import os
 
 from codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
