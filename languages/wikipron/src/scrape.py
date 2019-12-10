@@ -17,13 +17,11 @@ from codes import LANGUAGES_PATH, LOGGING_PATH
 
 def _call_scrape(lang_settings, config, tsv_path):
     for unused_retries in range(10):
-        count = 0
         with open(tsv_path, "w") as source:
             try:
                 for (word, pron) in wikipron.scrape(config):
-                    count += 1
                     print(f"{word}\t{pron}", file=source)
-                return count
+                return
             except (
                 requests.exceptions.Timeout,
                 requests.exceptions.ConnectionError,
@@ -35,12 +33,14 @@ def _call_scrape(lang_settings, config, tsv_path):
                 )
                 # Pauses execution for 10 min.
                 time.sleep(600)
+    # Log and remove TSVs for languages that failed
+    # to be scraped within 10 retries.
     logging.info(
         'Failed to scrape "%s" within 10 retries. %s',
         lang_settings["key"],
         lang_settings,
     )
-    return 0
+    os.remove(tsv_path)
 
 
 def _build_config_and_filter_files(
@@ -50,38 +50,11 @@ def _build_config_and_filter_files(
 
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
-    phonemic_count = _call_scrape(
-        config_settings, phonemic_config, phonemic_path
-    )
+    _call_scrape(config_settings, phonemic_config, phonemic_path)
 
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
-    phonetic_count = _call_scrape(
-        config_settings, phonetic_config, phonetic_path
-    )
-
-    # Removes TSVs with less than 100 lines.
-    # Log language name and count to check whether Wikipron scraped any data.
-    if phonemic_count < 100:
-        logging.info(
-            (
-                '"%s" (count: %s) has less than '
-                "100 entries in phonemic transcription."
-            ),
-            wiki_name,
-            phonemic_count,
-        )
-        os.remove(phonemic_path)
-    if phonetic_count < 100:
-        os.remove(phonetic_path)
-        logging.info(
-            (
-                '"%s" (count: %s) has less than '
-                "100 entries in phonetic transcription."
-            ),
-            wiki_name,
-            phonetic_count,
-        )
+    _call_scrape(config_settings, phonetic_config, phonetic_path)
 
 
 def main():

@@ -179,7 +179,6 @@ hbs_cyrl_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic
 hbs_latn_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic	23685
 scn_phonemic.tsv	scn	Sicilian	Sicilian	True	Phonemic	736
 scn_phonetic.tsv	scn	Sicilian	Sicilian	True	Phonetic	141
-sms_phonemic.tsv	sms	Skolt Sami	Skolt Sami	True	Phonemic	77
 slo_phonemic.tsv	slo	Slovak	Slovak	True	Phonemic	3742
 slo_phonetic.tsv	slo	Slovak	Slovak	True	Phonetic	358
 slv_phonemic.tsv	slv	Slovenian	Slovene	True	Phonemic	4360
