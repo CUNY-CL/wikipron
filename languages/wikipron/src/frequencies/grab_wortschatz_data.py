@@ -39,13 +39,13 @@ def unpack():
     os.mkdir("freq_tsvs")
     for tarball in os.listdir("tars"):
         logging.info("Unpacking: %s", tarball)
-        with tarfile.open(name=f"tars/{tarball}", mode="r:gz") as data:
-            for entry in data:
-                if entry.name.endswith("words.txt"):
+        with tarfile.open(name=f"tars/{tarball}", mode="r:gz") as tar_data:
+            for file_entry in tar_data:
+                if file_entry.name.endswith("words.txt"):
                     # Removes inconsistent path in tarballs
                     # so freq_tsvs has uniform contents.
-                    entry.name = os.path.basename(entry.name)
-                    data.extract(entry, "freq_tsvs")
+                    file_entry.name = os.path.basename(file_entry.name)
+                    tar_data.extract(file_entry, "freq_tsvs")
 
 
 def main():
