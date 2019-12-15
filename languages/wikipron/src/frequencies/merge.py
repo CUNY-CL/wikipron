@@ -6,13 +6,15 @@ import logging
 import os
 import tempfile
 
+from grab_wortschatz_data import WORTSCHATZ_DICT_PATH
+
 
 def rewrite_wikipron_tsv(
     wiki_tsv_affix, transcription_level, frequencies_dict
 ):
     # Complete WikiPron TSV path.
     file_to_target = wiki_tsv_affix + transcription_level
-    # Will try to overwrite phonetic and phonemic Wikipron TSVs
+    # Will try to overwrite phonetic and phonemic WikiPron TSVs
     # for all Wortschatz languages. WikiPron may not have both a
     # phonetic and phonemic TSV for all languages.
     try:
@@ -42,7 +44,7 @@ def rewrite_wikipron_tsv(
 
 
 def main():
-    with open("wortschatz_languages.json", "r") as langs:
+    with open(WORTSCHATZ_DICT_PATH, "r") as langs:
         languages = json.load(langs)
 
     word_freq_dict = {}

@@ -7,6 +7,8 @@ import requests
 import tarfile
 import time
 
+WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
+
 
 # Downloads the Wortschatz tarballs, roughly 10 GB of data.
 def download(data_to_grab):
@@ -48,7 +50,7 @@ def unpack():
 
 
 def main():
-    with open("wortschatz_languages.json", "r") as langs:
+    with open(WORTSCHATZ_DICT_PATH, "r") as langs:
         languages = json.load(langs)
 
     # Hack for repeatedly attempting to download Wortschatz data
