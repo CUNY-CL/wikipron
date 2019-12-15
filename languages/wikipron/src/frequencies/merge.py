@@ -13,13 +13,15 @@ def rewrite_wikipron_tsv(
     # Will try to overwrite phonetic and phonemic Wikipron TSVs
     # for all Wortschatz languages, though some ma
     try:
-        # This is written to be done after remove_duplicates
-        # Will this retain the sorted order of the entries though?
+        # This is written to be done run remove_duplicates.sh
+        # and retain sorted order.
         with open(file_to_target, "r") as wiki_file:
             wiki_tsv = csv.reader(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
-            with tempfile.NamedTemporaryFile(mode="w", dir="../../tsv", delete=False) as source:
+            with tempfile.NamedTemporaryFile(
+                mode="w", dir="../../tsv", delete=False
+            ) as source:
                 for word, pron in wiki_tsv:
                     # Check if WikiPron word is in Wortschatz frequencies
                     # else set frequency to 0
@@ -47,12 +49,14 @@ def main():
         # For accessing correct language in wortschatz_languages.json
         file_to_match = freq_file.rsplit("-", 1)[0]
         logging.info("Currently working on: %s", file_to_match)
+
         with open(f"freq_tsvs/{freq_file}", "r") as tsv:
             frequencies_tsv = csv.reader(
                 tsv, delimiter="\t", quoting=csv.QUOTE_NONE
             )
             for row in frequencies_tsv:
                 # Wortschatz TSVs are not uniformly formatted.
+                # Some have 3 columns, some have 4.
                 try:
                     word = row[2].lower()
                     freq = int(row[3])
@@ -68,7 +72,6 @@ def main():
 
         for wiki_tsv_path in languages[file_to_match]["path"]:
             for level in transcription:
-                # Complete WikiPron TSV path
                 rewrite_wikipron_tsv(wiki_tsv_path, level, word_freq_dict)
 
 

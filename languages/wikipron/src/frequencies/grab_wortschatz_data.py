@@ -49,10 +49,11 @@ def unpack():
 
 
 def main():
-    # Hack for recursively attempting to download data.
-    # langs = download(languages)
-    # while langs:
-    #     langs = download(langs)
+    # Hack for repeatedly attempting to download Wortschatz data
+    # as a way of getting around 404 response from their server.
+    langs_to_retry = download(languages)
+    while langs_to_retry:
+        langs_to_retry = download(langs_to_retry)
 
     unpack()
 
