@@ -4,5 +4,5 @@ __pycache__/
 *.py[cdo]
 *.egg-info/
 *.log
-*.tar.gz
+**/tars
 **/freq_tsvs
