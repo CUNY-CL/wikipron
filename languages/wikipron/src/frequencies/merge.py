@@ -8,12 +8,13 @@ import tempfile
 def rewrite_wikipron_tsv(
     wiki_tsv_affix, transcription_level, frequencies_dict
 ):
-    # Complete WikiPron TSV path
+    # Complete WikiPron TSV path.
     file_to_target = wiki_tsv_affix + transcription_level
     # Will try to overwrite phonetic and phonemic Wikipron TSVs
-    # for all Wortschatz languages, though some ma
+    # for all Wortschatz languages. WikiPron may not have both a
+    # phonetic and phonemic TSV for all languages.
     try:
-        # This is written to be done run remove_duplicates.sh
+        # This is written to be run remove_duplicates.sh
         # and retain sorted order.
         with open(file_to_target, "r") as wiki_file:
             wiki_tsv = csv.reader(
@@ -24,7 +25,7 @@ def rewrite_wikipron_tsv(
             ) as source:
                 for word, pron in wiki_tsv:
                     # Check if WikiPron word is in Wortschatz frequencies
-                    # else set frequency to 0
+                    # else set frequency to 0.
                     if word in frequencies_dict:
                         print(
                             f"{word}\t{pron}\t{frequencies_dict[word]}",
@@ -46,7 +47,7 @@ def main():
     transcription = ["_phonetic.tsv", "_phonemic.tsv"]
 
     for freq_file in os.listdir("freq_tsvs"):
-        # For accessing correct language in wortschatz_languages.json
+        # For accessing correct language in wortschatz_languages.json.
         file_to_match = freq_file.rsplit("-", 1)[0]
         logging.info("Currently working on: %s", file_to_match)
 
@@ -63,7 +64,7 @@ def main():
                 except IndexError:
                     word = row[1].lower()
                     freq = int(row[2])
-                # Filter out numbers in Wortschatz data
+                # Filter out numbers in Wortschatz data.
                 if str.isalpha(word):
                     if word not in word_freq_dict:
                         word_freq_dict[word] = freq
