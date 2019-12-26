@@ -10,22 +10,26 @@ with open("languages.json", "r") as lang_source:
 
 
 def generalized_check(script, word):
-    return bool(regex.match(r"^\p{{script}}+$".format(script=script), word))
-    
+    script = "{" + script + "}"
+    regex_string = r"^\p{script}+$".format(script=script)
+    # print(regex_string)
+    return bool(regex.match(regex_string, word))
+
 
 def iterate_through_file(tsv_path, unicode_script, path):
     with open(tsv_path, "r") as source:
-        for line in source:
-            word = line.split("\t", 1)[0]
-            if generalized_check(unicode_script, word):
-                print(line.rstrip(), file=path)
+        with open(path, "w") as destination:
+            for line in source:
+                word = line.split("\t", 1)[0]
+                if generalized_check(unicode_script, word):
+                    print(line.rstrip(), file=destination)
 
 
 def check_file():
     iso639_code = tsv_path[tsv_path.rindex("/") + 1: tsv_path.index("_")]
     transcription_level = tsv_path[
-        tsv_path.rindex("_") + 1: tsv_path.index(".")
-    ].capitalize()
+        tsv_path.rindex("_") + 1:
+    ]
 
     if "script" in languages[iso639_code]:
         if len(languages[iso639_code]["script"]) > 1:
