@@ -75,7 +75,12 @@
         "iso639_name": "Azerbaijani",
         "wiktionary_name": "Azerbaijani",
         "wiktionary_code": "az",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
+        }
     },
     "ban": {
         "iso639_name": "Balinese",
