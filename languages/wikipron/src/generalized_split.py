@@ -1,9 +1,7 @@
 import json
+import os
 import regex
 import sys
-
-# TODO - Add removal of non-split files. Hopefully that
-# doesn't lead to problems with the iteration in the bash script.
 
 # ../tsv/yid_phonetic.tsv
 tsv_path = sys.argv[1]
@@ -16,9 +14,6 @@ def generalized_check(script, word):
     script = "{" + script + "}"
     regex_string = r"^\p{script}+$".format(script=script)
     return bool(regex.match(regex_string, word))
-
-
-# Hopefully kanji entries just get filtered out.
 
 
 def iterate_through_file(tsv_path, unicode_script, path):
@@ -49,6 +44,10 @@ def check_file():
             for script_prefix, unicode_script in lang["script"].items():
                 output_path = f"../tsv/{iso639_code}_{script_prefix}_{transcription_level}"
                 iterate_through_file(tsv_path, unicode_script, output_path)
+            # Remove unsplit files.
+            # Removing files within a for loop doesn't appear
+            # to lead to an error in remove_duplicates.
+            os.remove(tsv_path)
 
 
 check_file()
