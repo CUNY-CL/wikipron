@@ -3,7 +3,6 @@ import os
 import regex
 import sys
 
-# ../tsv/yid_phonetic.tsv
 tsv_path = sys.argv[1]
 
 with open("languages.json", "r") as lang_source:
@@ -11,14 +10,11 @@ with open("languages.json", "r") as lang_source:
 
 
 def generalized_check(script, word):
-    script = "{" + script + "}"
-    regex_string = r"^\p{script}+$".format(script=script)
+    regex_string = rf"^\p{{{script}}}+$"
     return bool(regex.match(regex_string, word))
 
 
 def iterate_through_file(tsv_path, unicode_script, path):
-    # This appears to retain sorted order. Not sure if that is
-    # guaranteed though.
     with open(tsv_path, "r") as source:
         with open(path, "w") as destination:
             for line in source:
