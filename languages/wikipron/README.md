@@ -14,8 +14,8 @@
 | [TSV](tsv/arm_phonetic.tsv) | arm | Armenian | Armenian | True | Phonetic | 13568 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 4384 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 130 |
-| [TSV](tsv/aze_phonemic.tsv) | aze | Azerbaijani | Azerbaijani | True | Phonemic | 293 |
-| [TSV](tsv/aze_phonetic.tsv) | aze | Azerbaijani | Azerbaijani | True | Phonetic | 1985 |
+| [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 209 |
+| [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2127 |
 | [TSV](tsv/ban_phonemic.tsv) | ban | Balinese | Balinese | False | Phonemic | 172 |
 | [TSV](tsv/bak_phonetic.tsv) | bak | Bashkir | Bashkir | True | Phonetic | 1932 |
 | [TSV](tsv/baq_phonemic.tsv) | baq | Basque | Basque | True | Phonemic | 222 |
@@ -91,9 +91,9 @@
 | [TSV](tsv/gle_phonetic.tsv) | gle | Irish | Irish | True | Phonetic | 1646 |
 | [TSV](tsv/ita_phonemic.tsv) | ita | Italian | Italian | True | Phonemic | 9612 |
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 5504 |
-| [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 137 |
-| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14494 |
-| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4549 |
+| [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 123 |
+| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14385 |
+| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 2462 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 824 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 2950 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1010 |
@@ -177,8 +177,8 @@
 | [TSV](tsv/sco_phonetic.tsv) | sco | Scots | Scots | True | Phonetic | 420 |
 | [TSV](tsv/gla_phonemic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonemic | 904 |
 | [TSV](tsv/gla_phonetic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonetic | 118 |
-| [TSV](tsv/hbs_cyrl_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic | 22683 |
-| [TSV](tsv/hbs_latn_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23685 |
+| [TSV](tsv/hbs_cyrl_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic | 22695 |
+| [TSV](tsv/hbs_latn_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23702 |
 | [TSV](tsv/scn_phonemic.tsv) | scn | Sicilian | Sicilian | True | Phonemic | 736 |
 | [TSV](tsv/scn_phonetic.tsv) | scn | Sicilian | Sicilian | True | Phonetic | 141 |
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3742 |
