@@ -9,13 +9,13 @@ def generalized_check(script, word):
     return bool(regex.match(regex_string, word))
 
 
-def iterate_through_file(tsv_path, unicode_script, path):
+def iterate_through_file(tsv_path, output_path, unicode_script):
     with open(tsv_path, "r") as source:
-        with open(path, "w") as destination:
+        with open(output_path, "w") as output_tsv:
             for line in source:
                 word = line.split("\t", 1)[0]
                 if generalized_check(unicode_script, word):
-                    print(line.rstrip(), file=destination)
+                    print(line.rstrip(), file=output_tsv)
 
 
 def main():
@@ -38,12 +38,12 @@ def main():
                     return
 
             for script_prefix, unicode_script in lang["script"].items():
-                output_path = f"../tsv/{iso639_code}_{script_prefix}_\
-                    {transcription_level}"
-                iterate_through_file(tsv_path, unicode_script, output_path)
+                output_path = f"../tsv/{iso639_code}_{script_prefix}_"\
+                    f"{transcription_level}"
+                iterate_through_file(tsv_path, output_path, unicode_script)
             # Remove unsplit files.
             # Removing files within a for loop doesn't appear
-            # to lead to an error in remove_duplicates.
+            # to lead to an error in remove_duplicates_and_split.sh.
             os.remove(tsv_path)
 
 

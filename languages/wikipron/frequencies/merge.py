@@ -18,7 +18,7 @@ def rewrite_wikipron_tsv(
     # for all Wortschatz languages. WikiPron may not have both a
     # phonetic and phonemic TSV for all languages.
     try:
-        # This is written to be run after remove_duplicates.sh
+        # This is written to be run after remove_duplicates_and_split.sh
         # and retain sorted order.
         with open(file_to_target, "r") as wiki_file:
             wiki_tsv = csv.reader(
