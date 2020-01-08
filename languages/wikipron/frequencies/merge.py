@@ -25,7 +25,7 @@ def rewrite_wikipron_tsv(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
             with tempfile.NamedTemporaryFile(
-                mode="w", dir="../../tsv", delete=False
+                mode="w", dir="../tsv", delete=False
             ) as source:
                 for word, pron in wiki_tsv:
                     # Check if WikiPron word is in Wortschatz frequencies

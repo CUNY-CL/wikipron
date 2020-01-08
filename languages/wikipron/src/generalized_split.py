@@ -3,11 +3,6 @@ import os
 import regex
 import sys
 
-tsv_path = sys.argv[1]
-
-with open("languages.json", "r") as lang_source:
-    languages = json.load(lang_source)
-
 
 def generalized_check(script, word):
     regex_string = rf"^\p{{{script}}}+$"
@@ -23,7 +18,12 @@ def iterate_through_file(tsv_path, unicode_script, path):
                     print(line.rstrip(), file=destination)
 
 
-def check_file():
+def main():
+    tsv_path = sys.argv[1]
+
+    with open("languages.json", "r") as lang_source:
+        languages = json.load(lang_source)
+
     iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
     transcription_level = tsv_path[tsv_path.rindex("_") + 1 :]
 
@@ -38,7 +38,8 @@ def check_file():
                     return
 
             for script_prefix, unicode_script in lang["script"].items():
-                output_path = f"../tsv/{iso639_code}_{script_prefix}_{transcription_level}"
+                output_path = f"../tsv/{iso639_code}_{script_prefix}_\
+                    {transcription_level}"
                 iterate_through_file(tsv_path, unicode_script, output_path)
             # Remove unsplit files.
             # Removing files within a for loop doesn't appear
@@ -46,4 +47,5 @@ def check_file():
             os.remove(tsv_path)
 
 
-check_file()
+if __name__ == "__main__":
+    main()
