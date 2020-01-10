@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import json
 import os
 import regex
@@ -5,7 +7,8 @@ import sys
 
 
 def generalized_check(script, word):
-    regex_string = rf"^\p{{{script}}}+$"
+    prop = "Block" if script == "Katakana" or script == "Hiragana" else "Script"
+    regex_string = rf"^\p{{{prop}={script}}}+$"
     return bool(regex.match(regex_string, word))
 
 

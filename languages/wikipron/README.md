@@ -92,8 +92,8 @@
 | [TSV](tsv/ita_phonemic.tsv) | ita | Italian | Italian | True | Phonemic | 9612 |
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 5504 |
 | [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 123 |
-| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14385 |
-| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 2462 |
+| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14390 |
+| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 3870 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 824 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 2950 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1010 |
