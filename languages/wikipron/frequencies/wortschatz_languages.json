@@ -25,7 +25,7 @@
     },
     "aze_newscrawl_2013_1M": {
         "path": [
-            "../tsv/aze"
+            "../tsv/aze_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/aze_newscrawl_2013_1M.tar.gz"
     },

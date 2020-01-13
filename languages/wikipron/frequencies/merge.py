@@ -29,16 +29,16 @@ def rewrite_wikipron_tsv(
             ) as source:
                 # Our TSVs may be two or three columns
                 # depending on if merge.py has been run.
-                for row in wiki_tsv:
+                for word, pron, *prev_count in wiki_tsv:
                     # Check if WikiPron word is in Wortschatz frequencies
                     # else set frequency to 0.
-                    if row[0] in frequencies_dict:
+                    if word in frequencies_dict:
                         print(
-                            f"{row[0]}\t{row[1]}\t{frequencies_dict[row[0]]}",
+                            f"{word}\t{pron}\t{frequencies_dict[word]}",
                             file=source,
                         )
                     else:
-                        print(f"{row[0]}\t{row[1]}\t0", file=source)
+                        print(f"{word}\t{pron}\t0", file=source)
                 temp_path = source.name
         os.replace(temp_path, file_to_target)
     except FileNotFoundError as err:
