@@ -6,18 +6,18 @@ import regex
 import sys
 
 
-def generalized_check(script, word):
+def _generalized_check(script, word):
     prop = "Block" if script == "Katakana" or script == "Hiragana" else "Script"
     regex_string = rf"^\p{{{prop}={script}}}+$"
     return bool(regex.match(regex_string, word))
 
 
-def iterate_through_file(tsv_path, output_path, unicode_script):
+def _iterate_through_file(tsv_path, output_path, unicode_script):
     with open(tsv_path, "r") as source:
         with open(output_path, "w") as output_tsv:
             for line in source:
                 word = line.split("\t", 1)[0]
-                if generalized_check(unicode_script, word):
+                if _generalized_check(unicode_script, word):
                     print(line.rstrip(), file=output_tsv)
 
 
@@ -43,7 +43,7 @@ def main():
             for script_prefix, unicode_script in lang["script"].items():
                 output_path = f"../tsv/{iso639_code}_{script_prefix}_"\
                     f"{transcription_level}"
-                iterate_through_file(tsv_path, output_path, unicode_script)
+                _iterate_through_file(tsv_path, output_path, unicode_script)
             # Remove unsplit files.
             # Removing files within a for loop doesn't appear
             # to lead to an error in remove_duplicates_and_split.sh.
