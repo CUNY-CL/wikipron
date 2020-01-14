@@ -2,8 +2,9 @@
 
 import json
 import os
-import regex
 import sys
+
+import regex
 
 
 def _generalized_check(script, word):
