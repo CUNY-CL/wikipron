@@ -112,6 +112,12 @@
         "wiktionary_code": "bn",
         "casefold": false
     },
+    "pcc": {
+        "iso639_name": "Bouyei",
+        "wiktionary_name": "Bouyei",
+        "wiktionary_code": "pcc",
+        "casefold": null
+    },
     "bre": {
         "iso639_name": "Breton",
         "wiktionary_name": "Breton",
@@ -468,6 +474,18 @@
         "wiktionary_code": "ku",
         "casefold": true
     },
+    "lmy": {
+        "iso639_name": "Lamboya",
+        "wiktionary_name": "Laboya",
+        "wiktionary_code": "lmy",
+        "casefold": null
+    },
+    "lad": {
+        "iso639_name": "Ladino",
+        "wiktionary_name": "Ladino",
+        "wiktionary_code": "lad",
+        "casefold": null
+    },
     "lao": {
         "iso639_name": "Lao",
         "wiktionary_name": "Lao",
@@ -641,6 +659,12 @@
         "wiktionary_name": "Mongolian",
         "wiktionary_code": "mn",
         "casefold": true
+    },
+    "ary": {
+        "iso639_name": "Moroccan Arabic",
+        "wiktionary_name": "Moroccan Arabic",
+        "wiktionary_code": "ary",
+        "casefold": null
     },
     "nav": {
         "iso639_name": "Navajo",
