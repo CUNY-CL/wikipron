@@ -18,16 +18,18 @@ def rewrite_wikipron_tsv(
     # for all Wortschatz languages. WikiPron may not have both a
     # phonetic and phonemic TSV for all languages.
     try:
-        # This is written to be run after remove_duplicates.sh
+        # This is written to be run after remove_duplicates_and_split.sh
         # and retain sorted order.
         with open(file_to_target, "r") as wiki_file:
             wiki_tsv = csv.reader(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
             with tempfile.NamedTemporaryFile(
-                mode="w", dir="../../tsv", delete=False
+                mode="w", dir="../tsv", delete=False
             ) as source:
-                for word, pron in wiki_tsv:
+                # Our TSVs may be two or three columns
+                # depending on if merge.py has been run.
+                for word, pron, *prev_count in wiki_tsv:
                     # Check if WikiPron word is in Wortschatz frequencies
                     # else set frequency to 0.
                     if word in frequencies_dict:

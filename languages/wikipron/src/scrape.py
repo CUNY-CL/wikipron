@@ -5,8 +5,8 @@
 import datetime
 import json
 import logging
-import time
 import os
+import time
 
 import requests
 import wikipron
@@ -43,7 +43,7 @@ def _call_scrape(lang_settings, config, tsv_path):
     os.remove(tsv_path)
 
 
-def _build_config_and_filter_files(
+def _build_scraping_config(
     config_settings, wiki_name, dialect_suffix=""
 ):
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
@@ -71,7 +71,7 @@ def main():
             "cut_off_date": cut_off_date,
         }
         if "dialect" not in languages[iso639_code]:
-            _build_config_and_filter_files(
+            _build_scraping_config(
                 config_settings, languages[iso639_code]["wiktionary_name"]
             )
         else:
@@ -79,7 +79,7 @@ def main():
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
-                _build_config_and_filter_files(
+                _build_scraping_config(
                     config_settings,
                     languages[iso639_code]["wiktionary_name"],
                     dialect_key + "_",

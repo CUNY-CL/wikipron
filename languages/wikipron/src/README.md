@@ -7,10 +7,12 @@ Wiktionary languages with over 100 entries.
 and a [TSV](../languages_summary.tsv) with selected
 information regarding the contents of the TSVs [scrape.py](scrape.py)
 generated and the configuration settings
-that were passed to scrape. [remove\_duplicates.sh](remove_duplicates.sh)
-sorts and removes entries in each TSV if they have 
-the same graphemic form and phonemic form as a previous entry.
- [languages.json](languages.json) provides
+that were passed to scrape. [remove\_duplicates\_and\_split.sh](remove_duplicates_and_split.sh)
+sorts and removes entries in each TSV if they have
+the same graphemic form and phonetic/phonemic form as a previous entry.
+In addition it splits TSVs containing multiple scripts (Arabic, Cyrillic, etc.)
+into constituent TSVs containing a single script.
+[languages.json](languages.json) provides
 [scrape.py](scrape.py) with a dictionary containing the information it
 needs to call scrape on all Wiktionary languages with over 100 entries 
 and is also used to generate the previously mentioned [README](../README.md).
@@ -42,10 +44,8 @@ Steps used to update the dataset
     -   By default `cut_off_date` in `main()` is set using
         `datetime.date.today().isoformat()` but can be set manually 
         using an ISO formatted string (ex. "2019-10-31").
-3.  Run [split\_hbs.py](split_hbs.py).
-4.  Run [split\_jpn.py](split_jpn.py).
-5.  Run [remove\_duplicates.sh](remove_duplicates.sh).
-6.  Run [generate\_summary.py](generate_summary.py).
+3.  Run [remove\_duplicates\_and\_split.sh](remove_duplicates_and_split.sh).
+4.  Run [generate\_summary.py](generate_summary.py).
 
 Running a subset of languages using the big scrape
 --------------------------------------------------
@@ -67,13 +67,9 @@ to run the big scrape scripts for a smaller set of languages:
     string) to the date of the original big scrape run - which can be
     found in the messages logged to the console or in `scraping.log`.
 3.  Run [scrape.py](scrape.py).
-4.  If you scraped Serbo-Croatian and have not yet run
-    [split\_hbs.py](split_hbs.py),
-    then run [split\_hbs.py](split_hbs.py).
-    The same applies to Japanese and [split\_jpn.py](split_jpn.py).
-5.  Run [remove\_duplicates.sh](remove_duplicates.sh).
-6.  Reset [languages.json](languages.json) to its unmodified state
+4.  Run [remove\_duplicates\_and\_split.sh](remove_duplicates_and_split.sh).
+5.  Reset [languages.json](languages.json) to its unmodified state
     (using `git checkout` or `git reset`).
-7.  Run [generate\_summary.py](generate_summary.py).
+6.  Run [generate\_summary.py](generate_summary.py).
 
 Steps 1-3 can be repeated until you have successfully scraped all languages.

@@ -1,0 +1,5 @@
+flake8==3.7.9
+regex>=2019.12.9
+requests==2.22.0
+requests-html==0.10.0
+wikipron>=1.0.0
