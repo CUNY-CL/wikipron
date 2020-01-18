@@ -11,10 +11,10 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Pron
 
 
-def _skip_pron(pron: str) -> bool:
+def _skip_pron(pron: str, config) -> bool:
     if "-" in pron:
         return True
-    if " " in pron:
+    if " " in pron and config.language != "Chinese":
         return True
     return False
 
@@ -31,8 +31,10 @@ def yield_pron(
         pron = m.group(1)
         # Removes parens around various segments.
         pron = pron.replace("(", "").replace(")", "")
-        if _skip_pron(pron):
+        if _skip_pron(pron, config):
             continue
         pron = config.process_pron(pron)
         if pron:
+            if config.language == "Chinese":
+                pron = pron.replace(" #", "")
             yield pron
