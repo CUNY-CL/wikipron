@@ -35,6 +35,7 @@ def yield_pron(
             continue
         pron = config.process_pron(pron)
         if pron:
+            # The segments package inserts a # in between spaces.
             if config.language == "Chinese":
                 pron = pron.replace(" #", "")
             yield pron
