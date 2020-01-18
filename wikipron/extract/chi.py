@@ -13,28 +13,19 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Word, WordPronPair
 
 
-_MANDARIN_SELECTOR = """
-    //div[@class="vsSwitcher"]//a[@title="w:Mandarin Chinese"]
-"""
-
-# Select IPA from among these uls
+# Select pron from within this li
 _PRON_XPATH_TEMPLATE = """
     //div[@class="vsHide"]
         //ul
             //li[(a[@title="w:Mandarin Chinese"])]
 """
 
-This is not strictily necessary.
-def check_for_mandarin(request: requests.Response):
-    return len(request.html.xpath(_MANDARIN_SELECTOR))
-
 
 def yield_chi_pron(
     request: requests.Response, config: "Config"
 ) -> "Iterator[Pron]":
-    if check_for_mandarin(request):
-        for li_container in request.html.xpath(_PRON_XPATH_TEMPLATE):
-            yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
+    for li_container in request.html.xpath(_PRON_XPATH_TEMPLATE):
+        yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_chi(
