@@ -60,8 +60,9 @@ def _build_scraping_config(
 def main():
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
-    # "2019-10-31" (Big Scrape 2)
-    cut_off_date = datetime.date.today().isoformat()
+    # "2020-01-15" (Big Scrape 3)
+    # cut_off_date = datetime.date.today().isoformat()
+    cut_off_date = "2020-01-15"
     for iso639_code in languages:
         config_settings = {
             "key": iso639_code,

@@ -11,7 +11,6 @@ achto	a t ʃ t o
 achtontli	a t ʃ t oː n t ɬ i
 achtopa	a t ʃ t o p a
 acilli	a s iː l l i
-acocilin	aː k oː s iː l l i n
 acolhuah	aː k oː l w a ʔ
 ahaztli	a ʔ a s t͡ɬ i
 ahcan	a ʔ k aː n
@@ -29,6 +28,7 @@ ahuacaxochitl	aː w a k a ʃ oː t͡ʃ i t͡ɬ
 ahuah	aː w a ʔ
 ahuehuetl	aː w eː w eː t ɬ
 ahuillahtolli	aː w i l l a ʔ t oː l l i
+ahuitzotl	aː w i t s oː t ɬ
 ahuitzotl	aː w i t s oː t ɬ
 ahuiyani	aː w i j a n i
 ahuiyanicalli	aː w i j a n i k a l l i
@@ -101,8 +101,8 @@ cecec	s e s eː k
 cehcen	s e ʔ s e n
 cemanahuatl	s e m a n aː w a t ɬ
 cemihcac	s e m i ʔ k a k
-cemiztitl	s e m i s t e t ɬ
 cemiztitl	s e m i s t i t ɬ
+cemiztitl	s e m i s t e t ɬ
 cempohualxochitl	s e m p oː w a l ʃ oː t ʃ i t͡ɬ
 centlapal	s e n t ɬ a p a l
 centzontlahtoleh	s e n t͡s o n t͡ɬ a ʔ t oː l e ʔ
@@ -163,7 +163,7 @@ cocoliztli	k o k o l i s t ɬ i
 cocoxqui	k o k o ʃ k i
 colli	k oː l l i
 colotl	k oː l oː t ɬ
-coltin	k ō l t i n
+coltin	k ō l t i n
 comalli	k o m aː lː i
 comaltin	k oː m a l t i n
 conetl	k o n eː t ɬ
@@ -185,8 +185,8 @@ cuamana	kʷ aː m a n a
 cuanaca	kʷ aː n a k a
 cuauhiztexochitl	kʷ aː w i s t e ʃ oː t ʃ i t ɬ
 cuauhiztexochitl	kʷ aː w i s t i ʃ oː t ʃ i t ɬ
-cuauhmiztli	kʷ a m m i s t ɬ i
 cuauhmiztli	kʷ a w m i s t ɬ i
+cuauhmiztli	kʷ a m m i s t ɬ i
 cuauhnahuac	kʷ a ɸ n aː w a k
 cuauhtemallan	kʷ a w t eː m a l l aː n
 cuauhtentetl	kʷ aː w t eː n t e t ɬ
@@ -228,13 +228,13 @@ epazoyoh	e p a s oː j o ʔ
 etic	e t iː k
 expa	eː ʃ p a
 ezhuia	e s w i a
-ezzoh	e s j o ʔ
 ezzoh	e s s o ʔ
+ezzoh	e s j o ʔ
 hualtemo	w aː l t e m oː
 hualtemoliztli	w aː l t e m oː l i s t͡ɬ i
 huapahua	w a p aː w a
-huauhtli	w a w t͡ɬ i
 huauhtli	w aː w t͡ɬ i
+huauhtli	w a w t͡ɬ i
 huehuehxoloh	w eː w e ʔ ʃ oː l o ʔ
 huehuetl	w eː w eː t ɬ
 huexolotl	w e ʃ oː l oː t͡ɬ
@@ -331,8 +331,8 @@ mahpilli	m a ʔ p i l l i
 mahpilxocoyotl	m a ʔ p i l ʃ oː k o j oː t ɬ
 mahui	m a w i
 mahuizzotl	m a w i s j oː t ɬ
-mahuizzotl	m a w i s oː t ɬ
 mahuizzotl	m a w i s s oː t ɬ
+mahuizzotl	m a w i s oː t ɬ
 mamali	m a m a l i
 mamazah	m aː m a s a ʔ
 mamox	m aː m o ʃ
@@ -346,14 +346,12 @@ matlequiquiztlazqui	m aː t ɬ e k i k i s t ɬ a s k i
 matlequiquiztli	m aː t ɬ e k i k i s t ɬ i
 matoca	k i m aː t o k a
 matzahtli	m a t s a ʔ t ɬ i
-maxactli	m a ʃ a ʔ
 maxauhtinemi	m a ʃ a w t i n e m i
 mayana	m a j aː n a
 mazamamachtia	m a s aː m a m a t͡ʃ t i a
 mazamamachtiliztli	m a s aː m a m a t͡ʃ t i l i s t͡ɬ i
 mazamecatl	m a s aː m e k a t͡ɬ
 mecahuehuetl	m e k a w eː w eː t͡ɬ
-mecameh	m e k a m e ʔ
 mecapalli	m e k a p a l l i
 mecatl	m e k a t͡ɬ
 meocuilin	m e o kʷ i l i n
@@ -371,11 +369,11 @@ michmecatl	m i t͡ʃ m e k a t͡ɬ
 micqui	m i k k i
 mictihuetzi	m i k t i w e t s i
 mihtotihqueh	m i ʔ t oː t i ʔ k e ʔ
-millahcatl	m iː h l a h k a t ɬ
 millahcatl	m iː l l a h k a t ɬ
-milli	m i l ɪ
-milli	m iː h l i
+millahcatl	m iː h l a h k a t ɬ
 milli	m iː l l i
+milli	m iː h l i
+milli	m i l ɪ
 mimicqueh	m iː m i k k e ʔ
 mina	m iː n a
 mintontli	m i n t oː n t ɬ i
@@ -436,6 +434,7 @@ ocelopetlatl	oː s eː l oː p e t ɬ a t ɬ
 oceloquichtli	o s eː l oː k i t ʃ t ɬ i
 ocelotl	oː s eː l oː t͡ɬ
 ocotochtli	o k oː t oː t ʃ t ɬ i
+ocotzotl	o k o t͡s o t͜ɬ
 octli	o k t ɬ i
 ocuilin	o kʷ i l i n
 ocuiltin	o kʷ i ɬ t i n
@@ -447,8 +446,8 @@ oloxochitl	oː l oː ʃ oː t͡ʃ i t͡ɬ
 omitl	o m i t ɬ
 oncah	o n k a ʔ
 ooceloh	oː o s eː l o ʔ
-opochtli	o p oː t͡ʃ t͜ɬ i
 opochtli	oː p oː t͡ʃ t͜ɬ i
+opochtli	o p oː t͡ʃ t͜ɬ i
 oquichtli	o k i t ʃ t ɬ i
 otomitl	o t o m i t ɬ
 otztli	oː t s t ɬ i
@@ -497,6 +496,7 @@ pitzahuac	p i t s aː w a k
 pitzotl	p i t s o t ɬ
 pochocuauhtitech	p oː t ʃ oː t i t e t ʃ
 pochotitlan	p oː t ʃ oː t i t ɬ a n
+pochotl	p oː t ʃ oː t ɬ
 pochtecah	p oː t͡ʃ t eː k a ʔ
 pochtecatl	p oː t͡ʃ t eː k a t͡ɬ
 pochtecayotl	p oː t ʃ t eː k a j oː t ɬ
@@ -510,7 +510,6 @@ popocatepetl	p o p oː k a t e p eː t͡ɬ
 popocatzin	p o p oː k a t s i n
 potoni	p o t oː n i
 poyauhtecatl	p o j aː w t eː k a t ɬ
-quauhtemallan	kʷ a w t eː m a l l aː n
 quemah	k eː m a ʔ
 quemeh	k eː m e ʔ
 quetzalcoatl	k e t͡s a l k oː aː t͡ɬ
@@ -530,8 +529,8 @@ quiyahui	k i j a w i
 quiza	k iː s a
 señora	ʃ i n oː r a ʔ
 tahyotl	t a ʔ j oː t ɬ
-tamazolin	t a m a s o l i
 tamazolin	t a m a s o l i n
+tamazolin	t a m a s o l i
 tamox	t aː m o ʃ
 tapachtli	t a p a t ʃ t ɬ i
 tataca	t a t a k a
@@ -593,9 +592,10 @@ tepilli	t e p i l l i
 tepitonyotl	t e p i t oː n j oː t͡ɬ
 tepoleh	t e p o l e ʔ
 tepolli	t e p o l l i
+tepozcactli	t e p o s k a k t ɬ i
 tepozcuacalalahtli	t e p o s kʷ aː k a l a l a ʔ t ɬ i
-tepozmaccuahuitl	t e p o s m aː h kʷ a w i t ɬ
 tepozmaccuahuitl	t e p o s m aː k kʷ a w i t ɬ
+tepozmaccuahuitl	t e p o s m aː h kʷ a w i t ɬ
 tepozmitl	t e p o s m iː t͡ɬ
 tepoztlateconi	t e p o s t ɬ a t e k oː n i
 tepoztli	t e p o s t ɬ i
@@ -610,8 +610,8 @@ teuhyoh	t eʷ j o ʔ
 texiliztli	t e ʃ i l i s t ɬ i
 texolomeh	t e ʃ oː l oː m e ʔ
 texolotl	t e ʃ oː l oː t͡ɬ
-tezonpahtli	t e s o m p a ʔ t ɬ i
 tezonpahtli	t e s o n p a ʔ t ɬ i
+tezonpahtli	t e s o m p a ʔ t ɬ i
 ticitl	t iː s i t͡ɬ
 tilmahtli	t i l m a ʔ t ɬ i
 titicih	t iː t iː s i ʔ
@@ -693,6 +693,7 @@ toca	t oː k a
 tocaitl	t oː k aː i t ɬ
 tocatl	t o k a t ɬ
 tocatzahualli	t o k a t s aː w a l l i
+tocayoh	t oː k aː y o ʔ
 tochconetl	t oː t͡ʃ k o n eː t͡ɬ
 tochin	t oː t͡ʃ i n
 tohtomahuac	t o ʔ t o m aː w a k
@@ -735,15 +736,15 @@ tzalantli	t͡s aː l a n t͡ɬ i
 tzapatl	t s a p a t ɬ
 tzapotecatl	t s a p o t eː k a t ɬ
 tzatzi	t s a h t s i
-tzayani	t s a j aː n i
 tzayani	t s a j ɔ n ɪ
+tzayani	t s a j aː n i
 tzicatl	t s iː k a t ɬ
 tzictli	t s ɪ k t ɬ ɪ
 tzinacan	t s i n aː k a n
 tzinti	t s iː n t i
 tziucnoa	t͡s i kʷ n o a
-tzompilihui	t s o m p i l ɪ w ɪ
 tzompilihui	t s o m p iː l i w i
+tzompilihui	t s o m p i l ɪ w ɪ
 tzompilli	t s o m p i l ɪ
 tzompilli	t s o m p iː l
 tzoncui	t s o n kʷ i
@@ -765,6 +766,7 @@ xicamatl	ʃ iː k a m a t ɬ
 xicohtli	ʃ iː k o ʔ t ɬ i
 xictli	ʃ iː k t ɬ i
 xihuitl	ʃ i w i t ɬ
+xihuitl	ʃ i w i t ɬ
 xihuitl	ʃ iː w i t ɬ
 xihxicuin	ʃ i ʔ ʃ i kʷ i n
 xihxicuinyotl	ʃ i ʔ ʃ i kʷ i n j oː t ɬ
@@ -773,7 +775,7 @@ xilotl	ʃ iː l oː t ɬ
 xima	ʃ i m a
 xinachtli	ʃ i n aː t ʃ t ɬ i
 xiquipiltontli	ʃ i k i p i l t oː n t ɬ i
-xitomatl	ʃ iː t ó m a t ɬ
+xitomatl	ʃ iː t ó m a t ɬ
 xiuhtotonacocheh	x i w t oː t oː n a k o t ʃ e ʔ
 xiuhtotonacochtli	x i w t oː t oː n a k o t ʃ t ɬ i
 xiuhtototic	ʃ i w t oː t oː t i k
