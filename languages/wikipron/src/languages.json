@@ -170,7 +170,10 @@
         "iso639_name": "Chinese",
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "hani": "Han"
+        }
     },
     "cho": {
         "iso639_name": "Choctaw",
