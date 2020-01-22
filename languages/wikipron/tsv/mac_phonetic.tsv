@@ -1,14 +1,14 @@
-а	a	84109
+а	a	84061
 аба	a b a	204
 абажур	a b a ʒ u r	3
 абаџија	a b a d͡ʒ i j a	0
-абдал	a b d a ɫ	4
+абдал	a b d a ɫ	2
 абдикација	a b d i k a t͡s i j a	1
 аберација	a b ɛ r a t͡s i j a	5
 аблатив	a b ɫ a t i f	0
 аболира	a b ɔ l i ɾ a	3
 аболиција	a b ɔ l i t͡s i j a	9
-абонент	a b ɔ n ɛ n t	2
+абонент	a b ɔ n ɛ n t	0
 авенија	a v ɛ n i j a	17
 авиоиндустрија	a v i j ɔ i n d u s t r i j a	2
 авиокомпанија	a v i j ɔ k ɔ m p a n i j a	70
@@ -41,7 +41,7 @@
 аирлија	a i r l i j a	10
 академија	a k a d ɛ m i j a	1320
 акал	a k a ɫ	3
-аквариум	a k v a ɾ i j u m	61
+аквариум	a k v a ɾ i j u m	59
 аклиматизација	a k l i m a t i z a t͡s i j a	8
 ако	a k ɔ	27172
 акредитација	a k r ɛ d i t a t͡s i j a	127
@@ -51,9 +51,9 @@
 активација	a k t i v a t͡s i j a	70
 актуализација	a k t u a l i z a t͡s i j a	1
 акумулација	a k u m u ɫ a t͡s i j a	54
-акустика	a k u s t i k a	25
+акустика	a k u s t i k a	23
 акцентираност	a k t͡s ɛ n t i ɾ a n ɔ s t	0
-ала	a ɫ a	3360
+ала	a ɫ a	36
 алат	a ɫ a t	181
 алати	a ɫ a t i	113
 алегорија	a l ɛ ɡ ɔ ɾ i j a	17
@@ -64,9 +64,9 @@
 алтернација	a ɫ t ɛ r n a t͡s i j a	0
 алхемија	a ɫ x ɛ m i j a	8
 ама	a m a	5223
-аман	a m a n	89
+аман	a m a n	87
 амбасадорка	a m b a s a d ɔ r k a	82
-амин	a m i n	67
+амин	a m i n	57
 амнезија	a m n ɛ z i j a	37
 амнестија	a m n ɛ s t i j a	90
 амортизација	a m ɔ r t i z a t͡s i j a	49
@@ -95,7 +95,7 @@
 апстракција	a p s t r a k t͡s i j a	15
 арамилак	a r a m i ɫ a k	2
 арамиски	a r a m i s k i	1
-аргентина	a r ɡ ɛ n t i n a	468
+аргентина	a r ɡ ɛ n t i n a	443
 аргументациски	a r ɡ u m ɛ n t a t͡s i s k i	0
 аргументација	a r ɡ u m ɛ n t a t͡s i j a	46
 арзухал	a r z u x a ɫ	0
@@ -105,7 +105,7 @@
 аритметички	a ɾ i t m ɛ t i t͡ʃ k i	4
 артикулација	a r t i k u ɫ a t͡s i j a	25
 археологија	a r x ɛ ɔ ɫ ɔ ɡ i j a	130
-архитектура	a r x i t ɛ k t u ɾ a	820
+архитектура	a r x i t ɛ k t u ɾ a	753
 асиметрија	a s i m ɛ t r i j a	9
 асимилациски	a s i m i ɫ a t͡s i s k i	0
 асимилација	a s i m i ɫ a t͡s i j a	35
@@ -124,7 +124,7 @@
 ајдучки	a j d u t͡ʃ k i	2
 ајкула	a j k u ɫ a	61
 аљкавост	a l k a v ɔ s t	0
-баба	b a b a	1133
+баба	b a b a	1132
 бавнорастечки	b a v n ɔ r a s t ɛ t͡ʃ k i	0
 бавност	b a v n ɔ s t	1
 багремов	b a ɡ r ɛ m ɔ f	5
@@ -142,13 +142,13 @@
 барабанче	b a r a b a n t͡ʃ ɛ	0
 барателка	b a r a t ɛ ɫ k a	0
 барем	b a ɾ ɛ m	3622
-барок	b a ɾ ɔ k	90
+барок	b a ɾ ɔ k	89
 барокен	b a ɾ ɔ k ɛ n	18
 баронство	b a ɾ ɔ n s t v ɔ	0
 бастунче	b a s t u n t͡ʃ ɛ	0
 батак	b a t a k	3
 баталува	b a t a ɫ u v a	1
-баш	b a ʃ	3924
+баш	b a ʃ	1911
 бајатост	b a j a t ɔ s t	1
 бајач	b a j a t͡ʃ	1
 бајачки	b a j a t͡ʃ k i	5
@@ -197,9 +197,9 @@
 безутешност	b ɛ z u t ɛ ʃ n ɔ s t	0
 белетристички	b ɛ l ɛ t r i s t i t͡ʃ k i	1
 бендисува	b ɛ n d i s u v a	13
-бензин	b ɛ n z i n	273
+бензин	b ɛ n z i n	224
 берба	b ɛ r b a	93
-бербер	b ɛ r b ɛ r	22
+бербер	b ɛ r b ɛ r	21
 берберка	b ɛ r b ɛ r k a	0
 берберница	b ɛ r b ɛ r n i t͡s a	6
 берберство	b ɛ r b ɛ r s t v ɔ	0
@@ -231,20 +231,20 @@
 бесценетост	b ɛ s t͡s ɛ n ɛ t ɔ s t	0
 бесчесност	b ɛ ʃ t͡ʃ ɛ s n ɔ s t	0
 бесчовечност	b ɛ ʃ t͡ʃ ɔ v ɛ t͡ʃ n ɔ s t	1
-бетер	b ɛ t ɛ r	21
+бетер	b ɛ t ɛ r	17
 бетонски	b ɛ t ɔ n s k i	135
 бечви	b ɛ t͡ʃ v i	3
 беља	b ɛ l a	29
 бељаџија	b ɛ l a d͡ʒ i j a	2
 беќарство	b ɛ c a r s t v ɔ	0
-би	b i	20642
+би	b i	20637
 библиографија	b i b l i j ɔ ɡ r a f i j a	10
 библиски	b i b l i s k i	33
 бигамија	b i ɡ a m i j a	3
 бигор	b i ɡ ɔ r	26
 бигоросува	b i ɡ ɔ r ɔ s u v a	0
 бидејќи	b i d ɛ j c i	14469
-билет	b i l ɛ t	351
+билет	b i l ɛ t	218
 билетарница	b i l ɛ t a r n i t͡s a	6
 билетарници	b i l ɛ t a r n i t͡s i	3
 билјар	b i l j a r	0
@@ -296,7 +296,7 @@
 блуе	b ɫ u ɛ	7
 блуз	b ɫ u s	59
 блуткавост	b ɫ u t k a v ɔ s t	1
-бог	b ɔ k	1820
+бог	b ɔ k	1815
 богобојазливост	b ɔ ɡ ɔ b ɔ j a z l i v ɔ s t	0
 богословија	b ɔ ɡ ɔ s ɫ ɔ v i j a	24
 бодибилдерка	b ɔ d i b i ɫ d ɛ r k a	0
@@ -392,7 +392,7 @@
 варен	v a ɾ ɛ n	72
 вари	v a ɾ i	261
 варов	v a ɾ ɔ f	14
-ваш	v a ʃ	602
+ваш	v a ʃ	601
 вбројува	v b r ɔ j u v a	134
 вдлабнатост	v d ɫ a b n a t ɔ s t	0
 вдовство	v d ɔ f s t v ɔ	0
@@ -409,9 +409,9 @@
 века	v ɛ k a	123
 велепредавство	v ɛ l ɛ p r ɛ d a f s t v ɔ	19
 велигден	v ɛ l i ɡ d ɛ n	293
-величество	v ɛ l i t͡ʃ ɛ s t v ɔ	15
+величество	v ɛ l i t͡ʃ ɛ s t v ɔ	14
 велможа	v ɛ ɫ m ɔ ʒ a	1
-велосипед	v ɛ ɫ ɔ s i p ɛ t	560
+велосипед	v ɛ ɫ ɔ s i p ɛ t	538
 венеција	v ɛ n ɛ t͡s i j a	270
 вентилациски	v ɛ n t i ɫ a t͡s i s k i	13
 вентилација	v ɛ n t i ɫ a t͡s i j a	106
@@ -439,10 +439,10 @@
 видрин	v i d r i n	0
 видричка	v i d r i t͡ʃ k a	0
 вие	v i j ɛ	4477
-виза	v i z a	388
+виза	v i z a	246
 викенд	v i k ɛ n t	1453
 викендичка	v i k ɛ n d i t͡ʃ k a	24
-вики	v i k i	66
+вики	v i k i	64
 викиншки	v i k i n ʃ k i	1
 википедија	v i k i p ɛ d i j a	70
 викиречник	v i k i r ɛ t͡ʃ n i k	0
@@ -479,7 +479,7 @@
 вклучителност	f k ɫ u t͡ʃ i t ɛ ɫ n ɔ s t	0
 вкоренетост	f k ɔ r ɛ n ɛ t ɔ s t	5
 вкочанетост	f k ɔ t͡ʃ a n ɛ t ɔ s t	39
-влада	v ɫ a d a	2472
+влада	v ɫ a d a	2470
 владар	v ɫ a d a r	4
 владетелка	v ɫ a d ɛ t ɛ ɫ k a	4
 владејачки	v ɫ a d ɛ j a t͡ʃ k i	8
@@ -501,8 +501,8 @@
 внес	v n ɛ s	265
 внуков	v n u k ɔ f	2
 внуче	v n u t͡ʃ ɛ	14
-во	u	556747
-во	v ɔ	556747
+во	u	556743
+во	v ɔ	556743
 вовед	v ɔ v ɛ t	248
 воглавно	v ɔ ɡ ɫ a v n ɔ	252
 воденичар	v ɔ d ɛ n i t͡ʃ a r	0
@@ -511,7 +511,7 @@
 водоотпорност	v ɔ d ɔ ɔ t p ɔ r n ɔ s t	10
 возбуденост	v ɔ z b u d ɛ n ɔ s t	12
 воздржаност	v ɔ z d r̩ ʒ a n ɔ s t	30
-воздух	v ɔ z d u x	1232
+воздух	v ɔ z d u x	1231
 возила	v ɔ z i ɫ a	2617
 возило	v ɔ z i ɫ ɔ	1563
 возмутува	v ɔ z m u t u v a	1
@@ -522,7 +522,7 @@
 волнарство	v ɔ ɫ n a r s t v ɔ	0
 волов	v ɔ ɫ ɔ f	0
 волшебност	v ɔ ɫ ʃ ɛ b n ɔ s t	0
-вон	v ɔ n	280
+вон	v ɔ n	278
 вонка	v ɔ ŋ k a	4
 вонредност	v ɔ n r ɛ d n ɔ s t	0
 вообичајува	v ɔ ɔ b i t͡ʃ a j u v a	0
@@ -550,7 +550,7 @@
 вратарка	v r a t a r k a	0
 вратиче	v r a t i t͡ʃ ɛ	0
 вратка	v r a t k a	4
-врач	v r a t͡ʃ	9
+врач	v r a t͡ʃ	4
 врбов	v r̩ b ɔ f	0
 вреднувач	v r ɛ d n u v a t͡ʃ	0
 време	v r ɛ m ɛ	25724
@@ -586,7 +586,7 @@
 гадливост	ɡ a d l i v ɔ s t	0
 газдин	ɡ a z d i n	0
 газенце	ɡ a z ɛ n t͡s ɛ	2
-гази	ɡ a z i	694
+гази	ɡ a z i	663
 галванизација	ɡ a ɫ v a n i z a t͡s i j a	1
 галебов	ɡ a l ɛ b ɔ f	0
 галежност	ɡ a l ɛ ʒ n ɔ s t	1
@@ -597,9 +597,9 @@
 гајдаџии	ɡ a j d a d͡ʒ i i	1
 гајдаџија	ɡ a j d a d͡ʒ i j a	4
 гајди	ɡ a j d i	6
-генерал	ɡ ɛ n ɛ r a ɫ	264
+генерал	ɡ ɛ n ɛ r a ɫ	157
 генералисимус	ɡ ɛ n ɛ ɾ a l i s i m u s	0
-генетика	ɡ ɛ n ɛ t i k a	67
+генетика	ɡ ɛ n ɛ t i k a	60
 генетичарка	ɡ ɛ n ɛ t i t͡ʃ a r k a	0
 генитив	ɡ ɛ n i t i f	0
 геотермален	ɡ ɛ ɔ t ɛ r m a l ɛ n	2
@@ -640,7 +640,7 @@
 голич	ɡ ɔ l i t͡ʃ	1
 голтнува	ɡ ɔ ɫ t n u v a	3
 горе	ɡ ɔ ɾ ɛ	470
-гори	ɡ ɔ ɾ i	228
+гори	ɡ ɔ ɾ i	217
 горчливост	ɡ ɔ r t͡ʃ l i v ɔ s t	6
 господарство	ɡ ɔ s p ɔ d a r s t v ɔ	1
 господство	ɡ ɔ s p ɔ t s t v ɔ	2
@@ -683,7 +683,7 @@
 грмувче	ɡ r̩ m u f t͡ʃ ɛ	0
 грнче	ɡ r̩ n̩ t͡ʃ ɛ	2
 гробарски	ɡ r ɔ b a r s k i	0
-гроза	ɡ r ɔ z a	6
+гроза	ɡ r ɔ z a	0
 грозјенце	ɡ r ɔ z j ɛ n t͡s ɛ	0
 громогласност	ɡ r ɔ m ɔ ɡ ɫ a s n ɔ s t	0
 грофовија	ɡ r ɔ f ɔ v i j a	0
@@ -706,16 +706,16 @@
 гушнува	ɡ u ʃ n u v a	0
 гуштерски	ɡ u ʃ t ɛ r s k i	0
 гуштерче	ɡ u ʃ t ɛ r t͡ʃ ɛ	1
-да	d aː	452297
+да	d aː	411787
 дабар	d a b a r	5
 дабов	d a b ɔ f	4
 давеник	d a v ɛ n i k	15
 далечност	d a l ɛ t͡ʃ n ɔ s t	0
-дали	d a l i	17510
+дали	d a l i	17508
 даночник	d a n ɔ t͡ʃ n i k	1
 дарежливост	d a r ɛ ʒ l i v ɔ s t	4
 дарителка	d a r i t ɛ ɫ k a	0
-дата	d a t a	128
+дата	d a t a	106
 датив	d a t i f	0
 дафинов	d a f i n ɔ f	1
 дваж	d v a ʃ	0
@@ -738,8 +738,8 @@
 дегенерација	d ɛ ɡ ɛ n ɛ r a t͡s i j a	42
 деградација	d ɛ ɡ r a d a t͡s i j a	38
 дегустација	d ɛ ɡ u s t a t͡s i j a	64
-дедов	d ɛ d ɔ f	33
-дежурство	d ɛ ʒ u r s t v ɔ	11
+дедов	d ɛ d ɔ f	32
+дежурство	d ɛ ʒ u r s t v ɔ	10
 дезинформација	d ɛ z i ɱ f ɔ r m a t͡s i j a	21
 дека	d ɛ k a	125671
 деклинациски	d ɛ k l i n a t͡s i s k i	0
@@ -772,7 +772,7 @@
 дереџе	d ɛ ɾ ɛ d͡ʒ ɛ	27
 дерман	d ɛ r m a n	1
 дерматологија	d ɛ r m a t ɔ ɫ ɔ ɡ i j a	6
-десен	d ɛ s ɛ n	120
+десен	d ɛ s ɛ n	119
 десетпати	d ɛ s ɛ t p a t i	14
 десетче	d ɛ s ɛ t t͡ʃ ɛ	0
 десничарка	d ɛ s n i t͡ʃ a r k a	0
@@ -795,7 +795,7 @@
 диграф	d i ɡ r a f	0
 дидактика	d i d a k t i k a	2
 дизентерија	d i z ɛ n t ɛ ɾ i j a	7
-динамика	d i n a m i k a	368
+динамика	d i n a m i k a	361
 динамичност	d i n a m i t͡ʃ n ɔ s t	30
 династички	d i n a s t i t͡ʃ k i	1
 дипли	d i p l i	2
@@ -831,7 +831,7 @@
 довлекува	d ɔ v l ɛ k u v a	0
 доволно	d ɔ v ɔ ɫ n ɔ	4691
 догледува	d ɔ ɡ l ɛ d u v a	2
-догма	d ɔ ɡ m a	34
+догма	d ɔ ɡ m a	33
 догмечува	d ɔ ɡ m ɛ t͡ʃ u v a	0
 договори	d ɔ ɡ ɔ v ɔ ɾ i	941
 догодина	d ɔ ɡ ɔ d i n a	134
@@ -859,7 +859,7 @@
 докрпува	d ɔ k r̩ p u v a	0
 докршува	d ɔ k r̩ ʃ u v a	0
 докторува	d ɔ k t ɔ ɾ u v a	0
-доктрина	d ɔ k t r i n a	37
+доктрина	d ɔ k t r i n a	32
 документација	d ɔ k u m ɛ n t a t͡s i j a	645
 докупува	d ɔ k u p u v a	0
 долговечност	d ɔ ɫ ɡ ɔ v ɛ t͡ʃ n ɔ s t	32
@@ -874,7 +874,7 @@
 доличност	d ɔ l i t͡ʃ n ɔ s t	0
 долу	d ɔ ɫ u	312
 долупува	d ɔ ɫ u p u v a	0
-дома	d ɔ m a	3830
+дома	d ɔ m a	3827
 домазни	d ɔ m a z n i	0
 домака	d ɔ m a k a	0
 домарка	d ɔ m a r k a	2
@@ -982,7 +982,7 @@
 дува	d u v a	244
 дувне	d u v n ɛ	12
 дудлец	d u d l ɛ t͡s	0
-дума	d u m a	279
+дума	d u m a	54
 дури	d u ɾ i	10045
 духовитост	d u x ɔ v i t ɔ s t	10
 духовништво	d u x ɔ v n i ʃ t v ɔ	3
@@ -993,7 +993,7 @@
 еволуциски	ɛ v ɔ ɫ u t͡s i s k i	6
 евра	ɛ v r a	9641
 еврејство	ɛ v r ɛ j s t v ɔ	1
-евро	ɛ v r ɔ	359
+евро	ɛ v r ɔ	275
 европски	ɛ v r ɔ p s k i	2156
 евтин	ɛ f t i n	132
 егзибиција	ɛ ɡ z i b i t͡s i j a	4
@@ -1003,7 +1003,7 @@
 егоцентричност	ɛ ɡ ɔ t͡s ɛ n t r i t͡ʃ n ɔ s t	7
 едвај	ɛ d v a j	661
 единственост	ɛ d i n s t v ɛ n ɔ s t	17
-единство	ɛ d i n s t v ɔ	321
+единство	ɛ d i n s t v ɔ	303
 еднаш	ɛ d n a ʃ	3354
 еднобојност	ɛ d n ɔ b ɔ j n ɔ s t	0
 едновременост	ɛ d n ɔ v r ɛ m ɛ n ɔ s t	0
@@ -1021,7 +1021,7 @@
 еж	ɛ ʃ	9
 еже	ɛ ʒ ɛ	2
 еженце	ɛ ʒ ɛ n t͡s ɛ	0
-ежов	ɛ ʒ ɔ f	7
+ежов	ɛ ʒ ɔ f	4
 езотеричност	ɛ z ɔ t ɛ ɾ i t͡ʃ n ɔ s t	0
 економичност	ɛ k ɔ n ɔ m i t͡ʃ n ɔ s t	59
 екранизација	ɛ k r a n i z a t͡s i j a	15
@@ -1041,7 +1041,7 @@
 елкичка	ɛ ɫ k i t͡ʃ k a	0
 елов	ɛ ɫ ɔ f	0
 елоквентност	ɛ ɫ ɔ k v ɛ n t n ɔ s t	3
-ем	ɛ m	388
+ем	ɛ m	387
 емиграциски	ɛ m i ɡ r a t͡s i s k i	1
 емисија	ɛ m i s i j a	670
 емитува	ɛ m i t u v a	294
@@ -1334,7 +1334,7 @@
 збрца	z b r̩ t͡s a	1
 збунувачки	z b u n u v a t͡ʃ k i	46
 звање	z v a ɲ ɛ	64
-звуков	z v u k ɔ f	1
+звуков	z v u k ɔ f	0
 звучност	z v u t͡ʃ n ɔ s t	8
 згаденост	z ɡ a d ɛ n ɔ s t	0
 згазнува	z ɡ a z n u v a	0
@@ -1389,7 +1389,7 @@
 зрее	z r ɛ ɛ	9
 зрнце	z r̩ n̩ t͡s ɛ	8
 зуцне	z u t͡s n ɛ	1
-и	i	660257
+и	i	660109
 иако	i j a k ɔ	9614
 ивичи	i v i t͡ʃ i	0
 игличка	i ɡ l i t͡ʃ k a	2
@@ -1541,7 +1541,7 @@
 изрипува	i z r i p u v a	1
 изустува	i z u s t u v a	0
 иконописец	i k ɔ n ɔ p i s ɛ t͡s	3
-или	i l i	50457
+или	i l i	50452
 иловица	i ɫ ɔ v i t͡s a	37
 илустрација	i ɫ u s t r a t͡s i j a	143
 имено	i m ɛ n ɔ	2216
@@ -1589,7 +1589,7 @@
 интуиција	i n t u i t͡s i j a	76
 инфлациски	i n f ɫ a t͡s i s k i	4
 инфлација	i n f ɫ a t͡s i j a	127
-информатика	i ɱ f ɔ r m a t i k a	266
+информатика	i ɱ f ɔ r m a t i k a	237
 информатичарски	i ɱ f ɔ r m a t i t͡ʃ a r s k i	0
 информациски	i ɱ f ɔ r m a t͡s i s k i	108
 инфузија	i n f u z i j a	44
@@ -1737,7 +1737,7 @@
 итност	i t n ɔ s t	19
 итрина	i t r i n a	20
 итрост	i t r ɔ s t	2
-ич	i t͡ʃ	217
+ич	i t͡ʃ	159
 ишка	i ʃ k a	5
 ишмукува	i ʃ m u k u v a	0
 ишне	i ʃ n ɛ	0
@@ -1753,7 +1753,7 @@
 каивче	k a i f t͡ʃ ɛ	3
 како	k a k ɔ	105256
 какофонија	k a k ɔ f ɔ n i j a	8
-кактус	k a k t u s	54
+кактус	k a k t u s	52
 калорија	k a ɫ ɔ ɾ i j a	18
 калуѓерство	k a ɫ u ɟ ɛ r s t v ɔ	0
 камионче	k a m i j ɔ n t͡ʃ ɛ	6
@@ -1763,19 +1763,19 @@
 кандилце	k a n d i ɫ t͡s ɛ	4
 капинов	k a p i n ɔ f	0
 капнатост	k a p n a t ɔ s t	0
-кара	k a ɾ a	638
+кара	k a ɾ a	106
 карактеризација	k a ɾ a k t ɛ ɾ i z a t͡s i j a	11
 каранфилче	k a r a ɱ f i ɫ t͡ʃ ɛ	23
 каросерија	k a ɾ ɔ s ɛ ɾ i j a	104
 картичка	k a r t i t͡ʃ k a	746
 картографија	k a r t ɔ ɡ r a f i j a	15
-карши	k a r ʃ i	42
+карши	k a r ʃ i	40
 касичка	k a s i t͡ʃ k a	6
 касметлија	k a s m ɛ t l i j a	0
 каснатина	k a s n a t i n a	1
 каснува	k a s n u v a	3
 кастрација	k a s t r a t͡s i j a	7
-каталог	k a t a ɫ ɔ k	162
+каталог	k a t a ɫ ɔ k	154
 катанче	k a t a n t͡ʃ ɛ	0
 катастарски	k a t a s t a r s k i	23
 категоризација	k a t ɛ ɡ ɔ ɾ i z a t͡s i j a	40
@@ -1793,7 +1793,7 @@
 кварт	k v a r t	62
 кенгурче	k ɛ ŋ ɡ u r t͡ʃ ɛ	3
 кепец	k ɛ p ɛ t͡s	1
-кибернетика	k i b ɛ r n ɛ t i k a	17
+кибернетика	k i b ɛ r n ɛ t i k a	3
 кибритче	k i b r i t t͡ʃ ɛ	2
 кивнува	k i v n u v a	0
 килимар	k i l i m a r	0
@@ -1839,7 +1839,7 @@
 ко	k ɔ	768
 коа	k ɔ a	143
 ковче	k ɔ f t͡ʃ ɛ	0
-код	k ɔ t	516
+код	k ɔ t	499
 кодификација	k ɔ d i f i k a t͡s i j a	8
 кодош	k ɔ d ɔ ʃ	42
 козарски	k ɔ z a r s k i	0
@@ -1858,7 +1858,7 @@
 колоквиум	k ɔ ɫ ɔ k v i j u m	112
 колонизациски	k ɔ ɫ ɔ n i z a t͡s i s k i	0
 колосек	k ɔ ɫ ɔ s ɛ k	63
-команда	k ɔ m a n d a	173
+команда	k ɔ m a n d a	124
 комби	k ɔ m b i	70
 комика	k ɔ m i k a	2
 комичарка	k ɔ m i t͡ʃ a r k a	15
@@ -1872,7 +1872,7 @@
 комплицираност	k ɔ m p l i t͡s i ɾ a n ɔ s t	1
 композиторски	k ɔ m p ɔ z i t ɔ r s k i	8
 композициски	k ɔ m p ɔ z i t͡s i s k i	9
-компромис	k ɔ m p r ɔ m i s	357
+компромис	k ɔ m p r ɔ m i s	356
 компјутеризација	k ɔ m p j u t ɛ ɾ i z a t͡s i j a	7
 комшилак	k ɔ m ʃ i ɫ a k	0
 конверзациски	k ɔ ɱ v ɛ r z a t͡s i s k i	2
@@ -1967,7 +1967,7 @@
 кринов	k r i n ɔ f	0
 криптологија	k r i p t ɔ ɫ ɔ ɡ i j a	1
 кристализација	k r i s t a l i z a t͡s i j a	6
-критика	k r i t i k a	404
+критика	k r i t i k a	403
 критичар	k r i t i t͡ʃ a r	105
 критичарски	k r i t i t͡ʃ a r s k i	1
 критичност	k r i t i t͡ʃ n ɔ s t	7
@@ -2064,7 +2064,7 @@
 лекторски	l ɛ k t ɔ r s k i	3
 лекувачка	l ɛ k u v a t͡ʃ k a	0
 лелека	l ɛ l ɛ k a	1
-лема	l ɛ m a	3
+лема	l ɛ m a	1
 лентичка	l ɛ n t i t͡ʃ k a	0
 лепливост	l ɛ p l i v ɔ s t	6
 лепрозен	l ɛ p r ɔ z ɛ n	3
@@ -2082,7 +2082,7 @@
 ликвидација	l i k v i d a t͡s i j a	72
 ликов	l i k ɔ f	3
 лимарски	l i m a r s k i	1
-лимонов	l i m ɔ n ɔ f	62
+лимонов	l i m ɔ n ɔ f	58
 лимонче	l i m ɔ n t͡ʃ ɛ	1
 липов	l i p ɔ f	1
 лисиче	l i s i t͡ʃ ɛ	156
@@ -2102,7 +2102,7 @@
 лозов	ɫ ɔ z ɔ f	20
 локатив	ɫ ɔ k a t i f	0
 локна	ɫ ɔ k n a	2
-лом	ɫ ɔ m	23
+лом	ɫ ɔ m	21
 лопатче	ɫ ɔ p a t t͡ʃ ɛ	0
 лотосов	ɫ ɔ t ɔ s ɔ f	3
 лудачки	ɫ u d a t͡ʃ k i	3
@@ -2115,7 +2115,7 @@
 магливост	m a ɡ l i v ɔ s t	1
 маглоса	m a ɡ ɫ ɔ s a	0
 мазност	m a z n ɔ s t	2
-маков	m a k ɔ f	5
+маков	m a k ɔ f	0
 маларичен	m a ɫ a ɾ i t͡ʃ ɛ n	0
 малверзациски	m a ɫ v ɛ r z a t͡s i s k i	0
 малинов	m a l i n ɔ f	18
@@ -2133,7 +2133,7 @@
 масленост	m a s l ɛ n ɔ s t	37
 масленце	m a s l ɛ n t͡s ɛ	1
 мастилен	m a s t i l ɛ n	0
-математика	m a t ɛ m a t i k a	497
+математика	m a t ɛ m a t i k a	377
 математичарка	m a t ɛ m a t i t͡ʃ a r k a	3
 математичарски	m a t ɛ m a t i t͡ʃ a r s k i	0
 матерка	m a t ɛ r k a	0
@@ -2178,7 +2178,7 @@
 методичност	m ɛ t ɔ d i t͡ʃ n ɔ s t	1
 методологија	m ɛ t ɔ d ɔ ɫ ɔ ɡ i j a	150
 метонимија	m ɛ t ɔ n i m i j a	0
-метрика	m ɛ t r i k a	6
+метрика	m ɛ t r i k a	5
 метропола	m ɛ t r ɔ p ɔ ɫ a	87
 механизација	m ɛ x a n i z a t͡s i j a	187
 механичарски	m ɛ x a n i t͡ʃ a r s k i	14
@@ -2188,7 +2188,7 @@
 мизантропија	m i z a n t r ɔ p i j a	1
 милениче	m i l ɛ n i t͡ʃ ɛ	131
 милозвучност	m i ɫ ɔ z v u t͡ʃ n ɔ s t	0
-мимика	m i m i k a	6
+мимика	m i m i k a	5
 министерски	m i n i s t ɛ r s k i	24
 минливост	m i n l i v ɔ s t	6
 мирисливост	m i r i s l i v ɔ s t	0
@@ -2233,7 +2233,7 @@
 морнарство	m ɔ r n a r s t v ɔ	0
 морфофонологија	m ɔ r f ɔ f ɔ n ɔ ɫ ɔ ɡ i j a	0
 моторен	m ɔ t ɔ ɾ ɛ n	13
-моторика	m ɔ t ɔ ɾ i k a	26
+моторика	m ɔ t ɔ ɾ i k a	25
 мочовод	m ɔ t͡ʃ ɔ v ɔ t	0
 мравче	m r a f t͡ʃ ɛ	0
 мравји	m r a v j i	1
@@ -2408,7 +2408,7 @@
 национализација	n a t͡s i j ɔ n a l i z a t͡s i j a	11
 нацрпи	n a t͡s r̩ p i	0
 начекува	n a t͡ʃ ɛ k u v a	4
-наш	n a ʃ	1003
+наш	n a ʃ	991
 нашара	n a ʃ a ɾ a	0
 најавувач	n a j a v u v a t͡ʃ	1
 најгвирц	n a j ɡ v i r t͡s	0
@@ -2837,7 +2837,7 @@
 одјури	ɔ d j u ɾ i	0
 озарува	ɔ z a ɾ u v a	4
 озвучува	ɔ z v u t͡ʃ u v a	1
-озон	ɔ z ɔ n	21
+озон	ɔ z ɔ n	19
 озрачува	ɔ z r a t͡ʃ u v a	0
 ококорува	ɔ k ɔ k ɔ ɾ u v a	1
 околен	ɔ k ɔ l ɛ n	4
@@ -2853,7 +2853,7 @@
 оладува	ɔ ɫ a d u v a	5
 олтарски	ɔ ɫ t a r s k i	5
 омаеност	ɔ m a ɛ n ɔ s t	0
-оман	ɔ m a n	47
+оман	ɔ m a n	26
 омекнатост	ɔ m ɛ k n a t ɔ s t	0
 омекнувач	ɔ m ɛ k n u v a t͡ʃ	17
 омеѓува	ɔ m ɛ ɟ u v a	1
@@ -2902,7 +2902,7 @@
 оривче	ɔ ɾ i f t͡ʃ ɛ	2
 ориентациски	ɔ ɾ i j ɛ n t a t͡s i s k i	1
 орле	ɔ r l ɛ	5
-орлов	ɔ r ɫ ɔ f	22
+орлов	ɔ r ɫ ɔ f	5
 орнитологија	ɔ r n i t ɔ ɫ ɔ ɡ i j a	0
 ортак	ɔ r t a k	9
 ортопедија	ɔ r t ɔ p ɛ d i j a	39
@@ -3066,7 +3066,7 @@
 пламнува	p ɫ a m n u v a	3
 планинарски	p ɫ a n i n a r s k i	87
 планинче	p ɫ a n i n t͡ʃ ɛ	0
-пласт	p ɫ a s t	20
+пласт	p ɫ a s t	19
 пластичарски	p ɫ a s t i t͡ʃ a r s k i	0
 платненце	p ɫ a t n ɛ n t͡s ɛ	0
 платонски	p ɫ a t ɔ n s k i	1
@@ -3245,7 +3245,7 @@
 поларизација	p ɔ ɫ a ɾ i z a t͡s i j a	30
 поларност	p ɔ ɫ a r n ɔ s t	3
 полежи	p ɔ l ɛ ʒ i	2
-полемика	p ɔ l ɛ m i k a	51
+полемика	p ɔ l ɛ m i k a	49
 поленце	p ɔ l ɛ n t͡s ɛ	1
 полетен	p ɔ l ɛ t ɛ n	3
 полжавче	p ɔ ɫ ʒ a f t͡ʃ ɛ	2
@@ -3253,7 +3253,7 @@
 полисемија	p ɔ l i s ɛ m i j a	1
 политичарски	p ɔ l i t i t͡ʃ a r s k i	0
 полифонија	p ɔ l i f ɔ n i j a	4
-полковник	p ɔ ɫ k ɔ v n i k	81
+полковник	p ɔ ɫ k ɔ v n i k	38
 полковнички	p ɔ ɫ k ɔ v n i t͡ʃ k i	0
 половичност	p ɔ ɫ ɔ v i t͡ʃ n ɔ s t	1
 полувреме	p ɔ ɫ u v r ɛ m ɛ	882
@@ -3309,7 +3309,7 @@
 посече	p ɔ s ɛ t͡ʃ ɛ	1
 поскапува	p ɔ s k a p u v a	23
 поскока	p ɔ s k ɔ k a	0
-послание	p ɔ s ɫ a n i j ɛ	35
+послание	p ɔ s ɫ a n i j ɛ	34
 последователност	p ɔ s l ɛ d ɔ v a t ɛ ɫ n ɔ s t	5
 последок	p ɔ s l ɛ d ɔ k	0
 послика	p ɔ s l i k a	0
@@ -3331,14 +3331,14 @@
 потекува	p ɔ t ɛ k u v a	5
 потемнетост	p ɔ t ɛ m n ɛ t ɔ s t	0
 потемнува	p ɔ t ɛ m n u v a	13
-поти	p ɔ t i	26
+поти	p ɔ t i	25
 потиснатост	p ɔ t i s n a t ɔ s t	1
 поткаже	p ɔ t k a ʒ ɛ	1
 поткара	p ɔ t k a ɾ a	0
 поткастри	p ɔ t k a s t r i	3
 поткупливост	p ɔ t k u p l i v ɔ s t	1
 поткупувач	p ɔ t k u p u v a t͡ʃ	0
-поток	p ɔ t ɔ k	117
+поток	p ɔ t ɔ k	116
 потонува	p ɔ t ɔ n u v a	5
 поточе	p ɔ t ɔ t͡ʃ ɛ	5
 потпекува	p ɔ t p ɛ k u v a	2
@@ -3389,7 +3389,7 @@
 празноглавост	p r a z n ɔ ɡ ɫ a v ɔ s t	0
 празнословие	p r a z n ɔ s ɫ ɔ v i j ɛ	1
 праисторија	p r a i s t ɔ ɾ i j a	7
-практика	p r a k t i k a	487
+практика	p r a k t i k a	469
 прасенце	p r a s ɛ n t͡s ɛ	8
 прастар	p r a s t a r	8
 пратеништво	p r a t ɛ n i ʃ t v ɔ	0
@@ -3684,7 +3684,7 @@
 просторност	p r ɔ s t ɔ r n ɔ s t	16
 просјачки	p r ɔ s j a t͡ʃ k i	2
 противнички	p r ɔ t i v n i t͡ʃ k i	32
-протокол	p r ɔ t ɔ k ɔ ɫ	189
+протокол	p r ɔ t ɔ k ɔ ɫ	148
 проточен	p r ɔ t ɔ t͡ʃ ɛ n	12
 протресе	p r ɔ t r ɛ s ɛ	7
 професорство	p r ɔ f ɛ s ɔ r s t v ɔ	0
@@ -3702,7 +3702,7 @@
 психа	p s i x a	43
 психијатрија	p s i x i j a t r i j a	42
 птица	p t i t͡s a	143
-птичка	p t i t͡ʃ k a	4
+птичка	p t i t͡ʃ k a	3
 пукнува	p u k n u v a	3
 пукот	p u k ɔ t	2
 пунктуација	p u ŋ k t u a t͡s i j a	0
@@ -3717,7 +3717,7 @@
 работничка	r a b ɔ t n i t͡ʃ k a	78
 работоспособност	r a b ɔ t ɔ s p ɔ s ɔ b n ɔ s t	3
 равенство	r a v ɛ n s t v ɔ	7
-радар	r a d a r	50
+радар	r a d a r	35
 радиоемисија	r a d i j ɔ ɛ m i s i j a	4
 радиостаница	r a d i j ɔ s t a n i t͡s a	15
 радијација	r a d i j a t͡s i j a	91
@@ -3797,7 +3797,7 @@
 раскитува	r a s k i t u v a	0
 расклопува	r a s k ɫ ɔ p u v a	9
 раскове	r a s k ɔ v ɛ	0
-раскол	r a s k ɔ ɫ	32
+раскол	r a s k ɔ ɫ	31
 расколник	r a s k ɔ ɫ n i k	4
 раскошност	r a s k ɔ ʃ n ɔ s t	5
 раскрвавеност	r a s k r̩ v a v ɛ n ɔ s t	0
@@ -3870,7 +3870,7 @@
 резолуција	r ɛ z ɔ ɫ u t͡s i j a	555
 реинкарнација	r ɛ i ŋ k a r n a t͡s i j a	23
 рекатегоризација	r ɛ k a t ɛ ɡ ɔ ɾ i z a t͡s i j a	0
-реквием	r ɛ k v i j ɛ m	12
+реквием	r ɛ k v i j ɛ m	11
 рекичка	r ɛ k i t͡ʃ k a	5
 рекламациски	r ɛ k ɫ a m a t͡s i s k i	0
 рекламација	r ɛ k ɫ a m a t͡s i j a	16
@@ -3887,7 +3887,7 @@
 репродукциски	r ɛ p r ɔ d u k t͡s i s k i	0
 реставраторски	r ɛ s t a v r a t ɔ r s k i	3
 реставрација	r ɛ s t a v r a t͡s i j a	97
-ресторан	r ɛ s t ɔ r a n	902
+ресторан	r ɛ s t ɔ r a n	856
 реторика	r ɛ t ɔ ɾ i k a	94
 реума	r ɛ u m a	20
 реформаторка	r ɛ f ɔ r m a t ɔ r k a	1
@@ -3901,7 +3901,7 @@
 рисјанин	r i s j a n i n	0
 ритмичност	r i t m i t͡ʃ n ɔ s t	1
 рицарски	r i t͡s a r s k i	2
-роб	r ɔ p	129
+роб	r ɔ p	124
 роботизација	r ɔ b ɔ t i z a t͡s i j a	0
 ровкост	r ɔ f k ɔ s t	0
 ровчица	r ɔ f t͡ʃ i t͡s a	0
@@ -3909,7 +3909,7 @@
 родилка	r ɔ d i ɫ k a	20
 родовник	r ɔ d ɔ v n i k	2
 родољубивост	r ɔ d ɔ l u b i v ɔ s t	0
-рокер	r ɔ k ɛ r	27
+рокер	r ɔ k ɛ r	26
 рокерка	r ɔ k ɛ r k a	1
 роковник	r ɔ k ɔ v n i k	2
 ролерка	r ɔ l ɛ r k a	0
@@ -3920,7 +3920,7 @@
 росичка	r ɔ s i t͡ʃ k a	0
 ротациски	r ɔ t a t͡s i s k i	2
 рочиште	r ɔ t͡ʃ i ʃ t ɛ	90
-рубрика	r u b r i k a	109
+рубрика	r u b r i k a	100
 рударка	r u d a r k a	0
 рударство	r u d a r s t v ɔ	63
 ружичка	r u ʒ i t͡ʃ k a	1
@@ -3947,7 +3947,7 @@
 сарма	s a r m a	50
 сармичка	s a r m i t͡ʃ k a	1
 сатисфакција	s a t i s f a k t͡s i j a	72
-сауна	s a u n a	144
+сауна	s a u n a	139
 сајбија	s a j b i j a	0
 светлост	s v ɛ t ɫ ɔ s t	44
 световност	s v ɛ t ɔ v n ɔ s t	2
@@ -3994,7 +3994,7 @@
 сенаторски	s ɛ n a t ɔ r s k i	0
 сензација	s ɛ n z a t͡s i j a	147
 септички	s ɛ p t i t͡ʃ k i	9
-сердар	s ɛ r d a r	9
+сердар	s ɛ r d a r	8
 сердарски	s ɛ r d a r s k i	0
 сесија	s ɛ s i j a	467
 сестраност	s ɛ s t r a n ɔ s t	9
@@ -4007,7 +4007,7 @@
 симетричност	s i m ɛ t r i t͡ʃ n ɔ s t	3
 симпатичен	s i m p a t i t͡ʃ ɛ n	62
 симпатичност	s i m p a t i t͡ʃ n ɔ s t	0
-симпозиум	s i m p ɔ z i j u m	99
+симпозиум	s i m p ɔ z i j u m	94
 симфонија	s i m f ɔ n i j a	31
 синап	s i n a p	7
 синоптички	s i n ɔ p t i t͡ʃ k i	0
@@ -4029,7 +4029,7 @@
 ситуациски	s i t u a t͡s i s k i	1
 скапост	s k a p ɔ s t	0
 скелетен	s k ɛ l ɛ t ɛ n	4
-скептик	s k ɛ p t i k	24
+скептик	s k ɛ p t i k	22
 скептичност	s k ɛ p t i t͡ʃ n ɔ s t	9
 скиснатост	s k i s n a t ɔ s t	0
 скитничка	s k i t n i t͡ʃ k a	0
@@ -4105,7 +4105,7 @@
 соматски	s ɔ m a t s k i	9
 сомнителност	s ɔ m n i t ɛ ɫ n ɔ s t	4
 сомничавост	s ɔ m n i t͡ʃ a v ɔ s t	3
-сомун	s ɔ m u n	5
+сомун	s ɔ m u n	4
 сонародник	s ɔ n a ɾ ɔ d n i k	70
 сонародничка	s ɔ n a r ɔ d n i t͡ʃ k a	11
 сонце	s ɔ n t͡s ɛ	1093
@@ -4123,7 +4123,7 @@
 сопственички	s ɔ p s t v ɛ n i t͡ʃ k i	15
 сопствеништво	s ɔ p s t v ɛ n i ʃ t v ɔ	14
 сопче	s ɔ p t͡ʃ ɛ	1
-сословие	s ɔ s ɫ ɔ v i j ɛ	12
+сословие	s ɔ s ɫ ɔ v i j ɛ	0
 сосопственик	s ɔ s ɔ p s t v ɛ n i k	1
 сот	s ɔ t	12
 соучесница	s ɔ u t͡ʃ ɛ s n i t͡s a	0
@@ -4136,7 +4136,7 @@
 спахија	s p a x i j a	3
 специјализација	s p ɛ t͡s i j a l i z a t͡s i j a	127
 спечалува	s p ɛ t͡ʃ a ɫ u v a	0
-спикер	s p i k ɛ r	30
+спикер	s p i k ɛ r	22
 спикерка	s p i k ɛ r k a	2
 сплеткар	s p l ɛ t k a r	0
 спонзорски	s p ɔ n z ɔ r s k i	9
@@ -4148,7 +4148,7 @@
 спорост	s p ɔ ɾ ɔ s t	2
 споцрка	s p ɔ t͡s r̩ k a	0
 спојка	s p ɔ j k a	73
-справа	s p r a v a	49
+справа	s p r a v a	48
 спремност	s p r ɛ m n ɔ s t	51
 спринтер	s p r i n t ɛ r	16
 спринтерка	s p r i n t ɛ r k a	1
@@ -4205,7 +4205,7 @@
 страдалник	s t r a d a ɫ n i k	4
 стражарка	s t r a ʒ a r k a	0
 страничка	s t r a n i t͡ʃ k a	3
-стратег	s t r a t ɛ k	139
+стратег	s t r a t ɛ k	138
 стратификација	s t r a t i f i k a t͡s i j a	1
 страчкин	s t r a t͡ʃ k i n	0
 страшливост	s t r a ʃ l i v ɔ s t	0
@@ -4215,10 +4215,10 @@
 стринин	s t r i n i n	0
 стрмност	s t r̩ m n ɔ s t	0
 струга	s t r u ɡ a	1318
-студио	s t u d i j ɔ	726
+студио	s t u d i j ɔ	721
 субвенција	s u b v ɛ n t͡s i j a	35
 сублимација	s u b l i m a t͡s i j a	6
-суверен	s u v ɛ ɾ ɛ n	56
+суверен	s u v ɛ ɾ ɛ n	13
 сувост	s u v ɔ s t	31
 сугестија	s u ɡ ɛ s t i j a	57
 суетност	s u ɛ t n ɔ s t	1
@@ -4238,7 +4238,7 @@
 сјајност	s j a j n ɔ s t	6
 тавтологија	t a f t ɔ ɫ ɔ ɡ i j a	4
 таинственост	t a i n s t v ɛ n ɔ s t	14
-такса	t a k s a	184
+такса	t a k s a	180
 таксирлија	t a k s i r l i j a	0
 таксономија	t a k s ɔ n ɔ m i j a	1
 тактичност	t a k t i t͡ʃ n ɔ s t	4
@@ -4278,7 +4278,7 @@
 тимар	t i m a r	0
 типологија	t i p ɔ ɫ ɔ ɡ i j a	12
 толеранција	t ɔ l ɛ r a n t͡s i j a	263
-том	t ɔ m	443
+том	t ɔ m	422
 топличок	t ɔ p l i t͡ʃ ɔ k	0
 топот	t ɔ p ɔ t	14
 тореадорски	t ɔ ɾ ɛ a d ɔ r s k i	0
@@ -4292,9 +4292,9 @@
 трансакциски	t r a n s a k t͡s i s k i	12
 трансакција	t r a n s a k t͡s i j a	80
 транспозиција	t r a n s p ɔ z i t͡s i j a	2
-трансфер	t r a n s f ɛ r	786
+трансфер	t r a n s f ɛ r	783
 трансфобија	t r a n s f ɔ b i j a	1
-трансформатор	t r a n s f ɔ r m a t ɔ r	50
+трансформатор	t r a n s f ɔ r m a t ɔ r	48
 трансформација	t r a n s f ɔ r m a t͡s i j a	283
 трауматичност	t r a u m a t i t͡ʃ n ɔ s t	0
 трафика	t r a f i k a	7
@@ -4331,7 +4331,7 @@
 турбуленција	t u r b u l ɛ n t͡s i j a	9
 турнува	t u r n u v a	2
 туѓински	t u ɟ i n s k i	1
-у	u	1173
+у	u	1119
 убоден	u b ɔ d ɛ n	1
 увезувач	u v ɛ z u v a t͡ʃ	0
 увод	u v ɔ t	14
@@ -4344,7 +4344,7 @@
 удопство	u d ɔ p s t v ɔ	2
 узурпаторски	u z u r p a t ɔ r s k i	0
 узурпација	u z u r p a t͡s i j a	23
-указ	u k a s	36
+указ	u k a s	21
 уличарски	u l i t͡ʃ a r s k i	4
 умее	u m ɛ ɛ	152
 умереност	u m ɛ ɾ ɛ n ɔ s t	14
@@ -4394,8 +4394,8 @@
 фенерче	f ɛ n ɛ r t͡ʃ ɛ	2
 фереџе	f ɛ ɾ ɛ d͡ʒ ɛ	5
 ферментација	f ɛ r m ɛ n t a t͡s i j a	39
-фетиш	f ɛ t i ʃ	36
-фигаро	f i ɡ a ɾ ɔ	47
+фетиш	f ɛ t i ʃ	35
+фигаро	f i ɡ a ɾ ɔ	45
 физиологија	f i z i j ɔ ɫ ɔ ɡ i j a	35
 физиономија	f i z i j ɔ n ɔ m i j a	20
 физиотерапија	f i z i j ɔ t ɛ r a p i j a	11
@@ -4407,7 +4407,7 @@
 филологија	f i ɫ ɔ ɫ ɔ ɡ i j a	14
 филтрација	f i ɫ t r a t͡s i j a	18
 филхармонија	f i ɫ x a r m ɔ n i j a	207
-фитнес	f i t n ɛ s	593
+фитнес	f i t n ɛ s	592
 флејта	f l ɛ j t a	38
 флоскула	f ɫ ɔ s k u ɫ a	13
 флуктуација	f ɫ u k t u a t͡s i j a	7
@@ -4421,13 +4421,13 @@
 фотогеничност	f ɔ t ɔ ɡ ɛ n i t͡ʃ n ɔ s t	2
 фотоќелија	f ɔ t ɔ c ɛ l i j a	0
 фреквенциски	f r ɛ k v ɛ n t͡s i s k i	6
-фронт	f r ɔ n t	312
+фронт	f r ɔ n t	269
 фрустрација	f r u s t r a t͡s i j a	55
 фурнаџија	f u r n a d͡ʒ i j a	2
 фустанче	f u s t a n t͡ʃ ɛ	52
 фушерски	f u ʃ ɛ r s k i	1
 халуцинација	x a ɫ u t͡s i n a t͡s i j a	5
-хаос	x a ɔ s	467
+хаос	x a ɔ s	452
 хаотичност	x a ɔ t i t͡ʃ n ɔ s t	5
 харзувал	x a r z u v a ɫ	0
 харизматичност	x a ɾ i z m a t i t͡ʃ n ɔ s t	3
@@ -4440,20 +4440,20 @@
 хировитост	x i r ɔ v i t ɔ s t	0
 хистерија	x i s t ɛ ɾ i j a	43
 хистологија	x i s t ɔ ɫ ɔ ɡ i j a	12
-хит	x i t	1047
+хит	x i t	1037
 хлороформ	x ɫ ɔ r ɔ f ɔ r m̩	2
 хомонимија	x ɔ m ɔ n i m i j a	0
 хомофонија	x ɔ m ɔ f ɔ n i j a	0
 хранливост	x r a n l i v ɔ s t	9
-хроника	x r ɔ n i k a	101
+хроника	x r ɔ n i k a	98
 хроничарски	x r ɔ n i t͡ʃ a r s k i	0
-ц	ǀ	568
+ц	ǀ	567
 цветче	t͡s v ɛ t t͡ʃ ɛ	2
 цвеќарство	t͡s v ɛ c a r s t v ɔ	0
 цвеќенце	t͡s v ɛ c ɛ n t͡s ɛ	1
 целисходност	t͡s ɛ l i s x ɔ d n ɔ s t	4
 целосност	t͡s ɛ ɫ ɔ s n ɔ s t	9
-цензор	t͡s ɛ n z ɔ r	4
+цензор	t͡s ɛ n z ɔ r	2
 цензорски	t͡s ɛ n z ɔ r s k i	0
 централизација	t͡s ɛ n t r a l i z a t͡s i j a	10
 центурија	t͡s ɛ n t u ɾ i j a	0
@@ -4462,7 +4462,7 @@
 цикличност	t͡s i k l i t͡ʃ n ɔ s t	0
 циметов	t͡s i m ɛ t ɔ f	0
 цимоли	t͡s i m ɔ l i	3
-циник	t͡s i n i k	8
+циник	t͡s i n i k	6
 циничност	t͡s i n i t͡ʃ n ɔ s t	1
 цинков	t͡s i ŋ k ɔ f	1
 циркулација	t͡s i r k u ɫ a t͡s i j a	167
@@ -4514,7 +4514,7 @@
 чумен	t͡ʃ u m ɛ n	0
 чури	t͡ʃ u ɾ i	3
 чутура	t͡ʃ u t u ɾ a	2
-шаман	ʃ a m a n	5
+шаман	ʃ a m a n	4
 шамивче	ʃ a m i f t͡ʃ ɛ	12
 шапкарка	ʃ a p k a r k a	0
 шапкарски	ʃ a p k a r s k i	1
@@ -4536,7 +4536,7 @@
 шинтер	ʃ i n t ɛ r	3
 шкафче	ʃ k a f t͡ʃ ɛ	1
 шкембе	ʃ k ɛ m b ɛ	1
-школа	ʃ k ɔ ɫ a	648
+школа	ʃ k ɔ ɫ a	645
 шлака	ʃ ɫ a k a	1
 шлапа	ʃ ɫ a p a	0
 шнајдер	ʃ n a j d ɛ r	29
