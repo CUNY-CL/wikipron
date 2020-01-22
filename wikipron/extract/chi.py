@@ -10,7 +10,7 @@ from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, WordPronPair
+    from wikipron.typing import Iterator, Word, Pron, WordPronPair
 
 
 # Select pron from within this li
