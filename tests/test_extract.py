@@ -5,6 +5,8 @@ from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.core import _skip_pron
 from wikipron.extract.default import extract_word_pron_default
 
+from . import config_factory
+
 
 @pytest.mark.parametrize(
     "func", tuple(EXTRACTION_FUNCTIONS.values()) + (extract_word_pron_default,)
@@ -23,12 +25,15 @@ def test_extraction_functions_have_the_same_signature(func):
 
 
 @pytest.mark.parametrize(
-    "pron, expected",
+    "pron, iso639_key, expected",
     [
-        ("əbzɝvɚ", False),
+        ("əbzɝvɚ", "eng", False),
         # GH-105: Dashed prons are skipped.
-        ("ɑb-", True),
+        ("ɑb-", "eng", True),
+        # Spaces in Chinese prons are not skipped.
+        ("ɕjɛ tu", "chi", False)
     ],
 )
-def test__skip_pron(pron, expected):
-    assert _skip_pron(pron) == expected
+def test__skip_pron(pron, iso639_key, expected):
+    config = config_factory(key=iso639_key)
+    assert _skip_pron(pron, config) == expected
