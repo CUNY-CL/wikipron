@@ -1,11 +1,11 @@
-a	ɑ	3419
-aba	ɑ b ɑ	0
+a	ɑ	3636
+aba	ɑ b ɑ	1
 acıq	ɑ d͡z ɯ χ	59
 acıq	ɑ d͡ʒ ɯ χ	59
 adam	ɑ d ɑ m	7219
 adlanmaq	ɑ d ɫ ɑ n m ɑ χ	3
 akademiya	ɑ k ɑ d e m i j ɑ	83
-alma	ɑ ɫ m ɑ	306
+alma	ɑ ɫ m ɑ	308
 altı	ɑ l t ɯ̞	764
 alın	ɑ ɫ ɯ n	239
 armağan	ɑ r m ɑ ɣ ɑ n	1
@@ -13,7 +13,7 @@ arpa	ɑ r p ɑ	83
 arxa	ɑ r χ ɑ	588
 axırıncı	ɑ χ ɯ r ɯ n d͡ʒ ɯ	300
 azəri	ɑː z æ ɾ i	267
-b	b	157
+b	b	257
 badam	b ɑ d ɑ m	30
 baldır	b ɑ ɫ d ɯ r	8
 batmaq	b ɑ t m ɑ χ	27
@@ -25,7 +25,7 @@ birləşmək	b i r l æ ʃ m æ k	143
 birə	b i r æ	77
 bitirmək	b i t i r m æ k	71
 bol	b o ɫ	196
-boy	b o j	98
+boy	b o j	101
 boşanmaq	b o ʃ ɑ n m ɑ χ	24
 bulud	b u ɫ u d	59
 bura	b u r ɑ	2122
@@ -35,8 +35,8 @@ bütöv	b y t œ v	423
 bütün	b y t y n	27261
 bığ	b ɯ ɣ	28
 bənək	b æ n æ k	0
-c	d͡ʒ	190
-d	d	94
+c	d͡ʒ	556
+d	d	175
 daban	d ɑ b ɑ n	4
 dam	d ɑ m	105
 davam	d ɑ v ɑ m	13837
@@ -51,13 +51,13 @@ dərinlik	d æ r i n l i k	21
 dəsmal	d æ s m ɑ ɫ	45
 dəstək	d æ s t æ k	2943
 dəstəkləmək	d æ s t æ k l æ m æ k	129
-e	e	320
-el	e l	497
+e	e	353
+el	e l	531
 evlənmək	e v l æ n m æ k	122
-f	f	24
+f	f	57
 fikir	f i k i r	3722
 fikirləşmək	f i k i r l æ ʃ m æ k	69
-g	ɟ	34
+g	ɟ	56
 genə	ɡ e n æ	16
 geriləmək	ɡ e r i l æ m æ k	0
 gey	ɡ e j	26
@@ -70,14 +70,14 @@ güvənmək	ɡ y v æ n m æ k	13
 gəmirici	ɡ æ m i r i d͡ʒ i	4
 gəmirmək	ɡ æ m i r m æ k	0
 gərək	ɡ æ r æ k	1914
-h	h	32
+h	h	43
 hoppanmaq	h o pː ɑ n m ɑ χ	1
 hürmək	h y r m æ k	0
 həftə	h æ f t æ	2454
 hələ	h æ l æ	12573
 hərf	h æ ɾ f	25
 həvəs	h æ v æ s	109
-i	ɪ	1311
+i	ɪ	1731
 idman	i d m ɑ n	1452
 iki	i k i	17498
 inadkar	i n ɑ d k ɑ r	30
@@ -87,29 +87,29 @@ incimək	i n d͡ʒ i m æ k	3
 incitmək	i n d͡ʒ i t m æ k	30
 iş	i ʃ	10080
 işarə	i ʃ aː r æ	485
-j	ʒ	13
-k	c	38
-k	ç	38
-k	k	38
+j	ʒ	18
+k	c	51
+k	ç	51
+k	k	51
 keçinmək	k e t͡ʃ i n m æ k	14
 kraliça	k r ɑ l i t͡ʃ ɑ	41
 kölə	k œ l æ	90
-l	l	19
-m	m	184
+l	l	133
+m	m	207
 maaş	m ɑː ʃ	531
 makedoniya	m ɑ k e d o n i j ɑ	68
 mis	m i s	112
 mən	m æ n	24917
 məşhur	m æ ʃ h u r	2337
-n	n	287
+n	n	407
 nar	n a r	156
 nə	n æ	32856
 nəmənə	n æ m æ n æ	10
-o	ɔ	64087
+o	ɔ	64093
 onlar	o n l a r	16753
 oyaq	o j ɑ χ	47
 oğurlamaq	o ɣ u r l ɑ m ɑ χ	58
-p	p	9
+p	p	18
 partlamaq	p ɑ r t ɫ ɑ m ɑ χ	3
 partlatmaq	p ɑ r t ɫ ɑ t m ɑ χ	37
 partlayış	p ɑ r t ɫ ɑ j ɯ ʃ	684
@@ -126,10 +126,10 @@ qırxıncı	q ɯ r x ɯ n d ʒ ɯ	10
 qızdırma	ɡ ɯ z d ɯ r m ɑ	24
 qızıl	ɡ ɯ z ɯ ɫ	1671
 qəşəng	ɡ æ ʃ æ ŋ ɡ	112
-r	r	63
+r	r	111
 ruh	r u h	342
 rusiya	r u s i j ɑ	10034
-s	s	814
+s	s	842
 sabun	s a b u n	52
 sapan	s ɑ p ɑ n	4
 sarp	s ɑ r p	1
@@ -143,7 +143,7 @@ səngək	s æ ŋ æ k	0
 səpmək	s æ p m æ k	5
 sərinləmək	s æ r i n l æ m æ k	9
 sərvaxt	s æ r v ɑ χ t	3
-t	t	54
+t	t	74
 tanımaq	t ɑ n ɯ m ɑ χ	222
 tez	t e z	1853
 toxunmaq	t o χ u n m a χ	111
@@ -153,16 +153,16 @@ təbriz	t æ b r i z	479
 tərləmək	t æ r l æ m æ k	2
 tərpənmək	t æ r p æ n m æ k	47
 təsadüf	t æ s ɑː d y f	805
-u	u	244
+u	u	248
 utanmaq	u t ɑ n m ɑ χ	20
-v	v	121
+v	v	261
 var	v ɑ r	36763
 vurmaq	v u r m ɑ χ	487
 vətəndaş	v æ t æ n d ɑ ʃ	2903
-x	x	89
+x	x	195
 xudahafiz	x u d ɑː f i z	3
 xəncər	x æ n d ʒ æ ɾ	24
-y	j	16
+y	j	22
 yağmaq	j ɑ ɣ m ɑ χ	2
 yaşıl	j ɑ ʃ ɯ ɫ	555
 yenə	j e n æ	5164
@@ -174,13 +174,13 @@ yük	j y k	884
 yüyən	j y j æ n	3
 yüz	j y z	1478
 yəhər	j æ h æ r	3
-z	z	21
+z	z	31
 zorlama	z o r ɫ ɑ m ɑ	35
 zorlamaq	z o r ɫ ɑ m ɑ χ	7
 zəhmətkeş	z æ h m æ t k e ʃ	71
 zəiflik	z æ i f l i k	38
-ç	t ʃ e	5
-ç	t͡ʃ	5
+ç	t ʃ e	6
+ç	t͡ʃ	6
 çökmək	t͡ʃ œ k m æ k	5
 çürük	t͡ʃ y ɾ y c	48
 ö	œ	10
