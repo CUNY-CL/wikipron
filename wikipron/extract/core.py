@@ -11,7 +11,7 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Pron
 
 
-def _skip_pron(pron: str, config) -> bool:
+def _skip_pron(pron: str, config: "Config") -> bool:
     if "-" in pron:
         return True
     if " " in pron and config.language != "Chinese":
