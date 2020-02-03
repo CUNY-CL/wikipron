@@ -2,7 +2,7 @@ from wikipron.extract.khm import extract_word_pron_khmer
 from wikipron.extract.lat import extract_word_pron_latin
 from wikipron.extract.tha import extract_word_pron_thai
 from wikipron.extract.jpn import extract_word_pron_jpn
-from wikipron.extract.chi import extract_word_pron_chi
+from wikipron.extract.cmn import extract_word_pron_cmn
 
 
 # All extraction functions must have the exact same function signature.
@@ -12,5 +12,5 @@ EXTRACTION_FUNCTIONS = {
     "Latin": extract_word_pron_latin,
     "Thai": extract_word_pron_thai,
     "Japanese": extract_word_pron_jpn,
-    "Chinese": extract_word_pron_chi,
+    "Chinese": extract_word_pron_cmn,
 }

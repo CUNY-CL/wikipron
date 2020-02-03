@@ -21,16 +21,16 @@ _PRON_XPATH_TEMPLATE = """
 """
 
 
-def yield_chi_pron(
+def yield_cmn_pron(
     request: requests.Response, config: "Config"
 ) -> "Iterator[Pron]":
     for li_container in request.html.xpath(_PRON_XPATH_TEMPLATE):
         yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
 
 
-def extract_word_pron_chi(
+def extract_word_pron_cmn(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
-    prons = yield_chi_pron(request, config)
+    prons = yield_cmn_pron(request, config)
     yield from zip(words, prons)

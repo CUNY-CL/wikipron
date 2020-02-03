@@ -366,7 +366,7 @@
     },
     "zho-cn_web_2015_1M": {
         "path": [
-            "../tsv/chi_hani"
+            "../tsv/cmn_hani"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/zho-cn_web_2015_1M.tar.gz"
     },
