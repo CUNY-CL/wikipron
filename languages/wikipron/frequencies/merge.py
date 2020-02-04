@@ -49,10 +49,10 @@ def main():
     with open(WORTSCHATZ_DICT_PATH, "r") as langs:
         languages = json.load(langs)
 
-    word_freq_dict = {}
     transcription = ["_phonetic.tsv", "_phonemic.tsv"]
 
     for freq_file in os.listdir("freq_tsvs"):
+        word_freq_dict = {}
         # For accessing correct language in wortschatz_languages.json.
         file_to_match = freq_file.rsplit("-", 1)[0]
         logging.info("Currently working on: %s", file_to_match)

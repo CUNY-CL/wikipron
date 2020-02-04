@@ -29,6 +29,7 @@ crx_phonemic.tsv	crx	Carrier	Carrier	False	Phonemic	175
 cat_phonemic.tsv	cat	Catalan; Valencian	Catalan	True	Phonemic	46948
 ceb_phonemic.tsv	ceb	Cebuano	Cebuano	True	Phonemic	266
 nya_phonemic.tsv	nya	Nyanja	Chichewa	True	Phonemic	734
+cmn_hani_phonemic.tsv	cmn	Mandarin Chinese	Chinese (Han)	False	Phonemic	117991
 cho_phonemic.tsv	cho	Choctaw	Choctaw	True	Phonemic	109
 nci_phonemic.tsv	nci	Classical Nahuatl	Classical Nahuatl	True	Phonemic	837
 nci_phonetic.tsv	nci	Classical Nahuatl	Classical Nahuatl	True	Phonetic	1182

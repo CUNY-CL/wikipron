@@ -250,4 +250,6 @@ LANGUAGE_CODES = {
     # Tetelcingo Nahuatl. ISO 639-3 only.
     "nhg": "Tetelcingo Nahuatl",
     "tetelcingo nahuatl": "Tetelcingo Nahuatl",
+    # Mandarin Chinese. ISO 639-3 only.
+    "cmn": "Chinese"
 }

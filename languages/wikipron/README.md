@@ -31,6 +31,7 @@
 | [TSV](tsv/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 46948 |
 | [TSV](tsv/ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 266 |
 | [TSV](tsv/nya_phonemic.tsv) | nya | Nyanja | Chichewa | True | Phonemic | 734 |
+| [TSV](tsv/cmn_hani_phonemic.tsv) | cmn | Mandarin Chinese | Chinese (Han) | False | Phonemic | 117991 |
 | [TSV](tsv/cho_phonemic.tsv) | cho | Choctaw | Choctaw | True | Phonemic | 109 |
 | [TSV](tsv/nci_phonemic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonemic | 837 |
 | [TSV](tsv/nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1182 |

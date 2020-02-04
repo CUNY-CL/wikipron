@@ -32,23 +32,22 @@ def main():
     transcription_level = tsv_path[tsv_path.rindex("_") + 1 :]
 
     if "script" in languages[iso639_code]:
-        if len(languages[iso639_code]["script"]) > 1:
-            lang = languages[iso639_code]
+        lang = languages[iso639_code]
 
-            # Hacky way of filtering out the already split scripts.
-            for script_prefix in lang["script"]:
-                if script_prefix in tsv_path:
-                    # Then this is a previously split file.
-                    return
+        # Hacky way of filtering out the already split scripts.
+        for script_prefix in lang["script"]:
+            if script_prefix in tsv_path:
+                # Then this is a previously split file.
+                return
 
-            for script_prefix, unicode_script in lang["script"].items():
-                output_path = f"../tsv/{iso639_code}_{script_prefix}_"\
-                    f"{transcription_level}"
-                _iterate_through_file(tsv_path, output_path, unicode_script)
-            # Remove unsplit files.
-            # Removing files within a for loop doesn't appear
-            # to lead to an error in remove_duplicates_and_split.sh.
-            os.remove(tsv_path)
+        for script_prefix, unicode_script in lang["script"].items():
+            output_path = f"../tsv/{iso639_code}_{script_prefix}_"\
+                f"{transcription_level}"
+            _iterate_through_file(tsv_path, output_path, unicode_script)
+        # Remove unsplit files.
+        # Removing files within a for loop doesn't appear
+        # to lead to an error in remove_duplicates_and_split.sh.
+        os.remove(tsv_path)
 
 
 if __name__ == "__main__":
