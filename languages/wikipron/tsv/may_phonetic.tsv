@@ -1,7 +1,7 @@
-a	e
 a	ä
-a	ə
+a	e
 a	ɐ
+a	ə
 abad	a b a t
 abaka	a b a k ə
 abalone	a b a l o n e
@@ -21,9 +21,9 @@ antologi	a n t o l o ɡ i
 antologi	ɛ n t ɔ l ə d͡ʒ i
 api	a p i
 april	a p r e l
+argentum	a r d͡ʒ ɛ n t ə m
 argentum	a r ɡ ɛ n t o m
 argentum	a r ɡ ɛ n t ə m
-argentum	a r d͡ʒ ɛ n t ə m
 arsenik	a r s ə n e k
 artikel	a r t i k ə l
 astatin	a s t a t e n
@@ -36,11 +36,11 @@ aurum	a u r ə m
 aurum	ɔ r ə m
 autopsi	a u̯ t ɔ p s i
 autopsi	o t ɔ p s i
-b	b i
 b	b
+b	b i
 b	p̚
-banyak	b a ɲ a ʔ
 banyak	b a n j a k
+banyak	b a ɲ a ʔ
 barat	b a r a t
 barium	b a r i o m
 barium	b a r i ə m
@@ -57,14 +57,14 @@ biru	b i r u
 bismut	b i s m o t
 bismut	b i s m ə t
 bolong	b o l o ŋ
-bromin	b r o m e n
 bromin	b r o m a e n
+bromin	b r o m e n
 bulan	b u l a n
 c	s i
 c	t͡ʃ
 citah	t͡ʃ i t a h
-d	d i
 d	d
+d	d i
 d	t̚
 darmstadtium	d a r m s t a t t i o m
 darmstadtium	d a r m s t a t t i ə m
@@ -77,20 +77,20 @@ dingo	d i ŋ ɡ o
 disember	d i s ɛ m b ə r
 disprosium	d i s p r o s i o m
 disprosium	d i s p r o s i ə m
-e	i
 e	e
-e	ɛ
+e	i
 e	ə
+e	ɛ
+einsteinium	a i n s t a e n i ə m
 einsteinium	e i n s t e i n i o m
 einsteinium	e i n s t e i n i ə m
-einsteinium	a i n s t a e n i ə m
 erbium	ə r b i o m
 erbium	ə r b i ə m
 europium	e u r o p i o m
 europium	e u r o p i ə m
 europium	j u r o p i ə m
-f	ɛ f
 f	f
+f	ɛ f
 fantasi	f a n t a s i
 februari	f ɛ b r u a r i
 fermium	f ə r m i o m
@@ -102,8 +102,8 @@ fidzah	f i d a h
 fransium	f r a n s i o m
 fransium	f r a n s i ə m
 g	d͡ʒ i
-g	ɡ
 g	k̚
+g	ɡ
 gading	ɡ a d e ŋ
 gadolinium	ɡ a d o l i n i o m
 gadolinium	ɡ a d o l i n i ə m
@@ -113,13 +113,13 @@ galium	ɡ a l i o m
 galium	ɡ a l i ə m
 galium	ɡ ɛ l i ə m
 geisya	ɡ e ʔ i ʃ ɐ
+germanium	d͡ʒ ə r m a n i ə m
 germanium	ɡ ə r m a n i o m
 germanium	ɡ ə r m a n i ə m
-germanium	d͡ʒ ə r m a n i ə m
 graviti	ɡ r a v i t i
 h	e t͡ʃ
-h	h e t͡ʃ
 h	h
+h	h e t͡ʃ
 hafnium	h a f n i o m
 hafnium	h a f n i ə m
 haiwan	h a i̯ w a n
@@ -133,12 +133,12 @@ hitam	h i t a m
 holmium	h ɔ l m i o m
 holmium	h ɔ l m i ə m
 i	a i̯
-i	i
 i	e
+i	i
 indium	i n d i o m
 indium	i n d i ə m
-iodin	i o d e n
 iodin	a j o d e n
+iodin	i o d e n
 iridium	i r i d i o m
 iridium	i r i d i ə m
 itam	i t a m
@@ -146,18 +146,18 @@ iterbium	i t ə r b i o m
 iterbium	i t ə r b i ə m
 itrium	i t r i o m
 itrium	i t r i ə m
-j	d͡ʒ e
 j	d͡ʒ
+j	d͡ʒ e
 j	t͡ʃ
 jakal	d͡ʒ a k a l
 jam	d͡ʒ a m
 januari	d͡ʒ a n u a r i
 julai	d͡ʒ u l a i̯
 jun	d͡ʒ o n
-k	k e
 k	k
-k	ʔ
+k	k e
 k	k̚
+k	ʔ
 kadmium	k a t m i o m
 kadmium	k a t m i ə m
 kadmium	k ɛ t m i ə m
@@ -180,8 +180,8 @@ klorin	k l ɔ r ɪ n
 kobalt	k o b a l t
 kopernisium	k ɔ p ə r n i s i o m
 kopernisium	k ɔ p ə r n i s i ə m
-koyote	k o j o t e
 koyote	k a j o t i
+koyote	k o j o t e
 kripton	k r i p t o n
 kripton	k r i p t ə n
 kromium	k r o m i o m
@@ -195,8 +195,8 @@ kurium	k u r i o m
 kurium	k u r i ə m
 kurun	k u r o n
 kuyuk	k u j o ʔ
-l	ɛ l
 l	l
+l	ɛ l
 langking	l a ŋ k e ŋ
 lantanum	l a n t a n o m
 lantanum	l a n t a n ə m
@@ -208,11 +208,11 @@ lotong	l o t o ŋ
 lutetium	l u t e t i o m
 lutetium	l u t e t i ə m
 lutetium	l u t i ʃ ə m
-m	ɛ m
 m	m
+m	ɛ m
 mac	m a t͡ʃ
-maghrib	m a ɣ ə r e p
 maghrib	m a ɡ ə r e p
+maghrib	m a ɣ ə r e p
 makalah	m a k a l a h
 malayalam	m a l a j a l a m
 mangan	m a ŋ ɡ a n
@@ -220,9 +220,9 @@ mangan	m a ŋ ɡ ə n
 mangan	m ɛ ŋ ɡ ə n
 mas	m a s
 mei	m e
+meitnerium	m a i t n i r i ə m
 meitnerium	m e i t n e r i o m
 meitnerium	m e i t n e r i ə m
-meitnerium	m a i t n i r i ə m
 memberang	m ə m b ə r a ŋ
 memerang	m ə m ə r a ŋ
 mendelevium	m ɛ n d ə l ɛ v i o m
@@ -233,8 +233,8 @@ minit	m i n e t
 molibdenum	m o l i p d e n o m
 molibdenum	m o l i p d e n ə m
 musang	m u s a ŋ
-n	ɛ n
 n	n
+n	ɛ n
 neodimium	n e o d i m i o m
 neodimium	n e o d i m i ə m
 neodimium	n i o d i m i ə m
@@ -251,17 +251,16 @@ nobelium	n o b ɛ l i ə m
 november	n o v ɛ m b ə r
 nyalaan	ɲ a l ə ʔ a n
 o	o
-o	o
 o	ɔ
 ogos	ɔ ɡ o s
-oksihidrogen	ɔ k s i h i d r o ɡ ə n
 oksihidrogen	ɔ k s i h a i̯ d r o d͡ʒ ə n
+oksihidrogen	ɔ k s i h i d r o ɡ ə n
 oktober	ɔ k t o b ə r
 osmium	ɔ s m i o m
 osmium	ɔ s m i ə m
 ovum	o v o m
-p	p i
 p	p
+p	p i
 p	p̚
 paladium	p a l a d i o m
 paladium	p a l a d i ə m
@@ -275,9 +274,9 @@ pirau	p i r a u̯
 platinum	p l a t i n o m
 platinum	p l a t i n ə m
 platinum	p l ɛ t i n ə m
+plumbum	p l a m b ə m
 plumbum	p l u m b o m
 plumbum	p l u m b ə m
-plumbum	p l a m b ə m
 plutonium	p l u t o n i o m
 plutonium	p l u t o n i ə m
 polonium	p o l o n i o m
@@ -292,15 +291,14 @@ prometium	p r o m i t i ə m
 protaktinium	p r o t a k t i n i o m
 protaktinium	p r o t a k t i n i ə m
 protaktinium	p r o t ɛ k t i n i ə m
-puma	p u m ə
 puma	p u m ɐ
+puma	p u m ə
+q	k
 q	k i u
 q	k j u
-q	q
-q	k
 q	k̚
+q	q
 r	a r
-r	r
 r	r
 radium	r a d i o m
 radium	r a d i ə m
@@ -324,8 +322,8 @@ rutenium	r u t ə n i o m
 rutenium	r u t ə n i ə m
 ruterfordium	r u t ə r f ɔ r d i o m
 ruterfordium	r u t ə r f ɔ r d i ə m
-s	ɛ s
 s	s
+s	ɛ s
 saat	s a ʔ a t
 samarium	s a m a r i o m
 samarium	s a m a r i ə m
@@ -353,8 +351,8 @@ skandium	s k ɛ n d i ə m
 strontium	s t r ɔ n t i o m
 strontium	s t r ɔ n t i ə m
 strontium	s t r ɔ n ʃ ə m
-t	t i
 t	t
+t	t i
 t	t̚
 tahun	t a h o n
 takkan	t a ʔ k a n
@@ -374,9 +372,9 @@ tenturun	t ə n t u r o n
 terbium	t ə r b i o m
 terbium	t ə r b i ə m
 timah	t i m a h
+titanium	t a i̯ t e n i ə m
 titanium	t i t a n i o m
 titanium	t i t a n i ə m
-titanium	t a i̯ t e n i ə m
 tolak	t o l a ʔ
 torium	t ɔ r i o m
 torium	t ɔ r i ə m
@@ -386,41 +384,41 @@ tulium	t u l i o m
 tulium	t u l i ə m
 tungsten	t u ŋ s t ə n
 u	j u
-u	u
 u	o
+u	u
 ujrah	u d͡ʒ ə r a h
 ujrat	u d͡ʒ ə r a t
+uranium	j u r e n i ə m
 uranium	u r a n i o m
 uranium	u r a n i ə m
-uranium	j u r e n i ə m
 urdu	u r d u
-v	v i
-v	v
 v	f
+v	v
+v	v i
 vanadium	v a n a d i o m
 vanadium	v a n a d i ə m
 vanadium	v ə n e d i ə m
 w	d a b l i u
+w	d a b l j u
 w	d a b ə l i u
 w	d a b ə l j u
-w	d a b l j u
 w	w
 wolfram	w ɔ l f r a m
 wolfram	w ɔ l f r ɛ m
-x	ɛ k̚ s
-x	z
 x	k̚ s
+x	z
+x	ɛ k̚ s
 xenon	z e n ɔ n
 xenon	z i n ɔ n
-y	w a i̯
 y	j
+y	w a i̯
 yaum	j a o m
 yunani	j u n a n i
-z	z ɛ t̚
-z	z ɛ k̚
-z	z i
-z	z
 z	s
+z	z
+z	z i
+z	z ɛ k̚
+z	z ɛ t̚
 zib	z e p
 zigot	z i ɡ ɔ t
 zink	z e ŋ k ə
@@ -430,7 +428,6 @@ zirkonium	z i r k o n i ə m
 ă	ə
 ĕ	ə
 ء	h a m z a h
-ء	ʔ
 ء	ʔ
 ا	a l e f
 ا	ä
@@ -442,9 +439,9 @@ zirkonium	z i r k o n i ə m
 اجرة	u d͡ʒ ə r a t
 اجره	u d͡ʒ ə r a h
 اخضر	a x d a r
+ارݢينتوم	a r d͡ʒ ɛ n t ə m
 ارݢينتوم	a r ɡ ɛ n t o m
 ارݢينتوم	a r ɡ ɛ n t ə m
-ارݢينتوم	a r d͡ʒ ɛ n t ə m
 الله	a l l a h
 الله	ɔ l l ɔ h
 امس	ə m a s
@@ -454,8 +451,8 @@ zirkonium	z i r k o n i ə m
 اوݢوس	ɔ ɡ o s
 ايتم	i t a m
 اڤريل	a p r e l
-ب	b ɐ
 ب	b
+ب	b ɐ
 ب	p̚
 بارت	b a r a t
 برلاو	b ə r l a u̯
@@ -468,20 +465,18 @@ zirkonium	z i r k o n i ə m
 بيسموت	b i s m ə t
 بيناتڠ	b i n a t a ŋ
 بينتوروڠ	b i n t u r o ŋ
-ت	t ɐ
 ت	t
+ت	t ɐ
 ت	t̚
 تاهون	t a h o n
 تقکن	t a ʔ k a n
 تنتورون	t ə n t u r o n
 توڠستن	t u ŋ s t ə n
 تيمه	t i m a h
-ث	s ɐ
 ث	s
+ث	s ɐ
+ج	d͡ʒ
 ج	d͡ʒ e m
-ج	d͡ʒ
-ج	d͡ʒ
-ج	t͡ʃ
 ج	t͡ʃ
 جاکل	d͡ʒ a k a l
 جم	d͡ʒ a m
@@ -490,35 +485,34 @@ zirkonium	z i r k o n i ə m
 ح	h
 حيوان	h a i̯ w a n
 حيوان	h e w a n
-خ	x ɔ
 خ	x
-د	d a l
+خ	x ɔ
 د	d
+د	d a l
 د	t̚
 دتيق	d ə t e ʔ
 ديسيمبر	d i s ɛ m b ə r
 ديڠو	d i ŋ o
 ديڠو	d i ŋ ɡ o
-ذ	z a l
-ذ	z
 ذ	s
+ذ	z
+ذ	z a l
 ذيب	z e p
+ر	r
 ر	r ɔ
-ر	r
-ر	r
 رامبوتن	r a m b o t a n
 رقسا	r a k s ə
 روبه	r u b a h
-ز	z a i̯
-ز	z
 ز	s
+ز	z
+ز	z a i̯
 زيڠک	z e ŋ k ə
 زيݢوت	z i ɡ ɔ t
-س	s e n
 س	s
+س	s e n
 س	s ə
-ساتو	s a t u
 ساتو	s a t o
+ساتو	s a t u
 ساعت	s a ʔ a t
 ستوا	s a t u ə
 ستوا	s a t w ə
@@ -527,107 +521,99 @@ zirkonium	z i r k o n i ə m
 سيل	s ɪ l
 سيڠ	s e ŋ
 سيڤتيمبر	s ɛ p t ɛ m b ə r
-ش	ʃ e n
 ش	ʃ
-ص	s ɔ t
+ش	ʃ e n
 ص	s
-ض	d ɔ t
+ص	s ɔ t
 ض	d
+ض	d ɔ t
 ض	t̚
-ط	t ɔ
 ط	t
+ط	t ɔ
 ط	t̚
-ظ	z ɔ
-ظ	z
 ظ	s
+ظ	z
+ظ	z ɔ
+ع	ʔ
 ع	ʔ a e n
-ع	ʔ
-ع	ʔ
+غ	ɣ
 غ	ɣ a e n
 غ	ɣ e n
-غ	ɣ
+ف	f
 ف	f ɐ
-ف	f
-ف	f
 ف	p
 فضة	f i d a h
-ق	q a f
-ق	q
 ق	k
 ق	k̚
+ق	q
+ق	q a f
 قرون	k u r o n
-ك	k a f
 ك	k
-ك	ɡ
+ك	k a f
 ك	k̚
-ل	l a m
+ك	ɡ
 ل	l
+ل	l a m
 لوتوڠ	l o t o ŋ
 لڠکيڠ	l a ŋ k e ŋ
-م	m e m
 م	m
+م	m e m
 مرکوري	m ə r k u r i
 مس	m a s
-مغرب	m a ɣ ə r e p
 مغرب	m a ɡ ə r e p
+مغرب	m a ɣ ə r e p
 ممبرڠ	m ə m b ə r a ŋ
 ممرڠ	m ə m ə r a ŋ
 موسڠ	m u s a ŋ
 مينيت	m i n e t
 ميڠݢو	m i ŋ ɡ u
 مچ	m a t͡ʃ
-ن	n o n
 ن	n
+ن	n o n
 نوۏيمبر	n o v ɛ m b ə r
 نيلا	n i l ə
 نيلاکندي	n i l ə k a n d i
 ه	h
 هيتم	h i t a m
 هيجاو	h i d͡ʒ a u̯
-و	w a u̯
-و	w
-و	w
+و	f
+و	o
+و	u
 و	v
 و	w
-و	f
-و	u
-و	o
-و	ɔ
-و	o
+و	w a u̯
 و	ɔ
 وولفرم	w ɔ l f r a m
 وولفرم	w ɔ l f r ɛ m
 ى	j ə
 ى	ə
-ي	j ɐ
-ي	j
+ي	e
 ي	i
-ي	e
-ي	ɛ
-ي	e
+ي	j
+ي	j ɐ
 ي	ɛ
 يوم	j a o m
-چ	t͡ʃ ɐ
 چ	t͡ʃ
+چ	t͡ʃ ɐ
 چيته	t͡ʃ i t a h
-ڠ	ŋ ɐ
 ڠ	ŋ
+ڠ	ŋ ɐ
 ڠاراي	ŋ a r a i̯
-ڤ	p ɐ
 ڤ	p
+ڤ	p ɐ
 ڤ	p̚
 ڤاءول	p a o l
 ڤاواک	p a w a k ə
+ڤلومبوم	p l a m b ə m
 ڤلومبوم	p l u m b o m
 ڤلومبوم	p l u m b ə m
-ڤلومبوم	p l a m b ə m
 ڤندا	p a n d ə
-ڤوما	p u m ə
 ڤوما	p u m ɐ
+ڤوما	p u m ə
 ڤيراو	p i r a u̯
 ڤڠوۏومن	p ə ŋ o v o m a n
-ک	k a f
 ک	k
+ک	k a f
 ک	k̚
 کلابو	k ə l a b u
 کلورين	k l ɔ r ɪ n
@@ -635,25 +621,25 @@ zirkonium	z i r k o n i ə m
 کنيون	k a ɲ o n
 کنچان	k ə n t͡ʃ a n ə
 کولون	k u l o n
-کويوتي	k o j o t e
 کويوتي	k a j o t i
+کويوتي	k o j o t e
 کويوق	k u j o ʔ
 کوݢر	k u ɡ a r
 کوݢر	k u ɡ ɐ r
 کيريق	k i r e ʔ
 کيمڤين	k e m p e n
-ڬ	ɡ ɐ
-ڬ	ɡ
 ڬ	k̚
-ڽ	ɲ ɐ
+ڬ	ɡ
+ڬ	ɡ ɐ
 ڽ	ɲ
+ڽ	ɲ ɐ
 ڽالاءن	ɲ a l ə ʔ a n
-ۏ	v ɐ
-ۏ	v
 ۏ	f
-ݢ	ɡ ɐ
-ݢ	ɡ
+ۏ	v
+ۏ	v ɐ
 ݢ	k̚
+ݢ	ɡ
+ݢ	ɡ ɐ
 ݢاجي	ɡ a d͡ʒ i
 ݢاديڠ	ɡ a d e ŋ
 ݢيئيشا	ɡ e ʔ i ʃ ɐ

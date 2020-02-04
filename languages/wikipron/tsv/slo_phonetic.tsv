@@ -2,7 +2,6 @@ aj	a j
 albánsko	a l b aː n s k o
 andy	a n d i
 august	a u ɡ u s t
-bájka	b aː j k a
 baldrián	b a l d r i aː n
 bankomat	b a n k o m a t
 bedňa	b e d ɲ a
@@ -22,15 +21,15 @@ bruneta	b r u n e t a
 brunetka	b r u n e t k a
 bršlen	b r̩ ʃ l e n
 bubon	b u b o n
-cárovná	t͡s aː r o v n aː
+bájka	b aː j k a
+celej	t͡s e l e j
+celom	t͡s e l o m
+celou	t͡s e l o u
 celá	t͡s e l aː
 celé	t͡s e l eː
 celého	t͡s e l eː ɦ o
-celej	t͡s e l e j
 celému	t͡s e l eː m u
 celí	t͡s e l iː
-celom	t͡s e l o m
-celou	t͡s e l o u
 celú	t͡s e l uː
 celých	t͡s e l iː x
 celým	t͡s e l iː m
@@ -46,6 +45,7 @@ chovanec	x o v a n e t͡s
 chrupka	x r u p k a
 chudý	x u d iː
 cop	t͡s o p
+cárovná	t͡s aː r o v n aː
 darovať	d a r o v a c
 darvinovský	d a r v i n o v s k iː
 desaťtisíci	d e s a c t i s iː t͡s i
@@ -69,8 +69,8 @@ frano	f r a n o
 ftáčnik	f t aː t͡ʃ n i k
 galaxia	ɡ a l a k s i̯ a
 galaxii	ɡ a l a k s i i
-grécko	ɡ r eː t͡s k o
 gruzínsko	ɡ r u z iː n s k o
+grécko	ɡ r eː t͡s k o
 hada	ɦ a d a
 hadoch	ɦ a d o x
 hadom	ɦ a d o m
@@ -84,26 +84,19 @@ hercoch	ɦ e r t͡s o x
 hercom	ɦ e r t͡s o m
 hercov	ɦ e r t͡s o f
 hercovi	ɦ e r t͡s o v i
-hlísta	ɦ l iː s t a
 hliva	ɦ l i v a
 hlucháň	ɦ l u x aː ɲ
-holá	ɦ o l aː
+hlísta	ɦ l iː s t a
 hole	ɦ o l e
-holé	ɦ o l eː
 holej	ɦ o l e j
 holi	ɦ o l i
 holom	ɦ o l o m
+holá	ɦ o l aː
+holé	ɦ o l eː
 holú	ɦ o l uː
 holý	ɦ o l iː
-hôrkach	ɦ u̯ o r k a x
-hôrkam	ɦ u̯ o r k a m
-hôrkami	ɦ u̯ o r k a m i
 horkí	ɦ o r k iː
-hôrkou	ɦ u̯ o r k o u
 horkú	ɦ o r k uː
-hôrku	ɦ u̯ o r k u
-hôrky	ɦ u̯ o r k i
-hôrok	ɦ u̯ o r o k
 hre	ɦ r e
 hudobný	ɦ u d o b n iː
 huriska	ɦ u r i s k a
@@ -112,25 +105,32 @@ husitstvo	ɦ u s i t s t v o
 hustú	ɦ u s t uː
 hvezdárstvo	ɦ v e z d aː r s t v o
 hymen	ɦ i m e n
-imágo	i m aː ɡ o
+hôrkach	ɦ u̯ o r k a x
+hôrkam	ɦ u̯ o r k a m
+hôrkami	ɦ u̯ o r k a m i
+hôrkou	ɦ u̯ o r k o u
+hôrku	ɦ u̯ o r k u
+hôrky	ɦ u̯ o r k i
+hôrok	ɦ u̯ o r o k
 imel	i m e l
 imela	i m e l a
 imele	i m e l e
 imelo	i m e l o
 imelu	i m e l u
-iná	i n aː
+imágo	i m aː ɡ o
 infant	i n f a n t
 inom	i n o m
+iná	i n aː
 inú	i n uː
 iných	i n iː x
 iným	i n iː m
-istá	i s t aː
-isté	i s t eː
 istej	i s t e j
-istému	i s t eː m u
-istí	i s t iː
 istom	i s t o m
 istou	i s t o u
+istá	i s t aː
+isté	i s t eː
+istému	i s t eː m u
+istí	i s t iː
 istú	i s t uː
 itália	i t aː l i̯ a
 jabloň	j a b l o ɲ
@@ -142,15 +142,15 @@ jarme	j a r m e
 jarmu	j a r m u
 jaspis	j a s p i s
 jatka	j a t k a
-jedál	j e d aː l
 jeden	j e d e n
 jedia	j e d i̯ a
 jedla	j e d l a
-jedlá	j e d l aː
 jedle	j e d l e
-jedlí	j e d l iː
 jedlom	j e d l o m
 jedlu	j e d l u
+jedlá	j e d l aː
+jedlí	j e d l iː
+jedál	j e d aː l
 jedľa	j e d ʎ a
 jem	j e m
 jeme	j e m e
@@ -160,19 +160,17 @@ ju	j u
 jurek	j u r e k
 jurka	j u r k a
 jurko	j u r k o
-káfir	k aː f i r
 kaňa	k a ɲ a
 kedže	k e d͡ʒ e
 kgb	k aː ɡ eː b eː
-kĺb	k ɫ̩ː p
 kníh	k n iː x
-kobrám	k o b r aː m
 kobre	k o b r e
 kobrou	k o b r o u
+kobrám	k o b r aː m
 kocian	k o t͡s i̯ a n
 kodaň	k o d a ɲ
-kolár	k o l aː r
 kolesár	k o l e s aː r
+kolár	k o l aː r
 kopytník	k o p i t n iː k
 korbáč	k o r b aː t͡ʃ
 korenie	k o r e n i̯ e
@@ -182,32 +180,30 @@ kováč	k o v aː t͡ʃ
 koza	k o z a
 kozub	k o z u p
 kočan	k o t͡ʃ a n
-kôň	k u̯ o ɲ
 košice	k o ʃ i t͡s e
-krá	k r aː
-krádež	k r aː d e ʃ
 krakova	k r a k o v a
-kráľ	k r aː ʎ
 kritizovať	k r i t i z o v a c
 krivec	k r i v e t͡s
-kúkoľ	k uː k o ʎ
+krá	k r aː
+krádež	k r aː d e ʃ
+kráľ	k r aː ʎ
 kuru	k u r u
+káfir	k aː f i r
+kôň	k u̯ o ɲ
+kúkoľ	k uː k o ʎ
+kĺb	k ɫ̩ː p
 leví	l e v iː
 lichva	l i x v a
-luhár	l u ɦ aː r
 luhať	l u ɦ a c
+luhár	l u ɦ aː r
 lupina	l u p i n a
 ma	m a
 macek	m a t͡s e k
 maják	m a j aː k
-málo	m aː l o
 malte	m a l t e
 maltou	m a l t o u
 maltu	m a l t u
 malty	m a l t i
-mäso	m æ s o
-máte	m aː t e
-méta	m eː t a
 meter	m e t e r
 michaela	m i x a e l a
 miestenka	m i̯ e s t e n k a
@@ -216,14 +212,18 @@ mikrosekunda	m i k r o s e k u n d a
 mokrí	m o k r iː
 mrkvička	m r̩ k v i t͡ʃ k a
 mucha	m u x a
+málo	m aː l o
+máte	m aː t e
+mäso	m æ s o
+méta	m eː t a
 múdra	m uː d r a
 múdri	m uː d r i
 múdru	m uː d r u
 mňa	m ɲ a
-náhly	n aː ɦ l i
 nahú	n a ɦ uː
-náprotivok	n aː p r o t i v o k
 nepravda	n e p r a v d a
+náhly	n aː ɦ l i
+náprotivok	n aː p r o t i v o k
 ním	n iː m
 obojživelník	o b o j ʒ i v e l n iː k
 oceľ	o t͡s e ʎ
@@ -242,16 +242,14 @@ oravec	o r a v e t͡s
 orlami	o r l a m i
 orloch	o r l o x
 orlom	o r l o m
-ôs	u̯ o s
 osám	o s aː m
 očenáš	o t͡ʃ e n aː ʃ
 pakľúč	p a k ʎ uː t͡ʃ
 palka	p a l k a
 palko	p a l k o
-pána	p aː n a
 panien	p a n i̯ e n
-pannách	p a n aː x
 panne	p a n e
+pannách	p a n aː x
 papagáj	p a p a ɡ aː j
 partnerstvo	p a r t n e r s t v o
 pasta	p a s t a
@@ -259,14 +257,14 @@ paveda	p a v e d a
 pašek	p a ʃ e k
 paška	p a ʃ k a
 paško	p a ʃ k o
-pehách	p e ɦ aː x
-pehám	p e ɦ aː m
 pehami	p e ɦ a m i
 pehou	p e ɦ o u
 pehu	p e ɦ u
 pehy	p e ɦ i
-pekná	p e k n aː
+pehách	p e ɦ aː x
+pehám	p e ɦ aː m
 pekne	p e k n e
+pekná	p e k n aː
 pekné	p e k n eː
 perga	p e r ɡ a
 piat	p i̯ a t
@@ -278,7 +276,6 @@ piati	p i̯ a t i
 piatu	p i̯ a t u
 pieh	p i̯ e x
 piest	p i̯ e s t
-píla	p iː l a
 piča	p i t͡ʃ a
 piče	p i t͡ʃ e
 platom	p l a t o m
@@ -297,15 +294,17 @@ prakoch	p r a k o x
 prakom	p r a k o m
 prakov	p r a k o f
 praky	p r a k i
-pŕhľaviar	p r̩ː ɦ ʎ a v i̯ a r
 prilba	p r i l b a
 prosím	p r o s iː m
 prúd	p r uː t
+pána	p aː n a
+píla	p iː l a
 pňami	p ɲ a m i
 pňoch	p ɲ o x
 pňom	p ɲ o m
 pňov	p ɲ o f
 pňu	p ɲ u
+pŕhľaviar	p r̩ː ɦ ʎ a v i̯ a r
 radla	r a d l a
 radlami	r a d l a m i
 radlo	r a d l o
@@ -325,12 +324,12 @@ rojko	r o j k o
 rosa	r o s a
 rosina	r o s i n a
 rozdelenie	r o z d e l e n i̯ e
-rúd	r uː t
-rudám	r u d aː m
 rudu	r u d u
+rudám	r u d aː m
 rusnak	r u s n a k
 rusnák	r u s n aː k
 ručne	r u t͡ʃ n e
+rúd	r uː t
 sad	s a t
 sade	s a d e
 sadoch	s a d o x
@@ -354,16 +353,16 @@ smrek	s m r e k
 soche	s o x e
 sove	s o v e
 srbčina	s r̩ b t͡ʃ i n a
-stárež	s t aː r e ʃ
 stotisíci	s t o t i s iː t͡s i
 straka	s t r a k a
-stranách	s t r a n aː x
-stranám	s t r a n aː m
 stranami	s t r a n a m i
 stranu	s t r a n u
 strany	s t r a n i
+stranách	s t r a n aː x
+stranám	s t r a n aː m
 strelec	s t r e l e t͡s
 strúhať	s t r uː ɦ a c
+stárež	s t aː r e ʃ
 svätá	s v æ t aː
 sväté	s v æ t eː
 svätí	s v æ t iː
@@ -402,9 +401,6 @@ ujov	u j o f
 ujovi	u j o v i
 uraninit	u r a n i n i t
 uspávanka	u s p aː v a n k a
-úžas	uː ʒ a s
-úžera	uː ʒ e r a
-úžerník	uː ʒ e r n iː k
 varna	v a r n a
 veda	v e d a
 vidiek	v i ɟ i eː k
@@ -415,18 +411,18 @@ vierami	v i̯ e r a m i
 viere	v i̯ e r e
 vieru	v i̯ e r u
 vltava	v l̩ t a v a
-vĺča	v l̩ː t͡ʃ a
-vôdzka	v ʊ̯ ɔ t s k a
 volmi	v o l m i
 voloch	v o l o x
 volom	v o l o m
 von	v o n
-vrán	v r aː n
 vrane	v r a n e
 vrany	v r a n i
+vrán	v r aː n
 vrátanie	v r aː t a n i̯ e
-vŕba	v r̩ː b a
+vôdzka	v ʊ̯ ɔ t s k a
 výhovorka	v iː ɦ o v o r k a
+vĺča	v l̩ː t͡ʃ a
+vŕba	v r̩ː b a
 xenón	k s e n oː n
 ymca	i m k a
 zaspať	z a s p a c
@@ -438,6 +434,10 @@ zlochová	z l o x o v aː
 zombie	z o m b i̯ e
 zuba	z u b a
 ångström	a ŋ k s t r e m
+ôs	u̯ o s
+úžas	uː ʒ a s
+úžera	uː ʒ e r a
+úžerník	uː ʒ e r n iː k
 čajovňa	t͡ʃ a j o v ɲ a
 čierna	t͡ʃ i̯ e r n a
 čremcha	t͡ʃ r e m x a
@@ -448,8 +448,8 @@ zuba	z u b a
 ňu	ɲ u
 šoférka	ʃ o f eː r k a
 šoférovať	ʃ o f eː r o v a c
-štít	ʃ t iː t
 štvrť	ʃ t v r̩ c
+štít	ʃ t iː t
 šťastie	ʃ c a s c i̯ e
 šťuka	ʃ c u k a
 ťa	c a
