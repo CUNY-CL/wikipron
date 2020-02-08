@@ -135,10 +135,6 @@ class Config:
             # syllable boundaries.
             if any(ch not in prosodic_markers for ch in pron):
                 return pron
-            # GH-59: Skip prons that are empty, or have only stress marks or
-            # syllable boundaries.
-            if any(ch not in prosodic_markers for ch in pron):
-                return pron
 
         return wrapper
 
