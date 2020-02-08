@@ -249,10 +249,13 @@ LANGUAGE_CODES = {
     "mecayapan nahuatl": "Mecayapan Nahuatl",
     # Tetelcingo Nahuatl. ISO 639-3 only.
     "nhg": "Tetelcingo Nahuatl",
+    "tetelcingo nahuatl": "Tetelcingo Nahuatl",
     # Bouyei. ISO 639-3 only.
     "pcc": "Bouyei",
     # Lamboya. ISO 639-3 only.
     "lmy": "Lamboya",
     # Moroccan Arabic. ISO 639-3 only.
     "ary": "Moroccan Arabic",
+    # Mandarin Chinese. ISO 639-3 only.
+    "cmn": "Chinese"
 }

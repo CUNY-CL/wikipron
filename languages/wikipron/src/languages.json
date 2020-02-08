@@ -172,11 +172,14 @@
         "wiktionary_code": "ny",
         "casefold": true
     },
-    "chi": {
-        "iso639_name": "Chinese",
+    "cmn": {
+        "iso639_name": "Mandarin Chinese",
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "hani": "Han"
+        }
     },
     "cho": {
         "iso639_name": "Choctaw",
