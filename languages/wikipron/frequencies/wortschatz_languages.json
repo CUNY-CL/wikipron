@@ -126,6 +126,13 @@
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ell-gr_web_2015_1M.tar.gz"
     },
+    "hbs_mixed_2014_1M": {
+        "path": [
+            "../tsv/hbs_cyrl",
+            "../tsv/hbs_latn"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hbs_mixed_2014_1M.tar.gz"
+    },
     "hin_news_2011_1M": {
         "path": [
             "../tsv/hin"

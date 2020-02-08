@@ -31,6 +31,7 @@
 | [TSV](tsv/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 48015 |
 | [TSV](tsv/ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 267 |
 | [TSV](tsv/nya_phonemic.tsv) | nya | Nyanja | Chichewa | True | Phonemic | 785 |
+| [TSV](tsv/cmn_hani_phonemic.tsv) | cmn | Mandarin Chinese | Chinese (Han) | False | Phonemic | 117991 |
 | [TSV](tsv/cho_phonemic.tsv) | cho | Choctaw | Choctaw | True | Phonemic | 112 |
 | [TSV](tsv/nci_phonemic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonemic | 837 |
 | [TSV](tsv/nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1183 |
@@ -91,9 +92,9 @@
 | [TSV](tsv/gle_phonetic.tsv) | gle | Irish | Irish | True | Phonetic | 1633 |
 | [TSV](tsv/ita_phonemic.tsv) | ita | Italian | Italian | True | Phonemic | 10166 |
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 5670 |
-| [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 137 |
-| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14650 |
-| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4201 |
+| [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 123 |
+| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 14390 |
+| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 3870 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 826 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 103 |
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 249 |
