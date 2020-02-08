@@ -130,14 +130,11 @@ class Config:
 
         def wrapper(pron):
             for processor in processors:
-                try:
-                    pron = processor(pron)
-                except IndexError:
-                    logging.info(
-                        'Index Error encountered while processing %s',
-                        pron
-                    )
-                    continue
+                pron = processor(pron)
+            # GH-59: Skip prons that are empty, or have only stress marks or
+            # syllable boundaries.
+            if any(ch not in prosodic_markers for ch in pron):
+                return pron
             # GH-59: Skip prons that are empty, or have only stress marks or
             # syllable boundaries.
             if any(ch not in prosodic_markers for ch in pron):
