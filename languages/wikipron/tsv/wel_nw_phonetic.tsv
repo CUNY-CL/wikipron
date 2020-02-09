@@ -1,4 +1,4 @@
-abl	a b l̩	14
+abl	a b l̩	3
 addysg	a ð ɨ̞ s k	490
 addysgu	a ð ə s k ɨ	66
 adwaenost	a d w e ɨ̯ n ɔ s t	0
@@ -9,14 +9,17 @@ amobr	a m ɔ b r̩	1
 anabl	a n a b l̩	8
 aradr	a r a d r̩	7
 asgwrn	a s k ʊ r n	75
-awdl	a u̯ d l̩	98
+awdl	a u̯ d l̩	97
 awst	a u̯ s t	746
-bedr	b ɛ d r̩	5
+basged	b a s k a d	2
+basged	b a s k ɛ d	2
+bedr	b ɛ d r̩	4
 beidr	b e i̯ d r̩	0
 belffast	b ɛ l f a s t	17
 bobl	b ɔ b l̩ˠ	1076
 braster	b r a s d ɛ r	20
 brasterog	b r a s t ɛ r ɔ ɡ	9
+brwmstan	b r ʊ m s t a n	0
 caerwysg	kʰ a ɨ̯ r uː ɨ̯ s k	4
 caerwysg	kʰ a ɨ̯ r w ɨ̯ː s k	4
 carest	kʰ a r ɛ s t	0
@@ -25,16 +28,16 @@ casglu	kʰ a s k l ɨ	85
 castanwydd	kʰ a s t a n w ɨ̞ ð	0
 castanwydden	k a s t a n w ɨ̞ ð a n	2
 castanwydden	k a s t a n w ɨ̞ ð ɛ n	2
-castell	kʰ a s t a ɬ	613
-castell	kʰ a s t ɛ ɬ	613
+castell	kʰ a s t a ɬ	584
+castell	kʰ a s t ɛ ɬ	584
 cenedl	kʰ ɛ n ɛ d l̩ˠ	62
-cest	kʰ ɛ s t	27
+cest	kʰ ɛ s t	4
 cestyll	kʰ ɛ s t ɨ̞ ɬ	16
 chastell	χ a s t a ɬ	17
 chastell	χ a s t ɛ ɬ	17
 chdi	χ t iː	0
 chestyll	χ ɛ s t ɨ̞ ɬ	1
-chwedl	χ w ɛ d l̩ˠ	281
+chwedl	χ w ɛ d l̩ˠ	280
 cledr	k lˠʰ ɛ d r̩	0
 clustdlws	k lʰ ɨ̞ s t l ʊ s	0
 croesgad	k r ɔ ɨ̯ s k a d	5
@@ -52,7 +55,7 @@ cysylltnod	kʰ ə s ə ɬ t n ɔ d	5
 cysylltu	kʰ ə s ə ɬ t ɨ	127
 dadl	d a d l̩	36
 deigr	d e i̯ ɡ r̩	1
-dest	d ɛ s t	3
+dest	d ɛ s t	0
 disgwyl	d ɪ s k ʊ ɨ̯ lˠ	61
 disgybl	d ɪ s k ɨ̞ b l̩ˠ	37
 disgybl	d ɪ s k ɪ b l̩ˠ	37
@@ -61,7 +64,7 @@ dwfn	d ɨ̞ v n̩	36
 dwfn	d ʊ v n̩	36
 dysgu	d ə s k ɨ̞	152
 dysgwr	d ə s k ʊ r	2
-edn	ɛ d n̩	6
+edn	ɛ d n̩	1
 eistedd	e i̯ s t ɛ ð	75
 eistedd	ɪ s t a	75
 eistedd	ɪ s t ɛ	75
@@ -75,8 +78,8 @@ enghraifft	ɛ ŋ̊ r ɛ f t	540
 esgaladur	ɛ s k a l a d ɨ̞ r	0
 esgid	ɛ s k ɪ d	18
 esgyrn	ɛ s k ɨ̞ r n	78
-est	ɛ s t	353
-estron	ɛ s t r ɔ n	27
+est	ɛ s t	4
+estron	ɛ s t r ɔ n	26
 estrys	ɛ s t r ɨ̞ s	3
 gaeafgysgu	ɡ e ɨ̯ a v ɡ ə s k ɨ	11
 gafr	ɡ a v r	10
@@ -119,7 +122,7 @@ llosg	ɬ ɔ s k	36
 llosgi	ɬ ɔ s k i	59
 llost	ɬ ɔ s t	0
 llwybr	ɬ ʊ ɨ̯ b r̩	321
-llyfr	ɬ ɨ̞ v r	971
+llyfr	ɬ ɨ̞ v r	968
 loegr	lˠ ɔ ɨ̯ ɡ r̩	191
 lyfr	lˠ ɨ̞ v r	228
 maestref	m e ɨ s t r ɛ v	11
@@ -129,13 +132,13 @@ mhobl	m̥ʰ ɔ b l̩ˠ	0
 mollt	m oː ɬ t	0
 nabl	n a b l̩	0
 neidr	n e i̯ d r̩	1510
-nest	n ɛ s t	503
+nest	n ɛ s t	28
 nghastell	ŋ̊ʰ a s t a ɬ	27
 nghastell	ŋ̊ʰ a s t ɛ ɬ	27
 nghestyll	ŋ̊ʰ ɛ s t ɨ̞ ɬ	0
 ngwystl	ŋ w ɨ̞ s t l̩ˠ	0
 nheigr	n̥ e i̯ ɡ r̩	0
-ocr	ɔ k r̩	32
+ocr	ɔ k r̩	5
 odl	ɔ d l̩	27
 pasg	pʰ aː s k	47
 pedr	pʰ ɛ d r̩	45
@@ -144,7 +147,7 @@ pedrsill	pʰ ɛ d r̩ s ɪ ɬ	0
 phobl	f ɔ b l̩ˠ	85
 plastig	p lʰ a s t ɪ ɡ	12
 pobl	pʰ ɔ b l̩ˠ	620
-post	pʰ oː s t	6328
+post	pʰ oː s t	128
 pysgod	pʰ ə s k ɔ d	71
 pysgodyn	p ə s k ɔ d ɨ̯ n	125
 rhestr	r̥ʰ ɛ s t r̩	214
@@ -193,7 +196,7 @@ ysbryd	ə s b r ɪ d	70
 ysbryd	ə s p r ɨ̞ d	70
 ysbrydol	ə s p r ə d ɔ l	54
 ysbrydoli	ə s p r ə d ɔ l i	37
-ysbyty	ə s p ə t ɨ	145
+ysbyty	ə s p ə t ɨ	143
 ysgaw	ə s k a u̯	2
 ysgawen	ə s k a u̯ a n	7
 ysgawen	ə s k a u̯ ɛ n	7
@@ -203,6 +206,7 @@ ysgrifen	s k r ɪ v a n	37
 ysgrifen	s k r ɪ v ɛ n	37
 ysgrifen	ə s k r ɪ v ɛ n	37
 ysgrifennu	s k r ɪ v ɛ n ɨ	326
+ysgrifennu	s k w ɛ n ɨ	326
 ysgrifennu	ə s k r ɪ v ɛ n ɨ	326
 ysgubor	ə s k ɨ̞ b ɔ r	11
 ysguthan	s k ɨ̞ θ a n	0

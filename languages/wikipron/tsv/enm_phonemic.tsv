@@ -94,6 +94,11 @@ almond	a l m ɔ n d
 almond	a l m ɔ u̯ n d
 almyghty	a l m i x t iː
 alonnesse	a l ɔː n ɛ s
+alym	a l i m
+alym	a l i u̯ m
+alym	a l iː m
+alym	a l u m
+alym	a l ə m
 amad	a m a d
 amad	a m ɛ d
 amased	a m aː z ə d
@@ -290,9 +295,6 @@ axel	ɛ k s ə l
 axen	a k s ə n
 axen	a s k ə n
 axen	a ʃ ə n
-axen	i -
-axen	ɔː -
-axen	ɛ -
 axil	a k s ə l
 axiltre	a k s ə l t r eː
 axiltre	a k s ə l t r øː
@@ -417,7 +419,6 @@ beautevous	b ɛ u̯ t eː uː s
 beautevous	b ɛ u̯ t eː v uː s
 bedfelawe	b ɛ d f ɛ l a u̯ ə
 bedfelawe	b ɛ d f ɛ l ɔ u̯ ə
-bedfelawe	b ɛ d f ɛː -
 bee	b eː
 bee	b øː
 been	b eː n
@@ -467,7 +468,7 @@ beste	b ɛ s t
 bet	b ɛ t
 beteren	b ɛ t ə r ə n
 beterynge	b ɛ t ə r i n ɡ
-bethleem	b ɛ d l eː ə m
+bethleem	b ɛ d l eː ɛ m
 bethleem	b ɛ d l ɛ m
 bettre	b ɛ t r ə
 bettre	b ɛ t ə r ə
@@ -681,7 +682,6 @@ broche	b r ɔː t ʃ ə
 brochen	b r ɔː t ʃ ə n
 broth	b r ɔ θ
 brother	b r oː ð ə r
-brotherhede	b r eː ð ə r -
 brotherhede	b r oː ð ə r h oː d
 brotherhede	b r oː ð ə r h ɔː d
 brotherhede	b r oː ð ə r h ɛː d
@@ -694,6 +694,7 @@ broun	b r uː n
 browe	b r i u̯
 browe	b r uː
 brymston	b r i m s t ɔː n
+brymston	b r i n s t ɔː n
 buccaneer	b ʌ k ə n ɪ ə ɹ
 bukke	b u k ə
 bukskyn	b u k s k i n
@@ -748,7 +749,7 @@ camper	k a m p ə r
 campyng	k a m p i n ɡ
 candel	k a n d ə l
 cane	k aː n ə
-canel	k a n ə l ə
+canel	k a n ɛ l ə
 canel	k a n ɛː l ə
 canevas	k a n ə v a s
 canevas	k a n ə v aː s
@@ -778,7 +779,6 @@ captif	k a p t i v ə
 captif	k a p t iː f
 captif	k a p t iː v ə
 captivite	k a p t i v i t eː
-caraway	- w ɛ i̯
 caraway	k a r w iː
 caraway	k a r ə w iː
 carlele	k a r l eː l
@@ -855,6 +855,18 @@ chaundeler	t ʃ a n d ə l eː r
 chaundeler	t ʃ a n d ə l ə r
 chaundeler	t ʃ a u̯ n d ə l eː r
 chaundeler	t ʃ a u̯ n d ə l ə r
+chauntement	t ʃ a n t ə m ɛ n t
+chauntement	t ʃ a u̯ n t ə m ɛ n t
+chaunten	t ʃ a n t ə n
+chaunten	t ʃ a u̯ n t ə n
+chaunteresse	t ʃ a n t ə r ɛ s ə
+chaunterie	t ʃ a n t ə r iː ə
+chaunterie	t ʃ a u̯ n t ə r iː ə
+chauntour	t ʃ a n t u r
+chauntour	t ʃ a n t uː r
+chauntour	t ʃ a n t ə r
+chauntynge	t ʃ a n t i n ɡ
+chauntynge	t ʃ a u̯ n t i n ɡ
 chayer	t ʃ aː r ə
 chayer	t ʃ aː ə r ə
 chayer	t ʃ ɛ i̯ r ə
@@ -1061,13 +1073,23 @@ collegiate	k ɔ l ɛ d ʒ i aː t ə
 collegiate	k ɔ l ɛː d ʒ i aː t ə
 collusioun	k ɔ l i u̯ z j u n
 collusioun	k ɔ l i u̯ z j uː n
-colour	k u l uː r
 colt	k ɔ l t
 colt	k ɔː l t
 columpne	k ɔ l i u̯ m
 columpne	k ɔ l i u̯ m n ə
 columpne	k ɔ l u m
 columpne	k ɔ l u m n ə
+comaundable	k u m a n d aː b ə l
+comaundable	k u m a u̯ n d aː b ə l
+comaunde	k u m a n d ə
+comaunde	k u m a u̯ n d ə
+comaundement	k u m a n d i m ɛ n t
+comaundement	k u m a u̯ n d i m ɛ n t
+comaunden	k u m a n d ə n
+comaunden	k u m a u̯ n d ə n
+comaundour	k u m a u̯ n d u r
+comaundour	k u m a u̯ n d uː r
+comaundour	k u m a u̯ n d ə r
 comb	k a m b
 comb	k aː m b
 comb	k ɔ m b
@@ -1281,11 +1303,8 @@ cunnen	k u n ə n
 cunte	k u n t ə
 curlew	k u r l i u̯
 curre	k u r ə
-cusshon	k i u̯ -
-cusshon	k u i̯ -
 cusshon	k u ʃ i n
 cusshon	k u ʃ ə n
-cusshon	k w i -
 cyve	s iː v ə
 cyve	t ʃ ɛː v ə
 cyvee	s i v eː
@@ -1375,13 +1394,11 @@ derknesse	d ɛ r k n ɛ s
 derth	d a r θ ə
 derth	d i r θ ə
 derth	d ɛ r θ ə
-desirous	d i -
 desirous	d ɛ z iː r u s
 desirous	d ɛ z iː r uː s
-desirous	d ɛː -
 dette	d ɛ t ə
 dettour	d ɛ t u r
-detty	d ɛ t iːː
+detty	d ɛ t iː
 devel	d eː l
 devel	d eː v ə l
 devel	d ɛ v ə l
@@ -1408,7 +1425,6 @@ dialog	d iː a l ɔ ɡ ə
 dialog	d iː a l ɔː ɡ ə
 difference	d i f ɛ r ɛ n s ə
 different	d i f ɛ r ɛ n t
-differently	- l iː t ʃ ə
 differently	d i f ɛ r ɛ n t l iː
 differren	d i f ɛ r ə n
 differryng	d i f ɛ r i n ɡ
@@ -1427,10 +1443,8 @@ dirige	d iː r i d ʒ ə
 disch	d i ʃ
 disparage	d i s p a r a d ʒ ə
 disparage	d i s p a r aː d ʒ ə
-disparage	d ɛ s -
 disparagen	d i s p a r a d ʒ ə
 disparagen	d i s p a r aː d ʒ ə
-disparagen	d ɛ s -
 disposicioun	d i s p ɔː s j u n
 disposicioun	d i s p ɔː z i s j u n
 disposicioun	d i s p ɔː z i s j uː n
@@ -1484,7 +1498,6 @@ douve	d uː f ə
 douve	d uː v ə
 douve	d uː ə
 douȝt	d u x t
-douȝtily	- l iː t ʃ ə
 douȝtily	d u x t i l iː
 douȝtily	d u x t iː l iː
 douȝtines	d u x t i n ɛ s
@@ -1503,7 +1516,11 @@ dower	d uː ə r ə
 dower	d uː ɛː r ə
 dragoun	d r a ɡ uː n
 dragoun	d r a ɡ ɔ n
-dreme	d r ɛː m
+drem	d r ɛː m
+dremen	d r eː m ə n
+dremen	d r ɛː m ə n
+dremer	d r ɛː m ə r ə
+dremyng	d r eː m i n ɡ
 drenchen	d r i n t ʃ ə n
 drenchen	d r ɛ n t ʃ ə n
 drerily	d r eː r i l iː
@@ -1602,18 +1619,18 @@ elven	a l v ə n
 elven	ɛ l v ə n
 elvyssh	a l v i ʃ
 elvyssh	ɛ l v i ʃ
+emeraude	ɛ m ə r a n t
+emeraude	ɛ m ə r a u̯ d ə
+emeraude	ɛ m ə r a u̯ n t
+emeroides	ɛ m ə r u i̯ d i s
+emeroides	ɛ m ə r ɔ u̯ d i s
 emperice	ɛ m p ə r i s
 emperice	ɛ m p ə r ɛ s
-emperie	a m -
-emperie	a u̯ m -
-emperie	i m -
 emperie	ɛ m p ə r iː ə
 emperie	ɛ m p ɛ r iː ə
-emperour	a u̯ m -
 emperour	ɛ m p ə r u r
 emperour	ɛ m p ə r uː r
 emperour	ɛ m p ə r ə r
-empire	a m -
 empire	ɛ m p iː r ə
 empire	ɛ m p ɛː r ə
 emty	a m p t iː
@@ -1624,6 +1641,16 @@ encens	ə n s ɛ n s
 encens	ɛ n s ɛ n s
 encensen	ə n s ɛ n s ə n
 encensen	ɛ n s ɛ n s ə n
+enchauntement	ɛ n t ʃ a n t ə m ɛ n t
+enchauntement	ɛ n t ʃ a u̯ n t ə m ɛ n t
+enchaunten	ɛ n t ʃ a n t ə n
+enchaunten	ɛ n t ʃ a u̯ n t ə n
+enchaunteresse	ɛ n t ʃ a n t ə r ɛ s ə
+enchauntour	ɛ n t ʃ a n t u r
+enchauntour	ɛ n t ʃ a n t uː r
+enchauntour	ɛ n t ʃ a n t ə r
+enchauntynge	ɛ n t ʃ a n t i n ɡ
+enchauntynge	ɛ n t ʃ a u̯ n t i n ɡ
 encompassen	ɛ n k u m p a s ə n
 ende	ɛ n d ə
 ende	ɛ n ə d
@@ -1646,6 +1673,7 @@ enden	ɛː n d ə n
 ender	ɛ n d ə r ə
 ender	ɛː n d ə r ə
 endowable	ɛ n d uː aː b ə l
+endowement	ɛ n d uː ə m ɛ n t
 endowen	ɛ n d uː ə n
 endower	ɛ n d uː ə r ə
 endower	ɛ n d uː ɛː r ə
@@ -1667,9 +1695,8 @@ enhaunsyng	ɛ n h a u̯ n s i n ɡ
 enquest	i n k w ɛ s t ə
 enquest	ɛ n k w ɛ s t ə
 enserche	ə n s ɛ r t ʃ ə
-enserchen	ə n s ɛ r t ʃ ə n
-enserchen	ə n s ɛː r t ʃ ə n
 enserchen	ɛ n s ɛ r t ʃ ə n
+enserchen	ɛ n s ɛː r t ʃ ə n
 ensercher	ə n s ɛ r t ʃ uː r
 ensercher	ə n s ɛː r t ʃ ə r
 enserching	ə n s ɛ r t ʃ i n ɡ
@@ -1760,6 +1787,7 @@ extre	a k s t r eː
 extre	a k s t r øː
 extre	ɛ k s t r eː
 extre	ɛ k s t r øː
+ey	ɛ i
 eye	e j ə
 eye	ɛ i̯ ə
 eyed	iː i d
@@ -1803,6 +1831,8 @@ fantom	f a n t ɔ m
 fantom	f a n t ɔː m
 fantom	f a n t ə m
 fantom	f a n t ɛː m
+fass	f a s
+fass	f aː s
 fauconer	f a u̯ k u n ɛː r
 fauconer	f a u̯ k uː n ɛː r
 fauconer	f a u̯ k ə n ə r
@@ -1831,26 +1861,18 @@ felawe	f ɛ l a
 felawe	f ɛ l a u̯ ə
 felawe	f ɛ l ɔ u̯ ə
 felawe	f ɛ l ə
-felawe	f ɛː -
 felawely	f ɛ l a u̯ l iː
 felawely	f ɛ l ɔ u̯ l iː
-felawely	f ɛː -
 felawen	f ɛ l a u̯ ə n
 felawen	f ɛ l ɔ u̯ ə n
-felawen	f ɛː -
 felaweshipe	f ɛ l a u̯ ʃ i p ə
 felaweshipe	f ɛ l ɔ u̯ ʃ i p ə
 felaweshipe	f ɛ l ə ʃ i p ə
-felaweshipe	f ɛː -
-felawrede	- r ɛ d ə
-felawrede	- r ɛ d ə n
 felawrede	f ɛ l a u̯ r ɛː d ə
 felawrede	f ɛ l ɔ u̯ r ɛː d ə
-felawrede	f ɛː -
 felawshipen	f ɛ l a u̯ ʃ i p ə n
 felawshipen	f ɛ l ɔ u̯ ʃ i p ə n
 felawshipen	f ɛ l ə ʃ i p ə n
-felawshipen	f ɛː -
 feldefare	f eː l d ə f aː r ə
 felefold	f ɛː l ə f ɔː l d
 felt	f ɛ l t
@@ -2099,6 +2121,8 @@ frendschip	f r eː n d ʃ i p ə
 frendschip	f r eː n t ʃ i p ə
 frendschip	f r eː n ʃ i p ə
 frendschip	f r ɛ n d ʃ i p ə
+frenge	f r ɛ n d ʒ ə
+frenged	f r ɛ n d ʒ i d
 frere	f r eː r ə
 frere	f r iː r ə
 fresen	f r eː z ə n
@@ -2527,6 +2551,7 @@ halyday	h a l i d ɛ i̯
 halyday	h aː l iː d ɛ i̯
 halyday	h ɔ l i d ɛ i̯
 halyday	h ɔː l iː d ɛ i̯
+ham	h ɑː m
 hamelen	h a m e l e n
 hamelen	h a m ə l ə n
 hamer	h a m ə r
@@ -2624,7 +2649,6 @@ her	h ɛː r
 herber	ɛ r b eː r
 herber	ɛ r b ə r
 herber	ɛ r b ɛː r
-herber	ɛː r b -
 here	h ɛː r ə
 heres	h ɛ r i s
 heres	h ɛː r i s
@@ -2672,23 +2696,16 @@ hethenli	h ɛː ð ə n l iː t ʃ ə
 hethens	h ɛː ð ə n z
 hevy	h ɛ v iː
 hevy	h ɛː v iː
-hevyliche	- v i l -
-hevyliche	h ɛ v -
 hevyliche	h ɛː v iː l iː
 hevyliche	h ɛː v iː l iː t ʃ ʃ ə
-hevynesse	h ɛ v -
 hevynesse	h ɛː v i n ɛ s
 hevynesse	h ɛː v iː n ɛ s
-hevysum	h ɛ v -
 hevysum	h ɛː v i s u m
 hevysum	h ɛː v iː s u m
-hevyte	h ɛ v -
 hevyte	h ɛː v i t eː
 hevyte	h ɛː v iː t eː
 hewe	h i u̯
 hewe	h i u̯ ə
-hien	h iː ə n
-hien	h ɛ i̯ ə n
 hight	h i x t
 hirdel	h i r d ə l
 hirdel	h u r d ə l
@@ -2699,7 +2716,6 @@ his	h i s
 his	i z
 historial	i s t ɔ r i a l
 historial	i s t ɔ r i aː l
-historial	ɛ s -
 historie	i s t ɔ i̯ r ə
 historie	i s t ɔ r iː ə
 historie	ɛ s t ɔ r iː ə
@@ -2719,12 +2735,11 @@ hog	h ɔ ɡ
 hog	h ɔː ɡ
 hoggeshed	h ɔ ɡ i s h ɛː d
 holt	h ɔ l t
+hom	h ɔː m
 homage	u m aː d ʒ ə
 homage	ɔ m aː d ʒ ə
 homager	ɔ m aː d ʒ eː r ə
 homager	ɔ m aː d ʒ ə r ə
-home	h ɑː m
-home	h ɔː m
 homly	h ɔː m l iː
 homward	h ɔː m w a r d
 homward	h ɔː m w aː r d
@@ -2862,6 +2877,8 @@ huru	h uː r u
 husbonde	h u s b a n d
 husbonde	h uː s b ɔ n d
 husbonde	h uː s b ɔː n d
+hyen	h iː ə n
+hyen	h ɛ i̯ ə n
 hæthendom	h ɛː ð ə n d oː m
 hæthendom	h ɛː ð ə n d ɔ m
 i	i
@@ -2876,7 +2893,6 @@ ilome	ə l oː m ə
 ilome	ə l oː m ə n
 imperial	i m p ɛ r i aː l
 imperial	i m p ɛː r i a l
-imperial	ɛ m -
 imposicioun	i m p ɔ z i s j u n
 imposicioun	i m p ɔ z i s j uː n
 impregnacioun	i m p r ɛ ɡ n aː s j uː n
@@ -2889,8 +2905,6 @@ inc	j i n k
 inc	j u n k
 inc	u n k
 inde	iː n d ə
-inderly	- l iː k ə
-inderly	- l iː t ʃ ə
 inderly	i n d r ə l iː
 inderly	i n d ə r ə l iː
 inderly	i n ə r ə l iː
@@ -2951,6 +2965,9 @@ jhesu	d ʒ eː z u
 jhesu	d ʒ eː z uː
 jhesus	d ʒ eː z u s
 jhesus	d ʒ eː z uː s
+john	d ʒ ɔː h a n
+john	d ʒ ɔː h a n ɛ s
+john	d ʒ ɔː n
 jorneman	d ʒ u r n ɛ i̯ m a n
 jorneyen	d ʒ u r n ɛ i̯ ə n
 journe	d ʒ u r n eː
@@ -3018,8 +3035,9 @@ kilne	k i l n ə
 kilne	k i l ə
 kilne	k u l n ə
 kinestol	k i n ə s t oː l
-kingdom	k i n ɡ d oː m
-kingdom	k i n ɡ d ɔ m
+king	k i n ɡ
+kingdom	k i ŋ ɡ d oː m
+kingdom	k i ŋ ɡ d ɔ m
 kirnelly	k i r n ə l iː
 kirnelly	k ɛ r n ə l iː
 kiteling	k i t ə l i n ɡ
@@ -3348,10 +3366,8 @@ manerly	m a n ɛː r l iː
 manerly	m a n ɛː r l iː t ʃ ə
 manful	m a n f u l
 manfully	m a n f u l l iː
-manrede	- r ɛ d -
 manrede	m a n r ɛː d ə
 manrede	m a n r ɛː d ə n
-manrede	m ɔ n -
 mansioun	m a n s j u n
 mansioun	m a n s j uː n
 marchal	m a r t ʃ a l
@@ -3493,7 +3509,8 @@ misgang	m i s ɡ a n ɡ
 mister	m i s t ə r
 mister	m i s t ɛː r
 mithen	m iː ð ə n
-miȝen	m iː j ə n
+miȝen	m iː ə n
+miȝen	m iː ɣ ə n
 mode	m oː d
 mode	m oː d ə
 mode	m ɔː d ə
@@ -3972,12 +3989,10 @@ patronage	p a t r oː n a d ʒ ə
 patronage	p a t r oː n aː d ʒ ə
 patronage	p a t r uː n a d ʒ ə
 patronage	p a t r uː n aː d ʒ ə
-patronesse	p a t -
 patronesse	p aː t r oː n ɛ s ə
 patronesse	p aː t r u n ɛ s ə
 patronesse	p aː t r uː n ɛ s ə
 patronesse	p aː t r ɔ n ɛ s ə
-patroun	p a t -
 patroun	p aː t r oː n ə
 patroun	p aː t r u n ə
 patroun	p aː t r uː n ə
@@ -4008,16 +4023,15 @@ peril	p a r ə l
 peril	p ɛ r i l
 peril	p ɛ r iː l
 peril	p ɛ r ə l
-perilous	p a r ə l uː s
+perilous	p a r i l uː s
 perilous	p ɛ r i l uː s
-perilous	p ɛ r ə l uː s
 perilously	p a r ə l uː s iː
 perilously	p ɛ r i l uː s l iː
 perilously	p ɛ r i l uː s l iː t ʃ ə
 perilously	p ɛ r ə l uː s iː
-perle	p ə r l ə
+perle	p ɛ r l ə
 perle	p ɛː r l ə
-perled	p ə r l i d
+perled	p ɛ r l i d
 perled	p ɛː r l i d
 perled	p ɛː r l ɛ d
 perre	p ɛ r eː
@@ -4048,7 +4062,6 @@ pikyng	p iː k i n ɡ
 pilwe	p i l i u̯
 pilwe	p i l w ə
 pilwe	p i l ɔ u̯
-pilwe	p ɛ l -
 pipe	p iː p ə
 pipen	p iː p ə n
 piper	p iː p ə r ə
@@ -4321,11 +4334,11 @@ rebellyng	r ɛ b ɛ l i n ɡ
 rebellyng	r ɛː b ɛ l i n ɡ
 rebelnes	r ɛ b ɛ l n ɛ s
 rebelte	r ɛ b ɛ l t eː
-recoveraunce	- a u̯ n s ə
+recomaunden	r ɛ k u m a n d ə n
+recomaunden	r ɛ k u m a u̯ n d ə n
 recoveraunce	r ɛ k u v ə r a n s ə
 recoveraunce	r ɛ k ɔ v ə r a n s ə
 recoveraunce	r ɛ k ɛ v ə r a n s ə
-recovere	- ə r ə
 recovere	r ɛ k u v ə r
 recovere	r ɛ k ɔ v ə r
 recovere	r ɛ k ɛ v ə r
@@ -4358,6 +4371,7 @@ reif	r ɛː f
 reif	r ɛː v
 reiser	r ɛ i̯ z ə r
 reisyng	r ɛ i̯ z i n ɡ
+relenten	r ɛ l ɛ n t ə n
 rem	r ɛː m
 reme	r ɛː m
 reme	r ɛː m ə
@@ -4610,6 +4624,8 @@ savely	s a u̯ f l iː
 savely	s a u̯ f l iː t ʃ ə
 savely	s aː f ə l iː
 savely	s aː v ə l iː
+savement	s a u̯ v i m ɛ n t
+savement	s aː v i m ɛ n t
 savenes	s a u̯ f n ɛ s
 savenes	s aː v ə n ɛ s
 sax	s a k s
@@ -4812,11 +4828,9 @@ shirevewyk	ʃ ə r eː v ə w iː k ə
 shirreve	ʃ i r eː v ə
 shirreve	ʃ i r i f ə
 shirreve	ʃ iː r eː v ə
-shirreve	ʃ ə r eː v ə
-shirreve	ʃ ə r i f ə
+shirreve	ʃ ɛ r eː v ə
 shirreve	ʃ ɛ r i f ə
 shirreve	ʃ ɛ r i v ə
-shirreve	ʃ ɛ r ə f ə
 shirrevehod	ʃ ə r eː v ə h ɔː d
 shirrevehod	ʃ ə r eː v ə h ɛː d
 shirten	ʃ i r t ə n
@@ -4877,7 +4891,6 @@ skyren	s k iː r ə n
 skyrte	s k i r t ə
 slay	s l ɛ i̯ ə
 slegge	s l ɛ d ʒ
-sleighly	- l iː t ʃ ə
 sleighly	s l i x l iː
 sleighly	s l iː l iː
 sleighly	s l ɛ i̯ l iː
@@ -4885,7 +4898,6 @@ sleighly	s l ɛ i̯ x l iː
 sleight	s l i x t
 sleight	s l ɛ i̯ x t
 sleight	s l ɛ i̯ ð
-sleightly	- l iː t ʃ ə
 sleightly	s l i x t l iː
 sleightly	s l ɛ i̯ x t l iː
 sleighty	s l i x t iː
@@ -5137,6 +5149,11 @@ stafflike	s t a f l iː
 stafflike	s t a f l iː k ə
 staffull	s t a f f u l
 stafslynge	s t a f s l i n ɡ
+stak	s t a k
+stake	s t aː k ə
+staken	s t aː k ə n
+stakken	s t a k ə n
+stakyng	s t aː k i n ɡ
 standen	s t a n d ə n
 steire	s t ɛ i̯ ə r
 stele	s t eː l ə
@@ -5352,6 +5369,10 @@ sweten	s w ɛː t ə n
 swetnesse	s w eː t n ɛ s
 sweven	s w ɛ v ə n
 sweven	s w ɛː v ə n
+swevenen	s w ɛ v ə n ə n
+swevenen	s w ɛː v ə n ə n
+swevenyng	s w ɛ v ə n i n ɡ
+swevenyng	s w ɛː v ə n i n ɡ
 swine	s w iː n
 swiven	s w iː v ə n
 swon	s w ɔː n
@@ -5434,9 +5455,9 @@ terebentyne	t u r p i n t iː n ə
 terebentyne	t ɛ r ə b i n t iː n ə
 teren	t ɛː r n
 teren	t ɛː r ə n
-termagaunt	t ə r m a ɡ a u̯ n t
-termagaunt	t ə r v a ɡ a n t
-termagaunt	t ə r v a ɡ a u̯ n t
+termagaunt	t ɛ r m a ɡ a u̯ n t
+termagaunt	t ɛ r v a ɡ a n t
+termagaunt	t ɛ r v a ɡ a u̯ n t
 ters	t ɛ r s
 tery	t ɛː r iː
 tethen	t eː θ ə n
@@ -5445,10 +5466,10 @@ thamarynde	t a m a r i n d ə
 thamarynde	t a m ə r i n d ə
 tharm	θ a r m
 tharm	θ ɛ r m
+that	ð a t
+that	θ a t
 theater	t ɛː a t ə r
 theater	t ɛː aː t ə r
-theater	θ ɛː a t ə r
-theater	θ ɛː aː t ə r
 thede	θ eː d
 thede	θ øː d
 thedisch	θ eː d i ʃ
@@ -5480,9 +5501,6 @@ thikly	θ i k l iː
 thinken	θ i n k ə n
 thinne	θ i n ə
 thistel	θ i s t ə l
-thombe	θ u m b ə
-thombe	θ uː m b ə
-thombe	θ uː m ə
 thonder	θ u n d ə r
 thonder	θ u n ə r
 thorn	θ r ɔ n
@@ -5541,8 +5559,6 @@ tode	t ɑː d ə
 tode	t ɔː d ə
 tofore	t oː f ɔː r ə
 tofore	t oː f ɔː r ə n
-tofore	t ɔ -
-tofore	t ə -
 toilen	t u i̯ l ə n
 toilen	t ɔ i̯ l ə n
 toiling	t u i̯ l i n ɡ
@@ -5688,11 +5704,8 @@ tyme	t iː m
 tyme	t iː m ə
 tymeful	t iː m f u l
 tymely	t iː m l iː
-tyraundise	- a n d -
-tyraundise	- a u̯ n t -
 tyraundise	t i r a u̯ n d i s ə
 tyraundise	t i r a u̯ n d iː s ə
-tyraunt	- a n
 tyraunt	t i r a n t
 tyraunt	t i r a u̯ n t
 tyraunt	t iː r a n t
@@ -5857,7 +5870,6 @@ violence	v iː ə l ɛ n s ə
 violent	v i ə l ɛ n t
 violent	v iː ɔ l ɛ n t
 violent	v iː ə l ɛ n t
-violently	- l iː t ʃ ə
 violently	v i ə l ɛ n t l iː
 violently	v iː ɔ l ɛ n t l iː
 violently	v iː ə l ɛ n t l iː
@@ -5881,7 +5893,6 @@ voysen	v u i̯ s ə n
 vynegre	v i n ɛ ɡ r ə
 vynegre	v i n ɛ ɡ ə r
 vynegre	v i n ɛː ɡ ə r
-vynegre	v ə n ɛ ɡ ə r
 wacche	w a t ʃ ə
 waden	w a d ə n
 waden	w aː d ə n
@@ -5902,8 +5913,8 @@ walkirie	w a l k i r iː ə
 walmore	w a l m ɔː r ə
 walnot	w a l n oː t ə
 walnot	w a l n u t ə
-walsch	w a l ə ʃ
-walsch	w ɛ l ə ʃ
+walsch	w a l i ʃ
+walsch	w ɛ l i ʃ
 walwort	w a l w u r t
 warderobe	w a r d ə r ɔː b ə
 warderobe	w a r d ə r ɔː p ə
@@ -6023,6 +6034,8 @@ whale	ʍ a l
 whale	ʍ aː l
 whanne	ʍ a n ə
 whanne	ʍ ɛ n ə
+wharf	ʍ a r f
+wharfage	ʍ a r f aː d ʒ ə
 whele	ʍ eː l
 whele	ʍ ɛː l
 whele	ʍ ɛː l ə
@@ -6262,6 +6275,9 @@ zele	z ɛː l ə
 þin	t iː n
 þin	ð iː n
 þin	θ iː n
+þombe	θ u m b ə
+þombe	θ uː m b ə
+þombe	θ uː m ə
 þou	t uː
 þou	ð uː
 þou	θ uː

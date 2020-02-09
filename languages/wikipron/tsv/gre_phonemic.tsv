@@ -5,12 +5,12 @@
 άγγελου	a ŋ ɟ e l u	53
 άγγιξα	a ŋ ɟ i k s a	6
 άγγισα	a ŋ ɟ i s a	1
-άγια	a ʝ i a	110
+άγια	a ʝ i a	108
 άγιασα	a ʝ a s a	0
 άγιε	a ʝ i e	28
 άγιεσ	a ʝ i e s	0
 άγιο	a ʝ i o	1043
-άγιοι	a ʝ i i	244
+άγιοι	a ʝ i i	243
 άγιοσ	a ʝ i o s	0
 άγκιστρο	a ŋ ɟ i s t r o	4
 άγνωροσ	a ɣ n o ɾ o s	0
@@ -38,6 +38,7 @@
 άκουσα	a k u s a	392
 άκουσεσ	a k u s e s	0
 άκων	a k o n	0
+άλγεβρα	a l ʝ e v ɾ a	16
 άλγοσ	a l ɣ o s	0
 άλειψα	a l i p s a	3
 άλιμοσ	a l i m o s	0
@@ -53,6 +54,7 @@
 άνδρο	a n ð ɾ o	77
 άνδροσ	a n ð ɾ o s	0
 άνδρου	a n ð ɾ u	68
+άνδρωσα	a n ð ɾ o s a	0
 άνθιμοσ	a n θ i m o s	0
 άνθρωποσ	a n θ ɾ o p o s	0
 άνοιξη	a n i k s i	691
@@ -61,6 +63,7 @@
 άντεσ	a d e s	0
 άντεστε	a d e s t e	0
 άπειρων	a p i r o n	7
+άπτομαι	a p t o m e	0
 άρα	a ɾ a	1805
 άραγε	a ɾ a ʝ e	614
 άραξα	a r a k s a	0
@@ -71,8 +74,9 @@
 άρκανσασ	a ɾ k a n z a s	0
 άρκτε	a ɾ k t e	0
 άρκτοσ	a ɾ k t o s	0
+άρμα	a ɾ m a	109
 άρον	a r o n	60
-άρτα	a ɾ t a	121
+άρτα	a ɾ t a	120
 άρτοσ	a r t o s	0
 άρχομαι	a r x o m e	0
 άρχοντασ	a ɾ x ɔ n d a s	0
@@ -92,9 +96,14 @@
 άσπρισα	a s p ɾ i z o	0
 άστραψα	a s t ɾ a p s a	0
 άχου	a x u	1
+έβαλα	e v a l a	285
+έβαλε	e v a l e	900
+έβαλεσ	e v a l e s	0
+έβαλλα	e v a l a	0
 έβαψα	e v a p s a	13
 έβδομοσ	e v ð o m o s	0
 έβενοσ	e v e n o s	0
+έβιασα	e v ʝ a s a	0
 έβλαψα	e v l a p s a	2
 έγγαμοσ	e ŋ ɣ a m o s	0
 έγγραφο	e ŋ ɣ r a f o	504
@@ -102,7 +111,7 @@
 έγκυοσ	ɛ ŋ ɟ i ɔ s	0
 έγλειψα	e ɣ l i p s a	1
 έγνοια	e ɣ ɲ a	63
-έγχυσα	e ŋ ç i s a	0
+έγχυσα	e ŋ ç i s a	0
 έδεσσα	e ð e s a	41
 έδιωξα	e ð ʝ o k s a	7
 έδρα	e ð ɾ a	1279
@@ -117,13 +126,15 @@
 έκλεισα	e k l i s a	51
 έκλειψη	e k l i p s i	89
 έκλεψα	e k l e p s a	9
+έκλινα	e k l i n a	1
 έκπληξη	ɛ k p l i k s i	776
 έκρηξη	ɛ k ɾ i k s i	422
+έκρινα	e k ɾ i n a	14
 έκρουσα	e k r u s a	0
 έκταση	e k t a s i	720
 έκτοποσ	e k t o p o s	0
 έκτοσ	e k t o s	0
-έκχυσα	e k ç i s a	0
+έκχυσα	e k ç i s a	0
 έλαμψα	e l a m p s a	0
 έλειψα	e l i p s a	6
 έλεοσ	e l e o s	0
@@ -173,6 +184,9 @@
 έξη	e k s i	64
 έξι	e k s i	1751
 έξοδοσ	ɛ k s ɔ ð ɔ s	0
+έπαιξα	e p e k s a	59
+έπαυσα	e p a f s a	2
+έπαψα	e p a p s a	12
 έπεισα	e p i s a	12
 έπεμψα	e p e m p s a	1
 έπλεξα	e p l e k s a	2
@@ -180,7 +194,7 @@
 έπνευσα	e p n e f s a	0
 έπρεπε	e p ɾ e p e	3726
 έραψα	e ɾ a p s a	8
-έργο	ɛ ɾ ɣ o	4909
+έργο	ɛ ɾ ɣ o	4907
 έριδα	e r i ð a	11
 έριδεσ	e r i ð e s	0
 έρπω	e r p o	0
@@ -199,28 +213,33 @@
 έρχομαι	e ɾ x o m e	111
 έσεισα	e s i s a	1
 έσκισα	e s c i s a	3
+έσπειρα	e s p i ɾ a	4
 έσταξα	e s t a k s a	0
 έστεψα	e s t e p s a	0
 έστρεψα	e s t ɾ e p s a	4
 έσυρα	e s i r a	2
 έσφυζα	e s f i z a	0
-έσχισα	e s ç i s a	0
+έσχισα	e s ç i s a	0
+έτεινα	e t i n a	2
 έτερψα	e t e ɾ p s a	0
+έτοιμοσ	e t i m o s	0
 έτοσ	ɛ t o s	0
 έτρεμα	e t r e m a	7
 έτρεψα	e t ɾ e p s a	0
 έτριψα	e t r i p s a	4
+έφερα	e f e ɾ a	49
 έφηβη	ɛ f i v i	43
 έφθασα	e f θ a s a	10
 έφραξα	e f r a k s a	0
 έφτασα	e f t a s a	100
-έφτιαξα	e f t ç a k s a	120
+έφτιαξα	e f t ç a k s a	120
 έφτυσα	e f t i s a	1
+έχασα	e x a s a	159
 έχαψα	e x a p s a	1
-έχε	e ç e	64
-έχει	e ç i	53452
-έχεισ	e ç i s	1
-έχετε	e ç e t e	4544
+έχε	e ç e	64
+έχει	e ç i	53452
+έχεισ	e ç i s	1
+έχετε	e ç e t e	4544
 έχομε	e x o m e	65
 έχοντασ	e x o n d a s	0
 έχουμε	e x u m e	10813
@@ -232,6 +251,7 @@
 έωσ	e o s	0
 ήβη	i v i	19
 ήβησ	i v i s	0
+ήγειρα	i ʝ i ɾ a	0
 ήδη	i ð i	7424
 ήλιοσ	i l i o s	0
 ήλιοσ	i ʎ o s	0
@@ -243,8 +263,8 @@
 ήντα	i n d a	3
 ήπειροσ	i p i r o s	0
 ήπειροσ	i p i ɾ o s	0
+ήπια	i p ç a	219
 ήπια	i p i a	219
-ήπια	i p ç a	219
 ήρα	i r a	58
 ήσαν	i s a n	398
 ήσανε	i s a n e	4
@@ -256,14 +276,15 @@
 ήταν	i t a n	41767
 ήτανε	i t a n e	475
 ήττα	i t a	1060
-ήχε	i ç e	0
+ήχε	i ç e	0
 ίδρυμα	i ð r i m a	525
 ίδρυσα	i ð r i s a	6
 ίε	i e	0
 ίντα	i n d a	16
 ίντσα	i n t͡s a	5
-α	a	2649
-α	ə	2649
+ίπταμαι	i p t a m e	1
+α	a	2482
+α	ə	2482
 αέρισα	a e ɾ i s a	0
 αήθησ	a i θ i s	0
 αίαντασ	e a n d a s	0
@@ -271,7 +292,7 @@
 αίγινα	e ʝ i n a	138
 αίγιο	e ʝ i o	63
 αίθουσα	ɛ θ u s a	1110
-αίμα	ɛː m a	1478
+αίμα	ɛː m a	1477
 αίρομαι	e r o m e	0
 αίρω	e r o	2
 αίσθημα	ɛ s θ i m a	652
@@ -331,6 +352,13 @@
 αβεβαίωσ	a v e v e o s	0
 αβλαβέστεροσ	a v l a v e s t e r o s	0
 αβλαβήσ	a v l a v i s	0
+αβουλία	a v u l i a	5
+αβουλίεσ	a v u l i e s	0
+αβουλησία	a v u l i s i a	0
+αβουλησίασ	a v u l i s i a s	0
+αβουλησίεσ	a v u l i s i e s	0
+αβουλησιών	a v u l i s i o n	0
+αβουλιών	a v u l i o n	0
 αβούλιαχτοσ	a v u ʎ a x t o s	0
 αγάμητοσ	a ɣ a m i t o s	0
 αγάνταρα	a ɣ a n d a r a	0
@@ -338,13 +366,17 @@
 αγέλη	a ʝ ɛ l i	54
 αγένεια	a ʝ e n i a	18
 αγένειοσ	a ʝ e n i o s	0
-αγία	a ʝ i a	884
+αγία	a ʝ i a	882
 αγίασ	a ʝ i a s	0
 αγίασα	a ʝ i a s a	0
-αγίου	a ʝ i u	2145
+αγίου	a ʝ i u	2142
 αγίουσ	a ʝ i u s	0
 αγίων	a ʝ i o n	497
 αγαθοεργία	a ɣ a θ ɔ ɛ ɾ ʝ i a	7
+αγαθοπιστία	a ɣ a θ o p i s t i a	0
+αγαθοπιστίασ	a ɣ a θ o p i s t i a s	0
+αγαθοπιστίεσ	a ɣ a θ o p i s t i e s	0
+αγαθοπιστιών	a ɣ a θ o p i s t i o n	0
 αγανακτισμένα	a ɣ a n a k t i z m e n a	2
 αγανακτισμένε	a ɣ a n a k t i z m e n e	0
 αγανακτισμένεσ	a ɣ a n a k t i z m e n e s	0
@@ -374,7 +406,7 @@
 αγαπημένου	a ɣ a p i m e n u	106
 αγαπημένουσ	a ɣ a p i m e n u s	0
 αγαπημένων	a ɣ a p i m e n o n	81
-αγαπιέμαι	a ɣ a p ç e m e	2
+αγαπιέμαι	a ɣ a p ç e m e	2
 αγαπώ	a ɣ a p o	342
 αγγάρεψα	a ŋ ɡ a ɾ e p s a	1
 αγγέλου	a ŋ ɟ e l u	91
@@ -478,10 +510,14 @@
 αγκυλιών	a ŋ ɟ i ʎ o n	0
 αγκυλώνω	a ŋ ɟ i l o n o	0
 αγκωνάρι	a ŋ ɡ o n a r i	3
+αγκωνιάζομαι	a ŋ ɡ o ɲ a z o m e	0
+αγκωνιάζω	a ŋ ɡ o ɲ a z o	0
+αγκωνιάστηκα	a ŋ ɡ o ɲ a s t i k a	0
 αγκύλι	a ŋ ɟ i l i	0
 αγκύλια	a ŋ ɟ i l i a	0
 αγκύλια	a ŋ ɟ i ʎ a	0
 αγκύλιο	a ŋ ɟ i l i o	0
+αγκώνιασα	a ŋ ɡ o ɲ a s a	0
 αγλάισμα	a ɣ l a i z m a	2
 αγλαϊσμένοσ	a ɣ l a i z m e n o s	0
 αγλαόσ	a ɣ l a o s	0
@@ -495,7 +531,7 @@
 αγνώμονασ	a ɣ n o m o n a s	0
 αγνώμων	a ɣ n o m o n	2
 αγονία	a ɣ o n i a	2
-αγορά	a ɣ o r a	3747
+αγορά	a ɣ o r a	3746
 αγοράζομαι	a ɣ o ɾ a z o m e	0
 αγοράζω	a ɣ o ɾ a z o	45
 αγοράσ	a ɣ o r a s	0
@@ -508,6 +544,8 @@
 αγριεύομαι	a ɣ ɾ i e v o m e	0
 αγριεύτηκα	a ɣ ɾ i e f t i k a	0
 αγριεύω	a ɣ ɾ i e v o	1
+αγριοκοιτάζομαι	a ɣ ɾ i o c i t a z o m e	0
+αγριοκοιτάζω	a ɣ ɾ i o c i t a z o	0
 αγρόκτημα	a ɣ ɾ o k t i m a	41
 αγυιά	a ʝ i a	2
 αγυιοπαίδων	a ʝ i o p e ð o n	0
@@ -520,6 +558,7 @@
 αγυιόπαιδου	a ʝ i o p e ð u	0
 αγυιόπαιδων	a ʝ i o p e ð o n	0
 αγυιόπαισ	a ʝ i o p e s	0
+αγχώνομαι	a ŋ x o n o m e	13
 αγχώνω	a ŋ x o n o	0
 αγωνία	a ɣ o n i a	752
 αγωνίζομαι	a ɣ o n i z o m e	42
@@ -591,7 +630,7 @@
 αηδιαστικοί	a i ð ʝ a s t i c i	2
 αηδιαστικόσ	a i ð ʝ a s t i k o s	0
 αηδώσ	a i ð o s	0
-αθήνα	a θ i n a	4347
+αθήνα	a θ i n a	4345
 αθίγγανοσ	a θ i ŋ ɡ a n o s	0
 αθανασάκειοσ	a θ a n a s a c i o s	0
 αθεϊσμέ	a θ e i z m e	0
@@ -606,6 +645,10 @@
 αθροίζομαι	a θ ɾ i z o m e	0
 αθροίζω	a θ ɾ i z o	0
 αθροίστηκα	a θ ɾ i s t i k a	0
+αθωώθηκα	a θ o o θ i k a	2
+αθωώνομαι	a θ o o n o m e	0
+αθωώνω	a θ o o n o	0
+αθώωσα	a θ o o s a	0
 αιγίνησ	e ʝ i n i s	0
 αιγόκεροσ	e ɣ o c e ɾ o s	0
 αιγόκερωσ	e ɣ o c e ɾ o s	0
@@ -628,18 +671,22 @@
 αιματοκυλίζω	e m a t o c i l i z o	0
 αιματοκυλίστηκα	e m a t o c i l i s t i k a	0
 αιματοκύλισα	e m a t o c i l i s a	0
+αιματώθηκα	e m a t o θ i k a	0
+αιματώνομαι	e m a t o n o m e	0
+αιματώνω	e m a t o n o	0
 αιμομιξία	e m o m i k s i a	8
 αισθάνομαι	e s θ a n o m e	268
 αισχροκέρδεια	e s x r o c e r ð i a	20
 αισχροκερδήσ	e s x r o c e r ð i s	0
 αισχροκερδώ	e s x r o c e r ð o	0
 αισχρόσ	e s x r o s	0
-αισχύνη	ɛ s ç i n i	4
+αισχύνη	ɛ s ç i n i	4
 αιτία	ɛ t i a	1109
 αιτιοκρατία	e t i o k r a t i a	0
 αιτιοκρατίασ	e t i o k r a t i a s	0
 αιτιοκρατίεσ	e t i o k r a t i e s	0
 αιτιοκρατιών	e t i o k r a t i o n	0
+αιφνιδιάζω	e f n i ð i a z o	0
 αιχμαλωτίζομαι	e x m a l o t i z o m e	0
 αιχμαλωτίζω	e x m a l o t i z o	0
 αιχμαλωτίστηκα	e x m a l o t i s t i k a	0
@@ -651,8 +698,8 @@
 ακατάδεχτοσ	a k a t a ð e x t o s	0
 ακατάσβεστοσ	a k a t a z v e s t o s	0
 ακαταδεξία	a k a t a ð e k s i a	0
-ακαταδεξιά	a k a t a ð e k s ç a	1
-ακεφιά	a c e f ç a	0
+ακαταδεξιά	a k a t a ð e k s ç a	1
+ακεφιά	a c e f ç a	0
 ακοέσ	a k o e s	0
 ακοή	a k o i	59
 ακοήσ	a k o i s	0
@@ -710,12 +757,22 @@
 ακροχορδόνα	a k ɾ o x o ɾ ð o n a	0
 ακροχορδών	a k ɾ o x o ɾ ð o n	0
 ακροχορδώνα	a k ɾ o x o ɾ ð o n a	0
+ακρωτηριάζομαι	a k ɾ o t i ɾ i a z o m e	0
+ακρωτηριάζω	a k ɾ o t i ɾ i a z o	0
 ακταιωρέ	a k t e o r e	0
 ακταιωρό	a k t e o r o	2
 ακτινογραφία	a k t i n o ɣ ɾ a f i a	40
 ακτινοσκόπηση	a k t i n o s k o p i s i	0
+ακυρώθηκα	a c i ɾ o θ i k a	0
+ακυρώνομαι	a c i ɾ o n o m e	0
+ακυρώνω	a c i ɾ o n o	2
+ακυρώσεισ	a c i ɾ o s i s	0
+ακυρώσεων	a c i ɾ o s e o n	5
+ακυρώσεωσ	a c i ɾ o s e o s	0
 ακόλλητοσ	a k o l i t o s	0
 ακόνισα	a k o n i s a	0
+ακύρωσα	a c i ɾ o s a	3
+ακύρωσησ	a c i ɾ o s i s	0
 ακώλυτοσ	a k o l i t o s	0
 αλάβαστροσ	a a l v a s t r o s	0
 αλάκεροσ	a l a c e r o s	0
@@ -725,7 +782,7 @@
 αλάσκα	a l a s k a	31
 αλάτισα	a l a t i s a	0
 αλέθομαι	a l e θ o m e	0
-αλήθεια	a l i θ ç a	3628
+αλήθεια	a l i θ ç a	3628
 αλήθεψα	a l i θ e p s a	0
 αλήστευτοσ	a l i s t e f t o s	0
 αλήτεψα	a l i t e p s a	0
@@ -759,17 +816,17 @@
 αλατισμένου	a l a t i z m e n u	2
 αλατισμένουσ	a l a t i z m e n u s	0
 αλατισμένων	a l a t i z m e n o n	1
-αλαφιασμένα	a l a f ç a z m e n a	1
-αλαφιασμένε	a l a f ç a z m e n e	0
-αλαφιασμένεσ	a l a f ç a z m e n e s	0
-αλαφιασμένη	a l a f ç a z m e n i	1
-αλαφιασμένησ	a l a f ç a z m e n i s	0
-αλαφιασμένο	a l a f ç a z m e n o	1
-αλαφιασμένοι	a l a f ç a z m e n i	3
-αλαφιασμένοσ	a l a f ç a z m e n o s	0
-αλαφιασμένου	a l a f ç a z m e n u	0
-αλαφιασμένουσ	a l a f ç a z m e n u s	0
-αλαφιασμένων	a l a f ç a z m e n o n	0
+αλαφιασμένα	a l a f ç a z m e n a	1
+αλαφιασμένε	a l a f ç a z m e n e	0
+αλαφιασμένεσ	a l a f ç a z m e n e s	0
+αλαφιασμένη	a l a f ç a z m e n i	1
+αλαφιασμένησ	a l a f ç a z m e n i s	0
+αλαφιασμένο	a l a f ç a z m e n o	1
+αλαφιασμένοι	a l a f ç a z m e n i	3
+αλαφιασμένοσ	a l a f ç a z m e n o s	0
+αλαφιασμένου	a l a f ç a z m e n u	0
+αλαφιασμένουσ	a l a f ç a z m e n u s	0
+αλαφιασμένων	a l a f ç a z m e n o n	0
 αλγέρι	a l ʝ e r i	10
 αλγεινόσ	a l ʝ i n o s	0
 αλείβομαι	a l i v o m e	0
@@ -817,7 +874,7 @@
 αλκοολούχοσ	a l k o o l u x o s	0
 αλλάχ	a l a x	67
 αλλαγή	a l a ʝ i	2244
-αλλαξιέρα	a l a k s ç e ɾ a	6
+αλλαξιέρα	a l a k s ç e ɾ a	6
 αλλαξοπίστησα	a l a k s o p i s t i s a	0
 αλλαξοπίστισα	a l a k s o p i s t i s a	0
 αλληλεπίδραση	a l l i l e p i ð ɾ a s i	99
@@ -835,9 +892,22 @@
 αλληλοσυγκρούομαι	a l i l o s i ŋ ɡ r u o m e	0
 αλληλοσυγκρούστηκα	a l i l o s i ŋ ɡ r u s t i k a	0
 αλληλούια	a l l i l u i a	1
+αλλοίωσα	a l i o s a	0
+αλλοίωσησ	a l i o s i s	0
+αλλοιώθηκα	a l i o θ i k a	0
+αλλοιώνομαι	a l i o n o m e	0
+αλλοιώνω	a l i o n o	0
+αλλοιώσεισ	a l i o s i s	0
+αλλοιώσεων	a l i o s e o n	13
+αλλοιώσεωσ	a l i o s e o s	0
 αλλού	a l u	1010
+αλλόφυλοσ	a l o f i l o s	0
+αλμυρόσ	a l m i r o s	0
 αλογόμυγα	a l o ɣ o m i ɣ a	3
 αλυσίδα	a l i s i ð a	334
+αλυσοδέθηκα	a l i s o ð e θ i k a	0
+αλυσοδένομαι	a l i s o ð e n o m e	0
+αλυσοδένω	a l i s o ð e n o	0
 αλυσοδεμένα	a l i s o ð e m e n a	3
 αλυσοδεμένε	a l i s o ð e m e n e	0
 αλυσοδεμένεσ	a l i s o ð e m e n e s	0
@@ -885,11 +955,16 @@
 αμπαλάρομαι	a m b a l a ɾ o m e	0
 αμπαλάρω	a m b a l a ɾ o	1
 αμπαλαρίστηκα	a m b a l a ɾ i s t i k a	0
+αμπαρώνομαι	a b a ɾ o n o m e	0
+αμπαρώνομαι	a m b a ɾ o n o m e	0
+αμπαρώνω	a b a ɾ o n o	1
+αμπαρώνω	a m b a ɾ o n o	1
 αμπελοχώραφα	a m b e l o x o ɾ a f a	2
 αμπλαούμπλασ	a b l a u b l a s	0
 αμυγδαλή	a m i ɣ ð a l i	12
 αμυδρόσ	a m i ð ɾ o s	0
 αμφίλογοσ	a ɱ f i l o ɣ o s	0
+αμφιβάλλω	a ɱ f i v a l o	63
 αμφιβολία	a m f i v o l i a	428
 αμφιδέξιοσ	a m f i ð e k s i o s	0
 αμφιθέατρο	a m f i θ e a t ɾ o	138
@@ -913,21 +988,28 @@
 ανάδειξα	a n a ð i k s a	0
 ανάδοχοσ	a n a ð o x o s	0
 ανάθεμα	a n a θ e m a	47
+ανάκρινα	a n a k ɾ i n a	0
 ανάκρουση	a n a k ɾ u s i	19
 ανάλυση	a n a l i s i	1056
 ανάλωσα	a n a l o s a	1
 ανάμενα	a n a m e n a	1
 ανάμενεσ	a n a m e n e s	0
+ανάπαυσα	a n a p a f s a	0
+ανάπαψα	a n a p a p s a	0
 ανάπλι	a n a p l i	6
 ανάπνευσα	a n a p n e f s a	0
 ανάποδα	a n a p o ð a	161
 ανάποδοσ	a n a p o ð o s	0
 ανάργυροσ	a n a ɾ ʝ i ɾ o s	0
+ανάταση	a n a t a s i	41
+ανάτεινα	a n a t i n a	0
+ανάφερα	a n a f e ɾ a	7
 ανέγραψα	a n e ɣ r a p s a	0
 ανέδειξα	a n e ð i k s a	2
 ανέκαμψα	a n e k a m p s a	0
 ανέκοψα	a n e k o p s a	1
 ανέκραξα	a n e k r a k s a	0
+ανέκρινα	a n e k ɾ i n a	0
 ανέκρουσα	a n e k r u s a	0
 ανέκυψα	a n e c i p s a	0
 ανέλκυσα	a n e l c i s a	0
@@ -937,15 +1019,24 @@
 ανέξοδοσ	a n e k s o ð o s	0
 ανέπαλα	a n e p a l a	0
 ανέπαλλα	a n e p a l a	0
+ανέπαυσα	a n e p a f s a	0
 ανέπαφοσ	a n e p a f o s	0
 ανέπλευσα	a n e p l e f s a	0
 ανέπνευσα	a n e p n e f s a	1
 ανέρχομαι	a n e r x o m e	0
 ανέσκαψα	a n e s k a p s a	0
 ανέστρεψα	a n e s t ɾ e p s a	0
+ανέτεινα	a n e t i n a	0
 ανέτρεψα	a n e t ɾ e p s a	1
+ανέφερα	a n e f e ɾ a	157
+ανέχθηκα	a n e x θ i k a	0
+ανέχομαι	a n e x o m e	17
+ανέχτηκα	a n e x t i k a	3
 ανήλθα	a n i l θ a	0
 ανίδρυσα	a n i ð r i s a	0
+αναβάλλομαι	a n a v a l o m e	0
+αναβάλλω	a n a v a l o	2
+αναβάλω	a n a v a l o	2
 αναβαθμίδα	a n a v a θ m i ð a	0
 αναβαθμολογήθηκα	a n a v a θ m o l o ʝ i θ i k a	0
 αναβαθμολογήσεισ	a n a v a θ m o l o ʝ i s i s	0
@@ -963,6 +1054,10 @@
 αναβαλλόμενου	a n a v a l o m e n u	2
 αναβαλλόμενουσ	a n a v a l o m e n u s	0
 αναβαλλόμενων	a n a v a l o m e n o n	2
+αναβιβάζομαι	a n a v i v a z o m e	0
+αναβιβάζω	a n a v i v a z o	0
+αναβιβάσθηκα	a n a v i v a s θ i k a	0
+αναβιβάστηκα	a n a v i v a s t i k a	0
 αναβοσβήνω	a n a v o z v i n o	0
 αναβράζω	a n a v r a z o	0
 αναβόσβησα	a n a v o z v i s a	0
@@ -1005,12 +1100,16 @@
 αναγράφομε	a n a ɣ r a f o m e	0
 αναγράφουμε	a n a ɣ r a f u m e	1
 αναγράφω	a n a ɣ r a f o	2
+αναδέχθηκα	a n a ð e x θ i k a	0
+αναδέχομαι	a n a ð e x o m e	0
+αναδέχτηκα	a n a ð e x t i k a	0
 αναδείξεισ	a n a ð i k s i s	0
 αναδείχνομαι	a n a ð i x n o m e	0
 αναδείχνω	a n a ð i x n o	0
 αναδείχτηκα	a n a ð i x t i k a	0
 αναδεικνύομαι	a n a ð i k n i o m e	0
 αναδεικνύω	a n a ð i k n i o	1
+αναδεύω	a n a ð e v o	2
 αναδημιουργημένα	a n a ð i m i u r ʝ i m e n a	0
 αναδημιουργημένε	a n a ð i m i u r ʝ i m e n e	0
 αναδημιουργημένεσ	a n a ð i m i u r ʝ i m e n e s	0
@@ -1024,6 +1123,9 @@
 αναδημιουργημένων	a n a ð i m i u r ʝ i m e n o n	0
 αναδιάρθρωση	a n a ð i a ɾ θ ɾ o s i	282
 αναδιάρθρωση	a n a ð ʝ a ɾ θ ɾ o s i	282
+αναδιοργανώθηκα	a n a ð i o ɾ ɣ a n o θ i k a	0
+αναδιοργανώνομαι	a n a ð i o ɾ ɣ a n o n o m e	0
+αναδιοργανώνω	a n a ð i o ɾ ɣ a n o n o	0
 αναδύομαι	a n a ð i o m e	0
 αναζωογονώ	a n a z o o ɣ o n o	0
 αναζωογόνηση	a n a z o o ɣ o n i s i	51
@@ -1061,15 +1163,23 @@
 ανακαλύφθηκα	a n a k a l i f θ i k a	0
 ανακαλύφτηκα	a n a k a l i f t i k a	0
 ανακαλύψεισ	a n a k a l i p s i s	0
+ανακαλώ	a n a k a l o	3
 ανακατεύομαι	a n a k a t e v o m e	2
 ανακατεύτηκα	a n a k a t e f t i k a	3
 ανακατεύω	a n a k a t e v o	29
 ανακατώθηκα	a n a k a t o θ i k a	0
 ανακατώνομαι	a n a k a t o n o m e	0
 ανακατώνω	a n a k a t o n o	1
+ανακινώ	a n a c i n o	1
 ανακλαδίζομαι	a n a k l a ð i z o m e	0
+ανακοινώνομαι	a n a c i n o n o m e	0
 ανακοινώνω	a n a c i n o n o	8
 ανακράζω	a n a k r a z o	0
+ανακρίθηκα	a n a k ɾ i θ i k a	0
+ανακρίνομαι	a n a k ɾ i n o m e	0
+ανακρίνομε	a n a k ɾ i n o m e	0
+ανακρίνουμε	a n a k ɾ i n u m e	0
+ανακρίνω	a n a k ɾ i n o	0
 ανακρούομαι	a n a k r u o m e	0
 ανακρούομε	a n a k r u o m e	0
 ανακρούουμε	a n a k r u u m e	0
@@ -1083,6 +1193,8 @@
 ανακόπτω	a n a k o p t o	0
 ανακύπτω	a n a c i p t o	0
 ανακύψεισ	a n a c i p s i s	0
+αναλίσκομαι	a n a l i s k o m e	0
+αναλίσκομε	a n a l i s k o m e	0
 αναλίσκω	a n a l i s k o	0
 αναλογία	a n a l o ʝ i a	265
 αναλογίζομαι	a n a l o ʝ i z o m e	7
@@ -1120,6 +1232,7 @@
 αναμμένου	a n a m e n u	1
 αναμμένουσ	a n a m e n u s	0
 αναμμένων	a n a m e n o n	0
+αναμορφώσεισ	a n a m o ɾ f o s i s	0
 αναμπαίζω	a n a m b e z o	0
 ανανά	a n a n a	43
 ανανάδεσ	a n a n a ð e s	0
@@ -1134,13 +1247,22 @@
 αναπαρασταίνω	a n a p a r a s t e n o	0
 αναπαριστάνω	a n a p a r i s t a n o	0
 αναπαριστώ	a n a p a r i s t o	0
+αναπαύθηκα	a n a p a f θ i k a	0
+αναπαύομαι	a n a p a v o m e	1
+αναπαύσεισ	a n a p a f s i s	0
+αναπαύτηκα	a n a p a f t i k a	0
+αναπαύω	a n a p a v o	0
 αναπλέω	a n a p l e o	0
 αναπλειστηριάζω	a n a p l i s t i r i a z o	0
 αναπλειστηριασμόσ	a n a p l i s t i r i a z m o s	0
+αναπληρώνομαι	a n a p l i ɾ o n o m e	0
+αναπληρώσεισ	a n a p l i ɾ o s i s	0
 αναπνέω	a n a p n e o	14
 αναπνοή	a n a p n o i	222
 αναποδίζω	a n a p o ð i z o	0
 αναποδιάζω	a n a p o ð ʝ a z o	0
+αναπτερώνομαι	a n a p t e ɾ o n o m e	0
+αναπτερώνω	a n a p t e ɾ o n o	0
 αναπόδεικτοσ	a n a p o ð i k t o s	0
 αναπόσβεστοσ	a n a p o z v e s t o s	0
 αναπότρεπτοσ	a n a p o t ɾ e p t o s	0
@@ -1174,11 +1296,21 @@
 ανασκαφείσ	a n a s k a f i s	0
 ανασκαφτείσ	a n a s k a f t i s	0
 αναστάλθηκα	a n a s t a l θ i k a	0
+αναστάτωσα	a n a s t a t o n o	2
 αναστέλλομαι	a n a s t e l o m e	0
 αναστέλλω	a n a s t e l o	0
 αναστέναξα	a n a s t e n a k s a	3
+αναστήλωσα	a n a s t i l o s a	0
+αναστατώθηκα	a n a s t a t o θ i k a	0
+αναστατώνομαι	a n a s t a t o n o m e	2
+αναστατώνω	a n a s t a t o n o	1
+αναστατώσεισ	a n a s t a t o s i s	0
 αναστενάζω	a n a s t e n a z o	2
 αναστεναγμόσ	a n a s t e n a ɣ m o s	0
+αναστηλώθηκα	a n a s t i l o θ i k a	0
+αναστηλώνομαι	a n a s t i l o n o m e	0
+αναστηλώνω	a n a s t i l o n o	0
+αναστηλώσεισ	a n a s t i l o s i s	0
 αναστράφηκα	a n a s t ɾ a f i k a	0
 αναστρέφομαι	a n a s t ɾ e f o m e	0
 αναστρέφομε	a n a s t ɾ e f o m e	0
@@ -1186,10 +1318,19 @@
 αναστρέφω	a n a s t ɾ e f o	1
 αναστρέψιμοσ	a n a s t ɾ e p s i m o s	0
 αναστροφή	a n a s t ɾ o f i	43
+αναστυλώθηκα	a n a s t i l o θ i k a	0
+αναστυλώνομαι	a n a s t i l o n o m e	0
+αναστυλώνω	a n a s t i l o n o	0
+αναστύλωσα	a n a s t i l o s a	0
 ανασυγκροτώ	a n a s i ŋ ɡ ɾ o t o	0
 ανασυνιστώ	a n a s i n i s t o	0
+ανατάθηκα	a n a t a θ i k a	0
 ανατίναξα	a n a t i n a k s a	0
 αναταράζω	a n a t a r a z o	0
+ανατείνομαι	a n a t i n o m e	0
+ανατείνομε	a n a t i n o m e	0
+ανατείνουμε	a n a t i n u m e	0
+ανατείνω	a n a t i n o	0
 ανατινάζομαι	a n a t i n a z o m e	0
 ανατινάζω	a n a t i n a z o	0
 ανατινάχθηκα	a n a t i n a x θ i k a	0
@@ -1203,13 +1344,32 @@
 ανατρέπω	a n a t ɾ e p o	1
 ανατραπήκαν	a n a t ɾ a p i k a n	0
 ανατραπήκανε	a n a t ɾ a p i k a n e	0
+αναφέρθηκα	a n a f e ɾ θ i k a	35
+αναφέρομαι	a n a f e ɾ o m e	228
+αναφέρομε	a n a f e ɾ o m e	5
+αναφέρουμε	a n a f e ɾ u m e	338
+αναφέρω	a n a f e ɾ o	396
 αναφαίρετοσ	a n a f e r e t o s	0
-αναφιώτικα	a n a f ç o t i k a	3
+αναφιώτικα	a n a f ç o t i k a	3
 αναφορά	a n a f o ɾ a	1328
+αναφτερώνομαι	a n a f t e ɾ o n o m e	0
+αναφτερώνω	a n a f t e ɾ o n o	0
+αναφυτεύθηκα	a n a f i t e f θ i k a	0
+αναφυτεύομαι	a n a f i t e v o m e	0
+αναφυτεύτηκα	a n a f i t e f t i k a	0
+αναφυτεύω	a n a f i t e v o	0
 αναφύομαι	a n a f i o m e	0
+αναφύτευσα	a n a f i t e f s a	0
 αναψοκοκκινίζω	a n a p s o k o c i n i z o	0
 ανγκουίλα	a ŋ ɡ u i l a	0
+ανδρείωσα	a n ð ɾ i o s a	0
+ανδρειώνομαι	a n ð ɾ i o n o m e	0
+ανδρειώνω	a n ð ɾ i o n o	0
+ανδρώνομαι	a n ð ɾ o n o m e	0
+ανδρώνω	a n ð ɾ o n o	0
+ανεβάζομαι	a n e v a z o m e	0
 ανεβάζω	a n e v a z o	23
+ανεβάστηκα	a n e v a s t i k a	0
 ανεβαίνω	a n e v e n o	23
 ανεβοκατεβαίνω	a n e v o k a t e v e n o	1
 ανεγγύητοσ	a n e ŋ ɟ i i t o s	0
@@ -1227,6 +1387,7 @@
 ανελκύστηκα	a n e l c i s t i k a	0
 ανελκύω	a n e l c i o	0
 ανενταφίαστοσ	a n e n d a f i a s t o s	0
+ανεξολόθρευτοσ	a n e k s o l o θ ɾ e f t o s	0
 ανεπάρκεια	a n e p a ɾ c i a	206
 ανεπίγραφοσ	a n e p i ɣ r a f o s	0
 ανεπαίσθητα	a n e p e s θ i t a	17
@@ -1241,8 +1402,15 @@
 ανετράπη	a n e t ɾ a p i	17
 ανετράπην	a n e t ɾ a p i n	0
 ανετράπησαν	a n e t ɾ a p i s a n	0
+ανευρέθηκα	a n e v ɾ e θ i k a	0
+ανευρίσκομαι	a n e v ɾ i s k o m e	0
+ανευρίσκομε	a n e v ɾ i s k o m e	0
+ανευρίσκουμε	a n e v ɾ i s k u m e	0
+ανευρίσκω	a n e v ɾ i s k o	0
+ανευφημία	a n e f i m i a	0
 ανεφοδιάζω	a n e f o ð i a z o	0
-ανησυχία	a n i s i ç i a	485
+ανησυχία	a n i s i ç i a	485
+ανηύρα	a n i v ɾ a	0
 ανθέλληνασ	a n θ e l i n a s	0
 ανθελληνίδα	a n θ e l i n i ð a	0
 ανθεστήρια	a n θ e s t i ɾ i a	2
@@ -1255,16 +1423,28 @@
 ανθρωπόκαινοσ	a n θ ɾ o p o c e n o s	0
 ανθρώπεψα	a n θ ɾ o p e p s a	0
 ανθρώπεψε	a n θ ɾ o p e p s e	0
+ανθόκηποσ	a n θ o c i p o s	0
 ανιδρύθηκα	a n i ð r i θ i k a	0
 ανιδρύομαι	a n i ð r i o m e	0
 ανιδρύομε	a n i ð r i o m e	0
 ανιδρύουμε	a n i ð r i u m e	0
 ανιδρύω	a n i ð r i o	0
+ανιψούλεσ	a n i p s u l e s	0
+ανιψούλη	a n i p s u l i	0
+ανιψούληδεσ	a n i p s u l i ð e s	0
+ανιψούληδων	a n i p s u l i ð o n	0
+ανιψούλησ	a n i p s u l i s	0
 ανοίγω	a n i ɣ o	84
 ανοησία	a n o i s i a	74
-ανοιξιάτικα	a n i k s ç a t i k a	23
-ανοιξιάτικοσ	a n i k s ç a t i k o s	0
+ανοιξιάτικα	a n i k s ç a t i k a	23
+ανοιξιάτικοσ	a n i k s ç a t i k o s	0
 ανορθόδοξοσ	a n o ɾ θ o ð o k s o s	0
+ανορθώθηκα	a n o ɾ θ o θ i k a	0
+ανορθώνομαι	a n o ɾ θ o n o m e	1
+ανορθώνω	a n o ɾ θ o n o	0
+ανορθώσεισ	a n o ɾ θ o s i s	0
+αντάμωσα	a n d a m o s a	6
+αντάμωση	a n d a m o s i	19
 αντέγραψα	a n d e ɣ r a p s a	7
 αντέκρουσα	a n d e k r u s a	0
 αντέστε	a d e s t e	0
@@ -1279,11 +1459,18 @@
 αντίο	a d i o	71
 αντίπαροσ	a n d i p a ɾ o s	0
 ανταγωνίζομαι	a n d a ɣ o n i z o m e	1
+ανταλλάζομαι	a n d a l a z o m e	0
+ανταλλάζω	a n d a l a z o	0
 ανταμείβομαι	a n d a m i v o m e	0
 ανταμείβω	a n d a m i v o	1
 ανταμοιβή	a n d a m i v i	97
+ανταμώθηκα	a n d a m o θ i k a	0
+ανταμώνομαι	a n d a m o n o m e	0
+ανταμώνω	a n d a m o n o	2
+ανταμώσεισ	a n d a m o s i s	0
+ανταποκρίνομαι	a n d a p o k ɾ i n o m e	7
 αντεπιτέθηκα	a n d e p i t e θ i k a	0
-αντευχήθηκα	a n d e f ç i θ i k a	0
+αντευχήθηκα	a n d e f ç i θ i k a	0
 αντεύχομαι	a n d e f x o m e	4
 αντιβουίζω	a n d i v u i z o	0
 αντιγράφεισ	a n d i ɣ r a f i s	0
@@ -1294,7 +1481,7 @@
 αντιγραφείσ	a n d i ɣ r a f i s	0
 αντιδάνειο	a n d i ð a n i o	3
 αντικλεπτικά	a n d i k l e p t i k a	1
-αντικλεπτικέ	a n d i k l e p t i ç e	0
+αντικλεπτικέ	a n d i k l e p t i ç e	0
 αντικλεπτικέσ	a n d i k l e p t i c e s	0
 αντικλεπτική	a n d i k l e p t i c i	3
 αντικλεπτικήσ	a n d i k l e p t i c i s	0
@@ -1314,13 +1501,21 @@
 αντιμετωπίζω	a n d i m e t o p i z o	44
 αντιμετωπίστηκα	a n d i m e t o p i s t i k a	1
 αντιμετώπισα	a n d i m e t o p i s a	29
+αντιπαραβάλλομαι	a n d i p a ɾ a v a l o m e	0
+αντιπαραβάλλω	a n d i p a ɾ a v a l o	1
+αντιπαραβάλω	a n d i p a ɾ a v a l o	0
 αντιπαραμεθαύριο	a n d i p a r a m e θ a v ɾ i o	0
+αντιπροσωπεύω	a n d i p ɾ o s o p e v o	2
+αντιστέκομαι	a n d i s t e k o m e	7
 αντιστράφηκα	a n d i s t ɾ a f i k a	0
 αντιστρέφομαι	a n d i s t ɾ e f o m e	0
 αντιστρέφομε	a n d i s t ɾ e f o m e	0
 αντιστρέφουμε	a n d i s t ɾ e f u m e	1
 αντιστρέφω	a n d i s t ɾ e f o	0
+αντιφάσκω	a n d i f a s k o	2
+αντρειώνομαι	a n d ɾ i o n o m e	0
 ανωριμότητα	a n o ɾ i m o t i t a	16
+ανόρθωσα	a n o ɾ θ o s a	0
 ανώριμοσ	a n o ɾ i m o s	0
 αξέχαστοσ	a k s e x a s t o s	0
 αξίζει	a k s i z i	2032
@@ -1348,11 +1543,14 @@
 απ	a p	4381
 απάλειψα	a p a l i p s a	0
 απάντηση	a p a n d i s i	2742
+απέβαλα	a p e v a l a	1
+απέβαλλα	a p e v a l a	0
 απέβλεψα	a p e v l e p s a	0
 απέδειξα	a p e ð i k s a	6
 απέδειξε	a p e ð i k s e	251
 απέκλεισα	a p e k l i s a	2
 απέκοψα	a p e k o p s a	1
+απέκρινα	a p e k ɾ i n a	0
 απέκρουσα	a p e k r u s a	0
 απέκρυψα	a p e k ɾ i p s a	0
 απέλυσα	a p e l i s a	2
@@ -1366,6 +1564,7 @@
 απέχθεια	a p e x θ i a	63
 απήλθα	a p i l θ a	0
 απαγάγω	a p a ɣ a ɣ o	0
+απαγορεύσεισ	a p a ɣ o ɾ e f s i s	0
 απαγορεύω	a p a ɣ o r e v o	5
 απαγόρευση	a p a ɣ o r e f s i	354
 απαθήσ	a p a θ i s	0
@@ -1384,17 +1583,17 @@
 απαράδεχτοσ	a p a ɾ a ð e x t o s	0
 απαραίτητοσ	a p a r e t i t o s	0
 απαραδέκτωσ	a p a ɾ a ð e k t o s	0
-απαρχαιωμένα	a p a r ç e o m e n a	3
-απαρχαιωμένε	a p a r ç e o m e n e	0
-απαρχαιωμένεσ	a p a r ç e o m e n e s	0
-απαρχαιωμένη	a p a r ç e o m e n i	4
-απαρχαιωμένησ	a p a r ç e o m e n i s	0
-απαρχαιωμένο	a p a r ç e o m e n o	8
-απαρχαιωμένοι	a p a r ç e o m e n i	0
-απαρχαιωμένοσ	a p a r ç e o m e n o s	0
-απαρχαιωμένου	a p a r ç e o m e n u	0
-απαρχαιωμένουσ	a p a r ç e o m e n u s	0
-απαρχαιωμένων	a p a r ç e o m e n o n	2
+απαρχαιωμένα	a p a r ç e o m e n a	3
+απαρχαιωμένε	a p a r ç e o m e n e	0
+απαρχαιωμένεσ	a p a r ç e o m e n e s	0
+απαρχαιωμένη	a p a r ç e o m e n i	4
+απαρχαιωμένησ	a p a r ç e o m e n i s	0
+απαρχαιωμένο	a p a r ç e o m e n o	8
+απαρχαιωμένοι	a p a r ç e o m e n i	0
+απαρχαιωμένοσ	a p a r ç e o m e n o s	0
+απαρχαιωμένου	a p a r ç e o m e n u	0
+απαρχαιωμένουσ	a p a r ç e o m e n u s	0
+απαρχαιωμένων	a p a r ç e o m e n o n	2
 απασχολήθηκα	a p a s x o l i θ i k a	0
 απασχολήσεισ	a p a s x o l i s i s	0
 απασχολημένα	a p a s x o l i m e n a	4
@@ -1436,20 +1635,36 @@
 απετράπη	a p e t ɾ a p i	10
 απετράπην	a p e t ɾ a p i n	0
 απετράπησαν	a p e t ɾ a p i s a n	3
-απευχήθηκα	a p e f ç i θ i k a	0
+απευχήθηκα	a p e f ç i θ i k a	0
 απεχθάνομαι	a p e x θ a n o m e	15
 απεύχομαι	a p e f x o m e	7
-απηρχαιωμένοσ	a p i r ç e o m e n o s	0
-απηρχαιωμένου	a p i r ç e o m e n u	0
+απηρχαιωμένοσ	a p i r ç e o m e n o s	0
+απηρχαιωμένου	a p i r ç e o m e n u	0
 απλούσ	a p l u s	0
 απλούστατοσ	a p l u s t a t o s	0
+αποβάλετε	a p o v a l e t e	7
+αποβάλλεται	a p o v a l e t e	33
+αποβάλλετε	a p o v a l e t e	7
+αποβάλλομαι	a p o v a l o m e	0
+αποβάλλομε	a p o v a l o m e	0
+αποβάλλουμε	a p o v a l u m e	9
+αποβάλλω	a p o v a l o	2
+αποβάλομε	a p o v a l o m e	0
+αποβάλουμε	a p o v a l u m e	3
+αποβάλω	a p o v a l o	3
+αποβιβάζομαι	a p o v i v a z o m e	0
+αποβιβάζω	a p o v i v a z o	0
 αποβλέπω	a p o v l e p o	0
+αποβλήθηκα	a p o v l i θ i k a	0
 απογοήτευσα	a p o ɣ o i t e f s a	3
 απογοήτεψα	a p o ɣ o i t e p s a	0
 απογοητεύθηκα	a p o ɣ o i t e f θ i k a	1
 απογοητεύομαι	a p o ɣ o i t e v o m e	8
 απογοητεύτηκα	a p o ɣ o i t e f t i k a	23
 απογοητεύω	a p o ɣ o i t e v o	3
+αποδέχθηκα	a p o ð e x θ i k a	2
+αποδέχομαι	a p o ð e x o m e	43
+αποδέχτηκα	a p o ð e x t i k a	5
 αποδείξεισ	a p o ð i k s i s	0
 αποδείχθηκα	a p o ð i x θ i k a	0
 αποδείχθηκαν	a p o ð i x θ i k a n	54
@@ -1467,7 +1682,26 @@
 αποδειχθήκανε	a p o ð i x θ i k a n e	0
 αποδειχτήκαν	a p o ð i x t i k a n	1
 αποδειχτήκανε	a p o ð i x t i k a n e	0
+αποδεχθεί	a p o ð e x θ i	142
+αποδεχτεί	a p o ð e x t i	132
+αποδοκιμάζομαι	a p o ð o c i m a z o m e	0
+αποδοκιμάζομε	a p o ð o c i m a z o m e	0
+αποδοκιμάζουμε	a p o ð o c i m a z u m e	2
+αποδοκιμάζω	a p o ð o c i m a z o	2
+αποδοκιμάσθηκα	a p o ð o c i m a s θ i k a	0
+αποδοκιμάστηκα	a p o ð o c i m a s t i k a	0
+αποζημίωσα	a p o z i m i o s a	0
+αποζημιώθηκα	a p o z i m i o θ i k a	0
+αποζημιώνομαι	a p o z i m i o n o m e	0
+αποζημιώνω	a p o z i m i o n o	0
+αποζημιώσεισ	a p o z i m i o s i s	0
+αποθήκευσα	a p o θ i c e f s a	3
+αποθήκεψα	a p o θ i c e p s a	0
 αποθανών	a p o θ a n o n	3
+αποθηκεύθηκα	a p o θ i c e f θ i k a	0
+αποθηκεύομαι	a p o θ i c e v o m e	0
+αποθηκεύτηκα	a p o θ i c e f t i k a	0
+αποθηκεύω	a p o θ i c e v o	3
 αποκάλυψα	a p o k a l i p s a	4
 αποκέντρωση	a p o c e n d ɾ o s i	54
 αποκαλύπτομαι	a p o k a l i p t o m e	1
@@ -1507,6 +1741,9 @@
 αποκλεισμένουσ	a p o k l i z m e n u s	0
 αποκλεισμένων	a p o k l i z m e n o n	9
 αποκομίζω	a p o k o m i z o	3
+αποκρίθηκα	a p o k ɾ i θ i k a	4
+αποκρίνομαι	a p o k ɾ i n o m e	1
+αποκρίνω	a p o k ɾ i n o	0
 αποκρουστικόσ	a p o k r u s t i k o s	0
 αποκρούομαι	a p o k r u o m e	0
 αποκρούομε	a p o k r u o m e	0
@@ -1556,6 +1793,22 @@
 απολύομε	a p o l i o m e	0
 απολύουμε	a p o l i u m e	1
 απολύω	a p o l i o	0
+απομονωμένα	a p o m o n o m e n a	29
+απομονωμένε	a p o m o n o m e n e	0
+απομονωμένεσ	a p o m o n o m e n e s	0
+απομονωμένη	a p o m o n o m e n i	55
+απομονωμένησ	a p o m o n o m e n i s	0
+απομονωμένο	a p o m o n o m e n o	47
+απομονωμένοι	a p o m o n o m e n i	31
+απομονωμένοσ	a p o m o n o m e n o s	0
+απομονωμένου	a p o m o n o m e n u	4
+απομονωμένουσ	a p o m o n o m e n u s	0
+απομονωμένων	a p o m o n o m e n o n	6
+απομονώθηκα	a p o m o n o θ i k a	0
+απομονώνομαι	a p o m o n o n o	1
+απομονώνω	a p o m o n o n o	2
+απομονώσεισ	a p o m o n o s i s	0
+απομόνωσα	a p o m o n o s a	1
 αποπέμπομαι	a p o p e m b o m e	0
 αποπέμπομε	a p o p e m b o m e	0
 αποπέμπουμε	a p o p e m b u m e	0
@@ -1571,6 +1824,11 @@
 απορρίφτηκα	a p o ɾ i f t i k a	0
 απορρίψεισ	a p o ɾ i p s i s	0
 απορώ	a p o ɾ o	106
+αποσάθρωσα	a p o s a θ ɾ o s a	0
+αποσαθρώθηκα	a p o s a θ ɾ o θ i k a	0
+αποσαθρώνομαι	a p o s a θ ɾ o n o m e	0
+αποσαθρώνω	a p o s a θ ɾ o n o	0
+αποσαθρώσεισ	a p o s a θ ɾ o s i s	0
 αποσείομαι	a p o s i o m e	0
 αποσείομε	a p o s i o m e	0
 αποσείουμε	a p o s i u m e	0
@@ -1588,6 +1846,11 @@
 αποστέλλομαι	a p o s t e l o m e	0
 αποστέλλω	a p o s t e l o	10
 αποσταίνω	a p o s t e n o	0
+αποστείρωσα	a p o s t i ɾ o s a	0
+αποστειρώθηκα	a p o s t i ɾ o θ i k a	0
+αποστειρώνομαι	a p o s t i ɾ o n o m e	0
+αποστειρώνω	a p o s t i ɾ o n o	2
+αποστειρώσεισ	a p o s t i ɾ o s i s	0
 αποστηθίζομαι	a p o s t i θ i z o m e	0
 αποστηθίζω	a p o s t i θ i z o	0
 αποστολέασ	a p o s t o l e a s	0
@@ -1602,13 +1865,16 @@
 αποτρέπω	a p o t ɾ e p o	0
 αποτραπήκαν	a p o t ɾ a p i k a n	0
 αποτραπήκανε	a p o t ɾ a p i k a n e	0
-αποτυχία	a p ɔ t i ç i a	417
+αποτυχία	a p ɔ t i ç i a	417
 αποφασίζω	a p o f a s i z o	28
+απόβαλε	a p o v a l e	0
+απόβαλλε	a p o v a l e	0
 απόγονοσ	a p o ɣ o n o s	0
 απόδειξα	a p o ð i k s a	1
 απόδειξε	a p o ð i k s e	5
 απόκλεισα	a p o k l i s a	0
 απόκοψα	a p o k o p s a	0
+απόκριση	a p o k ɾ i s i	61
 απόκρουσα	a p o k r u s a	0
 απόκρυψα	a p o k ɾ i p s a	0
 απόλυσα	a p o l i s a	0
@@ -1658,7 +1924,7 @@
 αριβάρω	a ɾ i v a ɾ o	0
 αριζόνα	a ɾ i z o n a	33
 αριστοκλήσ	a ɾ i s t o k l i s	0
-αριστοκρατία	a ɾ i s t o k ɾ a t i a	43
+αριστοκρατία	a ɾ i s t o k ɾ a t i a	42
 αρκτικόσ	a ɾ k t i k o s	0
 αρκώ	a ɾ k o	0
 αρμέγω	a ɾ m e ɣ o	0
@@ -1667,6 +1933,8 @@
 αρμόδιοι	a ɾ m o ð i i	171
 αρμόδιοσ	a ɾ m o ð i o s	0
 αρούμπα	a ɾ u b a	3
+αρπάζομαι	a ɾ p a z o m e	1
+αρπάζω	a ɾ p a z o	7
 αρρωστημένα	a r o s t i m e n a	13
 αρρωστημένε	a r o s t i m e n e	0
 αρρωστημένεσ	a r o s t i m e n e s	0
@@ -1678,20 +1946,20 @@
 αρρωστημένου	a r o s t i m e n u	1
 αρρωστημένουσ	a r o s t i m e n u s	0
 αρρωστημένων	a r o s t i m e n o n	5
-αρχή	a r ç i	4571
-αρχήθεν	a r ç i θ e n	2
-αρχίασ	a ɾ ç i a s	0
-αρχίδαμοσ	a ɾ ç i ð a m o s	0
-αρχίδι	a ɾ ç i ð i	2
-αρχίζω	a r ç i z o	98
-αρχειοθήκη	a r ç i o θ i c i	2
-αρχηγόσ	a ɾ ç i ɣ ɔ s	0
-αρχιδούκισσα	a ɾ ç i ð u c i s a	0
-αρχικά	a r ç i k a	1920
-αρχικόσ	a r ç i k o s	0
-αρχικώσ	a r ç i k o s	0
-αρχιμαλάκασ	a ɾ ç i m a l a k a s	0
-αρχιφύλακασ	a ɾ ç i f i l a k a s	0
+αρχή	a r ç i	4570
+αρχήθεν	a r ç i θ e n	2
+αρχίασ	a ɾ ç i a s	0
+αρχίδαμοσ	a ɾ ç i ð a m o s	0
+αρχίδι	a ɾ ç i ð i	2
+αρχίζω	a r ç i z o	98
+αρχειοθήκη	a r ç i o θ i c i	2
+αρχηγόσ	a ɾ ç i ɣ ɔ s	0
+αρχιδούκισσα	a ɾ ç i ð u c i s a	0
+αρχικά	a r ç i k a	1920
+αρχικόσ	a r ç i k o s	0
+αρχικώσ	a r ç i k o s	0
+αρχιμαλάκασ	a ɾ ç i m a l a k a s	0
+αρχιφύλακασ	a ɾ ç i f i l a k a s	0
 ασ'	a s	0
 ασέβεια	a s e v i a	46
 ασέβειασ	a s e v i a s	0
@@ -1748,6 +2016,7 @@
 αφεντικό	a f e n d i k o	232
 αφηγήτρια	a f i ʝ i t ɾ i a	9
 αφηγητήσ	a f i ʝ i t i s	0
+αφοδεύω	a f o ð e v o	0
 αφορά	a f o r a	5396
 αφορίζω	a f o ɾ i z o	1
 αφορμή	a f o ɾ m i	1473
@@ -1756,20 +2025,42 @@
 αφουγκράστηκα	a f u ɡ ɾ a s t i k a	1
 αφρική	a f ɾ i c i	430
 αφτί	a f t i	24
+αφυδάτωσα	a f i ð a t o s a	0
+αφυδατώθηκα	a f i ð a t o θ i k a	0
+αφυδατώνομαι	a f i ð a t o n o m e	0
+αφυδατώνω	a f i ð a t o n o	0
+αφυδατώσεισ	a f i ð a t o s i s	0
 αχάριστοσ	a x a ɾ i s t o s	0
-αχαιόσ	a ç e o s	0
+αχαιόσ	a ç e o s	0
 αχθοφόροσ	a x θ o f o r o s	0
-αχιλλέασ	a ç i l e a s	0
-αψιθιά	a p s i θ ç a	4
-αϊ	a i	68
+αχιλλέασ	a ç i l e a s	0
+αψιθιά	a p s i θ ç a	4
+αϊ	a i	67
 αϊντάχο	a i d a x o	3
 αϊόβα	a i o v a	7
 αϋπνία	a i p n i a	82
 βάζο	v a z o	129
 βάζοντασ	v a z o n d a s	0
 βάζω	v a z o	288
+βάλαμε	v a l a m e	126
 βάλανοσ	v a l a n o s	0
+βάλε	v a l e	305
+βάλει	v a l i	1293
+βάλεισ	v a l i s	0
+βάλετε	v a l e t e	276
 βάλθηκα	v a l θ i k a	4
+βάλλε	v a l e	0
+βάλλεται	v a l e t e	21
+βάλλετε	v a l e t e	3
+βάλλομαι	v a l o m e	1
+βάλλομε	v a l o m e	0
+βάλλουμε	v a l u m e	3
+βάλλω	v a l o	3
+βάλομε	v a l o m e	1
+βάλουμε	v a l u m e	407
+βάλουν	v a l u n	472
+βάλουνε	v a l u n e	10
+βάλω	v a l o	386
 βάρβαροσ	v a r v a r o s	0
 βάσανο	v a s a n o	31
 βάσανοσ	v a s a n o s	0
@@ -1782,13 +2073,19 @@
 βέρα	v e ɾ a	95
 βέροια	v e ɾ i a	237
 βήτα	v i t a	45
+βίασα	v i a s a	0
 βίβλοσ	v i v l o s	0
 βίζιτα	v i z i t a	5
 βίκυ	v i c i	114
-βίτσιο	v i t s ç o	12
+βίτσιο	v i t s ç o	12
 βαίνω	v e n o	0
 βαβαρία	v a v a r i a	0
 βαβυλώνα	v a v i l o n a	34
+βαθιά	v a θ ç a	1270
+βαθιάσ	v a θ ç a s	0
+βαθιοί	v a θ ç i	0
+βαθιού	v a θ ç u	3
+βαθιών	v a θ ç o n	9
 βαθμολογημένα	v a θ m o l o ʝ i m e n a	1
 βαθμολογημένε	v a θ m o l o ʝ i m e n e	0
 βαθμολογημένεσ	v a θ m o l o ʝ i m e n e s	0
@@ -1811,20 +2108,22 @@
 βασίλευε	v a s i l e v e	39
 βασίλεψα	v a s i l e p s a	0
 βασίλεψε	v a s i l e p s e	12
-βασίλισσα	v a s i l i s a	267
+βασίλισσα	v a s i l i s a	266
 βασανίζομαι	v a s a n i z o m e	3
 βασανίζω	v a s a n i z o	2
 βασανίστρια	v a s a n i s t ɾ i a	0
 βασανιστήριο	v a s a n i s t i ɾ i o	25
 βασανιστήσ	v a s a n i s t i s	0
 βασιλέασ	v a s i l e a s	0
-βασιλεία	v a s i l i a	226
+βασιλεία	v a s i l i a	224
 βασιλεύσ	v a s i l e f s	0
 βασιλεύω	v a s i l e v o	1
 βασιλιάσ	v a s i ʎ a s	0
-βασιλική	v a s i l i c i	320
+βασιλική	v a s i l i c i	316
 βασιλοκτονία	v a s i l o k t o n i a	0
 βασιλομήτωρ	v a s i l o m i t o ɾ	2
+βαστάζομαι	v a s t a z o m e	0
+βαστάζω	v a s t a z o	2
 βατραχάνθρωποσ	v a t ɾ a x a n θ ɾ ɔ p ɔ s	0
 βαυαρία	v a v a r i a	15
 βαφλιέρα	v a f ʎ e ɾ a	1
@@ -1837,12 +2136,26 @@
 βδελύγματοσ	v ð e l i ɣ m a t o s	0
 βδομάδα	v ð o m a ð a	363
 βεβαίωσ	v e v e o s	0
+βεβαίωσα	v e v e o s a	0
+βεβαιώθηκα	v e v e o θ i k a	4
+βεβαιώνομαι	v e v e o n o m e	2
+βεβαιώνω	v e v e o n o	13
+βεβαιώσεισ	v e v e o s i s	0
 βεγγαλικό	v e ŋ ɡ a l i k o	2
+βελτίωσα	v e l t i o s a	0
+βελτιώθηκα	v e l t i o θ i k a	1
+βελτιώνομαι	v e l t i o n o m e	6
+βελτιώνω	v e l t i o n o	0
+βελτιώσεισ	v e l t i o s i s	0
 βελόνα	v ɛ l ɔ n a	53
 βερολίνο	v e r o l i n o	405
 βηρυτόσ	v i r i t o s	0
+βιάζομαι	v i a z o m e	20
+βιάζομαι	v ʝ a z o m e	20
 βιάζω	v i a z o	2
 βιάζω	v ʝ a z o	2
+βιάστηκα	v i a s t i k a	5
+βιάστηκα	v ʝ a s t i k a	5
 βιβλιοθήκη	v i v l i o θ i c i	514
 βιβλιοπωλεία	v i v l i o p o l i a	71
 βιβλιοπωλείο	v i v l i o p o l i o	136
@@ -1860,6 +2173,7 @@
 βλάφτηκα	v l a f t i k a	0
 βλάφτω	v l a f t o	0
 βλέποντασ	v l e p o n d a s	0
+βλήθηκα	v l i θ i k a	0
 βλακεία	v l a c i a	107
 βλαμμένα	v l a m e n a	0
 βλαμμένε	v l a m e n e	4
@@ -1877,6 +2191,10 @@
 βοηθῶ	v o͜i θ o	0
 βομβαρδίζω	v ɔ ɱ v a r ð i z o	1
 βοοειδή	v o o i ð i	18
+βοσκάω	v o s k a o	0
+βοσκήθηκα	v o s c i θ i k a	0
+βοσκιέμαι	v o s c e m e	0
+βοσκώ	v o s k o	0
 βουβάλι	v u v a l i	4
 βουβάλια	v u v a ʎ a	8
 βουβαλιού	v u v a ʎ u	2
@@ -1897,20 +2215,34 @@
 βουτυρωμένου	v u t i r o m e n u	0
 βουτυρωμένουσ	v u t i r o m e n u s	0
 βουτυρωμένων	v u t i r o m e n o n	0
+βουτυρώνομαι	v u t i ɾ o n o m e	0
+βουτυρώνω	v u t i ɾ o n o	2
 βούδασ	v u ð a s	0
 βούληση	v u l i s i	413
 βούλιαξα	v u ʎ a k s a	3
 βράδυ	v r a ð i	3155
 βράζω	v r a z o	12
+βρέθηκα	v ɾ e θ i k a	168
 βρέχω	v r e x o	2
+βρήκα	v ɾ i k a	579
+βρήκαμε	v ɾ i k a m e	240
+βρήκαν	v ɾ i k a n	655
+βρήκατε	v ɾ i k a t e	59
+βρήκε	v ɾ i c e	1158
+βρήκεσ	v ɾ i c e s	0
 βρίζομαι	v ɾ i z o m e	0
 βρίζω	v ɾ i z o	24
+βρίσκομαι	v ɾ i s k o m e	219
+βρίσκω	v ɾ i s k o	361
 βραδάκι	v ɾ a ð a c i	48
 βραδέωσ	v ɾ a ð e o s	0
-βραχυκυκλώνω	v ɾ a ç i c i k l o n o	1
-βραχυκύκλωμα	v ɾ a ç i c i k l o m a	14
+βραχυκυκλώνω	v ɾ a ç i c i k l o n o	1
+βραχυκύκλωμα	v ɾ a ç i c i k l o m a	14
 βραχώδησ	v ɾ a x o ð i s	0
 βρε	v ɾ e	461
+βρείτε	v ɾ i t e	1633
+βρει	v ɾ i	1859
+βρεισ	v ɾ i s	1
 βρετάνη	v r e t a n i	3
 βρετανία	v r e t a n i a	574
 βρετανόσ	v r e t a n o s	0
@@ -1918,7 +2250,8 @@
 βρεφοκτονία	v ɾ e f o k t o n i a	0
 βρικόλακασ	v ɾ i k o l a k a s	0
 βρισίδι	v ɾ i s i ð i	10
-βρισιά	v ɾ i s ç a	29
+βρισιά	v ɾ i s ç a	29
+βρούμε	v ɾ u m e	693
 βρυκόλακασ	v ɾ i k o l a k a s	0
 βυζάκι	v i z a c i	3
 βυζάρα	v i z a ɾ a	0
@@ -1937,6 +2270,9 @@
 βυρσοδέψησ	v i ɾ s o ð e p s i s	0
 βόλοσ	v o l o s	0
 βόρειοσ	v o ɾ i o s	0
+βόσκησα	v o s c i s a	0
+βόσκομαι	v o s k o m e	0
+βόσκω	v o s k o	0
 γάδαροσ	ɣ a ð a ɾ o s	0
 γάιδαροσ	ɣ a i ð a ɾ o s	0
 γάμα	ɣ a m a	19
@@ -1954,7 +2290,7 @@
 γέννησισ	ʝ e n i s i s	0
 γένοσ	ʝ e̞ n o̞ s	0
 γέροσ	ʝ e ɾ o s	0
-γέφυρα	ʝ e f i r a	452
+γέφυρα	ʝ e f i r a	446
 γήπεδο	ʝ i p e ð o	1448
 γήτεψα	ʝ i t e p s a	0
 γίγαντασ	ʝ i ɣ a d a s	0
@@ -2009,7 +2345,7 @@
 γαϊδούρα	ɣ a i ð u ɾ a	2
 γαϊδούρι	ɣ a i ð u ɾ i	19
 γδέρνω	ɣ ð e r n o	0
-γεια	ʝ a	247
+γεια	ʝ a	246
 γελάμε	ʝ e l a m e	62
 γελιέμαι	ʝ e l ʝ e m e	0
 γελοίοσ	ʝ e l i o s	0
@@ -2019,7 +2355,7 @@
 γενέσεισ	ʝ e n e s i s	0
 γενέσεων	ʝ e n e s e o n	0
 γενέσεωσ	ʝ e n e s e o s	0
-γενέσθαι	ʝ e n e s θ e	43
+γενέσθαι	ʝ e n e s θ e	41
 γενεά	ʝ e n e a	20
 γενεάσ	ʝ e n e a s	0
 γενεέσ	ʝ e n e e s	0
@@ -2060,7 +2396,7 @@
 γιαννούλα	ʝ a n u l a	3
 γιασεμί	ʝ a s e m i	36
 γιατάκι	ʝ a t a c i	3
-γιατί	ʝ a t i	20774
+γιατί	ʝ a t i	20773
 γιατρεύομαι	ʝ a t ɾ e v o m e	0
 γιατρεύτηκα	ʝ a t ɾ e f t i k a	0
 γιατρεύω	ʝ a t ɾ e v o	2
@@ -2143,7 +2479,7 @@
 γλωσσίτσα	ɣ l o s i t s a	2
 γλωσσοδέτησ	ɣ l o s o ð e t i s	0
 γλύκισμα	ɣ l i c i z m a	31
-γλώσσα	ɣ l o s a	1960
+γλώσσα	ɣ l o s a	1959
 γνοιάζομαι	ɣ ɲ a z o m e	1
 γνωρίζω	ɣ n o ɾ i z o	729
 γνώριμοσ	ɣ n o ɾ i m o s	0
@@ -2174,8 +2510,8 @@
 γούσταρε	ɣ u s t a ɾ e	15
 γούστο	ɣ u s t o	100
 γράδο	ɣ ɾ a ð o	0
-γράμμα	ɣ r a m a	473
-γράφω	ɣ r a f o	559
+γράμμα	ɣ r a m a	471
+γράφω	ɣ r a f o	554
 γρήγοροσ	ɣ r i ɣ o r o s	0
 γρίνιαξα	ɣ ɾ i ɲ a k s a	0
 γραδάρω	ɣ ɾ a ð a ɾ o	0
@@ -2199,12 +2535,16 @@
 γύροσ	ʝ i r o s	0
 δάγκασα	ð a ŋ ɡ a s a	0
 δάγκωσα	ð a ŋ ɡ o s a	0
-δάφνη	ð a f n i	110
+δάφνη	ð a f n i	107
 δέησα	ð e i s a	0
 δέκατοσ	ð e k a t o s	0
 δέλτα	ð e l t a	109
 δέομαι	ð e o m e	5
+δέρνομαι	ð e ɾ n o m e	0
 δέρνω	ð e ɾ n o	5
+δέχθηκα	ð e x θ i k a	22
+δέχομαι	ð e x o m e	122
+δέχτηκα	ð e x t i k a	44
 δέω	ð e o	0
 δέων	ð e o n	0
 δήθεν	ð i θ e n	864
@@ -2227,8 +2567,9 @@
 δαγκώσει	ð a ŋ ɡ o s i	21
 δαιμονισμόσ	ð e m o n i z m o s	0
 δαμάζομαι	ð a m a z o m e	0
+δαμάζω	ð a m a z o	0
 δαμασκόσ	ð a m a s k o s	0
-δανάη	ð a n a i	69
+δανάη	ð a n a i	68
 δανάησ	ð a n a i s	0
 δανία	ð a n i a	167
 δασμόσ	ð a z m o s	0
@@ -2246,7 +2587,7 @@
 δεκατρία	ð e k a t ɾ i a	37
 δεκατρείσ	ð e k a t ɾ i s	0
 δεκατριών	ð e k a t ɾ i o n	24
-δελφοί	ð e l f i	18
+δελφοί	ð e l f i	17
 δεμάτι	ð e m a t i	8
 δενδροχρονολόγηση	ð e n d r o x r o n o l o ʝ i s i	0
 δεσπόζω	ð e s p o z o	0
@@ -2254,19 +2595,21 @@
 δευτεραγωνιστέσ	ð e f t e r a ɣ o n i s t e s	0
 δευτεραγωνιστή	ð e f t e r a ɣ o n i s t i	1
 δευτεραγωνιστών	ð e f t e r a ɣ o n i s t o n	0
+δεχθεί	ð e x θ i	371
+δεχτεί	ð e x t i	310
 δεύτεροσ	ð e f t e ɾ o s	0
 δηλαδή	ð i l a ð i	8655
 δηλώνω	ð i l o n o	79
 δηλώσεισ	ð i l o s i s	0
 δημήτρησ	ð i m i t ɾ i s	0
 δημήτριοσ	ð i m i t ɾ i o s	0
-δημαρχία	ð i m a ɾ ç i a	27
+δημαρχία	ð i m a ɾ ç i a	27
 δημαρχίνα	k s e n o ð o x a	0
-δημαρχεία	ð i m a ɾ ç i a	14
-δημαρχείο	ð i m a ɾ ç i o	212
+δημαρχεία	ð i m a ɾ ç i a	14
+δημαρχείο	ð i m a ɾ ç i o	212
 δημητράκησ	ð i m i t ɾ a c i s	0
 δημητρούλα	ð i m i t ɾ u l a	11
-δημοκρατία	ð i m o k r a t i a	1937
+δημοκρατία	ð i m o k r a t i a	1935
 δημοκρατίασ	ð i m o k r a t i a s	0
 δημοκρατίεσ	ð i m o k r a t i e s	0
 δημοκρατιῶν	ð i m o k r a t i o n	0
@@ -2277,9 +2620,9 @@
 δημοσιεύουμε	ð i m o s i e v u m e	86
 δημοσιεύτηκα	ð i m o s i e f t i k a	0
 δημοσιεύω	ð i m o s i e v o	25
-δημοτική	ð i m o t i c i	909
+δημοτική	ð i m o t i c i	899
 δημοψήφισμα	ð i m o p s i f i z m a	713
-διά	ð i͜a	737
+διά	ð i͜a	736
 διάβολε	ð ʝ a v o l e	3
 διάδοχοσ	ð i a ð o x o s	0
 διάδοχοσ	ð j a ð o x o s	0
@@ -2288,8 +2631,8 @@
 διάλειμμα	ð ʝ a l i m a	165
 διάνυσα	ð i a n i s a	0
 διάνυσμα	ð i a n i z m a	4
-διάρροια	ð i a ɾ i a	82
-διάρροια	ð ʝ a ɾ i a	82
+διάρροια	ð i a ɾ i a	81
+διάρροια	ð ʝ a ɾ i a	81
 διάτανοσ	ð ʝ a t a n o s	0
 διέκοψα	ð i e k o p s a	5
 διέκοψα	ð j e k o p s o	5
@@ -2304,17 +2647,37 @@
 διέρρευσα	ð i̯ e r e f s a	0
 διέρρευσα	ð ʝ e r e f s a	0
 διέρχομαι	ð i e r x o m e	0
-διέχυσα	ð i e ç i s a	0
+διέχυσα	ð i e ç i s a	0
 διήθηση	ð i i θ i s i	12
 διήνυσα	ð i i n i s a	0
+διαβάζομαι	ð ʝ a v a z o m e	1
 διαβάζω	ð ʝ a v a z o	392
+διαβεβαίωσα	ð i̯ a v e v e o s a	2
+διαβεβαίωσα	ð ʝ a v e v e o s a	2
+διαβεβαιώθηκα	ð i̯ a v e v e o θ i k a	0
+διαβεβαιώθηκα	ð ʝ a v e v e o θ i k a	0
+διαβεβαιώνομαι	ð i̯ a v e v e o n o m e	0
+διαβεβαιώνομαι	ð ʝ a v e v e o n o m e	0
+διαβεβαιώνω	ð i̯ a v e v e o n o	22
 διαβεβαιώνω	ð ʝ a v e v e o n o	22
+διαβεβαιώσεισ	ð i̯ a v e v e o s i s	0
+διαβεβαιώσεισ	ð ʝ a v e v e o s i s	0
 διαγωνίζομαι	ð i a ɣ o n i z o m e	0
 διαγωνίζομαι	ð ʝ a ɣ o n i z o m e	0
+διαδέχθηκα	ð i̯ a ð e x θ i k a	1
+διαδέχθηκα	ð ʝ a ð e x θ i k a	1
+διαδέχομαι	ð i a ð e x o m e	1
+διαδέχομαι	ð i̯ a ð e x o m e	1
 διαδέχομαι	ð ʝ a ð e x o m e	1
-διαδοχή	ð ʝ a ð o ç i	63
-διαδοχικόσ	ð ʝ a ð o ç i k o s	0
-διαθήκη	ð i a θ i c i	171
+διαδέχτηκα	ð i̯ a ð e x t i k a	0
+διαδέχτηκα	ð ʝ a ð e x t i k a	0
+διαδεχθεί	ð i̯ a ð e x θ i	40
+διαδεχθεί	ð ʝ a ð e x θ i	40
+διαδεχτεί	ð i̯ a ð e x t i	10
+διαδεχτεί	ð ʝ a ð e x t i	10
+διαδοχή	ð ʝ a ð o ç i	63
+διαδοχικόσ	ð ʝ a ð o ç i k o s	0
+διαθήκη	ð i a θ i c i	169
 διαισθάνθηκα	ð i e s θ a n θ i k a	2
 διαισθάνομαι	ð i e s θ a n o m e	3
 διακήρυξη	ð i a c i ɾ i k s i	166
@@ -2334,8 +2697,8 @@
 διακόπτω	ð i a k o p t o	8
 διακόπτω	ð j a k o p t o	8
 διακόπτω	ð ʝ a k o p t o	8
+διακόσια	ð ʝ a k o s ç a	51
 διακόσια	ð ʝ a k o s i a	51
-διακόσια	ð ʝ a k o s ç a	51
 διαλελυμένα	ð i a l e l i m e n a	0
 διαλελυμένε	ð i a l e l i m e n e	0
 διαλελυμένεσ	ð i a l e l i m e n e s	0
@@ -2415,43 +2778,47 @@
 διαρρέτε	ð i a r e e t e	0
 διαρρέτε	ð ʝ a r e e t e	0
 διαρρέτε	ð͜i a r e e t e	0
-διαρρέω	ð i a r e o	1
-διαρρέω	ð i̯ a r e o	1
-διαρρέω	ð ʝ a r e o	1
+διαρρέω	ð i a r e o	0
+διαρρέω	ð i̯ a r e o	0
+διαρρέω	ð ʝ a r e o	0
 διασκέπτομαι	ð i a s c e p t o m e	0
 διασκέπτομαι	ð i̯ a s c e p t o m e	0
 διασκέφθηκα	ð i a s c e f θ i k a	0
+διασκεδάζομαι	ð i̯ a s c e ð a z o m e	0
+διασκεδάζω	ð i̯ a s c e ð a z o	8
+διασκεδάζω	ð j a s c e ð a z o	8
 διασκελίζω	ð i a s c e l i z o	0
 διαστροφή	ð ʝ a s t ɾ o f i	37
 διαφήμιση	ð i a f i m i s i	431
-διαχέομαι	ð i a ç e o m e	0
-διαχέομαι	ð j a ç e o m e	0
-διαχέομαι	ð ʝ a ç e o m e	0
-διαχέομε	ð i a ç e o m e	0
-διαχέομε	ð j a ç e o m e	0
-διαχέομε	ð ʝ a ç e o m e	0
-διαχέουμε	ð i a ç e u m e	1
-διαχέουμε	ð j a ç e u m e	1
-διαχέουμε	ð ʝ a ç e u m e	1
-διαχέω	ð i a ç e o	1
-διαχέω	ð j a ç e o	1
-διαχέω	ð ʝ a ç e o	1
-διαχειρίζομαι	ð i a ç i ɾ i z o m e	3
-διαχειρίσθηκα	ð i a ç i ɾ i s θ i k a	0
-διαχειρίστηκα	ð i a ç i ɾ i s t i k a	1
-διαχύθηκα	ð i a ç i θ i k a	0
-διαχύθηκα	ð j a ç i θ i k a	0
-διαχύθηκα	ð ʝ a ç i θ i k a	0
-διαχύνομαι	ð i a ç i n o m e	0
-διαχύνομαι	ð j a ç i n o m e	0
-διαχύνομαι	ð ʝ a ç i n o m e	0
-διαχύνω	ð i a ç i n o	0
-διαχύνω	ð j a ç i n o	0
-διαχύνω	ð ʝ a ç i n o	0
+διαχέομαι	ð i a ç e o m e	0
+διαχέομαι	ð j a ç e o m e	0
+διαχέομαι	ð ʝ a ç e o m e	0
+διαχέομε	ð i a ç e o m e	0
+διαχέομε	ð j a ç e o m e	0
+διαχέομε	ð ʝ a ç e o m e	0
+διαχέουμε	ð i a ç e u m e	1
+διαχέουμε	ð j a ç e u m e	1
+διαχέουμε	ð ʝ a ç e u m e	1
+διαχέω	ð i a ç e o	1
+διαχέω	ð j a ç e o	1
+διαχέω	ð ʝ a ç e o	1
+διαχειρίζομαι	ð i a ç i ɾ i z o m e	3
+διαχειρίσθηκα	ð i a ç i ɾ i s θ i k a	0
+διαχειρίστηκα	ð i a ç i ɾ i s t i k a	1
+διαχύθηκα	ð i a ç i θ i k a	0
+διαχύθηκα	ð j a ç i θ i k a	0
+διαχύθηκα	ð ʝ a ç i θ i k a	0
+διαχύνομαι	ð i a ç i n o m e	0
+διαχύνομαι	ð j a ç i n o m e	0
+διαχύνομαι	ð ʝ a ç i n o m e	0
+διαχύνω	ð i a ç i n o	0
+διαχύνω	ð j a ç i n o	0
+διαχύνω	ð ʝ a ç i n o	0
 διδάσκω	ð i ð a s k o	29
 διεθνισμόσ	ð i e θ n i z m o s	0
 διεκόπην	ð i e k o p i n	0
 διεμήνυσα	ð i e m i n i s a	1
+διευκρινίζω	ð i e f k ɾ i n i z o	15
 διηθώ	ð i i θ o	0
 διημείφθη	ð i i m i f θ i	2
 διημείφθην	ð i i m i f θ i n	0
@@ -2459,12 +2826,19 @@
 δικαίωμα	ð i c e o m a	2439
 δικαιολογία	ð i c e o l o ʝ i a	310
 δικόσ	ð i k o s	0
+διοργανώθηκα	ð i o ɾ ɣ a n o θ i k a	0
+διοργανώνομαι	ð i o ɾ ɣ a n o n o m e	0
+διοργανώνω	ð i o ɾ ɣ a n o n o	4
 διπλανή	ð i p l a n i	54
 διπλανοί	ð i p l a n i	5
 διπλανόσ	ð i p l a n o s	0
+διπλασιάζομαι	ð i p l a s i a z o m e	0
+διπλασιάζω	ð i p l a s i a z o	1
 δισ	ð i s	2125
 δισεκατομμύριο	ð i s e k a t o m i r i o	62
-διόδια	ð i o̞ ð i ä	214
+διόδια	ð i o̞ ð i ä	214
+διώκομαι	ð i o k o m e	1
+διώκω	ð i o k o	1
 διώχθηκα	ð i o x θ i k a	0
 διώχνομαι	ð ʝ o x n o m e	0
 διώχνω	ð ʝ o x n o	2
@@ -2472,6 +2846,8 @@
 δολιοφθορά	ð o ʎ o f o ɾ a	7
 δολοφονώ	ð o l o f o n o	0
 δολοφόνισσα	ð o l o f o n i s a	0
+δοντιού	ð o n d ʝ u	28
+δοντιών	ð o n d ʝ o n	164
 δορυφόροσ	ð o r i f o r o s	0
 δουλεύω	ð u l e v o	117
 δούναβησ	ð u n a v i s	0
@@ -2499,16 +2875,17 @@
 δυτικόσ	ð i t i k o s	0
 δυχατέρα	ð u x a t e̞ r a	0
 δυόμισι	ð ʝ o m i s i	79
-δόγμα	ð o ɣ m a	255
+δόγμα	ð o ɣ m a	254
+δόντια	ð o n d ʝ a	523
 δύναμη	ð i n a m i	3417
-δύο	ð i o	20097
+δύο	ð i o	20096
 δύσκολα	ð i s k o l a	1290
 δύσκολοσ	ð i s k o l o s	0
-δώδεκα	ð o ð e k a	373
+δώδεκα	ð o ð e k a	372
 δώρα	ð o ɾ a	674
 δώρων	ð o r o n	111
-ε	e	1720
-ε	ɛ	1720
+ε	e	1688
+ε	ɛ	1688
 είδωλο	i ð o̞ l o̞	61
 είλκα	i l k a	0
 είλκυσα	i l c i s a	0
@@ -2526,14 +2903,18 @@
 είχαν	i x a n	8799
 είχανε	i x a n e	158
 είχατε	i x a t e	287
-είχε	i ç e	20947
-είχεσ	i ç e s	0
+είχε	i ç e	20947
+είχεσ	i ç e s	0
 εαυτόσ	e a f t o s	0
 εβδομάδα	e v ð o m a ð a	2435
 εβδομήκοντα	e v ð o m i k o n d a	10
 εβδομήντα	e v ð o m i n d a	94
+εβλήθην	e v l i θ i n	0
 εβραία	e v ɾ e a	10
 εβραίοσ	e v ɾ e o s	0
+εγέρθηκα	e ʝ e ɾ θ i k a	0
+εγέρθηκαν	e ʝ e ɾ θ i k a n	1
+εγέρθηκε	e ʝ e ɾ θ i c e	1
 εγέρθητε	e ʝ e ɾ θ i t e	0
 εγέρθητι	e ʝ e ɾ θ i t i	3
 εγγίζω	e ŋ ɟ i z o	0
@@ -2555,6 +2936,12 @@
 εγγραφτήκανε	e ŋ ɣ r a f t i k a n e	0
 εγγόνι	e ŋ ɡ o n i	15
 εγγόνια	e ŋ ɡ o ɲ a	122
+εγείρομαι	e ʝ i ɾ o m e	0
+εγείρομε	e ʝ i ɾ o m e	0
+εγείρουμε	e ʝ i ɾ u m e	1
+εγείρω	e ʝ i ɾ o	2
+εγερθήκαν	e ʝ e ɾ θ i k a n	0
+εγερθήκανε	e ʝ e ɾ θ i k a n e	0
 εγερθήτω	e ʝ e ɾ θ i t o	0
 εγκαθίδρυσα	e ŋ ɡ a θ i ð r i s a	0
 εγκαθιδρύθηκα	e ŋ ɡ a θ i ð r i θ i k a	0
@@ -2577,20 +2964,21 @@
 εγκλείσθηκα	e ŋ ɡ l i s θ i k a	0
 εγκλείστηκα	e ŋ ɡ l i s t i k a	0
 εγκλείω	e ŋ ɡ l i o	0
+εγκολπώνομαι	e ŋ ɡ o l p o n o m e	0
 εγκύπτω	e ŋ ɟ i p t o	0
-εγχέομαι	e ŋ ç e o m e	0
-εγχέομε	e ŋ ç e o m e	0
-εγχέουμε	e ŋ ç e u m e	0
-εγχέω	e ŋ ç e o	0
-εγχύθηκα	e ŋ ç i θ i k a	0
-εγχύνομαι	e ŋ ç i n o m e	0
-εγχύνω	e ŋ ç i n o	0
+εγχέομαι	e ŋ ç e o m e	0
+εγχέομε	e ŋ ç e o m e	0
+εγχέουμε	e ŋ ç e u m e	0
+εγχέω	e ŋ ç e o	0
+εγχύθηκα	e ŋ ç i θ i k a	0
+εγχύνομαι	e ŋ ç i n o m e	0
+εγχύνω	e ŋ ç i n o	0
 εγώ	e ɣ o	8203
 εδέησα	e ð e i s a	0
 εδέσσησ	e ð e s i s	0
-εθνάρχεσ	e θ n a r ç e s	0
-εθνάρχη	e θ n a r ç i	10
-εθνάρχησ	e θ n a r ç i s	0
+εθνάρχεσ	e θ n a r ç e s	0
+εθνάρχη	e θ n a r ç i	10
+εθνάρχησ	e θ n a r ç i s	0
 εθνάρχου	e θ n a r x u	2
 εθναρχών	e θ n a r x o n	1
 εθνεγερσία	e θ n e ʝ e r s i a	4
@@ -2640,7 +3028,7 @@
 εκδρομή	e k ð ɾ o m i	292
 εκείνη	e c i n i	3325
 εκείνοι	e c i n i	1050
-εκκλησία	e k l i s i a	2268
+εκκλησία	e k l i s i a	2267
 εκκλησιάζομαι	e k l i s i a z o m e	1
 εκκλησιάστηκα	e k l i s i a s t i k a	0
 εκκολάπτομαι	e k o l a p t o m e	0
@@ -2689,13 +3077,13 @@
 εκτρέπουμε	e k t ɾ e p u m e	0
 εκτρέπω	e k t ɾ e p o	0
 εκφύομαι	e k f i o m e	0
-εκχέομαι	e k ç e o m e	0
-εκχέομε	e k ç e o m e	0
-εκχέουμε	e k ç e u m e	0
-εκχέω	e k ç e o	0
-εκχύθηκα	e k ç i θ i k a	0
-εκχύνομαι	e k ç i n o m e	0
-εκχύνω	e k ç i n o	0
+εκχέομαι	e k ç e o m e	0
+εκχέομε	e k ç e o m e	0
+εκχέουμε	e k ç e u m e	0
+εκχέω	e k ç e o	0
+εκχύθηκα	e k ç i θ i k a	0
+εκχύνομαι	e k ç i n o m e	0
+εκχύνω	e k ç i n o	0
 ελάττωμα	e l a t o m a	44
 ελάφι	e l a f i	30
 ελαφραίνω	e l a f ɾ e n o	1
@@ -2713,13 +3101,13 @@
 ελκύουμε	e l c i u m e	1
 ελκύστηκα	e l c i s t i k a	0
 ελκύω	e l c i o	2
-ελλάδα	e l a ð a	15949
+ελλάδα	e l a ð a	15946
 ελλάσ	e l a s	0
 ελληνάρασ	e l i n a ɾ a s	0
 ελληναράσ	e l i n a ɾ a s	0
-ελληνικό	e l i n i k o	3412
+ελληνικό	e l i n i k o	3411
 εμβατήριο	e ɱ v a t i ɾ i o	14
-εμμανουήλ	e m a n u i l	133
+εμμανουήλ	e m a n u i l	132
 εμπαίζω	e m b e z o	1
 εμπεριέκλεισα	e m b e r i e k l i s a	0
 εμπερικλείομαι	e m b e r i k l i o m e	0
@@ -2747,6 +3135,7 @@
 εμπνεύσθηκα	e m b n e f s θ i k a	0
 εμπνεύστηκα	e m b n e f s t i k a	4
 εμποδίζω	e m b o ð i z o	1
+εμπορία	e m b o r i a	80
 εμπρόσ	e m b r o s	0
 εμπόδιο	e m b o ð i o	354
 εμπόριο	ɛ m b ɔ ɾ i ɔ	512
@@ -2756,13 +3145,18 @@
 ενέκυψα	e n e c i p s a	0
 ενέπνευσα	e n e p n e f s a	1
 ενέσκηψα	e n e s c i p s a	0
-ενέχυσα	e n e ç i s a	0
+ενέχυσα	e n e ç i s a	0
 εναντίον	e n a n d i o n	2155
+ενδέχεται	e n ð e x e t e	458
 ενδεχομένωσ	e n ð e x o m e n o s	0
 ενδιέτριψα	e n ð i e t ɾ i p s a	0
+ενδιέφερα	e n ð i̯ e f e ɾ a	0
 ενδιατρίβω	e n ð i a t ɾ i v o	0
 ενδιατρίβω	e n ð i̯ a t ɾ i v o	0
+ενδιαφέρθηκα	e n ð i̯ a f e ɾ θ i k a	4
+ενδιαφέρομαι	e n ð i̯ a f e ɾ o m e	25
 ενδιαφέρουσασ	e n ð j a f e r u s a s	0
+ενδιαφέρω	e n ð i̯ a f e ɾ o	0
 ενδιαφερούσησ	e n ð i a f e r u s i s	0
 ενεγράφη	e n e ɣ r a f i	6
 ενεγράφην	e n e ɣ r a f i n	0
@@ -2776,16 +3170,16 @@
 ενημερώσεωσ	e n i m e r o s e o s	0
 ενθύμιο	ɛ n θ i m i ɔ	16
 ενικόσ	ɛ n i k ɔ s	0
-ενισχύω	e n i s ç i o	3
+ενισχύω	e n i s ç i o	3
 εννέα	e n e a	492
-εννεακόσια	e n e a k o s ç a	0
+εννεακόσια	e n e a k o s ç a	0
 εννιά	e ɲ a	165
-εννιακόσια	e ɲ a k o s ç a	8
+εννιακόσια	e ɲ a k o s ç a	8
 εννοώ	e n o o	387
 ενοικιαστήσ	e n i c i a s t i s	0
-ενορχήστρωση	e n o ɾ ç i s t ɾ o s i	40
-ενορχηστρώνω	e n o ɾ ç i s t ɾ o n o	0
-ενορχηστρώσεισ	e n o ɾ ç i s t ɾ o s i s	0
+ενορχήστρωση	e n o ɾ ç i s t ɾ o s i	40
+ενορχηστρώνω	e n o ɾ ç i s t ɾ o n o	0
+ενορχηστρώσεισ	e n o ɾ ç i s t ɾ o s i s	0
 ενοχλητικά	e n o x l i t i k a	53
 ενοχλητικόσ	e n o x l i t i k o s	0
 ενοχλητικότητα	e n o x l i t i k o t i t a	0
@@ -2817,14 +3211,15 @@
 εξέπεμψα	e k s e p e m p s a	0
 εξέπλευσα	e k s e p l e f s a	0
 εξέρρευσα	e k s e r e f s a	0
+εξέτασα	e k s e t a s a	3
 εξέτρεψα	e k s e t ɾ e p s a	0
-εξέχυσα	e k s e ç i s a	0
+εξέχυσα	e k s e ç i s a	0
 εξήρα	e k s i r a	0
 εξήρθην	e k s i r θ i n	0
 εξαίρομαι	e k s e r o m e	0
 εξαίρω	e k s e r o	1
 εξαιτίασ	e k s e t i a s	0
-εξακόσια	e k s a k o s ç a	11
+εξακόσια	e k s a k o s ç a	11
 εξαλείφθηκα	e k s a l i f θ i k a	0
 εξαλείφομαι	e k s a l i f o m e	0
 εξαλείφομε	e k s a l i f o m e	0
@@ -2845,9 +3240,19 @@
 εξαπολύουμε	e k s a p o l i u m e	1
 εξαπολύω	e k s a p o l i o	0
 εξελέγην	e k s e l e ʝ i n	4
+εξετάζομαι	e k s e t a z o m e	1
+εξετάζω	e k s e t a z o	8
+εξετάσθηκα	e k s e t a s θ i k a	0
+εξετάστηκα	e k s e t a s t i k a	0
 εξετέλεσα	e k s e t e l e s a	0
 εξετελέσθην	e k s e t e l e s θ i n	0
 εξετράπην	e k s e t ɾ a p i n	0
+εξολοθρεύθηκα	e k s o l o θ ɾ e f θ i k a	0
+εξολοθρεύομαι	e k s o l o θ ɾ e v o m e	0
+εξολοθρεύτηκα	e k s o l o θ ɾ e f t i k a	0
+εξολοθρεύω	e k s o l o θ ɾ e v o	0
+εξολόθρευσα	e k s o l o θ ɾ e f s a	0
+εξολόθρεψα	e k s o l o θ ɾ e p s a	0
 εξοπλισμένα	e k s o p l i z m e n a	79
 εξοπλισμένε	e k s o p l i z m e n e	0
 εξοπλισμένεσ	e k s o p l i z m e n e s	0
@@ -2874,6 +3279,7 @@
 εορτάζω	e o ɾ t a z o	0
 εορτάσθηκα	e o ɾ t a s θ i k a	0
 εορτάστηκα	e o ɾ t a s t i k a	0
+επάγγελμα	e p a ŋ ɡ e l m a	440
 επάλειψα	e p a l i p s a	0
 επάρκεια	e p a ɾ c i a	151
 επέγραψα	e p e ɣ ɾ a p s a	0
@@ -2893,11 +3299,18 @@
 επαλείφω	e p a l i f o	0
 επαμφοτέριζα	e p a ɱ f o t e ɾ i z a	0
 επαμφοτερίζω	e p a ɱ f o t e ɾ i z o	0
+επανάφερα	e p a n a f e ɾ a	0
 επανέκαμψα	e p a n e k a m p s a	0
+επανέφερα	e p a n e f e ɾ a	2
 επανίδρυσα	e p a n i ð r i s a	0
 επανακάμπτω	e p a n a k a m p t o	0
 επανακάμψεισ	e p a n a k a m p s i s	0
 επαναλαμβάνω	e p a n a l a ɱ v a n o	127
+επαναφέρθηκα	e p a n a f e ɾ θ i k a	0
+επαναφέρομαι	e p a n a f e ɾ o m e	0
+επαναφέρομε	e p a n a f e ɾ o m e	0
+επαναφέρουμε	e p a n a f e ɾ u m e	42
+επαναφέρω	e p a n a f e ɾ o	19
 επανειλημμένα	e p a n i l i m e n a	152
 επανειλημμένε	e p a n i l i m e n e	0
 επανειλημμένεσ	e p a n i l i m e n e s	0
@@ -2923,10 +3336,10 @@
 επαρκείσ	e p a ɾ c i s	0
 επαρκώ	e p a ɾ k o	0
 επαρκώσ	e p a ɾ k o s	0
-επαρχία	e p a ɾ ç i a	368
-επαρχίασ	e p a ɾ ç i a s	0
-επαρχίεσ	e p a ɾ ç i e s	0
-επαρχιών	e p a ɾ ç i o n	31
+επαρχία	e p a ɾ ç i a	366
+επαρχίασ	e p a ɾ ç i a s	0
+επαρχίεσ	e p a ɾ ç i e s	0
+επαρχιών	e p a ɾ ç i o n	31
 επείγον	e p i ɣ o n	51
 επείγων	e p i ɣ o n	4
 επεγράφη	e p e ɣ r a f i	0
@@ -2935,6 +3348,14 @@
 επετράπη	e p e t ɾ a p i	30
 επετράπην	e p e t ɾ a p i n	0
 επετράπησαν	e p e t ɾ a p i s a n	0
+επηρεάζομαι	e p i ɾ e a z o m e	2
+επηρεάζω	e p i ɾ e a z o	2
+επιβάλλομαι	e p i v a l o	1
+επιβάλλω	e p i v a l o	9
+επιβιβάζομαι	e p i v i v a z o m e	0
+επιβιβάζω	e p i v i v a z o	0
+επιβιβάσθηκα	e p i v i v a s θ i k a	0
+επιβιβάστηκα	e p i v i v a s t i k a	1
 επιβλέπω	e p i v l e p o	2
 επιβλαβήσ	e p i v l a v i s	0
 επιγράφηκα	e p i ɣ r a f i k a	0
@@ -2950,6 +3371,12 @@
 επιγραφτήκαν	e p i ɣ r a f t i k a n	0
 επιγραφτήκανε	e p i ɣ r a f t i k a n e	0
 επιδαύρου	e p i ð a v ɾ u	57
+επιδοκιμάζομαι	e p i ð o c i m a z o m e	0
+επιδοκιμάζομε	e p i ð o c i m a z o m e	0
+επιδοκιμάζουμε	e p i ð o c i m a z u m e	0
+επιδοκιμάζω	e p i ð o c i m a z o	3
+επιδοκιμάσθηκα	e p i ð o c i m a s θ i k a	0
+επιδοκιμάστηκα	e p i ð o c i m a s t i k a	0
 επικάλυψα	e p i k a l i p s a	0
 επικαλύπτομαι	e p i k a l i p t o m e	0
 επικαλύπτομε	e p i k a l i p t o m e	0
@@ -2961,9 +3388,10 @@
 επικαρπία	e p i k a ɾ p i a	11
 επικείμενοσ	e p i c i m e n o s	0
 επικράτεια	e p i k r a t i a	230
+επικρατώ	e p i k r a t o	1
 επιλέγω	e p i l e ɣ o	57
 επιλογή	ɛ p i l ɔ ʝ i	3034
-επιλοχίασ	e p i l o ç i a s	0
+επιλοχίασ	e p i l o ç i a s	0
 επιπλέον	e p i p l e o n	3632
 επιπλέω	e p i p l e o	1
 επισείομαι	e p i s i o m e	0
@@ -2980,6 +3408,18 @@
 επιστρέφομε	e p i s t ɾ e f o m e	1
 επιστρέφουμε	e p i s t ɾ e f u m e	70
 επιστρέφω	e p i s t ɾ e f o	52
+επισυνάπτομαι	e p i s i n a p t o m e	0
+επισυνάπτομε	e p i s i n a p t o m e	0
+επισυνάπτουμε	e p i s i n a p t u m e	16
+επισυνάπτω	e p i s i n a p t o	17
+επισυνάφθηκα	e p i s i n a f θ i k a	0
+επισυνάφθηκαν	e p i s i n a f θ i k a n	0
+επισυνάφθηκε	e p i s i n a f θ i c e	1
+επισυνήφθη	e p i s i n i f θ i	0
+επισυνήφθην	e p i s i n i f θ i n	0
+επισυνήφθησαν	e p i s i n i f θ i s a n	0
+επισυνήψα	e p i s i n i p s a	0
+επισύναψα	e p i s i n a p s a	0
 επιτράπηκα	e p i t ɾ a p i k a	0
 επιτράπηκαν	e p i t ɾ a p i k a n	2
 επιτράπηκε	e p i t ɾ a p i c e	14
@@ -2989,22 +3429,24 @@
 επιτρέπομε	e p i t ɾ e p o m e	0
 επιτρέπουμε	e p i t ɾ e p u m e	49
 επιτρέπω	e p i t ɾ e p o	28
-επιτυχία	ɛ p i t i ç i a	2618
-επιχαίρω	e p i ç e r o	0
-επιχείρηση	e p i ç i ɾ i s i	1420
-επιχειρώ	e p i ç i r o	3
+επιτυχία	ɛ p i t i ç i a	2618
+επιχαίρω	e p i ç e r o	0
+επιχείρηση	e p i ç i ɾ i s i	1420
+επιχειρώ	e p i ç i r o	3
 επομένωσ	e p o m e n o s	0
 επρόκειτο	e p ɾ o c i t o	472
 επτά	e p t a	1039
-επτακόσια	e p t a k o s ç a	6
+επτακόσια	e p t a k o s ç a	6
 επωμίζομαι	e p o m i z o m e	0
 επωμίστηκα	e p o m i s t i k a	0
+επωνυμία	e p o n i m i a	156
 επόμενοσ	e p o m e n o s	0
 ερίτιμοσ	e ɾ i t i m o s	0
 ερασιτέχνησ	ɛ ɾ a s i t ɛ x n i s	0
-εργάζομαι	e ɾ ɣ a z o m e	80
+εργάζομαι	e ɾ ɣ a z o m e	79
 εργάστηκα	e ɾ ɣ a s t i k a	18
 εργαλειοθήκη	e r ɣ a l i o θ i c i	13
+ερεθίζω	e ɾ e θ i z o	0
 ερρίνωσ	e r i n o s	0
 ερρίνωση	e r i n o s i	0
 ερρινίζω	e r i n i z o	0
@@ -3054,8 +3496,14 @@
 εσώρουχο	e s o ɾ u x o	28
 ετάφην	e t a f i n	0
 ετεροφυλόφιλοσ	e t e ɾ o f i l o f i l o s	0
+ετοιμάζομαι	e t i m a z o	16
+ετοιμάζω	e t i m a z o	34
+ετοιμασία	e t i m a s i a	27
+ετοιμασίασ	e t i m a s i a s	0
+ετοιμασίεσ	e t i m a s i e s	0
+ετοιμασιών	e t i m a s i o n	1
 ετράπην	e t ɾ a p i n	0
-εὔχεται	e f ç e t e	0
+εὔχεται	e f ç e t e	0
 εὔχομαι	e f x o m e	0
 εὐσέβεια	e f s e v i a	0
 ευαγγελίζομαι	e v a ŋ ɟ e l i z o m e	0
@@ -3066,7 +3514,7 @@
 ευγηρία	e v ʝ i ɾ i a	0
 ευεπηρέαστοσ	e v e p i r e a s t o s	0
 ευθέωσ	e f θ e o s	0
-ευθανασία	e f θ a n a s i a	39
+ευθανασία	e f θ a n a s i a	38
 ευθεία	e f θ i a	308
 ευθυμία	e f θ i m i a	24
 ευθυμίασ	e f θ i m i a s	0
@@ -3075,7 +3523,8 @@
 ευκαιρία	e f k e r i a	3338
 ευκολότατοσ	e f k o l o t a t o s	0
 ευνοιοκρατία	e v n i o k ɾ a t i a	8
-ευρώπη	e v r o p i	3864
+ευρίσκω	e v ɾ i s k o	2
+ευρώπη	e v r o p i	3863
 ευσέβαστοσ	e f s e v a s t o s	0
 ευσέβεια	e f s e v i a	33
 ευσέβειασ	e f s e v i a s	0
@@ -3093,14 +3542,21 @@
 ευσεβών	e f s e v o n	10
 ευσεβώσ	e f s e v o s	0
 ευφροσύνη	e f ɾ o s i n i	22
-ευχή	e f ç i	362
-ευχήθηκα	e f ç i θ i k a	10
+ευχή	e f ç i	362
+ευχήθηκα	e f ç i θ i k a	10
 ευχαριστώ	e f x a ɾ i s t o	1669
-ευχετήριοσ	e f ç e t i r i o s	0
-ευχετικόσ	e f ç e t i k o s	0
+ευχετήριοσ	e f ç e t i r i o s	0
+ευχετικόσ	e f ç e t i k o s	0
 εφάπτομαι	e f a p t o m e	1
 εφέτοσ	e f e t o s	0
 εφαπτομένη	e f a p t o m e n i	0
+εφευρέθηκα	e f e v ɾ e θ i k a	0
+εφευρίσκομαι	e f e v ɾ i s k o m e	0
+εφευρίσκομε	e f e v ɾ i s k o m e	0
+εφευρίσκουμε	e f e v ɾ i s k u m e	1
+εφευρίσκω	e f e v ɾ i s k o	0
+εφεύρα	e f e v ɾ a	0
+εφηύρα	e f i v ɾ a	1
 εφοδίασα	e f o ð i a s a	0
 εφοδιάζομαι	e f o ð i a z o	1
 εφοδιάζω	e f o ð i a z o	0
@@ -3108,8 +3564,8 @@
 εφτά	e f t a	185
 εψέσ	e p s e s	0
 εόρτασα	e o ɾ t a s a	0
-εύβοια	e v i a	209
-εύχεται	e f ç e t e	145
+εύβοια	e v i a	208
+εύχεται	e f ç e t e	145
 εύχομαι	e f x o m e	900
 εἰσέπλευσα	i s e p l e f s a	0
 ζάκυνθε	z a c i n θ e	0
@@ -3149,17 +3605,21 @@
 ζηλευτόσ	z i l e f t o s	0
 ζηλεύομαι	z i l e v o m e	0
 ζηλεύω	z i l e v o	45
-ζητιάνευ'	z i t ç a n e f	0
-ζητιάνευε	z i t ç a n e v e	5
-ζητιάνεψα	z i t ç a n e p s a	0
-ζητιάνεψε	z i t ç a n e p s e	1
-ζητιανέψτε	z i t ç a n e p s t e	0
-ζητιανεύτε	z i t ç a n e f t e	0
-ζητιανεύω	z i t ç a n e v o	0
+ζημίωσα	z i m i o s a	0
+ζημιώθηκα	z i m i o θ i k a	0
+ζημιώνομαι	z i m i o n o m e	0
+ζημιώνω	z i m i o n o	0
+ζητιάνευ'	z i t ç a n e f	0
+ζητιάνευε	z i t ç a n e v e	5
+ζητιάνεψα	z i t ç a n e p s a	0
+ζητιάνεψε	z i t ç a n e p s e	1
+ζητιανέψτε	z i t ç a n e p s t e	0
+ζητιανεύτε	z i t ç a n e f t e	0
+ζητιανεύω	z i t ç a n e v o	0
 ζητῶ	z i t o	0
 ζητώ	z i t o	204
 ζουλάω	z u l a o	0
-ζωή	z o i	10926
+ζωή	z o i	10924
 ζωηρόσ	z o i r o s	0
 ζωντάνεψα	z o n d a n e p s a	0
 ζωντανεύω	z o n d a n e v o	0
@@ -3170,7 +3630,10 @@
 ζύθοσ	z i θ ɔ s	0
 ζώδιο	z o ð i o	306
 ζώο	z o o	333
-η	i	284990
+η	i	284969
+ηγέρθη	i ʝ e ɾ θ i	5
+ηγέρθην	i ʝ e ɾ θ i n	0
+ηγέρθησαν	i ʝ e ɾ θ i s a n	0
 ηγεμονεύω	i ʝ e m o n e v o	0
 ηγουμένη	i ɣ u m e n i	19
 ηγουμένησ	i ɣ u m e n i s	0
@@ -3218,15 +3681,15 @@
 θάβω	θ a v o	0
 θάλπω	θ a l p o	0
 θάφτηκα	θ a f t i k a	0
-θέλω	θ e l o	3420
+θέλω	θ e l o	3419
 θέματα	θ e m a t a	3768
 θέματοσ	θ e m a t o s	0
 θέροσ	θ e̞ r o̞ s	0
-θήβα	θ i v a	104
+θήβα	θ i v a	102
 θήβεσ	θ i v e s	0
-θήρα	θ i ɾ a	24
+θήρα	θ i ɾ a	22
 θήτα	θ i t a	7
-θα	θ a	154555
+θα	θ a	154554
 θαλαμηγέ	θ a l a m i ʝ e	0
 θαλαμηγό	θ a l a m i ɣ o	9
 θαλαμηγόσ	θ a l a m i ɣ o s	0
@@ -3242,9 +3705,9 @@
 θεία	θ i a	699
 θείον	θ i o n	40
 θεαματικότητα	θ e a m a t i k o t i t a	7
-θεμάτων	θ e m a t o n	462
+θεμάτων	θ e m a t o n	461
 θεοδώρα	θ e o ð o ɾ a	77
-θεοκρατία	θ e o k r a t i a	9
+θεοκρατία	θ e o k r a t i a	7
 θεούλησ	θ e u l i s	0
 θεούσα	θ e u s a	1
 θερμά	θ e r m a	393
@@ -3266,7 +3729,7 @@
 θερμοκρασία	θ ɛ ɾ m ɔ k ɾ a s i a	1138
 θεσσαλονίκη	θ e s a l o n i c i	1971
 θεσσαλονικιώτικοσ	θ e s a l o n i c ʝ o t i k o s	0
-θεωρία	θ e o r i a	999
+θεωρία	θ e o r i a	998
 θεωρεία	θ e o r i a	19
 θεωρείο	θ e o ɾ i o	4
 θεωρώ	θ e o r o	1245
@@ -3316,9 +3779,9 @@
 ιδρύουμε	i ð r i u m e	2
 ιδρύω	i ð r i o	0
 ιεράπετρα	i e ɾ a p e t ɾ a	37
-ιεράρχεσ	i e r a r ç e s	0
-ιεράρχη	i e r a r ç i	21
-ιεράρχησ	i e r a r ç i s	0
+ιεράρχεσ	i e r a r ç e s	0
+ιεράρχη	i e r a r ç i	21
+ιεράρχησ	i e r a r ç i s	0
 ιεραρχών	i e r a r x o n	56
 ιεροδουλία	i e ɾ o ð u l i a	0
 ιεροσόλυμα	i e ɾ o s o l i m a	61
@@ -3350,20 +3813,22 @@
 ιουδαίοσ	i u ð e o s	0
 ιουδαϊσμόσ	i u ð a i z m o s	0
 ιπποπόταμοσ	i p o p o t a m o s	0
+ιπτάμενοσ	i p t a m e n o s	0
+ιπταμένη	i p t a m e n i	0
 ιριδίζω	i r i ð i z o	0
 ιρλανδέζικοσ	i ɾ l a n ð e z i k o s	0
 ιρλανδία	i ɾ l a n ð i a	240
 ιρλανδικόσ	i ɾ l a n ð i k o s	0
 ισορροπία	i s o̞ r o̞ p i a	582
 ισπανία	i s p a n i a	852
-ισχίο	i s ç i o	19
+ισχίο	i s ç i o	19
 ισχνόσ	i s x n ɔ s	0
-ισχυρίζομαι	i s ç i ɾ i z o m e	19
-ισχυρίσθηκα	i s ç i ɾ i s θ i k a	0
-ισχυρίστηκα	i s ç i ɾ i s t i k a	3
-ισχυρισμόσ	i s ç i ɾ i z m o s	0
-ισχύω	i s ç i o	0
-ισχύων	i s ç i o n	4
+ισχυρίζομαι	i s ç i ɾ i z o m e	19
+ισχυρίσθηκα	i s ç i ɾ i s θ i k a	0
+ισχυρίστηκα	i s ç i ɾ i s t i k a	3
+ισχυρισμόσ	i s ç i ɾ i z m o s	0
+ισχύω	i s ç i o	0
+ισχύων	i s ç i o n	4
 ισόγειο	i s o ʝ i o	148
 ισόγειοσ	i s o ʝ i o s	0
 ισόπλευροσ	i s o p l e v r o s	0
@@ -3416,7 +3881,7 @@
 κέρδοσ	c e r ð o s	0
 κέρκυρα	c e r c i r a	449
 κέφι	c e f i	224
-κέφια	c e f ç a	57
+κέφια	c e f ç a	57
 κίμωλε	c i m o l e	0
 κίμωλο	c i m o l o	7
 κίμωλοσ	c i m o l o s	0
@@ -3441,7 +3906,7 @@
 καθίζοντασ	k a θ i z o n d a s	0
 καθίζω	k a θ i z o	3
 καθίκι	k a θ i c i	6
-καθαρεύουσα	k a θ a ɾ ɛ v u s a	18
+καθαρεύουσα	k a θ a ɾ ɛ v u s a	17
 καθαρματάκι	k a θ a ɾ m a t a c i	0
 καθαρματάρα	k a θ a ɾ m a t a ɾ a	0
 καθείλκυσα	k a θ i l c i s a	0
@@ -3475,7 +3940,18 @@
 καθομιλουμένησ	k a θ o m i l u m e n i s	0
 καθομιλουμένων	k a θ o m i l u m e n o n	0
 καθομιλούμενεσ	k a θ o m i l u m e n e s	0
-και	c e̞	657151
+καθορίζομαι	k a θ o ɾ i z o m e	0
+καθορίζομε	k a θ o ɾ i z o m e	0
+καθορίζουμε	k a θ o ɾ i z u m e	16
+καθορίζω	k a θ o ɾ i z o	2
+καθορίσθηκα	k a θ o ɾ i s θ i k a	0
+καθορίστηκα	k a θ o ɾ i s t i k a	0
+καθοριστικά	k a θ o ɾ i s t i k a	100
+και	c e̞	657139
+καινοτομία	c e n o t o m i a	278
+καινοτομίασ	c e n o t o m i a s	0
+καινοτομίεσ	c e n o t o m i e s	0
+καινοτομιών	c e n o t o m i o n	16
 καινοφανήσ	c e n o f a n i s	0
 καινοφανείσ	c e n o f a n i s	0
 κακογαμημένα	k a k o ɣ a m i m e n a	0
@@ -3489,13 +3965,13 @@
 κακογαμημένου	k a k o ɣ a m i m e n u	0
 κακογαμημένουσ	k a k o ɣ a m i m e n u s	0
 κακογαμημένων	k a k o ɣ a m i m e n o n	0
-κακοκεφιά	k a k o c e f i a	5
-κακοκεφιά	k a k o c e f ç a	5
-κακοκεφιάσ	k a k o c e f i a s	0
-κακοκεφιάσ	k a k o c e f ç a s	0
-κακοκεφιέσ	k a k o c e f i e s	0
-κακοκεφιέσ	k a k o c e f ç e s	0
-κακοκεφιών	k a k o c e f ç o n	0
+κακοκεφιά	k a k o c e f ç a	5
+κακοκεφιά	k a k o c e f i̯ a	5
+κακοκεφιάσ	k a k o c e f ç a s	0
+κακοκεφιάσ	k a k o c e f i̯ a s	0
+κακοκεφιέσ	k a k o c e f ç e s	0
+κακοκεφιέσ	k a k o c e f i̯ e s	0
+κακοκεφιών	k a k o c e f ç o n	0
 κακό	k a k o	1690
 κακόσ	k a k o s	0
 καλέ	k a l e	143
@@ -3600,7 +4076,7 @@
 καπνίζουμε	k a p n i z u m e	16
 καπνίζω	k a p n i z o	13
 καπνίστηκα	k a p n i s t i k a	0
-καπνοδόχε	k a p n o ð o ç e	0
+καπνοδόχε	k a p n o ð o ç e	0
 καπνοδόχο	k a p n o ð o x o	6
 καπνοδόχοσ	k a p n o ð o x o s	0
 καπνόσ	k a p n o̞ s	0
@@ -3610,9 +4086,9 @@
 καραπουτάνα	k a r a p u t a n a	0
 καρβέλι	k a r v e l i	23
 καργαδούρησ	k a r ɣ a ð u r i s	0
-καρδιά	k a r ð ʝ a	2206
+καρδιά	k a r ð ʝ a	2205
 καρδινάλιοσ	k a ɾ ð i n a l i o s	0
-καρδιόσχημοσ	k a ɾ ð i o s ç i m o s	0
+καρδιόσχημοσ	k a ɾ ð i o s ç i m o s	0
 καρεκλάκι	k a ɾ e k l a c i	12
 καρεκλίτσα	k a ɾ e k l i t s a	9
 καρεκλοκένταυροσ	k a ɾ e k l o c e n d a v ɾ o s	0
@@ -3620,20 +4096,39 @@
 καριόλησ	k a ɾ ʝ o l i s	0
 καρπάθου	k a ɾ p a θ u	14
 καστοριά	k a s t o ɾ ʝ a	131
-κατά	k a t a	24731
+κατά	k a t a	24723
+κατάβαλε	k a t a v a l e	0
+κατάβαλλε	k a t a v a l e	0
 κατάλευκοσ	k a t a l e f k o s	0
 κατάμαυρη	k a t a m a v ɾ i	8
 κατάμαυροι	k a t a m a v ɾ i	0
 κατάμαυροσ	k a t a m a v ɾ o s	0
 κατάστρεψα	k a t a s t ɾ e p s a	0
+κατάφερα	k a t a f e ɾ a	194
+κατέβαλα	k a t e v a l a	3
+κατέβαλε	k a t e v a l e	66
+κατέβαλλα	k a t e v a l a	0
+κατέβαλλε	k a t e v a l e	17
 κατέγραψα	k a t e ɣ r a p s a	13
 κατέλυσα	k a t e l i s a	0
 κατέπλευσα	k a t e p l e f s a	0
 κατέρρευσα	k a t e r e f s a	0
 κατέστρεψα	k a t e s t ɾ e p s a	3
+κατέφερα	k a t e f e ɾ a	0
 κατέφθασα	k a t e f θ a s a	1
 κατέφτασα	k a t e f t a s a	0
-κατίσχυσα	k a t i s ç i s a	0
+κατίσχυσα	k a t i s ç i s a	0
+καταβάλετε	k a t a v a l e t e	12
+καταβάλλεται	k a t a v a l e t e	141
+καταβάλλετε	k a t a v a l e t e	8
+καταβάλλομαι	k a t a v a l o m e	0
+καταβάλλομε	k a t a v a l o m e	0
+καταβάλλουμε	k a t a v a l u m e	19
+καταβάλλω	k a t a v a l o	6
+καταβάλομε	k a t a v a l o m e	0
+καταβάλουμε	k a t a v a l u m e	24
+καταβάλω	k a t a v a l o	7
+καταβλήθηκα	k a t a v l i θ i k a	0
 καταγράφηκα	k a t a ɣ r a f i k a	0
 καταγράφομαι	k a t a ɣ r a f o m e	0
 καταγράφομε	k a t a ɣ r a f o m e	0
@@ -3642,6 +4137,11 @@
 καταγράφω	k a t a ɣ r a f o	14
 καταγραφείσ	k a t a ɣ r a f i s	0
 καταγραφτείσ	k a t a ɣ r a f t i s	0
+καταδίωξα	k a t a ð i o k s a	0
+καταδιώκομαι	k a t a ð i o k o m e	0
+καταδιώκω	k a t a ð i o k o	0
+καταδιώχθηκα	k a t a ð i o x θ i k a	0
+καταδιώχτηκα	k a t a ð i o x t i k a	0
 καταδύομαι	k a t a ð i o m e	0
 καταδύσεισ	k a t a ð i s i s	0
 καταιγίδα	k a t e ʝ i ð a	130
@@ -3649,7 +4149,7 @@
 καταιγίδεσ	k a t e ʝ i ð e s	0
 καταιγίδων	k a t e ʝ i ð o n	15
 κατακάθι	k a t a k a θ i	10
-κατακάθια	k a t a k a θ ç a	7
+κατακάθια	k a t a k a θ ç a	7
 καταλυθήκαν	k a t a l i θ i k a n	0
 καταλυθήκανε	k a t a l i θ i k a n e	0
 καταλύθηκα	k a t a l i θ i k a	0
@@ -3675,9 +4175,13 @@
 καταξοδιάστηκα	k a t a k s o ð ʝ a s t i k a	0
 καταξόδεψα	k a t a k s o ð e p s a	0
 καταξόδιασα	k a t a k s o ð ʝ a s a	0
+καταπίνω	k a t a p i n o	7
 καταπλέω	k a t a p l e o	0
 καταρρέω	k a t a r e o	1
+κατασκευάζομαι	k a t a s c e v a z o	0
 κατασκευάζω	k a t a s c e v a z o	4
+κατασκευάστηκα	k a t a s c e v a s t i k a	0
+κατασκεύασα	k a t a s c e v a s a	5
 κατασκοπεύω	k a t a s k o p e v o	1
 κατασκόπευσα	k a t a s k o p e f s a	0
 κατασκόπεψα	k a t a s k o p e p s a	0
@@ -3686,6 +4190,11 @@
 καταστρέφομε	k a t a s t ɾ e f o m e	0
 καταστρέφουμε	k a t a s t ɾ e f u m e	14
 καταστρέφω	k a t a s t ɾ e f o	2
+καταφέρθηκα	k a t a f e ɾ θ i k a	0
+καταφέρνομαι	k a t a f e ɾ n o m e	0
+καταφέρνω	k a t a f e ɾ n o	41
+καταφέρομαι	k a t a f e ɾ o m e	2
+καταφέρω	k a t a f e ɾ o	95
 καταφθάνω	k a t a f θ a n o	0
 καταφτάνω	k a t a f t a n o	0
 κατελύθη	k a t e l i θ i	1
@@ -3695,7 +4204,7 @@
 κατεργάζομαι	k a t e r ɣ a z o m e	0
 κατεργάσθηκα	k a t e r ɣ a s θ i k a	0
 κατεργάστηκα	k a t e r ɣ a s t i k a	0
-κατισχύω	k a t i s ç i o	0
+κατισχύω	k a t i s ç i o	0
 κατουράω	k a t u ɾ a o	0
 κατουριέμαι	k a t u ɾ ʝ e m e	2
 κατουρλιό	k a t u ɾ ʎ o	0
@@ -3736,6 +4245,8 @@
 κεραμίδι	c e ɾ a m i ð i	13
 κερατάσ	c e ɾ a t a s	0
 κερατώνω	c e ɾ a t o n o	0
+κεραυνόσ	c e r a v n o s	0
+κερδίζομαι	c e r ð i z o m e	0
 κερδίζω	c e r ð i z o	16
 κεριά	c e r ʝ a	154
 κεριού	c e r ʝ u	36
@@ -3750,8 +4261,8 @@
 κετσέσ	k e t s e s	0
 κεφάτοσ	c e f a t o s	0
 κεφαλάρι	c e̞ f a l a r i	20
-κεφιού	c e f ç u	10
-κεφιών	c e f ç o n	0
+κεφιού	c e f ç u	10
+κεφιών	c e f ç o n	0
 κηροπήγιο	c i ɾ o p i ʝ i o	15
 κηφισιά	c i f i s j a	144
 κι	c	27461
@@ -3799,6 +4310,8 @@
 κλέψασ	k l e p s a s	0
 κλέψω	k l e p s o	11
 κλήση	k l i s i	182
+κλίνομαι	k l i n o m e	0
+κλίνομε	k l i n o m e	0
 κλίση	k ʎ i s i	166
 κλαίω	k l e o	74
 κλαδεύομαι	k l a ð e v o m e	0
@@ -3835,7 +4348,7 @@
 κοίτη	c i t i	59
 κοζάνη	k o z a n i	164
 κοιμάμαι	c i m a m e	47
-κοινή	c i n i	1454
+κοινή	c i n i	1452
 κοινοβίτησ	c i n o v i t i s	0
 κοινοβιάτησ	c i n o v i a t i s	0
 κοινολέκτου	c i n o l e k t u	0
@@ -3902,14 +4415,14 @@
 κορίτσαρουσ	k o r i t s a r u s	0
 κορίτσαρων	k o r i t s a r o n	0
 κορίτσι	k ɔ ɾ i t s i	558
-κορίτσια	k o ɾ i t s ç a	722
+κορίτσια	k o ɾ i t s ç a	722
 κορακίστικα	k o ɾ a c i s t i k a	1
 κορασίδα	k o ɾ a s i ð a	3
 κοριτσάρα	k o r i t s a r a	0
 κοριτσάρασ	k o r i t s a r a s	0
 κοριτσάρεσ	k o r i t s a r e s	0
-κοριτσιού	k o ɾ i t s ç u	102
-κοριτσιών	k o ɾ i t s ç o n	144
+κοριτσιού	k o ɾ i t s ç u	102
+κοριτσιών	k o ɾ i t s ç o n	144
 κορνάρισμα	k o ɾ n a ɾ i z m a	7
 κορνάρω	k o r n a r o	0
 κοροϊδέψτε	k o ɾ o i̯ ð e p s t e	1
@@ -3941,10 +4454,14 @@
 κουκλίτσα	k u k l i t s a	16
 κουκουλοφόροσ	k u k u l o f o ɾ o s	0
 κουκούλα	k u k u l a	82
+κουλουριάζομαι	k u l u ɾ ʝ a z o m e	0
+κουλουριάζω	k u l u ɾ ʝ a z o	0
+κουλουριάστηκα	k u l u ɾ ʝ a s t i k a	0
 κουλούρι	k u l u ɾ i	25
+κουλούριασα	k u l u ɾ ʝ a s a	0
 κουμπάροσ	k u m b a r o s	0
 κουνουπίδι	k u n u p i ð i	41
-κουντεπιέ	k u d e p ç e	5
+κουντεπιέ	k u d e p ç e	5
 κουπάκι	k u p a c i	1
 κουπάκια	k u p a c a	0
 κουράδα	k u ɾ a ð a	18
@@ -3952,6 +4469,9 @@
 κουράδω	k u ɾ a ð o	0
 κουράζομαι	k u ɾ a z o m e	6
 κουράστηκα	k u ɾ a s t i k a	31
+κουρέλι	k u ɾ e l i	12
+κουρέλια	k u ɾ e ʎ a	20
+κουρέλιασα	k u ɾ e ʎ a s a	0
 κουραδομηχανή	k u ɾ a ð o m i x a n i	0
 κουραδόμαγκασ	k u ɾ a ð o m a ŋ ɡ a s	0
 κουρασμένα	k u r a z m e n a	18
@@ -3976,6 +4496,11 @@
 κουραστικό	k u r a s t i k o	51
 κουραστικόσ	k u r a s t i k o s	0
 κουραστικών	k u r a s t i k o n	1
+κουρελιάζομαι	k u ɾ e ʎ a z o m e	0
+κουρελιάζω	k u ɾ e ʎ a z o	0
+κουρελιάστηκα	k u ɾ e ʎ a s t i k a	0
+κουρελιού	k u ɾ e ʎ u	0
+κουρελιών	k u ɾ e ʎ o n	0
 κουρεύομαι	k u ɾ e v o m e	0
 κουρεύτηκα	k u ɾ e f t i k a	1
 κουρεύω	k u ɾ e v o	0
@@ -4012,10 +4537,14 @@
 κράζω	k ɾ a z o	4
 κράμβη	k r a ɱ v i	2
 κρέασ	k r e̞ a s	0
-κρήτη	k r i t i	1038
-κρίνο	k r i n o	13
-κρίνομαι	k r i n o m e	2
+κρήτη	k r i t i	1037
+κρίθηκα	k ɾ i θ i k a	1
+κρίνο	k r i n o	12
+κρίνομαι	k ɾ i n o m e	2
+κρίνομε	k ɾ i n o m e	0
 κρίνου	k r i n u	4
+κρίνουμε	k ɾ i n u m e	165
+κρίνω	k ɾ i n o	115
 κρίνων	k r i n o n	7
 κραγιόν	k ɾ a ʝ ɔ n	150
 κραγμένα	k r a ɣ m e n a	1
@@ -4101,7 +4630,7 @@
 κυράτσα	c i ɾ a t s a	5
 κυριακάτικα	c i r ʝ a k a t i k a	17
 κυριακάτικοσ	c i r ʝ a k a t i k o s	0
-κυριακή	c i r ʝ a c i	3156
+κυριακή	c i r ʝ a c i	3155
 κυριολεκτικά	c i ɾ i o l e k t i k a	552
 κυρογενιά	c i r o ʝ e ɲ a	0
 κυρούλα	c i r u l a	0
@@ -4113,7 +4642,7 @@
 κωλοπηλάλα	k o l o p i l a l a	0
 κωλοτρυπίδα	k o l o t r i p i ð a	11
 κωλοφυλλάδα	k o l o f i l a ð a	1
-κωλοφωτιά	k o l o f o t ç a	0
+κωλοφωτιά	k o l o f o t ç a	0
 κωλόγεροσ	k o l o ʝ e ɾ o s	0
 κωλόγρια	k o l o ɣ ɾ i a	2
 κωλόπαιδο	k o l o p e ð o	8
@@ -4131,7 +4660,7 @@
 κωνσταντίνο	k o n s t a n d i n o	241
 κωνσταντίνο	t o ŋ ɡ o n s t a n d i n o	241
 κωνσταντίνοσ	k o n s t a n d i n o s	0
-κωνσταντίνου	k o n s t a n d i n u	416
+κωνσταντίνου	k o n s t a n d i n u	415
 κωνσταντῖνοσ	k o n s t a n d i n o s	0
 κωνσταντινουπόλεωσ	k o n s t a n d i n u p o l e o s	0
 κωνσταντινούπολη	k o n s t a n d i n u p o l i	438
@@ -4153,7 +4682,7 @@
 κόκκινεσ	k o c i n e s	0
 κόκκινη	k o c i n i	438
 κόκκινησ	k o c i n i s	0
-κόκκινο	k o c i n o	979
+κόκκινο	k o c i n o	978
 κόκκινοι	k o c i n i	34
 κόκκινοσ	k o c i n o s	0
 κόκκινου	k o c i n u	133
@@ -4195,8 +4724,8 @@
 λάμπω	l a m b o	2
 λάμψεισ	l a m p s i s	0
 λάρισα	l a r i s a	401
-λάρνακα	l a ɾ n a k a	59
-λάτρα	l a t ɾ a	3
+λάρνακα	l a ɾ n a k a	58
+λάτρα	l a t ɾ a	2
 λάτρεψα	l a t ɾ e p s a	52
 λέγει	l e ʝ i	291
 λέγεισ	l e ʝ i s	0
@@ -4204,7 +4733,7 @@
 λέγετε	l e ʝ e t e	20
 λέγομε	l e ɣ o m e	0
 λέγουμε	l e ɣ u m e	3
-λέγω	l e ɣ o	62
+λέγω	l e ɣ o	61
 λέει	l e i	6682
 λέμε	l e m e	1776
 λέσβε	l e z v e	0
@@ -4231,7 +4760,7 @@
 λαμβάνομαι	l a m v a n o m e	0
 λανθάνων	l a n θ a n o n	4
 λαογράφοσ	l a o ɣ ɾ a f o s	0
-λαογραφία	l a o ɣ ɾ a f i a	22
+λαογραφία	l a o ɣ ɾ a f i a	21
 λασίθι	l a s i θ i	34
 λατρεύομαι	l a t ɾ e v o m e	0
 λατρεύτηκα	l a t ɾ e f t i k a	0
@@ -4258,11 +4787,11 @@
 λευκοπίνακασ	l e f k o p i n a k a s	0
 λευκούσ	l e f k u s	0
 λευκό	l e f k o	890
-λευκόσ	l e f k o s	1
+λευκόσ	l e f k o s	0
 λευκότεροσ	l e f k o t e r o s	0
 λευκώ	l e f k o	16
 λευκών	l e f k o n	75
-λευχαιμία	l e f ç e m i a	42
+λευχαιμία	l e f ç e m i a	42
 ληστήσ	l i s t i s	0
 ληστεύω	l i s t e v o	0
 λητώ	l i t o	11
@@ -4286,7 +4815,7 @@
 λιγότερων	l i ɣ o t e r o n	16
 λικέρ	l i c e ɾ	103
 λικεράκι	l i c e ɾ a c i	2
-λιμάνι	l i m a n i	1053
+λιμάνι	l i m a n i	1052
 λιμένα	l i m e n a	90
 λιμένασ	l i m e n a s	0
 λιμένεσ	l i m e n e s	0
@@ -4294,9 +4823,11 @@
 λιμένων	l i m e n o n	34
 λιμπίζομαι	l i m b i z o m e	0
 λιμπίστηκα	l i m b i s t i k a	0
+λιμόσ	l i m o s	0
 λιοντάρι	ʎ ɔ n d a ɾ i	130
 λιπών	l i p o n	31
 λιτόσ	l i t o s	0
+λιτότητα	l i t o t i t a	291
 λιόψωμα	ʎ o p s o m a	0
 λιόψωμο	ʎ o p s o m o	0
 λιόψωμου	ʎ o p s o m u	0
@@ -4304,6 +4835,11 @@
 λιώνω	ʎ o n o	2
 λογίζομαι	l o ʝ i z o m e	0
 λογίστηκα	l o ʝ i s t i k a	0
+λογοκρίθηκα	l o ɣ o k ɾ i θ i k a	0
+λογοκρίνομαι	l o ɣ o k ɾ i n o m e	0
+λογοκρίνω	l o ɣ o k ɾ i n o	1
+λογόκρινα	l o ɣ o k ɾ i n a	0
+λοιμόσ	l i m o s	0
 λοιπόν	l i p o n	9681
 λονδίνο	l o n ð i n o	619
 λουιζιάνα	l u i z i a n a	12
@@ -4313,11 +4849,11 @@
 λουτράκι	l u t ɾ a c i	77
 λουφάρω	l u f a ɾ o	0
 λουφαδόροσ	l u f a ð o ɾ o s	0
-λοχίασ	l o ç i a s	0
+λοχίασ	l o ç i a s	0
 λούζομαι	l u z o m e	0
 λούζω	l u z o	0
 λούστηκα	l u s t i k a	0
-λούφα	l u f a	19
+λούφα	l u f a	17
 λυγξ	l i ŋ k s	0
 λυθήκαμε	l i θ i k a m e	0
 λυθήκαν	l i θ i k a n	0
@@ -4425,7 +4961,7 @@
 λύσσα	l i s a	57
 λύστε	l i s t e	15
 λύσω	l i s o	33
-λύω	l i o	3
+λύω	l i o	2
 μάγκασ	m a ŋ ɡ a s	0
 μάγοσ	m a ɣ ɔ s	0
 μάδυτοσ	m a ð i t o s	0
@@ -4447,7 +4983,7 @@
 μάστιγα	m a s t i ɣ a	62
 μάστορασ	m a s t o r a s	0
 μάτα	m a t a	19
-μάτια	m a t ç a	2994
+μάτια	m a t ç a	2994
 μάϊσνερ	m a i z n e r	0
 μέγαρα	m e ɣ a ɾ a	68
 μέγασ	m e ɣ a s	0
@@ -4462,7 +4998,7 @@
 μέρεψε	m e ɾ e p s e	0
 μέριλαντ	m e ɾ i l a n d	9
 μέροσ	m e ɾ o s	0
-μέσα	m e s a	21751
+μέσα	m e s a	21750
 μέσο	m e s o	1698
 μέσω	m e s o	6262
 μέτσοβο	m e t s o v o	21
@@ -4565,7 +5101,7 @@
 μαλώνω	m a l o n o	7
 μαμμόθρεφτοσ	m a m o θ ɾ e f t o s	0
 μανάβησ	m a n a v i s	0
-μαντεία	m a n d i a	12
+μαντεία	m a n d i a	11
 μαντεύομαι	m a n d e v o m e	0
 μαντεύτηκα	m a n d e f t i k a	0
 μαντεύω	m a n d e v o	4
@@ -4583,10 +5119,11 @@
 μαρκαδόροσ	m a ɾ k a ð o ɾ o s	0
 μαρκαρίστηκα	m a ɾ k a ɾ i s t i k a	0
 μασαχουσέτη	m a s a x u s e t i	10
-μασσαλία	m a s a l i a	34
+μασσαλία	m a s a l i a	33
 μαστίζομαι	m a s t i z o m e	0
 μαστίζω	m a s t i z o	0
 μαστόσ	m a s t o s	0
+μασχάλη	m a s x a l i	33
 ματζόρε	m a d z o ɾ e	2
 ματοβαμμένα	m a t o v a m e n a	0
 ματοβαμμένε	m a t o v a m e n e	0
@@ -4607,6 +5144,8 @@
 ματόκλαδο	m a t o k l a ð o	1
 ματόκλαδου	m a t o k l a ð u	0
 ματόκλαδων	m a t o k l a ð o n	0
+ματώθηκα	m a t o θ i k a	0
+ματώνομαι	m a t o n o m e	0
 μαυρίζω	m a v r i z o	1
 μαυρισμένα	m a v r i z m e n a	3
 μαυρισμένε	m a v r i z m e n e	0
@@ -4661,7 +5200,11 @@
 μεσοστρατίσ	m e s o s t ɾ a t i s	0
 μετάπτωση	m e t a p t o s i	8
 μετάπτωσησ	m e t a p t o s i s	0
+μετάφερε	m e t a f e ɾ e	3
+μετάφρασα	m e t a f ɾ a s a	0
 μετέτρεψα	m e t e t r e p s a	6
+μετέφερα	m e t e f e ɾ a	16
+μετέφρασα	m e t e f ɾ a s a	3
 μετέχω	m e t e x o	6
 μεταπτώσεισ	m e t a p t o s i s	0
 μεταπτώσεων	m e t a p t o s e o n	1
@@ -4671,8 +5214,27 @@
 μετατρέπομε	m e t a t ɾ e p o m e	0
 μετατρέπουμε	m e t a t ɾ e p u m e	14
 μετατρέπω	m e t a t ɾ e p o	3
+μεταφέρετε	m e t a f e ɾ e t e	94
+μεταφέρθηκα	m e t a f e ɾ θ i k a	6
+μεταφέρομαι	m e t a f e ɾ o m e	1
+μεταφέρομε	m e t a f e ɾ o m e	0
+μεταφέρουμε	m e t a f e ɾ u m e	144
+μεταφέρω	m e t a f e ɾ o	98
+μεταφράζομαι	m e t a f ɾ a z o m e	0
+μεταφράζω	m e t a f ɾ a z o	8
+μεταφράσθηκα	m e t a f ɾ a s θ i k a	0
+μεταφράστηκα	m e t a f ɾ a s t i k a	0
 μεταφρασιολογία	m e t a f r a s i o l o ʝ i a	0
 μεταφρασιολογίασ	m e t a f r a s i o l o ʝ i a s	0
+μεταφραστέσ	m e t a f ɾ a s t e s	0
+μεταφραστή	m e t a f ɾ a s t i	26
+μεταφραστήσ	m e t a f ɾ a s t i s	0
+μεταφραστών	m e t a f ɾ a s t o n	9
+μεταφυτεύομαι	m e t a f i t e v o m e	0
+μεταφυτεύτηκα	m e t a f i t e f t i k a	0
+μεταφυτεύω	m e t a f i t e v o	0
+μεταφύτευσα	m e t a f i t e f s a	0
+μεταφύτεψα	m e t a f i t e p s a	0
 μετρονόμοσ	m e t ɾ o n o m o s	0
 μη	m i	8963
 μηνύθηκα	m i n i θ i k a	0
@@ -4723,10 +5285,10 @@
 μολογάω	m o l o ɣ a o	0
 μολογώ	m o l o ɣ o	0
 μολύβι	m ɔ l i v i	148
-μονάρχεσ	m o n a r ç e s	0
-μονάρχη	m o n a r ç i	10
-μονάρχησ	m o n a r ç i s	0
-μοναξιά	m o n a k s ç a	276
+μονάρχεσ	m o n a r ç e s	0
+μονάρχη	m o n a r ç i	10
+μονάρχησ	m o n a r ç i s	0
+μοναξιά	m o n a k s ç a	276
 μοναρχών	m o n a r x o n	4
 μοναχόσ	m o n a x o s	0
 μοντέλο	m o d e l o	1187
@@ -4770,12 +5332,14 @@
 μπέρδεψα	b e ɾ ð e p s a	10
 μπαγκέτα	b a ɟ e t a	23
 μπαλαδόροσ	b a l a ð o ɾ o s	0
+μπαλώνω	b a l o n o	0
 μπαμπάσ	b a b a s	0
 μπαμπούλασ	b a b u l a s	0
 μπανιέρα	b a ɲ e ɾ a	88
 μπανιερίτσα	b a ɲ e ɾ i t s a	0
 μπανιερούλα	b a ɲ e ɾ u l a	0
 μπαράζ	b a ɾ a z	199
+μπαρδόν	b a ɾ ð o n	4
 μπαρκάριζα	b a ɾ k a ɾ i z a	0
 μπαρκάριζε	b a ɾ k a ɾ i z e	1
 μπαρκάρισα	b a ɾ k a ɾ i s a	0
@@ -4843,7 +5407,7 @@
 μυγοπαγίδα	m i ɣ o p a ʝ i ð a	1
 μυγοσκοτώστρα	m i ɣ o s k o t o s t ɾ a	1
 μυγούλα	m i ɣ u l a	0
-μυθολογία	m i θ o l o ʝ i a	172
+μυθολογία	m i θ o l o ʝ i a	171
 μυκήνεσ	m i c i n e s	0
 μυκτήρ	m i k t i r	0
 μυκόνου	m i k o n u	78
@@ -4885,8 +5449,11 @@
 μύτη	m i t i	412
 νάζαρα	n a z a r a	0
 νάζι	n a z i	19
+νάνου	n a n u	8
+νάνων	n a n o n	5
 νάουσα	n a u s a	69
 νέμεσισ	n ɛ m ɛ s i s	0
+νέο	n e o	6253
 νήσε	n i s e	0
 νήσο	n i s o	42
 νήσσα	n i s a	0
@@ -4925,7 +5492,7 @@
 νεκροφόρα	n e k ɾ o f o ɾ a	1
 νεκρό	n e k ɾ o	255
 νεκρόσ	n e k ɾ o s	0
-νεοελληνικά	n e o e l i n i k a	7
+νεοελληνικά	n e o e l i n i k a	6
 νεοελληνική	n e o e l i n i c i	88
 νεοζηλανδή	n e o z i l a n ð i	3
 νεπάλ	n ɛ p aː l	44
@@ -4940,9 +5507,13 @@
 νιάτων	ɲ a t o n	3
 νικήτρια	n i c i t ɾ i a	138
 νικολάου	n i k o l a u	433
+νοίκιασα	n i c a s a	3
 νοητόσ	n o i t o s	0
 νοιάζει	ɲ a z i	249
 νοιάζομαι	ɲ a z o m e	13
+νοικιάζομαι	n i c a z o m e	0
+νοικιάζω	n i c a z o	5
+νοικιάστηκα	n i c a s t i k a	0
 νομίζω	n o m i z o	2705
 νοσοκομείο	n ɔ s ɔ k ɔ m i ɔ	1684
 νοσοκόμοσ	n o s o k o m o s	0
@@ -5002,23 +5573,23 @@
 ντροπαλή	d ɾ o p a l i	15
 ντροπαλοί	d ɾ o p a l i	4
 ντροπαλόσ	d ɾ o p a l o s	0
-ντροπιάζομαι	d ɾ o p ç a z o m e	0
-ντροπιάζω	d ɾ o p ç a z o	0
-ντροπιασμένα	d ɾ o p ç a z m e n a	3
-ντροπιασμένε	d ɾ o p ç a z m e n e	0
-ντροπιασμένεσ	d ɾ o p ç a z m e n e s	0
-ντροπιασμένη	d ɾ o p ç a z m e n i	5
-ντροπιασμένησ	d ɾ o p ç a z m e n i s	0
-ντροπιασμένο	d ɾ o p ç a z m e n o	2
-ντροπιασμένοι	d ɾ o p ç a z m e n i	6
-ντροπιασμένοσ	d ɾ o p ç a z m e n o s	0
-ντροπιασμένου	d ɾ o p ç a z m e n u	0
-ντροπιασμένουσ	d ɾ o p ç a z m e n u s	0
-ντροπιασμένων	d ɾ o p ç a z m e n o n	0
-ντροπιαστικά	d ɾ o p ç a s t i k a	3
-ντροπιαστική	d ɾ o p ç a s t i c i	17
-ντροπιαστικοί	d ɾ o p ç a s t i c i	0
-ντροπιαστικόσ	d ɾ o p ç a s t i k o s	0
+ντροπιάζομαι	d ɾ o p ç a z o m e	0
+ντροπιάζω	d ɾ o p ç a z o	0
+ντροπιασμένα	d ɾ o p ç a z m e n a	3
+ντροπιασμένε	d ɾ o p ç a z m e n e	0
+ντροπιασμένεσ	d ɾ o p ç a z m e n e s	0
+ντροπιασμένη	d ɾ o p ç a z m e n i	5
+ντροπιασμένησ	d ɾ o p ç a z m e n i s	0
+ντροπιασμένο	d ɾ o p ç a z m e n o	2
+ντροπιασμένοι	d ɾ o p ç a z m e n i	6
+ντροπιασμένοσ	d ɾ o p ç a z m e n o s	0
+ντροπιασμένου	d ɾ o p ç a z m e n u	0
+ντροπιασμένουσ	d ɾ o p ç a z m e n u s	0
+ντροπιασμένων	d ɾ o p ç a z m e n o n	0
+ντροπιαστικά	d ɾ o p ç a s t i k a	3
+ντροπιαστική	d ɾ o p ç a s t i c i	17
+ντροπιαστικοί	d ɾ o p ç a s t i c i	0
+ντροπιαστικόσ	d ɾ o p ç a s t i k o s	0
 ντόρα	d o ɾ a	191
 νυστάζω	n i s t a z o	5
 νυχτερίδα	n i x t ɛ ɾ i ð a	13
@@ -5068,10 +5639,17 @@
 ξεγράφτηκα	k s e ɣ r a f t i k a	0
 ξεγράφω	k s e ɣ r a f o	0
 ξεκινάω	k s e c i n o	50
-ξεκωλιάζω	k s e k o l ʝ a z o	0
+ξεκουράζομαι	k s e k u ɾ a z o m e	7
+ξεκουράζω	k s e k u ɾ a z o	0
+ξεκουράστηκα	k s e k u ɾ a s t i k a	2
+ξεκούρασα	k s e k u ɾ a s a	0
+ξεκωλιάζομαι	k s e k o ʎ a z o m e	0
+ξεκωλιάζω	k s e k o ʎ a z o	0
 ξεκωλιάρα	k s e k o ʎ a ɾ a	0
 ξεκωλιάρησ	k s e k o ʎ a ɾ i s	0
+ξεκωλιάστηκα	k s e k o ʎ a s t i k a	0
 ξεκωλώνω	k s e k o l o n o	0
+ξεκώλιασα	k s e k o ʎ a s a	0
 ξελύθηκα	k s e l i θ i k a	1
 ξελύνομαι	k s e l i n o m e	0
 ξελύνω	k s e l i n o	0
@@ -5082,11 +5660,12 @@
 ξενέρωτοσ	k s e n e ɾ o t o s	0
 ξενιτειά	k s e n i t ʝ a	8
 ξενιτιά	k s e n i t ʝ a	31
-ξενοδοχείο	k s e n o ð o ç i o	1056
-ξενοδοχειακόσ	k s e̞ n o̞ ð o̞ ç ɐ o̞ s	0
+ξενοδοχείο	k s e n o ð o ç i o	1056
+ξενοδοχειακόσ	k s e̞ n o̞ ð o̞ ç ɐ o̞ s	0
 ξενοδοχοϋπάλληλοσ	k s e n o ð o x o i p a l i l o s	0
 ξενοδόχα	k s e n o ð o x a	0
 ξενοδόχοσ	k s e n o ð o x o s	0
+ξεπροβάλλω	k s e p ɾ o v a l o	0
 ξερογλείφομαι	k s e ɾ o ɣ l i f o m e	0
 ξερογλείφτηκα	k s e ɾ o ɣ l i f t i k a	0
 ξερόλα	k s e ɾ o l a	1
@@ -5101,15 +5680,15 @@
 ξεσκατώνω	k s e s k a t o n o	0
 ξεσπίτωμα	k s e s p i t o m a	3
 ξεσπιτώνω	k s e s p i t o n o	0
-ξεχέζω	k s e ç e z o	0
-ξεχειλίζω	k s e ç i l i z o	0
+ξεχέζω	k s e ç e z o	0
+ξεχειλίζω	k s e ç i l i z o	0
 ξεχνώ	k s e x n o	31
 ξεψυχάω	k s e p s i x a o	0
 ξεψυχώ	k s e p s i x o	0
 ξι	k s i	3
 ξινίλα	k s i n i l a	4
 ξινό	k s i n o	11
-ξιφιόσ	k s i f ç o s	0
+ξιφιόσ	k s i f ç o s	0
 ξοδεύομαι	k s o ð e v o m e	0
 ξοδεύτηκα	k s o ð e f t i k a	0
 ξοδεύω	k s o ð e v o	10
@@ -5125,7 +5704,7 @@
 ξύλινοσ	k s i l i n o s	0
 ξύλο	k s i l o	592
 ξύνω	k s i n o	6
-ο	o̞	190824
+ο	o̞	190810
 οίκοσ	i k o s	0
 ογδοήκοντα	o ɣ ð o i k o n d a	0
 οδέ	o ð e	0
@@ -5133,12 +5712,13 @@
 οδού	o ð u	614
 οδούσ	o ð u s	0
 οδό	o ð o	1015
-οδών	o ð o n	199
+οδών	o ð o n	198
 οικογένεια	i k ɔ ʝ ɛ n i a	2327
 οικογενειοκρατία	i k o ʝ e n i o k ɾ a t i a	6
 οικοδομικόσ	i k o ð o m i k o s	0
+οικονόμοσ	i k o n o m o s	0
 οινόπνευμα	i n o p n e v m a	72
-οκτακόσια	o k t a k o s ç a	6
+οκτακόσια	o k t a k o s ç a	6
 οκτώ	o k t o	776
 ολάκεροσ	o l a c e r o s	0
 ολίγοσ	o l i ɣ o s	0
@@ -5171,6 +5751,12 @@
 ομόλογοσ	o m o l o ɣ o s	0
 ον	o n	175
 ονειρεύτηκα	o n i ɾ e f t i k a	10
+ονομάζομαι	o n o m a z o m e	32
+ονομάζομε	o n o m a z o m e	1
+ονομάζουμε	o n o m a z u m e	138
+ονομάζω	o n o m a z o	28
+ονομάστηκα	o n o m a s t i k a	1
+ονομαστικά	o n o m a s t i k a	40
 οπίου	o p i u	11
 οπαδόσ	ɔ p a ð ɔ s	0
 οπερέτα	o p e ɾ e t a	11
@@ -5206,7 +5792,7 @@
 οσμίζομαι	o z m i z o m e	0
 οσμίστηκα	o z m i s t i k a	0
 οστεοφυλάκιο	o s t e o f i l a c i o	2
-ου	u	354
+ου	u	350
 ουαλία	u a l i a	30
 ουγκιά	u ŋ ɟ a	7
 ουδαμού	u ð a m u	5
@@ -5218,6 +5804,8 @@
 ουσιαστικοποιήσεων	u s i a s t i k o p i i s e o n	0
 ουσιαστικοποιήσεωσ	u s i a s t i k o p i i s e o s	0
 ουστ	u s t	14
+οφείλω	o f i l o	122
+οφειλέτησ	o f i l e t i s	0
 οφθαλμόσ	o f θ a l m o s	0
 οφιοειδέσ	o f i o i ð e s	0
 οφιοειδή	o f i o i ð i	1
@@ -5271,6 +5859,7 @@
 πέσαχ	p e s a x	2
 πέταμα	p e t a ɣ m a	18
 πέτροσ	p e t ɾ o s	0
+πίεσα	p i e s a	5
 πίθε	p i θ e	0
 πίθο	p i θ o	3
 πίθοι	p i θ i	0
@@ -5293,6 +5882,13 @@
 πίτεσ	p i t e s	0
 πα.σο.κ	p a s o k	0
 παίδεψα	p e ð e p s a	0
+παίζομαι	p e z o m e	0
+παίζομε	p e z o m e	1
+παίζουμε	p e z u m e	233
+παγίδευσα	p a ʝ i ð e f s a	0
+παγίδεψα	p a ʝ i ð e p s a	0
+παγιδεύθηκα	p a ʝ i ð e f θ i k a	0
+παγιδεύτηκα	p a ʝ i ð e f t i k a	0
 παγκάκι	p a ŋ ɡ a c i	71
 παγκοσμιοποίηση	p a ŋ ɡ o z m i o p i i s i	146
 παγκοσμιοποίησησ	p a ŋ ɡ o z m i o p i i s i s	0
@@ -5311,7 +5907,7 @@
 παγωμένων	p a ɣ o m e n o n	4
 παγωνιά	p a ɣ o ɲ a	42
 παγωτατζήσ	p a ɣ o t a d z i s	0
-παγωτιέρα	p a ɣ o t ç e ɾ a	0
+παγωτιέρα	p a ɣ o t ç e ɾ a	0
 παζάρεψα	p a z a ɾ e p s a	0
 παζαρεύομαι	p a z a ɾ e v o m e	0
 παζαρεύτηκα	p a z a ɾ e f t i k a	0
@@ -5320,7 +5916,7 @@
 παθαίνω	p a θ e n o	12
 παιδί	p e ð i	4564
 παιδαριώδησ	p e ð a r i o ð i s	0
-παιδεραστία	p e ð e ɾ a s t i a	14
+παιδεραστία	p e ð e ɾ a s t i a	13
 παιδεύομαι	p e ð e v o m e	2
 παιδεύτηκα	p e ð e f t i k a	1
 παιδεύω	p e ð e v o	4
@@ -5341,15 +5937,17 @@
 παλιόγρια	p a ʎ o ɣ ɾ i a	2
 παλτό	p a l t o	66
 παμφάγοσ	p a ɱ f a ɣ o s	0
-παμψυχισμόσ	p a m p s i ç i s m o s	0
+παμψυχισμόσ	p a m p s i ç i s m o s	0
 πανέμορφοσ	p a n e m o ɾ f o s	0
-παναγία	p a n a ʝ i a	414
+παναγία	p a n a ʝ i a	412
 παναγιά	p a n a ʝ a	98
 παναγιότατοσ	p a n a ʝ i o t a t o s	0
 παναγιώτατοσ	p a n a ʝ i o t a t o s	0
 πανεύκολα	p a n e f k o l a	44
 πανεύκολοσ	p a n e f k o l o s	0
 πανηγύρι	p a n i ʝ i ɾ i	203
+πανικοβάλλομαι	p a n i k o v a l o m e	3
+πανικοβάλλω	p a n i k o v a l o	1
 πανταχού	p a n d a x u	45
 παντελήσ	p a n d e l i s	0
 παντεσπάνι	p a n d e s p a n i	51
@@ -5374,6 +5972,8 @@
 παπάρι	p a p a ɾ i	2
 παπαγάλοσ	p a p a ɣ a l ɔ s	0
 παππούσ	p a p u s	0
+παράβαλε	p a ɾ a v a l e	2
+παράβαλλε	p a ɾ a v a l e	0
 παράβλεψα	p a ɾ a v l e p s a	1
 παράβυστοσ	p a r a v i s t o s	0
 παράγραψα	p a ɾ a ɣ ɾ a p s a	0
@@ -5382,22 +5982,38 @@
 παράξενα	p a ɾ a k s e n a	179
 παράξενοσ	p a ɾ a k s e n o s	0
 παράπαια	p a r a p e a	0
+παρέβαλα	p a ɾ e v a l a	0
+παρέβαλλα	p a ɾ e v a l a	0
 παρέβλεψα	p a ɾ e v l e p s a	1
 παρέγραψα	p a ɾ e ɣ ɾ a p s a	0
 παρέκαμψα	p a ɾ e k a m p s a	2
 παρέκαμψε	p a ɾ e k a m p s e	6
+παρέλαβα	p a ɾ e l a v a	15
 παρέπαια	p a ɾ e p e a	0
 παρέπαιον	p a r e p e o n	0
 παρέπεμψα	p a ɾ e p e m p s a	1
 παρέπλευσα	p a r e p l e f s a	0
 παρέρχομαι	p a ɾ e ɾ x o m e	0
 παρίσι	p a ɾ i s i	607
+παραέβαλα	p a ɾ a e v a l a	0
 παραέγραψα	p a ɾ a e ɣ ɾ a p s a	0
+παραβάλετε	p a ɾ a v a l e t e	0
+παραβάλλεται	p a ɾ a v a l e t e	0
+παραβάλλετε	p a ɾ a v a l e t e	0
+παραβάλλομαι	p a ɾ a v a l o m e	0
+παραβάλλομε	p a ɾ a v a l o m e	0
+παραβάλλουμε	p a ɾ a v a l u m e	1
+παραβάλλω	p a ɾ a v a l o	0
+παραβάλομε	p a ɾ a v a l o m e	0
+παραβάλουμε	p a ɾ a v a l u m e	1
+παραβάλτε	p a ɾ a v a l t e	0
+παραβάλω	p a ɾ a v a l o	0
 παραβλέπομαι	p a ɾ a v l e p o m e	0
 παραβλέπομε	p a ɾ a v l e p o m e	1
 παραβλέπουμε	p a ɾ a v l e p u m e	30
 παραβλέπω	p a ɾ a v l e p o	9
 παραβλέφθηκα	p a ɾ a v l e f θ i k a	0
+παραβλήθηκα	p a ɾ a v l i θ i k a	0
 παραβύστω	p a r a v i s t o	2
 παραβύστωι	p a r a v i s t o	0
 παραγγέλλω	p a r a ŋ ɟ e l o	0
@@ -5413,10 +6029,13 @@
 παραγραφήκανε	p a ɾ a ɣ ɾ a f i k a n e	0
 παραγραφτήκαν	p a ɾ a ɣ ɾ a f t i k a n	0
 παραγραφτήκανε	p a ɾ a ɣ ɾ a f t i k a n e	0
+παραδέχθηκα	p a ɾ a ð e x θ i k a	0
 παραδέχομαι	p a ɾ a ð e x o m e	38
+παραδέχτηκα	p a ɾ a ð e x t i k a	6
 παραδεκτή	p a ɾ a ð e k t i	2
 παραδεκτοί	p a ɾ a ð e k t i	0
 παραδεκτόσ	p a ɾ a ð e k t o s	0
+παραδεχτεί	p a ɾ a ð e x t i	58
 παραδεχτόσ	p a ɾ a ð e x t o s	0
 παραείδα	p a ɾ a i ð a	0
 παραειδώθηκα	p a ɾ a i ð o θ i k a	0
@@ -5461,6 +6080,10 @@
 παραπέμφθηκα	p a ɾ a p e m f θ i k a	0
 παραπαίω	p a r a p e o	2
 παραπλέω	p a r a p l e o	0
+παρασκευάζομαι	p a ɾ a s c e v a z o	0
+παρασκευάζω	p a ɾ a s c e v a z o	2
+παρασκευάστηκα	p a ɾ a s c e v a s t i k a	0
+παρασκεύασα	p a ɾ a s c e v a s a	0
 παραστάθηκα	p a r a s t a θ i k a	0
 παραστέκω	p a r a s t e k o	0
 παρασταίνω	p a r a s t e n o	0
@@ -5514,6 +6137,10 @@
 παρκαδόροσ	p a ɾ k a ð o ɾ o s	0
 παρκαρίστηκα	p a ɾ k a ɾ i s t i k a	0
 παροιμία	p a ɾ i m i a	107
+παρουσίασα	p a ɾ u s i a s a	11
+παρουσιάζομαι	p a ɾ u s i a z o m e	0
+παρουσιάζω	p a ɾ u s i a z o	48
+παρουσιάστηκα	p a ɾ u s i a s t i k a	2
 παρφουμάρισα	p a ɾ f u m a ɾ i s a	0
 παρφουμάρομαι	p a ɾ f u m a ɾ o m e	0
 παρφουμάρω	p a ɾ f u m a ɾ o	0
@@ -5558,7 +6185,11 @@
 παυλάκησ	p a v l a c i s	0
 παϊδάκι	p a i ð a c i	1
 παϊδάκια	p a i ð a c a	23
+παύθηκα	p a f θ i k a	0
 παύλοσ	p a v l o s	0
+παύομαι	p a v o m e	0
+παύτηκα	p a f t i k a	0
+παύω	p a v o	8
 πείθομαι	p i θ o m e	5
 πείθω	p i θ o	3
 πείραξα	p i r a k s a	3
@@ -5619,9 +6250,9 @@
 πενηντάρικο	p e n i n d a ɾ i k o	2
 πεντάγωνο	p e n d a ɣ o n o	62
 πεντήκοντα	p e n d i k o n d a	4
-πεντακόσια	p e n d a k o s ç a	29
+πεντακόσια	p e n d a k o s ç a	29
 πεολειξία	p e o l i k s i a	1
-πεολειχία	p e o l i ç i a	1
+πεολειχία	p e o l i ç i a	1
 πεπεισμένα	p e p i z m e n a	0
 πεπεισμένε	p e p i z m e n e	0
 πεπεισμένεσ	p e p i z m e n e s	0
@@ -5659,6 +6290,7 @@
 περιέθαλψα	p e ɾ i e θ a l p s a	0
 περιέκλεισα	p e r i e k l i s a	0
 περιέκοψα	p e ɾ i e k o p s a	0
+περιέπλεξα	p e ɾ i e p l e k s a	0
 περιέπλευσα	p e r i e p l e f s a	0
 περιέστρεψα	p e ɾ i e s t ɾ e p s a	0
 περιήγηση	p ɛ ɾ i i ʝ i s i	136
@@ -5668,6 +6300,9 @@
 περιγράφουμε	p e ɾ i ɣ r a f u m e	24
 περιγράφτηκα	p e ɾ i ɣ r a f t i k a	0
 περιγράφω	p e ɾ i ɣ r a f o	39
+περιεπλάκη	p e ɾ i e p l a c i	0
+περιεπλάκην	p e ɾ i e p l a c i n	0
+περιεπλάκησαν	p e ɾ i e p l a c i s a n	2
 περιθάλπομαι	p e ɾ i θ a l p o m e	0
 περιθάλπομε	p e ɾ i θ a l p o m e	0
 περιθάλπουμε	p e ɾ i θ a l p u m e	0
@@ -5700,7 +6335,20 @@
 περιοδικόσ	p e r i o ð i k o s	0
 περιοδικών	p e r i o ð i k o n	93
 περιορισμένοσ	p e ɾ i o ɾ i z m e n o s	0
+περιπλέκομαι	p e ɾ i p l e k o m e	0
+περιπλέκομε	p e ɾ i p l e k o m e	0
+περιπλέκουμε	p e ɾ i p l e k u m e	3
+περιπλέκω	p e ɾ i p l e k o	0
+περιπλέχθηκα	p e ɾ i p l e x θ i k a	0
+περιπλέχθηκαν	p e ɾ i p l e x θ i k a n	0
+περιπλέχθηκε	p e ɾ i p l e x θ i c e	1
+περιπλέχτηκα	p e ɾ i p l e x t i k a	0
+περιπλέχτηκαν	p e ɾ i p l e x t i k a n	0
+περιπλέχτηκε	p e ɾ i p l e x t i c e	1
 περιπλέω	p e r i p l e o	0
+περιπλεχθήκαν	p e ɾ i p l e x θ i k a n	0
+περιπλεχτήκαν	p e ɾ i p l e x t i k a n	0
+περιπλεχτήκανε	p e ɾ i p l e x t i k a n e	0
 περισπωμένεσ	p e r i s p o m e n e s	0
 περισπωμένη	p e r i s p o m e n i	1
 περισπωμένησ	p e r i s p o m e n i s	0
@@ -5716,7 +6364,7 @@
 περιόδων	p e r i o ð o n	46
 περσέα	p e ɾ s e a	17
 περσέασ	p e r s e a s	0
-περσεφόνη	p ɛ r s ɛ f ɔ n i	40
+περσεφόνη	p ɛ r s ɛ f ɔ n i	39
 περσεύσ	p e r s e f s	0
 πεσιμιστήσ	p e s i m i s t i s	0
 πετάγομαι	p e t a ɣ o m e	5
@@ -5724,7 +6372,10 @@
 πηγαινέλα	p i ʝ e n e l a	7
 πηδώ	p i ð o	0
 πι	p i	29
-πιάνομαι	p ç a n o m e	4
+πιάνομαι	p ç a n o m e	4
+πιέζομαι	p i e z o m e	0
+πιέζω	p i e z o	8
+πιέστηκα	p i e s t i k a	1
 πιγκουίνοσ	p i ŋ ɡ u i n o s	0
 πιθάρι	p i θ a r i	12
 πιθάρια	p i θ a r ʝ a	15
@@ -5744,8 +6395,8 @@
 πινακοθήκη	p i n a k o θ i c i	70
 πιονίου	p i o n i u	0
 πιονίων	p i o n i o n	0
-πιονιού	p ç o ɲ u	0
-πιονιών	p ç o ɲ o n	0
+πιονιού	p ç o ɲ u	0
+πιονιών	p ç o ɲ o n	0
 πιπί	p i p i	5
 πιπεριά	p i p e r ʝ a	113
 πιπώνω	p i p o n o	0
@@ -5761,9 +6412,9 @@
 πισωγλέντησ	p i s o ɣ l e n d i s	0
 πισωκολλητό	p i s o k o l i t o	1
 πιτσαδόροσ	p i t s a ð o ɾ o s	0
-πιόνι	p ç o n i	23
+πιόνι	p ç o n i	23
+πιόνια	p ç o ɲ a	43
 πιόνια	p i o n i a	43
-πιόνια	p ç o ɲ a	43
 πιόνιο	p i o n i o	0
 πλάγιασα	p l a ʝ a s a	1
 πλέθρο	p l e θ r o	0
@@ -5787,9 +6438,9 @@
 πλακομούνι	p l a k o m u n i	0
 πλακούντασ	p l a k u n d a s	0
 πλακώνω	p l a k o n o	0
-πλατεία	p l a t i a	1567
+πλατεία	p l a t i a	1564
 πλατεῖα	p l a t i a	0
-πλατιά	p l a t ç a	123
+πλατιά	p l a t ç a	123
 πλείστοσ	p l i s t o s	0
 πλειστάκισ	p l i s t a c i s	0
 πλειστηριάζω	p l i s t i r i a z o	0
@@ -5815,7 +6466,7 @@
 πλύσιμο	p l i s i m o	120
 πνέω	p n e o	1
 πνίγω	p n i ɣ o	1
-πνεύμα	p n e v m a	1287
+πνεύμα	p n e v m a	1285
 πνεύμονασ	p n e v m o n a s	0
 ποίηση	p i i s i	442
 ποίησησ	p i i s i s	0
@@ -5838,7 +6489,7 @@
 ποικίλα	p i c i l a	87
 ποικίλε	p i c i l e	0
 ποικίλεσ	p i c i l e s	0
-ποικίλη	p i c i l i	27
+ποικίλη	p i c i l i	25
 ποικίλησ	p i c i l i s	0
 ποικίλο	p i c i l o	17
 ποικίλοι	p i c i l i	6
@@ -5869,7 +6520,7 @@
 ποικιλότερου	p i c i l o t e r u	0
 ποικιλότερουσ	p i c i l o t e r u s	0
 ποικιλότερων	p i c i l o t e r o n	0
-ποιοσ	p ç o s	1
+ποιοσ	p ç o s	1
 πολιτιστικόσ	p o l i t i s t i k o s	0
 πολλάκισ	p o l a c i s	0
 πολυμήχανοσ	p o l i m i x a n o s	0
@@ -5893,7 +6544,7 @@
 πολωνικόσ	p o l o n i k o s	0
 πολωνικών	p o l o n i k o n	3
 πολωνόσ	p o l o n o s	0
-πολύ	p o l i	31459
+πολύ	p o l i	31457
 πολύφωτο	p o l i f o t o	1
 πομφολύγων	p o ɱ f o l i ɣ o n	0
 πομφόλυγα	p o ɱ f o l i ɣ a	2
@@ -5907,12 +6558,14 @@
 ποντάρισε	p o n d a ɾ i s e	2
 ποντάρομαι	p o n d a ɾ o m e	0
 ποντάρω	p o n d a r o	21
+ποντίκι	p o n d i c i	138
 πονταρίστηκα	p o n d a ɾ i s t i k a	0
 ποντικόσ	p o n d i k o s	0
 ποπόσ	p o p o s	0
 πορδή	p o ɾ ð i	5
 πορδίζω	p o ɾ ð i z o	0
 πορδίτσα	p o ɾ ð i t s a	0
+πορνεία	p o ɾ n i a	77
 πορνόγεροσ	p o ɾ n o ʝ e ɾ o s	0
 πορτοκάλι	p o ɾ t o k a l i	164
 πορτοκαλιά	p o ɾ t o k a ʎ a	8
@@ -5942,7 +6595,7 @@
 πουσταρέλι	p u s t a ɾ e l i	0
 πουσταριό	p u s t a ɾ ʝ o	0
 πουστεύω	p u s t e v o	0
-πουστιά	p u s t ç a	2
+πουστιά	p u s t ç a	2
 πουστοφέρνω	p u s t o f e ɾ n o	0
 πουτάνα	p u t a n a	38
 πουτανάκι	p u t a n a c i	4
@@ -6007,6 +6660,11 @@
 προβλέφθηκα	p ɾ o v l e f θ i k a	0
 προβλήματα	p r ɔ v l i m a t a	4913
 προείδα	p ɾ o i ð a	1
+προετοίμασα	p ɾ o e t i m a s a	1
+προετοιμάζομαι	p ɾ o e t i m a z o m e	3
+προετοιμάζω	p ɾ o e t i m a z o	4
+προετοιμάστηκα	p ɾ o e t i m a s t i k a	0
+προετοιμασία	p ɾ o e t i m a s i a	717
 προηγουμένη	p r o i ɣ u m e n i	12
 προηγουμένησ	p r o i ɣ u m e n i s	0
 προηγουμένου	p r o i ɣ u m e n u	78
@@ -6024,6 +6682,16 @@
 προηγούμενου	p r o i ɣ u m e n u	174
 προηγούμενουσ	p r o i ɣ u m e n u s	0
 προηγούμενων	p r o i ɣ u m e n o n	212
+προκατέβαλα	p ɾ o k a t e v a l a	0
+προκατέβαλλα	p ɾ o k a t e v a l a	0
+προκαταβάλλομαι	p ɾ o k a t a v a l o m e	0
+προκαταβάλλομε	p ɾ o k a t a v a l o m e	0
+προκαταβάλλουμε	p ɾ o k a t a v a l u m e	1
+προκαταβάλλω	p ɾ o k a t a v a l o	0
+προκαταβάλομε	p ɾ o k a t a v a l o m e	0
+προκαταβάλουμε	p ɾ o k a t a v a l u m e	1
+προκαταβάλω	p ɾ o k a t a v a l o	0
+προκαταβλήθηκα	p ɾ o k a t a v l i θ i k a	0
 προκοπή	p ɾ o k o p i	65
 προκόβω	p ɾ o k o v o	0
 προκύπτει	p r o c i p t i	1070
@@ -6046,15 +6714,21 @@
 προπονήσεωσ	p r o p o n i s e o s	0
 προπόνηση	p r o p o n i s i	631
 προπόνησησ	p r o p o n i s i s	0
+προσάρμοσα	p ɾ o s a ɾ m o s a	1
 προσέβλεψα	p ɾ o s e v l e p s a	0
 προσέγραψα	p ɾ o s e ɣ r a p s a	0
 προσέκοψα	p ɾ o s e k o p s a	0
 προσέκρουσα	p r o s e k r u s a	0
 προσέλκυσα	p r o s i l c i s a	0
 προσέρχομαι	p r o s e r x o m e	1
+προσέφερα	p ɾ o s e f e ɾ a	2
 προσήλθα	p r o s i l θ a	0
 προσήρθα	p ɾ o s i ɾ θ a	0
+προσαρμόζομαι	p ɾ o s a ɾ m o z o m e	3
+προσαρμόζω	p ɾ o s a ɾ m o z o	2
+προσαρμόστηκα	p ɾ o s a ɾ m o s t i k a	0
 προσβλέπω	p ɾ o s v l e p o	7
+προσγειώνω	p ɾ o z ʝ i o n o	0
 προσγράφηκα	p ɾ o z ɣ r a f i k a	0
 προσγράφομαι	p ɾ o z ɣ r a f o m e	0
 προσγράφομε	p ɾ o z ɣ r a f o m e	1
@@ -6068,15 +6742,20 @@
 προσελκύσθηκα	p r o s e l c i s θ i k a	0
 προσελκύστηκα	p r o s e l c i s t i k a	0
 προσελκύω	p r o s e l c i o	0
-προσευχή	p ɾ o s e f ç i	543
-προσευχήθηκα	p r o s e f ç i θ i k a	8
+προσευχή	p ɾ o s e f ç i	543
+προσευχήθηκα	p r o s e f ç i θ i k a	8
 προσεύχομαι	p r o s e f x o m e	29
 προσθήκη	p r o s θ i c i	761
 προσκρούω	p r o s k r u o	3
 προσκόπτω	p ɾ o s k o p t o	0
-προσοχή	p ɾ o s o ç i	1894
+προσοχή	p ɾ o s o ç i	1894
 προσπαθώντασ	p ɾ o s p a θ o n d a s	0
 προστατευόμενοσ	p ɾ o s t a t e v o m e n o s	0
+προσφέρθηκα	p ɾ o s f e ɾ θ i k a	3
+προσφέρομαι	p ɾ o s f e ɾ o m e	2
+προσφέρομε	p ɾ o s f e ɾ o m e	0
+προσφέρουμε	p ɾ o s f e ɾ u m e	341
+προσφέρω	p ɾ o s f e ɾ o	88
 προσφύομαι	p r o s f i o m e	0
 προτρέπομαι	p ɾ o t ɾ e p o m e	0
 προτρέπομε	p ɾ o t ɾ e p o m e	0
@@ -6098,7 +6777,7 @@
 πρωθυπουργόσ	p ɾ o θ i p u ɾ ɣ o s	0
 πρωκτικόσ	p ɾ o k t i k o s	0
 πρωκτόσ	p r o k t o s	0
-πρωτάθλημα	p ɾ o t a θ l i m a	1877
+πρωτάθλημα	p ɾ o t a θ l i m a	1876
 πρωταγωνιστέσ	p ɾ o t a ɣ o n i s t e s	0
 πρωταγωνιστή	p ɾ o t a ɣ o n i s t i	172
 πρωταγωνιστήσ	p ɾ o t a ɣ o n i s t i s	0
@@ -6125,6 +6804,7 @@
 πρόεδροσ	p ɾ o e ð ɾ o s	0
 πρόκειται	p ɾ o c i t e	6806
 πρόκυψε	p r o c i p s e	2
+πρόσφερα	p ɾ o s f e ɾ a	8
 πρόσωπο	p ɾ ɔ s ɔ p ɔ	2526
 πρότρεψα	p ɾ o t ɾ e p s a	0
 πρόφθασα	p ɾ ɔ f θ a s a	0
@@ -6143,7 +6823,7 @@
 πόρδοσ	p o ɾ ð o s	0
 πόρνη	p ɔ ɾ n i	80
 πόρνοσ	p o ɾ n o s	0
-πόροι	p o r i	228
+πόροι	p o r i	227
 πότε	p o t e	1685
 πύο	p i o	3
 πύον	p i o n	14
@@ -6171,7 +6851,7 @@
 ραμαζάνι	ɾ a m a z a n i	5
 ραμολιμέντο	ɾ a m o l i m e n d o	1
 ραφείο	ɾ a f i ɔ	0
-ρε	ɾ e	1545
+ρε	ɾ e	1544
 ρεζίλεψα	ɾ e z i l e p s a	0
 ρεζίλι	ɾ e z i l e	37
 ρεζιλεύομαι	ɾ e z i l e v o m e	0
@@ -6204,7 +6884,7 @@
 ρόζοσ	r o z o s	0
 ρόμπερτ	ɾ o b e ɾ t	88
 ρώγα	r o ɣ a	6
-ρώμη	ɾ o m i	334
+ρώμη	ɾ o m i	333
 σ.ε.φ.	s e f	0
 σάλευε	s a l e v e	4
 σάλεψα	s a l e p s a	1
@@ -6212,7 +6892,7 @@
 σάλοσ	s a l o s	0
 σάλταρα	s a l t a ɾ a	0
 σάλταρε	s a l t a ɾ e	2
-σάπιοσ	s a p ç o s	0
+σάπιοσ	s a p ç o s	0
 σάπων	s a p o̞ n	0
 σέβομαι	s e v o m e	105
 σέντερ	s e n d e ɾ	160
@@ -6241,18 +6921,19 @@
 σαλτάρισε	s a l t a ɾ i s e	0
 σαλτάρω	s a l t a ɾ o	2
 σαμποδρόμιο	s a m b o ð r o m ɲ o	1
-σαντορίνη	s a n d o ɾ i n i	165
+σαντορίνη	s a n d o ɾ i n i	164
 σαντουριού	s a n d u r ʝ u	1
 σαντουριών	s a n d u r ʝ o n	0
 σαντούρι	s a n d u r i	17
 σαντούρια	s a n d u r ʝ a	1
-σαπιοκοιλιά	s a p ç o c i ʎ a	1
+σαπιοκοιλιά	s a p ç o c i ʎ a	1
 σαπουνίζομαι	s a p u n i z o m e	0
 σαπουνίζω	s a p u n i z o	2
 σαπουνίστηκα	s a p u n i s t i k a	0
 σαπούνι	s a p u n i	170
 σαράντα	s a ɾ a n d a	361
 σαχλαμάρα	s a x l a m a ɾ a	4
+σβήνομαι	z v i n o m e	0
 σβήνω	z v i n o	15
 σβήστρα	z v i s t ɾ a	0
 σβηστήρα	z v i s t i ɾ a	0
@@ -6267,9 +6948,9 @@
 σείστηκα	s i s t i k a	0
 σείω	s i o	0
 σεβίλλη	s e v i l i	54
-σεβαστιανόσ	s e v a s t ç a n o s	0
-σειέμαι	s ç e m e	0
-σελήνη	s e l i n i	328
+σεβαστιανόσ	s e v a s t ç a n o s	0
+σειέμαι	s ç e m e	0
+σελήνη	s e l i n i	327
 σελίνι	s e l i n i	0
 σερβίριζα	s e ɾ v i ɾ i z a	0
 σερβίριζε	s e ɾ v i ɾ i z e	1
@@ -6306,22 +6987,22 @@
 σημειώνουμε	s i m i o n u m e	99
 σημειώνω	s i m i o n o	46
 σητεία	s i t i a	57
-σιάτιστα	s ç a t i s t a	13
+σιάτιστα	s ç a t i s t a	13
 σιγκαπούρη	s i ŋ ɡ a p u ɾ i	49
 σιταποθήκη	s i t a p o θ i c i	1
-σιχαίνομαι	s i ç e n o m e	36
+σιχαίνομαι	s i ç e n o m e	36
 σιχτίρ	s i x t i ɾ	9
 σκάνδαλο	s k a n ð a l o	369
 σκάνταλο	s k a n d a l o	1
 σκάσε	s k a s e	8
-σκέπτομαι	s c e p t o m e	35
+σκέπτομαι	s c e p t o m e	34
 σκέφθηκα	s c e f θ i k a	22
 σκέφτηκα	s c e f t i k a	309
 σκέφτομαι	s c e f t o m e	519
 σκίζομαι	s c i z o m e	1
 σκίστηκα	s c i s t i k a	0
 σκανδάλη	s k a n ð a l i	54
-σκαντζόχοιροσ	s k a n d z ɔ ç i ɾ ɔ s	0
+σκαντζόχοιροσ	s k a n d z ɔ ç i ɾ ɔ s	0
 σκατά	s k a t a	104
 σκατάσ	s k a t a s	0
 σκατήσ	s k a t i s	0
@@ -6354,11 +7035,11 @@
 σκυλολόι	s c i l o l o	3
 σκωτία	s k ɔ t i a	67
 σκόνταψα	s k o n d a p s a	4
-σκόπια	s k o p ç a	182
+σκόπια	s k o p ç a	182
 σκύβω	s c i v o	10
 σκύλα	s c i l a	36
 σκύλοσ	s c i l o s	0
-σμύρνη	z m i ɾ n i	205
+σμύρνη	z m i ɾ n i	202
 σοβαρολογώ	s o v a ɾ o l o ɣ o	2
 σοκάκι	s o k a c i	21
 σορέ	s o ɾ e	0
@@ -6386,7 +7067,7 @@
 σοφέσ	s o f e s	0
 σοφή	s o f i	57
 σοφήσ	s o f i s	0
-σοφία	s o f i a	769
+σοφία	s o f i a	764
 σοφίαι	s o f i a	0
 σοφίαι	s o f i e	0
 σοφίαισ	s o f i e s	0
@@ -6399,7 +7080,7 @@
 σοφού	s o f u	26
 σοφούσ	s o f u s	0
 σοφό	s o f o	64
-σοφόσ	s o f o s	1
+σοφόσ	s o f o s	0
 σοφότερο	s o f o t e ɾ o	11
 σοφότεροσ	s o f o t e ɾ o s	0
 σοφότερου	s o f o t e ɾ u	0
@@ -6409,8 +7090,11 @@
 σούρνω	s u r n o	1
 σούταρα	s u t a ɾ a	0
 σούταρε	s u t a ɾ e	63
+σπάρθηκα	s p a ɾ θ i k a	0
 σπάρτη	s p a ɾ t i	156
 σπάρτο	s p a ɾ t o	5
+σπέρνομαι	s p e ɾ n o m e	0
+σπέρνω	s p e ɾ n o	1
 σπέτσεσ	s p e t s e s	0
 σπίθα	s p i θ a	72
 σπίθιζε	s p i θ i z e	0
@@ -6428,9 +7112,9 @@
 σπιτόγατοσ	s p i t o ɣ a t o s	0
 σπιτώνω	s p i t o n o	0
 σπουργίτι	s p u ɾ ʝ i t i	8
-σπουργίτια	s p u ɾ ʝ i t ç a	5
-σπουργιτιού	s p u ɾ ʝ i t ç u	1
-σπουργιτιών	s p u ɾ ʝ i t ç o n	0
+σπουργίτια	s p u ɾ ʝ i t ç a	5
+σπουργιτιού	s p u ɾ ʝ i t ç u	1
+σπουργιτιών	s p u ɾ ʝ i t ç o n	0
 σπρώχνομαι	s p ɾ o x n o m e	0
 σπρώχνω	s p ɾ o x n o	8
 σπρώχτηκα	s p ɾ o x t i k a	0
@@ -6479,6 +7163,7 @@
 σταφιδόψωμων	s t a f i ð o p s o m o n	0
 στείβω	s t i v o	0
 στείροσ	s t i ɾ o s	0
+στείρωσα	s t i ɾ o s a	0
 στείρωση	s t i ɾ o s i	17
 στειμμένα	s t i m e n a	0
 στειμμένε	s t i m e n e	0
@@ -6492,7 +7177,10 @@
 στειμμένουσ	s t i m e n u s	0
 στειμμένων	s t i m e n o n	0
 στειρότητα	s t i ɾ o t i t a	14
+στειρώθηκα	s t i ɾ o θ i k a	0
+στειρώνομαι	s t i ɾ o n o m e	0
 στειρώνω	s t i ɾ o n o	0
+στειρώσεισ	s t i ɾ o s i s	0
 στεναγμόσ	s t e n a ɣ m o s	0
 στεναχωράω	s t e n a x o r a o	0
 στεναχωρήθηκα	s t e n a x o r i θ i k a	15
@@ -6527,7 +7215,7 @@
 στενοχωρούμαι	s t e n o x o r u m e	1
 στενοχωρούμε	s t e n o x o r u m e	1
 στενοχωρώ	s t e n o x o r o	3
-στενό	s t e n o	296
+στενό	s t e n o	293
 στερήσεισ	s t e ɾ i s i s	0
 στερήσεων	s t e ɾ i s e o n	5
 στερήσεωσ	s t e ɾ i s e o s	0
@@ -6556,12 +7244,14 @@
 στιμμένων	s t i m e n o n	0
 στισ	s t i s	2
 στο	s t o	171732
+στοίβαξα	s t i v a k s a	0
+στοιβάζομαι	s t i v a z o m e	0
 στοιβάζω	s t i v a z o	0
 στολή	s t o l i	206
 στολίζομαι	s t o l i z o m e	1
 στολίζω	s t o l i z o	3
 στολίστηκα	s t o l i s t i k a	0
-στον	s t o n	44149
+στον	s t o n	44148
 στοργή	s t o r ʝ i	84
 στουτγάρδη	s t u t ɣ a r ð i	12
 στουτγκάρδη	s t u t ɡ a r ð i	23
@@ -6680,7 +7370,7 @@
 συγχάρηκα	s i ŋ x a r i k a	0
 συγχάρηκαν	s i ŋ x a ɾ i k a n	0
 συγχάρηκε	s i ŋ x a ɾ i c e	0
-συγχαίρω	s i ŋ ç e r o	25
+συγχαίρω	s i ŋ ç e r o	25
 συγχαρήκαν	s i ŋ x a ɾ i k a n	0
 συγχαρήκανε	s i ŋ x a ɾ i k a n e	0
 συγχαρητήρια	s i ŋ x a ɾ i t i ɾ i a	581
@@ -6691,6 +7381,20 @@
 συλλέχθηκα	s i l e x θ i k a	0
 συλλέχτηκα	s i l e x t i k a	0
 συλλογίζομαι	s i l o ʝ i z o m e	4
+συμβολομεταφραστέσ	s i ɱ v o l o m e t a f ɾ a s t e s	0
+συμβολομεταφραστή	s i ɱ v o l o m e t a f ɾ a s t i	0
+συμβολομεταφραστήσ	s i ɱ v o l o m e t a f ɾ a s t i s	0
+συμβολομεταφραστών	s i ɱ v o l o m e t a f ɾ a s t o n	0
+συμβουλή	s i ɱ v u l i	264
+συμβουλεύθηκα	s i ɱ v u l e f θ i k a	1
+συμβουλεύομαι	s i ɱ v u l e v o m e	2
+συμβουλεύτηκα	s i ɱ v u l e f t i k a	0
+συμβουλεύω	s i ɱ v u l e v o	9
+συμβούλευσα	s i ɱ v u l e f s a	1
+συμβούλεψα	s i ɱ v u l e p s a	1
+συμβούλιο	s i ɱ v u l i o	1850
+συμπεριφέρθηκα	s i m b e ɾ i f e ɾ θ i k a	1
+συμπεριφέρομαι	s i m b e ɾ i f e ɾ o m e	5
 συμπεριφορά	s i m b e ɾ i f o ɾ a	1500
 συμπλέω	s i m b l e o	1
 συμπολεμίστρια	s i m b o l e m i s t r i a	0
@@ -6706,6 +7410,12 @@
 συμφυρμόσ	s i ɱ f i r m o s	0
 συμφυρμών	s i ɱ f i r m o n	0
 συμφύομαι	s i ɱ f i o m e	0
+συνάπτομαι	s i n a p t o m e	0
+συνάπτομε	s i n a p t o m e	0
+συνάπτουμε	s i n a p t u m e	1
+συνάπτω	s i n a p t o	0
+συνάφθηκα	s i n a f θ i k a	0
+συνάφθηκαν	s i n a f θ i k a n	3
 συνέγραψα	s i n e ɣ r a p s a	0
 συνέδεσα	s i n e ð e s a	0
 συνέθλιψα	s i n e θ l i p s a	0
@@ -6718,11 +7428,15 @@
 συνέρχομαι	s i n e r x o m e	6
 συνέτριψα	s i n e t ɾ i p s a	0
 συνέτριψε	s i n e t ɾ i p s e	33
-συνέχεια	s i n e ç i a	6166
+συνέχεια	s i n e ç i a	6166
 συνήθησ	s i n i θ i s	0
 συνήθωσ	s i n i θ o s	0
 συνήλθα	s i n i l θ a	9
 συνήρθα	s i n i r θ a	0
+συνήφθη	s i n i f θ i	7
+συνήφθην	s i n i f θ i n	0
+συνήφθησαν	s i n i f θ i s a n	2
+συνήψα	s i n i p s a	0
 συναίρεση	s i n e r e s i	3
 συναίρεσησ	s i n e r e s i s	0
 συναιρέσεισ	s i n e r e s i s	0
@@ -6739,6 +7453,13 @@
 συνδιασκέπτομαι	s i n ð i a s c e p t o m e	0
 συνδιασκέπτομαι	s i n ð i̯ a s c e p t o m e	0
 συνδιασκέφθηκα	s i n ð i a s c e f θ i k a	0
+συνδυάζομαι	s i n ð i a z o m e	0
+συνδυάζομε	s i n ð i a z o m e	0
+συνδυάζουμε	s i n ð i a z u m e	13
+συνδυάζω	s i n ð i a z o	1
+συνδυάσθηκα	s i n ð i a s θ i k a	0
+συνδυάστηκα	s i n ð i a s t i k a	0
+συνεβούλευσα	s i n e v u l e f s a	0
 συνεγράφην	s i n e ɣ r a f i n	0
 συνεδέθην	s i n e ð e θ i n	0
 συνεθλίβη	s i n e θ l i v i	1
@@ -6748,17 +7469,18 @@
 συνεννοήθηκα	s i n e n o i θ i k a	3
 συνεννοούμαι	s i n e n o u m e	2
 συνεννόηση	s i n e n o i s i	251
+συνεργάζομαι	s i n e ɾ ɣ a z o m e	22
 συνετρίβη	s i n e t ɾ i v i	35
 συνετρίβην	s i n e t ɾ i v i n	0
 συνετρίβησαν	s i n e t ɾ i v i s a n	2
 συνεχάρη	s i n e x a r i	58
 συνεχάρην	s i n e x a r i n	3
 συνεχάρησαν	s i n e x a ɾ i s a n	10
-συνεχίζομαι	s i n e ç i z o m e	0
-συνεχίζομε	s i n e ç i z o m e	1
-συνεχίζουμε	s i n e ç i z u m e	458
-συνεχίζω	s i n e ç i z o	119
-συνεχίστηκα	s i n e ç i s t i k a	0
+συνεχίζομαι	s i n e ç i z o m e	0
+συνεχίζομε	s i n e ç i z o m e	1
+συνεχίζουμε	s i n e ç i z u m e	458
+συνεχίζω	s i n e ç i z o	119
+συνεχίστηκα	s i n e ç i s t i k a	0
 συνηθισμένα	s i n i θ i z m e n a	118
 συνηθισμένε	s i n i θ i z m e n e	0
 συνηθισμένεσ	s i n i θ i z m e n e s	0
@@ -6786,6 +7508,9 @@
 συνοδόσ	s i n o ð o s	0
 συνοδών	s i n o ð o n	19
 συνουσία	s i n u s i a	17
+συντομεύθηκα	s i n d o m e f θ i k a	0
+συντομεύομαι	s i n d o m e v o m e	0
+συντομεύτηκα	s i n d o m e f t i k a	0
 συντρίβομαι	s i n d r i v o m e	0
 συντρίβω	s i n d r i v o	0
 συντρίφθηκα	s i n d r i f θ i k a	0
@@ -6808,7 +7533,7 @@
 συρρέω	s i r e o	0
 συσκέπτομαι	s i s c e p t o m e	0
 συσκέφθηκα	s i s c e f θ i k a	0
-σφάχτησ	s f a ç t i s	0
+σφάχτησ	s f a ç t i s	0
 σφαλιάρα	s f a ʎ a ɾ a	36
 σφαλιάρισμα	s f a ʎ a ɾ i z m a	0
 σφαλιαρίζω	s f a ʎ a ɾ i z o	1
@@ -6819,19 +7544,20 @@
 σφιχταγκαλιάζω	s f i x t a ŋ ɡ a ʎ a z o	0
 σφιχταγκαλιάστηκα	s f i x t a ŋ ɡ a ʎ a s t i k a	0
 σφουγγοκωλάριοσ	s f u ŋ ɡ o k o l a ɾ i o s	0
+σφραγίζω	s f ɾ a ʝ i z o	0
 σφυρί	s f i r i	77
 σφυρίζομαι	s f i r i z o m e	0
 σφυρίζω	s f i r i z o	1
 σφυρίχτηκα	s f i r i x t i k a	0
 σφύζω	s f i z o	0
 σφύριξα	s f i r i k s a	1
-σχίζομαι	s ç i z o m e	0
-σχίζω	s ç i z o	0
-σχετικά	s ç e t i k a	4658
-σχημάτισα	s ç i m a t i s a	4
-σχηματίζομαι	s ç i m a t i z o m e	0
-σχηματίζω	s ç i m a t i z o	5
-σχηματίστηκα	s ç i m a t i s t i k a	0
+σχίζομαι	s ç i z o m e	0
+σχίζω	s ç i z o	0
+σχετικά	s ç e t i k a	4658
+σχημάτισα	s ç i m a t i s a	4
+σχηματίζομαι	s ç i m a t i z o m e	0
+σχηματίζω	s ç i m a t i z o	5
+σχηματίστηκα	s ç i m a t i s t i k a	0
 σχολίου	s x o l i u	112
 σχολίων	s x o l i o n	103
 σχόλιο	s x o l i o	1518
@@ -6849,6 +7575,7 @@
 σόι	s o i	65
 σύδεντρο	s i ð e n d r o	0
 σύκο	s i k o	15
+σύναψα	s i n a p s a	0
 σύνδεσα	s i n ð e s a	2
 σύνθλιψα	s i n θ l i p s a	0
 σύνθλιψε	s i n θ l i p s e	0
@@ -6867,6 +7594,7 @@
 σώπασε	s o p a s e	11
 σώσε	s o s e	16
 τ'	t	0
+τάθηκα	t a θ i k a	0
 τάλαντο	t a l a n d o	8
 τάλιρο	t a l i ɾ o	1
 τάμα	t a m a	31
@@ -6885,6 +7613,7 @@
 τάχατε	t a x a t e	0
 τάχατεσ	t a x a t e s	0
 τέλεια	t e l i a	731
+τέλειωσα	t e ʎ o s a	14
 τέλι	t e l i	1
 τέρπομαι	t e ɾ p o m e	0
 τέρπομε	t e ɾ p o m e	0
@@ -6894,7 +7623,7 @@
 τέσσερισ	t e s e ɾ i s	0
 τέταρτο	t e t a ɾ t o	411
 τέταρτοσ	t e t a ɾ t o s	0
-τέχνη	t e x n i	1164
+τέχνη	t e x n i	1160
 τέωσ	t e o s	0
 τήνε	t i n e	9
 τήνο	t i n o	62
@@ -6918,20 +7647,35 @@
 ταξιδεύω	t a k s i ð e v o	52
 ταξιτζήσ	t a k s i n d z i s	0
 ταξιτζού	t a k s i n d z u	0
+ταπεινώνομαι	t a p i n o n o m e	1
+ταπεινώνω	t a p i n o n o	1
 ταράζομαι	t a r a z o m e	1
 ταράζω	t a r a z o	0
 ταράχθηκα	t a r a x θ i k a	0
 ταράχτηκα	t a r a x t i k a	5
+ταριχεύθηκα	t a ɾ i x e f θ i k a	0
+ταριχεύομαι	t a ɾ i x e v o m e	0
+ταριχεύτηκα	t a ɾ i x e f t i k a	0
+ταριχεύω	t a ɾ i x e v o	0
 ταρό	t a ɾ o	4
 τασάκι	t a s a c i	15
 ταυ	t a f	14
-ταχυδακτυλουργία	t a ç i ð a k t i l u ɾ ʝ i a	6
-ταχυδακτυλουργόσ	t a ç i ð a k t i l u ɾ ɣ o s	0
-ταχυδρομείο	t a ç i ð ɾ o m i o	76
-ταχυδρομικόσ	t a ç i ð ɾ o m i k o s	0
-ταχυδρόμοσ	t a ç i ð ɾ o m o s	0
-ταχυφαγείο	t a ç i f a ʝ i o	6
-ταχύτητα	t a ç i t i t a	873
+ταχυδακτυλουργία	t a ç i ð a k t i l u ɾ ʝ i a	6
+ταχυδακτυλουργόσ	t a ç i ð a k t i l u ɾ ɣ o s	0
+ταχυδρομείο	t a ç i ð ɾ o m i o	76
+ταχυδρομικόσ	t a ç i ð ɾ o m i k o s	0
+ταχυδρόμοσ	t a ç i ð ɾ o m o s	0
+ταχυφαγείο	t a ç i f a ʝ i o	6
+ταχύτητα	t a ç i t i t a	873
+τείνομαι	t i n o m e	0
+τείνομε	t i n o m e	0
+τείνουμε	t i n u m e	15
+τείνω	t i n o	18
+τελείωσα	t e l i o s a	65
+τελειώθηκα	t e l i o θ i k a	0
+τελειώνομαι	t e l i o n o m e	0
+τελειώνω	t e l i o n o	32
+τελειώνω	t e ʎ o n o	32
 τελευταία	t e l e f t e a	7154
 τελευταίοσ	t e l e f t e o s	0
 τελευταίωσ	t e l e f t e o s	0
@@ -6940,7 +7684,7 @@
 τεμπελιάζω	t e m b e ʎ a z o	0
 τεσσερισήμισι	t e s e ɾ i s i m i s i	2
 τετάρτη	t e t a ɾ t i	2163
-τετρακόσια	t e t ɾ a k o s ç a	13
+τετρακόσια	t e t ɾ a k o s ç a	13
 τετριμμένα	t e t r i m e n a	29
 τετριμμέναι	t e t r i m e n e	0
 τετριμμένασ	t e t r i m e n a s	0
@@ -6980,7 +7724,8 @@
 τηλεθεατήσ	t i l e θ e a t i s	0
 τηλεσκόπιον	t i l e s k o p i o n	0
 τησ	t i s	13
-τιμή	t i m i	3261
+τιμή	t i m i	3260
+τιμολόγιο	t i m o l o ʝ o	89
 τιμονιέρησ	t i m o ɲ e ɾ i s	0
 τιμόνι	t i m o n i	270
 τισ	t i s	11
@@ -6990,13 +7735,13 @@
 τιτάνεσ	t i t a n e s	0
 τιτάνοσ	t i t a n o s	0
 τιτάνων	t i t a n o n	13
-το	t o	465401
+το	t o	465397
 τολμάω	t o l m a o	6
 τομάρι	t o m a ɾ i	38
-τον	t o n	134771
+τον	t o n	134770
 τορπίλη	t o ɾ p i l i	3
 τορόντο	t o ɾ o n d o	55
-τοστιέρα	t o s t ç e ɾ a	8
+τοστιέρα	t o s t ç e ɾ a	8
 τουβλάκι	t u v l a c i	6
 τουρκοκρατία	t u ɾ k o k ɾ a t i a	29
 τούβλο	t u v l o	29
@@ -7021,7 +7766,7 @@
 τρίκαλα	t ɾ i k a l a	236
 τρίπολη	t ɾ i p o l i	190
 τρίτοσ	t ɾ i t o s	0
-τρίτων	t ɾ i t o n	174
+τρίτων	t ɾ i t o n	173
 τρίφτηκα	t r i f t i k a	0
 τραγουδιστήσ	t ɾ a ɣ u ð i s t i s	0
 τρανσ	t ɾ a n s	1
@@ -7036,7 +7781,7 @@
 τρελοκομείο	t ɾ e l o k o m i o	8
 τριάκοντα	t ɾ i a k o n d a	12
 τριάντα	t r i a n d a	420
-τριακόσια	t ɾ i a k o s ç a	22
+τριακόσια	t ɾ i a k o s ç a	22
 τριμμένα	t r i m e n a	27
 τριμμένε	t r i m e n e	0
 τριμμένεσ	t r i m e n e s	0
@@ -7076,7 +7821,7 @@
 τσέκαρε	t s e k a ɾ e	23
 τσίρλα	t s i ɾ l a	0
 τσίσα	t s i s a	6
-τσίσια	t s i s ç a	0
+τσίσια	t s i s ç a	0
 τσίτσα	t s i t s a	6
 τσίτσασ	t s i t s a s	0
 τσίτσεσ	t s i t s e s	0
@@ -7133,8 +7878,8 @@
 τυροπιτάκι	t i ɾ o p i t a k i	1
 τυροπιτούλα	t i ɾ o p i t u l a	1
 τυρόπιτα	t i ɾ o p i t a	35
-τυχερόσ	t i ç e r o s	0
-των	t o n	145909
+τυχερόσ	t i ç e r o s	0
+των	t o n	145902
 τόνοσ	t o n o s	0
 τόπι	t o p i	16
 τόση	t o s i	522
@@ -7142,7 +7887,7 @@
 τόσοι	t o s i	183
 τόσοσ	t o s o s	0
 τύρναβοσ	t i ɾ n a v o s	0
-τύχη	t i ç i	1165
+τύχη	t i ç i	1165
 υγεία	i ʝ i a	2627
 υγείεσ	i ʝ i e s	0
 υγειά	i ʝ a	59
@@ -7168,19 +7913,30 @@
 υπέκυψα	i p e c i p s a	1
 υπέρ	i p e r	1956
 υπέροχα	i p e ɾ o x a	423
-υπέροχη	i p e ɾ o ç i	529
-υπέροχοι	i p e ɾ o ç i	35
+υπέροχη	i p e ɾ o ç i	529
+υπέροχοι	i p e ɾ o ç i	35
 υπέροχοσ	i p e ɾ o x o s	0
 υπέσκαψα	i p e s k a p s a	0
+υπαγορεύθηκα	i p a ɣ o ɾ e f θ i k a	0
+υπαγορεύομαι	i p a ɣ o ɾ e v o m e	0
+υπαγορεύομε	i p a ɣ o ɾ e v o m e	0
+υπαγορεύουμε	i p a ɣ o ɾ e v u m e	3
+υπαγορεύτηκα	i p a ɣ o ɾ e f t i k a	0
+υπαγορεύω	i p a ɣ o ɾ e v o	0
+υπαγόρευσα	i p a ɣ o ɾ e f s a	0
+υπαγόρεψα	i p a ɣ o ɾ e p s a	0
 υπεγράφην	i p e ɣ r a f i n	0
 υπεκλάπην	i p e k l a p i n	0
-υπερίσχυσα	i p e r i s ç i s a	0
+υπερίσχυσα	i p e r i s ç i s a	0
+υπερβάλλω	i p e ɾ v a l o	12
 υπερηφάνεια	i p e r i f a n i a	133
-υπερισχύω	i p e r i s ç i o	0
+υπερισχύω	i p e r i s ç i o	0
 υπερκαινοφανήσ	i p e ɾ c e n o f a n i s	0
 υπερκαινοφανείσ	i p e ɾ c e n o f a n i s	0
-υπεροχή	i p e ɾ o ç i	179
+υπεροχή	i p e ɾ o ç i	179
 υπερτροφία	i p e ɾ t ɾ o f i a	14
+υπερφορτώνομαι	i p e ɾ f o ɾ t o n o m e	0
+υπερφορτώνω	i p e ɾ f o ɾ t o n o	0
 υπερόχωσ	i p e ɾ o x o s	0
 υπεύθυνοσ	i p e f θ i n o s	0
 υπνοβάτησ	i p n o v a t i s	0
@@ -7195,19 +7951,23 @@
 υπογράφω	i p o ɣ ɾ a f o	21
 υπογραφείσ	i p o ɣ ɾ a f i s	0
 υπογραφτείσ	i p o ɣ r a f t i s	0
+υποδέχθηκα	i p o ð e x θ i k a	1
 υποδέχομαι	i p o ð e x o m e	2
+υποδέχτηκα	i p o ð e x t i k a	1
 υποδήματα	i p o ð i m a t a	47
 υποδήματοσ	i p o ð i m a t o s	0
 υποδεκανέασ	i p o ð e k a n e a s	0
+υποδεχθεί	i p o ð e x θ i	51
+υποδεχτεί	i p o ð e x t i	66
 υποδημάτων	i p o ð i m a t o n	51
 υποδιαστολή	i p o ð i a s t o l i	5
-υποδοχή	i p o ð o ç i	268
+υποδοχή	i p o ð o ç i	268
 υποδύομαι	i p o ð i o m e	5
 υποθάλπομαι	i p o θ a l p o m e	0
 υποθάλπομε	i p o θ a l p o m e	0
 υποθάλπουμε	i p o θ a l p u m e	0
 υποθάλπω	i p o θ a l p o	0
-υποθήκη	i p o θ i c i	32
+υποθήκη	i p o θ i c i	31
 υποκλάπηκα	i p o k l a p i k a	0
 υποκλέπτομαι	i p o k l e p t o m e	0
 υποκλέπτομε	i p o k l e p t o m e	0
@@ -7259,6 +8019,10 @@
 υποσκάφτηκα	i p o s k a f t i k a	0
 υποσπαδίασ	i p o s p a ð i a s	0
 υπουργόσ	i p u ɾ ɣ o s	0
+υποχρεώνομαι	i p o x ɾ e o n o m e	1
+υποχρεώνω	i p o x ɾ e o n o	0
+υποψιάζομαι	i p o p s i a z o m e	32
+υποψιάζω	i p o p s i a z o	0
 υπόγραψα	i p o ɣ r a p s a	0
 υστέρησα	i s t e ɾ i s a	0
 υστεροβουλία	i s t e ɾ o v u l i a	8
@@ -7270,10 +8034,16 @@
 φάνταξα	f a n d a k s a	0
 φάντασμα	f a n d a z m a	129
 φάροσ	f a r o s	0
+φάσκιωσα	f a s c i o s a	0
 φάτνη	f a t n i	36
 φέγγει	f e ŋ ɟ i	15
+φέρε	f e ɾ e	64
 φέρετρο	f e ɾ e t ɾ o	57
-φέτα	f e t a	276
+φέρθηκα	f e ɾ θ i k a	5
+φέρνω	f e ɾ n o	40
+φέρομαι	f e ɾ o m e	10
+φέρω	f e ɾ o	109
+φέτα	f e t a	275
 φέτοσ	f e t o s	0
 φίδι	f i ð i	137
 φίλιπποσ	f i l i p o s	0
@@ -7286,12 +8056,21 @@
 φαντάζω	f a n d a z o	1
 φαντάστηκα	f a n d a s t i k a	24
 φαντασία	f a n d a s i a	722
-φανταστική	f a n d a s t i ç i	123
-φανταστικοί	f a n d a s t i ç i	7
+φανταστική	f a n d a s t i ç i	123
+φανταστικοί	f a n d a s t i ç i	7
 φανταχτερόσ	f a n d a x t e r o s	0
+φαρμάκι	f a ɾ m a c i	23
+φαρμάκια	f a ɾ m a c a	9
+φαρμάκωσα	f a ɾ m a k o s a	0
 φαρμακείο	f a r m a c i o	155
+φαρμακώθηκα	f a ɾ m a k o θ i k a	0
+φαρμακώνομαι	f a ɾ m a k o n o m e	0
+φαρμακώνω	f a ɾ m a k o n o	0
 φαρσί	f a r s i	1
 φασαρία	f a s a ɾ i a	101
+φασκιώθηκα	f a s c i o θ i k a	0
+φασκιώνομαι	f a s c i o n o m e	0
+φασκιώνω	f a s c i o n o	0
 φασολιά	f a s o ʎ a	5
 φασουλιού	f a s u ʎ u	0
 φασουλιών	f a s u ʎ o n	0
@@ -7387,19 +8166,21 @@
 φρεσκάρισε	f ɾ e s k a ɾ i s e	1
 φρεσκάρομαι	f r e s k a r o m e	0
 φρεσκαρίστηκα	f r e s k a r i s t i k a	0
+φρυγανίζομαι	f ɾ i ɣ a n i z o m e	0
+φρυγανίζω	f ɾ i ɣ a n i z o	0
 φτάνομαι	f t a n o m e	0
 φτάνω	f t a n o	42
 φτάστηκα	f t a s t i k a	0
-φτιάχνομαι	f t ç a x n o m e	2
-φτιάχνω	f t ç a x n o	115
-φτιάχτηκα	f t ç a x t i k a	2
+φτιάχνομαι	f t ç a x n o m e	2
+φτιάχνω	f t ç a x n o	115
+φτιάχτηκα	f t ç a x t i k a	2
 φτου	f t u	40
 φτυστόσ	f t i s t o s	0
 φτύνομαι	f t i n o m e	0
 φτύνω	f t i n o	7
 φτύστηκα	f t i s t i k a	0
 φυλαχτό	f i l a x t o	26
-φυσικά	f i s i k a	5261
+φυσικά	f i s i k a	5260
 φυτεύομαι	f i t e v o m e	0
 φυτεύτηκα	f i t e f t i k a	0
 φυτεύω	f i t e v o	1
@@ -7424,7 +8205,7 @@
 φυτικών	f i t i k o n	90
 φωνάζω	f o n a z o	44
 φωνάρα	f o n a ɾ a	7
-φωνή	f o n i	1384
+φωνή	f o n i	1377
 φωτοβολίδα	f o t o v o l i ð a	9
 φωτογράφησα	f o t o ɣ ɾ a f i s a	3
 φωτογράφισα	f o t o ɣ r a f i s a	4
@@ -7452,14 +8233,17 @@
 φύομαι	f i o m e	0
 φύτεψα	f i t e p s a	5
 φώναξα	f o n a k s a	24
-φώνημα	f o n i m a	1
+φώνημα	f o n i m a	0
 φώσφοροσ	f o s f o ɾ o s	0
 χάβομαι	x a v o m e	0
 χάβω	x a v o	0
 χάη	x a i	2
+χάθηκα	x a θ i k a	18
 χάιδεψα	x a i̯ ð e p s a	6
 χάλυβασ	x a l i v a s	0
 χάμπουργκερ	x a m b u ɾ ŋ ɟ e ɾ	24
+χάνομαι	x a n o m e	16
+χάνω	x a n o	68
 χάοσ	x a o s	0
 χάραξα	x a ɾ a k s a	3
 χάριν	x a r i n	218
@@ -7473,27 +8257,27 @@
 χάχανο	x a x a n o	2
 χάχασ	x a x a s	0
 χάψτε	x a p s t e	0
-χέζομαι	ç e z o m e	0
-χέζω	ç e z o	0
-χέλι	ç e l i	25
-χέρι	ç e ɾ i	2506
-χέσιμο	ç e s i m o	6
-χέστησ	ç e s t i s	0
-χέστρα	ç e s t ɾ a	2
-χίασμα	ç i a z m a	1
-χίε	ç i e	0
-χίλια	ç i ʎ a	238
-χίο	ç i o	157
-χίοι	ç i i	2
-χίοσ	ç i o s	0
-χίου	ç i u	228
-χίουσ	ç i u s	0
-χίων	ç i o n	4
-χαίρε	ç e r e	82
-χαίρετε	ç e r e t e	11
-χαίρομαι	ç e ɾ o m e	444
-χαίρω	ç e r o	8
-χαίτη	ç e t i	13
+χέζομαι	ç e z o m e	0
+χέζω	ç e z o	0
+χέλι	ç e l i	25
+χέρι	ç e ɾ i	2506
+χέσιμο	ç e s i m o	6
+χέστησ	ç e s t i s	0
+χέστρα	ç e s t ɾ a	2
+χίασμα	ç i a z m a	1
+χίε	ç i e	0
+χίλια	ç i ʎ a	238
+χίο	ç i o	157
+χίοι	ç i i	2
+χίοσ	ç i o s	0
+χίου	ç i u	227
+χίουσ	ç i u s	0
+χίων	ç i o n	4
+χαίρε	ç e r e	82
+χαίρετε	ç e r e t e	11
+χαίρομαι	ç e ɾ o m e	444
+χαίρω	ç e r o	8
+χαίτη	ç e t i	12
 χαβάη	x a v a i	31
 χαζοκούτι	x a z o k u t i	6
 χαζομάρα	x a z o m a ɾ a	14
@@ -7511,7 +8295,7 @@
 χαλασμένου	x a l a z m e n u	2
 χαλασμένουσ	x a l a z m e n u s	0
 χαλασμένων	x a l a z m e n o n	2
-χαλκίδα	x a l c i ð a	133
+χαλκίδα	x a l c i ð a	132
 χαλνώ	x a l n o	0
 χαμηλοβλεπούσα	x a m i l o v l e p u s a	2
 χαμηλόσ	x a m i l o s	0
@@ -7528,6 +8312,8 @@
 χαράμι	x a ɾ a m i	4
 χαράχτηκα	x a ɾ a x t i k a	0
 χαραλάμπησ	x a ɾ a l a m b i s	0
+χαραμίζομαι	x a ɾ a m i z o m e	0
+χαραμίζω	x a ɾ a m i z o	1
 χαραμοφάησ	x a ɾ a m o f a i s	0
 χαρτί	x a ɾ t i	860
 χαρτζιλίκι	x a ɾ d z i l i c i	44
@@ -7546,42 +8332,42 @@
 χαϊδεύομαι	x a i̯ ð e v o m e	1
 χαϊδεύτηκα	x a i̯ ð e f t i k a	0
 χαϊδεύω	x a i̯ ð e v o	14
-χείλη	ç i l i	487
-χείλι	ç i l i	4
-χείλια	ç i ʎ a	72
-χείλοσ	ç i l ɔ s	0
-χείλουσ	ç i l u s	0
-χεβρώνα	ç e v r o n a	6
-χεζάσ	ç e z a s	0
-χεζού	ç e z u	0
-χειλέων	ç i l e o n	15
-χειλιού	ç i ʎ u	0
-χειλιών	ç i ʎ o n	58
-χειμερινόσ	ç i m e r i n o s	0
-χειμωνιάτικα	ç i m o ɲ a t i k a	17
-χειμωνιάτικοσ	ç i m o ɲ a t i k o s	0
-χειρομαντεία	ç i ɾ o m a n d i a	2
-χειρότεροσ	ç i ɾ o t e ɾ o s	0
-χελώνα	ç e l o n a	66
-χεσμένα	ç e z m e n a	0
-χεσμένε	ç e z m e n e	0
-χεσμένεσ	ç e z m e n e s	0
-χεσμένη	ç e z m e n i	2
-χεσμένησ	ç e z m e n i s	0
-χεσμένο	ç e z m e n o	5
-χεσμένοι	ç e z m e n i	3
-χεσμένοσ	ç e z m e n o s	0
-χεσμένου	ç e z m e n u	0
-χεσμένουσ	ç e z m e n u s	0
-χεσμένων	ç e z m e n o n	0
-χι	ç i	16
-χιλιάδα	ç i ʎ a ð a	10
-χιμπαντζήσ	ç i m b a n d z i s	0
-χιμπατζήσ	ç i m b a n d z i s	0
-χιονάνθρωποσ	ç ɔ n a n θ ɾ ɔ p ɔ s	0
-χιονίζει	ç o n i z i	21
-χιόνι	ç o n i	275
-χιόνισε	ç o n i s e	4
+χείλη	ç i l i	487
+χείλι	ç i l i	4
+χείλια	ç i ʎ a	72
+χείλοσ	ç i l ɔ s	0
+χείλουσ	ç i l u s	0
+χεβρώνα	ç e v r o n a	6
+χεζάσ	ç e z a s	0
+χεζού	ç e z u	0
+χειλέων	ç i l e o n	15
+χειλιού	ç i ʎ u	0
+χειλιών	ç i ʎ o n	58
+χειμερινόσ	ç i m e r i n o s	0
+χειμωνιάτικα	ç i m o ɲ a t i k a	17
+χειμωνιάτικοσ	ç i m o ɲ a t i k o s	0
+χειρομαντεία	ç i ɾ o m a n d i a	2
+χειρότεροσ	ç i ɾ o t e ɾ o s	0
+χελώνα	ç e l o n a	66
+χεσμένα	ç e z m e n a	0
+χεσμένε	ç e z m e n e	0
+χεσμένεσ	ç e z m e n e s	0
+χεσμένη	ç e z m e n i	2
+χεσμένησ	ç e z m e n i s	0
+χεσμένο	ç e z m e n o	5
+χεσμένοι	ç e z m e n i	3
+χεσμένοσ	ç e z m e n o s	0
+χεσμένου	ç e z m e n u	0
+χεσμένουσ	ç e z m e n u s	0
+χεσμένων	ç e z m e n o n	0
+χι	ç i	16
+χιλιάδα	ç i ʎ a ð a	10
+χιμπαντζήσ	ç i m b a n d z i s	0
+χιμπατζήσ	ç i m b a n d z i s	0
+χιονάνθρωποσ	ç ɔ n a n θ ɾ ɔ p ɔ s	0
+χιονίζει	ç o n i z i	21
+χιόνι	ç o n i	275
+χιόνισε	ç o n i s e	4
 χλια	x ʎ a	0
 χλιαρόσ	x l i a r o s	0
 χλιασ	x ʎ a s	0
@@ -7621,6 +8407,8 @@
 χρειάσθηκα	x ɾ i a s θ i k a	0
 χρειάστηκα	x ɾ i a s t i k a	20
 χρειάστηκε	x ɾ i a s t i c e	477
+χρεώνομαι	x ɾ e o n o m e	2
+χρεώνω	x ɾ e o n o	2
 χρηματοκιβώτιο	x ɾ i m a t o k i v o t i o	34
 χριστουγέννων	x ɾ i s t u ʝ e n o n	379
 χριστουγεννιάτικα	x r i s t u ʝ e ɲ a t i k a	139
@@ -7659,7 +8447,7 @@
 χόρεψε	x o ɾ e p s e	37
 χόρεψεσ	x o ɾ e p s e s	0
 χόρτασα	x o ɾ t a s a	8
-χύτρα	ç i t ɾ a	40
+χύτρα	ç i t ɾ a	40
 ψάρεψα	p s a ɾ e p s a	3
 ψάχνομαι	p s a x n o m e	8
 ψάχνω	p s a x n o	211
@@ -7715,8 +8503,8 @@
 ψιτ	p s i t	3
 ψοφάω	p s o f a o	1
 ψοφώ	p s o f o	0
-ψυχιατρική	p s i ç a t r i c i	82
-ψυχιατρικοί	p s i ç a t r i c i	1
+ψυχιατρική	p s i ç a t r i c i	82
+ψυχιατρικοί	p s i ç a t r i c i	1
 ψυχολογική	p s i x o l o ʝ i c i	244
 ψυχολογικοί	p s i x o l o ʝ i c i	6
 ψωλάκι	p s o l a c i	0
@@ -7746,6 +8534,10 @@
 ωσαννά	o s a n a	5
 ωστόσο	o s t o s o	6132
 ωσότου	o s o t u	11
+ωφελήθηκα	o f e l i θ i k a	2
+ωφελούμαι	o f e l u m e	2
+ωφελούμε	o f e l u m e	0
+ωφελώ	o f e l o	0
 ό,τι	o t i	0
 όγδοοσ	o ɣ ð o o s	0
 όζοσ	o z o s	0
@@ -7753,6 +8545,16 @@
 όλισβοσ	ɔ l i z v ɔ s	0
 όλυμποσ	o l i m b o s	0
 όμικρον	o m i k r o n	4
+όμορφα	o m o ɾ f a	874
+όμορφε	o m o ɾ f e	2
+όμορφεσ	o m o ɾ f e s	0
+όμορφη	o m o ɾ f i	962
+όμορφο	o m o ɾ f o	949
+όμορφοι	o m o ɾ f i	33
+όμορφοσ	o m o ɾ f o s	0
+όμορφου	o m o ɾ f u	14
+όμορφουσ	o m o ɾ f u s	0
+όμορφων	o m o ɾ f o n	9
 όνοσ	o n o s	0
 όντασ	o n d a s	0
 όντωσ	o n d o s	0
@@ -7760,11 +8562,12 @@
 όπιο	o p i o	8
 όπισθεν	o p i s θ e n	45
 όπλο	o p l o	717
-όποιο	o p ç o	464
+όποιο	o p ç o	464
 όρεξη	o ɾ e k s i	467
 όρισα	o ɾ i s a	3
 όρνιθα	o r n i θ a	3
 ότι	o t i	91517
+όφελοσ	o f e l o s	0
 όφισ	o f i s	0
 ύβρισ	i v ɾ i s	0
 ύπνοσ	i p n o s	0
@@ -7779,7 +8582,7 @@
 ώσπερ	o s p e ɾ	11
 ώσπου	o s p u	342
 ώστε	o s t e	8797
-ἀγορά	a ɣ o ɾ a	1
+ἀγορά	a ɣ o ɾ a	0
 ἀδικοῦμαι	a ð i k u m e	0
 ἀδικῶ	a ð i k o	0
 ἀθήναισ	a θ i n e s	0
