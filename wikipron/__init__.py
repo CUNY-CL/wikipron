@@ -1,4 +1,4 @@
-"""Scraping grapheme-to-phoneme data from Wiktionary."""
+"""Scrapes grapheme-to-phoneme data from Wiktionary."""
 
 import pkg_resources
 
