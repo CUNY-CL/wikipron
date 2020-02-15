@@ -70,12 +70,11 @@ def main():
                 except IndexError:
                     word = row[1].lower()
                     freq = int(row[2])
-                # Filter out numbers in Wortschatz data.
-                if str.isalpha(word):
-                    if word not in word_freq_dict:
-                        word_freq_dict[word] = freq
-                    else:
-                        word_freq_dict[word] = word_freq_dict[word] + freq
+
+                if word not in word_freq_dict:
+                    word_freq_dict[word] = freq
+                else:
+                    word_freq_dict[word] = word_freq_dict[word] + freq
 
         for wiki_tsv_path in languages[file_to_match]["path"]:
             for level in transcription:
