@@ -38,7 +38,7 @@ $deity	d iː ɪ t i	0
 'un	ʌ n	0
 ++	p l ʌ s p l ʌ s	0
 .com	d ɑ t k ɑ m	0
-@	i t ʃ æ t	0
+@	i t ʃ æ t	2597
 a	e ɪ	453040
 a	e ɪ̯	453040
 a	ɑː	453040
@@ -2376,7 +2376,7 @@ aiming	e ɪ m ɪ ŋ	194
 aimings	e ɪ m ɪ ŋ z	0
 aimless	e ɪ m l ə s	7
 aims	e ɪ m z	508
-ain't	e ɪ n t	0
+ain't	e ɪ n t	80
 ain'tcha	e ɪ n t ʃ ə	0
 ainsley	e ɪ n z l i	11
 ainsworth	e ɪ n z w ɝ θ	19
@@ -3556,7 +3556,7 @@ any	ɪ n i	16698
 anybody	ɛ n i b ɑ d i	561
 anybody	ɛ n i b ə d i	561
 anybody	ɛ n i b ʌ d i	561
-anybody's	ɛ n i b ə d i z	0
+anybody's	ɛ n i b ə d i z	13
 anyhow	æ n i h a ʊ	21
 anyhow	ɛ n i h a ʊ	21
 anymore	ɛ n i m ɔ ˞	547
@@ -3972,7 +3972,7 @@ are	ɛ ɹ	101722
 area	æ ɹ i ə	10687
 area	ɛ ɹ i ə	10687
 arefaction	æ ɹ ɪ f æ k ʃ ə n	0
-aren't	ɑː ɹ n t	0
+aren't	ɑː ɹ n t	746
 arena	ə ɹ iː n ə	771
 arenas	ə ɹ iː n ə z	53
 areola	æ ɹ i o ʊ l ə	1
@@ -7927,7 +7927,7 @@ bury	b ɛ ɹ i	126
 bury	b ɜ ɹ i	126
 bus	b ɔ s	1605
 bus	b ʌ s	1605
-bus.	b ɪ z	0
+bus.	b ɪ z	1
 busby	b ʌ z b i	22
 buschauffeur	b uː s ʃ oː f ɐ	0
 bused	b ʌ s t	14
@@ -8043,7 +8043,7 @@ béi	b e i̯	0
 bêtise	b e ɪ t iː z	0
 bêtise	b ɛ t iː z	0
 bʼakʼtun	b ɑ k t u n	0
-c'mon	k ə m ɒ n	0
+c'mon	k ə m ɒ n	10
 caatinga	k ɑː t ɪ ŋ ɡ ə	0
 cab	k æ b	178
 cabal	k ə b æ l	15
@@ -8466,7 +8466,7 @@ caoshu	t s a ʊ ʃ uː	0
 caoutchouc	k a ʊ t ʃ u k	0
 caoutchouc	k a ʊ t ʃ ʊ k	0
 cap	k æ p	510
-cap'n	k æ p n̩	0
+cap'n	k æ p n̩	1
 capability	k e ɪ p ə b ɪ l ə t i	192
 capable	k e ɪ p ə b l̩	558
 capacious	k ə p e ɪ ʃ ə s	2
@@ -11796,9 +11796,9 @@ couchings	k a ʊ t ʃ ɪ ŋ z	0
 cougar	k u ɡ ɚ	82
 cough	k ɔ f	87
 cougher	k ɒ f ə	0
-could've	k ʊ d ə v	0
+could've	k ʊ d ə v	22
 coulda	k ʊ d ə	3
-couldn't	k ʊ d ə n t	0
+couldn't	k ʊ d ə n t	792
 couldn't've	k ʊ d n̩ t ə v	0
 couldn't've	k ʊ d ə n t ə v	0
 couldna	k ʊ d n ə	0
@@ -12946,7 +12946,7 @@ dastard	d æ s t ɚ d	0
 dastardly	d æ s t ɚ d l i	11
 dasyphyllous	d æ s ɪ f ɪ l ə s	0
 dat	d æ t	17
-dat's	d æ t s	0
+dat's	d æ t s	1
 data	d e ɪ t ə	2614
 data	d æ t ə	2614
 data	d ɑː t ə	2614
@@ -13897,7 +13897,7 @@ didactic	d ɪ d æ k t ɪ k	3
 diddest	d ɪ d ɛ s t	0
 didgeridoo	d ɪ d ʒ ə ɹ i d uː	4
 didja	d ɪ d ʒ ə	0
-didn't	d ɪ d ə n t	0
+didn't	d ɪ d ə n t	2861
 dido	d a ɪ d ə ʊ	3
 didst	d ɪ d s t	1
 didymous	d ɪ d ɪ m ə s	0
@@ -14444,7 +14444,7 @@ dnieper	d ə n j e p ə ɹ	0
 dnieper	n i p ə ɹ	0
 do	d o ʊ	28079
 do	d u	28079
-do't	d uː t	0
+do't	d uː t	1
 dob	d ɑ b	5
 docent	d o ʊ s ə n t	16
 docile	d ɑː s a ɪ l	16
@@ -14453,7 +14453,7 @@ dock	d ɑ k	230
 dockize	d ɒ k ɑ ɪ z	0
 docks	d ɒ k s	63
 doctor	d ɑ k t ɚ	1003
-doctor's	d ɑ k t ɚ z	0
+doctor's	d ɑ k t ɚ z	41
 doctorate	d ɑ k t ə ɹ e ɪ t	86
 doctorate	d ɑ k t ə ɹ ə t	86
 doctors	d ɑ k t ɚ z	1057
@@ -14481,7 +14481,7 @@ doe	d o ʊ	126
 doer	d uː ə ɹ	7
 does	d o ʊ z	7838
 does't	d ʌ z t	0
-doesn't	d ʌ z ə n t	0
+doesn't	d ʌ z ə n t	2180
 doeth	d u ɪ θ	0
 doff	d ɑ f	2
 doff	d ɔ f	2
@@ -14583,7 +14583,7 @@ dompt	d ɒ m p t	0
 dompt	d ɒ m t	0
 domy	d o ʊ m i	0
 don	d ɑ n	748
-don't	d o ʊ n t	0
+don't	d o ʊ n t	6141
 donate	d o ʊ n e ɪ t	528
 donation	d o ʊ n e ɪ ʃ ə n	743
 donations	d o ʊ n e ɪ ʃ ə n z	1308
@@ -15254,8 +15254,8 @@ dénouement	d e ɪ n u m ɑ̃	2
 détente	d e ɪ t ɒ n t	3
 düsseldorf	d uː s ə l d ɔ ɹ f	4
 düsseldorf	d ʊ s ə l d ɔ ɹ f	4
-e'er	ɛ ɚ	0
-e.g.	i d ʒ i	0
+e'er	ɛ ɚ	1
+e.g.	i d ʒ i	37
 ea	iː	35
 ea	iː ə	35
 each	i t͡ʃ	11257
@@ -16599,7 +16599,7 @@ eta	e ɪ t ə	11
 etan	e ɪ t ɑː n	1
 etatism	ɛ t ɑː t ɪ z ə m	0
 etatisme	ɛ t ɑː t ɪ z ə m	0
-etc.	ɛ k s ɛ t ə ɹ ə	0
+etc.	ɛ k s ɛ t ə ɹ ə	631
 etch	ɛ t ʃ	5
 etching	e t ʃ ɪ ŋ	9
 etendue	e ɪ t ɑ n d u	0
@@ -16728,7 +16728,7 @@ euthemia	j u θ i m i ə	0
 euthemia	ɛ f θ i m i ə	0
 euthyroid	j u θ a ɪ ɹ ɔ ɪ d	0
 eutripsia	j uː t ɹ ɪ p s ɪ ə	0
-ev'ry	ɛ v ɹ i	0
+ev'ry	ɛ v ɹ i	1
 evacuate	ɪ v æ k j u e ɪ t	84
 evade	ɪ v e ɪ d	43
 evaluate	ɪ̈ v a l j ə w e ɪ t	198
@@ -17836,7 +17836,7 @@ fifties	f ɪ f t i z	14
 fiftieth	f ɪ f t i ə θ	3
 fifty	f ɪ f t i	181
 fig	f ɪ ɡ	32
-fig.	f ɪ ɡ	0
+fig.	f ɪ ɡ	2
 figgy	f ɪ ɡ i	1
 fight	f a ɪ t	2521
 fightable	f a ɪ t ə b ə l	0
@@ -19261,7 +19261,7 @@ fœtor	f iː t ɔ ɹ	0
 fœtors	f iː t ɔ ɹ z	0
 g	d ʒ iː	195
 g'bye	ɡ ə b a ɪ	0
-g'day	ɡ ə d e ɪ	0
+g'day	ɡ ə d e ɪ	1
 g'night	ɡ ə n a ɪ t	0
 gab	ɡ æ b	13
 gabardine	ɡ æ b ɚ d i n	2
@@ -21188,7 +21188,7 @@ götterdämmerung	ɡ ɒ t ə d æ m ə ɹ ʊ ŋ	0
 gülenist	ɡ u l ə n ɪ s t	1
 h	e ɪ t ʃ	145
 ha'nt	h æ n t	0
-ha'penny	h e ɪ p n i	0
+ha'penny	h e ɪ p n i	1
 haaf	h ɑ f	0
 haarder	h ɑː ɹ d ə ɹ	0
 habakkuk	h æ b ə k ə k	1
@@ -21223,7 +21223,7 @@ hadal	h e ɪ d ə l	0
 haddock	h æ d ə k	14
 hades	h e ɪ d iː z	4
 hadley	h æ d l i	45
-hadn't	h æ d ə n t	0
+hadn't	h æ d ə n t	208
 hadrochemistry	h æ d ɹ ə ʊ k ɛ m ɪ s t ɹ i	0
 hadron	h æ d ɹ ɑ n	3
 haecceitism	h iː k s iː ə t ɪ z ə m	0
@@ -21547,7 +21547,7 @@ hashish	h æ ʃ ɪ ʃ	4
 hashish	h ə ʃ iː ʃ	4
 hashtag	h æ ʃ t æ ɡ	24
 hashy	h l æ ʃ i	0
-hasn't	h æ z n̩ t	0
+hasn't	h æ z n̩ t	462
 hassium	h æ s i ə m	0
 hassle	h æ s l	58
 hast	h æ s t	3
@@ -21604,7 +21604,7 @@ havana	h ə v æ n ə	115
 havant	h æ v ə n t	7
 haveing	h æ v i ŋ	0
 haven	h e ɪ v ə n	447
-haven't	h æ v n̩ t	0
+haven't	h æ v n̩ t	569
 haver	h æ v ɚ	1
 havildar	h æ v ɪ l d ɑ ɹ	2
 having	h æ v ɪ ŋ	6417
@@ -21648,11 +21648,11 @@ haüyne	ɑː w iː n	0
 haüynite	ɑː w iː n a ɪ t	0
 he	h e ɪː	97750
 he	h i	97750
-he'd	h iː d	0
+he'd	h iː d	293
 he'd've	h iː d ə v	0
-he'll	h iː l	0
-he'll	h ɪ l	0
-he's	h iː z	0
+he'll	h iː l	251
+he'll	h ɪ l	251
+he's	h iː z	2407
 head	h ɛ d	5655
 headache	h ɛ d e ɪ k	89
 headband	h ɛ d b æ n d	6
@@ -21963,7 +21963,7 @@ herd	h ɝ d	173
 herder	h ɝː d ɚ	5
 here	h ɪ ɹ	13026
 here're	h iː ɹ ə ɹ	0
-here's	h ɪ ɹ z	0
+here's	h ɪ ɹ z	512
 hereafter	h ɪ ɹ æ f t ɚ	13
 hereby	h ɪ ɹ b a ɪ	47
 hereditament	h ɛ ɹ ɪ d ɪ t ə m ə n t	0
@@ -22714,11 +22714,11 @@ hoverboard	h ʌ v ɚ b ɔ ɹ d	5
 hovercraft	h ɑ v ɚ k ɹ æ f t	4
 hovercraft	h ʌ v ɚ k ɹ æ f t	4
 how	h a ʊ	21075
-how'd	h a ʊ d	0
+how'd	h a ʊ d	5
 how'll	h a ʊ l	0
 how'm	h a ʊ m	0
-how're	h a ʊ ɚ	0
-how's	h a ʊ z	0
+how're	h a ʊ ɚ	1
+how's	h a ʊ z	16
 how't	h a ʊ t	0
 how've	h a ʊ v	0
 howard	h a ʊ ɚ d	687
@@ -23122,18 +23122,18 @@ hënn	h ə n	0
 h₂o	e ɪ t ʃ t uː o ʊ	0
 i	a ɪ	100506
 i	ɪ	100506
-i'd	a ɪ d	0
+i'd	a ɪ d	669
 i'd've	a ɪ d ə v	0
 i'da	a ɪ d ə	0
 i'dn't've	a ɪ d ə n t ə v	0
-i'll	a l	0
-i'll	a ɪ l	0
-i'll	ɑː l	0
-i'm	a m	0
-i'm	a ɪ m	0
+i'll	a l	546
+i'll	a ɪ l	546
+i'll	ɑː l	546
+i'm	a m	3598
+i'm	a ɪ m	3598
 i'n	ɪ n	0
-i've	a ɪ v	0
-i.e.	a ɪ iː	0
+i've	a ɪ v	1550
+i.e.	a ɪ iː	106
 iambic	a ɪ æ m b ɪ k	3
 iamblichus	a ɪ æ m b l ɪ k ə s	0
 ian	iː ə n	339
@@ -23558,8 +23558,8 @@ imputation	ɪ m p j ʊ t e ɪ ʃ ə n	1
 impute	ɪ m p j uː t	0
 in	ə n	389411
 in	ɪ n	389411
-in's	ɪ n z	0
-in't	ɪ n t	0
+in's	ɪ n z	1
+in't	ɪ n t	1
 inability	ɪ n ə b ɪ l ɪ t i	164
 inable	ɪ n e ɪ b ə l	0
 inaccurate	ɪ n æ k j ʊ ɹ ə t	90
@@ -23585,7 +23585,7 @@ inattentive	ɪ n ə t ɛ n t ɪ v	9
 inboard	ɪ n b ɔː ɹ d	0
 inbox	ɪ m b ɑ k s	210
 inbox	ɪ n b ɑ k s	210
-inc.	ɪ ŋ k	0
+inc.	ɪ ŋ k	1213
 inca	ɪ ŋ k ə	7
 incalescent	ɪ n k ə l ɛ s ə n t	0
 incandescent	ɪ n k æ n d ɛ s ə n t	13
@@ -24521,7 +24521,7 @@ islet	a ɪ l ə t	6
 ism	ɪ z ə m	9
 ismaili	ɪ s m ɑː i l i	6
 ismaili	ɪ s m ʌ ɪ iː l i	6
-isn't	ɪ z ə n t	0
+isn't	ɪ z ə n t	1369
 iso	a ɪ s ə ʊ	44
 isobathic	a ɪ s ə b æ θ ɪ k	0
 isogamy	a ɪ s ɒ ɡ ə m i	0
@@ -24556,10 +24556,10 @@ issus	ɪ s ə s	0
 isthmus	ɪ s m ə s	3
 it	ə t	125965
 it	ɪ t	125965
-it'd	ɪ d	0
-it'd	ɪ t ə d	0
-it'd	ɪ t ɪ d	0
-it's	ɪ t s	0
+it'd	ɪ d	31
+it'd	ɪ t ə d	31
+it'd	ɪ t ɪ d	31
+it's	ɪ t s	11562
 it'sn't	ɪ t s n t	0
 italian	a ɪ t æ l j ə n	668
 italian	ɪ t æ l j ə n	668
@@ -26493,7 +26493,7 @@ lefties	l ɛ f t i z	14
 leftist	l ɛ f t ɪ s t	83
 lefty	l ɛ f t i	47
 leg	l ɛ ɡ	595
-leg.	l ɛ d͡ʒ	0
+leg.	l ɛ d͡ʒ	2
 legacy	l ɛ ɡ ə s i	670
 legal	l i ɡ ə l	2665
 legal	l ɨ ɡ æ l	2665
@@ -26620,7 +26620,7 @@ lessons	l ɛ s n̩ z	699
 lest	l ɛ s t	70
 lester	l ɛ s t ɚ	122
 let	l ɛ t	4417
-let's	l ɛ t s	0
+let's	l ɛ t s	665
 letcha	l ɛ t ʃ ə	0
 lethal	l iː θ ə l	115
 lethally	l iː θ ə l i	1
@@ -26988,7 +26988,7 @@ lists	l ɪ s t s	409
 listserver	l ɪ s t s ɚ v ɚ	0
 liszt	l ɪ s t	2
 lit	l ɪ t	215
-lit.	l ɪ t	0
+lit.	l ɪ t	7
 litany	l ɪ t ə n i	20
 litchi	l iː t͡ʃ iː	0
 lite	l a ɪ t	12
@@ -27587,8 +27587,8 @@ m	ɛ m	268
 m'kay	mː k e ɪ	0
 m'kay	ŋ k e ɪ	0
 m'lady	m ə l e ɪ d i	0
-m.	ɛ m	0
-ma'am	m æ m	0
+m.	ɛ m	605
+ma'am	m æ m	5
 maar	m ɑː ɹ	6
 maas	m ɑː s	19
 maas	m ɑː z	19
@@ -28723,7 +28723,7 @@ memorize	m ɛ m ə ɹ a ɪ̯ z	19
 memory	m ɛ m ə ɹ i	1002
 memphis	m ɛ m f ɪ s	291
 men	m ɛ n	4507
-men's	m ɛ n z	0
+men's	m ɛ n z	386
 menace	m ɛ n ɪ s	61
 menagerie	m ɪ n æ d ʒ ə ɹ ɪ	10
 mend	m ɛ n d	39
@@ -29947,7 +29947,7 @@ mozarab	m o ʊ z æ ɹ ə b	0
 mozart	m o ʊ t s a ɹ t	53
 mozo	m o θ o	1
 mozo	m ə ʊ z ə ʊ	1
-mr.	m ɪ s t ə ɹ	0
+mr.	m ɪ s t ə ɹ	4241
 mrs	m ɪ s ə z	342
 mrs	m ɪ s ɪ z	342
 mrsa	m ɝ s ə	4
@@ -30153,7 +30153,7 @@ mussel	m ʌ s ə l	11
 mussitate	m ʌ s ɪ t e ɪ t	0
 mussuck	m ʌ s ə k	0
 mussulman	m ʌ s ə l m ə n	1
-must've	m ʌ s t ə v	0
+must've	m ʌ s t ə v	3
 mustache	m ʌ s t æ ʃ	31
 mustached	m ʌ s t æ ʃ t	1
 mustang	m ʌ s t æ ŋ	85
@@ -30161,7 +30161,7 @@ mustard	m ʌ s t ə ɹ d	110
 mustee	m ə s t i	0
 mustelline	m ʌ s t ɛ l a ɪ n	0
 muster	m ʌ s t ɚ	70
-mustn't	m ʌ s n̩ t	0
+mustn't	m ʌ s n̩ t	5
 mutable	m j uː t ə b l̩	1
 mutagen	m j uː t ə d ʒ n̩	0
 mutant	m j u ʔ n̩ t	26
@@ -30260,7 +30260,7 @@ mésalliance	m e ɪ z ə l a ɪ ə n s	0
 mëllechmann	m ə l ə ɕ m ɑ n	0
 mímir	m i m ɪ ɹ	0
 n	ɛ n	321
-n'djamena	ə n d ʒ ɑː m e ɪ n ɑː	0
+n'djamena	ə n d ʒ ɑː m e ɪ n ɑː	1
 na	n ɑː	130
 naam	n ɑː m	4
 naas	n e ɪ s	6
@@ -30493,8 +30493,8 @@ naïveté	n ɑ iː v t e ɪ	2
 naïveté	n ɑ iː v ə t e ɪ	2
 nduja	ə n d uː j ə	1
 ne	n ə	129
-ne'er	n ɛ ɚ	0
-ne'er	n ɛ ʔ ɚ	0
+ne'er	n ɛ ɚ	1
+ne'er	n ɛ ʔ ɚ	1
 neal	n iː l	126
 neanderthal	n i æ n d ə ɹ θ ə l	6
 neanderthal	n iː æ n d ɚ t ɑː l	6
@@ -30569,7 +30569,7 @@ need	n iː d	13375
 needed	n iː d ɪ d	3928
 needful	n iː d f ə l	2
 needle	n iː d l	93
-needn't	n iː d n̩ t	0
+needn't	n iː d n̩ t	7
 needs	n iː d z	5344
 needy	n iː d i	129
 neepawa	n iː p ə w ə	3
@@ -31291,16 +31291,16 @@ née	n iː	6
 névé	n e ɪ v e ɪ	0
 o	o ʊ	221
 o'	ə	0
-o'clock	o ʊ k l ɑ k	0
-o'clock	ə k l ɑ k	0
-o'dea	o ʊ d iː	0
+o'clock	o ʊ k l ɑ k	51
+o'clock	ə k l ɑ k	51
+o'dea	o ʊ d iː	5
 o'er	o ʊ ɚ	0
 o'er	ɔ ɹ	0
-o'malley	o ʊ m æ l i	0
-o'neill	o ʊ n i l	0
+o'malley	o ʊ m æ l i	29
+o'neill	o ʊ n i l	42
 o'odham	ɔ ʔ ɔ t a m	0
-o'reilly	ə ɹ a ɪ l i	0
-o'shea	o ʊ ʃ e ɪ	0
+o'reilly	ə ɹ a ɪ l i	25
+o'shea	o ʊ ʃ e ɪ	7
 oaf	o ʊ f	4
 oafish	o ʊ f ɪ ʃ	0
 oahu	o ʊ ɑ h u	40
@@ -31764,8 +31764,8 @@ oncologist	ɒ ŋ k ɒ l ə d ʒ ɪ s t	25
 oncology	ɒ ŋ k ɒ l ə d ʒ i	39
 oncom	ɒ n t ʃ ɒ m	0
 one	w ʌ n	48218
-one's	w ʌ n s	0
-one's	w ʌ n z	0
+one's	w ʌ n s	191
+one's	w ʌ n z	191
 oneiric	o ʊ n a ɪ ɹ ɪ k	0
 oneirocritic	o ʊ n a ɪ ɹ ə k ɹ ɪ t ɪ k	0
 oneiromancy	o ʊ n a ɪ ɹ o ʊ m æ n t s i	0
@@ -36582,10 +36582,10 @@ quoth	k w o ʊ θ	0
 quotidian	k w ɵ t ɪ d ɪ ə n	2
 quotient	k w o ʊ ʃ ə n t	12
 quotinoctian	k w ə ʊ t ɪ n ɒ k t ɪ ə n	0
-qur'an	k o ʊ ɹ æ n	0
-qur'an	k ɔ ɹ ɑ n	0
-qur'an	k ə ɹ æ n	0
-qur'an	k ə ɹ ɑ n	0
+qur'an	k o ʊ ɹ æ n	11
+qur'an	k ɔ ɹ ɑ n	11
+qur'an	k ə ɹ æ n	11
+qur'an	k ə ɹ ɑ n	11
 quus	k w ʌ s	0
 quylthulg	k w ɪ l θ ʌ l ɡ	0
 québec	k w ɪ b ɛ k	16
@@ -40035,10 +40035,10 @@ shaving	ʃ e ɪ v ɪ ŋ	46
 shawl	ʃ ɔː l	13
 shawm	ʃ ɔː m	0
 she	ʃ i	44121
-she'd	ʃ iː d	0
-she'll	ʃ iː l	0
-she'll	ʃ ɪ l	0
-she's	ʃ i z	0
+she'd	ʃ iː d	115
+she'll	ʃ iː l	102
+she'll	ʃ ɪ l	102
+she's	ʃ i z	845
 shea	ʃ e ɪ	96
 shea	ʃ i	96
 shea	ʃ i ə	96
@@ -40276,7 +40276,7 @@ shotgun	ʃ ɑ t ɡ ʌ n	118
 shott	ʃ ɑ t	0
 shotten	ʃ ɑ t ə n	0
 shotty	ʃ ɒ t i	0
-should've	ʃ ʊ d ə v	0
+should've	ʃ ʊ d ə v	9
 shoulda	ʃ ʊ d ə	5
 shoulder	ʃ o ʊ l d ɚ	505
 shoulders	ʃ o ʊ l d ɚ z	278
@@ -44051,8 +44051,8 @@ thanksgiving	θ æ ŋ k s ɡ ɪ v ɪ ŋ	623
 thao	θ a ʊ	5
 that	ð æ t	193331
 that're	ð ə t ɚ	0
-that's	ð æ t s	0
-that've	ð ə t ə v	0
+that's	ð æ t s	3781
+that've	ð ə t ə v	1
 thatch	θ æ t ʃ	1
 thatcher	θ æ t ʃ ɚ	52
 thatcherite	θ æ t ʃ ə ɹ a ɪ t	0
@@ -44125,12 +44125,12 @@ theosophical	θ i ə s ɑ f ɪ k ə l	1
 therapeutic	θ ɛ ɹ ə p j uː t ɪ k	94
 therapy	θ ɛ ɹ ə p i	536
 there	ð ɛ ɚ	39571
-there'll	ð e ɹ l	0
-there'll	ð ɛ l	0
-there'll	ð ɛ ə ɹ l	0
-there'll	ð ɛ ɹ l	0
-there're	ð ɛ ə ɹ ə ɹ	0
-there's	ð ɛ ɚ z	0
+there'll	ð e ɹ l	16
+there'll	ð ɛ l	16
+there'll	ð ɛ ə ɹ l	16
+there'll	ð ɛ ɹ l	16
+there're	ð ɛ ə ɹ ə ɹ	3
+there's	ð ɛ ɚ z	2456
 thereafter	ð ɛ ə ɹ æ f t ɚ	132
 thereat	ð ɛː ɹ æ t	0
 thereatop	ð ɛ ə ɹ ə t ɒ p	0
@@ -44187,12 +44187,12 @@ thew	θ uː	2
 thews	θ j uː z	0
 thews	θ uː z	0
 they	ð e ɪ	69481
-they'd	ð e ɪ d	0
+they'd	ð e ɪ d	179
 they'd've	ð e ɪ d ə v	0
-they'll	ð e ɪ l	0
-they're	ð e ɪ ɚ	0
-they're	ð ɛ ɚ	0
-they've	ð e ɪ v	0
+they'll	ð e ɪ l	347
+they're	ð e ɪ ɚ	1708
+they're	ð ɛ ɚ	1708
+they've	ð e ɪ v	570
 thick	θ ɪ k	355
 thicken	θ ɪ k ə n	14
 thickly	θ ɪ k l i	4
@@ -46338,7 +46338,7 @@ urushiol	ʊ ɹ uː ʃ i ɔ l	2
 us	j uː ɛ s	20159
 us	ə s	20159
 us	ə z	20159
-us's	ʌ s ɪ z	0
+us's	ʌ s ɪ z	11
 usabilities	j uː z ə b ɪ l ɪ t i z	0
 usability	j uː z ə b ɪ l ɪ t i	29
 usable	j uː z ə b ə l	44
@@ -47072,7 +47072,7 @@ vivify	v ɪ v ɪ f ʌ ɪ	0
 vivifying	v ɪ v ɪ f ʌ ɪ ŋ	0
 viviparous	v ɪ v ɪ p ə ɹ ə s	0
 vixen	v ɪ k s ə n	3
-viz.	v ɪ z	0
+viz.	v ɪ z	6
 vizard	v ɪ z ə d	0
 vizier	v ɪ z ɪ ɹ	2
 vizsla	v i ʒ l ə	1
@@ -47396,7 +47396,7 @@ washing	w ɔ ʃ ɪ ŋ	252
 washington	w ɑ ʃ ɪ ŋ t ə n	3452
 wasm	w ɑ z ə m	0
 wasm	w ʌ z ə m	0
-wasn't	w ʌ z ə n t	0
+wasn't	w ʌ z ə n t	1269
 wasp	w ɑ s p	25
 waspish	w ɑ s p ɪ ʃ	1
 wassail	w ɑ s e ɪ l	2
@@ -47464,15 +47464,15 @@ wałęsa	v ə w ɛ n s ə	2
 wcg	d ʌ b ə l j uː s iː d ʒ iː	1
 we	w i	79070
 we	w iː	79070
-we'd	w iː d	0
-we'll	w i ə l	0
-we'll	w iː l	0
-we'll	w ə l	0
-we'll	w ɪ l	0
-we're	w ɛ ə ɹ	0
-we're	w ɪ ɚ	0
-we're	w ɪ ɹ	0
-we've	w iː v	0
+we'd	w iː d	247
+we'll	w i ə l	646
+we'll	w iː l	646
+we'll	w ə l	646
+we'll	w ɪ l	646
+we're	w ɛ ə ɹ	2599
+we're	w ɪ ɚ	2599
+we're	w ɪ ɹ	2599
+we've	w iː v	1318
 weak	w iː k	493
 weaken	w i k ə n	87
 weaker	w i k ɚ	107
@@ -47618,8 +47618,8 @@ wereleopard	w ɛ ɹ l ɛ p ɚ d	0
 wereleopard	w ɪ ɹ l ɛ p ɚ d	0
 werelion	w ɛ ɹ l a ɪ ə n	0
 werelion	w ɪ ɹ l a ɪ ə n	0
-weren't	w ɝ n t	0
-weren't	w ɝ ə n t	0
+weren't	w ɝ n t	370
+weren't	w ɝ ə n t	370
 wererat	w ɛ ɹ æ t	0
 wererat	w ɪ ɹ æ t	0
 weretiger	w ɛ ɹ t a ɪ ɡ ɚ	0
@@ -47680,22 +47680,22 @@ wharves	w ɔː ɹ v z	8
 whasian	h w e ɪ ʒ ə n	0
 what	w ʌ t	34167
 what	ʍ ʌ t	34167
-what'd	w ʌ d	0
-what'd	w ʌ t ə d	0
-what'd	w ʌ t ɨ d	0
+what'd	w ʌ d	1
+what'd	w ʌ t ə d	1
+what'd	w ʌ t ɨ d	1
 what'll	h w ɒ t ə l	0
 what'll	h w ʌ t ə l	0
-what's	w ɑ t s	0
-what's	w ʌ t s	0
-what's	ʍ ɑ t s	0
-what's	ʍ ʌ t s	0
+what's	w ɑ t s	977
+what's	w ʌ t s	977
+what's	ʍ ɑ t s	977
+what's	ʍ ʌ t s	977
 whataboutery	w ɒ t ə b a ʊ t ə ɹ i	1
 whatcha	w ʌ t ʃ j ə	1
 whatcha	w ʌ t ʃ ə	1
 whatchamacallit	w ʌ t ʃ m ə k ɑ l ɪ t	0
 whatchamacallit	ʍ ʌ t ʃ ə m ə k ɔ l ɪ t	0
 whatever	w ʌ t ɛ v ɚ	1647
-whatever's	w ʌ t ɛ v ɚ z	0
+whatever's	w ʌ t ɛ v ɚ z	3
 whatnot	w ʌ t n ɒ t	13
 whatnot	ʍ ʌ t n ɒ t	13
 whatsoever	h w ʌ t s o ʊ ɛ v ɚ	162
@@ -47734,7 +47734,7 @@ when	w ɪ n	39807
 when	ʍ ɛ n	39807
 when	ʍ ɪ n	39807
 when'd	w ɛ n d	0
-when's	w ɛ n z	0
+when's	w ɛ n z	3
 whence	ʍ ɛ n s	9
 whenceforth	w ɛ n s f ɔ ɹ θ	0
 whene'er	w ɛ n ɛ ə ɹ	0
@@ -47865,8 +47865,8 @@ whittle	wʰ ɪ t ə l	33
 whiz	w ɪ z	15
 who	h uː	51057
 who'da	h uː d ə	0
-who's	h uː z	0
-who's	ʍ uː z	0
+who's	h uː z	297
+who's	ʍ uː z	297
 whoa	w o ʊ	13
 whoa	ʍ o ʊ	13
 whodunit	h uː d ʌ n ɪ t	7
@@ -48200,10 +48200,10 @@ womannap	w ʊ m ə n æ p	0
 wombat	w ɑ m b æ t	1
 women	w ɪ m ə n	6689
 women	w ɪ m ɪ n	6689
-women's	w ɪ m ɪ n z	0
+women's	w ɪ m ɪ n z	657
 won	w ɑ n	4085
 won	w ʌ n	4085
-won't	w o ʊ n t	0
+won't	w o ʊ n t	1186
 wonder	w ʌ n d ɚ	1030
 wondered	w ʌ n d ɚ d	292
 wonderfool	v ʌ n d ə ɹ f u l̩	0
@@ -48330,12 +48330,12 @@ wotcher	w ɒ t ʃ ə	0
 would	w ə d	37780
 would	w ʊ d	37780
 would	ə d	37780
-would've	w ʊ d ə	0
-would've	w ʊ d ə v	0
+would've	w ʊ d ə	55
+would've	w ʊ d ə v	55
 woulda	w ʊ d ə	2
 wouldja	w ʊ d ʒ ə	0
-wouldn't	w ʊ d n̩ t	0
-wouldn't	w ʊ n t	0
+wouldn't	w ʊ d n̩ t	742
+wouldn't	w ʊ n t	742
 wouldn't've	w ʊ d n̩ t ə v	0
 wouldn't've	w ʊ d ə n t ə v	0
 wouldna	w ʊ d n ə	1
@@ -48426,9 +48426,9 @@ wryneck	ɹ a ɪ n ɛ k	0
 wsdl	w ɪ z d ə l	0
 wsu	w ɑ z u	72
 wub	w ʌ b	0
-wudn't	w ə d n t	0
-wudn't	w ʊ d n t	0
-wudn't	w ʌ d n t	0
+wudn't	w ə d n t	1
+wudn't	w ʊ d n t	1
+wudn't	w ʌ d n t	1
 wulumuqi	w uː l uː m uː t ʃ iː	0
 wumpus	w ʌ m p ə s	0
 wunch	w ʌ n t ʃ	0
@@ -48551,8 +48551,8 @@ xi	k s iː	170
 xi	s a ɪ	170
 xi	z a ɪ	170
 xi	ʃ iː	170
-xi'an	ʃ iː ɑː n	0
-xi'an	ʃ ɪ æ n	0
+xi'an	ʃ iː ɑː n	5
+xi'an	ʃ ɪ æ n	5
 xiamen	ʃ j ɑː m ɛ n	7
 xianggang	ʃ j ɑː ŋ ɡ ɑː ŋ	0
 xibalba	ʃ ɨ b ɒ l b ə	0
@@ -48588,15 +48588,15 @@ xyzzy	z ɪ z i	0
 y	w a ɪ	196
 y'	j ə	0
 y'ad	j æ d	0
-y'all	j ɑ l	0
-y'all	j ɔ l	0
+y'all	j ɑ l	17
+y'all	j ɔ l	17
 y'all'd	j ɔ l d	0
 y'all'd've	j ɔ l d ə v	0
 y'are	j ɑː ɹ	0
 y'ave	j æ v	0
 y'ave	j ə v	0
 y'knew	j ə n u	0
-y'know	j ə n o ʊ	0
+y'know	j ə n o ʊ	1
 y'see	j ə s i	0
 y.o.l.o.	j o ʊ l o ʊ	0
 ya	j a	89
@@ -48803,9 +48803,9 @@ yoruba	j ɔː ɹ ə b ə	22
 yosemite	j o ʊ s ɛ m ɪ t i	70
 yoshke	j ɔ ʃ k ə	0
 yotzei	j o ʊ t s e ɪ	0
-you'd	j uː d	0
+you'd	j uː d	269
 you'dn't've	j uː d ə n t ə v	0
-you've	j u v	0
+you've	j u v	756
 young	j ʌ ŋ	6863
 younger	j ʌ ŋ ɡ ɚ	1168
 youngest	j ʌ ŋ ɡ ə s t	319

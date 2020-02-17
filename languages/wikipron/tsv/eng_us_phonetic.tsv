@@ -232,7 +232,7 @@ canadia	kʰ ə n e ɪ̯ ɾ i ə	1
 canadian	kʰ ə n e ɪ ɾ i ə n	1746
 cane	kʰ e ɪ n	121
 cap	kʰ æ p	510
-cap'n	k æ ʔ m̩	0
+cap'n	k æ ʔ m̩	1
 cappadocia	k æ p ə d o ʊ ʃ ə	1
 caramba	k a ɹ a m b a	1
 card	kʰ ɑ ɹ d	1473
@@ -357,7 +357,7 @@ cottage	k ɑ ɾ ɪ d ʒ	287
 cotton	k ɑ ʔ n̩	305
 cougar	kʰ u ɡ ɚ	82
 coulda	kʰ ʊ d ə	3
-couldn't	k ʊ n ʔ	0
+couldn't	k ʊ n ʔ	792
 countable	kʰ a ʊ n ɾ ə b ɫ̩	0
 countenance	kʲʰ æ ũ̯ ʔ ɪ̆ n ə n s	16
 counter	kʰ a ʊ̯ ɾ̃ ɚ	505
@@ -418,8 +418,8 @@ desktop	d ɛ s k t ɑ p	77
 desktops	d ɛ s k t ɑ p s	14
 detail	d i tʰ e ɪ ɫ	548
 diabolical	d a ɪ ə b ɑ l ɪ k ə ɫ	10
-didn't	d ɪ ɾ n̩ t	0
-didn't	d ɪ ʔ n̩ t	0
+didn't	d ɪ ɾ n̩ t	2861
+didn't	d ɪ ʔ n̩ t	2861
 differential	d ɪ f ə ɹ ə n ʃ ə ɫ	41
 dildo	d ɪ ɫ d o ʊ	2
 dingwad	d ɪ ŋ w ɑ d	0
@@ -440,7 +440,7 @@ dniester	n iː s t ə	1
 dockize	d ɒ k ɑ ɪ̯ z	0
 dojo	d o ʊ̯ d͡ʒ o ʊ̯	9
 dole	d o ʊ̯ ɫ	44
-don't	d o ʊ̯ ʔ t̚	0
+don't	d o ʊ̯ ʔ t̚	6141
 dope	d o ʊ p	31
 double	d ʌ b ɫ	2918
 dower	d a ʊ ɚ	4
@@ -706,7 +706,7 @@ ireland	a ɪ ɚ l ə n d	616
 ireland	ä ɪ ɚ ɫ ɪ̈ n d	616
 ireland	ɑ ɪ ə l ə n d	616
 it	ɪ̈ t	125965
-it'll	ɪ ɾ ə ɫ	0
+it'll	ɪ ɾ ə ɫ	127
 italy	ɪ ɾ l̩ i	510
 italy	ɪ ɾ ə l i	510
 item	a ɪ̯ ɾ m̩	617
@@ -799,8 +799,8 @@ lulls	l ɐ ɫ z	3
 lulls	ɫ ʌ ɫ z	3
 lunch	l ʌ̃ n t͡ʃ	1143
 lycra	l a ɪ k ɹ ə	6
-ma'am	m e ə m	0
-ma'am	m ɛ ə m	0
+ma'am	m e ə m	5
+ma'am	m ɛ ə m	5
 madder	m æ ɾ ə ɹ	6
 magnetic	m æ ɡ n ɛ ɾ ɪ k	106
 mail	m e ɪ̯ ɫ	767
@@ -834,8 +834,8 @@ methoxphenidine	m ɛː θ ɑ k s f ɛː n ɨ ɾ ĩː n	0
 metic	m ɛ ɾ ə k	0
 metre	m iː ɾ ɚ	60
 mhm	m̩ m̥ m̩	0
-mi'kmaq	m ɪ k m æ k	0
-mi'kmaq	m ɪ ɡ ə m ɒ q	0
+mi'kmaq	m ɪ k m æ k	1
+mi'kmaq	m ɪ ɡ ə m ɒ q	1
 michael	m ɐ ɪ kʰ ɫ̩	2438
 michigander	m ɪ ʃ ə ɡ æ n d ɚ	0
 middle	m ɪ ɾ ɫ̩	3160
@@ -864,7 +864,7 @@ mountain	m ã ʊ̯̃ n ʔ n̩	1843
 mountain	m æ̃ ʊ̯̃ n ʔ n̩	1843
 mountaineer	m ã ʊ̯̃ n ʔ n̩ i ə ɹ	31
 mountaineer	m æ̃ ʊ̯̃ n ʔ n̩ i ə ɹ	31
-mr.	m ɪ s t ɚ	0
+mr.	m ɪ s t ɚ	4241
 muddy	m ʌ d i	89
 multiplayer	m ʌ ɫ t i p l e ɪ̯ ɚ	16
 multiplier	m ʌ ɫ t ɪ p l a ɪ ə ɹ	22
@@ -905,8 +905,8 @@ nonce	n ɒ n t s	2
 nope	n o ʊ p̚	33
 notice	n o ʊ ɾ ɪ s	1145
 nut	n ɐ t	84
-o'malley	o ʊ̯ m æ l i	0
-o'malley	ɵ m æ l i	0
+o'malley	o ʊ̯ m æ l i	29
+o'malley	ɵ m æ l i	29
 october	ɑ k tʰ o ʊ b ɚ	4496
 odder	ʔ ɑ ɾ ɚ	1
 oil	ɔ ɪ ɫ	3456
@@ -973,7 +973,7 @@ patting	pʰ æ ɾ ɪ ŋ	8
 pattings	pʰ æ ɾ ɪ ŋ z	0
 patty	p æ ɾ i	135
 pay	pʰ e ɪ	5419
-pb&j	p iː b iː ə n d͡ʒ e ɪ	0
+pb&j	p iː b iː ə n d͡ʒ e ɪ	3
 pearl	pʰ ɝ ɫ	251
 pearls	pʰ ɝ ɫ z	34
 peculiar	pʰ ə̥ kʰ j̊ u l j ɚ	57
@@ -1174,7 +1174,7 @@ sentence	s ɛ n ʔ n̩ t͡s	726
 servant	s ɝ v n̩ ʔ	135
 servo	s ɝ v o ʊ	2
 shitty	ʃ ɪ ɾ i	11
-shouldn't	ʃ ʊ n ʔ	0
+shouldn't	ʃ ʊ n ʔ	311
 shutter	ʃ ʌ ɾ ɚ	34
 shuttle	ʃ ʌ ɾ e l	168
 siberia	s a ɪ b ɪ ɹ i ə	21
@@ -1462,8 +1462,8 @@ wale	w e ɪ ɫ	7
 wales	w e ɪ ɫ z	273
 wanted	w ɑ n tʰ ɪ d	4690
 washington	w ɑ ʃ ɨ ŋ ʔ n̩	3452
-wasn't	w ʌ d n̩ t	0
-wasn't	w ʌ z n̩ t	0
+wasn't	w ʌ d n̩ t	1269
+wasn't	w ʌ z n̩ t	1269
 water	w ɑ ɾ ɚ	8818
 water	w ɔ ɾ ɚ	8818
 wattle	w ɑ ɾ l̩	5
@@ -1484,8 +1484,8 @@ whet	w ɛ ʔ t̚	11
 whet	ʍ ɛ ʔ t̚	11
 whetter	w ɛ ɾ ɚ	0
 whetter	ʍ ɛ ɾ ɚ	0
-who're	h uː ɹ	0
-who're	h ʊ ɚ	0
+who're	h uː ɹ	6
+who're	h ʊ ɚ	6
 whole	h o ʊ ɫ	3553
 wholly	h o ʊ l i	106
 wholly	h o ʊ̯ ɫ l i	106
@@ -1506,9 +1506,9 @@ wolf	w ʊ̠ ɫ f	442
 wool	w ɫ̩	105
 wool	w ʊ̠ ɫ	105
 work	w ɝ k	17869
-wouldn't	w ʊ dⁿ n̩ t	0
-wouldn't	w ʊ n ʔ	0
-wouldn't	w ʊ ɾ ə n t	0
+wouldn't	w ʊ dⁿ n̩ t	742
+wouldn't	w ʊ n ʔ	742
+wouldn't	w ʊ ɾ ə n t	742
 wrake	ɹ e ɪ̯ kʰ	0
 wristlet	ɹ ɪ s l ɨ ʔ̚	1
 writer	ɹ̠ ă ɪ ɾ ɚ	1172
