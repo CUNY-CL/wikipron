@@ -92,8 +92,8 @@
 | [TSV](tsv/gle_phonetic.tsv) | gle | Irish | Irish | True | Phonetic | 1633 |
 | [TSV](tsv/ita_phonemic.tsv) | ita | Italian | Italian | True | Phonemic | 10166 |
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 5670 |
-| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 15538 |
-| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4073 |
+| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 15567 |
+| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4074 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 826 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 103 |
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 249 |
