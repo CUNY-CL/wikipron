@@ -21,26 +21,27 @@ _WORD_XPATH_SELECTOR = """
 """
 
 
-def yield_jpn_pron(request, config):
+def extract_jpn_pron(request, config):
     # Just want to grab the first transcription.
-    pron_element = request.html.xpath(config.pron_xpath_selector)[0]
-    yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
+    # Will encounter words that have no transcription.
+    pron_element = request.html.xpath(config.pron_xpath_selector, first=True)
+    if pron_element:
+        yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
-def yield_jpn_word(word, request):
-    word_element_list = request.html.xpath(_WORD_XPATH_SELECTOR)
-    if len(word_element_list):
-        # Remove text for empty links
-        word = word_element_list[0].rstrip(" (page does not exist)")
-        yield word
-    else:
-        yield(word)
+def extract_jpn_word(word, request):
+    word_element = request.html.xpath(_WORD_XPATH_SELECTOR, first=True)
+    if word_element:
+        # Remove text within title element for empty links
+        word = word_element.rstrip(" (page does not exist)")
+
+    yield word
 
 
 def extract_word_pron_jpn(
     word: "Word", request: requests.Response, config: "Config"
 ) -> "Iterator[WordPronPair]":
     # print('SCRAPING', word)
-    words = yield_jpn_word(word, request)
-    prons = yield_jpn_pron(request, config)
-    yield from zip(words, prons)
+    new_word = extract_jpn_word(word, request)
+    prons = extract_jpn_pron(request, config)
+    yield from zip(new_word, prons)
