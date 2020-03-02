@@ -38,7 +38,7 @@ def yield_pron(
             pron = config.process_pron(pron)
         except IndexError:
             logging.info(
-                "IndexError encountered while processing %s during scrape of %s",
+                "IndexError encountered processing %s during scrape of %s",
                 pron,
                 config.language,
             )
