@@ -1,5 +1,6 @@
 """Core functionality for word and pron extraction."""
 
+import logging
 import re
 import typing
 
@@ -33,7 +34,15 @@ def yield_pron(
         pron = pron.replace("(", "").replace(")", "")
         if _skip_pron(pron, config):
             continue
-        pron = config.process_pron(pron)
+        try:
+            pron = config.process_pron(pron)
+        except IndexError:
+            logging.info(
+                "IndexError encountered while processing %s during scrape of %s",
+                pron,
+                config.langauge,
+            )
+            continue
         if pron:
             # The segments package inserts a # in between spaces.
             if config.language == "Chinese":
