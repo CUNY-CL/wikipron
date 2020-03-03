@@ -17,6 +17,26 @@ Unreleased
 ### Fixed
 ### Security
 
+[1.1.0] - 2020-03-03
+--------------------
+
+### Added
+
+-   Added the extraction function for Mandarin Chinese and its scraped data. (\#124)
+-   Integrated Wortschatz frequencies. (\#122)
+
+### Changed
+
+-   Updated the Japanese extraction function and Japanese data. (\#129)
+-   Updated all scraped Wiktionary data and frequency data. (\#127, \#128)
+-   Generalized the splitting script in the big scrape. (\#123)
+-   Moved small file removal to `generate_summary.py`. (\#119)
+-   Updated Russian data. (\#115)
+
+### Fixed
+
+-   Avoided and logged error in case of pron processing failure. (\#130)
+
 [1.0.0] - 2019-11-29
 ----------------------
 
