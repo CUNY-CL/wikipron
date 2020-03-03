@@ -37,8 +37,6 @@ Unreleased
 
 -   Avoided and logged error in case of pron processing failure. (\#130)
 
-### Security
-
 [1.0.0] - 2019-11-29
 ----------------------
 
