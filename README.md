@@ -13,6 +13,7 @@ multilingual pronunciation data from Wiktionary.
 -   [Command-line tool](#command-line-tool)
 -   [Python API](#python-api)
 -   [Data](#data)
+-   [Models](#models)
 -   [Development](#development)
 
 Command-line tool
@@ -98,8 +99,10 @@ We also make available [a database of 1.7 million word/pronunciation
 pairs](https://github.com/kylebgorman/wikipron/tree/master/languages/wikipron)
 mined using WikiPron.
 
-In the near future we will release grapheme-to-phoneme models and modeling
-software [in a separate
+Models
+------
+
+We host grapheme-to-phoneme models and modeling software [in a separate
 repository](https://github.com/kylebgorman/wikipron-modeling).
 
 Development
