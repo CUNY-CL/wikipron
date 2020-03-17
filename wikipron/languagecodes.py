@@ -259,5 +259,7 @@ LANGUAGE_CODES = {
     # Mandarin Chinese. ISO 639-3 only.
     "cmn": "Chinese",
     # Abkhaz. Would be Abkhazian in ISO 639.
-    "abk": "Abkhaz"
+    "abk": "Abkhaz",
+    # Avar. Would be Avaric in ISO 639.
+    "ava": "Avar"
 }
