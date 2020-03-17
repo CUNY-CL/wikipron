@@ -261,5 +261,7 @@ LANGUAGE_CODES = {
     # Abkhaz. Would be Abkhazian in ISO 639.
     "abk": "Abkhaz",
     # Avar. Would be Avaric in ISO 639.
-    "ava": "Avar"
+    "ava": "Avar",
+    # Buryat. Would be Buriat in ISO 639.
+    "bua": "Buryat",
 }
