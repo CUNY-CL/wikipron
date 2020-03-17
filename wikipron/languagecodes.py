@@ -257,5 +257,7 @@ LANGUAGE_CODES = {
     # Moroccan Arabic. ISO 639-3 only.
     "ary": "Moroccan Arabic",
     # Mandarin Chinese. ISO 639-3 only.
-    "cmn": "Chinese"
+    "cmn": "Chinese",
+    # Abkhaz. Would be Abkhazian in ISO 639.
+    "abk": "Abkhaz"
 }
