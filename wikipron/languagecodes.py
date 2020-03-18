@@ -264,4 +264,6 @@ LANGUAGE_CODES = {
     "ava": "Avar",
     # Buryat. Would be Buriat in ISO 639.
     "bua": "Buryat",
+    # Chukchi. Would be Chukot in ISO 639.
+    "ckt": "Chukchi",
 }
