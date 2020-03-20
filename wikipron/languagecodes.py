@@ -268,4 +268,6 @@ LANGUAGE_CODES = {
     "ckt": "Chukchi",
     # Burushaski. ISO 639-3 only.
     "bsk": "Burushaski",
+    # Galician. Not in iso639.
+    "glc": "Galician",
 }
