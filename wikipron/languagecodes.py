@@ -298,4 +298,16 @@ LANGUAGE_CODES = {
     "koi": "Komi-Permyak",
     # Komi-Zyrian. Not in iso639 lib.
     "kpv": "Komi-Zyrian",
+    # Lak. Not in iso639 lib.
+    "lbe": "Lak",
+    # Lezgi. Would be Lezghian in ISO 639.
+    "lez": "Lezgi",
+    # Eastern Mari. Not in iso639 lib.
+    "mhr": "Eastern Mari",
+    # Mansi. Not in iso639 lib.
+    "mns": "Mansi",
+    # Nganasan. Not in iso639 lib.
+    "nio": "Nganasan",
+    # Nivkh. Not in iso639 lib.
+    "niv": "Nivkh",
 }
