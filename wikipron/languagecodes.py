@@ -266,4 +266,6 @@ LANGUAGE_CODES = {
     "bua": "Buryat",
     # Chukchi. Would be Chukot in ISO 639.
     "ckt": "Chukchi",
+    # Burushaski. ISO 639-3 only.
+    "bsk": "Burushaski",
 }
