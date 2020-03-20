@@ -276,4 +276,26 @@ LANGUAGE_CODES = {
     "yux": "Southern Yukaghir",
     # Tundra Nenets. Not in iso639 lib.
     "yrk": "Tundra Nenets",
+    # Estonian. Not in iso639 lib.
+    "ekk": "Estonian",
+    # Livvi. Not in iso639 lib.
+    "olo": "Livvi",
+    # Kildin Sami. Not in iso639 lib.
+    "sjd": "Kildin Sami",
+    # Northern Yukaghir. Not in iso639 lib.
+    "ykg": "Northern Yukaghir",
+    # Nanai. Not in iso639 lib.
+    "gld": "Nanai",
+    # Persian. Not in iso639 lib.
+    "pes": "Persian",
+    # Greenlandic. Would be Kalaallisut in ISO 639.
+    "kal": "Greenlandic",
+    # Khanty. Not in iso639 lib.
+    "kca": "Khanty",
+    # Ket. Not in iso639 lib.
+    "ket": "Ket",
+    # Komi-Permyak. Not in iso639 lib.
+    "koi": "Komi-Permyak",
+    # Komi-Zyrian. Not in iso639 lib.
+    "kpv": "Komi-Zyrian",
 }
