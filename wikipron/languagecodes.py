@@ -268,6 +268,12 @@ LANGUAGE_CODES = {
     "ckt": "Chukchi",
     # Burushaski. ISO 639-3 only.
     "bsk": "Burushaski",
-    # Galician. Not in iso639.
+    # Galician. Not in iso639 lib.
     "glc": "Galician",
+    # Evenki. Not in iso639 lib.
+    "evn": "Evenki",
+    # Southern Yukaghir. Not in iso639 lib.
+    "yux": "Southern Yukaghir",
+    # Tundra Nenets. Not in iso639 lib.
+    "yrk": "Tundra Nenets",
 }
