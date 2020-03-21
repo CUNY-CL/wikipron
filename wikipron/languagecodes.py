@@ -253,7 +253,7 @@ LANGUAGE_CODES = {
     # Bouyei. ISO 639-3 only.
     "pcc": "Bouyei",
     # Lamboya. ISO 639-3 only.
-    "lmy": "Lamboya",
+    "lmy": "Laboya",
     # Moroccan Arabic. ISO 639-3 only.
     "ary": "Moroccan Arabic",
     # Mandarin Chinese. ISO 639-3 only.
@@ -268,8 +268,6 @@ LANGUAGE_CODES = {
     "ckt": "Chukchi",
     # Burushaski. ISO 639-3 only.
     "bsk": "Burushaski",
-    # Galician. Not in iso639 lib.
-    "glc": "Galician",
     # Evenki. Not in iso639 lib.
     "evn": "Evenki",
     # Southern Yukaghir. Not in iso639 lib.
