@@ -312,7 +312,6 @@ LANGUAGE_CODES = {
     "khanty": "Khanty",
     # Ket. Not in iso639 lib.
     "ket": "Ket",
-    "ket": "Ket",
     # Komi-Permyak. Not in iso639 lib.
     "koi": "Komi-Permyak",
     "komi-permyak": "Komi-Permyak",
