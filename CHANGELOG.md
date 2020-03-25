@@ -11,7 +11,9 @@ Unreleased
 ----------
 
 ### Added
-### Changed
+
+-   Logs dialect configuration if specified (\#133).
+
 ### Deprecated
 ### Removed
 ### Fixed
