@@ -360,7 +360,9 @@
     },
     "vie_newscrwal_2011_1M": {
         "path": [
-            "../tsv/vie"
+            "../tsv/vie_hanoi",
+            "../tsv/vie_hcmc",
+            "../tsv/vie_hue"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/vie_newscrwal_2011_1M.tar.gz"
     },
