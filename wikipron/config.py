@@ -73,8 +73,8 @@ class Config:
         self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
             self.language
         )
-        self.no_skip_spaces_ortho = no_skip_spaces_ortho
-        self.no_skip_spaces_pron = no_skip_spaces_pron
+        self.no_skip_spaces_ortho: bool = no_skip_spaces_ortho
+        self.no_skip_spaces_pron: bool = no_skip_spaces_pron
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()

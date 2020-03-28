@@ -36,7 +36,9 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
-        if _skip_word(word, config.no_skip_spaces_ortho) or _skip_date(date, config.cut_off_date):
+        if _skip_word(word, config.no_skip_spaces_ortho) or _skip_date(
+            date, config.cut_off_date
+        ):
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
         for word, pron in config.extract_word_pron(word, request, config):

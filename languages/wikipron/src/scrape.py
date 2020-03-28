@@ -43,9 +43,7 @@ def _call_scrape(lang_settings, config, tsv_path):
     os.remove(tsv_path)
 
 
-def _build_scraping_config(
-    config_settings, wiki_name, dialect_suffix=""
-):
+def _build_scraping_config(config_settings, wiki_name, dialect_suffix=""):
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
 
     phonemic_config = wikipron.Config(**config_settings)
@@ -62,15 +60,19 @@ def main():
         languages = json.load(source)
     # "2020-01-15" (Big Scrape 3)
     cut_off_date = datetime.date.today().isoformat()
-    valid_keys = ["casefold", "no_skip_spaces_pron", "no_skip_spaces_ortho", "dialect"]
+    valid_keys = ["casefold", "no_skip_spaces_pron", "no_skip_spaces_ortho"]
     for iso639_code in languages:
-        wikipron_accepted_settings = {valid_key: languages[iso639_code][valid_key] for valid_key in valid_keys if valid_key in languages[iso639_code]}
+        wikipron_accepted_settings = {
+            valid_key: languages[iso639_code][valid_key]
+            for valid_key in valid_keys
+            if valid_key in languages[iso639_code]
+        }
         config_settings = {
             "key": iso639_code,
             "no_stress": True,
             "no_syllable_boundaries": True,
             "cut_off_date": cut_off_date,
-            **wikipron_accepted_settings
+            **wikipron_accepted_settings,
         }
         if "dialect" not in languages[iso639_code]:
             _build_scraping_config(
@@ -80,7 +82,6 @@ def main():
             for (dialect_key, dialect_value) in languages[iso639_code][
                 "dialect"
             ].items():
-                # Overwrite dialect list if present
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
