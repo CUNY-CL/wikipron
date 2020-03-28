@@ -77,16 +77,12 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--no-skip-spaces-ortho",
         action="store_true",
-        help=(
-            "Skip spaces in the orthography",
-        ),
+        help="Skip spaces in the orthography",
     )
     parser.add_argument(
         "--no-skip-spaces-pron",
         action="store_true",
-        help=(
-            "Skip spaces in the transcription",
-        ),
+        help="Skip spaces in the transcription",
     )
     return parser.parse_args(args)
 
@@ -101,5 +97,6 @@ def _scrape_and_write(config: Config) -> None:
 def main() -> None:
     logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     args = _get_cli_args(sys.argv[1:])
+    print(args)
     config = Config(**args.__dict__)
     _scrape_and_write(config)
