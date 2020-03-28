@@ -794,7 +794,8 @@
         "iso639_name": "Persian",
         "wiktionary_name": "Persian",
         "wiktionary_code": "fa",
-        "casefold": false
+        "casefold": false,
+        "no_skip_spaces_pron": true
     },
     "pms": {
         "iso639_name": "Piemontese",
@@ -986,7 +987,8 @@
         "iso639_name": "Tibetan",
         "wiktionary_name": "Tibetan",
         "wiktionary_code": "bo",
-        "casefold": false
+        "casefold": false,
+        "no_skip_spaces_pron": true
     },
     "ton": {
         "iso639_name": "Tonga (Tonga Islands)",
