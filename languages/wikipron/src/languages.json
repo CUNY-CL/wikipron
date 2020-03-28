@@ -177,6 +177,7 @@
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
         "casefold": false,
+        "no_skip_spaces_pron": true,
         "script": {
             "hani": "Han"
         }
@@ -1028,6 +1029,8 @@
         "wiktionary_name": "Vietnamese",
         "wiktionary_code": "vi",
         "casefold": true,
+        "no_skip_spaces_ortho": true,
+        "no_skip_spaces_pron": true,
         "dialect": {
             "hanoi": "Hà Nội",
             "hcmc": "Hồ Chí Minh City",

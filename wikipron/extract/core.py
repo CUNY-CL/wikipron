@@ -15,7 +15,7 @@ if typing.TYPE_CHECKING:
 def _skip_pron(pron: str, config: "Config") -> bool:
     if "-" in pron:
         return True
-    if " " in pron and config.language != "Chinese":
+    if " " in pron and not config.no_skip_spaces_pron:
         return True
     return False
 
@@ -44,7 +44,10 @@ def yield_pron(
             )
             continue
         if pron:
-            # The segments package inserts a # in between spaces.
-            if config.language == "Chinese":
+            # The segments package inserts a # in-between spaces.
+            # Should # just be replaced with a " "? As currently written
+            # there is no way to distinguish between transcriptions of words
+            # with and without spaces. Perhaps it is best to just keep the #?
+            if config.no_skip_spaces_pron:
                 pron = pron.replace(" #", "")
             yield pron

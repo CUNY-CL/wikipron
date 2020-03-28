@@ -63,11 +63,15 @@ def main():
     # "2020-01-15" (Big Scrape 3)
     cut_off_date = datetime.date.today().isoformat()
     for iso639_code in languages:
+        # config_settings = {
+        #     "key": iso639_code,
+        #     "casefold": languages[iso639_code]["casefold"],
+        #     "no_stress": True,
+        #     "no_syllable_boundaries": True,
+        #     "cut_off_date": cut_off_date,
+        # }
         config_settings = {
-            "key": iso639_code,
-            "casefold": languages[iso639_code]["casefold"],
-            "no_stress": True,
-            "no_syllable_boundaries": True,
+            **languages[iso639_code],
             "cut_off_date": cut_off_date,
         }
         if "dialect" not in languages[iso639_code]:
@@ -78,6 +82,7 @@ def main():
             for (dialect_key, dialect_value) in languages[iso639_code][
                 "dialect"
             ].items():
+                # Overwrite dialect list if present
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,

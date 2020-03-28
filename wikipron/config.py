@@ -57,6 +57,8 @@ class Config:
         phonetic: bool = False,
         dialect: Optional[str] = None,
         no_segment: bool = False,
+        no_skip_spaces_ortho: bool = False,
+        no_skip_spaces_pron: bool = False,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
@@ -71,6 +73,8 @@ class Config:
         self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
             self.language
         )
+        self.no_skip_spaces_ortho = no_skip_spaces_ortho
+        self.no_skip_spaces_pron = no_skip_spaces_pron
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
