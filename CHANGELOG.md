@@ -12,6 +12,7 @@ Unreleased
 
 ### Added
 
+-   Added `--no-skip-spaces-ortho` and `--no-skip-spaces-pron` flag. 
 -   Logs dialect configuration if specified (\#133).
 
 ### Deprecated
