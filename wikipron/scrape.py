@@ -16,7 +16,7 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 
 def _skip_word(word: str, no_skip_spaces: bool) -> bool:
     # Skips multiword examples.
-    if " " in word and not no_skip_spaces:
+    if (" " in word or "\u00A0" in word) and not no_skip_spaces:
         return True
     # Skips examples containing a dash.
     if "-" in word:
