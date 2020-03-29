@@ -109,7 +109,6 @@ class Config:
                 f"{cut_off_date}"
             )
             raise ValueError(msg)
-
         logging.info('Cut-off date: "%s"', cut_off_date)
         return cut_off_date
 

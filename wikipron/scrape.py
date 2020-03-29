@@ -14,7 +14,6 @@ _CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 
 
-
 def _skip_word(word: str, no_skip_space: bool) -> bool: 
     # Skips examples containing a dash.
     if "-" in word:
@@ -31,10 +30,8 @@ def _skip_word(word: str, no_skip_space: bool) -> bool:
     return False
 
 
-
 def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word > cut_off_date
-
 
 
 def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:

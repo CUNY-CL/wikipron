@@ -17,7 +17,6 @@ def _skip_pron(pron: str, config: "Config") -> bool:
         return True
     if " " in pron and config.language != "Chinese" and config.no_skip_space == False:
         return True    
-    
     return False
 
 
