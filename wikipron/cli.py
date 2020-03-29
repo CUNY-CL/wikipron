@@ -74,6 +74,17 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
             "To disable such IPA segmentation, apply this flag."
         ),
     )
+    parser.add_argument(
+        "--no-skip-space",
+        action="store_true",
+        help=(
+            "By default, a word including a space will be exluded."
+            "For example, 'ice cream' includes a space"
+            "This data will be skipped."
+            "To disable such data skip, apply this flag."
+        ),
+    )
+    
     return parser.parse_args(args)
 
 

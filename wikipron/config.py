@@ -57,8 +57,10 @@ class Config:
         phonetic: bool = False,
         dialect: Optional[str] = None,
         no_segment: bool = False,
+        no_skip_space: bool = False,
     ):
         self.language: str = self._get_language(key)
+        self.no_skip_space = no_skip_space
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
         self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
             no_stress, no_syllable_boundaries, no_segment
@@ -149,7 +151,6 @@ class Config:
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
             )
-            logging.info('Dialect(s): "%s"', dialect)
 
         return _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
