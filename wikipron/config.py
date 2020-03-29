@@ -70,9 +70,7 @@ class Config:
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
-        self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
-            self.language
-        )
+        self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(self.language)
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -104,10 +102,7 @@ class Config:
             )
             raise ValueError(msg) from e
         if d > today:
-            msg = (
-                "Cut-off date cannot be later than today's date: "
-                f"{cut_off_date}"
-            )
+            msg = "Cut-off date cannot be later than today's date: " f"{cut_off_date}"
             raise ValueError(msg)
         logging.info('Cut-off date: "%s"', cut_off_date)
         return cut_off_date
@@ -124,9 +119,7 @@ class Config:
         if no_syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
         if not no_segment:
-            processors.append(
-                functools.partial(segments.Tokenizer(), ipa=True)
-            )
+            processors.append(functools.partial(segments.Tokenizer(), ipa=True))
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
         def wrapper(pron):
@@ -139,9 +132,7 @@ class Config:
 
         return wrapper
 
-    def _get_pron_xpath_selector(
-        self, language: str, dialect: Optional[str]
-    ) -> str:
+    def _get_pron_xpath_selector(self, language: str, dialect: Optional[str]) -> str:
         if not dialect:
             dialect_selector = ""
         else:

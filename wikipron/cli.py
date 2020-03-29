@@ -11,15 +11,12 @@ from wikipron.scrape import scrape
 
 def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=wikipron.__doc__)
-    parser.add_argument(
-        "key", help="Key (i.e., ISO 639 code or name) for the language"
-    )
+    parser.add_argument("key", help="Key (i.e., ISO 639 code or name) for the language")
     parser.add_argument(
         "--phonetic",
         action="store_true",
         help=(
-            "Retrieve the [phonetic] transcriptions "
-            "rather than the /phonemic/ ones."
+            "Retrieve the [phonetic] transcriptions " "rather than the /phonemic/ ones."
         ),
     )
     parser.add_argument(
@@ -47,9 +44,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--casefold",
-        action="store_true",
-        help="Apply case-folding to the orthography.",
+        "--casefold", action="store_true", help="Apply case-folding to the orthography."
     )
     parser.add_argument(
         "--cut-off-date",
@@ -84,7 +79,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
             "To disable such data skip, apply this flag."
         ),
     )
-    
+
     return parser.parse_args(args)
 
 

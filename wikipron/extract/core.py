@@ -16,17 +16,17 @@ def _skip_pron(pron: str, config: "Config") -> bool:
     if "-" in pron:
         return True
     if " " in pron and config.language != "Chinese" and config.no_skip_space == False:
-        return True    
+        return True
     return False
 
 
 def yield_pron(
-    request_html: requests_html.Element,
-    ipa_xpath_selector: str,
-    config: "Config",
+    request_html: requests_html.Element, ipa_xpath_selector: str, config: "Config"
 ) -> "Iterator[Pron]":
     for ipa_element in request_html.xpath(ipa_xpath_selector):
-        m = re.search(config.ipa_regex, ipa_element.text) # for vietnamese this part is not working. it is scraping a dialect `Vinh, Thanh Chương, Hà Tĩnh' only
+        m = re.search(
+            config.ipa_regex, ipa_element.text
+        )  # for vietnamese this part is not working. it is scraping a dialect `Vinh, Thanh Chương, Hà Tĩnh' only
         if not m:
             continue
         pron = m.group(1)
@@ -34,7 +34,7 @@ def yield_pron(
         pron = pron.replace("(", "").replace(")", "")
         if _skip_pron(pron, config):
             continue
-        
+
         try:
             pron = config.process_pron(pron)
         except IndexError:
