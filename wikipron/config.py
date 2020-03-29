@@ -151,7 +151,7 @@ class Config:
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
             )
-
+            logging.info('Dialect(s): "%s"', dialect)
         return _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
         )
