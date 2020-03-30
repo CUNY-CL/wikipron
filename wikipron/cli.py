@@ -97,6 +97,5 @@ def _scrape_and_write(config: Config) -> None:
 def main() -> None:
     logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     args = _get_cli_args(sys.argv[1:])
-    print(args)
     config = Config(**args.__dict__)
     _scrape_and_write(config)
