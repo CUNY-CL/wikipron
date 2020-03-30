@@ -75,7 +75,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--no-skip-spaces-ortho",
+        "--no-skip-spaces-word",
         action="store_true",
         help="Skip spaces in the orthography",
     )

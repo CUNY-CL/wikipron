@@ -15,7 +15,7 @@ if typing.TYPE_CHECKING:
 def _skip_pron(pron: str, config: "Config") -> bool:
     if "-" in pron:
         return True
-    if (" " in pron or "\u00A0" in pron) and not config.no_skip_spaces_pron:
+    if not config.no_skip_spaces_pron and (" " in pron or "\u00A0" in pron):
         return True
     return False
 

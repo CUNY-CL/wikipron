@@ -16,7 +16,7 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 
 def _skip_word(word: str, no_skip_spaces: bool) -> bool:
     # Skips multiword examples.
-    if (" " in word or "\u00A0" in word) and not no_skip_spaces:
+    if not no_skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
     if "-" in word:
@@ -36,7 +36,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
-        if _skip_word(word, config.no_skip_spaces_ortho) or _skip_date(
+        if _skip_word(word, config.no_skip_spaces_word) or _skip_date(
             date, config.cut_off_date
         ):
             continue
