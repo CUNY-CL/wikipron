@@ -1023,17 +1023,6 @@
         "wiktionary_code": "ug",
         "casefold": true
     },
-    "vie": {
-        "iso639_name": "Vietnamese",
-        "wiktionary_name": "Vietnamese",
-        "wiktionary_code": "vi",
-        "casefold": true,
-        "dialect": {
-            "hanoi": "Hà Nội",
-            "hcmc": "Hồ Chí Minh City",
-            "hue": "Huế"
-        }
-    },
     "vol": {
         "iso639_name": "Volap\u00fck",
         "wiktionary_name": "Volap\u00fck",
