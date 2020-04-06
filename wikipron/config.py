@@ -75,6 +75,7 @@ class Config:
         )
         self.no_skip_spaces_word: bool = no_skip_spaces_word
         self.no_skip_spaces_pron: bool = no_skip_spaces_pron
+        self.dialect = dialect
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
