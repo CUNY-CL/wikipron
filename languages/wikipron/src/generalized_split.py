@@ -46,7 +46,7 @@ def main():
             _iterate_through_file(tsv_path, output_path, unicode_script)
         # Remove unsplit files.
         # Removing files within a for loop doesn't appear
-        # to lead to an error in remove_duplicates_and_split.sh.
+        # to lead to an error in remove_duplicates_and_split.
         os.remove(tsv_path)
 
 

@@ -7,7 +7,7 @@ Wiktionary languages with over 100 entries.
 and a [TSV](../languages_summary.tsv) with selected
 information regarding the contents of the TSVs [scrape.py](scrape.py)
 generated and the configuration settings
-that were passed to scrape. [remove\_duplicates\_and\_split.sh](remove_duplicates_and_split.sh)
+that were passed to scrape. [remove\_duplicates\_and\_split](remove_duplicates_and_split)
 sorts and removes entries in each TSV if they have
 the same graphemic form and phonetic/phonemic form as a previous entry.
 In addition it splits TSVs containing multiple scripts (Arabic, Cyrillic, etc.)
@@ -44,7 +44,7 @@ Steps used to update the dataset
     -   By default `cut_off_date` in `main()` is set using
         `datetime.date.today().isoformat()` but can be set manually 
         using an ISO formatted string (ex. "2019-10-31").
-3.  Run [remove\_duplicates\_and\_split.sh](remove_duplicates_and_split.sh).
+3.  Run [remove\_duplicates\_and\_split](remove_duplicates_and_split).
 4.  Run [generate\_summary.py](generate_summary.py).
 
 Running a subset of languages using the big scrape
@@ -67,7 +67,7 @@ to run the big scrape scripts for a smaller set of languages:
     string) to the date of the original big scrape run - which can be
     found in the messages logged to the console or in `scraping.log`.
 3.  Run [scrape.py](scrape.py).
-4.  Run [remove\_duplicates\_and\_split.sh](remove_duplicates_and_split.sh).
+4.  Run [remove\_duplicates\_and\_split](remove_duplicates_and_split).
 5.  Reset [languages.json](languages.json) to its unmodified state
     (using `git checkout` or `git reset`).
 6.  Run [generate\_summary.py](generate_summary.py).
