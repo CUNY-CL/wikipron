@@ -12,7 +12,8 @@ Unreleased
 
 ### Added
 
--   Logs dialect configuration if specified (\#133).
+-   Logs dialect configuration if specified. (\#133)
+-   Adds typing to big scrape code. (\#140)
 
 ### Deprecated
 ### Removed
