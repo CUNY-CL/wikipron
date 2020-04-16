@@ -41,12 +41,12 @@ def main():
                 return
 
         for script_prefix, unicode_script in lang["script"].items():
-            output_path = f"../tsv/{iso639_code}_{script_prefix}_"\
+            output_path = (
+                f"../tsv/{iso639_code}_{script_prefix}_"
                 f"{transcription_level}"
+            )
             _iterate_through_file(tsv_path, output_path, unicode_script)
-        # Remove unsplit files.
-        # Removing files within a for loop doesn't appear
-        # to lead to an error in remove_duplicates_and_split.
+        # Remove unsplit files; removing files within a for loop doesn't appear # to lead to an error in postprocess.
         os.remove(tsv_path)
 
 

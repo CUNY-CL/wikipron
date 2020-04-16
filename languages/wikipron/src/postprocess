@@ -1,4 +1,8 @@
 #!/bin/bash
+# This script, for each TSV file,
+# * sorts and removes duplicates, and
+# * calls `generalized_split`.
+
 set -eou pipefail
 
 for TSV in ../tsv/*.tsv; do
