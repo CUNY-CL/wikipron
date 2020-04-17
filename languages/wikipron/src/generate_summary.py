@@ -21,6 +21,8 @@ def _handle_wiki_name(
     for modifier in modifiers:
         if modifier in language:
             key = file_path[file_path.index("_") + 1:file_path.rindex("_")]
+            if not key:
+                continue
             values = language[modifier][key]
             if "|" in values:
                 values = values.replace(" |", ",")
@@ -51,7 +53,7 @@ def main() -> None:
             )
             os.remove(f"{path}/{file_path}")
             continue
-        iso639_code = file_path[: file_path.index("_")]
+        iso639_code = file_path[:file_path.index("_")]
         transcription_level = file_path[
             file_path.rindex("_") + 1:file_path.index(".")
         ].capitalize()
@@ -62,9 +64,9 @@ def main() -> None:
             iso639_code,
             languages[iso639_code]["iso639_name"],
             wiki_name,
-            str(languages[iso639_code]["casefold"]),
+            languages[iso639_code]["casefold"],
             transcription_level,
-            str(num_of_entries),
+            num_of_entries,
         ]
         # TSV and README have different first column.
         languages_summary_list.append([file_path] + row)
@@ -74,38 +76,28 @@ def main() -> None:
     languages_summary_list.sort(key=_wiki_name_and_transcription_level)
     readme_list.sort(key=_wiki_name_and_transcription_level)
     # Writes the TSV.
-    with open(LANGUAGES_SUMMARY_PATH, "w") as source:
+    with open(LANGUAGES_SUMMARY_PATH, "w") as sink:
         tsv_writer_object = csv.writer(
-            source, delimiter="\t", lineterminator="\n"
+            sink, delimiter="\t", lineterminator="\n"
         )
         tsv_writer_object.writerows(languages_summary_list)
     # Writes the README.
-    with open(README_PATH, "w") as source:
-        headers = [
-            [
-                "Link",
-                "ISO 639-2 Code",
-                "ISO 639 Language Name",
-                "Wiktionary Language Name",
-                "Case-folding",
-                "Phonetic/Phonemic",
-                "# of entries",
-            ],
-            [
-                ":----",
-                ":----:",
-                ":----:",
-                ":----:",
-                ":----:",
-                ":----:",
-                "----:",
-            ],
-        ]
-        readme_list = headers + readme_list
-        formatted_and_converted_to_strings = [
-            "| " + " | ".join(ele) + " |\n" for ele in readme_list
-        ]
-        source.writelines(formatted_and_converted_to_strings)
+    with open(README_PATH, "w") as sink:
+        print(
+            "| Link | ISO 639-2 Code | ISO 639 Language Name "
+            "| Wiktionary Language Name | Case-folding "
+            "| Phonetic/Phonemic | # of entries |",
+            file=sink,
+        )
+        print(
+            "| :---- | :----: | :----: | :----: | :----: | :----: | ----: |",
+            file=sink,
+        )
+        for link, code, n1, n2, cf, ph, count in readme_list:
+            print(
+                f"| {link} | {code} | {n1} | {n2} | {cf} | {ph} | {count:,} |",
+                file=sink,
+            )
 
 
 if __name__ == "__main__":
