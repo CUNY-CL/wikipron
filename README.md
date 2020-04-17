@@ -7,9 +7,9 @@ version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipr
 versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org/project/wikipron)
 [![CircleCI](https://circleci.com/gh/kylebgorman/wikipron/tree/master.svg?style=svg)](https://circleci.com/gh/kylebgorman/wikipron/tree/master)
 
-WikiPron is a command-line tool, Python API, database for mining
-multilingual pronunciation data from Wiktionary, as well as
-sample grapheme-to-phoneme models trained on this data.
+WikiPron is a command-line tool and Python API for mining multilingual pronunciation
+data from Wiktionary, as well as a database of pronunciation dictionaries mined using
+this tool.
 
 -   [Command-line tool](#command-line-tool)
 -   [Python API](#python-api)

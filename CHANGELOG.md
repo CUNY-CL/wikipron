@@ -12,8 +12,9 @@ Unreleased
 
 ### Added
 
--   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
 -   Logs dialect configuration if specified (\#133).
+-   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
+-   Adds typing to big scrape code. (\#140)
 
 ### Deprecated
 ### Removed

@@ -8,14 +8,18 @@ import logging
 import os
 import time
 
+from typing import Any, Dict
+
 import requests
-import wikipron
+import wikipron  # type: ignore
 
 
 from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
-def _call_scrape(lang_settings, config, tsv_path):
+def _call_scrape(
+    lang_settings: Dict[str, str], config: wikipron.Config, tsv_path: str
+) -> None:
     for unused_retries in range(10):
         with open(tsv_path, "w") as source:
             try:
@@ -43,22 +47,22 @@ def _call_scrape(lang_settings, config, tsv_path):
     os.remove(tsv_path)
 
 
-def _build_scraping_config(config_settings, wiki_name, dialect_suffix=""):
+def _build_scraping_config(
+    config_settings: Dict[str, Any], wiki_name: str, dialect_suffix: str = ""
+) -> None:
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
-
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
     _call_scrape(config_settings, phonemic_config, phonemic_path)
-
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
     _call_scrape(config_settings, phonetic_config, phonetic_path)
 
 
-def main():
+def main() -> None:
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
-    # "2020-01-15" (Big Scrape 3)
+    # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
         "casefold": False,
