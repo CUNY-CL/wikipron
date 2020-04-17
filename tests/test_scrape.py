@@ -69,18 +69,20 @@ def test_special_languages_covered_by_smoke_test():
 
 
 @pytest.mark.parametrize(
-    "word, expected",
+    "word, no_skip_spaces, expected",
     [
-        ("foobar", False),
-        ("a phrase", True),
-        ("hyphen-ated", True),
-        ("prefix-", True),
-        ("-suffix", True),
-        ("hasdigit2", True),
+        ("foobar", False, False),
+        ("a phrase", False, True),
+        ("hyphen-ated", False, True),
+        ("prefix-", False, True),
+        ("-suffix", False, True),
+        ("hasdigit2", False, True),
+        ("a phrase", True, False),
+        ("foobar", True, False),
     ],
 )
-def test__skip_word(word, expected):
-    assert _skip_word(word) == expected
+def test__skip_word(word, no_skip_spaces, expected):
+    assert _skip_word(word, no_skip_spaces) == expected
 
 
 @pytest.mark.parametrize(

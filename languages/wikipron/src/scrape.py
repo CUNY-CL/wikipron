@@ -64,26 +64,36 @@ def main() -> None:
         languages = json.load(source)
     # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
+    wikipron_accepted_settings = {
+        "casefold": False,
+        "no_skip_spaces_pron": False,
+        "no_skip_spaces_word": False,
+    }
+
     for iso639_code in languages:
+        language_settings = languages[iso639_code]
+        for k, v in language_settings.items():
+            if k in wikipron_accepted_settings:
+                wikipron_accepted_settings[k] = v
         config_settings = {
             "key": iso639_code,
-            "casefold": languages[iso639_code]["casefold"],
             "no_stress": True,
             "no_syllable_boundaries": True,
             "cut_off_date": cut_off_date,
+            **wikipron_accepted_settings,
         }
-        if "dialect" not in languages[iso639_code]:
+        if "dialect" not in language_settings:
             _build_scraping_config(
-                config_settings, languages[iso639_code]["wiktionary_name"]
+                config_settings, language_settings["wiktionary_name"]
             )
         else:
-            for (dialect_key, dialect_value) in languages[iso639_code][
+            for (dialect_key, dialect_value) in language_settings[
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
-                    languages[iso639_code]["wiktionary_name"],
+                    language_settings["wiktionary_name"],
                     dialect_key + "_",
                 )
 

@@ -14,9 +14,9 @@ _CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 
 
-def _skip_word(word: str) -> bool:
+def _skip_word(word: str, no_skip_spaces: bool) -> bool:
     # Skips multiword examples.
-    if " " in word:
+    if not no_skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
     if "-" in word:
@@ -36,7 +36,9 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         word = member["title"]
         date = member["timestamp"]
-        if _skip_word(word) or _skip_date(date, config.cut_off_date):
+        if _skip_word(word, config.no_skip_spaces_word) or _skip_date(
+            date, config.cut_off_date
+        ):
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
         for word, pron in config.extract_word_pron(word, request, config):
