@@ -13,9 +13,11 @@ Unreleased
 ### Added
 
 -   Improves printing in the README table. (\#145)
--   Logs dialect configuration if specified. (\#133)
+-   Renames data directory `data`. (\#147)
+-   Logged dialect configuration if specified. (\#133)
+-   Handled additional language codes. (\#132, \#148)
 -   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
--   Adds typing to big scrape code. (\#140)
+-   Added typing to big scrape code. (\#140)
 
 ### Deprecated
 ### Removed

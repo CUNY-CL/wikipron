@@ -252,10 +252,85 @@ LANGUAGE_CODES = {
     "tetelcingo nahuatl": "Tetelcingo Nahuatl",
     # Bouyei. ISO 639-3 only.
     "pcc": "Bouyei",
+    "bouyei": "Bouyei",
     # Lamboya. ISO 639-3 only.
-    "lmy": "Lamboya",
+    "lmy": "Laboya",
+    "laboya": "Laboya",
     # Moroccan Arabic. ISO 639-3 only.
     "ary": "Moroccan Arabic",
+    "moroccan arabic": "Moroccan Arabic",
     # Mandarin Chinese. ISO 639-3 only.
-    "cmn": "Chinese"
+    "cmn": "Chinese",
+    "chinese": "Chinese",
+    # Abkhaz. Would be Abkhazian in ISO 639.
+    "abk": "Abkhaz",
+    "abkhaz": "Abkhaz",
+    # Avar. Would be Avaric in ISO 639.
+    "ava": "Avar",
+    "avar": "Avar",
+    # Buryat. Would be Buriat in ISO 639.
+    "bua": "Buryat",
+    "buryat": "Buryat",
+    # Chukchi. Would be Chukot in ISO 639.
+    "ckt": "Chukchi",
+    "chukchi": "Chukchi",
+    # Burushaski. ISO 639-3 only.
+    "bsk": "Burushaski",
+    "burushaski": "Burushaski",
+    # Evenki. Not in iso639 lib.
+    "evn": "Evenki",
+    "evenki": "Evenki",
+    # Southern Yukaghir. Not in iso639 lib.
+    "yux": "Southern Yukaghir",
+    "southern yukaghir": "Southern Yukaghir",
+    # Tundra Nenets. Not in iso639 lib.
+    "yrk": "Tundra Nenets",
+    "tundra nenets": "Tundra Nenets",
+    # Estonian. Not in iso639 lib.
+    "ekk": "Estonian",
+    "estonian": "Estonian",
+    # Livvi. Not in iso639 lib.
+    "olo": "Livvi",
+    "livvi": "Livvi",
+    # Kildin Sami. Not in iso639 lib.
+    "sjd": "Kildin Sami",
+    "kildin sami": "Kildin Sami",
+    # Northern Yukaghir. Not in iso639 lib.
+    "ykg": "Northern Yukaghir",
+    "northern yukaghir": "Northern Yukaghir",
+    # Nanai. Not in iso639 lib.
+    "gld": "Nanai",
+    "nanai": "Nanai",
+    # Greenlandic. Would be Kalaallisut in ISO 639.
+    "kal": "Greenlandic",
+    "greenlandic": "Greenlandic",
+    # Khanty. Not in iso639 lib.
+    "kca": "Khanty",
+    "khanty": "Khanty",
+    # Ket. Not in iso639 lib.
+    "ket": "Ket",
+    # Komi-Permyak. Not in iso639 lib.
+    "koi": "Komi-Permyak",
+    "komi-permyak": "Komi-Permyak",
+    # Komi-Zyrian. Not in iso639 lib.
+    "kpv": "Komi-Zyrian",
+    "komi-zyrian": "Komi-Zyrian",
+    # Lak. Not in iso639 lib.
+    "lbe": "Lak",
+    "lak": "Lak",
+    # Lezgi. Would be Lezghian in ISO 639.
+    "lez": "Lezgi",
+    "lezgi": "Lezgi",
+    # Eastern Mari. Not in iso639 lib.
+    "mhr": "Eastern Mari",
+    "eastern mari": "Eastern Mari",
+    # Mansi. Not in iso639 lib.
+    "mns": "Mansi",
+    "mansi": "Mansi",
+    # Nganasan. Not in iso639 lib.
+    "nio": "Nganasan",
+    "nganasan": "Nganasan",
+    # Nivkh. Not in iso639 lib.
+    "niv": "Nivkh",
+    "nivkh": "Nivkh",
 }
