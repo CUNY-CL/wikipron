@@ -301,9 +301,6 @@ LANGUAGE_CODES = {
     # Nanai. Not in iso639 lib.
     "gld": "Nanai",
     "nanai": "Nanai",
-    # Persian. Not in iso639 lib.
-    "pes": "Persian",
-    "persian": "Persian",
     # Greenlandic. Would be Kalaallisut in ISO 639.
     "kal": "Greenlandic",
     "greenlandic": "Greenlandic",
