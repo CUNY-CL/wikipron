@@ -22,6 +22,11 @@ def _handle_wiki_name(
         if modifier in language:
             key = file_path[file_path.index("_") + 1:file_path.rindex("_")]
             if not key:
+                logging.info(
+                    'Failed to isolate key for "%s" modifier in "%s".',
+                    modifier,
+                    file_path,
+                )
                 continue
             values = language[modifier][key]
             if "|" in values:
@@ -47,7 +52,7 @@ def main() -> None:
         if num_of_entries < 100:
             # Logs count of entries to check whether Wikipron scraped any data.
             logging.info(
-                '"%s" (count: %s) has less than 100 entries.',
+                '"%s" (count: %d) has less than 100 entries.',
                 file_path,
                 num_of_entries,
             )
@@ -93,9 +98,10 @@ def main() -> None:
             "| :---- | :----: | :----: | :----: | :----: | :----: | ----: |",
             file=sink,
         )
-        for link, code, n1, n2, cf, ph, count in readme_list:
+        for link, code, iso_name, wiki_name, cf, ph, count in readme_list:
             print(
-                f"| {link} | {code} | {n1} | {n2} | {cf} | {ph} | {count:,} |",
+                f"| {link} | {code} | {iso_name} | {wiki_name} | {cf} | {ph} "
+                f"| {count:,} |",
                 file=sink,
             )
 
