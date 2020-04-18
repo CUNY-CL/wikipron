@@ -13,9 +13,10 @@ Unreleased
 ### Added
 
 -   Renames data directory `data`. (\#147)
--   Logs dialect configuration if specified. (\#133)
+-   Handled additional language codes. (\#132, \#148)
+-   Logged dialect configuration if specified. (\#133)
 -   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
--   Adds typing to big scrape code. (\#140)
+-   Added typing to big scrape code. (\#140)
 
 ### Deprecated
 ### Removed
