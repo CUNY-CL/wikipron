@@ -14,7 +14,8 @@ whitelist() {
     for WHITELIST in ../whitelist/*.whitelist; do
         INPUT_TSV="${WHITELIST//whitelist/tsv}"
         OUTPUT_TSV=$(mktemp -t)
-        ./whitelist.py "${INPUT_TSV}" "${WHITELIST}" "${OUTPUT_TSV}" 2>/dev/null
+        # TODO: Redirect these reports somewhere sensible.
+        ./whitelist.py "${INPUT_TSV}" "${WHITELIST}" "${OUTPUT_TSV}"
         mv "${OUTPUT_TSV}" "${INPUT_TSV}"
     done
 }
