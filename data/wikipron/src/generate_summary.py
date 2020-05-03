@@ -98,16 +98,10 @@ def main() -> None:
             "| :---- | :----: | :----: | :----: | :----: | :----: | ----: |",
             file=sink,
         )
-<<<<<<< HEAD
-        for link, code, n1, n2, cf, ph, count in readme_list:
-            print(
-                f"| {link} | {code} | {n1} | {n2} | {cf} | {ph} | {count:,} |",
-=======
         for link, code, iso_name, wiki_name, cf, ph, count in readme_list:
             print(
                 f"| {link} | {code} | {iso_name} | {wiki_name} | {cf} | {ph} "
                 f"| {count:,} |",
->>>>>>> f2034e2c2e44112acb70c0f3438597596b65ae21
                 file=sink,
             )
 
