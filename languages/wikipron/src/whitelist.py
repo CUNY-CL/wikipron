@@ -16,8 +16,8 @@ def whitelist_reader(path: str) -> Iterator[str]:
     with open(path, "r") as source:
         for line in source:
             # Removes comments from line.
-            line = re.sub("\s.*", "", line)
-            yield line
+            line = re.sub("\s*#.*$", "", line)
+            yield line.rstrip()
 
 
 def filter_and_write(tsv_path: str, phones: FrozenSet[str], output_path: str) -> None:
