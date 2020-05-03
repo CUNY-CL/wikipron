@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """Performs the big scrape."""
 
-
+import argparse
 import datetime
 import json
 import logging
@@ -59,9 +59,20 @@ def _build_scraping_config(
     _call_scrape(config_settings, phonetic_config, phonetic_path)
 
 
-def main() -> None:
+def main(args) -> None:
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
+
+    ###Checks restriction codes are valid.
+    if args.restriction: 
+        for key in args.restriction:
+            try:
+                assert key in languages 
+            except AssertionError:
+                print("Language restrictions must be valid ISO code.")
+                exit()
+    ###
+
     # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
@@ -71,6 +82,12 @@ def main() -> None:
     }
 
     for iso639_code in languages:
+
+        ###Checks for language restrictions
+        if args.restriction and iso639_code not in args.restriction:
+            continue
+        ###
+
         language_settings = languages[iso639_code]
         for k, v in language_settings.items():
             if k in wikipron_accepted_settings:
@@ -108,4 +125,11 @@ if __name__ == "__main__":
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO",
     )
-    main()
+
+    ###Add parser to limit scope of scrape. 
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--restriction', type=str, nargs= '*', default=False, help='Specify language restrictions for scrape')
+    args = parser.parse_args()
+    ###   
+    
+    main(args)
