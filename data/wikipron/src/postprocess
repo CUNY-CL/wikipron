@@ -1,13 +1,27 @@
 #!/bin/bash
 set -eou pipefail
 
-for TSV in ../tsv/*.tsv; do
-    # Explicitly uses byte-wise comparison for sorting
-    # rather than a locale-dependent comparison.
-    LC_ALL=C sort -u -o "${TSV}" "${TSV}"
-    ./generalized_split.py "${TSV}"
-done
+split() {
+    for TSV in ../tsv/*.tsv; do
+        # Explicitly uses byte-wise comparison for sorting
+        # rather than a locale-dependent comparison.
+        LC_ALL=C sort -u -o "${TSV}" "${TSV}"
+        ./generalized_split.py "${TSV}"
+    done
+}
 
-./whitelist.py ../tsv/eng_uk_phonemic.tsv ../whitelist/eng_uk_phonemic.whitelist ../tsv/eng_uk_phonemic.tsv
-./whitelist.py ../tsv/eng_us_phonemic.tsv ../whitelist/eng_us_phonemic.whitelist ../tsv/eng_us_phonemic.tsv
-./whitelist.py ../tsv/lat_phonemic.tsv ../whitelist/lat_phonemic.whitelist ../tsv/lat_filtered_phonemic.tsv
+whitelist() {
+    for WHITELIST in ../whitelist/*.whitelist; do
+        INPUT_TSV="${WHITELIST//whitelist/tsv}"
+        OUTPUT_TSV=$(mktemp -t)
+        ./whitelist.py "${INPUT_TSV}" "${WHITELIST}" "${OUTPUT_TSV}" 2>/dev/null
+        mv "${OUTPUT_TSV}" "${INPUT_TSV}"
+    done
+}
+
+main() {
+    time split
+    time whitelist
+}
+
+main

@@ -100,7 +100,7 @@ kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1095
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	12830
 kur_phonemic.tsv	kur	Kurdish	Kurdish	True	Phonemic	1153
 lao_phonemic.tsv	lao	Lao	Lao	False	Phonemic	301
-lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	34373
+lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	34181
 lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	33782
 lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1272
 ayl_phonemic.tsv	ayl	Libyan Arabic	Libyan Arabic	False	Phonemic	153

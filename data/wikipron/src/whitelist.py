@@ -1,43 +1,55 @@
 #!/usr/bin/env python
 """Filters TSVs through a whitelist file.
 
-This script takes lines from a source TSV and writes only lines with
-pronunciations containing characters found in the whitelist file to a new TSV."""
+This script takes lines from a source TSV and writes only entries whose
+pronunciations only contain phones found on the whitelist into a new TSV file.
+"""
 
 import argparse
+import logging
 import re
-import sys
 
 from typing import FrozenSet, Iterator
 
 
-def whitelist_reader(path: str) -> Iterator[str]:
+def _whitelist_reader(path: str) -> Iterator[str]:
     """Reads in whitelist file."""
     with open(path, "r") as source:
         for line in source:
-            # Removes comments from line.
-            line = re.sub("\s*#.*$", "", line)
+            line = re.sub(r"\s*#.*$", "", line)  # Removes comments from line.
             yield line.rstrip()
 
 
-def filter_and_write(tsv_path: str, phones: FrozenSet[str], output_path: str) -> None:
+def _filter_write(
+    input_tsv_path: str, phones: FrozenSet[str], output_tsv_path: str
+) -> None:
     """Creates TSV filtered by whitelist."""
-    with open(tsv_path, "r") as source, open(output_path, "w") as output:
+    with open(input_tsv_path, "r") as source, open(
+        output_tsv_path, "w"
+    ) as sink:
         for line in source:
-            pron = line.split("\t")[1]
-            these_prons = frozenset(pron.split())
-            if phones.issuperset(these_prons):
-                print(line, file=output, end='')
+            line = line.rstrip()
+            (word, pron, *_) = line.split("\t", 2)
+            these_phones = frozenset(pron.split())
+            bad_phones = these_phones - phones
+            if bad_phones:
+                for phone in bad_phones:
+                    logging.warning("Bad phone:\t%s\t(%s)", phone, word)
+            else:
+                print(line, file=sink)
 
 
 def main(args: argparse.Namespace) -> None:
-    whitelist_phones = frozenset(whitelist_reader(args.whitelist_path))
-    filter_and_write(args.tsv_path, whitelist_phones, args.output_path)
+    whitelist_phones = frozenset(_whitelist_reader(args.whitelist_path))
+    _filter_write(args.input_tsv_path, whitelist_phones, args.output_tsv_path)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(message)s", level="INFO"
+    )
     parser = argparse.ArgumentParser()
-    parser.add_argument("tsv_path", help="path to TSV file to be filtered")
-    parser.add_argument("whitelist_path", help="path to whitelist")
-    parser.add_argument("output_path", help="path for new TSV")
+    parser.add_argument("input_tsv_path")
+    parser.add_argument("whitelist_path")
+    parser.add_argument("output_tsv_path")
     main(parser.parse_args())
