@@ -15,7 +15,7 @@ if typing.TYPE_CHECKING:
 def _skip_pron(pron: str, config: "Config") -> bool:
     if "-" in pron:
         return True
-    if " " in pron and config.language != "Chinese":
+    if not config.no_skip_spaces_pron and (" " in pron or "\u00A0" in pron):
         return True
     return False
 
@@ -44,7 +44,7 @@ def yield_pron(
             )
             continue
         if pron:
-            # The segments package inserts a # in between spaces.
-            if config.language == "Chinese":
+            # The segments package inserts a # in-between spaces.
+            if config.no_skip_spaces_pron:
                 pron = pron.replace(" #", "")
             yield pron

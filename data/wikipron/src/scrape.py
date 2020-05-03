@@ -8,14 +8,18 @@ import logging
 import os
 import time
 
+from typing import Any, Dict
+
 import requests
-import wikipron
+import wikipron  # type: ignore
 
 
 from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
-def _call_scrape(lang_settings, config, tsv_path):
+def _call_scrape(
+    lang_settings: Dict[str, str], config: wikipron.Config, tsv_path: str
+) -> None:
     for unused_retries in range(10):
         with open(tsv_path, "w") as source:
             try:
@@ -44,44 +48,52 @@ def _call_scrape(lang_settings, config, tsv_path):
 
 
 def _build_scraping_config(
-    config_settings, wiki_name, dialect_suffix=""
-):
+    config_settings: Dict[str, Any], wiki_name: str, dialect_suffix: str = ""
+) -> None:
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
-
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
     _call_scrape(config_settings, phonemic_config, phonemic_path)
-
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
     _call_scrape(config_settings, phonetic_config, phonetic_path)
 
 
-def main():
+def main() -> None:
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
-    # "2020-01-15" (Big Scrape 3)
+    # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
+    wikipron_accepted_settings = {
+        "casefold": False,
+        "no_skip_spaces_pron": False,
+        "no_skip_spaces_word": False,
+    }
+
     for iso639_code in languages:
+        language_settings = languages[iso639_code]
+        for k, v in language_settings.items():
+            if k in wikipron_accepted_settings:
+                wikipron_accepted_settings[k] = v
         config_settings = {
             "key": iso639_code,
-            "casefold": languages[iso639_code]["casefold"],
             "no_stress": True,
             "no_syllable_boundaries": True,
             "cut_off_date": cut_off_date,
+            **wikipron_accepted_settings,
         }
-        if "dialect" not in languages[iso639_code]:
+        if "dialect" not in language_settings:
             _build_scraping_config(
-                config_settings, languages[iso639_code]["wiktionary_name"]
+                config_settings, language_settings["wiktionary_name"]
             )
         else:
-            for (dialect_key, dialect_value) in languages[iso639_code][
+            for (dialect_key, dialect_value) in language_settings[
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
-                    languages[iso639_code]["wiktionary_name"],
+                    language_settings["wiktionary_name"],
                     dialect_key + "_",
                 )
 

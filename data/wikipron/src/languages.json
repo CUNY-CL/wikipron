@@ -177,6 +177,7 @@
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
         "casefold": false,
+        "no_skip_spaces_pron": true,
         "script": {
             "hani": "Han"
         }
@@ -793,7 +794,8 @@
         "iso639_name": "Persian",
         "wiktionary_name": "Persian",
         "wiktionary_code": "fa",
-        "casefold": false
+        "casefold": false,
+        "no_skip_spaces_pron": true
     },
     "pms": {
         "iso639_name": "Piemontese",
@@ -985,7 +987,8 @@
         "iso639_name": "Tibetan",
         "wiktionary_name": "Tibetan",
         "wiktionary_code": "bo",
-        "casefold": false
+        "casefold": false,
+        "no_skip_spaces_pron": true
     },
     "ton": {
         "iso639_name": "Tonga (Tonga Islands)",
@@ -1028,6 +1031,8 @@
         "wiktionary_name": "Vietnamese",
         "wiktionary_code": "vi",
         "casefold": true,
+        "no_skip_spaces_word": true,
+        "no_skip_spaces_pron": true,
         "dialect": {
             "hanoi": "Hà Nội",
             "hcmc": "Hồ Chí Minh City",

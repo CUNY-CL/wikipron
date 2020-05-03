@@ -7,9 +7,9 @@ version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipr
 versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org/project/wikipron)
 [![CircleCI](https://circleci.com/gh/kylebgorman/wikipron/tree/master.svg?style=svg)](https://circleci.com/gh/kylebgorman/wikipron/tree/master)
 
-WikiPron is a command-line tool, Python API, database for mining
-multilingual pronunciation data from Wiktionary, as well as
-sample grapheme-to-phoneme models trained on this data.
+WikiPron is a command-line tool and Python API for mining multilingual pronunciation
+data from Wiktionary, as well as a database of pronunciation dictionaries mined using
+this tool.
 
 -   [Command-line tool](#command-line-tool)
 -   [Python API](#python-api)
@@ -104,7 +104,7 @@ Data
 ----
 
 We also make available [a database of 1.7 million word/pronunciation
-pairs](https://github.com/kylebgorman/wikipron/tree/master/languages/wikipron)
+pairs](https://github.com/kylebgorman/wikipron/tree/master/data/wikipron)
 mined using WikiPron.
 
 Models
@@ -160,5 +160,5 @@ for details.
 Please note that Wiktionary data has [its own licensing
 terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights), as does the other
 data in the
-[languages/](https://github.com/kylebgorman/wikipron/tree/master/languages)
+[data/](https://github.com/kylebgorman/wikipron/tree/master/data)
 subdirectory.
