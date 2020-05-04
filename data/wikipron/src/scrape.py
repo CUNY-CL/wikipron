@@ -66,7 +66,7 @@ def main(args: argparse.Namespace) -> None:
 
     codes = list(languages.keys())
 
-    # Verifies mypy language code for --restriction is valid
+    # Verifies language code for --restriction is valid
     if args.restriction:
         # Cleans entry.
         keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
@@ -130,7 +130,6 @@ if __name__ == "__main__":
         level="INFO",
     )
 
-    # Check for --restriction flag
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--restriction",
