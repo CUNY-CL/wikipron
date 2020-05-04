@@ -19,6 +19,8 @@ Unreleased
 -   Handled additional language codes. (\#132, \#148)
 -   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
 -   Added typing to big scrape code. (\#140)
+-   Added argparse to allow limiting 'big scrape' to individual languages
+    with `--restriction` flag. (\#154)
 
 ### Deprecated
 ### Removed

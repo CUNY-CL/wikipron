@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 """Performs the big scrape."""
 
-
+import argparse
 import datetime
 import json
 import logging
 import os
 import time
+import re
 
 from typing import Any, Dict
 
@@ -59,9 +60,29 @@ def _build_scraping_config(
     _call_scrape(config_settings, phonetic_config, phonetic_path)
 
 
-def main() -> None:
+def main(args: argparse.Namespace) -> None:
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
+
+    codes = list(languages.keys())
+
+    # Verifies language code for --restriction is valid
+    if args.restriction:
+        # Cleans entry.
+        keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
+        if not keys[0]:
+            # Checks for empty entry.
+            logging.fatal("Restriction flag raised but no language provided.")
+            exit(1)
+        rset = frozenset(args.restriction)
+        lset = frozenset(codes)
+        eset = rset - lset
+        if eset:
+            for key in eset:
+                logging.fatal("'%s' is not valid ISO code.", key)
+            exit(1)
+        codes = list(rset)
+
     # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
@@ -70,13 +91,13 @@ def main() -> None:
         "no_skip_spaces_word": False,
     }
 
-    for iso639_code in languages:
-        language_settings = languages[iso639_code]
+    for code in codes:
+        language_settings = languages[code]
         for k, v in language_settings.items():
             if k in wikipron_accepted_settings:
                 wikipron_accepted_settings[k] = v
         config_settings = {
-            "key": iso639_code,
+            "key": code,
             "no_stress": True,
             "no_syllable_boundaries": True,
             "cut_off_date": cut_off_date,
@@ -108,4 +129,14 @@ if __name__ == "__main__":
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO",
     )
-    main()
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--restriction",
+        type=str,
+        nargs="+",
+        help="Specify language restrictions for scrape",
+    )
+    args = parser.parse_args()
+
+    main(args)
