@@ -2,7 +2,7 @@
 ====================
 
 [`scrape.py`](scrape.py) calls WikiPron's scraping functions on all Wiktionary
-languages with over 100 entries. [`generate\_summary.py`](generate_summary.py)
+languages with over 100 entries. [`generate_summary.py`](generate_summary.py)
 generates a [README](../README.md) and a [TSV](../languages_summary.tsv) with
 selected information regarding the contents of the TSVs [`scrape.py`](scrape.py)
 generated and the configuration settings that were passed to scrape.
@@ -16,7 +16,7 @@ languages with over 100 entries and is also used to generate the previously
 mentioned [README](../README.md). [`codes.py`](codes.py) is used to generate
 [`languages.json`](languages.json). It queries Wiktionary for all languages with
 over 100 entries. It also outputs
-[`unmatched\_languages.json`](unmatched_languages.json), a list of languages on
+[`unmatched_languages.json`](unmatched_languages.json), a list of languages on
 Wiktionary that have over 100 entries but that could not be matched with an ISO
 639 language code.
 
@@ -40,7 +40,7 @@ Steps used to update the dataset
         `datetime.date.today().isoformat()` but can be set manually using an ISO
         formatted string (ex. "2019-10-31").
 3.  Run [`postprocess`](postprocess).
-4.  Run [`generate\_summary.py`](generate_summary.py).
+4.  Run [`generate_summary.py`](generate_summary.py).
 
 Running a subset of languages using the big scrape
 --------------------------------------------------
@@ -65,6 +65,6 @@ languages:
     `scraping.log`.
 3.  Run [`scrape.py`](scrape.py).
 4.  Run [`postprocess`](postprocess).
-5.  Run [`generate\_summary.py`](generate_summary.py).
+5.  Run [`generate_summary.py`](generate_summary.py).
 
 Steps 1-3 can be repeated until you have successfully scraped all languages.
