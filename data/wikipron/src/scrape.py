@@ -59,26 +59,27 @@ def _build_scraping_config(
     phonetic_path = f"{path_affix}phonetic.tsv"
     _call_scrape(config_settings, phonetic_config, phonetic_path)
 
+
 def main(args: argparse.Namespace) -> None:
     with open(LANGUAGES_PATH, "r") as source:
         languages = json.load(source)
 
     codes = list(languages.keys())
 
-    # Verifies language code for --restriction is valid
+    # Verifies mypy language code for --restriction is valid
     if args.restriction:
-        # Cleans entry. 
-        keys = re.split(r'[;,\s]+\s*',args.restriction[0].strip(';, '))
+        # Cleans entry.
+        keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
         if not keys[0]:
             # Checks for empty entry.
             logging.fatal("Restriction flag raised but no language provided.")
             exit(1)
-        rset = frozenset(keys)
+        rset = frozenset(args.restriction)
         lset = frozenset(codes)
         eset = rset - lset
-        if eset: 
+        if eset:
             for key in eset:
-                logging.fatal("\'%s\' is not valid ISO code.", key)
+                logging.fatal("'%s' is not valid ISO code.", key)
             exit(1)
         codes = list(rset)
 
@@ -131,7 +132,12 @@ if __name__ == "__main__":
 
     # Check for --restriction flag
     parser = argparse.ArgumentParser()
-    parser.add_argument('--restriction', type=str, nargs= '+', help='Specify language restrictions for scrape')
+    parser.add_argument(
+        "--restriction",
+        type=str,
+        nargs="+",
+        help="Specify language restrictions for scrape",
+    )
     args = parser.parse_args()
-    
+
     main(args)
