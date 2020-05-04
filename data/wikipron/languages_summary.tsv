@@ -46,7 +46,7 @@ dut_phonemic.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic	24049
 dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	625
 dzo_phonemic.tsv	dzo	Dzongkha	Dzongkha	False	Phonemic	188
 egy_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	False	Phonemic	2785
-eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	52995
+eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	51881
 eng_uk_phonetic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonetic	1197
 eng_us_phonemic.tsv	eng	English	English (US, General American)	True	Phonemic	49132
 eng_us_phonetic.tsv	eng	English	English (US, General American)	True	Phonetic	1536

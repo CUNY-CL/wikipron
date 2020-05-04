@@ -48,7 +48,7 @@
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 625 |
 | [TSV](tsv/dzo_phonemic.tsv) | dzo | Dzongkha | Dzongkha | False | Phonemic | 188 |
 | [TSV](tsv/egy_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | False | Phonemic | 2,785 |
-| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 52,995 |
+| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 51,881 |
 | [TSV](tsv/eng_uk_phonetic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonetic | 1,197 |
 | [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 49,132 |
 | [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1,536 |
