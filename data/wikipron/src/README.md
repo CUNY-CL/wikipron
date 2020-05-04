@@ -44,7 +44,6 @@ Steps used to update the dataset
 
 Running a subset of languages using the big scrape
 --------------------------------------------------
-
 By default, if [scrape.py](scrape.py) cannot successfully complete a scrape of
 an entire language in 10 retries, it will log the language, remove the
 incomplete data scraped from that language, and move on to the next language in
@@ -53,8 +52,11 @@ you need to run again when the big scrape finishes. These are the steps to
 follow should you need to run the big scrape scripts for a smaller set of
 languages:
 
-1.  Modify [languages.json](languages.json) so it only contains the languages
-    you want to scrape.
+1.  Run scrape.py with `--restriction` flag, followed by command line arguments 
+    for desired languages. Note: languages must be in their ISO designation and 
+    argument string must delineate with comma, semicolon, or space. 
+    E.g. To target only Lithuanian and Spanish:
+    `./scrape.py --restriction='lit; spa'`
 2.  If `cut_off_date` in [scrape.py](scrape.py) was set using
     `datetime.date.today().isoformat()` and it is important that all the data
     you scrape is from before the same date, then manually set `cut_off_date` in
@@ -63,8 +65,6 @@ languages:
     `scraping.log`.
 3.  Run [scrape.py](scrape.py).
 4.  Run [postprocess](postprocess).
-5.  Reset [languages.json](languages.json) to its unmodified state (using
-    `git checkout` or `git reset`).
-6.  Run [generate\_summary.py](generate_summary.py).
+5.  Run [generate\_summary.py](generate_summary.py).
 
 Steps 1-3 can be repeated until you have successfully scraped all languages.
