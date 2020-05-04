@@ -1036,7 +1036,9 @@
         "dialect": {
             "hanoi": "Hà Nội",
             "hcmc": "Hồ Chí Minh City",
-            "hue": "Huế"
+            "hue": "Huế",
+            "tc": "Vinh, Thanh Chương",
+            "ht":"Hà Tĩnh"
         }
     },
     "vol": {
