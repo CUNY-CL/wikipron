@@ -440,7 +440,9 @@
         "iso639_name": "K'iche'",
         "wiktionary_name": "K'iche'",
         "wiktionary_code": "quc",
-        "casefold": true
+        "casefold": true,
+        "no_skip_spaces_word": true,
+        "no_skip_spaces_pron": true
     },
     "kbd": {
         "iso639_name": "Kabardian",
