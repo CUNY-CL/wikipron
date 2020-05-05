@@ -99,7 +99,7 @@
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 249 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,016 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,095 |
-| [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12,830 |
+| [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12,822 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,153 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 301 |
 | [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 34,181 |
