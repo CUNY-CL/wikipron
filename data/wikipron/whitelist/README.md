@@ -39,7 +39,7 @@ We welcome user submissions for whitelists from linguists. Note that we use the
 2.  Remove typos, invalid IPA transcriptions, and non-native segments.
 3.  For phonemic whitelists, add comments about allophony.
 4.  In [`../src/`](../src) run `./postprocess && ./generate_summary.py`.
-5.  Add the whitelist, the filtered `./tsv` file(s), and the summary files using
+5.  Add the whitelist, the filtered `.tsv` file(s), and the summary files using
     `git add`.
 6.  Commit using `git commit`, push to your branch using `git push`, and then
     file a pull request.
