@@ -21,6 +21,7 @@ Unreleased
 -   Added typing to big scrape code. (\#140)
 -   Added argparse to allow limiting 'big scrape' to individual languages
     with `--restriction` flag. (\#154)
+-   Split `may` into Latin and Arabic files. (\#164)
 
 ### Deprecated
 ### Removed
