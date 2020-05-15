@@ -578,7 +578,11 @@
         "iso639_name": "Malay (macrolanguage)",
         "wiktionary_name": "Malay",
         "wiktionary_code": "ms",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "ara": "Arabic"
+        }
     },
     "mlt": {
         "iso639_name": "Maltese",

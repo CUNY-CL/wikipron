@@ -117,8 +117,10 @@ ltz_phonetic.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish	True	Phonetic	17
 mac_phonemic.tsv	mac	Macedonian	Macedonian	True	Phonemic	394
 mac_phonetic.tsv	mac	Macedonian	Macedonian	True	Phonetic	4769
 mlg_phonemic.tsv	mlg	Malagasy	Malagasy	True	Phonemic	114
-may_phonemic.tsv	may	Malay (macrolanguage)	Malay	True	Phonemic	2519
-may_phonetic.tsv	may	Malay (macrolanguage)	Malay	True	Phonetic	645
+may_ara_phonemic.tsv	may	Malay (macrolanguage)	Malay (Arabic)	True	Phonemic	632
+may_ara_phonetic.tsv	may	Malay (macrolanguage)	Malay (Arabic)	True	Phonetic	216
+may_latn_phonemic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonemic	1887
+may_latn_phonetic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonetic	429
 mlt_phonemic.tsv	mlt	Maltese	Maltese	True	Phonemic	2546
 glv_phonemic.tsv	glv	Manx	Manx	True	Phonemic	196
 glv_phonetic.tsv	glv	Manx	Manx	True	Phonetic	122
