@@ -119,8 +119,10 @@
 | [TSV](tsv/mac_phonemic.tsv) | mac | Macedonian | Macedonian | True | Phonemic | 394 |
 | [TSV](tsv/mac_phonetic.tsv) | mac | Macedonian | Macedonian | True | Phonetic | 4,769 |
 | [TSV](tsv/mlg_phonemic.tsv) | mlg | Malagasy | Malagasy | True | Phonemic | 114 |
-| [TSV](tsv/may_phonemic.tsv) | may | Malay (macrolanguage) | Malay | True | Phonemic | 2,519 |
-| [TSV](tsv/may_phonetic.tsv) | may | Malay (macrolanguage) | Malay | True | Phonetic | 645 |
+| [TSV](tsv/may_ara_phonemic.tsv) | may | Malay (macrolanguage) | Malay (Arabic) | True | Phonemic | 632 |
+| [TSV](tsv/may_ara_phonetic.tsv) | may | Malay (macrolanguage) | Malay (Arabic) | True | Phonetic | 216 |
+| [TSV](tsv/may_latn_phonemic.tsv) | may | Malay (macrolanguage) | Malay (Latin) | True | Phonemic | 1,887 |
+| [TSV](tsv/may_latn_phonetic.tsv) | may | Malay (macrolanguage) | Malay (Latin) | True | Phonetic | 429 |
 | [TSV](tsv/mlt_phonemic.tsv) | mlt | Maltese | Maltese | True | Phonemic | 2,546 |
 | [TSV](tsv/glv_phonemic.tsv) | glv | Manx | Manx | True | Phonemic | 196 |
 | [TSV](tsv/glv_phonetic.tsv) | glv | Manx | Manx | True | Phonetic | 122 |
