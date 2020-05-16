@@ -170,7 +170,7 @@ por_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic	10077
 por_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonetic	396
 por_po_phonemic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonemic	9633
 por_po_phonetic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonetic	356
-pan_phonemic.tsv	pan	Panjabi	Punjabi	False	Phonemic	132
+pan_guru_phonemic.tsv	pan	Panjabi	Punjabi (Gurmukhi)	False	Phonemic	113
 rum_phonemic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonemic	3175
 rum_phonetic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonetic	4805
 rus_phonetic.tsv	rus	Russian	Russian	True	Phonetic	389128
