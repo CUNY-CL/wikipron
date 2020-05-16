@@ -172,7 +172,7 @@
 | [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 396 |
 | [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 9,633 |
 | [TSV](tsv/por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 356 |
-| [TSV](tsv/pan_phonemic.tsv) | pan | Panjabi | Punjabi | False | Phonemic | 132 |
+| [TSV](tsv/pan_guru_phonemic.tsv) | pan | Panjabi | Punjabi (Gurmukhi) | False | Phonemic | 113 |
 | [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3,175 |
 | [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4,805 |
 | [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 389,128 |

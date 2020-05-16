@@ -839,7 +839,11 @@
         "iso639_name": "Panjabi",
         "wiktionary_name": "Punjabi",
         "wiktionary_code": "pa",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "guru": "Gurmukhi",
+            "ara": "Arabic"
+        }
     },
     "rum": {
         "iso639_name": "Romanian; Moldavian; Moldovan",
