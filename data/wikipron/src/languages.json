@@ -600,7 +600,10 @@
         "iso639_name": "Maltese",
         "wiktionary_name": "Maltese",
         "wiktionary_code": "mt",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "mnc": {
         "iso639_name": "Manchu",
