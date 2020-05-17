@@ -59,6 +59,12 @@
         "wiktionary_code": "hy",
         "casefold": true
     },
+    "rup": {
+        "iso639_name": "Macedo-Romanian",
+        "wiktionary_name": "Aromanian",
+        "wiktionary_code": "rup",
+        "casefold": true
+    },
     "asm": {
         "iso639_name": "Assamese",
         "wiktionary_name": "Assamese",
@@ -111,6 +117,12 @@
         "wiktionary_name": "Bengali",
         "wiktionary_code": "bn",
         "casefold": false
+    },
+    "bcl": {
+        "iso639_name": "Central Bikol",
+        "wiktionary_name": "Bikol Central",
+        "wiktionary_code": "bcl",
+        "casefold": true
     },
     "pcc": {
         "iso639_name": "Bouyei",
@@ -173,14 +185,14 @@
         "casefold": true
     },
     "cmn": {
-        "iso639_name": "Mandarin Chinese",
-        "wiktionary_name": "Chinese",
-        "wiktionary_code": "zh",
-        "casefold": false,
-        "no_skip_spaces_pron": true,
-        "script": {
-            "hani": "Han"
-        }
+         "iso639_name": "Mandarin Chinese",
+         "wiktionary_name": "Chinese",
+         "wiktionary_code": "zh",
+         "casefold": false,
+         "no_skip_spaces_pron": true,
+         "script": {
+             "hani": "Han"
+         }
     },
     "cho": {
         "iso639_name": "Choctaw",
@@ -557,8 +569,8 @@
         "casefold": true
     },
     "khb": {
-        "iso639_name": "L\u00fc",
-        "wiktionary_name": "L\u00fc",
+        "iso639_name": "Lü",
+        "wiktionary_name": "Lü",
         "wiktionary_code": "khb",
         "casefold": false
     },
@@ -585,6 +597,12 @@
         "wiktionary_name": "Maltese",
         "wiktionary_code": "mt",
         "casefold": true
+    },
+    "mnc": {
+        "iso639_name": "Manchu",
+        "wiktionary_name": "Manchu",
+        "wiktionary_code": "mnc",
+        "casefold": false
     },
     "glv": {
         "iso639_name": "Manx",
@@ -670,6 +688,12 @@
         "wiktionary_code": "ary",
         "casefold": false
     },
+    "nmy": {
+        "iso639_name": "Namuyi",
+        "wiktionary_name": "Namuyi",
+        "wiktionary_code": "nmy",
+        "casefold": true
+    },
     "nav": {
         "iso639_name": "Navajo",
         "wiktionary_name": "Navajo",
@@ -701,8 +725,8 @@
         "casefold": true
     },
     "nob": {
-        "iso639_name": "Norwegian Bokm\u00e5l",
-        "wiktionary_name": "Norwegian Bokm\u00e5l",
+        "iso639_name": "Norwegian Bokmål",
+        "wiktionary_name": "Norwegian Bokmål",
         "wiktionary_code": "nb",
         "casefold": true
     },
@@ -767,7 +791,7 @@
         "casefold": true
     },
     "tpw": {
-        "iso639_name": "Tup\u00ed",
+        "iso639_name": "Tupí",
         "wiktionary_name": "Old Tupi",
         "wiktionary_code": "tpw",
         "casefold": true
@@ -996,10 +1020,22 @@
         "wiktionary_code": "to",
         "casefold": true
     },
+    "aaa": {
+        "iso639_name": "Ghotuo",
+        "wiktionary_name": "",
+        "wiktionary_code": "",
+        "casefold": true
+    },
     "tur": {
         "iso639_name": "Turkish",
         "wiktionary_name": "Turkish",
         "wiktionary_code": "tr",
+        "casefold": true
+    },
+    "tuk": {
+        "iso639_name": "Turkmen",
+        "wiktionary_name": "Turkmen",
+        "wiktionary_code": "tk",
         "casefold": true
     },
     "tzo": {
@@ -1038,17 +1074,17 @@
             "hcmc": "Hồ Chí Minh City",
             "hue": "Huế",
             "tc": "Vinh, Thanh Chương",
-            "ht":"Hà Tĩnh"
+            "ht": "Hà Tĩnh"
         }
     },
     "vol": {
-        "iso639_name": "Volap\u00fck",
-        "wiktionary_name": "Volap\u00fck",
+        "iso639_name": "Volapük",
+        "wiktionary_name": "Volapük",
         "wiktionary_code": "vo",
         "casefold": true
     },
     "wau": {
-        "iso639_name": "Waur\u00e1",
+        "iso639_name": "Waurá",
         "wiktionary_name": "Wauja",
         "wiktionary_code": "wau",
         "casefold": true
