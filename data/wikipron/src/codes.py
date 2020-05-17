@@ -175,13 +175,11 @@ def main() -> None:
                 lang[wiktionary_code] = {"wiktionary_name": wiktionary_name}
                 unmatched_languages.update(lang)
             source.seek(0)
-    with open(LANGUAGES_PATH, "w") as json_file:
-        json_dict = json.dumps(new_languages, indent=4)
-        json_file.write(json_dict)
+    with open(LANGUAGES_PATH, "w") as sink:
+        json.dump(new_languages, sink, indent=4, ensure_ascii=False)
     # All languages that failed to be matched with data in ISO 639 TSV file.
-    with open(UNMATCHED_LANGUAGES_PATH, "w") as unmatched:
-        unnmatched_json_dict = json.dumps(unmatched_languages, indent=4)
-        unmatched.write(unnmatched_json_dict)
+    with open(UNMATCHED_LANGUAGES_PATH, "w") as sink:
+        json.dump(unmatched_languages, sink, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
