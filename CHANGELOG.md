@@ -23,6 +23,7 @@ Unreleased
     with `--restriction` flag. (\#154)
 -   Split `may` into Latin and Arabic files. (\#164)
 -   Split `pan` into Gurmukhi and Shahmukhī. (\#169)
+-   Split `uig` into Perso-Arabic and Cyrillic. (\#173)
 
 ### Deprecated
 ### Removed
