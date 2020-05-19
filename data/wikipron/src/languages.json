@@ -1068,7 +1068,11 @@
         "iso639_name": "Uighur",
         "wiktionary_name": "Uyghur",
         "wiktionary_code": "ug",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
+        }
     },
     "vie": {
         "iso639_name": "Vietnamese",

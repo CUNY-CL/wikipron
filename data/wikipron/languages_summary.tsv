@@ -212,7 +212,7 @@ tur_phonetic.tsv	tur	Turkish	Turkish	True	Phonetic	2023
 ukr_phonemic.tsv	ukr	Ukrainian	Ukrainian	True	Phonemic	198
 ukr_phonetic.tsv	ukr	Ukrainian	Ukrainian	True	Phonetic	1674
 urd_phonemic.tsv	urd	Urdu	Urdu	False	Phonemic	704
-uig_phonemic.tsv	uig	Uighur	Uyghur	True	Phonemic	268
+uig_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	262
 vie_phonetic.tsv	vie	Vietnamese	Vietnamese	True	Phonetic	11000
 vol_phonemic.tsv	vol	Volapük	Volapük	True	Phonemic	349
 vol_phonetic.tsv	vol	Volapük	Volapük	True	Phonetic	563
