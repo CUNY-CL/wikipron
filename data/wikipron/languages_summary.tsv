@@ -42,8 +42,8 @@ dlm_phonemic.tsv	dlm	Dalmatian	Dalmatian	True	Phonemic	176
 dan_phonemic.tsv	dan	Danish	Danish	True	Phonemic	3490
 dan_phonetic.tsv	dan	Danish	Danish	True	Phonetic	4116
 sce_phonemic.tsv	sce	Dongxiang	Dongxiang	True	Phonemic	117
-dut_phonemic.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic	24049
-dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	625
+dut_phonemic.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic	25922
+dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	632
 dzo_phonemic.tsv	dzo	Dzongkha	Dzongkha	False	Phonemic	188
 egy_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	False	Phonemic	2785
 eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	54300
@@ -66,8 +66,8 @@ ger_phonemic.tsv	ger	German	German	True	Phonemic	30872
 ger_phonetic.tsv	ger	German	German	True	Phonetic	9885
 got_phonemic.tsv	got	Gothic	Gothic	True	Phonemic	665
 got_phonetic.tsv	got	Gothic	Gothic	True	Phonetic	122
-gre_phonemic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic	8645
-gre_phonetic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonetic	416
+gre_phonemic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic	9578
+gre_phonetic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonetic	405
 afb_phonemic.tsv	afb	Gulf Arabic	Gulf Arabic	False	Phonemic	432
 hts_phonemic.tsv	hts	Hadza	Hadza	True	Phonemic	273
 haw_phonemic.tsv	haw	Hawaiian	Hawaiian	True	Phonemic	441
@@ -188,10 +188,10 @@ scn_phonetic.tsv	scn	Sicilian	Sicilian	True	Phonetic	161
 slo_phonemic.tsv	slo	Slovak	Slovak	True	Phonemic	3724
 slo_phonetic.tsv	slo	Slovak	Slovak	True	Phonetic	456
 slv_phonemic.tsv	slv	Slovenian	Slovene	True	Phonemic	4360
-spa_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonemic	52378
-spa_ca_phonetic.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonetic	44959
-spa_la_phonemic.tsv	spa	Spanish; Castilian	Spanish (Latin America)	True	Phonemic	41926
-spa_la_phonetic.tsv	spa	Spanish; Castilian	Spanish (Latin America)	True	Phonetic	36052
+spa_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonemic	55623
+spa_ca_phonetic.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonetic	47950
+spa_la_phonemic.tsv	spa	Spanish; Castilian	Spanish (Latin America)	True	Phonemic	44487
+spa_la_phonetic.tsv	spa	Spanish; Castilian	Spanish (Latin America)	True	Phonetic	38392
 srn_phonemic.tsv	srn	Sranan Tongo	Sranan Tongo	True	Phonemic	157
 swe_phonemic.tsv	swe	Swedish	Swedish	True	Phonemic	3113
 swe_phonetic.tsv	swe	Swedish	Swedish	True	Phonetic	154
