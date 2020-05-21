@@ -24,6 +24,8 @@ Unreleased
 -   Split `may` into Latin and Arabic files. (\#164)
 -   Split `pan` into Gurmukhi and Shahmukhī. (\#169)
 -   Split `uig` into Perso-Arabic and Cyrillic. (\#173)
+-   Alowing ASCII apostrophes (0x27) in spellings. (\#172).
+-   Only allowing Latin spellings in Maltese lexicon. (\#166).
 
 ### Deprecated
 ### Removed

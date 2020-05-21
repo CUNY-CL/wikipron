@@ -11,7 +11,7 @@ def _generalized_check(script: str, word: str) -> bool:
     prop = (
         "Block" if script == "Katakana" or script == "Hiragana" else "Script"
     )
-    regex_string = rf"^\p{{{prop}={script}}}+$"
+    regex_string = rf"^[\p{{{prop}={script}}}']+$"
     return bool(regex.match(regex_string, word))
 
 
