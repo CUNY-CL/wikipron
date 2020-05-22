@@ -11,8 +11,10 @@ Unreleased
 ----------
 
 ### Added
--	Adds two Vietnamese dialects to `languages.json`.(\#139)
+-	Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
+-   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
+    (\#158, etc.)
 -   Improves printing in the README table. (\#145)
 -   Renames data directory `data`. (\#147)
 -   Logged dialect configuration if specified. (\#133)
