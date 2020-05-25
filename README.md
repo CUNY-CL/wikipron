@@ -6,6 +6,8 @@ version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipr
 [![Supported Python
 versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org/project/wikipron)
 [![CircleCI](https://circleci.com/gh/kylebgorman/wikipron/tree/master.svg?style=svg)](https://circleci.com/gh/kylebgorman/wikipron/tree/master)
+[![Paper](http://img.shields.io/badge/paper-ACL:2020.lrec--1.521-B31B1B.svg)](https://www.aclweb.org/anthology/2020.lrec-1.521/)
+[![Conference](http://img.shields.io/badge/LREC-2020-4b44ce.svg)](https://lrec2020.lrec-conf.org/en/)
 
 WikiPron is a command-line tool and Python API for mining multilingual pronunciation
 data from Wiktionary, as well as a database of pronunciation dictionaries mined using
@@ -21,8 +23,8 @@ If you use WikiPron in your research, please cite the following:
 
 Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean Miller,
 Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020).
-Massively multilingual pronunciation mining with WikiPron.
-In LREC, to appear.
+[Massively multilingual pronunciation mining with WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/).
+In LREC. [[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)]
 
 Command-line tool
 -----------------
