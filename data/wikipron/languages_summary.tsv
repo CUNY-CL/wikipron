@@ -46,10 +46,10 @@ dut_phonemic.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic	25922
 dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	632
 dzo_phonemic.tsv	dzo	Dzongkha	Dzongkha	False	Phonemic	188
 egy_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	False	Phonemic	2785
-eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	54300
-eng_uk_phonetic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonetic	1238
-eng_us_phonemic.tsv	eng	English	English (US, General American)	True	Phonemic	49132
-eng_us_phonetic.tsv	eng	English	English (US, General American)	True	Phonetic	1536
+eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	55050
+eng_uk_phonetic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonetic	1243
+eng_us_phonemic.tsv	eng	English	English (US, General American)	True	Phonemic	51199
+eng_us_phonetic.tsv	eng	English	English (US, General American)	True	Phonetic	1588
 epo_phonemic.tsv	epo	Esperanto	Esperanto	True	Phonemic	14289
 est_phonemic.tsv	est	Estonian	Estonian	True	Phonemic	348
 fao_phonemic.tsv	fao	Faroese	Faroese	True	Phonemic	1647

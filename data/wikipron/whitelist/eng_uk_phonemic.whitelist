@@ -1,18 +1,24 @@
+# TODO: This is not yet based closely on the guidelines:
+# https://en.wiktionary.org/wiki/Appendix:English_pronunciation
 ## Vowels.
 i
 iː  #  Check.
 ɪ
-ɪ̯  # ? 
+ɪː  #  Check.
+ɪ̯   # Used for offglides.
 u
 uː  #  Check.
 ʊ
+ʊ̯   # Used for offglides.
 ʌ
 ɛ
 ɛː  # Check.
 ɜ
 ɜː  # Check.
 æ
+æː  # Check.
 e
+eː  # Check.
 o
 oː  # Check.
 ɔ
@@ -24,9 +30,10 @@ aː  # Check.
 ɑː  # Check.
 ɒ
 ə
-ɚ
-ɝ
-ɝː  # Check.
+əː  # Check; used to spell <er, or, ur>.
+ɚ  # Check; r-less?
+ɝ  # Check; r-less?
+ɝː  # Check; r-less?
 ## Consonants.
 p
 t

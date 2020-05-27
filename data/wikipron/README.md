@@ -48,10 +48,10 @@
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 632 |
 | [TSV](tsv/dzo_phonemic.tsv) | dzo | Dzongkha | Dzongkha | False | Phonemic | 188 |
 | [TSV](tsv/egy_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | False | Phonemic | 2,785 |
-| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 54,300 |
-| [TSV](tsv/eng_uk_phonetic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonetic | 1,238 |
-| [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 49,132 |
-| [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1,536 |
+| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 55,050 |
+| [TSV](tsv/eng_uk_phonetic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonetic | 1,243 |
+| [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 51,199 |
+| [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1,588 |
 | [TSV](tsv/epo_phonemic.tsv) | epo | Esperanto | Esperanto | True | Phonemic | 14,289 |
 | [TSV](tsv/est_phonemic.tsv) | est | Estonian | Estonian | True | Phonemic | 348 |
 | [TSV](tsv/fao_phonemic.tsv) | fao | Faroese | Faroese | True | Phonemic | 1,647 |
