@@ -136,8 +136,8 @@
 | [TSV](tsv/enm_phonemic.tsv) | enm | Middle English (1100-1500) | Middle English | True | Phonemic | 6,309 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
-| [TSV](tsv/mon_phonemic.tsv) | mon | Mongolian | Mongolian | True | Phonemic | 1,022 |
-| [TSV](tsv/mon_phonetic.tsv) | mon | Mongolian | Mongolian | True | Phonetic | 436 |
+| [TSV](tsv/mon_cyrl_phonemic.tsv) | mon | Mongolian | Mongolian (Cyrillic) | True | Phonemic | 1,015 |
+| [TSV](tsv/mon_cyrl_phonetic.tsv) | mon | Mongolian | Mongolian (Cyrillic) | True | Phonetic | 434 |
 | [TSV](tsv/ary_phonemic.tsv) | ary | Moroccan Arabic | Moroccan Arabic | False | Phonemic | 308 |
 | [TSV](tsv/nav_phonemic.tsv) | nav | Navajo | Navajo | True | Phonemic | 156 |
 | [TSV](tsv/nap_phonemic.tsv) | nap | Neapolitan | Neapolitan | True | Phonemic | 238 |
