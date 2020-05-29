@@ -696,7 +696,7 @@
         "casefold": true,
         "script": {
             "cyrl": "Cyrillic",
-	    "mong": "Mong"
+            "mong": "Mong"
         }
     },
     "ary": {
