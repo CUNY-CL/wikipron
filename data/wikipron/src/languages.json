@@ -695,8 +695,7 @@
         "wiktionary_code": "mn",
         "casefold": true,
         "script": {
-            "cyrl": "Cyrillic",
-            "mong": "Mong"
+            "cyrl": "Cyrillic"
         }
     },
     "ary": {
