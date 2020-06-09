@@ -693,7 +693,10 @@
         "iso639_name": "Mongolian",
         "wiktionary_name": "Mongolian",
         "wiktionary_code": "mn",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "ary": {
         "iso639_name": "Moroccan Arabic",

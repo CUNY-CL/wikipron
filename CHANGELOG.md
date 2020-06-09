@@ -11,7 +11,7 @@ Unreleased
 ----------
 
 ### Added
--	Adds two Vietnamese dialects to `languages.json`. (\#139)
+-   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
 -   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
     (\#158, etc.)
@@ -28,6 +28,7 @@ Unreleased
 -   Split `uig` into Perso-Arabic and Cyrillic. (\#173)
 -   Alowing ASCII apostrophes (0x27) in spellings. (\#172).
 -   Only allowing Latin spellings in Maltese lexicon. (\#166).
+-   Split `mon` into Cyrillic and Mongol Bichig (\#179).
 
 ### Deprecated
 ### Removed
