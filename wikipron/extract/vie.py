@@ -6,7 +6,6 @@ import typing
 import requests
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
-# from wikipron.config import _PRON_XPATH_SELECTOR_TEMPLATE
 
 _PRON_XPATH_SELECTOR_TEMPLATE = """
 //li[
@@ -21,7 +20,6 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
 ]
 """
 
-
 _DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
     '  (span[@class = "ib-content qualifier-content" and {dialects_text}]\n'
@@ -33,13 +31,8 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Word, WordPronPair
 
 
-def extract_pron_dialect(request, selector, config):
+def extract_pron(request, selector, config):
     for pron_element in request.html.xpath(selector):
-        yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
-
-
-def extract_pron_default(request, config):
-    for pron_element in request.html.xpath(config.pron_xpath_selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
@@ -55,8 +48,8 @@ def extract_word_pron_vie(
         selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=config.language, dialect_selector=dialect_selector
         )
-        prons = extract_pron_dialect(request, selector, config)
+        prons = extract_pron(request, selector, config)
     else:
-        prons = extract_pron_default(request, config)
+        prons = extract_pron(request, config.pron_xpath_selector, config)
     words = itertools.repeat(word)
     yield from zip(words, prons)
