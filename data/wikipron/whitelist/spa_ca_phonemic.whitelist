@@ -1,0 +1,34 @@
+# This dialect is distinguished by:
+# * <ll> /ʎ/ but <y> /ɟ͡ʝ/
+# * <c,z> before <i, e> /θ/
+a
+e
+i
+o
+u
+j
+w
+l
+ʎ
+ɟ͡ʝ
+ɾ
+r
+β
+f
+θ
+s
+ʃ
+x
+p
+b
+t
+d
+k
+ɡ
+t͡ʃ
+m
+n
+ɲ
+ŋ
+# t͡ɬ is found in Meso-American placenames (etc.) but is not properly handled
+# by the pronunciation templates.

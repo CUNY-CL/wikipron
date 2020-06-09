@@ -11,9 +11,24 @@ Unreleased
 ----------
 
 ### Added
-
+-   Adds two Vietnamese dialects to `languages.json`. (\#139)
+-   Adds whitelisting capabilities to `postprocess`. (\#152)
+-   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
+    (\#158, etc.)
+-   Improves printing in the README table. (\#145)
+-   Renames data directory `data`. (\#147)
+-   Logged dialect configuration if specified. (\#133)
+-   Handled additional language codes. (\#132, \#148)
 -   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
--   Logs dialect configuration if specified (\#133).
+-   Added typing to big scrape code. (\#140)
+-   Added argparse to allow limiting 'big scrape' to individual languages
+    with `--restriction` flag. (\#154)
+-   Split `may` into Latin and Arabic files. (\#164)
+-   Split `pan` into Gurmukhi and Shahmukhī. (\#169)
+-   Split `uig` into Perso-Arabic and Cyrillic. (\#173)
+-   Alowing ASCII apostrophes (0x27) in spellings. (\#172).
+-   Only allowing Latin spellings in Maltese lexicon. (\#166).
+-   Split `mon` into Cyrillic and Mongol Bichig (\#179).
 
 ### Deprecated
 ### Removed
