@@ -215,6 +215,9 @@
 | [TSV](tsv/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 1,674 |
 | [TSV](tsv/urd_phonemic.tsv) | urd | Urdu | Urdu | False | Phonemic | 704 |
 | [TSV](tsv/uig_ara_phonemic.tsv) | uig | Uighur | Uyghur (Arabic) | True | Phonemic | 262 |
+| [TSV](tsv/vie_hue_phonetic.tsv) | vie | Vietnamese | Vietnamese (Huế) | True | Phonetic | 14,598 |
+| [TSV](tsv/vie_hanoi_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hà Nội) | True | Phonetic | 14,599 |
+| [TSV](tsv/vie_hcmc_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | True | Phonetic | 14,597 |
 | [TSV](tsv/vie_phonetic.tsv) | vie | Vietnamese | Vietnamese | True | Phonetic | 11,000 |
 | [TSV](tsv/vol_phonemic.tsv) | vol | Volapük | Volapük | True | Phonemic | 349 |
 | [TSV](tsv/vol_phonetic.tsv) | vol | Volapük | Volapük | True | Phonetic | 563 |
