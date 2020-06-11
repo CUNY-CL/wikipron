@@ -23,15 +23,17 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
 _DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
     '  (span[@class = "ib-content qualifier-content" and {dialects_text}]\n'
-    '   or i/a[{dialects_text}])'
+    "   or i/a[{dialects_text}])"
 )
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, WordPronPair
+    from wikipron.typing import Iterator, Word, Pron, WordPronPair
 
 
-def extract_pron(request, selector, config):
+def extract_pron(
+    request: requests.Response, selector: str, config: "Config"
+) -> "Iterator[Pron]":
     for pron_element in request.html.xpath(selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
