@@ -603,13 +603,7 @@
         "casefold": true,
         "script": {
             "latn": "Latin"
-	}
-    },
-    "mnc": {
-        "iso639_name": "Manchu",
-        "wiktionary_name": "Manchu",
-        "wiktionary_code": "mnc",
-        "casefold": false
+	    }
     },
     "mnc": {
         "iso639_name": "Manchu",
