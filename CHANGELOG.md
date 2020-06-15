@@ -29,6 +29,7 @@ Unreleased
 -   Alowing ASCII apostrophes (0x27) in spellings. (\#172).
 -   Only allowing Latin spellings in Maltese lexicon. (\#166).
 -   Split `mon` into Cyrillic and Mongol Bichig (\#179).
+-   Added Vietnamese extraction function. (\#181)
 
 ### Deprecated
 ### Removed

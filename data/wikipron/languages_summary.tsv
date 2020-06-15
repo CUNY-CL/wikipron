@@ -213,6 +213,9 @@ ukr_phonemic.tsv	ukr	Ukrainian	Ukrainian	True	Phonemic	198
 ukr_phonetic.tsv	ukr	Ukrainian	Ukrainian	True	Phonetic	1674
 urd_phonemic.tsv	urd	Urdu	Urdu	False	Phonemic	704
 uig_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	262
+vie_hue_phonetic.tsv	vie	Vietnamese	Vietnamese (Huế)	True	Phonetic	14598
+vie_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese (Hà Nội)	True	Phonetic	14599
+vie_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	True	Phonetic	14597
 vie_phonetic.tsv	vie	Vietnamese	Vietnamese	True	Phonetic	11000
 vol_phonemic.tsv	vol	Volapük	Volapük	True	Phonemic	349
 vol_phonetic.tsv	vol	Volapük	Volapük	True	Phonetic	563
