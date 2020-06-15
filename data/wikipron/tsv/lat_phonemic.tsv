@@ -3866,7 +3866,6 @@ amārus	a m aː r u s
 amārus	a m a r u s
 amarynthus	a m a r y n tʰ u s
 amarynthus	a m a r i n t u s
-amās	a m a s
 amasēnus	a m a s eː n u s
 amasēnus	a m a s e n u s
 amāsī	a m aː s iː
@@ -6867,6 +6866,10 @@ attendō	a t t e n d oː
 attendō	a t t e n d o
 attēnē	a t t eː n eː
 attēnē	a t t e n e
+attentā	a t t e n t aː
+attentā	a t t e n t a
+attentī	a t t e n t iː
+attentī	a t t e n t i
 attentō	a t t e n t oː
 attentō	a t t e n t o
 attentus	a t t e n t u s
@@ -7791,8 +7794,6 @@ barbarizō	b a r b a r i z z oː
 barbarizō	b a r b a r i d d͡z o
 barbarus	b a r b a r u s
 barbarus	b a r b a r u s
-barbās	b a ɾ β ɐ ʃ
-barbās	b a ɾ β ɐ ʃ
 barbatia	b a r b a t i a
 barbatia	b a r b a t͡s i a
 barbātius	b a r b aː t i u s
@@ -18377,8 +18378,6 @@ dēmandō	d eː m a n d oː
 dēmandō	d e m a n d o
 dēmānō	d eː m aː n oː
 dēmānō	d e m a n o
-dēme	d e m e
-dēme	d e m e
 dēmēns	d eː m e n s
 dēmēns	d e m e n s
 dēmentā	d eː m e n t aː
@@ -19388,7 +19387,6 @@ digitigradus	d i ɡ i t i ɡ r a d u s
 digitigradus	d i d͡ʒ i t i ɡ r a d u s
 digitius	d i ɡ i t i u s
 digitius	d i d͡ʒ i t͡s i u s
-digitō	d i x i t o
 digitōrum	d i ɡ i t oː r u m
 digitōrum	d i d͡ʒ i t o r u m
 digitulus	d i ɡ i t u l u s
@@ -26559,6 +26557,8 @@ glūtamicus	ɡ l uː t a m i k u s
 glūtamicus	ɡ l u t a m i k u s
 glūten	ɡ l uː t e n
 glūten	ɡ l u t e n
+glutī	ɡ l u t iː
+glutī	ɡ l u t i
 glūtinārius	ɡ l uː t i n aː r i u s
 glūtinārius	ɡ l u t i n a r i u s
 glūtinō	ɡ l uː t i n oː
@@ -26709,7 +26709,6 @@ graminicolus	ɡ r a m i n i k o l u s
 graminicolus	ɡ r a m i n i k o l u s
 gramma	ɡ r a m m a
 gramma	ɡ r a m m a
-grammatica	ɡ ɾ a m m a t i k a
 grammaticālis	ɡ r a m m a t i k aː l i s
 grammaticālis	ɡ r a m m a t i k a l i s
 grammaticus	ɡ r a m m a t i k u s
@@ -31720,7 +31719,6 @@ inquilīnātūs	i n kʷ i l iː n aː t uː s
 inquilīnātūs	i n k w i l i n a t u s
 inquilīne	i n kʷ i l iː n e
 inquilīne	i n k w i l i n e
-inquilīnō	i n k i l i n o
 inquilīnus	i n kʷ i l iː n u s
 inquilīnus	i n k w i l i n u s
 inquināns	i n kʷ i n a n s
@@ -41680,7 +41678,6 @@ mūtulus	m uː t u l u s
 mūtulus	m u t u l u s
 mutūniātus	m u t uː n i aː t u s
 mutūniātus	m u t u n i a t u s
-mūtuō	m u t w o
 mūtuor	m uː t u o r
 mūtuor	m u t u o r
 mūtus	m uː t u s
@@ -42205,7 +42202,6 @@ nazianzus	n a z z i a n z u s
 nazianzus	n a d d͡z i a n d͡z u s
 nāzīraeus	n aː z z iː r a e̯ u s
 nāzīraeus	n a d d͡z i r e u s
-nē	n ɛ
 neaethus	n e a e̯ tʰ u s
 neaethus	n e e t u s
 nealcēs	n e a l k eː s
@@ -42554,11 +42550,19 @@ neuter	n e u t e r
 neuter	n e u t e r
 neutiquam	n e u t i kʷ a m
 neutiquam	n e u t i k w a m
+neutra	n e u̯ t r a
+neutra	n e u̯ t r a
 neutrālis	n e u̯ t r a l i s
+neutrī	n e u̯ t r iː
+neutrī	n e u̯ t r i
 neutrō	n e u̯ t r oː
 neutrō	n e u̯ t r o
 neutron	n e u̯ t r o n
 neutron	n e u̯ t r o n
+neutrōs	n e u̯ t r oː s
+neutrōs	n e u̯ t r o s
+neutrum	n e u̯ t r u m
+neutrum	n e u̯ t r u m
 nevādēnsis	n e w aː d e n s i s
 nevādēnsis	n e v a d e n s i s
 nēve	n eː w e
@@ -48457,7 +48461,6 @@ persolvō	p e r s o l w oː
 persolvō	p e r s o l v o
 persōna	p e r s oː n a
 persōna	p e r s o n a
-personā	p ɛ r s ɔ n a
 persōnālis	p e r s oː n aː l i s
 persōnālis	p e r s o n a l i s
 personātus	p e r s o n aː t u s
@@ -49778,7 +49781,6 @@ polimartium	p o l i m a r t i u m
 polimartium	p o l i m a r t͡s i u m
 polīmenta	p o l iː m e n t a
 polīmenta	p o l i m e n t a
-poliō	p o l j o
 poliocephalus	p o l i o k e pʰ a l u s
 poliocephalus	p o l i o t͡ʃ e f a l u s
 polion	p o l i o n
@@ -55585,6 +55587,8 @@ salūtātōrius	s a l uː t aː t oː r i u s
 salūtātōrius	s a l u t a t o r i u s
 salūtātrīx	s a l uː t aː t r iː k s
 salūtātrīx	s a l u t a t r i k s
+salūtī	s a l uː t iː
+salūtī	s a l u t i
 salūtifer	s a l uː t i f e r
 salūtifer	s a l u t i f e r
 salūtificātor	s a l uː t i f i k aː t o r
@@ -57979,8 +57983,6 @@ sindunī	s i n d u n iː
 sindunī	s i n d u n i
 sindus	s i n d u s
 sindus	s i n d u s
-sine	s i n ɛ
-sine	s i n ɐ
 sinēnsis	s i n e n s i s
 sinēnsis	s i n e n s i s
 sinēnsis	s i n e n s i s
@@ -59288,8 +59290,6 @@ stratēgēmaticus	s t r a t eː ɡ eː m a t i k u s
 stratēgēmaticus	s t r a t e d͡ʒ e m a t i k u s
 stratia	s t r a t i a
 stratia	s t r a t͡s i a
-strātō	s t r a t ɔ
-strātō	s t r a t ɔ
 stratoclēa	s t a r t o k l eː a
 stratoclēa	s t a r t o k l e a
 stratonīcēa	s t r a t o n iː k eː a
@@ -61712,18 +61712,62 @@ tēnsiō	t e n s i oː
 tēnsiō	t e n s i o
 tēnsūra	t e n s uː r a
 tēnsūra	t e n s u r a
+tentā	t e n t aː
+tentā	t e n t a
 tentābundus	t e n t aː b u n d u s
 tentābundus	t e n t a b u n d u s
+tentam	t e n t a m
+tentam	t e n t a m
 tentāmen	t e n t aː m e n
 tentāmen	t e n t a m e n
 tentandō	t e n t a n d oː
 tentandō	t e n t a n d o
+tentante	t e n t a n t e
+tentante	t e n t a n t e
+tentantī	t e n t a n t iː
+tentantī	t e n t a n t i
+tentantō	t e n t a n t oː
+tentantō	t e n t a n t o
+tentārās	t e n t aː r aː s
+tentārās	t e n t a r a s
+tentārem	t e n t aː r e m
+tentārem	t e n t a r e m
+tentārēs	t e n t aː r eː s
+tentārēs	t e n t a r e s
+tentās	t e n t aː s
+tentās	t e n t a s
+tentāsse	t e n t aː s s e
+tentāsse	t e n t a s s e
+tentāssem	t e n t aː s s e m
+tentāssem	t e n t a s s e m
+tentāssēs	t e n t aː s s eː s
+tentāssēs	t e n t a s s e s
+tentāta	t e n t aː t a
+tentāta	t e n t a t a
+tentāta	t e n t aː t aː
+tentāta	t e n t a t a
+tentāte	t e n t aː t e
+tentāte	t e n t a t e
+tentātī	t e n t aː t iː
+tentātī	t e n t a t i
+tentātō	t e n t aː t oː
+tentātō	t e n t a t o
+tentem	t e n t e m
+tentem	t e n t e m
+tentēs	t e n t eː s
+tentēs	t e n t e s
 tentīgō	t e n t iː ɡ oː
 tentīgō	t e n t i ɡ o
 tentipellium	t e n t i p e l l i u m
 tentipellium	t e n t i p e l l i u m
+tentīs	t e n t iː s
+tentīs	t e n t i s
 tentō	t e n t oː
 tentō	t e n t o
+tentor	t e n t o r
+tentor	t e n t o r
+tentōs	t e n t oː s
+tentōs	t e n t o s
 tentyra	t e n t y r a
 tentyra	t e n t i r a
 tenue	t e n u e
@@ -64869,8 +64913,6 @@ vaesānus	w a e̯ s aː n u s
 vaesānus	v e s a n u s
 vafer	w a f e r
 vafer	v a f e r
-vagā	v a ɣ ɐ
-vaga	v a ɣ ɐ
 vagābundus	w a ɡ aː b u n d u s
 vagābundus	v a ɡ a b u n d u s
 vagam	w a ɡ a m
@@ -66797,6 +66839,22 @@ volūtō	w o l uː t oː
 volūtō	v o l u t o
 volux	w o l u k s
 volux	v o l u k s
+volvam	w o l w a m
+volvam	v o l v a m
+volvās	w o l w aː s
+volvās	v o l v a s
+volve	w o l w e
+volve	v o l v e
+volvendō	w o l w e n d oː
+volvendō	v o l v e n d o
+volveram	w o l w e r a m
+volveram	v o l v e r a m
+volverās	w o l w e r aː s
+volverās	v o l v e r a s
+volverem	w o l w e r e m
+volverem	v o l v e r e m
+volverēs	w o l w e r eː s
+volverēs	v o l v e r e s
 volverimus	w o l w e r i m u s
 volverimus	v o l v e r i m u s
 volverimus	w o l w e r iː m u s
@@ -66811,6 +66869,10 @@ volveritis	w o l w e r i t i s
 volveritis	v o l v e r i t i s
 volveritis	w o l w e r iː t i s
 volveritis	v o l v e r i t i s
+volvēs	w o l w eː s
+volvēs	v o l v e s
+volvī	w o l w iː
+volvī	v o l v i
 volvō	w o l w oː
 volvō	v o l v o
 volvulus	v o l v u l u s

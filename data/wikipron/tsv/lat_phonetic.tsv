@@ -6455,6 +6455,10 @@ attendō	a t̪ t̪ ɛ n̪ d̪ oː
 attendō	a t̪ t̪ ɛ n̪ d̪ ɔ
 attēnē	a t̪ t̪ eː n eː
 attēnē	a t̪ t̪ ɛː n ɛ
+attentā	a t̪ t̪ ɛ n̪ t̪ aː
+attentā	a t̪ t̪ ɛ n̪ t̪ a
+attentī	a t̪ t̪ ɛ n̪ t̪ iː
+attentī	a t̪ t̪ ɛ n̪ t̪ i
 attentō	a t̪ t̪ ɛ n̪ t̪ oː
 attentō	a t̪ t̪ ɛ n̪ t̪ ɔ
 attentus	a t̪ t̪ ɛ n̪ t̪ ʊ s
@@ -6703,7 +6707,6 @@ aurātus	a u̯ r aː t̪ ʊ s
 aurātus	a u̯ r aː t̪ u s
 aurātus	a o̯ r a d o s
 aurea	a u̯ r ɛ a
-aurea	a u r e̯ a
 aureātus	a u̯ r e aː t̪ ʊ s
 aureātus	a u̯ r ɛ aː t̪ u s
 aurēlia	a u̯ r eː lʲ i a
@@ -18354,7 +18357,6 @@ digitigradus	d̪ ɪ ɡ ɪ t̪ ɪ ɡ r a d̪ ʊ s
 digitigradus	d̪ i d͡ʒ i t̪ iː ɡ r a d̪ u s
 digitius	d̪ ɪ ɡ ɪ t̪ i ʊ s
 digitius	d̪ i d͡ʒ iː t͡s i u s
-digitō	d̪ i x i t̪ o
 digitōrum	d̪ ɪ ɡ ɪ t̪ oː r ʊ̃ˑ
 digitōrum	d̪ i d͡ʒ i t̪ ɔː r u m
 digitulus	d̪ ɪ ɡ ɪ t̪ ʊ ɫ̪ ʊ s
@@ -25278,6 +25280,8 @@ glūtamicus	ɡ ɫ̪ uː t̪ a m ɪ k ʊ s
 glūtamicus	ɡ l u t̪ aː m i k u s
 glūten	ɡ ɫ̪ uː t̪ ɛ n
 glūten	ɡ l uː t̪ ɛ n
+glutī	ɡ ɫ̪ ʊ t̪ iː
+glutī	ɡ l uː t̪ i
 glūtinārius	ɡ ɫ̪ uː t̪ ɪ n aː r i ʊ s
 glūtinārius	ɡ l u t̪ i n aː r i u s
 glūtinō	ɡ ɫ̪ uː t̪ ɪ n oː
@@ -25419,7 +25423,6 @@ grāmineus	ɡ r aː m ɪ n e ʊ s
 grāmineus	ɡ r a m iː n ɛ u s
 graminicolus	ɡ r a m ɪ n ɪ k ɔ ɫ̪ ʊ s
 graminicolus	ɡ r a m i n iː k ɔ l u s
-grammatica	ɡ ɾ ã m m a t̪ i k a
 grammaticālis	ɡ r a m m a t̪ ɪ k aː lʲ ɪ s
 grammaticālis	ɡ r a m m a t̪ i k aː l i s
 grammaticus	ɡ r a m m a t̪ ɪ k ʊ s
@@ -27251,7 +27254,6 @@ hystaspēs	h ʏ s t̪ a s p eː s
 hystaspēs	i s t̪ a s p ɛ s
 hystrix	h ʏ s t̪ r ɪ k s
 hystrix	i s t̪ r i k s
-ī	i
 iacea	j aː t͡ʃ ɛ a
 iaceō	j aː t͡ʃ ɛ ɔ
 iacere	j a k ɛ r ɛ
@@ -30250,7 +30252,6 @@ inquilīnātūs	ɪ ŋ kᶣ ɪ lʲ iː n aː t̪ uː s
 inquilīnātūs	i ŋ k w i l i n aː t̪ u s
 inquilīne	ɪ ŋ kᶣ ɪ lʲ iː n ɛ
 inquilīne	i ŋ k w i l iː n ɛ
-inquilīnō	ĩ ŋ k i l i n o
 inquilīnus	ɪ ŋ kᶣ ɪ lʲ iː n ʊ s
 inquilīnus	i ŋ k w i l iː n u s
 inquināns	ɪ ŋ kᶣ ɪ n ãː s
@@ -39766,7 +39767,6 @@ mūtulus	m uː t̪ ʊ ɫ̪ ʊ s
 mūtulus	m uː t̪ u l u s
 mutūniātus	m ʊ t̪ uː n i aː t̪ ʊ s
 mutūniātus	m u t̪ u n i aː t̪ u s
-mūtuō	m u t̪ w o
 mūtuor	m uː t̪ ʊ ɔ r
 mūtuor	m uː t̪ u ɔ r
 mūtus	m uː t̪ ʊ s
@@ -40572,11 +40572,19 @@ neuter	n e ʊ t̪ ɛ r
 neuter	n ɛː u t̪ ɛ r
 neutiquam	n e ʊ t̪ ɪ kʷ ãˑ
 neutiquam	n ɛ uː t̪ i k w a m
+neutra	n e u̯ t̪ r a
+neutra	n ɛ u̯ t̪ r a
 neutrālis	n ɛ u̯ t̪ r aː l i s
+neutrī	n e u̯ t̪ r iː
+neutrī	n ɛ u̯ t̪ r i
 neutrō	n e u̯ t̪ r oː
 neutrō	n ɛ u̯ t̪ r ɔ
 neutron	n e u̯ t̪ r ɔ n
 neutron	n ɛ u̯ t̪ r ɔ n
+neutrōs	n e u̯ t̪ r oː s
+neutrōs	n ɛ u̯ t̪ r ɔ s
+neutrum	n e u̯ t̪ r ʊ̃ˑ
+neutrum	n ɛ u̯ t̪ r u m
 nevādēnsis	n ɛ w aː d̪ ẽː s ɪ s
 nevādēnsis	n ɛ v a d̪ ɛ n s i s
 nēve	n eː w ɛ
@@ -52856,12 +52864,6 @@ saevus	s ɛː v u s
 safinius	s a f ɪ n i ʊ s
 safinius	s a f iː n i u s
 sāga	s aː ɡ a
-sāga	s̪ ɐ ɡ ɐ
-sāga	s̪ ä̌ː ɡ ɐ
-saga	s̪ ɐ ɡ ɐ
-saga	s̪ ä̌ː ɡ ɐ
-saga	s̪ ɐ ɡ ɐ
-saga	s̪ ä̌ː ɡ ɐ
 sagāciter	s a ɡ aː k ɪ t̪ ɛ r
 sagāciter	s a ɡ aː t͡ʃ i t̪ ɛ r
 sagapēnum	s a ɡ a p eː n ʊ̃ˑ
@@ -53091,6 +53093,8 @@ salūtātōrius	s a ɫ̪ uː t̪ aː t̪ oː r i ʊ s
 salūtātōrius	s a l u t̪ a t̪ ɔː r i u s
 salūtātrīx	s a ɫ̪ uː t̪ aː t̪ r iː k s
 salūtātrīx	s a l u t̪ aː t̪ r i k s
+salūtī	s a ɫ̪ uː t̪ iː
+salūtī	s a l uː t̪ i
 salūtifer	s a ɫ̪ uː t̪ ɪ f ɛ r
 salūtifer	s a l uː t̪ i f ɛ r
 salūtificātor	s a ɫ̪ uː t̪ ɪ f ɪ k aː t̪ ɔ r
@@ -58948,18 +58952,62 @@ tēnsiō	t̪ ẽː s i oː
 tēnsiō	t̪ ɛ n s i ɔ
 tēnsūra	t̪ ẽː s uː r a
 tēnsūra	t̪ ɛ n s uː r a
+tentā	t̪ ɛ n̪ t̪ aː
+tentā	t̪ ɛ n̪ t̪ a
 tentābundus	t̪ ɛ n̪ t̪ aː b ʊ n̪ d̪ ʊ s
 tentābundus	t̪ ɛ n̪ t̪ a b u n̪ d̪ u s
+tentam	t̪ ɛ n̪ t̪ ãˑ
+tentam	t̪ ɛ n̪ t̪ a m
 tentāmen	t̪ ɛ n̪ t̪ aː m ɛ n
 tentāmen	t̪ ɛ n̪ t̪ aː m ɛ n
 tentandō	t̪ ɛ n̪ t̪ a n̪ d̪ oː
 tentandō	t̪ ɛ n̪ t̪ a n̪ d̪ ɔ
+tentante	t̪ ɛ n̪ t̪ a n̪ t̪ ɛ
+tentante	t̪ ɛ n̪ t̪ a n̪ t̪ ɛ
+tentantī	t̪ ɛ n̪ t̪ a n̪ t̪ iː
+tentantī	t̪ ɛ n̪ t̪ a n̪ t̪ i
+tentantō	t̪ ɛ n̪ t̪ a n̪ t̪ oː
+tentantō	t̪ ɛ n̪ t̪ a n̪ t̪ ɔ
+tentārās	t̪ ɛ n̪ t̪ aː r aː s
+tentārās	t̪ ɛ n̪ t̪ aː r a s
+tentārem	t̪ ɛ n̪ t̪ aː r ɛ̃ˑ
+tentārem	t̪ ɛ n̪ t̪ aː r ɛ m
+tentārēs	t̪ ɛ n̪ t̪ aː r eː s
+tentārēs	t̪ ɛ n̪ t̪ aː r ɛ s
+tentās	t̪ ɛ n̪ t̪ aː s
+tentās	t̪ ɛ n̪ t̪ a s
+tentāsse	t̪ ɛ n̪ t̪ aː s s ɛ
+tentāsse	t̪ ɛ n̪ t̪ a s s ɛ
+tentāssem	t̪ ɛ n̪ t̪ aː s s ɛ̃ˑ
+tentāssem	t̪ ɛ n̪ t̪ a s s ɛ m
+tentāssēs	t̪ ɛ n̪ t̪ aː s s eː s
+tentāssēs	t̪ ɛ n̪ t̪ a s s ɛ s
+tentāta	t̪ ɛ n̪ t̪ aː t̪ a
+tentāta	t̪ ɛ n̪ t̪ aː t̪ a
+tentāta	t̪ ɛ n̪ t̪ aː t̪ aː
+tentāta	t̪ ɛ n̪ t̪ aː t̪ a
+tentāte	t̪ ɛ n̪ t̪ aː t̪ ɛ
+tentāte	t̪ ɛ n̪ t̪ aː t̪ ɛ
+tentātī	t̪ ɛ n̪ t̪ aː t̪ iː
+tentātī	t̪ ɛ n̪ t̪ aː t̪ i
+tentātō	t̪ ɛ n̪ t̪ aː t̪ oː
+tentātō	t̪ ɛ n̪ t̪ aː t̪ ɔ
+tentem	t̪ ɛ n̪ t̪ ɛ̃ˑ
+tentem	t̪ ɛ n̪ t̪ ɛ m
+tentēs	t̪ ɛ n̪ t̪ eː s
+tentēs	t̪ ɛ n̪ t̪ ɛ s
 tentīgō	t̪ ɛ n̪ t̪ iː ɡ oː
 tentīgō	t̪ ɛ n̪ t̪ iː ɡ ɔ
 tentipellium	t̪ ɛ n̪ t̪ ɪ p ɛ l lʲ i ʊ̃ˑ
 tentipellium	t̪ ɛ n̪ t̪ i p ɛ l l i u m
+tentīs	t̪ ɛ n̪ t̪ iː s
+tentīs	t̪ ɛ n̪ t̪ i s
 tentō	t̪ ɛ n̪ t̪ oː
 tentō	t̪ ɛ n̪ t̪ ɔ
+tentor	t̪ ɛ n̪ t̪ ɔ r
+tentor	t̪ ɛ n̪ t̪ ɔ r
+tentōs	t̪ ɛ n̪ t̪ oː s
+tentōs	t̪ ɛ n̪ t̪ ɔ s
 tentyra	t̪ ɛ n̪ t̪ ʏ r a
 tentyra	t̪ ɛ n̪ t̪ i r a
 tenue	t̪ ɛ n ʊ ɛ
@@ -62251,7 +62299,6 @@ varius	w a r i ʊ s
 varius	v aː r i u s
 varix	w a r ɪ k s
 varix	v aː r i k s
-vārō	v ǎː r oː
 vārōnēs	v a r ɔː n ɛ s
 vārōnis	w aː r oː n ɪ s
 vārōnis	v a r ɔː n i s
@@ -63881,6 +63928,22 @@ volūtō	w ɔ ɫ̪ uː t̪ oː
 volūtō	v ɔ l uː t̪ ɔ
 volux	w ɔ ɫ̪ ʊ k s
 volux	v ɔː l u k s
+volvam	w ɔ ɫ̪ w ãˑ
+volvam	v ɔ l v a m
+volvās	w ɔ ɫ̪ w aː s
+volvās	v ɔ l v a s
+volve	w ɔ ɫ̪ w ɛ
+volve	v ɔ l v ɛ
+volvendō	w ɔ ɫ̪ w ɛ n̪ d̪ oː
+volvendō	v ɔ l v ɛ n̪ d̪ ɔ
+volveram	w ɔ ɫ̪ w ɛ r ãˑ
+volveram	v ɔ l v ɛ r a m
+volverās	w ɔ ɫ̪ w ɛ r aː s
+volverās	v ɔ l v ɛ r a s
+volverem	w ɔ ɫ̪ w ɛ r ɛ̃ˑ
+volverem	v ɔ l v ɛ r ɛ m
+volverēs	w ɔ ɫ̪ w ɛ r eː s
+volverēs	v ɔ l v ɛ r ɛ s
 volverimus	w ɔ ɫ̪ w ɛ r ɪ m ʊ s
 volverimus	v ɔ l v ɛː r i m u s
 volverimus	w ɔ ɫ̪ w ɛ r iː m ʊ s
@@ -63895,6 +63958,10 @@ volveritis	w ɔ ɫ̪ w ɛ r ɪ t̪ ɪ s
 volveritis	v ɔ l v ɛː r i t̪ i s
 volveritis	w ɔ ɫ̪ w ɛ r iː t̪ ɪ s
 volveritis	v ɔ l v ɛ r iː t̪ i s
+volvēs	w ɔ ɫ̪ w eː s
+volvēs	v ɔ l v ɛ s
+volvī	w ɔ ɫ̪ w iː
+volvī	v ɔ l v i
 volvō	w ɔ ɫ̪ w oː
 volvō	v ɔ l v ɔ
 volvulus	v ɔ l v u l u s
