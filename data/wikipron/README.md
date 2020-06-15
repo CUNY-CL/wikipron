@@ -102,8 +102,8 @@
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12,822 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,153 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 301 |
-| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 34,181 |
-| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 33,782 |
+| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 59,326 |
+| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 62,385 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,272 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 153 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
