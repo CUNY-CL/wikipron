@@ -100,8 +100,8 @@ kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1095
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	12822
 kur_phonemic.tsv	kur	Kurdish	Kurdish	True	Phonemic	1153
 lao_phonemic.tsv	lao	Lao	Lao	False	Phonemic	301
-lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	34181
-lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	33782
+lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	59341
+lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	62384
 lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1272
 ayl_phonemic.tsv	ayl	Libyan Arabic	Libyan Arabic	False	Phonemic	153
 lij_phonemic.tsv	lij	Ligurian	Ligurian	True	Phonemic	753
@@ -216,7 +216,6 @@ uig_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	262
 vie_hue_phonetic.tsv	vie	Vietnamese	Vietnamese (Huế)	True	Phonetic	14598
 vie_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese (Hà Nội)	True	Phonetic	14599
 vie_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	True	Phonetic	14597
-vie_phonetic.tsv	vie	Vietnamese	Vietnamese	True	Phonetic	11000
 vol_phonemic.tsv	vol	Volapük	Volapük	True	Phonemic	349
 vol_phonetic.tsv	vol	Volapük	Volapük	True	Phonetic	563
 wau_phonemic.tsv	wau	Waurá	Wauja	True	Phonemic	146

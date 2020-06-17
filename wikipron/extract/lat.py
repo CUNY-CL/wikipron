@@ -66,7 +66,8 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 
 _PRON_XPATH_TEMPLATE = """
 //{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
-  /following-sibling::ul[1]
+  /following-sibling::ul
+    [1][descendant::a[@title = "Appendix:Latin pronunciation"]]
 """
 
 _WORD_XPATH_TEMPLATE = """

@@ -102,8 +102,8 @@
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12,822 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,153 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 301 |
-| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 34,181 |
-| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 33,782 |
+| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 59,341 |
+| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 62,384 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,272 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 153 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
@@ -218,7 +218,6 @@
 | [TSV](tsv/vie_hue_phonetic.tsv) | vie | Vietnamese | Vietnamese (Huế) | True | Phonetic | 14,598 |
 | [TSV](tsv/vie_hanoi_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hà Nội) | True | Phonetic | 14,599 |
 | [TSV](tsv/vie_hcmc_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | True | Phonetic | 14,597 |
-| [TSV](tsv/vie_phonetic.tsv) | vie | Vietnamese | Vietnamese | True | Phonetic | 11,000 |
 | [TSV](tsv/vol_phonemic.tsv) | vol | Volapük | Volapük | True | Phonemic | 349 |
 | [TSV](tsv/vol_phonetic.tsv) | vol | Volapük | Volapük | True | Phonetic | 563 |
 | [TSV](tsv/wau_phonemic.tsv) | wau | Waurá | Wauja | True | Phonemic | 146 |
