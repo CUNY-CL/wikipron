@@ -53,7 +53,7 @@ def _call_scrape(
                 if whitelist_set:
                     with open(tsv_filtered_path, "w") as source_filtered:
                         for (word, pron) in scrape_results:
-                            line = f"{word}\t{pron}
+                            line = f"{word}\t{pron}"
                             if _filter(word, pron, whitelist_set):
                                 print(line, file=source_filtered)
                             print(line, file=source)
