@@ -32,9 +32,9 @@ Unreleased
 -   Added Vietnamese extraction function. (\#181).
 -   Modified pron selector in Latin extraction function. (\#183).
 -   Merged whitelist.py into 'big scrape' script. src scrape.py now checks for
-    existence of whitelist file during scrape to create second 'filtered' tsv.
-    New tsv stored in tsv folder under {"default tsv filename"}_filtered.tsv.
-    (\#154).
+    existence of whitelist file during scrape to create second filtered TSV.
+    New TSV is placed under tsv/\*\_filtered.tsv. (\#154).
+
 -   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
 ### Deprecated
 ### Removed

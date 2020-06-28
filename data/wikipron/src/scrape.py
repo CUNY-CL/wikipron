@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 """Performs the big scrape."""
 
 import argparse
@@ -43,7 +43,7 @@ def _call_scrape(
     config: wikipron.Config,
     tsv_path: str,
     whitelist_set: FrozenSet[str] = None,
-    tsv_path_filtered: str = "",
+    tsv_filtered_path: str = "",
 ) -> None:
     for unused_retries in range(10):
         with open(tsv_path, "w") as source:
@@ -51,11 +51,12 @@ def _call_scrape(
                 scrape_results = wikipron.scrape(config)
                 # Given whitelist, opens up a second tsv for scraping.
                 if whitelist_set:
-                    with open(tsv_path_filtered, "w") as source_filtered:
+                    with open(tsv_filtered_path, "w") as source_filtered:
                         for (word, pron) in scrape_results:
+                            line = f"{word}\t{pron}
                             if _filter(word, pron, whitelist_set):
-                                print(f"{word}\t{pron}", file=source_filtered)
-                            print(f"{word}\t{pron}", file=source)
+                                print(line, file=source_filtered)
+                            print(line, file=source)
                 else:
                     for (word, pron) in scrape_results:
                         print(f"{word}\t{pron}", file=source)
@@ -68,11 +69,11 @@ def _call_scrape(
                     'Exception detected while scraping: "%s", "%s", "%s".',
                     lang_settings["key"],
                     tsv_path,
-                    tsv_path_filtered,
+                    tsv_filtered_path,
                 )
                 # Pauses execution for 10 min.
                 time.sleep(600)
-    # Log and remove TSVs for languages that failed
+    # Log and remove TSVs for languages that failed.
     # to be scraped within 10 retries.
     logging.info(
         'Failed to scrape "%s" within 10 retries. %s',
@@ -80,8 +81,8 @@ def _call_scrape(
         lang_settings,
     )
     # Checks if second TSV was opened.
-    if os.path.exists(tsv_path_filtered):
-        os.remove(tsv_path_filtered)
+    if os.path.exists(tsv_filtered_path):
+        os.remove(tsv_filtered_path)
     os.remove(tsv_path)
 
 
@@ -93,10 +94,10 @@ def _build_scraping_config(
         f"../whitelist/{config_settings['key']}_{dialect_suffix}"
     )
 
-    # Configures phonemic TSV
+    # Configures phonemic TSV.
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
-    # Checks for phonemic whitelist file
+    # Checks for phonemic whitelist file.
     whitelist_phonemic = f"{whitelist_path_affix}phonemic.whitelist"
     if os.path.exists(whitelist_phonemic):
         logging.info(
@@ -116,10 +117,10 @@ def _build_scraping_config(
     else:
         _call_scrape(config_settings, phonemic_config, phonemic_path)
 
-    # Configures phonetic TSV
+    # Configures phonetic TSV.
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
-    # Checks for phonetic whitelist file
+    # Checks for phonetic whitelist file.
     whitelist_phonetic = f"{whitelist_path_affix}phonetic.whitelist"
     if os.path.exists(whitelist_phonetic):
         logging.info(
@@ -146,7 +147,7 @@ def main(args: argparse.Namespace) -> None:
 
     codes = list(languages.keys())
 
-    # Verifies language code for --restriction is valid
+    # Verifies language code for --restriction is valid.
     if args.restriction:
         # Cleans entry.
         keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
