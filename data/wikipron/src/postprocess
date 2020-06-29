@@ -12,7 +12,6 @@ split() {
 
 main() {
     time split
-    time whitelist
 }
 
 main

@@ -41,7 +41,7 @@ Steps used to update the dataset
     -   By default `cut_off_date` in `main()` is set using
         `datetime.date.today().isoformat()` but can be set manually using an ISO
         formatted string (ex. "2019-10-31").
-3.  Run [`postprocess`](postprocess).filtered
+3.  Run [`postprocess`](postprocess).
 4.  Run [`generate_summary.py`](generate_summary.py).
 
 Running a subset of languages using the big scrape
