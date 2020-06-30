@@ -83,7 +83,7 @@ def _call_scrape(
     # Checks if second TSV was opened.
     try: 
         os.remove(tsv_filtered_path)
-    except(OSError):
+    except OSError:
         pass
     os.remove(tsv_path)
 
