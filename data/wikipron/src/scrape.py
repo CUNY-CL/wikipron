@@ -66,7 +66,7 @@ def _call_scrape(
                 requests.exceptions.ConnectionError,
             ):
                 logging.info(
-                    'Exception detected while scraping: "%s", "%s", "%s".',
+                    'Exception detected while scraping: "%s", "%s", "%s."',
                     lang_settings["key"],
                     tsv_path,
                     tsv_filtered_path,
@@ -81,7 +81,7 @@ def _call_scrape(
         lang_settings,
     )
     # Checks if second TSV was opened.
-    try: 
+    try:
         os.remove(tsv_filtered_path)
     except OSError:
         pass
@@ -103,7 +103,7 @@ def _build_scraping_config(
     whitelist_phonemic = f"{whitelist_path_affix}phonemic.whitelist"
     if os.path.exists(whitelist_phonemic):
         logging.info(
-            "Phonemic whitelist found for '%s' at ''%s'",
+            "Phonemic whitelist found for '%s' at '%s'",
             config_settings["key"],
             whitelist_phonemic,
         )
