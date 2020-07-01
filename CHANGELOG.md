@@ -31,6 +31,7 @@ Unreleased
 -   Split `mon` into Cyrillic and Mongol Bichig (\#179).
 -   Added Vietnamese extraction function. (\#181)
 -   Modified pron selector in Latin extraction function. (\#183)
+-   Added Manchu (`mnc`). (\#185)
 
 ### Deprecated
 ### Removed
