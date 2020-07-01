@@ -122,6 +122,7 @@ may_ara_phonetic.tsv	may	Malay (macrolanguage)	Malay (Arabic)	True	Phonetic	216
 may_latn_phonemic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonemic	1887
 may_latn_phonetic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonetic	429
 mlt_latn_phonemic.tsv	mlt	Maltese	Maltese (Latin)	True	Phonemic	2545
+mnc_phonetic.tsv	mnc	Manchu	Manchu	False	Phonetic	881
 glv_phonemic.tsv	glv	Manx	Manx	True	Phonemic	196
 glv_phonetic.tsv	glv	Manx	Manx	True	Phonetic	122
 mah_phonemic.tsv	mah	Marshallese	Marshallese	True	Phonemic	813
