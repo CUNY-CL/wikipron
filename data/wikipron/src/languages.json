@@ -865,6 +865,12 @@
             "po": "Portugal"
         }
     },
+    "pox": {
+        "iso639_name": "Polabian",
+        "wiktionary_name": "Polabian",
+        "wiktionary_code": "pox",
+        "casefold": true
+    },
     "pan": {
         "iso639_name": "Panjabi",
         "wiktionary_name": "Punjabi",

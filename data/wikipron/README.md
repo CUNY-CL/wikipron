@@ -168,6 +168,7 @@
 | [TSV](tsv/pms_phonemic.tsv) | pms | Piemontese | Piedmontese | True | Phonemic | 281 |
 | [TSV](tsv/ppl_phonemic.tsv) | ppl | Pipil | Pipil | True | Phonemic | 262 |
 | [TSV](tsv/pjt_phonetic.tsv) | pjt | Pitjantjatjara | Pitjantjatjara | True | Phonetic | 125 |
+| [TSV](tsv/pox_phonemic.tsv) | pox | Polabian | Polabian | True | Phonemic | 126 |
 | [TSV](tsv/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 61,852 |
 | [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 10,077 |
 | [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 396 |

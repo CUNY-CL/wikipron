@@ -32,6 +32,7 @@ Unreleased
 -   Added Vietnamese extraction function. (\#181)
 -   Modified pron selector in Latin extraction function. (\#183)
 -   Added Manchu (`mnc`). (\#185)
+-   Added Polabian (`pox`). (\#186)
 
 ### Deprecated
 ### Removed
