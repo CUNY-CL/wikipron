@@ -165,6 +165,7 @@ per_phonetic.tsv	per	Persian	Persian	False	Phonetic	2320
 pms_phonemic.tsv	pms	Piemontese	Piedmontese	True	Phonemic	281
 ppl_phonemic.tsv	ppl	Pipil	Pipil	True	Phonemic	262
 pjt_phonetic.tsv	pjt	Pitjantjatjara	Pitjantjatjara	True	Phonetic	125
+pox_phonemic.tsv	pox	Polabian	Polabian	True	Phonemic	126
 pol_phonemic.tsv	pol	Polish	Polish	True	Phonemic	61852
 por_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic	10077
 por_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonetic	396
