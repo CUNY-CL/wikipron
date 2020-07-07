@@ -31,7 +31,7 @@ def main() -> None:
     with open("languages.json", "r") as lang_source:
         languages = json.load(lang_source)
     iso639_code = tsv_path[tsv_path.rindex("/") + 1:tsv_path.index("_")]
-    transcription_level = tsv_path[tsv_path.rindex("_") + 1:]
+    transcription_level = tsv_path[tsv_path.rindex("phone"):]
     if "script" in languages[iso639_code]:
         lang = languages[iso639_code]
         # Hacky way of filtering out the already split scripts.
