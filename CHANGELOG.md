@@ -34,6 +34,8 @@ Unreleased
 -   Merged whitelist.py into 'big scrape' script. src scrape.py now checks for
     existence of whitelist file during scrape to create second filtered TSV.
     New TSV is placed under tsv/\*\_filtered.tsv. (\#154).
+-   Added Manchu (`mnc`). (\#185)
+-   Added Polabian (`pox`). (\#186)
 
 -   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
 ### Deprecated

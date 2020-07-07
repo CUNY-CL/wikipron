@@ -333,4 +333,6 @@ LANGUAGE_CODES = {
     # Nivkh. Not in iso639 lib.
     "niv": "Nivkh",
     "nivkh": "Nivkh",
+    # Polabian. Note: The code is "sla" in ISO 639-2.
+    "pox": "Polabian",
 }

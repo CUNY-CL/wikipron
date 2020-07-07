@@ -122,6 +122,7 @@ may_ara_phonetic.tsv	may	Malay (macrolanguage)	Malay (Arabic)	True	Phonetic	216
 may_latn_phonemic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonemic	1887
 may_latn_phonetic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonetic	429
 mlt_latn_phonemic.tsv	mlt	Maltese	Maltese (Latin)	True	Phonemic	2545
+mnc_phonetic.tsv	mnc	Manchu	Manchu	False	Phonetic	881
 glv_phonemic.tsv	glv	Manx	Manx	True	Phonemic	196
 glv_phonetic.tsv	glv	Manx	Manx	True	Phonetic	122
 mah_phonemic.tsv	mah	Marshallese	Marshallese	True	Phonemic	813
@@ -165,6 +166,7 @@ per_phonetic.tsv	per	Persian	Persian	False	Phonetic	2320
 pms_phonemic.tsv	pms	Piemontese	Piedmontese	True	Phonemic	281
 ppl_phonemic.tsv	ppl	Pipil	Pipil	True	Phonemic	262
 pjt_phonetic.tsv	pjt	Pitjantjatjara	Pitjantjatjara	True	Phonetic	125
+pox_phonemic.tsv	pox	Polabian	Polabian	True	Phonemic	126
 pol_phonemic.tsv	pol	Polish	Polish	True	Phonemic	61852
 por_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic	10077
 por_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonetic	396

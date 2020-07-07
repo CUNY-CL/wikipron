@@ -124,6 +124,7 @@
 | [TSV](tsv/may_latn_phonemic.tsv) | may | Malay (macrolanguage) | Malay (Latin) | True | Phonemic | 1,887 |
 | [TSV](tsv/may_latn_phonetic.tsv) | may | Malay (macrolanguage) | Malay (Latin) | True | Phonetic | 429 |
 | [TSV](tsv/mlt_latn_phonemic.tsv) | mlt | Maltese | Maltese (Latin) | True | Phonemic | 2,545 |
+| [TSV](tsv/mnc_phonetic.tsv) | mnc | Manchu | Manchu | False | Phonetic | 881 |
 | [TSV](tsv/glv_phonemic.tsv) | glv | Manx | Manx | True | Phonemic | 196 |
 | [TSV](tsv/glv_phonetic.tsv) | glv | Manx | Manx | True | Phonetic | 122 |
 | [TSV](tsv/mah_phonemic.tsv) | mah | Marshallese | Marshallese | True | Phonemic | 813 |
@@ -167,6 +168,7 @@
 | [TSV](tsv/pms_phonemic.tsv) | pms | Piemontese | Piedmontese | True | Phonemic | 281 |
 | [TSV](tsv/ppl_phonemic.tsv) | ppl | Pipil | Pipil | True | Phonemic | 262 |
 | [TSV](tsv/pjt_phonetic.tsv) | pjt | Pitjantjatjara | Pitjantjatjara | True | Phonetic | 125 |
+| [TSV](tsv/pox_phonemic.tsv) | pox | Polabian | Polabian | True | Phonemic | 126 |
 | [TSV](tsv/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 61,852 |
 | [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 10,077 |
 | [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 396 |
