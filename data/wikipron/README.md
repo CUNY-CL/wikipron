@@ -9,7 +9,7 @@
 | [TSV](tsv/ale_phonemic.tsv) | ale | Aleut | Aleut | True | Phonemic | 104 |
 | [TSV](tsv/grc_phonemic.tsv) | grc | Ancient Greek (to 1453) | Ancient Greek | True | Phonemic | 73,879 |
 | [TSV](tsv/ara_phonemic.tsv) | ara | Arabic | Arabic | False | Phonemic | 5,102 |
-| [TSV](tsv/arc_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic | False | Phonemic | 1,161 |
+| [TSV](tsv/arc_hebr_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic (Hebrew) | False | Phonemic | 1,156 |
 | [TSV](tsv/arm_phonetic.tsv) | arm | Armenian | Armenian | True | Phonetic | 13,656 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,209 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 129 |
