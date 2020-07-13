@@ -86,7 +86,6 @@ def test_no_segment(no_segment, input_pron, expected_pron):
 )
 def test_no_tone(no_tone, input_pron, expected_pron):
     config = config_factory(no_tone=no_tone)
-    print("ANSWER", config.process_pron(input_pron))
     assert config.process_pron(input_pron) == expected_pron
 
 
