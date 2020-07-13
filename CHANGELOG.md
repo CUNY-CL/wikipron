@@ -36,6 +36,7 @@ Unreleased
     New TSV is placed under tsv/\*\_filtered.tsv. (\#154).
 -   Added Manchu (`mnc`). (\#185)
 -   Added Polabian (`pox`). (\#186)
+-   Added `--no-tone` flag. (\#188)
 
 -   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
 ### Deprecated
