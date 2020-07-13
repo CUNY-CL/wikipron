@@ -2,6 +2,7 @@ import datetime
 import functools
 import logging
 import re
+import unicodedata
 
 from typing import Callable, Optional
 
@@ -35,6 +36,11 @@ _DIALECT_XPATH_SELECTOR_TEMPLATE = (
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
 
+_TONES_REGEX = (
+    r"[\u02E5-\u02E9\u00b2-\u00b3\u00b9\u2074-\u2079"
+    r"\u030B\u030C\u030F\u0300-\u0302\u0304\u1DC4-\u1DC9\u207B-\u207E]"
+)
+
 
 class Config:
     """Configuration for a scraping run.
@@ -57,13 +63,14 @@ class Config:
         phonetic: bool = False,
         dialect: Optional[str] = None,
         no_segment: bool = False,
+        no_tone: bool = False,
         no_skip_spaces_word: bool = False,
         no_skip_spaces_pron: bool = False,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
         self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
-            no_stress, no_syllable_boundaries, no_segment
+            no_stress, no_syllable_boundaries, no_segment, no_tone
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
@@ -120,13 +127,20 @@ class Config:
         return str.casefold if casefold else lambda word: word  # noqa: E731
 
     def _get_process_pron(
-        self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
+        self,
+        no_stress: bool,
+        no_syllable_boundaries: bool,
+        no_segment: bool,
+        no_tone: bool,
     ) -> Callable[[Pron], Pron]:
         processors = []
         if no_stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
         if no_syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
+        if no_tone:
+            processors.append(functools.partial(unicodedata.normalize, "NFD"))
+            processors.append(functools.partial(re.sub, _TONES_REGEX, ""))
         if not no_segment:
             processors.append(
                 functools.partial(segments.Tokenizer(), ipa=True)
