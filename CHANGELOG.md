@@ -36,8 +36,9 @@ Unreleased
     New TSV is placed under tsv/\*\_filtered.tsv. (\#154).
 -   Added Manchu (`mnc`). (\#185)
 -   Added Polabian (`pox`). (\#186)
-
 -   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
+-   Imperical Aramaic (`arc`) split into three scripts properly. (\#187)
+
 ### Deprecated
 ### Removed
 ### Fixed
