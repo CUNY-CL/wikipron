@@ -4,6 +4,7 @@ import logging
 import re
 import typing
 import unicodedata
+
 import requests_html
 
 

@@ -1,8 +1,8 @@
 import re
+import unicodedata
 
 import requests
 import requests_html
-import unicodedata
 
 from wikipron.config import Config
 from wikipron.typing import Iterator, WordPronPair
