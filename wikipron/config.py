@@ -37,8 +37,7 @@ _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
 
 _TONES_REGEX = (
-    r"[\u02E5-\u02E9\u00b2-\u00b3\u00b9\u2074-\u2079"
-    r"\u030B\u030C\u030F\u0300-\u0302\u0304\u1DC4-\u1DC9\u207B-\u207E]"
+    r"[˥˦˧˨˩⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁽⁾\u030B\u030C\u030F\u0300-\u0302\u0304\u1DC4-\u1DC9]"
 )
 
 

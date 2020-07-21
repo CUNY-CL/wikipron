@@ -3,7 +3,7 @@
 import logging
 import re
 import typing
-
+import unicodedata
 import requests_html
 
 
@@ -35,7 +35,7 @@ def yield_pron(
         if _skip_pron(pron, config):
             continue
         try:
-            pron = config.process_pron(pron)
+            pron = config.process_pron(unicodedata.normalize("NFD", pron))
         except IndexError:
             logging.info(
                 "IndexError encountered processing %s during scrape of %s",

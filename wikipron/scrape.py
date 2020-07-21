@@ -2,6 +2,7 @@ import re
 
 import requests
 import requests_html
+import unicodedata
 
 from wikipron.config import Config
 from wikipron.typing import Iterator, WordPronPair
@@ -41,8 +42,9 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
         ):
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
+        word = unicodedata.normalize("NFD", word)
         for word, pron in config.extract_word_pron(word, request, config):
-            yield word, pron
+            yield word, unicodedata.normalize('NFC', pron)
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:
