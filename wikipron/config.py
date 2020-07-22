@@ -38,6 +38,7 @@ _PHONES_REGEX = r"\[(.+?)\]"
 
 _TONES_REGEX = r"[˥˦˧˨˩⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁽⁾◌̋ ◌̌ ◌̏ ◌̀ ◌́ ◌̂ ◌̄ ◌᷄◌᷅◌᷆◌᷇◌᷈◌᷉]"
 
+
 class Config:
     """Configuration for a scraping run.
 
