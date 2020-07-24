@@ -2,7 +2,6 @@ import datetime
 import functools
 import logging
 import re
-import unicodedata
 
 from typing import Callable, Optional
 
@@ -36,7 +35,7 @@ _DIALECT_XPATH_SELECTOR_TEMPLATE = (
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
 
-_TONES_REGEX = r"[˥˦˧˨˩⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁽⁾◌̋ ◌̌ ◌̏ ◌̀ ◌́ ◌̂ ◌̄ ◌᷄◌᷅◌᷆◌᷇◌᷈◌᷉]"
+_TONES_REGEX = r"[˥˦˧˨˩⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁽⁾◌̋ ◌̌ ◌̏ ◌̀ ◌́ ◌̂ ◌̄ ◌᷄◌᷅◌᷆◌᷇◌᷈◌᷉↑↓↗↘]"
 
 
 class Config:
@@ -136,7 +135,6 @@ class Config:
         if no_syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
         if no_tone:
-            processors.append(functools.partial(unicodedata.normalize, "NFD"))
             processors.append(functools.partial(re.sub, _TONES_REGEX, ""))
         if not no_segment:
             processors.append(

@@ -36,7 +36,9 @@ def yield_pron(
         if _skip_pron(pron, config):
             continue
         try:
-            pron = config.process_pron(unicodedata.normalize("NFD", pron))
+            # All pronunciation processing is done in NFD-space.
+            pron = unicodedata.normalize("NFD", pron)
+            pron = config.process_pron(pron)
         except IndexError:
             logging.info(
                 "IndexError encountered processing %s during scrape of %s",
