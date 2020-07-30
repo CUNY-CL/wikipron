@@ -82,11 +82,11 @@ def test_no_segment(no_segment, input_pron, expected_pron):
             "kra˨˩.duːk̚˨˩.ton˥˩.kʰaː˩˩˦",
             "k r a . d uː k̚ . t o n . kʰ aː",
         ),
+        (True, "aˈt͡ʃe.w⁽ᵝ⁾á", "a ˈt͡ʃ e . w ⁽ᵝ ⁾ a"),
     ],
 )
 def test_no_tone(no_tone, input_pron, expected_pron):
     config = config_factory(no_tone=no_tone)
-    print("ANSWER", config.process_pron(input_pron))
     assert config.process_pron(input_pron) == expected_pron
 
 
