@@ -7,7 +7,7 @@ gsw_phonemic.tsv	gsw	Swiss German	Alemannic German	True	Phonemic	300
 ale_phonemic.tsv	ale	Aleut	Aleut	True	Phonemic	104
 grc_phonemic.tsv	grc	Ancient Greek (to 1453)	Ancient Greek	True	Phonemic	73879
 ara_phonemic.tsv	ara	Arabic	Arabic	False	Phonemic	5102
-arc_phonemic.tsv	arc	Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)	Aramaic	False	Phonemic	1161
+arc_hebr_phonemic.tsv	arc	Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)	Aramaic (Hebrew)	False	Phonemic	1156
 arm_phonetic.tsv	arm	Armenian	Armenian	True	Phonetic	13656
 asm_phonemic.tsv	asm	Assamese	Assamese	False	Phonemic	2209
 ast_phonetic.tsv	ast	Asturian	Asturian	True	Phonetic	129

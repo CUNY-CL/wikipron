@@ -51,7 +51,12 @@
         "iso639_name": "Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)",
         "wiktionary_name": "Aramaic",
         "wiktionary_code": "arc",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "armi": "Imperial Aramaic",
+            "hebr": "Hebrew",
+            "syrc": "Syriac"
+        }
     },
     "arm": {
         "iso639_name": "Armenian",
@@ -603,7 +608,7 @@
         "casefold": true,
         "script": {
             "latn": "Latin"
-	    }
+            }
     },
     "mnc": {
         "iso639_name": "Manchu",
