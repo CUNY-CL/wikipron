@@ -3,6 +3,7 @@
 import logging
 import re
 import typing
+import unicodedata
 
 import requests_html
 
@@ -35,6 +36,8 @@ def yield_pron(
         if _skip_pron(pron, config):
             continue
         try:
+            # All pronunciation processing is done in NFD-space.
+            pron = unicodedata.normalize("NFD", pron)
             pron = config.process_pron(pron)
         except IndexError:
             logging.info(

@@ -38,6 +38,7 @@ Unreleased
 -   Added Polabian (`pox`). (\#186)
 -   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
 -   Imperical Aramaic (`arc`) split into three scripts properly. (\#187)
+-   Added `--no-tone` flag. (\#188)
 
 ### Deprecated
 ### Removed

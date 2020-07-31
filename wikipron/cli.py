@@ -84,6 +84,11 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         action="store_true",
         help="Skip spaces in the transcription",
     )
+    parser.add_argument(
+        "--no-tone",
+        action="store_true",
+        help="Remove tones in the transcription.",
+    )
     return parser.parse_args(args)
 
 

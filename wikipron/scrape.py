@@ -1,4 +1,5 @@
 import re
+import unicodedata
 
 import requests
 import requests_html
@@ -42,7 +43,9 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
             continue
         request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
         for word, pron in config.extract_word_pron(word, request, config):
-            yield word, pron
+            # Pronunciation processing is done in NFD-space;
+            # we convert back to NFC aftewards.
+            yield word, unicodedata.normalize("NFC", pron)
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:
