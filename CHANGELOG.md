@@ -39,7 +39,8 @@ Unreleased
 -   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
 -   Imperial Aramaic (`arc`) split into three scripts properly. (\#187)
 -   Updated Georgian (`geo`) to take advantage of upstream bot-based
-    consistency fixes (\#138).
+    consistency fixes. (\#138).
+-   Renames `generalized_split.py` to `split.py`. (\#192)
 
 ### Deprecated
 ### Removed
