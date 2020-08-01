@@ -61,7 +61,7 @@ fre_phonetic.tsv	fre	French	French	True	Phonetic	148
 glg_phonemic.tsv	glg	Galician	Galician	True	Phonemic	4794
 glg_phonetic.tsv	glg	Galician	Galician	True	Phonetic	127
 kld_phonemic.tsv	kld	Gamilaraay	Gamilaraay	True	Phonemic	444
-geo_phonemic.tsv	geo	Georgian	Georgian	False	Phonemic	14044
+geo_phonemic.tsv	geo	Georgian	Georgian	False	Phonemic	14174
 ger_phonemic.tsv	ger	German	German	True	Phonemic	30872
 ger_phonetic.tsv	ger	German	German	True	Phonetic	9885
 got_phonemic.tsv	got	Gothic	Gothic	True	Phonemic	665
