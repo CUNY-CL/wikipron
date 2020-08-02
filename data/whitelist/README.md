@@ -32,7 +32,7 @@ How to submit a whitelist
 -------------------------
 
 We welcome user submissions for whitelists from linguists. Note that we use the
-[fork and pull](../../../CONTRIBUTING.md) model for contributions.
+[fork and pull](../CONTRIBUTING.md) model for contributions.
 
 1.  Make a list of all phones or phonemes, in descending-frequency order, using
     the appropriate file in [`../tsv`](../tsv).
