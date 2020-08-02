@@ -37,7 +37,7 @@ Unreleased
 -   Added Manchu (`mnc`). (\#185)
 -   Added Polabian (`pox`). (\#186)
 -   Updated `generate_summary.py` to reflect presence of 'filtered' tsv. (\#154)
--   Imperical Aramaic (`arc`) split into three scripts properly. (\#187)
+-   Imperial Aramaic (`arc`) split into three scripts properly. (\#187)
 -   Added `--no-tone` flag. (\#188)
 -   Flattened data directory structure. (\#194)
 
