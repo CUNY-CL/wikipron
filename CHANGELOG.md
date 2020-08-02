@@ -33,13 +33,12 @@ Unreleased
 -   Modified pron selector in Latin extraction function. (\#183).
 -   Merged whitelist.py into 'big scrape' script. src scrape.py now checks for
     existence of whitelist file during scrape to create second filtered TSV.
-    New TSV placed under tsv/\*\_filtered.tsv. (\#154).
+    New TSV placed under `tsv/\*\_filtered.tsv`. (\#154).
 -   Added Manchu (`mnc`). (\#185)
 -   Added Polabian (`pox`). (\#186)
--   Updated generate_summary to reflect presence of 'filtered' tsv. (\#154)
+-   Updated `generate_summary` to reflect presence of 'filtered' TSV. (\#154)
 -   Imperial Aramaic (`arc`) split into three scripts properly. (\#187)
--   Updated Georgian (`geo`) to take advantage of upstream bot-based
-    consistency fixes (\#138).
+-   Added `--no-tone` flag. (\#188)
 
 ### Deprecated
 ### Removed
