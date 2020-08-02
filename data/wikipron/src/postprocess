@@ -6,7 +6,7 @@ split() {
         # Explicitly uses byte-wise comparison for sorting
         # rather than a locale-dependent comparison.
         LC_ALL=C sort -u -o "${TSV}" "${TSV}"
-        ./generalized_split.py "${TSV}"
+        ./split.py "${TSV}"
     done
 }
 
