@@ -9,9 +9,9 @@ versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org
 [![Paper](http://img.shields.io/badge/paper-ACL:2020.lrec--1.521-B31B1B.svg)](https://www.aclweb.org/anthology/2020.lrec-1.521/)
 [![Conference](http://img.shields.io/badge/LREC-2020-4b44ce.svg)](https://lrec2020.lrec-conf.org/en/)
 
-WikiPron is a command-line tool and Python API for mining multilingual pronunciation
-data from Wiktionary, as well as a database of pronunciation dictionaries mined using
-this tool.
+WikiPron is a command-line tool and Python API for mining multilingual
+pronunciation data from Wiktionary, as well as a database of pronunciation
+dictionaries mined using this tool.
 
 -   [Command-line tool](#command-line-tool)
 -   [Python API](#python-api)
@@ -21,10 +21,11 @@ this tool.
 
 If you use WikiPron in your research, please cite the following:
 
-Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean Miller,
-Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020).
-[Massively multilingual pronunciation mining with WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/).
-In LREC. [[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)]
+Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean
+Miller, Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020). [Massively
+multilingual pronunciation mining with
+WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In LREC.
+\[[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)\]
 
 Command-line tool
 -----------------
@@ -33,7 +34,7 @@ Command-line tool
 
 WikiPron requires Python 3.6+. It is available through pip:
 
-```bash
+``` {.bash}
 pip install wikipron
 ```
 
@@ -44,7 +45,7 @@ pip install wikipron
 After installation, the terminal command `wikipron` will be available. As a
 basic example, the following command scrapes G2P data for French:
 
-```bash
+``` {.bash}
 wikipron fra
 ```
 
@@ -69,7 +70,7 @@ modeling purposes, e.g., we have `kʰ æ t` with the aspirated k instead of
 
 For illustration, here is a snippet of French data scraped by WikiPron:
 
-```tsv
+``` {.tsv}
 accrémentitielle    a k ʁ e m ɑ̃ t i t j ɛ l
 accrescent  a k ʁ ɛ s ɑ̃
 accrétion   a k ʁ e s j ɔ̃
@@ -79,7 +80,7 @@ accrétions  a k ʁ e s j ɔ̃
 By default, the scraped data appears in the terminal. To save the data in a TSV
 file, please redirect the standard output to a filename of your choice:
 
-```bash
+``` {.bash}
 wikipron fra > fra.tsv
 ```
 
@@ -94,7 +95,7 @@ Python API
 The underlying module can also be used from Python. A standard workflow looks
 like:
 
-```python
+``` {.python}
 import wikipron
 
 config = wikipron.Config(key="fra")  # French, with default options.
@@ -106,8 +107,8 @@ Data
 ----
 
 We also make available [a database of 1.7 million word/pronunciation
-pairs](https://github.com/kylebgorman/wikipron/tree/master/data/wikipron)
-mined using WikiPron.
+pairs](https://github.com/kylebgorman/wikipron/tree/master/data) mined using
+WikiPron.
 
 Models
 ------
@@ -134,7 +135,7 @@ yourself, you may obtain the latest source code through GitHub and `git`:
 3.  Download and install the library in the "editable" mode together with the
     core and dev dependencies within the virtual environment:
 
-    ```bash
+    ``` {.bash}
     git clone https://github.com/<your-github-username>/wikipron.git
     cd wikipron
     pip install --upgrade pip setuptools
@@ -159,8 +160,6 @@ WikiPron is released under an Apache 2.0 license. Please see
 [LICENSE.txt](https://github.com/kylebgorman/wikipron/blob/master/LICENSE.txt)
 for details.
 
-Please note that Wiktionary data has [its own licensing
-terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights), as does the other
-data in the
-[data/](https://github.com/kylebgorman/wikipron/tree/master/data)
-subdirectory.
+Please note that Wiktionary data in the
+[data/](https://github.com/kylebgorman/wikipron/tree/master/data) directory has
+[its own licensing terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights).
