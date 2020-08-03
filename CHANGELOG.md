@@ -40,6 +40,8 @@ Unreleased
 -   Imperial Aramaic (`arc`) split into three scripts properly. (\#187)
 -   Added `--no-tone` flag. (\#188)
 -   Flattened data directory structure. (\#194)
+-   Updated Georgian (`geo`) to take advantage of upstream bot-based
+    consistency fixes. (\#138).
 
 ### Deprecated
 ### Removed
