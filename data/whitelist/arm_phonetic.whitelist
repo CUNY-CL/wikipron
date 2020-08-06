@@ -1,0 +1,66 @@
+# Based on https://en.wikipedia.org/wiki/Armenian_language#Phonology
+# Vowels.
+ɑ
+ɛ
+ə
+i
+ɔ
+o  # <ո> is really [ɔ].
+a  # <ա> is really [ɑ].
+u
+# Consonants.
+m
+mː
+n
+nː
+ŋ
+pʰ
+pʰː
+p
+pː
+b
+bː
+tʰ
+tʰː
+t
+tː
+d
+dː
+kʰ
+kʰː
+k
+kː
+ɡ
+ɡː
+t͡sʰ
+t͡sʰː
+t͡s  # No corresponding geminate?
+d͡z  # No corresponding geminate?
+t͡ʃʰ
+t͡ʃ
+d͡ʒ  # No corresponding geminate?
+f
+fː
+v
+vː
+s
+sː
+z
+zː
+ʃ
+ʃː
+ʒ  # No corresponding geminate?
+χ  # Sometimes [x]?
+χː
+ʁ
+ʁː
+h  # No corresponding geminate?
+l
+lː
+j  # No corresponding geminate?
+r
+ɾ
+ɾː
+# TODO: for future cleanup, missing tie-bars on segments like:
+# * <ց> [tʃʰ]
+# * <չ> [tsʰ]
