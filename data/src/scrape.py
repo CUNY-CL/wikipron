@@ -162,7 +162,7 @@ def main(args: argparse.Namespace) -> None:
         eset = rset - lset
         if eset:
             for key in eset:
-                logging.fatal("'%r' is not a valid ISO code", key)
+                logging.fatal("%r is not a valid ISO code", key)
             exit(1)
         codes = list(rset)
 
