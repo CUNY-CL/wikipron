@@ -92,7 +92,7 @@ class Config:
             # In some cases it returns "Language; Dialect";
             # we just save the "first half".
             language = iso639.to_name(key).split(";")[0]
-        logging.info('Language: "%s"', language)
+        logging.info("Language: %r", language)
         return language
 
     def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
@@ -117,7 +117,7 @@ class Config:
             )
             raise ValueError(msg)
 
-        logging.info('Cut-off date: "%s"', cut_off_date)
+        logging.info("Cut-off date: %r", cut_off_date)
         return cut_off_date
 
     def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
@@ -165,7 +165,7 @@ class Config:
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
             )
-            logging.info('Dialect(s): "%s"', dialect)
+            logging.info("Dialect(s): %r", dialect)
 
         return _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
