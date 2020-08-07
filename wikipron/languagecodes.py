@@ -335,4 +335,21 @@ LANGUAGE_CODES = {
     "nivkh": "Nivkh",
     # Polabian. Note: The code is "sla" in ISO 639-2.
     "pox": "Polabian",
+    "polabian": "Polabian",
+    # Bahnar. Not in iso639 lib.
+    "bdq": "Bahnar",
+    "bahnar": "Bahnar",
+    # Jeju or Jejueo. Not in iso639 lib.
+    "jje": "Jeju",
+    "jeju": "Jeju",
+    "jejueo": "Jeju",
+    # Lashi. Not in iso639 lib.
+    "lsi": "Lashi",
+    "lashi": "Lashi",
+    # Miyako. Not in iso639 lib.
+    "mvi": "Miyako",
+    "miyako": "Miyako",
+    # Pennsylvania German. Not in iso639 lib.
+    "pdc": "Pennsylvania German",
+    "pennsylvania german": "Pennsylvania German",
 }

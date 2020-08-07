@@ -1,14 +1,32 @@
 {
+    "abk": {
+        "iso639_name": "Abkhazian",
+        "wiktionary_name": "Abkhaz",
+        "wiktionary_code": "ab",
+        "casefold": true
+    },
     "ady": {
         "iso639_name": "Adygei; Adyghe",
         "wiktionary_name": "Adyghe",
         "wiktionary_code": "ady",
         "casefold": true
     },
+    "aar": {
+        "iso639_name": "Afar",
+        "wiktionary_name": "Afar",
+        "wiktionary_code": "aa",
+        "casefold": true
+    },
     "afr": {
         "iso639_name": "Afrikaans",
         "wiktionary_name": "Afrikaans",
         "wiktionary_code": "af",
+        "casefold": true
+    },
+    "bdq": {
+        "iso639_name": "Bahnar",
+        "wiktionary_name": "Bahnar",
+        "wiktionary_code": "bdq",
         "casefold": true
     },
     "alb": {
@@ -208,6 +226,12 @@
         "wiktionary_name": "Choctaw",
         "wiktionary_code": "cho",
         "casefold": true
+    },
+    "jje": {
+        "iso639_name": "Jejueo",
+        "wiktionary_name": "Jeju",
+        "wiktionary_code": "jje",
+        "casefold": false
     },
     "nci": {
         "iso639_name": "Classical Nahuatl",
@@ -463,6 +487,12 @@
         "wiktionary_code": "quc",
         "casefold": true
     },
+    "lsi": {
+        "iso639_name": "Lashi",
+        "wiktionary_name": "Lashi",
+        "wiktionary_code": "lsi",
+        "casefold": true
+    },
     "kbd": {
         "iso639_name": "Kabardian",
         "wiktionary_name": "Kabardian",
@@ -620,6 +650,12 @@
         "wiktionary_code": "mnc",
         "casefold": false
     },
+    "mvi": {
+        "iso639_name": "Miyako",
+        "wiktionary_name": "Miyako",
+        "wiktionary_code": "mvi",
+        "casefold": false
+    },
     "glv": {
         "iso639_name": "Manx",
         "wiktionary_name": "Manx",
@@ -684,6 +720,12 @@
         "iso639_name": "Moksha",
         "wiktionary_name": "Moksha",
         "wiktionary_code": "mdf",
+        "casefold": true
+    },
+    "pdc": {
+        "iso639_name": "Pennsylvania German",
+        "wiktionary_name": "Pennsylvania German",
+        "wiktionary_code": "pdc",
         "casefold": true
     },
     "mnw": {

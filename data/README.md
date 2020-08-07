@@ -1,6 +1,7 @@
 | Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Case-folding | Phonetic/Phonemic | # of entries |
 | :---- | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/ady_phonetic.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic | 4,725 |
+| [TSV](tsv/aar_phonemic.tsv) | aar | Afar | Afar | True | Phonemic | 339 |
 | [TSV](tsv/afr_phonemic.tsv) | afr | Afrikaans | Afrikaans | True | Phonemic | 1,148 |
 | [TSV](tsv/afr_phonetic.tsv) | afr | Afrikaans | Afrikaans | True | Phonetic | 120 |
 | [TSV](tsv/alb_phonemic.tsv) | alb | Albanian | Albanian | True | Phonemic | 1,194 |
@@ -18,6 +19,7 @@
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 129 |
 | [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 210 |
 | [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2,176 |
+| [TSV](tsv/bdq_phonemic.tsv) | bdq | Bahnar | Bahnar | True | Phonemic | 149 |
 | [TSV](tsv/ban_phonemic.tsv) | ban | Balinese | Balinese | False | Phonemic | 172 |
 | [TSV](tsv/bak_phonetic.tsv) | bak | Bashkir | Bashkir | True | Phonetic | 1,970 |
 | [TSV](tsv/baq_phonemic.tsv) | baq | Basque | Basque | True | Phonemic | 227 |
@@ -103,6 +105,7 @@
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 5,670 |
 | [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 15,567 |
 | [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4,074 |
+| [TSV](tsv/jje_phonemic.tsv) | jje | Jejueo | Jeju | False | Phonemic | 188 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 826 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 103 |
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 249 |
@@ -111,6 +114,7 @@
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 12,822 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,153 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 301 |
+| [TSV](tsv/lsi_phonemic.tsv) | lsi | Lashi | Lashi | True | Phonemic | 286 |
 | [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 59,341 |
 | [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 62,384 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,272 |
