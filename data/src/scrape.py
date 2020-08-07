@@ -19,7 +19,7 @@ from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
 def _whitelist_reader(path: str) -> Iterator[str]:
-    # Read-in whitelist file.
+    # Reads whitelist file.
     with open(path, "r") as source:
         for line in source:
             line = re.sub(r"\s*#.*$", "", line)  # Removes comments from line.
@@ -74,7 +74,6 @@ def _call_scrape(
                 # Pauses execution for 10 min.
                 time.sleep(600)
     # Log and remove TSVs for languages that failed.
-    # to be scraped within 10 retries.
     logging.info(
         'Failed to scrape "%s" within 10 retries. %s',
         lang_settings["key"],
@@ -130,7 +129,7 @@ def _build_scraping_config(
             config_settings["key"],
             whitelist_phonetic,
         )
-        phonetic_path_filtered = f"{whitelist_path_affix}phonetic.whitelist"
+        phonetic_path_filtered = f"{path_affix}phonetic_filtered.tsv"
         phone_set = frozenset(_whitelist_reader(whitelist_phonetic))
         _call_scrape(
             config_settings,
@@ -212,7 +211,6 @@ if __name__ == "__main__":
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO",
     )
-
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--restriction",
@@ -220,6 +218,4 @@ if __name__ == "__main__":
         nargs="+",
         help="Specify language restrictions for scrape",
     )
-    args = parser.parse_args()
-
-    main(args)
+    main(parser.parse_args())

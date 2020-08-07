@@ -10,7 +10,10 @@
 | [TSV](tsv/grc_phonemic.tsv) | grc | Ancient Greek (to 1453) | Ancient Greek | True | Phonemic | 73,879 |
 | [TSV](tsv/ara_phonemic.tsv) | ara | Arabic | Arabic | False | Phonemic | 5,102 |
 | [TSV](tsv/arc_hebr_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic (Hebrew) | False | Phonemic | 1,156 |
-| [TSV](tsv/arm_phonetic.tsv) | arm | Armenian | Armenian | True | Phonetic | 13,656 |
+| [TSV](tsv/arm_e_phonetic.tsv) | arm | Armenian | Armenian (Eastern Armenian) | True | Phonetic | 13,702 |
+| [TSV](tsv/arm_e_phonetic_filtered.tsv) | arm | Armenian | Armenian (Eastern Armenian) | True | Phonetic_filtered | 13,258 |
+| [TSV](tsv/arm_w_phonetic.tsv) | arm | Armenian | Armenian (Western Armenian) | True | Phonetic | 742 |
+| [TSV](tsv/arm_w_phonetic_filtered.tsv) | arm | Armenian | Armenian (Western Armenian) | True | Phonetic_filtered | 599 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,209 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 129 |
 | [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 210 |
@@ -44,14 +47,17 @@
 | [TSV](tsv/dan_phonemic.tsv) | dan | Danish | Danish | True | Phonemic | 3,490 |
 | [TSV](tsv/dan_phonetic.tsv) | dan | Danish | Danish | True | Phonetic | 4,116 |
 | [TSV](tsv/sce_phonemic.tsv) | sce | Dongxiang | Dongxiang | True | Phonemic | 117 |
-| [TSV](tsv/dut_phonemic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic | 25,922 |
-| [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 632 |
+| [TSV](tsv/dut_phonemic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic | 27,712 |
+| [TSV](tsv/dut_phonemic_filtered.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic_filtered | 27,661 |
+| [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 641 |
 | [TSV](tsv/dzo_phonemic.tsv) | dzo | Dzongkha | Dzongkha | False | Phonemic | 188 |
 | [TSV](tsv/egy_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | False | Phonemic | 2,785 |
-| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 55,050 |
-| [TSV](tsv/eng_uk_phonetic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonetic | 1,243 |
-| [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 51,199 |
-| [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1,588 |
+| [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 56,674 |
+| [TSV](tsv/eng_uk_phonemic_filtered.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic_filtered | 55,962 |
+| [TSV](tsv/eng_uk_phonetic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonetic | 1,264 |
+| [TSV](tsv/eng_us_phonemic.tsv) | eng | English | English (US, General American) | True | Phonemic | 53,011 |
+| [TSV](tsv/eng_us_phonemic_filtered.tsv) | eng | English | English (US, General American) | True | Phonemic_filtered | 52,208 |
+| [TSV](tsv/eng_us_phonetic.tsv) | eng | English | English (US, General American) | True | Phonetic | 1,604 |
 | [TSV](tsv/epo_phonemic.tsv) | epo | Esperanto | Esperanto | True | Phonemic | 14,289 |
 | [TSV](tsv/est_phonemic.tsv) | est | Estonian | Estonian | True | Phonemic | 348 |
 | [TSV](tsv/fao_phonemic.tsv) | fao | Faroese | Faroese | True | Phonemic | 1,647 |
@@ -69,8 +75,9 @@
 | [TSV](tsv/ger_phonetic.tsv) | ger | German | German | True | Phonetic | 9,885 |
 | [TSV](tsv/got_phonemic.tsv) | got | Gothic | Gothic | True | Phonemic | 665 |
 | [TSV](tsv/got_phonetic.tsv) | got | Gothic | Gothic | True | Phonetic | 122 |
-| [TSV](tsv/gre_phonemic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic | 9,578 |
-| [TSV](tsv/gre_phonetic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonetic | 405 |
+| [TSV](tsv/gre_phonemic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic | 10,037 |
+| [TSV](tsv/gre_phonemic_filtered.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic_filtered | 9,829 |
+| [TSV](tsv/gre_phonetic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonetic | 404 |
 | [TSV](tsv/afb_phonemic.tsv) | afb | Gulf Arabic | Gulf Arabic | False | Phonemic | 432 |
 | [TSV](tsv/hts_phonemic.tsv) | hts | Hadza | Hadza | True | Phonemic | 273 |
 | [TSV](tsv/haw_phonemic.tsv) | haw | Hawaiian | Hawaiian | True | Phonemic | 441 |
@@ -82,6 +89,7 @@
 | [TSV](tsv/hin_phonemic.tsv) | hin | Hindi | Hindi | False | Phonemic | 8,255 |
 | [TSV](tsv/hin_phonetic.tsv) | hin | Hindi | Hindi | False | Phonetic | 214 |
 | [TSV](tsv/hun_phonetic.tsv) | hun | Hungarian | Hungarian | True | Phonetic | 49,665 |
+| [TSV](tsv/hun_phonetic_filtered.tsv) | hun | Hungarian | Hungarian | True | Phonetic_filtered | 49,665 |
 | [TSV](tsv/hrx_phonemic.tsv) | hrx | Hunsrik | Hunsrik | True | Phonemic | 1,248 |
 | [TSV](tsv/ice_phonemic.tsv) | ice | Icelandic | Icelandic | True | Phonemic | 9,437 |
 | [TSV](tsv/ice_phonetic.tsv) | ice | Icelandic | Icelandic | True | Phonetic | 339 |
@@ -176,8 +184,9 @@
 | [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 9,633 |
 | [TSV](tsv/por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 356 |
 | [TSV](tsv/pan_guru_phonemic.tsv) | pan | Panjabi | Punjabi (Gurmukhi) | False | Phonemic | 113 |
-| [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3,175 |
-| [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 4,805 |
+| [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3,654 |
+| [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 6,308 |
+| [TSV](tsv/rum_phonetic_filtered.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic_filtered | 6,201 |
 | [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 389,128 |
 | [TSV](tsv/san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 4,614 |
 | [TSV](tsv/san_phonetic.tsv) | san | Sanskrit | Sanskrit | False | Phonetic | 381 |
@@ -193,10 +202,12 @@
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3,724 |
 | [TSV](tsv/slo_phonetic.tsv) | slo | Slovak | Slovak | True | Phonetic | 456 |
 | [TSV](tsv/slv_phonemic.tsv) | slv | Slovenian | Slovene | True | Phonemic | 4,360 |
-| [TSV](tsv/spa_ca_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic | 55,623 |
-| [TSV](tsv/spa_ca_phonetic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonetic | 47,950 |
-| [TSV](tsv/spa_la_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonemic | 44,487 |
-| [TSV](tsv/spa_la_phonetic.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonetic | 38,392 |
+| [TSV](tsv/spa_ca_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic | 57,472 |
+| [TSV](tsv/spa_ca_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic_filtered | 57,342 |
+| [TSV](tsv/spa_ca_phonetic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonetic | 49,410 |
+| [TSV](tsv/spa_la_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonemic | 45,948 |
+| [TSV](tsv/spa_la_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonemic_filtered | 45,880 |
+| [TSV](tsv/spa_la_phonetic.tsv) | spa | Spanish; Castilian | Spanish (Latin America) | True | Phonetic | 39,581 |
 | [TSV](tsv/srn_phonemic.tsv) | srn | Sranan Tongo | Sranan Tongo | True | Phonemic | 157 |
 | [TSV](tsv/swe_phonemic.tsv) | swe | Swedish | Swedish | True | Phonemic | 3,113 |
 | [TSV](tsv/swe_phonetic.tsv) | swe | Swedish | Swedish | True | Phonetic | 154 |

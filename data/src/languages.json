@@ -62,7 +62,11 @@
         "iso639_name": "Armenian",
         "wiktionary_name": "Armenian",
         "wiktionary_code": "hy",
-        "casefold": true
+        "casefold": true,
+        "dialect": {
+            "w": "Western Armenian",
+            "e": "Eastern Armenian"
+        }
     },
     "rup": {
         "iso639_name": "Macedo-Romanian",
