@@ -102,7 +102,7 @@ def _build_scraping_config(
     whitelist_phonemic = f"{whitelist_path_affix}phonemic.whitelist"
     if os.path.exists(whitelist_phonemic):
         logging.info(
-            "Phonemic whitelist found for '%s' at '%s'",
+            "Phonemic whitelist found for %r at %r",
             config_settings["key"],
             whitelist_phonemic,
         )
@@ -125,7 +125,7 @@ def _build_scraping_config(
     whitelist_phonetic = f"{whitelist_path_affix}phonetic.whitelist"
     if os.path.exists(whitelist_phonetic):
         logging.info(
-            "Phonetic whitelist found for '%s' at '%s'",
+            "Phonetic whitelist found for %r at %r",
             config_settings["key"],
             whitelist_phonetic,
         )
@@ -154,14 +154,14 @@ def main(args: argparse.Namespace) -> None:
         keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
         if not keys[0]:
             # Checks for empty entry.
-            logging.fatal("Restriction flag raised but no language provided.")
+            logging.fatal("Restriction flag raised but no language provided")
             exit(1)
         rset = frozenset(args.restriction)
         lset = frozenset(codes)
         eset = rset - lset
         if eset:
             for key in eset:
-                logging.fatal("'%s' is not valid ISO code.", key)
+                logging.fatal("%r is not a valid ISO code", key)
             exit(1)
         codes = list(rset)
 

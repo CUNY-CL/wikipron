@@ -41,10 +41,11 @@ Unreleased
 -   Added `--no-tone` flag. (\#188)
 -   Flattened data directory structure. (\#194)
 -   Updated Georgian (`geo`) to take advantage of upstream bot-based
-    consistency fixes. (\#138).
+    consistency fixes. (\#138)
 -   Fixes path issue with phonetic whitelisted files. (\#195)
 -   Split `arm` into Eastern and Western dialects. (\#197)
 -   Rescraped files with new whitelists. (\#199)
+-   Updates logging statements for consistency. (\#196)
 
 ### Deprecated
 ### Removed
