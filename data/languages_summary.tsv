@@ -1,4 +1,5 @@
 ady_phonetic.tsv	ady	Adygei; Adyghe	Adyghe	True	Phonetic	4725
+aar_phonemic.tsv	aar	Afar	Afar	True	Phonemic	339
 afr_phonemic.tsv	afr	Afrikaans	Afrikaans	True	Phonemic	1148
 afr_phonetic.tsv	afr	Afrikaans	Afrikaans	True	Phonetic	120
 alb_phonemic.tsv	alb	Albanian	Albanian	True	Phonemic	1194
@@ -16,6 +17,7 @@ asm_phonemic.tsv	asm	Assamese	Assamese	False	Phonemic	2209
 ast_phonetic.tsv	ast	Asturian	Asturian	True	Phonetic	129
 aze_latn_phonemic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonemic	210
 aze_latn_phonetic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonetic	2176
+bdq_phonemic.tsv	bdq	Bahnar	Bahnar	True	Phonemic	149
 ban_phonemic.tsv	ban	Balinese	Balinese	False	Phonemic	172
 bak_phonetic.tsv	bak	Bashkir	Bashkir	True	Phonetic	1970
 baq_phonemic.tsv	baq	Basque	Basque	True	Phonemic	227
@@ -101,6 +103,7 @@ ita_phonemic.tsv	ita	Italian	Italian	True	Phonemic	10166
 ita_phonetic.tsv	ita	Italian	Italian	True	Phonetic	5670
 jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	15567
 jpn_kana_phonetic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic	4074
+jje_phonemic.tsv	jje	Jejueo	Jeju	False	Phonemic	188
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	826
 kaz_phonemic.tsv	kaz	Kazakh	Kazakh	True	Phonemic	103
 kaz_phonetic.tsv	kaz	Kazakh	Kazakh	True	Phonetic	249
@@ -109,6 +112,7 @@ kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1095
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	12822
 kur_phonemic.tsv	kur	Kurdish	Kurdish	True	Phonemic	1153
 lao_phonemic.tsv	lao	Lao	Lao	False	Phonemic	301
+lsi_phonemic.tsv	lsi	Lashi	Lashi	True	Phonemic	286
 lat_phonemic.tsv	lat	Latin	Latin	True	Phonemic	59341
 lat_phonetic.tsv	lat	Latin	Latin	True	Phonetic	62384
 lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1272
