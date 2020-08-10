@@ -46,6 +46,7 @@ Unreleased
 -   Split `arm` into Eastern and Western dialects. (\#197)
 -   Rescraped files with new whitelists. (\#199)
 -   Updates logging statements for consistency. (\#196)
+-   Added `tyv` to `languagecodes.py` (\#203)
 
 ### Deprecated
 ### Removed

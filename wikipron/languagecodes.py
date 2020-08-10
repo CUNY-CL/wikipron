@@ -352,4 +352,8 @@ LANGUAGE_CODES = {
     # Pennsylvania German. Not in iso639 lib.
     "pdc": "Pennsylvania German",
     "pennsylvania german": "Pennsylvania German",
+    # Tuvinian ISO 639-3 language name listed as Tuvan on Wiktionary.
+    "tyv": "Tuvan",
+    "tuvinian": "Tuvan",
+    "tuvan": "Tuvan",
 }
