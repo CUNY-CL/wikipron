@@ -1618,6 +1618,7 @@ algebra	ɑ l ɣ ə b r aː
 algebraïsch	ɑ l ɣ ə b r aː i s
 algeheel	ɑ l ɣ ə ɦ eː l
 algemeen	ɑ l ɣ ə m eː n
+algemeenheid	ɑ l ɣ ə m eː n ɦ ɛ i̯ t
 algerije	ɑ l ɣ ə r ɛ i̯ ə
 algerijn	ɑ l ɣ ə r ɛ i̯ n
 algerijns	ɑ l ɣ ə r ɛ i̯ n s
@@ -1652,6 +1653,7 @@ alledaags	ɑ l ə d aː x s
 alledaagsheid	ɑ l ə d aː x s ɦ ɛ i̯ t
 allee	ɑ l eː
 alleen	ɑ l eː n
+alleenheerschappij	ɑ l eː n ɦ eː r s x ɑ p ɛ i̯
 alleenheerser	ɑ l eː n ɦ eː r s ə r
 alleenrecht	ɑ l eː n r ɛ x t
 alleenstaand	ɑ l eː n s t aː n t
@@ -2325,7 +2327,9 @@ artificieel	ɑ r t i f i ʃ eː l
 artikel	ɑ r t i k ə l
 artikelsgewijs	ɑ r t i k ə l s x ə ʋ ɛ i̯ s
 artillerie	ɑ r t ɪ l ə r i
+artilleriebeschieting	ɑ r t ɪ l ə r i b ə s x i t ɪ ŋ
 artilleriesteun	ɑ r t ɪ l ə r i s t øː n
+artillerievuur	ɑ r t ɪ l ə r i v yː r
 artillerist	ɑ r t ɪ l ə r ɪ s t
 artisjok	ɑ r t i ʃ ɔ k
 artistiek	ɑ r t ɪ s t i k
@@ -3171,6 +3175,7 @@ bebossen	b ə b ɔ s ə n
 bebouwen	b ə b ɑ u̯ ə n
 bebroeden	b ə b r u d ə n
 becijferen	b ə s ɛ i̯ f ə r ə n
+beconcurreren	b ə k ɔ n k ʏ r eː r ə n
 bed	b ɛ t
 bedaard	b ə d aː r t
 bedacht	b ə d ɑ x t
@@ -3721,6 +3726,7 @@ beloning	b ə l oː n ɪ ŋ
 belopen	b ə l oː p ə n
 beloven	b ə l oː v ə n
 belt	b ɛ l t
+beluiken	b ə l œ y̯ k ə n
 beluisteren	b ə l œ y̯ s t ə r ə n
 belust	b ə l ʏ s t
 bemachtigen	b ə m ɑ x t ə ɣ ə n
@@ -3882,6 +3888,7 @@ bergeend	b ɛ r x eː n t
 bergen	b ɛ r ɣ ə n
 berger	b ɛ r ɣ ə r
 bergfort	b ɛ r x f ɔ r t
+berggebied	b ɛ r x x ə b i t
 berggeit	b ɛ r x ɛ i̯ t
 berggod	b ɛ r x ɔ t
 berggodin	b ɛ r x oː d ɪ n
@@ -4073,6 +4080,7 @@ besmullen	b ə s m ʏ l ə n
 besneeuwen	b ə s n eː u̯ ə n
 besnijden	b ə s n ɛ i̯ d ə n
 besnijdenis	b ə s n ɛ i̯ d ə n ɪ s
+besnord	b ə s n ɔ r t
 besnot	b ə s n ɔ t
 besogne	b ə s ɔ n j ə
 besparen	b ə s p aː r ə n
@@ -4091,6 +4099,7 @@ bespreken	b ə s p r eː k ə n
 bespreking	b ə s p r eː k ɪ ŋ
 bespringen	b ə s p r ɪ ŋ ə n
 besproeien	b ə s p r u j ə n
+bespuiten	b ə s p œ y̯ t ə n
 best	b ɛ s t
 bestaan	b ə s t aː n
 bestaansminimum	b ə s t aː n s m i n i m ʏ m
@@ -5841,6 +5850,7 @@ bratislava	b r aː t i s l aː v aː
 bratislava	b r aː t ɪ s l aː v aː
 brauw	b r ɑ u̯
 braveren	b r aː v eː r ə n
+bravoure	b r aː v uː r
 braziliaan	b r aː z i l i aː n
 braziliaans	b r aː z i l i aː n s
 brazilië	b r aː z i l i ə
@@ -6604,6 +6614,7 @@ causatief	k ɑ u̯ z aː t i f
 cautie	k ɑ u̯ t s i
 cavalcade	k aː v ɑ l k aː d ə
 cavalerie	k aː v aː l ə r i
+cavaleriecharge	k aː v aː l ə r i ʃ ɑ r ʒ ə
 cavalerist	k aː v aː l ə r ɪ s t
 cavia	k aː v i j aː
 caïro	k aː iː r oː
@@ -6704,6 +6715,7 @@ chaos	x aː ɔ s
 chaostheorie	x aː ɔ s t eː oː r i
 chaotisch	x aː oː t i s
 chapeau	ʃ aː p oː
+charge	ʃ ɑ r ʒ ə
 charisma	x aː r ɪ s m aː
 charismatisch	x aː r ɪ s m aː t i s
 charitatief	x aː r i t aː t i f
@@ -6749,6 +6761,7 @@ chirurg	ʃ i r ʏ r x
 chirurgijn	ʃ i r ʏ r ɣ ɛ i̯ n
 chiton	x i t ɔ n
 chloor	x l oː r
+chloorgas	x l oː r ɣ ɑ s
 chloorkip	x l oː r k ɪ p
 chocola	ʃ oː k oː l aː
 chocolade	ʃ oː k oː l aː d ə
@@ -6865,6 +6878,7 @@ cluster	k l ʏ s t ə r
 coach	k oː t ʃ
 coalitie	k oː aː l i t s i
 coalitieakkoord	k oː aː l i t s i ɑ k oː r t
+coalitiepartij	k oː aː l i t s i p ɑ r t ɛ i̯
 coca	k oː k aː
 cocktail	k ɔ k t eː l
 cocon	k oː k ɔ n
@@ -6917,6 +6931,7 @@ commotie	k ɔ m oː t s i
 commune	k ɔ m y n ə
 communicant	k ɔ m y n i k ɑ n t
 communicatie	k ɔ m y n i k aː t s i
+communicatiemiddel	k ɔ m y n i k aː t s i m ɪ d ə l
 communiceren	k ɔ m y n i s eː r ə n
 communie	k ɔ m y n i
 communisme	k ɔ m y n ɪ s m ə
@@ -7055,6 +7070,7 @@ contant	k ɔ n t ɑ n t
 contemporain	k ɔ n t ɛ m p oː r ɛː n
 contemporair	k ɔ n t ɛ m p oː r ɛː r
 context	k ɔ n t ɛ k s t
+continent	k ɔ n t i n ɛ n t
 contracoup	k ɔ n t r aː k u p
 contract	k ɔ n t r ɑ k t
 contraheren	k ɔ n t r aː ɦ eː r ə n
@@ -7548,6 +7564,7 @@ deugdrijk	d øː x t r ɛ i̯ k
 deugen	d øː ɣ ə n
 deugniet	d øː x n i t
 deuk	d øː k
+deuken	d øː k ə n
 deun	d øː n
 deur	d øː r
 deurbel	d øː r b ɛ l
@@ -7619,6 +7636,7 @@ dichtslaan	d ɪ x t s l aː n
 dichtwerk	d ɪ x t ʋ ɛ r k
 dictaat	d ɪ k t aː t
 dictator	d ɪ k t aː t ɔ r
+dictatoriaal	d ɪ k t aː t oː r i aː l
 dictee	d i k t eː
 didgeridoo	d ɪ d ʒ ə r i d u
 die	d i
@@ -7784,6 +7802,7 @@ discours	d ɪ s k uː r
 discretie	d ɪ s k r eː s iː
 discrimineren	d ɪ s k r i m i n eː r ə n
 discus	d ɪ s k ʏ s
+discussie	d ɪ s k ʏ s i
 discussiëren	d ɪ s k ʏ s i eː r ə n
 discussiëren	d ɪ s k ʏ s j eː r ə n
 discuswerpen	d ɪ s k ʏ s ʋ ɛ r p ə n
@@ -7957,6 +7976,7 @@ donor	d oː n ɔ r
 donororgaan	d oː n ɔ r ɔ r ɣ aː n
 dons	d ɔ n s
 donsdeken	d ɔ n s d eː k ə n
+donut	d oː n ʏ t
 dood	d oː t
 doodbliksemen	d oː d b l ɪ k s ə m ə n
 doodbloeden	d oː t b l u d ə n
@@ -7992,6 +8012,7 @@ doodsklok	d oː t s k l ɔ k
 doodsmaal	d oː t s m aː l
 doodsmoe	d oː t s m u
 doodsstrijd	d oː t s t r ɛ i̯ t
+doodstil	d oː t s t ɪ l
 doodstrijd	d oː t s t r ɛ i̯ t
 doodsverachting	d oː t s f ə r ɑ x t ɪ ŋ
 doodsverachting	d oː t s f ɛ r ɑ x t ɪ ŋ
@@ -8098,6 +8119,7 @@ doorzien	d oː r z i n
 doorzocht	d oː r z ɔ x t
 doorzoeken	d oː r z u k ə n
 doorzonwoning	d oː r z ɔ n ʋ oː n ɪ ŋ
+doorzouten	d oː r z ɑ u̯ t ə n
 doos	d oː s
 doosvrucht	d oː s f r ʏ x t
 dopeling	d oː p ə l ɪ ŋ
@@ -8136,7 +8158,9 @@ dors	d ɔ r s
 dorsen	d ɔ r s ə n
 dorst	d ɔ r s t
 dorsten	d ɔ r s t ə n
+dorstig	d ɔ r s t ə x
 dorstlesser	d ɔ r s t l ɛ s ə r
+dorsvloer	d ɔ r s f l uː r
 dos	d ɔ s
 doseren	d oː z eː r ə n
 dossier	d ɔ s iː r
@@ -8195,6 +8219,8 @@ dranghek	d r ɑ ŋ ɦ ɛ k
 drank	d r ɑ ŋ k
 drankbestrijding	d r ɑ ŋ k b ə s t r ɛ i̯ d ɪ ŋ
 drankorgel	d r ɑ ŋ k ɔ r ɣ ə l
+draperen	d r aː p eː r ə n
+drasland	d r ɑ s l ɑ n t
 dreadlock	d r ɛ d l ɔ k
 dreadlock	d r ɛ t l ɔ k
 dreef	d r eː f
@@ -8682,6 +8708,7 @@ elektromagneet	eː l ɛ k t r oː m ɑ x n eː t
 elektromagnetisme	eː l ɛ k t r oː m ɑ x n ə t i s m ə
 elektromotor	eː l ɛ k t r oː m oː t ɔ r
 elektronisch	eː l ɛ k t r oː n i s
+elementair	e l ə m ɛ n t ɛː r
 elf	ɛ l ə f
 elfde	ɛ l f d ə
 elfen	ɛ l v ə n
@@ -9080,6 +9107,7 @@ falsifieerbaar	f ɑ l s ɪ f j ɛ r b aː r
 falsifieerbaarheid	f ɑ l s ɪ f j ɛ r b aː r ɦ ɛ i̯ t
 falsifiëren	f ɑ l s i f j eː r ə n
 familie	f ɑ m i l i
+familiefoto	f aː m i l i f oː t oː
 familielid	f aː m i l i l ɪ t
 familiemoord	f aː m i l i m oː r t
 familienaam	f aː m i l i n aː m
@@ -10073,6 +10101,7 @@ gevarengeld	ɣ ə v aː r ə n ɣ ɛ l t
 gevecht	ɣ ə v ɛ x t
 gevechtseenheid	ɣ ə v ɛ x t s eː n ɦ ɛ i̯ t
 gevechtservaring	ɣ ə v ɛ x t s ɛ r v aː r ɪ ŋ
+gevechtskracht	ɣ ə v ɛ x t s k r ɑ x t
 gevechtsvlieger	ɣ ə v ɛ x t s f l i ɣ ə r
 geveegd	ɣ ə v eː x t
 gevel	ɣ eː v ə l
@@ -10316,6 +10345,7 @@ godzaligheid	ɣ ɔ t s aː l ə x ɦ ɛ i̯ t
 goed	ɣ u t
 goeddeels	ɣ u t d eː l s
 goede	ɣ u d ə
+goededag	ɣ u d ə d ɑ x
 goedemorgen	ɣ u d ə m ɔ r ɣ ə n
 goedendag	ɣ u d ə n d ɑ x
 goedendag	ɣ u j ə d ɑ x
@@ -10465,8 +10495,10 @@ gramper	ɣ r ɑ m p ə r
 gramschap	ɣ r ɑ m s x ɑ p
 granaat	ɣ r aː n aː t
 granaatappel	ɣ r aː n aː t ɑ p ə l
+granaatinslag	ɣ r aː n aː t ɪ n s l ɑ x
 granaatscherf	ɣ r aː n aː t s x ɛ r f
 granaatsteen	ɣ r aː n aː t s t eː n
+granaattrechter	ɣ r aː n aː t t r ɛ x t ə r
 granaatvuur	ɣ r aː n aː t f yː r
 granaatwerper	ɣ r aː n aː t ʋ ɛ r p ə r
 graniet	ɣ r ɑ n iː t
@@ -10508,6 +10540,7 @@ green	ɡ r iː n
 green	ɣ r eː n
 grenen	ɣ r eː n ə n
 grens	ɣ r ɛ n s
+grensgebied	ɣ r ɛ n s x ə b i t
 grensoorlog	ɣ r ɛ n s oː r l ɔ x
 grensweer	ɣ r ɛ n s ʋ eː r
 grenzeloos	ɣ r ɛ n z ə l oː s
@@ -10922,6 +10955,7 @@ hattemerbroek	ɦ ɑ t ə m ə r b r u k
 haven	ɦ aː v ə n
 havendorp	ɦ aː v ə n d ɔ r p
 havenen	ɦ aː v ə n ə n
+havengebied	ɦ aː v ə n ɣ ə b i t
 havenhoofd	ɦ aː v ə n ɦ oː f t
 havenmeester	ɦ aː v ə n m eː s t ə r
 havenplaats	ɦ aː v ə n p l aː t s
@@ -11128,6 +11162,7 @@ herbarium	ɦ ɛ r b aː r i ʏ m
 herbebossen	ɦ ɛ r b ə b ɔ s ə n
 herbegraven	ɦ ɛ r b ə ɣ r aː v ə n
 herberg	ɦ ɛ r b ɛ r x
+herbouwen	ɦ ɛ r b ɑ u̯ ə n
 herbronnen	ɦ ɛ r b r ɔ n ə n
 herculesslag	ɦ ɛ r k y l ɛ s s l ɑ x
 herdenking	ɦ ɛ r d ɛ ŋ k ɪ ŋ
@@ -11307,6 +11342,7 @@ hoefsmid	ɦ u f s m ɪ t
 hoek	ɦ u k
 hoekbank	ɦ u k b ɑ ŋ k
 hoeksnelheid	ɦ u k s n ɛ l ɦ ɛ i̯ t
+hoeksteen	ɦ u k s t eː n
 hoekstra	ɦ u k s t r aː
 hoekwant	ɦ u k ʋ ɑ n t
 hoelang	ɦ u l ɑ ŋ
@@ -11450,6 +11486,7 @@ hoofdletter	ɦ oː f t l ɛ t ə r
 hoofdluis	ɦ oː f t l œ y̯ s
 hoofdmacht	ɦ oː f t m ɑ x t
 hoofdman	ɦ oː f t m ɑ n
+hoofdmotief	ɦ oː f t m oː t i f
 hoofdpersonage	ɦ oː f t p ɛ r s oː n aː ʒ ə
 hoofdpersoon	ɦ oː f t p ɛ r s oː n
 hoofdpijn	ɦ oː f t p ɛ i̯ n
@@ -11670,6 +11707,7 @@ hulphypothese	ɦ ʏ l p ɦ i p oː t eː z ə
 hulpmiddel	ɦ ʏ l p m ɪ d ə l
 hulpprogramma	ɦ ʏ l p p r oː ɣ r ɑ m aː
 hulptaal	ɦ ʏ l p t aː l
+hulptelwoord	ɦ ʏ l p t ɛ l ʋ oː r t
 hulpvaardigheid	ɦ ʏ l p f aː r d ə x ɦ ɛ i̯ t
 hulpverlener	ɦ ʏ l p f ə r l eː n ə r
 hulpverlener	ɦ ʏ l p f ɛ r l eː n ə r
@@ -11839,6 +11877,7 @@ ijsthee	ɛ i̯ s t eː
 ijstijd	ɛ i̯ s t ɛ i̯ t
 ijsveld	ɛ i̯ s f ɛ l t
 ijsvogel	ɛ i̯ s f oː ɣ ə l
+ijsvrij	ɛ i s v r ɛ i
 ijswater	ɛ i̯ s ʋ aː t ə r
 ijswoestijn	ɛ i̯ s ʋ u s t ɛ i̯ n
 ijverig	ɛ i̯ v r ə x
@@ -11928,6 +11967,7 @@ incident	ɪ n s i d ɛ n t
 inclusie	ɪ n k l y z i
 incompetent	ɪ ŋ k ɔ m p ə t ɛ n t
 incongruentie	ɪ ŋ k ɔ ŋ ɣ r y ɛ n s i
+incontinent	ɪ ŋ k ɔ n t i n ɛ n t
 incontinentie	ɪ n k ɔ n t i n ɛ n s i
 incontinentieluier	ɪ n k ɔ n t i n ɛ n s i l œ y̯ ə r
 incubatie	ɪ n k y b aː t s i
@@ -12126,6 +12166,7 @@ intikken	ɪ n t ɪ k ə n
 intimideren	ɪ n t i m i d eː r ə n
 intimiteit	ɪ n t i m i t ɛ i̯ t
 intonatie	ɪ n t oː n aː t s i
+intoneren	ɪ n t oː n eː r ə n
 intoxicatie	ɪ n t ɔ k s i k aː t s i
 intramusculair	ɪ n t r aː m ʏ s k y l ɛː r
 intraveneus	ɪ n t r aː v eː n øː s
@@ -12316,6 +12357,7 @@ jeugdpuist	j øː x t p œ y̯ s t
 jeuk	j øː k
 jezus	j eː z ʏ s
 jezuïet	j eː z y i t
+jezuïetenstreek	j eː z y i t ə n s t r eː k
 jiddisch	j i d i s
 jiddisch	j ɪ d i s
 jij	j ə
@@ -12462,6 +12504,7 @@ kaartenboek	k aː r t ə n b u k
 kaartenhuis	k aː r t ə n ɦ œ y̯ s
 kaartspel	k aː r t s p ɛ l
 kaas	k aː s
+kaaskop	k aː s k ɔ p
 kaasmaker	k aː s m aː k ə r
 kaasmijt	k aː s m ɛ i̯ t
 kaaspiet	k aː s p i t
@@ -12632,6 +12675,7 @@ kapsel	k ɑ p s ə l
 kapster	k ɑ p s t ə r
 kapstok	k ɑ p s t ɔ k
 kapucijner	k aː p y s ɛ i̯ n ə r
+kar	k ɑ r
 karabach	k aː r aː b ɑ x
 karabijn	k aː r aː b ɛ i̯ n
 karaf	k aː r ɑ f
@@ -13047,6 +13091,7 @@ kinkhoest	k ɪ ŋ k ɦ u s t
 kinnebak	k ɪ n ə b ɑ k
 kinnesinne	k ɪ n ə s ɪ n ə
 kinshasa	k ɪ n ʃ aː s aː
+kiosk	k i ɔ s k
 kip	k ɪ p
 kipfilet	k ɪ p f i l eː
 kiplekker	k ɪ p l ɛ k ə r
@@ -13172,6 +13217,7 @@ kleinzerig	k l ɛ i̯ n z eː r ə x
 kleinzielig	k l ɛ i̯ n z i l ə x
 kleinzoon	k l ɛ i̯ n z oː n
 kleitablet	k l ɛ i̯ t aː b l ɛ t
+klem	k l ɛ m
 klemmen	k l ɛ m ə n
 klep	k l ɛ p
 klepel	k l eː p ə l
@@ -13995,6 +14041,8 @@ kuur	k y r
 kwaad	k ʋ aː t
 kwaakschool	k ʋ aː k s x oː l
 kwab	k ʋ ɑ p
+kwadraat	k ʋ aː d r aː t
+kwadraatschrift	k ʋ aː d r aː t s x r ɪ f t
 kwak	k ʋ ɑ k
 kwakdenken	k ʋ ɑ k d ɛ ŋ k ə n
 kwakkel	k ʋ ɑ k ə l
@@ -14034,6 +14082,7 @@ kweern	k ʋ eː r n
 kwekerij	k ʋ eː k ə r ɛ i̯
 kwelder	k ʋ ɛ l d ə r
 kwelspel	k ʋ ɛ l s p ɛ l
+kwestie	k ʋ ɛ s t i
 kwetsbaar	k ʋ ɛ t s b aː r
 kwetsen	k ʋ ɛ t s ə n
 kwibus	k ʋ i b ʏ s
@@ -14145,6 +14194,7 @@ landmeter	l ɑ n t m eː t ə r
 landmijn	l ɑ n t m ɛ i̯ n
 landnaam	l ɑ n t n aː m
 landname	l ɑ n t n aː m ə
+landnummer	l ɑ n t n ʏ m ə r
 landouw	l ɑ n d ɑ u̯
 landrot	l ɑ n t r ɔ t
 landschap	l ɑ n t s x ɑ p
@@ -14152,6 +14202,7 @@ landsdeel	l ɑ n t s d eː l
 landsgrens	l ɑ n t s x r ɛ n s
 landskind	l ɑ n t s k ɪ n t
 landsknecht	l ɑ n t s k n ɛ x t
+landsnaam	l ɑ n t s n aː m
 landstorm	l ɑ n t s t ɔ r m
 landtong	l ɑ n t ɔ ŋ
 landverhuizen	l ɑ n t f ə r ɦ œ y̯ z ə n
@@ -14245,6 +14296,7 @@ ledemaat	l eː d ə m aː t
 ledenbestand	l eː d ə n b ə s t ɑ n t
 ledenpop	l eː d ə n p ɔ p
 leder	l eː d ə r
+lederhose	l eː d ə r ɦ oː z ə
 ledig	l eː d ɪ x
 ledikant	l eː d i k ɑ n t
 ledlamp	l ɛ t l ɑ m p
@@ -14739,6 +14791,7 @@ longkanker	l ɔ ŋ k ɑ ŋ k ə r
 longontsteking	l ɔ ŋ ɔ n t s t eː k ɪ ŋ
 longslak	l ɔ ŋ s l ɑ k
 longvis	l ɔ ŋ v ɪ s
+longvocht	l ɔ ŋ v ɔ x t
 lont	l ɔ n t
 lontroer	l ɔ n t r uː r
 loo	l oː
@@ -14786,6 +14839,7 @@ lorgnon	l ɔ r n j ɔ n
 lori	l oː r i
 lorre	l ɔ r ə
 los	l ɔ s
+losbarsten	l ɔ s b ɑ r s t ə n
 loslaten	l ɔ s l aː t ə n
 losloopgebied	l ɔ s l oː p x ə b i t
 losser	l ɔ s ə r
@@ -14885,6 +14939,7 @@ luipaardhaai	l œ y̯ p aː r t ɦ aː i̯
 luipaardman	l œ y̯ p aː r t m ɑ n
 luis	l œ y̯ s
 luister	l œ y̯ s t ə r
+luisteraar	l œ y̯ s t ə r aː r
 luisterboek	l œ y̯ s t ə r b u k
 luisteren	l œ y̯ s t ə r ə n
 luistervink	l œ y̯ s t ə r v ɪ ŋ k
@@ -14983,6 +15038,7 @@ maatregel	m aː t r eː ɣ ə l
 maatschappij	m aː t s x ɑ p ɛ i̯
 maatschappijleer	m aː t s x ɑ p ɛ i̯ l eː r
 maatstaf	m aː t s t ɑ f
+maatwoord	m aː t ʋ oː r t
 macaronipinguïn	m aː k aː r oː n i p ɪ ŋ ɡ ʋ ɪ n
 macedonisch	m ɑ s ə d oː n i s
 macedonië	m ɑ s ə d oː n i j ə
@@ -15066,6 +15122,7 @@ maleisië	m aː l ɛ i̯ z i ə
 maleisiër	m aː l ɛ i̯ z i ə r
 malen	m aː l ə n
 malie	m aː l i
+maling	m ɑ l ɪ ŋ
 maliënkolder	m aː l i ə n k ɔ l d ə r
 mallemolen	m ɑ l ə m oː l ə n
 malloot	m ɑ l oː t
@@ -15260,6 +15317,7 @@ mattenklopper	m ɑ t ə n k l ɔ p ə r
 matthijs	m ɑ t ɛ i̯ s
 maud	m ɑ u̯ t
 maurits	m ɑ u̯ r ɪ t s
+mausoleum	m ɑ u̯ z oː l eː ʏ m
 mauwer	m ɑ u̯ ə r
 mavo	m aː v oː
 max	m ɑ k s
@@ -15930,6 +15988,7 @@ monogaam	m oː n oː ɣ aː m
 monogamie	m oː n oː ɣ aː m i
 monoplaan	m oː n oː p l aː n
 monoplan	m oː n oː p l ɑ n
+monopolie	m oː n oː p oː l i
 monopool	m oː n oː p oː l
 monorail	m oː n oː r eː l
 monotoon	m oː n oː t oː n
@@ -16083,8 +16142,11 @@ murw	m ʏ r f
 murw	m ʏ r ə ʋ
 mus	m ʏ s
 museum	m y z eː ʏ m
+musici	m y z i s i
+musicus	m y z i k ʏ s
 musket	m ʏ s k ɛ t
 muskus	m ʏ s k ʏ s
+muskuseend	m ʏ s k ʏ s eː n t
 muskushert	m ʏ s k ʏ s ɦ ɛ r t
 muskuskat	m ʏ s k ʏ s k ɑ t
 muskusrat	m ʏ s k ʏ s r ɑ t
@@ -16284,6 +16346,7 @@ nazaat	n aː z aː t
 nazinderen	n aː z ɪ n d ə r ə n
 nazorg	n aː z ɔ r x
 neanderthaler	n eː ɑ n d ə r t aː l ə r
+necropolis	n eː k r oː p oː l ɪ s
 necrose	n eː k r oː z ə
 neder	n eː d ə r
 nederduits	n eː d ə r d œ y̯ t s
@@ -16394,6 +16457,7 @@ neushoorn	n øː s ɦ oː r ə n
 neushoornvogel	n øː s ɦ oː r n v oː ɣ ə l
 neusklank	n øː s k l ɑ ŋ k
 neut	n øː t
+neutraal	n øː t r aː l
 neutraliseren	n øː t r aː l i z eː r ə n
 neutraliteit	n øː t r aː l i t ɛ i t
 neutron	n øː t r ɔ n
@@ -16535,11 +16599,13 @@ nooit	n oː i t
 noor	n oː r
 noord	n oː r t
 noorden	n oː r d ə n
+noorderbuur	n oː r d ə r b yː r
 noorderlicht	n oː r d ə r l ɪ x t
 noordfries	n oː r t f r i s
 noordoostpolder	n oː r t oː s t p ɔ l d ə r
 noordsvaarder	n oː r t s f aː r d ə r
 noordvaarder	n oː r t f aː r d ə r
+noordwaarts	n oː r t ʋ aː r t s
 noordwestblok	n oː r t ʋ ɛ s t b l ɔ k
 noordzee	n oː r t s eː
 noordzeekrab	n oː r t s eː k r ɑ p
@@ -16961,6 +17027,7 @@ onderzoeksstation	ɔ n d ə r z u k s t aː ʃ ɔ n
 onderzoekstafel	ɔ n d ə r z u k s t aː f ə l
 onderzoeksteam	ɔ n d ə r z u k s t i m
 onderzoekster	ɔ n d ə r z u k s t ə r
+onderzouten	ɔ n d ə r z ɑ u̯ t ə n
 ondeugd	ɔ n d øː x t
 ondeugdelijk	ɔ n d øː x d ə l ə k
 ondicht	ɔ n d ɪ x t
@@ -16994,6 +17061,7 @@ ongeregeldheid	ɔ ŋ ɣ ə r eː ɣ ə l t ɦ ɛ i̯ t
 ongeschoren	ɔ n ɣ ə s x oː r ə n
 ongesteld	ɔ n ɣ ə s t ɛ l t
 ongeval	ɔ n ɣ ə v ɑ l
+ongewassen	ɔ ŋ ɣ ə ʋ ɑ s ə n
 ongewis	ɔ ŋ ɣ ə ʋ ɪ s
 ongrondwettelijk	ɔ n ɣ r ɔ n t ʋ ɛ t ə l ə k
 ongrondwettig	ɔ n ɣ r ɔ n t ʋ ɛ t ə x
@@ -17102,6 +17170,7 @@ ontij	ɔ n t ɛ i̯
 ontkalken	ɔ n t k ɑ l k ə n
 ontkennen	ɔ n t k ɛ n ə n
 ontkenning	ɔ n t k ɛ n ɪ ŋ
+ontkenningsfase	ɔ n t k ɛ n ɪ ŋ f aː z ə
 ontkentenis	ɔ n t k ɛ n t ə n ɪ s
 ontketenen	ɔ n t k eː t ə n ə n
 ontkiemen	ɔ n t k i m ə n
@@ -17137,6 +17206,7 @@ ontmantelen	ɔ n t m ɑ n t ə l ə n
 ontmaskeren	ɔ n t m ɑ s k ə r ə n
 ontmelken	ɔ n t m ɛ l k ə n
 ontmengen	ɔ n t m ɛ ŋ ə n
+ontmenselijken	ɔ n t m ɛ n s ə l ə k ə n
 ontmijden	ɔ n t m ɛ i̯ d ə n
 ontmijnen	ɔ n t m ɛ i̯ n ə n
 ontmoedigen	ɔ n t m u d ə ɣ ə n
@@ -17166,6 +17236,7 @@ ontronden	ɔ n t r ɔ n d ə n
 ontruimen	ɔ n t r œ y̯ m ə n
 ontrusten	ɔ n t r ʏ s t ə n
 ontschieten	ɔ n t s x i t ə n
+ontschuilen	ɔ n t s x œ y̯ l ə n
 ontsieren	ɔ n t s i r ə n
 ontslaan	ɔ n t s l aː n
 ontslagrecht	ɔ n t s l ɑ x r ɛ x t
@@ -17267,6 +17338,7 @@ ontzielen	ɔ n t z i l ə n
 ontzien	ɔ n t z i n
 ontzinken	ɔ n t z ɪ ŋ k ə n
 ontzinnen	ɔ n t z ɪ n ə n
+ontzorgen	ɔ n t z ɔ r ɣ ə n
 ontzouten	ɔ n t z ɑ u̯ t ə n
 ontzuigen	ɔ n t z œ y̯ ɣ ə n
 ontzuilen	ɔ n t z œ y̯ l ə n
@@ -17286,6 +17358,8 @@ onveranderbaar	ɔ n v ɛ r ɑ n d ə r b aː r
 onverdeelbaar	ɔ n v ə r d eː l b aː r
 onverdeelbaar	ɔ n v ɛ r d eː l b aː r
 onverdroten	ɔ n v ə r d r oː t ə n
+onverhoeds	ɔ n v ə r ɦ u t s
+onverhoeds	ɔ n v ɛ r ɦ u t s
 onverklaarbaar	ɔ n v ə r k l aː r b aː r
 onverklaarbaar	ɔ n v ɛ r k l aː r b aː r
 onverkoopbaar	ɔ n v ə r k oː p b aː r
@@ -17363,10 +17437,13 @@ oorlogen	oː r l oː ɣ ə n
 oorlogje	oː r l ɔ x j ə
 oorlogsbodem	oː r l ɔ x s b oː d ə m
 oorlogscensuur	oː r l ɔ x s ɛ n z yː r
+oorlogscorrespondent	oː r l ɔ x s k ɔ r ə s p ɔ n d ɛ n t
 oorlogsfeit	oː r l ɔ x s f ɛ i̯ t
+oorlogsgebied	oː r l ɔ x s x ə b i t
 oorlogsgeweld	oː r l ɔ x s x ə ʋ ɛ l t
 oorlogshandeling	oː l ɔ x s ɦ ɑ n d ə l ɪ ŋ
 oorlogsheld	oː r l ɔ ɣ s ɦ ɛ l t
+oorlogsmachine	oː r l ɔ x s m aː ʃ i n ə
 oorlogsmisdaad	oː r l ɔ x s m ɪ s d aː t
 oorlogsmisdadiger	oː r l ɔ x s m ɪ s d aː d ə ɣ ə r
 oorlogsmisdrijf	oː r l ɔ x s m ɪ s d r ɛ i̯ f
@@ -17404,6 +17481,7 @@ oostfront	oː s t f r ɔ n t
 oostgrens	oː s t x r ɛ n s
 oostkerk	oː s t k ɛ r k
 oostvaarder	oː s t f aː r d ə r
+oostwaarts	oː s t ʋ aː r t s
 oostzee	oː s t s eː
 ootmoed	oː t m u t
 op	ɔ p
@@ -17419,6 +17497,7 @@ opblijven	ɔ p b l ɛ i̯ v ə n
 opbod	ɔ p b ɔ t
 opbokken	ɔ p b ɔ k ə n
 opbouw	ɔ p b ɑ u̯
+opbouwen	ɔ p b ɑ u̯ ə n
 opdagen	ɔ p d aː ɣ ə n
 opdat	ɔ b d ɑ t
 opdeling	ɔ b d eː l ɪ ŋ
@@ -17532,6 +17611,7 @@ opspatten	ɔ p s p ɑ t ə n
 opstaan	ɔ p s t aː n
 opstal	ɔ p s t ɑ l
 opstand	ɔ p s t ɑ n t
+opstandigheid	ɔ p s t ɑ n d ə x ɦ ɛ i̯ t
 opstel	ɔ p s t ɛ l
 opstijgen	ɔ p s t ɛ i̯ ɣ ə n
 opstoot	ɔ p s t oː t
@@ -17662,6 +17742,7 @@ overdraagbaarheid	oː v ə r d r aː x b aː r ɦ ɛ i̯ t
 overdrijven	oː v ə r d r ɛ i̯ v ə n
 overeenkomst	oː v ə r eː n k ɔ m s t
 overeten	oː v ə r eː t ə n
+overgalmen	oː v ə r ɣ ɑ l m ə n
 overgang	oː v ə r ɣ ɑ ŋ
 overgangsmetaal	oː v ə r ɣ ɑ ŋ s m eː t aː l
 overgeloof	oː v ə r ɣ ə l oː f
@@ -17685,6 +17766,7 @@ overheidssubsidie	oː v ə r ɦ ɛ i̯ t s ʏ p s i d i
 overhemd	oː v ə r ɦ ɛ m t
 overhoren	oː v ə r ɦ oː r ə n
 overhoring	oː v ə r ɦ oː r ɪ ŋ
+overhuiven	oː v ə r ɦ œ y̯ v ə n
 overig	oː v ə r ə x
 overigens	oː v r ə ɣ ə n s
 overigens	oː v ə r ə ɣ ə n s
@@ -17695,6 +17777,7 @@ overjas	oː v ə r j ɑ s
 overkappen	oː v ə r k ɑ p ə n
 overkijken	oː v ə r k ɛ i̯ k ə n
 overklassen	oː v ə r k l ɑ s ə n
+overklinken	oː v ə r k l ɪ ŋ k ə n
 overkluizen	oː v ə r k l œ y̯ z ə n
 overkoepelen	oː v ə r k u p ə l ə n
 overkoken	oː v ə r k oː k ə n
@@ -17702,6 +17785,7 @@ overkomen	oː v ə r k oː m ə n
 overladen	oː v ə r l aː d ə n
 overlappen	oː v ə r l ɑ p ə n
 overlast	oː v ə r l ɑ s t
+overlasten	oː v ə r l ɑ s t ə n
 overleggen	oː v ə r l ɛ ɣ ə n
 overleven	oː v ə r l eː v ə n
 overlezen	oː v ə r l eː z ə n
@@ -17794,6 +17878,7 @@ overzetting	oː v ə r z ɛ t ɪ ŋ
 overzicht	oː v ə r z ɪ x t
 overzichtelijk	oː v ə r z ɪ x t ə l ə k
 overzien	oː v ə r z i n
+overzouten	oː v ə r z ɑ u̯ t ə n
 ovulatie	oː v y l aː t s i
 ozon	oː z oː n
 ozongat	oː z ɔ n ɣ ɑ t
@@ -18172,7 +18257,8 @@ perceel	p ɛ r s eː l
 perenboom	p eː r ə n b oː m
 perfect	p ə r f ɛ k t
 perfect	p ɛ r f ɛ k t
-perfectioneren	p ɛ r f ɛ k ʃ o n eː r ə n
+perfectioneren	p ɛ r f ɛ k s i j oː n eː r ə n
+perfectioneren	p ɛ r f ɛ k ʃ oː n eː r ə n
 pergamon	p ɛ r ɣ aː m ɔ n
 pergamum	p ɛ r ɣ aː m ʏ m
 pericarp	p eː r i k ɑ r p
@@ -18727,6 +18813,7 @@ poëzie	p oː eː z i
 poëzie	p oː ə z i
 praag	p r aː x
 praal	p r aː l
+praalgraf	p r aː l ɣ r ɑ f
 praalhans	p r aː l ɦ ɑ n s
 praalwagen	p r aː l ʋ aː ɣ ə n
 praalziek	p r aː l z i k
@@ -18940,6 +19027,7 @@ provinciegrens	p r oː v ɪ n s i ɣ r ɛ n s
 provinciehuis	p r oː v ɪ n s i ɦ œ y̯ s
 provinciestad	p r oː v ɪ n s i s t ɑ t
 provinciën	p r oː v ɪ n s i ə n
+provisorisch	p r oː v i z oː r i s
 provo	p r oː v oː
 provoceren	p r oː v oː s eː r ə n
 pruik	p r œ y̯ k
@@ -18958,6 +19046,7 @@ prut	p r ʏ t
 prutser	p r ʏ t s ə r
 prutswerk	p r ʏ t s ʋ ɛ r k
 pruttelen	p r ʏ t ə l ə n
+pseudowetenschap	p s œ y̯ d oː ʋ eː t ə n s x ɑ p
 psittacose	p s i t aː k oː z ə
 psychiatrie	p s i x i a t r i
 psychiatrisch	p s i x i aː t r i s
@@ -19149,7 +19238,9 @@ rammonitor	r ɑ m oː n i t ɔ r
 ramp	r ɑ m p
 ramp	r ɛ m p
 rampeneren	r ɑ m p ə n eː r ə n
+rampokker	r ɑ m p ɔ k ə r
 ramptoerisme	r ɑ m p t u r ɪ s m ə
+rampzalig	r ɑ m p s aː l ə x
 ramschip	r ɑ m s x ɪ p
 ramsj	r ɑ m ʃ
 rand	r ɑ n t
@@ -19350,6 +19441,7 @@ regie	r ə ɣ i
 regime	r eː ʒ i m
 regime	r ə ʒ i m
 regiment	r eː ʒ i m ɛ n t
+regimentskapel	r eː ʒ i m ɛ n t s k aː p ɛ l
 regio	r eː ɣ i oː
 regisseur	r eː ɣ i s øː r
 register	r eː ɣ ɪ s t ə r
@@ -19436,6 +19528,7 @@ reserveband	r ə z ɛ r v ə b ɑ n t
 reserveleger	r ə z ɛ r v ə l eː ɣ ə r
 reserveonderdeel	r ə z ɛ r v ə ɔ n d ə r d eː l
 reserveren	r eː z ɛ r v eː r ə n
+reservetroep	r ə z ɛ r v ə t r u p
 reservewiel	r ə z ɛ r v ə ʋ i l
 reservoir	r eː z ə r v ʋ aː r
 reservoir	r eː z ɛ r v ʋ aː r
@@ -19539,6 +19632,7 @@ rijgen	r ɛ i̯ ɣ ə n
 rijk	r ɛ i̯ k
 rijkdom	r ɛ i̯ k d ɔ m
 rijksambtenaar	r ɛ i̯ k s ɑ m p t ə n aː r
+rijksaramees	r ɛ i̯ k s aː r aː m eː s
 rijksdaalder	r ɛ i̯ k s d aː l d ə r
 rijkskanselier	r ɛ i̯ k s k ɑ n s ə l iː r
 rijksmunt	r ɛ i̯ k s m ʏ n t
@@ -19690,6 +19784,7 @@ roetsjen	r u t ʃ ə n
 roetveeg	r u t f eː x
 roetveegpiet	r u t f eː x p i t
 rof	r ɔ f
+roffelvuur	r ɔ f ə l v yː r
 rog	r ɔ x
 roggebrood	r ɔ ɣ ə b r oː t
 rok	r ɔ k
@@ -19958,7 +20053,6 @@ ruud	r y t
 ruw	r y u̯
 ruwaard	r y ʋ aː r t
 ruzie	r y z i
-ruzie	y z i
 ruziën	r y z i ə n
 ruïne	r y i n ə
 ruïneren	r y i n eː r ə n
@@ -19997,6 +20091,7 @@ saffier	s ɑ f iː r
 saffieren	s ɑ f iː r ə n
 sahidisch	s aː ɦ i d i s
 sail	s eː l
+saillant	s aː j ɑ n t
 sajet	s aː j ɛ t
 sake	s aː k eː
 saks	s ɑ k s
@@ -20498,6 +20593,7 @@ schoonmoeder	s x oː n m u d ə r
 schoonouder	s x oː n ɑ u̯ d ə r
 schoonschrijven	s x oː n s x r ɛ i̯ v ə n
 schoonvader	s x oː n v aː d ə r
+schoonvegen	s x oː n v eː ɣ ə n
 schoonzoon	s x oː n z oː n
 schoonzus	s x oː n z ʏ s
 schoonzuster	s x oː n z ʏ s t ə r
@@ -20672,6 +20768,8 @@ seksslavin	s ɛ k s s l aː v ɪ n
 seksspeeltje	s ɛ k s s p eː l t j ə
 seksualiteit	s ɛ k s y aː l i t ɛ i̯ t
 seksueel	s ɛ k s y eː l
+sekswerker	s ɛ k s ʋ ɛ r k ə r
+sekswerkster	s ɛ k s ʋ ɛ r k s t ə r
 sekte	s ɛ k t ə
 selderie	s ɛ l d ə r i
 selderij	s ɛ l d ə r ɛ i̯
@@ -21219,6 +21317,7 @@ snert	s n ɛ r t
 snertnimf	s n ɛ r t n ɪ m f
 snertvent	s n ɛ r t f ɛ n t
 sneu	s n øː
+sneuvelen	s n øː v ə l ə n
 snijbiet	s n ɛ i̯ b i t
 snijbonenmolen	s n ɛ i̯ b oː n ə m oː l ə n
 snijboon	s n ɛ i̯ b oː n
@@ -21303,6 +21402,7 @@ soeverein	s u v ə r ɛ i̯ n
 soevereiniteit	s u v ə r ɛ i̯ n i t ɛ i̯ t
 sof	s ɔ f
 sofa	s oː f aː
+softijs	s ɔ f t ɛ i̯ s
 soigneur	s w a ɲ œ
 soja	s oː j aː
 sojaboon	s oː j aː b oː n
@@ -21487,6 +21587,7 @@ spilziek	s p ɪ l z i k
 spilzucht	s p ɪ l z ʏ x t
 spin	s p ɪ n
 spinazie	s p i n aː z i
+spindel	s p ɪ n d ə l
 spindoctor	s p ɪ n d ɔ k t ɔ r
 spindoctor	s p ɪ n d ɔ k t ə r
 spinhuis	s p ɪ n ɦ œ y̯ s
@@ -21753,6 +21854,7 @@ staren	s t aː r ə n
 start	s t ɑ r t
 startbaan	s t ɑ r t b aː n
 starter	s t ɑ r t ə r
+startsein	s t ɑ r t s ɛ i̯ n
 stase	s t aː z ə
 stase	s t ɑː s ə
 statenbond	s t aː t ə n b ɔ n t
@@ -21799,6 +21901,9 @@ steenpapier	s t eː n p aː p iː r
 steenpuist	s t eː n p œ y̯ s t
 steenrijk	s t eː n r ɛ i̯ k
 steenslag	s t eː n s l ɑ x
+steentijd	s t eː n t ɛ i̯ t
+steentijdperk	s t eː n t ɛ i̯ t p ɛ r k
+steentijdvak	s t eː n t ɛ i̯ t f ɑ k
 steenuil	s t eː n œ y̯ l
 steenvrucht	s t eː n v r ʏ x t
 steenwijk	s t eː n ʋ ɛ i̯ k
@@ -21817,6 +21922,7 @@ stelen	s t eː l ə n
 stella	s t ɛ l aː
 stellen	s t ɛ l ə n
 stelling	s t ɛ l ɪ ŋ
+stellingenoorlog	s t ɛ l ɪ ŋ ə n oː r l ɔ x
 stellingmolen	s t ɛ l ɪ ŋ m oː l ə n
 stellingname	s t ɛ l ɪ ŋ n aː m ə
 stelregel	s t ɛ l r eː ɣ ə l
@@ -21884,6 +21990,7 @@ steunkous	s t øː n k ɑ u̯ s
 steunpakket	s t øː n p ɑ k ɛ t
 steuntrekker	s t øː n t r ɛ k ə r
 steur	s t øː r
+stevel	s t eː v ə l
 steven	s t eː v ə n
 stevens	s t eː v ə n s
 steward	s t i ʋ ɑ r t
@@ -21958,8 +22065,8 @@ stoeprand	s t u p r ɑ n t
 stoeterij	s t u t ə r ɛ i̯
 stoethaspel	s t u t ɦ ɑ s p ə l
 stof	s t ɔ f
-stofberg	s t ɔ f b ɛ r ç
 stofberg	s t ɔ f b ɛ r x
+stofberg	s t ɔ f b ɛ r ç
 stofdoek	s t ɔ f d u k
 stoffeerder	s t ɔ f eː r d ə r
 stoffen	s t ɔ f ə n
@@ -22292,6 +22399,7 @@ stylo	s t i l oː
 stylus	s t i l ʏ s
 styrax	s t iː r ɑ k s
 suatiekanaal	s y aː t s i k aː n aː l
+subcontinent	s ʏ p k ɔ n t i n ɛ n t
 subcultuur	s ʏ p k ʏ l t yː r
 subduraal	s ʏ p d y r aː l
 subfamilie	s ʏ p f aː m i l i
@@ -22398,6 +22506,9 @@ syntactisch	s ɪ n t ɑ k t i s
 syntaxis	s ɪ n t ɑ k s ɪ s
 synthese	s ɪ n t eː z ə
 synthetisch	s ɪ n t eː t i s
+syrisch	s iː r i s
+syrië	s iː r i ə
+syriër	s iː r i ə r
 systeem	s i s t eː m
 systeemfout	s i s t eː m f ɑ u̯ t
 systole	s ɪ s t oː l ə
@@ -22546,6 +22657,7 @@ taptoe	t ɑ p t u
 tapuit	t ɑ p œ y̯ t
 targe	t ɑ r ʒ ə
 tarief	t aː r i f
+tartan	t ɑ r t ɑ n
 tarwe	t ɑ r ʋ ə
 tarwebloem	t ɑ r ʋ ə b l u m
 tarwebrood	t ɑ r ʋ ə b r oː t
@@ -22676,6 +22788,7 @@ televisiemaker	t eː l ə v i z i m aː k ə r
 telg	t ɛ l x
 tellen	t ɛ l ə n
 telluur	t ɛ l y r
+telwoord	t ɛ l ʋ oː r t
 temeier	t ə m ɛ i̯ ə r
 tempeest	t ɛ m p eː s t
 tempel	t ɛ m p ə l
@@ -22691,6 +22804,7 @@ temporiseren	t ɛ m p o r i z e r ə
 tempé	t ɛ m p eː
 ten	t ɛ n
 tenach	t ə n ɑ x
+teneinde	t ɛ n ɛ i̯ n d ə
 tenen	t eː n ə n
 tennis	t ɛ n ə s
 tennisbaan	t ɛ n ə s b aː n
@@ -22739,6 +22853,8 @@ terrein	t ə r ɛ i̯ n
 terrein	t ɛ r ɛ i̯ n
 terreinauto	t ə r ɛ i̯ n ɑ u̯ t oː
 terreinauto	t ɛ r ɛ i̯ n ɑ u̯ t oː
+terreinwinst	t ə r ɛ i̯ n ʋ ɪ n s t
+terreinwinst	t ɛ r ɛ i̯ n ʋ ɪ n s t
 terreur	t ə r øː r
 terreur	t ɛ r øː r
 territorium	t ɛ r ɪ t oː r i ʏ m
@@ -22834,6 +22950,7 @@ thuisblijver	t œ y̯ s b l ɛ i̯ v ə r
 thuisfront	t œ y̯ s f r ɔ n t
 thuisgevoel	t œ y̯ s x ə v u l
 thuishaven	t œ y̯ s ɦ aː v ə n
+thuiskomst	t œ y̯ s k ɔ m s t
 thuisonderwijs	t œ y̯ s ɔ n d ə r ʋ ɛ i̯ s
 thuisstudie	t œ y̯ s s t y d i
 thuisvaarder	t œ y̯ s f aː r d ə r
@@ -22925,6 +23042,7 @@ toe	t u
 toebehoren	t u b ə ɦ oː r ə n
 toedeledokie	t u d ə l ə d oː k i
 toedeloe	t u d ə l u
+toedichten	t u d ɪ x t ə n
 toegang	t u ɣ ɑ ŋ
 toegangsgeld	t u ɣ ɑ ŋ s x ɛ l t
 toegangskaart	t u ɣ ɑ ŋ s k aː r t
@@ -23039,6 +23157,7 @@ toom	t oː m
 toon	t oː n
 toonaard	t oː n aː r t
 toonbaar	t oː n b aː r
+toonbank	t oː n b ɑ ŋ k
 toonbeeld	t oː n b eː l t
 toongeslacht	t oː n ɣ ə s l ɑ x t
 toonladder	t oː n l ɑ d ə r
@@ -23239,6 +23358,7 @@ trombose	t r ɔ m b oː z ə
 trommel	t r ɔ m ə l
 trommelrem	t r ɔ m ə l r ɛ m
 trommelvlies	t r ɔ m ə l v l i s
+trommelvuur	t r ɔ m ə l v yː r
 tromp	t r ɔ m p
 trompetter	t r ɔ m p ɛ t ə r
 tronie	t r oː n i
@@ -23397,6 +23517,7 @@ twistziek	t ʋ ɪ s t s i k
 tyfeus	t i f øː s
 tyfoon	t i f oː n
 tyfus	t i f ʏ s
+tyfusepidemie	t i f ʏ s eː p i d ə m i
 typegeit	t i p x ɛ i̯ t
 typen	t i p ə n
 typesoort	t i p ə s oː r t
@@ -23473,6 +23594,7 @@ uitbroeden	œ y̯ t b r u d ə n
 uitbuiken	œ y̯ t b œ y̯ k ə n
 uitbuikwandeling	œ y̯ t b œ y̯ k ʋ ɑ n d ə l ɪ ŋ
 uitdagen	œ y̯ d aː ɣ ə n
+uitdaging	œ y̯ t d aː ɣ ɪ ŋ
 uitdelen	œ y̯ d eː l ə n
 uitdelgen	œ y̯ d ɛ l ɣ ə n
 uitdiepen	œ y̯ t d i p ə n
@@ -23899,6 +24021,7 @@ vandaag	v ɑ n d aː x
 vandaal	v ɑ n d aː l
 vangbal	v ɑ ŋ b ɑ l
 vangen	v ɑ ŋ ə n
+vangrail	v ɑ ŋ r eː l
 vangst	v ɑ ŋ s t
 vangt	v ɑ ŋ t
 vanille	v ɑ n i j ə
@@ -24207,6 +24330,8 @@ verdrinkingsdood	v ɛ r d r ɪ ŋ k ɪ ŋ s d oː t
 verdrogen	v ə r d r oː ɣ ə n
 verdrogen	v ɛ r d r oː ɣ ə n
 verdroten	v ɛ r d r oː t ə n
+verduiken	v ə r d œ y̯ k ə n
+verduiken	v ɛ r d œ y̯ k ə n
 verduistering	f ə r d œ y̯ s t ə r ɪ ŋ
 verduistering	f ɛ r d œ y̯ s t ə r ɪ ŋ
 verduurzamen	v ə r d yː r z aː m ə n
@@ -24353,6 +24478,7 @@ verkenning	v ə r k ɛ n ɪ ŋ
 verkenning	v ɛ r k ɛ n ɪ ŋ
 verkering	v ə r k eː r ɪ ŋ
 verkering	v ɛ r k eː r ɪ ŋ
+verkerven	v ə r k ɛ r v ə n
 verkiezen	v ə r k i z ə n
 verkiezing	v ə r k i z ɪ ŋ
 verkiezing	v ɛ r k i z ɪ ŋ
@@ -24364,6 +24490,7 @@ verkiezingsnederlaag	v ə r k i z ɪ ŋ s n eː d ə r l aː x
 verkiezingsnederlaag	v ɛ r k i z ɪ ŋ s n eː d ə r l aː x
 verkiezingsprogramma	v ə r k i z ɪ ŋ s p r oː ɣ r ɑ m aː
 verkiezingsprogramma	v ɛ r k i z ɪ ŋ s p r oː ɣ r ɑ m aː
+verkijken	v ə r k ɛ i̯ k ə n
 verklaarbaar	v ə r k l aː r b aː r
 verklaarbaar	v ɛ r k l aː r b aː r
 verklaren	v ə r k l aː r ə n
@@ -24371,6 +24498,8 @@ verklaring	v ə r k l aː r ɪ ŋ
 verklaring	v ɛ r k l aː r ɪ ŋ
 verkleinwoord	v ə r k l ɛ i̯ n ʋ oː r t
 verkleinwoord	v ɛ r k l ɛ i̯ n ʋ oː r t
+verklinken	v ə r k l ɪ ŋ k ə n
+verknijpen	v ə r k n ɛ i̯ p ə n
 verknocht	v ə r k n ɔ x t
 verkoop	v ə r k oː p
 verkoop	v ɛ r k oː p
@@ -24486,6 +24615,8 @@ vernieler	v ɛ r n i l ə r
 vernietigen	v ə r n i t ə ɣ ə n
 vernis	v ə r n ɪ s
 vernissen	v ə r n ɪ s ə n
+veronachtzamen	v ə r ɔ n ɑ x t s aː m ə n
+veronachtzamen	v ɛ r ɔ n ɑ x t s aː m ə n
 veronderstelling	v ə r ɔ n d ə r s t ɛ l ɪ ŋ
 veronderstelling	v ɛ r ɔ n d ə r s t ɛ l ɪ ŋ
 verongelukken	v ə r ɔ ŋ ɣ ə l ʏ k ə n
@@ -24591,6 +24722,7 @@ verslinden	v ə r s l ɪ n d ə n
 versluizen	v ə r s l œ y̯ z ə n
 versluizen	v ɛ r s l œ y̯ z ə n
 versmelten	v ə r s m ɛ l t ə n
+versmijten	v ə r s m ɛ i̯ t ə n
 versnijden	v ə r s n ɛ i̯ d ə n
 versnijden	v ɛ r s n ɛ i̯ d ə n
 versnijdenis	v ə r s n ɛ i̯ d ə n ɪ s
@@ -24602,6 +24734,8 @@ verspillen	v ɛ r s p ɪ l ə n
 verspilling	v ə r s p ɪ l ɪ ŋ
 verspreken	v ə r s p r eː k ə n
 verspreken	v ɛ r s p r eː k ə n
+verspuiten	v ə r s p œ y̯ t ə n
+verspuiten	v ɛ r s p œ y̯ t ə n
 verstaan	v ə r s t aː n
 verstaan	v ɛ r s t aː n
 verstaanbaar	v ə r s t aː n b aː r
@@ -24637,6 +24771,8 @@ verstuiken	v ə r s t œ y̯ k ə n
 verstuiken	v ɛ r s t œ y̯ k ə n
 verstuiten	v ə r s t œ y̯ t ə n
 verstuiten	v ɛ r s t œ y̯ t ə n
+verstuiven	v ə r s t œ y̯ v ə n
+verstuiven	v ɛ r s t œ y̯ v ə n
 vertaalkunde	v ə r t aː l k ʏ n d ə
 vertaalkunde	v ɛ r t aː l k ʏ n d ə
 vertaalster	v ə r t aː l s t ə r
@@ -24696,18 +24832,25 @@ verveerd	v ɛ r v eː r t
 vervelen	v ə r v eː l ə n
 vervelen	v ɛ r v eː l ə n
 vervelend	v ə r v eː l ə n t
+verveling	v ə r v eː l ɪ ŋ
+verveling	v ɛ r v eː l ɪ ŋ
 vervellen	v ə r v ɛ l ə n
 vervellen	v ɛ r v ɛ l ə n
 verveloos	v ɛ r v ə l oː s
 verven	v ɛ r v ə n
 vervlaamsen	v ə r v l aː m s ə n
 vervlaamsen	v ɛ r v l aː m s ə n
+vervlechten	v ə r v l ɛ x t ə n
+vervlechten	v ɛ r v l ɛ x t ə n
+vervliegen	v ɛ r v l i ɣ ə n
+vervlieten	v ə r v l i t ə n
 vervloeken	v ə r v l u k ə n
 vervloeken	v ɛ r v l u k ə n
 vervoer	v ə r v u r
 vervolgonderwijs	v ɛ r v ɔ l x ɔ n d ə r ʋ ɛ i̯ s
 vervolgziek	v ə r v ɔ l x s i k
 vervolgziek	v ɛ r v ɔ l x s i k
+vervriezen	v ə r v r i z ə n
 vervroeg	v ɛ r v r u x
 vervroegd	v ɛ r v r u x t
 vervroegen	v ɛ r v r u ɣ ə n
@@ -24757,6 +24900,8 @@ verwoorden	v ə r ʋ oː r d ə n
 verwoorden	v ɛ r ʋ oː r d ə n
 verwurgen	v ə r ʋ ʏ r ɣ ə n
 verwurgen	v ɛ r ʋ ʏ r ɣ ə n
+verzachten	v ə r z ɑ x t ə n
+verzachten	v ɛ r z ɑ x t ə n
 verzadigd	v ə r z aː d ə x t
 verzadigd	v ɛ r z aː d ə x t
 verzadigen	v ə r z aː d ə ɣ ə n
@@ -24840,6 +24985,7 @@ veulendragend	v øː l ə n d r aː ɣ ə n t
 veulenpaard	v øː l ə n p aː r t
 vezel	v eː z ə l
 vianen	v i aː n ə n
+vicepresident	v i s ə p r eː s i d ɛ n t
 video	v i d i oː
 videocamera	v i d i oː k aː m ə r aː
 videorecorder	v i d i oː r i k ɔ r d ə r
@@ -25038,6 +25184,7 @@ vlieboot	v l i b oː t
 vlieden	v l i d ə n
 vlieg	v l i x
 vliegangst	v l i x ɑ ŋ s t
+vliegbasis	v l i x b aː z ɪ s
 vliegbereik	v l i x b ə r ɛ i̯ k
 vliegdek	v l i ɣ d ɛ k
 vliegdekschip	v l i ɣ d ɛ k s x ɪ p
@@ -25176,6 +25323,7 @@ vogelfauna	v oː ɣ ə l f ɑ u̯ n aː
 vogelgriep	v oː ɣ ə l ɣ r i p
 vogelhuis	v oː ɣ ə l ɦ œ y̯ s
 vogelkenner	v oː ɣ ə l k ɛ n ə r
+vogelkooi	v oː ɣ ə l k oː i̯
 vogelmelk	v oː ɣ ə l m ɛ l k
 vogelpest	v oː ɣ ə l p ɛ s t
 vogelpik	v oː ɣ ə l p ɪ k
@@ -25200,6 +25348,7 @@ volgieten	v ɔ l ɣ i t ə n
 volgorde	v ɔ l x ɔ r d ə
 volgorde	v ɔ l ɣ ɔ r d ə
 volgroeien	v ɔ l ɣ r u i̯ ə n
+volharding	v ɔ l ɦ ɑ r d ɪ ŋ
 volk	v ɔ l k
 volkenbond	v ɔ l k ə n b ɔ n t
 volkenrecht	v ɔ l k ə n r ɛ x t
@@ -25292,6 +25441,7 @@ voorhoofd	v oː r ɦ oː f t
 voorhuid	v oː r ɦ œ y̯ t
 voorhuid	v oː r ɦ œː t
 voorhuis	v oː r ɦ œ y̯ s
+voorjaarsoffensief	v oː r j aː r s ɔ f ɛ n s i f
 voorkennis	v oː r k ɛ n ɪ s
 voorkomen	v oː r k oː m ə n
 voorkomend	v oː r k oː m ə n t
@@ -25691,6 +25841,7 @@ wangelovig	ʋ ɑ n ɣ ə l oː v ə x
 wangestalte	ʋ ɑ n ɣ ə s t ɑ l t ə
 wangzak	ʋ ɑ ŋ z ɑ k
 wanhoop	ʋ ɑ n ɦ oː p
+wanhopig	ʋ ɑ n ɦ oː p ə x
 wankelmoed	ʋ ɑ ŋ k ə l m u t
 wanneer	ʋ ɑ n eː r
 wannen	ʋ ɑ n ə n
@@ -25867,6 +26018,8 @@ wederstreven	ʋ eː d ə r s t r eː v ə n
 wederstrevig	ʋ eː d ə r s t r eː v ə x
 wederuitvoer	ʋ eː d ə r œ y̯ t f uː r
 wederwraak	ʋ eː d ə r v r aː k
+wedijver	ʋ ɛ t ɛ i̯ v ə r
+wedijveren	ʋ ɛ t ɛ i̯ v ə r ə n
 wedloop	ʋ ɛ t l oː p
 wedstrijd	ʋ ɛ t s t r ɛ i̯ t
 wedstrijdvervalsing	ʋ ɛ t s t r ɛ i̯ t f ə r v ɑ l s ɪ ŋ
@@ -25979,6 +26132,7 @@ weit	ʋ ɛ i̯ t
 wek	ʋ ɛ k
 wekelijks	ʋ eː k ə l ə k s
 weken	ʋ eː k ə n
+wekenlang	ʋ eː k ə n l ɑ ŋ
 wekker	ʋ ɛ k ə r
 wekkerradio	ʋ ɛ k ə r r aː d i oː
 wel	ʋ ɛ l
@@ -26024,9 +26178,10 @@ wereldbevolking	ʋ eː r ə l t b ə v ɔ l k ɪ ŋ
 wereldbrand	ʋ eː r ə l t b r ɑ n t
 wereldburger	ʋ eː r ə l t b ʏ r ɣ ə r
 wereldburgeres	ʋ eː r ə l t b ʏ r ɣ ə r ɛ s
-werelddeel	ʋ eː r ə l d eː l
+werelddeel	ʋ eː r ə l t d eː l
 wereldeconomie	ʋ eː r ə l t eː k oː n oː m i
 wereldhandel	ʋ eː r ə l t ɦ ɑ n d ə l
+wereldheerschappij	ʋ eː r ə l t ɦ eː r s x ɑ p ɛ i̯
 wereldkaart	ʋ eː r ə l t k aː r t
 wereldmuziek	ʋ eː r ə l t m y z i k
 wereldnieuws	ʋ eː r ə l t n i u̯ s
@@ -26104,6 +26259,7 @@ west	ʋ ɛ s t
 westen	ʋ ɛ s t ə n
 westfront	ʋ ɛ s t f r ɔ n t
 westland	ʋ ɛ s t l ɑ n t
+westwaarts	ʋ ɛ s t ʋ aː r t s
 wet	ʋ ɛ t
 wetboek	ʋ ɛ t b u k
 weten	ʋ eː t ə n
@@ -26346,6 +26502,7 @@ woekerplant	ʋ u k ə r p l ɑ n t
 woekerpolis	ʋ u k ə r p oː l ə s
 woekerpolis	ʋ u k ə r p oː l ɪ s
 woekervlees	ʋ u k ə r v l eː s
+woelen	ʋ u l ə n
 woen	ʋ u n
 woensdag	ʋ u n z d ɑ x
 woerd	ʋ uː r t
@@ -26372,6 +26529,7 @@ wolfspin	ʋ ɔ l f s p ɪ n
 wolfsspin	ʋ ɔ l f s p ɪ n
 wolharig	ʋ ɔ l ɦ aː r ə x
 wolk	ʋ ɔ l k
+wolkeloos	ʋ ɔ l k ə l oː s
 wolkendek	ʋ ɔ l k ə n d ɛ k
 wolkenkrabber	ʋ ɔ l k ə n k r ɑ b ə r
 wollen	ʋ ɔ l ə n
@@ -26506,6 +26664,7 @@ xylografie	k s i l oː ɣ r aː f i
 xyloliet	k s i l oː l i t
 y	i ɡ r ɛ k
 y	ɛ ɪ
+y	ɣ r i k s ə ɛ ɪ
 yak	j ɑ k
 yam	j ɑ m
 yamswortel	j ɑ m s ʋ ɔ r t ə l
@@ -26636,6 +26795,10 @@ zalmmoot	z ɑ l m m oː t
 zalmtrek	z ɑ l m t r ɛ k
 zaltbommel	z ɑ l t b ɔ m ə l
 zalven	z ɑ l v ə n
+zambia	z ɑ m b i aː
+zambiaan	z ɑ m b i aː n
+zambiaans	z ɑ m b i aː n s
+zambiaas	z ɑ m b i aː s
 zambo	z ɑ m b oː
 zand	z ɑ n t
 zandaal	z ɑ n t aː l
@@ -26728,6 +26891,7 @@ zeebeving	z eː b eː v ɪ ŋ
 zeebodem	z eː b oː d ə m
 zeebonk	z eː b ɔ ŋ k
 zeebreker	z eː b r eː k ə r
+zeebrugge	z eː b r ʏ ɣ ə
 zeedahlia	z eː d aː l i aː
 zeedier	z eː d iː r
 zeedijk	z eː d ɛ i̯ k
@@ -27450,6 +27614,7 @@ zuid	z œ y̯ t
 zuidelijk	z œ y̯ d ə l ə k
 zuiden	z œ y̯ d ə n
 zuiderbreedte	z œ y̯ d ə r b r eː t ə
+zuiderbuur	z œ y̯ d ə r b yː r
 zuiderdriehoek	z œ y̯ d ə r d r i ɦ u k
 zuiderkroon	z œ y̯ d ə r k r oː n
 zuiderkruis	z œ y̯ d ə r k r œ y̯ s
@@ -27525,6 +27690,7 @@ zuurstoffles	z yː r s t ɔ f l ɛ s
 zuurstofmolecuul	z yː r s t ɔ f m oː l ə k y l
 zuurstofrijk	z yː r s t ɔ f r ɛ i̯ k
 zuurstok	z yː r s t ɔ k
+zuurtje	z yː r t j ə
 zuurzak	z y r z ɑ k
 zuwe	z y ʋ ə
 zwaag	z ʋ aː x
@@ -27628,6 +27794,7 @@ zweepspin	z ʋ eː p s p ɪ n
 zweepstaart	z ʋ eː p s t aː r t
 zweer	z ʋ eː r
 zweet	z ʋ eː t
+zweethut	z ʋ eː t ɦ ʏ t
 zweetklier	z ʋ eː t k l iː r
 zwelgen	z ʋ ɛ l ɣ ə n
 zwelgpartij	z ʋ ɛ l x p ɑ r t ɛ i̯
@@ -27652,6 +27819,8 @@ zwemvlies	z ʋ ɛ m v l i s
 zwemvogel	z ʋ ɛ m v oː ɣ ə l
 zwendel	z ʋ ɛ n d ə l
 zwendelen	z ʋ ɛ n d ə l ə n
+zwengelen	z ʋ ɛ ŋ ə l ə n
+zwenken	z ʋ ɛ ŋ k ə n
 zwepen	z ʋ eː p ə n
 zweren	z ʋ eː r ə n
 zwerfafval	z ʋ ɛ r f ɑ f ɑ l
@@ -27689,6 +27858,7 @@ zwijnen	z ʋ ɛ i̯ n ə n
 zwijnsspriet	z ʋ ɛ i̯ n s p r i t
 zwijntjesjager	z ʋ ɛ i̯ n t j ə s j aː ɣ ə r
 zwik	z ʋ ɪ k
+zwikken	z ʋ ɪ k ə n
 zwin	z ʋ ɪ n
 zwinden	z ʋ ɪ n d ə n
 zwingliaan	z ʋ ɪ ŋ l i aː n
