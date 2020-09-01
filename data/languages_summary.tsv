@@ -34,6 +34,7 @@ kxd_phonemic.tsv	kxd	Brunei	Brunei Malay	True	Phonemic	342
 bul_phonemic.tsv	bul	Bulgarian	Bulgarian	True	Phonemic	32486
 bul_phonetic.tsv	bul	Bulgarian	Bulgarian	True	Phonetic	5274
 bur_phonemic.tsv	bur	Burmese	Burmese	False	Phonemic	4325
+
 crx_phonemic.tsv	crx	Carrier	Carrier	False	Phonemic	175
 cat_phonemic.tsv	cat	Catalan; Valencian	Catalan	True	Phonemic	51341
 ceb_phonemic.tsv	ceb	Cebuano	Cebuano	True	Phonemic	292

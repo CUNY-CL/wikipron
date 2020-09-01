@@ -130,6 +130,7 @@
 | [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 62,948 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,273 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
+
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
 | [TSV](tsv/lim_phonetic.tsv) | lim | Limburgan | Limburgish | True | Phonetic | 125 |
 | [TSV](tsv/lit_phonemic.tsv) | lit | Lithuanian | Lithuanian | True | Phonemic | 287 |
