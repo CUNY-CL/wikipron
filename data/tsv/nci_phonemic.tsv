@@ -1,6 +1,7 @@
 ac	aː k
 acah	a k a ʔ
 acalli	aː k a lː i
+acattopa	a k a t t o p a
 acaxtontli	aː k a ʃ t oː n t͡ɬ i
 acayotl	aː k a j oː t ɬ
 acelli	a s eː l l i
@@ -14,6 +15,7 @@ acilli	a s iː l l i
 acolhuah	aː k oː l w a ʔ
 ahaztli	a ʔ a s t͡ɬ i
 ahcan	a ʔ k aː n
+ahcolco	aː ʔ k o l k o
 ahcolli	a ʔ k o l l i
 ahhua	a ʔ w a
 ahhuatl	a ʔ w a t͡ɬ
@@ -62,6 +64,7 @@ atemmeh	aː t e m m e ʔ
 atentli	aː t eː n t͡ɬ i
 atl	aː t͡ɬ
 atlacatl	aː t ɬ aː k a t ɬ
+atlacomolco	aː t͡ɬ a k o m oː l k o
 atlahcatl	aː t ɬ a ʔ k a t ɬ
 atolli	aː t oː l l i
 atotolin	aː t oː t o l i n
@@ -162,7 +165,7 @@ cocoliztli	k o k o l i s t ɬ i
 cocoxqui	k o k o ʃ k i
 colli	k oː l l i
 colotl	k oː l oː t ɬ
-coltin	k ō l t i n
+coltin	k ō l t i n
 comalli	k o m aː lː i
 comaltin	k oː m a l t i n
 conetl	k o n eː t ɬ
@@ -184,7 +187,6 @@ cuamana	kʷ aː m a n a
 cuanaca	kʷ aː n a k a
 cuauhiztexochitl	kʷ aː w i s t e ʃ oː t ʃ i t ɬ
 cuauhiztexochitl	kʷ aː w i s t i ʃ oː t ʃ i t ɬ
-cuauhmiztli	kʷ a m m i s t ɬ i
 cuauhmiztli	kʷ a w m i s t ɬ i
 cuauhnahuac	kʷ a ɸ n aː w a k
 cuauhtemallan	kʷ a w t eː m a l l aː n
@@ -287,7 +289,7 @@ ilamayotl	i l a m a j oː t͡ɬ
 ilantli	i l a n t͡ɬ i
 ilcahua	i ɬ k aː w a
 ilhuicac	i l w i k a k
-ilhuitl	i l w i ʔ
+ilhuicatl	i l w i k a t͡ɬ
 ilnamiqui	i l n aː m i k i
 iloti	i l oː t i
 ilpia	i ɬ p i a
@@ -393,7 +395,6 @@ motla	m oː t͡ɬ a
 moxahua	m o ʃ aː w a
 moyotl	m oː j oː t͡ɬ
 moztla	m oː s t ɬ a
-mā	m aː
 nacaceh	n a k a s e ʔ
 nacacehqueh	n a k a s e k e ʔ
 nacamolli	n a k a m oː lː i
@@ -426,8 +427,6 @@ niltze	n i l t s ɛ
 nochehuatl	n oː t͡ʃ eː w a t͡ɬ
 nochtli	n oː t ʃ t ɬ i
 nohpalli	n o ʔ p a l l i
-nē	n eː
-nēhuātl	n eː w aː t ɬ
 oceloh	oː s eː l o ʔ
 ocelopetlatl	oː s eː l oː p e t ɬ a t ɬ
 oceloquichtli	o s eː l oː k i t ʃ t ɬ i
@@ -631,7 +630,6 @@ tlachihualli	t ɬ a t ʃ iː w a lː i
 tlacochinamitl	t ɬ a k oː t ʃ i n aː m i t ɬ
 tlacochtli	t ɬ a k oː t ʃ t ɬ i
 tlacohtli	t ɬ aː k o ʔ t ɬ i
-tlacuatzin	t ɬ ɑ k w aː t s i n
 tlahcuiloltic	t ɬ a ʔ kʷ i l oː l t i k
 tlahtlacoa	t ɬ a ʔ t ɬ a k o a
 tlahtlacoani	t ɬ a ʔ t ɬ a k o w aː n i
@@ -756,8 +754,10 @@ tzontli	t s o n t ɬ i
 tzopilotetl	t s o p iː l oː t eː t ɬ
 tzopilotl	t s o p iː l oː t ɬ
 xahcalli	ʃ a ʔ k a l l i
+xalixco	ʃ aː l iː ʃ k o
 xaltetl	ʃ aː ɬ t e t͡ɬ
 xaltozan	ʃ aː l t o s a n
+xalxocotl	ʃ aː l ʃ o k o t͜ɬ
 xamitl	ʃ aː m i t l
 xayacatl	ʃ aː j a k a t ɬ
 xayotl	ʃ aː j oː t͡ɬ
@@ -773,12 +773,12 @@ xilotl	ʃ iː l oː t ɬ
 xima	ʃ i m a
 xinachtli	ʃ i n aː t ʃ t ɬ i
 xiquipiltontli	ʃ i k i p i l t oː n t ɬ i
-xitomatl	ʃ iː t ó m a t ɬ
+xitomatl	ʃ iː t o m a t͡ɬ
+xitomatl	ʃ iː t ó m a t ɬ
 xiuhtotonacocheh	x i w t oː t oː n a k o t ʃ e ʔ
 xiuhtotonacochtli	x i w t oː t oː n a k o t ʃ t ɬ i
 xiuhtototic	ʃ i w t oː t oː t i k
 xiuhtototl	ʃ i w t oː t oː t ɬ
-xochimilco	ʃ oː t͡ʃ i m iː l k o
 xochipalli	ʃ oː t ʃ i p a l l i
 xochitl	ʃ oː t ʃ i t ɬ
 xococ	ʃ o k o k
@@ -796,6 +796,7 @@ yancuic	j a n kʷ i k
 yaomiqui	j aː oː m i k i
 yaotenhuah	j aː oː t eː n w a ʔ
 yaotequihuah	j aː oː t e k i w a ʔ
+yaotl	j aː oː t ɬ
 yaotlatquichihchihua	j aː oː t͡ɬ a t k i t͡ʃ i ʔ t͡ʃ iː w a
 yaotlatquichihchiuhqui	j aː oː t͡ɬ a t k i t͡ʃ i ʔ t͡ʃ iː w k i
 yaotlatquitl	j aː oː t͡ɬ a t k i t͡ɬ
@@ -815,7 +816,6 @@ yolcatl	j oː ɬ k a t͡ɬ
 yoli	j oː l i
 yolpaqui	j oː l p aː k i
 yolqui	j oː l k i
-yāōtl	j aː oː t ɬ
 zaca	s a k a
 zacatl	s a k a t ɬ
 zacayoh	s a k a j o ʔ
@@ -833,5 +833,4 @@ zoyachiquihuitl	s oː j aː t͡ʃ i k i w i t͡ɬ
 zoyatanahtli	s oː j aː t aː n a ʔ t͡ɬ i
 zozoltin	s oː s oː ɬ t i n
 āna	aː n a
-āxōlōtl	aː ʃ oː l oː t ɬ
 ī	iː
