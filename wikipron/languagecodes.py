@@ -351,6 +351,7 @@ LANGUAGE_CODES = {
     "miyako": "Miyako",
     # Pennsylvania German. Not in iso639 lib.
     "pdc": "Pennsylvania German",
+    "pennsylvania german": "Pennsylvania German",
     # Namuyi. Not in iso639 lib.
     "nmy": "Namuyi",
     "namuyi": "Namuyi",

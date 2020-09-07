@@ -31,7 +31,6 @@ import requests
 import requests_html  # type: ignore
 import wikipron
 
-
 LANGUAGES_PATH = "languages.json"
 UNMATCHED_LANGUAGES_PATH = "unmatched_languages.json"
 README_PATH = "../README.md"
