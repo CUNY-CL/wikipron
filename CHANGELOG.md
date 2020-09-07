@@ -47,10 +47,12 @@ Unreleased
 -   Rescraped files with new whitelists. (\#199)
 -   Updates logging statements for consistency. (\#196)
 -   Adds `aar`, `bdq`, `jje`, and `lsi`. (\#202).
--   Added `tyv` to `languagecodes.py` (\#203)
+-   Added `tyv` to `languagecodes.py` (\#203, \#205)
+-   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py` (\#205)
 
 ### Deprecated
 ### Removed
+-   Moved Wiktionary querying functions from `test_languagecodes.py` to `codes.py` (\#205)
 ### Fixed
 ### Security
 
