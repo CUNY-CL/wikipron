@@ -10,7 +10,7 @@ For each language it grabs the language name and language code (likely ISO
 
 It compares that code with those in iso639_1-to-iso639_2.json and
 iso639_2.json in order to grab the appropriate ISO 639-2 or ISO 639-3 code
-language name. A dictionary containing this data is created and converted
+and language name. A dictionary containing this data is created and converted
 to a JSON file (languages.json). Config settings for languages already in
 languages.json are transferred to the new languages dictionary being created.
 

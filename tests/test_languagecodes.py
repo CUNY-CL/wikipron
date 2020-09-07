@@ -12,6 +12,7 @@ from . import can_connect_to_wiktionary
 # We handle languages with at least this number of pronunciation entries.
 _MIN_LANGUAGE_SIZE = 100
 
+
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 def test_language_coverage():
     """Check if WikiPron covers languages with a sufficient amount of data.
