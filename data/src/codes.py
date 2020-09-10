@@ -125,8 +125,8 @@ def _check_language_code_against_wiki(
     else:
         if language_inferred != language:
             logging.warning(
-                'WikiPron resolves the key "%s" to "%s"'
-                'which is listed as "%s" on Wiktionary.',
+                "WikiPron resolves the key %r to %r"
+                "which is listed as %r on Wiktionary",
                 language_code,
                 language_inferred,
                 language
