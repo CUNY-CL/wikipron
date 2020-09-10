@@ -351,9 +351,32 @@ LANGUAGE_CODES = {
     "miyako": "Miyako",
     # Pennsylvania German. Not in iso639 lib.
     "pdc": "Pennsylvania German",
-    # Central Biko. Not in iso639 lib.
-    "bcl": "Central Bikol",
+    "pennsylvania german": "Pennsylvania German",
     # Namuyi. Not in iso639 lib.
     "nmy": "Namuyi",
     "namuyi": "Namuyi",
+    # Tuvan. Would be "Tuvinian" in ISO 639.
+    "tyv": "Tuvan",
+    "tuvan": "Tuvan",
+    # Bikol Central. Would be "Central Bikol" in ISO 639.
+    "bcl": "Bikol Central",
+    "bikol central": "Bikol Central",
+    # Emilian. ISO 639-3 only.
+    "egl": "Emilian",
+    "emilian": "Emilian",
+    # Ingrian. ISO 639-3 only.
+    "izh": "Ingrian",
+    "ingrian": "Ingrian",
+    # Latgalian. ISO 639-3 only.
+    "ltg": "Latgalian",
+    "latgalian": "Latgalian",
+    # San Pedro Amuzgos Amuzgo. ISO 639-3 only.
+    "azg": "San Pedro Amuzgos Amuzgo",
+    "san pedro amuzgos amuzgo": "San Pedro Amuzgos Amuzgo",
+    # Kyrgyz. Would be "Kirghiz" in ISO 639.
+    "kir": "Kyrgyz",
+    "kyrgyz": "Kyrgyz",
+    # Middle Irish. Would be "Irish, Middle (900-1200)" in ISO 639.
+    "mga": "Middle Irish",
+    "middle irish": "Middle Irish",
 }
