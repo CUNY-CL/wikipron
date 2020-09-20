@@ -2,9 +2,10 @@
 ====================
 
 [`scrape.py`](scrape.py) calls WikiPron's scraping functions on all Wiktionary
-languages with over 100 entries. If a whitelist entry is present for language,
-will generate an additional file filtered to only containing whitelist
-phones/phonemes.[`generate_summary.py`](generate_summary.py) generates a
+languages with over 100 entries. If a `.phones` file is present for a given language,
+the process will generate an additional file filtered to only containing the permitted
+phones/phonemes.
+[`generate_summary.py`](generate_summary.py) generates a
 [README](../README.md) and a [TSV](../languages_summary.tsv) with selected
 information regarding the contents of the TSVs [`scrape.py`](scrape.py)
 generated and the configuration settings that were passed to scrape.

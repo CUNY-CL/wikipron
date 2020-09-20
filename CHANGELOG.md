@@ -50,6 +50,10 @@ Unreleased
 -   Added `tyv` to `languagecodes.py` (\#203, \#205)
 -   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py` (\#205)
 
+### Changed
+
+-   Renamed `.whitelist` file extension name as `.phones`. (\#207)
+
 ### Deprecated
 ### Removed
 -   Moved Wiktionary querying functions from `test_languagecodes.py` to `codes.py` (\#205)

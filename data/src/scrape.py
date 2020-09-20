@@ -18,8 +18,8 @@ import wikipron  # type: ignore
 from codes import LANGUAGES_PATH, LOGGING_PATH
 
 
-def _whitelist_reader(path: str) -> Iterator[str]:
-    # Reads whitelist file.
+def _phones_reader(path: str) -> Iterator[str]:
+    # Reads phones file.
     with open(path, "r") as source:
         for line in source:
             line = re.sub(r"\s*#.*$", "", line)  # Removes comments from line.
@@ -42,19 +42,19 @@ def _call_scrape(
     lang_settings: Dict[str, str],
     config: wikipron.Config,
     tsv_path: str,
-    whitelist_set: FrozenSet[str] = None,
+    phones_set: FrozenSet[str] = None,
     tsv_filtered_path: str = "",
 ) -> None:
     for unused_retries in range(10):
         with open(tsv_path, "w") as source:
             try:
                 scrape_results = wikipron.scrape(config)
-                # Given whitelist, opens up a second tsv for scraping.
-                if whitelist_set:
+                # Given phones, opens up a second tsv for scraping.
+                if phones_set:
                     with open(tsv_filtered_path, "w") as source_filtered:
                         for (word, pron) in scrape_results:
                             line = f"{word}\t{pron}"
-                            if _filter(word, pron, whitelist_set):
+                            if _filter(word, pron, phones_set):
                                 print(line, file=source_filtered)
                             print(line, file=source)
                 else:
@@ -91,23 +91,23 @@ def _build_scraping_config(
     config_settings: Dict[str, Any], wiki_name: str, dialect_suffix: str = ""
 ) -> None:
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
-    whitelist_path_affix = (
-        f"../whitelist/{config_settings['key']}_{dialect_suffix}"
+    phones_path_affix = (
+        f"../phones/{config_settings['key']}_{dialect_suffix}"
     )
 
     # Configures phonemic TSV.
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
-    # Checks for phonemic whitelist file.
-    whitelist_phonemic = f"{whitelist_path_affix}phonemic.whitelist"
-    if os.path.exists(whitelist_phonemic):
+    # Checks for phonemic phones file.
+    phones_phonemic = f"{phones_path_affix}phonemic.phones"
+    if os.path.exists(phones_phonemic):
         logging.info(
-            "Phonemic whitelist found for %r at %r",
+            "Phonemic phones found for %r at %r",
             config_settings["key"],
-            whitelist_phonemic,
+            phones_phonemic,
         )
         phonemic_path_filtered = f"{path_affix}phonemic_filtered.tsv"
-        phoneme_set = frozenset(_whitelist_reader(whitelist_phonemic))
+        phoneme_set = frozenset(_phones_reader(phones_phonemic))
         _call_scrape(
             config_settings,
             phonemic_config,
@@ -121,16 +121,16 @@ def _build_scraping_config(
     # Configures phonetic TSV.
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
-    # Checks for phonetic whitelist file.
-    whitelist_phonetic = f"{whitelist_path_affix}phonetic.whitelist"
-    if os.path.exists(whitelist_phonetic):
+    # Checks for phonetic phones file.
+    phones_phonetic = f"{phones_path_affix}phonetic.phones"
+    if os.path.exists(phones_phonetic):
         logging.info(
-            "Phonetic whitelist found for %r at %r",
+            "Phonetic phones found for %r at %r",
             config_settings["key"],
-            whitelist_phonetic,
+            phones_phonetic,
         )
         phonetic_path_filtered = f"{path_affix}phonetic_filtered.tsv"
-        phone_set = frozenset(_whitelist_reader(whitelist_phonetic))
+        phone_set = frozenset(_phones_reader(phones_phonetic))
         _call_scrape(
             config_settings,
             phonetic_config,
