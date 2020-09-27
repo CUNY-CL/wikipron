@@ -167,6 +167,8 @@
 | [TSV](tsv/nmy_phonetic.tsv) | nmy | Namuyi | Namuyi | True | Phonetic | 365 |
 | [TSV](tsv/nav_phonemic.tsv) | nav | Navajo | Navajo | True | Phonemic | 203 |
 | [TSV](tsv/nap_phonemic.tsv) | nap | Neapolitan | Neapolitan | True | Phonemic | 262 |
+| [TSV](tsv/nep_phonemic.tsv) | nep | Nepali (macrolanguage) | Nepali | False | Phonemic | 944 |
+| [TSV](tsv/nep_phonetic.tsv) | nep | Nepali (macrolanguage) | Nepali | False | Phonetic | 576 |
 | [TSV](tsv/sme_phonemic.tsv) | sme | Northern Sami | Northern Sami | True | Phonemic | 3,346 |
 | [TSV](tsv/nob_phonemic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 1,081 |
 | [TSV](tsv/nob_phonetic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonetic | 554 |
