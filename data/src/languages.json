@@ -827,6 +827,12 @@
         "wiktionary_code": "no",
         "casefold": true
     },
+    "nep": {
+        "iso639_name": "Nepali (macrolanguage)",
+        "wiktionary_name": "Nepali",
+        "wiktionary_code": "ne",
+        "casefold": false
+    },
     "oci": {
         "iso639_name": "Occitan (post 1500)",
         "wiktionary_name": "Occitan",
