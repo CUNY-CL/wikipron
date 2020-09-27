@@ -46,9 +46,10 @@ Unreleased
 -   Split `arm` into Eastern and Western dialects. (\#197)
 -   Rescraped files with new whitelists. (\#199)
 -   Updates logging statements for consistency. (\#196)
--   Adds `aar`, `bdq`, `jje`, and `lsi`. (\#202).
+-   Adds `aar`, `bdq`, `jje`, and `lsi`. (\#202)
 -   Added `tyv` to `languagecodes.py` (\#203, \#205)
--   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py` (\#205)
+-   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py`. (\#205)
+-   Added `nep` to `languagecodes.py`. (\#206)
 
 ### Changed
 
