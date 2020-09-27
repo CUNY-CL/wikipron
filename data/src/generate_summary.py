@@ -23,7 +23,7 @@ def _handle_wiki_name(
             key = file_path[file_path.index("_") + 1 : file_path.rindex("_phone")]
             if not key:
                 logging.info(
-                    'Failed to isolate key for "%s" modifier in "%s".',
+                    "Failed to isolate key for %r modifier in %r",
                     modifier,
                     file_path,
                 )
@@ -52,7 +52,7 @@ def main() -> None:
         if num_of_entries < 100:
             # Logs count of entries to check whether Wikipron scraped any data.
             logging.info(
-                '"%s" (count: %d) has less than 100 entries.',
+                "%r (count: %d) has less than 100 entries",
                 file_path,
                 num_of_entries,
             )

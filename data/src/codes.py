@@ -121,12 +121,12 @@ def _check_language_code_against_wiki(
     try:
         language_inferred = wikipron.Config(key=language_code).language
     except iso639.NonExistentLanguageError:
-        logging.warning('WikiPron cannot handle "%s"', language)
+        logging.warning("WikiPron cannot handle %r", language)
     else:
         if language_inferred != language:
             logging.warning(
-                "WikiPron resolves the key %r to %r"
-                "which is listed as %r on Wiktionary",
+                "WikiPron resolves the key %r to %r "
+                "listed as %r on Wiktionary",
                 language_code,
                 language_inferred,
                 language

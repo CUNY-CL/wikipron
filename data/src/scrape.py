@@ -66,7 +66,7 @@ def _call_scrape(
                 requests.exceptions.ConnectionError,
             ):
                 logging.info(
-                    'Exception detected while scraping: "%s", "%s", "%s."',
+                    "Exception detected while scraping: %r, %r, %r",
                     lang_settings["key"],
                     tsv_path,
                     tsv_filtered_path,
@@ -75,7 +75,7 @@ def _call_scrape(
                 time.sleep(600)
     # Log and remove TSVs for languages that failed.
     logging.info(
-        'Failed to scrape "%s" within 10 retries. %s',
+        "Failed to scrape %r with 10 retries (%s)",
         lang_settings["key"],
         lang_settings,
     )
