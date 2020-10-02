@@ -11,6 +11,7 @@ Unreleased
 ----------
 
 ### Added
+-   Adds French phoneme list and filtered tsv file. (\#213)
 -   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
 -   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
