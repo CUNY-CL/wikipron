@@ -72,8 +72,9 @@
 | [TSV](tsv/fao_phonetic.tsv) | fao | Faroese | Faroese | True | Phonetic | 1,123 |
 | [TSV](tsv/fin_phonemic.tsv) | fin | Finnish | Finnish | True | Phonemic | 56,063 |
 | [TSV](tsv/fin_phonetic.tsv) | fin | Finnish | Finnish | True | Phonetic | 56,055 |
-| [TSV](tsv/fre_phonemic.tsv) | fre | French | French | True | Phonemic | 55,888 |
-| [TSV](tsv/fre_phonetic.tsv) | fre | French | French | True | Phonetic | 195 |
+| [TSV](tsv/fre_phonemic.tsv) | fre | French | French | True | Phonemic | 56,296 |
+| [TSV](tsv/fre_phonemic_filtered.tsv) | fre | French | French | True | Phonemic_filtered | 56,186 |
+| [TSV](tsv/fre_phonetic.tsv) | fre | French | French | True | Phonetic | 185 |
 | [TSV](tsv/glg_phonemic.tsv) | glg | Galician | Galician | True | Phonemic | 4,904 |
 | [TSV](tsv/glg_phonetic.tsv) | glg | Galician | Galician | True | Phonetic | 867 |
 | [TSV](tsv/kld_phonemic.tsv) | kld | Gamilaraay | Gamilaraay | True | Phonemic | 447 |
@@ -167,7 +168,7 @@
 | [TSV](tsv/nmy_phonetic.tsv) | nmy | Namuyi | Namuyi | True | Phonetic | 365 |
 | [TSV](tsv/nav_phonemic.tsv) | nav | Navajo | Navajo | True | Phonemic | 203 |
 | [TSV](tsv/nap_phonemic.tsv) | nap | Neapolitan | Neapolitan | True | Phonemic | 262 |
-| [TSV](tsv/nep_phonemic.tsv) | nep | Nepali (macrolanguage) | Nepali | False | Phonemic | 944 |
+| [TSV](tsv/nep_phonemic.tsv) | nep | Nepali (macrolanguage) | Nepali | False | Phonemic | 943 |
 | [TSV](tsv/nep_phonetic.tsv) | nep | Nepali (macrolanguage) | Nepali | False | Phonetic | 576 |
 | [TSV](tsv/sme_phonemic.tsv) | sme | Northern Sami | Northern Sami | True | Phonemic | 3,346 |
 | [TSV](tsv/nob_phonemic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 1,081 |

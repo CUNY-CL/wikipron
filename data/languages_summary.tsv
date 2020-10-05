@@ -70,8 +70,9 @@ fao_phonemic.tsv	fao	Faroese	Faroese	True	Phonemic	1721
 fao_phonetic.tsv	fao	Faroese	Faroese	True	Phonetic	1123
 fin_phonemic.tsv	fin	Finnish	Finnish	True	Phonemic	56063
 fin_phonetic.tsv	fin	Finnish	Finnish	True	Phonetic	56055
-fre_phonemic.tsv	fre	French	French	True	Phonemic	55888
-fre_phonetic.tsv	fre	French	French	True	Phonetic	195
+fre_phonemic.tsv	fre	French	French	True	Phonemic	56296
+fre_phonemic_filtered.tsv	fre	French	French	True	Phonemic_filtered	56186
+fre_phonetic.tsv	fre	French	French	True	Phonetic	185
 glg_phonemic.tsv	glg	Galician	Galician	True	Phonemic	4904
 glg_phonetic.tsv	glg	Galician	Galician	True	Phonetic	867
 kld_phonemic.tsv	kld	Gamilaraay	Gamilaraay	True	Phonemic	447
@@ -165,7 +166,7 @@ ary_phonemic.tsv	ary	Moroccan Arabic	Moroccan Arabic	False	Phonemic	1045
 nmy_phonetic.tsv	nmy	Namuyi	Namuyi	True	Phonetic	365
 nav_phonemic.tsv	nav	Navajo	Navajo	True	Phonemic	203
 nap_phonemic.tsv	nap	Neapolitan	Neapolitan	True	Phonemic	262
-nep_phonemic.tsv	nep	Nepali (macrolanguage)	Nepali	False	Phonemic	944
+nep_phonemic.tsv	nep	Nepali (macrolanguage)	Nepali	False	Phonemic	943
 nep_phonetic.tsv	nep	Nepali (macrolanguage)	Nepali	False	Phonetic	576
 sme_phonemic.tsv	sme	Northern Sami	Northern Sami	True	Phonemic	3346
 nob_phonemic.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	True	Phonemic	1081
