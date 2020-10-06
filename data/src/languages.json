@@ -539,7 +539,11 @@
         "iso639_name": "Kirghiz",
         "wiktionary_name": "Kyrgyz",
         "wiktionary_code": "ky",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "ara": "Arabic",
+            "cyrl": "Cyrillic"
+        }
     },
     "lmy": {
         "iso639_name": "Lamboya",
