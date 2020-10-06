@@ -51,6 +51,7 @@ Unreleased
 -   Added `tyv` to `languagecodes.py` (\#203, \#205)
 -   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py`. (\#205)
 -   Added `nep` to `languagecodes.py`. (\#206)
+-   Split `kir` into Cyrillic and Arabic. (\#216)
 
 ### Changed
 
