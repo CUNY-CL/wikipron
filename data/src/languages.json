@@ -119,7 +119,11 @@
         "iso639_name": "Balinese",
         "wiktionary_name": "Balinese",
         "wiktionary_code": "ban",
-        "casefold": false
+        "casefold": true,
+        "script": {
+            "bali": "Balinese",
+            "latn": "Latin"
+        }
     },
     "bak": {
         "iso639_name": "Bashkir",
