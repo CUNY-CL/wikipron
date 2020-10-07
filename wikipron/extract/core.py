@@ -15,13 +15,19 @@ if typing.TYPE_CHECKING:
 def _skip_pron(pron: str, config: "Config") -> bool:
     if "-" in pron:
         return True
-    if " " in pron and config.language != "Chinese" and config.no_skip_space == False:
+    if (
+        " " in pron
+        and config.language != "Chinese"
+        and config.skip_space == True
+    ):
         return True
     return False
 
 
 def yield_pron(
-    request_html: requests_html.Element, ipa_xpath_selector: str, config: "Config"
+    request_html: requests_html.Element,
+    ipa_xpath_selector: str,
+    config: "Config",
 ) -> "Iterator[Pron]":
     for ipa_element in request_html.xpath(ipa_xpath_selector):
         m = re.search(
