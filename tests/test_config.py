@@ -39,9 +39,7 @@ def test_casefold(casefold, input_word, expected_word):
         (True, True, "", None),
     ],
 )
-def test_process_pron(
-    stress, syllable_boundaries, input_pron, expected_pron
-):
+def test_process_pron(stress, syllable_boundaries, input_pron, expected_pron):
     config = config_factory(
         stress=stress, syllable_boundaries=syllable_boundaries
     )

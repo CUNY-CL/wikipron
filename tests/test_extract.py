@@ -31,7 +31,7 @@ def test_extraction_functions_have_the_same_signature(func):
         # GH-105: Dashed prons are skipped.
         ("ɑb-", "eng", True),
         # Spaces in Chinese prons are not skipped.
-        ("ɕjɛ tu", "cmn", False)
+        ("ɕjɛ tu", "cmn", False),
     ],
 )
 def test__skip_pron(pron, iso639_key, expected):
