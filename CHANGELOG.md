@@ -54,6 +54,7 @@ Unreleased
 -   Split `ban` into Latin and Balinese scripts. (\#214)
 -   Scrape and add Ingrian (`izh`). (\#215)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
+-   Customized extractor and new scraped prons for `khb`. (\#219)
 
 ### Changed
 
