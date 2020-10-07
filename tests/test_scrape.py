@@ -80,7 +80,7 @@ def test_special_languages_covered_by_smoke_test():
     ],
 )
 def test__skip_word(word, expected):
-    assert _skip_word(word) == expected
+    assert _skip_word(word, True) == expected
 
 
 @pytest.mark.parametrize(
