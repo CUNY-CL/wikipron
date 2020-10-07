@@ -20,7 +20,7 @@ ast_phonetic.tsv	ast	Asturian	Asturian	True	Phonetic	131
 aze_latn_phonemic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonemic	225
 aze_latn_phonetic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonetic	2579
 bdq_phonemic.tsv	bdq	Bahnar	Bahnar	True	Phonemic	149
-ban_phonemic.tsv	ban	Balinese	Balinese	False	Phonemic	181
+ban_bali_phonemic.tsv	ban	Balinese	Balinese (Balinese)	True	Phonemic	178
 bak_phonemic.tsv	bak	Bashkir	Bashkir	True	Phonemic	108
 bak_phonetic.tsv	bak	Bashkir	Bashkir	True	Phonetic	2006
 baq_phonemic.tsv	baq	Basque	Basque	True	Phonemic	1256
