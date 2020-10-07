@@ -31,10 +31,10 @@ _SMOKE_TEST_LANGUAGES = [
     # Test that the extra "span" layer for Korean is handled.
     # Korean data is mostly phonetic transcription only.
     SmokeTestLanguage("kor", "Korean", {"phonetic": True}),
+    SmokeTestLanguage("khb", "Lü", {}),
     SmokeTestLanguage("khm", "Khmer", {}),
     SmokeTestLanguage("tha", "Thai", {}),
     SmokeTestLanguage("lat", "Latin", {}),
-    SmokeTestLanguage("khb", "Lü", {}),
     # Japanese data is mostly phonetic transcription.
     SmokeTestLanguage("jpn", "Japanese", {"phonetic": True}),
     SmokeTestLanguage("cmn", "Chinese", {}),
