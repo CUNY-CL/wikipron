@@ -24,6 +24,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--stress",
+        default=True,
         help=(
             "By default, the IPA pronunciation includes stress marks."
             "If set to False, remove stress marks in the pronunciation."
@@ -31,6 +32,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--syllable-boundaries",
+        default=True,
         help=(
             "By default, the IPA pronunciation includes syllable boundary markes."
             "If set to False, remove syllable boundary marks in the pronunciation."
@@ -68,6 +70,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--segment",
+        default=True,
         help=(
             "By default, the IPA pronunciation is segmented by whitespace and,"
             "to the extent possible, with a diacritic (either combining "
@@ -79,6 +82,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     )
     parser.add_argument(
         "--skip-space",
+        default=True,
         help=(
             "By default, a word including a space will be exluded."
             "For example, 'ice cream' includes a space"
