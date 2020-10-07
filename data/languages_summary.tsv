@@ -102,6 +102,7 @@ ice_phonetic.tsv	ice	Icelandic	Icelandic	True	Phonetic	338
 ido_phonemic.tsv	ido	Ido	Ido	True	Phonemic	6143
 ind_phonemic.tsv	ind	Indonesian	Indonesian	True	Phonemic	1323
 ind_phonetic.tsv	ind	Indonesian	Indonesian	True	Phonetic	1645
+izh_phonemic.tsv	izh	Ingrian	Ingrian	True	Phonemic	426
 ina_phonemic.tsv	ina	Interlingua (International Auxiliary Language Association)	Interlingua	True	Phonemic	265
 gle_phonemic.tsv	gle	Irish	Irish	True	Phonemic	6731
 gle_phonetic.tsv	gle	Irish	Irish	True	Phonetic	1606

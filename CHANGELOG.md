@@ -52,6 +52,7 @@ Unreleased
 -   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py`. (\#205)
 -   Added `nep` to `languagecodes.py`. (\#206)
 -   Split `ban` into Latin and Balinese scripts. (\#214)
+-   Scrape and add Ingrian (`izh`). (\#215)
 
 ### Changed
 

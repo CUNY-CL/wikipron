@@ -104,6 +104,7 @@
 | [TSV](tsv/ido_phonemic.tsv) | ido | Ido | Ido | True | Phonemic | 6,143 |
 | [TSV](tsv/ind_phonemic.tsv) | ind | Indonesian | Indonesian | True | Phonemic | 1,323 |
 | [TSV](tsv/ind_phonetic.tsv) | ind | Indonesian | Indonesian | True | Phonetic | 1,645 |
+| [TSV](tsv/izh_phonemic.tsv) | izh | Ingrian | Ingrian | True | Phonemic | 426 |
 | [TSV](tsv/ina_phonemic.tsv) | ina | Interlingua (International Auxiliary Language Association) | Interlingua | True | Phonemic | 265 |
 | [TSV](tsv/gle_phonemic.tsv) | gle | Irish | Irish | True | Phonemic | 6,731 |
 | [TSV](tsv/gle_phonetic.tsv) | gle | Irish | Irish | True | Phonetic | 1,606 |
