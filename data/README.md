@@ -141,6 +141,7 @@
 | [TSV](tsv/dsb_phonetic.tsv) | dsb | Lower Sorbian | Lower Sorbian | True | Phonetic | 1,364 |
 | [TSV](tsv/ltz_phonemic.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | True | Phonemic | 4,111 |
 | [TSV](tsv/ltz_phonetic.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | True | Phonetic | 1,758 |
+| [TSV](tsv/khb_phonemic.tsv) | khb | Lü | Lü | False | Phonemic | 304 |
 | [TSV](tsv/mac_phonetic.tsv) | mac | Macedonian | Macedonian | True | Phonetic | 5,979 |
 | [TSV](tsv/mlg_phonemic.tsv) | mlg | Malagasy | Malagasy | True | Phonemic | 124 |
 | [TSV](tsv/may_ara_phonemic.tsv) | may | Malay (macrolanguage) | Malay (Arabic) | True | Phonemic | 630 |
