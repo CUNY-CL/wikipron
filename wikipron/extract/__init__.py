@@ -1,8 +1,8 @@
 from wikipron.extract.cmn import extract_word_pron_cmn
 from wikipron.extract.jpn import extract_word_pron_jpn
-from wikipron.extract.khb import extract_word_pron_lu
 from wikipron.extract.khm import extract_word_pron_khmer
 from wikipron.extract.lat import extract_word_pron_latin
+from wikipron.extract.khb import extract_word_pron_lu
 from wikipron.extract.tha import extract_word_pron_thai
 from wikipron.extract.vie import extract_word_pron_vie
 
