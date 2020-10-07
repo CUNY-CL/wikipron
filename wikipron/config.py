@@ -51,26 +51,28 @@ class Config:
         *,
         key: str,
         casefold: bool = False,
-        no_stress: bool = False,
-        no_syllable_boundaries: bool = False,
+        stress: bool = True,
+        syllable_boundaries: bool = True,
         cut_off_date: Optional[str] = None,
         phonetic: bool = False,
         dialect: Optional[str] = None,
-        no_segment: bool = False,
-        no_skip_space: bool = False,
+        segment: bool = True,
+        skip_space: bool = True,
     ):
         self.language: str = self._get_language(key)
-        self.no_skip_space = no_skip_space
+        self.skip_space = skip_space
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
         self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
-            no_stress, no_syllable_boundaries, no_segment
+            stress, syllable_boundaries, segment
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
-        self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(self.language)
+        self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
+            self.language
+        )
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -102,7 +104,10 @@ class Config:
             )
             raise ValueError(msg) from e
         if d > today:
-            msg = "Cut-off date cannot be later than today's date: " f"{cut_off_date}"
+            msg = (
+                "Cut-off date cannot be later than today's date: "
+                f"{cut_off_date}"
+            )
             raise ValueError(msg)
         logging.info('Cut-off date: "%s"', cut_off_date)
         return cut_off_date
@@ -111,15 +116,17 @@ class Config:
         return str.casefold if casefold else lambda word: word  # noqa: E731
 
     def _get_process_pron(
-        self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
+        self, stress: bool, syllable_boundaries: bool, segment: bool
     ) -> Callable[[Pron], Pron]:
         processors = []
-        if no_stress:
+        if not stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
-        if no_syllable_boundaries:
+        if not syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
-        if not no_segment:
-            processors.append(functools.partial(segments.Tokenizer(), ipa=True))
+        if segment:
+            processors.append(
+                functools.partial(segments.Tokenizer(), ipa=True)
+            )
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
         def wrapper(pron):
@@ -132,7 +139,9 @@ class Config:
 
         return wrapper
 
-    def _get_pron_xpath_selector(self, language: str, dialect: Optional[str]) -> str:
+    def _get_pron_xpath_selector(
+        self, language: str, dialect: Optional[str]
+    ) -> str:
         if not dialect:
             dialect_selector = ""
         else:
