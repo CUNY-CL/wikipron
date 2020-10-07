@@ -22,7 +22,7 @@
 | [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 225 |
 | [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2,579 |
 | [TSV](tsv/bdq_phonemic.tsv) | bdq | Bahnar | Bahnar | True | Phonemic | 149 |
-| [TSV](tsv/ban_phonemic.tsv) | ban | Balinese | Balinese | False | Phonemic | 181 |
+| [TSV](tsv/ban_bali_phonemic.tsv) | ban | Balinese | Balinese (Balinese) | True | Phonemic | 178 |
 | [TSV](tsv/bak_phonemic.tsv) | bak | Bashkir | Bashkir | True | Phonemic | 108 |
 | [TSV](tsv/bak_phonetic.tsv) | bak | Bashkir | Bashkir | True | Phonetic | 2,006 |
 | [TSV](tsv/baq_phonemic.tsv) | baq | Basque | Basque | True | Phonemic | 1,256 |
@@ -73,7 +73,6 @@
 | [TSV](tsv/fin_phonemic.tsv) | fin | Finnish | Finnish | True | Phonemic | 56,063 |
 | [TSV](tsv/fin_phonetic.tsv) | fin | Finnish | Finnish | True | Phonetic | 56,055 |
 | [TSV](tsv/fre_phonemic.tsv) | fre | French | French | True | Phonemic | 56,296 |
-| [TSV](tsv/fre_phonemic_filtered.tsv) | fre | French | French | True | Phonemic_filtered | 56,186 |
 | [TSV](tsv/fre_phonetic.tsv) | fre | French | French | True | Phonetic | 185 |
 | [TSV](tsv/glg_phonemic.tsv) | glg | Galician | Galician | True | Phonemic | 4,904 |
 | [TSV](tsv/glg_phonetic.tsv) | glg | Galician | Galician | True | Phonetic | 867 |
@@ -105,6 +104,7 @@
 | [TSV](tsv/ido_phonemic.tsv) | ido | Ido | Ido | True | Phonemic | 6,143 |
 | [TSV](tsv/ind_phonemic.tsv) | ind | Indonesian | Indonesian | True | Phonemic | 1,323 |
 | [TSV](tsv/ind_phonetic.tsv) | ind | Indonesian | Indonesian | True | Phonetic | 1,645 |
+| [TSV](tsv/izh_phonemic.tsv) | izh | Ingrian | Ingrian | True | Phonemic | 426 |
 | [TSV](tsv/ina_phonemic.tsv) | ina | Interlingua (International Auxiliary Language Association) | Interlingua | True | Phonemic | 265 |
 | [TSV](tsv/gle_phonemic.tsv) | gle | Irish | Irish | True | Phonemic | 6,731 |
 | [TSV](tsv/gle_phonetic.tsv) | gle | Irish | Irish | True | Phonetic | 1,606 |
