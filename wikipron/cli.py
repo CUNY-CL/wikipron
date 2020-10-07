@@ -11,23 +11,30 @@ from wikipron.scrape import scrape
 
 def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=wikipron.__doc__)
-    parser.add_argument("key", help="Key (i.e., ISO 639 code or name) for the language")
+    parser.add_argument(
+        "key", help="Key (i.e., ISO 639 code or name) for the language"
+    )
     parser.add_argument(
         "--phonetic",
         action="store_true",
         help=(
-            "Retrieve the [phonetic] transcriptions " "rather than the /phonemic/ ones."
+            "Retrieve the [phonetic] transcriptions "
+            "rather than the /phonemic/ ones."
         ),
     )
     parser.add_argument(
-        "--no-stress",
-        action="store_true",
-        help="Remove stress marks in pronunciations.",
+        "--stress",
+        help=(
+            "By default, the IPA pronunciation includes stress marks."
+            "If set to False, remove stress marks in the pronunciation."
+        ),
     )
     parser.add_argument(
-        "--no-syllable-boundaries",
-        action="store_true",
-        help="Remove syllable boundary marks in pronunciations.",
+        "--syllable-boundaries",
+        help=(
+            "By default, the IPA pronunciation includes syllable boundary markes."
+            "If set to False, remove syllable boundary marks in the pronunciation."
+        ),
     )
     parser.add_argument(
         "--dialect",
@@ -44,7 +51,9 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--casefold", action="store_true", help="Apply case-folding to the orthography."
+        "--casefold",
+        action="store_true",
+        help="Apply case-folding to the orthography.",
     )
     parser.add_argument(
         "--cut-off-date",
@@ -58,25 +67,23 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--no-segment",
-        action="store_true",
+        "--segment",
         help=(
             "By default, the IPA pronunciation is segmented by whitespace and,"
             "to the extent possible, with a diacritic (either combining "
             "or modifier) immediately following the parent symbol. "
             'For example, "kʰæt" is segmented as "kʰ æ t", with kʰ '
             "conveniently segmented as an aspirated k for modeling purposes. "
-            "To disable such IPA segmentation, apply this flag."
+            "To disable such IPA segmentation, set this flag to False."
         ),
     )
     parser.add_argument(
-        "--no-skip-space",
-        action="store_true",
+        "--skip-space",
         help=(
             "By default, a word including a space will be exluded."
             "For example, 'ice cream' includes a space"
             "This data will be skipped."
-            "To disable such data skip, apply this flag."
+            "To disable such data skip, set this flag to False."
         ),
     )
 
