@@ -53,6 +53,7 @@ Unreleased
 -   Added `nep` to `languagecodes.py`. (\#206)
 -   Split `ban` into Latin and Balinese scripts. (\#214)
 -   Scrape and add Ingrian (`izh`). (\#215)
+-   Split `kir` into Cyrillic and Arabic. (\#216)
 
 ### Changed
 
