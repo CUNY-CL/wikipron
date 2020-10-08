@@ -24,7 +24,7 @@ If you use WikiPron in your research, please cite the following:
 Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean
 Miller, Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020). [Massively
 multilingual pronunciation mining with
-WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In 
+WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In
 In _Proceedings of the 12th Language Resources and Evaluation Conference_,
 pages 4223-4228.
 \[[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)\]
@@ -108,7 +108,7 @@ for word, pron in wikipron.scrape(config):
 Data
 ----
 
-We also make available [a database of 1.7 million word/pronunciation
+We also make available [a database of 2.5 million word/pronunciation
 pairs](https://github.com/kylebgorman/wikipron/tree/master/data) mined using
 WikiPron.
 
