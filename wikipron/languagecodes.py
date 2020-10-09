@@ -379,4 +379,7 @@ LANGUAGE_CODES = {
     # Middle Irish. Would be "Irish, Middle (900-1200)" in ISO 639.
     "mga": "Middle Irish",
     "middle irish": "Middle Irish",
+    # Latgalian. ISO 639-3 only: "Korean, Middle (10th–16th centuries)".
+    "okm": "Middle Korean",
+    "middle korean": "Middle Korean",
 }
