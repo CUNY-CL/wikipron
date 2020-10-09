@@ -48,6 +48,7 @@
 | [TSV](tsv/cop_phonemic.tsv) | cop | Coptic | Coptic | True | Phonemic | 256 |
 | [TSV](tsv/cor_phonemic.tsv) | cor | Cornish | Cornish | True | Phonemic | 108 |
 | [TSV](tsv/cor_phonetic.tsv) | cor | Cornish | Cornish | True | Phonetic | 569 |
+| [TSV](tsv/cos_phonemic.tsv) | cos | Corsican | Corsican | True | Phonemic | 134 |
 | [TSV](tsv/cze_phonemic.tsv) | cze | Czech | Czech | True | Phonemic | 3,379 |
 | [TSV](tsv/cze_phonetic.tsv) | cze | Czech | Czech | True | Phonetic | 25,740 |
 | [TSV](tsv/dlm_phonemic.tsv) | dlm | Dalmatian | Dalmatian | True | Phonemic | 176 |
