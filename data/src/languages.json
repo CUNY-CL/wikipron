@@ -119,7 +119,11 @@
         "iso639_name": "Balinese",
         "wiktionary_name": "Balinese",
         "wiktionary_code": "ban",
-        "casefold": false
+        "casefold": true,
+        "script": {
+            "bali": "Balinese",
+            "latn": "Latin"
+        }
     },
     "bak": {
         "iso639_name": "Bashkir",
@@ -539,7 +543,11 @@
         "iso639_name": "Kirghiz",
         "wiktionary_name": "Kyrgyz",
         "wiktionary_code": "ky",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "ara": "Arabic",
+            "cyrl": "Cyrillic"
+        }
     },
     "lmy": {
         "iso639_name": "Lamboya",

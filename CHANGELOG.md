@@ -11,7 +11,7 @@ Unreleased
 ----------
 
 ### Added
--   Adds French phoneme list and filtered tsv file. (\#213)
+-   Adds French phoneme list and filtered TSV file. (\#213, \#217)
 -   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
 -   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
@@ -51,6 +51,9 @@ Unreleased
 -   Added `tyv` to `languagecodes.py` (\#203, \#205)
 -   Added `bcl`, `egl`, `izh`, `ltg`, `azg`, `kir` and `mga` to `languagecodes.py`. (\#205)
 -   Added `nep` to `languagecodes.py`. (\#206)
+-   Split `ban` into Latin and Balinese scripts. (\#214)
+-   Scrape and add Ingrian (`izh`). (\#215)
+-   Split `kir` into Cyrillic and Arabic. (\#216)
 
 ### Changed
 
