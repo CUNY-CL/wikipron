@@ -73,6 +73,7 @@
 | [TSV](tsv/fin_phonemic.tsv) | fin | Finnish | Finnish | True | Phonemic | 56,063 |
 | [TSV](tsv/fin_phonetic.tsv) | fin | Finnish | Finnish | True | Phonetic | 56,055 |
 | [TSV](tsv/fre_phonemic.tsv) | fre | French | French | True | Phonemic | 56,296 |
+| [TSV](tsv/fre_phonemic_filtered.tsv) | fre | French | French | True | Phonemic_filtered | 56,186 |
 | [TSV](tsv/fre_phonetic.tsv) | fre | French | French | True | Phonetic | 185 |
 | [TSV](tsv/glg_phonemic.tsv) | glg | Galician | Galician | True | Phonemic | 4,904 |
 | [TSV](tsv/glg_phonetic.tsv) | glg | Galician | Galician | True | Phonetic | 867 |

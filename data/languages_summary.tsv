@@ -71,6 +71,7 @@ fao_phonetic.tsv	fao	Faroese	Faroese	True	Phonetic	1123
 fin_phonemic.tsv	fin	Finnish	Finnish	True	Phonemic	56063
 fin_phonetic.tsv	fin	Finnish	Finnish	True	Phonetic	56055
 fre_phonemic.tsv	fre	French	French	True	Phonemic	56296
+fre_phonemic_filtered.tsv	fre	French	French	True	Phonemic_filtered	56186
 fre_phonetic.tsv	fre	French	French	True	Phonetic	185
 glg_phonemic.tsv	glg	Galician	Galician	True	Phonemic	4904
 glg_phonetic.tsv	glg	Galician	Galician	True	Phonetic	867
