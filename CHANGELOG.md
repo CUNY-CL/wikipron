@@ -57,6 +57,7 @@ Unreleased
 
 ### Changed
 
+-   Specified UTF-8 encoding in handling text files. (\#221)
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
 
 ### Deprecated
