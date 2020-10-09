@@ -140,6 +140,7 @@ dsb_phonemic.tsv	dsb	Lower Sorbian	Lower Sorbian	True	Phonemic	1974
 dsb_phonetic.tsv	dsb	Lower Sorbian	Lower Sorbian	True	Phonetic	1364
 ltz_phonemic.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish	True	Phonemic	4111
 ltz_phonetic.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish	True	Phonetic	1758
+khb_phonemic.tsv	khb	Lü	Lü	False	Phonemic	304
 mac_phonetic.tsv	mac	Macedonian	Macedonian	True	Phonetic	5979
 mlg_phonemic.tsv	mlg	Malagasy	Malagasy	True	Phonemic	124
 may_ara_phonemic.tsv	may	Malay (macrolanguage)	Malay (Arabic)	True	Phonemic	630
