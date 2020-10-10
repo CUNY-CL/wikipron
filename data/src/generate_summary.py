@@ -7,7 +7,7 @@ import os
 
 from typing import Any, Dict, List
 
-from codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
+from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
