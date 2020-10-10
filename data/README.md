@@ -161,6 +161,7 @@
 | [TSV](tsv/mic_phonetic.tsv) | mic | Mi'kmaq | Mi'kmaq | True | Phonetic | 135 |
 | [TSV](tsv/dum_phonemic.tsv) | dum | Middle Dutch (ca. 1050-1350) | Middle Dutch | True | Phonemic | 210 |
 | [TSV](tsv/enm_phonemic.tsv) | enm | Middle English (1100-1500) | Middle English | True | Phonemic | 6,543 |
+| [TSV](tsv/mga_phonemic.tsv) | mga | Middle Irish (900-1200) | Middle Irish | True | Phonemic | 213 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 149 |
