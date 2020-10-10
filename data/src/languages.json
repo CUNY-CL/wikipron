@@ -883,6 +883,12 @@
         "wiktionary_code": "non",
         "casefold": true
     },
+    "opt": {
+        "iso639_name": "Old Portuguese; Galician-Portuguese (ca. 870-1400)",
+        "wiktionary_name": "Old Portuguese",
+        "wiktionary_code": "roa-opt",
+        "casefold": true
+    },
     "osx": {
         "iso639_name": "Old Saxon",
         "wiktionary_name": "Old Saxon",

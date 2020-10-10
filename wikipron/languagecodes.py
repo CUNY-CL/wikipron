@@ -156,6 +156,8 @@ LANGUAGE_CODES = {
     "old norse": "Old Norse",
     # Old Portuguese. Not an ISO 639 language.
     "old portuguese": "Old Portuguese",
+    "roa-opt": "Old Portuguese",
+    "opt": "Old Portuguese",
     # Old Saxon. ISO 639-3 only.
     "osx": "Old Saxon",
     "old saxon": "Old Saxon",
