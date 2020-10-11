@@ -4,10 +4,11 @@ import shutil
 from contextlib import contextmanager
 
 _TESTS_DIR = os.path.dirname(
-    os.path.dirname(os.path.realpath(__file__))
+    os.getcwd()
 )
 _TSV_PATH = f"{_TESTS_DIR}/tsv"
 _PHONES_PATH = f"{_TESTS_DIR}/phones"
+
 
 def write_files_dummy_phones_files(key: str, dialect: str):
     with open(
@@ -26,7 +27,6 @@ def write_files_dummy_phones_files(key: str, dialect: str):
 def handle_dummy_files(phones: bool, key: str, dialect: str):
     os.mkdir(_TSV_PATH)
     os.mkdir(_PHONES_PATH)
-    print("IN CONTENXT MAANGER")
     if phones:
         write_files_dummy_phones_files(key, dialect)
     yield _TSV_PATH
