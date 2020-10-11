@@ -8,8 +8,11 @@ from data.src.scrape import _build_scraping_config
 
 PARENT_DIR = os.path.dirname(os.getcwd())
 
-# "mul" is code given to Translingual by Wiktionary.
-# Resolved to "Multiple Languages" by iso639 package.
+# "mul" should be a future-proof iso639 code to test with.
+# "mul" is resolved to "Multiple Languages" by iso639 package,
+# which is a non-existent category on Wikitionary.
+# An alternative solution to using "mul" would be to add
+# a code to languagecodes.py explicitly for the purposes of testing.
 @pytest.mark.parametrize(
     "config_settings, dialect_suffix, phones, expected_file_name",
     [
