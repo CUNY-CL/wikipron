@@ -1,0 +1,43 @@
+# Based on https://en.wikipedia.org/wiki/Serbo-Croatian_phonology and https://en.wikipedia.org/wiki/Help:IPA/Serbo-Croatian.
+a
+i
+t
+̌
+o
+r
+n
+e
+s
+k
+̂
+ʋ
+l
+p
+d
+u
+m
+j
+ʃ
+z
+b
+iː
+ɡ
+aː
+ʎ
+oː
+x
+ʒ
+eː
+f
+ɲ
+t͡s
+t͡ʃ
+ɕ
+uː
+ʑ
+t͡ɕ
+d͡ʑ
+d͡ʒ
+v  # Allophone of /ʋ/.
+r̩
+rː  # Syllabic, but apparently transcribed without the corresponding diacritic, as in the entry of <mȉlosr̄đe>. Only one instance of /r̩ː/ is found in the corpus.
