@@ -22,7 +22,7 @@ def test_summary_matches_language_data():
             num_of_entries = sum(1 for line in tsv)
             observed_name_to_count[unique_tsv] = num_of_entries
 
-    with open(_SUMMARY, "r") as lang_summary:
+    with open(_SUMMARY, "r", encoding="utf-8") as lang_summary:
         summary_files = [line.rstrip().split("\t")[0] for line in lang_summary]
 
     for summary_file in summary_files:
@@ -39,7 +39,7 @@ def test_language_data_matches_summary():
     (Basically checks whether generate_summary.py has been run.)
     """
     name_count_dict = {}
-    with open(_SUMMARY, "r") as lang_summary:
+    with open(_SUMMARY, "r", encoding="utf-8") as lang_summary:
         vals = [line.rstrip().split("\t") for line in lang_summary]
         for val in vals:
             name_count_dict[val[0]] = int(val[-1])

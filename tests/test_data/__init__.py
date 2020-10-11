@@ -10,9 +10,13 @@ _PHONES_PATH = f"{_TESTS_DIR}/phones"
 
 def write_dummy_phones_files(key: str, dialect: str) -> None:
     """Creates dummy .phones files in dummy phones directory."""
-    with open(f"{_PHONES_PATH}/{key}_{dialect}phonetic.phones", "w",) as f1:
+    with open(
+        f"{_PHONES_PATH}/{key}_{dialect}phonetic.phones", "w", encoding="utf-8"
+    ) as f1:
         f1.write("a")
-    with open(f"{_PHONES_PATH}/{key}_{dialect}phonemic.phones", "w",) as f2:
+    with open(
+        f"{_PHONES_PATH}/{key}_{dialect}phonemic.phones", "w", encoding="utf-8"
+    ) as f2:
         f2.write("a")
 
 
