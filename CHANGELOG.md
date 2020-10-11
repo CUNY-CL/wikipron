@@ -11,6 +11,7 @@ Unreleased
 ----------
 
 ### Added
+-   Adds `tests/test_data` directory containing two tests. (\#226)
 -   Adds French phoneme list and filtered TSV file. (\#213, \#217)
 -   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
@@ -58,6 +59,7 @@ Unreleased
 
 ### Changed
 
+-   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
 
