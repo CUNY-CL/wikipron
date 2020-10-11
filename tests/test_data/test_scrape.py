@@ -1,11 +1,13 @@
 import os
-import shutil
+
+from typing import List
 
 import pytest
 
 from data.src.scrape import _build_scraping_config
 
 from . import handle_dummy_files
+
 
 # "mul" should be a future-proof iso639 code to test with.
 # "mul" is resolved to "Multiple Languages" by iso639 package,
@@ -32,20 +34,22 @@ from . import handle_dummy_files
             {"key": "mul"},
             "test_",
             False,
-            ["mul_test_phonetic.tsv", "mul_test_phonemic.tsv",],
+            ["mul_test_phonetic.tsv", "mul_test_phonemic.tsv"],
         ),
         # Standard
-        (
-            {"key": "mul"},
-            "",
-            False,
-            ["mul_phonetic.tsv", "mul_phonemic.tsv",],
-        ),
+        ({"key": "mul"}, "", False, ["mul_phonetic.tsv", "mul_phonemic.tsv"],),
     ],
 )
 def test_file_creation(
-    config_settings, dialect_suffix, phones, expected_file_name
+    config_settings: object,
+    dialect_suffix: str,
+    phones: bool,
+    expected_file_name: List[str],
 ):
+    """Check whether _build_scraping_config() outputs TSVs with expected
+    file names based on presence or absence of dialect specification
+    or .phones files for a given language.
+    """
     with handle_dummy_files(
         phones, config_settings["key"], dialect_suffix
     ) as dummy_tsv_path:
