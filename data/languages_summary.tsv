@@ -214,7 +214,9 @@ sco_phonetic.tsv	sco	Scots	Scots	True	Phonetic	423
 gla_phonemic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	True	Phonemic	1133
 gla_phonetic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	True	Phonetic	114
 hbs_cyrl_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic	22725
+hbs_cyrl_phonemic_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic_filtered	22695
 hbs_latn_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic	23793
+hbs_latn_phonemic_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic_filtered	23670
 scn_phonemic.tsv	scn	Sicilian	Sicilian	True	Phonemic	799
 scn_phonetic.tsv	scn	Sicilian	Sicilian	True	Phonetic	224
 slo_phonemic.tsv	slo	Slovak	Slovak	True	Phonemic	3630
