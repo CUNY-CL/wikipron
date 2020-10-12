@@ -56,6 +56,7 @@ Unreleased
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
 -   Added Coriscan (`cos`). (\#222)
+-   Added Middle Korean (`okm`). (\#223)
 -   Added Middle Irish (`mga`). (\#224)
 
 ### Changed

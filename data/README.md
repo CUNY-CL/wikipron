@@ -123,6 +123,7 @@
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,109 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 13,706 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 11,785 |
+| [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,157 |
 | [TSV](tsv/lmy_phonetic.tsv) | lmy | Lamboya | Laboya | True | Phonetic | 128 |
 | [TSV](tsv/lad_phonemic.tsv) | lad | Ladino | Ladino | True | Phonemic | 110 |

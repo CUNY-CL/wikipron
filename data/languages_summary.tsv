@@ -121,6 +121,7 @@ khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	3935
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1109
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	13706
 kor_phonetic_filtered.tsv	kor	Korean	Korean	False	Phonetic_filtered	11785
+| [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 kur_phonemic.tsv	kur	Kurdish	Kurdish	True	Phonemic	1157
 lmy_phonetic.tsv	lmy	Lamboya	Laboya	True	Phonetic	128
 lad_phonemic.tsv	lad	Ladino	Ladino	True	Phonemic	110
@@ -160,7 +161,7 @@ mic_phonemic.tsv	mic	Mi'kmaq	Mi'kmaq	True	Phonemic	137
 mic_phonetic.tsv	mic	Mi'kmaq	Mi'kmaq	True	Phonetic	135
 dum_phonemic.tsv	dum	Middle Dutch (ca. 1050-1350)	Middle Dutch	True	Phonemic	210
 enm_phonemic.tsv	enm	Middle English (1100-1500)	Middle English	True	Phonemic	6543
-mga_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish	True	Phonemic	213
+xmga_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish	True	Phonemic	213
 gml_phonemic.tsv	gml	Middle Low German	Middle Low German	True	Phonemic	169
 wlm_phonemic.tsv	wlm	Middle Welsh	Middle Welsh	True	Phonemic	144
 mnw_phonemic.tsv	mnw	Mon	Mon	False	Phonemic	149

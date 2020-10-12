@@ -736,6 +736,12 @@
         "wiktionary_code": "mga",
         "casefold": true
     },
+    "okm": {
+        "iso639_name": "Korean, Middle (10th–16th centuries)",
+        "wiktionary_name": "Middle Korean",
+        "wiktionary_code": "okm",
+        "casefold": false
+    },
     "gml": {
         "iso639_name": "Middle Low German",
         "wiktionary_name": "Middle Low German",
