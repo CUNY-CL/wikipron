@@ -109,7 +109,7 @@ def _scrape_wiktionary_language_code(lang_title: str) -> str:
     session = requests_html.HTMLSession()
     language_page = session.get(
         f"https://en.wiktionary.org/wiki/Category:{lang_title}_language",
-        timeout=10
+        timeout=10,
     )
     return language_page.html.xpath(lang_code_selector)[0].text
 
@@ -129,20 +129,20 @@ def _check_language_code_against_wiki(
                 "listed as %r on Wiktionary",
                 language_code,
                 language_inferred,
-                language
+                language,
             )
 
 
 def main() -> None:
     new_languages = {}
     unmatched_languages = {}
-    with open(LANGUAGES_PATH, "r") as lang_source:
+    with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         prev_languages = json.load(lang_source)
 
-    with open(ISO_639_1_PATH, "r") as iso1_source:
+    with open(ISO_639_1_PATH, "r", encoding="utf-8") as iso1_source:
         iso639_1 = json.load(iso1_source)
 
-    with open(ISO_639_2_PATH, "r") as iso2_source:
+    with open(ISO_639_2_PATH, "r", encoding="utf-8") as iso2_source:
         iso639_2 = json.load(iso2_source)
 
     categories = _get_language_categories()
@@ -155,11 +155,11 @@ def main() -> None:
                 wiktionary_name.replace(" ", "_")
             )
             if wiktionary_code in iso639_1:
-                iso639_code = iso639_1[wiktionary_code]['code']
-                iso639_name = iso639_1[wiktionary_code]['name']
+                iso639_code = iso639_1[wiktionary_code]["code"]
+                iso639_name = iso639_1[wiktionary_code]["name"]
             elif wiktionary_code in iso639_2:
                 iso639_code = wiktionary_code
-                iso639_name = iso639_2[wiktionary_code]['name']
+                iso639_name = iso639_2[wiktionary_code]["name"]
             else:
                 # No match found for the Wiktionary code.
                 unmatched_languages[wiktionary_code] = {
@@ -187,9 +187,9 @@ def main() -> None:
                 }
             _check_language_code_against_wiki(iso639_code, wiktionary_name)
 
-    with open(LANGUAGES_PATH, "w") as sink:
+    with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
         json.dump(new_languages, sink, indent=4, ensure_ascii=False)
-    with open(UNMATCHED_LANGUAGES_PATH, "w") as sink:
+    with open(UNMATCHED_LANGUAGES_PATH, "w", encoding="utf-8") as sink:
         json.dump(unmatched_languages, sink, indent=4, ensure_ascii=False)
 
 

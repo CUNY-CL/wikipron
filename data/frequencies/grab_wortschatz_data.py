@@ -50,7 +50,7 @@ def unpack():
 
 
 def main():
-    with open(WORTSCHATZ_DICT_PATH, "r") as langs:
+    with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
 
     # Hack for repeatedly attempting to download Wortschatz data

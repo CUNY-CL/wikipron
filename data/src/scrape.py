@@ -20,7 +20,7 @@ from codes import LANGUAGES_PATH, LOGGING_PATH
 
 def _phones_reader(path: str) -> Iterator[str]:
     # Reads phones file.
-    with open(path, "r") as source:
+    with open(path, "r", encoding="utf-8") as source:
         for line in source:
             line = re.sub(r"\s*#.*$", "", line)  # Removes comments from line.
             yield line.rstrip()
@@ -46,12 +46,14 @@ def _call_scrape(
     tsv_filtered_path: str = "",
 ) -> None:
     for unused_retries in range(10):
-        with open(tsv_path, "w") as source:
+        with open(tsv_path, "w", encoding="utf-8") as source:
             try:
                 scrape_results = wikipron.scrape(config)
                 # Given phones, opens up a second tsv for scraping.
                 if phones_set:
-                    with open(tsv_filtered_path, "w") as source_filtered:
+                    with open(
+                        tsv_filtered_path, "w", encoding="utf-8"
+                    ) as source_filtered:
                         for (word, pron) in scrape_results:
                             line = f"{word}\t{pron}"
                             if _filter(word, pron, phones_set):
@@ -91,9 +93,7 @@ def _build_scraping_config(
     config_settings: Dict[str, Any], wiki_name: str, dialect_suffix: str = ""
 ) -> None:
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
-    phones_path_affix = (
-        f"../phones/{config_settings['key']}_{dialect_suffix}"
-    )
+    phones_path_affix = f"../phones/{config_settings['key']}_{dialect_suffix}"
 
     # Configures phonemic TSV.
     phonemic_config = wikipron.Config(**config_settings)
@@ -143,7 +143,7 @@ def _build_scraping_config(
 
 
 def main(args: argparse.Namespace) -> None:
-    with open(LANGUAGES_PATH, "r") as source:
+    with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
 
     codes = list(languages.keys())
