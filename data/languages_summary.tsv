@@ -251,7 +251,7 @@ ton_phonemic.tsv	ton	Tonga (Tonga Islands)	Tongan	True	Phonemic	155
 tur_phonemic.tsv	tur	Turkish	Turkish	True	Phonemic	1755
 tur_phonetic.tsv	tur	Turkish	Turkish	True	Phonetic	2036
 tuk_phonemic.tsv	tuk	Turkmen	Turkmen	True	Phonemic	106
-tyv_phonemic.tsv	tyv	Tuvinian	Tuvan	True	Phonemic	465
+tyv_cyrl_phonemic.tsv	tyv	Tuvinian	Tuvan (Cyrillic)	True	Phonemic	461
 ukr_phonetic.tsv	ukr	Ukrainian	Ukrainian	True	Phonetic	5069
 urd_phonemic.tsv	urd	Urdu	Urdu	False	Phonemic	750
 uig_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	257
