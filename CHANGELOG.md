@@ -55,10 +55,13 @@ Unreleased
 -   Scrape and add Ingrian (`izh`). (\#215)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
--   New scrape of `opt` (Old Portuguese). (\#225).
+-   Added Coriscan (`cos`). (\#222)
+-   Added Middle Irish (`mga`). (\#224)
+-   Added Old Portuguese (`opt`). (\#225).
 
 ### Changed
 
+-   Specified UTF-8 encoding in handling text files. (\#221)
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
 
 ### Deprecated

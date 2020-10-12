@@ -255,6 +255,12 @@
         "wiktionary_code": "kw",
         "casefold": true
     },
+    "cos": {
+        "iso639_name": "Corsican",
+        "wiktionary_name": "Corsican",
+        "wiktionary_code": "co",
+        "casefold": true
+    },
     "cze": {
         "iso639_name": "Czech",
         "wiktionary_name": "Czech",
