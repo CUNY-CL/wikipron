@@ -11,7 +11,6 @@ Unreleased
 ----------
 
 ### Added
--   Adds French phoneme list and filtered TSV file. (\#213, \#217)
 -   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
 -   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
@@ -54,11 +53,13 @@ Unreleased
 -   Split `ban` into Latin and Balinese scripts. (\#214)
 -   Scrape and add Ingrian (`izh`). (\#215)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
+-   Adds French phoneme list and filtered TSV file. (\#213, \#217)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
 -   Added Coriscan (`cos`). (\#222)
 -   Added Middle Korean (`okm`). (\#223)
 -   Added Middle Irish (`mga`). (\#224)
--   Added Old Portuguese (`opt`). (\#225).
+-   Added Old Portuguese (`opt`). (\#225)
+-   Adds Serbo-Croatian phoneme list and filtered TSV files. (\#227)
 
 ### Changed
 

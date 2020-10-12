@@ -221,7 +221,9 @@
 | [TSV](tsv/gla_phonemic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonemic | 1,133 |
 | [TSV](tsv/gla_phonetic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonetic | 114 |
 | [TSV](tsv/hbs_cyrl_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic | 22,725 |
+| [TSV](tsv/hbs_cyrl_phonemic_filtered.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic_filtered | 22,695 |
 | [TSV](tsv/hbs_latn_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23,793 |
+| [TSV](tsv/hbs_latn_phonemic_filtered.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic_filtered | 23,670 |
 | [TSV](tsv/scn_phonemic.tsv) | scn | Sicilian | Sicilian | True | Phonemic | 799 |
 | [TSV](tsv/scn_phonetic.tsv) | scn | Sicilian | Sicilian | True | Phonetic | 224 |
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3,630 |
