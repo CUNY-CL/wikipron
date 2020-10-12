@@ -55,6 +55,7 @@ Unreleased
 -   Scrape and add Ingrian (`izh`). (\#215)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
+-   New scrape of `mga` (Middle Irish). (\#224)
 
 ### Changed
 
