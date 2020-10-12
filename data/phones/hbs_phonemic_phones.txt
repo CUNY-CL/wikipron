@@ -1,4 +1,7 @@
-# Based on https://en.wikipedia.org/wiki/Serbo-Croatian_phonology and https://en.wikipedia.org/wiki/Help:IPA/Serbo-Croatian.
+# Based on:
+#
+# https://en.wikipedia.org/wiki/Serbo-Croatian_phonology
+# https://en.wikipedia.org/wiki/Help:IPA/Serbo-Croatian.
 a
 i
 t
