@@ -255,6 +255,12 @@
         "wiktionary_code": "kw",
         "casefold": true
     },
+    "cos": {
+        "iso639_name": "Corsican",
+        "wiktionary_name": "Corsican",
+        "wiktionary_code": "co",
+        "casefold": true
+    },
     "cze": {
         "iso639_name": "Czech",
         "wiktionary_name": "Czech",
@@ -730,6 +736,12 @@
         "wiktionary_code": "mga",
         "casefold": true
     },
+    "okm": {
+        "iso639_name": "Korean, Middle (10th–16th centuries)",
+        "wiktionary_name": "Middle Korean",
+        "wiktionary_code": "okm",
+        "casefold": false
+    },
     "gml": {
         "iso639_name": "Middle Low German",
         "wiktionary_name": "Middle Low German",
@@ -881,6 +893,12 @@
         "iso639_name": "Old Norse",
         "wiktionary_name": "Old Norse",
         "wiktionary_code": "non",
+        "casefold": true
+    },
+    "opt": {
+        "iso639_name": "Old Portuguese; Galician-Portuguese (ca. 870-1400)",
+        "wiktionary_name": "Old Portuguese",
+        "wiktionary_code": "roa-opt",
         "casefold": true
     },
     "osx": {

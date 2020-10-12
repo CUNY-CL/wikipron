@@ -20,7 +20,7 @@ def rewrite_wikipron_tsv(
     try:
         # This is written to be run after remove_duplicates_and_split.sh
         # and retain sorted order.
-        with open(file_to_target, "r") as wiki_file:
+        with open(file_to_target, "r", encoding="utf-8") as wiki_file:
             wiki_tsv = csv.reader(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
@@ -46,7 +46,7 @@ def rewrite_wikipron_tsv(
 
 
 def main():
-    with open(WORTSCHATZ_DICT_PATH, "r") as langs:
+    with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
 
     transcription = ["_phonetic.tsv", "_phonemic.tsv"]
@@ -57,7 +57,7 @@ def main():
         file_to_match = freq_file.rsplit("-", 1)[0]
         logging.info("Currently working on: %s", file_to_match)
 
-        with open(f"freq_tsvs/{freq_file}", "r") as tsv:
+        with open(f"freq_tsvs/{freq_file}", "r", encoding="utf-8") as tsv:
             frequencies_tsv = csv.reader(
                 tsv, delimiter="\t", quoting=csv.QUOTE_NONE
             )

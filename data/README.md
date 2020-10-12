@@ -48,6 +48,7 @@
 | [TSV](tsv/cop_phonemic.tsv) | cop | Coptic | Coptic | True | Phonemic | 256 |
 | [TSV](tsv/cor_phonemic.tsv) | cor | Cornish | Cornish | True | Phonemic | 108 |
 | [TSV](tsv/cor_phonetic.tsv) | cor | Cornish | Cornish | True | Phonetic | 569 |
+| [TSV](tsv/cos_phonemic.tsv) | cos | Corsican | Corsican | True | Phonemic | 134 |
 | [TSV](tsv/cze_phonemic.tsv) | cze | Czech | Czech | True | Phonemic | 3,379 |
 | [TSV](tsv/cze_phonetic.tsv) | cze | Czech | Czech | True | Phonetic | 25,740 |
 | [TSV](tsv/dlm_phonemic.tsv) | dlm | Dalmatian | Dalmatian | True | Phonemic | 176 |
@@ -122,6 +123,7 @@
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,109 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 13,706 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 11,785 |
+| [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,157 |
 | [TSV](tsv/lmy_phonetic.tsv) | lmy | Lamboya | Laboya | True | Phonetic | 128 |
 | [TSV](tsv/lad_phonemic.tsv) | lad | Ladino | Ladino | True | Phonemic | 110 |
@@ -142,6 +144,7 @@
 | [TSV](tsv/dsb_phonetic.tsv) | dsb | Lower Sorbian | Lower Sorbian | True | Phonetic | 1,364 |
 | [TSV](tsv/ltz_phonemic.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | True | Phonemic | 4,111 |
 | [TSV](tsv/ltz_phonetic.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | True | Phonetic | 1,758 |
+| [TSV](tsv/khb_phonemic.tsv) | khb | Lü | Lü | False | Phonemic | 304 |
 | [TSV](tsv/mac_phonetic.tsv) | mac | Macedonian | Macedonian | True | Phonetic | 5,979 |
 | [TSV](tsv/mlg_phonemic.tsv) | mlg | Malagasy | Malagasy | True | Phonemic | 124 |
 | [TSV](tsv/may_ara_phonemic.tsv) | may | Malay (macrolanguage) | Malay (Arabic) | True | Phonemic | 630 |
@@ -160,6 +163,7 @@
 | [TSV](tsv/mic_phonetic.tsv) | mic | Mi'kmaq | Mi'kmaq | True | Phonetic | 135 |
 | [TSV](tsv/dum_phonemic.tsv) | dum | Middle Dutch (ca. 1050-1350) | Middle Dutch | True | Phonemic | 210 |
 | [TSV](tsv/enm_phonemic.tsv) | enm | Middle English (1100-1500) | Middle English | True | Phonemic | 6,543 |
+| [TSV](tsv/mga_phonemic.tsv) | mga | Middle Irish (900-1200) | Middle Irish | True | Phonemic | 213 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 149 |
@@ -186,6 +190,7 @@
 | [TSV](tsv/goh_phonemic.tsv) | goh | Old High German (ca. 750-1050) | Old High German | True | Phonemic | 126 |
 | [TSV](tsv/sga_phonemic.tsv) | sga | Old Irish (to 900) | Old Irish | True | Phonemic | 2,154 |
 | [TSV](tsv/non_phonemic.tsv) | non | Old Norse | Old Norse | True | Phonemic | 161 |
+| [TSV](tsv/opt_phonemic.tsv) | opt | Old Portuguese; Galician-Portuguese (ca. 870-1400) | Old Portuguese | True | Phonemic | 463 |
 | [TSV](tsv/osx_phonemic.tsv) | osx | Old Saxon | Old Saxon | True | Phonemic | 180 |
 | [TSV](tsv/osp_phonetic.tsv) | osp | Old Spanish | Old Spanish | True | Phonetic | 268 |
 | [TSV](tsv/tpw_phonemic.tsv) | tpw | Tupí | Old Tupi | True | Phonemic | 147 |
