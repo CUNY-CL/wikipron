@@ -123,7 +123,6 @@
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,109 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 13,706 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 11,785 |
-| [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/kur_phonemic.tsv) | kur | Kurdish | Kurdish | True | Phonemic | 1,157 |
 | [TSV](tsv/lmy_phonetic.tsv) | lmy | Lamboya | Laboya | True | Phonetic | 128 |
 | [TSV](tsv/lad_phonemic.tsv) | lad | Ladino | Ladino | True | Phonemic | 110 |
@@ -164,6 +163,7 @@
 | [TSV](tsv/dum_phonemic.tsv) | dum | Middle Dutch (ca. 1050-1350) | Middle Dutch | True | Phonemic | 210 |
 | [TSV](tsv/enm_phonemic.tsv) | enm | Middle English (1100-1500) | Middle English | True | Phonemic | 6,543 |
 | [TSV](tsv/mga_phonemic.tsv) | mga | Middle Irish (900-1200) | Middle Irish | True | Phonemic | 213 |
+| [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 149 |
@@ -253,6 +253,7 @@
 | [TSV](tsv/tur_phonemic.tsv) | tur | Turkish | Turkish | True | Phonemic | 1,755 |
 | [TSV](tsv/tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2,036 |
 | [TSV](tsv/tuk_phonemic.tsv) | tuk | Turkmen | Turkmen | True | Phonemic | 106 |
+| [TSV](tsv/tyv_phonemic.tsv) | tyv | Tuvinian | Tuvan | True | Phonemic | 465 |
 | [TSV](tsv/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 5,069 |
 | [TSV](tsv/urd_phonemic.tsv) | urd | Urdu | Urdu | False | Phonemic | 750 |
 | [TSV](tsv/uig_ara_phonemic.tsv) | uig | Uighur | Uyghur (Arabic) | True | Phonemic | 257 |
