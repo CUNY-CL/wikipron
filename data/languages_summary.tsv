@@ -46,6 +46,7 @@ syc_phonetic.tsv	syc	Classical Syriac	Classical Syriac	False	Phonetic	5934
 cop_phonemic.tsv	cop	Coptic	Coptic	True	Phonemic	256
 cor_phonemic.tsv	cor	Cornish	Cornish	True	Phonemic	108
 cor_phonetic.tsv	cor	Cornish	Cornish	True	Phonetic	569
+cos_phonemic.tsv	cos	Corsican	Corsican	True	Phonemic	134
 cze_phonemic.tsv	cze	Czech	Czech	True	Phonemic	3379
 cze_phonetic.tsv	cze	Czech	Czech	True	Phonetic	25740
 dlm_phonemic.tsv	dlm	Dalmatian	Dalmatian	True	Phonemic	176
