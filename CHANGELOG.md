@@ -56,9 +56,11 @@ Unreleased
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
 -   New scrape of `okm` (Middle Korean). (\#223)
+-   New scrape of `mga` (Middle Irish). (\#224)
 
 ### Changed
 
+-   Specified UTF-8 encoding in handling text files. (\#221)
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
 
 ### Deprecated
