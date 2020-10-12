@@ -58,6 +58,7 @@ Unreleased
 -   Added Coriscan (`cos`). (\#222)
 -   Added Middle Korean (`okm`). (\#223)
 -   Added Middle Irish (`mga`). (\#224)
+-   Added Old Portuguese (`opt`). (\#225).
 
 ### Changed
 

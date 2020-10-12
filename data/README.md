@@ -190,6 +190,7 @@
 | [TSV](tsv/goh_phonemic.tsv) | goh | Old High German (ca. 750-1050) | Old High German | True | Phonemic | 126 |
 | [TSV](tsv/sga_phonemic.tsv) | sga | Old Irish (to 900) | Old Irish | True | Phonemic | 2,154 |
 | [TSV](tsv/non_phonemic.tsv) | non | Old Norse | Old Norse | True | Phonemic | 161 |
+| [TSV](tsv/opt_phonemic.tsv) | opt | Old Portuguese; Galician-Portuguese (ca. 870-1400) | Old Portuguese | True | Phonemic | 463 |
 | [TSV](tsv/osx_phonemic.tsv) | osx | Old Saxon | Old Saxon | True | Phonemic | 180 |
 | [TSV](tsv/osp_phonetic.tsv) | osp | Old Spanish | Old Spanish | True | Phonetic | 268 |
 | [TSV](tsv/tpw_phonemic.tsv) | tpw | Tupí | Old Tupi | True | Phonemic | 147 |
