@@ -60,7 +60,8 @@ Unreleased
 -   Added Middle Irish (`mga`). (\#224)
 -   Added Old Portuguese (`opt`). (\#225)
 -   Adds Serbo-Croatian phoneme list and filtered TSV files. (\#227)
--   Added `shn` (Shan) scrape with custom extraction. (\#229)
+-   Added Tuvan (`tyv`). (\#228)
+-   Added Shan (`shn`) with custom extraction. (\#229)
 
 ### Changed
 

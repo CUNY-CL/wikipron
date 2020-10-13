@@ -254,6 +254,7 @@
 | [TSV](tsv/tur_phonemic.tsv) | tur | Turkish | Turkish | True | Phonemic | 1,755 |
 | [TSV](tsv/tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2,036 |
 | [TSV](tsv/tuk_phonemic.tsv) | tuk | Turkmen | Turkmen | True | Phonemic | 106 |
+| [TSV](tsv/tyv_cyrl_phonemic.tsv) | tyv | Tuvinian | Tuvan (Cyrillic) | True | Phonemic | 461 |
 | [TSV](tsv/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 5,069 |
 | [TSV](tsv/urd_phonemic.tsv) | urd | Urdu | Urdu | False | Phonemic | 750 |
 | [TSV](tsv/uig_ara_phonemic.tsv) | uig | Uighur | Uyghur (Arabic) | True | Phonemic | 257 |
