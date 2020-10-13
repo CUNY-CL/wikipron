@@ -83,9 +83,9 @@ ger_phonemic.tsv	ger	German	German	True	Phonemic	33827
 ger_phonetic.tsv	ger	German	German	True	Phonetic	10722
 got_phonemic.tsv	got	Gothic	Gothic	True	Phonemic	868
 got_phonetic.tsv	got	Gothic	Gothic	True	Phonetic	178
-gre_phonemic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic	10054
-gre_phonemic_filtered.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic_filtered	9847
-gre_phonetic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonetic	404
+gre_phonemic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic	10330
+gre_phonemic_filtered.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic_filtered	10272
+gre_phonetic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonetic	400
 afb_phonemic.tsv	afb	Gulf Arabic	Gulf Arabic	False	Phonemic	513
 hts_phonemic.tsv	hts	Hadza	Hadza	True	Phonemic	277
 haw_phonemic.tsv	haw	Hawaiian	Hawaiian	True	Phonemic	473

@@ -85,9 +85,9 @@
 | [TSV](tsv/ger_phonetic.tsv) | ger | German | German | True | Phonetic | 10,722 |
 | [TSV](tsv/got_phonemic.tsv) | got | Gothic | Gothic | True | Phonemic | 868 |
 | [TSV](tsv/got_phonetic.tsv) | got | Gothic | Gothic | True | Phonetic | 178 |
-| [TSV](tsv/gre_phonemic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic | 10,054 |
-| [TSV](tsv/gre_phonemic_filtered.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic_filtered | 9,847 |
-| [TSV](tsv/gre_phonetic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonetic | 404 |
+| [TSV](tsv/gre_phonemic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic | 10,330 |
+| [TSV](tsv/gre_phonemic_filtered.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic_filtered | 10,272 |
+| [TSV](tsv/gre_phonetic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonetic | 400 |
 | [TSV](tsv/afb_phonemic.tsv) | afb | Gulf Arabic | Gulf Arabic | False | Phonemic | 513 |
 | [TSV](tsv/hts_phonemic.tsv) | hts | Hadza | Hadza | True | Phonemic | 277 |
 | [TSV](tsv/haw_phonemic.tsv) | haw | Hawaiian | Hawaiian | True | Phonemic | 473 |
