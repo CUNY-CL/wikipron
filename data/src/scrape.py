@@ -15,7 +15,7 @@ import requests
 import wikipron  # type: ignore
 
 
-from codes import LANGUAGES_PATH, LOGGING_PATH
+from data.src.codes import LANGUAGES_PATH, LOGGING_PATH
 
 
 def _phones_reader(path: str) -> Iterator[str]:
@@ -90,7 +90,7 @@ def _call_scrape(
 
 
 def _build_scraping_config(
-    config_settings: Dict[str, Any], wiki_name: str, dialect_suffix: str = ""
+    config_settings: Dict[str, Any], dialect_suffix: str = ""
 ) -> None:
     path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
     phones_path_affix = f"../phones/{config_settings['key']}_{dialect_suffix}"
@@ -187,7 +187,7 @@ def main(args: argparse.Namespace) -> None:
         }
         if "dialect" not in language_settings:
             _build_scraping_config(
-                config_settings, language_settings["wiktionary_name"]
+                config_settings
             )
         else:
             for (dialect_key, dialect_value) in language_settings[
@@ -196,7 +196,6 @@ def main(args: argparse.Namespace) -> None:
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
-                    language_settings["wiktionary_name"],
                     dialect_key + "_",
                 )
 

@@ -59,14 +59,16 @@ Unreleased
 -   Added Middle Korean (`okm`). (\#223)
 -   Added Middle Irish (`mga`). (\#224)
 -   Added Old Portuguese (`opt`). (\#225)
+-   Adds `tests/test_data` directory containing two tests. (\#226)
 -   Adds Serbo-Croatian phoneme list and filtered TSV files. (\#227)
 -   Added Tuvan (`tyv`). (\#228)
 -   Added Shan (`shn`) with custom extraction. (\#229)
 
 ### Changed
 
--   Specified UTF-8 encoding in handling text files. (\#221)
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
+-   Specified UTF-8 encoding in handling text files. (\#221)
+-   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
 
 ### Deprecated
 ### Removed
