@@ -48,6 +48,7 @@
 | [TSV](tsv/cop_phonemic.tsv) | cop | Coptic | Coptic | True | Phonemic | 256 |
 | [TSV](tsv/cor_phonemic.tsv) | cor | Cornish | Cornish | True | Phonemic | 108 |
 | [TSV](tsv/cor_phonetic.tsv) | cor | Cornish | Cornish | True | Phonetic | 569 |
+| [TSV](tsv/cos_phonemic.tsv) | cos | Corsican | Corsican | True | Phonemic | 134 |
 | [TSV](tsv/cze_phonemic.tsv) | cze | Czech | Czech | True | Phonemic | 3,379 |
 | [TSV](tsv/cze_phonetic.tsv) | cze | Czech | Czech | True | Phonetic | 25,740 |
 | [TSV](tsv/dlm_phonemic.tsv) | dlm | Dalmatian | Dalmatian | True | Phonemic | 176 |
@@ -161,6 +162,8 @@
 | [TSV](tsv/mic_phonetic.tsv) | mic | Mi'kmaq | Mi'kmaq | True | Phonetic | 135 |
 | [TSV](tsv/dum_phonemic.tsv) | dum | Middle Dutch (ca. 1050-1350) | Middle Dutch | True | Phonemic | 210 |
 | [TSV](tsv/enm_phonemic.tsv) | enm | Middle English (1100-1500) | Middle English | True | Phonemic | 6,543 |
+| [TSV](tsv/mga_phonemic.tsv) | mga | Middle Irish (900-1200) | Middle Irish | True | Phonemic | 213 |
+| [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 149 |
@@ -187,6 +190,7 @@
 | [TSV](tsv/goh_phonemic.tsv) | goh | Old High German (ca. 750-1050) | Old High German | True | Phonemic | 126 |
 | [TSV](tsv/sga_phonemic.tsv) | sga | Old Irish (to 900) | Old Irish | True | Phonemic | 2,154 |
 | [TSV](tsv/non_phonemic.tsv) | non | Old Norse | Old Norse | True | Phonemic | 161 |
+| [TSV](tsv/opt_phonemic.tsv) | opt | Old Portuguese; Galician-Portuguese (ca. 870-1400) | Old Portuguese | True | Phonemic | 463 |
 | [TSV](tsv/osx_phonemic.tsv) | osx | Old Saxon | Old Saxon | True | Phonemic | 180 |
 | [TSV](tsv/osp_phonetic.tsv) | osp | Old Spanish | Old Spanish | True | Phonetic | 268 |
 | [TSV](tsv/tpw_phonemic.tsv) | tpw | Tupí | Old Tupi | True | Phonemic | 147 |
@@ -217,7 +221,10 @@
 | [TSV](tsv/gla_phonemic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonemic | 1,133 |
 | [TSV](tsv/gla_phonetic.tsv) | gla | Gaelic; Scottish Gaelic | Scottish Gaelic | True | Phonetic | 114 |
 | [TSV](tsv/hbs_cyrl_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic | 22,725 |
+| [TSV](tsv/hbs_cyrl_phonemic_filtered.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Cyrillic) | True | Phonemic_filtered | 22,695 |
 | [TSV](tsv/hbs_latn_phonemic.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic | 23,793 |
+| [TSV](tsv/hbs_latn_phonemic_filtered.tsv) | hbs | Serbo-Croatian | Serbo-Croatian (Latin) | True | Phonemic_filtered | 23,670 |
+| [TSV](tsv/shn_phonemic.tsv) | shn | Shan | Shan | False | Phonemic | 471 |
 | [TSV](tsv/scn_phonemic.tsv) | scn | Sicilian | Sicilian | True | Phonemic | 799 |
 | [TSV](tsv/scn_phonetic.tsv) | scn | Sicilian | Sicilian | True | Phonetic | 224 |
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3,630 |
@@ -247,6 +254,7 @@
 | [TSV](tsv/tur_phonemic.tsv) | tur | Turkish | Turkish | True | Phonemic | 1,755 |
 | [TSV](tsv/tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2,036 |
 | [TSV](tsv/tuk_phonemic.tsv) | tuk | Turkmen | Turkmen | True | Phonemic | 106 |
+| [TSV](tsv/tyv_cyrl_phonemic.tsv) | tyv | Tuvinian | Tuvan (Cyrillic) | True | Phonemic | 461 |
 | [TSV](tsv/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 5,069 |
 | [TSV](tsv/urd_phonemic.tsv) | urd | Urdu | Urdu | False | Phonemic | 750 |
 | [TSV](tsv/uig_ara_phonemic.tsv) | uig | Uighur | Uyghur (Arabic) | True | Phonemic | 257 |

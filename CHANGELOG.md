@@ -11,8 +11,6 @@ Unreleased
 ----------
 
 ### Added
--   Adds `tests/test_data` directory containing two tests. (\#226)
--   Adds French phoneme list and filtered TSV file. (\#213, \#217)
 -   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
 -   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
@@ -55,13 +53,22 @@ Unreleased
 -   Split `ban` into Latin and Balinese scripts. (\#214)
 -   Scrape and add Ingrian (`izh`). (\#215)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
+-   Adds French phoneme list and filtered TSV file. (\#213, \#217)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
+-   Added Coriscan (`cos`). (\#222)
+-   Added Middle Korean (`okm`). (\#223)
+-   Added Middle Irish (`mga`). (\#224)
+-   Added Old Portuguese (`opt`). (\#225)
+-   Adds `tests/test_data` directory containing two tests. (\#226)
+-   Adds Serbo-Croatian phoneme list and filtered TSV files. (\#227)
+-   Added Tuvan (`tyv`). (\#228)
+-   Added Shan (`shn`) with custom extraction. (\#229)
 
 ### Changed
 
--   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
--   Specified UTF-8 encoding in handling text files. (\#221)
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
+-   Specified UTF-8 encoding in handling text files. (\#221)
+-   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
 
 ### Deprecated
 ### Removed

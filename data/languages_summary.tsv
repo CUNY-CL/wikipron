@@ -46,6 +46,7 @@ syc_phonetic.tsv	syc	Classical Syriac	Classical Syriac	False	Phonetic	5934
 cop_phonemic.tsv	cop	Coptic	Coptic	True	Phonemic	256
 cor_phonemic.tsv	cor	Cornish	Cornish	True	Phonemic	108
 cor_phonetic.tsv	cor	Cornish	Cornish	True	Phonetic	569
+cos_phonemic.tsv	cos	Corsican	Corsican	True	Phonemic	134
 cze_phonemic.tsv	cze	Czech	Czech	True	Phonemic	3379
 cze_phonetic.tsv	cze	Czech	Czech	True	Phonetic	25740
 dlm_phonemic.tsv	dlm	Dalmatian	Dalmatian	True	Phonemic	176
@@ -159,6 +160,8 @@ mic_phonemic.tsv	mic	Mi'kmaq	Mi'kmaq	True	Phonemic	137
 mic_phonetic.tsv	mic	Mi'kmaq	Mi'kmaq	True	Phonetic	135
 dum_phonemic.tsv	dum	Middle Dutch (ca. 1050-1350)	Middle Dutch	True	Phonemic	210
 enm_phonemic.tsv	enm	Middle English (1100-1500)	Middle English	True	Phonemic	6543
+mga_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish	True	Phonemic	213
+okm_phonemic.tsv	okm	Korean, Middle (10th–16th centuries)	Middle Korean	False	Phonemic	119
 gml_phonemic.tsv	gml	Middle Low German	Middle Low German	True	Phonemic	169
 wlm_phonemic.tsv	wlm	Middle Welsh	Middle Welsh	True	Phonemic	144
 mnw_phonemic.tsv	mnw	Mon	Mon	False	Phonemic	149
@@ -185,6 +188,7 @@ fro_phonemic.tsv	fro	Old French (842-ca. 1400)	Old French	True	Phonemic	344
 goh_phonemic.tsv	goh	Old High German (ca. 750-1050)	Old High German	True	Phonemic	126
 sga_phonemic.tsv	sga	Old Irish (to 900)	Old Irish	True	Phonemic	2154
 non_phonemic.tsv	non	Old Norse	Old Norse	True	Phonemic	161
+opt_phonemic.tsv	opt	Old Portuguese; Galician-Portuguese (ca. 870-1400)	Old Portuguese	True	Phonemic	463
 osx_phonemic.tsv	osx	Old Saxon	Old Saxon	True	Phonemic	180
 osp_phonetic.tsv	osp	Old Spanish	Old Spanish	True	Phonetic	268
 tpw_phonemic.tsv	tpw	Tupí	Old Tupi	True	Phonemic	147
@@ -215,7 +219,10 @@ sco_phonetic.tsv	sco	Scots	Scots	True	Phonetic	423
 gla_phonemic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	True	Phonemic	1133
 gla_phonetic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	True	Phonetic	114
 hbs_cyrl_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic	22725
+hbs_cyrl_phonemic_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic_filtered	22695
 hbs_latn_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic	23793
+hbs_latn_phonemic_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic_filtered	23670
+shn_phonemic.tsv	shn	Shan	Shan	False	Phonemic	471
 scn_phonemic.tsv	scn	Sicilian	Sicilian	True	Phonemic	799
 scn_phonetic.tsv	scn	Sicilian	Sicilian	True	Phonetic	224
 slo_phonemic.tsv	slo	Slovak	Slovak	True	Phonemic	3630
@@ -245,6 +252,7 @@ ton_phonemic.tsv	ton	Tonga (Tonga Islands)	Tongan	True	Phonemic	155
 tur_phonemic.tsv	tur	Turkish	Turkish	True	Phonemic	1755
 tur_phonetic.tsv	tur	Turkish	Turkish	True	Phonetic	2036
 tuk_phonemic.tsv	tuk	Turkmen	Turkmen	True	Phonemic	106
+tyv_cyrl_phonemic.tsv	tyv	Tuvinian	Tuvan (Cyrillic)	True	Phonemic	461
 ukr_phonetic.tsv	ukr	Ukrainian	Ukrainian	True	Phonetic	5069
 urd_phonemic.tsv	urd	Urdu	Urdu	False	Phonemic	750
 uig_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	257
