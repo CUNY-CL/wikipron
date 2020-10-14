@@ -589,7 +589,12 @@
         "iso639_name": "Latin",
         "wiktionary_name": "Latin",
         "wiktionary_code": "la",
-        "casefold": true
+        "casefold": true,
+        "dialect": {
+            "clas": "Classical",
+            "eccl": "Ecclesiastical",
+            "vulg": "Vulgar"
+        }
     },
     "lav": {
         "iso639_name": "Latvian",

@@ -63,6 +63,7 @@ Unreleased
 -   Adds Serbo-Croatian phoneme list and filtered TSV files. (\#227)
 -   Added Tuvan (`tyv`). (\#228)
 -   Added Shan (`shn`) with custom extraction. (\#229)
+-   Split Latin (`lat`) into its dialects. (\#233)
 
 ### Changed
 

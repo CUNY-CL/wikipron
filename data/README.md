@@ -128,9 +128,12 @@
 | [TSV](tsv/lad_phonemic.tsv) | lad | Ladino | Ladino | True | Phonemic | 110 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 512 |
 | [TSV](tsv/lsi_phonemic.tsv) | lsi | Lashi | Lashi | True | Phonemic | 286 |
-| [TSV](tsv/lat_phonemic.tsv) | lat | Latin | Latin | True | Phonemic | 60,113 |
-| [TSV](tsv/lat_phonemic_filtered.tsv) | lat | Latin | Latin | True | Phonemic_filtered | 59,887 |
-| [TSV](tsv/lat_phonetic.tsv) | lat | Latin | Latin | True | Phonetic | 62,948 |
+| [TSV](tsv/lat_clas_phonemic.tsv) | lat | Latin | Latin (Classical) | True | Phonemic | 33,393 |
+| [TSV](tsv/lat_clas_phonetic.tsv) | lat | Latin | Latin (Classical) | True | Phonetic | 31,711 |
+| [TSV](tsv/lat_eccl_phonemic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonemic | 32,470 |
+| [TSV](tsv/lat_eccl_phonetic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonetic | 31,849 |
+| [TSV](tsv/lat_vulg_phonemic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonemic | 970 |
+| [TSV](tsv/lat_vulg_phonetic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonetic | 924 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,273 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
