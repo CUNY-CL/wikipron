@@ -66,8 +66,18 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 
 _PRON_XPATH_TEMPLATE = """
 //{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
-  /following-sibling::ul
-    [1][descendant::a[@title = "Appendix:Latin pronunciation"]]
+  /following-sibling::ul[1]
+    {dialect_selector}
+"""
+
+_PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE = """
+//li[
+  sup[a[@title = "Appendix:Latin pronunciation"]]
+  and
+  span[@class = "IPA"]
+  and
+  span[@class = "ib-content qualifier-content" and a[{dialects_text}]]
+]
 """
 
 _WORD_XPATH_TEMPLATE = """
@@ -112,7 +122,19 @@ def _yield_latin_pron(
     request: requests.Response, config: "Config", tag: str
 ) -> "Iterator[Pron]":
     heading = "h2" if tag == "Latin" else "h3"
-    pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(heading=heading, tag=tag)
+    if config.dialect:
+        dialect_selector = _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE.format(
+            dialects_text=" or ".join(
+                f'text() = "{d.strip()}"' for d in config.dialect.split("|")
+            )
+        )
+    else:
+        dialect_selector = (
+            '[descendant::a[@title = "Appendix:Latin pronunciation"]]'
+        )
+    pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(
+        heading=heading, tag=tag, dialect_selector=dialect_selector
+    )
     for pron_element in request.html.xpath(pron_xpath_selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
