@@ -1,6 +1,6 @@
 import re
 import unicodedata
-import wikipron
+import pkg_resources
 
 import requests
 import requests_html
@@ -16,7 +16,7 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 # Http headers for api call
 HTTP_HEADERS = {
     "User-Agent": (
-        f"WikiPron/{wikipron.__version__} "
+        f"WikiPron/{pkg_resources.get_distribution('wikipron').version} "
         "(https://github.com/kylebgorman/wikipron) "
         f"requests/{requests.__version__}"
     ),
