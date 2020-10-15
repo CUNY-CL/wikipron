@@ -1,5 +1,6 @@
 import re
 import unicodedata
+import pkg_resources
 
 import requests
 import requests_html
@@ -7,12 +8,19 @@ import requests_html
 from wikipron.config import Config
 from wikipron.typing import Iterator, WordPronPair
 
-
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
 _CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 # Selects the content on the page.
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
+# Http headers for api call
+HTTP_HEADERS = {
+    "User-Agent": (
+        f"WikiPron/{pkg_resources.get_distribution('wikipron').version} "
+        "(https://github.com/kylebgorman/wikipron) "
+        f"requests/{requests.__version__}"
+    ),
+}
 
 
 def _skip_word(word: str, no_skip_spaces: bool) -> bool:
@@ -38,10 +46,11 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
         word = member["title"]
         date = member["timestamp"]
         if _skip_word(word, config.no_skip_spaces_word) or _skip_date(
-            date, config.cut_off_date
+                date, config.cut_off_date
         ):
             continue
-        request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
+        request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10,
+                              headers=HTTP_HEADERS)
         for word, pron in config.extract_word_pron(word, request, config):
             # Pronunciation processing is done in NFD-space;
             # we convert back to NFC aftewards.
@@ -61,7 +70,8 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     }
     while True:
         data = requests.get(
-            "https://en.wiktionary.org/w/api.php?", params=requests_params
+            "https://en.wiktionary.org/w/api.php?", params=requests_params,
+            headers=HTTP_HEADERS
         ).json()
         yield from _scrape_once(data, config)
         if "continue" not in data:

@@ -1,5 +1,6 @@
 import requests
 
+from wikipron.scrape import HTTP_HEADERS
 from wikipron.config import Config
 
 
@@ -13,7 +14,8 @@ def config_factory(**kwargs) -> Config:
 def can_connect_to_wiktionary() -> bool:
     """Check whether WAN connection to Wiktionary is available."""
     try:
-        requests.get("https://en.wiktionary.org/wiki/linguistics")
+        requests.get("https://en.wiktionary.org/wiki/linguistics",
+                     headers=HTTP_HEADERS)
     except (requests.ConnectionError, requests.ConnectTimeout):
         return False
     else:
