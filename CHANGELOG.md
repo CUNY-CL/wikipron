@@ -64,6 +64,7 @@ Unreleased
 -   Added Tuvan (`tyv`). (\#228)
 -   Added Shan (`shn`) with custom extraction. (\#229)
 -   Split Latin (`lat`) into its dialects. (\#233)
+-   updated the packages version numbers in requirements.txt to their latest according to PyPI (\#238)
 
 ### Changed
 
