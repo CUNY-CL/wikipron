@@ -70,6 +70,7 @@ Unreleased
 -   Renamed `.whitelist` file extension name as `.phones`. (\#207)
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
+-   updated the packages version numbers in requirements.txt to their latest according to PyPI (\#238)
 
 ### Deprecated
 ### Removed
