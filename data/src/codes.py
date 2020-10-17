@@ -59,7 +59,9 @@ def _get_language_categories() -> List[str]:
     }
     language_categories = []
     while True:
-        data = requests.get(URL, params=requests_params, headers=HTTP_HEADERS).json()
+        data = requests.get(
+            URL, params=requests_params, headers=HTTP_HEADERS
+        ).json()
         for member in data["query"]["categorymembers"]:
             category = member["title"]
             language_categories.append(category)
@@ -84,7 +86,9 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
             "prop": "categoryinfo",
             "titles": "|".join(categories[start:end]),
         }
-        data = requests.get(URL, params=requests_params, headers=HTTP_HEADERS).json()
+        data = requests.get(
+            URL, params=requests_params, headers=HTTP_HEADERS
+        ).json()
         for page in data["query"]["pages"].values():
             size = page["categoryinfo"]["size"]
             language = re.search(
@@ -110,7 +114,8 @@ def _scrape_wiktionary_language_code(lang_title: str) -> str:
     session = requests_html.HTMLSession()
     language_page = session.get(
         f"https://en.wiktionary.org/wiki/Category:{lang_title}_language",
-        timeout=10, headers=HTTP_HEADERS,
+        timeout=10,
+        headers=HTTP_HEADERS,
     )
     return language_page.html.xpath(lang_code_selector)[0].text
 
