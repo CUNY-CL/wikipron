@@ -37,7 +37,12 @@ from . import handle_dummy_files
             ["mul_test_phonetic.tsv", "mul_test_phonemic.tsv"],
         ),
         # Standard
-        ({"key": "mul"}, "", False, ["mul_phonetic.tsv", "mul_phonemic.tsv"],),
+        (
+            {"key": "mul"},
+            "",
+            False,
+            ["mul_phonetic.tsv", "mul_phonemic.tsv"],
+        ),
     ],
 )
 def test_file_creation(

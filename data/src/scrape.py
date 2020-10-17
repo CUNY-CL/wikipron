@@ -186,9 +186,7 @@ def main(args: argparse.Namespace) -> None:
             **wikipron_accepted_settings,
         }
         if "dialect" not in language_settings:
-            _build_scraping_config(
-                config_settings
-            )
+            _build_scraping_config(config_settings)
         else:
             for (dialect_key, dialect_value) in language_settings[
                 "dialect"
