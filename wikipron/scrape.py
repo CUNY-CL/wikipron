@@ -1,12 +1,14 @@
 import re
 import unicodedata
+from typing import cast
+
 import pkg_resources
 
 import requests
 import requests_html
 
 from wikipron.config import Config
-from wikipron.typing import Iterator, WordPronPair
+from wikipron.typing import Iterator, WordPronPair, Word, Pron
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -55,7 +57,8 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
         for word, pron in config.extract_word_pron(word, request, config):
             # Pronunciation processing is done in NFD-space;
             # we convert back to NFC aftewards.
-            yield word, unicodedata.normalize("NFC", pron)
+            normalized_pron = unicodedata.normalize("NFC", pron)
+            yield cast(Word, word), cast(Pron, normalized_pron)
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:

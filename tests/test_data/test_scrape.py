@@ -1,6 +1,6 @@
 import os
 
-from typing import List
+from typing import List, Any, Dict
 
 import pytest
 
@@ -46,7 +46,7 @@ from . import handle_dummy_files
     ],
 )
 def test_file_creation(
-    config_settings: object,
+    config_settings: Dict[str, Any],
     dialect_suffix: str,
     phones: bool,
     expected_file_name: List[str],
@@ -55,6 +55,7 @@ def test_file_creation(
     file names based on presence or absence of dialect specification
     or .phones files for a given language.
     """
+    dummy_tsv_path: str
     with handle_dummy_files(
         phones, config_settings["key"], dialect_suffix
     ) as dummy_tsv_path:

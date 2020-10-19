@@ -2,6 +2,7 @@ import os
 import shutil
 
 from contextlib import contextmanager
+from typing import Iterator
 
 _TESTS_DIR = os.path.dirname(os.getcwd())
 _TSV_PATH = f"{_TESTS_DIR}/tsv"
@@ -21,7 +22,7 @@ def write_dummy_phones_files(key: str, dialect: str) -> None:
 
 
 @contextmanager
-def handle_dummy_files(phones: bool, key: str, dialect: str) -> str:
+def handle_dummy_files(phones: bool, key: str, dialect: str) -> Iterator[str]:
     """Creates and removes dummy directories for housing
     TSV and phones files."""
     os.mkdir(_TSV_PATH)

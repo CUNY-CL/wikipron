@@ -16,7 +16,7 @@ of each are given.
 import itertools
 import typing
 
-import requests
+import requests_html
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
@@ -34,7 +34,7 @@ _WORD_XPATH_SELECTOR = """
 
 
 def yield_jpn_pron(
-    request: requests.Response, config: "Config"
+    request: requests_html, config: "Config"
 ) -> "Iterator[Pron]":
     # For simplicity, just want to grab the first transcription.
     # Will encounter words that have no transcription.
@@ -44,7 +44,7 @@ def yield_jpn_pron(
 
 
 def yield_jpn_word(
-    word: "Word", request: requests.Response
+    word: "Word", request: requests_html
 ) -> "Iterator[Word]":
     # Again for simplicity, only grabbing first "sub"-word.
     word_element = request.html.xpath(_WORD_XPATH_SELECTOR, first=True)
@@ -56,7 +56,7 @@ def yield_jpn_word(
 
 
 def extract_word_pron_jpn(
-    word: "Word", request: requests.Response, config: "Config"
+    word: "Word", request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     # If we can't find a kana alternative, then the headword
     # must itself be kana.

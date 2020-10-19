@@ -91,9 +91,15 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
         ).json()
         for page in data["query"]["pages"].values():
             size = page["categoryinfo"]["size"]
-            language = re.search(
+
+            language_search = re.search(
                 r"Category:(.+?) terms with IPA pronunciation", page["title"]
-            ).group(1)
+            )
+
+            if not language_search:
+                continue
+
+            language = language_search.group(1)
             language_sizes[language] = size
     return language_sizes
 
