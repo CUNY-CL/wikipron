@@ -66,6 +66,7 @@ Unreleased
 -   Added Shan (`shn`) with custom extraction. (\#229)
 -   Split Latin (`lat`) into its dialects. (\#233)
 -   Added support for python 3.9 (\236)
+-   Added Northern Kurdish (`kmr`). (\#243)
 
 ### Changed
 

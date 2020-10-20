@@ -176,6 +176,7 @@ nav_phonemic.tsv	nav	Navajo	Navajo	True	Phonemic	203
 nap_phonemic.tsv	nap	Neapolitan	Neapolitan	True	Phonemic	262
 nep_phonemic.tsv	nep	Nepali (macrolanguage)	Nepali	False	Phonemic	943
 nep_phonetic.tsv	nep	Nepali (macrolanguage)	Nepali	False	Phonetic	576
+kmr_latn_phonemic.tsv	kmr	Northern Kurdish	Northern Kurdish (Latin)	False	Phonemic	1169
 sme_phonemic.tsv	sme	Northern Sami	Northern Sami	True	Phonemic	3346
 nob_phonemic.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	True	Phonemic	1081
 nob_phonetic.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	True	Phonetic	554

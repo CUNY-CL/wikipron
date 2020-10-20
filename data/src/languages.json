@@ -828,6 +828,17 @@
         "wiktionary_code": "frr",
         "casefold": true
     },
+    "kmr": {
+        "iso639_name": "Northern Kurdish",
+        "wiktionary_name": "Northern Kurdish",
+        "wiktionary_code": "kmr",
+        "casefold": false,
+        "script": {
+            "ara": "Arabic",
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
+        }
+    },
     "sme": {
         "iso639_name": "Northern Sami",
         "wiktionary_name": "Northern Sami",
