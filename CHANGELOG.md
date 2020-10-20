@@ -83,6 +83,8 @@ Unreleased
 -   Added HTTP User-Agent header to API calls to Wiktionary. (\#234)
 -   Added support for python 3.9 (\#240)
 -   Added black style formatting to `.circleci/config.yml`. (\#242)
+-   Added logging for scraping a language with `--dialect` specified
+    that requires its custom extraction logic. (\#245)
 
 #### Changed
 
