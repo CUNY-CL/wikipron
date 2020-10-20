@@ -11,7 +11,6 @@ Unreleased
 ----------
 
 ### Added
--   Adds black style formatting to `.circleci/config.yml`. (\#237)
 -   Adds two Vietnamese dialects to `languages.json`. (\#139)
 -   Adds whitelisting capabilities to `postprocess`. (\#152)
 -   Adds whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
@@ -65,7 +64,8 @@ Unreleased
 -   Added Tuvan (`tyv`). (\#228)
 -   Added Shan (`shn`) with custom extraction. (\#229)
 -   Split Latin (`lat`) into its dialects. (\#233)
--   Added support for python 3.9 (\236)
+-   Added support for python 3.9 (\#236)
+-   Adds black style formatting to `.circleci/config.yml`. (\#237)
 -   Added Northern Kurdish (`kmr`). (\#243)
 
 ### Changed
