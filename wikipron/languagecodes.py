@@ -388,4 +388,5 @@ LANGUAGE_CODES = {
     "kmr": "Northern Kurdish",
     "northern kurdish": "Northern Kurdish",
     "Kurmanji": "Northern Kurdish",
+    "kurmanji": "Northern Kurdish",
 }
