@@ -387,6 +387,5 @@ LANGUAGE_CODES = {
     # Northern Kurdish. Looks ISO 639-3 only.
     "kmr": "Northern Kurdish",
     "northern kurdish": "Northern Kurdish",
-    "Kurmanji": "Northern Kurdish",
     "kurmanji": "Northern Kurdish",
 }
