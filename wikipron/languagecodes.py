@@ -384,4 +384,8 @@ LANGUAGE_CODES = {
     # Middle Korean. ISO 639-3 only: "Korean, Middle (10th–16th centuries)".
     "okm": "Middle Korean",
     "middle korean": "Middle Korean",
+    # Northern Kurdish. Looks ISO 639-3 only.
+    "kmr": "Northern Kurdish",
+    "northern kurdish": "Northern Kurdish",
+    "Kurmanji": "Northern Kurdish",
 }
