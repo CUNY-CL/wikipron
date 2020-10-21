@@ -12,17 +12,21 @@ import argparse
 import collections
 import random
 
-from typing import Dict, Set
+from typing import Dict, List, Set
 
 
-def _get_cli_args():
+def _get_cli_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("filepath", help="Path to TSV scraped by WikiPron")
     args = parser.parse_args()
     return args
 
 
-def _count_phones(filepath):
+def _count_phones(filepath: str) -> Dict[str, Set[str]]:
+    # phone_to_examples as Dict[str, Set[str]] is the most straightforward
+    # data structure for our purposes. It's not memory-efficient
+    # (with the same word-pron pair appearing in different phones' sets),
+    # but anything fancier doesn't seem worth the work.
     phone_to_examples = collections.defaultdict(set)
     with open(filepath, encoding="utf-8") as f:
         for line in f:
@@ -37,10 +41,15 @@ def _count_phones(filepath):
     return phone_to_examples
 
 
-def _pick_examples_for_display(examples: Set[str]) -> Set[str]:
+def _pick_examples_for_display(examples: Set[str]) -> List[str]:
+    # We could have exposed the maximum number of examples to display
+    # (set to be 3 now) to the command-line interface,
+    # but it doesn't seem worth it for the time being.
     n_examples = min(len(examples), 3)
+    # Using list() here because Python 3.9 has deprecated the use
+    # of an _unordered_ set as the input to random.sample.
     sample = random.sample(list(examples), n_examples)
-    return set(sample)
+    return sample
 
 
 def main():
