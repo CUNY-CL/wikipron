@@ -37,7 +37,7 @@ Unreleased
 -   Added Tuvan (`tyv`). (\#228)
 -   Added Shan (`shn`) with custom extraction. (\#229)
 -   Added Northern Kurdish (`kmr`). (\#243)
--   Added a script to facilitate to the creation of a `.phones` file. (\#246)
+-   Added a script to facilitate the creation of a `.phones` file. (\#246)
 
 #### Changed
 
