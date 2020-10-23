@@ -97,6 +97,9 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
             )
 
             if not language_search:
+                logging.warning(
+                    f"Could not extract language from title: {page['title']}"
+                )
                 continue
 
             language = language_search.group(1)

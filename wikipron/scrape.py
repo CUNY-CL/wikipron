@@ -3,12 +3,11 @@ import unicodedata
 from typing import cast
 
 import pkg_resources
-
 import requests
 import requests_html
 
 from wikipron.config import Config
-from wikipron.typing import Iterator, WordPronPair, Word, Pron
+from wikipron.typing import Iterator, WordPronPair, Pron
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -45,20 +44,23 @@ def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
 def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
-        word = member["title"]
-        date = member["timestamp"]
-        if _skip_word(word, config.no_skip_spaces_word) or _skip_date(
-            date, config.cut_off_date
+        title = member["title"]
+        timestamp = member["timestamp"]
+        if _skip_word(title, config.no_skip_spaces_word) or _skip_date(
+            timestamp, config.cut_off_date
         ):
             continue
         request = session.get(
-            _PAGE_TEMPLATE.format(word=word), timeout=10, headers=HTTP_HEADERS
+            _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
         )
-        for word, pron in config.extract_word_pron(word, request, config):
+
+        # word_prons = config.extract_word_pron(word, request, config)
+        for word, pron in config.extract_word_pron(title, request, config):
             # Pronunciation processing is done in NFD-space;
             # we convert back to NFC aftewards.
             normalized_pron = unicodedata.normalize("NFC", pron)
-            yield cast(Word, word), cast(Pron, normalized_pron)
+            # 'cast' is required 'normalize' doesn't return a 'Pron'
+            yield word, cast(Pron, normalized_pron)
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:

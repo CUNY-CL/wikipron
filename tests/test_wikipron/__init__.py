@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Any, Dict
 
 import requests
 
@@ -8,7 +8,7 @@ from wikipron.scrape import HTTP_HEADERS
 
 def config_factory(**kwargs) -> Config:
     """Create a Config object for testing."""
-    config_dict: Dict = {"key": "eng"}  # The one default; may be overridden.
+    config_dict: Dict[str, Any] = {"key": "eng"}  # Default; may be overridden.
     config_dict.update(**kwargs)
     return Config(**config_dict)
 
