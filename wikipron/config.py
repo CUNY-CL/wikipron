@@ -74,12 +74,12 @@ class Config:
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
+        self.dialect = dialect
         self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
             self.language
         )
         self.no_skip_spaces_word: bool = no_skip_spaces_word
         self.no_skip_spaces_pron: bool = no_skip_spaces_pron
-        self.dialect = dialect
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -178,6 +178,16 @@ class Config:
     def _get_extract_word_pron(self, language: str) -> ExtractFunc:
         try:
             extraction_function = EXTRACTION_FUNCTIONS[language]
+            if self.dialect:
+                logging.info(
+                    "%r requires custom logic to handle its data from "
+                    "Wiktionary. The dialect parameter, specified for "
+                    "%r, may or may not work as desired. "
+                    "If you notice any issues, please report them at "
+                    "https://github.com/kylebgorman/wikipron/issues.",
+                    language,
+                    self.dialect,
+                )
         except KeyError:
             extraction_function = extract_word_pron_default
 
