@@ -74,9 +74,9 @@ To work on a feature or bug fix, here are the development steps:
 The `wikipron` repo has continuous integration (CI) turned on,
 with autobuilds running pytest and flake8 for the test suite
 (in the [`tests/`](tests) directory) and code style checks, respectively.
-If an autobuild at a pending pull request fails because of pytest or flake8
-errors, then the errors must be fixed by further commits pushed to the branch
-by the author.
+If an autobuild at a pending pull request fails because of `pytest`, `flake8` or
+`mypy` errors, then the errors must be fixed by further commits pushed to the
+branch by the author.
 
 If you would like to help avoid wasting free Internet resources
 (every push triggers a new CI autobuild),
@@ -85,4 +85,5 @@ you can run pytest and flake8 checks locally before pushing commits:
 ```bash
 flake8 setup.py wikipron/ tests/
 pytest -vv tests/
+mypy
 ```
