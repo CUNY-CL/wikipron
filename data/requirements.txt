@@ -2,4 +2,3 @@ regex>=2019.12.9
 requests
 requests-html
 wikipron>=1.0.0
-mypy
