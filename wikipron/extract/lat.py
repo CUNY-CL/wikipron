@@ -98,9 +98,7 @@ def _get_tags(request: requests_html) -> List[str]:
     return tags
 
 
-def _yield_latin_word(
-    request: requests_html, tag: str
-) -> "Iterator[Word]":
+def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[Word]":
     heading = "h2" if tag == "Latin" else "h3"
     word_xpath_selector = _WORD_XPATH_TEMPLATE.format(heading=heading, tag=tag)
     try:

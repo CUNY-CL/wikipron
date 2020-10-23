@@ -43,9 +43,7 @@ def yield_jpn_pron(
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
-def yield_jpn_word(
-    word: "Word", request: requests_html
-) -> "Iterator[Word]":
+def yield_jpn_word(word: "Word", request: requests_html) -> "Iterator[Word]":
     # Again for simplicity, only grabbing first "sub"-word.
     word_element = request.html.xpath(_WORD_XPATH_SELECTOR, first=True)
     if word_element:

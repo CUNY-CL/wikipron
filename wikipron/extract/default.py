@@ -15,9 +15,7 @@ if typing.TYPE_CHECKING:
 IPA_XPATH_SELECTOR = '//span[@class = "IPA"]'
 
 
-def _yield_phn(
-    request: requests_html, config: "Config"
-) -> "Iterator[Pron]":
+def _yield_phn(request: requests_html, config: "Config") -> "Iterator[Pron]":
     for pron_element in request.html.xpath(config.pron_xpath_selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 

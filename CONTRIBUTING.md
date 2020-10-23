@@ -80,10 +80,9 @@ branch by the author.
 
 If you would like to help avoid wasting free Internet resources
 (every push triggers a new CI autobuild),
-you can run pytest and flake8 checks locally before pushing commits:
-
-```bash
-flake8 setup.py wikipron/ tests/
-pytest -vv tests/
-mypy
-```
+you can run the following checks locally before pushing commits:
+* `mypy`
+* `flake8 setup.py wikipron/ tests/`
+* `black --line-length=79 --check setup.py wikipron tests data`
+    * You can fix any errors by running the same command without `--check`
+* `pytest tests/`
