@@ -30,8 +30,8 @@ jobs:
           name: Show installed Python packages
           command: pip list
       - run:
-          name: Chown python packages
-          command: chown circleci:circleci -R /usr/local/lib/python<< parameters.python-version >>/site-packages
+          name: Chown Python system packages
+          command: sudo chown -R circleci:circleci /usr/local/lib/python<< parameters.python-version >>/site-packages
       - persist_to_workspace:
               root: /usr/local/lib/python<< parameters.python-version >>
               paths:
