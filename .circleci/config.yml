@@ -13,6 +13,7 @@ jobs:
     steps:
       - checkout
       - python/install-packages:
+          pkg-manager: pip
           pre-install-steps:
               - run:
                   name: Build source distribution and install package from it
