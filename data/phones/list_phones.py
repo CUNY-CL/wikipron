@@ -15,6 +15,7 @@ import unicodedata
 
 from typing import Dict, List, Set
 
+from absl import logging
 import ipapy
 
 
@@ -54,9 +55,40 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
     return sample
 
 
+def _check_ipa_phonemes(
+    phone_to_examples: Dict[str, Set[str]], args: argparse.Namespace
+):
+    """Given the phonemes checks whether they are represented in IPA.
+
+    This will catch problematic phonemes, such as `ú` which are not valid
+    according to the current IPA standard supported by `ipapy`. In addition, it
+    is likely to complain about highly specific allophones, which are likely
+    to be present in languages which have highly phonetic representation of
+    their phoneme inventory.
+    """
+    bad_ipa_phonemes = set()
+    for phone in phone_to_examples.keys():
+        if not ipapy.is_valid_ipa(phone):
+            bad_ipa_phonemes.add(phone)
+
+    if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
+        logging.warning(f"Found {len(bad_ipa_phonemes)} invalid IPA phonemes:")
+        phoneme_id = 1
+        for phoneme in bad_ipa_phonemes:
+            bad_chars = [
+                f"[%d %04x %s %s]"
+                % (i, ord(c), unicodedata.category(c), unicodedata.name(c))
+                for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
+            ]
+            logging.warning(
+                f"Problematic: [{phoneme_id}] "
+                f"{phoneme} {', '.join(bad_chars)}"
+            )
+            phoneme_id += 1
+
+
 def main(args: argparse.Namespace):
     phone_to_examples: Dict[str, Set[str]] = _count_phones(args.filepath)
-    invalid_phones = set()
     for phone, examples in sorted(
         phone_to_examples.items(), key=lambda x: len(x[1]), reverse=True
     ):
@@ -66,24 +98,8 @@ def main(args: argparse.Namespace):
             f"{len(examples):<10}"
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
-        if not ipapy.is_valid_ipa(phone):
-            invalid_phones.add(phone)
     print(f"\n# unique phones: {len(phone_to_examples)}")
-
-    # Check the phoneme inventory for invalid IPA representations.
-    if len(invalid_phones) and args.filepath.endswith("phonemic.tsv"):
-        print(f"--- WARNING: {len(invalid_phones)} Invalid phonemes:")
-        for phone in invalid_phones:
-            print(f"{phone}")
-            for i, c in enumerate(ipapy.invalid_ipa_characters(phone)):
-                print(
-                    "\tBad char: ",
-                    i,
-                    "%04x" % ord(c),
-                    unicodedata.category(c),
-                    end=" ",
-                )
-                print(unicodedata.name(c))
+    _check_ipa_phonemes(phone_to_examples, args)
 
 
 if __name__ == "__main__":
