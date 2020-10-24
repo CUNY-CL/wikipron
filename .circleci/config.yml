@@ -14,9 +14,12 @@ jobs:
       - checkout
       - python/install-packages:
           pre-install-steps:
-            - pip install --progress-bar off --upgrade pip setuptools
-            - python setup.py sdist
-            - pip install dist/*.tar.gz
+              - run:
+                  name: Build source distribution and install package from it
+                  command: |
+                      pip install --progress-bar off --upgrade pip setuptools
+                      python setup.py sdist
+                      pip install dist/*.tar.gz
       - run:
           name: Show installed Python packages
           command: pip list
