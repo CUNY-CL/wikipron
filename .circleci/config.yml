@@ -66,9 +66,8 @@ jobs:
           command: |
               sudo chown circleci:circleci /home
               pytest -vv project/tests --junitxml /tmp/testxml/report.xml
-      - run: cat /tmp/testxml/report.xml
       - store_test_results:
-          path: /tmp/testxml/report.xml
+          path: /tmp/testxml/
 
 workflows:
   version: 2
