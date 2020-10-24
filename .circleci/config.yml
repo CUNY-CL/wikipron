@@ -24,7 +24,8 @@ jobs:
           # "python setup.py sdist" creates dist/wikipron-x.y.z.tar.gz
           command: |
               pip install dist/*.tar.gz
-      - python/install-deps
+      - python/install-deps:
+          local: false
       - run:
           name: Show installed Python packages
           command: pip list
