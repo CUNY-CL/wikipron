@@ -63,7 +63,9 @@ jobs:
           working_directory: ~/
           # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
-          command: pytest -vv project/tests --junitxml /tmp/testxml/report.xml
+          command: |
+              sudo mkdir /home/tsv && sudo chown circleci:circleci -R /home/tsv
+              pytest -vv project/tests --junitxml /tmp/testxml/report.xml
       - run: cat /tmp/testxml/report.xml
       - store_test_results:
           path: /tmp/testxml/report.xml
