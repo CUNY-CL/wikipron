@@ -76,7 +76,11 @@ def main(args: argparse.Namespace):
             print(f"{phone}")
             for i, c in enumerate(ipapy.invalid_ipa_characters(phone)):
                 print(
-                    "\tBad char: ", i, "%04x" % ord(c), unicodedata.category(c), end=" "
+                    "\tBad char: ",
+                    i,
+                    "%04x" % ord(c),
+                    unicodedata.category(c),
+                    end=" ",
                 )
                 print(unicodedata.name(c))
 
