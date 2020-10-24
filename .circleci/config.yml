@@ -13,7 +13,7 @@ jobs:
       command-run:
         type: string
     docker:
-      - image: cimg/python:stretch
+      - image: cimg/python:3.7
         #auth:
         #  username: $DOCKERHUB_USERNAME
         #  password: $DOCKERHUB_PASSWORD
