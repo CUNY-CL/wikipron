@@ -20,12 +20,11 @@ jobs:
       - python/dist
       - run:
           name: Build source distribution and install package from it
-          working_directory: ~/project/
           # Ensure we can build a source distribution that can correctly install.
           # "python setup.py sdist" creates dist/wikipron-x.y.z.tar.gz
           command: |
               pip install dist/*.tar.gz
-      - install-deps
+      - python/install-deps
       - run:
           name: Show installed Python packages
           command: pip list
