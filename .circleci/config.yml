@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  python: circleci/python@0.3.2
+  python: circleci/python@1.2.0
 
 jobs:
   build-python:
@@ -12,24 +12,14 @@ jobs:
       - image: python:<< parameters.python-version >>
     steps:
       - checkout
-      - python/load-cache
-      - run:
-          name: Install Python build tools
-          command: |
-              pip install --progress-bar off --upgrade pip setuptools
-      - python/dist
-      - run:
-          name: Build source distribution and install package from it
-          # Ensure we can build a source distribution that can correctly install.
-          # "python setup.py sdist" creates dist/wikipron-x.y.z.tar.gz
-          command: |
-              pip install dist/*.tar.gz
-      - python/install-deps:
-          local: false
+      - python/install-packages:
+          pre-install-steps:
+            - pip install --progress-bar off --upgrade pip setuptools
+            - python setup.py sdist
+            - pip install dist/*.tar.gz
       - run:
           name: Show installed Python packages
           command: pip list
-      - python/save-cache
       - run:
           name: Type checking
           working_directory: ~/
