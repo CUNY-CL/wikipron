@@ -31,7 +31,7 @@ jobs:
           command: pip list
       - run:
           name: Chown python packages
-          command: chown cicleci:circleci -R /usr/local/lib/python<< parameters.python-version >>/site-packages
+          command: chown circleci:circleci -R /usr/local/lib/python<< parameters.python-version >>/site-packages
       - persist_to_workspace:
               root: /usr/local/lib/python<< parameters.python-version >>
               paths:
