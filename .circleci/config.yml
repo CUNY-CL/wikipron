@@ -28,7 +28,7 @@ jobs:
           pypi-cache: false
       - run:
           working_directory: ~/
-          command: << parameters.run-command >>
+          command: << parameters.command-run >>
 
   build-python:
     parameters:
