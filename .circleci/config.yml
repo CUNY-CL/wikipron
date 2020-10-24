@@ -32,7 +32,8 @@ jobs:
       - run:
           name: Show installed Python packages
           command: pip list
-      - run: ls -lha -R  /usr/local/lib/python<< parameters.python-version >>
+      - run: ls -lha /usr/local/lib/python*
+      - run: ls -lha -R  /usr/local/lib/python*
       - run:
           name: Chown Python system packages
           command: sudo chown -R circleci:circleci /usr/local/lib/python<< parameters.python-version >>/site-packages
