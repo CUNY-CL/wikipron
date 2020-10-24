@@ -30,9 +30,12 @@ jobs:
           name: Show installed Python packages
           command: pip list
       - run:
-          name: Type checking
-          working_directory: ~/
-          command: mypy --ignore-missing-imports project/wikipron project/tests project/data
+          name: Chown python packages
+          command: chown cicleci:circleci -R /usr/local/lib/python<< parameters.python-version >>/site-packages
+      - persist_to_workspace:
+              root: /usr/local/lib/python<< parameters.python-version >>
+              paths:
+                - site-packages
       - run:
           name: Lint
           working_directory: ~/
