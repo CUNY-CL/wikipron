@@ -12,14 +12,14 @@ jobs:
       - image: python:<< parameters.python-version >>
     steps:
       - checkout
+      - run:
+          name: Create empty pyenv file
+          command: |
+              mkdir -p /home/circleci/.pyenv/versions/
+              touch /home/circleci/.pyenv/version
       - python/install-packages:
           pkg-manager: pip
           pre-install-steps:
-              - run:
-                  name: Create empty pyenv file
-                  command: |
-                      mkdir -p /home/circleci/.pyenv/versions/
-                      touch /home/circleci/.pyenv/version
               - run:
                   name: Build source distribution and install package from it
                   command: |
