@@ -5,8 +5,8 @@ orbs:
 
 
 jobs:
-  pre-test:
-    description: Install and run from a standalone package
+  pre-build:
+    description: Install and run a Python standalone package
     parameters:
       command-name:
         type: string
@@ -73,18 +73,18 @@ workflows:
   version: 2
   build-and-test:
     jobs:
-      - pre-test:
-          name: pre-flake8
+      - pre-build:
+          name: flake8
           command-name: flake8
           command-run: flake8 project/setup.py project/wikipron project/tests
-      - pre-test:
-          name: pre-black
+      - pre-build:
+          name: black
           command-name: black
           command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
       - build-python:
           requires:
-            - pre-flake8
-            - pre-black
+            - flake8
+            - black
           matrix:
             parameters:
               python-version: ["3.6", "3.7", "3.8", "3.9"]
