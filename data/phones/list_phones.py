@@ -64,7 +64,8 @@ def _check_ipa_phonemes(
     according to the current IPA standard supported by `ipapy`. In addition, it
     is likely to complain about highly specific allophones, which are likely
     to be present in languages which have highly phonetic representation of
-    their phoneme inventory.
+    their phoneme inventory. For current IPA chart please see:
+      https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
     """
     bad_ipa_phonemes = set()
     for phone in phone_to_examples.keys():
