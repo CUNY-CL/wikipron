@@ -10,7 +10,9 @@ For each phone/phoneme, this script prints:
 
 import argparse
 import collections
+import ipapy
 import random
+import unicodedata
 
 from typing import Dict, List, Set
 
@@ -53,6 +55,7 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
 
 def main(args: argparse.Namespace):
     phone_to_examples: Dict[str, Set[str]] = _count_phones(args.filepath)
+    invalid_phones = set()
     for phone, examples in sorted(
         phone_to_examples.items(), key=lambda x: len(x[1]), reverse=True
     ):
@@ -62,7 +65,18 @@ def main(args: argparse.Namespace):
             f"{len(examples):<10}"
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
+        if not ipapy.is_valid_ipa(phone):
+            invalid_phones.add(phone)
     print(f"\n# unique phones: {len(phone_to_examples)}")
+
+    # Check the inventory for invalid IPA representation.
+    if len(invalid_phones):
+        print(f"--- WARNING: {len(invalid_phones)} Invalid phones:")
+        for phone in invalid_phones:
+            print(f"{phone}")
+            for i, c in enumerate(phone):
+                print("\t", i, "%04x" % ord(c), unicodedata.category(c), end=" ")
+                print(unicodedata.name(c))
 
 
 if __name__ == "__main__":
