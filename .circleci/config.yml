@@ -25,7 +25,7 @@ jobs:
       - python/install-packages:
           pkg-manager: pip
           pip-dependency-file: << parameters.command-name >>_requirements.txt
-          pypi-cache: false
+          cache-version: << parameters.command-name >>-v1
       - run:
           working_directory: ~/
           command: << parameters.command-run >>
