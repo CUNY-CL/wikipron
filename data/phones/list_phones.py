@@ -69,13 +69,13 @@ def main(args: argparse.Namespace):
             invalid_phones.add(phone)
     print(f"\n# unique phones: {len(phone_to_examples)}")
 
-    # Check the inventory for invalid IPA representation.
-    if len(invalid_phones):
+    # Check the phoneme inventory for invalid IPA representations.
+    if len(invalid_phones) and args.filepath.endswith("phonemic.tsv"):
         print(f"--- WARNING: {len(invalid_phones)} Invalid phones:")
         for phone in invalid_phones:
             print(f"{phone}")
-            for i, c in enumerate(phone):
-                print("\t", i, "%04x" % ord(c), unicodedata.category(c), end=" ")
+            for i, c in enumerate(ipapy.invalid_ipa_characters(phone)):
+                print("\tBad char: ", i, "%04x" % ord(c), unicodedata.category(c), end=" ")
                 print(unicodedata.name(c))
 
 
