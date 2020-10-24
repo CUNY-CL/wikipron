@@ -3,7 +3,32 @@ version: 2.1
 orbs:
   python: circleci/python@1.2.0
 
+
 jobs:
+  pre-test:
+    parameters:
+      command-name:
+        type: string
+      command-run:
+        type: string
+    docker:
+      - image: cimg/python:stretch
+        #auth:
+        #  username: $DOCKERHUB_USERNAME
+        #  password: $DOCKERHUB_PASSWORD
+    steps:
+      - checkout
+      - run:
+          name: Create custom << parameters.command-name >> requirements
+          run: grep << parameters.command-name >> requirements.txt > << parameters.command-name >>_requirements.txt
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: << parameters.command-name >>_requirements.txt
+          pypi-cache: false
+      - run:
+          working_directory: ~/
+          command: << parameters.run-command >>
+
   build-python:
     parameters:
       python-version:
@@ -32,27 +57,6 @@ jobs:
       - run:
           name: Show installed Python packages
           command: pip3 list -v
-      - run: ls -lha /usr/local/lib/python*
-      - run: ls -lha -R  /usr/local/lib/python*
-      - run:
-          name: Chown Python system packages
-          command: sudo chown -R circleci:circleci /usr/local/lib/python<< parameters.python-version >>/site-packages
-      - persist_to_workspace:
-              root: /usr/local/lib/python<< parameters.python-version >>
-              paths:
-                - site-packages
-      - run:
-          name: Lint
-          working_directory: ~/
-          # Avoid being able to import wikipron by relative import.
-          # Test code by importing the *installed* wikipron in site-packages.
-          command: flake8 project/setup.py project/wikipron project/tests
-      - run:
-          name: Check styling consistency with black
-          working_directory: ~/
-          # Avoid being able to import wikipron by relative import.
-          # Test code by importing the *installed* wikipron in site-packages.
-          command: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
       - run:
           name: Run python tests
           working_directory: ~/
@@ -66,6 +70,14 @@ workflows:
   version: 2
   build-and-test:
     jobs:
+      - pre-test:
+          parameters:
+            command-name: flake8
+            command-run: flake8 project/setup.py project/wikipron project/tests
+      - pre-test:
+          parameters:
+            command-name: black
+            command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
       - build-python:
           matrix:
             parameters:
