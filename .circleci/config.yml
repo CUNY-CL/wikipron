@@ -9,7 +9,10 @@ jobs:
       python-version:
         type: string
     docker:
-      - image: python:<< parameters.python-version >>
+      - image: cimg/python:<< parameters.python-version >>
+        #auth:
+        #  username: $DOCKERHUB_USERNAME
+        #  password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
