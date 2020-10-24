@@ -10,11 +10,12 @@ For each phone/phoneme, this script prints:
 
 import argparse
 import collections
-import ipapy
 import random
 import unicodedata
 
 from typing import Dict, List, Set
+
+import ipapy
 
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
