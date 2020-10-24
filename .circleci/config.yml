@@ -1,18 +1,12 @@
-version: 2
-
-workflows:
-  version: 2
-  test:
-    jobs:
-      - build-python-3.6
-      - build-python-3.7
-      - build-python-3.8
-      - build-python-3.9
+version: 2.1
 
 jobs:
-  build-python-3.6: &template
+  build-python:
+    parameters:
+      python-version:
+        type: string
     docker:
-      - image: python:3.6
+      - image: python:<< parameters.python-version >>
     steps:
       - checkout
       - run:
@@ -53,15 +47,12 @@ jobs:
           # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
           command: pytest -vv project/tests
-  build-python-3.7:
-    <<: *template
-    docker:
-      - image: python:3.7
-  build-python-3.8:
-    <<: *template
-    docker:
-      - image: python:3.8
-  build-python-3.9:
-    <<: *template
-    docker:
-      - image: python:3.9
+
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      matrix:
+        parameters:
+          node-version: ["3.6", "3.7", "3.8", "3.9"]
+
