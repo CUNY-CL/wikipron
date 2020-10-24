@@ -71,7 +71,7 @@ def main(args: argparse.Namespace):
 
     # Check the phoneme inventory for invalid IPA representations.
     if len(invalid_phones) and args.filepath.endswith("phonemic.tsv"):
-        print(f"--- WARNING: {len(invalid_phones)} Invalid phones:")
+        print(f"--- WARNING: {len(invalid_phones)} Invalid phonemes:")
         for phone in invalid_phones:
             print(f"{phone}")
             for i, c in enumerate(ipapy.invalid_ipa_characters(phone)):
