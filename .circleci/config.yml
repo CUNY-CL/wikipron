@@ -31,7 +31,7 @@ jobs:
                       pip install dist/*.tar.gz
       - run:
           name: Show installed Python packages
-          command: pip list
+          command: pip3 list -v
       - run: ls -lha /usr/local/lib/python*
       - run: ls -lha -R  /usr/local/lib/python*
       - run:
