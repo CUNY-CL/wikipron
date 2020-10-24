@@ -73,14 +73,12 @@ workflows:
     jobs:
       - pre-test:
           name: pre-flake8
-          parameters:
-            command-name: flake8
-            command-run: flake8 project/setup.py project/wikipron project/tests
+          command-name: flake8
+          command-run: flake8 project/setup.py project/wikipron project/tests
       - pre-test:
           name: pre-black
-          parameters:
-            command-name: black
-            command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
+          command-name: black
+          command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
       - build-python:
           requires:
             - pre-flake8
