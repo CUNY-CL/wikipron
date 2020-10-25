@@ -75,6 +75,8 @@ def _check_ipa_phonemes(
     logger = logging.getLogger(__name__)
     if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
         logger.warning(f"Found {len(bad_ipa_phonemes)} invalid IPA phonemes:")
+        if not logger.isEnabledFor(logging.WARNING):
+            return  # Do nothing. Warnings are not logged.
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
@@ -83,7 +85,7 @@ def _check_ipa_phonemes(
                 for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
             ]
             logger.warning(
-                f"Problematic: [{phoneme_id}] "
+                f"[{phoneme_id}] Problematic: "
                 f"{phoneme} {', '.join(bad_chars)}"
             )
             phoneme_id += 1
