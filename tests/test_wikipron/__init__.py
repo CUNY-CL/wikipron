@@ -19,7 +19,10 @@ def can_connect_to_wiktionary() -> bool:
         requests.get(
             "https://en.wiktionary.org/wiki/linguistics", headers=HTTP_HEADERS
         )
-    except requests.ConnectionError:
+    except (
+        requests.exceptions.ConnectionError,
+        requests.exceptions.ConnectTimeout,
+    ):
         return False
     else:
         return True

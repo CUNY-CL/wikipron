@@ -54,7 +54,6 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
             _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
         )
 
-        # word_prons = config.extract_word_pron(word, request, config)
         for word, pron in config.extract_word_pron(title, request, config):
             # Pronunciation processing is done in NFD-space;
             # we convert back to NFC aftewards.
