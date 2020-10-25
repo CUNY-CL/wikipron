@@ -64,7 +64,7 @@ jobs:
           # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
           command: |
-              sudo chown circleci:circleci /home
+              #sudo chown circleci:circleci /home
               pytest -vv project/tests --junitxml /tmp/testxml/report.xml
       - store_test_results:
           path: /tmp/testxml/
