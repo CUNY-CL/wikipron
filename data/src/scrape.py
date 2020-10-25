@@ -14,8 +14,12 @@ from typing import Any, Dict, FrozenSet, Iterator
 import requests
 import wikipron  # type: ignore
 
-
-from data.src.codes import LANGUAGES_PATH, LOGGING_PATH
+from data.src.codes import (
+    LANGUAGES_PATH,
+    LOGGING_PATH,
+    TSV_DIRECTORY_PATH,
+    PHONES_DIRECTORY_PATH,
+)
 
 
 def _phones_reader(path: str) -> Iterator[str]:
@@ -90,11 +94,8 @@ def _call_scrape(
 
 
 def _build_scraping_config(
-    config_settings: Dict[str, Any], dialect_suffix: str = ""
+    config_settings: Dict[str, Any], path_affix: str, phones_path_affix: str
 ) -> None:
-    path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
-    phones_path_affix = f"../phones/{config_settings['key']}_{dialect_suffix}"
-
     # Configures phonemic TSV.
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
@@ -186,7 +187,11 @@ def main(args: argparse.Namespace) -> None:
             **wikipron_accepted_settings,
         }
         if "dialect" not in language_settings:
-            _build_scraping_config(config_settings)
+            _build_scraping_config(
+                config_settings,
+                f"{TSV_DIRECTORY_PATH}/{config_settings['key']}_",
+                f"{PHONES_DIRECTORY_PATH}/{config_settings['key']}_",
+            )
         else:
             for (dialect_key, dialect_value) in language_settings[
                 "dialect"
@@ -194,7 +199,8 @@ def main(args: argparse.Namespace) -> None:
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
-                    dialect_key + "_",
+                    f"{TSV_DIRECTORY_PATH}/{config_settings['key']}_{dialect_key}_",
+                    f"{PHONES_DIRECTORY_PATH}/{config_settings['key']}_{dialect_key}_",
                 )
 
 
