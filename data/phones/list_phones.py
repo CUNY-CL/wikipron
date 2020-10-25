@@ -10,12 +10,12 @@ For each phone/phoneme, this script prints:
 
 import argparse
 import collections
+import logging
 import random
 import unicodedata
 
 from typing import Dict, List, Set
 
-from absl import logging
 import ipapy
 
 
@@ -72,8 +72,9 @@ def _check_ipa_phonemes(
         if not ipapy.is_valid_ipa(phone):
             bad_ipa_phonemes.add(phone)
 
+    logger = logging.getLogger(__name__)
     if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
-        logging.warning(f"Found {len(bad_ipa_phonemes)} invalid IPA phonemes:")
+        logger.warning(f"Found {len(bad_ipa_phonemes)} invalid IPA phonemes:")
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
@@ -81,7 +82,7 @@ def _check_ipa_phonemes(
                 % (i, ord(c), unicodedata.category(c), unicodedata.name(c))
                 for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
             ]
-            logging.warning(
+            logger.warning(
                 f"Problematic: [{phoneme_id}] "
                 f"{phoneme} {', '.join(bad_chars)}"
             )
