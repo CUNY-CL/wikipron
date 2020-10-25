@@ -57,7 +57,7 @@ jobs:
                       pip install dist/*.tar.gz
       - run:
           name: Show installed Python packages
-          command: pip3 list -v
+          command: pip list -v
       - run:
           name: Run python tests
           working_directory: ~/
