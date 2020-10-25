@@ -81,6 +81,10 @@ workflows:
           name: black
           command-name: black
           command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
+      - pre-build:
+          name: mypy
+          command-name: mypy
+          command-run: mypy --ignore-missing-imports project/wikipron project/tests project/data
       - build-python:
           requires:
             - flake8
