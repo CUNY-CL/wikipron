@@ -65,6 +65,7 @@ Unreleased
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Split Latin (`lat`) into its dialects. (\#233)
 -   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
+-   Modified paths in `codes.py` and `scrape.py`. (\#251)
 
 #### Fixed
 
@@ -82,7 +83,7 @@ Unreleased
 -   Modified pron selector in Latin extraction function. (\#183).
 -   Added `--no-tone` flag. (\#188)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
--   Added `tests/test_data` directory containing two tests. (\#226)
+-   Added `tests/test_data` directory containing two tests. (\#226, \#251)
 -   Added HTTP User-Agent header to API calls to Wiktionary. (\#234)
 -   Added support for python 3.9 (\#240)
 -   Added black style formatting to `.circleci/config.yml`. (\#242)
