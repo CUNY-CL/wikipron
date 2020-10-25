@@ -40,7 +40,6 @@ Unreleased
 -   Added a script to facilitate the creation of a `.phones` file. (\#246)
 -   Split multiple pronunciations joined by tilde in `eng_us_phonetic`
 
-
 #### Changed
 
 -   Improved printing in the README table. (\#145)
@@ -89,6 +88,7 @@ Unreleased
 -   Added black style formatting to `.circleci/config.yml`. (\#242)
 -   Added logging for scraping a language with `--dialect` specified
     that requires its custom extraction logic. (\#245)
+-   Improved CircleCI workflow with orbs. (\#249)
 
 #### Changed
 
