@@ -33,6 +33,7 @@ jobs:
           command: pip list
       - run:
           name: Type checking
+          working_directory: ~/
           command: mypy --ignore-missing-imports project/wikipron project/tests project/data
       - run:
           name: Lint
