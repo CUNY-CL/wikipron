@@ -1,12 +1,21 @@
 import os
+import tempfile
 
-from typing import Any, Dict, List
+from typing import List
 
 import pytest
 
 from data.src.scrape import _build_scraping_config
 
-from . import handle_dummy_files
+
+def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:
+    """Creates dummy .phones files in dummy phones directory."""
+    open(
+        f"{phones_dir}/{key}_{dialect}phonetic.phones", "w", encoding="utf-8"
+    ).close()
+    open(
+        f"{phones_dir}/{key}_{dialect}phonemic.phones", "w", encoding="utf-8"
+    ).close()
 
 
 # "mul" should be a future-proof iso639 code to test with.
@@ -15,11 +24,11 @@ from . import handle_dummy_files
 # An alternative solution to using "mul" would be to add
 # a code to languagecodes.py explicitly for the purposes of testing.
 @pytest.mark.parametrize(
-    "config_settings, dialect_suffix, phones, expected_file_name",
+    "iso_key, dialect_affix, phones, expected_file_name",
     [
         # Dialect and phones
         (
-            {"key": "mul"},
+            "mul",
             "test_",
             True,
             [
@@ -29,16 +38,28 @@ from . import handle_dummy_files
                 "mul_test_phonemic_filtered.tsv",
             ],
         ),
+        # Phones
+        (
+            "mul",
+            "",
+            True,
+            [
+                "mul_phonetic.tsv",
+                "mul_phonemic.tsv",
+                "mul_phonetic_filtered.tsv",
+                "mul_phonemic_filtered.tsv",
+            ],
+        ),
         # Dialect
         (
-            {"key": "mul"},
+            "mul",
             "test_",
             False,
             ["mul_test_phonetic.tsv", "mul_test_phonemic.tsv"],
         ),
         # Standard
         (
-            {"key": "mul"},
+            "mul",
             "",
             False,
             ["mul_phonetic.tsv", "mul_phonemic.tsv"],
@@ -46,8 +67,8 @@ from . import handle_dummy_files
     ],
 )
 def test_file_creation(
-    config_settings: Dict[str, Any],
-    dialect_suffix: str,
+    iso_key: str,
+    dialect_affix: str,
     phones: bool,
     expected_file_name: List[str],
 ):
@@ -55,14 +76,19 @@ def test_file_creation(
     file names based on presence or absence of dialect specification
     or .phones files for a given language.
     """
-    dummy_tsv_path: str
-    with handle_dummy_files(
-        phones, config_settings["key"], dialect_suffix
-    ) as dummy_tsv_path:
+    with tempfile.TemporaryDirectory() as temp_dir:
+        os.mkdir(f"{temp_dir}/tsv")
+        os.mkdir(f"{temp_dir}/phones")
+        if phones:
+            write_dummy_phones_files(
+                f"{temp_dir}/phones", iso_key, dialect_affix
+            )
         _build_scraping_config(
-            config_settings=config_settings, dialect_suffix=dialect_suffix
+            config_settings={"key": iso_key},
+            path_affix=f"{temp_dir}/tsv/{iso_key}_{dialect_affix}",
+            phones_path_affix=f"{temp_dir}/phones/{iso_key}_{dialect_affix}",
         )
-        tsv_contents = os.listdir(dummy_tsv_path)
+        tsv_contents = os.listdir(f"{temp_dir}/tsv")
 
     for produced_file in tsv_contents:
         assert produced_file in expected_file_name
