@@ -32,6 +32,10 @@ jobs:
           name: Show installed Python packages
           command: pip list
       - run:
+          name: Type checking
+          working_directory: ~/
+          command: mypy --ignore-missing-imports project/wikipron project/tests project/data
+      - run:
           name: Lint
           working_directory: ~/
           # Avoid being able to import wikipron by relative import.

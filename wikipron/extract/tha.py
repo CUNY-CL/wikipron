@@ -3,10 +3,9 @@
 import itertools
 import typing
 
-import requests
+import requests_html
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
-
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
@@ -14,7 +13,7 @@ if typing.TYPE_CHECKING:
 
 
 def extract_word_pron_thai(
-    word: "Word", request: requests.Response, config: "Config"
+    word: "Word", request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     prons = yield_pron(request.html, IPA_XPATH_SELECTOR, config)

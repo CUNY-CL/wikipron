@@ -63,6 +63,7 @@ Unreleased
 -   Split `ban` into Latin and Balinese scripts. (\#214)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Split Latin (`lat`) into its dialects. (\#233)
+-   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
 
 #### Fixed
 

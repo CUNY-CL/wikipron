@@ -1,10 +1,9 @@
 import pytest
-import requests
+import requests_html
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.core import _skip_pron
 from wikipron.extract.default import extract_word_pron_default
-
 from . import config_factory
 
 
@@ -14,7 +13,7 @@ from . import config_factory
 def test_extraction_functions_have_the_same_signature(func):
     expected_annotations = {
         "word": "Word",
-        "request": requests.Response,
+        "request": requests_html,
         "config": "Config",
         "return": "Iterator[WordPronPair]",
     }
