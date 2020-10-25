@@ -38,6 +38,7 @@ Unreleased
 -   Added Shan (`shn`) with custom extraction. (\#229)
 -   Added Northern Kurdish (`kmr`). (\#243)
 -   Added a script to facilitate the creation of a `.phones` file. (\#246)
+-   Improved CircleCI workflow with orbs. (\#249)
 
 #### Changed
 
