@@ -94,9 +94,7 @@ def main(args: argparse.Namespace):
         phone_to_examples.items(), key=lambda x: len(x[1]), reverse=True
     ):
         print(
-            f"{phone:<5}"
-            "\t# "
-            f"{len(examples):<10}"
+            f"{phone}\t# {len(examples):10,}: "
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
     print(f"\n# unique phones: {len(phone_to_examples)}")
