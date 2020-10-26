@@ -54,9 +54,7 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
     return random.sample(list(examples), n_examples)
 
 
-def _check_ipa_phonemes(
-    phone_to_examples: Dict[str, Set[str]], filepath: str
-):
+def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
     """Given the phonemes checks whether they are represented in the IPA.
 
     This will catch problematic phonemes, such as `ú` which are not valid
@@ -68,7 +66,8 @@ def _check_ipa_phonemes(
         https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
     """
     bad_ipa_phonemes = frozenset(
-        phone for phone in phone_to_examples.keys()
+        phone
+        for phone in phone_to_examples.keys()
         if not ipapy.is_valid_ipa(phone)
     )
     if len(bad_ipa_phonemes) and filepath.endswith("phonemic.tsv"):
