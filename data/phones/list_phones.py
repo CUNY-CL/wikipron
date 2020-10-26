@@ -72,11 +72,8 @@ def _check_ipa_phonemes(
         if not ipapy.is_valid_ipa(phone):
             bad_ipa_phonemes.add(phone)
 
-    logger = logging.getLogger(__name__)
     if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
-        logger.warning(f"Found {len(bad_ipa_phonemes)} invalid IPA phonemes:")
-        if not logger.isEnabledFor(logging.WARNING):
-            return  # Do nothing. Warnings are not logged.
+        logging.warning("Found %d invalid IPA phones:", len(bad_ipa_phonemes));
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
@@ -84,10 +81,9 @@ def _check_ipa_phonemes(
                 % (i, ord(c), unicodedata.category(c), unicodedata.name(c))
                 for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
             ]
-            logger.warning(
-                f"[{phoneme_id}] Problematic: "
-                f"{phoneme} {', '.join(bad_chars)}"
-            )
+            logging.warning(
+                "[%d] Non-IPA transcription: %s (%s)", phoneme_id, phoneme,
+                " ".join(bad_chars))
             phoneme_id += 1
 
 
@@ -107,6 +103,7 @@ def main(args: argparse.Namespace):
 
 
 if __name__ == "__main__":
+    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("filepath", help="Path to TSV scraped by WikiPron")
     args = parser.parse_args()
