@@ -39,6 +39,7 @@ Unreleased
 -   Added Northern Kurdish (`kmr`). (\#243)
 -   Added a script to facilitate the creation of a `.phones` file. (\#246)
 -   Added IPA validity checks for phonemes. (\#248)
+-   Split multiple pronunciations joined by tilde in `eng_us_phonetic`.
 
 #### Changed
 
@@ -64,6 +65,8 @@ Unreleased
 -   Split `ban` into Latin and Balinese scripts. (\#214)
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Split Latin (`lat`) into its dialects. (\#233)
+-   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
+-   Modified paths in `codes.py` and `scrape.py`. (\#251)
 
 #### Fixed
 
@@ -81,12 +84,13 @@ Unreleased
 -   Modified pron selector in Latin extraction function. (\#183).
 -   Added `--no-tone` flag. (\#188)
 -   Customized extractor and new scraped prons for `khb`. (\#219)
--   Added `tests/test_data` directory containing two tests. (\#226)
+-   Added `tests/test_data` directory containing two tests. (\#226, \#251)
 -   Added HTTP User-Agent header to API calls to Wiktionary. (\#234)
 -   Added support for python 3.9 (\#240)
 -   Added black style formatting to `.circleci/config.yml`. (\#242)
 -   Added logging for scraping a language with `--dialect` specified
     that requires its custom extraction logic. (\#245)
+-   Improved CircleCI workflow with orbs. (\#249)
 
 #### Changed
 

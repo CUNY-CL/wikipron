@@ -3,7 +3,7 @@ import functools
 import logging
 import re
 
-from typing import Callable, Optional
+from typing import Callable, Optional, cast
 
 import iso639
 import segments
@@ -121,7 +121,12 @@ class Config:
         return cut_off_date
 
     def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
-        return str.casefold if casefold else lambda word: word  # noqa: E731
+        default_func: Callable[[Word], Word] = lambda word: word  # noqa: E731
+        return self._casefold_word if casefold else default_func
+
+    def _casefold_word(self, word: Word) -> Word:
+        # 'str.casefold' returns a 'str' so we need to cast it to a 'Word'
+        return cast(Word, str.casefold(word))
 
     def _get_process_pron(
         self,

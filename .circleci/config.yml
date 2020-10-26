@@ -1,63 +1,91 @@
-version: 2
+version: 2.1
 
-workflows:
-  version: 2
-  test:
-    jobs:
-      - build-python-3.6
-      - build-python-3.7
-      - build-python-3.8
-      - build-python-3.9
+orbs:
+  python: circleci/python@1.2.0
+
 
 jobs:
-  build-python-3.6: &template
+  pre-build:
+    description: Install and run a Python standalone package
+    parameters:
+      command-name:
+        type: string
+      command-run:
+        type: string
     docker:
-      - image: python:3.6
+      - image: cimg/python:3.9
+        #auth:
+        #  username: $DOCKERHUB_USERNAME
+        #  password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
-          name: Build source distribution and install package from it
-          working_directory: ~/project/
-          # Ensure we can build a source distribution that can correctly install.
-          # "python setup.py sdist" creates dist/wikipron-x.y.z.tar.gz
-          command: |
-              pip install --progress-bar off --upgrade pip setuptools
-              python setup.py sdist
-              pip install dist/`ls dist/ | grep .tar.gz`
+          name: Create custom requirements
+          command: grep << parameters.command-name >> requirements.txt > << parameters.command-name >>_requirements.txt
+      - python/install-packages:
+          pkg-manager: pip
+          pip-dependency-file: << parameters.command-name >>_requirements.txt
+          cache-version: << parameters.command-name >>-v1
       - run:
-          name: Install the full development requirements
-          working_directory: ~/project/
-          command: pip install --progress-bar off -r requirements.txt
+          working_directory: ~/
+          command: << parameters.command-run >>
+
+  build-python:
+    parameters:
+      python-version:
+        type: string
+    docker:
+      - image: cimg/python:<< parameters.python-version >>
+        #auth:
+        #  username: $DOCKERHUB_USERNAME
+        #  password: $DOCKERHUB_PASSWORD
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+          pre-install-steps:
+              - run:
+                  name: Build source distribution and install package from it
+                  command: |
+                      pip install --progress-bar off --upgrade pip setuptools
+                      python setup.py sdist
+                      pip install dist/*.tar.gz
       - run:
           name: Show installed Python packages
-          command: pip list
-      - run:
-          name: Lint
-          working_directory: ~/
-          # Avoid being able to import wikipron by relative import.
-          # Test code by importing the *installed* wikipron in site-packages.
-          command: flake8 project/setup.py project/wikipron project/tests
-      - run:
-          name: Check styling consistency with black
-          working_directory: ~/
-          # Avoid being able to import wikipron by relative import.
-          # Test code by importing the *installed* wikipron in site-packages.
-          command: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
+          command: pip list -v
       - run:
           name: Run python tests
           working_directory: ~/
           # Avoid being able to import wikipron by relative import.
           # Test code by importing the *installed* wikipron in site-packages.
-          command: pytest -vv project/tests
-  build-python-3.7:
-    <<: *template
-    docker:
-      - image: python:3.7
-  build-python-3.8:
-    <<: *template
-    docker:
-      - image: python:3.8
-  build-python-3.9:
-    <<: *template
-    docker:
-      - image: python:3.9
+          command: |
+              sudo chown circleci:circleci /home
+              pytest -vv project/tests --junitxml /tmp/testxml/report.xml
+      - store_test_results:
+          path: /tmp/testxml/
+
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      - pre-build:
+          name: flake8
+          command-name: flake8
+          command-run: flake8 project/setup.py project/wikipron project/tests
+      - pre-build:
+          name: black
+          command-name: black
+          command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
+      - pre-build:
+          name: mypy
+          command-name: mypy
+          command-run: mypy --ignore-missing-imports project/wikipron project/tests project/data
+      - build-python:
+          requires:
+            - flake8
+            - black
+            - mypy
+          matrix:
+            parameters:
+              python-version: ["3.6", "3.7", "3.8", "3.9"]
+

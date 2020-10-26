@@ -22,6 +22,7 @@ require further processing before being imported by scrape_and_write.py:
 
 import logging
 import json
+import os
 import re
 
 from typing import Dict, List
@@ -34,12 +35,15 @@ import wikipron
 
 LANGUAGES_PATH = "languages.json"
 UNMATCHED_LANGUAGES_PATH = "unmatched_languages.json"
-README_PATH = "../README.md"
-LANGUAGES_SUMMARY_PATH = "../languages_summary.tsv"
 LOGGING_PATH = "scraping.log"
 ISO_639_1_PATH = "iso639_1-to-iso639_2.json"
 ISO_639_2_PATH = "iso639_2.json"
 URL = "https://en.wiktionary.org/w/api.php"
+DATA_DIRECTORY = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+README_PATH = os.path.join(DATA_DIRECTORY, "README.md")
+LANGUAGES_SUMMARY_PATH = os.path.join(DATA_DIRECTORY, "languages_summary.tsv")
+TSV_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "tsv")
+PHONES_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "phones")
 
 
 def _get_language_categories() -> List[str]:
@@ -91,9 +95,18 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
         ).json()
         for page in data["query"]["pages"].values():
             size = page["categoryinfo"]["size"]
-            language = re.search(
+
+            language_search = re.search(
                 r"Category:(.+?) terms with IPA pronunciation", page["title"]
-            ).group(1)
+            )
+
+            if not language_search:
+                logging.warning(
+                    "Could not extract language from title: %s", page["title"]
+                )
+                continue
+
+            language = language_search.group(1)
             language_sizes[language] = size
     return language_sizes
 

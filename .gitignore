@@ -6,3 +6,6 @@ __pycache__/
 *.log
 **/tars
 **/freq_tsvs
+env/
+
+.idea/

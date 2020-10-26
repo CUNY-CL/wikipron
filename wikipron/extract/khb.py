@@ -7,7 +7,7 @@ original report here: https://github.com/kylebgorman/wikipron/issues/86).
 import itertools
 import typing
 
-import requests
+import requests_html
 
 from wikipron.extract.default import yield_pron
 
@@ -29,7 +29,7 @@ if typing.TYPE_CHECKING:
 
 
 def extract_word_pron_lu(
-    word: "Word", request: requests.Response, config: "Config"
+    word: "Word", request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     prons = yield_pron(request.html, _IPA_XPATH_SELECTOR, config)
