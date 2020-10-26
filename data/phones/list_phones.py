@@ -73,7 +73,7 @@ def _check_ipa_phonemes(
             bad_ipa_phonemes.add(phone)
 
     if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
-        logging.warning("Found %d invalid IPA phones:", len(bad_ipa_phonemes));
+        logging.warning("Found %d invalid IPA phones:", len(bad_ipa_phonemes))
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
@@ -82,8 +82,11 @@ def _check_ipa_phonemes(
                 for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
             ]
             logging.warning(
-                "[%d] Non-IPA transcription: %s (%s)", phoneme_id, phoneme,
-                " ".join(bad_chars))
+                "[%d] Non-IPA transcription: %s (%s)",
+                phoneme_id,
+                phoneme,
+                " ".join(bad_chars),
+            )
             phoneme_id += 1
 
 
