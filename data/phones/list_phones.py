@@ -10,9 +10,13 @@ For each phone/phoneme, this script prints:
 
 import argparse
 import collections
+import logging
 import random
+import unicodedata
 
 from typing import Dict, List, Set
+
+import ipapy
 
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
@@ -51,6 +55,41 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
     return sample
 
 
+def _check_ipa_phonemes(
+    phone_to_examples: Dict[str, Set[str]], args: argparse.Namespace
+):
+    """Given the phonemes checks whether they are represented in IPA.
+
+    This will catch problematic phonemes, such as `ú` which are not valid
+    according to the current IPA standard supported by `ipapy`. In addition, it
+    is likely to complain about highly specific allophones, which are likely
+    to be present in languages which have highly phonetic representation of
+    their phoneme inventory. For current IPA chart please see:
+      https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
+    """
+    bad_ipa_phonemes = set()
+    for phone in phone_to_examples.keys():
+        if not ipapy.is_valid_ipa(phone):
+            bad_ipa_phonemes.add(phone)
+
+    if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
+        logging.warning("Found %d invalid IPA phones", len(bad_ipa_phonemes))
+        phoneme_id = 1
+        for phoneme in bad_ipa_phonemes:
+            bad_chars = [
+                f"[%d %04x %s %s]"
+                % (i, ord(c), unicodedata.category(c), unicodedata.name(c))
+                for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
+            ]
+            logging.warning(
+                "[%d] Non-IPA transcription: %s (%s)",
+                phoneme_id,
+                phoneme,
+                " ".join(bad_chars),
+            )
+            phoneme_id += 1
+
+
 def main(args: argparse.Namespace):
     phone_to_examples: Dict[str, Set[str]] = _count_phones(args.filepath)
     for phone, examples in sorted(
@@ -63,9 +102,11 @@ def main(args: argparse.Namespace):
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
     print(f"\n# unique phones: {len(phone_to_examples)}")
+    _check_ipa_phonemes(phone_to_examples, args)
 
 
 if __name__ == "__main__":
+    logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("filepath", help="Path to TSV scraped by WikiPron")
     args = parser.parse_args()

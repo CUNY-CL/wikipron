@@ -38,7 +38,8 @@ Unreleased
 -   Added Shan (`shn`) with custom extraction. (\#229)
 -   Added Northern Kurdish (`kmr`). (\#243)
 -   Added a script to facilitate the creation of a `.phones` file. (\#246)
--   Split multiple pronunciations joined by tilde in `eng_us_phonetic`
+-   Added IPA validity checks for phonemes. (\#248)
+-   Split multiple pronunciations joined by tilde in `eng_us_phonetic`.
 
 #### Changed
 
