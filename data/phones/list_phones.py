@@ -34,7 +34,7 @@ def _count_phones(filepath: str) -> Dict[str, Set[str]]:
             if not line:
                 continue
             word, pron = line.split("\t", maxsplit=1)
-            example = f"( {word} | {pron} )"
+            example = f"({word} | {pron})"
             phones = pron.split()
             for phone in phones:
                 phone_to_examples[phone].add(example)
@@ -51,29 +51,28 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
     n_examples = min(len(examples), 3)
     # Using list() here because Python 3.9 has deprecated the use
     # of an _unordered_ set as the input to random.sample.
-    sample = random.sample(list(examples), n_examples)
-    return sample
+    return random.sample(list(examples), n_examples)
 
 
 def _check_ipa_phonemes(
-    phone_to_examples: Dict[str, Set[str]], args: argparse.Namespace
+    phone_to_examples: Dict[str, Set[str]], filepath: str
 ):
-    """Given the phonemes checks whether they are represented in IPA.
+    """Given the phonemes checks whether they are represented in the IPA.
 
     This will catch problematic phonemes, such as `ú` which are not valid
     according to the current IPA standard supported by `ipapy`. In addition, it
     is likely to complain about highly specific allophones, which are likely
     to be present in languages which have highly phonetic representation of
-    their phoneme inventory. For current IPA chart please see:
-      https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
-    """
-    bad_ipa_phonemes = set()
-    for phone in phone_to_examples.keys():
-        if not ipapy.is_valid_ipa(phone):
-            bad_ipa_phonemes.add(phone)
+    their phoneme inventory. For a current IPA chart, please see:
 
-    if len(bad_ipa_phonemes) and args.filepath.endswith("phonemic.tsv"):
-        logging.warning("Found %d invalid IPA phones", len(bad_ipa_phonemes))
+        https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
+    """
+    bad_ipa_phonemes = frozenset(
+        phone for phone in phone_to_examples.keys()
+        if not ipapy.is_valid_ipa(phone)
+    )
+    if len(bad_ipa_phonemes) and filepath.endswith("phonemic.tsv"):
+        logging.warning("Found %d invalid IPA phones:", len(bad_ipa_phonemes))
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
@@ -97,17 +96,16 @@ def main(args: argparse.Namespace):
     ):
         print(
             f"{phone:<5}"
-            " # "
+            "\t# "
             f"{len(examples):<10}"
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
     print(f"\n# unique phones: {len(phone_to_examples)}")
-    _check_ipa_phonemes(phone_to_examples, args)
+    _check_ipa_phonemes(phone_to_examples, args.filepath)
 
 
 if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("filepath", help="Path to TSV scraped by WikiPron")
-    args = parser.parse_args()
-    main(args)
+    main(parser.parse_args())
