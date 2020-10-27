@@ -23,14 +23,16 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--no-stress",
-        action="store_true",
-        help="Remove stress marks in pronunciations.",
+        "--stress",
+        default=True,
+        help="By default, stress marks are included in pronunciations."
+        "To remove them, set this flag to False.",
     )
     parser.add_argument(
-        "--no-syllable-boundaries",
-        action="store_true",
-        help="Remove syllable boundary marks in pronunciations.",
+        "--syllable-boundaries",
+        default=True,
+        help="By default, syllable boundary marks are included."
+        "To Remove them from pronunciations, set this flag to False.",
     )
     parser.add_argument(
         "--dialect",
@@ -63,15 +65,15 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--no-segment",
-        action="store_true",
+        "--segment",
+        default=True,
         help=(
             "By default, the IPA pronunciation is segmented by whitespace and,"
             "to the extent possible, with a diacritic (either combining "
             "or modifier) immediately following the parent symbol. "
             'For example, "kʰæt" is segmented as "kʰ æ t", with kʰ '
             "conveniently segmented as an aspirated k for modeling purposes. "
-            "To disable such IPA segmentation, apply this flag."
+            "To disable such IPA segmentation, set this flag to False."
         ),
     )
     parser.add_argument(
@@ -85,9 +87,12 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         help="Skip spaces in the transcription",
     )
     parser.add_argument(
-        "--no-tone",
-        action="store_true",
-        help="Remove tones in the transcription.",
+        "--tone",
+        default=True,
+        help=(
+            "By default, tones are included in pronunciations."
+            "To remove them, set this flag to False."
+        ),
     )
     return parser.parse_args(args)
 
