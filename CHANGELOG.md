@@ -95,7 +95,7 @@ Unreleased
 
 #### Changed
 
--   renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141)  
+-   Renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141)  
 -   Changed testing values used in `tests/test_config.py` in order to accomodate the addition of positive flags. (\#141)
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
