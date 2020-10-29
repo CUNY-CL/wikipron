@@ -25,7 +25,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--stress",
         action="store_true",
-        dest="stress",
         default=True,
         help="Include stress marks in pronunciations.",
     )
@@ -38,7 +37,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--syllable-boundaries",
         action="store_true",
-        dest="syllable_boundaries",
         default=True,
         help="Include syllable boundary marks in pronunciations.",
     )
@@ -81,7 +79,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--segment",
         action="store_true",
-        dest="segment",
         default=True,
         help=(
             "Segment the IPA pronunciation by whitespace and,"
@@ -113,7 +110,6 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--tone",
         action="store_true",
-        dest="tone",
         default=True,
         help=("Include tones in pronunciations."),
     )
