@@ -54,20 +54,20 @@ class Config:
         *,
         key: str,
         casefold: bool = False,
-        no_stress: bool = False,
-        no_syllable_boundaries: bool = False,
+        stress: bool = True,
+        syllable_boundaries: bool = True,
         cut_off_date: Optional[str] = None,
         phonetic: bool = False,
         dialect: Optional[str] = None,
-        no_segment: bool = False,
-        no_tone: bool = False,
+        segment: bool = True,
+        tone: bool = True,
         no_skip_spaces_word: bool = False,
         no_skip_spaces_pron: bool = False,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
         self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
-            no_stress, no_syllable_boundaries, no_segment, no_tone
+            stress, syllable_boundaries, segment, tone
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
@@ -130,20 +130,20 @@ class Config:
 
     def _get_process_pron(
         self,
-        no_stress: bool,
-        no_syllable_boundaries: bool,
-        no_segment: bool,
-        no_tone: bool,
+        stress: bool,
+        syllable_boundaries: bool,
+        segment: bool,
+        tone: bool,
     ) -> Callable[[Pron], Pron]:
         processors = []
-        if no_stress:
+        if not stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
-        if no_syllable_boundaries:
+        if not syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
-        if no_tone:
+        if not tone:
             processors.append(functools.partial(re.sub, _PARENS_REGEX, ""))
             processors.append(functools.partial(re.sub, _TONES_REGEX, ""))
-        if not no_segment:
+        if segment:
             processors.append(
                 functools.partial(segments.Tokenizer(), ipa=True)
             )

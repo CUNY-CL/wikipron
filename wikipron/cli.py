@@ -23,14 +23,28 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--no-stress",
+        "--stress",
         action="store_true",
-        help="Remove stress marks in pronunciations.",
+        default=True,
+        help="Include stress marks in pronunciations.",
+    )
+    parser.add_argument(
+        "--no-stress",
+        action="store_false",
+        dest="stress",
+        help="Remove stress marks from pronunciations.",
+    )
+    parser.add_argument(
+        "--syllable-boundaries",
+        action="store_true",
+        default=True,
+        help="Include syllable boundary marks in pronunciations.",
     )
     parser.add_argument(
         "--no-syllable-boundaries",
-        action="store_true",
-        help="Remove syllable boundary marks in pronunciations.",
+        action="store_false",
+        dest="syllable_boundaries",
+        help="Remove syllable boundary marks from pronuncations.",
     )
     parser.add_argument(
         "--dialect",
@@ -63,15 +77,24 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         ),
     )
     parser.add_argument(
-        "--no-segment",
+        "--segment",
         action="store_true",
+        default=True,
         help=(
-            "By default, the IPA pronunciation is segmented by whitespace and,"
+            "Segment the IPA pronunciation by whitespace and,"
             "to the extent possible, with a diacritic (either combining "
             "or modifier) immediately following the parent symbol. "
             'For example, "kʰæt" is segmented as "kʰ æ t", with kʰ '
             "conveniently segmented as an aspirated k for modeling purposes. "
-            "To disable such IPA segmentation, apply this flag."
+        ),
+    )
+    parser.add_argument(
+        "--no-segment",
+        action="store_false",
+        dest="segment",
+        help=(
+            "To avoid segmenting the IPA pronunciation by whitespace,"
+            "apply this flag."
         ),
     )
     parser.add_argument(
@@ -85,9 +108,16 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         help="Skip spaces in the transcription",
     )
     parser.add_argument(
-        "--no-tone",
+        "--tone",
         action="store_true",
-        help="Remove tones in the transcription.",
+        default=True,
+        help=("Include tones in pronunciations."),
+    )
+    parser.add_argument(
+        "--no-tone",
+        action="store_false",
+        dest="tone",
+        help=("Remove tones from pronunciations."),
     )
     return parser.parse_args(args)
 
