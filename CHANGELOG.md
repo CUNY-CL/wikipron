@@ -76,6 +76,7 @@ Unreleased
 
 #### Added
 
+-   Added positive flags for stress, syllable boundaries, tones, segment to `cli.py`. (\#141)
 -   Added two Vietnamese dialects to `languages.json`. (\#139)
 -   Handled additional language codes. (\#132, \#148)
 -   Added `--no-skip-spaces-word` and `--no-skip-spaces-pron` flag. (\#135)
@@ -94,6 +95,8 @@ Unreleased
 
 #### Changed
 
+-   renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141)  
+-   Changed testing values used in `tests/test_config.py` in order to accomodate the addition of positive flags. (\#141)
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
 -   Updated the packages version numbers in requirements.txt to their latest according to PyPI (\#239)
