@@ -61,8 +61,8 @@ class Config:
         dialect: Optional[str] = None,
         segment: bool = True,
         tone: bool = True,
-        skip_spaces_word: bool = False,
-        skip_spaces_pron: bool = False,
+        skip_spaces_word: bool = True,
+        skip_spaces_pron: bool = True,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
