@@ -170,8 +170,8 @@ def main(args: argparse.Namespace) -> None:
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
         "casefold": False,
-        "no_skip_spaces_pron": False,
-        "no_skip_spaces_word": False,
+        "skip_spaces_pron": True,
+        "skip_spaces_word": True,
     }
 
     for code in codes:
@@ -181,8 +181,8 @@ def main(args: argparse.Namespace) -> None:
                 wikipron_accepted_settings[k] = v
         config_settings = {
             "key": code,
-            "no_stress": True,
-            "no_syllable_boundaries": True,
+            "stress": False,
+            "syllable_boundaries": False,
             "cut_off_date": cut_off_date,
             **wikipron_accepted_settings,
         }

@@ -67,6 +67,7 @@ Unreleased
 -   Split Latin (`lat`) into its dialects. (\#233)
 -   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
+-   Modified config flags in `languages.json` and `scrape.py`. (\#258)
 
 #### Fixed
 
