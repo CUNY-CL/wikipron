@@ -24,9 +24,9 @@ HTTP_HEADERS = {
 }
 
 
-def _skip_word(word: str, no_skip_spaces: bool) -> bool:
+def _skip_word(word: str, skip_spaces: bool) -> bool:
     # Skips multiword examples.
-    if not no_skip_spaces and (" " in word or "\u00A0" in word):
+    if skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
     if "-" in word:
@@ -46,7 +46,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
-        if _skip_word(title, config.no_skip_spaces_word) or _skip_date(
+        if _skip_word(title, config.skip_spaces_word) or _skip_date(
             timestamp, config.cut_off_date
         ):
             continue

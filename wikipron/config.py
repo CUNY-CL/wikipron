@@ -61,8 +61,8 @@ class Config:
         dialect: Optional[str] = None,
         segment: bool = True,
         tone: bool = True,
-        no_skip_spaces_word: bool = False,
-        no_skip_spaces_pron: bool = False,
+        skip_spaces_word: bool = True,
+        skip_spaces_pron: bool = True,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
@@ -78,8 +78,8 @@ class Config:
         self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
             self.language
         )
-        self.no_skip_spaces_word: bool = no_skip_spaces_word
-        self.no_skip_spaces_pron: bool = no_skip_spaces_pron
+        self.skip_spaces_word: bool = skip_spaces_word
+        self.skip_spaces_pron: bool = skip_spaces_pron
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()

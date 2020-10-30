@@ -24,17 +24,17 @@ def test_extraction_functions_have_the_same_signature(func):
 
 
 @pytest.mark.parametrize(
-    "pron, iso639_key, no_skip_spaces, expected",
+    "pron, iso639_key, skip_spaces, expected",
     [
-        ("əbzɝvɚ", "eng", False, False),
+        ("əbzɝvɚ", "eng", True, False),
         # GH-105: Dashed prons are skipped.
-        ("ɑb-", "eng", False, True),
+        ("ɑb-", "eng", True, True),
         # Spaces in Chinese prons are not skipped.
-        ("ɕjɛ tu", "cmn", True, False),
+        ("ɕjɛ tu", "cmn", False, True),
         # Non-breaking spaces are not skipped.
-        ("zinda ɡi", "per", True, False),
+        ("zinda ɡi", "per", True, True),
     ],
 )
-def test__skip_pron(pron, iso639_key, no_skip_spaces, expected):
-    config = config_factory(key=iso639_key, no_skip_spaces_pron=no_skip_spaces)
+def test__skip_pron(pron, iso639_key, skip_spaces, expected):
+    config = config_factory(key=iso639_key, skip_spaces_pron=skip_spaces)
     assert _skip_pron(pron, config) == expected
