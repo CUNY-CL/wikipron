@@ -81,7 +81,7 @@ def test_special_languages_covered_by_smoke_test():
         ("prefix-", True, True),
         ("-suffix", True, True),
         ("hasdigit2", False, True),
-        ("a phrase", True, False),
+        ("a phrase", False, False),
         ("foobar", True, False),
     ],
 )
