@@ -6,6 +6,8 @@ import sys
 
 import regex  # type: ignore
 
+from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
+
 
 def _generalized_check(script: str, word: str) -> bool:
     prop = (
@@ -28,7 +30,7 @@ def _iterate_through_file(
 
 def main() -> None:
     tsv_path = sys.argv[1]
-    with open("languages.json", "r", encoding="utf-8") as lang_source:
+    with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
     iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
     transcription_level = tsv_path[tsv_path.rindex("phone") :]
@@ -41,7 +43,7 @@ def main() -> None:
                 return
         for script_prefix, unicode_script in lang["script"].items():
             output_path = (
-                f"../tsv/{iso639_code}_{script_prefix}_"
+                f"{TSV_DIRECTORY_PATH}/{iso639_code}_{script_prefix}_"
                 f"{transcription_level}"
             )
             _iterate_through_file(tsv_path, output_path, unicode_script)
