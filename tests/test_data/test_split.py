@@ -16,7 +16,8 @@ SmokeTestScript = collections.namedtuple(
     "SmokeTestScript", ("script", "samples")
 )
 SmokeTestScript.__doc__ = """
-Represents a language to run a smoke test on.
+A script and a list of orthography samples to run
+a smoke test on.
 
 Parameters
 ----------
@@ -80,9 +81,9 @@ def _collect_scripts() -> Set[str]:
     scripts = set()
     with open(_LANGUAGES, "r") as source:
         languages = json.load(source)
-    for language in languages:
-        if "script" in languages[language]:
-            for _, unicode_script in languages[language]["script"].items():
+    for lang in languages:
+        if "script" in languages[lang]:
+            for unicode_script in languages[lang]["script"].values():
                 scripts.add(unicode_script)
     return scripts
 
@@ -98,10 +99,15 @@ def test_script_coverage(observed_scripts, known_scripts):
     for script in observed_scripts:
         assert (
             script in known_scripts
-        ), f"{script} must be included in _SCRIPTS."
+        ), f"{script} must be included in the smoke test."
 
 
 @pytest.mark.parametrize("smoke_test_script,", _SMOKE_TEST_LANGUAGES)
 def test_smoke_test_script(smoke_test_script):
-    for sample, val in smoke_test_script.samples:
-        assert _generalized_check(smoke_test_script.script, sample) == val
+    """Checks whether the scripts we'd like to split are appropriately handled
+    by the Unicode script property."""
+    for script_sample, predicted_truth_val in smoke_test_script.samples:
+        assert (
+            _generalized_check(smoke_test_script.script, script_sample)
+            == predicted_truth_val
+        )
