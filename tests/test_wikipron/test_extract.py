@@ -4,7 +4,6 @@ import requests_html
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.core import _skip_pron
 from wikipron.extract.default import extract_word_pron_default
-from . import config_factory
 
 
 @pytest.mark.parametrize(
