@@ -66,7 +66,7 @@ Unreleased
 -   Split `kir` into Cyrillic and Arabic. (\#216)
 -   Split Latin (`lat`) into its dialects. (\#233)
 -   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
--   Modified paths in `codes.py` and `scrape.py`. (\#251)
+-   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 
 #### Fixed
 
@@ -93,6 +93,7 @@ Unreleased
 -   Added logging for scraping a language with `--dialect` specified
     that requires its custom extraction logic. (\#245)
 -   Improved CircleCI workflow with orbs. (\#249)
+-   Added `test_split.py` to `tests/test_data`. (\#256)
 
 #### Changed
 
