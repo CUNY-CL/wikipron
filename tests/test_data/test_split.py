@@ -62,10 +62,16 @@ _SMOKE_TEST_LANGUAGES = [
     ),
     SmokeTestScript("Balinese", [("ᬰᬶᬮᬵ", True), ("ᬰнᬮᬰสุᬮᬵ", False)]),
     SmokeTestScript("Cyrillic", [("наиме", True), ("наиmе", False)]),
-    SmokeTestScript("Gurmukhi", [("ਲੂੰਬੜੀ", True), ("ੁ", True), ("ਲਬลੜੀ", False)]),
-    SmokeTestScript("Katakana", [("シニヨン", True), ("あいき", False), ("瀨", False)]),
+    SmokeTestScript(
+        "Gurmukhi", [("ਲੂੰਬੜੀ", True), ("ੁ", True), ("ਲਬลੜੀ", False)]
+    ),
+    SmokeTestScript(
+        "Katakana", [("シニヨン", True), ("あいき", False), ("瀨", False)]
+    ),
     SmokeTestScript("Imperial Aramaic", [("𐡀𐡅𐡓𐡔𐡋𐡌", True), ("𐡀ܒ𐡓𐡔𐡋𐡌", False)]),
-    SmokeTestScript("Latin", [("wikipron", True), ("ае", False), ("lịch", True)]),
+    SmokeTestScript(
+        "Latin", [("wikipron", True), ("ае", False), ("lịch", True)]
+    ),
     SmokeTestScript("Arabic", [("ژۇرنال", True), ("ژלرنال", False)]),
 ]
 
