@@ -16,7 +16,7 @@ SmokeTestScript = collections.namedtuple(
     "SmokeTestScript", ("script", "samples")
 )
 SmokeTestScript.__doc__ = """
-A script and a list of orthography samples to run
+A script and a list of orthographic samples to run
 a smoke test on.
 
 Parameters
