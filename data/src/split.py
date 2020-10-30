@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
-import argparse
 import json
 import os
+import sys
 
 import regex  # type: ignore
 
@@ -28,8 +28,8 @@ def _iterate_through_file(
                     print(line.rstrip(), file=output_tsv)
 
 
-def main(args: argparse.Namespace) -> None:
-    tsv_path = args.tsv_path
+def main() -> None:
+    tsv_path = sys.argv[1]
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
     iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
@@ -53,10 +53,4 @@ def main(args: argparse.Namespace) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--tsv_path",
-        type=str,
-        required=True,
-    )
-    main(parser.parse_args())
+    main()
