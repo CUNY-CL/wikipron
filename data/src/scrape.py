@@ -219,6 +219,6 @@ if __name__ == "__main__":
         "--restriction",
         type=str,
         nargs="+",
-        help="Specify language restrictions for scrape",
+        help="restricts scrape to specified language(s)",
     )
     main(parser.parse_args())

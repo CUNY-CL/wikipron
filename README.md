@@ -24,9 +24,8 @@ If you use WikiPron in your research, please cite the following:
 Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean
 Miller, Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020). [Massively
 multilingual pronunciation mining with
-WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In
-In _Proceedings of the 12th Language Resources and Evaluation Conference_,
-pages 4223-4228.
+WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In In *Proceedings
+of the 12th Language Resources and Evaluation Conference*, pages 4223-4228.
 \[[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)\]
 
 Command-line tool
@@ -59,6 +58,22 @@ The language is indicated by a three-letter [ISO
 e.g., `fra` for French. For which languages can be scraped,
 [here](https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language)
 is the complete list of languages on Wiktionary that have pronunciation entries.
+
+#### Specifying the Dialect
+
+One can optionally specify dialects to target using the `--dialect` flag. The
+dialect name can be found together with the transcription on Wiktionary. For
+example, "(UK, US) IPA: /təˈmɑːtəʊ/". To restrict to the union of dialects use
+the pipe character '\|': e.g., `--dialect='General American | US'`.
+Transcriptions which lack a dialect specification are selected regardless of the
+value of this flag.
+
+#### Segmentation
+
+By default, the [`segments`](https://github.com/cldf/segments) library is used
+to segment the transcription into whitespace. The segmentation tends to place
+IPA diacritics and modifiers on the "parent" symbol. For instance, \[kʰæt\] is
+rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
 #### Output
 
