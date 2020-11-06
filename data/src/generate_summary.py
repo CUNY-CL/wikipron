@@ -20,7 +20,9 @@ def _handle_wiki_name(
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:
-            key = file_path[file_path.index("_") + 1 : file_path.rindex("_phone")]
+            key = file_path[
+                file_path.index("_") + 1 : file_path.rindex("_phone")
+            ]
             if not key:
                 logging.info(
                     "Failed to isolate key for %r modifier in %r",
@@ -36,7 +38,7 @@ def _handle_wiki_name(
 
 
 def main() -> None:
-    with open(LANGUAGES_PATH, "r") as source:
+    with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
     readme_list = []
     languages_summary_list = []
@@ -46,7 +48,7 @@ def main() -> None:
         # Filters out README.md.
         if file_path.endswith(".md"):
             continue
-        with open(f"{path}/{file_path}", "r") as tsv:
+        with open(f"{path}/{file_path}", "r", encoding="utf-8") as tsv:
             num_of_entries = sum(1 for line in tsv)
         # Removes files with less than 100 entries.
         if num_of_entries < 100:
@@ -81,13 +83,13 @@ def main() -> None:
     languages_summary_list.sort(key=_wiki_name_and_transcription_level)
     readme_list.sort(key=_wiki_name_and_transcription_level)
     # Writes the TSV.
-    with open(LANGUAGES_SUMMARY_PATH, "w") as sink:
+    with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer_object = csv.writer(
             sink, delimiter="\t", lineterminator="\n"
         )
         tsv_writer_object.writerows(languages_summary_list)
     # Writes the README.
-    with open(README_PATH, "w") as sink:
+    with open(README_PATH, "w", encoding="utf-8") as sink:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
             "| Wiktionary Language Name | Case-folding "

@@ -156,6 +156,8 @@ LANGUAGE_CODES = {
     "old norse": "Old Norse",
     # Old Portuguese. Not an ISO 639 language.
     "old portuguese": "Old Portuguese",
+    "roa-opt": "Old Portuguese",
+    "opt": "Old Portuguese",
     # Old Saxon. ISO 639-3 only.
     "osx": "Old Saxon",
     "old saxon": "Old Saxon",
@@ -379,4 +381,7 @@ LANGUAGE_CODES = {
     # Middle Irish. Would be "Irish, Middle (900-1200)" in ISO 639.
     "mga": "Middle Irish",
     "middle irish": "Middle Irish",
+    # Middle Korean. ISO 639-3 only: "Korean, Middle (10th–16th centuries)".
+    "okm": "Middle Korean",
+    "middle korean": "Middle Korean",
 }
