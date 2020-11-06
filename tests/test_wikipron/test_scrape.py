@@ -33,6 +33,7 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("kor", "Korean", {"phonetic": True}),
     SmokeTestLanguage("khb", "Lü", {}),
     SmokeTestLanguage("khm", "Khmer", {}),
+    SmokeTestLanguage("shn", "Shan", {}),
     SmokeTestLanguage("tha", "Thai", {}),
     SmokeTestLanguage("lat", "Latin", {}),
     # Japanese data is mostly phonetic transcription.
@@ -72,20 +73,20 @@ def test_special_languages_covered_by_smoke_test():
 
 
 @pytest.mark.parametrize(
-    "word, no_skip_spaces, expected",
+    "word, skip_spaces, expected",
     [
-        ("foobar", False, False),
-        ("a phrase", False, True),
-        ("hyphen-ated", False, True),
-        ("prefix-", False, True),
-        ("-suffix", False, True),
+        ("foobar", True, False),
+        ("a phrase", True, True),
+        ("hyphen-ated", True, True),
+        ("prefix-", True, True),
+        ("-suffix", True, True),
         ("hasdigit2", False, True),
-        ("a phrase", True, False),
+        ("a phrase", False, False),
         ("foobar", True, False),
     ],
 )
-def test__skip_word(word, no_skip_spaces, expected):
-    assert _skip_word(word, no_skip_spaces) == expected
+def test__skip_word(word, skip_spaces, expected):
+    assert _skip_word(word, skip_spaces) == expected
 
 
 @pytest.mark.parametrize(

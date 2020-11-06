@@ -22,23 +22,31 @@ require further processing before being imported by scrape_and_write.py:
 
 import logging
 import json
+import os
 import re
 
 from typing import Dict, List
+from wikipron.scrape import HTTP_HEADERS
 
 import iso639
 import requests
 import requests_html  # type: ignore
 import wikipron
 
-LANGUAGES_PATH = "languages.json"
-UNMATCHED_LANGUAGES_PATH = "unmatched_languages.json"
-README_PATH = "../README.md"
-LANGUAGES_SUMMARY_PATH = "../languages_summary.tsv"
-LOGGING_PATH = "scraping.log"
-ISO_639_1_PATH = "iso639_1-to-iso639_2.json"
-ISO_639_2_PATH = "iso639_2.json"
+SRC_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(SRC_DIRECTORY, "languages.json")
+UNMATCHED_LANGUAGES_PATH = os.path.join(
+    SRC_DIRECTORY, "unmatched_languages.json"
+)
+LOGGING_PATH = os.path.join(SRC_DIRECTORY, "scraping.log")
+ISO_639_1_PATH = os.path.join(SRC_DIRECTORY, "iso639_1-to-iso639_2.json")
+ISO_639_2_PATH = os.path.join(SRC_DIRECTORY, "iso639_2.json")
 URL = "https://en.wiktionary.org/w/api.php"
+DATA_DIRECTORY = os.path.dirname(SRC_DIRECTORY)
+README_PATH = os.path.join(DATA_DIRECTORY, "README.md")
+LANGUAGES_SUMMARY_PATH = os.path.join(DATA_DIRECTORY, "languages_summary.tsv")
+TSV_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "tsv")
+PHONES_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "phones")
 
 
 def _get_language_categories() -> List[str]:
@@ -58,7 +66,9 @@ def _get_language_categories() -> List[str]:
     }
     language_categories = []
     while True:
-        data = requests.get(URL, params=requests_params).json()
+        data = requests.get(
+            URL, params=requests_params, headers=HTTP_HEADERS
+        ).json()
         for member in data["query"]["categorymembers"]:
             category = member["title"]
             language_categories.append(category)
@@ -83,12 +93,23 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
             "prop": "categoryinfo",
             "titles": "|".join(categories[start:end]),
         }
-        data = requests.get(URL, params=requests_params).json()
+        data = requests.get(
+            URL, params=requests_params, headers=HTTP_HEADERS
+        ).json()
         for page in data["query"]["pages"].values():
             size = page["categoryinfo"]["size"]
-            language = re.search(
+
+            language_search = re.search(
                 r"Category:(.+?) terms with IPA pronunciation", page["title"]
-            ).group(1)
+            )
+
+            if not language_search:
+                logging.warning(
+                    "Could not extract language from title: %s", page["title"]
+                )
+                continue
+
+            language = language_search.group(1)
             language_sizes[language] = size
     return language_sizes
 
@@ -110,6 +131,7 @@ def _scrape_wiktionary_language_code(lang_title: str) -> str:
     language_page = session.get(
         f"https://en.wiktionary.org/wiki/Category:{lang_title}_language",
         timeout=10,
+        headers=HTTP_HEADERS,
     )
     return language_page.html.xpath(lang_code_selector)[0].text
 

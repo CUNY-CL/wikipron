@@ -220,7 +220,7 @@
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
         "casefold": false,
-        "no_skip_spaces_pron": true,
+        "skip_spaces_pron": false,
         "script": {
             "hani": "Han"
         }
@@ -589,7 +589,12 @@
         "iso639_name": "Latin",
         "wiktionary_name": "Latin",
         "wiktionary_code": "la",
-        "casefold": true
+        "casefold": true,
+        "dialect": {
+            "clas": "Classical",
+            "eccl": "Ecclesiastical",
+            "vulg": "Vulgar"
+        }
     },
     "lav": {
         "iso639_name": "Latvian",
@@ -823,6 +828,17 @@
         "wiktionary_code": "frr",
         "casefold": true
     },
+    "kmr": {
+        "iso639_name": "Northern Kurdish",
+        "wiktionary_name": "Northern Kurdish",
+        "wiktionary_code": "kmr",
+        "casefold": false,
+        "script": {
+            "ara": "Arabic",
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
+        }
+    },
     "sme": {
         "iso639_name": "Northern Sami",
         "wiktionary_name": "Northern Sami",
@@ -948,7 +964,7 @@
         "wiktionary_name": "Persian",
         "wiktionary_code": "fa",
         "casefold": false,
-        "no_skip_spaces_pron": true
+        "skip_spaces_pron": false
     },
     "pms": {
         "iso639_name": "Piemontese",
@@ -1157,7 +1173,7 @@
         "wiktionary_name": "Tibetan",
         "wiktionary_code": "bo",
         "casefold": false,
-        "no_skip_spaces_pron": true
+        "skip_spaces_pron": false
     },
     "ton": {
         "iso639_name": "Tonga (Tonga Islands)",
@@ -1181,7 +1197,10 @@
         "iso639_name": "Tuvinian",
         "wiktionary_name": "Tuvan",
         "wiktionary_code": "tyv",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "tzo": {
         "iso639_name": "Tzotzil",
@@ -1216,8 +1235,8 @@
         "wiktionary_name": "Vietnamese",
         "wiktionary_code": "vi",
         "casefold": true,
-        "no_skip_spaces_word": true,
-        "no_skip_spaces_pron": true,
+        "skip_spaces_word": false,
+        "skip_spaces_pron": false,
         "dialect": {
             "hanoi": "Hà Nội",
             "hcmc": "Hồ Chí Minh City",

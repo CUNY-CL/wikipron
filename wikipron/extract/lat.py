@@ -43,13 +43,11 @@ In the underlying HTML, the Latin entry pages are in two different forms.
 
 import itertools
 import typing
-
-import requests
-
-from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
-
 from typing import List
 
+import requests_html
+
+from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
@@ -66,8 +64,18 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 
 _PRON_XPATH_TEMPLATE = """
 //{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
-  /following-sibling::ul
-    [1][descendant::a[@title = "Appendix:Latin pronunciation"]]
+  /following-sibling::ul[1]
+    {dialect_selector}
+"""
+
+_PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE = """
+//li[
+  sup[a[@title = "Appendix:Latin pronunciation"]]
+  and
+  span[@class = "IPA"]
+  and
+  span[@class = "ib-content qualifier-content" and a[{dialects_text}]]
+]
 """
 
 _WORD_XPATH_TEMPLATE = """
@@ -77,7 +85,7 @@ _WORD_XPATH_TEMPLATE = """
 """
 
 
-def _get_tags(request: requests.Response) -> List[str]:
+def _get_tags(request: requests_html) -> List[str]:
     """Extract the Latin Etymology ID tags from the table of contents."""
     tags = []
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
@@ -90,9 +98,7 @@ def _get_tags(request: requests.Response) -> List[str]:
     return tags
 
 
-def _yield_latin_word(
-    request: requests.Response, tag: str
-) -> "Iterator[Word]":
+def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[Word]":
     heading = "h2" if tag == "Latin" else "h3"
     word_xpath_selector = _WORD_XPATH_TEMPLATE.format(heading=heading, tag=tag)
     try:
@@ -109,21 +115,32 @@ def _yield_latin_word(
 
 
 def _yield_latin_pron(
-    request: requests.Response, config: "Config", tag: str
+    request: requests_html, config: "Config", tag: str
 ) -> "Iterator[Pron]":
     heading = "h2" if tag == "Latin" else "h3"
-    pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(heading=heading, tag=tag)
+    if config.dialect:
+        dialect_selector = _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE.format(
+            dialects_text=" or ".join(
+                f'text() = "{d.strip()}"' for d in config.dialect.split("|")
+            )
+        )
+    else:
+        dialect_selector = (
+            '[descendant::a[@title = "Appendix:Latin pronunciation"]]'
+        )
+    pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(
+        heading=heading, tag=tag, dialect_selector=dialect_selector
+    )
     for pron_element in request.html.xpath(pron_xpath_selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_latin(
-    word: "Word", request: requests.Response, config: "Config"
+    word: "Word", request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     # For Latin, we don't use the title word from the Wiktionary page,
     # because it never has macrons (necessary for Latin vowel length).
     # We will get the word from each "Etymology" section within the page.
-    word = None  # noqa: F841
     tags = _get_tags(request)
     for tag in tags:
         # The words and prons are extracted from the same request response but

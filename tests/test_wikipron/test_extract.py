@@ -1,11 +1,9 @@
 import pytest
-import requests
+import requests_html
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.core import _skip_pron
 from wikipron.extract.default import extract_word_pron_default
-
-from . import config_factory
 
 
 @pytest.mark.parametrize(
@@ -14,7 +12,7 @@ from . import config_factory
 def test_extraction_functions_have_the_same_signature(func):
     expected_annotations = {
         "word": "Word",
-        "request": requests.Response,
+        "request": requests_html,
         "config": "Config",
         "return": "Iterator[WordPronPair]",
     }
@@ -25,17 +23,16 @@ def test_extraction_functions_have_the_same_signature(func):
 
 
 @pytest.mark.parametrize(
-    "pron, iso639_key, no_skip_spaces, expected",
+    "pron, iso639_key, skip_spaces, expected",
     [
-        ("əbzɝvɚ", "eng", False, False),
+        ("əbzɝvɚ", "eng", True, False),
         # GH-105: Dashed prons are skipped.
-        ("ɑb-", "eng", False, True),
+        ("ɑb-", "eng", True, True),
         # Spaces in Chinese prons are not skipped.
-        ("ɕjɛ tu", "cmn", True, False),
+        ("ɕjɛ tu", "cmn", False, False),
         # Non-breaking spaces are not skipped.
-        ("zinda ɡi", "per", True, False),
+        ("zinda ɡi", "per", False, False),
     ],
 )
-def test__skip_pron(pron, iso639_key, no_skip_spaces, expected):
-    config = config_factory(key=iso639_key, no_skip_spaces_pron=no_skip_spaces)
-    assert _skip_pron(pron, config) == expected
+def test__skip_pron(pron, iso639_key, skip_spaces, expected):
+    assert _skip_pron(pron, skip_spaces) == expected

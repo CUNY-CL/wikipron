@@ -1,4 +1,4 @@
-"""Word and pron extraction for Khmer."""
+"""Word and pron extraction for Shan, language spoken in Myanmar."""
 
 import itertools
 import typing
@@ -7,15 +7,24 @@ import requests_html
 
 from wikipron.extract.default import yield_pron
 
+_IPA_XPATH_SELECTOR = """
+//li[
+  (.|span)[sup[a[
+    @title = "Appendix:Shan pronunciation (page does not exist)"
+    or
+    @title = "wikipedia:Shan phonology"
+  ]]]
+  and
+  span[@class = "IPA"]
+]
+"""
+
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
     from wikipron.typing import Iterator, Word, WordPronPair
 
 
-_IPA_XPATH_SELECTOR = '//span[@class = "IPA" and @lang = "km"]'
-
-
-def extract_word_pron_khmer(
+def extract_word_pron_shan(
     word: "Word", request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)

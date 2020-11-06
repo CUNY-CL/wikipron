@@ -17,77 +17,92 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--phonetic",
         action="store_true",
-        help=(
-            "Retrieve the [phonetic] transcriptions "
-            "rather than the /phonemic/ ones."
-        ),
+        help="retrieves [phonetic] rather than /phonemic/ transcriptions",
+    )
+    parser.add_argument(
+        "--stress",
+        action="store_true",
+        default=True,
+        help="includes stress in the transcriptions",
     )
     parser.add_argument(
         "--no-stress",
+        action="store_false",
+        dest="stress",
+        help="removes stress from the transcriptions",
+    )
+    parser.add_argument(
+        "--syllable-boundaries",
         action="store_true",
-        help="Remove stress marks in pronunciations.",
+        default=True,
+        help="includes syllable boundaries in the transcriptions",
     )
     parser.add_argument(
         "--no-syllable-boundaries",
-        action="store_true",
-        help="Remove syllable boundary marks in pronunciations.",
+        action="store_false",
+        dest="syllable_boundaries",
+        help="removes syllable boundaries in the transcriptions",
     )
     parser.add_argument(
         "--dialect",
-        help=(
-            "Retrieve entries that have this dialect specification. "
-            "If not given, then all dialects are included in the output. "
-            "The dialect name can be found together with the IPA transcription"
-            " in the Wiktionary entries, "
-            'e.g., "UK" or "US" in "(UK, US) IPA: /təˈmɑːtəʊ/". '
-            'To include more than one dialect, use a pipe "|" to separate '
-            'the dialect names, e.g., --dialect="General American | US". '
-            "Note that whether or not --dialect is used, all entries that "
-            "have no dialects specified are included in the output."
-        ),
+        help="restricts to entries matching this dialect specification",
     )
     parser.add_argument(
         "--casefold",
         action="store_true",
-        help="Apply case-folding to the orthography.",
+        help="apply case-folding to the orthographic form",
     )
     parser.add_argument(
         "--cut-off-date",
-        help=(
-            "Retrieve only entries that were added to Wiktionary "
-            "on or before this date (in ISO format, e.g., 2018-10-23). "
-            "If not given, today's date is used. "
-            "Explicitly setting a cut-off date is useful if you want a "
-            "relatively stable dataset no matter when you initiate a "
-            "scraping run."
-        ),
+        help="restricts to entries added on or before an (ISO 8601) date",
+    )
+    parser.add_argument(
+        "--segment",
+        action="store_true",
+        default=True,
+        help="segment the IPA pronunciation (e.g., with whitespace)",
     )
     parser.add_argument(
         "--no-segment",
+        action="store_false",
+        dest="segment",
+        help="do not segment the IPA pronunciation",
+    )
+    parser.add_argument(
+        "--skip-spaces-word",
         action="store_true",
-        help=(
-            "By default, the IPA pronunciation is segmented by whitespace and,"
-            "to the extent possible, with a diacritic (either combining "
-            "or modifier) immediately following the parent symbol. "
-            'For example, "kʰæt" is segmented as "kʰ æ t", with kʰ '
-            "conveniently segmented as an aspirated k for modeling purposes. "
-            "To disable such IPA segmentation, apply this flag."
-        ),
+        default=True,
+        help="skip entries with space in orthographic form",
     )
     parser.add_argument(
         "--no-skip-spaces-word",
+        dest="skip_spaces_word",
+        action="store_false",
+        help="do not skip entries with space in orthographic form",
+    )
+    parser.add_argument(
+        "--skip-spaces-pron",
         action="store_true",
-        help="Skip spaces in the orthography",
+        default=True,
+        help="skip entries with space in the transcription",
     )
     parser.add_argument(
         "--no-skip-spaces-pron",
+        dest="skip_spaces_pron",
+        action="store_false",
+        help="do not skip entries with space in the transcript",
+    )
+    parser.add_argument(
+        "--tone",
         action="store_true",
-        help="Skip spaces in the transcription",
+        default=True,
+        help="include tones in the transcriptions",
     )
     parser.add_argument(
         "--no-tone",
-        action="store_true",
-        help="Remove tones in the transcription.",
+        action="store_false",
+        dest="tone",
+        help="removes tones from the transcriptions",
     )
     return parser.parse_args(args)
 

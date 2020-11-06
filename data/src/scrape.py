@@ -14,8 +14,12 @@ from typing import Any, Dict, FrozenSet, Iterator
 import requests
 import wikipron  # type: ignore
 
-
-from codes import LANGUAGES_PATH, LOGGING_PATH
+from data.src.codes import (
+    LANGUAGES_PATH,
+    LOGGING_PATH,
+    TSV_DIRECTORY_PATH,
+    PHONES_DIRECTORY_PATH,
+)
 
 
 def _phones_reader(path: str) -> Iterator[str]:
@@ -90,11 +94,8 @@ def _call_scrape(
 
 
 def _build_scraping_config(
-    config_settings: Dict[str, Any], wiki_name: str, dialect_suffix: str = ""
+    config_settings: Dict[str, Any], path_affix: str, phones_path_affix: str
 ) -> None:
-    path_affix = f'../tsv/{config_settings["key"]}_{dialect_suffix}'
-    phones_path_affix = f"../phones/{config_settings['key']}_{dialect_suffix}"
-
     # Configures phonemic TSV.
     phonemic_config = wikipron.Config(**config_settings)
     phonemic_path = f"{path_affix}phonemic.tsv"
@@ -169,8 +170,8 @@ def main(args: argparse.Namespace) -> None:
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
         "casefold": False,
-        "no_skip_spaces_pron": False,
-        "no_skip_spaces_word": False,
+        "skip_spaces_pron": True,
+        "skip_spaces_word": True,
     }
 
     for code in codes:
@@ -180,14 +181,16 @@ def main(args: argparse.Namespace) -> None:
                 wikipron_accepted_settings[k] = v
         config_settings = {
             "key": code,
-            "no_stress": True,
-            "no_syllable_boundaries": True,
+            "stress": False,
+            "syllable_boundaries": False,
             "cut_off_date": cut_off_date,
             **wikipron_accepted_settings,
         }
         if "dialect" not in language_settings:
             _build_scraping_config(
-                config_settings, language_settings["wiktionary_name"]
+                config_settings,
+                f"{TSV_DIRECTORY_PATH}/{config_settings['key']}_",
+                f"{PHONES_DIRECTORY_PATH}/{config_settings['key']}_",
             )
         else:
             for (dialect_key, dialect_value) in language_settings[
@@ -196,8 +199,8 @@ def main(args: argparse.Namespace) -> None:
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
-                    language_settings["wiktionary_name"],
-                    dialect_key + "_",
+                    f"{TSV_DIRECTORY_PATH}/{config_settings['key']}_{dialect_key}_",
+                    f"{PHONES_DIRECTORY_PATH}/{config_settings['key']}_{dialect_key}_",
                 )
 
 
@@ -216,6 +219,6 @@ if __name__ == "__main__":
         "--restriction",
         type=str,
         nargs="+",
-        help="Specify language restrictions for scrape",
+        help="restricts scrape to specified language(s)",
     )
     main(parser.parse_args())

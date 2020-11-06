@@ -4,7 +4,9 @@ import re
 import wikipron
 
 
-_REPO_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+_REPO_DIR = os.path.dirname(
+    os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+)
 
 
 def test_version_number_match_with_changelog():
