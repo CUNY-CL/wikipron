@@ -111,6 +111,7 @@
 | [TSV](tsv/gle_phonemic.tsv) | gle | Irish | Irish | True | Phonemic | 6,731 |
 | [TSV](tsv/gle_phonetic.tsv) | gle | Irish | Irish | True | Phonetic | 1,606 |
 | [TSV](tsv/ita_phonemic.tsv) | ita | Italian | Italian | True | Phonemic | 11,825 |
+| [TSV](tsv/ita_phonemic_filtered.tsv) | ita | Italian | Italian | True | Phonemic_filtered | 11,294 |
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 6,072 |
 | [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 102 |
 | [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 18,280 |
