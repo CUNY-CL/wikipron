@@ -41,6 +41,7 @@ Unreleased
 -   Added IPA validity checks for phonemes. (\#248)
 -   Split multiple pronunciations joined by tilde in `eng_us_phonetic`.
 -   Added Italian phoneme list and filtered TSV file. (\#260, \#261)
+-   Added Adyghe phone list and filtered TSV file. (\#262, \#263)
 
 #### Changed
 
