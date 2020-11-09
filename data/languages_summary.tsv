@@ -109,6 +109,7 @@ ina_phonemic.tsv	ina	Interlingua (International Auxiliary Language Association)	
 gle_phonemic.tsv	gle	Irish	Irish	True	Phonemic	6731
 gle_phonetic.tsv	gle	Irish	Irish	True	Phonetic	1606
 ita_phonemic.tsv	ita	Italian	Italian	True	Phonemic	11825
+ita_phonemic_filtered.tsv	ita	Italian	Italian	True	Phonemic_filtered	11294
 ita_phonetic.tsv	ita	Italian	Italian	True	Phonetic	6072
 jpn_hira_phonemic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonemic	102
 jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	18280

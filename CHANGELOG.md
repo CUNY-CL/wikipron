@@ -40,6 +40,7 @@ Unreleased
 -   Added a script to facilitate the creation of a `.phones` file. (\#246)
 -   Added IPA validity checks for phonemes. (\#248)
 -   Split multiple pronunciations joined by tilde in `eng_us_phonetic`.
+-   Added Italian phoneme list and filtered TSV file. (\#260, \#261)
 
 #### Changed
 
