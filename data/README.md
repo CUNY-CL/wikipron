@@ -1,6 +1,7 @@
 | Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Case-folding | Phonetic/Phonemic | # of entries |
 | :---- | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/ady_phonetic.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic | 5,123 |
+| [TSV](tsv/ady_phonetic_filtered.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic_filtered | 4,895 |
 | [TSV](tsv/aar_phonemic.tsv) | aar | Afar | Afar | True | Phonemic | 339 |
 | [TSV](tsv/afr_phonemic.tsv) | afr | Afrikaans | Afrikaans | True | Phonemic | 1,333 |
 | [TSV](tsv/afr_phonetic.tsv) | afr | Afrikaans | Afrikaans | True | Phonetic | 120 |
