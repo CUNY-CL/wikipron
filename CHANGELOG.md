@@ -42,6 +42,7 @@ Unreleased
 -   Split multiple pronunciations joined by tilde in `eng_us_phonetic`.
 -   Added Italian phoneme list and filtered TSV file. (\#260, \#261)
 -   Added Adyghe phone list and filtered TSV file. (\#262, \#263)
+-   Added Bulgarian phoneme list and filtered TSV file. (\#264, \#267)
 
 #### Changed
 
