@@ -35,6 +35,7 @@
 | [TSV](tsv/bre_phonemic.tsv) | bre | Breton | Breton | True | Phonemic | 485 |
 | [TSV](tsv/kxd_phonemic.tsv) | kxd | Brunei | Brunei Malay | True | Phonemic | 342 |
 | [TSV](tsv/bul_phonemic.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic | 32,486 |
+| [TSV](tsv/bul_phonemic_filtered.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic_filtered | 32,401 |
 | [TSV](tsv/bul_phonetic.tsv) | bul | Bulgarian | Bulgarian | True | Phonetic | 5,274 |
 | [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,325 |
 | [TSV](tsv/crx_phonemic.tsv) | crx | Carrier | Carrier | False | Phonemic | 175 |
