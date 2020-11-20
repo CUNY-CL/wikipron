@@ -43,6 +43,7 @@ Unreleased
 -   Added Italian phoneme list and filtered TSV file. (\#260, \#261)
 -   Added Adyghe phone list and filtered TSV file. (\#262, \#263)
 -   Added Bulgarian phoneme list and filtered TSV file. (\#264, \#267)
+-   Added Icelandic phoneme list and filtered TSV file. (\#269, \#270)
 
 #### Changed
 

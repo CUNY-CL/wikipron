@@ -1,0 +1,86 @@
+# Based on:
+# https://en.wikipedia.org/wiki/Icelandic_phonology
+# https://en.wikipedia.org/wiki/Help:IPA/Icelandic
+# https://en.wikipedia.org/wiki/Icelandic_orthography
+#####
+# There is apparently a good deal of disagreement on the phonemic inventory of
+# Icelandic. This file largely reflects the table labled "Consonant phonemes"
+# in the first link (including phonemes in parentheses), which gives an
+# "orthographic" and "maximalist" approach to the analysis of the phonemic
+# inventory of Icelandic.
+#####
+a
+r
+t
+l
+s
+ɪ
+n
+ʏ
+k
+iː
+p
+uː
+v
+ð  # Allophone of /θ/.
+h
+m
+ɛ
+j
+f
+i
+aː
+o  # Used to transcribe diphthongs /ou/ and /ouː/.
+e  # Used to transcribe diphthongs /ei/ and /eiː/.
+c
+u
+ɛː
+kʰ
+ɔ
+r̥
+tʰ
+ŋ
+ɣ  # Allophone of /k/ and/or /kʰ/.
+ɪː
+œ
+θ
+ø  # Used as part of [øy] or [øyː], which are narrow transcriptions of /œ͡i/ and /œ͡iː/, respectively (see below).
+nː
+ɔː
+pʰ
+cʰ
+œː
+l̥
+yː  # Used as part of [øyː], which is a narrow transcription of /œ͡iː/ (see below).
+ʏː
+n̥
+sː
+x  # Allophone of /kʰ/.
+y  # Used as part of [øy], which is a narrow transcription of /œ͡i/ (see below).
+ɲ  # Allophone of /ŋ/.
+ç
+kː  
+cː
+tː
+mː
+xʷ  # Dialectal; corresponds to standard /kʰv/.
+rː
+m̥  # Allophone of /m/.
+lː
+ŋ̊  # Allophone of /ŋ/.
+pː
+fː
+#####
+# Diphthongs
+# The Wiktionary convention for Icelandic seems to be to transcribe diphthongs
+# without using tie bars, so the following did not actually appear in the data.
+a͡u
+a͡uː
+œ͡i  # Commonly transcribed as [øy] on Wiktionary.
+œ͡iː  # Commonly transcribed as [øyː] on Wiktionary.
+e͡i
+e͡iː
+o͡u
+o͡uː
+a͡i
+a͡iː

@@ -104,6 +104,7 @@
 | [TSV](tsv/hun_phonetic_filtered.tsv) | hun | Hungarian | Hungarian | True | Phonetic_filtered | 52,636 |
 | [TSV](tsv/hrx_phonemic.tsv) | hrx | Hunsrik | Hunsrik | True | Phonemic | 1,536 |
 | [TSV](tsv/ice_phonemic.tsv) | ice | Icelandic | Icelandic | True | Phonemic | 9,492 |
+| [TSV](tsv/ice_phonemic_filtered.tsv) | ice | Icelandic | Icelandic | True | Phonemic_filtered | 9,442 |
 | [TSV](tsv/ice_phonetic.tsv) | ice | Icelandic | Icelandic | True | Phonetic | 338 |
 | [TSV](tsv/ido_phonemic.tsv) | ido | Ido | Ido | True | Phonemic | 6,143 |
 | [TSV](tsv/ind_phonemic.tsv) | ind | Indonesian | Indonesian | True | Phonemic | 1,323 |

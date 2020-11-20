@@ -102,6 +102,7 @@ hun_phonetic.tsv	hun	Hungarian	Hungarian	True	Phonetic	52687
 hun_phonetic_filtered.tsv	hun	Hungarian	Hungarian	True	Phonetic_filtered	52636
 hrx_phonemic.tsv	hrx	Hunsrik	Hunsrik	True	Phonemic	1536
 ice_phonemic.tsv	ice	Icelandic	Icelandic	True	Phonemic	9492
+ice_phonemic_filtered.tsv	ice	Icelandic	Icelandic	True	Phonemic_filtered	9442
 ice_phonetic.tsv	ice	Icelandic	Icelandic	True	Phonetic	338
 ido_phonemic.tsv	ido	Ido	Ido	True	Phonemic	6143
 ind_phonemic.tsv	ind	Indonesian	Indonesian	True	Phonemic	1323
