@@ -238,6 +238,7 @@
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3,630 |
 | [TSV](tsv/slo_phonetic.tsv) | slo | Slovak | Slovak | True | Phonetic | 1,377 |
 | [TSV](tsv/slv_phonemic.tsv) | slv | Slovenian | Slovene | True | Phonemic | 4,368 |
+| [TSV](tsv/slv_phonemic_filtered.tsv) | slv | Slovenian | Slovene | True | Phonemic_filtered | 4,364 |
 | [TSV](tsv/spa_ca_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic | 57,677 |
 | [TSV](tsv/spa_ca_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic_filtered | 57,545 |
 | [TSV](tsv/spa_ca_phonetic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonetic | 49,573 |
