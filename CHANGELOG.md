@@ -44,6 +44,7 @@ Unreleased
 -   Added Adyghe phone list and filtered TSV file. (\#262, \#263)
 -   Added Bulgarian phoneme list and filtered TSV file. (\#264, \#267)
 -   Added Icelandic phoneme list and filtered TSV file. (\#269, \#270)
+-   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
 
 #### Changed
 
