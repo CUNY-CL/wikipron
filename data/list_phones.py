@@ -18,6 +18,12 @@ from typing import Dict, List, Set
 
 import ipapy
 
+OTHER_VALID_IPA = frozenset(
+        phone
+        for phone in ipapy.UNICODE_TO_IPA.keys()
+        if not ipapy.is_valid_ipa(unicodedata.normalize('NFD', phone))
+)
+
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
     """Count the phones in the given TSV file.
@@ -57,18 +63,20 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
 def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
     """Given the phonemes checks whether they are represented in the IPA.
 
-    This will catch problematic phonemes, such as `ú` which are not valid
-    according to the current IPA standard supported by `ipapy`. In addition, it
-    is likely to complain about highly specific allophones, which are likely
-    to be present in languages which have highly phonetic representation of
-    their phoneme inventory. For a current IPA chart, please see:
+    This will catch problematic phonemes, according to the current IPA standard
+    supported by `ipapy`. In addition, it is likely to complain about highly 
+    specific allophones, which are likely to be present in languages which have
+    highly phonetic representation of their phoneme inventory. For a current 
+    IPA chart, please see:
 
         https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
     """
     bad_ipa_phonemes = frozenset(
         phone
         for phone in phone_to_examples.keys()
-        if not ipapy.is_valid_ipa(phone)
+        if not (ipapy.is_valid_ipa(unicodedata.normalize('NFD', phone)) or
+                phone in OTHER_VALID_IPA
+                )
     )
     if len(bad_ipa_phonemes) and filepath.endswith("phonemic.tsv"):
         logging.warning("Found %d invalid IPA phones:", len(bad_ipa_phonemes))
