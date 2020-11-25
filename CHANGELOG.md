@@ -45,6 +45,8 @@ Unreleased
 -   Added Bulgarian phoneme list and filtered TSV file. (\#264, \#267)
 -   Added Icelandic phoneme list and filtered TSV file. (\#269, \#270)
 -   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
+-   Added normalization to `list_phones.py`. Corrected errors relating to
+    `ipapy` (\#275)
 
 #### Changed
 
