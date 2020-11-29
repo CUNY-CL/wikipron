@@ -56,15 +56,27 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
 
         for word, pron in config.extract_word_pron(title, request, config):
             # Pronunciation processing is done in NFD-space;
-            # we convert back to NFC aftewards.
+            # we convert back to NFC afterwards.
             normalized_pron = unicodedata.normalize("NFC", pron)
             # 'cast' is required 'normalize' doesn't return a 'Pron'
             yield word, cast(Pron, normalized_pron)
 
 
+def _language_name_for_scraping(language):
+    """Handle cases where X is under a "macrolanguage" on Wiktionary.
+
+    So far, only the Chinese languages necessitate this helper function.
+    We'll keep this function as simple as possible, until it becomes too
+    complicated and requires refactoring.
+    """
+    return "Chinese" if language == "Cantonese" else language
+
+
 def scrape(config: Config) -> Iterator[WordPronPair]:
     """Scrapes with a given configuration."""
-    category = _CATEGORY_TEMPLATE.format(language=config.language)
+    category = _CATEGORY_TEMPLATE.format(
+        language=_language_name_for_scraping(config.language)
+    )
     requests_params = {
         "action": "query",
         "format": "json",

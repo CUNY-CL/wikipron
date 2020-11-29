@@ -41,6 +41,7 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("cmn", "Chinese", {}),
     # Vietnamese data is mostly phonetic transcription.
     SmokeTestLanguage("vie", "Vietnamese", {"phonetic": True}),
+    SmokeTestLanguage("yue", "Cantonese", {}),
 ]
 
 
