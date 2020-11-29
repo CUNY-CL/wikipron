@@ -47,6 +47,8 @@ Unreleased
 -   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
+-  Added Welsh .phones lists and filtered TSV files. (\#274, \#276)
+
 
 #### Changed
 

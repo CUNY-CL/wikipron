@@ -274,8 +274,10 @@
 | [TSV](tsv/vol_phonetic.tsv) | vol | Volapük | Volapük | True | Phonetic | 565 |
 | [TSV](tsv/wau_phonemic.tsv) | wau | Waurá | Wauja | True | Phonemic | 152 |
 | [TSV](tsv/wel_nw_phonemic.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonemic | 7,613 |
+| [TSV](tsv/wel_nw_phonemic_filtered.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonemic_filtered | 7,562 |
 | [TSV](tsv/wel_nw_phonetic.tsv) | wel | Welsh | Welsh (North Wales) | True | Phonetic | 545 |
 | [TSV](tsv/wel_sw_phonemic.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonemic | 8,932 |
+| [TSV](tsv/wel_sw_phonemic_filtered.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonemic_filtered | 8,868 |
 | [TSV](tsv/wel_sw_phonetic.tsv) | wel | Welsh | Welsh (South Wales) | True | Phonetic | 583 |
 | [TSV](tsv/fry_phonemic.tsv) | fry | Western Frisian | West Frisian | True | Phonemic | 966 |
 | [TSV](tsv/apw_phonetic.tsv) | apw | Western Apache | Western Apache | True | Phonetic | 158 |
