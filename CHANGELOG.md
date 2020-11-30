@@ -105,6 +105,7 @@ Unreleased
     that requires its custom extraction logic. (\#245)
 -   Improved CircleCI workflow with orbs. (\#249)
 -   Added `test_split.py` to `tests/test_data`. (\#256)
+-   Handled Cantonese for scraping. (\#277)
 
 #### Changed
 
