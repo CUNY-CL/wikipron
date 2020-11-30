@@ -13,6 +13,10 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Word, Pron, WordPronPair
 
 
+# The last bit of //ul//li[small[i[a[@title="w:Standard Cantonese"]]]]
+# is needed because some Cantonese entries have pronunciation info for
+# multiple dialects (Standard Cantonese, Taishanese, etc.), and we need
+# to specifically target Standard Cantonese.
 _PRON_XPATH_TEMPLATE = """
     //div[@class="vsHide"]
         //ul
