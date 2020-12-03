@@ -47,10 +47,11 @@ the [fork and pull](../CONTRIBUTING.md) model for contributions.
     phones/phonemes to remove. For the phones or phonemes to retain, remove the
     comments of counts and example word-pronunciation pairs.
 3.  For a phonemic list, add comments about allophony.
-4.  In [`../src/`](../src) run `./postprocess && ./generate_summary.py`.
-5.  Add the `.phones` file, the filtered `.tsv` file(s), and the summary files
+4.  In [`../src/`](../src), run `./scrape.py --restriction=<your-lang>`.
+5.  In [`../src/`](../src) run `./postprocess && ./generate_summary.py`.
+6.  Add the `.phones` file, the filtered `.tsv` file(s), and the summary files
     using `git add`.
-6.  Commit using `git commit`, push to your branch using `git push`, and then
+7.  Commit using `git commit`, push to your branch using `git push`, and then
     file a pull request.
 
 The `.phones` file format is a UTF-8 encoded file with one segment per line,
