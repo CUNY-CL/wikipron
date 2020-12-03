@@ -48,6 +48,7 @@ Unreleased
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
 -  Added Welsh .phones lists and filtered TSV files. (\#274, \#276)
+-  Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
 
 
 #### Changed
