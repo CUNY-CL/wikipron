@@ -267,9 +267,12 @@
 | [TSV](tsv/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 5,069 |
 | [TSV](tsv/urd_phonemic.tsv) | urd | Urdu | Urdu | False | Phonemic | 750 |
 | [TSV](tsv/uig_ara_phonemic.tsv) | uig | Uighur | Uyghur (Arabic) | True | Phonemic | 257 |
-| [TSV](tsv/vie_hue_phonetic.tsv) | vie | Vietnamese | Vietnamese (Huế) | True | Phonetic | 14,718 |
-| [TSV](tsv/vie_hanoi_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hà Nội) | True | Phonetic | 14,719 |
-| [TSV](tsv/vie_hcmc_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | True | Phonetic | 14,716 |
+| [TSV](tsv/vie_hue_phonetic.tsv) | vie | Vietnamese | Vietnamese (Huế) | True | Phonetic | 15,062 |
+| [TSV](tsv/vie_hue_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese (Huế) | True | Phonetic_filtered | 15,059 |
+| [TSV](tsv/vie_hanoi_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hà Nội) | True | Phonetic | 15,063 |
+| [TSV](tsv/vie_hanoi_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese (Hà Nội) | True | Phonetic_filtered | 15,063 |
+| [TSV](tsv/vie_hcmc_phonetic.tsv) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | True | Phonetic | 15,060 |
+| [TSV](tsv/vie_hcmc_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | True | Phonetic_filtered | 14,369 |
 | [TSV](tsv/vol_phonemic.tsv) | vol | Volapük | Volapük | True | Phonemic | 358 |
 | [TSV](tsv/vol_phonetic.tsv) | vol | Volapük | Volapük | True | Phonetic | 565 |
 | [TSV](tsv/wau_phonemic.tsv) | wau | Waurá | Wauja | True | Phonemic | 152 |
