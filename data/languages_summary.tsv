@@ -265,9 +265,12 @@ tyv_cyrl_phonemic.tsv	tyv	Tuvinian	Tuvan (Cyrillic)	True	Phonemic	461
 ukr_phonetic.tsv	ukr	Ukrainian	Ukrainian	True	Phonetic	5069
 urd_phonemic.tsv	urd	Urdu	Urdu	False	Phonemic	750
 uig_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	257
-vie_hue_phonetic.tsv	vie	Vietnamese	Vietnamese (Huế)	True	Phonetic	14718
-vie_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese (Hà Nội)	True	Phonetic	14719
-vie_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	True	Phonetic	14716
+vie_hue_phonetic.tsv	vie	Vietnamese	Vietnamese (Huế)	True	Phonetic	15062
+vie_hue_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Huế)	True	Phonetic_filtered	15059
+vie_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese (Hà Nội)	True	Phonetic	15063
+vie_hanoi_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Hà Nội)	True	Phonetic_filtered	15063
+vie_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	True	Phonetic	15060
+vie_hcmc_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	True	Phonetic_filtered	14369
 vol_phonemic.tsv	vol	Volapük	Volapük	True	Phonemic	358
 vol_phonetic.tsv	vol	Volapük	Volapük	True	Phonetic	565
 wau_phonemic.tsv	wau	Waurá	Wauja	True	Phonemic	152
