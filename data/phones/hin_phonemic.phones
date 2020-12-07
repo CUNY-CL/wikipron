@@ -1,0 +1,72 @@
+# Based on
+#
+# https://en.wikipedia.org/wiki/Hindustani_phonology
+#####
+ə
+ɑː
+ɾ
+n
+iː
+t̪
+k
+ɪ
+s
+m
+l
+d̪
+p
+ʊ
+ʋ
+b
+j
+ɡ
+d͡ʒ
+eː
+ʃ
+uː
+oː
+ɦ
+t͡ʃ
+ʈ
+kʰ
+ɳ
+d̪ʱ
+bʱ
+ŋ
+ʂ
+z
+pʰ
+ɽ
+ɛː
+ɖ
+t̪ʰ
+f
+ɔː
+x  # Mainly occurs in loanwords from Persian.
+q  # Mainly occurs in loanwords from Persian.
+t͡ʃʰ
+ʈʰ
+ɡʱ
+d͡ʒʱ
+ɣ  # Mainly occurs in loanwords from Persian.
+ɽʱ
+ɑ̃ː
+ɖʱ
+aː  # Alternate transcription of /ɑː/.
+ə̃
+õː
+ẽː
+r
+ĩː
+ũː
+ʊ̃
+ɪ̃
+ɛ̃ː
+# NASAL VOWELS
+# There was conflicting information on the status of nasalization in Hindi,
+# but it seems that in principle all of the oral vowels have a nasal
+# counterpart. The following are the nasal vowels that did not appear in the data.
+ĩː
+ẽː
+ũː
+ɔ̃ː

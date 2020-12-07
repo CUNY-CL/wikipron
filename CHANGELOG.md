@@ -49,8 +49,10 @@ Unreleased
     `ipapy` (\#275)
 -  Added Welsh `.phones` files and filtered TSV files. (\#274, \#276)
 -  Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
--  Add Vietnamese `.phones` files and re-scraped and filtered `.tsv` files. 
+-  Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files. 
    (\#278, \#283)
+-  Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files. 
+   (\#282, \#284)
 
 
 #### Changed
