@@ -52,6 +52,8 @@ Unreleased
 
 #### Changed
 
+-   Split `ger` into Germany German and Swiss German. (\#286)
+-   Remove a duplicate of `nep` from `languages.json`. (\#286)
 -   Improved printing in the README table. (\#145)
 -   Renamed data directory `data`. (\#147)
 -   Split `may` into Latin and Arabic files. (\#164)
