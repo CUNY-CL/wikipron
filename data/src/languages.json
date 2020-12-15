@@ -383,7 +383,11 @@
         "iso639_name": "German",
         "wiktionary_name": "German",
         "wiktionary_code": "de",
-        "casefold": true
+        "casefold": true,
+        "dialect": {
+            "german": "Standard German of Germany",
+            "swiss": "Standard German of Switzerland  | Swiss German"
+        }
     },
     "got": {
         "iso639_name": "Gothic",
