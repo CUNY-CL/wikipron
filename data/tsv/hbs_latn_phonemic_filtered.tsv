@@ -675,6 +675,7 @@ aplauz	ǎ p l a u z
 aplicirati	a p l i t͡s ǐː r a t i
 aplikacija	a p l i k ǎː t s i j a
 apodiktički	a p o d ǐ k t i t ʃ k i
+apoen	a p ǒ eː n
 apokalipsa	a p o k a l ǐ p s a
 apokaliptičan	a p o k a l ǐ p t i t͡ʃ a n
 apokrifan	a p ǒ k r i f a n
@@ -1280,7 +1281,6 @@ belorusija	b e l o r ǔ s i j a
 beloruski	b ê l o r u s k iː
 bend	b ê n d
 benediktinski	b e n e d ǐ k t iː n s k iː
-beneficija	b e n e f ǐː t s i j a
 benevolentan	b e n e ʋ o l ě n t a n
 bengalski	b ě n ɡ aː l s k i
 bengalski	b ě n ɡ aː l s k iː
@@ -3239,7 +3239,6 @@ dovijeka	d ô ʋ i j eː k a
 dovikivati	d o ʋ i k ǐː ʋ a t i
 doviknuti	d o ʋ ǐː k n u t i
 dovitljiv	d o ʋ ǐ t ʎ i ʋ
-doviđenja	d o ʋ i d ʑ ěː ɲ a
 dovoditi	d o ʋ ǒ d i t i
 dovoljan	d ô ʋ oː ʎ a n
 dovoljno	d ô ʋ oː ʎ n o
@@ -3380,10 +3379,8 @@ držak	d r̂ ʒ a k
 držati	d ř ʒ a t i
 država	d ř ʒ a ʋ a
 državica	d ř ʒ a ʋ i t s a
-državljanin	d ř̩ ʒ a ʋ ʎ a n i n
 državljanka	d ř ʒ a ʋ ʎ aː n k a
 državljanstvo	d r ʒ a ʋ ʎ ǎː n s t ʋ o
-državljanstvo	d ř̩ ʒ a ʋ ʎ aː n s t ʋ o
 državni	d ř ʒ aː ʋ n iː
 državnički	d ř ʒ aː ʋ n i t ʃ k i
 državnički	d ř ʒ aː ʋ n i t ʃ k iː
@@ -3507,7 +3504,7 @@ dželat	d ʒ ě l aː t
 džem	d͡ʒ ê m
 džemat	d ʒ ě m aː t
 džemper	d ʒ ě m p e r
-dženaza	d ʒ e n ǎː z a
+dženaza	d͡ʒ e n ǎː z a
 džentlmen	d͡ʒ ě n t l m e n
 džep	d͡ʒ ê p
 dževahir	d ʒ e ʋ ǎː x i r
@@ -3526,7 +3523,6 @@ džoint	d ʒ ǒ i n t
 džokej	d ʒ ǒ k eː j
 džoker	d͡ʒ ǒ k e r
 džudo	d ʒ û d o
-e	e
 efekat	ě f e k t
 efekt	ě f e k t
 efektan	ě f e k t a n
@@ -4217,8 +4213,10 @@ gađati	ɡ ǎː d ʑ a t i
 gađenje	ɡ â d ʑ eː ɲ e
 gda	ɡ d aː
 gdaj	ɡ d aː j
+gde	ɡ d ê
 gdegde	ɡ d ě ɡ d e
 gdekad	ɡ d ě k a d
+gdje	ɡ d j ê
 gdjegdje	ɡ d j ě ɡ d j e
 gdjekad	ɡ d j ě k a d
 gdo	ɡ d oː
@@ -4599,6 +4597,7 @@ grdosija	ɡ r d ǒ s i j a
 grebati	ɡ r ě b a t i
 greben	ɡ r ê b eː n
 grecizam	ɡ r e t s ǐ z a m
+greda	ɡ r ěː d a
 grehovan	ɡ r ě x oː ʋ a n
 grejati	ɡ r e j a t i
 grenland	ɡ r ě n l a n d
@@ -4652,7 +4651,6 @@ groznica	ɡ r ǒ z n i t s a
 grozno	ɡ r ôː z n o
 grozovit	ɡ r o z ǒ ʋ i t
 grožđe	ɡ r ôː ʒ d͡ʑ e
-grst	ɡ r̩̂ː s t
 grub	ɡ r ûː b
 grubijan	ɡ r u b ǐ j aː n
 grubo	ɡ r ûː b o
@@ -5060,8 +5058,6 @@ hrvat	x ř ʋ aː t
 hrvati	x r̂ ʋ a t i
 hrvatica	x r ʋ ǎ t i t s a
 hrvatska	x ř ʋ aː t s k aː
-hrvatski	x ř̩ ʋ aː t s k i
-hrvatski	x ř̩ ʋ aː t s k iː
 hrvatskoj	x ř ʋ aː t s k oː j
 hrvački	x ř ʋ aː t͡ʃ k i
 hrvački	x ř ʋ aː t͡ʃ k iː
@@ -5166,6 +5162,7 @@ idolopoklonički	i d o l o p ǒ k l o n i t͡ʃ k i
 idolopoklonički	i d o l o p ǒ k l o n i t͡ʃ k iː
 idolopoklonstvo	i d o l o p o k l ǒː n s t ʋ o
 idući	ǐ d uː t ɕ iː
+igalo	ǐ ɡ a l o
 igda	î ɡ d a
 igde	î ɡ d e
 igdje	î ɡ d j e
@@ -6201,6 +6198,7 @@ jakut	j ǎ k u t
 jal	j âː l
 jalan	j ǎ l aː n
 jalan	j ǎː l a n
+jalija	j ǎ l i j a
 jalov	j â l o ʋ
 jalovica	j â l o ʋ i t s a
 jalovo	j â l o ʋ o
@@ -6265,7 +6263,6 @@ jato	j â t o
 jatomice	j â t o m i t s eː
 jauk	j â uː k
 jav	j âː ʋ
-java	j ǎː ʋ a
 javanski	j ǎ ʋ aː n s k iː
 javiti	j ǎː ʋ i t i
 javljati	j ǎː ʋ ʎ a t i
@@ -6347,7 +6344,7 @@ jedrilo	j ě d r i l o
 jedriti	j ě d r i t i
 jedro	j ê d r o
 jedva	j ê d ʋ a
-jeftin	j ê f t iː n
+jeftin	j ê f t i n
 jeftino	j ê f t i n o
 jeftinoća	j e f t i n ǒ t͡ɕ a
 jegulja	j ě ɡ u ʎ a
@@ -6515,6 +6512,8 @@ kadaver	k a d ǎː ʋ e r
 kadenca	k a d ě n t s a
 kadet	k ǎ d eː t
 kadeš	k ǎ d e ʃ
+kadikad	k a d i k a d
+kadikada	k a d i k a d a
 kadilo	k ǎ d i l o
 kadionica	k ǎ d i o n i t͡s a
 kafa	k ǎ f a
@@ -6764,8 +6763,8 @@ kategorički	k a t e ɡ ǒ r i t ʃ k iː
 kateheta	k a t e x ěː t a
 katekizam	k a t e k ǐ z a m
 kateta	k a t ěː t a
-katkad	k ǎ t k a d
-katkada	k ǎ t k a d a
+katkad	k a t k a d
+katkada	k a t k a d a
 katoda	k a t ǒː d a
 katodni	k ǎ t oː d n iː
 katolicizam	k a t o l i t s ǐ z a m
@@ -8107,7 +8106,6 @@ krmče	k řː m t ʃ e
 krmčina	k ř m t͡ʃ i n a
 krmčić	k ř m t͡ʃ i t͡ɕ
 krnica	k ř n i t͡s a
-krnj	k r̩̂ ɲ
 krnja	k r̂ ɲ a
 krnjadak	k r ɲ ǎː d a k
 krnjak	k r̂ ɲ aː k
@@ -8193,7 +8191,6 @@ krplja	k r̂ p ʎ a
 krpo	k řː p o
 krsni	k ř s n iː
 krsnica	k ř s n i t͡s a
-krst	k r̩̂ s t
 krstarica	k r s t ǎ r i t s a
 krstariti	k r s t ǎː r i t i
 krstaš	k ř s t aː ʃ
@@ -8246,7 +8243,6 @@ kružić	k r ǔː ʒ i t͡ɕ
 kružni	k r ûː ʒ n iː
 kružnica	k r ǔː ʒ n i t s a
 kružok	k r ǔ ʒ o k
-krv	k r̩̂ː ʋ
 krvariti	k r ʋ ǎː r i t i
 krvav	k r̂ ʋ a ʋ
 krvavica	k r ʋ ǎ ʋ i t͡s a
@@ -8519,7 +8515,6 @@ lakovjeran	l â k o ʋ j eː r a n
 lakovjerno	l â k o ʋ j eː r n o
 lakovjernost	l a k o ʋ j ěː r n oː s t
 lakoća	l a k ǒ t ɕ a
-lakrdija	l a k ř̩ d i j a
 lala	l ǎː l a
 lanac	l ǎː n a t s
 lane	l â n e
@@ -9118,7 +9113,7 @@ madrigalist	m a d r i ɡ ǎ l i s t
 madžar	m ǎ d ʒ aː r
 madžarska	m â d ʒ a r s k aː
 maestro	m a ě s t r o
-mafija	m ǎ f i j a
+mafija	m ǎː f i j a
 mafijaš	m a f ǐ j aː ʃ
 mafiokracija	m a f i o k r ǎ t͡s i j a
 magarac	m ǎ ɡ a r a t s
@@ -9292,6 +9287,7 @@ marci	m ǎ r t͡s i
 marcipan	m a r t s ǐ p aː n
 marelica	m a r ě l i t s a
 marginalan	m â r ɡ i n aː l a n
+marifet	m a r ǐ f e t
 marihuana	m a r i x u ǎ n a
 marija	m ǎ r i j a
 marimba	m a r ǐ m b a
@@ -9566,7 +9562,7 @@ međunarodni	m e d ʑ u n ǎː r o d n iː
 međusoban	m ê d ʑ u s o b a n
 međusobno	m ê d ʑ u s o b n o
 međutim	m e d ʑ ǔ t iː m
-mešalica	m ěː ʃ a l i t s a
+mešalica	m ěː ʃ a l i t͡s a
 mešanac	m e ʃ ǎː n a t s
 mešati	m ěː ʃ a t i
 mešavina	m ě ʃ a ʋ i n a
@@ -9575,13 +9571,14 @@ meškoljiti	m e ʃ k ǒ ʎ i t i
 mešovit	m e ʃ ǒ ʋ i t
 meštanin	m ě ʃ t a n i n
 meštanka	m ě ʃ t aː n k a
+mi	m îː
 micati	m î t s a t i
 microsoft	m ǎ j k r o s o f t
 migoljiti	m i ɡ ǒ ʎ i t i
 mijeh	m i j êː x
 mijena	m i j ěː n a
 mijenjati	m j ěː ɲ a t i
-miješalica	m i j ěː ʃ a l i t s a
+miješalica	m i j ě ʃ a l i t͡s a
 miješan	m i j êː ʃ aː n
 miješati	m j ěː ʃ a t i
 mikrob	m ǐ k r oː b
@@ -9686,7 +9683,6 @@ mišić	m ǐ ʃ iː t ɕ
 mišićav	m ǐ ʃ i t͡ɕ a ʋ
 mišićni	m ǐ ʃ iː t ɕ n iː
 mišji	m î ʃ j iː
-mišljenje	m î ʃ ʎ eː ɲ e
 mišolovka	m ǐ ʃ o l oː ʋ k a
 mišung	m ǐ ʃ u n ɡ
 mjehur	m j ê x uː r
@@ -9844,7 +9840,6 @@ monoteizam	m o n o t e ǐ z a m
 monoton	m ô n o t o n
 monotonija	m o n o t ǒ n i j a
 monotono	m ô n o t oː n o
-monstrum	m ǒ n s t r u m
 monstruozan	m ô n s t r u oː z a n
 monsun	m ǒ n s uː n
 montanizam	m o n t a n ǐ z a m
@@ -10069,7 +10064,6 @@ nabubriti	n ǎ b u b r i t i
 nabuhnuti	n ǎ b u x n u t i
 nabujati	n a b ǔ j a t i
 nabusit	n ǎ b u s i t
-nacija	n âː t s i j a
 nacionalist	n a t s i o n ǎ l i s t
 nacionalistički	n a t s i o n a l ǐ s t i t ʃ k i
 nacionalistički	n a t s i o n a l ǐ s t i t ʃ k iː
@@ -11302,6 +11296,7 @@ nevjernica	n ě ʋ j eː r n i t s a
 nevjernik	n ě ʋ j eː r n iː k
 nevjernički	n ě ʋ j eː r n i t ʃ k iː
 nevjerno	n ě ʋ j e r n o
+nevjerojatan	n e ʋ j e r ǒ j a t a n
 nevjesta	n ě ʋ j e s t a
 nevješt	n ě ʋ j e ʃ t
 nevolja	n ě ʋ o ʎ a
@@ -11647,6 +11642,7 @@ nuždan	n û ʒ d a n
 nužnik	n û ʒ n iː k
 nužno	n û ʒ n o
 nužnost	n û ʒ n oː s t
+o	o
 oba	ô b a
 obad	ô b aː d
 obadati	o b ǎ d a t i
@@ -13040,7 +13036,6 @@ pariz	p ǎ r iː z
 pariški	p ǎ r iː ʃ k iː
 parižanin	p a r ǐː ʒ a n i n
 park	p â r k
-parkiralište	p a r k ǐ r a l iː ʃ t e
 parkirati	p a r k ǐː r a t i
 parlament	p a r l ǎ m e n t
 parlamentaran	p â r l a m e n t aː r a n
@@ -14961,8 +14956,6 @@ prežderavati	p r e ʒ d ě r a v a t i
 preživeti	p r e ʒ ǐː ʋ e t i
 preživjeti	p r e ʒ ǐː ʋ j e t i
 preživljavati	p r e ʒ i ʋ ʎ ǎː ʋ a t i
-prga	p r̩̂ ɡ a
-prga	p ř̩ː ɡ a
 prhut	p r̂ x uː t
 pri	p r î
 pribadati	p r i b ǎː d a t i
@@ -15416,7 +15409,6 @@ prognanica	p r ǒ ɡ n a n i t s a
 prognanik	p r ǒ ɡ n a n iː k
 prognati	p r ǒ ɡ n a t i
 prognozirati	p r o ɡ n o z ǐː r a t i
-progon	p r ǒ ɡ o n
 progoniti	p r o ɡ ǒ n i t i
 progonstvo	p r ǒ ɡ oː n s t ʋ o
 progovarati	p r o ɡ o ʋ ǎː r a t i
@@ -15588,7 +15580,6 @@ prostorno	p r ǒː s t o r n o
 prostran	p r ǒ s t r a n
 prostreti	p r ǒ s t r eː t i
 prostrijeti	p r ǒ s t r i j eː t i
-prostrti	p r ǒ s t rː t i
 prosudba	p r ǒ s u d b a
 prosvednik	p r ǒ s ʋ e d n iː k
 prosvjed	p r ǒ s ʋ j e d
@@ -15670,20 +15661,16 @@ prsiti	p r̂ s i t i
 prskati	p řː s k a t i
 prsni	p ř s n iː
 prsnuti	p r̂ s n u t i
-prst	p r̩̂ s t
 prtljaga	p r t ʎ ǎː ɡ a
 pruga	p r ǔː ɡ a
 prus	p r û s
 pruski	p r û s k iː
-pruskinja	p r û s k i ɲ a
 prut	p r ûː t
 pružati	p r ǔː ʒ a t i
 pružiti	p r û ʒ i t i
 prvak	p ř ʋ aː k
 prvenstven	p r ʋ ě n s t ʋ e n
 prvenstveno	p r ʋ ě n s t ʋ e n o
-prvi	p r̩̂ː ʋ iː
-prvi	p ř̩ ʋ iː
 prvoklasan	p r ʋ ǒ k l a s a n
 prvorazredan	p r ʋ o r ǎː z r e d a n
 prvotan	p ř ʋ o t a n
@@ -16758,7 +16745,6 @@ rožnatost	r ǒ ʒ n a t oː s t
 rožnica	r ǒː ʒ n i t s a
 rožnik	r ô ʒ n iː k
 rožnjak	r ô ʒ ɲ aː k
-rt	r̩̂ t
 rtanj	r̂ t a ɲ
 ruanda	r ǔ aː n d a
 ruanđanin	r u ǎː n d͡ʑ a n i n
@@ -16912,7 +16898,6 @@ rvati	ř ʋ a t i
 rvač	ř ʋ aː t ʃ
 rvački	ř ʋ aː t͡ʃ k i
 rvački	ř ʋ aː t͡ʃ k iː
-rđa	ř̩ d͡ʑ a
 rđati	ř d͡ʑ a t i
 ršum	r̂ ʃ u m
 s	s
@@ -17177,7 +17162,7 @@ sanjkati	s âː ɲ k a t i
 sanjke	s âː ɲ k e
 sankcija	s ǎ n k t s i j a
 sanskrtski	s ǎ n s k r t s k iː
-saobraćaj	s â o b r a t ɕ aː j
+saobraćaj	s â o b r a t͡ɕ aː j
 saone	s â o n e
 saonice	s a ǒ n i t s e
 saopćenje	s a o p t͡ɕ ěː ɲ e
@@ -17329,6 +17314,7 @@ sažetost	s â ʒ eː t oː s t
 sažimati	s ǎ ʒ i m a t i
 scenarij	s t s ě n aː r iː j
 scenograf	s t s e n ǒ ɡ r a f
+se	s e
 seansa	s e ǎ n s a
 sebe	s ê b e
 sebi	s ê b i
@@ -18006,6 +17992,7 @@ slizati	s l ǐː z a t i
 sličan	s l î t ʃ a n
 sličiti	s l ǐ t ʃ i t i
 slično	s l ǐ t ʃ n o
+slišati	s l î ʃ a t i
 sljedba	s ʎ ě d b a
 sljedbenik	s ʎ ê d b e n iː k
 sljedeći	s ʎ ě d eː t ɕ iː
@@ -18178,7 +18165,6 @@ smrtonosno	s m r t ǒ n o s n o
 smrzavati	s m r z ǎː ʋ a t i
 smrznuti	s m r̂ z n u t i
 smrzotina	s m ř z o t i n a
-smrčak	s m ř̩ː t͡ʃ a k
 smuda	s m u d a
 snabdeti	s n ǎ b d e t i
 snabdevati	s n a b d ěː ʋ a t i
@@ -18456,14 +18442,11 @@ srati	s r â t i
 sraz	s r âː z
 sračunati	s r a t ʃ ǔ n a t i
 sračunavati	s r a t ʃ u n ǎː ʋ a t i
-srbija	s ř̩ b i j a
 srbijanac	s r̩ b i j ǎː n a t s
 srbijanka	s r̩ b ǐ j aː n k a
 srbijanski	s r b ǐ j aː n s k iː
-srbin	s r̩̂ b i n
 srbosjek	s r̩ b o s j e k
 srcast	s r̂ t s a s t
-srce	s r̩̂ t͡s e
 srcolik	s r t s ǒ l i k
 srdačan	s r̂ d aː t ʃ a n
 srdačno	s r̂ d aː t ʃ n o
@@ -18511,9 +18494,6 @@ srodstvo	s r ǒ d s t ʋ o
 srok	r ǐː m a
 srpanj	s r̂ː p a ɲ
 srpanjski	s r̂ː p a ɲ s k iː
-srpkinja	s r̩̂ p k i ɲ a
-srpska	s r̩̂ p s k aː
-srpski	s r̩̂ p s k iː
 srpskohrvatski	s r p s k o x ř ʋ aː t s k iː
 srpstvo	s ř p s t ʋ o
 srtati	s r̂ t a t i
@@ -18701,7 +18681,6 @@ strm	s t r̂ m
 strmo	s t r̂ m o
 strmoglavce	s t r m ǒ ɡ l a ʋ t s eː
 strmoglavo	s t r m ǒ ɡ l a ʋ o
-strn	s t r̩̂ː n
 strog	s t r ô ɡ
 strogo	s t r ô ɡ o
 stroj	s t r ôː j
@@ -18730,6 +18709,7 @@ studij	s t ûː d iː j
 studija	s t ûː d i j a
 studirati	s t u d ǐː r a t i
 stup	s t ûː p
+stupa	s t û p a
 stupac	s t ǔː p a t s
 stupati	s t ǔː p a t i
 stupiti	s t ǔː p i t i
@@ -18825,6 +18805,7 @@ sumorno	s û m oː r n o
 sumpor	s ûː m p o r
 sumrak	s û m r aː k
 sunce	s ûː n t s e
+sunce	s ûː n t͡s e
 suncobran	s û n t͡s o b r aː n
 suncostaj	s û n t͡s o s t aː j
 sunovrat	s û n o ʋ r aː t
@@ -19210,7 +19191,6 @@ talentirano	t a l ě n t iː r a n o
 talentiranost	t a l ě n t iː r a n oː s t
 taliban	t a l ǐ b aː n
 talijan	t a l ǐ j aː n
-talijanka	t a l ǐ j aː n k a
 talijanski	t a l ǐ j aː n s k i
 talijanski	t a l ǐ j aː n s k iː
 talisman	t a l ǐ s m aː n
@@ -19791,7 +19771,6 @@ tračnica	t r â t ʃ n i t s a
 tražilac	t r ǎ ʒ i l a t͡s
 tražilo	t r ǎ ʒ i l o
 tražiti	t r ǎː ʒ i t i
-trbuh	t ř̩ b u x
 trbuhozborac	t r b u x o z b ǒː r a t s
 trbušni	t ř b u ʃ n iː
 treba	t r ěː b a
@@ -19841,7 +19820,6 @@ trezvenost	t r ê z ʋ e n oː s t
 treći	t r ê t͡ɕ iː
 trećina	t r e t ɕ ǐ n a
 treš	t r ê ʃ
-trg	t r̩̂ ɡ
 trgati	t r̂ ɡ a t i
 trgnuti	t r̂ ɡ n u t i
 trgovac	t ř ɡ o ʋ a t s
@@ -19899,10 +19877,7 @@ trkač	t ř k aː t ʃ
 trkačica	t r k ǎ t ʃ i t s a
 trljati	t řː ʎ a t i
 trn	t r̂ː n
-trnina	t ř̩ n i n a
 trnje	t r̂ː ɲ e
-trnjina	t r̩̂ ɲ i n a
-trnjina	t ř̩ ɲ i n a
 trnovit	t r n ǒ ʋ i t
 trobojka	t r ǒ b oː j k a
 trockizam	t r o t s k ǐ z a m
@@ -19962,7 +19937,6 @@ trpeza	t ř p e z a
 trpezarija	t r p e z ǎ r i j a
 trpjeti	t řː p j e t i
 trputac	t r p ǔː t a t͡s
-trs	t r̩̂ s
 trsiti	t r̂ s i t i
 trsje	t r̂ː s j e
 trska	t r̂ s k a
@@ -20114,7 +20088,6 @@ tvrdolinijaš	t ʋ r d o l i n ǐ j aː ʃ
 tvrdolinijaški	t ʋ r d o l i n ǐ j aː ʃ k iː
 tvrdoća	t ʋ r d ǒ t ɕ a
 tvrtka	t ʋ r̂ t k a
-tvrđava	t ʋ ř̩ d͡ʑ a ʋ a
 u	u
 ubaciti	u b ǎː t s i t i
 ubacivati	u b a t s ǐː ʋ a t i
@@ -21465,8 +21438,6 @@ vređati	ʋ r ěː d ʑ a t i
 vreža	ʋ r êː ʒ a
 vrg	ʋ r̂ ɡ
 vrganj	ʋ ř ɡ aː ɲ
-vrgnuti	ʋ r̩̂ ɡ n u t i
-vrh	ʋ r̩̂ x
 vrhnje	ʋ r̂ x ɲ e
 vrhovni	ʋ ř x oː ʋ n iː
 vrhovnik	ʋ ř x oː ʋ n iː k
@@ -21500,7 +21471,6 @@ vrpčast	ʋ r̂ p t͡ʃ a s t
 vrsnoća	ʋ r s n ǒ t͡ɕ a
 vrsta	ʋ řː s t a
 vrstan	ʋ r̂ s t a n
-vrt	ʋ r̩̂ t
 vrteti	ʋ ř t e t i
 vrtić	ʋ ř t i t ɕ
 vrtjeti	ʋ ř t j e t i
@@ -23038,7 +23008,6 @@ zvučno	z ʋ ûː t ʃ n o
 škrob	ʃ k r ô b
 škrobilo	ʃ k r ǒ b i l o
 škrobiti	ʃ k r ǒ b i t i
-škrt	ʃ k r̩̂ t
 škrtac	ʃ k ř t a t s
 škrtariti	ʃ k r t ǎː r i t i
 škrto	ʃ k r̂ t o
@@ -23417,7 +23386,6 @@ zvučno	z ʋ ûː t ʃ n o
 štriherica	ʃ t r î x e r i t s a
 štrihirati	ʃ t r i x ǐː r a t i
 štrik	ʃ t r î k
-štrk	ʃ t r̩̂ː k
 štrkalj	ʃ t ř k aː ʎ
 štuc	ʃ t û t͡s
 štucati	ʃ t û t s a t i
