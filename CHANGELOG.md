@@ -83,6 +83,8 @@ Unreleased
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 -   Modified config flags in `languages.json` and `scrape.py`. (\#258)
 -   Moved `list_phones.py` to parent direcetory. (\#265, \#266)
+-   Edited Serbo-Croatian `.phones` file to list all vowel/pitch accent 
+    combinations. Re-scraped Serbo-Croatian data. (\#288)
 
 #### Fixed
 
