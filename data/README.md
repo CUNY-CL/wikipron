@@ -98,9 +98,8 @@
 | [TSV](tsv/heb_phonetic.tsv) | heb | Hebrew | Hebrew | False | Phonetic | 138 |
 | [TSV](tsv/acw_phonemic.tsv) | acw | Hijazi Arabic | Hijazi Arabic | False | Phonemic | 1,084 |
 | [TSV](tsv/acw_phonetic.tsv) | acw | Hijazi Arabic | Hijazi Arabic | False | Phonetic | 167 |
-| [TSV](tsv/hin_phonemic.tsv) | hin | Hindi | Hindi | False | Phonemic | 11,092 |
-| [TSV](tsv/hin_phonemic_filtered.tsv) | hin | Hindi | Hindi | False | Phonemic_filtered | 10,582 |
-| [TSV](tsv/hin_phonetic.tsv) | hin | Hindi | Hindi | False | Phonetic | 9,373 |
+| [TSV](tsv/hin_phonemic.tsv) | hin | Hindi | Hindi | False | Phonemic | 9,189 |
+| [TSV](tsv/hin_phonetic.tsv) | hin | Hindi | Hindi | False | Phonetic | 7,886 |
 | [TSV](tsv/hun_phonetic.tsv) | hun | Hungarian | Hungarian | True | Phonetic | 52,687 |
 | [TSV](tsv/hun_phonetic_filtered.tsv) | hun | Hungarian | Hungarian | True | Phonetic_filtered | 52,636 |
 | [TSV](tsv/hrx_phonemic.tsv) | hrx | Hunsrik | Hunsrik | True | Phonemic | 1,536 |
