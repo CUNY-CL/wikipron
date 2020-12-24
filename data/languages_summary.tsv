@@ -96,8 +96,9 @@ heb_phonemic.tsv	heb	Hebrew	Hebrew	False	Phonemic	1385
 heb_phonetic.tsv	heb	Hebrew	Hebrew	False	Phonetic	138
 acw_phonemic.tsv	acw	Hijazi Arabic	Hijazi Arabic	False	Phonemic	1084
 acw_phonetic.tsv	acw	Hijazi Arabic	Hijazi Arabic	False	Phonetic	167
-hin_phonemic.tsv	hin	Hindi	Hindi	False	Phonemic	9189
-hin_phonetic.tsv	hin	Hindi	Hindi	False	Phonetic	7886
+hin_phonemic.tsv	hin	Hindi	Hindi	False	Phonemic	11092
+hin_phonemic_filtered.tsv	hin	Hindi	Hindi	False	Phonemic_filtered	10582
+hin_phonetic.tsv	hin	Hindi	Hindi	False	Phonetic	9373
 hun_phonetic.tsv	hun	Hungarian	Hungarian	True	Phonetic	52687
 hun_phonetic_filtered.tsv	hun	Hungarian	Hungarian	True	Phonetic_filtered	52636
 hrx_phonemic.tsv	hrx	Hunsrik	Hunsrik	True	Phonemic	1536
