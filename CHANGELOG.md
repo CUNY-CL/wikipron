@@ -47,12 +47,13 @@ Unreleased
 -   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
--  Added Welsh `.phones` files and filtered TSV files. (\#274, \#276)
--  Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
--  Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files.
-   (\#278, \#283)
--  Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files.
-   (\#282, \#284)
+-   Added Welsh `.phones` files and filtered TSV files. (\#274, \#276)
+-   Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
+-   Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files.
+    (\#278, \#283)
+-   Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files.
+    (\#282, \#284)
+-   Added Old Frisian (`ofs`). (\#294)
 -   Added Dungan (`dng`). (\#293)
 
 #### Changed
