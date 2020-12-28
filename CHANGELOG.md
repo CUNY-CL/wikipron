@@ -54,6 +54,7 @@ Unreleased
 -   Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files.
     (\#282, \#284)
 -   Added Old Frisian (`ofs`). (\#294)
+-   Added Dungan (`dng`). (\#293)
 
 #### Changed
 
