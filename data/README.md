@@ -32,7 +32,7 @@
 | [TSV](tsv/ben_phonemic.tsv) | ben | Bengali | Bengali | False | Phonemic | 770 |
 | [TSV](tsv/ben_phonetic.tsv) | ben | Bengali | Bengali | False | Phonetic | 155 |
 | [TSV](tsv/pcc_phonemic.tsv) | pcc | Bouyei | Bouyei | True | Phonemic | 105 |
-| [TSV](tsv/bre_phonemic.tsv) | bre | Breton | Breton | True | Phonemic | 485 |
+| [TSV](tsv/bre_phonemic.tsv) | bre | Breton | Breton | True | Phonemic | 490 |
 | [TSV](tsv/kxd_phonemic.tsv) | kxd | Brunei | Brunei Malay | True | Phonemic | 342 |
 | [TSV](tsv/bul_phonemic.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic | 32,486 |
 | [TSV](tsv/bul_phonemic_filtered.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic_filtered | 32,401 |

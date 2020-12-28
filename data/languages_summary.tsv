@@ -30,7 +30,7 @@ bel_phonetic.tsv	bel	Belarusian	Belarusian	True	Phonetic	3073
 ben_phonemic.tsv	ben	Bengali	Bengali	False	Phonemic	770
 ben_phonetic.tsv	ben	Bengali	Bengali	False	Phonetic	155
 pcc_phonemic.tsv	pcc	Bouyei	Bouyei	True	Phonemic	105
-bre_phonemic.tsv	bre	Breton	Breton	True	Phonemic	485
+bre_phonemic.tsv	bre	Breton	Breton	True	Phonemic	490
 kxd_phonemic.tsv	kxd	Brunei	Brunei Malay	True	Phonemic	342
 bul_phonemic.tsv	bul	Bulgarian	Bulgarian	True	Phonemic	32486
 bul_phonemic_filtered.tsv	bul	Bulgarian	Bulgarian	True	Phonemic_filtered	32401
