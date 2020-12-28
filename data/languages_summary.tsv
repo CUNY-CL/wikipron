@@ -172,6 +172,7 @@ mga_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish	True	Phonemic	213
 okm_phonemic.tsv	okm	Korean, Middle (10th–16th centuries)	Middle Korean	False	Phonemic	119
 gml_phonemic.tsv	gml	Middle Low German	Middle Low German	True	Phonemic	169
 wlm_phonemic.tsv	wlm	Middle Welsh	Middle Welsh	True	Phonemic	144
+mdf_phonemic.tsv	mdf	Moksha	Moksha	True	Phonemic	116
 mnw_phonemic.tsv	mnw	Mon	Mon	False	Phonemic	149
 mon_cyrl_phonemic.tsv	mon	Mongolian	Mongolian (Cyrillic)	True	Phonemic	1070
 mon_cyrl_phonetic.tsv	mon	Mongolian	Mongolian (Cyrillic)	True	Phonetic	437
