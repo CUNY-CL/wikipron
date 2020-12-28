@@ -285,6 +285,13 @@
         "wiktionary_code": "sce",
         "casefold": true
     },
+    "dng": {
+        "iso639_name": "Dungan",
+        "wiktionary_name": "Dungan",
+        "wiktionary_code": "dng",
+        "skip_spaces_pron": false,
+        "casefold": true
+    },
     "dut": {
         "iso639_name": "Dutch; Flemish",
         "wiktionary_name": "Dutch",
@@ -891,6 +898,12 @@
         "iso639_name": "Old French (842-ca. 1400)",
         "wiktionary_name": "Old French",
         "wiktionary_code": "fro",
+        "casefold": true
+    },
+    "ofs": {
+        "iso639_name": "Old Frisian",
+        "wiktionary_name": "Old Frisian",
+        "wiktionary_code": "ofs",
         "casefold": true
     },
     "goh": {
