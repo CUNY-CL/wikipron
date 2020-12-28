@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 """This script prints a tally of the phones/phonemes of a WikiPron TSV file.
 
 For each phone/phoneme, this script prints:
