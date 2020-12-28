@@ -47,7 +47,8 @@ Unreleased
 -   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
--  Added Welsh .phones lists and filtered TSV files. (\#274, \#276)
+-   Added Welsh .phones lists and filtered TSV files. (\#274, \#276)
+-   Added draft of covering grammar script.
 
 
 #### Changed
@@ -77,7 +78,8 @@ Unreleased
 -   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 -   Modified config flags in `languages.json` and `scrape.py`. (\#258)
--   Moved `list_phones.py` to parent direcetory. (\#265, \#266)
+-   Moved `list_phones.py` to parent directory. (\#265, \#266)
+-   Moved `list_phones.py` to `src` directory.
 
 #### Fixed
 
