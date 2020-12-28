@@ -893,6 +893,12 @@
         "wiktionary_code": "fro",
         "casefold": true
     },
+    "ofs": {
+        "iso639_name": "Old French (842-ca. 1400)",
+        "wiktionary_name": "Old Frisian",
+        "wiktionary_code": "ofs",
+        "casefold": true
+    },
     "goh": {
         "iso639_name": "Old High German (ca. 750-1050)",
         "wiktionary_name": "Old High German",
