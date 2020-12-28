@@ -48,7 +48,7 @@ Unreleased
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
 -   Added Welsh .phones lists and filtered TSV files. (\#274, \#276)
--   Added draft of covering grammar script.
+-   Added draft of covering grammar script. (\#297)
 
 
 #### Changed
@@ -79,7 +79,7 @@ Unreleased
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 -   Modified config flags in `languages.json` and `scrape.py`. (\#258)
 -   Moved `list_phones.py` to parent directory. (\#265, \#266)
--   Moved `list_phones.py` to `src` directory.
+-   Moved `list_phones.py` to `src` directory. (\#297)
 
 #### Fixed
 
