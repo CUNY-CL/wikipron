@@ -57,6 +57,7 @@
 | [TSV](tsv/dan_phonemic.tsv) | dan | Danish | Danish | True | Phonemic | 3,450 |
 | [TSV](tsv/dan_phonetic.tsv) | dan | Danish | Danish | True | Phonetic | 6,935 |
 | [TSV](tsv/sce_phonemic.tsv) | sce | Dongxiang | Dongxiang | True | Phonemic | 117 |
+| [TSV](tsv/dng_phonemic.tsv) | dng | Dungan | Dungan | True | Phonemic | 160 |
 | [TSV](tsv/dut_phonemic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic | 27,882 |
 | [TSV](tsv/dut_phonemic_filtered.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic_filtered | 27,831 |
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 642 |
