@@ -49,11 +49,11 @@ Unreleased
     `ipapy` (\#275)
 -  Added Welsh `.phones` files and filtered TSV files. (\#274, \#276)
 -  Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
--  Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files. 
+-  Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files.
    (\#278, \#283)
--  Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files. 
+-  Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files.
    (\#282, \#284)
-
+-   Rescraped Breton (`bre`). (\#292)
 
 #### Changed
 
@@ -83,7 +83,7 @@ Unreleased
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 -   Modified config flags in `languages.json` and `scrape.py`. (\#258)
 -   Moved `list_phones.py` to parent direcetory. (\#265, \#266)
--   Edited Serbo-Croatian `.phones` file to list all vowel/pitch accent 
+-   Edited Serbo-Croatian `.phones` file to list all vowel/pitch accent
     combinations. Re-scraped Serbo-Croatian data. (\#288)
 
 #### Fixed
@@ -116,7 +116,7 @@ Unreleased
 
 #### Changed
 
--   Renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141, \#257)  
+-   Renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141, \#257)
 -   Changed testing values used in `tests/test_config.py` in order to accomodate the addition of positive flags. (\#141)
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
