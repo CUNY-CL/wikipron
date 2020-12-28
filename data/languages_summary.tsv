@@ -132,6 +132,7 @@ lmy_phonetic.tsv	lmy	Lamboya	Laboya	True	Phonetic	128
 lad_phonemic.tsv	lad	Ladino	Ladino	True	Phonemic	110
 lao_phonemic.tsv	lao	Lao	Lao	False	Phonemic	512
 lsi_phonemic.tsv	lsi	Lashi	Lashi	True	Phonemic	286
+ltg_phonetic.tsv	ltg	Latgalian	Latgalian	True	Phonetic	124
 lat_clas_phonemic.tsv	lat	Latin	Latin (Classical)	True	Phonemic	33393
 lat_clas_phonetic.tsv	lat	Latin	Latin (Classical)	True	Phonetic	31711
 lat_eccl_phonemic.tsv	lat	Latin	Latin (Ecclesiastical)	True	Phonemic	32470
