@@ -194,6 +194,7 @@ ryu_phonemic.tsv	ryu	Central Okinawan	Okinawan	False	Phonemic	158
 ang_phonemic.tsv	ang	Old English (ca. 450-1100)	Old English	True	Phonemic	10252
 ang_phonetic.tsv	ang	Old English (ca. 450-1100)	Old English	True	Phonetic	5075
 fro_phonemic.tsv	fro	Old French (842-ca. 1400)	Old French	True	Phonemic	344
+ofs_phonemic.tsv	ofs	Old Frisian	Old Frisian	True	Phonemic	174
 goh_phonemic.tsv	goh	Old High German (ca. 750-1050)	Old High German	True	Phonemic	126
 sga_phonemic.tsv	sga	Old Irish (to 900)	Old Irish	True	Phonemic	2154
 non_phonemic.tsv	non	Old Norse	Old Norse	True	Phonemic	161

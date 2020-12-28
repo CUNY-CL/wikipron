@@ -53,7 +53,7 @@ Unreleased
     (\#278, \#283)
 -   Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files.
     (\#282, \#284)
--   Rescraped Afar (`aar`). (\#291)
+-   Added Old Frisian (`ofs`). (\#294)
 
 #### Changed
 

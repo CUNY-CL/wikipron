@@ -196,6 +196,7 @@
 | [TSV](tsv/ang_phonemic.tsv) | ang | Old English (ca. 450-1100) | Old English | True | Phonemic | 10,252 |
 | [TSV](tsv/ang_phonetic.tsv) | ang | Old English (ca. 450-1100) | Old English | True | Phonetic | 5,075 |
 | [TSV](tsv/fro_phonemic.tsv) | fro | Old French (842-ca. 1400) | Old French | True | Phonemic | 344 |
+| [TSV](tsv/ofs_phonemic.tsv) | ofs | Old Frisian | Old Frisian | True | Phonemic | 174 |
 | [TSV](tsv/goh_phonemic.tsv) | goh | Old High German (ca. 750-1050) | Old High German | True | Phonemic | 126 |
 | [TSV](tsv/sga_phonemic.tsv) | sga | Old Irish (to 900) | Old Irish | True | Phonemic | 2,154 |
 | [TSV](tsv/non_phonemic.tsv) | non | Old Norse | Old Norse | True | Phonemic | 161 |
