@@ -1,6 +1,6 @@
 ady_phonetic.tsv	ady	Adygei; Adyghe	Adyghe	True	Phonetic	5123
 ady_phonetic_filtered.tsv	ady	Adygei; Adyghe	Adyghe	True	Phonetic_filtered	4895
-aar_phonemic.tsv	aar	Afar	Afar	True	Phonemic	339
+aar_phonemic.tsv	aar	Afar	Afar	True	Phonemic	715
 afr_phonemic.tsv	afr	Afrikaans	Afrikaans	True	Phonemic	1333
 afr_phonetic.tsv	afr	Afrikaans	Afrikaans	True	Phonetic	120
 alb_phonemic.tsv	alb	Albanian	Albanian	True	Phonemic	1329
