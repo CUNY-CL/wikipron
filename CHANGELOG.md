@@ -54,6 +54,7 @@ Unreleased
     (\#282, \#284)
 -   Added Old Frisian (`ofs`). (\#294)
 -   Added Dungan (`dng`). (\#293)
+-   Added Latgalian (`ltg`). (\#296)
 -   Added draft of covering grammar script. (\#297)
 
 #### Changed

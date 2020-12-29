@@ -134,6 +134,7 @@
 | [TSV](tsv/lad_phonemic.tsv) | lad | Ladino | Ladino | True | Phonemic | 110 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 512 |
 | [TSV](tsv/lsi_phonemic.tsv) | lsi | Lashi | Lashi | True | Phonemic | 286 |
+| [TSV](tsv/ltg_phonetic.tsv) | ltg | Latgalian | Latgalian | True | Phonetic | 124 |
 | [TSV](tsv/lat_clas_phonemic.tsv) | lat | Latin | Latin (Classical) | True | Phonemic | 33,393 |
 | [TSV](tsv/lat_clas_phonetic.tsv) | lat | Latin | Latin (Classical) | True | Phonetic | 31,711 |
 | [TSV](tsv/lat_eccl_phonemic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonemic | 32,470 |
