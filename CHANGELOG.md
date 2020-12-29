@@ -47,7 +47,6 @@ Unreleased
 -   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
--   Added Welsh `.phones` files and filtered TSV files. (\#274, \#276)
 -   Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
 -   Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files.
     (\#278, \#283)
@@ -56,6 +55,7 @@ Unreleased
 -   Added Old Frisian (`ofs`). (\#294)
 -   Added Dungan (`dng`). (\#293)
 -   Added Latgalian (`ltg`). (\#296)
+-   Added draft of covering grammar script. (\#297)
 
 #### Changed
 
@@ -84,9 +84,10 @@ Unreleased
 -   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 -   Modified config flags in `languages.json` and `scrape.py`. (\#258)
--   Moved `list_phones.py` to parent direcetory. (\#265, \#266)
 -   Edited Serbo-Croatian `.phones` file to list all vowel/pitch accent
     combinations. Re-scraped Serbo-Croatian data. (\#288)
+-   Moved `list_phones.py` to parent directory. (\#265, \#266)
+-   Moved `list_phones.py` to `src` directory. (\#297)
 
 #### Fixed
 
