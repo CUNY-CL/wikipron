@@ -119,7 +119,7 @@ Unreleased
 -   Improved CircleCI workflow with orbs. (\#249)
 -   Added `test_split.py` to `tests/test_data`. (\#256)
 -   Handled Cantonese for scraping. (\#277)
--   Added exclusion for reconstructions.
+-   Added exclusion for reconstructions. (\#302)
 
 #### Changed
 
