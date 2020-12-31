@@ -76,8 +76,8 @@
         "wiktionary_code": "hy",
         "casefold": true,
         "dialect": {
-            "w": "Western Armenian",
-            "e": "Eastern Armenian"
+            "w": "Western Armenian, standard",
+            "e": "Eastern Armenian, standard"
         }
     },
     "rup": {
