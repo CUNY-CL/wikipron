@@ -13,10 +13,10 @@
 | [TSV](tsv/ara_phonemic.tsv) | ara | Arabic | Arabic | False | Phonemic | 6,379 |
 | [TSV](tsv/ara_phonetic.tsv) | ara | Arabic | Arabic | False | Phonetic | 112 |
 | [TSV](tsv/arc_hebr_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic (Hebrew) | False | Phonemic | 1,153 |
-| [TSV](tsv/arm_e_phonetic.tsv) | arm | Armenian | Armenian (Eastern Armenian) | True | Phonetic | 13,702 |
-| [TSV](tsv/arm_e_phonetic_filtered.tsv) | arm | Armenian | Armenian (Eastern Armenian) | True | Phonetic_filtered | 13,258 |
-| [TSV](tsv/arm_w_phonetic.tsv) | arm | Armenian | Armenian (Western Armenian) | True | Phonetic | 742 |
-| [TSV](tsv/arm_w_phonetic_filtered.tsv) | arm | Armenian | Armenian (Western Armenian) | True | Phonetic_filtered | 599 |
+| [TSV](tsv/arm_e_phonetic.tsv) | arm | Armenian | Armenian (Eastern Armenian, standard) | True | Phonetic | 14,215 |
+| [TSV](tsv/arm_e_phonetic_filtered.tsv) | arm | Armenian | Armenian (Eastern Armenian, standard) | True | Phonetic_filtered | 13,852 |
+| [TSV](tsv/arm_w_phonetic.tsv) | arm | Armenian | Armenian (Western Armenian, standard) | True | Phonetic | 10,706 |
+| [TSV](tsv/arm_w_phonetic_filtered.tsv) | arm | Armenian | Armenian (Western Armenian, standard) | True | Phonetic_filtered | 9,807 |
 | [TSV](tsv/rup_phonetic.tsv) | rup | Macedo-Romanian | Aromanian | True | Phonetic | 143 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,214 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 131 |
