@@ -47,13 +47,17 @@ Unreleased
 -   Added Slovenian phoneme list and filtered TSV file. (\#271, \#273)
 -   Added normalization to `list_phones.py`. Corrected errors relating to
     `ipapy` (\#275)
--  Added Welsh `.phones` files and filtered TSV files. (\#274, \#276)
--  Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
--  Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files. 
-   (\#278, \#283)
--  Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files. 
-   (\#282, \#284)
-
+-   Added Welsh .phones lists and filtered TSV files. (\#274, \#276)
+-   Added draft of covering grammar script. (\#297)
+-   Updated `data/phones/README.md` with instructions to re-scrape. (\#279, \#281)
+-   Added Vietnamese `.phones` files and re-scraped and filtered `.tsv` files.
+    (\#278, \#283)
+-   Added Hindi `.phones` files and the re-scraped and filtered `.tsv` files.
+    (\#282, \#284)
+-   Added Old Frisian (`ofs`). (\#294)
+-   Added Dungan (`dng`). (\#293)
+-   Added Latgalian (`ltg`). (\#296)
+-   Added draft of covering grammar script. (\#297)
 
 #### Changed
 
@@ -82,9 +86,10 @@ Unreleased
 -   Added MyPy coverage for `wikipron`, `tests` and `data` directories. (\#247)
 -   Modified paths in `codes.py`, `scrape.py`, and `split.py`. (\#251, \#256)
 -   Modified config flags in `languages.json` and `scrape.py`. (\#258)
--   Moved `list_phones.py` to parent direcetory. (\#265, \#266)
--   Edited Serbo-Croatian `.phones` file to list all vowel/pitch accent 
+-   Edited Serbo-Croatian `.phones` file to list all vowel/pitch accent
     combinations. Re-scraped Serbo-Croatian data. (\#288)
+-   Moved `list_phones.py` to parent directory. (\#265, \#266)
+-   Moved `list_phones.py` to `src` directory. (\#297)
 
 #### Fixed
 
@@ -113,10 +118,11 @@ Unreleased
 -   Improved CircleCI workflow with orbs. (\#249)
 -   Added `test_split.py` to `tests/test_data`. (\#256)
 -   Handled Cantonese for scraping. (\#277)
+-   Added exclusion for reconstructions. (\#302)
 
 #### Changed
 
--   Renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141, \#257)  
+-   Renamed arguments to positive statements in `wikipron/config.py` and edited `_get_process_pron` function accordingly. (\#141, \#257)
 -   Changed testing values used in `tests/test_config.py` in order to accomodate the addition of positive flags. (\#141)
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
