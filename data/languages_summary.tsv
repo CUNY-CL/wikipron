@@ -211,10 +211,12 @@ ppl_phonemic.tsv	ppl	Pipil	Pipil	True	Phonemic	262
 pjt_phonetic.tsv	pjt	Pitjantjatjara	Pitjantjatjara	True	Phonetic	125
 pox_phonemic.tsv	pox	Polabian	Polabian	True	Phonemic	211
 pol_phonemic.tsv	pol	Polish	Polish	True	Phonemic	69493
-por_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic	11250
-por_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonetic	297
-por_po_phonemic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonemic	9931
-por_po_phonetic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonetic	305
+por_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic	11417
+por_bz_phonemic_filtered.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonemic_filtered	11260
+por_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil)	True	Phonetic	824
+por_po_phonemic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonemic	10065
+por_po_phonemic_filtered.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonemic_filtered	9745
+por_po_phonetic.tsv	por	Portuguese	Portuguese (Portugal)	True	Phonetic	315
 pan_guru_phonemic.tsv	pan	Panjabi	Punjabi (Gurmukhi)	False	Phonemic	119
 rum_phonemic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonemic	3655
 rum_phonetic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonetic	6350
