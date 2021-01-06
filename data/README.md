@@ -216,10 +216,12 @@
 | [TSV](tsv/pjt_phonetic.tsv) | pjt | Pitjantjatjara | Pitjantjatjara | True | Phonetic | 125 |
 | [TSV](tsv/pox_phonemic.tsv) | pox | Polabian | Polabian | True | Phonemic | 211 |
 | [TSV](tsv/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 69,493 |
-| [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 11,250 |
-| [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 297 |
-| [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 9,931 |
-| [TSV](tsv/por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 305 |
+| [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 11,428 |
+| [TSV](tsv/por_bz_phonemic_filtered.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic_filtered | 11,271 |
+| [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 825 |
+| [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 10,075 |
+| [TSV](tsv/por_po_phonemic_filtered.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic_filtered | 9,755 |
+| [TSV](tsv/por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 315 |
 | [TSV](tsv/pan_guru_phonemic.tsv) | pan | Panjabi | Punjabi (Gurmukhi) | False | Phonemic | 119 |
 | [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3,655 |
 | [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 6,350 |
