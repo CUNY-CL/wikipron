@@ -37,7 +37,8 @@
 | [TSV](tsv/bul_phonemic.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic | 32,486 |
 | [TSV](tsv/bul_phonemic_filtered.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic_filtered | 32,401 |
 | [TSV](tsv/bul_phonetic.tsv) | bul | Bulgarian | Bulgarian | True | Phonetic | 5,274 |
-| [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,325 |
+| [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,517 |
+| [TSV](tsv/bur_phonemic_filtered.tsv) | bur | Burmese | Burmese | False | Phonemic_filtered | 4,512 |
 | [TSV](tsv/crx_phonemic.tsv) | crx | Carrier | Carrier | False | Phonemic | 175 |
 | [TSV](tsv/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 51,341 |
 | [TSV](tsv/ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 292 |
