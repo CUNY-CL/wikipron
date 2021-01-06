@@ -59,6 +59,7 @@ Unreleased
 -   Added Latgalian (`ltg`). (\#296)
 -   Added draft of covering grammar script. (\#297)
 -   Added Portuguese `.phones` files and re-scraped data. (\#290, \#304)
+-   Added Portuguese `.phones` files and re-scraped data. (\#289, \#305)
 
 #### Changed
 
