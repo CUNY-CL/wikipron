@@ -177,6 +177,7 @@
 | [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
+| [TSV](tsv/mdf_phonemic.tsv) | mdf | Moksha | Moksha | True | Phonemic | 116 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 149 |
 | [TSV](tsv/mon_cyrl_phonemic.tsv) | mon | Mongolian | Mongolian (Cyrillic) | True | Phonemic | 1,070 |
 | [TSV](tsv/mon_cyrl_phonetic.tsv) | mon | Mongolian | Mongolian (Cyrillic) | True | Phonetic | 437 |

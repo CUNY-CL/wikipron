@@ -59,6 +59,7 @@ Unreleased
 -   Added Latgalian (`ltg`). (\#296)
 -   Added draft of covering grammar script. (\#297)
 -   Added Portuguese `.phones` files and re-scraped data. (\#290, \#304)
+-   Added Moksha (`mdf`). (\#295)
 
 #### Changed
 
@@ -128,6 +129,7 @@ Unreleased
 -   Specified UTF-8 encoding in handling text files. (\#221)
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
 -   Updated the packages version numbers in requirements.txt to their latest according to PyPI (\#239)
+-   Updated the default pron selector to also look for IPA strings under paragraphs in addition to list items. (\#295)
 
 #### Deprecated
 
