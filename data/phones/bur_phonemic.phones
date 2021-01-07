@@ -1,0 +1,88 @@
+# Based on
+# https://en.wikipedia.org/wiki/Burmese_phonology
+# https://en.wikipedia.org/wiki/Help%3AIPA%2FBurmese
+### CONSONANTS
+pʰ
+p
+b
+m̥
+m
+θ
+ð  # Allophone of /θ/ according to <https://en.wikipedia.org/wiki/Burmese_phonology#ref_1>, but no citation is provided.
+tʰ
+t
+d
+n̥
+n
+sʰ
+s
+z
+ɹ  # Only occurs in loanwords.
+l̥
+l
+t͡ɕʰ
+t͡ɕ
+d͡ʑ
+ɲ̊
+ɲ
+ʃ
+j
+kʰ
+k
+ɡ
+ŋ̊
+ŋ
+ʍ
+w
+ɴ
+ʔ
+h
+###
+# VOWELS
+ì
+í
+ḭ
+ɪ  # Allophonic, see note. Also occurs when transcribing /aɪ/ and [eɪ].
+ɪ̀  # Allophonic, see note.
+ɪ́  # Allophonic, see note.
+ɪ̰  # Allophonic, see note.
+e  # See note.
+è
+é
+ḛ
+ɛ
+ɛ̀
+ɛ́
+ɛ̰
+ə
+a
+à
+á
+a̰
+ù
+ú
+ṵ
+ʊ  # Allophonic, see note. Also occurs when transcribing [oʊ] and [aʊ].
+ʊ̀  # Allophonic, see note.
+ʊ́  # Allophonic, see note.
+ʊ̰  # Allophonic, see note.
+o  # See note.
+ò
+ó
+o̰
+ɔ̀
+ɔ́
+ɔ̰
+a͡ɪ  # Does not occur in data, because tie bars were not used for diphthongs.
+###
+# A NOTE ON RIMES
+###
+# [ɪ eɪ ʊ oʊ aʊ] are allophones of /i e u o ɔ/ that occur in closed syllables.
+# /N ʔ/ are the only consonants that occur in coda position. When /ʔ/ is the 
+# coda, the preceding vowel lacks phonemic tone (note that <̰> counts as a
+# "tone"). Additionally, when a diphthong occurs with tone, it seems that the
+# tone is generally marked on the first symbol in the diphthong (e.g. /àɪ/).
+# Thus, as far I can tell, the only cases in which a vowel symbol (other than
+# /ə/, which is always toneless) will occur without a tone diacritic are when 
+# it occurs before /ʔ/ and when it is the second element in a diphthong.
+# Finally, diphthongs were never transcribed with tie bars.

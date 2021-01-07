@@ -388,4 +388,6 @@ LANGUAGE_CODES = {
     "kmr": "Northern Kurdish",
     "northern kurdish": "Northern Kurdish",
     "kurmanji": "Northern Kurdish",
+    "dng": "Dungan",  # ISO 639-3.
+    "ofs": "Old Frisian",  # ISO 639-3.
 }

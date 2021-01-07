@@ -2,7 +2,7 @@
 | :---- | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/ady_phonetic.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic | 5,123 |
 | [TSV](tsv/ady_phonetic_filtered.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic_filtered | 4,895 |
-| [TSV](tsv/aar_phonemic.tsv) | aar | Afar | Afar | True | Phonemic | 339 |
+| [TSV](tsv/aar_phonemic.tsv) | aar | Afar | Afar | True | Phonemic | 715 |
 | [TSV](tsv/afr_phonemic.tsv) | afr | Afrikaans | Afrikaans | True | Phonemic | 1,333 |
 | [TSV](tsv/afr_phonetic.tsv) | afr | Afrikaans | Afrikaans | True | Phonetic | 120 |
 | [TSV](tsv/alb_phonemic.tsv) | alb | Albanian | Albanian | True | Phonemic | 1,329 |
@@ -13,10 +13,10 @@
 | [TSV](tsv/ara_phonemic.tsv) | ara | Arabic | Arabic | False | Phonemic | 6,379 |
 | [TSV](tsv/ara_phonetic.tsv) | ara | Arabic | Arabic | False | Phonetic | 112 |
 | [TSV](tsv/arc_hebr_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic (Hebrew) | False | Phonemic | 1,153 |
-| [TSV](tsv/arm_e_phonetic.tsv) | arm | Armenian | Armenian (Eastern Armenian) | True | Phonetic | 13,702 |
-| [TSV](tsv/arm_e_phonetic_filtered.tsv) | arm | Armenian | Armenian (Eastern Armenian) | True | Phonetic_filtered | 13,258 |
-| [TSV](tsv/arm_w_phonetic.tsv) | arm | Armenian | Armenian (Western Armenian) | True | Phonetic | 742 |
-| [TSV](tsv/arm_w_phonetic_filtered.tsv) | arm | Armenian | Armenian (Western Armenian) | True | Phonetic_filtered | 599 |
+| [TSV](tsv/arm_e_phonetic.tsv) | arm | Armenian | Armenian (Eastern Armenian, standard) | True | Phonetic | 14,215 |
+| [TSV](tsv/arm_e_phonetic_filtered.tsv) | arm | Armenian | Armenian (Eastern Armenian, standard) | True | Phonetic_filtered | 13,852 |
+| [TSV](tsv/arm_w_phonetic.tsv) | arm | Armenian | Armenian (Western Armenian, standard) | True | Phonetic | 10,706 |
+| [TSV](tsv/arm_w_phonetic_filtered.tsv) | arm | Armenian | Armenian (Western Armenian, standard) | True | Phonetic_filtered | 9,807 |
 | [TSV](tsv/rup_phonetic.tsv) | rup | Macedo-Romanian | Aromanian | True | Phonetic | 143 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,214 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 131 |
@@ -32,12 +32,13 @@
 | [TSV](tsv/ben_phonemic.tsv) | ben | Bengali | Bengali | False | Phonemic | 770 |
 | [TSV](tsv/ben_phonetic.tsv) | ben | Bengali | Bengali | False | Phonetic | 155 |
 | [TSV](tsv/pcc_phonemic.tsv) | pcc | Bouyei | Bouyei | True | Phonemic | 105 |
-| [TSV](tsv/bre_phonemic.tsv) | bre | Breton | Breton | True | Phonemic | 485 |
+| [TSV](tsv/bre_phonemic.tsv) | bre | Breton | Breton | True | Phonemic | 490 |
 | [TSV](tsv/kxd_phonemic.tsv) | kxd | Brunei | Brunei Malay | True | Phonemic | 342 |
 | [TSV](tsv/bul_phonemic.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic | 32,486 |
 | [TSV](tsv/bul_phonemic_filtered.tsv) | bul | Bulgarian | Bulgarian | True | Phonemic_filtered | 32,401 |
 | [TSV](tsv/bul_phonetic.tsv) | bul | Bulgarian | Bulgarian | True | Phonetic | 5,274 |
-| [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,325 |
+| [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,517 |
+| [TSV](tsv/bur_phonemic_filtered.tsv) | bur | Burmese | Burmese | False | Phonemic_filtered | 4,512 |
 | [TSV](tsv/crx_phonemic.tsv) | crx | Carrier | Carrier | False | Phonemic | 175 |
 | [TSV](tsv/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 51,341 |
 | [TSV](tsv/ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 292 |
@@ -57,6 +58,7 @@
 | [TSV](tsv/dan_phonemic.tsv) | dan | Danish | Danish | True | Phonemic | 3,450 |
 | [TSV](tsv/dan_phonetic.tsv) | dan | Danish | Danish | True | Phonetic | 6,935 |
 | [TSV](tsv/sce_phonemic.tsv) | sce | Dongxiang | Dongxiang | True | Phonemic | 117 |
+| [TSV](tsv/dng_phonemic.tsv) | dng | Dungan | Dungan | True | Phonemic | 160 |
 | [TSV](tsv/dut_phonemic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic | 27,882 |
 | [TSV](tsv/dut_phonemic_filtered.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic_filtered | 27,831 |
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 642 |
@@ -133,12 +135,13 @@
 | [TSV](tsv/lad_phonemic.tsv) | lad | Ladino | Ladino | True | Phonemic | 110 |
 | [TSV](tsv/lao_phonemic.tsv) | lao | Lao | Lao | False | Phonemic | 512 |
 | [TSV](tsv/lsi_phonemic.tsv) | lsi | Lashi | Lashi | True | Phonemic | 286 |
-| [TSV](tsv/lat_clas_phonemic.tsv) | lat | Latin | Latin (Classical) | True | Phonemic | 33,393 |
-| [TSV](tsv/lat_clas_phonetic.tsv) | lat | Latin | Latin (Classical) | True | Phonetic | 31,711 |
-| [TSV](tsv/lat_eccl_phonemic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonemic | 32,470 |
-| [TSV](tsv/lat_eccl_phonetic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonetic | 31,849 |
-| [TSV](tsv/lat_vulg_phonemic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonemic | 970 |
-| [TSV](tsv/lat_vulg_phonetic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonetic | 924 |
+| [TSV](tsv/ltg_phonetic.tsv) | ltg | Latgalian | Latgalian | True | Phonetic | 124 |
+| [TSV](tsv/lat_clas_phonemic.tsv) | lat | Latin | Latin (Classical) | True | Phonemic | 33,796 |
+| [TSV](tsv/lat_clas_phonetic.tsv) | lat | Latin | Latin (Classical) | True | Phonetic | 33,154 |
+| [TSV](tsv/lat_eccl_phonemic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonemic | 32,843 |
+| [TSV](tsv/lat_eccl_phonetic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonetic | 32,239 |
+| [TSV](tsv/lat_vulg_phonemic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonemic | 999 |
+| [TSV](tsv/lat_vulg_phonetic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonetic | 952 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,273 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
@@ -197,6 +200,7 @@
 | [TSV](tsv/ang_phonemic.tsv) | ang | Old English (ca. 450-1100) | Old English | True | Phonemic | 10,252 |
 | [TSV](tsv/ang_phonetic.tsv) | ang | Old English (ca. 450-1100) | Old English | True | Phonetic | 5,075 |
 | [TSV](tsv/fro_phonemic.tsv) | fro | Old French (842-ca. 1400) | Old French | True | Phonemic | 344 |
+| [TSV](tsv/ofs_phonemic.tsv) | ofs | Old Frisian | Old Frisian | True | Phonemic | 174 |
 | [TSV](tsv/goh_phonemic.tsv) | goh | Old High German (ca. 750-1050) | Old High German | True | Phonemic | 126 |
 | [TSV](tsv/sga_phonemic.tsv) | sga | Old Irish (to 900) | Old Irish | True | Phonemic | 2,154 |
 | [TSV](tsv/non_phonemic.tsv) | non | Old Norse | Old Norse | True | Phonemic | 161 |
@@ -214,10 +218,12 @@
 | [TSV](tsv/pjt_phonetic.tsv) | pjt | Pitjantjatjara | Pitjantjatjara | True | Phonetic | 125 |
 | [TSV](tsv/pox_phonemic.tsv) | pox | Polabian | Polabian | True | Phonemic | 211 |
 | [TSV](tsv/pol_phonemic.tsv) | pol | Polish | Polish | True | Phonemic | 69,493 |
-| [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 11,250 |
-| [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 297 |
-| [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 9,931 |
-| [TSV](tsv/por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 305 |
+| [TSV](tsv/por_bz_phonemic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic | 11,428 |
+| [TSV](tsv/por_bz_phonemic_filtered.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonemic_filtered | 11,271 |
+| [TSV](tsv/por_bz_phonetic.tsv) | por | Portuguese | Portuguese (Brazil) | True | Phonetic | 825 |
+| [TSV](tsv/por_po_phonemic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic | 10,075 |
+| [TSV](tsv/por_po_phonemic_filtered.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonemic_filtered | 9,755 |
+| [TSV](tsv/por_po_phonetic.tsv) | por | Portuguese | Portuguese (Portugal) | True | Phonetic | 315 |
 | [TSV](tsv/pan_guru_phonemic.tsv) | pan | Panjabi | Punjabi (Gurmukhi) | False | Phonemic | 119 |
 | [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3,655 |
 | [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 6,350 |
