@@ -1,10 +1,11 @@
 # Based on:
-#https://en.wiktionary.org/wiki/Appendix:German_pronunciation
-#https://en.wikipedia.org/wiki/Standard_German_phonology
-#https://en.wikipedia.org/wiki/Help:IPA/Standard_German
-#https://en.wikipedia.org/wiki/Swiss_German#Phonology
-#https://phoible.org/inventories/view/161
-#####
+# https://en.wiktionary.org/wiki/Appendix:German_pronunciation
+# https://en.wikipedia.org/wiki/Standard_German_phonology
+# https://en.wikipedia.org/wiki/Help:IPA/Standard_German
+# https://en.wikipedia.org/wiki/Swiss_German#Phonology
+# https://phoible.org/inventories/view/161
+#
+# Diphthongs are mostly transcribed without using tie bars.
 t
 n
 a
@@ -88,5 +89,3 @@ a͡ʊ
 œ
 p͜f  # A transcriptive variant of /p͡f/.
 ʋ  # Allophone of /v/ in southern varieties of German.
-#####
-#diphthongs are mostly transcribed without using tie bars.
