@@ -119,9 +119,10 @@
 | [TSV](tsv/ita_phonemic.tsv) | ita | Italian | Italian | True | Phonemic | 11,825 |
 | [TSV](tsv/ita_phonemic_filtered.tsv) | ita | Italian | Italian | True | Phonemic_filtered | 11,294 |
 | [TSV](tsv/ita_phonetic.tsv) | ita | Italian | Italian | True | Phonetic | 6,072 |
-| [TSV](tsv/jpn_hira_phonemic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonemic | 102 |
-| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 18,280 |
-| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4,870 |
+| [TSV](tsv/jpn_hira_phonetic.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic | 18,459 |
+| [TSV](tsv/jpn_hira_phonetic_filtered.tsv) | jpn | Japanese | Japanese (Hiragana) | False | Phonetic_filtered | 18,285 |
+| [TSV](tsv/jpn_kana_phonetic.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic | 4,651 |
+| [TSV](tsv/jpn_kana_phonetic_filtered.tsv) | jpn | Japanese | Japanese (Katakana) | False | Phonetic_filtered | 4,269 |
 | [TSV](tsv/jje_phonemic.tsv) | jje | Jejueo | Jeju | False | Phonemic | 205 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 834 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 184 |

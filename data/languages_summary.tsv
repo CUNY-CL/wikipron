@@ -117,9 +117,10 @@ gle_phonetic.tsv	gle	Irish	Irish	True	Phonetic	1606
 ita_phonemic.tsv	ita	Italian	Italian	True	Phonemic	11825
 ita_phonemic_filtered.tsv	ita	Italian	Italian	True	Phonemic_filtered	11294
 ita_phonetic.tsv	ita	Italian	Italian	True	Phonetic	6072
-jpn_hira_phonemic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonemic	102
-jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	18280
-jpn_kana_phonetic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic	4870
+jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	18459
+jpn_hira_phonetic_filtered.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic_filtered	18285
+jpn_kana_phonetic.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic	4651
+jpn_kana_phonetic_filtered.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic_filtered	4269
 jje_phonemic.tsv	jje	Jejueo	Jeju	False	Phonemic	205
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	834
 kaz_phonemic.tsv	kaz	Kazakh	Kazakh	True	Phonemic	184
