@@ -14,6 +14,7 @@ Unreleased
 
 #### Added
 
+-   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)
 -   Added whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
     (\#158, etc.)

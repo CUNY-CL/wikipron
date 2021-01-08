@@ -85,8 +85,9 @@
 | [TSV](tsv/kld_phonemic.tsv) | kld | Gamilaraay | Gamilaraay | True | Phonemic | 447 |
 | [TSV](tsv/geo_phonemic.tsv) | geo | Georgian | Georgian | False | Phonemic | 14,192 |
 | [TSV](tsv/geo_phonemic_filtered.tsv) | geo | Georgian | Georgian | False | Phonemic_filtered | 14,191 |
-| [TSV](tsv/ger_phonemic.tsv) | ger | German | German | True | Phonemic | 33,827 |
-| [TSV](tsv/ger_phonetic.tsv) | ger | German | German | True | Phonetic | 10,722 |
+| [TSV](tsv/ger_phonemic.tsv) | ger | German | German | True | Phonemic | 35,347 |
+| [TSV](tsv/ger_phonemic_filtered.tsv) | ger | German | German | True | Phonemic_filtered | 34,027 |
+| [TSV](tsv/ger_phonetic.tsv) | ger | German | German | True | Phonetic | 10,955 |
 | [TSV](tsv/got_phonemic.tsv) | got | Gothic | Gothic | True | Phonemic | 868 |
 | [TSV](tsv/got_phonetic.tsv) | got | Gothic | Gothic | True | Phonetic | 178 |
 | [TSV](tsv/gre_phonemic.tsv) | gre | Modern Greek (1453-) | Greek | True | Phonemic | 10,330 |
