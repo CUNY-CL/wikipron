@@ -128,7 +128,7 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
         (
             None,
             (
-                "\n//li[\n"
+                "\n(//li|//p)[\n"
                 "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
@@ -143,7 +143,7 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
         (
             "US",
             (
-                "\n//li[\n"
+                "\n(//li|//p)[\n"
                 "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
@@ -160,7 +160,7 @@ def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
         (
             "General American | US",
             (
-                "\n//li[\n"
+                "\n(//li|//p)[\n"
                 "  (.|span)[sup[a[\n"
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"

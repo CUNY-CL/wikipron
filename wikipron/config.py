@@ -15,8 +15,9 @@ from wikipron.typing import ExtractFunc, Pron, Word
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
+# Some (but not all) Moksha pronunciations reside in //p[sup[a.
 _PRON_XPATH_SELECTOR_TEMPLATE = """
-//li[
+(//li|//p)[
   (.|span)[sup[a[
     @title = "Appendix:{language} pronunciation"
     or
