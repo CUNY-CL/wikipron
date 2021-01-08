@@ -38,7 +38,7 @@ def main():
             "iso639",
             "requests",
             "requests-html",
-            "segments>=2.1.3,<3",
+            "segments>=2.2.0,<3",
             "setuptools",
         ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},

@@ -57,6 +57,7 @@ def test_process_pron(stress, syllable_boundaries, input_pron, expected_pron):
         (True, "ʷoˈtɤu̯", "ʷo ˈt ɤ u̯"),
         (True, "ⁿdaˈɽá.ma", "ⁿd a ˈɽ á . m a"),
         (False, "lɛ̃.ɡɥis.tik", "lɛ̃.ɡɥis.tik"),
+        (True, "ʔɓaːn˧˩ ŋaː˦ˀ˥", "ʔ ɓ aː n ˧˩ # ŋ aː ˦ˀ˥"),
     ],
 )
 def test_segment(segment, input_pron, expected_pron):
