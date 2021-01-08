@@ -5,5 +5,5 @@ mypy==0.790
 pytest==6.1.1
 requests-html==0.10.0
 requests==2.24.0
-segments==2.1.3
+segments==2.2.0
 setuptools==50.3.1

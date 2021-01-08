@@ -60,7 +60,5 @@ i͡ə
 ɨ͡ə
 u͡e
 # GLOTTALIZED TONES
-# Due to an issue with Python's `segments` library, the glottalization
-# diacritic was dropped from the following tones:
 ˧ˀ˨  # Often transcribed /˧˨ʔ/ on Wiktionary.
 ˦ˀ˥
