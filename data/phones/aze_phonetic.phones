@@ -1,0 +1,70 @@
+# Based on
+# https://en.wikipedia.org/wiki/Azerbaijani_language
+# https://en.wikipedia.org/wiki/Help%3AIPA%2FAzerbaijani
+#####
+# NOTE:
+# Wikipedia had very limited information on Azerbaijani phonology, and there
+# are a number of points I am unsure about. The transcriptions did not always
+# match the orthography in the expected way, and due to the lack of data, I 
+# could not tell if this was due to allophony, inconsistent orthography, or
+# errors in the transcription. Additionally, some phones listed in the sources
+# (such as /c/ and /ɟ/) did not appear in the data, or appeared only a handful
+# of times. I'm also unsure whether all vowels and consonants have long 
+# counterparts, or only some.
+#####
+# CONSONANTS
+p
+b
+m
+mː
+f
+v
+t
+tː
+d
+t͡s  # The orthography in the examples suggests that this is an allophone of /t͡ʃ/, but I could not find confirmation in the sources.
+d͡z  # The orthography in the examples suggests that this is an allophone of both /g/ and /dʒ/, but I could not find confirmation in the sources.
+n
+nː
+r  # Allophone of /ɾ/? Not mentioned in sources, but very common in the data.
+rː
+ɾ
+s
+sː
+z
+l
+lː
+ɫ  # Allophone of /l/? Not mentioned in sources, but very common in the data.
+ɫː
+t͡ʃ
+d͡ʒ
+ʃ
+ʒ
+ç
+j
+k  # Apparently, only occurs in loanwords. Nevertheless, it is very common in the data.
+kː
+ɡ
+ŋ
+x
+ɣ
+χ  # Allophone of /x/.
+h
+# VOWELS
+i
+iː
+y
+e
+eː
+œ
+œː
+æ
+æː
+a  # Narrow transcription of /æ/.
+aː
+ɯ
+u
+uː
+o
+ɑ
+ɑː

@@ -20,8 +20,9 @@
 | [TSV](tsv/rup_phonetic.tsv) | rup | Macedo-Romanian | Aromanian | True | Phonetic | 143 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,214 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 131 |
-| [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 225 |
-| [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2,579 |
+| [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 255 |
+| [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2,803 |
+| [TSV](tsv/aze_latn_phonetic_filtered.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic_filtered | 2,618 |
 | [TSV](tsv/bdq_phonemic.tsv) | bdq | Bahnar | Bahnar | True | Phonemic | 149 |
 | [TSV](tsv/ban_bali_phonemic.tsv) | ban | Balinese | Balinese (Balinese) | True | Phonemic | 178 |
 | [TSV](tsv/bak_phonemic.tsv) | bak | Bashkir | Bashkir | True | Phonemic | 108 |
