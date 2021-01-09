@@ -269,8 +269,9 @@ nhg_phonetic.tsv	nhg	Tetelcingo Nahuatl	Tetelcingo Nahuatl	True	Phonetic	305
 tha_phonemic.tsv	tha	Thai	Thai	False	Phonemic	14845
 tib_phonemic.tsv	tib	Tibetan	Tibetan	False	Phonemic	1843
 ton_phonemic.tsv	ton	Tonga (Tonga Islands)	Tongan	True	Phonemic	155
-tur_phonemic.tsv	tur	Turkish	Turkish	True	Phonemic	1755
-tur_phonetic.tsv	tur	Turkish	Turkish	True	Phonetic	2036
+tur_phonemic.tsv	tur	Turkish	Turkish	True	Phonemic	1787
+tur_phonetic.tsv	tur	Turkish	Turkish	True	Phonetic	2042
+tur_phonetic_filtered.tsv	tur	Turkish	Turkish	True	Phonetic_filtered	1811
 tuk_phonemic.tsv	tuk	Turkmen	Turkmen	True	Phonemic	106
 tyv_cyrl_phonemic.tsv	tyv	Tuvinian	Tuvan (Cyrillic)	True	Phonemic	461
 ukr_phonetic.tsv	ukr	Ukrainian	Ukrainian	True	Phonetic	5069
