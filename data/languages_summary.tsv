@@ -83,8 +83,9 @@ glg_phonetic.tsv	glg	Galician	Galician	True	Phonetic	867
 kld_phonemic.tsv	kld	Gamilaraay	Gamilaraay	True	Phonemic	447
 geo_phonemic.tsv	geo	Georgian	Georgian	False	Phonemic	14192
 geo_phonemic_filtered.tsv	geo	Georgian	Georgian	False	Phonemic_filtered	14191
-ger_phonemic.tsv	ger	German	German	True	Phonemic	33827
-ger_phonetic.tsv	ger	German	German	True	Phonetic	10722
+ger_phonemic.tsv	ger	German	German	True	Phonemic	35347
+ger_phonemic_filtered.tsv	ger	German	German	True	Phonemic_filtered	34027
+ger_phonetic.tsv	ger	German	German	True	Phonetic	10955
 got_phonemic.tsv	got	Gothic	Gothic	True	Phonemic	868
 got_phonetic.tsv	got	Gothic	Gothic	True	Phonetic	178
 gre_phonemic.tsv	gre	Modern Greek (1453-)	Greek	True	Phonemic	10330

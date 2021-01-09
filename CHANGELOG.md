@@ -14,6 +14,7 @@ Unreleased
 
 #### Added
 
+-   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)
 -   Added whitelists for Dutch, English, Greek, Latin, Korean, and Spanish.
     (\#158, etc.)
@@ -122,6 +123,7 @@ Unreleased
 -   Added `test_split.py` to `tests/test_data`. (\#256)
 -   Handled Cantonese for scraping. (\#277)
 -   Added exclusion for reconstructions. (\#302)
+-   Added Vietnamese contour tone grouping test in `tests/test_config.py` (\#308)
 
 #### Changed
 
@@ -131,6 +133,7 @@ Unreleased
 -   Moved previous contents of `tests` into `tests/test_wikipron` (\#226)
 -   Updated the packages version numbers in requirements.txt to their latest according to PyPI (\#239)
 -   Updated the default pron selector to also look for IPA strings under paragraphs in addition to list items. (\#295)
+-   Updated segments package version to 2.2.0 (\#308)
 
 #### Deprecated
 
