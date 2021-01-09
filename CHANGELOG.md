@@ -63,6 +63,7 @@ Unreleased
 -   Added Japanese `.phones` files and re-scraped data. (\#230, \#307)
 -   Added Moksha (`mdf`). (\#295)
 -   Added Azerbaijani `.phones` files and re-scraped data. (\#306, \#312)
+-   Added Turkish `.phones` file and re-scraped data. (\#313, \#314)
 
 #### Changed
 

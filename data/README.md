@@ -271,8 +271,9 @@
 | [TSV](tsv/tha_phonemic.tsv) | tha | Thai | Thai | False | Phonemic | 14,845 |
 | [TSV](tsv/tib_phonemic.tsv) | tib | Tibetan | Tibetan | False | Phonemic | 1,843 |
 | [TSV](tsv/ton_phonemic.tsv) | ton | Tonga (Tonga Islands) | Tongan | True | Phonemic | 155 |
-| [TSV](tsv/tur_phonemic.tsv) | tur | Turkish | Turkish | True | Phonemic | 1,755 |
-| [TSV](tsv/tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2,036 |
+| [TSV](tsv/tur_phonemic.tsv) | tur | Turkish | Turkish | True | Phonemic | 1,787 |
+| [TSV](tsv/tur_phonetic.tsv) | tur | Turkish | Turkish | True | Phonetic | 2,042 |
+| [TSV](tsv/tur_phonetic_filtered.tsv) | tur | Turkish | Turkish | True | Phonetic_filtered | 1,811 |
 | [TSV](tsv/tuk_phonemic.tsv) | tuk | Turkmen | Turkmen | True | Phonemic | 106 |
 | [TSV](tsv/tyv_cyrl_phonemic.tsv) | tyv | Tuvinian | Tuvan (Cyrillic) | True | Phonemic | 461 |
 | [TSV](tsv/ukr_phonetic.tsv) | ukr | Ukrainian | Ukrainian | True | Phonetic | 5,069 |
