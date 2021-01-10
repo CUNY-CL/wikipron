@@ -3,8 +3,9 @@
 | [TSV](tsv/ady_phonetic.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic | 5,123 |
 | [TSV](tsv/ady_phonetic_filtered.tsv) | ady | Adygei; Adyghe | Adyghe | True | Phonetic_filtered | 4,895 |
 | [TSV](tsv/aar_phonemic.tsv) | aar | Afar | Afar | True | Phonemic | 715 |
-| [TSV](tsv/afr_phonemic.tsv) | afr | Afrikaans | Afrikaans | True | Phonemic | 1,333 |
-| [TSV](tsv/afr_phonetic.tsv) | afr | Afrikaans | Afrikaans | True | Phonetic | 120 |
+| [TSV](tsv/afr_phonemic.tsv) | afr | Afrikaans | Afrikaans | True | Phonemic | 1,685 |
+| [TSV](tsv/afr_phonemic_filtered.tsv) | afr | Afrikaans | Afrikaans | True | Phonemic_filtered | 1,659 |
+| [TSV](tsv/afr_phonetic.tsv) | afr | Afrikaans | Afrikaans | True | Phonetic | 121 |
 | [TSV](tsv/alb_phonemic.tsv) | alb | Albanian | Albanian | True | Phonemic | 1,329 |
 | [TSV](tsv/alb_phonetic.tsv) | alb | Albanian | Albanian | True | Phonetic | 799 |
 | [TSV](tsv/gsw_phonemic.tsv) | gsw | Swiss German | Alemannic German | True | Phonemic | 305 |
