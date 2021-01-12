@@ -65,6 +65,7 @@ Unreleased
 -   Added Moksha (`mdf`). (\#295)
 -   Added Azerbaijani `.phones` files and re-scraped data. (\#306, \#312)
 -   Added Turkish `.phones` file and re-scraped data. (\#313, \#314)
+-   Added Maltese `.phones` file and re-scraped data. (\#317, \#318)
 
 #### Changed
 
