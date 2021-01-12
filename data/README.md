@@ -165,7 +165,8 @@
 | [TSV](tsv/may_ara_phonetic.tsv) | may | Malay (macrolanguage) | Malay (Arabic) | True | Phonetic | 216 |
 | [TSV](tsv/may_latn_phonemic.tsv) | may | Malay (macrolanguage) | Malay (Latin) | True | Phonemic | 1,976 |
 | [TSV](tsv/may_latn_phonetic.tsv) | may | Malay (macrolanguage) | Malay (Latin) | True | Phonetic | 437 |
-| [TSV](tsv/mlt_latn_phonemic.tsv) | mlt | Maltese | Maltese (Latin) | True | Phonemic | 3,285 |
+| [TSV](tsv/mlt_latn_phonemic.tsv) | mlt | Maltese | Maltese (Latin) | True | Phonemic | 4,513 |
+| [TSV](tsv/mlt_latn_phonemic_filtered.tsv) | mlt | Maltese | Maltese (Latin) | True | Phonemic_filtered | 3,968 |
 | [TSV](tsv/mnc_phonetic.tsv) | mnc | Manchu | Manchu | False | Phonetic | 881 |
 | [TSV](tsv/glv_phonemic.tsv) | glv | Manx | Manx | True | Phonemic | 196 |
 | [TSV](tsv/glv_phonetic.tsv) | glv | Manx | Manx | True | Phonetic | 124 |
