@@ -166,6 +166,7 @@ def main(args: argparse.Namespace) -> None:
             exit(1)
         codes = list(rset)
 
+    # 2021-01-08
     # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
