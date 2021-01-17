@@ -58,14 +58,17 @@ def _call_scrape(
                     with open(
                         tsv_filtered_path, "w", encoding="utf-8"
                     ) as source_filtered:
-                        for (word, pron) in scrape_results:
+                        for (word, pron, key) in scrape_results:
+                            # sortkey = key
                             line = f"{word}\t{pron}"
                             if _filter(word, pron, phones_set):
                                 print(line, file=source_filtered)
                             print(line, file=source)
                 else:
-                    for (word, pron) in scrape_results:
-                        print(f"{word}\t{pron}", file=source)
+                    for (word, pron, key) in scrape_results:
+                        # sortkey = key
+                        # print(f"{word}\t{pron}", file=source)
+                        print(f"{word}\t{pron}")
                 return
             except (
                 requests.exceptions.Timeout,
@@ -77,8 +80,11 @@ def _call_scrape(
                     tsv_path,
                     tsv_filtered_path,
                 )
-                # Pauses execution for 10 min.
-                time.sleep(600)
+                # RESET CONFIG - bit meh with this key stuff.
+                # Duplicates removed in post-processing.
+                config.restart_key = key
+                # Pauses execution for 1 min.
+                time.sleep(60)
     # Log and remove TSVs for languages that failed.
     logging.info(
         "Failed to scrape %r with 10 retries (%s)",

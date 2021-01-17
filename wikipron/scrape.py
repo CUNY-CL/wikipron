@@ -49,6 +49,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
+        cmprop = member["sortkey"]
         if _skip_word(title, config.skip_spaces_word) or _skip_date(
             timestamp, config.cut_off_date
         ):
@@ -56,13 +57,12 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
         request = session.get(
             _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
         )
-
         for word, pron in config.extract_word_pron(title, request, config):
             # Pronunciation processing is done in NFD-space;
             # we convert back to NFC afterwards.
             normalized_pron = unicodedata.normalize("NFC", pron)
             # 'cast' is required 'normalize' doesn't return a 'Pron'
-            yield word, cast(Pron, normalized_pron)
+            yield word, cast(Pron, normalized_pron), cmprop
 
 
 def _language_name_for_scraping(language):
@@ -86,7 +86,9 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
         "list": "categorymembers",
         "cmtitle": category,
         "cmlimit": "500",
-        "cmprop": "ids|title|timestamp",
+        "cmprop": "ids|title|timestamp|sortkey",
+        "cmsort": "sortkey",
+        "cmstarthexsortkey": config.restart_key
     }
     while True:
         data = requests.get(
