@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import csv
-import glob
 import json
 import logging
 import os

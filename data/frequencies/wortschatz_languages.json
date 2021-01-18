@@ -385,7 +385,7 @@
             "../tsv/zul"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/zul_mixed_2014_100K.tar.gz"
-    }
+    },
     "khm_community_2017": {
         "path": [
             "../tsv/khm"
