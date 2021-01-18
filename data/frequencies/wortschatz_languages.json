@@ -13,7 +13,8 @@
     },
     "hye-am_web_2017_1M": {
         "path": [
-            "../tsv/arm"
+            "../tsv/arm_e",
+            "../tsv/arm_w"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hye-am_web_2017_1M.tar.gz"
     },
@@ -384,5 +385,11 @@
             "../tsv/zul"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/zul_mixed_2014_100K.tar.gz"
+    },
+    "khm_community_2017": {
+        "path": [
+            "../tsv/khm"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/khm_community_2017.tar.gz"
     }
 }
