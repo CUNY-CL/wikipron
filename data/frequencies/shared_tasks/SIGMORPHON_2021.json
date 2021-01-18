@@ -95,19 +95,19 @@
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/slv-si_web_2014_1M.tar.gz"
     },
-        "khm_community_2017": {
+    "khm_community_2017": {
         "path": [
             "../tsv/khm"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/khm_community_2017.tar.gz"
     },
-       "lat_wikipedia_2018_100K": {
+    "lav-lv_web_2015_1M": {
         "path": [
-            "../tsv/lat"
+            "../tsv/lav"
         ],
-        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/lat_wikipedia_2018_100K.tar.gz"
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/lav-lv_web_2015_1M.tar.gz"
     },
-       "nob_news_2013_1M": {
+    "nob_news_2013_1M": {
         "path": [
             "../tsv/nob"
         ],
