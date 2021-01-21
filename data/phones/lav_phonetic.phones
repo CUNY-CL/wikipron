@@ -1,0 +1,116 @@
+# Based on
+#
+# https://en.wikipedia.org/wiki/Latvian_phonology
+# https://en.wikipedia.org/wiki/Help%3AIPA%2FLatvian
+# https://en.wikipedia.org/wiki/Latvian_orthography
+### CONSONANTS ###
+p
+b
+m
+f  # Only occurs in loanwords.
+v
+w
+t
+d
+n
+r
+ɾ  # Not mentioned in sources. Presumably /r/.
+s
+z
+l
+ʃ
+ʒ
+c
+ɟ
+ɲ
+j
+ʎ
+k
+ɡ
+ŋ  # Allophone of nasals before velar consonants.
+# Affricates
+# Latvian has several affricates which were very consistently transcribed
+# without tie bars, so the following do not actually appear as such in the 
+# data.
+t͡s
+d͡z
+t͡ʃ
+d͡ʒ
+### VOWELS ###
+#    Vowels can be short or long. Stressed heavy syllables (consisting of a  
+# long vowel, a dipthong, or a vowel+sonorant sequence) have one of three 
+# possible tones.
+#    Some vowel-suprasegmental combinations occurred vary rarely in the data.
+# I'm not sure if this is due to accidental gaps, transcription errors, or 
+# phonological restrictions that I'm not aware of.
+#    /ɛ/ (and its variants with tone and length) do not occur in the sources, 
+# except as part of diphthongs. Based on character frequencies, it seems to
+# correspond to /e/ in the sources, rather than /æ/ (both of which are written
+# <e>). /ɛ/ occurs much more frequently than /e/ in the Wiktionary data 
+# (although I have included /e/ and its variants as well).
+#    /o/ (and its variants with tone) are not native sounds. However, they are
+# used here to transcribe the /uo/ diphthong.
+i
+ī
+ì
+î
+iː
+īː
+ìː
+îː
+e
+ē
+è
+ê
+eː
+ēː
+èː  # Did not occur in data.
+êː
+ɛ
+ɛ̄
+ɛ̀
+ɛ̂
+ɛː
+ɛ̄ː
+ɛ̀ː
+ɛ̂ː
+æ
+ǣ
+æ̀
+æ̂
+æː
+ǣː
+æ̀ː
+æ̂ː
+a
+ā
+â
+à
+aː
+āː
+àː
+âː
+u
+ū
+ù
+û
+uː
+ūː
+ùː
+ûː
+o
+ō
+ò
+ô
+oː  # Only occurs in loanwords.
+# Diphthongs
+# Latvian supposedly has the following diphthongs, although tie bars were
+# generally not used in these data, so the following do not actually occur.
+i͡ɛ
+i͡u
+ɛ͡i
+ɛ͡u
+a͡i
+a͡u
+u͡i
+u͡ɔ

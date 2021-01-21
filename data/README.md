@@ -146,7 +146,8 @@
 | [TSV](tsv/lat_eccl_phonetic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonetic | 32,239 |
 | [TSV](tsv/lat_vulg_phonemic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonemic | 999 |
 | [TSV](tsv/lat_vulg_phonetic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonetic | 952 |
-| [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,273 |
+| [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,290 |
+| [TSV](tsv/lav_phonetic_filtered.tsv) | lav | Latvian | Latvian | True | Phonetic_filtered | 1,230 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
 | [TSV](tsv/lim_phonetic.tsv) | lim | Limburgan | Limburgish | True | Phonetic | 125 |

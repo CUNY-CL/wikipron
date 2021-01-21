@@ -144,7 +144,8 @@ lat_eccl_phonemic.tsv	lat	Latin	Latin (Ecclesiastical)	True	Phonemic	32843
 lat_eccl_phonetic.tsv	lat	Latin	Latin (Ecclesiastical)	True	Phonetic	32239
 lat_vulg_phonemic.tsv	lat	Latin	Latin (Vulgar)	True	Phonemic	999
 lat_vulg_phonetic.tsv	lat	Latin	Latin (Vulgar)	True	Phonetic	952
-lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1273
+lav_phonetic.tsv	lav	Latvian	Latvian	True	Phonetic	1290
+lav_phonetic_filtered.tsv	lav	Latvian	Latvian	True	Phonetic_filtered	1230
 ayl_phonemic.tsv	ayl	Libyan Arabic	Libyan Arabic	False	Phonemic	154
 lij_phonemic.tsv	lij	Ligurian	Ligurian	True	Phonemic	753
 lim_phonetic.tsv	lim	Limburgan	Limburgish	True	Phonetic	125
