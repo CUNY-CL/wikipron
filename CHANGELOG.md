@@ -66,6 +66,7 @@ Unreleased
 -   Added Azerbaijani `.phones` files and re-scraped data. (\#306, \#312)
 -   Added Turkish `.phones` file and re-scraped data. (\#313, \#314)
 -   Added Maltese `.phones` file and re-scraped data. (\#317, \#318)
+-   Added Latvian `.phones` file and re-scraped data. (\#321, \#322)
 
 #### Changed
 
