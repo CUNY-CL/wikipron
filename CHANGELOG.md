@@ -98,6 +98,7 @@ Unreleased
     combinations. Re-scraped Serbo-Croatian data. (\#288)
 -   Moved `list_phones.py` to parent directory. (\#265, \#266)
 -   Moved `list_phones.py` to `src` directory. (\#297)
+-   Frequencies code no longer overwrites TSV files. (\#320)
 
 #### Fixed
 
