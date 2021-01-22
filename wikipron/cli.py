@@ -108,7 +108,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
 
 
 def _scrape_and_write(config: Config) -> None:
-    for i, (word, pron, _) in enumerate(scrape(config), 1):
+    for i, (word, pron) in enumerate(scrape(config), 1):
         print(f"{word}\t{pron}")
         if i % 100 == 0:
             logging.info("%d pronunciations scraped", i)

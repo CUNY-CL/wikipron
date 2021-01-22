@@ -49,7 +49,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
-        cmprop = member["sortkey"]
+        config.restart_key = member["sortkey"]
         if _skip_word(title, config.skip_spaces_word) or _skip_date(
             timestamp, config.cut_off_date
         ):
@@ -62,7 +62,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
             # we convert back to NFC afterwards.
             normalized_pron = unicodedata.normalize("NFC", pron)
             # 'cast' is required 'normalize' doesn't return a 'Pron'
-            yield word, cast(Pron, normalized_pron), cmprop
+            yield word, cast(Pron, normalized_pron)
 
 
 def _language_name_for_scraping(language):
@@ -80,24 +80,30 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)
     )
-    requests_params = {
-        "action": "query",
-        "format": "json",
-        "list": "categorymembers",
-        "cmtitle": category,
-        "cmlimit": "500",
-        "cmprop": "ids|title|timestamp|sortkey",
-        "cmsort": "sortkey",
-        "cmstarthexsortkey": config.restart_key
-    }
     while True:
+        requests_params = {
+            "action": "query",
+            "format": "json",
+            "list": "categorymembers",
+            "cmtitle": category,
+            "cmlimit": "500",
+            "cmprop": "ids|title|timestamp|sortkey",
+            "cmsort": "sortkey",
+            "cmstarthexsortkey": config.restart_key
+        }
         data = requests.get(
             "https://en.wiktionary.org/w/api.php?",
             params=requests_params,
             headers=HTTP_HEADERS,
         ).json()
-        yield from _scrape_once(data, config)
-        if "continue" not in data:
-            break
-        continue_code = data["continue"]["cmcontinue"]
-        requests_params.update({"cmcontinue": continue_code})
+        try:
+            yield from _scrape_once(data, config)
+            if "continue" not in data:
+                break
+            continue_code = data["continue"]["cmcontinue"]
+            requests_params.update({"cmcontinue": continue_code})
+        except (
+            requests.exceptions.Timeout,
+            requests.exceptions.ConnectionError,
+        ):
+            continue
