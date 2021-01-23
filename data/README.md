@@ -130,7 +130,8 @@
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 834 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 184 |
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 512 |
-| [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,935 |
+| [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,209 |
+| [TSV](tsv/khm_phonemic_filtered.tsv) | khm | Khmer | Khmer | False | Phonemic_filtered | 3,209 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,109 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 13,706 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 11,785 |
