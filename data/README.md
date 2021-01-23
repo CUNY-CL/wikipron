@@ -196,8 +196,9 @@
 | [TSV](tsv/nep_phonetic.tsv) | nep | Nepali (macrolanguage) | Nepali | False | Phonetic | 576 |
 | [TSV](tsv/kmr_latn_phonemic.tsv) | kmr | Northern Kurdish | Northern Kurdish (Latin) | False | Phonemic | 1,169 |
 | [TSV](tsv/sme_phonemic.tsv) | sme | Northern Sami | Northern Sami | True | Phonemic | 3,346 |
-| [TSV](tsv/nob_phonemic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 1,081 |
-| [TSV](tsv/nob_phonetic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonetic | 554 |
+| [TSV](tsv/nob_phonemic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 1,709 |
+| [TSV](tsv/nob_phonemic_filtered.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic_filtered | 1,292 |
+| [TSV](tsv/nob_phonetic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonetic | 583 |
 | [TSV](tsv/nno_phonemic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonemic | 1,212 |
 | [TSV](tsv/nno_phonetic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonetic | 194 |
 | [TSV](tsv/nor_phonemic.tsv) | nor | Norwegian | Norwegian | True | Phonemic | 2,082 |
