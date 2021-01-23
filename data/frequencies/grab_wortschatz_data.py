@@ -7,20 +7,22 @@ import requests
 import tarfile
 import time
 
+from typing import Any, Dict
+
 WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
 
 
 # Downloads the Wortschatz tarballs, roughly 10 GB of data.
-def download(data_to_grab):
+def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
     to_retry = {}
-    os.makedirs("tars", exist_ok=True)
+    os.makedirs("tgz", exist_ok=True)
     for language in data_to_grab:
         url = data_to_grab[language]["data_url"]
         with requests.get(url, stream=True) as response:
             target_path = url.split("/")[-1]
             logging.info("Downloading: %s", target_path)
             if response.status_code == 200:
-                with open(f"tars/{target_path}", "wb") as f:
+                with open(f"tgz/{target_path}", "wb") as f:
                     f.write(response.raw.read())
             else:
                 logging.info(
@@ -36,20 +38,20 @@ def download(data_to_grab):
 
 
 # Unpacks word frequency TSVs of tarballs, roughly 1 GB of data.
-def unpack():
-    os.mkdir("freq_tsvs")
-    for tarball in os.listdir("tars"):
+def unpack() -> None:
+    os.mkdir("tsv")
+    for tarball in os.listdir("tgz"):
         logging.info("Unpacking: %s", tarball)
-        with tarfile.open(name=f"tars/{tarball}", mode="r:gz") as tar_data:
+        with tarfile.open(name=f"tgz/{tarball}", mode="r:gz") as tar_data:
             for file_entry in tar_data:
                 if file_entry.name.endswith("words.txt"):
                     # Removes inconsistent path in tarballs
-                    # so freq_tsvs has uniform contents.
+                    # so tsv has uniform contents.
                     file_entry.name = os.path.basename(file_entry.name)
-                    tar_data.extract(file_entry, "freq_tsvs")
+                    tar_data.extract(file_entry, "tsv")
 
 
-def main():
+def main() -> None:
     with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
 
@@ -58,7 +60,6 @@ def main():
     langs_to_retry = download(languages)
     while langs_to_retry:
         langs_to_retry = download(langs_to_retry)
-
     unpack()
 
 

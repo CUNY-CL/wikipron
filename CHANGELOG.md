@@ -66,6 +66,8 @@ Unreleased
 -   Added Azerbaijani `.phones` files and re-scraped data. (\#306, \#312)
 -   Added Turkish `.phones` file and re-scraped data. (\#313, \#314)
 -   Added Maltese `.phones` file and re-scraped data. (\#317, \#318)
+-   Added Latvian `.phones` file and re-scraped data. (\#321, \#322)
+-   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 
 #### Changed
 
@@ -98,6 +100,7 @@ Unreleased
     combinations. Re-scraped Serbo-Croatian data. (\#288)
 -   Moved `list_phones.py` to parent directory. (\#265, \#266)
 -   Moved `list_phones.py` to `src` directory. (\#297)
+-   Frequencies code no longer overwrites TSV files. (\#320)
 
 #### Fixed
 

@@ -130,7 +130,8 @@
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 834 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 184 |
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 512 |
-| [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,935 |
+| [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,209 |
+| [TSV](tsv/khm_phonemic_filtered.tsv) | khm | Khmer | Khmer | False | Phonemic_filtered | 3,209 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,109 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 13,706 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 11,785 |
@@ -146,7 +147,8 @@
 | [TSV](tsv/lat_eccl_phonetic.tsv) | lat | Latin | Latin (Ecclesiastical) | True | Phonetic | 32,239 |
 | [TSV](tsv/lat_vulg_phonemic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonemic | 999 |
 | [TSV](tsv/lat_vulg_phonetic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonetic | 952 |
-| [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,273 |
+| [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,290 |
+| [TSV](tsv/lav_phonetic_filtered.tsv) | lav | Latvian | Latvian | True | Phonetic_filtered | 1,230 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 154 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 753 |
 | [TSV](tsv/lim_phonetic.tsv) | lim | Limburgan | Limburgish | True | Phonetic | 125 |
