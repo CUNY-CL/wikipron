@@ -1,0 +1,67 @@
+# Based on
+#
+### CONSONANTS ###
+p
+b
+m
+f
+v  # Allophone of /ʋ/.
+ʋ
+t
+d
+n
+r
+ɾ  # Less common (but apparently, more phonetically accurate) transcription of /r/.
+s
+l
+ʃ  # Less common transcription of /ʂ/.
+ʈ  # Underlyingly /rt/.
+ɳ  # Underlyingly /rn/.
+ʂ
+ɽ
+ç
+j
+k
+ɡ
+ŋ
+h
+# Syllabic consonants
+n̩
+### VOWELS ###
+i  # Less common transcription of /ɪ/.
+iː
+y
+yː
+ɪ
+ʏ  # Slightly less common transcription of /y/.
+e
+eː
+ø
+øː
+ɛ  # Less common transcription of /e/.
+œ  # Less common transcription of /ø/.
+æ  # Possibly an allophone of /e/. Also used in transcribing diphthongs (see below).
+æː
+a  # Less common transcription of /ɑ/.
+aː  # Less common transcription of /ɑː/.
+ʉ
+ʉː
+ə
+u
+uː
+o  # Less common transcription of /ɔ/.
+oː
+ɔ
+ɑ
+ɑː
+# DIPTHONGS
+# Norwegian has several diphthongs, which were not transcribed with tie bars.
+# As such, the following do not appear in the data.
+œ͡ʏ
+æ͡ɪ
+æ͡ʉ
+### PITCH ACCENT ###
+# Norwegian has pitch accent. However, it is either very rare, or is not 
+# transcribed very often on Wiktionary. Additionally, it is transcribed with
+# non-standard IPA (<¹> and <²>), so it is not included here. The pitch accent
+# is not reflected in the orthography.
