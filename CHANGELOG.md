@@ -31,7 +31,7 @@ Unreleased
 -   Added `nep` to `languagecodes.py`. (\#206)
 -   Added Ingrian (`izh`). (\#215)
 -   Added French phoneme list and filtered TSV file. (\#213, \#217)
--   Added Coriscan (`cos`). (\#222)
+-   Added Corsican (`cos`). (\#222)
 -   Added Middle Korean (`okm`). (\#223)
 -   Added Middle Irish (`mga`). (\#224)
 -   Added Old Portuguese (`opt`). (\#225)
@@ -68,6 +68,7 @@ Unreleased
 -   Added Maltese `.phones` file and re-scraped data. (\#317, \#318)
 -   Added Latvian `.phones` file and re-scraped data. (\#321, \#322)
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
+-   Added Østnork (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
 
 #### Changed
 
