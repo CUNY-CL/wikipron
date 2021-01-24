@@ -11,7 +11,7 @@ u
 #
 # Older entries might contain [o] or [e]. These have been fixed. You shouldn't find these phones anymore. 
 #
-# Long vowels: A sequence of identical heterosyllabic vowels is phonetically pronounced as one long vowel. Armenian does not have phonemic vowel length. But these are very rare. The only attested case on Wiktionary is the following
+# Long vowels: A sequence of identical heterosyllabic vowels is phonetically pronounced as one long vowel. Armenian does not have phonemic vowel length. But these are very rare. The only attested case on Wiktionary is the following.
 ɛː
 # The other types of long vowels are not found on Wiktionary as of Jan 2021. This is largely because long vowels are mostly in loanwords and borrowings, which Wiktionary underreports. At some point in the future, the Armenian users might add some entries which contain these sequences.
 # ɑː əː iː ɔː uː
@@ -43,12 +43,13 @@ l
 j
 ɾ
 #
-# Past errors: some instances of [χ] were incorrectly transcribed as [x]. These were fixed.
-# Past errors: some affricates were missing a tie-bar. These were fixed.
+# Past errors: some instances of [χ] were incorrectly transcribed as [x].
+# Past errors: some affricates were missing a tie-bar.
 #  * <ց> [tʃʰ] 
 #  * <չ> [tsʰ]
+#  These were fixed.
 #
-# Long consonants: A sequence of identical consonants are phonetically pronounced as long consonant. Armenian does not have phonemic consonant length or geminates. This is just an accidental gap. The above long consonants can exist in Armenian. At some point in the future, the Armenian users might add some entries which contain these sequences
+# Long consonants: A sequence of identical consonants are phonetically pronounced as long consonant. Armenian does not have phonemic consonant length or geminates. This is just an accidental gap. The above long consonants can exist in Armenian. At some point in the future, the Armenian users might add some entries which contain these sequences.
 mː
 nː
 pʰː
@@ -68,12 +69,19 @@ zː
 lː
 ɾː
 #
-# As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have following long consonants:
+# As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have 
+# following long consonants:
 #  d͡zː d͡ʒː ʒː hː jː
-# This is just an accidental gap. The above long consonants can exist in Armenian. At some point in the future, the Armenian users might add some entries which contain these sequences
+# This is just an accidental gap. The above long consonants can exist in Armenian. 
+# At some point in the future, the Armenian users might add some entries which contain 
+# these sequences.
 #
 # Western Armenian's phoneme inventory differs from Eastern Armenian in the following way:
-# 1) Eastern Armenian has a trill grapheme ռ and a flap grapheme ր. In Western Armenian, both graphemes are pronounced as a flap. Western Armenian does not have a trill.
-# 2) The graphemes for voiceless unaspirated stops+affricates are pronounced as voiceless unaspirated in Eastern Armenian, but as voiced in Western Armenian: կապ [kap] in Eastern, [gab] in Western
-# 3) The graphemes for voiced stops+affricates are pronounced as voiced in Eastern Armenian, but as voiceless aspirated in Western Armenian: գահ [gah] in Eastern, [kʰah] in Western
-# * The graphemes for voiceless aspirated stops+affricates are pronounced as voiceless aspirated in both dialects:  քուն [kʰun] in both
+# 1) Eastern Armenian has a trill grapheme ռ and a flap grapheme ր. In Western Armenian,
+# both graphemes are pronounced as a flap. Western Armenian does not have a trill.
+# 2) The graphemes for voiceless unaspirated stops+affricates are pronounced as voiceless 
+# unaspirated in Eastern Armenian, but as voiced in Western Armenian: կապ [kap] in 
+# Eastern, [gab] in Western.
+# 3) The graphemes for voiced stops+affricates are pronounced as voiced in Eastern 
+# Armenian, but as voiceless aspirated in Western Armenian: գահ [gah] in Eastern, [kʰah] # in Western.
+# * The graphemes for voiceless aspirated stops+affricates are pronounced as voiceless aspirated in both dialects:  քուն [kʰun] in both.

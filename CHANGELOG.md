@@ -14,6 +14,7 @@ Unreleased
 
 #### Added
 
+-   Edited the arm_e_phonetic.phones and arm_w_phonetic.phones files
 -   Added Afrikaans whitelists, filtered TSV file, rescraped phonemic and phonetic TSV files. (\#311)
 -   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)
