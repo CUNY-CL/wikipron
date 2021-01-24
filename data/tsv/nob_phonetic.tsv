@@ -1,4 +1,3 @@
-abort	ɑ b ɔ ʈː
 agurktid	ɑ ɡ ʉ ɾ k t iː
 aksent	ɑ k s ɒ ŋ
 alasker	ɑ l ɒ s k ə ɾ
@@ -33,6 +32,7 @@ blåe	b ɽ ô̞ː ɛ̝
 blåere	b ɽ ô̞ː æ ɾ ɛ̝
 blåest	b ɽ ó̞ː ɑ s t
 blåeste	b ɽ ô̞ː ɑ s t ɛ̝
+blåse	b l o̞ː s ə
 blått	b ɽ ɔ tː
 bløffe	² b l œ f f ə
 boms	b ʊ m s
@@ -45,7 +45,9 @@ brokk	b ʁ ɔ k
 brolegge	b ʁ uː l ɛ ɡ ə
 broøgle	b ɾ uʷː œ ɡ l ə
 brødskive	b ɾ øː ʂ iː ʋ ə
+bur	b ʉʷː ɾ
 by	b yː
+bø	b øʷː
 datamus	d aː t ɑ m ʉʷː s
 derifra	d æ ɾ ɪ f ɾ ɑː
 diskotek	d ɪ s k ʊ t eː k
@@ -117,10 +119,12 @@ flekkhyene	f l ɛ k h ʏ eː n ə
 flo	f l uʷː
 flyge	f l yʷː ɡ ə
 flått	f l ɔ t
+forakte	f ɔ ɾ ɑ̀ k t ə
 forbasket	f ɔ ʁ b ɑ s k ə t
 forgjengelig	f ɔ ʁ j ɛ ŋ ə l i
 freidig	f ʁ æ ɪ d ɪ
 frihet	f ɾ iː h eː t
+frysning	f ɾ ŷː s n ɪ ŋ
 fårikål	f oʷː ɾ ɪ k ɔʷ l
 følge	f œ l l ə
 følge	f œ l ɡ ə
@@ -160,10 +164,12 @@ gulere	ɡ ʉ̂ː ɽ æ ɾ ɛ̝
 gulest	ɡ ʉ́ː ɽ ɑ s t
 guleste	ɡ ʉ̂ː ɽ ɑ s t ɛ̝
 gult	ɡ ʉː ʈʰ
+hagl	h ɑ ɡ l̩
 hallik	h ɑ l l ɪ k
 halvøy	h ɑ lː œ j
 hammar	h ɑː m m ɑ ɾ
 hand	h ɑ n
+handlevogn	h ɑ̂ n l ə ʋ ɔ ŋ n
 havn	h a ʉ n
 heie	h æ̂ ɪ̯ː ə
 herme	² h æ ɾ m ə
@@ -190,6 +196,7 @@ identifikasjon	ɪ d ə n t ɪ f ɪ k ɑ ʃ uː n
 ilbrev	iː l b ʁ e̞ː ʋ
 ille	ɪ̂ l̺ l̺ ɛ̝
 industriland	ɪ n d ʉʷ s t ɾ iː l ɑ n
+innkjørsel	ɪ̂ nː ç œ ʂ ə l
 intim	ɪ n t iː m
 jeg	j æ
 jeg	j æ ɪ̯
@@ -209,6 +216,7 @@ kjele	ç eː l ə
 kjip	ç iː p
 klassekamerat	k l ɑ s s ə k ɑ m m ə ɾ aː t
 klubbe	k l ʉ b b ə
+klø	k l øː
 knebel	k n eː b l̩
 knebel	k n eː b ə l
 kneble	k n eː b l ə
@@ -218,6 +226,7 @@ kokain	k ʊ k ɑ iː n
 korint	k ʊ ʁ ɪ n t
 kosteskaft	kʰ ɔ s t ə s k ɑ f t
 kraftanlegg	kʰ ʁ ɑ f t ɑ n l ɛ ɡ
+krake	k ɾ ɑ̂ː k ə
 kraniebrudd	kʰ ʁ ɑː n ɪ ə b ʁ ʉ d
 kreft	k ɾ ɛ f t
 kreftsvulst	k ʁ ɛ f t s ʋ ʉ l s t
@@ -229,13 +238,14 @@ krigserklæring	k ɾ ɪ k s æ ɾ k l æː ɾ ɪ ŋ
 kro	k ɾ uʷː
 krokodilletåre	k ɾ ʊ k ʊ d ɪ l l ə t oʷː ɾ ə
 krydder	k ɾ ʏʷ d ə ɾ
+kryptovaluta	k ɾ ʏ p t ʊ ʋ ɑ l ʉ t t ɑ
 kråkesølv	k ɾ ɔ̂ː k ə s œ lː
 kull	kʰ øː ɽ
 kull	kʰ ʉ l̺ː
 kullet	kʰ ǿː ɽ ɛ t
 kvantefysikk	k ʋ ɑ n t ə f ʏʷ s ɪ k
 kvass	k ʋ ɑ s
-kveld	k ʋ e l
+kvelds	k ʋ ɛ l s
 kvelerslange	kʰ ʋ e̞ː l ə ʁ ʃ l ɑ ŋ ə
 kvernstein	kʰ ʋ ɛ ʁ n s t æ i n
 kvige	kʰ ʋ iː ɡ ə
@@ -255,6 +265,8 @@ landstryker	l ɑ n s t r ʏː k ə r
 landtunge	l ɑ n tʰ ʊ ŋ ə
 landtur	l ɑ n tʰ ʉː ʁ
 landvinning	l ɑ n ʋ ɪ n ɪ ŋ
+langer	l ɑ̂ ŋ ŋ ə ɾ
+langer	l ɑ̂ ŋ ŋ ə ʁ
 lapp	l ɑ p
 lathans	l ɑː t h ɑ n s
 laurbærkrans	l æ ʉ ʁ b æː ʁ kʰ ʁ ɑ n s
@@ -283,15 +295,17 @@ mamma	m ɑ mː a
 mandolin	m ɑ n d ʊ l iː n
 mareritt	m ɑ̂ː ɾ ə ɾ ɪ t
 mareritt	m ɑ̂ː ʁ ə ʁ ɪ t
+mars	m ɑ ʂ
 matematikk	m ɑ t ə m ɑ t ɪ k
 matpakke	m aː t p ɑ k k ə
 mave	m aː ʋ ə
 mesterverk	m ɛ s t ə ɾ ʋ æ ɾ k
 middagshvil	m ɪ d ɑ ɡ s v iː l
-middagskvil	m ɪ d ɑ k s k vː i l
+middagskvil	m ɪ d ɑ k s k v iː l
 middelalderlitteratur	m ɪ d l̩ ɑ l d ə ɭ ɪ t ɾ ɑ t ʉʷː ɾ
 middelalderlitteratur	m ɪ d ə l ɑ l d ə ɭ ɪ t ə ɾ ɑ t ʉʷː ɾ
 modig	m uː d ɪ
+morgen	m ɔː ɳ̍
 motgift	m uʷː t j ɪ f t
 muse	m ʉʷ s eː
 musling	m ʉʷ ʂ l ɪ ŋ
@@ -311,7 +325,11 @@ noen	n uʷː ə n
 nordnorsk	n uː ɳ ɔ ʂ k
 nudisme	n ʉ d ɪ s m ə
 nynne	² n ʏ n n ə
+nys	n yʷː s
+nyse	n yʷː s ə
 nysgjerrigper	n ʏ ʂ æ ɾ ɪ p eː ɾ
+nyst	n ʏʷ s t
+nøs	n øʷː s
 omsorgsfull	ʊ m s ɔ ɾ ɡ s f ʉ l
 ondskap	ʊ nː s k aː p
 onomatopoetikon	ʊ n ʊ m ɑ t ʊ p ʊ eː t ɪ k ɔ n
@@ -319,8 +337,11 @@ ordentlig	ɔ ŋ k l ɪ
 ordentlig	ɔ ɖ ə n t l ɪ
 ordentlig	ɔ ɖ ɳ̩ ʈ ɭ ɪ
 ordentlig	ɔ ɳ ʈ ɭ ɪ
+ordsmed	uː ʁ s m eː
+ordsmed	uː ʂ m eː
 ordstilling	uʷː ʂ t ɪ l l ɪ ŋ
 ormepadde	ɔ ɾ m ə p ɑ d d ə
+oslo	ʊ̂ ʂ l ʊ
 panserneshorn	p ɑ n s ə ɾ n eː s h uʷ ɳ
 pantergaupe	p ɑ n t ə ɾ ɡ æ ʉ̯ː p ə
 penger	² pʰ ɛ ŋː ə ɾ
@@ -420,6 +441,7 @@ siden	s iː d ə n
 sidesyn	s iː d ə s yʷː n
 sikksakk	s ɪ k s ɑ k
 sild	s ɪ lː
+sinnssyk	s ɪ n s s yː k
 sirka	s ɪ ɾ k ɑ
 sitron	s i t ɾ uː n
 sitron	s i t ɾ ùː n
@@ -450,6 +472,7 @@ skriftefar	s k ʁ ɪ f t ə f ɑː ʁ
 skrikerunge	s k ʁ iː k ə ʁ ʊ ŋ ə
 skrinn	s k ʁ ɪ n
 skriveblokk	s k ʁ iː ʋ ə b l ɔ k
+skriveleif	s k ɾ îː ʋ ə l æ ɪ̯ f
 skrivning	s k ʁ iː ʋ n ɪ ŋ
 skrothaug	s k ʁ uː t h æ ʉ ɡ
 skrott	s k ʁ ɔ t
@@ -469,8 +492,11 @@ solbær	s uː l b æː ɾ
 spanjol	s p ɑ n j uʷː l
 spilleliste	s p ɪ̂ l l ə l ɪ s t ə
 spisebestikk	s p iː s ə b ə s t ɪ k
+sprute	s p r ʉː t ə
 språkforsking	s p ɾ oʷː k f ɔ ʂ k ɪ ŋ
 språkforskning	s p ɾ oʷː k f ɔ ʂ k n ɪ ŋ
+stabbur	s t ɑ̂ b b ʉ ɾ
+stabbur	s t ɑ̂ b b ʉ ʁ
 stedfortrederkrig	s t eː d f ɔ ʁ t ʁ êː d ə ʁ k ʁ iː ɡ
 stedfortrederkrig	s t eː d f ɔ ʈ ‿ ɽ êː d ə ɾ k ɾ iː ɡ
 steinbit	s t æ ɪ̯ n b iː t
@@ -491,6 +517,7 @@ svarteste	s ʋ ɑ̂ ʈ̚ ʈ ɑ s t ɛ̝
 sykkel	s ʏʷ k e l
 syklus	s yʷː k l ʉʷ s
 søvn	s œ ʋ n
+takk	t ɑ k
 tegne	t ɛ ɪ̯ n ə
 teleportere	t ɛ l l ə p ʊ ‿ ʈ eː ɾ ə
 teservise	tʰ e̞ː s ɛ ʁ ʋ iː s ə
@@ -514,11 +541,13 @@ tåre	t oː ɾ ə
 udyr	ʉʷː d yʷː ɾ
 ungkar	ʊ ŋ k aː ɾ
 uovervinnelig	ʉ ɔ ʋ ə ɾ v ɪ n n ə l ɪ
+uteligger	ʉː t ə ² l ɪ ɡ ɡ ə ɾ
 valgfusk	ʋ ɑ l ɡ f ʉ s k
 valkyrje	² ʋ aː l k ʏ ɾ j ə
 vanedyr	ʋ aː n ə ² d yː ɾ
 vanvøre	ʋ ɑː n ʋ ø̽ː r ə
 varlig	ʋ ɑː ʁ l ɪ
+varmeovn	ʋ ɑ̂ ɾ m ə ɔ ʋ n
 vasallstat	ʋ ɑ s ɑ l s t ɑː t
 vaskebjørn	ʋ ɑ s k ə b j øʷː ɳ
 vassavkjølt	ʋ ɑ s ɑ ʋ ç øː l t
