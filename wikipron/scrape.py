@@ -49,11 +49,14 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
-        config.restart_key = member["sortkey"]
+        if config.restarted:
+            config.restarted = False
+            continue
         if _skip_word(title, config.skip_spaces_word) or _skip_date(
             timestamp, config.cut_off_date
         ):
             continue
+        config.restart_key = member["sortkey"]
         request = session.get(
             _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
         )
@@ -106,4 +109,6 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             requests.exceptions.Timeout,
             requests.exceptions.ConnectionError,
         ):
+            # Log something?
+            config.restarted = True
             continue
