@@ -1,4 +1,10 @@
 {
+    "eng_news_2016_1M": {
+        "path": [
+            "../tsv/eng_us"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/eng_news_2016_1M.tar.gz"
+    },
     "hye-am_web_2017_1M": {
         "path": [
             "../tsv/arm_e"
