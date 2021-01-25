@@ -79,8 +79,11 @@ benjamin	p ɛ n j a m i n
 benjardøgg	p ɛ ɲː a ɹ t œ kː
 bera	p eː ɹ a
 bergur	p ɛ ɹ k ʊ ɹ
+berjalyngur	p ɛ ɹ j a l ɪ ŋ k ʊ ɹ
 berur	p ɛː ɹ ʊ ɹ
 betageisling	p ɛːʰ t a k a i ʃ l ɪ ŋ k
+beð	p eː
+beður	p eː v ʊ ɹ
 bidna	p ɪ t nː a
 bil	p iː l
 bilur	p iː l ʊ ɹ
@@ -132,6 +135,7 @@ brúka	p ɹ ʉ uː k a
 brúkaranavn	p r ʉ uː w k a ɹ a n a u n
 brúður	p ɹ ʉ uː w ʊ ɹ
 bunki	p ʊ ɲ̊ t͡ʃ ɪ
+bylgja	p ɪ ʎ t͡ʃ a
 byrur	p iː ɹ ʊ ɹ
 bál	p ɔ ɑː l
 bára	p ɔ ɑː ɹ a
@@ -213,6 +217,7 @@ eggja	ɛ t͡ʃː a
 eigi	a iː j ɪ
 eigur	a iː j ʊ ɹ
 eik	a iː k
+eimur	a iː m ʊ ɹ
 eingilskur	ɔ ɲ t͡ʃ ɪ l s k ʊ ɹ
 eingilsmaður	ɔ i ɲ t ʃ ɪ l s m ɛ aː v ʊ ɹ
 einir	a iː j n ɪ ɹ
@@ -440,6 +445,7 @@ gleði	k l eː j ɪ
 glymja	k l ɪ m j a
 glæma	k l ɛ aː m a
 gløgg	k l œ kː
+gløggur	k l œ kː ʊ ɹ
 glúmur	k l ʉ uː m ʊ ɹ
 gníggja	k n ʊ i t͡ʃː a
 gonga	k ɔ ŋ k a
@@ -524,7 +530,9 @@ havur	h ɛ aː v ʊ ɹ
 havørn	h ɛ aː v œ ɻ ɳ
 hegri	h ɛ k ɹ ɪ
 heilagur	h a iː l a v ʊ ɹ
+heim	h a iː m
 heimta	h a i m̥ t a
+heimur	h a iː m ʊ ɹ
 heiti	h a i t ɪ
 heiðarýpa	h a iː j a ɹ ʊ iː p a
 heiði	h a iː j ɪ
@@ -614,7 +622,6 @@ hús	h ʉ uː s
 húsbóndi	h ʏ s p œ n t ɪ
 húsfrú	h ʉ uː s f r ʉ uː
 hýsa	h ʊ iː j s a
-i	iː
 ikki	ɪʰ t ʃː ɪ
 illa	ɪ t l a
 illur	ɪ t l ʊ ɹ
@@ -873,6 +880,7 @@ læmingi	l ɛ aː m ɪ ɲ t͡ʃ ɪ
 líggja	l ʊ ɪ t͡ʃː a
 lík	l ʊ iː j k
 líkur	l ʊ iː k ʊ ɹ
+lína	l ʊ iː n a
 líð	l ʊ iː
 lóg	l ɔ uː w
 lógvi	l ɛ k f ɪ
@@ -1175,6 +1183,7 @@ sjeyndi	ʃ ɛ n t ɪ
 sjokuláta	ʃ oːʰ k ʊ l ɔ ɑːʰ t a
 sjókort	ʃ ɔ u k ɔ ɻ̊ ʈ
 sjón	ʃ ɔ uː n
+sjónleikari	ʃ ɔ uː n l a i k a ɹ ɪ
 sjórænari	ʃ ɔ u ɹ ɛ aː n a ɹ ɪ
 sjúkrahús	ʃ ʉ uː k ɹ a h ʉ uː s
 sjúkur	ʃ ʉ uː k ʊ ɹ
@@ -1419,11 +1428,15 @@ tit	t iː t
 tjald	t ʃʰ a l t
 tjaldur	t͡ʃʰ a l t ʊ ɹ
 tjaldursegg	t ʃʰ a l t ʊ ɹ s ɛ kː
+tjatsi	cʰ aʰ t s ɪ
+tjatsi	t͡ʃʰ aʰ t s ɪ
 tjeg	tʲ eː
 tjóðbúni	t ʃʰ ɔ uː w p ʉ uː n ɪ
 tjóðhátíð	t ʃʰ ɔ uː w h ɔ ɑː tʰ ʊ iː j
 tjóðveldi	t͡ʃʰ ɔ uː v ɛ l t ɪ
 tjóðverji	t ʃʰ ɔ uː w v ɛ ɹ j ɪ
+tjøra	tʲʰ øː ɹ a
+tjøra	t͡ʃʰ øː ɹ a
 tjørn	cʰ œ t n
 tjørn	t͡ʃʰ œ t n
 tjørnuvíkingur	t ʃʰ œ t n u v ɪ ʃ ɪ n k ʊ ɹ
@@ -1495,6 +1508,7 @@ tóm	tʰ ɔ uː m
 tóm	tʰ ɔ uː n
 tómur	tʰ ɔ uː m ʊ ɹ
 tóna	tʰ ɔ u n a
+tónleikari	tʰ ɔ uː n l a i k a ɹ ɪ
 tónleikur	tʰ ɔ uː n l a iː j k ʊ ɹ
 tóra	tʰ ɔ uː ɹ a
 tórur	tʰ ɔ uː ɹ ʊ ɹ
@@ -1504,6 +1518,8 @@ tøkk	tʰ œʰ kː
 tøknifrøði	tʰ œʰ k n ɪ f r øː j ɪ
 tørva	tʰ œ ɹ v a
 tøva	tʰ øː v a
+túgva	t ɪ k v a
+tún	tʰ ʉ uː n
 týdningarmikil	tʰ ʊ i t n ɪ ŋ k a ɹ m iː t͡ʃ ɪ l
 týrur	tʰ ʊ iː j ɹ ʊ ɹ
 týð	tʰ ʊ iː
@@ -1559,6 +1575,7 @@ vegur	v eː v ʊ ɹ
 veikur	v a i k ʊ r
 veit	v a iː t
 veitsla	v a iː ʃ l a
+vellingur	v ɛ t l ɪ ŋ k ʊ ɹ
 venjing	v ɛ n j ɪ ŋ k
 venjingardystur	v ɛ n j ɪ ŋ k a ɹ t ɪ s t ʊ ɹ
 ver	v eː ɹ
@@ -1600,6 +1617,7 @@ vinstur	v ɪ n̥ s t ʊ ɹ
 vinur	v iː n ʊ ɹ
 virki	v ɪ ɹ̥ t͡ʃ ɪ
 visundur	v i s ʊ n t ʊ ɹ
+vitja	v iː t͡ʃ a
 vitur	v iː t ʊ ɹ
 viðfang	v ɪ fː ɛ ŋ k
 viðføri	v i fː øː ɹ ɪ
@@ -1625,6 +1643,7 @@ váð	v ɔ ɑː
 væl	v ɛ aː l
 vær	v ɛ aː ɹ
 væringi	v ɛ aː ɹ ɪ ɲ t͡ʃ ɪ
+víggj	v ʊ j t͡ʃː
 víkingaøld	v ʊ iː t ʃ ɪ ŋ k a œ l t
 vín	v ʊ iː n
 vínber	v ʊ i n p e ɛː ɹ

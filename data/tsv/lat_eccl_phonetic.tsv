@@ -210,6 +210,8 @@
 *excappō	ɛ k s k a p p ɔ
 *excarminō	ɛ k s k a r m i n ɔ
 *excorrigiata	ɛ k s k ɔ r r i d͡ʒ iː a t̪ a
+*excurtāre	ɛ k s k u r t̪ aː r ɛ
+*excurtō	ɛ k s k u r t̪ ɔ
 *exfortiō	ɛ k s f ɔ r t͡s i ɔ
 *exfridō	ɛ k s f r i d̪ ɔ
 *expaventāre	ɛ k s p a v ɛ n̪ t̪ aː r ɛ
@@ -312,6 +314,8 @@
 *mināciō	m i n aː t͡ʃ i ɔ
 *mināre	m i n aː r ɛ
 *minō	m iː n ɔ
+*minūtiāre	m i n u t͡s i aː r ɛ
+*minūtiō	m i n uː t͡s i ɔ
 *misculō	m i s k u l ɔ
 *montānia	m ɔ n̪ t̪ aː n i a
 *montāre	m ɔ n̪ t̪ aː r ɛ
@@ -325,6 +329,7 @@
 *muccō	m u k k ɔ
 *mulgere	m u l̠ʲ d͡ʒ ɛ r ɛ
 *mulgō	m u l ɡ ɔ
+*mustaceum	m u s t̪ aː t͡ʃ ɛ u m
 *musō	m uː z ɔ
 *māchināre	m a k i n aː r ɛ
 *māchinō	m aː k i n ɔ
@@ -482,6 +487,7 @@
 *versūra	v ɛ r s uː r a
 *vestītūra	v ɛ s t̪ i t̪ uː r a
 *virdia	v i r d̪ i a
+*virgella	v i r d͡ʒ ɛ l l a
 *voltāre	v ɔ l̪ t̪ aː r ɛ
 *voltō	v ɔ l̪ t̪ ɔ
 *vēra	v ɛː r a
@@ -1824,7 +1830,6 @@ aetās	ɛː t̪ a s
 aetōlia	ɛ t̪ ɔː l i a
 aeviternitās	ɛ v i t̪ ɛ r n i t̪ a s
 aeviternitātibus	ɛ v i t̪ ɛ r n i t̪ aː t̪ i b u s
-aeviternus	ɛ v i t̪ ɛ r n u m
 aevitās	ɛː v i t̪ a s
 aevum	ɛː v u m
 aezarī	ɛ d d͡z a r i
@@ -1856,6 +1861,7 @@ affleō	a f f l ɛ ɔ
 afflueris	a f f l uː ɛ r i s
 affluēns	a f f l u ɛ n s
 affluō	a f f l u ɔ
+afflātus	a f f l a t̪ u s
 afflīctus	a f f l i k t̪ u s
 afflīgō	a f f l iː ɡ ɔ
 afflō	a f f l ɔ
@@ -2844,7 +2850,6 @@ aparemphatus	a p a r ɛ m f a t̪ u s
 aparīnē	a p a r iː n ɛ
 apathīa	a p a t̪ iː a
 apella	a p ɛ l l a
-apellō	a p ɛ l l ɔ
 aper	aː p ɛ r
 aperantia	a p ɛ r a n t͡s i a
 aperitīvus	a p ɛ r i t̪ iː v u s
@@ -3084,7 +3089,6 @@ arabiēnsis	a r a b i ɛ n s i s
 arabrīga	a r a b r iː ɡ a
 arabēs	aː r a b ɛ s
 aracha	aː r a k a
-arachis	aː r a k i s
 arachnē	a r a k n ɛ
 arachthus	a r a k t̪ u s
 arachōsia	a r a k ɔː z i a
@@ -3377,7 +3381,6 @@ arviatēs	a r v iː a t̪ ɛ s
 arvālis	a r v aː l i s
 arvēnsis	a r v ɛ n s i s
 arycandus	a r i k a n̪ d̪ u s
-arytaenoīdēs	a r i t̪ ɛ n ɔ iː d̪ ɛ s
 aryēnis	a r i ɛː n i s
 arzanēnē	a r d͡z a n ɛː n ɛ
 arābilis	a r aː b i l i s
@@ -3767,7 +3770,7 @@ augurō	a u̯ ɡ u r ɔ
 augusta	a u̯ ɡ u s t̪ a
 augustobona	a u̯ ɡ u s t̪ ɔː b ɔ n a
 augustobrīga	a u̯ ɡ u s t̪ ɔ b r iː ɡ a
-augustodūrum	a u̯ ɡ u s t̪ ɔ d̪ uː r u m
+augustodurum	a u̯ ɡ u s t̪ ɔː d̪ u r u m
 augustonemetum	a u̯ ɡ u s t̪ ɔ n ɛː m ɛ t̪ u m
 augustoritum	a u̯ ɡ u s t̪ ɔː r i t̪ u m
 augustus	a u̯ ɡ u s t̪ u s
@@ -4032,6 +4035,12 @@ balistia	b a l i s t̪ i a
 balistārius	b a l i s t̪ aː r i u s
 balistās	b a l i s t̪ a s
 ballaena	b a l l ɛː n a
+ballante	b a l l a n̪ t̪ ɛ
+ballantem	b a l l a n̪ t̪ ɛ m
+ballantibus	b a l l a n̪ t̪ i b u s
+ballantis	b a l l a n̪ t̪ i s
+ballantēs	b a l l a n̪ t̪ ɛ s
+ballantī	b a l l a n̪ t̪ i
 ballet	b a l l ɛ t̪
 ballista	b a l l i s t̪ a
 ballistia	b a l l i s t̪ i a
@@ -5116,6 +5125,7 @@ calliopēa	k a l l i ɔ p ɛː a
 callipetalon	k a l l i p ɛː t̪ a l ɔ n
 callirhoē	k a l l iː r ɔ ɛ
 callirrhoē	k a l l i r r ɔ ɛ
+callistō	k a l l i s t̪ ɔ
 callōsitās	k a l l ɔː z i t̪ a s
 callōsus	k a l l ɔː z u s
 calor	k aː l ɔ r
@@ -5817,7 +5827,6 @@ celebritās	t͡ʃ ɛ l ɛː b r i t̪ a s
 celebrātiō	t͡ʃ ɛ l ɛ b r aː t͡s i ɔ
 celebrēscō	t͡ʃ ɛ l ɛ b r ɛ s k ɔ
 celebrō	t͡ʃ ɛː l ɛ b r ɔ
-celebēnsis	t͡ʃ ɛ l ɛ b ɛ n s i s
 celegerī	t͡ʃ ɛ l ɛː d͡ʒ ɛ r i
 celenderis	t͡ʃ ɛ l ɛ n̪ d̪ ɛ r i s
 celer	t͡ʃ ɛː l ɛ r
@@ -6093,7 +6102,6 @@ choraula	k ɔ r a u̯ l a
 choraulēs	k ɔ r a u̯ l ɛ s
 chorda	k ɔ r d̪ a
 chordus	k ɔ r d̪ u s
-choroīdēs	k ɔ r ɔ iː d̪ ɛ s
 chorseus	k ɔ r s ɛ u s
 chorus	k ɔː r u s
 chorēa	k ɔ r ɛː a
@@ -6149,8 +6157,10 @@ chēniscus	k ɛ n i s k u s
 chēruscī	k ɛ r u ʃ ʃ i
 chēsius	k ɛː z i u s
 chīlias	k iː l i a s
-chīlopodus	k i l ɔː p ɔ d̪ u s
 chīrographārius	k i r ɔ ɡ r a f aː r i u s
+chīum	k iː u m
+chīus	k iː u s
+chīī	k iː i
 chōbus	k ɔː b u s
 chȳlus	k iː l u s
 chȳmus	k iː m u s
@@ -6968,7 +6978,6 @@ complētōrĭum	k ɔ m p l ɛ t̪ ɔː r i u m
 complōdō	k ɔ m p l ɔː d̪ ɔ
 complōrō	k ɔ m p l ɔː r ɔ
 complūtum	k ɔ m p l uː t̪ u m
-componō	k ɔ m p ɔ n ɔ
 comportō	k ɔ m p ɔ r t̪ ɔ
 compos	k ɔ m p ɔ s
 composite	k ɔ m p ɔː z i t̪ ɛ
@@ -7028,6 +7037,7 @@ compēnsō	k ɔ m p ɛ n s ɔ
 compīlātiō	k ɔ m p i l aː t͡s i ɔ
 compīlātor	k ɔ m p i l aː t̪ ɔ r
 compīlō	k ɔ m p iː l ɔ
+compōnō	k ɔ m p ɔː n ɔ
 compūnctiō	k ɔ m p u ŋ k t͡s i ɔ
 comāna	k ɔ m aː n a
 comātius	k ɔ m aː t͡s i u s
@@ -7614,6 +7624,7 @@ corrōsīvōs	k ɔ r r ɔ z iː v ɔ s
 corrūda	k ɔ r r uː d̪ a
 corrūgō	k ɔ r r uː ɡ ɔ
 corsa	k ɔ r s a
+corsica	k ɔ r s i k a
 corsoīdēs	k ɔ r s ɔ iː d̪ ɛ s
 corsus	k ɔ r s u s
 corterātē	k ɔ r t̪ ɛ r aː t̪ ɛ
@@ -7805,7 +7816,6 @@ creō	k r ɛː ɔ
 creōn	k r ɛː ɔ n
 creūsa	k r ɛ uː z a
 crianos	k r iː a n ɔ s
-cricoīdēs	k r i k ɔ iː d̪ ɛ s
 crimisa	k r iː m i z a
 crisimus	k r iː z i m u s
 crispiō	k r i s p i ɔ
@@ -7938,6 +7948,7 @@ crētānus	k r ɛ t̪ aː n u s
 crībricollis	k r i b r i k ɔ l l i s
 crībrum	k r iː b r u m
 crībrō	k r iː b r ɔ
+crībrōsus	k r i b r ɔː z u s
 crīmen	k r iː m ɛ n
 crīminor	k r iː m i n ɔ r
 crīminālis	k r i m i n aː l i s
@@ -8702,6 +8713,7 @@ cȳrēnē	t͡ʃ i r ɛː n ɛ
 dabitha	d̪ aː b i t̪ a
 dabla	d̪ aː b l a
 dabrona	d̪ aː b r ɔ n a
+dacrima	d̪ aː k r i m a
 dactylicus	d̪ a k t̪ iː l i k u s
 dactylifer	d̪ a k t̪ iː l i f ɛ r
 dactylus	d̪ a k t̪ i l u s
@@ -9104,7 +9116,6 @@ diovī	d̪ iː ɔ v i
 dipaea	d̪ i p ɛː a
 diphthongus	d̪ i f t̪ ɔ ŋ ɡ u s
 diphyēs	d̪ iː f i ɛ s
-diplopodus	d̪ i p l ɔː p ɔ d̪ u s
 dipondius	d̪ i p ɔ n̪ d̪ i u s
 dipondiō	d̪ i p ɔ n̪ d̪ i ɔ
 dipsacos	d̪ i p s a k ɔ s
@@ -9255,6 +9266,17 @@ dissupābat	d̪ i s s u p aː b a t̪
 dissupō	d̪ i s s u p ɔ
 dissuādeō	d̪ i s v aː d̪ ɛ ɔ
 dissuō	d̪ i s s u ɔ
+dissēminandō	d̪ i s s ɛ m i n a n̪ d̪ ɔ
+dissēminem	d̪ i s s ɛː m i n ɛ m
+dissēminā	d̪ i s s ɛː m i n a
+dissēminārem	d̪ i s s ɛ m i n aː r ɛ m
+dissēminārās	d̪ i s s ɛ m i n aː r a s
+dissēminārēs	d̪ i s s ɛ m i n aː r ɛ s
+dissēminās	d̪ i s s ɛː m i n a s
+dissēmināsse	d̪ i s s ɛ m i n a s s ɛ
+dissēmināssem	d̪ i s s ɛ m i n a s s ɛ m
+dissēmināssēs	d̪ i s s ɛ m i n a s s ɛ s
+dissēminēs	d̪ i s s ɛː m i n ɛ s
 dissēminō	d̪ i s s ɛː m i n ɔ
 dissēnsus	d̪ i s s ɛ n s u s
 distantia	d̪ i s t̪ a n t͡s i a
@@ -9366,6 +9388,7 @@ dolābrātus	d̪ ɔ l a b r aː t̪ u s
 dolāmen	d̪ ɔ l aː m ɛ n
 dolēre	d̪ ɔ l ɛː r ɛ
 dolīonēs	d̪ ɔ l iː ɔ n ɛ s
+dolōrēs	d̪ ɔː l ɔ r ɛ s
 dolōrōse	d̪ ɔ l ɔ r ɔː z ɛ
 dolōrōsus	d̪ ɔ l ɔ r ɔː z u s
 dolōsus	d̪ ɔ l ɔː z u s
@@ -9427,6 +9450,8 @@ dracaena	d̪ r a t͡ʃ ɛː n a
 drachma	d̪ r a k m a
 drachmae	d̪ r a k m ɛ
 dracontium	d̪ r a k ɔ n t͡s i u m
+dracontēa	d̪ r a k ɔ n̪ t̪ ɛː a
+dracontēus	d̪ r a k ɔ n̪ t̪ ɛː u s
 dracō	d̪ r aː k ɔ
 dracōnigena	d̪ r a k ɔ n iː d͡ʒ ɛ n a
 dragma	d̪ r a ɡ m a
@@ -9530,8 +9555,6 @@ duodecimvir	d̪ u ɔ d̪ ɛ t͡ʃ i m v i r
 duodecimvirātus	d̪ u ɔ d̪ ɛ t͡ʃ i m v i r aː t̪ u s
 duodennis	d̪ u ɔ d̪ ɛ n n i s
 duodēcentēsimus	d̪ u ɔ d̪ ɛ t͡ʃ ɛ n̪ t̪ ɛː z i m u s
-duodēnāle	d̪ u ɔ d̪ ɛ n aː l ɛ
-duodēnālis	d̪ u ɔ d̪ ɛ n aː l i s
 duodēnōnāgintā	d̪ u ɔ d̪ ɛ n ɔ n a d͡ʒ i n̪ t̪ a
 duodēoctōgintā	d̪ u ɔ d̪ ɛ ɔ k t̪ ɔ d͡ʒ i n̪ t̪ a
 duodēquadrāgintā	d̪ u ɔ d̪ ɛ k w a d̪ r a d͡ʒ i n̪ t̪ a
@@ -9542,7 +9565,7 @@ duodēsexāgintā	d̪ u ɔ d̪ ɛ z ɛ k s a d͡ʒ i n̪ t̪ a
 duodētrīgintā	d̪ u ɔ d̪ ɛ t̪ r i d͡ʒ i n̪ t̪ a
 duodēvicēsimus	d̪ u ɔ d̪ ɛ v i t͡ʃ ɛː z i m u s
 duodēvīgintī	d̪ u ɔ d̪ ɛ v i d͡ʒ i n̪ t̪ i
-duovir	d̪ uː ɔ v i r
+duonus	d̪ v ɔː n u s
 duplex	d̪ u p l ɛ k s
 duplex	d̪ uː p l ɛ k s
 duplicō	d̪ uː p l i k ɔ
@@ -11280,6 +11303,7 @@ exsēcrābilis	ɛ k s ɛ k r aː b i l i s
 exsēcrātiō	ɛ k s ɛ k r aː t͡s i ɔ
 exsībilō	ɛ k s iː b i l ɔ
 exsūcō	ɛ k s uː k ɔ
+exsūdō	ɛ k s uː d̪ ɔ
 exsūgō	ɛ k s uː ɡ ɔ
 extemplō	ɛ k s t̪ ɛ m p l ɔ
 extemporaneus	ɛ k s t̪ ɛ m p ɔ r aː n ɛ u s
@@ -11903,7 +11927,6 @@ fornāx	f ɔ r n a k s
 forratus	f ɔ r r a t̪ u s
 forsitan	f ɔ r s i t̪ a n
 fortificō	f ɔ r t̪ iː f i k ɔ
-fortis	f ɔ r t̪ i s
 fortitūdō	f ɔ r t̪ i t̪ uː d̪ ɔ
 fortuīta	f ɔ r t̪ u iː t̪ a
 fortuīte	f ɔ r t̪ u iː t̪ ɛ
@@ -12023,6 +12046,7 @@ fruticōsus	f r u t̪ i k ɔː z u s
 frāctiō	f r a k t͡s i ɔ
 frāctūra	f r a k t̪ uː r a
 frāglō	f r aː ɡ l ɔ
+frāgrantēs	f r a ɡ r a n̪ t̪ ɛ s
 frāgrō	f r aː ɡ r ɔ
 frāgum	f r aː ɡ u m
 frātellus	f r a t̪ ɛ l l u s
@@ -13056,6 +13080,7 @@ gutta	ɡ u t̪ t̪ a
 guttera	ɡ u t̪ t̪ ɛ r a
 guttur	ɡ u t̪ t̪ u r
 gutturnium	ɡ u t̪ t̪ u r n i u m
+guttātim	ɡ u t̪ t̪ aː t̪ i m
 guttātus	ɡ u t̪ t̪ aː t̪ u s
 gyaros	d͡ʒ iː a r ɔ s
 gymnasium	d͡ʒ i m n aː z i u m
@@ -13134,7 +13159,6 @@ haecceitās	ɛ t t͡ʃ ɛː i t̪ a s
 haedus	ɛː d̪ u s
 haedīnus	ɛ d̪ iː n u s
 haematinus	ɛ m aː t̪ i n u s
-haematobius	ɛ m a t̪ ɔː b i u s
 haematologia	ɛ m a t̪ ɔ l ɔː d͡ʒ i a
 haematophobia	ɛ m a t̪ ɔ f ɔː b i a
 haematophobiam	ɛ m a t̪ ɔ f ɔː b i a m
@@ -13268,6 +13292,7 @@ hebrus	ɛː b r u s
 hebrōn	ɛː b r ɔ n
 hebudēs	ɛː b u d̪ ɛ s
 hecatombē	ɛ k a t̪ ɔ m b ɛ
+hecatē	ɛː k a t̪ ɛ
 hecuba	ɛː k u b a
 hedera	ɛː d̪ ɛ r a
 hederiger	ɛ d̪ ɛː r i d͡ʒ ɛ r
@@ -13917,9 +13942,7 @@ iecur	j ɛː k u r
 iehōva	j ɛ ɔː v a
 iehōvae	j ɛ ɔː v ɛ
 iehōvam	j ɛ ɔː v a m
-ieiūnus	j ɛ j uː n u s
 ieiūnāre	j ɛ j u n aː r ɛ
-ieiūnō	j ɛ j uː n ɔ
 iemenia	j ɛ m ɛː n i a
 ieram	iː ɛ r a m
 ierant	iː ɛ r a n̪ t̪
@@ -15026,6 +15049,7 @@ inremediābilis	i n r ɛ m ɛ d̪ i aː b i l i s
 inreprehēnsibilis	i n r ɛ p r ɛ ɛ n s iː b i l i s
 inreverēns	i n r ɛː v ɛ r ɛ n s
 inrevocābilis	i n r ɛ v ɔ k aː b i l i s
+inri	j ɛː z u s n a d d͡z a r ɛː n u s r ɛ k s j u d̪ ɛ ɔː r u m
 inriguus	i n r iː ɡ u u s
 inrigō	i n r i ɡ ɔ
 inritus	i n r i t̪ u s
@@ -15038,6 +15062,7 @@ inrīdeō	i n r iː d̪ ɛ ɔ
 inrītō	i n r iː t̪ ɔ
 inspissō	i n s p i s s ɔ
 instēius	i n s t̪ ɛː j u s
+insūdō	i n s uː d̪ ɔ
 intaphernēs	i n̪ t̪ a f ɛ r n ɛ s
 integellus	i n̪ t̪ ɛ d͡ʒ ɛ l l u s
 integer	i n̪ t̪ ɛ d͡ʒ ɛ r
@@ -15503,7 +15528,6 @@ isura	iː z u r a
 isurium	i z uː r i u m
 it	i t̪
 ita	iː t̪ a
-italia	i t̪ aː l i a
 italicus	i t̪ aː l i k u s
 italiāna	i t̪ a l i aː n a
 italiāne	i t̪ a l i aː n ɛ
@@ -15580,6 +15604,8 @@ iānuārius	j a n u aː r i u s
 iāpydis	i aː p i d̪ i s
 iāpys	i aː p i s
 iāzygēs	j a d d͡z i d͡ʒ ɛ s
+iēiūnus	j ɛ j uː n u s
+iēiūnō	j ɛ j uː n ɔ
 iēns	iː ɛ n s
 iēntāculum	j ɛ n̪ t̪ aː k u l u m
 iēntō	j ɛ n̪ t̪ ɔ
@@ -15651,6 +15677,7 @@ iūdicō	j uː d̪ i k ɔ
 iūdās	j uː d̪ a s
 iūgerum	j uː d͡ʒ ɛ r u m
 iūglāns	j uː ɡ l a n s
+iūlia	j uː l i a
 iūlis	j uː l i s
 iūlius	j uː l i u s
 iūliāna	j u l i aː n a
@@ -15689,6 +15716,8 @@ iūstificus	j u s t̪ iː f i k u s
 iūstificō	j u s t̪ iː f i k ɔ
 iūstitia	j u s t̪ iː t͡s i a
 iūstus	j u s t̪ u s
+iūstīniānus	j u s t̪ i n i aː n u s
+iūstīnus	j u s t̪ iː n u s
 iūsum	j uː z u m
 iūverimus	j u v ɛ r iː m u s
 iūverimus	j u v ɛː r i m u s
@@ -15740,6 +15769,7 @@ jugulodigastricus	j u ɡ u l ɔ d̪ i ɡ a s t̪ r i k u s
 jugulō	j uː ɡ u l ɔ
 jugurtha	j u ɡ u r t̪ a
 jugō	j uː ɡ ɔ
+jul	j uː r i s u t̪ r i u s k w ɛ l i t͡ʃ ɛ n t͡s i aː t̪ u s
 julī	j uː l i
 junceus	j u n̠ʲ t͡ʃ ɛ u s
 juncētum	j u n̠ʲ t͡ʃ ɛː t̪ u m
@@ -15798,6 +15828,8 @@ jūsta	j u s t̪ a
 jūstificō	j u s t̪ iː f i k ɔ
 jūstus	j u s t̪ u s
 jūstīniāneus	j u s t̪ i n i aː n ɛ u s
+jūstīniānus	j u s t̪ i n i aː n u s
+jūstīnus	j u s t̪ iː n u s
 jūstōs	j u s t̪ ɔ s
 jūturna	j u t̪ u r n a
 kaalaēnsis	k a a l a ɛ n s i s
@@ -16685,7 +16717,6 @@ lucūns	l uː k u n s
 ludovīciāna	l u d̪ ɔ v i t͡ʃ i aː n a
 lugdūnum	l u ɡ d̪ uː n u m
 lumbosacrālis	l u m b ɔ z a k r aː l i s
-lumbricoīdēs	l u m b r i k ɔ iː d̪ ɛ s
 lumbricālis	l u m b r i k aː l i s
 lumbrīcus	l u m b r iː k u s
 lupa	l uː p a
@@ -16754,7 +16785,6 @@ lyra	l iː r a
 lyrbē	l i r b ɛ
 lyrica	l iː r i k a
 lyricen	l iː r i t͡ʃ ɛ n
-lyricus	l iː r i k u s
 lyrifōrmis	l i r i f ɔ r m i s
 lyristēs	l i r i s t̪ ɛ s
 lyrnessus	l i r n ɛ s s u s
@@ -17280,7 +17310,6 @@ maculōsus	m a k u l ɔː z u s
 macurēbī	m a k u r ɛː b i
 macynia	m a t͡ʃ iː n i a
 macātus	m a k aː t̪ u s
-madagascariēnsis	m a d̪ a ɡ a s k a r i ɛ n s i s
 madefaciō	m a d̪ ɛ f aː t͡ʃ i ɔ
 madefactus	m a d̪ ɛ f a k t̪ u s
 madefactūrus	m a d̪ ɛ f a k t̪ uː r u s
@@ -17370,7 +17399,6 @@ malaccēnsis	m a l a t t͡ʃ ɛ n s i s
 malaesia	m a l ɛː z i a
 malamantus	m a l a m a n̪ t̪ u s
 malaria	m a l aː r i a
-malayanius	m a l a i aː n i u s
 malayānus	m a l a j aː n u s
 maldacon	m a l̪ d̪ a k ɔ n
 male	m aː l ɛ
@@ -17597,7 +17625,6 @@ mastichinus	m a s t̪ iː k i n u s
 mastichē	m a s t̪ i k ɛ
 masticātiō	m a s t̪ i k aː t͡s i ɔ
 masticō	m a s t̪ i k ɔ
-mastigophorus	m a s t̪ i ɡ ɔː f ɔ r u s
 mastrūca	m a s t̪ r uː k a
 mastrūcātus	m a s t̪ r u k aː t̪ u s
 masturbor	m a s t̪ u r b ɔ r
@@ -17666,7 +17693,6 @@ medicāveritis	m ɛ d̪ i k a v ɛː r i t̪ i s
 medicīna	m ɛ d̪ i t͡ʃ iː n a
 medicīnālis	m ɛ d̪ i t͡ʃ i n aː l i s
 medietās	m ɛ d̪ iː ɛ t̪ a s
-medinēnsis	m ɛ d̪ i n ɛ n s i s
 mediocre	m ɛ d̪ iː ɔ k r ɛ
 mediocris	m ɛ d̪ iː ɔ k r i s
 mediocritās	m ɛ d̪ i ɔː k r i t̪ a s
@@ -18026,6 +18052,8 @@ mileon	m iː l ɛ ɔ n
 milevum	m iː l ɛ v u m
 milium	m iː l i u m
 miliāceus	m i l i aː t͡ʃ ɛ u s
+milliō	m i l l i ɔ
+milliōnēsimus	m i l l i ɔ n ɛː z i m u s
 miltiadēs	m i l t͡s iː a d̪ ɛ s
 miltos	m i l̪ t̪ ɔ s
 mimesius	m i m ɛː z i u s
@@ -18441,6 +18469,7 @@ mussāveris	m u s s aː v ɛ r i s
 mussāveritis	m u s s a v ɛ r iː t̪ i s
 mussāveritis	m u s s a v ɛː r i t̪ i s
 mussō	m u s s ɔ
+mustax	m u s t̪ a k s
 mustiae	m u s t̪ i ɛ
 mustius	m u s t̪ i u s
 mustricula	m u s t̪ r iː k u l a
@@ -19459,11 +19488,9 @@ nēcunde	n ɛ k u n̪ d̪ ɛ
 nēdum	n ɛː d̪ u m
 nēleus	n ɛː l ɛ u s
 nēlia	n ɛː l i a
-nēmatōdēs	n ɛ m a t̪ ɔː d̪ ɛ s
 nēmō	n ɛː m ɔ
 nēnia	n ɛː n i a
 nēniam	n ɛː n i a m
-nēnu	n ɛː n u
 nēquam	n ɛː k w a m
 nēquitia	n ɛ k w iː t͡s i a
 nēquō	n ɛː k w ɔ
@@ -20371,6 +20398,7 @@ olpae	ɔ l p ɛ
 oltis	ɔ l̪ t̪ i s
 olubria	ɔ l uː b r i a
 olvātium	ɔ l v aː t͡s i u m
+olympus	ɔ l i m p u s
 olynthos	ɔ l i n̪ t̪ ɔ s
 olīva	ɔ l iː v a
 olīvitās	ɔ l iː v i t̪ a s
@@ -20533,6 +20561,7 @@ optiō	ɔ p t͡s i ɔ
 optumās	ɔ p t̪ u m a s
 optābilis	ɔ p t̪ aː b i l i s
 optātis	ɔ p t̪ aː t̪ i s
+optātiō	ɔ p t̪ aː t͡s i ɔ
 optātus	ɔ p t̪ aː t̪ u s
 optātīs	ɔ p t̪ aː t̪ i s
 optāverimus	ɔ p t̪ a v ɛ r iː m u s
@@ -20862,6 +20891,7 @@ paeōn	p ɛː ɔ n
 paeōnia	p ɛ ɔː n i a
 pagasae	p aː ɡ a z ɛ
 pagrae	p aː ɡ r ɛ
+pagrus	p aː ɡ r u s
 pagōndās	p a ɡ ɔ n̪ d̪ a s
 pagūrus	p a ɡ uː r u s
 palaeosibericus	p a l ɛ ɔ z i b ɛː r i k u s
@@ -21436,7 +21466,6 @@ penniger	p ɛ n n i d͡ʒ ɛ r
 pennsilvānia	p ɛ n s i l v aː n i a
 pennus	p ɛ n n u s
 pennātus	p ɛ n n aː t̪ u s
-pentastomus	p ɛ n̪ t̪ a s t̪ ɔ m u s
 penthesilēa	p ɛ n̪ t̪ ɛ z i l ɛː a
 pentēcostē	p ɛ n̪ t̪ ɛ k ɔ s t̪ ɛ
 penus	p ɛː n u s
@@ -21833,7 +21862,6 @@ pervertō	p ɛ r v ɛ r t̪ ɔ
 pervestīgō	p ɛ r v ɛ s t̪ iː ɡ ɔ
 pervetus	p ɛ r v ɛ t̪ u s
 pervicus	p ɛ r v i k u s
-pervicācia	p ɛ r v i k aː t͡ʃ i a
 pervicāx	p ɛ r v i k a k s
 pervideō	p ɛ r v iː d̪ ɛ ɔ
 pervigeō	p ɛ r v iː d͡ʒ ɛ ɔ
@@ -21893,6 +21921,7 @@ pestilentiālis	p ɛ s t̪ i l ɛ n t͡s i aː l i s
 pestilentus	p ɛ s t̪ i l ɛ n̪ t̪ u s
 pestilentēs	p ɛ s t̪ i l ɛ n̪ t̪ ɛ s
 pestis	p ɛ s t̪ i s
+petar	p ɛː t̪ a r
 petasiō	p ɛ t̪ aː z i ɔ
 petasus	p ɛː t̪ a z u s
 petasātus	p ɛ t̪ a z aː t̪ u s
@@ -22007,7 +22036,6 @@ philippīnae	f i l i p p iː n ɛ
 philippīnicus	f i l i p p iː n i k u s
 philippīnicārum	f i l i p p i n i k aː r u m
 philippīnus	f i l i p p iː n u s
-philippīnēnsis	f i l i p p i n ɛ n s i s
 philistus	f i l i s t̪ u s
 philocalīa	f i l ɔ k a l iː a
 philodēmus	f i l ɔ d̪ ɛː m u s
@@ -22300,7 +22328,6 @@ plēraque	p l ɛ r aː k w ɛ
 plēraque	p l ɛː r a k w ɛ
 plērus	p l ɛː r u s
 plērusque	p l ɛ r u s k w ɛ
-plēthōra	p l ɛ t̪ ɔː r a
 plētūra	p l ɛ t̪ uː r a
 plīnius	p l iː n i u s
 plīsimus	p l iː z i m u s
@@ -23185,6 +23212,9 @@ prōscrīptōs	p r ɔ s k r i p t̪ ɔ s
 prōsecō	p r ɔː z ɛ k ɔ
 prōsentiō	p r ɔ z ɛ n t͡s i ɔ
 prōsequor	p r ɔː z ɛ k w ɔ r
+prōserpina	p r ɔ z ɛ r p i n a
+prōserpinae	p r ɔ z ɛ r p i n ɛ
+prōserpinam	p r ɔ z ɛ r p i n a m
 prōserpō	p r ɔ z ɛ r p ɔ
 prōsiliō	p r ɔ z iː l i ɔ
 prōsocer	p r ɔː z ɔ t͡ʃ ɛ r
@@ -23330,6 +23360,7 @@ pthisicus	p t̪ iː z i k u s
 ptilopaedibus	p t̪ i l ɔ p ɛː d̪ i b u s
 ptilopaedēs	p t̪ i l ɔ p ɛː d̪ ɛ s
 ptolemaeus	p t̪ ɔ l ɛ m ɛː u s
+ptolemāicus	p t̪ ɔ l ɛ m aː j i k u s
 ptolemāis	p t̪ ɔ l ɛ m aː i s
 ptyas	p t͡s iː a s
 ptygma	p t̪ i ɡ m a
@@ -23550,6 +23581,7 @@ pānicoctārius	p a n i k ɔ k t̪ aː r i u s
 pānicum	p aː n i k u m
 pānificium	p a n i f iː t͡ʃ i u m
 pānis	p aː n i s
+pānus	p aː n u s
 pānāriolum	p a n a r iː ɔ l u m
 pānārium	p a n aː r i u m
 pānārius	p a n aː r i u s
@@ -23987,6 +24019,7 @@ quattuorvirālis	k w a t̪ t̪ u ɔ r v i r aː l i s
 quattuorvirātus	k w a t̪ t̪ u ɔ r v i r aː t̪ u s
 quelea	k w ɛː l ɛ a
 quem	k w ɛ m
+quemadmodum	k w ɛ m a d̪ m ɔ d̪ u m
 querceus	k w ɛ r t͡ʃ ɛ u s
 quercicolus	k w ɛ r t͡ʃ iː k ɔ l u s
 quercus	k w ɛ r k u s
@@ -24082,7 +24115,6 @@ quīngentēsimus	k w i n̠ʲ d͡ʒ ɛ n̪ t̪ ɛː z i m u s
 quīngentī	k w i n̠ʲ d͡ʒ ɛ n̪ t̪ i
 quīnquangulus	k w i ŋ k w a ŋ ɡ u l u s
 quīnque	k w i ŋ k w ɛ
-quīnquefasciātus	k w i ŋ k w ɛ f a ʃ ʃ i aː t̪ u s
 quīnquefolius	k w i ŋ k w ɛ f ɔː l i u s
 quīnquennis	k w i ŋ k w ɛ n n i s
 quīnquennium	k w i ŋ k w ɛ n n i u m
@@ -25644,7 +25676,6 @@ scaevus	ʃ ɛː v u s
 scaldis	s k a l̪ d̪ i s
 scalpellifōrmis	s k a l p ɛ l l i f ɔ r m i s
 scalpō	s k a l p ɔ
-scalēnus	s k a l ɛː n u s
 scammōnea	s k a m m ɔ n ɛː a
 scammōnia	s k a m m ɔ n iː a
 scammōnia	s k a m m ɔː n i a
@@ -25675,6 +25706,7 @@ scarpinō	s k a r p i n ɔ
 scarus	s k aː r u s
 scarītis	s k a r iː t̪ i s
 scatebra	s k aː t̪ ɛ b r a
+scateō	s k aː t̪ ɛ ɔ
 scaturrīgō	s k a t̪ u r r iː ɡ ɔ
 scatō	s k aː t̪ ɔ
 scatūriō	s k a t̪ uː r i ɔ
@@ -25895,6 +25927,7 @@ secundus	s ɛ k u n̪ d̪ u s
 secundārius	s ɛ k u n̪ d̪ aː r i u s
 secundō	s ɛ k u n̪ d̪ ɔ
 secus	s ɛː k u s
+secāle	s ɛ k aː l ɛ
 secō	s ɛː k ɔ
 secūre	s ɛ k uː r ɛ
 secūricula	s ɛ k u r iː k u l a
@@ -26613,7 +26646,6 @@ sphingion	s f i n̠ʲ d͡ʒ i ɔ n
 sphintria	s f i n̪ t̪ r i a
 sphinx	s f i ŋ k s
 sphēnoīdālis	s f ɛ n ɔ i d̪ aː l i s
-sphēnoīdēs	s f ɛ n ɔ iː d̪ ɛ s
 sphēttus	s f ɛ t̪ t̪ u s
 sphȳraena	s f i r ɛː n a
 spicilius	s p i t͡ʃ iː l i u s
@@ -26783,9 +26815,7 @@ stenocarpus	s t̪ ɛ n ɔ k a r p u s
 stenopetalus	s t̪ ɛ n ɔ p ɛː t̪ a l u s
 stenophyllus	s t̪ ɛ n ɔ f i l l u s
 stenyclarus	s t̪ ɛ n iː k l a r u s
-stenōsis	s t̪ ɛ n ɔː z i s
 stephanus	s t̪ ɛː f a n u s
-stercorālis	s t̪ ɛ r k ɔ r aː l i s
 stercorārius	s t̪ ɛ r k ɔ r aː r i u s
 stercorō	s t̪ ɛ r k ɔ r ɔ
 stercus	s t̪ ɛ r k u s
@@ -26863,7 +26893,6 @@ stratēgēmaticus	s t̪ r a t̪ ɛ d͡ʒ ɛ m aː t̪ i k u s
 strebula	s t̪ r ɛː b u l a
 strepitus	s t̪ r ɛː p i t̪ u s
 strepsa	s t̪ r ɛ p s a
-streptocercus	s t̪ r ɛ p t̪ ɔ t͡ʃ ɛ r k u s
 strepō	s t̪ r ɛː p ɔ
 striblīgō	s t̪ r i b l iː ɡ ɔ
 strictim	s t̪ r i k t̪ i m
@@ -26994,7 +27023,6 @@ subaudiō	s u b a u̯ d̪ i ɔ
 subbulliō	s u b b u l l i ɔ
 subcapitātus	s u p k a p i t̪ aː t̪ u s
 subcinerīcius	s u p t͡ʃ i n ɛ r iː t͡ʃ i u s
-subclavius	s u p k l aː v i u s
 subcordātus	s u p k ɔ r d̪ aː t̪ u s
 subcristātus	s u p k r i s t̪ aː t̪ u s
 subcrēnātus	s u p k r ɛ n aː t̪ u s
@@ -28613,10 +28641,6 @@ thymus	t̪ iː m u s
 thymēna	t̪ i m ɛː n a
 thynnārius	t̪ i n n aː r i u s
 thyrea	t̪ iː r ɛ a
-thyreoīdeus	t̪ i r ɛ ɔ iː d̪ ɛ u s
-thyreoīdēs	t̪ i r ɛ ɔ iː d̪ ɛ s
-thyroīdeus	t̪ i r ɔ iː d̪ ɛ u s
-thyroīdēs	t̪ i r ɔ iː d̪ ɛ s
 thyrsiger	t̪ i r s i d͡ʒ ɛ r
 thyrsus	t̪ i r s u s
 thysdrus	t̪ i s d̪ r u s
@@ -28978,8 +29002,6 @@ tricassēs	t̪ r i k a s s ɛ s
 tricca	t̪ r i k k a
 triceps	t̪ r iː t͡ʃ ɛ p s
 trichechus	t̪ r iː k ɛ k u s
-trichiūra	t̪ r i k i uː r a
-trichiūrus	t̪ r i k i uː r u s
 trichocarpus	t̪ r i k ɔ k a r p u s
 trichrus	t̪ r iː k r u s
 tricipitīnus	t̪ r i t͡ʃ i p i t̪ iː n u s
@@ -29079,6 +29101,7 @@ triēris	t̪ r i ɛː r i s
 triō	t̪ r iː ɔ
 triōcala	t̪ r i ɔː k a l a
 triūnus	t̪ r i uː n u s
+trochaeus	t̪ r ɔ k ɛː u s
 trochilus	t̪ r ɔː k i l u s
 trochin	t̪ r ɔː k i n
 trochlea	t̪ r ɔː k l ɛ a
@@ -29287,6 +29310,7 @@ trōglodytēs	t̪ r ɔ ɡ l ɔː d̪ i t̪ ɛ s
 trōgus	t̪ r ɔː ɡ u s
 trōgītis	t̪ r ɔ d͡ʒ iː t̪ i s
 trōia	t̪ r ɔː j a
+trōja	t̪ r ɔː j a
 trūdō	t̪ r uː d̪ ɔ
 trȳgōn	t̪ r iː ɡ ɔ n
 tsushimēnsis	t̪ s u z i m ɛ n s i s
@@ -30057,7 +30081,6 @@ vergivius	v ɛ r d͡ʒ iː v i u s
 vergunnī	v ɛ r ɡ u n n i
 vergō	v ɛ r ɡ ɔ
 vermiculor	v ɛ r m iː k u l ɔ r
-vermiculāris	v ɛ r m i k u l aː r i s
 vermiculātus	v ɛ r m i k u l aː t̪ u s
 vermiferus	v ɛ r m iː f ɛ r u s
 vermifōrmis	v ɛ r m i f ɔ r m i s
@@ -30476,7 +30499,6 @@ volveritis	v ɔ l v ɛ r iː t̪ i s
 volveritis	v ɔ l v ɛː r i t̪ i s
 volverās	v ɔ l v ɛ r a s
 volverēs	v ɔ l v ɛ r ɛ s
-volvulus	v ɔ l v u l u s
 volvās	v ɔ l v a s
 volvēs	v ɔ l v ɛ s
 volvī	v ɔ l v i
@@ -31086,7 +31108,7 @@ zȳthum	d͡z iː t̪ u m
 āfricānī	a f r i k aː n i
 āfricānō	a f r i k aː n ɔ
 āfricānōs	a f r i k aː n ɔ s
-āfroāsiāticus	a f r ɔ a z i aː t̪ i k u s
+āfroasiāticus	a f r ɔ a z i aː t̪ i k u s
 āfrāsiāticus	a f r a z i aː t̪ i k u s
 āgrārius	a ɡ r aː r i u s
 āla	aː l a
@@ -31959,6 +31981,7 @@ zȳthum	d͡z iː t̪ u m
 īvernia	i v ɛ r n i a
 īō	iː ɔ
 īōn	iː ɔ n
+ī̆talia	i t̪ aː l i a
 ĭādera	i aː d̪ ɛ r a
 ō	ɔ
 ōannēs	ɔ a n n ɛ s
@@ -32220,6 +32243,7 @@ zȳthum	d͡z iː t̪ u m
 ūsūrpō	u z u r p ɔ
 ūsūrārius	u z u r aː r i u s
 ūta	uː t̪ a
+ūter	uː t̪ ɛ r
 ūtilis	uː t̪ i l i s
 ūtilitāte	u t̪ i l i t̪ aː t̪ ɛ
 ūtopia	u t̪ ɔː p i a
@@ -32237,3 +32261,4 @@ zȳthum	d͡z iː t̪ u m
 ȳpsīlon	i p s iː l ɔ n
 ȳsengrīmus	i z ɛ ŋ ɡ r iː m u s
 χus	k r i s t̪ u s
+𐌃𐌖𐌄𐌍𐌏𐌔	d̪ v ɛː n ɔ s

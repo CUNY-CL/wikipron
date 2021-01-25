@@ -390,4 +390,45 @@ LANGUAGE_CODES = {
     "kurmanji": "Northern Kurdish",
     "dng": "Dungan",  # ISO 639-3.
     "ofs": "Old Frisian",  # ISO 639-3.
+    # Ilocano. "ilo" resolved to "Iloko" by iso639 lib.
+    "ilo": "Ilocano",
+    "iloko": "Ilocano",
+    "ilocano": "Ilocano",
+    # Jamaican Creole. ISO 639-3 only.
+    "jam": "Jamaican Creole",
+    "jamaican creole": "Jamaican Creole",
+    # Limbu. ISO 639-3 only.
+    "lif": "Limbu",
+    "limbu": "Limbu",
+    # Lombard. ISO 639-3 only.
+    "lmo": "Lombard",
+    "lombard": "Lombard",
+    # Murui Huitoto. ISO 639-3 only.
+    "huu": "Murui Huitoto",
+    "murui huitoto": "Murui Huitoto",
+    # Newar. Would be "Newari" or "Nepal Bhasa" in ISO 639.
+    "new": "Newar",
+    "newar": "Newar",
+    "newari": "Newar",
+    "nepal bhasa": "Newar",
+    # Norman. ISO 639-3 only.
+    "nrf": "Norman",
+    "norman": "Norman",
+    "jèrriais": "Norman",
+    # Phalura. ISO 639-3 only.
+    "phl": "Phalura",
+    "phalura": "Phalura",
+    # Plains Cree. ISO 639-3 only.
+    "crk": "Plains Cree",
+    "plains cree": "Plains Cree",
+    # Pnar. ISO 639-3 only.
+    "pbv": "Pnar",
+    "pnar": "Pnar",
+    # Saterland Frisian. ISO 639-3 only.
+    "stq": "Saterland Frisian",
+    "saterland frisian": "Saterland Frisian",
+    "saterfriesisch": "Saterland Frisian",
+    # South Levantine Arabic. ISO 639-3 only.
+    "ajp": "South Levantine Arabic",
+    "south levantine arabic": "South Levantine Arabic",
 }

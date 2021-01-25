@@ -84,6 +84,7 @@ advise	a d v a ɪ z
 advocate	a d v o k e t
 ae	eː
 ae	j eː
+ae	j æː
 ae	j ɛː
 aefauld	eː f ɑ l
 aefauld	eː f ɑ l d
@@ -173,6 +174,7 @@ ane	w a n
 annual	ɑː n w ʌ u l l
 antrin	ɑ n t r ə n
 antrin	ɑ n t r ɪ n
+apen	ɑ p ə n
 apern	e ɪ p ɜː ɹ n
 arl	ɑː ɹ ʌ l l
 aswaip	ɑː s w e e p
@@ -187,8 +189,13 @@ auncient	a n ʃ ə n t
 aw	aː
 aw	ɑː
 aw	ɔː
+awa	ə w ɑː
 awhummle	ɑ ʍ ʌ m̩ l̩
 aye	a ɪ
+bairn	b e r n
+bairn	b ɛ r n
+bairnheid	b e r n h i d
+bairnheid	b ɛ r n h i d
 ballion	b ɑː l j ə n
 ballion	b ɒː l j ə n
 barefit	b ɑ r f ɪ t
@@ -252,9 +259,11 @@ bodach	b ɔ d ə x
 boo	b uː
 bothan	b o θ ə n
 boun	b ʌ u n
+bourach	b uː r ə x
 bowie	b ɔ u iː
 bowsome	b ɔ u s ʌ m
 brae	b r e ɪ
+brainyell	b r e n j ə l
 brammel	b r a m ə l
 braw	b r ɑː
 breard	b r e ɪ r d
@@ -262,11 +271,14 @@ breard	b r e ɪː r
 breard	b r e ɪː r d
 breard	b r iː ð ə r
 bree	b r i
+breenge	b r e n d ʒ
+breenge	b r i n d ʒ
 bring	b r ɪ ŋ
 broach	b r ɒ t ʃ
 broach	b r ə ʊ t ʃ
 broch	b r ɔ x
 brocht	b r o x t
+brongie	b r ɔ ŋ ɡ i
 bruckle	b r uː k u l
 bruckle	b r ɪ k l
 bruckle	b r ʌ k l
@@ -328,6 +340,7 @@ clanjamphry	k l ɑ n d͡ʒ ɑ m f r ɪ̜
 claver	k l eː v ə r
 cleek	k l i k
 clim	k l ɪ m
+cliver	k l ɪ v ə r
 clour	k l u ə r
 clour	k l uː r
 coch	k oː x
@@ -348,6 +361,7 @@ coo	k uː
 copshie	k ɔ p ʃ i
 corbie	k o r b i
 corbie	k ɔ r b ɪ
+crowdie	k r ʌ u d i
 cudnae	k ʌ d n ɪ
 cum	k ʌ m
 cutty	k ʌ t i
@@ -392,6 +406,7 @@ draucht	d r a f t
 draucht	d r ɑ x t
 dree	d r iː
 dreep	d r i p
+dreich	d r iː x
 dreich	d r iː ç
 droich	d r ɔ ɪ ç
 droukit	d r u k i t
@@ -434,6 +449,7 @@ fae	f eː
 fairce	f eː r s
 fairn	f eː r n
 fairn	f ɛ r n
+fare	f eː r
 fash	f a ʃ
 fate	f eː t
 fauch	f j ɑː x
@@ -466,6 +482,7 @@ fluit	f l ɪ t
 fluit	f l ɪ ʔ
 foost	f uː s t
 foosty	f uː s t i
+fordel	f o r d l
 forenuin	f o r n i n
 forenuin	f o r n ø n
 forenuin	f o r n ɪ n
@@ -485,6 +502,9 @@ fummlin	f ʌ m ʌ l ɪ n̩
 fyre	f ʌ j ə r
 ga'i	ɡ a ʔ ɪ
 gaan	ɡ a n
+gaan	ɡ ə n
+gaan	ɡ ə n u t
+gaan	ɡ ə n ɪ n
 gair	ɡ a i r o
 gair	ɡ eː r
 gallus	ɡ æ l ə s
@@ -601,6 +621,7 @@ links	l ɪ ŋ k s
 loch	l ɔ x
 lood	l u d
 loup	l ʌ ʊ p
+lunnon	l ʌ n ə n
 ma	m a
 ma	m ə
 maik	m e k
@@ -612,6 +633,7 @@ mease	m iː z
 meenit	m i n ə t
 meericle	m i r ɪ k l̩
 mei	m ʌ j
+menchie	m ɛ n t ʃ i
 mind	m ɑ e n d
 mine	m ə i n
 mitter	m ɪ t ə r
@@ -700,6 +722,7 @@ sark	s ɑ r k
 saw	s a
 saw	s ɔ
 sax	s a k s
+seemetry	s i m ə t r i
 seemilar	s i m ɪ l ə r
 seiin	s ʌ j ɪ n
 seil	s i l
@@ -755,7 +778,6 @@ sweirt	s w iː r t
 swire	s w ə i ə r
 swither	s w ɪ ð ə r
 syne	s ə i n
-tae	t eː
 taghairm	t ɑ ɡ ə r ə m
 taigle	t e ɡ l
 tammas	t a m ə s
@@ -775,9 +797,6 @@ thoum	θ u m
 thrae	θ r ɪ
 thrapple	θ r ɑ p ə l
 thratch	θ r a t͡ʃ
-three	t r iː
-three	θ r iː
-three	θ r ə i
 threi	θ r ʌ j
 thri	θ r ɪ
 thrissel	θ r ɪ s l
@@ -838,6 +857,8 @@ wappenschawing	w æ p ə n ʃ ɑː ɪ ŋ
 warse	w a r s
 warse	w ʌ r s
 warst	w a r s t
+watter	w ɑ t ə r
+watter	w ɑ ʔ ə r
 waulk	w oː k
 waulk	w ɑː k
 waur	w ɑ r
@@ -869,6 +890,8 @@ wus't	w ʌ s t
 wynd	w ə i n d
 wyte	w ə i t
 yaird	j eː r d
+ye	j iː
+ye	j ɪ
 yella	j ɛ l ə
 yella	j ɛ l ɪ
 yelli	j ɛ l ɪ

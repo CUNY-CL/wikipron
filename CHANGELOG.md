@@ -69,9 +69,11 @@ Unreleased
 -   Added Latvian `.phones` file and re-scraped data. (\#321, \#322)
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
+-   Several languages added to `languagecodes.py`. (\#334)
 
 #### Changed
 
+-   Edited the arm_e_phonetic.phones and arm_w_phonetic.phones files. (\#298)
 -   Improved printing in the README table. (\#145)
 -   Renamed data directory `data`. (\#147)
 -   Split `may` into Latin and Arabic files. (\#164)
@@ -104,6 +106,7 @@ Unreleased
 -   Frequencies code no longer overwrites TSV files. (\#320)
 -   Updated `data/phones/README.md` to specify that `.phones` files should be
     in NFC normalization form. (\#333)
+-   Kurdish (`kur`) and Opata (`opt`) removed from `languages.json`. (\#334)
 
 #### Fixed
 
