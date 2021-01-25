@@ -390,7 +390,7 @@ LANGUAGE_CODES = {
     "kurmanji": "Northern Kurdish",
     "dng": "Dungan",  # ISO 639-3.
     "ofs": "Old Frisian",  # ISO 639-3.
-    # Ilocano. "ilo" resolved to "Iloko" by iso639 lib. 
+    # Ilocano. "ilo" resolved to "Iloko" by iso639 lib.
     "ilo": "Ilocano",
     "iloko": "Ilocano",
     "ilocano": "Ilocano",
