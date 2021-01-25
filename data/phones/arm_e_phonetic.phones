@@ -20,7 +20,11 @@ u
 # largely because long vowels are mostly in loanwords and borrowings, which Wiktionary 
 # underreports. At some point in the future, the Armenian users might add some entries 
 # which contain these sequences.
-# ɑː əː iː ɔː uː
+ɑː
+əː
+iː
+ɔː
+uː
 #
 #
 # Consonants.
@@ -88,7 +92,12 @@ lː
 #
 # As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have the
 # following long consonants:
-# t͡sː d͡zː d͡ʒː ʒː hː jː
+t͡sː
+d͡zː
+d͡ʒː
+ʒː
+hː
+jː
 # This is just an accidental gap. The above long consonants can exist in Armenian. 
 # At some point in the future, the Armenian users might add some entries which contain 
 # these sequences.
