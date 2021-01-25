@@ -27,10 +27,10 @@ afl	a p l
 afla	a p l a
 afleiðing	a v l e iː ð i ŋ k
 afli	a p l ɪ
-afmæli	a v m a iː l ɪ
 afmæli	a m m a iː l ɪ
-afmælisdagur	a v m a iː l ɪ s t aː ɣ ʏ r
+afmæli	a v m a iː l ɪ
 afmælisdagur	a mː a iː l ɪ s t aː ɣ ʏ r
+afmælisdagur	a v m a iː l ɪ s t aː ɣ ʏ r
 afmælisgjöf	a v m a iː l ɪ s c œː v
 afrit	a v r ɪː t
 afráða	a v r a uː ð a
@@ -85,7 +85,6 @@ albanska	a l p a n s k a
 albanskur	a l p a n s k ʏ r
 albanía	a l p aː n iː j a
 albínói	a l p iː n o uː ɪ
-alda	a l t a
 alda	a l t a
 aldeilis	a l t e iː l ɪ s
 aldin	a l t ɪ n
@@ -158,7 +157,6 @@ andlangur	a n t l a u ŋ k ʏ r
 andlit	a n t l ɪː t
 andlát	a n t l a uː t
 andri	a n t r ɪ
-andri	a n t r ɪ
 andrés	a n t r j ɛː s
 andrésína	a n t r j ɛː s iː n a
 andstyggilega	a n t s t ɪ cː ɪ l ɛː ɣ a
@@ -174,7 +172,6 @@ anga	a u ŋ k a
 angan	a u ŋ k a n
 angi	a u ɲ c ɪ
 angóla	a ŋ k o uː l a
-anna	a nː a
 anna	a nː a
 annar	a nː a r
 annars	a nː a r̥ s
@@ -202,7 +199,6 @@ arameíska	aː r a m ɛː i s k a
 arfi	a r v ɪ
 argentína	a r k ɛ n tʰ iː n a
 argur	a r k ʏ r
-ari	aː r ɪ
 ari	aː r ɪ
 arinn	aː r ɪ nː
 aristóteles	aː r ɪ s t o uː tʰ ɛː l ɛː s
@@ -297,14 +293,13 @@ auðn	ø y ð n
 auðna	ø y ð n a
 auðnutittlingur	ø y ð n ʏ tʰ ɪ h t l i ŋ k ʏ r
 auður	ø yː ð ʏ r
-auður	ø yː ð ʏ r
 auðvald	ø y ð v a l t
 auðvelda	ø y ð v ɛ l t a
 auðveldlega	ø y ð v ɛ l t l ɛː ɣ a
 auðveldur	ø y ð v ɛ l t ʏ r
 auðæfi	ø yː ð a iː v ɪ
-ax	a x s
 ax	a k s
+ax	a x s
 axhæra	a x s h a iː r a
 axlabönd	a x s t l a p œ n t
 aís	aː iː s
@@ -370,8 +365,8 @@ b	p j ɛː
 baga	p aː ɣ a
 bagall	p aː ɣ a t l
 baggi	p a cː ɪ
-bagi	p aː j ɪ
 bagi	p a iː j ɪ
+bagi	p aː j ɪ
 bak	p aː k
 baka	p aː k a
 bakari	p aː k aː r ɪ
@@ -488,7 +483,6 @@ bekkjarlalli	p ɛ h c a r l a t l ɪ
 bekkur	p ɛ h k ʏ r
 bel	p ɛː l
 belgi	p ɛ l c ɪ
-belgi	p ɛ l c ɪ
 belgja	p ɛ l c a
 belgjastör	p ɛ l c a s t œː r
 belgur	p ɛ l k ʏ r
@@ -509,7 +503,6 @@ bensínsala	p ɛ n s i n s aː l a
 bensínstöð	p ɛ n s i n s t œː ð
 benín	p ɛː n iː n
 ber	p ɛː r
-bera	p ɛː r a
 bera	p ɛː r a
 berg	p ɛ r k
 bergdís	p ɛ r k t iː s
@@ -539,8 +532,8 @@ beðja	p ɛ ð j a
 beður	p ɛː ð ʏ r
 biblía	p ɪ p l iː j a
 bifa	p ɪː v a
-bifhjól	p ɪ v ç o uː l
 bifhjól	p ɪ f ç o uː l
+bifhjól	p ɪ v ç o uː l
 bifreið	p ɪ v r e iː ð
 bifur	p ɪː v ʏ r
 biggi	p ɪ cː ɪ
@@ -554,11 +547,9 @@ bilun	p ɪː l ʏ n
 binda	p ɪ n t a
 bindi	p ɪ n t ɪ
 birgir	p ɪ r c ɪ r
-birgir	p ɪ r c ɪ r
 birgja	p ɪ r c a
 birki	p ɪ r̥ c ɪ
 birkitré	p ɪ r̥ c ɪ t r j ɛː
-birna	p ɪ r t n a
 birna	p ɪ r t n a
 birta	p ɪ r̥ t a
 biskup	p ɪ s k ʏ p
@@ -591,7 +582,6 @@ bjarnheiður	p j a r t n h e iː ð ʏ r
 bjartsýni	p j a r̥ t s iː n ɪ
 bjartsýnn	p j a r̥ t s i t n
 bjartur	p j a r̥ t ʏ r
-bjartur	p j a r̥ t ʏ r
 bjuggu	p j ʏ ɣ ʏ
 bjálki	p j a u l̥ k ɪ
 bjáni	p j a uː n ɪ
@@ -602,10 +592,8 @@ bjóst	p j o uː s t
 bjóða	p j o uː ð a
 bjöggi	p j œ cː ɪ
 björg	p j œ r k
-björg	p j œ r k
 björgmundur	p j œ r k m ʏ n t ʏ r
 björgvin	p j œ r k v ɪ n
-björk	p j œ r̥ k
 björk	p j œ r̥ k
 björn	p j œ r t n
 björn	p j œ t n
@@ -722,8 +710,8 @@ blýantur	p l iː a n t ʏ r
 blýglans	p l iː k l a n s
 bogastrengur	p ɔː ɣ a s t r e i ŋ k ʏ r
 bogga	p ɔ kː a
-bogi	p ɔː j ɪ
 bogi	p ɔ iː j ɪ
+bogi	p ɔː j ɪ
 bogna	p ɔ k n a
 boli	p ɔː l ɪ
 bolla	p ɔ lː a
@@ -875,7 +863,6 @@ brydda	p r ɪ tː a
 brydding	p r ɪ tː i ŋ k
 bryggja	p r ɪ cː a
 brynja	p r ɪ n j a
-brynja	p r ɪ n j a
 brynjólfur	p r ɪ n j o u l v ʏ r
 brynjólfína	p r ɪ n j o u l v iː n a
 brynjúlfur	p r ɪ n j u l v ʏ r
@@ -942,7 +929,6 @@ bygging	p ɪ cː i ŋ k
 byggja	p ɪ cː a
 byggð	p ɪ ɣ ð
 bylgja	p ɪ l c a
-bylgja	p ɪ l c a
 bylgjufall	p ɪ l c ʏ f a t l
 bylgjulengd	p ɪ l c ʏ l e i ŋ k t
 bylja	p ɪ l j a
@@ -965,7 +951,6 @@ bágur	p a uː ʏ r
 bákn	p a u h k n
 bál	p a uː l
 bálkur	p a u l̥ k ʏ r
-bára	p a uː r a
 bára	p a uː r a
 bárujárn	p a uː r ʏ j a u r t n
 bárður	p a u r ð ʏ r
@@ -1091,7 +1076,6 @@ dagskrá	t a x s k r a uː
 dagur	t aː ɣ ʏ r
 dalalilja	t aː l a l ɪ l j a
 daldís	t a l t iː s
-dalla	t a t l a
 dalla	t a t l a
 dalmatía	t a l m a tʰ iː j a
 dalía	t aː l iː j a
@@ -1289,7 +1273,6 @@ dymbildagavika	t ɪ m p ɪ l t aː ɣ a v ɪː k a
 dymbilvika	t ɪ m p ɪ l v ɪː k a
 dyngja	t i ɲ c a
 dynja	t ɪ n j a
-dynja	t ɪ n j a
 dynkur	t i ŋ̊ k ʏ r
 dyntur	t ɪ n̥ t ʏ r
 dyntóttur	t ɪ n̥ t o u h t ʏ r
@@ -1459,13 +1442,12 @@ einglyrni	e i n k l ɪ r t n ɪ
 eingöngu	e i n k ø y ŋ k ʏ
 einhentur	e iː n h ɛ n̥ t ʏ r
 einhjól	e i n ç o uː l
+einhver	e i h k v ɛː r
 einhver	e i n xʷ ɛː r
 einhver	e i n̥ k v ɛː r
-einhver	e i h k v ɛː r
 einhyrningur	e i n h ɪ r t n i ŋ k ʏ r
 eining	e iː n i ŋ k
 einingarfylki	e iː n i ŋ k a r f ɪ l̥ c ɪ
-einir	e iː n ɪ r
 einir	e iː n ɪ r
 einkalykill	e i ŋ k a l ɪː c ɪ t l
 einkavæðing	e i ŋ k a v a iː ð i ŋ k
@@ -1542,9 +1524,7 @@ elja	ɛ l j a
 ell	ɛ t l
 ella	ɛ t l a
 ellefu	ɛ t l ɛ v ʏ
-elli	ɛ t l ɪ
 elli	ɛ lː ɪ
-elli	ɛ t l ɪ
 elli	ɛ t l ɪ
 ellingsen	ɛ lː i ŋ k s ɛ n
 elri	ɛ l r ɪ
@@ -1604,8 +1584,6 @@ erja	ɛ r j a
 erkibiskup	ɛ r̥ c ɪ p ɪ s k ʏ p
 erkiengill	ɛ r̥ c ɪ e i ɲ c ɪ t l
 erla	ɛ r t l a
-erla	ɛ r t l a
-erlendur	ɛ r l ɛ n t ʏ r
 erlendur	ɛ r l ɛ n t ʏ r
 erlendur	ɛ t l ɛ n t ʏ r
 erlendur	ɛ t l ɪ n t ʏ r
@@ -1691,7 +1669,6 @@ fallvatn	f a t l v a h t n
 fals	f a l s
 falstur	f a l s t ʏ r
 falur	f aː l ʏ r
-falur	f aː l ʏ r
 fang	f a u ŋ k
 fanga	f a u ŋ k a
 fangaklefi	f a u ŋ k a kʰ l ɛː v ɪ
@@ -1729,8 +1706,8 @@ fastur	f a s t ʏ r
 fat	f aː t
 fata	f aː t a
 fataskápur	f aː t a s k a uː p ʏ r
-fax	f a x s
 fax	f a k s
+fax	f a x s
 faðir	f aː ð ɪ r
 faðirvor	f aː ð ɪ r v ɔː r
 faðmur	f a ð m ʏ r
@@ -1861,7 +1838,6 @@ fjas	f j aː s
 fjárdráttur	f j a u r t r a u h t ʏ r
 fjárhundur	f j a u r h ʏ n t ʏ r
 fjáður	f j a uː ð ʏ r
-fjóla	f j o uː l a
 fjóla	f j o uː l a
 fjólmundur	f j o u l m ʏ n t ʏ r
 fjólublár	f j o uː l ʏ p l a uː r
@@ -2020,8 +1996,8 @@ forheimskun	f ɔː r h e i m s k ʏ n
 forhúð	f ɔː r h uː ð
 foringi	f ɔː r i ɲ c ɪ
 forinta	f ɔː r ɪ n̥ t a
-forjaxl	f ɔː r j a x s t l
 forjaxl	f ɔː r j a k s t l
+forjaxl	f ɔː r j a x s t l
 forliður	f ɔ r l ɪː ð ʏ r
 forlát	f ɔ r l a uː t
 forma	f ɔ r m a
@@ -2068,7 +2044,6 @@ forði	f ɔ r ð ɪ
 fosfór	f ɔ s f o uː r
 foss	f ɔ sː
 frakkar	f r a h k aː r
-frakki	f r a h c ɪ
 frakki	f r a h c ɪ
 frakkland	f r a h k l a n t
 frakkneskur	f r a h k n ɛ s k ʏ r
@@ -2209,7 +2184,6 @@ fríðleiki	f r iː ð l e iː c ɪ
 fríður	f r iː ð ʏ r
 fró	f r o uː
 fróa	f r o uː a
-frón	f r o uː n
 frón	f r o uː n
 frónsk	f r o u n s k
 frónskur	f r o u n s k ʏ r
@@ -2391,8 +2365,8 @@ galgopi	k a l k ɔː p ɪ
 gallabuxur	k a lː a p ʏ x s ʏ r
 gallalaus	k a t l a l ø yː s
 gallblaðra	k a t l p l a ð r a
-galli	k a t l ɪ
 galli	k a lː ɪ
+galli	k a t l ɪ
 galsi	k a l s ɪ
 galílea	k aː l iː l ɛː a
 gamall	k aː m a t l
@@ -2430,7 +2404,6 @@ gata	k aː t a
 gatari	k aː t aː r ɪ
 gatnamót	k a h t n a m o uː t
 gaukur	k ø yː k ʏ r
-gaukur	k ø yː k ʏ r
 gaul	k ø yː l
 gaupa	k ø yː p a
 gaur	k ø yː r
@@ -2450,7 +2423,6 @@ geimskip	c e i m s c ɪː p
 geimstöð	c e i m s t œː ð
 geimur	c e iː m ʏ r
 geipa	c e iː p a
-geir	k e iː r
 geir	k e iː r
 geirdís	c e i r t iː s
 geirfríður	c e i r̥ f r iː ð ʏ r
@@ -2638,7 +2610,6 @@ gola	k ɔː l a
 golf	k ɔ l v
 gorma	k ɔ r m a
 gormur	k ɔ r m ʏ r
-gormur	k ɔ r m ʏ r
 gort	k ɔ r̥ t
 gorta	k ɔ r̥ t a
 gos	k ɔː s
@@ -2782,7 +2753,6 @@ grúfa	k r uː v a
 grúi	k r uː ɪ
 grúpa	k r uː p a
 grýla	k r iː l a
-grýla	k r iː l a
 grýlukerti	k r iː l ʏ cʰ ɛ r̥ t ɪ
 grýta	k r iː t a
 grýttur	k r i h t ʏ r
@@ -2807,7 +2777,6 @@ gunnarína	k ʏ nː aː r iː n a
 gunndís	k ʏ nː t iː s
 gunnlaug	k ʏ nː l ø yː ɣ
 gunnlaugur	k ʏ nː l ø yː ɣ ʏ r
-gunnur	k ʏ nː ʏ r
 gunnur	k ʏ nː ʏ r
 gunnólfur	k ʏ nː o u l v ʏ r
 gunnþórunn	k ʏ n θ o uː r ʏ nː
@@ -2953,7 +2922,6 @@ halda	h a l t a
 haldinn	h a l t ɪ nː
 hali	h aː l ɪ
 halla	h a t l a
-halla	h a t l a
 hallarvirki	h a t l a r v ɪ r̥ c ɪ
 halldís	h a l t iː s
 halldór	h a l t o uː r
@@ -2961,9 +2929,7 @@ halldórsdóttir	h a l t o u r̥ s t o u h t ɪ r
 hallgerður	h a t l c ɛ r ð ʏ r
 hallgrímína	h a t l k r iː m iː n a
 halli	h a t l ɪ
-halli	h a t l ɪ
 hallmundur	h a t l m ʏ n t ʏ r
-hallur	h a t l ʏ r
 hallur	h a t l ʏ r
 haltra	h a l̥ t r a
 haltur	h a l̥ t ʏ r
@@ -3003,9 +2969,8 @@ handtaka	h a n t tʰ aː k a
 hanga	h a u ŋ k a
 hangikjöt	h a u ŋ c ɪ cʰ œː t
 hani	h aː n ɪ
-hann	h a nː
 hann	a nː
-hanna	h a nː a
+hann	h a nː
 hanna	h a nː a
 hannesína	h a nː ɛː s iː n a
 hansen	h a n s ɛ nː
@@ -3121,14 +3086,11 @@ heiðindómur	h e iː ð ɪ n t o uː m ʏ r
 heiðingi	h e iː ð i ɲ c ɪ
 heiðni	h e i ð n ɪ
 heiður	h e iː ð ʏ r
-heiður	h e iː ð ʏ r
 hekk	h ɛ h k
-hekla	h ɛ h k l a
 hekla	h ɛ h k l a
 hel	h ɛː l
 held	h ɛ l t
 helgarferð	h ɛ l k a r f ɛ r ð
-helgi	h ɛ l c ɪ
 helgi	h ɛ l c ɪ
 helgidagur	h ɛ l c ɪ t aː ɣ ʏ r
 helgisiður	h ɛ l c ɪ s ɪː ð ʏ r
@@ -3210,8 +3172,8 @@ hildigunnur	h ɪ l t ɪ k ʏ nː ʏ r
 hildimundur	h ɪ l t ɪ m ʏ n t ʏ r
 hilla	h ɪ t l a
 hilling	h ɪ t l i ŋ k
-hilmir	h ɪ l m ɪː r
 hilmir	h ɪ l m ɪ r
+hilmir	h ɪ l m ɪː r
 himbrimi	h ɪ m p r ɪː m ɪ
 himinn	h ɪː m ɪ nː
 himna	h ɪ m n a
@@ -3287,7 +3249,6 @@ hjónaband	ç o uː n a p a n t
 hjónaskilnaður	ç o uː n a s c ɪ l n aː ð ʏ r
 hjör	ç œː r
 hjördís	ç œ r t iː s
-hjörtur	ç œ r̥ t ʏ r
 hjörtur	ç œ r̥ t ʏ r
 hjörtína	ç œ r̥ t iː n a
 hjörð	ç œ r ð
@@ -3459,7 +3420,6 @@ hornspyrna	h ɔ r t n s p ɪ r t n a
 hortugur	h ɔ r̥ t ʏː ɣ ʏ r
 horvatn	h ɔ r v a h t n
 hrafn	r̥ a p n
-hrafn	r̥ a p n
 hrafnaklukka	r̥ a p n a kʰ l ʏ h k a
 hrafnastör	r̥ a p n a s t œː r
 hrafndís	r̥ a p n t iː s
@@ -3620,7 +3580,6 @@ hugsun	h ʏ x s ʏ n
 hugur	h ʏː ɣ ʏ r
 hula	h ʏː l a
 hulda	h ʏ l t a
-hulda	h ʏ l t a
 hulduefni	h ʏ l t ʏ ɛ p n ɪ
 humall	h ʏː m a t l
 humar	h ʏː m a r
@@ -3633,8 +3592,8 @@ hundshaus	h ʏ n t s h ø yː s
 hundur	h ʏ n t ʏ r
 hungur	h u ŋ k ʏ r
 hurð	h ʏ r ð
-hvala	xʷ aː l a
 hvala	kʰ v aː l a
+hvala	xʷ aː l a
 hvalaskoðun	kʰ v aː l a s k ɔː ð ʏ n
 hvalkjöt	xʷ a l cʰ œː t
 hvalstöð	kʰ v a l s t œː ð
@@ -3646,18 +3605,18 @@ hvar	kʰ v aː r
 hvar	xʷ aː r
 hvarfstig	xʷ a r f s t ɪː ɣ
 hvarmur	xʷ a r m ʏ r
-hvass	xʷ a sː
 hvass	kʰ v a sː
+hvass	xʷ a sː
 hvatberi	kʰ v a t p ɛː r ɪ
 hvati	kʰ v aː t ɪ
 hvatning	kʰ v a h t n i ŋ k
 hvatning	xʷ a h t n i ŋ k
 hvatur	kʰ v aː t ʏ r
 hvatur	xʷ aː t ʏ r
-hvað	xʷ aː ð
 hvað	kʰ v aː ð
-hvaða	xʷ aː ð a
+hvað	xʷ aː ð
 hvaða	kʰ v aː ð a
+hvaða	xʷ aː ð a
 hveiti	kʰ v e iː t ɪ
 hveiti	xʷ e iː t ɪ
 hveitiklíð	xʷ e iː t ɪ kʰ l iː ð
@@ -3666,12 +3625,10 @@ hvel	kʰ v ɛː l
 hvelatengsl	xʷ ɛː l a tʰ e i ŋ s t l
 hvelfdur	kʰ v e l v t ʏ r
 hvelfing	kʰ v ɛ l v i ŋ k
-hver	xʷ ɛː r
-hver	kʰ v ɛː r
-hver	xʷ ɛː r
-hver	kʰ v ʏː r
-hver	kʰ v ɛː r
 hver	kʰ v œː r
+hver	kʰ v ɛː r
+hver	kʰ v ʏː r
+hver	xʷ ɛː r
 hverfa	kʰ v ɛ r v a
 hverfi	kʰ v ɛ r v ɪ
 hverfi	xʷ ɛ r v ɪ
@@ -3680,8 +3637,8 @@ hverflyndi	kʰ v ɛ r v l ɪ n t ɪ
 hverflyndur	kʰ v ɛ r v l ɪ n t ʏ r
 hverfull	kʰ v ɛ r v ʏ t l
 hvergi	kʰ v ɛ r c ɪ
-hvert	xʷ ɛ r̥ t
 hvert	kʰ v ɛ r̥ t
+hvert	xʷ ɛ r̥ t
 hvetja	xʷ ɛː t j a
 hveðn	xʷ ɛ ð n
 hvika	kʰ v ɪː k a
@@ -3691,23 +3648,23 @@ hvikull	kʰ v ɪː k ʏ t l
 hvirfilbylur	kʰ v ɪ r v ɪ l p ɪː l ʏ r
 hvirfill	xʷ ɪ r v ɪ t l
 hvirfilvindur	xʷ ɪ r v ɪ l v ɪ n t ʏ r
-hviða	xʷ ɪː ð a
 hviða	kʰ v ɪː ð a
+hviða	xʷ ɪː ð a
 hvolf	kʰ v ɔ l v
 hvolfa	kʰ v ɔ l v a
-hvolpur	xʷ ɔ l̥ p ʏ r
 hvolpur	kʰ v ɔ l̥ p ʏ r
-hvor	xʷ ɔː r
+hvolpur	xʷ ɔ l̥ p ʏ r
 hvor	kʰ v ɔː r
+hvor	xʷ ɔː r
 hvorttveggja	kʰ v ɔ r̥ t tʰ v ɛ cː a
 hvorttveggja	xʷ ɔ r̥ t tʰ v ɛ cː a
 hvorugkyn	xʷ ɔː r ʏ ɣ cʰ ɪː n
 hvá	xʷ a uː
 hvæs	kʰ v a iː s
-hvæsa	xʷ a iː s a
 hvæsa	kʰ v a iː s a
-hví	xʷ iː
+hvæsa	xʷ a iː s a
 hví	kʰ v iː
+hví	xʷ iː
 hvíla	kʰ v iː l a
 hvíld	xʷ i l t
 hvína	xʷ iː n a
@@ -3720,11 +3677,11 @@ hvítlaukspressa	kʰ v iː t l ø y k s pʰ r ɛ sː a
 hvítlaukur	xʷ iː t l ø yː k ʏ r
 hvítmaðra	kʰ v iː t m a ð r a
 hvítmosi	kʰ v iː t m ɔː s ɪ
-hvítur	xʷ iː t ʏ r
 hvítur	kʰ v iː t ʏ r
+hvítur	xʷ iː t ʏ r
 hvítvín	xʷ iː t v iː n
-hvítá	xʷ iː t a uː
 hvítá	kʰ v iː t a uː
+hvítá	xʷ iː t a uː
 hvörf	kʰ v œ r v
 hvöt	kʰ v œː t
 hvöt	xʷ œː t
@@ -3749,8 +3706,8 @@ hádegi	h a uː t e iː j ɪ
 hádegisverður	h a uː t e iː j ɪ s v ɛ r ð ʏ r
 háfur	h a uː v ʏ r
 háhyrningur	h a u h ɪ r t n i ŋ k ʏ r
-hákarl	h aː k a r t l
 hákarl	h a uː k a r t l
+hákarl	h aː k a r t l
 hálendi	h a uː l ɛ n t ɪ
 hálfbróðir	h a u l v p r o uː ð ɪ r
 hálfendir	h a u l v ɛ n t ɪ r
@@ -3903,9 +3860,8 @@ hörund	h œː r ʏ n t
 hörðaland	h œ r ð a l a n t
 hörður	h œ r ð ʏ r
 höstugur	h œ s t ʏː ɣ ʏ r
-húfa	h uː v a
 húfa	h uː a
-húfur	h uː v ʏ r
+húfa	h uː v a
 húfur	h uː v ʏ r
 húfur	h uː ʏ r
 húka	h uː k a
@@ -3936,11 +3892,10 @@ ildi	ɪ l t ɪ
 illgresi	ɪ t l k r ɛː s ɪ
 illmælgi	ɪ t l m a i l c ɪ
 illmæli	ɪ t l m a iː l ɪ
-illska	ɪ l s k a
 illska	i l s k a
+illska	ɪ l s k a
 illur	ɪ t l ʏ r
 ilma	ɪ l m a
-ilmur	ɪ l m ʏ r
 ilmur	ɪ l m ʏ r
 ilmvatn	ɪ l m v a h t n
 ilskór	ɪ l s k o uː r
@@ -3986,7 +3941,6 @@ inséníör	ɪ n s j ɛː n i j œː r
 internet	ɪ n̥ t ɛ r n ɛː t
 ið	ɪː ð
 iða	ɪː ð a
-iða	ɪː ð a
 iðja	ɪ ð j a
 iðn	ɪ ð n
 iðnaður	ɪ ð n aː ð ʏ r
@@ -4000,8 +3954,8 @@ jafnaðarstefna	j a p n aː ð a r s t ɛ p n a
 jafni	j a p n ɪ
 jafningi	j a p n i ɲ c ɪ
 jafnoki	j a p n ɔː c ɪ
-jafnt	j a m̥ t
 jafnt	j a f t
+jafnt	j a m̥ t
 jafntefli	j a p n tʰ ɛ p l ɪ
 jafnvægi	j a p n v a iː j ɪ
 jagúar	j aː k uː a r
@@ -4011,8 +3965,8 @@ jakki	j a h c ɪ
 jakob	j aː kʰ ɔː p
 jakobsfífill	j aː kʰ ɔ p s f iː v ɪ t l
 jakobína	j aː kʰ ɔː p iː n a
-jakuxi	j aː k ʏ x s ɪ
 jakuxi	j aː k ʏ k s ɪ
+jakuxi	j aː k ʏ x s ɪ
 jana	j aː n a
 janúar	j aː n uː aː r
 japan	j aː pʰ aː n
@@ -4045,7 +3999,6 @@ jarðúlfur	j a r ð u l v ʏ r
 jarþrúður	j a r̥ θ r uː ð ʏ r
 jaxl	j a k s t l
 jaxl	j a x s t l
-jaðar	j aː ð a r
 jaðar	j aː ð a r
 jaðarrokk	j aː ð a r r ɔ h k
 jaði	j aː ð ɪ
@@ -4091,7 +4044,6 @@ jólaeyja	j o uː l a e iː j a
 jólagjöf	j o uː l a c œː v
 jólaköttur	j o uː l a kʰ œ h t ʏ r
 jólakúla	j o uː l a kʰ uː l a
-jón	j o uː n
 jón	j o uː n
 jóna	j o uː n a
 jónas	j o uː n aː s
@@ -4286,7 +4238,6 @@ kertastjaki	cʰ ɛ r̥ t a s t j aː c ɪ
 kerti	cʰ ɛ r̥ t ɪ
 kerúb	cʰ ɛː r uː p
 ket	cʰ ɛː t
-ketill	cʰ ɛː t ɪ t l
 ketill	cʰ ɛː t ɪ t l
 kettlingur	cʰ ɛ h t l i ŋ k ʏ r
 kex	cʰ ɛ k s
@@ -4699,8 +4650,8 @@ kynfruma	c ɪ n f r ʏː m a
 kynfæri	cʰ ɪ n f a iː r ɪ
 kyngja	cʰ i ɲ c a
 kynhneigð	cʰ ɪ n n̥ e i ɣ ð
-kynhvöt	cʰ ɪː n xʷ œː t
 kynhvöt	cʰ ɪː n kʰ v œː t
+kynhvöt	cʰ ɪː n xʷ œː t
 kynkirtill	cʰ ɪː n cʰ ɪ r̥ t ɪ t l
 kynkvísl	cʰ ɪː n kʰ v i s t l
 kynlaus	cʰ ɪ n l ø yː s
@@ -4895,8 +4846,8 @@ langhlið	l a u ŋ k l̥ ɪː ð
 langkrækill	l a u ŋ k kʰ r a iː c ɪ t l
 langnykra	l a u ŋ k n ɪː k r a
 langreyður	l a u ŋ k r e iː ð ʏ r
-langur	l a ŋ k ʏ r
 langur	l a u ŋ k ʏ r
+langur	l a ŋ k ʏ r
 lappi	l a h p ɪ
 lappland	l a h p l a n t
 lara	l aː r a
@@ -5028,8 +4979,8 @@ lettneskur	l ɛ h t n ɛ s k ʏ r
 letur	l ɛː t ʏ r
 leturborð	l ɛː t ʏ r p ɔ r ð
 leví	l ɛː v iː
-lexía	l ɛ x s iː j a
 lexía	l ɛ k s iː j a
+lexía	l ɛ x s iː j a
 leyfa	l e iː v a
 leyfi	l e iː v ɪ
 leyna	l e iː n a
@@ -5130,7 +5081,6 @@ loftþrýstingur	l ɔ f t θ r i s t i ŋ k ʏ r
 lofðungur	l ɔ v ð u ŋ k ʏ r
 loga	l ɔː ɣ a
 logi	l ɔ iː j ɪ
-logi	l ɔ iː j ɪ
 logn	l ɔ k n
 logri	l ɔ ɣ r ɪ
 lok	l ɔː k
@@ -5200,8 +5150,8 @@ lágarfi	l a uː ɣ a r v ɪ
 láglendi	l a u ɣ l ɛ n t ɪ
 lágmark	l a u ɣ m a r̥ k
 lágmynd	l a u ɣ m ɪ n t
-lágur	l a uː ɣ ʏ r̥
 lágur	l a uː r̥
+lágur	l a uː ɣ ʏ r̥
 lágþrýstingur	l a u ɣ θ r i s t i ŋ k ʏ r
 láki	l a uː c ɪ
 láland	l a uː l a n t
@@ -5347,8 +5297,8 @@ lús	l uː s
 lúta	l uː t a
 lúterskur	l uː tʰ ɛ r̥ s k ʏ r
 lútur	l uː t ʏ r
-lúxus	l u x s ʏ s
 lúxus	l u k s ʏ s
+lúxus	l u x s ʏ s
 lúða	l uː ð a
 lúðalegur	l uː ð a l ɛː ɣ ʏ r
 lúði	l uː ð ɪ
@@ -5435,7 +5385,6 @@ markúsartorg	m a r̥ k uː s a r tʰ ɔ r k
 marmennill	m a r m ɛ nː ɪ t l
 marr	m a rː
 marra	m a rː a
-mars	m a r̥ s
 mars	m a r̥ s
 marsbúi	m a r̥ s p uː ɪ
 marsera	m a r̥ s ɛː r a
@@ -5576,8 +5525,8 @@ mikilvægi	m ɪː c ɪ l v a iː j ɪ
 mikið	m ɪː c ɪ ð
 mikki	m ɪ h c ɪ
 mildur	m ɪ l t ʏ r
-milli	m ɪ t l ɪ
 milli	m ɪ lː ɪ
+milli	m ɪ t l ɪ
 millibil	m ɪ t l ɪ p ɪː l
 millimetri	m ɪ lː ɪ m ɛː t r ɪ
 millinafn	m ɪ t l ɪ n a p n
@@ -5934,12 +5883,11 @@ nema	n ɛː m a
 nemandi	n ɛː m a n t ɪ
 nemi	n ɛː m ɪ
 nenna	n ɛ nː a
-nenna	n ɛ nː a
 nenni	n ɛ nː ɪ
 nepal	n ɛː pʰ aː l
 nepja	n ɛː p j a
-neptúnus	n ɛ p tʰ uː n ʏ s
 neptúnus	n ɛ f tʰ uː n ʏ s
+neptúnus	n ɛ p tʰ uː n ʏ s
 nes	n ɛː s
 nesti	n ɛ s t ɪ
 nestisbox	n ɛ s t ɪ s p ɔ x s
@@ -6000,8 +5948,8 @@ not	n ɔː t
 nota	n ɔː t a
 notandi	n ɔː t a n t ɪ
 nothæfur	n ɔː t h a iː v ʏ r
-notkun	n ɔː t k ʏ n
 notkun	n ɔ h t k ʏ n
+notkun	n ɔː t k ʏ n
 nudd	n ʏ tː
 nudda	n ʏ tː a
 nykra	n ɪː k r a
@@ -6115,7 +6063,6 @@ nýyrðasmíð	n iː ɪ r ð a s m iː ð
 nýyrði	n iː ɪ r ð ɪ
 obláta	ɔ p l a uː t a
 oddur	ɔ tː ʏ r
-oddur	ɔ tː ʏ r
 oddviti	ɔ tː v ɪ t ɪ
 of	ɔː v
 ofan	ɔː v a n
@@ -6166,7 +6113,6 @@ orkugjafi	ɔ r̥ k ʏ c aː v ɪ
 orkuver	ɔ r̥ k ʏ v ɛː r
 orkídea	ɔ r̥ c iː t ɛː a
 orma	ɔ r m a
-ormur	ɔ r m ʏ r
 ormur	ɔ r m ʏ r
 orsaka	ɔ r̥ s aː k a
 orsök	ɔ r̥ s œː k
@@ -6240,9 +6186,7 @@ pennavinur	pʰ ɛ nː a v ɪː n ʏ r
 penni	pʰ ɛ nː ɪ
 pensill	pʰ ɛ n s ɪ t l
 pepperóní	pʰ ɛ h p ɛ r o uː n iː
-pepperóní	pʰ ɛ h p ɛ r o uː n iː
 pera	pʰ ɛː r a
-perla	pʰ ɛ r t l a
 perla	pʰ ɛ r t l a
 perlumóðir	pʰ ɛ r t l ʏ m o uː ð ɪ r
 persneska	pʰ ɛ r̥ s n ɛ s k a
@@ -6575,7 +6519,6 @@ reyna	r e iː n a
 reynd	r e i n t
 reyndar	r e i n t a r
 reynir	r e iː n ɪ r
-reynir	r e iː n ɪ r
 reynsla	r e i n s t l a
 reyr	r e iː r
 reyrgresi	r e i r k r ɛː s ɪ
@@ -6769,7 +6712,6 @@ rökfræði	r œː k f r a iː ð ɪ
 rökhenda	r œː k h ɛ n t a
 rökkur	r œ h k ʏ r
 rökkvi	r œ h k v ɪ
-rökkvi	r œ h k v ɪ
 rölt	r œ l̥ t
 rölta	r œ l̥ t a
 rönd	r œ n t
@@ -6779,8 +6721,8 @@ röskur	r œ s k ʏ r
 röð	r œː ð
 rúbín	r uː p iː n
 rúgur	r uː ʏ r
-rúm	r uː m
 rúm	r u mː
+rúm	r uː m
 rúmenska	r uː m ɛ n s k a
 rúmenía	r uː m ɛː n iː j a
 rúmfræði	r u m f r a iː ð ɪ
@@ -6815,10 +6757,8 @@ safnheiti	s a p n h e iː t ɪ
 safnið	s a p n ɪ ð
 saft	s a f t
 safír	s aː f iː r
-safír	s aː f iː r
 safírblár	s aː f iː r p l a uː r
 sag	s aː ɣ
-saga	s aː ɣ a
 saga	s aː ɣ a
 saggi	s a cː ɪ
 sagnbeyging	s a k n p e iː j i ŋ k
@@ -6941,8 +6881,8 @@ selkjöt	s ɛ l cʰ œː t
 sellerí	s ɛ lː ɛː r iː
 selma	s ɛ l m a
 selur	s ɛː l ʏ r
-sem	s ɛː m
 sem	s ɛ m
+sem	s ɛː m
 semball	s ɛ m p a t l
 semja	s ɛ m j a
 senda	s ɛ n t a
@@ -6964,13 +6904,13 @@ sess	s ɛ sː
 sessa	s ɛ sː a
 sessunautur	s ɛ sː ʏ n ø yː t ʏ r
 sesín	s ɛː s iː n
-setja	s ɛː t j a
 setja	s ɛː t a
+setja	s ɛː t j a
 setning	s ɛ h t n i ŋ k
 setningafræði	s ɛ h t n i ŋ k a f r a iː ð ɪ
 settaug	s ɛː t tʰ ø yː ɣ
-sexa	s ɛ x s a
 sexa	s ɛ k s a
+sexa	s ɛ x s a
 seyta	s e iː t a
 seytla	s e i h t l a
 seyði	s e iː ð ɪ
@@ -6993,7 +6933,6 @@ siglutoppur	s ɪ k l ʏ tʰ ɔ h p ʏ r
 sigmar	s ɪ ɣ m aː r
 sigmundur	s ɪ ɣ m ʏ n t ʏ r
 sigmundína	s ɪ ɣ m ʏ n t iː n a
-signa	s ɪ k n a
 signa	s ɪ k n a
 sigra	s ɪ ɣ r a
 sigríður	s ɪ ɣ r iː ð ʏ r
@@ -7307,9 +7246,8 @@ skítugur	s c iː t ʏː ɣ ʏ r
 skítur	s c iː t ʏ r
 skíða	s c iː ð a
 skíðaþjálfari	s c iː ð a θ j a u l v aː r ɪ
-skíðhvalur	s c i ð xʷ aː l ʏ r
 skíðhvalur	s c i ð kʰ v aː l ʏ r
-skíði	s c iː ð ɪ
+skíðhvalur	s c i ð xʷ aː l ʏ r
 skíði	s c iː ð ɪ
 skóf	s k o uː v
 skófla	s k o u p l a
@@ -7435,7 +7373,6 @@ smánykra	s m a uː n ɪː k r a
 smáorð	s m a uː ɔ r ð
 smár	s m a uː r
 smári	s m a uː r ɪ
-smári	s m a uː r ɪ
 smásaga	s m a uː s aː ɣ a
 smásjá	s m a uː s j a uː
 smæra	s m a iː r a
@@ -7459,8 +7396,8 @@ snertill	s n ɛ r̥ t ɪ t l
 snifsi	s t n ɪ f s ɪ
 snigill	s n ɪː j ɪ t l
 snilld	s t n ɪ l t
-snilli	s t n ɪ t l ɪ
 snilli	s t n ɪ lː ɪ
+snilli	s t n ɪ t l ɪ
 snillingur	s t n ɪ t l i ŋ k ʏ r
 snið	s t n ɪː ð
 sniðill	s n ɪː ð ɪ t l
@@ -7634,11 +7571,9 @@ steik	s t e iː k
 steikarhnífur	s t e iː k a r n̥ iː v ʏ r
 steikja	s t e iː c a
 stein	s t e iː n
-stein	s t e iː n
 steinbrjótur	s t e i n p r j o uː t ʏ r
 steindór	s t e i n t o uː r
 steinefni	s t e iː n ɛ p n ɪ
-steinn	s t e i t n
 steinn	s t e i t n
 steinselja	s t e i n s ɛ l j a
 steinunn	s t e iː n ʏ nː
@@ -7873,7 +7808,6 @@ sveigja	s v e iː j a
 sveigur	s v e iː ɣ ʏ r
 sveindís	s v e i n t iː s
 sveinn	s v e i t n
-sveinn	s v e i t n
 sveipa	s v e iː p a
 sveipur	s v e iː p ʏ r
 sveit	s v e iː t
@@ -7910,7 +7844,6 @@ svindla	s v ɪ n t l a
 svindlari	s v ɪ n t l aː r ɪ
 svipta	s v ɪ f t a
 svipur	s v ɪː p ʏ r
-sviss	s v ɪ sː
 sviss	s v ɪ sː
 svissneskur	s v ɪ sː t n ɛ s k ʏ r
 sviti	s v ɪː t ɪ
@@ -8128,7 +8061,6 @@ tak	tʰ aː k
 taka	tʰ aː k a
 tal	tʰ aː l
 tala	tʰ aː l a
-tala	tʰ aː l a
 talenta	tʰ a l ɛ n̥ t a
 talmynd	tʰ a l m ɪ n t
 talsmaður	tʰ a l s m aː ð ʏ r
@@ -8136,8 +8068,8 @@ tamur	tʰ aː m ʏ r
 tangi	tʰ a u ɲ c ɪ
 tankur	tʰ a u ŋ̊ k ʏ r
 tankur	tʰ a ŋ̊ k ʏ r
-tannhvalur	tʰ a nː xʷ aː l ʏ r
 tannhvalur	tʰ a nː kʰ v aː l ʏ r
+tannhvalur	tʰ a nː xʷ aː l ʏ r
 tanta	tʰ a n̥ t a
 tap	tʰ aː p
 tapa	tʰ aː p a
@@ -8409,7 +8341,6 @@ tætingur	tʰ a iː t i ŋ k ʏ r
 tætla	tʰ a i h t l a
 té	tʰ j ɛː
 tékki	tʰ j ɛ h c ɪ
-tékki	tʰ j ɛ h c ɪ
 tékkland	t j ɛ h k l a n t
 tékkneska	tʰ j ɛ h k n ɛ s k a
 tékkneskur	tʰ j ɛ h k n ɛ s k ʏ r
@@ -8442,8 +8373,8 @@ tíðni	tʰ i ð n ɪ
 tíður	tʰ iː ð ʏ r
 tó	tʰ o uː
 tóbak	tʰ o uː p aː k
-tófa	tʰ o uː v a
 tófa	tʰ o uː a
+tófa	tʰ o uː v a
 tófugras	tʰ o uː v ʏ k r aː s
 tól	tʰ o uː l
 tólg	tʰ o u l k
@@ -8505,8 +8436,8 @@ ufsi	ʏ f s ɪ
 ugga	ʏ kː a
 uggur	ʏ kː ʏ r
 ugla	ʏ k l a
-ull	ʏ t l
 ull	ʏ lː
+ull	ʏ t l
 umbrot	ʏ m p r ɔː t
 umdeildur	ʏ m t e i l t ʏ r
 umdæmi	ʏ m t a iː m ɪ
@@ -8540,15 +8471,14 @@ undrabarn	ʏ n t r a p a r t n
 undrun	ʏ n t r ʏ n
 undur	ʏ n t ʏ r
 ungi	u ŋ k ɪ
-unglingur	u ŋ l i ŋ k ʏ r
 unglingur	u ŋ k l i ŋ k ʏ r
+unglingur	u ŋ l i ŋ k ʏ r
 ungur	u ŋ k ʏ r
 ungverska	u ŋ k v ɛ r̥ s k a
 unna	ʏ nː a
 unnar	ʏ nː aː r
 unndís	ʏ nː t iː s
 unndór	ʏ n t o uː r
-unnur	ʏ nː ʏ r
 unnur	ʏ nː ʏ r
 unnusta	ʏ nː ʏ s t a
 unnusti	ʏ nː ʏ s t ɪ
@@ -8573,8 +8503,8 @@ upptrekktur	ʏ h p tʰ r ɛ x t ʏ r
 urra	ʏ rː a
 urt	ʏ r̥ t
 urð	ʏ r ð
-uxi	ʏ x s ɪ
 uxi	ʏ k s ɪ
+uxi	ʏ x s ɪ
 v	v a fː
 vaf	v aː v
 vafagepill	v aː v a c ɛː p ɪ t l
@@ -8651,8 +8581,8 @@ vaskur	v a s k ʏ r
 vatnalilja	v a h t n a l ɪ l j a
 vatnsmelóna	v a sː m ɛː l o uː n a
 vatt	v a h t
-vax	v a x s
 vax	v a k s
+vax	v a x s
 vaxa	v a x s a
 vaða	v aː ð a
 vefa	v ɛː v a
@@ -8757,7 +8687,6 @@ vilhjálmía	v ɪ l ç a u l m iː j a
 vilhjálmína	v ɪ l ç a u l m iː n a
 vilja	v ɪ l j a
 vilji	v ɪ l j ɪ
-villa	v ɪ t l a
 villa	v ɪ lː a
 villa	v ɪ t l a
 villigöltur	v ɪ t l ɪ k œ l̥ t ʏ r
@@ -8776,8 +8705,8 @@ vindur	v ɪ n t ʏ r
 vindverskur	v ɪ n t v ɛ r̥ s k ʏ r
 vingull	v i ŋ k ʏ t l
 vinka	v i ŋ̊ k a
-vinkona	v ɪ ŋ kʰ ɔː n a
 vinkona	v i ŋ kʰ ɔː n a
+vinkona	v ɪ ŋ kʰ ɔː n a
 vinna	v ɪ nː a
 vinnukona	v ɪ nː ʏ kʰ ɔː n a
 vinnumaður	v ɪ nː ʏ m aː ð ʏ r
@@ -8870,11 +8799,9 @@ vígja	v iː j a
 vígvöllur	v i ɣ v œ t l ʏ r
 vígður	v i ɣ ð ʏ r
 vík	v iː k
-vík	v iː k
 víkingur	v iː c i ŋ k ʏ r
 víkja	v iː c a
 víma	v iː m a
-vín	v iː n
 vín	v iː n
 vínandi	v iː n a n t ɪ
 vínarborg	v iː n a r p ɔ r k
@@ -8888,11 +8815,10 @@ vísifingur	v iː s ɪ f i ŋ k ʏ r
 vísigreifi	v iː s ɪ k r e iː v ɪ
 víst	v i s t
 víti	v iː t ɪ
-víxl	v i x s t l
 víxl	v i k s t l
+víxl	v i x s t l
 víða	v iː ð a
 víðfrægur	v i ð f r a iː ɣ ʏ r
-víðir	v iː ð ɪ r
 víðir	v iː ð ɪ r
 víður	v iː ð ʏ r
 víóla	v iː j o uː l a
@@ -8910,7 +8836,6 @@ vöndur	v œ n t ʏ r
 vör	v œː r
 vörn	v œ r t n
 vörumerki	v œː r ʏ m ɛ r̥ c ɪ
-vörður	v œ r ð ʏ r
 vörður	v œ r ð ʏ r
 vöxtur	v œ k s t ʏ r
 vöxtur	v œ x s t ʏ r
@@ -8992,9 +8917,9 @@ zóphonías	s o uː f ɔː n iː j a s
 álma	a u l m a
 álmur	a u l m ʏ r
 áminna	a uː m ɪ nː a
-án	a uː n
 án	a u n
 án	a u n ð ɛ s
+án	a uː n
 ánamaðkur	a uː n a m a θ k ʏ r
 ánægja	a uː n a iː j a
 ánægjulegur	a uː n a i j ʏ l ɛː ɣ ʏ r
@@ -9011,7 +8936,6 @@ zóphonías	s o uː f ɔː n iː j a s
 áreynsla	a uː r e i n s t l a
 ári	a uː r ɪ
 árlegur	a uː r l ɛ ɣ ʏ r
-árna	a u r t n a
 árna	a u r t n a
 árni	a u r t n ɪ
 árni	a u t n ɪ
@@ -9067,7 +8991,6 @@ zóphonías	s o uː f ɔː n iː j a s
 æfing	a iː v i ŋ k
 ægilegur	a iː j ɪ l ɛː ɣ ʏ r
 ægir	a iː j ɪ r
-ægir	a iː j ɪ r
 ægja	a iː j a
 æja	a iː j a
 æki	a iː c ɪ
@@ -9120,10 +9043,10 @@ zóphonías	s o uː f ɔː n iː j a s
 íslam	iː s t l aː m
 ísland	i s t l a n t
 íslendingur	i s t l ɛ n t i ŋ k ʏ r
-íslenska	iː s l ɛ n s k a
 íslenska	i s t l ɛ n s k a
-íslenskur	iː s l ɛ n s k ʏ r
+íslenska	iː s l ɛ n s k a
 íslenskur	i s t l ɛ n s k ʏ r
+íslenskur	iː s l ɛ n s k ʏ r
 ísmael	iː s m aː ɛː l
 ísmoli	iː s m ɔː l ɪ
 íspinni	iː s pʰ ɪ nː ɪ
@@ -9259,7 +9182,6 @@ zóphonías	s o uː f ɔː n iː j a s
 örlítill	œ r l iː t ɪ t l
 örlög	œ r l œː ɣ
 örn	œ r t n
-örn	œ r t n
 örva	œ r v a
 örvamælir	œ r v a m a iː l ɪ r
 örvun	œ r v ʏ n
@@ -9333,7 +9255,6 @@ zóphonías	s o uː f ɔː n iː j a s
 ýsa	iː s a
 ýta	iː t a
 þ	θ
-þ	θ
 þagna	θ a k n a
 þak	θ aː k
 þakka	θ a h k a
@@ -9350,9 +9271,9 @@ zóphonías	s o uː f ɔː n iː j a s
 þarfur	θ a r v ʏ r
 þari	θ aː r ɪ
 þarmur	θ a r m ʏ r
+þarna	θ a r n a
 þarna	θ a r t n a
 þarna	θ a t n a
-þarna	θ a r n a
 þaðan	θ aː ð a n
 þeba	θ ɛː p a
 þefa	θ ɛː v a
@@ -9496,7 +9417,6 @@ zóphonías	s o uː f ɔː n iː j a s
 þröng	θ r ø y ŋ k
 þröngur	θ r ø y ŋ k ʏ r
 þröstur	θ r œ s t ʏ r
-þröstur	θ r œ s t ʏ r
 þrútna	θ r u h t n a
 þrúður	θ r uː ð ʏ r
 þrýsta	θ r i s t a
@@ -9550,7 +9470,6 @@ zóphonías	s o uː f ɔː n iː j a s
 þyrla	θ ɪ r t l a
 þyrluvöllur	θ ɪ r t l ʏ v œ t l ʏ r
 þyrma	θ ɪ r m a
-þyrnir	θ ɪ r t n ɪ r
 þyrnir	θ ɪ r t n ɪ r
 þyrnóttur	θ ɪ r t n o u h t ʏ r
 þyrping	θ ɪ r̥ p i ŋ k

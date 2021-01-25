@@ -3,7 +3,7 @@
 
 [`scrape.py`](scrape.py) calls WikiPron's scraping functions on all Wiktionary
 languages with over 100 entries. If a `.phones` file is present for a given language,
-the process will generate an additional file filtered to only containing the permitted
+the process will generate an additional filtered file only containing the permitted
 phones/phonemes.
 [`generate_summary.py`](generate_summary.py) generates a
 [README](../README.md) and a [TSV](../languages_summary.tsv) with selected
@@ -67,8 +67,5 @@ languages:
     `main()` (using an ISO formatted string) to the date of the original big
     scrape run - which can be found in the messages logged to the console or in
     `scraping.log`.
-3.  Run [`scrape.py`](scrape.py).
-4.  Run [`postprocess`](postprocess).
-5.  Run [`generate_summary.py`](generate_summary.py).
-
-Steps 1-3 can be repeated until you have successfully scraped all languages.
+3.  Run [`postprocess`](postprocess).
+4.  Run [`generate_summary.py`](generate_summary.py).
