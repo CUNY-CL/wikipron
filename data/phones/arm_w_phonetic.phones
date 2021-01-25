@@ -46,6 +46,12 @@ h
 l
 j
 ɾ
+# Western Armenian doesn't have phonemic voiceless unaspirated stops. But the hy-pron script generetes unaspirated consonants after the /s/ segment 
+p
+t
+k
+t͡s
+t͡ʃ
 #
 # Past errors: some instances of [χ] were incorrectly transcribed as [x].
 # Past errors: some affricates were missing a tie-bar.
@@ -74,15 +80,23 @@ lː
 ɾː
 #
 # As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have 
-# following long consonants:
+# following long consonants.
+t͡ʃʰː
 d͡zː
 d͡ʒː
 ʒː
 hː
 jː
-# This is just an accidental gap. The above long consonants can exist in Armenian. 
-# At some point in the future, the Armenian users might add some entries which contain 
-# these sequences.
+#  Note that the voiceless unaspirated consonants are only possible as allophones
+# in very restricted contexts:
+pː
+tː
+kː
+t͡sː
+t͡ʃː
+# These are all just an accidental gap. The above long consonants can exist in theory
+# exist in Armenian. At some point in the future, the Armenian users might add some 
+# entries which contain these sequences.
 #
 # Western Armenian's phoneme inventory differs from Eastern Armenian in the following way:
 # 1) Eastern Armenian has a trill grapheme ռ and a flap grapheme ր. In Western Armenian,
