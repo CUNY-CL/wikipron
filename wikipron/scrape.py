@@ -6,6 +6,8 @@ import pkg_resources
 import requests
 import requests_html
 
+import time
+
 from wikipron.config import Config
 from wikipron.typing import Iterator, WordPronPair, Pron
 
@@ -110,6 +112,8 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             requests.exceptions.Timeout,
             requests.exceptions.ConnectionError,
         ):
-            # Log something?
+            # Should log the sortkey, just for testing purposes.
+            print("RESTARTED", config.restart_key)
             config.restarted = True
+            time.sleep(60)
             continue
