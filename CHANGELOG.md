@@ -73,6 +73,7 @@ Unreleased
 
 #### Changed
 
+-   Edited the arm_e_phonetic.phones and arm_w_phonetic.phones files. (\#298)
 -   Improved printing in the README table. (\#145)
 -   Renamed data directory `data`. (\#147)
 -   Split `may` into Latin and Arabic files. (\#164)
