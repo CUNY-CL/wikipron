@@ -1,4 +1,5 @@
 aba	âː ɓ a
+abo	âː ɓ o
 amafutha	á m á f ûː tʰ a
 amandla	á m áːⁿ d̥ ɮ a̤
 amanzi	á m âːⁿ d̥ z i̤
@@ -9,14 +10,18 @@ amkela	a m̩ k eː l a
 apha	áː pʰ a
 apho	áː pʰ o
 bona	ɓ oː n á
+bona	ɓ oː n á
 caca	k ǀ aː k ǀ a
 chunuba	k ǀʰ ú n úː ɓ a
 cwaka	k ǀʷ aː k a
 eli	êː l i
 elo	êː l o
 esi	êː s i
+eso	êː s o
 ewe	eː w é
 ezi	êː z̥ i̤
+ezi	êː z̥ i̤
+ezo	êː z̥ o̤
 ezo	êː z̥ o̤
 fa	f á
 funa	f ûː n a
@@ -31,6 +36,7 @@ gqusha	ɡ̊ ǃ ṳː ʃ a
 gxaleka	ɡ̊ ǁ ǎ̤ l eː k a
 gxotha	ɡ̊ ǁ o̤ː tʰ a
 hayi	ɦ ǎ̤ː j i
+hlanza	ɬ áːⁿ d̥ z a̤
 hleka	ɬ eː k a
 hlonipha	ɬ o n iː pʰ a
 ibala	í ɓ âː l a
@@ -57,6 +63,7 @@ icici	í k ǀ íː k ǀ í
 idada	í d̥ a̤ː d̥ a̤
 idinala	í d̥ ǐ̤ n aː l a
 idolo	í d̥ o̤ː l o
+idolophu	í d̥ ǒ̤ l oː pʰ u
 idyasi	í ɟ a̤ː s i
 idzedze	í d̥ z e̤ː d̥ z e̤
 ifama	í f áː m a
@@ -76,6 +83,7 @@ igqwetha	í ɡ̊ ǃʷ e̤ː tʰ á
 igqwirha	í ɡ̊ ǃʷ ǐ̤ː x a
 igqwirhakazi	í ɡ̊ ǃʷ ǐ̤ x á k aː z̥ i̤
 igumbi	í ɡ̊ ṳːᵐ b̥ ǐ̤
+igunya	í ɡ̊ ṳ᷈ː ɲ a
 igusha	í ɡ̊ ṳː ʃ a
 igwala	í ɡ̊ʷ a̤ː l á
 igwebu	í ɡ̊ʷ e̤ː ɓ u
@@ -98,6 +106,8 @@ ikhabhathi	í kʰ á b̥ a̤ː tʰ i
 ikhaphetshu	í kʰ á pʰ eː t ʃʰ u
 ikhaya	í kʰ âː j a
 ikhitshi	í kʰ iː t ʃʰ i
+ikhuba	í kʰ uː ɓ a
+ikhulu	í kʰ ûː l u
 ikhwapha	í kʰʷ aː pʰ á
 ikofu	í k óː f u
 ikomityi	í k o m íː c i
@@ -215,6 +225,7 @@ inkcazelo	í ŋ ǀˀ á z̥ e̤ː l o
 inkcazo	í ŋ ǀˀ aː z̥ o̤
 inkcitho	í ŋ ǀˀ iː tʰ o
 inkomo	íᵑ k oː m ó
+inkosana	íᵑ k ó s âː n a
 inkosi	íᵑ k ôː s i
 inkosikazi	íᵑ k ó s í k aː z̥ i̤
 inkqantosi	í ŋ ǃˀ áⁿ t óː s i
@@ -237,6 +248,7 @@ inqawa	í ŋ ǃ áː w a
 inqina	í ŋ ǃ í n a
 inqwelo	í ŋ ǃʷ éː l o
 intaba	íⁿ t aː ɓ a
+intaba	í i n t a b a
 intaka	íⁿ t aː k a
 intakumba	íⁿ t á k uːᵐ b̥ ǎ̤
 intambo	íⁿ t aːᵐ b̥ o̤
@@ -256,6 +268,7 @@ intombazana	íⁿ t oᵐ b̥ a̤ z̥ a̤᷈ː n a
 intombi	íⁿ t oːᵐ b̥ ǐ̤
 intonga	íⁿ t ôːᵑ ɡ̊ a̤
 intshonalanga	íᶮ t ʃ ó n áː l aᵑ ɡ̊ a̤
+intshumayelo	íᶮ t ʃ ú m á j eː l o
 intsimbi	íⁿ t s îːᵐ b̥ i̤
 intsimi	íⁿ t s îː m i
 intso	íːⁿ t͡s ó
@@ -265,6 +278,7 @@ intyafo	íᶮ c aː f o
 intyatyambo	íᶮ c á c áːᵐ b̥ o̤
 inxanxadi	í ŋ ǁ á ŋ ǁ áː d̥ i̤
 inxeba	í ŋ ǁ eː ɓ a
+inxele	í ŋ ǁ êː l e
 inyama	í ɲ aː m a
 inyamakazi	í ɲ á m á k aː z̥ i̤
 inyanga	í ɲ aːᵑ ɡ̊ ǎ̤
@@ -293,11 +307,14 @@ iqela	í k ǃ éː l a
 iqhina	í k ǃʰ îː n a
 iqhosha	í k ǃʰ oː ʃ a
 iqunube	í k ǃ u n úː ɓ e
+irandi	í r áːⁿ d̥ i̤
 irhafu	í x áː f u
-irhali	í x aː l i
+irhali	í x áː l i
 irhamba	í x aːᵐ b̥ a̤
 irhanuga	í x á n uː ɡ̊ ǎ̤
 irhasi	í x áː s i
+irhorho	í x oː x ó
+irhorho	í x óː x o
 isandla	í s áːⁿ d̥ ɮ a̤
 isando	í s áːⁿ d̥ o̤
 isela	í s éː l a
@@ -321,6 +338,7 @@ isihlangu	í s í ɬ aːᵑ ɡ ṳ̌
 isihloko	í s í ɬ ôː k o
 isikere	í s í k éː r e
 isikhephe	í s í kʰ éː pʰ e
+isikhukukazi	í s í kʰ ú k ú k aː z̥ i̤
 isikhumba	í s í kʰ uːᵐ b̥ a̤
 isilevu	í s í l eː v̥ ṳ
 isileyi	í s í l éː j i
@@ -369,9 +387,10 @@ itapile	í t á p iː l e
 itawuli	í t á w uː l i
 ithambo	í tʰ âːᵐ b̥ o̤
 ithandazwe	í tʰ áⁿ d̥ ǎ̤ː z̥ʷ e̤
-ithanga	í tʰ aːᵑ ɡ̊ a̤
 ithanga	í tʰ aːᵑ ɡ̊ ǎ̤
+ithanga	í tʰ aːᵑ ɡ̊ a̤
 ithole	í tʰ oː l e
+ithuba	í tʰ uː ɓ a
 ithumbu	í tʰ uːᵐ b̥ ṳ
 ithunga	í tʰ ûːᵑ ɡ̊ a̤
 iti	íː t í
@@ -387,6 +406,7 @@ ivumba	í v̥ ṳːᵐ b̥ a̤
 iwayini	í w á j iː n i
 ixabiso	í k ǁ á ɓ íː s o
 ixesha	í k ǁ éː ʃ a
+ixetsha	í k ǁ éː t ʃʰ a
 ixhego	í k ǁʰ eː ɡ̊ o̤
 ixhegokazi	í k ǁʰ é ɡ̊ ǒ̤ k aː z̥ i̤
 ixoxo	í k ǁ oː k ǁ o
@@ -404,8 +424,15 @@ khulu	kʰ ûː l u
 lala	l áː l a
 langaza	l aᵑ ɡ̊ ǎ̤ː z̥ a̤
 le	l é
+le	l é
 lenga	l eːᵑ ɡ̊ a̤
+leya	l é j âː
+leya	l é j âː
+leyo	l éː j o
+leyo	l éː j o
 lo	l ó
+lo	l ó
+loo	l ôː
 loo	l ôː
 luhlaza	l u ɬ aː z̥ a̤
 luma	l uː m a
@@ -424,6 +451,8 @@ ngoko	ᵑɡ̊ o̤᷈ː k o
 ngoku	ᵑɡ̊ o̤᷈ː k u
 ngomso	ᵑɡ̊ ǒ̤ m̩ː s ó
 ngqengqa	ŋ ǃ e̤ː ŋ ǃ a̤
+ngxama	ŋ ǁ a̤ː m a
+ngxola	ŋ ǁ o̤ː l a
 nkcunkca	ŋ ǀˀ uː ŋ ǀˀ a
 nkqo	ŋ ǃˀ ó
 nqetha	ŋ ǃ eː tʰ a
@@ -435,6 +464,8 @@ nxula	ŋ ǁ uː l a
 obo	ôː ɓ o
 obu	ôː ɓ u
 oko	ôː k o
+oko	ôː k o
+oku	ôː k u
 oku	ôː k u
 olo	ôː l o
 olu	ôː l u
@@ -465,6 +496,7 @@ tsiba	t s îː ɓ a
 tya	c á
 tyisa	c íː s a
 ubambo	ú ɓ aːᵐ b̥ o̤
+ubawo	ú ɓ aː w ó
 ubawomkhulu	ú ɓ a w ó m̩ kʰ ûː l u
 ubhejane	ú b̥ ě̤ d̥ ʒ a̤ː n e
 ubhuti	ú b̥ ṳː t í
@@ -507,6 +539,7 @@ ugxa	úː ɡ̊ ǁ a̤
 uhambo	ú ɦ ǎ̤ᵐ b̥ o̤
 ukhophe	ú kʰ ôː pʰ e
 ukhuko	ú kʰ ûː k o
+ukhula	ú kʰ uː l a
 ukrebe	ú k x êː ɓ e
 ukubulala	ú k ú ɓ ú l áː l a
 ukucula	ú k ú k ǀ uː l a
@@ -516,6 +549,7 @@ ukuhleka	ú k ú ɬ eː k a
 ukukhetha	ú k ú kʰ eː tʰ a
 ukulima	ú k ú l iː m a
 ukulwa	ú k úː lʷ a
+ukunene	ú k ú n êː n e
 ukungcola	ú k ú ŋ ǀ o̤ː l a
 ukuphela	ú k ú pʰ éː l a
 ukuqala	ú k ú k ǃ âː l a
@@ -571,8 +605,8 @@ umgubo	ú ḿ̩ ɡ̊ ṳ᷈ː ɓ o
 umgxobhozo	ú ḿ̩ ɡ̊ ǁ ǒ̤ b̥ o̤ː z̥ o̤
 umhambi	ú ḿ̩ ɦ ǎ̤ːᵐ b̥ i̤
 umhla	ú m̩̂ː ɬ a
-umhlaba	ú ḿ̩ ɬ aː ɓ a
 umhlaba	ú ḿ̩ ɬ âː ɓ a
+umhlaba	ú ḿ̩ ɬ aː ɓ a
 umhlakulo	ú ḿ̩ ɬ á k uː l o
 umhlali	ú ḿ̩ ɬ aː l i
 umhlana	ú ḿ̩ ɬ aː n á
@@ -595,9 +629,13 @@ umndeni	ú ḿ̩ⁿ d̥ e̤ː n i
 umnga	ú ḿ̩ːᵑ ɡ̊ a̤
 umngcwabo	ú ḿ̩ ŋ ǀʷ a̤ː ɓ o
 umngqusho	ú ḿ̩ ŋ ǃ ṳ̌ː ʃ o
+umngxuma	ú ḿ̩ ŋ ǁ ṳː m a
+umnqamlezo	ú ḿ̩ ŋ ǃ á ḿ̩ l eː z̥ o̤
 umnqonqo	ú ḿ̩ ŋ ǃ oː ŋ ǃ o
 umnqwazi	ú ḿ̩ ŋ ǃʷ aː z̥ i̤
 umnqweno	ú ḿ̩ ŋ ǃʷ eː n o
+umntru	ú ḿ̩ːⁿ tʳ u
+umntrwana	ú ḿ̩ːⁿ tʳʷ aː n a
 umntu	ú ḿ̩ːⁿ t u
 umntwana	ú ḿ̩ⁿ tʷ aː n a
 umnwe	ú ḿ̩ː nʷ e
@@ -658,10 +696,12 @@ unonkala	ú n óᵑ k aː l a
 unoposi	ú n ó p óː s i
 unwele	ú nʷ éː l e
 unxano	ú ŋ ǁ âː n o
+unxweme	ú ŋ ǁʷ eː m é
 unyana	ú ɲ âː n a
 unyawo	ú ɲ aː w o
 unyoko	ú ɲ oː k o
 uphondo	ú pʰ oːⁿ d̥ o̤
+uqhekezo	ú k ǃʰ é k eː z̥ o̤
 uqhoqhoqho	ú k ǃʰ ó k ǃʰ oː k ǃʰ o
 uqongqothwane	ú k ǃ ó ŋ ǃ o̤ tʰʷ aː n é
 urhanisi	ú x á n íː s i
@@ -670,6 +710,7 @@ urhwebo	ú xʷ eː ɓ o
 usana	ú s áː n a
 usapho	ú s âː pʰ o
 usiba	ú s îː ɓ a
+usibonda	ú s í ɓ oːⁿ d̥ a̤
 usisi	ú s iː s í
 usuku	ú s ûː k u
 uswazi	ú sʷ aː z̥ i̤
@@ -696,4 +737,5 @@ xhwaleka	k ǁʰʷ a l eː k a
 xobula	k ǁ ó ɓ uː l a
 xoza	k ǁ oː z̥ a̤
 za	z̥ a̤
+zala	z̥ a̤ː l a
 zala	z̥ a̤ː l a

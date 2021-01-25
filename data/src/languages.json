@@ -195,6 +195,7 @@
         "iso639_name": "Yue Chinese",
         "wiktionary_name": "Cantonese",
         "wiktionary_code": "yue",
+        "skip_spaces_pron": false,
         "casefold": false
     },
     "crx": {
