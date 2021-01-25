@@ -107,7 +107,6 @@ argón	a r ɡ ɔː n
 aristoteles	a r i s t ɔ t ɛ l ɛ s
 arménsko	a r m ɛː n s k ɔ
 arménčina	a r m ɛː n t͡ʃ i n a
-arno	a r n ɔ
 arnold	a r n ɔ l d
 arpád	a r p aː t
 artritída	a r t r i t iː d a
@@ -300,7 +299,6 @@ byť	b i c
 báb	b aː p
 bábika	b aː b i k a
 bábka	b aː b k a
-bábok	b aː b ɔ k
 bárium	b aː r i u m
 báseň	b aː s ɛ ɲ
 básnik	b aː s ɲ i k
@@ -472,6 +470,7 @@ desať	ɟ ɛ s a c
 desiaty	ɟ ɛ s i̯ a t i
 determinant	d ɛ t ɛ r m i n a n t
 deti	ɟ ɛ c i
+detstvo	ɟ ɛ t͡s t v ɔ
 detí	ɟ ɛ c iː
 deva	ɟ ɛ v a
 deviaty	ɟ ɛ v i̯ a t i
@@ -552,9 +551,9 @@ drahoslav	d r a ɦ ɔ s ɫ a u̯
 drahoslava	d r a ɦ ɔ s ɫ a v a
 drahoš	d r a ɦ ɔ ʃ
 drahuša	d r a h u ʃ a
-drahý	d r a ɦ iː
 draslík	d r a s l iː k
 drevo	d r ɛ v ɔ
+driev	d r i̯ e u̯
 drozd	d r ɔ s t
 drozdí	d r ɔ z ɟ iː
 druhý	d r u ɦ iː
@@ -906,7 +905,6 @@ hnutí	ɦ n u c iː
 hoci	ɦ ɔ t͡s i
 hod	ɦ ɔ t
 hodina	ɦ ɔ ɟ i n a
-hodváb	ɦ ɔ d v aː p
 hodža	h ɔ d͡ʒ a
 hodža	ɦ ɔ d͡ʒ a
 hodžová	h ɔ d͡ʒ ɔ v aː
@@ -977,7 +975,6 @@ hruď	ɦ r u c
 hruška	ɦ r u ʃ k a
 hrôza	ɦ r u̯ ɔ z a
 hrýzť	ɦ r iː s c
-huba	ɦ u b a
 hubert	ɦ u b ɛ r t
 hudba	ɦ u d b a
 hugo	ɦ u ɡ ɔ
@@ -1039,7 +1036,6 @@ islandčina	i s l a n d t͡ʃ i n a
 istý	i s t iː
 ivan	i v a n
 ivana	i v a n a
-iveta	i v ɛ t a
 ivica	i v i t͡s a
 ivona	i v ɔ n
 iza	i z a
@@ -1313,7 +1309,6 @@ konár	k ɔ n aː r
 končiť	k ɔ n t͡ʃ i c
 konštantín	k ɔ n ʃ t a n t iː n
 kopa	k ɔ p a
-kopať	k ɔ p a c
 kopernikium	k ɔ p ɛ r n i k i u m
 kopija	k ɔ p i j a
 kopije	k ɔ p i j ɛ
@@ -1360,13 +1355,19 @@ kraj	k r a j
 kraje	k r a j e
 kraji	k r a j i
 krajina	k r a j i n a
+krajinami	k r a j i n a m i
+krajine	k r a j i ɲ e
 krajinou	k r a j i n o u̯
 krajinu	k r a j i n u
+krajiny	k r a j i n i
+krajinách	k r a j i n aː x
+krajinám	k r a j i n aː m
 krajmi	k r a j m i
 krajoch	k r a j o x
 krajom	k r a j o m
 krajov	k r a j o u̯
 kraju	k r a j u
+krajín	k r a j iː n
 krajčír	k r a j t͡ʃ iː r
 krakov	k r a k o u̯
 krava	k r a v a
@@ -1427,7 +1428,6 @@ kupola	k u p ɔ ɫ a
 kupovať	k u p ɔ v a c
 kura	k u r a
 kurence	k u r ɛ n t͡s ɛ
-kuriatko	k u r i̯ a t k ɔ
 kurva	k u r v a
 kurča	k u r t͡ʃ a
 kus	k u s
@@ -1462,7 +1462,6 @@ kôš	k u̯ o ʃ
 kúpeľ	k uː p ɛ ʎ
 kúpiť	k uː p i c
 kúty	k uː t i
-kýchať	k iː x a c
 kýl	k iː ɫ
 kým	k iː m
 kľuka	k ʎ u k a
@@ -1470,7 +1469,6 @@ kľúč	k ʎ uː t͡ʃ
 kľúčik	k ʎ uː t͡ʃ i k
 kňaz	k ɲ a s
 kŕdeľ	k r̩ː ɟ ɛ ʎ
-kŕmiť	k r̩ m i c
 labe	ɫ a b ɛ
 labutí	ɫ a b u c iː
 labuť	ɫ a b u c
@@ -1790,7 +1788,6 @@ mudrc	m u d r̩ t͡s
 murár	m u r aː r
 musieť	m u s i̯ ɛ c
 muška	m u ʃ k a
-muž	m u ʃ
 muži	m ʊ ʒ ɪ
 mužský	m u ʃ s k iː
 my	m i
@@ -2177,7 +2174,7 @@ plukovník	p ɫ u k ɔ v ɲ iː k
 plutónium	p ɫ u t ɔː n i u m
 plzeň	p ɫ̩ z ɛ ɲ
 plávať	p ɫ aː v a c
-pláž	p ɫ aː ʃ
+pláž	p l aː ʃ
 pneumatika	p n ɛ u m a t i k a
 pochodovať	p ɔ x ɔ d ɔ v a c
 pod	p ɔ t
@@ -2370,7 +2367,6 @@ púšť	p uː ʃ c
 pýcha	p iː x a
 pľuť	p ʎ u c
 pľúca	p ʎ uː t͡s a
-pŕhľava	p r̩ː ɦ ʎ a v a
 pŕhľavka	p r̩ː ɦ ʎ a u̯ k a
 pšenica	p ʃ ɛ ɲ i t͡s a
 pšenice	p ʃ ɛ ɲ i t͡s ɛ
@@ -2402,7 +2398,6 @@ rené	r ɛ n ɛː
 republika	r ɛ p u b l i k a
 revue	r ɛ v y
 rezance	r ɛ z a n t͡s ɛ
-rezať	r ɛ z a c
 reč	r ɛ t͡ʃ
 reštaurácia	r ɛ ʃ t a u̯ r aː t͡s i a
 riad	r i̯ a t
@@ -2498,6 +2493,7 @@ rúno	r uː n ɔ
 rút	r uː t
 rúčka	r uː t͡ʃ k a
 rúž	r uː ʃ
+rýchlosť	r iː x l ɔ s c
 rýchly	r iː x l i
 s	s
 sa	s a
@@ -3027,8 +3023,6 @@ utešený	u c ɛ ʃ ɛ n iː
 utorok	u t ɔ r ɔ k
 uzbek	u z b e k
 uzbekistan	u z b ɛ k i s t a n
-učiteľ	u t͡ʃ i c e lʲ
-učiteľka	u t͡ʃ i c e lʲ k a
 uško	u ʃ k ɔ
 ušnica	u ʃ ɲ i t͡s a
 užitočnosť	u ʒ i t ɔ t͡ʃ n ɔ s c
@@ -3076,7 +3070,6 @@ verejný	v ɛ r ɛ j n iː
 veronika	v ɛ r ɔ ɲ iː k a
 ves	ʋ e s
 vestibul	v ɛ s t i b u ɫ
-vetchý	v ɛ t x iː
 veternica	v ɛ c ɛ r ɲ i t͡s a
 vetva	v ɛ t v a
 veverica	v ɛ v ɛ r i t͡s a
@@ -3089,7 +3082,7 @@ veľmi	v ɛ ʎ m i
 veža	v ɛ ʒ a
 vežička	v ɛ ʒ i t͡ʃ k a
 viac	v i̯ a t͡s
-vianoce	v i̯ a n ɔ t͡s
+vianoce	v i̯ a n ɔ t͡s ɛ
 viať	v i̯ a c
 vidiecky	v i ɟ i̯ ɛ t͡s k i
 vidieť	v i ɟ i̯ ɛ c
@@ -3286,7 +3279,6 @@ zlo	z ɫ ɔ
 zlodej	z ɫ ɔ ɟ ɛ j
 zlí	z ɫ iː
 zlý	z ɫ iː
-zmena	z m ɛ n a
 zmes	z m ɛ s
 zmija	z m i j a
 zmluva	z m ɫ u v a
@@ -3595,7 +3587,6 @@ zľava	z ʎ a v a
 žid	ʒ i t
 žien	ʒ i̯ e n
 žigmund	ʒ i ɡ m u n d
-žihľava	ʒ i ɦ ʎ a v a
 žihľavka	ʒ i ɦ ʎ a u̯ k a
 žila	ʒ i ɫ a
 žiletka	ʒ i l ɛ t k a
@@ -3625,6 +3616,5 @@ zľava	z ʎ a v a
 žuvačka	ʒ u v a t͡ʃ k a
 žuvať	ʒ u v a c
 žíla	ʒ iː ɫ a
-žízeň	ʒ iː z ɛ ɲ
 žĺtkový	ʒ ɫ̩ː t k ɔ v iː
 žĺtok	ʒ ɫ̩ː t ɔ k

@@ -23,6 +23,12 @@
         "wiktionary_code": "af",
         "casefold": true
     },
+    "ain": {
+        "iso639_name": "Ainu (Japan)",
+        "wiktionary_name": "Ainu",
+        "wiktionary_code": "ain",
+        "casefold": true
+    },
     "alb": {
         "iso639_name": "Albanian",
         "wiktionary_name": "Albanian",
@@ -189,6 +195,7 @@
         "iso639_name": "Yue Chinese",
         "wiktionary_name": "Cantonese",
         "wiktionary_code": "yue",
+        "skip_spaces_pron": false,
         "casefold": false
     },
     "crx": {
@@ -207,6 +214,12 @@
         "iso639_name": "Cebuano",
         "wiktionary_name": "Cebuano",
         "wiktionary_code": "ceb",
+        "casefold": true
+    },
+    "che": {
+        "iso639_name": "Chechen",
+        "wiktionary_name": "Chechen",
+        "wiktionary_code": "ce",
         "casefold": true
     },
     "nya": {
@@ -404,6 +417,18 @@
         "wiktionary_code": "el",
         "casefold": true
     },
+    "kal": {
+        "iso639_name": "Kalaallisut",
+        "wiktionary_name": "Greenlandic",
+        "wiktionary_code": "kl",
+        "casefold": true
+    },
+    "guj": {
+        "iso639_name": "Gujarati",
+        "wiktionary_name": "Gujarati",
+        "wiktionary_code": "gu",
+        "casefold": false
+    },
     "afb": {
         "iso639_name": "Gulf Arabic",
         "wiktionary_name": "Gulf Arabic",
@@ -464,6 +489,12 @@
         "wiktionary_code": "io",
         "casefold": true
     },
+    "ilo": {
+        "iso639_name": "Iloko",
+        "wiktionary_name": "Ilocano",
+        "wiktionary_code": "ilo",
+        "casefold": true
+    },
     "ind": {
         "iso639_name": "Indonesian",
         "wiktionary_name": "Indonesian",
@@ -494,6 +525,12 @@
         "wiktionary_code": "it",
         "casefold": true
     },
+    "jam": {
+        "iso639_name": "Jamaican Creole English",
+        "wiktionary_name": "Jamaican Creole",
+        "wiktionary_code": "jam",
+        "casefold": true
+    },
     "jpn": {
         "iso639_name": "Japanese",
         "wiktionary_name": "Japanese",
@@ -522,6 +559,18 @@
         "wiktionary_code": "kbd",
         "casefold": true
     },
+    "kan": {
+        "iso639_name": "Kannada",
+        "wiktionary_name": "Kannada",
+        "wiktionary_code": "kn",
+        "casefold": false
+    },
+    "kas": {
+        "iso639_name": "Kashmiri",
+        "wiktionary_name": "Kashmiri",
+        "wiktionary_code": "ks",
+        "casefold": false
+    },
     "kaz": {
         "iso639_name": "Kazakh",
         "wiktionary_name": "Kazakh",
@@ -545,12 +594,6 @@
         "wiktionary_name": "Korean",
         "wiktionary_code": "ko",
         "casefold": false
-    },
-    "kur": {
-        "iso639_name": "Kurdish",
-        "wiktionary_name": "Kurdish",
-        "wiktionary_code": "ku",
-        "casefold": true
     },
     "kir": {
         "iso639_name": "Kirghiz",
@@ -621,6 +664,12 @@
         "wiktionary_code": "lij",
         "casefold": true
     },
+    "lif": {
+        "iso639_name": "Limbu",
+        "wiktionary_name": "Limbu",
+        "wiktionary_code": "lif",
+        "casefold": false
+    },
     "lim": {
         "iso639_name": "Limburgan",
         "wiktionary_name": "Limburgish",
@@ -637,6 +686,12 @@
         "iso639_name": "Liv",
         "wiktionary_name": "Livonian",
         "wiktionary_code": "liv",
+        "casefold": true
+    },
+    "lmo": {
+        "iso639_name": "Lombard",
+        "wiktionary_name": "Lombard",
+        "wiktionary_code": "lmo",
         "casefold": true
     },
     "nds": {
@@ -706,6 +761,12 @@
         "wiktionary_code": "gv",
         "casefold": true
     },
+    "mar": {
+        "iso639_name": "Marathi",
+        "wiktionary_name": "Marathi",
+        "wiktionary_code": "mr",
+        "casefold": false
+    },
     "mah": {
         "iso639_name": "Marshallese",
         "wiktionary_name": "Marshallese",
@@ -749,7 +810,7 @@
         "casefold": true
     },
     "okm": {
-        "iso639_name": "Korean, Middle (10th–16th centuries)",
+        "iso639_name": "Middle Korean (10th-16th cent.)",
         "wiktionary_name": "Middle Korean",
         "wiktionary_code": "okm",
         "casefold": false
@@ -805,6 +866,12 @@
         "wiktionary_code": "ary",
         "casefold": false
     },
+    "huu": {
+        "iso639_name": "Murui Huitoto",
+        "wiktionary_name": "Murui Huitoto",
+        "wiktionary_code": "huu",
+        "casefold": true
+    },
     "nmy": {
         "iso639_name": "Namuyi",
         "wiktionary_name": "Namuyi",
@@ -828,6 +895,18 @@
         "wiktionary_name": "Nepali",
         "wiktionary_code": "ne",
         "casefold": false
+    },
+    "new": {
+        "iso639_name": "Newari",
+        "wiktionary_name": "Newar",
+        "wiktionary_code": "new",
+        "casefold": false
+    },
+    "nrf": {
+        "iso639_name": "Jèrriais",
+        "wiktionary_name": "Norman",
+        "wiktionary_code": "nrf",
+        "casefold": true
     },
     "frr": {
         "iso639_name": "Northern Frisian",
@@ -869,12 +948,6 @@
         "wiktionary_name": "Norwegian",
         "wiktionary_code": "no",
         "casefold": true
-    },
-    "nep": {
-        "iso639_name": "Nepali (macrolanguage)",
-        "wiktionary_name": "Nepali",
-        "wiktionary_code": "ne",
-        "casefold": false
     },
     "oci": {
         "iso639_name": "Occitan (post 1500)",
@@ -922,12 +995,6 @@
         "iso639_name": "Old Norse",
         "wiktionary_name": "Old Norse",
         "wiktionary_code": "non",
-        "casefold": true
-    },
-    "opt": {
-        "iso639_name": "Old Portuguese; Galician-Portuguese (ca. 870-1400)",
-        "wiktionary_name": "Old Portuguese",
-        "wiktionary_code": "roa-opt",
         "casefold": true
     },
     "osx": {
@@ -979,6 +1046,12 @@
         "casefold": false,
         "skip_spaces_pron": false
     },
+    "phl": {
+        "iso639_name": "Phalura",
+        "wiktionary_name": "Phalura",
+        "wiktionary_code": "phl",
+        "casefold": true
+    },
     "pms": {
         "iso639_name": "Piemontese",
         "wiktionary_name": "Piedmontese",
@@ -995,6 +1068,18 @@
         "iso639_name": "Pitjantjatjara",
         "wiktionary_name": "Pitjantjatjara",
         "wiktionary_code": "pjt",
+        "casefold": true
+    },
+    "crk": {
+        "iso639_name": "Plains Cree",
+        "wiktionary_name": "Plains Cree",
+        "wiktionary_code": "crk",
+        "casefold": true
+    },
+    "pbv": {
+        "iso639_name": "Pnar",
+        "wiktionary_name": "Pnar",
+        "wiktionary_code": "pbv",
         "casefold": true
     },
     "pox": {
@@ -1059,6 +1144,12 @@
         "wiktionary_code": "sc",
         "casefold": true
     },
+    "stq": {
+        "iso639_name": "Saterfriesisch",
+        "wiktionary_name": "Saterland Frisian",
+        "wiktionary_code": "stq",
+        "casefold": true
+    },
     "sco": {
         "iso639_name": "Scots",
         "wiktionary_name": "Scots",
@@ -1110,6 +1201,12 @@
         "wiktionary_name": "Slovene",
         "wiktionary_code": "sl",
         "casefold": true
+    },
+    "ajp": {
+        "iso639_name": "South Levantine Arabic",
+        "wiktionary_name": "South Levantine Arabic",
+        "wiktionary_code": "ajp",
+        "casefold": false
     },
     "spa": {
         "iso639_name": "Spanish; Castilian",

@@ -221,6 +221,8 @@
 *excappō	e k s k a p p oː
 *excarminō	e k s k a r m i n oː
 *excorrigiata	e k s k o r r i ɡ i a t a
+*excurtāre	e k s k u r t aː r e
+*excurtō	e k s k u r t oː
 *exfortiō	e k s f o r t i oː
 *exfridō	e k s f r i d oː
 *expaventāre	e k s p a w e n t aː r e
@@ -328,6 +330,8 @@
 *mināciō	m i n aː k i oː
 *mināre	m i n aː r e
 *minō	m i n oː
+*minūtiāre	m i n uː t i aː r e
+*minūtiō	m i n uː t i oː
 *misculō	m i s k u l oː
 *montānia	m o n t aː n i a
 *montāre	m o n t aː r e
@@ -342,6 +346,7 @@
 *mulgere	m u l ɡ e r e
 *mulgō	m u l ɡ oː
 *murrum	m u r r u m
+*mustaceum	m u s t a k e u m
 *musō	m u s oː
 *māchināre	m aː kʰ i n aː r e
 *māchinō	m aː kʰ i n oː
@@ -502,6 +507,7 @@
 *versūra	w e r s uː r a
 *vestītūra	w e s t iː t uː r a
 *virdia	w i r d i a
+*virgella	w i r ɡ e l l a
 *voltāre	w o l t aː r e
 *voltō	w o l t oː
 *vēra	w eː r a
@@ -1935,6 +1941,7 @@ afflectō	a f f l e k t oː
 affleō	a f f l e oː
 affluēns	a f f l u e n s
 affluō	a f f l u oː
+afflātus	a f f l a t u s
 afflīctus	a f f l iː k t u s
 afflīgō	a f f l iː ɡ oː
 afflō	a f f l oː
@@ -3967,7 +3974,7 @@ augurō	a u̯ ɡ u r oː
 augusta	a u̯ ɡ u s t a
 augustobona	a u̯ ɡ u s t o b o n a
 augustobrīga	a u̯ ɡ u s t o b r iː ɡ a
-augustodūrum	a u̯ ɡ u s t o d uː r u m
+augustodurum	a u̯ ɡ u s t o d u r u m
 augustonemetum	a u̯ ɡ u s t o n e m e t u m
 augustoritum	a u̯ ɡ u s t o r i t u m
 augustus	a u̯ ɡ u s t u s
@@ -4265,6 +4272,15 @@ balistārius	b a l i s t aː r i u s
 balistās	b a l i s t aː s
 balla	b a l l a
 ballaena	b a l l a e̯ n a
+ballante	b a l l a n t e
+ballantem	b a l l a n t e m
+ballantia	b a l l a n t i a
+ballantibus	b a l l a n t i b u s
+ballantis	b a l l a n t i s
+ballantis	b a l l a n t iː s
+ballantium	b a l l a n t i u m
+ballantēs	b a l l a n t eː s
+ballantī	b a l l a n t iː
 ballet	b a l l e t
 ballista	b a l l i s t a
 ballista	b a l l i s t aː
@@ -5431,6 +5447,7 @@ callipetalon	k a l l i p e t a l o n
 callirhoē	k a l l i r o eː
 callirrhoē	k a l l i r r o eː
 callis	k a l l i s
+callistō	k a l l i s t oː
 callium	k a l l i u m
 callum	k a l l u m
 callōsitās	k a l l oː s i t aː s
@@ -6533,6 +6550,11 @@ chīrūrgia	kʰ iː r uː r ɡ i a
 chīrūrgia	kʰ iː r uː r ɡ i aː
 chīrūrgius	kʰ iː r uː r ɡ i u s
 chīrūrgus	kʰ iː r uː r ɡ u s
+chīum	kʰ i u m
+chīum	kʰ iː u m
+chīus	kʰ iː u s
+chīī	kʰ i iː
+chīī	kʰ iː iː
 chōbus	kʰ oː b u s
 chȳlus	kʰ yː l u s
 chȳmus	kʰ yː m u s
@@ -7375,7 +7397,6 @@ complētōrĭum	k o m p l eː t oː r i u m
 complōdō	k o m p l oː d oː
 complōrō	k o m p l oː r oː
 complūtum	k o m p l uː t u m
-componō	k o m p o n oː
 comportō	k o m p o r t oː
 compos	k o m p o s
 composite	k o m p o s i t e
@@ -7437,6 +7458,7 @@ compēnsō	k o m p e n s oː
 compīlātiō	k o m p iː l aː t i oː
 compīlātor	k o m p iː l aː t o r
 compīlō	k o m p iː l oː
+compōnō	k o m p oː n oː
 compūnctiō	k o m p uː n k t i oː
 comāna	k o m aː n a
 comātius	k o m aː t i u s
@@ -8029,6 +8051,7 @@ corrūda	k o r r uː d a
 corrūgō	k o r r uː ɡ oː
 corsa	k o r s a
 corsa	k o r s aː
+corsica	k o r s i k a
 corsoīdēs	k o r s o iː d eː s
 corsus	k o r s u s
 corterātē	k o r t e r aː t eː
@@ -9173,6 +9196,7 @@ cȳzicus	k yː z z i k u s
 dabitha	d a b i tʰ a
 dabla	d a b l a
 dabrona	d a b r o n a
+dacrima	d a k r i m a
 dactylicus	d a k t y l i k u s
 dactylifer	d a k t y l i f e r
 dactylus	d a k t y l u s
@@ -9727,6 +9751,17 @@ dissonō	d i s s o n oː
 dissupō	d i s s u p oː
 dissuādeō	d i s s w aː d e oː
 dissuō	d i s s u oː
+dissēminandō	d i s s eː m i n a n d oː
+dissēminem	d i s s eː m i n e m
+dissēminā	d i s s eː m i n aː
+dissēminārem	d i s s eː m i n aː r e m
+dissēminārās	d i s s eː m i n aː r aː s
+dissēminārēs	d i s s eː m i n aː r eː s
+dissēminās	d i s s eː m i n aː s
+dissēmināsse	d i s s eː m i n aː s s e
+dissēmināssem	d i s s eː m i n aː s s e m
+dissēmināssēs	d i s s eː m i n aː s s eː s
+dissēminēs	d i s s eː m i n eː s
 dissēminō	d i s s eː m i n oː
 dissēnsus	d i s s e n s u s
 distantia	d i s t a n t i a
@@ -9838,6 +9873,7 @@ dolābrātus	d o l aː b r aː t u s
 dolāmen	d o l aː m e n
 dolēre	d o l eː r e
 dolīonēs	d o l iː o n eː s
+dolōrēs	d o l o r e s
 dolōrōse	d o l oː r oː s e
 dolōrōsus	d o l oː r oː s u s
 dolōsus	d o l oː s u s
@@ -9902,6 +9938,8 @@ dracaena	d r a k a e̯ n a
 drachma	d r a kʰ m a
 drachmae	d r a kʰ m a e̯
 dracontium	d r a k o n t i u m
+dracontēa	d r a k o n t eː a
+dracontēus	d r a k o n t eː u s
 dracō	d r a k oː
 dracōnigena	d r a k oː n i ɡ e n a
 dragma	d r a ɡ m a
@@ -10015,7 +10053,7 @@ duodēsexāgintā	d u o d eː s e k s aː ɡ i n t aː
 duodētrīgintā	d u o d eː t r iː ɡ i n t aː
 duodēvicēsimus	d u o d eː w i k eː s i m u s
 duodēvīgintī	d u o d eː w iː ɡ i n t iː
-duovir	d u o w i r
+duonus	d w o n u s
 duplex	d u p l e k s
 duplicō	d u p l i k oː
 duplus	d u p l u s
@@ -11767,6 +11805,7 @@ exsēcrābilis	e k s eː k r aː b i l i s
 exsēcrātiō	e k s eː k r aː t i oː
 exsībilō	e k s iː b i l oː
 exsūcō	e k s uː k oː
+exsūdō	e k s uː d oː
 exsūgō	e k s uː ɡ oː
 extemplō	e k s t e m p l oː
 extemporaneus	e k s t e m p o r a n e u s
@@ -12427,7 +12466,6 @@ fornāx	f o r n aː k s
 forratus	f o r r a t u s
 forsitan	f o r s i t a n
 fortificō	f o r t i f i k oː
-fortis	f o r t i s
 fortitūdō	f o r t i t uː d oː
 fortuīta	f o r t u iː t a
 fortuīta	f o r t u iː t aː
@@ -12553,6 +12591,7 @@ frāctiō	f r aː k t i oː
 frāctūra	f r aː k t uː r a
 frāctūra	f r aː k t uː r aː
 frāglō	f r aː ɡ l oː
+frāgrantēs	f r aː ɡ r a n t eː s
 frāgrō	f r aː ɡ r oː
 frāgum	f r aː ɡ u m
 frātellus	f r aː t e l l u s
@@ -13083,6 +13122,7 @@ gastaldō	ɡ a s t a l d oː
 gaster	ɡ a s t e r
 gatheae	ɡ a tʰ e a e̯
 gattaeī	ɡ a t t a e̯ iː
+gau	ɡ a u̯
 gaudebundus	ɡ a u̯ d e b u n d u s
 gaudentius	ɡ a u̯ d e n t i u s
 gaudeō	ɡ a u̯ d e oː
@@ -13670,6 +13710,7 @@ gutta	ɡ u t t a
 guttera	ɡ u t t e r a
 guttur	ɡ u t t u r
 gutturnium	ɡ u t t u r n i u m
+guttātim	ɡ u t t aː t i m
 guttātus	ɡ u t t aː t u s
 gyaros	ɡ y a r o s
 gylippus	ɡ y l i p p u s
@@ -13910,6 +13951,7 @@ hebrus	h e b r u s
 hebrōn	h e b r oː n
 hebudēs	h e b u d eː s
 hecatombē	h e k a t o m b eː
+hecatē	h e k a t eː
 hecuba	h e k u b a
 hedera	h e d e r a
 hederiger	h e d e r i ɡ e r
@@ -14614,9 +14656,7 @@ iecur	j e k u r
 iehōva	j e h oː w a
 iehōvae	j e h oː w a e̯
 iehōvam	j e h oː w a m
-ieiūnus	j e j j uː n u s
 ieiūnāre	j e j j uː n aː r e
-ieiūnō	j e j j uː n oː
 iemenia	j e m e n i a
 ieram	i e r a m
 ierant	i e r a n t
@@ -15784,6 +15824,7 @@ inremediābilis	i n r e m e d i aː b i l i s
 inreprehēnsibilis	i n r e p r e h e n s i b i l i s
 inreverēns	i n r e w e r e n s
 inrevocābilis	i n r e w o k aː b i l i s
+inri	j eː s uː s n aː z z a r eː n u s r eː k s j uː d a e̯ oː r u m
 inriguus	i n r i ɡ u u s
 inrigō	i n r i ɡ oː
 inritus	i n r i t u s
@@ -15796,6 +15837,7 @@ inrīdeō	i n r iː d e oː
 inrītō	i n r iː t oː
 inspissō	i n s p i s s oː
 instēius	i n s t eː j u s
+insūdō	i n s uː d oː
 intaphernēs	i n t a pʰ e r n eː s
 integellus	i n t e ɡ e l l u s
 integer	i n t e ɡ e r
@@ -16284,8 +16326,6 @@ isura	i s u r a
 isurium	i s u r i u m
 it	i t
 ita	i t a
-italia	i t a l i a
-italia	iː t a l i a
 italicus	i t a l i k u s
 italiāna	i t a l i aː n a
 italiāna	i t a l i aː n aː
@@ -16365,6 +16405,8 @@ iānuārius	j aː n u aː r i u s
 iāpydis	i aː p y d i s
 iāpys	i aː p y s
 iāzygēs	j aː z z y ɡ eː s
+iēiūnus	j eː j uː n u s
+iēiūnō	j eː j uː n oː
 iēns	i e n s
 iēntāculum	j eː n t aː k u l u m
 iēntō	j eː n t oː
@@ -16440,6 +16482,7 @@ iūdicō	j uː d i k oː
 iūdās	j uː d aː s
 iūgerum	j uː ɡ e r u m
 iūglāns	j uː ɡ l a n s
+iūlia	j uː l i a
 iūlis	j uː l i s
 iūlius	j uː l i u s
 iūliāna	j uː l i aː n a
@@ -16482,6 +16525,8 @@ iūstificus	j uː s t i f i k u s
 iūstificō	j uː s t i f i k oː
 iūstitia	j uː s t i t i a
 iūstus	j uː s t u s
+iūstīniānus	j uː s t iː n i aː n u s
+iūstīnus	j uː s t iː n u s
 iūsum	j uː s u m
 iūverimus	j uː w e r i m u s
 iūverimus	j uː w e r iː m u s
@@ -16534,6 +16579,7 @@ jubeō	j u b e oː
 jugulodigastricus	j u ɡ u l o d i ɡ a s t r i k u s
 jugulō	j u ɡ u l oː
 jugō	j u ɡ oː
+jul	j uː r i s u t r i u s kʷ e l i k e n t i aː t u s
 julī	j u l iː
 junceus	j u n k e u s
 juncētum	j u n k eː t u m
@@ -16595,6 +16641,8 @@ jūsta	j uː s t aː
 jūstificō	j uː s t i f i k oː
 jūstus	j uː s t u s
 jūstīniāneus	j uː s t iː n i aː n e u s
+jūstīniānus	j uː s t iː n i aː n u s
+jūstīnus	j uː s t iː n u s
 jūstōs	j uː s t oː s
 jūturna	j uː t u r n a
 kaalaēnsis	k a a l a e n s i s
@@ -18947,6 +18995,8 @@ mileon	m i l e o n
 milevum	m i l e w u m
 milium	m i l i u m
 miliāceus	m i l i aː k e u s
+milliō	m i l l i oː
+milliōnēsimus	m i l l i oː n eː s i m u s
 miltiadēs	m i l t i a d eː s
 miltos	m i l t o s
 milvius	m i l w i u s
@@ -19400,6 +19450,7 @@ mussāveris	m u s s aː w e r iː s
 mussāveritis	m u s s aː w e r i t i s
 mussāveritis	m u s s aː w e r iː t i s
 mussō	m u s s oː
+mustax	m u s t a k s
 mustiae	m u s t i a e̯
 mustius	m u s t i u s
 mustricula	m u s t r i k u l a
@@ -21447,6 +21498,7 @@ olpae	o l p a e̯
 oltis	o l t i s
 olubria	o l u b r i a
 olvātium	o l w aː t i u m
+olympus	o l y m p u s
 olynthos	o l y n tʰ o s
 olīva	o l iː w a
 olīvitās	o l iː w i t aː s
@@ -21609,6 +21661,7 @@ optiō	o p t i oː
 optumās	o p t u m aː s
 optābilis	o p t aː b i l i s
 optātis	o p t aː t i s
+optātiō	o p t aː t i oː
 optātus	o p t aː t u s
 optātīs	o p t aː t iː s
 optāverimus	o p t aː w e r i m u s
@@ -21948,6 +22001,7 @@ paeōn	p a e̯ oː n
 paeōnia	p a e̯ oː n i a
 pagasae	p a ɡ a s a e̯
 pagrae	p a ɡ r a e̯
+pagrus	p a ɡ r u s
 pagōndās	p a ɡ oː n d aː s
 pagūrus	p a ɡ uː r u s
 palacurna	p a l a k u r n a
@@ -22963,7 +23017,6 @@ pervertō	p e r w e r t oː
 pervestīgō	p e r w e s t iː ɡ oː
 pervetus	p e r w e t u s
 pervicus	p e r w i k u s
-pervicācia	p e r w i k aː k i a
 pervicāx	p e r w i k aː k s
 pervideō	p e r w i d e oː
 pervigeō	p e r w i ɡ e oː
@@ -23025,6 +23078,7 @@ pestilentiālis	p e s t i l e n t i aː l i s
 pestilentus	p e s t i l e n t u s
 pestilentēs	p e s t i l e n t eː s
 pestis	p e s t i s
+petar	p e t a r
 petasiō	p e t a s i oː
 petasus	p e t a s u s
 petasātus	p e t a s aː t u s
@@ -24180,6 +24234,7 @@ prīvignus	p r iː w i ɡ n u s
 prīvilēgium	p r iː w i l eː ɡ i u m
 prīvus	p r iː w u s
 prīvō	p r iː w oː
+prī̆nceps	p r i n k e p s
 prī̆nceps	p r iː n k e p s
 prō	p r oː
 prōcessus	p r oː k e s s u s
@@ -24354,6 +24409,12 @@ prōscrīptōs	p r oː s k r iː p t oː s
 prōsecō	p r oː s e k oː
 prōsentiō	p r oː s e n t i oː
 prōsequor	p r oː s e kʷ o r
+prōserpina	p r o s e r p i n a
+prōserpina	p r oː s e r p i n a
+prōserpinae	p r o s e r p i n a e̯
+prōserpinae	p r oː s e r p i n a e̯
+prōserpinam	p r o s e r p i n a m
+prōserpinam	p r oː s e r p i n a m
 prōserpō	p r oː s e r p oː
 prōsiliō	p r oː s i l i oː
 prōsocer	p r oː s o k e r
@@ -24501,6 +24562,7 @@ pthisicus	p tʰ i s i k u s
 ptilopaedibus	p t i l o p a e̯ d i b u s
 ptilopaedēs	p t i l o p a e̯ d eː s
 ptolemaeus	p t o l e m a e̯ u s
+ptolemāicus	p t o l e m aː i k u s
 ptolemāis	p t o l e m aː i s
 ptyas	p t y a s
 ptygma	p t y ɡ m a
@@ -24753,6 +24815,7 @@ pānicoctārius	p aː n i k o k t aː r i u s
 pānicum	p aː n i k u m
 pānificium	p aː n i f i k i u m
 pānis	p aː n i s
+pānus	p aː n u s
 pānāriolum	p aː n aː r i o l u m
 pānārium	p aː n aː r i u m
 pānārius	p aː n aː r i u s
@@ -25211,6 +25274,7 @@ quattuorvirālis	kʷ a t t u o r w i r aː l i s
 quattuorvirātus	kʷ a t t u o r w i r aː t u s
 quelea	kʷ e l e a
 quem	kʷ e m
+quemadmodum	kʷ e m a d m o d u m
 querceus	kʷ e r k e u s
 quercicolus	kʷ e r k i k o l u s
 quercus	kʷ e r k u s
@@ -26995,6 +27059,7 @@ scarpus	s k a r p u s
 scarus	s k a r u s
 scarītis	s k a r iː t i s
 scatebra	s k a t e b r a
+scateō	s k a t e oː
 scaturrīgō	s k a t u r r iː ɡ oː
 scatō	s k a t oː
 scatūriō	s k a t uː r i oː
@@ -27231,6 +27296,7 @@ secundus	s e k u n d u s
 secundārius	s e k u n d aː r i u s
 secundō	s e k u n d oː
 secus	s e k u s
+secāle	s e k aː l e
 secō	s e k oː
 secūre	s e k uː r e
 secūricula	s e k uː r i k u l a
@@ -30484,6 +30550,7 @@ triēris	t r i eː r i s
 triō	t r i oː
 triōcala	t r i oː k a l a
 triūnus	t r i uː n u s
+trochaeus	t r o kʰ a e̯ u s
 trochilus	t r o kʰ i l u s
 trochin	t r o kʰ i n
 trochlea	t r o kʰ l e a
@@ -30698,6 +30765,7 @@ trōglodytēs	t r oː ɡ l o d y t eː s
 trōgus	t r oː ɡ u s
 trōgītis	t r oː ɡ iː t i s
 trōia	t r o j j a
+trōja	t r oː j a
 trūdō	t r uː d oː
 trȳgōn	t r yː ɡ oː n
 tsushimēnsis	t s u s i m e n s i s
@@ -32592,7 +32660,7 @@ zȳthum	z yː tʰ u m
 āfricānī	aː f r i k aː n iː
 āfricānō	aː f r i k aː n oː
 āfricānōs	aː f r i k aː n oː s
-āfroāsiāticus	aː f r o aː s i aː t i k u s
+āfroasiāticus	aː f r o a s i aː t i k u s
 āfrāsiāticus	aː f r aː s i aː t i k u s
 āgrārius	aː ɡ r aː r i u s
 āla	aː l a
@@ -33506,6 +33574,7 @@ zȳthum	z yː tʰ u m
 īvernia	iː w e r n i a
 īō	iː oː
 īōn	iː oː n
+ī̆talia	i t a l i a
 ĭādera	i aː d e r a
 ō	oː
 ōannēs	oː a n n eː s
@@ -33774,6 +33843,7 @@ zȳthum	z yː tʰ u m
 ūsūrpō	uː s uː r p oː
 ūsūrārius	uː s uː r aː r i u s
 ūta	uː t a
+ūter	u t e r
 ūtilis	uː t i l i s
 ūtilitāte	uː t i l i t aː t e
 ūtopia	uː t o p i a
@@ -33794,3 +33864,4 @@ zȳthum	z yː tʰ u m
 ȳpsīlon	yː p s iː l o n
 ȳsengrīmus	yː s e n ɡ r iː m u s
 χus	kʰ r i s t u s
+𐌃𐌖𐌄𐌍𐌏𐌔	d w e n o s
