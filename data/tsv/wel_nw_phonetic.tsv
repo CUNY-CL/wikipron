@@ -1,7 +1,7 @@
 abl	a b l̩
 acen ddisgynedig	a k ɛ n ð ɪ s k ə n ɛ d ɪ ɡ
 addysg	a ð ɨ̞ s k
-addysgu	a ð ə s k ɨ
+addysgu	a ð ə s k ɨ̞
 adwaenost	a d w e ɨ̯ n ɔ s t
 aethost	e ɨ̯ θ ɔ s t
 aillt	a i̯ ɬ t
@@ -13,6 +13,7 @@ anabl	a n a b l̩
 anawsterau	a n a u̯ s t ɛ r a
 anawsterau	a n a u̯ s t ɛ r a ɨ̯
 anawsterau	a n a u̯ s t ɛ r ɛ
+anghofuster	a ŋ h ɔ v ɨ̞ s t ɛ r
 anhawster	a n h a u̯ s t a r
 anhawster	a n h a u̯ s t ɛ r
 aradr	a r a d r̩
@@ -66,6 +67,7 @@ chastell	χ a s t ɛ ɬ
 chdi	χ t iː
 chestyll	χ ɛ s t ɨ̞ ɬ
 chwedl	χ w ɛ d l̩ˠ
+chwestiwn	χ w̥ʰ ɛ s t j ʊ n
 cic gosb	kʰ ɪ kʰ ɡ oː s p
 ciciau cosb	kʰ ɪ k j̊ʰ a kʰ oː s p
 ciciau cosb	kʰ ɪ k j̊ʰ a ɨ̯ kʰ oː s p
@@ -107,6 +109,7 @@ cwstardiau	kʰ ʊ s t a r d j ɛ
 cyfrwngddarostyngedigaeth	kʰ ə v r ʊ ŋ ð a r ɔ s t ə ŋ ɛ d ɪ ɡ a ɨ̯ θ
 cyfrwngddarostyngedigaeth	kʰ ə v r ʊ ŋ ð a r ɔ s t ə ŋ ɛ d ɪ ɡ ɛ θ
 cymedr	kʰ ə m ɛ d r̩
+cymhleth	k ə m ɬʰ ɛ θ
 cymhlethdod	kʰ ə m l̥ʰ ɛ θ t ɔ d
 cymhlethdodau	kʰ ə m h l̥ˠʰ ɛ θ t ɔ d a ɨ̯
 cymhlethdodau	kʰ ə m l̥ˠ ɛ θ t ɔ d a
@@ -136,6 +139,7 @@ cysylltiad	kʰ ə s ə ɬ t j a d
 cysylltnod	kʰ ə s ə ɬ t n ɔ d
 cysylltu	kʰ ə s ə ɬ t ɨ
 dadl	d a d l̩
+ddysgu	ð ə s k ɨ̞
 deigr	d e i̯ ɡ r̩
 delysg	d ɛ lˠ ɨ̞ s k
 dest	d ɛ s t
@@ -234,6 +238,7 @@ gwenynen wyllt	ɡ w e n ə n ɛ ŋ w ɨː ɬ t
 gwesgyr	ɡ w ɛ s k ɨ̞ r
 gwestai	ɡ w ɛ s t a i̯
 gwesteion	ɡ w ɛ s t e i̯ ɔ n
+gwestiwn	ɡ w̥ʰ ɛ s t j ʊ n
 gwesty	ɡ w ɛ s t ɨ̞
 gwialen bysgota	ɡ w i a lˠ ɛ n b ə s k ɔ tʰ a
 gwialen bysgota	ɡ w j a lˠ a m b ə s k ɔ tʰ a
@@ -276,12 +281,14 @@ isteitlau	iː s t e i̯ t l̥ˠʰ a ɨ̯
 isteitlau	iː s t e i̯ t l̥ˠʰ ɛ
 isteitlo	iː s t e i̯ t l̥ʰ ɔ
 jyngl	d͡ʒ ə ŋ ɡ l̩
+lanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch	l a n v a i̯ r p ʊ ɬ ɡ w ɨ̞ n ɡ ɨ̞ ɬ ɡ ɔ ɡ ɛ r ə χ w ɨ̞ r n d r ɔ b ʊ ɬ ɬ a n t ə s ɪ l j ɔ ɡ ɔ ɡ ɔ ɡ oː χ
 leidr	l e i̯ d r̩
 lestr	l ɛ s t r̩
 lifft	l ɪ f t
 lifftiau	l ɪ f t j a
 lifftiau	l ɪ f t j a ɨ̯
 lifftiau	l ɪ f t j ɛ
+llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch	ɬ a n v a i̯ r p ʊ ɬ ɡ w ɨ̞ n ɡ ɨ̞ ɬ ɡ ɔ ɡ ɛ r ə χ w ɨ̞ r n d r ɔ b ʊ ɬ ɬ a n t ə s ɪ l j ɔ ɡ ɔ ɡ ɔ ɡ oː χ
 llawysgrif	ɬ a u̯ ə s k r ɪ v
 lle chwech	ɬ eː χ w eː χ
 lledr	ɬ ɛ d r̩
@@ -341,12 +348,14 @@ moresg	m ɔ r ɛ s k
 mwst	m ʊ s t
 mynachdai	m ə n a χ t a i̯
 mynachdy	m ə n a χ t ɨ
+mynededig	m ə n ɛ d ɛ d ɪ ɡ
 nabl	n a b l̩
 neidr	n e i̯ d r̩
 nest	n ɛ s t
 nghastell	ŋ̊ʰ a s t a ɬ
 nghastell	ŋ̊ʰ a s t ɛ ɬ
 nghestyll	ŋ̊ʰ ɛ s t ɨ̞ ɬ
+nghwestiwn	ŋ̊ w̥ʰ ɛ s t j ʊ n
 ngwystl	ŋ w ɨ̞ s t l̩ˠ
 nheigr	n̥ e i̯ ɡ r̩
 ocr	ɔ k r̩
@@ -388,6 +397,7 @@ pumongl	pʰ ɨ̞ m ɔ ŋ l̩
 pysgod	pʰ ə s k ɔ d
 pysgodyn	p ə s k ɔ d ɨ̯ n
 pysgota	pʰ ə s k ɔ tʰ a
+rhaeadr	r̥ʰ e ɨ̯ a d r̩
 rhestr	r̥ʰ ɛ s t r̩
 rhestrau	r̥ʰ ɛ s t r a
 rhestrau	r̥ʰ ɛ s t r a ɨ̯
@@ -416,6 +426,7 @@ seithongl	s e i̯ θ ɔ ŋ l̩
 sgandinafaidd	s k a n d ɪ n a v a i̯ ð
 sgandinafia	s k a n d ɪ n a v j a
 sgarff	s k a r f
+sgerbwd	s k ɛ r b ʊ d
 sgert	s k ɛ r t
 sgiwen	s k i u̯ ɛ n
 sglodion	s k l ɔ d j ɔ n
@@ -516,6 +527,7 @@ ysbryd	ə s p r ɨ̞ d
 ysbrydion	ə s p r ə d j ɔ n
 ysbrydol	ə s p r ə d ɔ l
 ysbrydoli	ə s p r ə d ɔ l i
+ysbyty	s p ə t ɨ
 ysbyty	ə s p ə t ɨ
 ysgafnder	ə s k a v n d ɛ r
 ysgafnhad	ə s k a v n h aː d
@@ -525,6 +537,8 @@ ysgawen	ə s k a u̯ a n
 ysgawen	ə s k a u̯ ɛ n
 ysglodyn	s k l ɔ d ɨ̞ n
 ysglodyn	ə s k l ɔ d ɨ̞ n
+ysgol	ə s k ɔ l
+ysgrifbin	ə s k r ɪ v b ɪ n
 ysgrifen	s k r ɪ v a n
 ysgrifen	s k r ɪ v ɛ n
 ysgrifen	ə s k r ɪ v ɛ n
@@ -534,10 +548,12 @@ ysgrifennu	ə s k r ɪ v ɛ n ɨ
 ysgubor	ə s k ɨ̞ b ɔ r
 ysguthan	s k ɨ̞ θ a n
 ysguthan	ə s k ɨ̞ θ a n
+ysgwydd	ə s k w ɨ̞ ð
 ystafell	s t a v a ɬ
 ystafell	s t a v ɛ ɬ
 ystafell	ə s t a v ɛ ɬ
 ystifflog	ə s t ɪ f l ɔ ɡ
+ystiflogod	ə s t ɪ f l ɔ ɡ ɔ d
 ystlum	ə s t l ɨ̞ m
 ystod	ə s t ɔ d
 ystradwel	ə s t r a d w ɛ l
