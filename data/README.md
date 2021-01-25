@@ -135,7 +135,8 @@
 | [TSV](tsv/kas_phonemic.tsv) | kas | Kashmiri | Kashmiri | False | Phonemic | 104 |
 | [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 203 |
 | [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 745 |
-| [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 4,116 |
+| [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,412 |
+| [TSV](tsv/khm_phonemic_filtered.tsv) | khm | Khmer | Khmer | False | Phonemic_filtered | 3,209 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,129 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 16,409 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 14,147 |
@@ -152,6 +153,7 @@
 | [TSV](tsv/lat_vulg_phonemic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonemic | 1,041 |
 | [TSV](tsv/lat_vulg_phonetic.tsv) | lat | Latin | Latin (Vulgar) | True | Phonetic | 991 |
 | [TSV](tsv/lav_phonetic.tsv) | lav | Latvian | Latvian | True | Phonetic | 1,291 |
+| [TSV](tsv/lav_phonetic_filtered.tsv) | lav | Latvian | Latvian | True | Phonetic_filtered | 1,230 |
 | [TSV](tsv/ayl_phonemic.tsv) | ayl | Libyan Arabic | Libyan Arabic | False | Phonemic | 157 |
 | [TSV](tsv/lij_phonemic.tsv) | lij | Ligurian | Ligurian | True | Phonemic | 756 |
 | [TSV](tsv/lif_phonemic.tsv) | lif | Limbu | Limbu | False | Phonemic | 108 |
@@ -209,6 +211,7 @@
 | [TSV](tsv/kmr_latn_phonemic.tsv) | kmr | Northern Kurdish | Northern Kurdish (Latin) | False | Phonemic | 1,172 |
 | [TSV](tsv/sme_phonemic.tsv) | sme | Northern Sami | Northern Sami | True | Phonemic | 3,387 |
 | [TSV](tsv/nob_phonemic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic | 1,715 |
+| [TSV](tsv/nob_phonemic_filtered.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonemic_filtered | 1,292 |
 | [TSV](tsv/nob_phonetic.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | True | Phonetic | 587 |
 | [TSV](tsv/nno_phonemic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonemic | 1,378 |
 | [TSV](tsv/nno_phonetic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonetic | 206 |
