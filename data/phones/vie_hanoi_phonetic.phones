@@ -1,0 +1,64 @@
+# Based on
+#
+# https://en.wikipedia.org/wiki/Vietnamese_phonology
+# https://en.wikipedia.org/wiki/Help:IPA/Vietnamese
+# https://en.wikipedia.org/wiki/Vietnamese_alphabet
+#####
+ʔ
+ə
+˧˧
+˧˦
+w
+aː
+˧˨  # Should be ˧ˀ˨ (see below).
+n
+i
+˨˩
+j  # Only occurs in coda position.
+ŋ
+a
+m
+˧˩
+k
+ɨ
+t
+t͡ɕ
+z
+ɗ
+t̚
+h
+o
+ɓ
+s
+tʰ
+l
+u
+ŋ͡m
+˦˥  # Should be ˦ˀ˥ (see below).
+k̚
+əː
+ɔ
+v
+ï
+e
+ɛ
+f
+ɲ
+p̚
+ŋ̟
+k͡p̚
+ʊ
+x
+k̟̚
+ɣ
+ɹ  # Only occurs in loanwords.
+p  # Only occurs in onset position in loanwords.
+# DIPHTHONGS
+# Diphthongs in the Vietnamese data are transcribed without tie bars, so the
+# following do not appear as such in the data.
+i͡ə
+ɨ͡ə
+u͡e
+# GLOTTALIZED TONES
+˧ˀ˨  # Often transcribed /˧˨ʔ/ on Wiktionary.
+˦ˀ˥

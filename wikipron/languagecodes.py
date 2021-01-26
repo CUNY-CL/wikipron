@@ -156,6 +156,8 @@ LANGUAGE_CODES = {
     "old norse": "Old Norse",
     # Old Portuguese. Not an ISO 639 language.
     "old portuguese": "Old Portuguese",
+    "roa-opt": "Old Portuguese",
+    "opt": "Old Portuguese",
     # Old Saxon. ISO 639-3 only.
     "osx": "Old Saxon",
     "old saxon": "Old Saxon",
@@ -333,4 +335,100 @@ LANGUAGE_CODES = {
     # Nivkh. Not in iso639 lib.
     "niv": "Nivkh",
     "nivkh": "Nivkh",
+    # Polabian. Note: The code is "sla" in ISO 639-2.
+    "pox": "Polabian",
+    "polabian": "Polabian",
+    # Bahnar. Not in iso639 lib.
+    "bdq": "Bahnar",
+    "bahnar": "Bahnar",
+    # Jeju or Jejueo. Not in iso639 lib.
+    "jje": "Jeju",
+    "jeju": "Jeju",
+    "jejueo": "Jeju",
+    # Lashi. Not in iso639 lib.
+    "lsi": "Lashi",
+    "lashi": "Lashi",
+    # Miyako. Not in iso639 lib.
+    "mvi": "Miyako",
+    "miyako": "Miyako",
+    # Pennsylvania German. Not in iso639 lib.
+    "pdc": "Pennsylvania German",
+    "pennsylvania german": "Pennsylvania German",
+    # Namuyi. Not in iso639 lib.
+    "nmy": "Namuyi",
+    "namuyi": "Namuyi",
+    # Tuvan. Would be "Tuvinian" in ISO 639.
+    "tyv": "Tuvan",
+    "tuvan": "Tuvan",
+    # Bikol Central. Would be "Central Bikol" in ISO 639.
+    "bcl": "Bikol Central",
+    "bikol central": "Bikol Central",
+    # Emilian. ISO 639-3 only.
+    "egl": "Emilian",
+    "emilian": "Emilian",
+    # Ingrian. ISO 639-3 only.
+    "izh": "Ingrian",
+    "ingrian": "Ingrian",
+    # Latgalian. ISO 639-3 only.
+    "ltg": "Latgalian",
+    "latgalian": "Latgalian",
+    # San Pedro Amuzgos Amuzgo. ISO 639-3 only.
+    "azg": "San Pedro Amuzgos Amuzgo",
+    "san pedro amuzgos amuzgo": "San Pedro Amuzgos Amuzgo",
+    # Kyrgyz. Would be "Kirghiz" in ISO 639.
+    "kir": "Kyrgyz",
+    "kyrgyz": "Kyrgyz",
+    # Middle Irish. Would be "Irish, Middle (900-1200)" in ISO 639.
+    "mga": "Middle Irish",
+    "middle irish": "Middle Irish",
+    # Middle Korean. ISO 639-3 only: "Korean, Middle (10th–16th centuries)".
+    "okm": "Middle Korean",
+    "middle korean": "Middle Korean",
+    # Northern Kurdish. Looks ISO 639-3 only.
+    "kmr": "Northern Kurdish",
+    "northern kurdish": "Northern Kurdish",
+    "kurmanji": "Northern Kurdish",
+    "dng": "Dungan",  # ISO 639-3.
+    "ofs": "Old Frisian",  # ISO 639-3.
+    # Ilocano. "ilo" resolved to "Iloko" by iso639 lib.
+    "ilo": "Ilocano",
+    "iloko": "Ilocano",
+    "ilocano": "Ilocano",
+    # Jamaican Creole. ISO 639-3 only.
+    "jam": "Jamaican Creole",
+    "jamaican creole": "Jamaican Creole",
+    # Limbu. ISO 639-3 only.
+    "lif": "Limbu",
+    "limbu": "Limbu",
+    # Lombard. ISO 639-3 only.
+    "lmo": "Lombard",
+    "lombard": "Lombard",
+    # Murui Huitoto. ISO 639-3 only.
+    "huu": "Murui Huitoto",
+    "murui huitoto": "Murui Huitoto",
+    # Newar. Would be "Newari" or "Nepal Bhasa" in ISO 639.
+    "new": "Newar",
+    "newar": "Newar",
+    "newari": "Newar",
+    "nepal bhasa": "Newar",
+    # Norman. ISO 639-3 only.
+    "nrf": "Norman",
+    "norman": "Norman",
+    "jèrriais": "Norman",
+    # Phalura. ISO 639-3 only.
+    "phl": "Phalura",
+    "phalura": "Phalura",
+    # Plains Cree. ISO 639-3 only.
+    "crk": "Plains Cree",
+    "plains cree": "Plains Cree",
+    # Pnar. ISO 639-3 only.
+    "pbv": "Pnar",
+    "pnar": "Pnar",
+    # Saterland Frisian. ISO 639-3 only.
+    "stq": "Saterland Frisian",
+    "saterland frisian": "Saterland Frisian",
+    "saterfriesisch": "Saterland Frisian",
+    # South Levantine Arabic. ISO 639-3 only.
+    "ajp": "South Levantine Arabic",
+    "south levantine arabic": "South Levantine Arabic",
 }

@@ -1,0 +1,91 @@
+# Based on https://en.wiktionary.org/wiki/Appendix:Hungarian_pronunciation
+# Vowels.
+# I have no information about the palatal glides so I've just introduced them
+# where they're present in the data; I believe they're all the result of hiatus.
+ɒ
+ɒʲ
+uʲ
+ɒː
+aː
+aːʲ
+a  # Does not occur in the data. "Mostly used in foreign words."
+ɛ
+ɛʲ
+ɛː
+eː
+eːʲ
+i
+iʲ
+iː
+iːʲ
+o
+oʲ
+oː
+oːʲ
+ø
+øː
+øːʲ
+u
+uʲ
+uː
+uːʲ
+y
+yː
+yːʲ
+# Consonants.
+b
+bː
+t͡s
+t͡sː
+t͡ʃ
+t͡ʃː
+d
+dː
+d͡z
+d͡zː
+d͡ʒ
+d͡ʒː
+f
+fː
+ɡ
+ɡː
+ɟ
+ɟː
+h  # No geminate form in the data.
+ɦ  # No geminate form in the data.
+x
+xː
+j
+jː
+ç  # No geminate form in the data.
+ʝ  # No geminate form in the data.
+k
+kː
+l
+lː
+m
+mː
+ɱ  # No geminate form in the data.
+n
+nː
+ɲ
+ɲː
+ŋ  # No geminate form in the data.
+p
+pː
+r
+rː
+ʃ
+ʃː
+s
+sː
+t
+tː
+c
+cː
+v
+vː
+z
+zː
+ʒ
+ʒː

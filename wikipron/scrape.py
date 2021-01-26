@@ -1,22 +1,35 @@
 import re
+import unicodedata
+from typing import cast
 
+import pkg_resources
 import requests
 import requests_html
 
 from wikipron.config import Config
-from wikipron.typing import Iterator, WordPronPair
-
+from wikipron.typing import Iterator, WordPronPair, Pron
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
 _CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 # Selects the content on the page.
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
+# Http headers for api call
+HTTP_HEADERS = {
+    "User-Agent": (
+        f"WikiPron/{pkg_resources.get_distribution('wikipron').version} "
+        "(https://github.com/kylebgorman/wikipron) "
+        f"requests/{requests.__version__}"
+    ),
+}
 
 
-def _skip_word(word: str, no_skip_spaces: bool) -> bool:
+def _skip_word(word: str, skip_spaces: bool) -> bool:
+    # Skips reconstructions.
+    if word.startswith("*"):
+        return True
     # Skips multiword examples.
-    if not no_skip_spaces and (" " in word or "\u00A0" in word):
+    if skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
     if "-" in word:
@@ -34,20 +47,39 @@ def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
 def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     session = requests_html.HTMLSession()
     for member in data["query"]["categorymembers"]:
-        word = member["title"]
-        date = member["timestamp"]
-        if _skip_word(word, config.no_skip_spaces_word) or _skip_date(
-            date, config.cut_off_date
+        title = member["title"]
+        timestamp = member["timestamp"]
+        if _skip_word(title, config.skip_spaces_word) or _skip_date(
+            timestamp, config.cut_off_date
         ):
             continue
-        request = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
-        for word, pron in config.extract_word_pron(word, request, config):
-            yield word, pron
+        request = session.get(
+            _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
+        )
+
+        for word, pron in config.extract_word_pron(title, request, config):
+            # Pronunciation processing is done in NFD-space;
+            # we convert back to NFC afterwards.
+            normalized_pron = unicodedata.normalize("NFC", pron)
+            # 'cast' is required 'normalize' doesn't return a 'Pron'
+            yield word, cast(Pron, normalized_pron)
+
+
+def _language_name_for_scraping(language):
+    """Handle cases where X is under a "macrolanguage" on Wiktionary.
+
+    So far, only the Chinese languages necessitate this helper function.
+    We'll keep this function as simple as possible, until it becomes too
+    complicated and requires refactoring.
+    """
+    return "Chinese" if language == "Cantonese" else language
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:
     """Scrapes with a given configuration."""
-    category = _CATEGORY_TEMPLATE.format(language=config.language)
+    category = _CATEGORY_TEMPLATE.format(
+        language=_language_name_for_scraping(config.language)
+    )
     requests_params = {
         "action": "query",
         "format": "json",
@@ -58,7 +90,9 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     }
     while True:
         data = requests.get(
-            "https://en.wiktionary.org/w/api.php?", params=requests_params
+            "https://en.wiktionary.org/w/api.php?",
+            params=requests_params,
+            headers=HTTP_HEADERS,
         ).json()
         yield from _scrape_once(data, config)
         if "continue" not in data:

@@ -1,0 +1,78 @@
+# Based on
+# https://en.wikipedia.org/wiki/Maltese_language
+# https://en.wikipedia.org/wiki/Help:IPA/Maltese
+#####
+# CONSONANTS
+# I am not sure whether all consonants have geminate counterparts. I only 
+# included those that occurred more than once.
+p
+pː
+b
+bː
+m
+mː
+f
+fː
+v
+w
+t
+tː
+d
+t͡s
+n
+nː
+r
+s
+sː
+z
+zː
+l
+lː
+t͡ʃ
+d͡ʒ
+ʃ
+ʃː
+j
+jː
+k
+kː
+ɡ
+ħ
+ʔ
+# VOWELS
+iː
+ɪ
+ɪː
+ɛ
+ɛː
+# As far as I can tell, /ɐ ɐː/ and /a aː/ are used for the same pair of 
+# vowels. The latter pair is more frequent, so /ɐ/ should probably be changed
+# to /a/.
+ɐ
+ɐː
+a
+aː
+uː
+ʊ
+ɔ
+ɔː
+# PHARYNGEALIZED VOWELS
+# The digraph <għ> is in many cases realized as pharyngealization on an
+# adjacent vowel. I don't know if all vowels have pharyngeal counterparts; I
+# included only those that occurred more than once.
+ɛˤː
+əˤ
+aˤ
+aˤː
+ɔˤː
+# DIPHTHONGS
+# Maltese supposedly has seven diphthongs, although I am not sure if they are
+# phonemic. They were not transcribed with tie bars in the data, so the 
+# following do not actually appear as such.
+a͡ɪ
+a͡ʊ
+ɛ͡ɪ
+ɛ͡ʊ
+ɪ͡ʊ
+ɔ͡ɪ
+ɔ͡ʊ

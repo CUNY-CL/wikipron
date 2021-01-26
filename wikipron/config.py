@@ -3,7 +3,7 @@ import functools
 import logging
 import re
 
-from typing import Callable, Optional
+from typing import Callable, Optional, cast
 
 import iso639
 import segments
@@ -15,8 +15,9 @@ from wikipron.typing import ExtractFunc, Pron, Word
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
+# Some (but not all) Moksha pronunciations reside in //p[sup[a.
 _PRON_XPATH_SELECTOR_TEMPLATE = """
-//li[
+(//li|//p)[
   (.|span)[sup[a[
     @title = "Appendix:{language} pronunciation"
     or
@@ -35,6 +36,9 @@ _DIALECT_XPATH_SELECTOR_TEMPLATE = (
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
 
+_TONES_REGEX = r"[˥˦˧˨˩⁰¹²³⁴⁵⁶⁷⁸⁹⁻◌̋ ◌̌ ◌̏ ◌̀ ◌́ ◌̂ ◌̄ ◌᷄◌᷅◌᷆◌᷇◌᷈◌᷉↑↓↗↘]"
+_PARENS_REGEX = rf"⁽{_TONES_REGEX}+⁾"
+
 
 class Config:
     """Configuration for a scraping run.
@@ -51,31 +55,32 @@ class Config:
         *,
         key: str,
         casefold: bool = False,
-        no_stress: bool = False,
-        no_syllable_boundaries: bool = False,
+        stress: bool = True,
+        syllable_boundaries: bool = True,
         cut_off_date: Optional[str] = None,
         phonetic: bool = False,
         dialect: Optional[str] = None,
-        no_segment: bool = False,
-        no_skip_spaces_word: bool = False,
-        no_skip_spaces_pron: bool = False,
+        segment: bool = True,
+        tone: bool = True,
+        skip_spaces_word: bool = True,
+        skip_spaces_pron: bool = True,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
         self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
-            no_stress, no_syllable_boundaries, no_segment
+            stress, syllable_boundaries, segment, tone
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
+        self.dialect = dialect
         self.extract_word_pron: ExtractFunc = self._get_extract_word_pron(
             self.language
         )
-        self.no_skip_spaces_word: bool = no_skip_spaces_word
-        self.no_skip_spaces_pron: bool = no_skip_spaces_pron
-        self.dialect = dialect
+        self.skip_spaces_word: bool = skip_spaces_word
+        self.skip_spaces_pron: bool = skip_spaces_pron
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
@@ -88,7 +93,7 @@ class Config:
             # In some cases it returns "Language; Dialect";
             # we just save the "first half".
             language = iso639.to_name(key).split(";")[0]
-        logging.info('Language: "%s"', language)
+        logging.info("Language: %r", language)
         return language
 
     def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
@@ -113,21 +118,33 @@ class Config:
             )
             raise ValueError(msg)
 
-        logging.info('Cut-off date: "%s"', cut_off_date)
+        logging.info("Cut-off date: %r", cut_off_date)
         return cut_off_date
 
     def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
-        return str.casefold if casefold else lambda word: word  # noqa: E731
+        default_func: Callable[[Word], Word] = lambda word: word  # noqa: E731
+        return self._casefold_word if casefold else default_func
+
+    def _casefold_word(self, word: Word) -> Word:
+        # 'str.casefold' returns a 'str' so we need to cast it to a 'Word'
+        return cast(Word, str.casefold(word))
 
     def _get_process_pron(
-        self, no_stress: bool, no_syllable_boundaries: bool, no_segment: bool
+        self,
+        stress: bool,
+        syllable_boundaries: bool,
+        segment: bool,
+        tone: bool,
     ) -> Callable[[Pron], Pron]:
         processors = []
-        if no_stress:
+        if not stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
-        if no_syllable_boundaries:
+        if not syllable_boundaries:
             processors.append(functools.partial(re.sub, r"\.", ""))
-        if not no_segment:
+        if not tone:
+            processors.append(functools.partial(re.sub, _PARENS_REGEX, ""))
+            processors.append(functools.partial(re.sub, _TONES_REGEX, ""))
+        if segment:
             processors.append(
                 functools.partial(segments.Tokenizer(), ipa=True)
             )
@@ -154,7 +171,7 @@ class Config:
                     f'text() = "{d.strip()}"' for d in dialect.split("|")
                 )
             )
-            logging.info('Dialect(s): "%s"', dialect)
+            logging.info("Dialect(s): %r", dialect)
 
         return _PRON_XPATH_SELECTOR_TEMPLATE.format(
             language=language, dialect_selector=dialect_selector
@@ -163,6 +180,16 @@ class Config:
     def _get_extract_word_pron(self, language: str) -> ExtractFunc:
         try:
             extraction_function = EXTRACTION_FUNCTIONS[language]
+            if self.dialect:
+                logging.info(
+                    "%r requires custom logic to handle its data from "
+                    "Wiktionary. The dialect parameter, specified for "
+                    "%r, may or may not work as desired. "
+                    "If you notice any issues, please report them at "
+                    "https://github.com/kylebgorman/wikipron/issues.",
+                    language,
+                    self.dialect,
+                )
         except KeyError:
             extraction_function = extract_word_pron_default
 

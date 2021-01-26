@@ -1,0 +1,71 @@
+# Based on
+# https://en.wikipedia.org/wiki/Welsh_phonology
+# https://en.wikipedia.org/wiki/Help:IPA/Welsh
+# https://en.wikipedia.org/wiki/Welsh_orthography
+#####
+a
+r
+ɛ
+n
+d
+l
+ɔ
+ɡ
+s
+ə
+k
+ɨ̯  # Used to transcribe diphthongs.
+v
+j
+ɨ̞  # Alternate transcription of /ɨ/.
+t
+ð
+ɪ
+m
+b
+i̯  # Used to transcribe diphthongs.
+e  # Used to transcribe diphthongs, sometimes in places where /ɛ/ should be used.
+θ
+w
+ʊ
+χ
+p
+ɬ
+u̯  # Used to transcribe diphthongs.
+h
+ŋ
+f
+ɨ
+aː
+i  # Alternate transcription of /ɪ/.
+ɨː
+r̥
+oː
+iː
+ʃ
+uː
+eː
+u  # Alternate transcription of /ʊ/. Also used to transcribe diphthongs.
+ŋ̊
+n̥
+m̥
+ʒ  # Seems only to occur in the data when writing /dʒ/ without a tie.
+d͡ʒ  # Dialectal, corresponding to /dj/ in other varieties. Otherwise, mainly occurs in loanwords.
+t͡ʃ  # Dialectal, corresponding to /tj/ in other varieties. Otherwise, mainly occurs in loanwords.
+# DIPHTHONGS
+# Tie bars were not used to transcribe diphthongs in the data, so the 
+# following do not actually appear as such in the data.
+a͡i̯
+a͡ɨ̯
+aː͡ɨ̯
+a͡u̯
+ɛ͡u̯
+ɛ͡i̯
+ə͡ɨ̯
+e͡ɨ̯  # Allophone of ə͡ɨ̯.
+ə͡u̯
+ɪ͡u̯
+ɨ͡u̯
+ɔ͡i̯
+ɔ͡ɨ̯
+ʊ̯͡ɨ

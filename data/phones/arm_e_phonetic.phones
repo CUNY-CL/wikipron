@@ -1,0 +1,105 @@
+# Based on https://en.wikipedia.org/wiki/Armenian_language#Phonology
+# And based on the pronunciation script from Wiktionary: https://en.wiktionary.org/wiki/Module:hy-pronunciation
+#
+# Vowels.
+ɑ
+ɛ
+ə
+i
+ɔ
+u
+#
+# Older entries might contain [o] or [e]. These have been fixed. You shouldn't find these
+# phones anymore.
+#
+# Long vowels: A sequence of identical heterosyllabic vowels is phonetically pronounced as 
+# one long vowel. Armenian does not have phonemic vowel length. But these are very rare. 
+# The only attested case on Wiktionary is the following.
+ɛː
+# The other types of long vowels are not found on Wiktionary as of Jan 2021. This is 
+# largely because long vowels are mostly in loanwords and borrowings, which Wiktionary 
+# underreports. At some point in the future, the Armenian users might add some entries 
+# which contain these sequences.
+ɑː
+əː
+iː
+ɔː
+uː
+#
+#
+# Consonants.
+m
+n
+ŋ
+pʰ
+p
+b
+tʰ
+t
+d
+kʰ
+k
+ɡ
+t͡sʰ
+t͡s
+d͡z
+t͡ʃʰ
+t͡ʃ
+d͡ʒ
+f
+v
+s
+z
+ʃ
+ʒ
+χ  
+ʁ
+h
+l
+j
+r
+ɾ
+#
+# Past errors: some instances of [χ] were incorrectly transcribed as [x]. 
+# Past errors: some affricates were missing a tie-bar. 
+#  * <ց> [tʃʰ] 
+#  * <չ> [tsʰ]
+# These were fixed.
+# 
+# Long consonants: A sequence of identical consonants are phonetically pronounced as 
+# long consonant. Armenian does not have phonemic consonant length or geminates.
+mː
+nː
+pʰː
+pː
+bː
+tʰː
+tː
+dː
+kʰː
+kː
+ɡː
+t͡sʰː
+fː
+vː
+sː
+zː
+ʃː
+χː
+ʁː
+lː
+ɾː
+#
+# As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have the
+# following long consonants:
+t͡sː
+d͡zː
+t͡ʃʰː
+t͡ʃː
+d͡ʒː
+ʒː
+hː
+jː
+# This is just an accidental gap. The above long consonants can exist in Armenian. 
+# At some point in the future, the Armenian users might add some entries which contain 
+# these sequences.

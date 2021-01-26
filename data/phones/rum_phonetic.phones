@@ -1,0 +1,56 @@
+# Based on https://en.wikipedia.org/wiki/Help:IPA/Romanian
+# Vowels.
+a
+e
+ə
+i
+iː  # This is not mentioned but seems to be <ii>. TODO: check this.
+ɨ
+o
+u
+e̯  # Glide portion of a diphthong.
+o̯  # Glide portion of a diphthong.
+# Consonants.
+# I don't have any information on the palatal glides so I'm just listing the
+# ones present in the data.
+b
+bʲ
+d
+dʲ
+d͡ʒ
+d͡ʒʲ
+f
+fʲ
+ɡ   # No palatal variant.
+h   # No palatal variant.
+k
+kʲ
+l
+lʲ
+m
+mʲ
+n
+nʲ
+ŋ  # No palatal variant.
+p
+pʲ
+r
+rʲ
+s
+sʲ
+ʃ
+ʃʲ
+t
+tʲ
+t͡s
+t͡sʲ
+t͡ʃ
+t͡ʃʲ
+v
+vʲ
+z
+zʲ
+ʒ
+ʒʲ
+j
+w  # No palatal variant.

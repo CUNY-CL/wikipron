@@ -1,0 +1,122 @@
+{
+    "eng_news_2016_1M": {
+        "path": [
+            "../tsv/eng_us"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/eng_news_2016_1M.tar.gz"
+    },
+    "hye-am_web_2017_1M": {
+        "path": [
+            "../tsv/arm_e"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hye-am_web_2017_1M.tar.gz"
+    },
+    "bul_newscrawl_2017_1M": {
+        "path": [
+            "../tsv/bul"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/bul_newscrawl_2017_1M.tar.gz"
+    },
+    "hbs_mixed_2014_1M": {
+        "path": [
+            "../tsv/hbs_latn"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hbs_mixed_2014_1M.tar.gz"
+    },
+    "nld_mixed_2012_1M": {
+        "path": [
+            "../tsv/dut"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nld_mixed_2012_1M.tar.gz"
+    },
+    "fra_news_2010_1M": {
+        "path": [
+            "../tsv/fre"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/fra_news_2010_1M.tar.gz"
+    },
+    "kat_newscrawl_2016_1M": {
+        "path": [
+            "../tsv/geo"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/kat_newscrawl_2016_1M.tar.gz"
+    },
+    "hun_mixed_2012_1M": {
+        "path": [
+            "../tsv/hun"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/hun_mixed_2012_1M.tar.gz"
+    },
+    "jpn_news_2011_1M": {
+        "path": [
+            "../tsv/jpn_hira"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/jpn_news_2011_1M.tar.gz"
+    },
+    "kor_news_2007_1M": {
+        "path": [
+            "../tsv/kor"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/kor_news_2007_1M.tar.gz"
+    },
+    "vie_newscrwal_2011_1M": {
+        "path": [
+            "../tsv/vie_hanoi"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/vie_newscrwal_2011_1M.tar.gz"
+    },
+    "ell-gr_web_2015_1M": {
+        "path": [
+            "../tsv/gre"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ell-gr_web_2015_1M.tar.gz"
+    },
+    "isl-is_web_2017_1M": {
+        "path": [
+            "../tsv/ice"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/isl-is_web_2017_1M.tar.gz"
+    },
+    "ita_news_2010_1M": {
+        "path": [
+            "../tsv/ita"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ita_news_2010_1M.tar.gz"
+    },
+    "ron_news_2015_1M": {
+        "path": [
+            "../tsv/rum"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ron_news_2015_1M.tar.gz"
+    },
+    "cym_wikipedia_2016_100K": {
+        "path": [
+            "../tsv/wel_sw"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/cym_wikipedia_2016_100K.tar.gz"
+    },
+    "slv-si_web_2014_1M": {
+        "path": [
+            "../tsv/slv"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/slv-si_web_2014_1M.tar.gz"
+    },
+    "khm_community_2017": {
+        "path": [
+            "../tsv/khm"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/khm_community_2017.tar.gz"
+    },
+    "lav-lv_web_2015_1M": {
+        "path": [
+            "../tsv/lav"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/lav-lv_web_2015_1M.tar.gz"
+    },
+    "nob_news_2013_1M": {
+        "path": [
+            "../tsv/nob"
+        ],
+        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nob_news_2013_1M.tar.gz"
+    }
+}

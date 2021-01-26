@@ -1,0 +1,56 @@
+# Based on
+# https://en.wikipedia.org/wiki/Turkish_phonology
+# https://en.wikipedia.org/wiki/Help:IPA/Turkish
+# CONSONANTS
+p
+b
+m
+β
+f
+v
+t
+d
+n
+r  # Allophone of /ɾ/? Unclear.
+ɾ̝̊
+ɾ
+s
+z
+l
+ɫ
+t͡ʃ
+d͡ʒ
+ʃ
+ʒ
+c
+ɟ
+ɳ
+j
+k
+ɡ
+ŋ
+ɰ
+h
+# VOWELS
+i
+iː
+y
+ɪ
+ʏ
+e
+e̞  # Phonetically accurate, but occurs rarely in the data. Probably should be changed to [e] for consistency.
+ø
+ɛ
+œ
+æ
+a
+aː
+ɯ
+u
+uː
+ʊ
+o
+o̞
+ɔ  # This vowel wasn't used in the sources, but it occurs frequently enough to be worth including.
+ɑ
+ɑː

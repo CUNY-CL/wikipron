@@ -1,0 +1,90 @@
+# Based on
+# https://en.wikipedia.org/wiki/Khmer_language
+# https://en.wikipedia.org/wiki/Khmer_script
+### CONSONANTS ###
+pʰ
+p
+ɓ
+m
+f  # Only occurs in loanwords.
+ʋ
+w  # Allophone of /ʋ/? Also used to transcribe diphthongs.
+tʰ
+t
+ɗ
+n
+r
+s
+z  # Only occurs in loanwords.
+l
+cʰ
+c
+ɲ
+j
+kʰ
+k
+ɡ  # Only occurs in loanwords.
+ŋ
+ʔ
+h
+### VOWELS ###
+i
+iː
+ĕ  # Part of diphthong /ĕ͡ə/.
+e
+eː
+ɛː
+a
+aː
+ɨ
+ɨː
+ə
+əː
+ŭ  # Part of diphthong /ŭ͡ə/.
+u
+uː
+ŏ  # Part of diphthong /ŏ͡ə/.
+o
+oː
+ɔː
+ɑ
+ɑː
+# Supposedly, there is no /ɔ/ in Khmer, only /ɔː/. Nevertheless, the short
+# vowel occurs slightly more often than the long vowel in the data, and 
+# sometimes both as appear in the same word, as in (ជ្រលង | c r ɔ l ɔː ŋ). I
+# do not know why, although it might be allophonic shortening in pretonic
+# syllables. Some (but by no means all) instances of /ɔ/ are part of the /ɔə/
+# diphthong.
+ɔ
+# DIPHTHONGS
+# Diphthongs were not transcribed with tie bars, so the following do not
+# actually appear in the data.
+i͡ə
+e͡i
+a͡e
+a͡ə
+a͡o
+ɨ͡ə
+ə͡ɨ
+u͡ə
+o͡u
+ɔ͡ə
+# Short diphthongs
+ĕ͡ə
+ŭ͡ə
+ŏ͡ə
+# Maybe-diphthongs (arguably vowel-glide sequences, but some of them seem to
+# get their own graphemes).
+a͡j
+aː͡j
+a͡w
+ɨ͡w
+ə͡w
+eː͡j
+u͡j
+iəj
+iəw
+ɨəj
+aoj
+aəj
+uəj

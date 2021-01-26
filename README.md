@@ -9,9 +9,9 @@ versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org
 [![Paper](http://img.shields.io/badge/paper-ACL:2020.lrec--1.521-B31B1B.svg)](https://www.aclweb.org/anthology/2020.lrec-1.521/)
 [![Conference](http://img.shields.io/badge/LREC-2020-4b44ce.svg)](https://lrec2020.lrec-conf.org/en/)
 
-WikiPron is a command-line tool and Python API for mining multilingual pronunciation
-data from Wiktionary, as well as a database of pronunciation dictionaries mined using
-this tool.
+WikiPron is a command-line tool and Python API for mining multilingual
+pronunciation data from Wiktionary, as well as a database of pronunciation
+dictionaries mined using this tool.
 
 -   [Command-line tool](#command-line-tool)
 -   [Python API](#python-api)
@@ -21,10 +21,12 @@ this tool.
 
 If you use WikiPron in your research, please cite the following:
 
-Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean Miller,
-Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020).
-[Massively multilingual pronunciation mining with WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/).
-In LREC. [[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)]
+Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean
+Miller, Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020). [Massively
+multilingual pronunciation mining with
+WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In In *Proceedings
+of the 12th Language Resources and Evaluation Conference*, pages 4223-4228.
+\[[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)\]
 
 Command-line tool
 -----------------
@@ -56,6 +58,22 @@ The language is indicated by a three-letter [ISO
 e.g., `fra` for French. For which languages can be scraped,
 [here](https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language)
 is the complete list of languages on Wiktionary that have pronunciation entries.
+
+#### Specifying the Dialect
+
+One can optionally specify dialects to target using the `--dialect` flag. The
+dialect name can be found together with the transcription on Wiktionary. For
+example, "(UK, US) IPA: /təˈmɑːtəʊ/". To restrict to the union of dialects use
+the pipe character '\|': e.g., `--dialect='General American | US'`.
+Transcriptions which lack a dialect specification are selected regardless of the
+value of this flag.
+
+#### Segmentation
+
+By default, the [`segments`](https://github.com/cldf/segments) library is used
+to segment the transcription into whitespace. The segmentation tends to place
+IPA diacritics and modifiers on the "parent" symbol. For instance, \[kʰæt\] is
+rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
 #### Output
 
@@ -105,9 +123,9 @@ for word, pron in wikipron.scrape(config):
 Data
 ----
 
-We also make available [a database of 1.7 million word/pronunciation
-pairs](https://github.com/kylebgorman/wikipron/tree/master/data/wikipron)
-mined using WikiPron.
+We also make available [a database of 2.5 million word/pronunciation
+pairs](https://github.com/kylebgorman/wikipron/tree/master/data) mined using
+WikiPron.
 
 Models
 ------
@@ -159,8 +177,6 @@ WikiPron is released under an Apache 2.0 license. Please see
 [LICENSE.txt](https://github.com/kylebgorman/wikipron/blob/master/LICENSE.txt)
 for details.
 
-Please note that Wiktionary data has [its own licensing
-terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights), as does the other
-data in the
-[data/](https://github.com/kylebgorman/wikipron/tree/master/data)
-subdirectory.
+Please note that Wiktionary data in the
+[data/](https://github.com/kylebgorman/wikipron/tree/master/data) directory has
+[its own licensing terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights).

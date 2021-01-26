@@ -6,7 +6,7 @@ _VERSION = "1.1.0"
 
 _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
-with open(os.path.join(_THIS_DIR, "README.md")) as f:
+with open(os.path.join(_THIS_DIR, "README.md"), encoding="utf-8") as f:
     _LONG_DESCRIPTION = f.read().strip()
 
 
@@ -38,7 +38,7 @@ def main():
             "iso639",
             "requests",
             "requests-html",
-            "segments>=2.1.3,<3",
+            "segments>=2.2.0,<3",
             "setuptools",
         ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
@@ -48,6 +48,7 @@ def main():
             "Programming Language :: Python :: 3.6",
             "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
+            "Programming Language :: Python :: 3.9",
             "Development Status :: 3 - Alpha",
             "Environment :: Console",
             "License :: OSI Approved :: Apache Software License",
