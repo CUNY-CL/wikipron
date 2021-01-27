@@ -107,6 +107,8 @@ Unreleased
 -   Updated `data/phones/README.md` to specify that `.phones` files should be
     in NFC normalization form. (\#333)
 -   Kurdish (`kur`) and Opata (`opt`) removed from `languages.json`. (\#334)
+-   Re-scraped Armenian data. Fixed an error in West Armenian phone list. 
+    (\#338)
 
 #### Fixed
 
