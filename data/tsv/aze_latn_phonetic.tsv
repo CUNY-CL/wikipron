@@ -54,6 +54,7 @@ alver	ɑ l v e r
 alınmaq	ɑ l ɯ n m ɑ χ
 alınmaq	ɑ ɫ ɯ mː ɑ χ
 alış	ɑ ɫ ɯ ʃ
+aləm	ɑː l æ m
 alət	ɑː l æ t
 amcıq	ɑ m d͡ʒ ɯ χ
 amcıqgöz	ɑ m d͡ʒ ɯ ɣ ɡ œ z
@@ -256,6 +257,8 @@ başlanğıc	b ɑ ʃ t ɑ n ɣ ɯ d͡z
 başlanğıc	b ɑ ʃ t ɑ n ɣ ɯ d͡ʒ
 başlanğıc	b ɑ ʃ ɫ ɑ n ɣ ɯ d͡z
 başlanğıc	b ɑ ʃ ɫ ɑ n ɣ ɯ d͡ʒ
+başqa	b ɑ ʃ k ɑ
+başqa	b ɑ ʃ ɡ ɑ
 başçı	b ɑ ʃ t͡s ɯ
 başçı	b ɑ ʃ t͡ʃ ɯ
 beh	b e j
@@ -283,6 +286,7 @@ bilmək	b i l m æ j
 bilmək	b i l m æ k
 bilmək	b i l m ɑ χ
 bioloji	b i o l o ʒ ɯ
+biqeyrət	b i ɡ e j r æ t
 bir	b i r
 biraz	b i r ɑ z
 birgə	b i r ɡ æ
@@ -316,6 +320,7 @@ bişmək	b i ʃ m æ k
 bişmək	p i ʃ m e j
 bişmək	p i ʃ m æ k
 bişmək	p i ʃ m ɑ χ
+bişərəf	b i ʃ æ r æ f
 bolluq	b o ɫː u χ
 boran	b o r r ɑ n
 borc	b o r d͡z
@@ -567,6 +572,7 @@ doldurmaq	d o ɫ d u r m ɑ χ
 dolma	d o ɫ m ɑ
 dolmaq	d o ɫ m ɑ χ
 dolu	d o ɫ u
+dolğun	d o ɫ ɣ u n
 dondurma	d o n d u r m ɑ
 dondurmaq	d o n d u r m ɑ χ
 dongra	d o ŋ r ɑ
@@ -942,6 +948,7 @@ hazırlaşmaq	h ɑ z ɯ r ɫ ɑ ʃ m ɑ χ
 hazırlaşmaq	h ɑ z ɯ rː ɑ ʃ m ɑ χ
 hazırlıq	h ɑ z ɯ r ɫ ɯ χ
 hazırlıq	h ɑ z ɯ rː ɯ χ
+haçan	h ɑ t͡ʃ ɑ n
 heykəltəraş	h e j k æ l t æ r ɑ ʃ
 heç	h e t͡s
 heç	h e t͡ʃ
@@ -1283,6 +1290,7 @@ liman	l i m ɑ n
 lövbər	l œ v b æ r
 lütfən	l y t f æ n
 ləzgi	l æ z ɡ i
+maddi	m ɑː dː i
 mahnı	m ɑ h n ɯ
 makedoniya	m ɑ kʲʰ e d o n i j ɑ
 makedoniya	m ɑ t͡ʃ e d o n i j ɑ
@@ -1407,6 +1415,8 @@ nadir	n ɑː d i r
 nal	n ɑ ɫ
 namaz	n ɑ m ɑ z
 namə	n ɑː m æ
+narahat	n ɑ r ɑ h ɑ t
+narazı	n ɑ r ɑː z ɯ
 natamamlıq	n ɑ t ɑ m ɑ m ɫ ɯ χ
 natamamlıq	n ɑ t ɑ m ɑ n ɫ ɯ χ
 natəmiz	n ɑː t æ m i z
@@ -2038,6 +2048,8 @@ tezlik	t e z l i k
 tezlik	t e z l i ç
 tezliklə	t e z l i k l æ
 tibb	t i b
+ticarət	t i d͡z ɑ ɾ æ t
+ticarət	t i d͡ʒ ɑ ɾ æ t
 tikili	t i k i l i
 tikili	t i t͡ʃ i l i
 tikinti	t i k i n t i
@@ -2111,6 +2123,8 @@ tərləmək	t æ rː æ m æ j
 tərləmək	t æ rː æ m æ k
 tərləmək	t æ rː æ m ɑ χ
 tərpənmək	t æ r p æ mː m æ j
+tərəfindən	t æ ɾ æ f i n d æ n
+tərəfindən	t æ ɾ æ f i nː æ n
 tərəzi	t æ r æ z i
 təsirli	t æ s i r l i
 təsirli	t æ s i rː i
@@ -2286,6 +2300,8 @@ yarpaq	j æ p r ɑ x
 yarpaq	j ɑ r p ɑ χ
 yarus	j ɑ r u s
 yarğan	j ɑ r ɣ ɑ n
+yarı	j ɑ r ɯ
+yarım	j ɑ r ɯ m
 yarımada	j ɑ r ɯ m ɑ d ɑ
 yarımkürə	j ɑ r ɯ m k y r æ
 yarımkürə	j ɑ r ɯ m t͡ʃ y r æ
@@ -2383,7 +2399,9 @@ yox	j o χ
 yoxlamaq	j o χ ɫ ɑ m ɑ χ
 yoxsa	j o χ s ɑ
 yoxsul	j o x s u ɫ
+yozmaq	j o z m ɑ χ
 yoğurmaq	j o ɣ u r m ɑ χ
+yoğurt	j o ɣ u r t
 yumaq	j u m ɑ χ
 yumruq	j u m r u χ
 yumruq	j u m u r u χ

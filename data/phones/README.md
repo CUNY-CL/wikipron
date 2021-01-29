@@ -51,7 +51,10 @@ the [fork and pull](../CONTRIBUTING.md) model for contributions.
     ```./scrape.py --restriction=<your-lang> && ./postprocess && ./generate_summary.py```
     This may take a while.
 5.  Add the `.phones` file, the filtered `.tsv` file(s), and the summary files
-    using `git add`.
+    using `git add`. The `.phones` file must use the [NFC Unicode 
+    normalization](https://en.wikipedia.org/wiki/Unicode_equivalence#Normalization).
+    If you used `../src/list_phones.py` to create the `.phones` file, then it
+    should be in this form already.
 6.  Commit using `git commit`, push to your branch using `git push`, and then
     file a pull request.
 

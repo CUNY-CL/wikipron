@@ -1,6 +1,8 @@
 abacc	a v ə k
 abaid	a b ə ɣʲ
 abbán	a b aː n
+aile	a lʲ e
+aill	a l͈ʲ
 aimser	a mʲ ʃ ə r
 aimsir	a mʲ ʃ ə rʲ
 ainm	a nʲ ə mʲ
@@ -15,6 +17,8 @@ baramail	b a r ə ṽ ə lʲ
 beirid	bʲ e rʲ ə ðʲ
 beirid	bʲ e rʲ ə ɣʲ
 benagán	bʲ e n ə ɡ aː n
+bered	bʲ e rʲ e ð
+bered	bʲ e rʲ e ɣ
 boga	b o ɣ ə
 botach	b o d a x
 botach	b o d ə x
@@ -39,6 +43,8 @@ chucisium	x u ɡʲ i ʃ u m
 chungid	x u ŋʲ ɡʲ ə ðʲ
 chungid	x u ŋʲ ɡʲ ə ɣʲ
 chétgabáil	xʲ eː d ɣ a v aː lʲ
+chéttadall	xʲ eː d t a ð ə l͈
+chéttadall	xʲ eː d t a ɣ ə l͈
 chóiced	x oː ɡʲ e ð
 chóiced	x oː ɡʲ e ɣ
 ciúnas	kʲ iː u̯ n ə s
@@ -50,6 +56,7 @@ clocach	k l o ɡ a x
 clocach	k l o ɡ ə x
 clocán	k l o ɡ aː n
 cnocán	k n o k aː n
+coire	k o rʲ e
 coire	k o ɾʲ ə
 coiri	k o ɾʲ ə
 comalta	k o ṽ a l͈ t a
@@ -65,6 +72,8 @@ cuileóc	k u lʲ oː ɡ
 cuingid	k u ŋʲ ɡʲ ə ðʲ
 cuingid	k u ŋʲ ɡʲ ə ɣʲ
 cétgabáil	kʲ eː d ɣ a v aː lʲ
+céttadall	kʲ eː d t a ð ə l͈
+céttadall	kʲ eː d t a ɣ ə l͈
 cích	kʲ iː x
 cóiced	k oː ɡʲ e ð
 cóiced	k oː ɡʲ e ɣ
@@ -81,6 +90,7 @@ deoraidecht	dʲ e o̯ r ə ðʲ a x t
 deoraidecht	dʲ e o̯ r ə ðʲ ə x t
 deoraidecht	dʲ oː r ə ɣʲ a x t
 deoraidecht	dʲ oː r ə ɣʲ ə x t
+derc	dʲ e r k
 dia	dʲ i ə̯
 ditned	dʲ i dʲ nʲ ə ð
 ditned	dʲ i dʲ nʲ ə ɣ
@@ -97,6 +107,7 @@ dóendachtach	d ɯː n͈ a x t a x
 dóendachtach	d ɯː n͈ ə x t ə x
 ecla	e ɡ l ə
 fer	fʲ e r
+ferg	fʲ e r ɡ
 finnaid	fʲ i n͈ ə ðʲ
 finnaid	fʲ i n͈ ə ɣʲ
 flann	f l a n͈
@@ -122,8 +133,13 @@ gúalaire	ɡ uː ə̯ l ə rʲ ə
 imdíched	i mʲ dʲ iː xʲ e ð
 immallé	i m ə l͈ʲ eː
 immdích	i mʲ dʲ iː xʲ
+immorro	ə m o r͈ ə
 ingenach	i nʲ ɣʲ ə n a x
 ingenach	i nʲ ɣʲ ə n ə x
+ithed	i hʲ ə ɣ
+ithed	i θʲ ə ð
+ithid	i hʲ i ɣʲ
+ithid	i θʲ i ðʲ
 laigin	l͈ a ɣʲ ə nʲ
 laignib	l͈ a ɣʲ nʲ ə vʲ
 laigniu	l͈ a ɣʲ nʲ u
@@ -138,6 +154,11 @@ lías	l͈ʲ iː ə̯ s
 lúaith	l͈ uː ə̯ hʲ
 lúaith	l͈ uː ə̯ θʲ
 maigden	m a ɣʲ dʲ e n
+manitucad	m a nʲ i t u ɡ a ð
+manitucad	m a nʲ i t u ɡ a ɣ
+maní	m a nʲ iː
+mathgamain	m a h ɣ ə ṽ ə nʲ
+mathgamain	m a θ ɣ ə ṽ ə nʲ
 mboga	m o ɣ ə
 mbás	m aː s
 medb	mʲ e ð ə v
@@ -157,11 +178,14 @@ muide	m u ɣʲ ə
 míanaige	mʲ iː ə̯ n ə ɣʲ ə
 nhérinn	n͈ʲ eː rʲ ə n͈ʲ
 nérinn	n͈ʲ eː rʲ ə n͈ʲ
+ní	n͈ʲ iː
 nóedenán	n͈ ɯː ðʲ ə n aː n
 nóedenán	n͈ ɯː ɣʲ ə n aː n
+nóin	n͈ oː nʲ
 oc	o ɡ
 oca	o ɡ ə
 occo	o ɡ ə
+occoras	o k ə r ə s
 ocus	o ɡ u s
 ocus	o ɡ ə s
 oisén	o ʃ eː n
@@ -182,17 +206,26 @@ sligeda	ʃ l͈ʲ i ɣʲ ə ɣ ə
 sligi	ʃ l͈ʲ i ɣʲ ə
 spled	s pʲ lʲ e ð
 spled	s pʲ lʲ e ɣ
+tadall	t a ð ə l͈
+tadall	t a ɣ ə l͈
 taibred	t a vʲ rʲ e ð
 taibred	t a vʲ rʲ ə ð
 taibred	t a vʲ rʲ ə ɣ
 tellach	tʲ e l͈ a x
 tellach	tʲ e l͈ ə x
 tellaige	tʲ e l͈ ə ɣʲ ə
+théged	h eː ɣʲ ə ɣ
+théged	θʲ eː ɣʲ ə ð
 tinne	tʲ i n͈ʲ ə
 tre	tʲ rʲ e
 trethe	tʲ rʲ e h e
 trethe	tʲ rʲ e θʲ e
+tucad	t u ɡ a ð
+tucad	t u ɡ a ɣ
 táncas	t aː ŋ ɡ ə s
+téged	tʲ eː ɣʲ ə ð
+téged	tʲ eː ɣʲ ə ɣ
+téit	tʲ eː dʲ
 túathach	t uː ə̯ h a x
 túathach	t uː ə̯ h ə x
 túathach	t uː ə̯ θ a x
@@ -203,6 +236,7 @@ ulad	u l ə ð
 ulad	u l ə ɣ
 ulaid	u l ə ðʲ
 ulaid	u l ə ɣʲ
+áe	ɯː
 áel	ɯː l
 áillecán	aː l͈ʲ ə ɡ aː n
 érinn	eː rʲ ə n͈ʲ

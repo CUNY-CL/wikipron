@@ -103,9 +103,11 @@
 אותיום	o t j o m
 אזמל	ʔ i z m e l
 אחד	e χ a d
-אחד	e χ ɔː d
-אחד	e̞ ħ äː d̪
-אחד	æ ħ ɔː ð
+אחד	e χ ɔ d
+אחד	ʔ e ħ aː d
+אחד	ʔ e̞ ħ ä d̪
+אחד	ʔ æ ħ ɔ ð
+אחד	ʔ ɛ ħ ɔ ð
 אחדות	a χ d u t
 אחות	a χ ɔ t
 אחז	a ħ a z
@@ -324,6 +326,7 @@
 דג	d a ɡ
 דג	d ɔː ɣ
 דוב	d o v
+דובאי	d u b a j
 דובדבן	d u v d e v a n
 דוד	d a v i d
 דוד	d aː w iː ð
@@ -434,10 +437,15 @@
 זהב	z a h a v
 זהיר	z a h i ʁ
 זומבי	z o m b i
+זיהום	z i h u m
 זיוה	z i v a
 זיין	z i j e n
 זיעה	z e ʕ a
 זכר	z a x a r
+זכר	z a x a ʁ
+זכר	z u χ u r
+זכר	z ɔ x ɔ r
+זכר	z ɔ χ ɔ r
 זמן	z m a n
 זן	z a n
 זן	z ɔː n
@@ -513,6 +521,8 @@
 חנ״ג	x a n a ɡ
 חסד	ħ e s e d
 חסד	χ e s e d
+חסון	x a s o n
+חסון	ħ a s o n
 חפרפרת	χ a f a ʁ p e ʁ e t
 חצות	χ a t͡s o t
 חרא	χ a ʁ a
@@ -528,12 +538,20 @@
 חשוב	ħ ɔ ʃ u v
 חשוב	χ a ʃ u v
 חשוב	χ ɔ ʃ u v
-חתול	x ɔ s o j l
+חתול	x u s i l
+חתול	x ɔ s u l
 חתול	ħ a t̪ u l
-חתול	ħ ɔ θ øː l
+חתול	ħ ɔ θ u l
 חתול	χ a t u l
 טג׳יקי	t a d͡ʒ i k i
 טג׳יקיסטן	t a d͡ʒ i k i s t a n
+טוב	t e i̯ v
+טוב	t o i̯ v
+טוב	t o v
+טוב	tˤ eː v
+טוב	tˤ o v
+טוב	tˤ oː b
+טוב	tˤ øː v
 טורסו	t ɔ ʁ s ɔ
 טכנולוגי	t e χ n o l o ɡ i
 טלית	t a l e t
@@ -562,7 +580,7 @@
 יהדות	j a h a d u t
 יהודה	j e h u d a
 יהודי	j e h u d i
-יהודי	j æ h u ð i
+יהודי	j ŭ h u ð i
 יהי	j e h i
 יובל	j o v e l
 יובל	j u v a l
@@ -583,7 +601,9 @@
 יחזקאל	j ə ħ ɛ z q ē l
 יחי	j e χ i
 יחידה	j ɛ χ i d a
+ייבא	j i b e
 יין	j a j i n
+ייצא	j i t s e
 יכול	j a χ o l
 ילד	j a l a d
 ילד	j e l e d
@@ -618,9 +638,11 @@
 ישב	j i ʃ e v
 ישיבה	j e ʃ i v a
 ישעיהו	j e ʃ a ʕ j a h u
+ישראל	j i s r a ʔ e l
 ישראל	j i s r aː ʔ eː l
+ישראל	j i s r u a j l
 ישראל	j i s r ɔ e j l
-ישראל	j i s r ɔː ʔ eː l
+ישראל	j i s r ɔ ʔ e l
 ישראל	j i s ʁ a ʔ e l
 ישראל	j i ɬ r aː ʔ eː l
 כאילו	k e ʔ i l u
@@ -797,6 +819,7 @@
 מישהו	m i ʃ u
 מישהו	m i ʃ ɛ h u
 מלאך	m a l ʔ a χ
+מלוח	m a l u a χ
 מלון	m a l o n
 מלון	m e l o n
 מלון	m i l o n
@@ -810,6 +833,8 @@
 ממש	m a m ə ʃ
 מנוחה	m e n u χ a
 מנורה	m e n o ʁ a
+מניין	m i n j a n
+מניין	m i n j ɔ n
 מסדרון	m i s d a ʁ o n
 מסדרון	m i s d ə ʁ o n
 מסכת	m a s e χ e t
@@ -820,6 +845,7 @@
 מעלה	m a ʕ l a
 מעלה	m a ʕ l ɔː
 מעליב	m a ʔ a l i v
+מערך	m a ʔ a ʁ a χ
 מפסידן	m a f s i d a n
 מפעל	m i f ʔ a l
 מצא	m a t s a
@@ -880,6 +906,8 @@
 נזיר	n ɔː z ə ʁ
 נילוס	n i l u s
 ניתוח	n i t u a χ
+נכס	n a χ a s
+נכס	n ɛ χ ɛ s
 נלחם	n i l χ a m
 נמל	n a m a l
 נמל	n a m e l
@@ -901,8 +929,12 @@
 נשכח	n i ʃ k a χ
 נשמה	n a ʃ m a
 נשמה	n e ʃ a m a
+נתפס	n i t f a s
+נתפס	n i t p a s
 סבון	s a b o n
 סדן	s a d a n
+סדר	s e d e r
+סדר	s e ð ɛ r
 סוד	s ɔ d
 סונכרן	s u n k r a n
 סונכרן	s u n χ r a n
@@ -935,9 +967,12 @@
 עברות	ʔ i v ʁ u t
 עברית	i v r i s
 עברית	i v ʁ i t
+עברית	ʕ i b r i t
+עברית	ʕ i b r i θ
 עברית	ʕ i v r i t
 עברית	ʕ i v r i θ
 עברית	ʕ i v ʀ i θ
+עברית	ʕ iː b r iː t
 עד	ʔ a d
 עד	ʔ e d
 עדכון	i d k u n
@@ -994,6 +1029,7 @@
 עמ׳	ʔ m u d i m
 עמ׳	ʕ m u d
 עמ׳	ʕ m u d i m
+ענבל	i n b a l
 ענן	ʕ a n a n
 עף	a f
 עף	ʔ a f
@@ -1013,11 +1049,15 @@
 ערבית	a ʁ v i t
 ערום	a ʁ u m
 ערמון	ʕ a r m o n
+ערס	ʔ a ʁ s
 עש	a ʃ
 עשב	ʔ e s e v
-עשה	a s a
+עשה	u s u
 עשה	ɔ s ɔ
+עשה	ʔ a s a
 עשה	ʕ a s a
+עשה	ʕ aː s aː
+עשה	ʕ aː ɬ aː
 עשה	ʕ ɔ s ɔ
 עשה	ʕ ɔː s ɔː
 עשים	a ʃ i m
@@ -1138,14 +1178,26 @@
 קנה	k a n a
 קניון	k a n j o n
 קניון	k e n j o n
+קרא	k a r a ʔ
 קרא	k a ʁ a ʔ
+קרא	k ɔ r ɔ
+קרא	q aː r aː ʔ
+קרא	q ɔ r ɔ ʔ
+קרא	q ɔ ʀ ɔ ʔ
 קרה	k a ʁ a
 קריזה	k r i z ɑ
 קרע	k a ʁ a ʕ
 קש	k a ʃ
 קשישא	k ʃ i ʃ ɑ
 קשת	k a ʃ a t
+קשת	k e j ʃ e j s
+קשת	k e ʃ e s
+קשת	k e ʃ e t̪
 קשת	k ɛ ʃ ɛ t
+קשת	q e ʃ e t
+קשת	q e ʃ e θ
+קשת	q ɛ ʃ ɛ θ
+קשת	ɡ æ ʃ æ θ
 ראש	ʁ ɔ ʃ
 ראשון	ʁ i ʃ o n
 ראשית	ʁ e̞ ʃ i t
@@ -1165,6 +1217,7 @@
 רווקה	r a w w aː q aː
 רווקה	ʁ a v a k a
 רוח	r u a ħ
+רוח	r u a χ
 רוח	r u æ ħ
 רוח	ʁ u a x
 רומנית	ʁ ɔ m a n i t
@@ -1205,9 +1258,9 @@
 שבע	ʃ a β a ʕ
 שבע	ʃ e v a
 שבע	ʃ ɛ v a ʕ
-שבעה	ʃ i v a
+שבעה	ʃ i v ʔ a
 שבעה	ʃ i v ʕ ɔ
-שבעה	ʃ i β ʕ a h
+שבעה	ʃ i β ʕ aː
 שבת	ʃ a b ɔ s
 שבת	ʃ æ b b ɔː θ
 שד	ʃ a d
@@ -1336,6 +1389,7 @@
 תבע	t a v a ʕ
 תוהו	t o h u
 תוכאים	t u k a ʔ i m
+תוכניתן	t o χ n i t a n
 תולעת	t o l a ʔ a t
 תועבה	t o ʔ e v a
 תועבה	t o ʕ e v a
