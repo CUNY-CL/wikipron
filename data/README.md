@@ -41,11 +41,12 @@
 | [TSV](tsv/bul_phonetic.tsv) | bul | Bulgarian | Bulgarian | True | Phonetic | 5,274 |
 | [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,517 |
 | [TSV](tsv/bur_phonemic_filtered.tsv) | bur | Burmese | Burmese | False | Phonemic_filtered | 4,512 |
+| [TSV](tsv/yue_phonemic.tsv) | yue | Yue Chinese | Cantonese | False | Phonemic | 87,961 |
 | [TSV](tsv/crx_phonemic.tsv) | crx | Carrier | Carrier | False | Phonemic | 175 |
 | [TSV](tsv/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 51,341 |
 | [TSV](tsv/ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 292 |
 | [TSV](tsv/nya_phonemic.tsv) | nya | Nyanja | Chichewa | True | Phonemic | 821 |
-| [TSV](tsv/cmn_hani_phonemic.tsv) | cmn | Mandarin Chinese | Chinese (Han) | False | Phonemic | 125,901 |
+| [TSV](tsv/cmn_hani_phonemic.tsv) | cmn | Mandarin Chinese | Chinese (Han) | False | Phonemic | 133,686 |
 | [TSV](tsv/cho_phonemic.tsv) | cho | Choctaw | Choctaw | True | Phonemic | 112 |
 | [TSV](tsv/nci_phonemic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonemic | 836 |
 | [TSV](tsv/nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1,190 |
@@ -184,6 +185,7 @@
 | [TSV](tsv/okm_phonemic.tsv) | okm | Korean, Middle (10th–16th centuries) | Middle Korean | False | Phonemic | 119 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 169 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
+| [TSV](tsv/nan_phonetic.tsv) | nan | Min Nan Chinese | Min Nan | True | Phonetic | 431 |
 | [TSV](tsv/mdf_phonemic.tsv) | mdf | Moksha | Moksha | True | Phonemic | 116 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 149 |
 | [TSV](tsv/mon_cyrl_phonemic.tsv) | mon | Mongolian | Mongolian (Cyrillic) | True | Phonemic | 1,070 |
@@ -236,7 +238,7 @@
 | [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 3,655 |
 | [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 6,350 |
 | [TSV](tsv/rum_phonetic_filtered.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic_filtered | 6,246 |
-| [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 402,483 |
+| [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 402,600 |
 | [TSV](tsv/san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 5,023 |
 | [TSV](tsv/san_phonetic.tsv) | san | Sanskrit | Sanskrit | False | Phonetic | 418 |
 | [TSV](tsv/srd_phonemic.tsv) | srd | Sardinian | Sardinian | True | Phonemic | 166 |
