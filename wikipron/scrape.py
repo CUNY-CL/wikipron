@@ -1,15 +1,15 @@
 import re
+import time
 import unicodedata
-from typing import cast, Dict, Any
+
+from typing import Any, Dict, cast
 
 import pkg_resources
 import requests
 import requests_html
 
-import time
-
 from wikipron.config import Config
-from wikipron.typing import Iterator, WordPronPair, Pron
+from wikipron.typing import Iterator, Pron, WordPronPair
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -34,6 +34,8 @@ def _skip_word(word: str, skip_spaces: bool, language: str) -> bool:
     if skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
+    # TODO: Refactor dash inclusion to make it more
+    # aligned with how spaces are handled.
     if "-" in word and language != "Min Nan":
         return True
     # Skips examples containing digits.
