@@ -1,6 +1,6 @@
 import re
 import unicodedata
-from typing import cast
+from typing import cast, Dict, Any
 
 import pkg_resources
 import requests
@@ -52,9 +52,9 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
         title = member["title"]
         timestamp = member["timestamp"]
         config.restart_key = member["sortkey"]
-        if _skip_word(title, config.skip_spaces_word, config.language) or _skip_date(
-            timestamp, config.cut_off_date
-        ):
+        if _skip_word(
+            title, config.skip_spaces_word, config.language
+        ) or _skip_date(timestamp, config.cut_off_date):
             continue
         request = session.get(
             _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
@@ -83,7 +83,7 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)
     )
-    requests_params = {
+    requests_params: Dict[str, Any] = {
         "action": "query",
         "format": "json",
         "list": "categorymembers",
@@ -102,22 +102,16 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             if "continue" not in data:
                 break
             continue_code = data["continue"]["cmcontinue"]
-            # "cmstarthexsortkey" reset so as to avoid competition with "continue_code".
+            # "cmstarthexsortkey" reset so as to avoid competition
+            # with "continue_code".
             requests_params.update(
-                {
-                    "cmcontinue": continue_code,
-                    "cmstarthexsortkey": None
-                }
+                {"cmcontinue": continue_code, "cmstarthexsortkey": None}
             )
         except (
             requests.exceptions.Timeout,
             requests.exceptions.ConnectionError,
         ):
-            requests_params.update(
-                {
-                    "cmstarthexsortkey": config.restart_key
-                }
-            )
+            requests_params.update({"cmstarthexsortkey": config.restart_key})
             # 5 minute timeout. Immediately restarting after the
             # connection has dropped appears to have led to
             # 'Connection reset by peer' errors.

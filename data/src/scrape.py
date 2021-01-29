@@ -6,12 +6,10 @@ import datetime
 import json
 import logging
 import os
-import time
 import re
 
 from typing import Any, Dict, FrozenSet, Iterator
 
-import requests
 import wikipron  # type: ignore
 
 from data.src.codes import (
@@ -64,7 +62,6 @@ def _call_scrape(
         else:
             for (word, pron) in scrape_results:
                 print(f"{word}\t{pron}", file=source)
-
 
 
 def _build_scraping_config(
