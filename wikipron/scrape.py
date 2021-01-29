@@ -26,7 +26,7 @@ HTTP_HEADERS = {
 }
 
 
-def _skip_word(word: str, skip_spaces: bool) -> bool:
+def _skip_word(word: str, skip_spaces: bool, language: str) -> bool:
     # Skips reconstructions.
     if word.startswith("*"):
         return True
@@ -34,7 +34,7 @@ def _skip_word(word: str, skip_spaces: bool) -> bool:
     if skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
-    if "-" in word:
+    if "-" in word and language != "Min Nan":
         return True
     # Skips examples containing digits.
     if re.search(r"\d", word):
@@ -51,14 +51,11 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
-        if config.restarted:
-            config.restarted = False
-            continue
-        if _skip_word(title, config.skip_spaces_word) or _skip_date(
+        config.restart_key = member["sortkey"]
+        if _skip_word(title, config.skip_spaces_word, config.language) or _skip_date(
             timestamp, config.cut_off_date
         ):
             continue
-        config.restart_key = member["sortkey"]
         request = session.get(
             _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
         )
@@ -86,17 +83,15 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)
     )
+    requests_params = {
+        "action": "query",
+        "format": "json",
+        "list": "categorymembers",
+        "cmtitle": category,
+        "cmlimit": "500",
+        "cmprop": "ids|title|timestamp|sortkey",
+    }
     while True:
-        requests_params = {
-            "action": "query",
-            "format": "json",
-            "list": "categorymembers",
-            "cmtitle": category,
-            "cmlimit": "500",
-            "cmprop": "ids|title|timestamp|sortkey",
-            "cmsort": "sortkey",
-            "cmstarthexsortkey": config.restart_key
-        }
         data = requests.get(
             "https://en.wiktionary.org/w/api.php?",
             params=requests_params,
@@ -107,13 +102,23 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             if "continue" not in data:
                 break
             continue_code = data["continue"]["cmcontinue"]
-            requests_params.update({"cmcontinue": continue_code})
+            # "cmstarthexsortkey" reset so as to avoid competition with "continue_code".
+            requests_params.update(
+                {
+                    "cmcontinue": continue_code,
+                    "cmstarthexsortkey": None
+                }
+            )
         except (
             requests.exceptions.Timeout,
             requests.exceptions.ConnectionError,
         ):
-            # Should log the sortkey, just for testing purposes.
-            print("RESTARTED", config.restart_key)
-            config.restarted = True
-            time.sleep(60)
-            continue
+            requests_params.update(
+                {
+                    "cmstarthexsortkey": config.restart_key
+                }
+            )
+            # 5 minute timeout. Immediately restarting after the
+            # connection has dropped appears to have led to
+            # 'Connection reset by peer' errors.
+            time.sleep(300)
