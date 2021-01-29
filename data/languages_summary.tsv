@@ -39,11 +39,12 @@ bul_phonemic_filtered.tsv	bul	Bulgarian	Bulgarian	True	Phonemic_filtered	31782
 bul_phonetic.tsv	bul	Bulgarian	Bulgarian	True	Phonetic	6377
 bur_phonemic.tsv	bur	Burmese	Burmese	False	Phonemic	4636
 bur_phonemic_filtered.tsv	bur	Burmese	Burmese	False	Phonemic_filtered	4631
+yue_phonemic.tsv	yue	Yue Chinese	Cantonese	False	Phonemic	87961
 crx_phonemic.tsv	crx	Carrier	Carrier	False	Phonemic	175
 cat_phonemic.tsv	cat	Catalan; Valencian	Catalan	True	Phonemic	55829
 ceb_phonemic.tsv	ceb	Cebuano	Cebuano	True	Phonemic	326
 nya_phonemic.tsv	nya	Nyanja	Chichewa	True	Phonemic	823
-cmn_hani_phonemic.tsv	cmn	Mandarin Chinese	Chinese (Han)	False	Phonemic	125901
+cmn_hani_phonemic.tsv	cmn	Mandarin Chinese	Chinese (Han)	False	Phonemic	133686
 cho_phonemic.tsv	cho	Choctaw	Choctaw	True	Phonemic	112
 nci_phonemic.tsv	nci	Classical Nahuatl	Classical Nahuatl	True	Phonemic	820
 nci_phonetic.tsv	nci	Classical Nahuatl	Classical Nahuatl	True	Phonetic	1396
@@ -191,6 +192,7 @@ mga_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish	True	Phonemic	247
 okm_phonemic.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	False	Phonemic	334
 gml_phonemic.tsv	gml	Middle Low German	Middle Low German	True	Phonemic	170
 wlm_phonemic.tsv	wlm	Middle Welsh	Middle Welsh	True	Phonemic	144
+nan_phonetic.tsv	nan	Min Nan Chinese	Min Nan	True	Phonetic	431
 mvi_phonemic.tsv	mvi	Miyako	Miyako	False	Phonemic	114
 mdf_phonemic.tsv	mdf	Moksha	Moksha	True	Phonemic	117
 mnw_phonemic.tsv	mnw	Mon	Mon	False	Phonemic	514
@@ -251,7 +253,7 @@ pan_guru_phonemic.tsv	pan	Panjabi	Punjabi (Gurmukhi)	False	Phonemic	139
 rum_phonemic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonemic	4108
 rum_phonetic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonetic	6394
 rum_phonetic_filtered.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	True	Phonetic_filtered	6286
-rus_phonetic.tsv	rus	Russian	Russian	True	Phonetic	402483
+rus_phonetic.tsv	rus	Russian	Russian	True	Phonetic	402600
 san_phonemic.tsv	san	Sanskrit	Sanskrit	False	Phonemic	6841
 san_phonetic.tsv	san	Sanskrit	Sanskrit	False	Phonetic	673
 srd_phonemic.tsv	srd	Sardinian	Sardinian	True	Phonemic	216
