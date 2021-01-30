@@ -26,7 +26,7 @@ HTTP_HEADERS = {
 }
 
 
-def _skip_word(word: str, skip_spaces: bool, language: str) -> bool:
+def _skip_word(word: str, skip_spaces: bool) -> bool:
     # Skips reconstructions.
     if word.startswith("*"):
         return True
@@ -34,9 +34,7 @@ def _skip_word(word: str, skip_spaces: bool, language: str) -> bool:
     if skip_spaces and (" " in word or "\u00A0" in word):
         return True
     # Skips examples containing a dash.
-    # TODO: Refactor dash inclusion to make it more
-    # aligned with how spaces are handled.
-    if "-" in word and language != "Min Nan":
+    if "-" in word:
         return True
     # Skips examples containing digits.
     if re.search(r"\d", word):
@@ -54,9 +52,9 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
         title = member["title"]
         timestamp = member["timestamp"]
         config.restart_key = member["sortkey"]
-        if _skip_word(
-            title, config.skip_spaces_word, config.language
-        ) or _skip_date(timestamp, config.cut_off_date):
+        if _skip_word(title, config.skip_spaces_word) or _skip_date(
+            timestamp, config.cut_off_date
+        ):
             continue
         request = session.get(
             _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS

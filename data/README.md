@@ -194,7 +194,6 @@
 | [TSV](tsv/okm_phonemic.tsv) | okm | Middle Korean (10th-16th cent.) | Middle Korean | False | Phonemic | 334 |
 | [TSV](tsv/gml_phonemic.tsv) | gml | Middle Low German | Middle Low German | True | Phonemic | 170 |
 | [TSV](tsv/wlm_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | True | Phonemic | 144 |
-| [TSV](tsv/nan_phonetic.tsv) | nan | Min Nan Chinese | Min Nan | True | Phonetic | 431 |
 | [TSV](tsv/mvi_phonemic.tsv) | mvi | Miyako | Miyako | False | Phonemic | 114 |
 | [TSV](tsv/mdf_phonemic.tsv) | mdf | Moksha | Moksha | True | Phonemic | 117 |
 | [TSV](tsv/mnw_phonemic.tsv) | mnw | Mon | Mon | False | Phonemic | 514 |
