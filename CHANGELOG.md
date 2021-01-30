@@ -139,6 +139,7 @@ Unreleased
 -   Handled Cantonese for scraping. (\#277)
 -   Added exclusion for reconstructions. (\#302)
 -   Added Vietnamese contour tone grouping test in `tests/test_config.py` (\#308)
+-   Added restart functionality. (\#340)
 
 #### Changed
 
