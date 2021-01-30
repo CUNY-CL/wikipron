@@ -109,7 +109,6 @@ Unreleased
 -   Kurdish (`kur`) and Opata (`opt`) removed from `languages.json`. (\#334)
 -   Re-scraped Armenian data. Fixed an error in West Armenian phone list. 
     (\#338)
--   Modified `nan` in `languages.json` to allow for spaces in prons. (\#340)
 
 #### Fixed
 
@@ -151,7 +150,6 @@ Unreleased
 -   Updated the packages version numbers in requirements.txt to their latest according to PyPI (\#239)
 -   Updated the default pron selector to also look for IPA strings under paragraphs in addition to list items. (\#295)
 -   Updated segments package version to 2.2.0 (\#308)
--   Updated `_skip_word()` and `tests/test_scrape.py` to allow for inspection of language being scraped. (\#340)
 
 #### Deprecated
 

@@ -831,7 +831,6 @@
         "iso639_name": "Min Nan Chinese",
         "wiktionary_name": "Min Nan",
         "wiktionary_code": "nan",
-        "skip_spaces_pron": false,
         "casefold": true
     },
     "mvi": {
