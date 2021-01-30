@@ -72,10 +72,17 @@ _SMOKE_TEST_LANGUAGES = [
             ("दर्‍या", False),
         ]
     ),
+    SmokeTestScript("Devanagari", [("ब्राह्मिक", True), ("ก ไก่", False)]),
     SmokeTestScript("Gujarati", [("બ્રાહ્મીક", True), ("ब्राह्मिक", False)]),
     SmokeTestScript(
         "Gurmukhi", [("ਲੂੰਬੜੀ", True), ("ੁ", True), ("ਲਬลੜੀ", False)]
     ),
+    SmokeTestScript("Kannada", [("ಬ್ರಾಹ್ಮಿಕ್", True), ("Ⱆ", False)]),
+    SmokeTestScript("Malayalam", [("ബ്രാഹ്മിക്", True), ("Ⱆ", False)]),
+    SmokeTestScript("Oriya", [("ବ୍ରାହ୍ମୀସି", True), ("Ⱆ", False)]),
+    SmokeTestScript("Sinhala", [("බ්රාහ්මික්", True), ("Ⱆ", False)]),
+    SmokeTestScript("Tamil", [("பிராமிக்", True), ("Ⱆ", False)]),
+    SmokeTestScript("Telugu", [("బ్రహ్మికి", True), ("Ⱆ", False)]),
     SmokeTestScript(
         "Katakana", [("シニヨン", True), ("あいき", False), ("瀨", False)]
     ),
@@ -124,7 +131,7 @@ def test_smoke_test_script(smoke_test_script):
 
 
 @pytest.mark.parametrize("smoke_test_script,", _SMOKE_TEST_LANGUAGES)
-def test_script_detection(smoke_test_script):
+def test_script_detection_strict(smoke_test_script):
     """Checks whether the scripts we'd like to split are correctly detected
     given the samples."""
     for script_sample, predicted_truth_val in smoke_test_script.samples:
@@ -134,3 +141,13 @@ def test_script_detection(smoke_test_script):
         assert status == predicted_truth_val, (
             f"{script_sample}: {smoke_test_script.script} predicted"
             f" as {predicted_script}.")
+
+
+def test_script_detection_basic():
+    # Check mixing the scripts: Kharoṣṭhī and Brāhmī, with a longer segment
+    # corresponding to Brāhmī.
+    text = "𐨑𐨪𐨆𐨯𐨠𐨁𑀘𑀠𑀬𑁄𑀰𑀺𑀣𑁄"
+    assert not _detect_best_script_name(text)  # Not allowed in strict mode.
+    script, score = _detect_best_script_name(text, strict=False)
+    assert script == "Brahmi"
+    assert score > 0.5
