@@ -21,14 +21,16 @@ def _generalized_check(script: str, word: str) -> bool:
     return bool(regex.match(regex_string, word))
 
 
-def _detect_best_script_name(word: str, strict: bool=True) -> Tuple[str, float]:
+def _detect_best_script_name(
+    word: str, strict: bool = True
+) -> Tuple[str, float]:
     """Returns the most likely script name (rather than ISO 15924 code) the
-       word belongs to along with the corresponding confidence expressed as a
-       maximum likelihood estimate computed over the `word` sample. If `strict`
-       is enabled, then all the characters must belong to the same script and
-       `None` is returned on failure.
+    word belongs to along with the corresponding confidence expressed as a
+    maximum likelihood estimate computed over the `word` sample. If `strict`
+    is enabled, then all the characters must belong to the same script and
+    `None` is returned on failure.
 
-       Example: "ژۇرنال" -> ("Arabic", 1.0).
+    Example: "ژۇرنال" -> ("Arabic", 1.0).
     """
     script_probs = collections.defaultdict(float)
     for char in word:

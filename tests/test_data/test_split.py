@@ -70,7 +70,7 @@ _SMOKE_TEST_LANGUAGES = [
             ("ব্রাহ্মীকে", True),
             ("অসমীয়া", True),  # Assamese.
             ("दर्‍या", False),
-        ]
+        ],
     ),
     SmokeTestScript("Devanagari", [("ब्राह्मिक", True), ("ก ไก่", False)]),
     SmokeTestScript("Gujarati", [("બ્રાહ્મીક", True), ("ब्राह्मिक", False)]),
@@ -137,10 +137,11 @@ def test_script_detection_strict(smoke_test_script):
     for script_sample, predicted_truth_val in smoke_test_script.samples:
         result = _detect_best_script_name(script_sample)
         predicted_script = result[0] if result else None
-        status = (predicted_script == smoke_test_script.script)
+        status = predicted_script == smoke_test_script.script
         assert status == predicted_truth_val, (
             f"{script_sample}: {smoke_test_script.script} predicted"
-            f" as {predicted_script}.")
+            f" as {predicted_script}."
+        )
 
 
 def test_script_detection_basic():
