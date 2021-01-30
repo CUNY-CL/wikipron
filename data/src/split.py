@@ -2,11 +2,12 @@
 
 import collections
 import json
+import operator
 import os
 import sys
-import unicodedataplus
 
 import regex  # type: ignore
+import unicodedataplus
 
 from typing import Dict, Tuple, Union
 
@@ -36,7 +37,7 @@ def _detect_best_script_name(
     for char in word:
         script_counts[unicodedataplus.script(char)] += 1.0
     script_probs = [(s, script_counts[s] / len(word)) for s in script_counts]
-    script_probs = sorted(script_probs, key=lambda x: x[1], reverse=True)
+    script_probs.sort(key=operator.itemgetter(1), reverse=True)
     if strict and len(script_probs) != 1:
         return None
     else:
