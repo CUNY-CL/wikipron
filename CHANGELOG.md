@@ -12,6 +12,13 @@ Unreleased
 
 ### Under `data/`
 
+### Under `wikipron/
+
+[1.2.0] - 2021-01-30
+--------------------
+
+### Under `data/`
+
 #### Added
 
 -   Added Afrikaans whitelists, filtered TSV file, rescraped phonemic and phonetic TSV files. (\#311)
@@ -151,15 +158,9 @@ Unreleased
 -   Updated the default pron selector to also look for IPA strings under paragraphs in addition to list items. (\#295)
 -   Updated segments package version to 2.2.0 (\#308)
 
-#### Deprecated
-
 #### Removed
 
 -   Moved Wiktionary querying functions from `test_languagecodes.py` to `codes.py` (\#205)
-
-#### Fixed
-
-#### Security
 
 [1.1.0] - 2020-03-03
 --------------------
