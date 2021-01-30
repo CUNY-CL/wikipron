@@ -6,12 +6,10 @@ import datetime
 import json
 import logging
 import os
-import time
 import re
 
 from typing import Any, Dict, FrozenSet, Iterator
 
-import requests
 import wikipron  # type: ignore
 
 from data.src.codes import (
@@ -49,48 +47,21 @@ def _call_scrape(
     phones_set: FrozenSet[str] = None,
     tsv_filtered_path: str = "",
 ) -> None:
-    for unused_retries in range(10):
-        with open(tsv_path, "w", encoding="utf-8") as source:
-            try:
-                scrape_results = wikipron.scrape(config)
-                # Given phones, opens up a second tsv for scraping.
-                if phones_set:
-                    with open(
-                        tsv_filtered_path, "w", encoding="utf-8"
-                    ) as source_filtered:
-                        for (word, pron) in scrape_results:
-                            line = f"{word}\t{pron}"
-                            if _filter(word, pron, phones_set):
-                                print(line, file=source_filtered)
-                            print(line, file=source)
-                else:
-                    for (word, pron) in scrape_results:
-                        print(f"{word}\t{pron}", file=source)
-                return
-            except (
-                requests.exceptions.Timeout,
-                requests.exceptions.ConnectionError,
-            ):
-                logging.info(
-                    "Exception detected while scraping: %r, %r, %r",
-                    lang_settings["key"],
-                    tsv_path,
-                    tsv_filtered_path,
-                )
-                # Pauses execution for 10 min.
-                time.sleep(600)
-    # Log and remove TSVs for languages that failed.
-    logging.info(
-        "Failed to scrape %r with 10 retries (%s)",
-        lang_settings["key"],
-        lang_settings,
-    )
-    # Checks if second TSV was opened.
-    try:
-        os.remove(tsv_filtered_path)
-    except OSError:
-        pass
-    os.remove(tsv_path)
+    with open(tsv_path, "w", encoding="utf-8") as source:
+        scrape_results = wikipron.scrape(config)
+        # Given phones, opens up a second TSV for scraping.
+        if phones_set:
+            with open(
+                tsv_filtered_path, "w", encoding="utf-8"
+            ) as source_filtered:
+                for (word, pron) in scrape_results:
+                    line = f"{word}\t{pron}"
+                    if _filter(word, pron, phones_set):
+                        print(line, file=source_filtered)
+                    print(line, file=source)
+        else:
+            for (word, pron) in scrape_results:
+                print(f"{word}\t{pron}", file=source)
 
 
 def _build_scraping_config(

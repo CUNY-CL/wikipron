@@ -1,13 +1,15 @@
 import re
+import time
 import unicodedata
-from typing import cast
+
+from typing import Any, Dict, cast
 
 import pkg_resources
 import requests
 import requests_html
 
 from wikipron.config import Config
-from wikipron.typing import Iterator, WordPronPair, Pron
+from wikipron.typing import Iterator, Pron, WordPronPair
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -49,6 +51,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
+        config.restart_key = member["sortkey"]
         if _skip_word(title, config.skip_spaces_word) or _skip_date(
             timestamp, config.cut_off_date
         ):
@@ -80,13 +83,13 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)
     )
-    requests_params = {
+    requests_params: Dict[str, Any] = {
         "action": "query",
         "format": "json",
         "list": "categorymembers",
         "cmtitle": category,
         "cmlimit": "500",
-        "cmprop": "ids|title|timestamp",
+        "cmprop": "ids|title|timestamp|sortkey",
     }
     while True:
         data = requests.get(
@@ -94,8 +97,22 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             params=requests_params,
             headers=HTTP_HEADERS,
         ).json()
-        yield from _scrape_once(data, config)
-        if "continue" not in data:
-            break
-        continue_code = data["continue"]["cmcontinue"]
-        requests_params.update({"cmcontinue": continue_code})
+        try:
+            yield from _scrape_once(data, config)
+            if "continue" not in data:
+                break
+            continue_code = data["continue"]["cmcontinue"]
+            # "cmstarthexsortkey" reset so as to avoid competition
+            # with "continue_code".
+            requests_params.update(
+                {"cmcontinue": continue_code, "cmstarthexsortkey": None}
+            )
+        except (
+            requests.exceptions.Timeout,
+            requests.exceptions.ConnectionError,
+        ):
+            requests_params.update({"cmstarthexsortkey": config.restart_key})
+            # 5 minute timeout. Immediately restarting after the
+            # connection has dropped appears to have led to
+            # 'Connection reset by peer' errors.
+            time.sleep(300)

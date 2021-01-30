@@ -81,6 +81,7 @@ class Config:
         )
         self.skip_spaces_word: bool = skip_spaces_word
         self.skip_spaces_pron: bool = skip_spaces_pron
+        self.restart_key = None
 
     def _get_language(self, key) -> str:
         key = key.lower().strip()
