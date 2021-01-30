@@ -65,6 +65,15 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestScript("Balinese", [("ᬰᬶᬮᬵ", True), ("ᬰнᬮᬰสุᬮᬵ", False)]),
     SmokeTestScript("Cyrillic", [("наиме", True), ("наиmе", False)]),
     SmokeTestScript(
+        "Bengali",
+        [
+            ("ব্রাহ্মীকে", True),
+            ("অসমীয়া", True),  # Assamese.
+            ("दर्‍या", False),
+        ]
+    ),
+    SmokeTestScript("Gujarati", [("બ્રાહ્મીક", True), ("ब्राह्मिक", False)]),
+    SmokeTestScript(
         "Gurmukhi", [("ਲੂੰਬੜੀ", True), ("ੁ", True), ("ਲਬลੜੀ", False)]
     ),
     SmokeTestScript(
