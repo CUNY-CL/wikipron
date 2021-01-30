@@ -5,6 +5,7 @@ import os
 
 from typing import Set
 
+from data.src.split import _detect_best_script_name
 from data.src.split import _generalized_check
 
 _REPO_DIR = os.path.dirname(
@@ -111,3 +112,16 @@ def test_smoke_test_script(smoke_test_script):
             _generalized_check(smoke_test_script.script, script_sample)
             == predicted_truth_val
         )
+
+
+@pytest.mark.parametrize("smoke_test_script,", _SMOKE_TEST_LANGUAGES)
+def test_script_detection(smoke_test_script):
+    """Checks whether the scripts we'd like to split are correctly detected
+    given the samples."""
+    for script_sample, predicted_truth_val in smoke_test_script.samples:
+        result = _detect_best_script_name(script_sample)
+        predicted_script = result[0] if result else None
+        status = (predicted_script == smoke_test_script.script)
+        assert status == predicted_truth_val, (
+            f"{script_sample}: {smoke_test_script.script} predicted"
+            f" as {predicted_script}.")
