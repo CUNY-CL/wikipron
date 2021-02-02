@@ -114,7 +114,7 @@ Unreleased
 -   Updated `data/phones/README.md` to specify that `.phones` files should be
     in NFC normalization form. (\#333)
 -   Kurdish (`kur`) and Opata (`opt`) removed from `languages.json`. (\#334)
--   Re-scraped Armenian data. Fixed an error in West Armenian phone list. 
+-   Re-scraped Armenian data. Fixed an error in West Armenian phone list.
     (\#338)
 
 #### Fixed
@@ -147,6 +147,7 @@ Unreleased
 -   Added exclusion for reconstructions. (\#302)
 -   Added Vietnamese contour tone grouping test in `tests/test_config.py` (\#308)
 -   Added restart functionality. (\#340)
+-   Added very basic API for script detection. (\#341)
 
 #### Changed
 
