@@ -64,6 +64,7 @@ class Config:
         tone: bool = True,
         skip_spaces_word: bool = True,
         skip_spaces_pron: bool = True,
+        parens: bool = False,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
@@ -81,6 +82,7 @@ class Config:
         )
         self.skip_spaces_word: bool = skip_spaces_word
         self.skip_spaces_pron: bool = skip_spaces_pron
+        self.parens: bool = parens
         self.restart_key = None
 
     def _get_language(self, key) -> str:

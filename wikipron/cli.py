@@ -104,6 +104,12 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         dest="tone",
         help="removes tones from the transcriptions",
     )
+    parser.add_argument(
+        "--keep-parens",
+        action="store_true",
+        dest="parens",
+        help="include parentheses in the transcriptions",
+    )
     return parser.parse_args(args)
 
 

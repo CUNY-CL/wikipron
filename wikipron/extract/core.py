@@ -32,7 +32,8 @@ def yield_pron(
             continue
         pron = m.group(1)
         # Removes parens around various segments.
-        pron = pron.replace("(", "").replace(")", "")
+        if not config.parens:
+            pron = pron.replace("(", "").replace(")", "")
         if _skip_pron(pron, config.skip_spaces_pron):
             continue
         try:
