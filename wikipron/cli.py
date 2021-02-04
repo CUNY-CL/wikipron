@@ -105,9 +105,15 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         help="removes tones from the transcriptions",
     )
     parser.add_argument(
-        "--keep-parens",
+        "--skip-parens",
         action="store_true",
-        dest="parens",
+        default=True,
+        help="remove parentheses from the transcriptions",
+    )
+    parser.add_argument(
+        "--no-skip-parens",
+        action="store_false",
+        dest="skip_parens",
         help="include parentheses in the transcriptions",
     )
     return parser.parse_args(args)
@@ -123,5 +129,6 @@ def _scrape_and_write(config: Config) -> None:
 def main() -> None:
     logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     args = _get_cli_args(sys.argv[1:])
+    print(args)
     config = Config(**args.__dict__)
     _scrape_and_write(config)

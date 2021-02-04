@@ -21,6 +21,12 @@ def _skip_pron(pron: str, skip_spaces: bool) -> bool:
     return False
 
 
+def _handle_parens(pron: str, skip_parens: bool) -> str:
+    if skip_parens:
+        pron = pron.replace("(", "").replace(")", "")
+    return pron
+
+
 def yield_pron(
     request_html: requests_html.Element,
     ipa_xpath_selector: str,
@@ -32,8 +38,7 @@ def yield_pron(
             continue
         pron = m.group(1)
         # Removes parens around various segments unless --keep-parens is used.
-        if not config.parens:
-            pron = pron.replace("(", "").replace(")", "")
+        pron = _handle_parens(pron, config.skip_parens)
         if _skip_pron(pron, config.skip_spaces_pron):
             continue
         try:
