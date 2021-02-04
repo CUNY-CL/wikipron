@@ -7,7 +7,7 @@ import os
 
 from typing import Any, Dict, List
 
-from data.src.codes import LANGUAGES_PATH, PHONES_DIRECTORY_PATH
+from data.src.codes import LANGUAGES_PATH, PHONES_SUMMARY_PATH
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
@@ -70,7 +70,7 @@ def main() -> None:
     # ones.
     readme_list.sort(key=_wiki_name_and_transcription_level)
     # Writes the README.
-    with open(PHONES_DIRECTORY_PATH, "w", encoding="utf-8") as sink:
+    with open(PHONES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
             "| Wiktionary Language Name |"
