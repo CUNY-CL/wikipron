@@ -53,7 +53,7 @@ def main() -> None:
         transcription_level = file_path[
             file_path.index("phone") : file_path.index(
                 "."
-            )  # or should I change to `file_path.index("_") + 1`
+            ) 
         ].capitalize()
         wiki_name = _handle_wiki_name(languages[iso639_code], file_path, modifiers)
         row = [
