@@ -20,7 +20,9 @@ def _handle_wiki_name(
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:
-            key = file_path[file_path.index("_") + 1 : file_path.rindex("_phone")]
+            key = file_path[
+                file_path.index("_") + 1 : file_path.rindex("_phone")
+            ]
             if not key:
                 logging.info(
                     "Failed to isolate key for %r modifier in %r",
@@ -51,11 +53,11 @@ def main() -> None:
             num_of_entries = sum(1 for line in phone_list)
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
-            file_path.index("phone") : file_path.index(
-                "."
-            ) 
+            file_path.index("phone") : file_path.index(".")
         ].capitalize()
-        wiki_name = _handle_wiki_name(languages[iso639_code], file_path, modifiers)
+        wiki_name = _handle_wiki_name(
+            languages[iso639_code], file_path, modifiers
+        )
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
@@ -88,5 +90,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(format="%(filename)s %(levelname)s: %(message)s", level="INFO")
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(message)s", level="INFO"
+    )
     main()
