@@ -47,7 +47,8 @@ README_PATH = os.path.join(DATA_DIRECTORY, "README.md")
 LANGUAGES_SUMMARY_PATH = os.path.join(DATA_DIRECTORY, "languages_summary.tsv")
 TSV_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "tsv")
 PHONES_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "phones")
-PHONES_SUMMARY_PATH = os.path.join(PHONES_DIRECTORY_PATH, "phone_summary.tsv")
+PHONES_README_PATH = os.path.join(PHONES_DIRECTORY_PATH, "README.md")
+PHONES_SUMMARY_PATH = os.path.join(PHONES_DIRECTORY_PATH, "phones_summary.tsv")
 
 
 def _get_language_categories() -> List[str]:

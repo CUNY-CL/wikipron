@@ -7,7 +7,7 @@ import os
 
 from typing import Any, Dict, List
 
-from data.src.codes import LANGUAGES_PATH, PHONES_SUMMARY_PATH
+from data.src.codes import LANGUAGES_PATH, PHONES_SUMMARY_PATH, PHONES_README_PATH
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
@@ -43,11 +43,11 @@ def main() -> None:
     readme_list = []
     languages_summary_list = []
     path = "../phones"
-    modifiers = ["dialect", "script"]
+    modifiers = ["dialect"]
 
     for file_path in os.listdir(path):
         # Filters out README.md.
-        if file_path.endswith(".md"):
+        if file_path.endswith(".md") or file_path.endswith("tsv"):
             continue
         with open(f"{path}/{file_path}", "r", encoding="utf-8") as phone_list:
             num_of_entries = sum(1 for line in phone_list)
@@ -65,15 +65,22 @@ def main() -> None:
             transcription_level,
             num_of_entries,
         ]
+        languages_summary_list.append([file_path] + row)
         readme_list.append([f"[phone](phones/{file_path})"] + row)
     # Sorts by Wiktionary language name, with phonemic entries before phonetic
     # ones.
+    languages_summary_list.sort(key=_wiki_name_and_transcription_level)
     readme_list.sort(key=_wiki_name_and_transcription_level)
-    # Writes the README.
     with open(PHONES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
+        tsv_writer_object = csv.writer(
+            sink, delimiter="\t", lineterminator="\n"
+        )
+        tsv_writer_object.writerows(languages_summary_list)
+    # Writes the README.
+    with open(PHONES_README_PATH, "w", encoding="utf-8") as sink:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
-            "| Wiktionary Language Name |"
+            "| Wiktionary Language Name "
             "| Phonetic/Phonemic | # of phones |",
             file=sink,
         )
