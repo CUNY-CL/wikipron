@@ -2,7 +2,7 @@ import pytest
 import requests_html
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
-from wikipron.extract.core import _skip_pron, _handle_parens
+from wikipron.extract.core import _handle_parens, _skip_pron
 from wikipron.extract.default import extract_word_pron_default
 
 
