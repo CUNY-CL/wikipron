@@ -75,6 +75,12 @@ to segment the transcription into whitespace. The segmentation tends to place
 IPA diacritics and modifiers on the "parent" symbol. For instance, \[kʰæt\] is
 rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
+#### Parentheses 
+
+Some of transcriptions contain parentheses to indicate alternative pronuniciations.
+The parentheses (but not the content) are discarded in the scrape unless the 
+`--no-skip-parens` flag is used.
+
 #### Output
 
 The scraped data is organized with each \<word, pronunciation\> pair on its own

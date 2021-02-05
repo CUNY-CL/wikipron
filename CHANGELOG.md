@@ -150,6 +150,7 @@ Unreleased
 -   Added Vietnamese contour tone grouping test in `tests/test_config.py` (\#308)
 -   Added restart functionality. (\#340)
 -   Added very basic API for script detection. (\#341)
+-   Added `--skip-parens` and `--no-skip-parens` flags. (\#343)
 
 #### Changed
 
