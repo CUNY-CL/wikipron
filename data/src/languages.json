@@ -1366,7 +1366,7 @@
         "wiktionary_name": "Wauja",
         "wiktionary_code": "wau",
         "casefold": true
-    },
+    },    
     "wel": {
         "iso639_name": "Welsh",
         "wiktionary_name": "Welsh",
@@ -1388,6 +1388,12 @@
         "wiktionary_name": "Western Apache",
         "wiktionary_code": "apw",
         "casefold": true
+    },
+    "lcp": {
+        "iso639_name": "Western Lawa",
+        "wiktionary_name": "Western Lawa",
+        "wiktionary_code": "lcp",
+        "casefold": false
     },
     "mww": {
         "iso639_name": "Hmong Daw",
