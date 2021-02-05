@@ -317,6 +317,12 @@
         "wiktionary_code": "dz",
         "casefold": false
     },
+    "lwl": {
+        "iso639_name": "Eastern Lawa",
+        "wiktionary_name": "Eastern Lawa",
+        "wiktionary_code": "lwl",
+        "casefold": false
+    },
     "arz": {
         "iso639_name": "Egyptian Arabic",
         "wiktionary_name": "Egyptian Arabic",
@@ -575,7 +581,12 @@
         "iso639_name": "Kazakh",
         "wiktionary_name": "Kazakh",
         "wiktionary_code": "kk",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
+        }
     },
     "khm": {
         "iso639_name": "Khmer",
