@@ -581,7 +581,12 @@
         "iso639_name": "Kazakh",
         "wiktionary_name": "Kazakh",
         "wiktionary_code": "kk",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
+        }
     },
     "khm": {
         "iso639_name": "Khmer",

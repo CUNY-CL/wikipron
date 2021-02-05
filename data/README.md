@@ -135,8 +135,8 @@
 | [TSV](tsv/jje_phonemic.tsv) | jje | Jejueo | Jeju | False | Phonemic | 1,006 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 834 |
 | [TSV](tsv/kas_phonemic.tsv) | kas | Kashmiri | Kashmiri | False | Phonemic | 104 |
-| [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 203 |
-| [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 745 |
+| [TSV](tsv/kaz_cyrl_phonemic.tsv) | kaz | Kazakh | Kazakh (Cyrillic) | True | Phonemic | 119 |
+| [TSV](tsv/kaz_cyrl_phonetic.tsv) | kaz | Kazakh | Kazakh (Cyrillic) | True | Phonetic | 745 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,412 |
 | [TSV](tsv/khm_phonemic_filtered.tsv) | khm | Khmer | Khmer | False | Phonemic_filtered | 3,209 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,129 |
