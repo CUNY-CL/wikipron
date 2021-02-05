@@ -78,6 +78,7 @@ Unreleased
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
 -   Several languages added to `languagecodes.py`. (\#334)
 -   Configured scripts for Kazakh (`kaz`). (\#345)
+-   Added Easten Lawa (`lwl`). (\#346)
 -   Added Nyahkur (`cbn`). (\#348)
 
 #### Changed
