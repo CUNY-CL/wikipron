@@ -132,8 +132,8 @@ jpn_kana_phonetic_filtered.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic_f
 jje_phonemic.tsv	jje	Jejueo	Jeju	False	Phonemic	1006
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	834
 kas_phonemic.tsv	kas	Kashmiri	Kashmiri	False	Phonemic	104
-kaz_phonemic.tsv	kaz	Kazakh	Kazakh	True	Phonemic	203
-kaz_phonetic.tsv	kaz	Kazakh	Kazakh	True	Phonetic	745
+kaz_cyrl_phonemic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonemic	119
+kaz_cyrl_phonetic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonetic	745
 khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	3412
 khm_phonemic_filtered.tsv	khm	Khmer	Khmer	False	Phonemic_filtered	3209
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1129
