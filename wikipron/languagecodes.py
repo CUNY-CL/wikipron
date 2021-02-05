@@ -435,4 +435,6 @@ LANGUAGE_CODES = {
     "lcp": "Western Lawa",
     # Eastern Lawa: ISO 639-3 only.
     "lwl": "Eastern Lawa"
+    # Nyah Kur: ISO 639-3 only.
+    "cbn": "Nyah Kur"
 }

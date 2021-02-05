@@ -104,6 +104,18 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         dest="tone",
         help="removes tones from the transcriptions",
     )
+    parser.add_argument(
+        "--skip-parens",
+        action="store_true",
+        default=True,
+        help="remove parentheses from the transcriptions",
+    )
+    parser.add_argument(
+        "--no-skip-parens",
+        action="store_false",
+        dest="skip_parens",
+        help="include parentheses in the transcriptions",
+    )
     return parser.parse_args(args)
 
 
