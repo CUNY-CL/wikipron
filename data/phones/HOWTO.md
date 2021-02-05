@@ -48,7 +48,7 @@ the [fork and pull](../CONTRIBUTING.md) model for contributions.
     comments of counts and example word-pronunciation pairs.
 3.  For a phonemic list, add comments about allophony.
 4.  In [`../src/`](../src) run 
-    ```./scrape.py --restriction=<your-lang> && ./postprocess && ./generate_summary.py```
+    ```./scrape.py --restriction=<your-lang> && ./postprocess && ./generate_tsv_summary.py && ./generate_phones_summary.py```
     This may take a while.
 5.  Add the `.phones` file, the filtered `.tsv` file(s), and the summary files
     using `git add`. The `.phones` file must use the [NFC Unicode 
