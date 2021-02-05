@@ -79,6 +79,7 @@ Unreleased
 -   Several languages added to `languagecodes.py`. (\#334)
 -   Configured scripts for Kazakh (`kaz`). (\#345)
 -   Added Easten Lawa (`lwl`). (\#346)
+-   Configuration for Western Lawa (`lcp`). (\#347)
 -   Added Nyahkur (`cbn`). (\#348)
 
 #### Changed

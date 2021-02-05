@@ -1406,6 +1406,12 @@
         "wiktionary_code": "apw",
         "casefold": true
     },
+    "lcp": {
+        "iso639_name": "Western Lawa",
+        "wiktionary_name": "Western Lawa",
+        "wiktionary_code": "lcp",
+        "casefold": false
+    },
     "mww": {
         "iso639_name": "Hmong Daw",
         "wiktionary_name": "White Hmong",
