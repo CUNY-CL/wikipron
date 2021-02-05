@@ -77,6 +77,7 @@ Unreleased
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
 -   Several languages added to `languagecodes.py`. (\#334)
+-   Added Nyahkur (`cbn`). (\#348)
 
 #### Changed
 
