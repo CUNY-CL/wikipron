@@ -218,6 +218,7 @@
 | [TSV](tsv/nno_phonemic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonemic | 1,378 |
 | [TSV](tsv/nno_phonetic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonetic | 206 |
 | [TSV](tsv/nor_phonemic.tsv) | nor | Norwegian | Norwegian | True | Phonemic | 2,056 |
+| [TSV](tsv/cbn_phonemic.tsv) | cbn | Nyahkur | Nyah Kur | False | Phonemic | 116 |
 | [TSV](tsv/oci_phonemic.tsv) | oci | Occitan (post 1500) | Occitan | True | Phonemic | 387 |
 | [TSV](tsv/oci_phonetic.tsv) | oci | Occitan (post 1500) | Occitan | True | Phonetic | 293 |
 | [TSV](tsv/ryu_phonemic.tsv) | ryu | Central Okinawan | Okinawan | False | Phonemic | 177 |

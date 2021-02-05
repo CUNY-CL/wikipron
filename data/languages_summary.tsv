@@ -216,6 +216,7 @@ nob_phonetic.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	True	Phonetic	587
 nno_phonemic.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	True	Phonemic	1378
 nno_phonetic.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	True	Phonetic	206
 nor_phonemic.tsv	nor	Norwegian	Norwegian	True	Phonemic	2056
+cbn_phonemic.tsv	cbn	Nyahkur	Nyah Kur	False	Phonemic	116
 oci_phonemic.tsv	oci	Occitan (post 1500)	Occitan	True	Phonemic	387
 oci_phonetic.tsv	oci	Occitan (post 1500)	Occitan	True	Phonetic	293
 ryu_phonemic.tsv	ryu	Central Okinawan	Okinawan	False	Phonemic	177

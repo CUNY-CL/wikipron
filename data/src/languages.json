@@ -960,6 +960,12 @@
         "wiktionary_code": "no",
         "casefold": true
     },
+    "cbn": {
+        "iso639_name": "Nyahkur",
+        "wiktionary_name": "Nyah Kur",
+        "wiktionary_code": "cbn",
+        "casefold": false
+    },
     "oci": {
         "iso639_name": "Occitan (post 1500)",
         "wiktionary_name": "Occitan",
