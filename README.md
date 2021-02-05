@@ -77,7 +77,7 @@ rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
 #### Parentheses 
 
-Some of transcriptions contain parentheses to indicate alternative pronuniciations.
+Some of transcriptions contain parentheses to indicate alternative pronunciations.
 The parentheses (but not the content) are discarded in the scrape unless the 
 `--no-skip-parens` flag is used.
 
