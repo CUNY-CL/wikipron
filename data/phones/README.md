@@ -1,3 +1,4 @@
+See the [HOWTO](phones/HOWTO.md) for the steps to generate phone lists.
 | Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Phonetic/Phonemic | # of phones |
 | :---- | :----: | :----: | :----: | :----: | :----: |
 | [phone](phones/ady_phonetic.phones) | ady | Adygei; Adyghe | Adyghe | Phonetic | 72 |
