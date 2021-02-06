@@ -82,7 +82,9 @@ def main() -> None:
         tsv_writer_object.writerows(languages_summary_list)
     # Writes the README.
     with open(PHONES_README_PATH, "w", encoding="utf-8") as sink:
-        print("See the [HOWTO](phones/HOWTO.md) for the steps to generate phone lists.")
+        print(
+            "See the [HOWTO](phones/HOWTO.md) for the steps to generate phone lists."
+        )
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
             "| Wiktionary Language Name "

@@ -50,8 +50,7 @@ def test_language_data_matches_summary():
         ) as tsv:
             num_of_entries = sum(1 for line in tsv)
         assert unique_tsv in name_count_dict, (
-            f"{unique_tsv} in data/tsv but not in "
-            "data/tsv_summary.tsv"
+            f"{unique_tsv} in data/tsv but not in " "data/tsv_summary.tsv"
         )
         assert name_count_dict[unique_tsv] == num_of_entries, (
             f"Number of entries in {unique_tsv} does not match "
