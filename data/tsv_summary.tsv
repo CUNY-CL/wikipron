@@ -64,6 +64,7 @@ dut_phonemic.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic	30627
 dut_phonemic_filtered.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic_filtered	30570
 dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	652
 dzo_phonemic.tsv	dzo	Dzongkha	Dzongkha	False	Phonemic	188
+lwl_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa	False	Phonemic	253
 egy_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	False	Phonemic	3410
 eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	61232
 eng_uk_phonemic_filtered.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic_filtered	60479
@@ -132,8 +133,8 @@ jpn_kana_phonetic_filtered.tsv	jpn	Japanese	Japanese (Katakana)	False	Phonetic_f
 jje_phonemic.tsv	jje	Jejueo	Jeju	False	Phonemic	1006
 kbd_phonetic.tsv	kbd	Kabardian	Kabardian	True	Phonetic	834
 kas_phonemic.tsv	kas	Kashmiri	Kashmiri	False	Phonemic	104
-kaz_phonemic.tsv	kaz	Kazakh	Kazakh	True	Phonemic	203
-kaz_phonetic.tsv	kaz	Kazakh	Kazakh	True	Phonetic	745
+kaz_cyrl_phonemic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonemic	119
+kaz_cyrl_phonetic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonetic	745
 khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	3412
 khm_phonemic_filtered.tsv	khm	Khmer	Khmer	False	Phonemic_filtered	3209
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1129
@@ -215,6 +216,7 @@ nob_phonetic.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	True	Phonetic	587
 nno_phonemic.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	True	Phonemic	1378
 nno_phonetic.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	True	Phonetic	206
 nor_phonemic.tsv	nor	Norwegian	Norwegian	True	Phonemic	2056
+cbn_phonemic.tsv	cbn	Nyahkur	Nyah Kur	False	Phonemic	116
 oci_phonemic.tsv	oci	Occitan (post 1500)	Occitan	True	Phonemic	387
 oci_phonetic.tsv	oci	Occitan (post 1500)	Occitan	True	Phonetic	293
 ryu_phonemic.tsv	ryu	Central Okinawan	Okinawan	False	Phonemic	177

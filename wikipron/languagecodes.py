@@ -431,4 +431,10 @@ LANGUAGE_CODES = {
     # South Levantine Arabic. ISO 639-3 only.
     "ajp": "South Levantine Arabic",
     "south levantine arabic": "South Levantine Arabic",
+    # Western Lawa: ISO 639-3 only.
+    "lcp": "Western Lawa",
+    # Eastern Lawa: ISO 639-3 only.
+    "lwl": "Eastern Lawa",
+    # Nyah Kur: ISO 639-3 only.
+    "cbn": "Nyah Kur",
 }

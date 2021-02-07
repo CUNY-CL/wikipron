@@ -317,6 +317,12 @@
         "wiktionary_code": "dz",
         "casefold": false
     },
+    "lwl": {
+        "iso639_name": "Eastern Lawa",
+        "wiktionary_name": "Eastern Lawa",
+        "wiktionary_code": "lwl",
+        "casefold": false
+    },
     "arz": {
         "iso639_name": "Egyptian Arabic",
         "wiktionary_name": "Egyptian Arabic",
@@ -575,7 +581,12 @@
         "iso639_name": "Kazakh",
         "wiktionary_name": "Kazakh",
         "wiktionary_code": "kk",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
+        }
     },
     "khm": {
         "iso639_name": "Khmer",
@@ -948,6 +959,12 @@
         "wiktionary_name": "Norwegian",
         "wiktionary_code": "no",
         "casefold": true
+    },
+    "cbn": {
+        "iso639_name": "Nyahkur",
+        "wiktionary_name": "Nyah Kur",
+        "wiktionary_code": "cbn",
+        "casefold": false
     },
     "oci": {
         "iso639_name": "Occitan (post 1500)",
@@ -1388,6 +1405,12 @@
         "wiktionary_name": "Western Apache",
         "wiktionary_code": "apw",
         "casefold": true
+    },
+    "lcp": {
+        "iso639_name": "Western Lawa",
+        "wiktionary_name": "Western Lawa",
+        "wiktionary_code": "lcp",
+        "casefold": false
     },
     "mww": {
         "iso639_name": "Hmong Daw",

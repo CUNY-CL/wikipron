@@ -78,6 +78,10 @@ Unreleased
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
 -   Several languages added to `languagecodes.py`. (\#334)
+-   Configured scripts for Kazakh (`kaz`). (\#345)
+-   Added Easten Lawa (`lwl`). (\#346)
+-   Configuration for Western Lawa (`lcp`). (\#347)
+-   Added Nyahkur (`cbn`). (\#348)
 
 #### Changed
 
@@ -152,6 +156,7 @@ Unreleased
 -   Added Vietnamese contour tone grouping test in `tests/test_config.py` (\#308)
 -   Added restart functionality. (\#340)
 -   Added very basic API for script detection. (\#341)
+-   Added `--skip-parens` and `--no-skip-parens` flags. (\#343)
 
 #### Changed
 
