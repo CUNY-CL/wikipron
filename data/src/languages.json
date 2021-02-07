@@ -1257,7 +1257,11 @@
         "iso639_name": "Tagalog",
         "wiktionary_name": "Tagalog",
         "wiktionary_code": "tl",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "tglg": "Baybayin"
+        }
     },
     "tgk": {
         "iso639_name": "Tajik",
