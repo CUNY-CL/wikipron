@@ -5,8 +5,8 @@
 languages with over 100 entries. If a `.phones` file is present for a given language,
 the process will generate an additional filtered file only containing the permitted
 phones/phonemes.
-[`generate_summary.py`](generate_summary.py) generates a
-[README](../README.md) and a [TSV](../languages_summary.tsv) with selected
+[`generate_tsv_summary.py`](generate_tsv_summary.py) generates a
+[README](../README.md) and a [TSV](../tsv_summary.tsv) with selected
 information regarding the contents of the TSVs [`scrape.py`](scrape.py)
 generated and the configuration settings that were passed to scrape.
 [`postprocess`](postprocess) sorts and removes entries in each TSV if they have
@@ -43,7 +43,7 @@ Steps used to update the dataset
         `datetime.date.today().isoformat()` but can be set manually using an ISO
         formatted string (ex. "2019-10-31").
 3.  Run [`postprocess`](postprocess).
-4.  Run [`generate_summary.py`](generate_summary.py).
+4.  Run [`generate_tsv_summary.py`](generate_tsv_summary.py).
 
 Running a subset of languages using the big scrape
 --------------------------------------------------
@@ -68,4 +68,4 @@ languages:
     scrape run - which can be found in the messages logged to the console or in
     `scraping.log`.
 3.  Run [`postprocess`](postprocess).
-4.  Run [`generate_summary.py`](generate_summary.py).
+4.  Run [`generate_tsv_summary.py`](generate_tsv_summary.py).

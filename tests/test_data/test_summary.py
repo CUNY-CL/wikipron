@@ -3,15 +3,15 @@ import os
 _REPO_DIR = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 )
-_SUMMARY = os.path.join(_REPO_DIR, "data/languages_summary.tsv")
+_SUMMARY = os.path.join(_REPO_DIR, "data/tsv_summary.tsv")
 _TSV_DIRECTORY = os.path.join(_REPO_DIR, "data/tsv")
 
 
 def test_summary_matches_language_data():
-    """Check if each TSV referenced in data/languages_summary.tsv is
+    """Check if each TSV referenced in data/tsv_summary.tsv is
     present in data/tsv.
 
-    (Basically checks whether generate_summary.py has been run.)
+    (Basically checks whether generate_tsv_summary.py has been run.)
     """
     observed_name_to_count = {}
 
@@ -28,15 +28,15 @@ def test_summary_matches_language_data():
     for summary_file in summary_files:
         assert (
             summary_file in observed_name_to_count
-        ), f"{summary_file} in data/languages_summary.tsv but not in data/tsv"
+        ), f"{summary_file} in data/tsv_summary.tsv but not in data/tsv"
 
 
 def test_language_data_matches_summary():
-    """Check if each TSV in data/tsv is present in data/languages_summary.tsv
+    """Check if each TSV in data/tsv is present in data/tsv_summary.tsv
     and if the number of entries in each TSV matches its listed number
-    of entries in data/languages_summary.tsv.
+    of entries in data/tsv_summary.tsv.
 
-    (Basically checks whether generate_summary.py has been run.)
+    (Basically checks whether generate_tsv_summary.py has been run.)
     """
     name_count_dict = {}
     with open(_SUMMARY, "r", encoding="utf-8") as lang_summary:
@@ -50,10 +50,9 @@ def test_language_data_matches_summary():
         ) as tsv:
             num_of_entries = sum(1 for line in tsv)
         assert unique_tsv in name_count_dict, (
-            f"{unique_tsv} in data/tsv but not in "
-            "data/languages_summary.tsv"
+            f"{unique_tsv} in data/tsv but not in " "data/tsv_summary.tsv"
         )
         assert name_count_dict[unique_tsv] == num_of_entries, (
             f"Number of entries in {unique_tsv} does not match "
-            "number of entries in data/languages_summary.tsv."
+            "number of entries in data/tsv_summary.tsv."
         )

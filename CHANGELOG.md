@@ -21,6 +21,7 @@ Unreleased
 
 #### Added
 
+-   Added generate_phones_summary.py, generating `./phones/README.md` and `./phones/phones_summary.tsv`. (\#344) 
 -   Added Afrikaans whitelists, filtered TSV file, rescraped phonemic and phonetic TSV files. (\#311)
 -   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)
@@ -84,6 +85,9 @@ Unreleased
 
 #### Changed
 
+-   Changed the name of the existing `./phones/README.md` to `./phones/HOWTO.md`. (\#344)
+-   Edited the name of `generate_summary.py` to `generate_tsv_summary.py`.(\#344)
+-   Edited the output file name of `generate_tsv_summary.py` to `tsv_summary.tsv`.(\#344)
 -   Edited the arm_e_phonetic.phones and arm_w_phonetic.phones files. (\#298)
 -   Improved printing in the README table. (\#145)
 -   Renamed data directory `data`. (\#147)
