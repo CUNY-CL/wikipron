@@ -12,8 +12,16 @@ Unreleased
 
 ### Under `data/`
 
+### Under `wikipron/`
+
+[1.2.0] - 2021-01-30
+--------------------
+
+### Under `data/`
+
 #### Added
 
+-   Added generate_phones_summary.py, generating `./phones/README.md` and `./phones/phones_summary.tsv`. (\#344) 
 -   Added Afrikaans whitelists, filtered TSV file, rescraped phonemic and phonetic TSV files. (\#311)
 -   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)
@@ -70,9 +78,17 @@ Unreleased
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
 -   Several languages added to `languagecodes.py`. (\#334)
+-   Configured scripts for Kazakh (`kaz`). (\#345)
+-   Added Easten Lawa (`lwl`). (\#346)
+-   Configuration for Western Lawa (`lcp`). (\#347)
+-   Added Nyahkur (`cbn`). (\#348)
+-   Split Tagalog (`tgl`) scripts into Latin and Baybayin, rescraped. (\#351)
 
 #### Changed
 
+-   Changed the name of the existing `./phones/README.md` to `./phones/HOWTO.md`. (\#344)
+-   Edited the name of `generate_summary.py` to `generate_tsv_summary.py`.(\#344)
+-   Edited the output file name of `generate_tsv_summary.py` to `tsv_summary.tsv`.(\#344)
 -   Edited the arm_e_phonetic.phones and arm_w_phonetic.phones files. (\#298)
 -   Improved printing in the README table. (\#145)
 -   Renamed data directory `data`. (\#147)
@@ -107,7 +123,7 @@ Unreleased
 -   Updated `data/phones/README.md` to specify that `.phones` files should be
     in NFC normalization form. (\#333)
 -   Kurdish (`kur`) and Opata (`opt`) removed from `languages.json`. (\#334)
--   Re-scraped Armenian data. Fixed an error in West Armenian phone list. 
+-   Re-scraped Armenian data. Fixed an error in West Armenian phone list.
     (\#338)
 
 #### Fixed
@@ -139,6 +155,9 @@ Unreleased
 -   Handled Cantonese for scraping. (\#277)
 -   Added exclusion for reconstructions. (\#302)
 -   Added Vietnamese contour tone grouping test in `tests/test_config.py` (\#308)
+-   Added restart functionality. (\#340)
+-   Added very basic API for script detection. (\#341)
+-   Added `--skip-parens` and `--no-skip-parens` flags. (\#343)
 
 #### Changed
 
@@ -150,15 +169,9 @@ Unreleased
 -   Updated the default pron selector to also look for IPA strings under paragraphs in addition to list items. (\#295)
 -   Updated segments package version to 2.2.0 (\#308)
 
-#### Deprecated
-
 #### Removed
 
 -   Moved Wiktionary querying functions from `test_languagecodes.py` to `codes.py` (\#205)
-
-#### Fixed
-
-#### Security
 
 [1.1.0] - 2020-03-03
 --------------------

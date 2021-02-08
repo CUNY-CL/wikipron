@@ -41,11 +41,12 @@
 | [TSV](tsv/bul_phonetic.tsv) | bul | Bulgarian | Bulgarian | True | Phonetic | 6,377 |
 | [TSV](tsv/bur_phonemic.tsv) | bur | Burmese | Burmese | False | Phonemic | 4,636 |
 | [TSV](tsv/bur_phonemic_filtered.tsv) | bur | Burmese | Burmese | False | Phonemic_filtered | 4,631 |
+| [TSV](tsv/yue_phonemic.tsv) | yue | Yue Chinese | Cantonese | False | Phonemic | 87,961 |
 | [TSV](tsv/crx_phonemic.tsv) | crx | Carrier | Carrier | False | Phonemic | 175 |
 | [TSV](tsv/cat_phonemic.tsv) | cat | Catalan; Valencian | Catalan | True | Phonemic | 55,829 |
 | [TSV](tsv/ceb_phonemic.tsv) | ceb | Cebuano | Cebuano | True | Phonemic | 326 |
 | [TSV](tsv/nya_phonemic.tsv) | nya | Nyanja | Chichewa | True | Phonemic | 823 |
-| [TSV](tsv/cmn_hani_phonemic.tsv) | cmn | Mandarin Chinese | Chinese (Han) | False | Phonemic | 125,901 |
+| [TSV](tsv/cmn_hani_phonemic.tsv) | cmn | Mandarin Chinese | Chinese (Han) | False | Phonemic | 133,686 |
 | [TSV](tsv/cho_phonemic.tsv) | cho | Choctaw | Choctaw | True | Phonemic | 112 |
 | [TSV](tsv/nci_phonemic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonemic | 820 |
 | [TSV](tsv/nci_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl | True | Phonetic | 1,396 |
@@ -65,6 +66,7 @@
 | [TSV](tsv/dut_phonemic_filtered.tsv) | dut | Dutch; Flemish | Dutch | True | Phonemic_filtered | 30,570 |
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 652 |
 | [TSV](tsv/dzo_phonemic.tsv) | dzo | Dzongkha | Dzongkha | False | Phonemic | 188 |
+| [TSV](tsv/lwl_phonemic.tsv) | lwl | Eastern Lawa | Eastern Lawa | False | Phonemic | 253 |
 | [TSV](tsv/egy_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | False | Phonemic | 3,410 |
 | [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 61,232 |
 | [TSV](tsv/eng_uk_phonemic_filtered.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic_filtered | 60,479 |
@@ -133,8 +135,8 @@
 | [TSV](tsv/jje_phonemic.tsv) | jje | Jejueo | Jeju | False | Phonemic | 1,006 |
 | [TSV](tsv/kbd_phonetic.tsv) | kbd | Kabardian | Kabardian | True | Phonetic | 834 |
 | [TSV](tsv/kas_phonemic.tsv) | kas | Kashmiri | Kashmiri | False | Phonemic | 104 |
-| [TSV](tsv/kaz_phonemic.tsv) | kaz | Kazakh | Kazakh | True | Phonemic | 203 |
-| [TSV](tsv/kaz_phonetic.tsv) | kaz | Kazakh | Kazakh | True | Phonetic | 745 |
+| [TSV](tsv/kaz_cyrl_phonemic.tsv) | kaz | Kazakh | Kazakh (Cyrillic) | True | Phonemic | 119 |
+| [TSV](tsv/kaz_cyrl_phonetic.tsv) | kaz | Kazakh | Kazakh (Cyrillic) | True | Phonetic | 745 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,412 |
 | [TSV](tsv/khm_phonemic_filtered.tsv) | khm | Khmer | Khmer | False | Phonemic_filtered | 3,209 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,129 |
@@ -216,6 +218,7 @@
 | [TSV](tsv/nno_phonemic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonemic | 1,378 |
 | [TSV](tsv/nno_phonetic.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | True | Phonetic | 206 |
 | [TSV](tsv/nor_phonemic.tsv) | nor | Norwegian | Norwegian | True | Phonemic | 2,056 |
+| [TSV](tsv/cbn_phonemic.tsv) | cbn | Nyahkur | Nyah Kur | False | Phonemic | 116 |
 | [TSV](tsv/oci_phonemic.tsv) | oci | Occitan (post 1500) | Occitan | True | Phonemic | 387 |
 | [TSV](tsv/oci_phonetic.tsv) | oci | Occitan (post 1500) | Occitan | True | Phonetic | 293 |
 | [TSV](tsv/ryu_phonemic.tsv) | ryu | Central Okinawan | Okinawan | False | Phonemic | 177 |
@@ -253,7 +256,7 @@
 | [TSV](tsv/rum_phonemic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonemic | 4,108 |
 | [TSV](tsv/rum_phonetic.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic | 6,394 |
 | [TSV](tsv/rum_phonetic_filtered.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | True | Phonetic_filtered | 6,286 |
-| [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 402,483 |
+| [TSV](tsv/rus_phonetic.tsv) | rus | Russian | Russian | True | Phonetic | 402,600 |
 | [TSV](tsv/san_phonemic.tsv) | san | Sanskrit | Sanskrit | False | Phonemic | 6,841 |
 | [TSV](tsv/san_phonetic.tsv) | san | Sanskrit | Sanskrit | False | Phonetic | 673 |
 | [TSV](tsv/srd_phonemic.tsv) | srd | Sardinian | Sardinian | True | Phonemic | 216 |
@@ -284,8 +287,8 @@
 | [TSV](tsv/swe_phonemic.tsv) | swe | Swedish | Swedish | True | Phonemic | 3,544 |
 | [TSV](tsv/swe_phonetic.tsv) | swe | Swedish | Swedish | True | Phonetic | 222 |
 | [TSV](tsv/syl_phonemic.tsv) | syl | Sylheti | Sylheti | False | Phonemic | 224 |
-| [TSV](tsv/tgl_phonemic.tsv) | tgl | Tagalog | Tagalog | True | Phonemic | 3,320 |
-| [TSV](tsv/tgl_phonetic.tsv) | tgl | Tagalog | Tagalog | True | Phonetic | 1,911 |
+| [TSV](tsv/tgl_latn_phonemic.tsv) | tgl | Tagalog | Tagalog (Latin) | True | Phonemic | 3,321 |
+| [TSV](tsv/tgl_latn_phonetic.tsv) | tgl | Tagalog | Tagalog (Latin) | True | Phonetic | 1,915 |
 | [TSV](tsv/tgk_phonemic.tsv) | tgk | Tajik | Tajik | True | Phonemic | 142 |
 | [TSV](tsv/tam_phonemic.tsv) | tam | Tamil | Tamil | False | Phonemic | 2,489 |
 | [TSV](tsv/tam_phonetic.tsv) | tam | Tamil | Tamil | False | Phonetic | 2,386 |

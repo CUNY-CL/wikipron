@@ -44,9 +44,11 @@ ISO_639_2_PATH = os.path.join(SRC_DIRECTORY, "iso639_2.json")
 URL = "https://en.wiktionary.org/w/api.php"
 DATA_DIRECTORY = os.path.dirname(SRC_DIRECTORY)
 README_PATH = os.path.join(DATA_DIRECTORY, "README.md")
-LANGUAGES_SUMMARY_PATH = os.path.join(DATA_DIRECTORY, "languages_summary.tsv")
+LANGUAGES_SUMMARY_PATH = os.path.join(DATA_DIRECTORY, "tsv_summary.tsv")
 TSV_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "tsv")
 PHONES_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "phones")
+PHONES_README_PATH = os.path.join(PHONES_DIRECTORY_PATH, "README.md")
+PHONES_SUMMARY_PATH = os.path.join(PHONES_DIRECTORY_PATH, "phones_summary.tsv")
 
 
 def _get_language_categories() -> List[str]:

@@ -2,7 +2,7 @@ import os
 import setuptools
 
 
-_VERSION = "1.1.0"
+_VERSION = "1.2.0"
 
 _THIS_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -40,6 +40,7 @@ def main():
             "requests-html",
             "segments>=2.2.0,<3",
             "setuptools",
+            "unicodedataplus",
         ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
         classifiers=[
