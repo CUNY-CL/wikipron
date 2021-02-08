@@ -287,8 +287,8 @@
 | [TSV](tsv/swe_phonemic.tsv) | swe | Swedish | Swedish | True | Phonemic | 3,544 |
 | [TSV](tsv/swe_phonetic.tsv) | swe | Swedish | Swedish | True | Phonetic | 222 |
 | [TSV](tsv/syl_phonemic.tsv) | syl | Sylheti | Sylheti | False | Phonemic | 224 |
-| [TSV](tsv/tgl_phonemic.tsv) | tgl | Tagalog | Tagalog | True | Phonemic | 3,320 |
-| [TSV](tsv/tgl_phonetic.tsv) | tgl | Tagalog | Tagalog | True | Phonetic | 1,911 |
+| [TSV](tsv/tgl_latn_phonemic.tsv) | tgl | Tagalog | Tagalog (Latin) | True | Phonemic | 3,321 |
+| [TSV](tsv/tgl_latn_phonetic.tsv) | tgl | Tagalog | Tagalog (Latin) | True | Phonetic | 1,915 |
 | [TSV](tsv/tgk_phonemic.tsv) | tgk | Tajik | Tajik | True | Phonemic | 142 |
 | [TSV](tsv/tam_phonemic.tsv) | tam | Tamil | Tamil | False | Phonemic | 2,489 |
 | [TSV](tsv/tam_phonetic.tsv) | tam | Tamil | Tamil | False | Phonetic | 2,386 |
