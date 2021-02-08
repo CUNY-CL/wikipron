@@ -63,6 +63,7 @@ _SMOKE_TEST_LANGUAGES = [
         "Syriac", [("ܐܒܝܕܘܬܐ", True), ("ܐܒܝܕאܬܐ", False), ("cܘܘl", False)]
     ),
     SmokeTestScript("Balinese", [("ᬰᬶᬮᬵ", True), ("ᬰнᬮᬰสุᬮᬵ", False)]),
+    SmokeTestScript("Tagalog", [("ᜋᜇᜇᜌ", True), ("ᜋᜇᜇbᜌ", False)]),
     SmokeTestScript("Cyrillic", [("наиме", True), ("наиmе", False)]),
     SmokeTestScript(
         "Bengali",
