@@ -82,6 +82,7 @@ Unreleased
 -   Added Easten Lawa (`lwl`). (\#346)
 -   Configuration for Western Lawa (`lcp`). (\#347)
 -   Added Nyahkur (`cbn`). (\#348)
+-   Split Tagalog (`tgl`) scripts into Latin and Baybayin, rescraped. (\#351)
 
 #### Changed
 

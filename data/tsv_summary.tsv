@@ -285,8 +285,8 @@ srn_phonemic.tsv	srn	Sranan Tongo	Sranan Tongo	True	Phonemic	162
 swe_phonemic.tsv	swe	Swedish	Swedish	True	Phonemic	3544
 swe_phonetic.tsv	swe	Swedish	Swedish	True	Phonetic	222
 syl_phonemic.tsv	syl	Sylheti	Sylheti	False	Phonemic	224
-tgl_phonemic.tsv	tgl	Tagalog	Tagalog	True	Phonemic	3320
-tgl_phonetic.tsv	tgl	Tagalog	Tagalog	True	Phonetic	1911
+tgl_latn_phonemic.tsv	tgl	Tagalog	Tagalog (Latin)	True	Phonemic	3321
+tgl_latn_phonetic.tsv	tgl	Tagalog	Tagalog (Latin)	True	Phonetic	1915
 tgk_phonemic.tsv	tgk	Tajik	Tajik	True	Phonemic	142
 tam_phonemic.tsv	tam	Tamil	Tamil	False	Phonemic	2489
 tam_phonetic.tsv	tam	Tamil	Tamil	False	Phonetic	2386
