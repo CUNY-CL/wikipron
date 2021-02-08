@@ -33,7 +33,7 @@ How to submit a `.phones` file
 ------------------------------
 
 We welcome user submissions for `.phones` files from linguists. Note that we use
-the [fork and pull](../CONTRIBUTING.md) model for contributions.
+the [fork and pull](../../CONTRIBUTING.md) model for contributions.
 
 1.  Make a list of all phones or phonemes, in descending-frequency order, using
     the appropriate file in [`../tsv`](../tsv). The script
