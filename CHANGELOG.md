@@ -12,7 +12,12 @@ Unreleased
 
 ### Under `data/`
 
-### Under `wikipron/
+#### Changed
+
+-   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
+    `data/phones/HOWTO.md`. (\#352)
+
+### Under `wikipron/`
 
 [1.2.0] - 2021-01-30
 --------------------
