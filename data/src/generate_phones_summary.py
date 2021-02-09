@@ -70,7 +70,7 @@ def main() -> None:
             num_of_entries,
         ]
         languages_summary_list.append([file_path] + row)
-        readme_list.append([f"[phone](phones/{file_path})"] + row)
+        readme_list.append([f"[phone]({file_path})"] + row)
     # Sorts by Wiktionary language name, with phonemic entries before phonetic
     # ones.
     languages_summary_list.sort(key=_wiki_name_and_transcription_level)
@@ -83,7 +83,7 @@ def main() -> None:
     # Writes the README.
     with open(PHONES_README_PATH, "w", encoding="utf-8") as sink:
         print(
-            "See the [HOWTO](phones/HOWTO.md) for the steps to generate phone lists.",
+            "See the [HOWTO](HOWTO.md) for the steps to generate phone lists.",
             file=sink,
         )
         print(
