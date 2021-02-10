@@ -18,6 +18,7 @@ Unreleased
     `data/phones/HOWTO.md`. (\#352)
 -   Added Atong (India) (`aot`). (\#353)
 -   Added Egyptian Arabic (`arz`). (\#354)
+-   Added Lolopo (`ycl`). (\#355)
 
 ### Under `wikipron/`
 
