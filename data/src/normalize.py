@@ -14,7 +14,10 @@ def main(args: argparse.Namespace) -> None:
     with tempfile.TemporaryFile(mode='w+') as tf:
         with open(args.file_name, 'r') as rf:
             for line in rf:
-                print(unicodedata.normalize(args.norm, line), end='', file=tf)
+                print(unicodedata.normalize(args.norm, line), 
+                    end='', 
+                    file=tf
+                )
         tf.seek(0)
         with open(args.file_name, 'w') as wf:
             for line in tf:
