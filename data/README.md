@@ -20,6 +20,7 @@
 | [TSV](tsv/rup_phonetic.tsv) | rup | Macedo-Romanian | Aromanian | True | Phonetic | 149 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,354 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 133 |
+| [TSV](tsv/aot_latn_phonemic.tsv) | aot | A'tong, Atong (India) | Atong (India) (Latin) | True | Phonemic | 140 |
 | [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 259 |
 | [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2,821 |
 | [TSV](tsv/aze_latn_phonetic_filtered.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic_filtered | 2,635 |
@@ -67,6 +68,7 @@
 | [TSV](tsv/dut_phonetic.tsv) | dut | Dutch; Flemish | Dutch | True | Phonetic | 652 |
 | [TSV](tsv/dzo_phonemic.tsv) | dzo | Dzongkha | Dzongkha | False | Phonemic | 188 |
 | [TSV](tsv/lwl_phonemic.tsv) | lwl | Eastern Lawa | Eastern Lawa | False | Phonemic | 253 |
+| [TSV](tsv/arz_phonemic.tsv) | arz | Egyptian Arabic | Egyptian Arabic | False | Phonemic | 113 |
 | [TSV](tsv/egy_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | False | Phonemic | 3,410 |
 | [TSV](tsv/eng_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic | 61,232 |
 | [TSV](tsv/eng_uk_phonemic_filtered.tsv) | eng | English | English (UK, Received Pronunciation) | True | Phonemic_filtered | 60,479 |
@@ -163,6 +165,7 @@
 | [TSV](tsv/lit_phonemic.tsv) | lit | Lithuanian | Lithuanian | True | Phonemic | 332 |
 | [TSV](tsv/lit_phonetic.tsv) | lit | Lithuanian | Lithuanian | True | Phonetic | 12,676 |
 | [TSV](tsv/liv_phonemic.tsv) | liv | Liv | Livonian | True | Phonemic | 352 |
+| [TSV](tsv/ycl_phonetic.tsv) | ycl | Lolopo | Lolopo | True | Phonetic | 109 |
 | [TSV](tsv/lmo_phonemic.tsv) | lmo | Lombard | Lombard | True | Phonemic | 163 |
 | [TSV](tsv/nds_phonemic.tsv) | nds | Low German | Low German | True | Phonemic | 185 |
 | [TSV](tsv/dsb_phonemic.tsv) | dsb | Lower Sorbian | Lower Sorbian | True | Phonemic | 1,986 |
