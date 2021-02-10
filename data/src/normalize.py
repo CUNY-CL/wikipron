@@ -10,25 +10,24 @@ import argparse
 import tempfile
 import unicodedata
 
+
 def main(args: argparse.Namespace) -> None:
-    with tempfile.TemporaryFile(mode='w+') as tf:
-        with open(args.file_name, 'r') as rf:
+    with tempfile.TemporaryFile(mode="w+") as tf:
+        with open(args.file_name, "r") as rf:
             for line in rf:
-                print(unicodedata.normalize(args.norm, line), 
-                    end='', 
-                    file=tf
-                )
+                print(unicodedata.normalize(args.norm, line), end="", file=tf)
         tf.seek(0)
-        with open(args.file_name, 'w') as wf:
+        with open(args.file_name, "w") as wf:
             for line in tf:
-                print(line, end='', file=wf)
+                print(line, end="", file=wf)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("file_name", help="file to modify")
-    parser.add_argument("norm", 
-        choices=["NFC", "NFD", "NFKC", "NFKD"], 
-        help="desired unicode normalization form"
+    parser.add_argument(
+        "norm",
+        choices=["NFC", "NFD", "NFKC", "NFKD"],
+        help="desired unicode normalization form",
     )
     main(parser.parse_args())
