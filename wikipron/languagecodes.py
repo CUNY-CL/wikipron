@@ -437,6 +437,8 @@ LANGUAGE_CODES = {
     "lwl": "Eastern Lawa",
     # Nyah Kur: ISO 639-3 only.
     "cbn": "Nyah Kur",
-    # Lolopo: ISO 639-3 only.
+    # Atong (Sino-Tibetan language, not to be confused with Niger-Congo Atong).
+    "aot": "Atong (India)",  # ISO 639-3 only.
+     # Lolopo: ISO 639-3 only.
     "ycl": "Lolopo",
 }
