@@ -16,6 +16,7 @@ Unreleased
 
 -   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
     `data/phones/HOWTO.md`. (\#352)
+-   Added Egyptian Arabic (`arz`). (\#354)
 
 ### Under `wikipron/`
 
