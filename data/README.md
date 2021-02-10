@@ -278,7 +278,7 @@
 | [TSV](tsv/slo_phonemic.tsv) | slo | Slovak | Slovak | True | Phonemic | 3,620 |
 | [TSV](tsv/slo_phonetic.tsv) | slo | Slovak | Slovak | True | Phonetic | 1,620 |
 | [TSV](tsv/slv_phonemic.tsv) | slv | Slovenian | Slovene | True | Phonemic | 4,396 |
-| [TSV](tsv/slv_phonemic_filtered.tsv) | slv | Slovenian | Slovene | True | Phonemic_filtered | 627 |
+| [TSV](tsv/slv_phonemic_filtered.tsv) | slv | Slovenian | Slovene | True | Phonemic_filtered | 4,390 |
 | [TSV](tsv/ajp_phonemic.tsv) | ajp | South Levantine Arabic | South Levantine Arabic | False | Phonemic | 155 |
 | [TSV](tsv/spa_ca_phonemic.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic | 60,806 |
 | [TSV](tsv/spa_ca_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish (Castilian) | True | Phonemic_filtered | 60,678 |

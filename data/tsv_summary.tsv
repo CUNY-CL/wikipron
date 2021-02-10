@@ -276,7 +276,7 @@ scn_phonetic.tsv	scn	Sicilian	Sicilian	True	Phonetic	287
 slo_phonemic.tsv	slo	Slovak	Slovak	True	Phonemic	3620
 slo_phonetic.tsv	slo	Slovak	Slovak	True	Phonetic	1620
 slv_phonemic.tsv	slv	Slovenian	Slovene	True	Phonemic	4396
-slv_phonemic_filtered.tsv	slv	Slovenian	Slovene	True	Phonemic_filtered	627
+slv_phonemic_filtered.tsv	slv	Slovenian	Slovene	True	Phonemic_filtered	4390
 ajp_phonemic.tsv	ajp	South Levantine Arabic	South Levantine Arabic	False	Phonemic	155
 spa_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonemic	60806
 spa_ca_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonemic_filtered	60678
