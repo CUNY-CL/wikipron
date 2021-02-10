@@ -161,6 +161,7 @@ lim_phonetic.tsv	lim	Limburgan	Limburgish	True	Phonetic	125
 lit_phonemic.tsv	lit	Lithuanian	Lithuanian	True	Phonemic	332
 lit_phonetic.tsv	lit	Lithuanian	Lithuanian	True	Phonetic	12676
 liv_phonemic.tsv	liv	Liv	Livonian	True	Phonemic	352
+ycl_phonetic.tsv	ycl	Lolopo	Lolopo	True	Phonetic	109
 lmo_phonemic.tsv	lmo	Lombard	Lombard	True	Phonemic	163
 nds_phonemic.tsv	nds	Low German	Low German	True	Phonemic	185
 dsb_phonemic.tsv	dsb	Lower Sorbian	Lower Sorbian	True	Phonemic	1986

@@ -163,6 +163,7 @@
 | [TSV](tsv/lit_phonemic.tsv) | lit | Lithuanian | Lithuanian | True | Phonemic | 332 |
 | [TSV](tsv/lit_phonetic.tsv) | lit | Lithuanian | Lithuanian | True | Phonetic | 12,676 |
 | [TSV](tsv/liv_phonemic.tsv) | liv | Liv | Livonian | True | Phonemic | 352 |
+| [TSV](tsv/ycl_phonetic.tsv) | ycl | Lolopo | Lolopo | True | Phonetic | 109 |
 | [TSV](tsv/lmo_phonemic.tsv) | lmo | Lombard | Lombard | True | Phonemic | 163 |
 | [TSV](tsv/nds_phonemic.tsv) | nds | Low German | Low German | True | Phonemic | 185 |
 | [TSV](tsv/dsb_phonemic.tsv) | dsb | Lower Sorbian | Lower Sorbian | True | Phonemic | 1,986 |
