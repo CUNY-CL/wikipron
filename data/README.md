@@ -20,6 +20,7 @@
 | [TSV](tsv/rup_phonetic.tsv) | rup | Macedo-Romanian | Aromanian | True | Phonetic | 149 |
 | [TSV](tsv/asm_phonemic.tsv) | asm | Assamese | Assamese | False | Phonemic | 2,354 |
 | [TSV](tsv/ast_phonetic.tsv) | ast | Asturian | Asturian | True | Phonetic | 133 |
+| [TSV](tsv/aot_latn_phonemic.tsv) | aot | A'tong, Atong (India) | Atong (India) (Latin) | True | Phonemic | 140 |
 | [TSV](tsv/aze_latn_phonemic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonemic | 259 |
 | [TSV](tsv/aze_latn_phonetic.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic | 2,821 |
 | [TSV](tsv/aze_latn_phonetic_filtered.tsv) | aze | Azerbaijani | Azerbaijani (Latin) | True | Phonetic_filtered | 2,635 |
