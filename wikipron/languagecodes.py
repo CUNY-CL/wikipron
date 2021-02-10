@@ -438,5 +438,5 @@ LANGUAGE_CODES = {
     # Nyah Kur: ISO 639-3 only.
     "cbn": "Nyah Kur",
     # Lolopo: ISO 639-3 only.
-    "ycn": "Lolopo",
+    "ycl": "Lolopo",
 }
