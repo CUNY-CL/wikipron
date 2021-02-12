@@ -12,7 +12,6 @@ Unreleased
 
 ### Under `data/`
 
-=======
 #### Added
 
 -   Added `src/normalize.py`. (\#356)
