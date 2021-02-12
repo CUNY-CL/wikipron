@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """In-place unicode normalization.
 
 Takes a file and normalizes it "in place." In order to avoid the issues of
