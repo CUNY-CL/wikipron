@@ -2,7 +2,6 @@
 
 """In-place unicode normalization.
 
-
 Takes a file and normalizes it "in place." In order to avoid the issues of
 reading and writing to the same file at the same time, this script puts the 
 normalized version of the file argument in a tempfile, then uses that
