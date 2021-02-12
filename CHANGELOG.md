@@ -12,7 +12,6 @@ Unreleased
 
 ### Under `data/`
 
-=======
 #### Added
 
 -   Added `src/normalize.py`. (\#356)
@@ -26,6 +25,8 @@ Unreleased
 -   Added Lolopo (`ycl`). (\#355)
 -   Fixed Unicode normalization in `data/phones/slv_phonemic.phones` and
     re-scraped Slovenian data. (\#356)
+-   Updated `data/phones/HOWTO.md` to include instructions on applying the
+    NFC Unicode normalization (\#357)
 
 ### Under `wikipron/`
 
