@@ -54,7 +54,9 @@ the [fork and pull](../../CONTRIBUTING.md) model for contributions.
     using `git add`. The `.phones` file must use the [NFC Unicode 
     normalization](https://en.wikipedia.org/wiki/Unicode_equivalence#Normalization).
     If you used `../src/list_phones.py` to create the `.phones` file, then it
-    should be in this form already.
+    should be in this form already. Otherwise, in `../src/`, you can run
+    `python normalize.py <your-file> NFC` to put your file in the correct
+    form.
 6.  Commit using `git commit`, push to your branch using `git push`, and then
     file a pull request.
 
