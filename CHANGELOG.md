@@ -14,7 +14,7 @@ Unreleased
 
 #### Added
 
--   Added `src/normalize.py`. (\#356)
+-   Added `data/src/normalize.py`. (\#356)
 
 #### Changed
 
@@ -27,6 +27,7 @@ Unreleased
     re-scraped Slovenian data. (\#356)
 -   Updated `data/phones/HOWTO.md` to include instructions on applying the
     NFC Unicode normalization (\#357)
+-   Updated `data/src/normalize.py` to be more efficient. (\#358)
 
 ### Under `wikipron/`
 
