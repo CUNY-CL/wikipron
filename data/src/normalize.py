@@ -1,4 +1,6 @@
-"""In-place unicode normalization.
+#!/usr/bin/env python
+
+"""In-place Unicode normalization.
 
 Takes a file and normalizes it "in place." In order to avoid the issues of
 reading and writing to the same file at the same time, this script puts the 
@@ -7,19 +9,17 @@ tempfile to rewrite the original file.
 """
 
 import argparse
+import shutil
 import tempfile
 import unicodedata
 
 
 def main(args: argparse.Namespace) -> None:
-    with tempfile.TemporaryFile(mode="w+") as tf:
+    with tempfile.NamedTemporaryFile(mode="w+", delete=False) as tf:
         with open(args.file_name, "r") as rf:
             for line in rf:
                 print(unicodedata.normalize(args.norm, line), end="", file=tf)
-        tf.seek(0)
-        with open(args.file_name, "w") as wf:
-            for line in tf:
-                print(line, end="", file=wf)
+        shutil.move(tf.name, args.file_name)
 
 
 if __name__ == "__main__":
@@ -28,6 +28,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "norm",
         choices=["NFC", "NFD", "NFKC", "NFKD"],
-        help="desired unicode normalization form",
+        help="desired Unicode normalization form",
     )
     main(parser.parse_args())
