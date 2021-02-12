@@ -18,6 +18,7 @@ arm_w_phonetic_filtered.tsv	arm	Armenian	Armenian (Western Armenian, standard)	T
 rup_phonetic.tsv	rup	Macedo-Romanian	Aromanian	True	Phonetic	149
 asm_phonemic.tsv	asm	Assamese	Assamese	False	Phonemic	2354
 ast_phonetic.tsv	ast	Asturian	Asturian	True	Phonetic	133
+aot_latn_phonemic.tsv	aot	A'tong, Atong (India)	Atong (India) (Latin)	True	Phonemic	140
 aze_latn_phonemic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonemic	259
 aze_latn_phonetic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonetic	2821
 aze_latn_phonetic_filtered.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonetic_filtered	2635
@@ -65,6 +66,7 @@ dut_phonemic_filtered.tsv	dut	Dutch; Flemish	Dutch	True	Phonemic_filtered	30570
 dut_phonetic.tsv	dut	Dutch; Flemish	Dutch	True	Phonetic	652
 dzo_phonemic.tsv	dzo	Dzongkha	Dzongkha	False	Phonemic	188
 lwl_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa	False	Phonemic	253
+arz_phonemic.tsv	arz	Egyptian Arabic	Egyptian Arabic	False	Phonemic	113
 egy_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	False	Phonemic	3410
 eng_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic	61232
 eng_uk_phonemic_filtered.tsv	eng	English	English (UK, Received Pronunciation)	True	Phonemic_filtered	60479
@@ -161,6 +163,7 @@ lim_phonetic.tsv	lim	Limburgan	Limburgish	True	Phonetic	125
 lit_phonemic.tsv	lit	Lithuanian	Lithuanian	True	Phonemic	332
 lit_phonetic.tsv	lit	Lithuanian	Lithuanian	True	Phonetic	12676
 liv_phonemic.tsv	liv	Liv	Livonian	True	Phonemic	352
+ycl_phonetic.tsv	ycl	Lolopo	Lolopo	True	Phonetic	109
 lmo_phonemic.tsv	lmo	Lombard	Lombard	True	Phonemic	163
 nds_phonemic.tsv	nds	Low German	Low German	True	Phonemic	185
 dsb_phonemic.tsv	dsb	Lower Sorbian	Lower Sorbian	True	Phonemic	1986
@@ -273,7 +276,7 @@ scn_phonetic.tsv	scn	Sicilian	Sicilian	True	Phonetic	287
 slo_phonemic.tsv	slo	Slovak	Slovak	True	Phonemic	3620
 slo_phonetic.tsv	slo	Slovak	Slovak	True	Phonetic	1620
 slv_phonemic.tsv	slv	Slovenian	Slovene	True	Phonemic	4396
-slv_phonemic_filtered.tsv	slv	Slovenian	Slovene	True	Phonemic_filtered	627
+slv_phonemic_filtered.tsv	slv	Slovenian	Slovene	True	Phonemic_filtered	4390
 ajp_phonemic.tsv	ajp	South Levantine Arabic	South Levantine Arabic	False	Phonemic	155
 spa_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonemic	60806
 spa_ca_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish (Castilian)	True	Phonemic_filtered	60678

@@ -12,10 +12,20 @@ Unreleased
 
 ### Under `data/`
 
+=======
+#### Added
+
+-   Added `src/normalize.py`. (\#356)
+
 #### Changed
 
 -   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
     `data/phones/HOWTO.md`. (\#352)
+-   Added Atong (India) (`aot`). (\#353)
+-   Added Egyptian Arabic (`arz`). (\#354)
+-   Added Lolopo (`ycl`). (\#355)
+-   Fixed Unicode normalization in `data/phones/slv_phonemic.phones` and
+    re-scraped Slovenian data. (\#356)
 
 ### Under `wikipron/`
 

@@ -104,6 +104,16 @@
         "wiktionary_code": "ast",
         "casefold": true
     },
+    "aot": {
+       "iso639_name": "A'tong, Atong (India)",
+       "wiktionary_name": "Atong (India)",
+       "wiktionary_code": "aot",
+       "casefold": true,
+       "script": {
+            "latn": "Latin",
+	    "beng": "Bengali"
+        }
+    },
     "aze": {
         "iso639_name": "Azerbaijani",
         "wiktionary_name": "Azerbaijani",
@@ -697,6 +707,12 @@
         "iso639_name": "Liv",
         "wiktionary_name": "Livonian",
         "wiktionary_code": "liv",
+        "casefold": true
+    },
+    "ycl": {
+        "iso639_name": "Lolopo",
+        "wiktionary_name": "Lolopo",
+        "wiktionary_code": "ycl",
         "casefold": true
     },
     "lmo": {
