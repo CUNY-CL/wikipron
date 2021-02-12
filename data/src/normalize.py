@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-"""In-place unicode normalization.
+"""In-place Unicode normalization.
 
-Takes a file and normalizes it "in place." In order to avoid the issues of
-reading and writing to the same file at the same time, this script puts the 
-normalized version of the file argument in a tempfile, then uses that
-tempfile to rewrite the original file.
+Takes a file and applies the specified Unicode normalization "in place." In 
+order to avoid the issues of reading and writing to the same file at the same
+time, this script puts the normalized version of the file argument in a
+tempfile, then uses that tempfile to rewrite the original file.
 """
 
 import argparse
