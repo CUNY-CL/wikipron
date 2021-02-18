@@ -15,6 +15,7 @@ Unreleased
 #### Added
 
 -   Added `data/src/normalize.py`. (\#356)
+-   Updated `README.md`. (\#360)
 
 #### Changed
 

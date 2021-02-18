@@ -2,23 +2,22 @@
 ====================
 
 [`scrape.py`](scrape.py) calls WikiPron's scraping functions on all Wiktionary
-languages with over 100 entries. If a `.phones` file is present for a given language,
-the process will generate an additional filtered file only containing the permitted
-phones/phonemes.
+languages with over 100 entries. If a `.phones` file is present for a given
+language, the process will generate an additional filtered file only containing
+the permitted phones/phonemes.
 [`generate_tsv_summary.py`](generate_tsv_summary.py) generates a
-[README](../README.md) and a [TSV](../tsv_summary.tsv) with selected
-information regarding the contents of the TSVs [`scrape.py`](scrape.py)
-generated and the configuration settings that were passed to scrape.
-[`postprocess`](postprocess) sorts and removes entries in each TSV if they have
-the same graphemic form and phonetic/phonemic form as a previous entry. In
-addition it splits TSVs containing multiple scripts (Arabic, Cyrillic, etc.)
-into constituent TSVs containing a single script.
-[`languages.json`](languages.json) provides [`scrape.py`](scrape.py) with a
-dictionary containing the information it needs to call scrape on all Wiktionary
-languages with over 100 entries and is also used to generate the previously
-mentioned [README](../README.md). [`codes.py`](codes.py) is used to generate
-[`languages.json`](languages.json). It queries Wiktionary for all languages with
-over 100 entries. It also outputs
+[README](../README.md) and a [TSV](../tsv_summary.tsv) with selected information
+regarding the contents of the TSVs [`scrape.py`](scrape.py) generated and the
+configuration settings that were passed to scrape. [`postprocess`](postprocess)
+sorts and removes entries in each TSV if they have the same graphemic form and
+phonetic/phonemic form as a previous entry. In addition it splits TSVs
+containing multiple scripts (Arabic, Cyrillic, etc.) into constituent TSVs
+containing a single script. [`languages.json`](languages.json) provides
+[`scrape.py`](scrape.py) with a dictionary containing the information it needs
+to call scrape on all Wiktionary languages with over 100 entries and is also
+used to generate the previously mentioned [README](../README.md).
+[`codes.py`](codes.py) is used to generate [`languages.json`](languages.json).
+It queries Wiktionary for all languages with over 100 entries. It also outputs
 [`unmatched_languages.json`](unmatched_languages.json), a list of languages on
 Wiktionary that have over 100 entries but that could not be matched with an ISO
 639 language code.
@@ -48,13 +47,7 @@ Steps used to update the dataset
 Running a subset of languages using the big scrape
 --------------------------------------------------
 
-By default, if [`scrape.py`](scrape.py) cannot successfully complete a scrape of
-an entire language in 10 retries, it will log the language, remove the
-incomplete data scraped from that language, and move on to the next language in
-[`languages.json`](languages.json). There may therefore be a few languages that
-you need to run again when the big scrape finishes. These are the steps to
-follow should you need to run the big scrape scripts for a smaller set of
-languages:
+The following steps can be used to run the big scrape procedure for a subset:
 
 1.  Run [`scrape.py`](scrape.py) with `--restriction` flag, followed by command
     line arguments for desired languages. Note: languages must be in their ISO
