@@ -47,13 +47,7 @@ Steps used to update the dataset
 Running a subset of languages using the big scrape
 --------------------------------------------------
 
-By default, if [`scrape.py`](scrape.py) cannot complete the scrape of a
-language, it will log the language, remove the incomplete data scraped from that
-language, and move on to the next language in
-[`languages.json`](languages.json). There may therefore be a few languages that
-you need to run again when the big scrape finishes. These are the steps to
-follow should you need to run the big scrape scripts for a smaller set of
-languages:
+The following steps can be used to run the big scrape procedure for a subset:
 
 1.  Run [`scrape.py`](scrape.py) with `--restriction` flag, followed by command
     line arguments for desired languages. Note: languages must be in their ISO
