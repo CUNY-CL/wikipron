@@ -30,7 +30,11 @@ Unreleased
     NFC Unicode normalization (\#357)
 -   Updated `data/src/normalize.py` to be more efficient. (\#358)
 
-### Under `wikipron/`
+### Under `wikipron/` and Elsewhere
+
+#### Added
+
+-  Added test of phones list generation in `test_data/test_summary.py` (\#363)
 
 [1.2.0] - 2021-01-30
 --------------------
