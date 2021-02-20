@@ -18,8 +18,8 @@ def test_language_data_matches_summary():
     """
     name_to_count = {}
     with open(_TSV_SUMMARY, "r", encoding="utf-8") as lang_summary:
-        languages_data = [line.rstrip().split("\t") for line in lang_summary]
-        for language in languages_data:
+        for line in lang_summary:
+            language = line.rstrip().split("\t")
             name_to_count[language[0]] = int(language[-1])
 
     for unique_tsv in os.listdir(_TSV_DIRECTORY):
@@ -51,8 +51,8 @@ def test_phones_data_matches_summary():
     """
     name_to_count = {}
     with open(_PHONES_SUMMARY, "r", encoding="utf-8") as phones_summary:
-        phones_data = [line.rstrip().split("\t") for line in phones_summary]
-        for language in phones_data:
+        for line in phones_summary:
+            language = line.rstrip().split("\t")
             name_to_count[language[0]] = int(language[-1])
 
     for phones_list in os.listdir(_PHONES_DIRECTORY):

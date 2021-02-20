@@ -30,7 +30,7 @@ Unreleased
     NFC Unicode normalization (\#357)
 -   Updated `data/src/normalize.py` to be more efficient. (\#358)
 
-### Under `wikipron/` and Elsewhere
+### Under `wikipron/` and elsewhere
 
 #### Added
 
