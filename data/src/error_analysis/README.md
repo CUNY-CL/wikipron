@@ -25,14 +25,10 @@ Prerequisites
 ### Library
 
 install pynini
+install prettytable
 
 ``` {.bash}
 conda install -c conda-forge pynini
-```
-
-install prettytable
-
-```{.bash}
 pip install prettytable
 ```
 ### Data
