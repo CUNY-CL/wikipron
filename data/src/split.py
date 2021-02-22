@@ -15,9 +15,6 @@ from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
 
 
 def _generalized_check(script: str, word: str) -> bool:
-    '''
-
-    '''
     prop = (
         "Block" if script == "Katakana" or script == "Hiragana" else "Script"
     )
@@ -78,7 +75,7 @@ def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
                                 lang["script"][''.join(unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace("_", " ")
                         except TypeError as error:
                             pass
-                    json_object = json.dumps(languages, indent=4)
+        json_object = json.dumps(languages, indent=4)
 
 
         with open(LANGUAGES_PATH, "w", encoding="utf-8") as lang_source:
@@ -103,7 +100,7 @@ def main() -> None:
     _update_languages_json(tsv_path, LANGUAGES_PATH)
 
     #open languages.json as lang_source
-    with open('tests/test_data/src/languages.json', "r", encoding="utf-8") as lang_source:
+    with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
 
     #parse file to get iso639 path eg("jpn")
