@@ -47,8 +47,21 @@ def _detect_best_script_name(
         return script_probs[0][0], script_probs[0][1]
 
 
-def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
+def _remove_duplicates(script_dict: Dict[str, str]) -> Dict[str, str]:
+    remove = []
 
+    for key, value in script_dict["script"].items():
+        value = value.replace(" ", "_")
+        if not ''.join(unicodedataplus.property_value_aliases['script'][value]).lower() == key:
+            remove.append(key)
+
+    for i in remove:
+        del script_dict["script"][i]
+
+    return script_dict
+
+
+def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
 
@@ -64,19 +77,21 @@ def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
 
                 with open(f'{tsv_path}/{file}', "r", encoding="utf-8") as f:
 
-                    lang["script"] = {}
-
                     for line in f:
                         try:
                             word = line.split("\t", 1)[0]
                             script, prob = _detect_best_script_name(word)
-                            #use property_value_aliases to get ISO 15924 code
+                            # use property_value_aliases to get ISO 15924 code
+                            if not "script" in lang:
+                                lang["script"] = {}
                             if not script in lang["script"]:
-                                lang["script"][''.join(unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace("_", " ")
+                                lang["script"][''.join(
+                                    unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace(
+                                    "_", " ")
+                            _remove_duplicates(lang)
                         except TypeError as error:
                             pass
         json_object = json.dumps(languages, indent=4)
-
 
         with open(LANGUAGES_PATH, "w", encoding="utf-8") as lang_source:
             lang_source.write(json_object)
@@ -97,7 +112,7 @@ def main() -> None:
     #gets a tsv path from command line
     tsv_path = sys.argv[1]
 
-    _update_languages_json(tsv_path, LANGUAGES_PATH)
+    _update_languages_json(TSV_DIRECTORY_PATH, LANGUAGES_PATH)
 
     #open languages.json as lang_source
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
