@@ -10,9 +10,10 @@ espresso ɛ s p ɹ ɛ s ə ʊ     ɛ k s p ɹ ɛ s ə ʊ
 
 __author__ = "Arundhati Sengupta"
 
-import pynini
 import argparse
+
 from prettytable import PrettyTable
+import pynini
 
 
 def main(args: argparse.Namespace) -> None:
