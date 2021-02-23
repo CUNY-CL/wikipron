@@ -48,42 +48,70 @@ def _detect_best_script_name(
 
 
 def _remove_duplicates(script_dict: Dict[str, str]) -> Dict[str, str]:
+    '''
+    If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
+    entries returned from unicodedataplus.property_value_aliases['script'] is deleted.
+
+    eg)
+
+    "aze": {
+        "iso639_name": "Azerbaijani",
+        "wiktionary_name": "Azerbaijani",
+        "wiktionary_code": "az",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "ara": "Arabic",
+            "arab": "Arabic"
+        }
+
+        ->
+
+        "aze": {
+        "iso639_name": "Azerbaijani",
+        "wiktionary_name": "Azerbaijani",
+        "wiktionary_code": "az",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
+        }
+
+
+    '''
     remove = []
 
     for key, value in script_dict["script"].items():
         value = value.replace(" ", "_")
         if not ''.join(unicodedataplus.property_value_aliases['script'][value]).lower() == key:
             remove.append(key)
-
     for i in remove:
         del script_dict["script"][i]
-
     return script_dict
 
 
 def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
+    '''
+    Detects and identifies all unicode scripts present in a tsv file
+    and updates languages.json to reflect updated ["script"]
+    entries for each language in languages.json
+    '''
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
-
         for file in os.listdir(tsv_path):
-
             if file.endswith('.tsv'):
-
-                # parse file to get iso639 path (eg. "jpn")
                 iso639_code = file[:file.index("_")]
-
-                # set lang equal to language ID in language.json
                 lang = languages[iso639_code]
-
                 with open(f'{tsv_path}/{file}', "r", encoding="utf-8") as f:
-
                     for line in f:
                         try:
                             word = line.split("\t", 1)[0]
                             script, prob = _detect_best_script_name(word)
-                            # use property_value_aliases to get ISO 15924 code
                             if not "script" in lang:
                                 lang["script"] = {}
+                            # use property_value_aliases to get ISO 15924 code
                             if not script in lang["script"]:
                                 lang["script"][''.join(
                                     unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace(
@@ -92,7 +120,6 @@ def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
                         except TypeError as error:
                             pass
         json_object = json.dumps(languages, indent=4)
-
         with open(LANGUAGES_PATH, "w", encoding="utf-8") as lang_source:
             lang_source.write(json_object)
 
@@ -109,40 +136,29 @@ def _iterate_through_file(
 
 
 def main() -> None:
-    #gets a tsv path from command line
     tsv_path = sys.argv[1]
 
+    #updates languages.json before splitting files
     _update_languages_json(TSV_DIRECTORY_PATH, LANGUAGES_PATH)
 
-    #open languages.json as lang_source
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
 
-    #parse file to get iso639 path eg("jpn")
     iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
-
-    #identifies whether file is phonetic or phonemic?
     transcription_level = tsv_path[tsv_path.rindex("phone") :]
 
-    #checks if the language has multiple scripts in languages.json
     if "script" in languages[iso639_code]:
-
-        #set lang equal to language ID in language.json
         lang = languages[iso639_code]
         # Hacky way of filtering out the already split scripts.
-
-        #checks whether a file has already been split, but seeing if a name in split already exists
         for script_prefix in lang["script"]:
             if script_prefix in tsv_path:
                 # Then this is a previously split file.
                 return
-        #otherwise create new file for spliting based on key,value pairs in lang["scripts"]
         for script_prefix, unicode_script in lang["script"].items():
             output_path = (
                 f"{TSV_DIRECTORY_PATH}/{iso639_code}_{script_prefix}_"
                 f"{transcription_level}"
             )
-            #iterate through file and creates  a new script
             _iterate_through_file(tsv_path, output_path, unicode_script)
         # Removes unsplit files; removing files within a for loop doesn't
         # appear to lead to an error in postprocessing.
