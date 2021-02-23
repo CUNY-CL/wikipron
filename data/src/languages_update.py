@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import collections
 import json
 import operator
@@ -79,7 +81,7 @@ def _remove_duplicates(script_dict: Dict[str, str]) -> Dict[str, str]:
     return script_dict
 
 
-def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
+def _update_languages_json(tsv_path: str, output_path: str) -> None:
     '''
     Detects and identifies all unicode scripts present in a tsv file
     and updates languages.json to reflect updated ["script"]
@@ -107,19 +109,19 @@ def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
                         except TypeError as error:
                             pass
         json_object = json.dumps(languages, indent=4)
-        with open(LANGUAGES_PATH, "w", encoding="utf-8") as lang_source:
+
+        with open(output_path, "w", encoding="utf-8") as lang_source:
             lang_source.write(json_object)
 
 
 def main():
     '''
-    basically want to test out how each of the functions in split.py work
-    and where the best place to insert _detect_best_script_name would be.
+    Create a dummy file that will show how languages.json will be updated if split.py is executed
     '''
+    output_path = sys.argv[1]
 
-    _update_languages_json(TSV_DIRECTORY_PATH, LANGUAGES_PATH)
+    _update_languages_json(TSV_DIRECTORY_PATH, output_path)
 
 
-    #_remove_duplicates(test_dict["aze"])
 if __name__ == "__main__":
     main()
