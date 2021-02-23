@@ -3,8 +3,9 @@
 This script assumes 2 input files. a) covering grammar b) test output.
 CG file: Each line contain grapheme and their corresponding pronunciation
 separated by a tab.
-Test file: contains three attributes in each line separated by a tab.
-Example: espresso ɛ s p ɹ ɛ s ə ʊ     ɛ k s p ɹ ɛ s ə ʊ
+Test file: Contains three attributes in each line separated by a tab.
+Example:
+espresso ɛ s p ɹ ɛ s ə ʊ     ɛ k s p ɹ ɛ s ə ʊ
  """
 
 __author__ = "Arundhati Sengupta"
@@ -28,42 +29,37 @@ def main(args: argparse.Namespace) -> None:
             lg = parts[0].strip()
             act = parts[1].replace(" ", "").replace(".", "").strip()
             pred_pron = parts[2].replace(" ", "").replace(".", "").strip()
-            lattice = (ben @ bn_fst @ predPron).project("output")
+            # TODO: use Pynini's rewrite module here.
+            lattice = (lg @ cg_fst @ pred_pron).project("output")
             if lattice.start() == pynini.NO_STATE_ID:
                 if act == pred_pron:
                     not_rulematch_predmatch += 1
                 else:
                     not_rulematch_pred_notmatch += 1
+            elif act == pred_pron:
+                rulematch_predmatch += 1
             else:
-                if act == pred_pron:
-                    rulematch_predmatch += 1
-                else:
-                    rulematch_pred_notmatch += 1
+                rulematch_pred_notmatch += 1
 
-    print("Total Number of Records", total_records)
-    rule_m_pred_nm = (rulematch_pred_notmatch / total_records) * 100
-    rule_m_pred_m = (rulematch_predmatch / total_records) * 100
-    rule_nm_pred_m = (not_rulematch_predmatch / total_records) * 100
-    rule_nm_pred_nm = (not_rulematch_pred_notmatch / total_records) * 100
+    # Collecting the counts.
+    rule_m_pred_nm = 100 * rulematch_pred_notmatch / total_records
+    rule_m_pred_m = 100 * rulematch_predmatch / total_records
+    rule_nm_pred_m = 100 * not_rulematch_predmatch / total_records
+    rule_nm_pred_nm = 100 * not_rulematch_pred_notmatch / total_records
 
-    printtable(rule_m_pred_nm, rule_m_pred_m, rule_nm_pred_m, rule_nm_pred_nm)
+    # Building and printing the table
+    rule_m_pred_nm_str = "{:05.2f}".format(rule_m_pred_nm)
+    rule_m_pred_m_str = "{:05.2f}".format(rule_m_pred_m)
+    rule_nm_pred_m_str = "{:05.2f}".format(rule_nm_pred_m)
+    rule_nm_pred_nm_str = "{:05.2f}".format(rule_nm_pred_nm)
 
-
-def printtable(rule_m_pred_nm, rule_m_pred_m, rule_nm_pred_m, rule_nm_pred_nm):
-    rule_m_pred_nm = "{:05.2f}".format(rule_m_pred_nm)
-    rule_m_pred_m = "{:05.2f}".format(rule_m_pred_m)
-    rule_nm_pred_m = "{:05.2f}".format(rule_nm_pred_m)
-    rule_nm_pred_nm = "{:05.2f}".format(rule_nm_pred_nm)
-
-    # printing the result in a table
-    x = PrettyTable()
-
-    x.field_names = ["", "CG Match", "CG Not Match"]
-
-    x.add_row(["Pron Match", rule_m_pred_m, rule_nm_pred_m])
-    x.add_row(["Pron Not Match", rule_m_pred_nm, rule_nm_pred_nm])
-
-    print(x)
+    print_table = PrettyTable()
+    print_table.field_names = ["", "CG Match", "CG Not Match"]
+    print_table.add_row(["Pron Match", rule_m_pred_m_str, rule_nm_pred_m_str])
+    print_table.add_row(
+        ["Pron Not Match", rule_m_pred_nm_str, rule_nm_pred_nm_str]
+    )
+    print(print_table)
 
 
 if __name__ == "__main__":
@@ -72,6 +68,6 @@ if __name__ == "__main__":
         "--cg_path", required=True, help="path to TSV covering grammar file"
     )
     parser.add_argument(
-        "--test_path", required=True, help="path to test tsv file"
+        "--test_path", required=True, help="path to test TSV file"
     )
     main(parser.parse_args())
