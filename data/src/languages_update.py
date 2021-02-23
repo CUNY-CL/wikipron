@@ -34,52 +34,79 @@ def _detect_best_script_name(
         return script_probs[0][0], script_probs[0][1]
 
 
-def _remove_duplicates(script_dict: Dict[str,str]) -> Dict[str,str]:
+def _remove_duplicates(script_dict: Dict[str, str]) -> Dict[str, str]:
+    '''
+    If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
+    entries returned from unicodedataplus.property_value_aliases['script'] is deleted.
 
+    eg)
+
+    "aze": {
+        "iso639_name": "Azerbaijani",
+        "wiktionary_name": "Azerbaijani",
+        "wiktionary_code": "az",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "ara": "Arabic",
+            "arab": "Arabic"
+        }
+
+        ->
+
+        "aze": {
+        "iso639_name": "Azerbaijani",
+        "wiktionary_name": "Azerbaijani",
+        "wiktionary_code": "az",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
+        }
+
+
+    '''
     remove = []
 
-    for key,value in script_dict["script"].items():
+    for key, value in script_dict["script"].items():
         value = value.replace(" ", "_")
         if not ''.join(unicodedataplus.property_value_aliases['script'][value]).lower() == key:
             remove.append(key)
-
     for i in remove:
         del script_dict["script"][i]
-
     return script_dict
 
-def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
 
+def _update_languages_json(tsv_path: str, LANGUAGES_PATH: str) -> None:
+    '''
+    Detects and identifies all unicode scripts present in a tsv file
+    and updates languages.json to reflect updated ["script"]
+    entries for each language in languages.json
+    '''
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
-
         for file in os.listdir(tsv_path):
-
             if file.endswith('.tsv'):
-
-                # parse file to get iso639 path (eg. "jpn")
                 iso639_code = file[:file.index("_")]
-
-                # set lang equal to language ID in language.json
                 lang = languages[iso639_code]
-
                 with open(f'{tsv_path}/{file}', "r", encoding="utf-8") as f:
-
                     for line in f:
                         try:
                             word = line.split("\t", 1)[0]
                             script, prob = _detect_best_script_name(word)
-                            #use property_value_aliases to get ISO 15924 code
                             if not "script" in lang:
                                 lang["script"] = {}
+                            # use property_value_aliases to get ISO 15924 code
                             if not script in lang["script"]:
-                                lang["script"][''.join(unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace("_", " ")
+                                lang["script"][''.join(
+                                    unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace(
+                                    "_", " ")
                             _remove_duplicates(lang)
                         except TypeError as error:
                             pass
         json_object = json.dumps(languages, indent=4)
-
-
         with open(LANGUAGES_PATH, "w", encoding="utf-8") as lang_source:
             lang_source.write(json_object)
 
