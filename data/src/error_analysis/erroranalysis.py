@@ -12,7 +12,7 @@ __author__ = "Arundhati Sengupta"
 
 import argparse
 
-from prettytable import PrettyTable
+import prettytable
 import pynini
 
 
@@ -54,7 +54,7 @@ def main(args: argparse.Namespace) -> None:
     rule_nm_pred_m_str = "{:05.2f}".format(rule_nm_pred_m)
     rule_nm_pred_nm_str = "{:05.2f}".format(rule_nm_pred_nm)
 
-    print_table = PrettyTable()
+    print_table = prettytable.PrettyTable()
     print_table.field_names = ["", "CG Match", "CG Not Match"]
     print_table.add_row(["Pron Match", rule_m_pred_m_str, rule_nm_pred_m_str])
     print_table.add_row(
