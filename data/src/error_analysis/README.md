@@ -10,12 +10,12 @@ corpus prediction or not. ⋅⋅\* if the hypothesized form adheres to grammatic
 rules of the language.
 
 The output of the tool is a two dimentional matrix as shown below-
-
+```
                | CG Match  |   CG Not Match |
 ---------------|-----------+----------------|
 Pron Match     |  79.34    |      05.01     |
 Pron Not Match |  13.15    |      02.50     |
-
+```
 Here the numbers represents percentage of test records falling under X-section
 of each category.
 
