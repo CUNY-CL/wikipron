@@ -1,18 +1,25 @@
+#!/usr/bin/env python
 """Error analysis tool for G2P.
 
-This script assumes 2 input files. a) covering grammar b) test output.
-CG file: Each line contain grapheme and their corresponding pronunciation
-separated by a tab.
-Test file: Contains three attributes in each line separated by a tab.
+Two input files are required:
+
+1.  Covering grammar: a two-column TSV file in which the left column contains
+    zero or more graphemes, and the right contains zero or more phones it can
+    correspond to.
+2.  Test output: a three-column TSV file in which the columns are the graphemic
+    form, the hypothesized pronunciation, and the gold pronunciation.
+
 Example:
-espresso ɛ s p ɹ ɛ s ə ʊ     ɛ k s p ɹ ɛ s ə ʊ
- """
+
+espresso	ɛ s p ɹ ɛ s ə ʊ	ɛ k s p ɹ ɛ s ə ʊ
+"""
 
 __author__ = "Arundhati Sengupta"
 
+
 import argparse
 
-import prettytable
+import prettytable  # type: ignore
 import pynini
 
 
@@ -27,11 +34,12 @@ def main(args: argparse.Namespace) -> None:
         for line in source:
             total_records += 1
             parts = line.split("\t")
-            lg = parts[0].strip()
-            act = parts[1].replace(" ", "").replace(".", "").strip()
-            pred_pron = parts[2].replace(" ", "").replace(".", "").strip()
+            lg = parts[0].rstrip()
+            act = parts[1].replace(" ", "").replace(".", "").rstrip()
+            pred_pron = parts[2].replace(" ", "").replace(".", "").rstrip()
             # TODO: use Pynini's rewrite module here.
-            lattice = (lg @ cg_fst @ pred_pron).project("output")
+            lattice = lg @ cg_fst @ pred_pron
+            lattice.project("output")
             if lattice.start() == pynini.NO_STATE_ID:
                 if act == pred_pron:
                     not_rulematch_predmatch += 1
@@ -41,24 +49,19 @@ def main(args: argparse.Namespace) -> None:
                 rulematch_predmatch += 1
             else:
                 rulematch_pred_notmatch += 1
-
-    # Collecting the counts.
+    # Collects percentages....
     rule_m_pred_nm = 100 * rulematch_pred_notmatch / total_records
     rule_m_pred_m = 100 * rulematch_predmatch / total_records
     rule_nm_pred_m = 100 * not_rulematch_predmatch / total_records
     rule_nm_pred_nm = 100 * not_rulematch_pred_notmatch / total_records
-
-    # Building and printing the table
-    rule_m_pred_nm_str = "{:05.2f}".format(rule_m_pred_nm)
-    rule_m_pred_m_str = "{:05.2f}".format(rule_m_pred_m)
-    rule_nm_pred_m_str = "{:05.2f}".format(rule_nm_pred_m)
-    rule_nm_pred_nm_str = "{:05.2f}".format(rule_nm_pred_nm)
-
+    # Builds and prints the table.
     print_table = prettytable.PrettyTable()
-    print_table.field_names = ["", "CG Match", "CG Not Match"]
-    print_table.add_row(["Pron Match", rule_m_pred_m_str, rule_nm_pred_m_str])
+    print_table.field_names = ["", "CG match", "CG non-match"]
     print_table.add_row(
-        ["Pron Not Match", rule_m_pred_nm_str, rule_nm_pred_nm_str]
+        ["Pron match", f"{rule_m_pred_m:.2f}", f"{rule_nm_pred_m:.2f}"]
+    )
+    print_table.add_row(
+        ["Pron non-match", f"{rule_m_pred_nm:.2f}", f"{rule_nm_pred_nm:.2f}"]
     )
     print(print_table)
 
