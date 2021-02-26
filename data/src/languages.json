@@ -44,8 +44,8 @@
         "wiktionary_code": "sq",
         "casefold": true,
         "script": {
-            "latn": "Latin",
-            "grek": "Greek"
+            "grek": "Greek",
+            "latn": "Latin"
         }
     },
     "gsw": {
@@ -129,8 +129,8 @@
         "wiktionary_code": "as",
         "casefold": false,
         "script": {
-            "beng": "Bengali",
-            "ahom": "Ahom"
+            "ahom": "Ahom",
+            "beng": "Bengali"
         }
     },
     "ast": {
@@ -159,7 +159,8 @@
         "casefold": true,
         "script": {
             "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
         }
     },
     "bdq": {
@@ -279,10 +280,10 @@
         "skip_spaces_pron": false,
         "casefold": false,
         "script": {
-            "latn": "Latin",
-            "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han"
+            "hani": "Han",
+            "hira": "Hiragana",
+            "latn": "Latin"
         }
     },
     "crx": {
@@ -498,9 +499,9 @@
             "uk": "UK | Received Pronunciation"
         },
         "script": {
-            "zyyy": "Common",
+            "grek": "Greek",
             "latn": "Latin",
-            "grek": "Greek"
+            "zyyy": "Common"
         }
     },
     "epo": {
@@ -590,8 +591,8 @@
         "wiktionary_code": "de",
         "casefold": true,
         "script": {
-            "zyyy": "Common",
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         }
     },
     "got": {
@@ -733,9 +734,9 @@
         "wiktionary_code": "id",
         "casefold": true,
         "script": {
-            "latn": "Latin",
             "bali": "Balinese",
-            "java": "Javanese"
+            "java": "Javanese",
+            "latn": "Latin"
         }
     },
     "izh": {
@@ -830,8 +831,8 @@
         "casefold": false,
         "script": {
             "arab": "Arabic",
-            "zinhqaai": "Inherited",
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "zinhqaai": "Inherited"
         }
     },
     "kaz": {
@@ -841,7 +842,8 @@
         "casefold": true,
         "script": {
             "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "ara": "Arabic"
         }
     },
     "khm": {
@@ -868,8 +870,8 @@
         "wiktionary_code": "ko",
         "casefold": false,
         "script": {
-            "latn": "Latin",
-            "hang": "Hangul"
+            "hang": "Hangul",
+            "latn": "Latin"
         }
     },
     "kir": {
@@ -878,6 +880,7 @@
         "wiktionary_code": "ky",
         "casefold": true,
         "script": {
+            "ara": "Arabic",
             "cyrl": "Cyrillic"
         }
     },
@@ -896,8 +899,8 @@
         "wiktionary_code": "lad",
         "casefold": true,
         "script": {
-            "latn": "Latin",
-            "hebr": "Hebrew"
+            "hebr": "Hebrew",
+            "latn": "Latin"
         }
     },
     "lao": {
@@ -938,8 +941,7 @@
             "vulg": "Vulgar"
         },
         "script": {
-            "latn": "Latin",
-            "ital": "Old Italic"
+            "latn": "Latin"
         }
     },
     "lav": {
@@ -1056,8 +1058,8 @@
         "wiktionary_code": "khb",
         "casefold": false,
         "script": {
-            "talu": "New Tai Lue",
-            "lana": "Tai Tham"
+            "lana": "Tai Tham",
+            "talu": "New Tai Lue"
         }
     },
     "mac": {
@@ -1085,6 +1087,7 @@
         "casefold": true,
         "script": {
             "latn": "Latin",
+            "ara": "Arabic",
             "arab": "Arabic"
         }
     },
@@ -1226,9 +1229,9 @@
         "wiktionary_code": "mvi",
         "casefold": false,
         "script": {
+            "hani": "Han",
             "hira": "Hiragana",
-            "kana": "Katakana",
-            "hani": "Han"
+            "kana": "Katakana"
         }
     },
     "mdf": {
@@ -1346,6 +1349,7 @@
         "wiktionary_code": "kmr",
         "casefold": false,
         "script": {
+            "ara": "Arabic",
             "latn": "Latin",
             "cyrl": "Cyrillic"
         }
@@ -1410,9 +1414,9 @@
         "wiktionary_code": "ryu",
         "casefold": false,
         "script": {
+            "hani": "Han",
             "hira": "Hiragana",
-            "kana": "Katakana",
-            "hani": "Han"
+            "kana": "Katakana"
         }
     },
     "ang": {
@@ -1539,8 +1543,8 @@
         "casefold": false,
         "skip_spaces_pron": false,
         "script": {
-            "cyrl": "Cyrillic",
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "cyrl": "Cyrillic"
         }
     },
     "phl": {
@@ -1585,8 +1589,8 @@
         "wiktionary_code": "crk",
         "casefold": true,
         "script": {
-            "latn": "Latin",
-            "cans": "Canadian Aboriginal"
+            "cans": "Canadian Aboriginal",
+            "latn": "Latin"
         }
     },
     "pbv": {
@@ -1635,7 +1639,8 @@
         "wiktionary_code": "pa",
         "casefold": false,
         "script": {
-            "guru": "Gurmukhi"
+            "guru": "Gurmukhi",
+            "ara": "Arabic"
         }
     },
     "rum": {
@@ -1644,8 +1649,8 @@
         "wiktionary_code": "ro",
         "casefold": true,
         "script": {
-            "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "latn": "Latin"
         }
     },
     "rus": {
@@ -1900,8 +1905,8 @@
         "wiktionary_code": "tr",
         "casefold": true,
         "script": {
-            "latn": "Latin",
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "latn": "Latin"
         }
     },
     "tuk": {
@@ -1953,6 +1958,7 @@
         "casefold": true,
         "script": {
             "cyrl": "Cyrillic",
+            "ara": "Arabic",
             "arab": "Arabic"
         }
     },
