@@ -1,15 +1,25 @@
 #!/usr/bin/env python
+"""languages.json update
 
+Takes languages.json file and updates the script entry for each language that has a file
+in data/tsv.
+
+a file and applies the specified Unicode normalization "in place." In
+order to avoid the issues of reading and writing to the same file at the same
+time, this script puts the normalized version of the file argument in a
+tempfile, then uses that tempfile to rewrite the original file.
+
+"""
 import collections
 import json
 import operator
 import os
-import sys
-
 import unicodedataplus
+
+from typing import Tuple, Union, DefaultDict
+
 from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
 
-from typing import Dict, Tuple, Union
 
 def _detect_best_script_name(
     word: str, strict: bool = True
@@ -22,7 +32,7 @@ def _detect_best_script_name(
 
     Example: "ژۇرنال" -> ("Arabic", 1.0).
     """
-    script_counts: Dict[str, float] = collections.defaultdict(float)
+    script_counts: DefaultDict[str, float] = collections.defaultdict(float)
     for char in word:
         script_counts[unicodedataplus.script(char)] += 1.0
     script_probs = [(s, script_counts[s] / len(word)) for s in script_counts]
@@ -36,61 +46,15 @@ def _detect_best_script_name(
         return script_probs[0][0], script_probs[0][1]
 
 
-def _remove_duplicates(script_dict: Dict[str, str]) -> Dict[str, str]:
-    '''
-    If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
-    entries returned from unicodedataplus.property_value_aliases['script'] is deleted.
-
-    eg)
-
-    "aze": {
-        "iso639_name": "Azerbaijani",
-        "wiktionary_name": "Azerbaijani",
-        "wiktionary_code": "az",
-        "casefold": true,
-        "script": {
-            "latn": "Latin",
-            "cyrl": "Cyrillic",
-            "ara": "Arabic",
-            "arab": "Arabic"
-        }
-
-        ->
-
-        "aze": {
-        "iso639_name": "Azerbaijani",
-        "wiktionary_name": "Azerbaijani",
-        "wiktionary_code": "az",
-        "casefold": true,
-        "script": {
-            "latn": "Latin",
-            "cyrl": "Cyrillic",
-            "arab": "Arabic"
-        }
-
-
-    '''
-    remove = []
-
-    for key, value in script_dict["script"].items():
-        value = value.replace(" ", "_")
-        if not ''.join(unicodedataplus.property_value_aliases['script'][value]).lower() == key:
-            remove.append(key)
-    for i in remove:
-        del script_dict["script"][i]
-    return script_dict
-
-
 def _update_languages_json(tsv_path: str, output_path: str) -> None:
-    '''
-    Detects and identifies all unicode scripts present in a tsv file
+    """Detects and identifies all unicode scripts present in a tsv file
     and updates languages.json to reflect updated ["script"]
     entries for each language in languages.json
-    '''
+    """
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
         for file in os.listdir(tsv_path):
-            if file.endswith('.tsv'):
+            if file.endswith(".tsv"):
                 iso639_code = file[:file.index("_")]
                 lang = languages[iso639_code]
                 with open(f'{tsv_path}/{file}', "r", encoding="utf-8") as f:
@@ -98,29 +62,26 @@ def _update_languages_json(tsv_path: str, output_path: str) -> None:
                         try:
                             word = line.split("\t", 1)[0]
                             script, prob = _detect_best_script_name(word)
-                            if not "script" in lang:
+                            if "script" not in lang:
                                 lang["script"] = {}
-                            # use property_value_aliases to get ISO 15924 code
-                            if not script in lang["script"]:
+                            #Uses property_value_aliases to get ISO-15924 code.
+                            if script not in lang["script"]:
                                 lang["script"][''.join(
-                                    unicodedataplus.property_value_aliases['script'][script]).lower()] = script.replace(
+                                    unicodedataplus.property_value_aliases["script"][script]).lower()] = script.replace(
                                     "_", " ")
-                            _remove_duplicates(lang)
-                        except TypeError as error:
+                        # Cheap fix for TypeError returned when_detect_best_script_name
+                        # attempts to unpack values for that the empty last line in each tsv file,
+                        # so we pass.
+                        except TypeError:
                             pass
-        json_object = json.dumps(languages, indent=4)
-
+        json_object = json.dumps(languages, ensure_ascii=False, indent=4)
         with open(output_path, "w", encoding="utf-8") as lang_source:
             lang_source.write(json_object)
 
 
 def main():
-    '''
-    Create a dummy file that will show how languages.json will be updated if split.py is executed
-    '''
-    output_path = sys.argv[1]
 
-    _update_languages_json(TSV_DIRECTORY_PATH, output_path)
+    _update_languages_json(TSV_DIRECTORY_PATH, LANGUAGES_PATH)
 
 
 if __name__ == "__main__":
