@@ -76,13 +76,13 @@ def _get_alias(
 
 
 def _remove_mismatch_ids(
-    script_dict: Dict[
+    script_dict: Dict[ str,
         Dict[
             str,
             str,
         ]
     ]
-) -> Dict[Dict[str, str,]]:
+) -> Dict[str, Dict[str, str,]]:
     """If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
     entries returned from unicodedataplus.property_value_aliases["script"] the key is deleted.
     """
