@@ -10,12 +10,7 @@ import operator
 import os
 import unicodedataplus
 
-from typing import (
-    Dict,
-    DefaultDict,
-    Tuple,
-    Union
-)
+from typing import Dict, DefaultDict, Tuple, Union
 
 from data.src.codes import (
     LANGUAGES_PATH,
@@ -53,9 +48,9 @@ def _detect_best_script_name(
         reverse=True,
     )
     if strict and len(script_probs) != 1:
-        #note to self: need to do something different here perhaps.
-        #mypy returns " 'None' object is not iterable"
-        #when trying to unpack script and prob in _update_languages_json
+        # note to self: need to do something different here perhaps.
+        # mypy returns " 'None' object is not iterable"
+        # when trying to unpack script and prob in _update_languages_json
         return None
     else:
         # The script names in Unicode data tables have underscores instead of
@@ -81,10 +76,12 @@ def _get_alias(
 
 
 def _remove_mismatch_ids(
-    script_dict: Dict[Dict[
-        str,
-        str,
-    ]]
+    script_dict: Dict[
+        Dict[
+            str,
+            str,
+        ]
+    ]
 ) -> Dict[Dict[str, str,]]:
     """If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
     entries returned from unicodedataplus.property_value_aliases["script"] the key is deleted.
