@@ -1,15 +1,9 @@
 #!/usr/bin/env python
 
-import collections
 import json
-import operator
 import os
 import sys
-
 import regex  # type: ignore
-import unicodedataplus
-
-from typing import Dict, Tuple, Union
 
 from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
 
@@ -35,9 +29,6 @@ def _iterate_through_file(
 
 def main() -> None:
     tsv_path = sys.argv[1]
-
-    #Updates languages.json before splitting files.
-    #_update_languages_json(TSV_DIRECTORY_PATH, LANGUAGES_PATH)
 
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
