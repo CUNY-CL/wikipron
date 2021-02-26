@@ -95,7 +95,6 @@ def _update_languages_json(tsv_path: str, output_path: str) -> None:
 
 
 def main():
-
     _update_languages_json(TSV_DIRECTORY_PATH, LANGUAGES_PATH)
 
 

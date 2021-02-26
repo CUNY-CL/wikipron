@@ -31,7 +31,7 @@ def write_frequency_tsv(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
             with tempfile.NamedTemporaryFile(
-                mode="w", dir="../tsv", delete=False
+                mode="w", dir="../../tests/tsv", delete=False
             ) as source:
                 # Our TSVs may be two or three columns
                 # depending on if merge.py has been run.

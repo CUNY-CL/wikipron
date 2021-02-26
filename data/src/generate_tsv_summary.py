@@ -42,7 +42,7 @@ def main() -> None:
         languages = json.load(source)
     readme_list = []
     languages_summary_list = []
-    path = "../tsv"
+    path = "../../tests/tsv"
     modifiers = ["dialect", "script"]
     for file_path in os.listdir(path):
         # Filters out README.md.
