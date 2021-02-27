@@ -8,11 +8,11 @@ import collections
 import json
 import operator
 import os
-import unicodedataplus
+import unicodedataplus # type: ignore
 
-from typing import Dict, DefaultDict, Tuple, Union
+from typing import Dict, DefaultDict, Optional, Tuple
 
-from data.src.codes import (
+from data.src.codes import ( # type: ignore
     LANGUAGES_PATH,
     TSV_DIRECTORY_PATH,
 )
@@ -21,7 +21,7 @@ from data.src.codes import (
 def _detect_best_script_name(
     word: str,
     strict: bool = True,
-) -> Union[Tuple[str, float,], None,]:
+) -> Optional[Tuple[str, float]]:
     """Returns the most likely script name (rather than ISO 15924 code) the
     word belongs to along with the corresponding confidence expressed as a
     maximum likelihood estimate computed over the `word` sample. If `strict`
@@ -131,20 +131,21 @@ def _update_languages_json(
                                 "\t",
                                 1,
                             )[0]
-                            (
-                                script,
-                                prob,
-                            ) = _detect_best_script_name(word)
-                            if "script" not in lang:
-                                lang["script"] = {}
-                            # Uses property_value_aliases to get ISO-15924 code.
-                            if script not in lang["script"]:
-                                lang["script"][
-                                    _get_alias(script)
-                                ] = script.replace(
-                                    "_",
-                                    " ",
-                                )
+                            if _detect_best_script_name(word) is not None:
+                                (
+                                    script,
+                                    probs
+                                ) = _detect_best_script_name(word)
+                                if "script" not in lang:
+                                    lang["script"] = {}
+                                # Uses property_value_aliases to get ISO-15924 code.
+                                if script not in lang["script"]:
+                                    lang["script"][
+                                        _get_alias(script)
+                                    ] = script.replace(
+                                        "_",
+                                        " ",
+                                    )
                             _remove_mismatch_ids(lang)
         json_object = json.dumps(
             languages,
