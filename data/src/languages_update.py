@@ -8,11 +8,11 @@ import collections
 import json
 import operator
 import os
-import unicodedataplus # type: ignore
+import unicodedataplus  # type: ignore
 
 from typing import Dict, DefaultDict, Optional, Tuple
 
-from data.src.codes import ( # type: ignore
+from data.src.codes import (  # type: ignore
     LANGUAGES_PATH,
     TSV_DIRECTORY_PATH,
 )
@@ -21,7 +21,7 @@ from data.src.codes import ( # type: ignore
 def _detect_best_script_name(
     word: str,
     strict: bool = True,
-) -> Optional[Tuple[str, float]]:
+) -> Optional[str]:
     """Returns the most likely script name (rather than ISO 15924 code) the
     word belongs to along with the corresponding confidence expressed as a
     maximum likelihood estimate computed over the `word` sample. If `strict`
@@ -48,18 +48,12 @@ def _detect_best_script_name(
         reverse=True,
     )
     if strict and len(script_probs) != 1:
-        # note to self: need to do something different here perhaps.
-        # mypy returns " 'None' object is not iterable"
-        # when trying to unpack script and prob in _update_languages_json
         return None
     else:
         # The script names in Unicode data tables have underscores instead of
         # whitespace to enable parsing. See:
         #   https://www.unicode.org/Public/13.0.0/ucd/Scripts.txt
-        return (
-            script_probs[0][0],
-            script_probs[0][1],
-        )
+        return script_probs[0][0]
 
 
 def _get_alias(
@@ -76,11 +70,12 @@ def _get_alias(
 
 
 def _remove_mismatch_ids(
-    script_dict: Dict[ str,
+    script_dict: Dict[
+        str,
         Dict[
             str,
             str,
-        ]
+        ],
     ]
 ) -> Dict[str, Dict[str, str,]]:
     """If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
@@ -131,11 +126,10 @@ def _update_languages_json(
                                 "\t",
                                 1,
                             )[0]
-                            if _detect_best_script_name(word) is not None:
-                                (
-                                    script,
-                                    probs
-                                ) = _detect_best_script_name(word)
+                            script = _detect_best_script_name(
+                                word
+                            )
+                            if script is not None:
                                 if "script" not in lang:
                                     lang["script"] = {}
                                 # Uses property_value_aliases to get ISO-15924 code.
