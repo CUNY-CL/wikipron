@@ -126,9 +126,7 @@ def _update_languages_json(
                                 "\t",
                                 1,
                             )[0]
-                            script = _detect_best_script_name(
-                                word
-                            )
+                            script = _detect_best_script_name(word)
                             if script is not None:
                                 if "script" not in lang:
                                     lang["script"] = {}
