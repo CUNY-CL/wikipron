@@ -5,7 +5,7 @@ import os
 
 from typing import Set
 
-from data.src.split import _detect_best_script_name
+from data.src.languages_update import _detect_best_script_name
 from data.src.split import _generalized_check
 
 _REPO_DIR = os.path.dirname(
