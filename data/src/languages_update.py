@@ -62,7 +62,7 @@ def _get_alias(
     value: str,
 ) -> str:
     """Takes a script ID string from _detect_best_script_name()
-    and returns the ISO 15924 code for that script.
+    and returns the ISO 15924 code alias for that script.
 
     Example: "Arabic" -> "arab"
     """
@@ -79,9 +79,9 @@ def _remove_mismatch_ids(
             str,
         ],
     ]
-) -> Dict[str, Dict[str, str,]]:
-    """If a values in lang["script"] appears more than once, the [key:value] pair that does not conform to ISO unicode
-    entries returned from unicodedataplus.property_value_aliases["script"] the key is deleted.
+) -> Dict[str, Dict[str, str, ]]:
+    """Removes [key:value] pairs when the key does not
+    match the ISO 15924 code alias for script.
     """
     remove = []
     for (
@@ -132,7 +132,8 @@ def _update_languages_json(
                             if script is not None:
                                 if "script" not in lang:
                                     lang["script"] = {}
-                                # Uses property_value_aliases to get ISO-15924 code.
+                                # Uses property_value_aliases to get
+                                # ISO-15924 code.
                                 if script not in lang["script"]:
                                     lang["script"][
                                         _get_alias(script)

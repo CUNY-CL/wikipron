@@ -33,8 +33,8 @@ def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
 
-    iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
-    path_remainder = tsv_path[tsv_path.index("_") + 1 :]
+    iso639_code = tsv_path[tsv_path.rindex("/") + 1: tsv_path.index("_")]
+    path_remainder = tsv_path[tsv_path.index("_") + 1:]
 
     if "script" in languages[iso639_code]:
         lang = languages[iso639_code]

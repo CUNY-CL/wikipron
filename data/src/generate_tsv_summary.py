@@ -21,7 +21,7 @@ def _handle_wiki_name(
     for modifier in modifiers:
         if modifier in language:
             key = file_path[
-                file_path.index("_") + 1 : file_path.rindex("_phone")
+                file_path.index("_") + 1: file_path.rindex("_phone")
             ]
             if not key:
                 logging.info(
@@ -70,7 +70,7 @@ def main() -> None:
             continue
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
-            file_path.index("phone") : file_path.index(".")
+            file_path.index("phone"): file_path.index(".")
         ].capitalize()
         wiki_name = _handle_wiki_name(
             languages[iso639_code], file_path, modifiers
