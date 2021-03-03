@@ -92,9 +92,81 @@ _SMOKE_TEST_LANGUAGES = [
         "Latin", [("wikipron", True), ("ае", False), ("lịch", True)]
     ),
     SmokeTestScript("Arabic", [("ژۇرنال", True), ("ژלرنال", False)]),
-    SmokeTestScript("Lao", [("ກັບຄືນ", True), ("ژלرنال", False), ("wikipron", False)]),
-    SmokeTestScript("Gothic", [("𐌰𐌲𐌲𐌹𐌻𐌿𐍃", True), ("ژלرنال", False), ("wikipron", False)]),
-    SmokeTestScript("Inherited", [("ऺऺऺٔ  ٕ", True), ("ژלرنال", False), ("wikipron", False)]),
+    SmokeTestScript(
+        "Lao", [("ກັບຄືນ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Gothic", [("𐌰𐌲𐌲𐌹𐌻𐌿𐍃", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Inherited", [("ٔ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Tai Tham", [("ᨾᩮᩥ᩠ᨦ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Old Italic",
+        [("𐌃𐌖𐌄𐌍𐌏𐌔", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Thai", [("กะเตาแด็ร", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Greek", [("β", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "New Tai Lue",
+        [("ᦺᦘᧈᦵᦙᦲᧂ", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Canadian Aboriginal",
+        [("ᐊᔨᓈᓀᐤ", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Myanmar",
+        [("တင်ႇငူင်း", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Hangul", [("ᄀᆞᆨ다기", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Tibetan",
+        [("ཀ་ཏ་མན་ཏུ", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Syloti Nagri",
+        [("ꠀꠁꠎꠇꠣꠁꠟ", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Mongolian", [("ᠠᠨᡨᠠᡥᠠ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Khmer", [("កង់ហ្គូរូ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Javanese",
+        [("ꦧꦲꦸꦱꦱ꧀ꦠꦿ", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Common", [("ʻ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Coptic", [("ϣⲙⲏⲛ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Ahom", [("𑜀𑜦𑜡𑜀𑜨𑜈𑜫𑜍", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
+    SmokeTestScript(
+        "Armenian",
+        [("ֆրիուլերեն", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Limbu",
+        [("ᤀᤠᤀᤡᤴᤋᤠᤴᤍᤡᤰ", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Bopomofo", [("ㄅㄆㄇㄈ", True), ("ژלرنال", False), ("wikipron", False)]
+    ),
     SmokeTestScript(
         "Georgian",
         [("ააბარგებს", True), ("ژלرنال", False), ("wikipron", False)],
@@ -144,7 +216,7 @@ def test_script_detection_strict(smoke_test_script):
     given the samples."""
     for script_sample, predicted_truth_val in smoke_test_script.samples:
         result = _detect_best_script_name(script_sample)
-        predicted_script = result.replace("_"," ") if result else None
+        predicted_script = result.replace("_", " ") if result else None
         status = predicted_script == smoke_test_script.script
         assert status == predicted_truth_val, (
             f"{script_sample}: {smoke_test_script.script} predicted"

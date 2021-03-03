@@ -830,7 +830,6 @@
         "casefold": false,
         "script": {
             "arab": "Arabic",
-            "zinhqaai": "Inherited",
             "deva": "Devanagari"
         }
     },
