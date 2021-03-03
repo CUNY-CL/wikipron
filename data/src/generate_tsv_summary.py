@@ -30,7 +30,15 @@ def _handle_wiki_name(
                     file_path,
                 )
                 continue
-            values = language[modifier][key]
+            # Temporary solution before issue 365 is resolved.
+            if "_" in key:
+                script_key, dialect_key = key.split("_")
+                if modifier == "dialect":
+                    values = language[modifier][dialect_key]
+                elif modifier == "script":
+                    values = language[modifier][script_key]
+            else:
+                values = language[modifier][key]
             if "|" in values:
                 values = values.replace(" |", ",")
             name += f" ({values})"
@@ -42,7 +50,7 @@ def main() -> None:
         languages = json.load(source)
     readme_list = []
     languages_summary_list = []
-    path = "../../tests/tsv"
+    path = "../../data/tsv"
     modifiers = ["dialect", "script"]
     for file_path in os.listdir(path):
         # Filters out README.md.

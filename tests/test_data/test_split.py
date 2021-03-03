@@ -92,6 +92,13 @@ _SMOKE_TEST_LANGUAGES = [
         "Latin", [("wikipron", True), ("ае", False), ("lịch", True)]
     ),
     SmokeTestScript("Arabic", [("ژۇرنال", True), ("ژלرنال", False)]),
+    SmokeTestScript("Lao", [("ກັບຄືນ", True), ("ژלرنال", False), ("wikipron", False)]),
+    SmokeTestScript("Gothic", [("𐌰𐌲𐌲𐌹𐌻𐌿𐍃", True), ("ژלرنال", False), ("wikipron", False)]),
+    SmokeTestScript("Inherited", [("ऺऺऺٔ  ٕ", True), ("ژלرنال", False), ("wikipron", False)]),
+    SmokeTestScript(
+        "Georgian",
+        [("ააბარგებს", True), ("ژלرنال", False), ("wikipron", False)],
+    ),
 ]
 
 
@@ -137,7 +144,7 @@ def test_script_detection_strict(smoke_test_script):
     given the samples."""
     for script_sample, predicted_truth_val in smoke_test_script.samples:
         result = _detect_best_script_name(script_sample)
-        predicted_script = result[0] if result else None
+        predicted_script = result.replace("_"," ") if result else None
         status = predicted_script == smoke_test_script.script
         assert status == predicted_truth_val, (
             f"{script_sample}: {smoke_test_script.script} predicted"
@@ -150,6 +157,5 @@ def test_script_detection_basic():
     # corresponding to Brāhmī.
     text = "𐨑𐨪𐨆𐨯𐨠𐨁𑀘𑀠𑀬𑁄𑀰𑀺𑀣𑁄"
     assert not _detect_best_script_name(text)  # Not allowed in strict mode.
-    script, score = _detect_best_script_name(text, strict=False)
+    script = _detect_best_script_name(text, strict=False)
     assert script == "Brahmi"
-    assert score > 0.5

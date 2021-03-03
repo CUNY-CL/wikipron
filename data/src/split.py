@@ -34,7 +34,7 @@ def main() -> None:
         languages = json.load(lang_source)
 
     iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
-    transcription_level = tsv_path[tsv_path.rindex("phone") :]
+    path_remainder = tsv_path[tsv_path.index("_") + 1 :]
 
     if "script" in languages[iso639_code]:
         lang = languages[iso639_code]
@@ -46,7 +46,7 @@ def main() -> None:
         for script_prefix, unicode_script in lang["script"].items():
             output_path = (
                 f"{TSV_DIRECTORY_PATH}/{iso639_code}_{script_prefix}_"
-                f"{transcription_level}"
+                f"{path_remainder}"
             )
             _iterate_through_file(tsv_path, output_path, unicode_script)
         # Removes unsplit files; removing files within a for loop doesn't

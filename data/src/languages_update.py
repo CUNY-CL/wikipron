@@ -10,7 +10,7 @@ import operator
 import os
 import unicodedataplus  # type: ignore
 
-from typing import Dict, DefaultDict, Optional, Tuple
+from typing import Dict, DefaultDict, Optional
 
 from data.src.codes import (  # type: ignore
     LANGUAGES_PATH,
