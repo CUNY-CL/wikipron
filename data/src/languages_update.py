@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 """Updates languages.json
 
-This module takes the data/tsv directory as input and returns an updated version of
-languages.json, where the script entry for each language is updated to include every
-orthographic script present in each language's tsv file. Script entries are also updated
+This module takes the data/tsv directory as input and returns an
+updated version of languages.json, where the script entry for each
+language is updated to include every orthographic script present
+in each language's tsv file. Script entries are also updated
 to reflect such that script key entries match ISO 15924 aliases.
 """
 
