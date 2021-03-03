@@ -30,7 +30,7 @@ def _handle_wiki_name(
                     file_path,
                 )
                 continue
-            # Temporary solution before issue 365 is resolved.
+            # TODO: remove temporary solution after #365.
             if "_" in key:
                 script_key, dialect_key = key.split("_")
                 if modifier == "dialect":

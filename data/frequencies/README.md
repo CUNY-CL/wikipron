@@ -4,7 +4,7 @@ Frequencies scripts
 The scripts in this directory are responsible for downloading word frequency
 counts from the [Leipzig Corpora
 Collection](https://wortschatz.uni-leipzig.de/en/download/) and merging those
-counts into [our corresponding TSVs](../../tests/tsv/).
+counts into [our corresponding TSVs](../tsv/).
 
 How to use
 ----------

@@ -36,7 +36,7 @@ We welcome user submissions for `.phones` files from linguists. Note that we use
 the [fork and pull](../../CONTRIBUTING.md) model for contributions.
 
 1.  Make a list of all phones or phonemes, in descending-frequency order, using
-    the appropriate file in [`../tsv`](../../tests/tsv). The script
+    the appropriate file in [`../tsv`](../tsv). The script
     [`list_phones.py`](../src/list_phones.py) is available to facilitate this
     step. Running `./list_phones.py ../tsv/<some-TSV-file> > foo.phones`
     generates `foo.phones` that you can edit by the following steps.

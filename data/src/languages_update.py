@@ -1,21 +1,22 @@
 #!/usr/bin/env python
-"""languages.json update
+"""Updates languages.json
 
-Takes languages.json file and updates the script entry for a language based on
-the files that are present in data/tsv.
+This module takes the data/tsv directory as input and returns an updated version of
+languages.json, where the script entry for each language is updated to include every
+orthographic script present in each language's tsv file. Script entries are also updated
+to reflect such that script key entries match ISO 15924 aliases.
 """
+
 import collections
 import json
 import operator
 import os
-import unicodedataplus  # type: ignore
 
 from typing import Dict, DefaultDict, Optional
 
-from data.src.codes import (  # type: ignore
-    LANGUAGES_PATH,
-    TSV_DIRECTORY_PATH,
-)
+import unicodedataplus  # type: ignore
+
+from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH  # type: ignore
 
 
 def _detect_best_script_name(
