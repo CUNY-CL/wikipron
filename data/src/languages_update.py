@@ -54,7 +54,7 @@ def _detect_best_script_name(
     else:
         # The script names in Unicode data tables have underscores instead of
         # whitespace to enable parsing. See:
-        #   https://www.unicode.org/Public/13.0.0/ucd/Scripts.txt
+        # https://www.unicode.org/Public/13.0.0/ucd/Scripts.txt
         return script_probs[0][0]
 
 
