@@ -79,7 +79,7 @@ def _remove_mismatch_ids(
             str,
         ],
     ]
-) -> Dict[str, Dict[str, str,]]:
+) -> Dict[str, Dict[str, str]]:
     """Removes [key:value] pairs when the key does not
     match the ISO 15924 code alias for script.
     """

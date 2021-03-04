@@ -2,7 +2,6 @@
 
 import json
 import os
-import sys
 import regex  # type: ignore
 import argparse
 
@@ -34,8 +33,8 @@ def main(args: argparse.Namespace) -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
 
-    iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
-    path_remainder = tsv_path[tsv_path.index("_") + 1 :]
+    iso639_code = tsv_path[tsv_path.rindex("/") + 1: tsv_path.index("_")]
+    path_remainder = tsv_path[tsv_path.index("_") + 1:]
 
     if "script" in languages[iso639_code]:
         lang = languages[iso639_code]
@@ -57,14 +56,10 @@ def main(args: argparse.Namespace) -> None:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Sets path to tsv",
+        description="sets path to TSV"
     )
     parser.add_argument(
-        "-tsv_path",
-        type=str,
-        metavar="",
-        required=True,
-        help="Declare path to tsv files",
+        "tsv_path", help="path to TSV files"
     )
     namespace = parser.parse_args()
     main(namespace)
