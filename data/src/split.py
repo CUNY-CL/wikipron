@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import regex  # type: ignore
+import argparse
 
 from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
 
@@ -27,8 +28,8 @@ def _iterate_through_file(
                     print(line.rstrip(), file=output_tsv)
 
 
-def main() -> None:
-    tsv_path = sys.argv[1]
+def main(args: argparse.Namespace) -> None:
+    tsv_path = args.tsv_path
 
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
@@ -55,4 +56,15 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description="Sets path to tsv",
+    )
+    parser.add_argument(
+        "-tsv_path",
+        type=str,
+        metavar="",
+        required=True,
+        help="Declare path to tsv files",
+    )
+    namespace = parser.parse_args()
+    main(namespace)
