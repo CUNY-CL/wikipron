@@ -73,6 +73,9 @@ def _get_alias(
     if "qaac" in script:
         script = script.replace("qaac", "")
 
+    if "qaai" in script:
+        script = script.replace("qaai", "")
+
     return script
 
 
