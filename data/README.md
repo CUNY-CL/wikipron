@@ -51,7 +51,7 @@
 | [TSV](tsv/nci_latn_phonemic.tsv) | nci | Classical Nahuatl | Classical Nahuatl (Latin) | True | Phonemic | 820 |
 | [TSV](tsv/nci_latn_phonetic.tsv) | nci | Classical Nahuatl | Classical Nahuatl (Latin) | True | Phonetic | 1,396 |
 | [TSV](tsv/syc_syrc_phonetic.tsv) | syc | Classical Syriac | Classical Syriac (Syriac) | False | Phonetic | 5,947 |
-| [TSV](tsv/cop_coptqaac_phonemic.tsv) | cop | Coptic | Coptic (Coptic) | True | Phonemic | 418 |
+| [TSV](tsv/cop_copt_phonemic.tsv) | cop | Coptic | Coptic (Coptic) | True | Phonemic | 418 |
 | [TSV](tsv/cor_latn_phonemic.tsv) | cor | Cornish | Cornish (Latin) | True | Phonemic | 124 |
 | [TSV](tsv/cor_latn_phonetic.tsv) | cor | Cornish | Cornish (Latin) | True | Phonetic | 680 |
 | [TSV](tsv/cos_latn_phonemic.tsv) | cos | Corsican | Corsican (Latin) | True | Phonemic | 188 |

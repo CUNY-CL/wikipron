@@ -66,9 +66,14 @@ def _get_alias(
 
     Example: "Arabic" -> "arab"
     """
-    return "".join(
+    script = "".join(
         unicodedataplus.property_value_aliases["script"][value]
     ).lower()
+    # Removes qaac tag from end of script.
+    if "qaac" in script:
+        script = script.replace("qaac", "")
+
+    return script
 
 
 def _remove_mismatch_ids(

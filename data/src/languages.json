@@ -370,7 +370,7 @@
         "wiktionary_code": "cop",
         "casefold": true,
         "script": {
-            "coptqaac": "Coptic"
+            "copt": "Coptic"
         }
     },
     "cor": {
@@ -830,7 +830,8 @@
         "casefold": false,
         "script": {
             "arab": "Arabic",
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "zinhqaai": "Inherited"
         }
     },
     "kaz": {
