@@ -12,7 +12,7 @@ from wikipron.scrape import scrape
 def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=wikipron.__doc__)
     parser.add_argument(
-        "key", help="Key (i.e., ISO 639 code or name) for the language"
+        "key", help="key (i.e., ISO 639 code or name) for the language"
     )
     parser.add_argument(
         "--phonetic",

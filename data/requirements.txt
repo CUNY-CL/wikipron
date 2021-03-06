@@ -3,3 +3,5 @@ regex>=2019.12.9
 requests
 requests-html
 wikipron>=1.0.0
+pynini>=2.1.0
+prettytable>=2.0.0
