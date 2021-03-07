@@ -30,7 +30,7 @@ Unreleased
 -   Updated `data/phones/HOWTO.md` to include instructions on applying the
     NFC Unicode normalization (\#357)
 -   Updated `data/src/normalize.py` to be more efficient. (\#358)
--   Fixed inaccuracies in `data/phones/geo_phonemic.tsv`. (\#367)
+-   Fixed inaccuracies in `data/phones/geo_phonemic.phones`. (\#367)
 
 ### Under `wikipron/` and elsewhere
 
