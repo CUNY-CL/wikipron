@@ -12,7 +12,7 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](eng_uk_phonemic.phones) | eng | English | English (UK, Received Pronunciation) | Phonemic | 68 |
 | [phone](eng_us_phonemic.phones) | eng | English | English (US, General American) | Phonemic | 67 |
 | [phone](fre_phonemic.phones) | fre | French | French | Phonemic | 41 |
-| [phone](geo_phonemic.phones) | geo | Georgian | Georgian | Phonemic | 33 |
+| [phone](geo_phonemic.phones) | geo | Georgian | Georgian | Phonemic | 42 |
 | [phone](ger_phonemic.phones) | ger | German | German | Phonemic | 91 |
 | [phone](gre_phonemic.phones) | gre | Modern Greek (1453-) | Greek | Phonemic | 40 |
 | [phone](hin_phonemic.phones) | hin | Hindi | Hindi | Phonemic | 72 |
