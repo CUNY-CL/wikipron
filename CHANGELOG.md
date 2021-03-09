@@ -16,6 +16,7 @@ Unreleased
 
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
+-   Added `data/cg/tsv/geo.tsv`. (\#367)
 
 #### Changed
 
@@ -29,6 +30,7 @@ Unreleased
 -   Updated `data/phones/HOWTO.md` to include instructions on applying the
     NFC Unicode normalization (\#357)
 -   Updated `data/src/normalize.py` to be more efficient. (\#358)
+-   Fixed inaccuracies in `data/phones/geo_phonemic.phones`. (\#367)
 
 ### Under `wikipron/` and elsewhere
 

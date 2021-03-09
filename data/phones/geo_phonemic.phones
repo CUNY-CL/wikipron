@@ -1,11 +1,11 @@
 # Based on https://en.wikipedia.org/wiki/Help:IPA/Georgian
-# Vowels.
+# VOWELS
 ɑ
 i
 ɛ
 ɔ
 u
-# Consonants.
+# CONSONANTS
 r
 l
 s
@@ -25,9 +25,18 @@ z
 pʼ
 pʰ
 kʰ
-sʼ
 qʼ
 ɣ
 ʒ
-ʃʼ
 h
+# */sʼ/ and */ʃʼ/ are not phonemes of Georgian, but are used to transcribe the
+# ejective affricates /tsʼ/ and /tʃʼ/.
+sʼ
+ʃʼ
+# AFFRICATES
+t͡s
+t͡sʼ
+d͡z
+t͡ʃ
+t͡ʃʼ
+d͡ʒ

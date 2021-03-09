@@ -9,7 +9,7 @@ dut_phonemic.phones	dut	Dutch; Flemish	Dutch	Phonemic	53
 eng_uk_phonemic.phones	eng	English	English (UK, Received Pronunciation)	Phonemic	68
 eng_us_phonemic.phones	eng	English	English (US, General American)	Phonemic	67
 fre_phonemic.phones	fre	French	French	Phonemic	41
-geo_phonemic.phones	geo	Georgian	Georgian	Phonemic	33
+geo_phonemic.phones	geo	Georgian	Georgian	Phonemic	42
 ger_phonemic.phones	ger	German	German	Phonemic	91
 gre_phonemic.phones	gre	Modern Greek (1453-)	Greek	Phonemic	40
 hin_phonemic.phones	hin	Hindi	Hindi	Phonemic	72

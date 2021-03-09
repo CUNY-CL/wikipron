@@ -89,8 +89,8 @@
 | [TSV](tsv/glg_phonemic.tsv) | glg | Galician | Galician | True | Phonemic | 4,887 |
 | [TSV](tsv/glg_phonetic.tsv) | glg | Galician | Galician | True | Phonetic | 1,670 |
 | [TSV](tsv/kld_phonemic.tsv) | kld | Gamilaraay | Gamilaraay | True | Phonemic | 457 |
-| [TSV](tsv/geo_phonemic.tsv) | geo | Georgian | Georgian | False | Phonemic | 15,102 |
-| [TSV](tsv/geo_phonemic_filtered.tsv) | geo | Georgian | Georgian | False | Phonemic_filtered | 15,101 |
+| [TSV](tsv/geo_phonemic.tsv) | geo | Georgian | Georgian | False | Phonemic | 15,129 |
+| [TSV](tsv/geo_phonemic_filtered.tsv) | geo | Georgian | Georgian | False | Phonemic_filtered | 15,128 |
 | [TSV](tsv/ger_phonemic.tsv) | ger | German | German | True | Phonemic | 35,489 |
 | [TSV](tsv/ger_phonemic_filtered.tsv) | ger | German | German | True | Phonemic_filtered | 34,148 |
 | [TSV](tsv/ger_phonetic.tsv) | ger | German | German | True | Phonetic | 10,988 |
