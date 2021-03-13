@@ -17,6 +17,7 @@ Unreleased
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
+-   Added `data/morphology` (\#369)
 
 #### Changed
 
