@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Downloads and decompresses Wortschatz frequency data."""
 
 import json
 import logging
@@ -9,13 +10,13 @@ import time
 
 from typing import Any, Dict
 
+
 WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
 
 
-# Downloads the Wortschatz tarballs, roughly 10 GB of data.
 def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
     to_retry = {}
-    os.makedirs("tgz", exist_ok=True)
+    os.mkdir("tgz")
     for language in data_to_grab:
         url = data_to_grab[language]["data_url"]
         with requests.get(url, stream=True) as response:
@@ -37,7 +38,6 @@ def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
     return to_retry
 
 
-# Unpacks word frequency TSVs of tarballs, roughly 1 GB of data.
 def unpack() -> None:
     os.mkdir("tsv")
     for tarball in os.listdir("tgz"):
@@ -54,7 +54,6 @@ def unpack() -> None:
 def main() -> None:
     with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
-
     # Hack for repeatedly attempting to download Wortschatz data
     # as a way of getting around 404 response from their server.
     langs_to_retry = download(languages)
