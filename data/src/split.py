@@ -2,8 +2,9 @@
 
 import json
 import os
-import regex  # type: ignore
 import argparse
+
+import regex  # type: ignore
 
 from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
 
@@ -12,7 +13,7 @@ def _generalized_check(script: str, word: str) -> bool:
     prop = (
         "Block" if script == "Katakana" or script == "Hiragana" else "Script"
     )
-    regex_string = rf"^[\p{{{prop}={script}}}']+$"
+    regex_string = rf"^[\p{{{prop}={script}}}\s’ʔʻ]+$"
     return bool(regex.match(regex_string, word))
 
 
@@ -28,19 +29,19 @@ def _iterate_through_file(
 
 
 def main(args: argparse.Namespace) -> None:
-    tsv_path = args.tsv_path
-
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
 
-    iso639_code = tsv_path[tsv_path.rindex("/") + 1 : tsv_path.index("_")]
-    path_remainder = tsv_path[tsv_path.index("_") + 1 :]
+    iso639_code = args.tsv_path[
+        args.tsv_path.rindex("/") + 1: args.tsv_path.index("_")
+    ]
+    path_remainder = args.tsv_path[args.tsv_path.index("_") + 1:]
 
     if "script" in languages[iso639_code]:
         lang = languages[iso639_code]
         # Hacky way of filtering out the already split scripts.
         for script_prefix in lang["script"]:
-            if script_prefix in tsv_path:
+            if script_prefix in args.tsv_path:
                 # Then this is a previously split file.
                 return
         for script_prefix, unicode_script in lang["script"].items():
@@ -48,10 +49,10 @@ def main(args: argparse.Namespace) -> None:
                 f"{TSV_DIRECTORY_PATH}/{iso639_code}_{script_prefix}_"
                 f"{path_remainder}"
             )
-            _iterate_through_file(tsv_path, output_path, unicode_script)
+            _iterate_through_file(args.tsv_path, output_path, unicode_script)
         # Removes unsplit files; removing files within a for loop doesn't
         # appear to lead to an error in postprocessing.
-        os.remove(tsv_path)
+        os.remove(args.tsv_path)
 
 
 if __name__ == "__main__":

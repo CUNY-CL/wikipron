@@ -1,0 +1,718 @@
+{
+    "aar_phonemic.tsv": {},
+    "acw_phonemic.tsv": {},
+    "acw_phonetic.tsv": {},
+    "ady_phonetic.tsv": {},
+    "ady_phonetic_filtered.tsv": {},
+    "afb_phonemic.tsv": {},
+    "afr_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "afr_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "afr_phonetic.tsv": {},
+    "ajp_phonemic.tsv": {},
+    "alb_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "alb_phonetic.tsv": {},
+    "ale_phonemic.tsv": {},
+    "ang_phonemic.tsv": {},
+    "ang_phonetic.tsv": {},
+    "aot_latn_phonemic.tsv": {},
+    "apw_phonetic.tsv": {
+        "RIGHT SINGLE QUOTATION MARK": "’",
+        "MODIFIER LETTER APOSTROPHE": "ʼ"
+    },
+    "ara_phonemic.tsv": {},
+    "arc_hebr_phonemic.tsv": {},
+    "arm_e_phonetic.tsv": {},
+    "arm_e_phonetic_filtered.tsv": {},
+    "arm_w_phonetic.tsv": {},
+    "arm_w_phonetic_filtered.tsv": {},
+    "ary_phonemic.tsv": {},
+    "arz_phonemic.tsv": {},
+    "asm_phonemic.tsv": {
+        "RIGHT SINGLE QUOTATION MARK": "’",
+        "EXCLAMATION MARK": "!",
+        "APOSTROPHE": "'"
+    },
+    "ast_phonetic.tsv": {},
+    "ayl_phonemic.tsv": {},
+    "aze_latn_phonemic.tsv": {},
+    "aze_latn_phonetic.tsv": {},
+    "aze_latn_phonetic_filtered.tsv": {},
+    "bak_phonemic.tsv": {},
+    "bak_phonetic.tsv": {},
+    "ban_bali_phonemic.tsv": {},
+    "baq_phonemic.tsv": {},
+    "baq_phonetic.tsv": {},
+    "bcl_phonemic.tsv": {},
+    "bdq_phonemic.tsv": {
+        "MODIFIER LETTER APOSTROPHE": "ʼ",
+        "RIGHT SINGLE QUOTATION MARK": "’"
+    },
+    "bel_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "ben_phonemic.tsv": {},
+    "ben_phonetic.tsv": {
+        "COLON": ":"
+    },
+    "bre_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "bul_phonemic.tsv": {},
+    "bul_phonemic_filtered.tsv": {},
+    "bul_phonetic.tsv": {},
+    "bur_phonemic.tsv": {
+        "ZERO WIDTH SPACE": "​"
+    },
+    "bur_phonemic_filtered.tsv": {
+        "ZERO WIDTH SPACE": "​"
+    },
+    "cat_phonemic.tsv": {
+        "MIDDLE DOT": "·",
+        "APOSTROPHE": "'"
+    },
+    "cbn_phonemic.tsv": {},
+    "ceb_phonemic.tsv": {},
+    "cho_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "cmn_hani_phonemic.tsv": {},
+    "cop_phonemic.tsv": {},
+    "cor_phonemic.tsv": {},
+    "cor_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "cos_phonemic.tsv": {},
+    "crk_phonemic.tsv": {},
+    "crx_phonemic.tsv": {},
+    "cze_phonemic.tsv": {},
+    "cze_phonetic.tsv": {},
+    "dan_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "SUBSCRIPT TWO": "₂",
+        "FULL STOP": "."
+    },
+    "dan_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "SUBSCRIPT TWO": "₂",
+        "FULL STOP": "."
+    },
+    "dlm_phonemic.tsv": {},
+    "dng_phonemic.tsv": {},
+    "dsb_phonemic.tsv": {},
+    "dsb_phonetic.tsv": {},
+    "dum_phonemic.tsv": {},
+    "dut_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "dut_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "dut_phonetic.tsv": {},
+    "dzo_phonemic.tsv": {},
+    "egy_phonemic.tsv": {
+        "FULL STOP": ".",
+        "COLON": ":"
+    },
+    "eng_uk_phonemic.tsv": {
+        "DOLLAR SIGN": "$",
+        "APOSTROPHE": "'",
+        "PLUS SIGN": "+",
+        "FULL STOP": ".",
+        "AMPERSAND": "&",
+        "ASTERISK": "*",
+        "SOLIDUS": "/",
+        "SUBSCRIPT TWO": "₂",
+        "EQUALS SIGN": "=",
+        "SUPERSCRIPT TWO": "²",
+        "COMMERCIAL AT": "@"
+    },
+    "eng_uk_phonemic_filtered.tsv": {
+        "DOLLAR SIGN": "$",
+        "APOSTROPHE": "'",
+        "PLUS SIGN": "+",
+        "FULL STOP": ".",
+        "AMPERSAND": "&",
+        "ASTERISK": "*",
+        "SOLIDUS": "/",
+        "SUBSCRIPT TWO": "₂",
+        "EQUALS SIGN": "=",
+        "SUPERSCRIPT TWO": "²",
+        "COMMERCIAL AT": "@"
+    },
+    "eng_uk_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": ".",
+        "AMPERSAND": "&"
+    },
+    "eng_us_phonemic.tsv": {
+        "DOLLAR SIGN": "$",
+        "APOSTROPHE": "'",
+        "PLUS SIGN": "+",
+        "FULL STOP": ".",
+        "COMMERCIAL AT": "@",
+        "AMPERSAND": "&",
+        "ASTERISK": "*",
+        "SOLIDUS": "/",
+        "PERCENT SIGN": "%",
+        "MODIFIER LETTER APOSTROPHE": "ʼ",
+        "SUBSCRIPT TWO": "₂",
+        "EQUALS SIGN": "=",
+        "SUPERSCRIPT TWO": "²"
+    },
+    "eng_us_phonemic_filtered.tsv": {
+        "DOLLAR SIGN": "$",
+        "APOSTROPHE": "'",
+        "PLUS SIGN": "+",
+        "FULL STOP": ".",
+        "COMMERCIAL AT": "@",
+        "AMPERSAND": "&",
+        "ASTERISK": "*",
+        "SOLIDUS": "/",
+        "PERCENT SIGN": "%",
+        "MODIFIER LETTER APOSTROPHE": "ʼ",
+        "SUBSCRIPT TWO": "₂",
+        "EQUALS SIGN": "=",
+        "SUPERSCRIPT TWO": "²"
+    },
+    "eng_us_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": ".",
+        "AMPERSAND": "&"
+    },
+    "enm_phonemic.tsv": {},
+    "epo_phonemic.tsv": {
+        "FULL STOP": ".",
+        "APOSTROPHE": "'"
+    },
+    "est_phonemic.tsv": {},
+    "ewe_phonemic.tsv": {},
+    "fao_phonemic.tsv": {},
+    "fao_phonetic.tsv": {
+        "FULL STOP": "."
+    },
+    "fin_phonemic.tsv": {
+        "FULL STOP": ".",
+        "COLON": ":",
+        "RIGHT SINGLE QUOTATION MARK": "’"
+    },
+    "fin_phonetic.tsv": {
+        "FULL STOP": ".",
+        "COLON": ":",
+        "RIGHT SINGLE QUOTATION MARK": "’"
+    },
+    "fre_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": ".",
+        "SOLIDUS": "/"
+    },
+    "fre_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": ".",
+        "SOLIDUS": "/"
+    },
+    "fre_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "SOLIDUS": "/"
+    },
+    "fro_phonemic.tsv": {},
+    "frr_phonemic.tsv": {},
+    "fry_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "geo_phonemic.tsv": {
+        "FULL STOP": "."
+    },
+    "geo_phonemic_filtered.tsv": {
+        "FULL STOP": "."
+    },
+    "ger_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "COMMERCIAL AT": "@",
+        "FULL STOP": "."
+    },
+    "ger_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "COMMERCIAL AT": "@",
+        "FULL STOP": "."
+    },
+    "ger_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "gla_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "gla_phonetic.tsv": {},
+    "gle_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "gle_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "glg_phonemic.tsv": {},
+    "glg_phonetic.tsv": {},
+    "glv_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "glv_phonetic.tsv": {},
+    "gml_phonemic.tsv": {},
+    "goh_phonemic.tsv": {},
+    "got_phonemic.tsv": {
+        "COLON": ":"
+    },
+    "got_phonetic.tsv": {
+        "COLON": ":"
+    },
+    "grc_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "gre_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": ".",
+        "COMMA": ","
+    },
+    "gre_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": ".",
+        "COMMA": ","
+    },
+    "gre_phonetic.tsv": {
+        "FULL STOP": "."
+    },
+    "gsw_phonemic.tsv": {},
+    "haw_phonemic.tsv": {
+        "MODIFIER LETTER TURNED COMMA": "ʻ"
+    },
+    "haw_phonetic.tsv": {
+        "MODIFIER LETTER TURNED COMMA": "ʻ"
+    },
+    "hbs_cyrl_phonemic.tsv": {},
+    "hbs_cyrl_phonemic_filtered.tsv": {},
+    "hbs_latn_phonemic.tsv": {},
+    "hbs_latn_phonemic_filtered.tsv": {},
+    "heb_phonemic.tsv": {},
+    "heb_phonetic.tsv": {},
+    "hin_phonemic.tsv": {},
+    "hin_phonemic_filtered.tsv": {},
+    "hin_phonetic.tsv": {},
+    "hrx_phonemic.tsv": {},
+    "hts_phonemic.tsv": {},
+    "hun_phonetic.tsv": {
+        "FULL STOP": "."
+    },
+    "hun_phonetic_filtered.tsv": {
+        "FULL STOP": "."
+    },
+    "huu_phonetic.tsv": {},
+    "ice_phonemic.tsv": {},
+    "ice_phonemic_filtered.tsv": {},
+    "ice_phonetic.tsv": {},
+    "ido_phonemic.tsv": {
+        "FULL STOP": "."
+    },
+    "ilo_phonemic.tsv": {},
+    "ilo_phonetic.tsv": {},
+    "ina_phonemic.tsv": {},
+    "ind_phonemic.tsv": {},
+    "ind_phonetic.tsv": {},
+    "ita_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "AMPERSAND": "&"
+    },
+    "ita_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "AMPERSAND": "&"
+    },
+    "ita_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "izh_phonemic.tsv": {},
+    "jam_phonemic.tsv": {},
+    "jje_phonemic.tsv": {},
+    "jpn_hira_phonetic.tsv": {},
+    "jpn_hira_phonetic_filtered.tsv": {},
+    "jpn_kana_phonetic.tsv": {
+        "KATAKANA-HIRAGANA PROLONGED SOUND MARK": "ー",
+        "KATAKANA MIDDLE DOT": "・"
+    },
+    "jpn_kana_phonetic_filtered.tsv": {
+        "KATAKANA-HIRAGANA PROLONGED SOUND MARK": "ー",
+        "KATAKANA MIDDLE DOT": "・"
+    },
+    "kal_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "kas_phonemic.tsv": {},
+    "kaz_cyrl_phonemic.tsv": {},
+    "kaz_cyrl_phonetic.tsv": {},
+    "kbd_phonetic.tsv": {},
+    "khb_phonemic.tsv": {},
+    "khm_phonemic.tsv": {
+        "COLON": ":"
+    },
+    "khm_phonemic_filtered.tsv": {
+        "COLON": ":"
+    },
+    "kik_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "kir_cyrl_phonemic.tsv": {},
+    "kld_phonemic.tsv": {
+        "FULL STOP": "."
+    },
+    "kmr_latn_phonemic.tsv": {},
+    "kor_phonetic.tsv": {
+        "FULL STOP": "."
+    },
+    "kor_phonetic_filtered.tsv": {
+        "FULL STOP": "."
+    },
+    "kxd_phonemic.tsv": {},
+    "lad_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "lao_phonemic.tsv": {},
+    "lat_clas_phonemic.tsv": {
+        "ASTERISK": "*"
+    },
+    "lat_clas_phonetic.tsv": {
+        "ASTERISK": "*"
+    },
+    "lat_eccl_phonemic.tsv": {
+        "ASTERISK": "*"
+    },
+    "lat_eccl_phonetic.tsv": {
+        "ASTERISK": "*"
+    },
+    "lat_vulg_phonemic.tsv": {
+        "ASTERISK": "*"
+    },
+    "lat_vulg_phonetic.tsv": {
+        "ASTERISK": "*"
+    },
+    "lav_phonetic.tsv": {},
+    "lav_phonetic_filtered.tsv": {},
+    "lif_phonemic.tsv": {},
+    "lij_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "lim_phonetic.tsv": {},
+    "lit_phonemic.tsv": {},
+    "lit_phonetic.tsv": {},
+    "liv_phonemic.tsv": {},
+    "lmo_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "MIDDLE DOT": "·"
+    },
+    "lmy_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "lsi_phonemic.tsv": {},
+    "ltg_phonetic.tsv": {},
+    "ltz_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "ltz_phonetic.tsv": {},
+    "lwl_phonemic.tsv": {
+        "MODIFIER LETTER APOSTROPHE": "ʼ"
+    },
+    "mac_phonetic.tsv": {
+        "RIGHT SINGLE QUOTATION MARK": "’"
+    },
+    "mah_phonemic.tsv": {},
+    "mah_phonetic.tsv": {},
+    "mar_phonemic.tsv": {},
+    "mar_phonetic.tsv": {},
+    "may_ara_phonemic.tsv": {},
+    "may_ara_phonetic.tsv": {},
+    "may_latn_phonemic.tsv": {},
+    "may_latn_phonetic.tsv": {},
+    "mdf_phonemic.tsv": {},
+    "mfe_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "mga_phonemic.tsv": {},
+    "mic_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "mic_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "mlg_phonemic.tsv": {},
+    "mlt_latn_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "mlt_latn_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "mnc_phonetic.tsv": {},
+    "mnw_phonemic.tsv": {},
+    "mon_cyrl_phonemic.tsv": {},
+    "mon_cyrl_phonetic.tsv": {},
+    "mvi_phonemic.tsv": {
+        "KATAKANA-HIRAGANA PROLONGED SOUND MARK": "ー"
+    },
+    "mww_phonemic.tsv": {},
+    "nap_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "nav_phonemic.tsv": {
+        "MODIFIER LETTER APOSTROPHE": "ʼ"
+    },
+    "nci_phonemic.tsv": {},
+    "nci_phonetic.tsv": {},
+    "nds_phonemic.tsv": {},
+    "nep_phonemic.tsv": {},
+    "nep_phonetic.tsv": {},
+    "new_phonemic.tsv": {},
+    "nhg_phonetic.tsv": {},
+    "nhx_phonemic.tsv": {
+        "MODIFIER LETTER APOSTROPHE": "ʼ"
+    },
+    "nmy_phonetic.tsv": {},
+    "nno_phonemic.tsv": {},
+    "nno_phonetic.tsv": {},
+    "nob_phonemic.tsv": {
+        "SOLIDUS": "/",
+        "FULL STOP": "."
+    },
+    "nob_phonemic_filtered.tsv": {},
+    "nob_phonetic.tsv": {},
+    "non_phonemic.tsv": {},
+    "nor_phonemic.tsv": {},
+    "nrf_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "nya_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "oci_phonemic.tsv": {},
+    "oci_phonetic.tsv": {},
+    "ofs_phonemic.tsv": {},
+    "okm_phonemic.tsv": {},
+    "ori_phonemic.tsv": {},
+    "osp_phonetic.tsv": {
+        "FULL STOP": "."
+    },
+    "osx_phonemic.tsv": {},
+    "ota_phonetic.tsv": {},
+    "pan_guru_phonemic.tsv": {},
+    "pbv_phonemic.tsv": {},
+    "pcc_phonemic.tsv": {},
+    "pdc_phonemic.tsv": {},
+    "per_phonemic.tsv": {
+        "ARABIC TATWEEL": "ـ"
+    },
+    "per_phonetic.tsv": {
+        "ARABIC TATWEEL": "ـ"
+    },
+    "phl_phonemic.tsv": {
+        "TILDE": "~"
+    },
+    "pjt_phonetic.tsv": {},
+    "pms_phonemic.tsv": {},
+    "pol_phonemic.tsv": {
+        "PLUS SIGN": "+",
+        "FULL STOP": "."
+    },
+    "por_bz_phonemic.tsv": {
+        "FULL STOP": ".",
+        "APOSTROPHE": "'"
+    },
+    "por_bz_phonemic_filtered.tsv": {
+        "FULL STOP": ".",
+        "APOSTROPHE": "'"
+    },
+    "por_bz_phonetic.tsv": {},
+    "por_po_phonemic.tsv": {
+        "FULL STOP": "."
+    },
+    "por_po_phonemic_filtered.tsv": {
+        "FULL STOP": "."
+    },
+    "por_po_phonetic.tsv": {},
+    "pox_phonemic.tsv": {
+        "RIGHT SINGLE QUOTATION MARK": "’",
+        "COLON": ":"
+    },
+    "ppl_phonemic.tsv": {},
+    "pus_phonemic.tsv": {},
+    "rum_phonemic.tsv": {},
+    "rum_phonetic.tsv": {},
+    "rum_phonetic_filtered.tsv": {},
+    "rup_phonetic.tsv": {},
+    "rus_phonetic.tsv": {
+        "FULL STOP": ".",
+        "APOSTROPHE": "'",
+        "SOLIDUS": "/",
+        "NUMERO SIGN": "№"
+    },
+    "ryu_phonemic.tsv": {
+        "KATAKANA-HIRAGANA PROLONGED SOUND MARK": "ー"
+    },
+    "sah_phonemic.tsv": {},
+    "san_phonemic.tsv": {
+        "COLON": ":"
+    },
+    "san_phonetic.tsv": {},
+    "sce_phonemic.tsv": {},
+    "scn_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "LEFT SINGLE QUOTATION MARK": "‘"
+    },
+    "scn_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "sco_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "sco_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "sga_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "shn_phonemic.tsv": {},
+    "slo_phonemic.tsv": {},
+    "slo_phonetic.tsv": {},
+    "slv_phonemic.tsv": {},
+    "slv_phonemic_filtered.tsv": {},
+    "sme_phonemic.tsv": {},
+    "spa_ca_phonemic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "spa_ca_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "spa_ca_phonetic.tsv": {
+        "FULL STOP": "."
+    },
+    "spa_la_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "spa_la_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "spa_la_phonetic.tsv": {},
+    "srd_phonemic.tsv": {},
+    "srn_phonemic.tsv": {},
+    "stq_phonemic.tsv": {},
+    "swe_phonemic.tsv": {},
+    "swe_phonetic.tsv": {},
+    "syc_phonetic.tsv": {},
+    "syl_phonemic.tsv": {},
+    "tam_phonemic.tsv": {},
+    "tam_phonetic.tsv": {},
+    "tel_phonemic.tsv": {},
+    "tel_phonetic.tsv": {},
+    "tgk_phonemic.tsv": {},
+    "tgl_latn_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "tgl_latn_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "tha_phonemic.tsv": {
+        "FULL STOP": ".",
+        "SOLIDUS": "/",
+        "APOSTROPHE": "'",
+        "HORIZONTAL ELLIPSIS": "…"
+    },
+    "tib_phonemic.tsv": {
+        "ZERO WIDTH SPACE": "​"
+    },
+    "ton_phonemic.tsv": {
+        "MODIFIER LETTER TURNED COMMA": "ʻ"
+    },
+    "tpw_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "tuk_phonemic.tsv": {},
+    "tur_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "tur_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "tur_phonetic_filtered.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "twf_phonemic.tsv": {
+        "MODIFIER LETTER APOSTROPHE": "ʼ",
+        "RIGHT SINGLE QUOTATION MARK": "’"
+    },
+    "tyv_cyrl_phonemic.tsv": {},
+    "uig_ara_phonemic.tsv": {},
+    "ukr_phonetic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "urd_phonemic.tsv": {},
+    "vie_hanoi_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "vie_hanoi_phonetic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "vie_hcmc_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "vie_hcmc_phonetic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "vie_hue_phonetic.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "vie_hue_phonetic_filtered.tsv": {
+        "APOSTROPHE": "'",
+        "FULL STOP": "."
+    },
+    "vol_phonemic.tsv": {},
+    "vol_phonetic.tsv": {},
+    "wau_phonemic.tsv": {},
+    "wel_nw_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "wel_nw_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "wel_nw_phonetic.tsv": {},
+    "wel_sw_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "wel_sw_phonemic_filtered.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "wel_sw_phonetic.tsv": {},
+    "wlm_phonemic.tsv": {},
+    "xho_phonetic.tsv": {},
+    "ycl_phonetic.tsv": {},
+    "yid_phonemic.tsv": {},
+    "yid_phonetic.tsv": {},
+    "yue_phonemic.tsv": {
+        "HORIZONTAL ELLIPSIS": "…",
+        "IDEOGRAPHIC DESCRIPTION CHARACTER LEFT TO RIGHT": "⿰",
+        "FULLWIDTH COMMA": "，",
+        "EM DASH": "—",
+        "MIDDLE DOT": "·"
+    },
+    "zha_phonemic.tsv": {
+        "APOSTROPHE": "'"
+    },
+    "zul_phonemic.tsv": {},
+    "zza_phonetic.tsv": {}
+}

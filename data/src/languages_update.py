@@ -70,11 +70,8 @@ def _get_alias(
         unicodedataplus.property_value_aliases["script"][value]
     ).lower()
     # Removes qaac tag from end of script.
-    if "qaac" in script:
-        script = script.replace("qaac", "")
-
-    if "qaai" in script:
-        script = script.replace("qaai", "")
+    script = script.replace("qaac", "")
+    script = script.replace("qaai", "")
 
     return script
 
@@ -111,7 +108,7 @@ def _update_languages_json(
     tsv_path: str,
     output_path: str,
 ) -> None:
-    """Detects and identifies all unicode scripts present in a tsv file
+    """Detects and identifies all unicode scripts present in a TSV file
     and updates languages.json to reflect updated ["script"]
     entries for each language in languages.json
     """
