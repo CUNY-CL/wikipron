@@ -31,6 +31,7 @@ Unreleased
     NFC Unicode normalization (\#357)
 -   Updated `data/src/normalize.py` to be more efficient. (\#358)
 -   Fixed inaccuracies in `data/phones/geo_phonemic.phones`. (\#367)
+-   Fixed typo in `data/cg/tsv/geo.tsv` (\#370)
 
 ### Under `wikipron/` and elsewhere
 
