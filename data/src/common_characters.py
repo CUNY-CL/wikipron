@@ -35,7 +35,7 @@ def main() -> None:
         "common_characters_summary.json", "w", encoding="utf-8"
     ) as out_path:
         # Creates a dictionary of special characters contained in each file
-        master_set: Dict[str, Dict[str, str]]= {}
+        master_set: Dict[str, Dict[str, str]] = {}
         for src in sorted(os.listdir(TSV_DIRECTORY_PATH)):
             print(src)
             iso639_code = src[: src.index("_")]

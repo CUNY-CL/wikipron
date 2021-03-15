@@ -33,9 +33,9 @@ def main(args: argparse.Namespace) -> None:
         languages = json.load(lang_source)
 
     iso639_code = args.tsv_path[
-        args.tsv_path.rindex("/") + 1: args.tsv_path.index("_")
+        args.tsv_path.rindex("/") + 1 : args.tsv_path.index("_")
     ]
-    path_remainder = args.tsv_path[args.tsv_path.index("_") + 1:]
+    path_remainder = args.tsv_path[args.tsv_path.index("_") + 1 :]
 
     if "script" in languages[iso639_code]:
         lang = languages[iso639_code]
