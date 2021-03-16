@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 """Creates json file containing list of "Common" for each language
 
-This module takes creats a json file for each language TSV file in data/tsv
-that lists the unicode typed "Common" characters that appear in
-each language TSV file.
+This module takes TSV files from data and return a json file for 
+each language TSV file in data/tsv that lists the unicode 
+typed "Common" characters that appear ineach language TSV file.
 """
 import os
 import json
