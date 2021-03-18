@@ -4,20 +4,23 @@
 import json
 import logging
 import os
-import requests
 import time
-start_time = time.time()
 from typing import Dict
 
 
+""" import requests in separate code block because of third party status """
 
+import requests
+
+
+start_time = time.time()
 
 UNIMORPH_DICT_PATH = "unimorph_languages.json"
 
 
 def download():
     os.makedirs("unimorph_for_split", exist_ok=True)
-    with open("unimorph_languages.json") as jfile:
+    with open(UNIMORPH_DICT_PATH) as jfile:
         data_to_grab = json.load(jfile)
 
     urls = list(data_to_grab.values())
@@ -30,7 +33,6 @@ def download():
             logging.info("Downloading: %s", target_path)
             if response.status_code == 200:
                 with open(f"unimorph_for_split/{target_path}.tsv", "w+") as sink:
-                    #print(response.text)
                     print(response.text,file=sink)
             elif target_path == "glg":
                 with requests.get(data_to_grab["glg"], stream=True) as response:
