@@ -6,7 +6,6 @@ import os
 import time
 from typing import Dict
 
-
 #import requests in its own import block
 import requests
 
