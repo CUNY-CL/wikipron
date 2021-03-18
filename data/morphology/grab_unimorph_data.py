@@ -21,9 +21,7 @@ def download():
     os.makedirs("tsv")
     with open(UNIMORPH_DICT_PATH) as jfile:
         data_to_grab = json.load(jfile)
-    urls = list(data_to_grab.values())
-    lg_codes = list(data_to_grab.keys())
-    for i in range(len(urls)):
+    for k, v in data_to_grab.items():
         with requests.get(urls[i], stream=True) as response:
             target_path = urls[i].split("/")[-1]
             logging.info("Downloading: %s", target_path)
@@ -32,15 +30,13 @@ def download():
                     print(response.text,file=sink)
             elif target_path == "glg":
                 with requests.get(data_to_grab["glg"], stream=True) as response:
-                    logging.info("Downloading: %s", target_path)
                     if response.status_code == 200:
-                        with open(f"unimorph_for_split/glg.tsv", "w+") as sink:
+                        with open(f"unimorph_for_split/gal.tsv", "w+") as sink:
                             print(response.text,file=sink)
                     elif target_path == "geo":
-                        with requests.get(data_to_grab["glg"], stream=True) as response:
-                            logging.info("Downloading: %s", target_path)
+                        with requests.get(data_to_grab["geo"], stream=True) as response:
                             if response.status_code == 200:
-                                with open(f"unimorph_for_split/glg.tsv", "w+") as sink:
+                                with open(f"unimorph_for_split/kat.tsv", "w+") as sink:
                                     print(response.text,file=sink)
             else:
                 logging.info(
