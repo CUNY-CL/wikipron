@@ -3,14 +3,11 @@
 import json
 import logging
 import os
-import time
 from typing import Dict
-
+import time
 #import requests in its own import block
 import requests
 
-
-start_time = time.time()
 
 
 UNIMORPH_DICT_PATH = "unimorph_languages.json"
