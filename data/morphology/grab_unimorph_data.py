@@ -35,6 +35,21 @@ def download():
                             if response.status_code == 200:
                                 with open(f"unimorph_for_split/kat.tsv", "w+") as sink:
                                     print(response.text,file=sink)
+                    elif target_path == "arm":
+                        with requests.get(data_to_grab["geo"], stream=True) as response:
+                            if response.status_code == 200:
+                                with open(f"unimorph_for_split/hye.tsv", "w+") as sink:
+                                    print(response.text,file=sink)
+                    elif target_path == "ger":
+                        with requests.get(data_to_grab["geo"], stream=True) as response:
+                            if response.status_code == 200:
+                                with open(f"unimorph_for_split/deu.tsv", "w+") as sink:
+                                    print(response.text,file=sink)
+                    elif target_path == "gre":
+                        with requests.get(data_to_grab["geo"], stream=True) as response:
+                            if response.status_code == 200:
+                                with open(f"unimorph_for_split/ell.tsv", "w+") as sink:
+                                    print(response.text,file=sink)
             else:
                 logging.info(
                 "Status code %s while downloading %s",
