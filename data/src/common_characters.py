@@ -60,7 +60,6 @@ def main() -> None:
                 master_set[f"{iso639_code}_{path_remainder}"]= {}
                 master_set[f"{iso639_code}_{path_remainder}"]["Common"]= {}
                 master_set[f"{iso639_code}_{path_remainder}"]["Inherited"]= {}
-                print(master_set)
                 for line in source:
                     word = line.split("\t", 1)[0]
                     char = _common_check(word)
@@ -87,12 +86,20 @@ def main() -> None:
                             master_set[f"{iso639_code}_{path_remainder}"]["Inherited"][
                                 inh_char_name
                             ] = inh_char
-
+            # Create global master common/inherited set.
+        global_set = {}
+        global_set["Common"] = {}
+        global_set["Inherited"] = {}
+        for key,value in master_set.items():
+            for k,v in value.items():
+                if k == "Common":
+                    global_set["Common"].update(v)
+                if k == "Inherited":
+                    global_set["Inherited"].update(v)           
         json_object = json.dumps(master_set, ensure_ascii=False, indent=4)
-        print(json_object, file=out_path)
+        json_object1 = json.dumps(global_set, ensure_ascii=False, indent=4)
+        print(f"{json_object}\n{json_object1}", file=out_path)
 
-        # Create master set of inherited and common characters
-
-
+        
 if __name__ == "__main__":
     main()
