@@ -5,9 +5,10 @@ import logging
 import os
 from typing import Dict
 import time
+
+
 #import requests in its own import block
 import requests
-
 
 
 UNIMORPH_DICT_PATH = "unimorph_languages.json"
@@ -33,8 +34,7 @@ def download():
                 )
             time.sleep(45)
 
-   
-    
+       
     def main() -> None:
         with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
             languages = json.load(langs)
