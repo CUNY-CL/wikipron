@@ -38,8 +38,8 @@ def download():
     def main() -> None:
         with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
             languages = json.load(langs)
-    # Hack for repeatedly attempting to download Wortschatz data
-    # as a way of getting around 404 response from their server.
+        # Hack for repeatedly attempting to download Wortschatz data
+        # as a way of getting around 404 response from their server.
         langs_to_retry = download(languages)
         while langs_to_retry:
             langs_to_retry = download(langs_to_retry)
