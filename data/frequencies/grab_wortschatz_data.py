@@ -4,11 +4,12 @@
 import json
 import logging
 import os
-import requests
 import tarfile
 import time
 
 from typing import Any, Dict
+
+import requests
 
 
 WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
