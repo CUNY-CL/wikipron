@@ -141,6 +141,7 @@
 | [TSV](tsv/kaz_cyrl_phonetic.tsv) | kaz | Kazakh | Kazakh (Cyrillic) | True | Phonetic | 745 |
 | [TSV](tsv/khm_phonemic.tsv) | khm | Khmer | Khmer | False | Phonemic | 3,412 |
 | [TSV](tsv/khm_phonemic_filtered.tsv) | khm | Khmer | Khmer | False | Phonemic_filtered | 3,209 |
+| [TSV](tsv/cnk_phonemic.tsv) | cnk | Khumi Chin | Khumi Chin | True | Phonemic | 307 |
 | [TSV](tsv/kik_phonemic.tsv) | kik | Kikuyu | Kikuyu | True | Phonemic | 1,129 |
 | [TSV](tsv/kor_phonetic.tsv) | kor | Korean | Korean | False | Phonetic | 16,409 |
 | [TSV](tsv/kor_phonetic_filtered.tsv) | kor | Korean | Korean | False | Phonetic_filtered | 14,147 |
