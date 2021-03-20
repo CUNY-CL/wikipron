@@ -4,10 +4,11 @@
 import json
 import logging
 import os
-import requests
 import time
 
 from typing import Dict
+
+import requests
 
 
 UNIMORPH_DICT_PATH = "unimorph_languages.json"
