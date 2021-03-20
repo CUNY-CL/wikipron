@@ -36,6 +36,7 @@ Unreleased
 -   Fixed typo in `data/cg/tsv/geo.tsv` and added missing character. (\#370)
 -   Morphology URLs are now provided as a list. (\#376)
 -   Configured and scraped Yamphu (`ybi`). (\#380)
+-   Configured and scraped Khumi Chin (`cnk`). (\#381)
 
 ### Under `wikipron/` and elsewhere
 
