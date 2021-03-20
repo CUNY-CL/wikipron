@@ -441,4 +441,6 @@ LANGUAGE_CODES = {
     "aot": "Atong (India)",  # ISO 639-3 only.
     # Lolopo: ISO 639-3 only.
     "ycl": "Lolopo",
+    # Yamphu: ISO 639-3 only.
+    "ybi": "Yamphu",
 }
