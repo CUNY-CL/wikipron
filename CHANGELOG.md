@@ -17,7 +17,8 @@ Unreleased
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
--   Added `data/morphology` (\#369)
+-   Added `data/morphology`. (\#369)
+-   Added SIGMORPHON 2021 morphology data. (\#375)
 
 #### Changed
 
@@ -103,6 +104,7 @@ Unreleased
 -   Added Latvian `.phones` file and re-scraped data. (\#321, \#322)
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
+-   Added SIGMORPHON 2021 frequencies JSON. (\#332)
 -   Several languages added to `languagecodes.py`. (\#334)
 -   Configured scripts for Kazakh (`kaz`). (\#345)
 -   Added Easten Lawa (`lwl`). (\#346)
