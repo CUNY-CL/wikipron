@@ -1,12 +1,32 @@
-Morphology scripts
-==================
+# Morphology scripts
 
-TBD.
+The scripts in this directory are responsible for downloading morphological
+paradigms from [UniMorph](https://unimorph.github.io/).
 
-TODO
-----
+## How to use
 
-* Add documentation above.
-* Add all the shared task languages to [`unimorph_languages.json`](unimorph_languages.json).
-* Add *all* the UniMorph languages to [`unimorph_languages.json`](unimorph_languages.json), and move the shared task language JSON to a subdirectory, like in frequencies
-* Add a script for the actual splitting.
+[`grab_unimorph_data.py`](graph_unimorph_data.py) downloads UniMorph data as
+three-column TSV files:
+
+    кошка   кошек   N;GEN;PL
+    кошка   кошка   N;NOM;SG
+    кошка   кошкам  N;DAT;PL
+    кошка   кошками N;INS;PL
+    кошка   кошках  N;ESS;PL
+    кошка   кошке   N;DAT;SG
+    кошка   кошке   N;ESS;SG
+    кошка   кошки   N;GEN;SG
+    кошка   кошки   N;NOM;PL
+    кошка   кошкой  N;INS;SG
+    кошка   кошку   N;ACC;SG
+
+## Shared tasks
+
+Specific configurations for shared tasks are stored [here](shared_tasks).
+
+## TODO
+
+-   Add *all* the UniMorph languages to
+    [`unimorph_languages.json`](unimorph_languages.json), and move the shared
+    task language JSON to a subdirectory, like in frequencies
+-   Add a script for the actual splitting.
