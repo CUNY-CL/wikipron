@@ -330,6 +330,7 @@
 | [TSV](tsv/mww_phonemic.tsv) | mww | Hmong Daw | White Hmong | True | Phonemic | 322 |
 | [TSV](tsv/xho_phonetic.tsv) | xho | Xhosa | Xhosa | True | Phonetic | 730 |
 | [TSV](tsv/sah_phonemic.tsv) | sah | Yakut | Yakut | True | Phonemic | 162 |
+| [TSV](tsv/ybi_phonemic.tsv) | ybi | Yamphu | Yamphu | False | Phonemic | 113 |
 | [TSV](tsv/yid_phonemic.tsv) | yid | Yiddish | Yiddish | False | Phonemic | 251 |
 | [TSV](tsv/yid_phonetic.tsv) | yid | Yiddish | Yiddish | False | Phonetic | 358 |
 | [TSV](tsv/zza_phonetic.tsv) | zza | Zaza | Zazaki | True | Phonetic | 188 |
