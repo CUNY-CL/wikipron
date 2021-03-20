@@ -1456,6 +1456,12 @@
         "wiktionary_code": "sah",
         "casefold": true
     },
+    "ybi": {
+        "iso639_name": "Yamphu",
+        "wiktionary_name": "Yamphu",
+        "wiktionary_code": "ybi",
+        "casefold": false
+    },
     "yid": {
         "iso639_name": "Yiddish",
         "wiktionary_name": "Yiddish",

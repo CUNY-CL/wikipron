@@ -329,6 +329,7 @@ apw_phonetic.tsv	apw	Western Apache	Western Apache	True	Phonetic	158
 mww_phonemic.tsv	mww	Hmong Daw	White Hmong	True	Phonemic	322
 xho_phonetic.tsv	xho	Xhosa	Xhosa	True	Phonetic	730
 sah_phonemic.tsv	sah	Yakut	Yakut	True	Phonemic	162
+ybi_phonemic.tsv	ybi	Yamphu	Yamphu	False	Phonemic	113
 yid_phonemic.tsv	yid	Yiddish	Yiddish	False	Phonemic	251
 yid_phonetic.tsv	yid	Yiddish	Yiddish	False	Phonetic	358
 zza_phonetic.tsv	zza	Zaza	Zazaki	True	Phonetic	188

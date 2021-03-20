@@ -35,6 +35,7 @@ Unreleased
 -   Fixed inaccuracies in `data/phones/geo_phonemic.phones`. (\#367)
 -   Fixed typo in `data/cg/tsv/geo.tsv` and added missing character. (\#370)
 -   Morphology URLs are now provided as a list. (\#376)
+-   Configured and scraped Yamphu (`ybi`). (\#380)
 
 ### Under `wikipron/` and elsewhere
 
