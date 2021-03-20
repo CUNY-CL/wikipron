@@ -604,6 +604,12 @@
         "wiktionary_code": "km",
         "casefold": false
     },
+    "cnk": {
+        "iso639_name": "Khumi Chin",
+        "wiktionary_name": "Khumi Chin",
+        "wiktionary_code": "cnk",
+        "casefold": true
+    },
     "kik": {
         "iso639_name": "Kikuyu",
         "wiktionary_name": "Kikuyu",

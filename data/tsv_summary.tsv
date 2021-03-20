@@ -139,6 +139,7 @@ kaz_cyrl_phonemic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonemic	119
 kaz_cyrl_phonetic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonetic	745
 khm_phonemic.tsv	khm	Khmer	Khmer	False	Phonemic	3412
 khm_phonemic_filtered.tsv	khm	Khmer	Khmer	False	Phonemic_filtered	3209
+cnk_phonemic.tsv	cnk	Khumi Chin	Khumi Chin	True	Phonemic	307
 kik_phonemic.tsv	kik	Kikuyu	Kikuyu	True	Phonemic	1129
 kor_phonetic.tsv	kor	Korean	Korean	False	Phonetic	16409
 kor_phonetic_filtered.tsv	kor	Korean	Korean	False	Phonetic_filtered	14147

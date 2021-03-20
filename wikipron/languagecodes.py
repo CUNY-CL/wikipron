@@ -443,4 +443,6 @@ LANGUAGE_CODES = {
     "ycl": "Lolopo",
     # Yamphu: ISO 639-3 only.
     "ybi": "Yamphu",
+    # Khumi Chin: ISO 639-3 only.
+    "cnk": "Khumi Chin",
 }
