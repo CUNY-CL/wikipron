@@ -7,7 +7,7 @@ from typing import Dict
 import time
 
 
-#import requests in its own import block
+#import requests in separate import block
 import requests
 
 
@@ -24,7 +24,7 @@ def download():
             target_path = data_to_grab[k].split("/")[-1]
             logging.info("Downloading: %s", target_path)
             if response.status_code == 200:
-                with open(f"unimorph_for_split/{target_path}.tsv", "w+") as sink:
+                with open(f"tsv/{target_path}.tsv", "w+") as sink:
                     print(response.text,file=sink)
             else:
                 logging.info(
@@ -36,14 +36,14 @@ def download():
 
        
     def main() -> None:
-        with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
+        with open(UNIMORPH_DICT_PATH, "r", encoding="utf-8") as langs:
             languages = json.load(langs)
         # Hack for repeatedly attempting to download Wortschatz data
         # as a way of getting around 404 response from their server.
         langs_to_retry = download(languages)
         while langs_to_retry:
             langs_to_retry = download(langs_to_retry)
-        unpack()
+        
 
 
 if __name__ == "__main__":
