@@ -14,7 +14,7 @@ import requests
 UNIMORPH_DICT_PATH = "unimorph_languages.json"
 
 
-def download():
+def download(data_to_grab: Dict[str, str]) -> Dict[str,str]:
     to_retry = {}
     os.makedirs("tsv")
     with open(UNIMORPH_DICT_PATH) as jfile:
