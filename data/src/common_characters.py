@@ -59,7 +59,7 @@ def main() -> None:
         master_set: Dict[str, Dict[str, Dict[str, str]]] = {}
         for src in sorted(os.listdir(TSV_DIRECTORY_PATH)):
             iso639_code = src[: src.index("_")]
-            path_remainder = src[src.index("_") + 1:]
+            path_remainder = src[src.index("_") + 1 :]
             with open(
                 f"{TSV_DIRECTORY_PATH}/{src}", "r", encoding="utf=8"
             ) as source:
