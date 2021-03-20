@@ -1,13 +1,14 @@
 ady_cyrl_phonetic.tsv	ady	Adygei; Adyghe	Adyghe (Cyrillic)	True	Phonetic	5123
 ady_cyrl_phonetic_filtered.tsv	ady	Adygei; Adyghe	Adyghe (Cyrillic)	True	Phonetic_filtered	4895
 aar_latn_phonemic.tsv	aar	Afar	Afar (Latin)	True	Phonemic	715
-afr_latn_phonemic.tsv	afr	Afrikaans	Afrikaans (Latin)	True	Phonemic	1682
-afr_latn_phonemic_filtered.tsv	afr	Afrikaans	Afrikaans (Latin)	True	Phonemic_filtered	1656
+afr_latn_phonemic.tsv	afr	Afrikaans	Afrikaans (Latin)	True	Phonemic	1685
+afr_latn_phonemic_filtered.tsv	afr	Afrikaans	Afrikaans (Latin)	True	Phonemic_filtered	1659
 afr_latn_phonetic.tsv	afr	Afrikaans	Afrikaans (Latin)	True	Phonetic	121
-alb_latn_phonemic.tsv	alb	Albanian	Albanian (Latin)	True	Phonemic	1449
+alb_latn_phonemic.tsv	alb	Albanian	Albanian (Latin)	True	Phonemic	1450
 alb_latn_phonetic.tsv	alb	Albanian	Albanian (Latin)	True	Phonetic	823
 gsw_latn_phonemic.tsv	gsw	Swiss German	Alemannic German (Latin)	True	Phonemic	307
-grc_grek_phonemic.tsv	grc	Ancient Greek (to 1453)	Ancient Greek (Greek)	True	Phonemic	78319
+ale_latn_phonemic.tsv	ale	Aleut	Aleut (Latin)	True	Phonemic	104
+grc_grek_phonemic.tsv	grc	Ancient Greek (to 1453)	Ancient Greek (Greek)	True	Phonemic	90222
 ara_arab_phonemic.tsv	ara	Arabic	Arabic (Arabic)	False	Phonemic	7279
 arc_hebr_phonemic.tsv	arc	Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)	Aramaic (Hebrew)	False	Phonemic	1156
 arm_armn_e_phonetic.tsv	arm	Armenian	Armenian (Eastern Armenian, standard) (Armenian)	True	Phonetic	14182
@@ -15,88 +16,88 @@ arm_armn_e_phonetic_filtered.tsv	arm	Armenian	Armenian (Eastern Armenian, standa
 arm_armn_w_phonetic.tsv	arm	Armenian	Armenian (Western Armenian, standard) (Armenian)	True	Phonetic	14065
 arm_armn_w_phonetic_filtered.tsv	arm	Armenian	Armenian (Western Armenian, standard) (Armenian)	True	Phonetic_filtered	14040
 rup_latn_phonetic.tsv	rup	Macedo-Romanian	Aromanian (Latin)	True	Phonetic	149
-asm_beng_phonemic.tsv	asm	Assamese	Assamese (Bengali)	False	Phonemic	2344
+asm_beng_phonemic.tsv	asm	Assamese	Assamese (Bengali)	False	Phonemic	2350
 ast_latn_phonetic.tsv	ast	Asturian	Asturian (Latin)	True	Phonetic	133
 aot_latn_phonemic.tsv	aot	A'tong, Atong (India)	Atong (India) (Latin)	True	Phonemic	140
 aze_latn_phonemic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonemic	259
 aze_latn_phonetic.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonetic	2821
 aze_latn_phonetic_filtered.tsv	aze	Azerbaijani	Azerbaijani (Latin)	True	Phonetic_filtered	2635
-bdq_latn_phonemic.tsv	bdq	Bahnar	Bahnar (Latin)	True	Phonemic	130
+bdq_latn_phonemic.tsv	bdq	Bahnar	Bahnar (Latin)	True	Phonemic	161
 ban_bali_phonemic.tsv	ban	Balinese	Balinese (Balinese)	True	Phonemic	186
 bak_cyrl_phonemic.tsv	bak	Bashkir	Bashkir (Cyrillic)	True	Phonemic	108
 bak_cyrl_phonetic.tsv	bak	Bashkir	Bashkir (Cyrillic)	True	Phonetic	2049
 baq_latn_phonemic.tsv	baq	Basque	Basque (Latin)	True	Phonemic	1742
 baq_latn_phonetic.tsv	baq	Basque	Basque (Latin)	True	Phonetic	186
-bel_cyrl_phonetic.tsv	bel	Belarusian	Belarusian (Cyrillic)	True	Phonetic	3185
+bel_cyrl_phonetic.tsv	bel	Belarusian	Belarusian (Cyrillic)	True	Phonetic	3203
 ben_beng_phonemic.tsv	ben	Bengali	Bengali (Bengali)	False	Phonemic	792
 ben_beng_phonetic.tsv	ben	Bengali	Bengali (Bengali)	False	Phonetic	168
 bcl_latn_phonemic.tsv	bcl	Central Bikol	Bikol Central (Latin)	True	Phonemic	100
 pcc_latn_phonemic.tsv	pcc	Bouyei	Bouyei (Latin)	True	Phonemic	105
-bre_latn_phonemic.tsv	bre	Breton	Breton (Latin)	True	Phonemic	465
+bre_latn_phonemic.tsv	bre	Breton	Breton (Latin)	True	Phonemic	495
 kxd_latn_phonemic.tsv	kxd	Brunei	Brunei Malay (Latin)	True	Phonemic	346
 bul_cyrl_phonemic.tsv	bul	Bulgarian	Bulgarian (Cyrillic)	True	Phonemic	31881
 bul_cyrl_phonemic_filtered.tsv	bul	Bulgarian	Bulgarian (Cyrillic)	True	Phonemic_filtered	31782
 bul_cyrl_phonetic.tsv	bul	Bulgarian	Bulgarian (Cyrillic)	True	Phonetic	6377
-bur_mymr_phonemic.tsv	bur	Burmese	Burmese (Myanmar)	False	Phonemic	4633
-bur_mymr_phonemic_filtered.tsv	bur	Burmese	Burmese (Myanmar)	False	Phonemic_filtered	4630
-yue_hani_phonemic.tsv	yue	Yue Chinese	Cantonese (Han)	False	Phonemic	87374
+bur_mymr_phonemic.tsv	bur	Burmese	Burmese (Myanmar)	False	Phonemic	4636
+bur_mymr_phonemic_filtered.tsv	bur	Burmese	Burmese (Myanmar)	False	Phonemic_filtered	4631
+yue_hani_phonemic.tsv	yue	Yue Chinese	Cantonese (Han)	False	Phonemic	87378
 crx_cans_phonemic.tsv	crx	Carrier	Carrier (Canadian Aboriginal)	False	Phonemic	175
-cat_latn_phonemic.tsv	cat	Catalan; Valencian	Catalan (Latin)	True	Phonemic	55238
+cat_latn_phonemic.tsv	cat	Catalan; Valencian	Catalan (Latin)	True	Phonemic	55829
 ceb_latn_phonemic.tsv	ceb	Cebuano	Cebuano (Latin)	True	Phonemic	326
-nya_latn_phonemic.tsv	nya	Nyanja	Chichewa (Latin)	True	Phonemic	816
+nya_latn_phonemic.tsv	nya	Nyanja	Chichewa (Latin)	True	Phonemic	823
 cmn_hani_phonemic.tsv	cmn	Mandarin Chinese	Chinese (Han)	False	Phonemic	133686
-cho_latn_phonemic.tsv	cho	Choctaw	Choctaw (Latin)	True	Phonemic	110
+cho_latn_phonemic.tsv	cho	Choctaw	Choctaw (Latin)	True	Phonemic	112
 nci_latn_phonemic.tsv	nci	Classical Nahuatl	Classical Nahuatl (Latin)	True	Phonemic	820
 nci_latn_phonetic.tsv	nci	Classical Nahuatl	Classical Nahuatl (Latin)	True	Phonetic	1396
 syc_syrc_phonetic.tsv	syc	Classical Syriac	Classical Syriac (Syriac)	False	Phonetic	5947
 cop_copt_phonemic.tsv	cop	Coptic	Coptic (Coptic)	True	Phonemic	418
 cor_latn_phonemic.tsv	cor	Cornish	Cornish (Latin)	True	Phonemic	124
-cor_latn_phonetic.tsv	cor	Cornish	Cornish (Latin)	True	Phonetic	677
+cor_latn_phonetic.tsv	cor	Cornish	Cornish (Latin)	True	Phonetic	680
 cos_latn_phonemic.tsv	cos	Corsican	Corsican (Latin)	True	Phonemic	188
 cze_latn_phonemic.tsv	cze	Czech	Czech (Latin)	True	Phonemic	3222
 cze_latn_phonetic.tsv	cze	Czech	Czech (Latin)	True	Phonetic	26778
 dlm_latn_phonemic.tsv	dlm	Dalmatian	Dalmatian (Latin)	True	Phonemic	176
-dan_latn_phonemic.tsv	dan	Danish	Danish (Latin)	True	Phonemic	4240
-dan_latn_phonetic.tsv	dan	Danish	Danish (Latin)	True	Phonetic	7959
+dan_latn_phonemic.tsv	dan	Danish	Danish (Latin)	True	Phonemic	4250
+dan_latn_phonetic.tsv	dan	Danish	Danish (Latin)	True	Phonetic	7972
 sce_latn_phonemic.tsv	sce	Dongxiang	Dongxiang (Latin)	True	Phonemic	119
 dng_cyrl_phonemic.tsv	dng	Dungan	Dungan (Cyrillic)	True	Phonemic	160
-dut_latn_phonemic.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonemic	30598
-dut_latn_phonemic_filtered.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonemic_filtered	30541
+dut_latn_phonemic.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonemic	30623
+dut_latn_phonemic_filtered.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonemic_filtered	30566
 dut_latn_phonetic.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonetic	652
 dzo_tibt_phonemic.tsv	dzo	Dzongkha	Dzongkha (Tibetan)	False	Phonemic	188
-lwl_thai_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa (Thai)	False	Phonemic	233
+lwl_thai_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa (Thai)	False	Phonemic	253
 egy_latn_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian (Latin)	False	Phonemic	3341
 arz_arab_phonemic.tsv	arz	Egyptian Arabic	Egyptian Arabic (Arabic)	False	Phonemic	113
-eng_latn_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonemic	60868
-eng_latn_uk_phonemic_filtered.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonemic_filtered	60120
-eng_latn_uk_phonetic.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonetic	1264
-eng_latn_us_phonemic.tsv	eng	English	English (US, General American) (Latin)	True	Phonemic	57753
-eng_latn_us_phonemic_filtered.tsv	eng	English	English (US, General American) (Latin)	True	Phonemic_filtered	56915
-eng_latn_us_phonetic.tsv	eng	English	English (US, General American) (Latin)	True	Phonetic	1600
-epo_latn_phonemic.tsv	epo	Esperanto	Esperanto (Latin)	True	Phonemic	14989
+eng_latn_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonemic	61173
+eng_latn_uk_phonemic_filtered.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonemic_filtered	60422
+eng_latn_uk_phonetic.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonetic	1284
+eng_latn_us_phonemic.tsv	eng	English	English (US, General American) (Latin)	True	Phonemic	58072
+eng_latn_us_phonemic_filtered.tsv	eng	English	English (US, General American) (Latin)	True	Phonemic_filtered	57230
+eng_latn_us_phonetic.tsv	eng	English	English (US, General American) (Latin)	True	Phonetic	1633
+epo_latn_phonemic.tsv	epo	Esperanto	Esperanto (Latin)	True	Phonemic	14990
 est_latn_phonemic.tsv	est	Estonian	Estonian (Latin)	True	Phonemic	429
-ewe_latn_phonemic.tsv	ewe	Ewe	Ewe (Latin)	True	Phonemic	117
+ewe_latn_phonemic.tsv	ewe	Ewe	Ewe (Latin)	True	Phonemic	120
 fao_latn_phonemic.tsv	fao	Faroese	Faroese (Latin)	True	Phonemic	1740
 fao_latn_phonetic.tsv	fao	Faroese	Faroese (Latin)	True	Phonetic	1120
 fin_latn_phonemic.tsv	fin	Finnish	Finnish (Latin)	True	Phonemic	69015
 fin_latn_phonetic.tsv	fin	Finnish	Finnish (Latin)	True	Phonetic	69008
-fre_latn_phonemic.tsv	fre	French	French (Latin)	True	Phonemic	56887
-fre_latn_phonemic_filtered.tsv	fre	French	French (Latin)	True	Phonemic_filtered	56769
-fre_latn_phonetic.tsv	fre	French	French (Latin)	True	Phonetic	192
+fre_latn_phonemic.tsv	fre	French	French (Latin)	True	Phonemic	57029
+fre_latn_phonemic_filtered.tsv	fre	French	French (Latin)	True	Phonemic_filtered	56911
+fre_latn_phonetic.tsv	fre	French	French (Latin)	True	Phonetic	194
 glg_latn_phonemic.tsv	glg	Galician	Galician (Latin)	True	Phonemic	4887
 glg_latn_phonetic.tsv	glg	Galician	Galician (Latin)	True	Phonetic	1670
 kld_latn_phonemic.tsv	kld	Gamilaraay	Gamilaraay (Latin)	True	Phonemic	454
 geo_geor_phonemic.tsv	geo	Georgian	Georgian (Georgian)	False	Phonemic	15124
 geo_geor_phonemic_filtered.tsv	geo	Georgian	Georgian (Georgian)	False	Phonemic_filtered	15123
-ger_latn_phonemic.tsv	ger	German	German (Latin)	True	Phonemic	35470
-ger_latn_phonemic_filtered.tsv	ger	German	German (Latin)	True	Phonemic_filtered	34129
-ger_latn_phonetic.tsv	ger	German	German (Latin)	True	Phonetic	10983
+ger_latn_phonemic.tsv	ger	German	German (Latin)	True	Phonemic	35486
+ger_latn_phonemic_filtered.tsv	ger	German	German (Latin)	True	Phonemic_filtered	34145
+ger_latn_phonetic.tsv	ger	German	German (Latin)	True	Phonetic	10984
 got_goth_phonemic.tsv	got	Gothic	Gothic (Gothic)	True	Phonemic	1353
 got_goth_phonetic.tsv	got	Gothic	Gothic (Gothic)	True	Phonetic	275
-gre_grek_phonemic.tsv	gre	Modern Greek (1453-)	Greek (Greek)	True	Phonemic	10572
-gre_grek_phonemic_filtered.tsv	gre	Modern Greek (1453-)	Greek (Greek)	True	Phonemic_filtered	10497
+gre_grek_phonemic.tsv	gre	Modern Greek (1453-)	Greek (Greek)	True	Phonemic	10626
+gre_grek_phonemic_filtered.tsv	gre	Modern Greek (1453-)	Greek (Greek)	True	Phonemic_filtered	10547
 gre_grek_phonetic.tsv	gre	Modern Greek (1453-)	Greek (Greek)	True	Phonetic	408
-kal_latn_phonemic.tsv	kal	Kalaallisut	Greenlandic (Latin)	True	Phonemic	172
+kal_latn_phonemic.tsv	kal	Kalaallisut	Greenlandic (Latin)	True	Phonemic	173
 afb_arab_phonemic.tsv	afb	Gulf Arabic	Gulf Arabic (Arabic)	False	Phonemic	528
 hts_latn_phonemic.tsv	hts	Hadza	Hadza (Latin)	True	Phonemic	278
 haw_latn_phonemic.tsv	haw	Hawaiian	Hawaiian (Latin)	True	Phonemic	493
@@ -121,11 +122,11 @@ ind_latn_phonemic.tsv	ind	Indonesian	Indonesian (Latin)	True	Phonemic	1555
 ind_latn_phonetic.tsv	ind	Indonesian	Indonesian (Latin)	True	Phonetic	2637
 izh_latn_phonemic.tsv	izh	Ingrian	Ingrian (Latin)	True	Phonemic	737
 ina_latn_phonemic.tsv	ina	Interlingua (International Auxiliary Language Association)	Interlingua (Latin)	True	Phonemic	265
-gle_latn_phonemic.tsv	gle	Irish	Irish (Latin)	True	Phonemic	7203
-gle_latn_phonetic.tsv	gle	Irish	Irish (Latin)	True	Phonetic	1571
-ita_latn_phonemic.tsv	ita	Italian	Italian (Latin)	True	Phonemic	14990
-ita_latn_phonemic_filtered.tsv	ita	Italian	Italian (Latin)	True	Phonemic_filtered	14456
-ita_latn_phonetic.tsv	ita	Italian	Italian (Latin)	True	Phonetic	6064
+gle_latn_phonemic.tsv	gle	Irish	Irish (Latin)	True	Phonemic	7328
+gle_latn_phonetic.tsv	gle	Irish	Irish (Latin)	True	Phonetic	1575
+ita_latn_phonemic.tsv	ita	Italian	Italian (Latin)	True	Phonemic	15014
+ita_latn_phonemic_filtered.tsv	ita	Italian	Italian (Latin)	True	Phonemic_filtered	14476
+ita_latn_phonetic.tsv	ita	Italian	Italian (Latin)	True	Phonetic	6075
 jam_latn_phonemic.tsv	jam	Jamaican Creole English	Jamaican Creole (Latin)	True	Phonemic	147
 jpn_hira_phonetic.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic	19930
 jpn_hira_phonetic_filtered.tsv	jpn	Japanese	Japanese (Hiragana)	False	Phonetic_filtered	19689
@@ -137,36 +138,36 @@ kaz_cyrl_phonemic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonemic	119
 kaz_cyrl_phonetic.tsv	kaz	Kazakh	Kazakh (Cyrillic)	True	Phonetic	745
 khm_khmr_phonemic.tsv	khm	Khmer	Khmer (Khmer)	False	Phonemic	3411
 khm_khmr_phonemic_filtered.tsv	khm	Khmer	Khmer (Khmer)	False	Phonemic_filtered	3208
-kik_latn_phonemic.tsv	kik	Kikuyu	Kikuyu (Latin)	True	Phonemic	1117
+kik_latn_phonemic.tsv	kik	Kikuyu	Kikuyu (Latin)	True	Phonemic	1129
 kor_hang_phonetic.tsv	kor	Korean	Korean (Hangul)	False	Phonetic	16402
 kor_hang_phonetic_filtered.tsv	kor	Korean	Korean (Hangul)	False	Phonetic_filtered	14141
 kir_cyrl_phonemic.tsv	kir	Kirghiz	Kyrgyz (Cyrillic)	True	Phonemic	101
-lmy_latn_phonetic.tsv	lmy	Lamboya	Laboya (Latin)	True	Phonetic	127
+lmy_latn_phonetic.tsv	lmy	Lamboya	Laboya (Latin)	True	Phonetic	128
 lad_latn_phonemic.tsv	lad	Ladino	Ladino (Latin)	True	Phonemic	101
 lao_laoo_phonemic.tsv	lao	Lao	Lao (Lao)	False	Phonemic	513
 lsi_latn_phonemic.tsv	lsi	Lashi	Lashi (Latin)	True	Phonemic	300
 ltg_latn_phonetic.tsv	ltg	Latgalian	Latgalian (Latin)	True	Phonetic	125
-lat_latn_clas_phonemic.tsv	lat	Latin	Latin (Classical) (Latin)	True	Phonemic	33204
-lat_latn_clas_phonetic.tsv	lat	Latin	Latin (Classical) (Latin)	True	Phonetic	32586
-lat_latn_eccl_phonemic.tsv	lat	Latin	Latin (Ecclesiastical) (Latin)	True	Phonemic	32252
-lat_latn_eccl_phonetic.tsv	lat	Latin	Latin (Ecclesiastical) (Latin)	True	Phonetic	31663
+lat_latn_clas_phonemic.tsv	lat	Latin	Latin (Classical) (Latin)	True	Phonemic	33333
+lat_latn_clas_phonetic.tsv	lat	Latin	Latin (Classical) (Latin)	True	Phonetic	32715
+lat_latn_eccl_phonemic.tsv	lat	Latin	Latin (Ecclesiastical) (Latin)	True	Phonemic	32334
+lat_latn_eccl_phonetic.tsv	lat	Latin	Latin (Ecclesiastical) (Latin)	True	Phonetic	31750
 lat_latn_vulg_phonemic.tsv	lat	Latin	Latin (Vulgar) (Latin)	True	Phonemic	508
 lat_latn_vulg_phonetic.tsv	lat	Latin	Latin (Vulgar) (Latin)	True	Phonetic	481
 lav_latn_phonetic.tsv	lav	Latvian	Latvian (Latin)	True	Phonetic	1291
 lav_latn_phonetic_filtered.tsv	lav	Latvian	Latvian (Latin)	True	Phonetic_filtered	1230
 ayl_arab_phonemic.tsv	ayl	Libyan Arabic	Libyan Arabic (Arabic)	False	Phonemic	157
-lij_latn_phonemic.tsv	lij	Ligurian	Ligurian (Latin)	True	Phonemic	748
+lij_latn_phonemic.tsv	lij	Ligurian	Ligurian (Latin)	True	Phonemic	756
 lif_limb_phonemic.tsv	lif	Limbu	Limbu (Limbu)	False	Phonemic	108
 lim_latn_phonetic.tsv	lim	Limburgan	Limburgish (Latin)	True	Phonetic	125
 lit_latn_phonemic.tsv	lit	Lithuanian	Lithuanian (Latin)	True	Phonemic	332
 lit_latn_phonetic.tsv	lit	Lithuanian	Lithuanian (Latin)	True	Phonetic	12676
 liv_latn_phonemic.tsv	liv	Liv	Livonian (Latin)	True	Phonemic	352
 ycl_latn_phonetic.tsv	ycl	Lolopo	Lolopo (Latin)	True	Phonetic	109
-lmo_latn_phonemic.tsv	lmo	Lombard	Lombard (Latin)	True	Phonemic	160
+lmo_latn_phonemic.tsv	lmo	Lombard	Lombard (Latin)	True	Phonemic	163
 nds_latn_phonemic.tsv	nds	Low German	Low German (Latin)	True	Phonemic	185
-dsb_latn_phonemic.tsv	dsb	Lower Sorbian	Lower Sorbian (Latin)	True	Phonemic	1985
+dsb_latn_phonemic.tsv	dsb	Lower Sorbian	Lower Sorbian (Latin)	True	Phonemic	1986
 dsb_latn_phonetic.tsv	dsb	Lower Sorbian	Lower Sorbian (Latin)	True	Phonetic	1393
-ltz_latn_phonemic.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish (Latin)	True	Phonemic	4117
+ltz_latn_phonemic.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish (Latin)	True	Phonemic	4120
 ltz_latn_phonetic.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish (Latin)	True	Phonetic	1764
 khb_talu_phonemic.tsv	khb	Lü	Lü (New Tai Lue)	False	Phonemic	303
 mac_cyrl_phonetic.tsv	mac	Macedonian	Macedonian (Cyrillic)	True	Phonetic	6878
@@ -178,13 +179,16 @@ may_latn_phonetic.tsv	may	Malay (macrolanguage)	Malay (Latin)	True	Phonetic	444
 mlt_latn_phonemic.tsv	mlt	Maltese	Maltese (Latin)	True	Phonemic	4609
 mlt_latn_phonemic_filtered.tsv	mlt	Maltese	Maltese (Latin)	True	Phonemic_filtered	4035
 mnc_mong_phonetic.tsv	mnc	Manchu	Manchu (Mongolian)	False	Phonetic	890
-glv_latn_phonemic.tsv	glv	Manx	Manx (Latin)	True	Phonemic	198
+glv_latn_phonemic.tsv	glv	Manx	Manx (Latin)	True	Phonemic	202
 glv_latn_phonetic.tsv	glv	Manx	Manx (Latin)	True	Phonetic	125
 mar_deva_phonemic.tsv	mar	Marathi	Marathi (Devanagari)	False	Phonemic	588
 mar_deva_phonetic.tsv	mar	Marathi	Marathi (Devanagari)	False	Phonetic	118
-mah_latn_phonemic.tsv	mah	Marshallese	Marshallese (Latin)	True	Phonemic	674
-mah_latn_phonetic.tsv	mah	Marshallese	Marshallese (Latin)	True	Phonetic	1122
-mfe_latn_phonemic.tsv	mfe	Morisyen	Mauritian Creole (Latin)	True	Phonemic	205
+mah_latn_phonemic.tsv	mah	Marshallese	Marshallese (Latin)	True	Phonemic	900
+mah_latn_phonetic.tsv	mah	Marshallese	Marshallese (Latin)	True	Phonetic	1502
+mfe_latn_phonemic.tsv	mfe	Morisyen	Mauritian Creole (Latin)	True	Phonemic	206
+nhx_latn_phonemic.tsv	nhx	Isthmus-Mecayapan Nahuatl	Mecayapan Nahuatl (Latin)	True	Phonemic	146
+mic_latn_phonemic.tsv	mic	Mi'kmaq	Mi'kmaq (Latin)	True	Phonemic	137
+mic_latn_phonetic.tsv	mic	Mi'kmaq	Mi'kmaq (Latin)	True	Phonetic	135
 dum_latn_phonemic.tsv	dum	Middle Dutch (ca. 1050-1350)	Middle Dutch (Latin)	True	Phonemic	210
 enm_latn_phonemic.tsv	enm	Middle English (1100-1500)	Middle English (Latin)	True	Phonemic	6855
 mga_latn_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish (Latin)	True	Phonemic	247
@@ -197,13 +201,13 @@ mon_cyrl_phonemic.tsv	mon	Mongolian	Mongolian (Cyrillic)	True	Phonemic	1166
 mon_cyrl_phonetic.tsv	mon	Mongolian	Mongolian (Cyrillic)	True	Phonetic	510
 ary_arab_phonemic.tsv	ary	Moroccan Arabic	Moroccan Arabic (Arabic)	False	Phonemic	1309
 huu_latn_phonetic.tsv	huu	Murui Huitoto	Murui Huitoto (Latin)	True	Phonetic	108
-nmy_latn_phonetic.tsv	nmy	Namuyi	Namuyi (Latin)	True	Phonetic	339
-nav_latn_phonemic.tsv	nav	Navajo	Navajo (Latin)	True	Phonemic	137
-nap_latn_phonemic.tsv	nap	Neapolitan	Neapolitan (Latin)	True	Phonemic	314
-nep_deva_phonemic.tsv	nep	Nepali (macrolanguage)	Nepali (Devanagari)	False	Phonemic	1221
-nep_deva_phonetic.tsv	nep	Nepali (macrolanguage)	Nepali (Devanagari)	False	Phonetic	980
-new_deva_phonemic.tsv	new	Newari	Newar (Devanagari)	False	Phonemic	395
-nrf_latn_phonemic.tsv	nrf	Jèrriais	Norman (Latin)	True	Phonemic	170
+nmy_latn_phonetic.tsv	nmy	Namuyi	Namuyi (Latin)	True	Phonetic	368
+nav_latn_phonemic.tsv	nav	Navajo	Navajo (Latin)	True	Phonemic	226
+nap_latn_phonemic.tsv	nap	Neapolitan	Neapolitan (Latin)	True	Phonemic	321
+nep_deva_phonemic.tsv	nep	Nepali (macrolanguage)	Nepali (Devanagari)	False	Phonemic	1223
+nep_deva_phonetic.tsv	nep	Nepali (macrolanguage)	Nepali (Devanagari)	False	Phonetic	982
+new_deva_phonemic.tsv	new	Newari	Newar (Devanagari)	False	Phonemic	403
+nrf_latn_phonemic.tsv	nrf	Jèrriais	Norman (Latin)	True	Phonemic	175
 frr_latn_phonemic.tsv	frr	Northern Frisian	North Frisian (Latin)	True	Phonemic	162
 kmr_latn_phonemic.tsv	kmr	Northern Kurdish	Northern Kurdish (Latin)	False	Phonemic	1172
 sme_latn_phonemic.tsv	sme	Northern Sami	Northern Sami (Latin)	True	Phonemic	3387
@@ -221,28 +225,28 @@ ang_latn_phonetic.tsv	ang	Old English (ca. 450-1100)	Old English (Latin)	True	Ph
 fro_latn_phonemic.tsv	fro	Old French (842-ca. 1400)	Old French (Latin)	True	Phonemic	347
 ofs_latn_phonemic.tsv	ofs	Old Frisian	Old Frisian (Latin)	True	Phonemic	175
 goh_latn_phonemic.tsv	goh	Old High German (ca. 750-1050)	Old High German (Latin)	True	Phonemic	130
-sga_latn_phonemic.tsv	sga	Old Irish (to 900)	Old Irish (Latin)	True	Phonemic	2287
-non_latn_phonemic.tsv	non	Old Norse	Old Norse (Latin)	True	Phonemic	163
+sga_latn_phonemic.tsv	sga	Old Irish (to 900)	Old Irish (Latin)	True	Phonemic	2289
+non_latn_phonemic.tsv	non	Old Norse	Old Norse (Latin)	True	Phonemic	164
 osx_latn_phonemic.tsv	osx	Old Saxon	Old Saxon (Latin)	True	Phonemic	181
 osp_latn_phonetic.tsv	osp	Old Spanish	Old Spanish (Latin)	True	Phonetic	267
-tpw_latn_phonemic.tsv	tpw	Tupí	Old Tupi (Latin)	True	Phonemic	146
+tpw_latn_phonemic.tsv	tpw	Tupí	Old Tupi (Latin)	True	Phonemic	160
 ori_orya_phonemic.tsv	ori	Oriya (macrolanguage)	Oriya (Oriya)	False	Phonemic	218
-ota_arab_phonetic.tsv	ota	Ottoman Turkish (1500-1928)	Ottoman Turkish (Arabic)	False	Phonetic	151
-pus_arab_phonemic.tsv	pus	Pushto	Pashto (Arabic)	False	Phonemic	1240
+ota_arab_phonetic.tsv	ota	Ottoman Turkish (1500-1928)	Ottoman Turkish (Arabic)	False	Phonetic	159
+pus_arab_phonemic.tsv	pus	Pushto	Pashto (Arabic)	False	Phonemic	1242
 pdc_latn_phonemic.tsv	pdc	Pennsylvania German	Pennsylvania German (Latin)	True	Phonemic	103
-per_arab_phonemic.tsv	per	Persian	Persian (Arabic)	False	Phonemic	5919
-per_arab_phonetic.tsv	per	Persian	Persian (Arabic)	False	Phonetic	1785
-phl_latn_phonemic.tsv	phl	Phalura	Phalura (Latin)	True	Phonemic	2004
+per_arab_phonemic.tsv	per	Persian	Persian (Arabic)	False	Phonemic	6128
+per_arab_phonetic.tsv	per	Persian	Persian (Arabic)	False	Phonetic	1922
+phl_latn_phonemic.tsv	phl	Phalura	Phalura (Latin)	True	Phonemic	2227
 pms_latn_phonemic.tsv	pms	Piemontese	Piedmontese (Latin)	True	Phonemic	732
 ppl_latn_phonemic.tsv	ppl	Pipil	Pipil (Latin)	True	Phonemic	263
 pjt_latn_phonetic.tsv	pjt	Pitjantjatjara	Pitjantjatjara (Latin)	True	Phonetic	125
 crk_cans_phonemic.tsv	crk	Plains Cree	Plains Cree (Canadian Aboriginal)	True	Phonemic	152
 crk_latn_phonemic.tsv	crk	Plains Cree	Plains Cree (Latin)	True	Phonemic	193
 pbv_latn_phonemic.tsv	pbv	Pnar	Pnar (Latin)	True	Phonemic	101
-pox_latn_phonemic.tsv	pox	Polabian	Polabian (Latin)	True	Phonemic	222
+pox_latn_phonemic.tsv	pox	Polabian	Polabian (Latin)	True	Phonemic	228
 pol_latn_phonemic.tsv	pol	Polish	Polish (Latin)	True	Phonemic	71863
-por_latn_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil) (Latin)	True	Phonemic	11488
-por_latn_bz_phonemic_filtered.tsv	por	Portuguese	Portuguese (Brazil) (Latin)	True	Phonemic_filtered	11330
+por_latn_bz_phonemic.tsv	por	Portuguese	Portuguese (Brazil) (Latin)	True	Phonemic	11489
+por_latn_bz_phonemic_filtered.tsv	por	Portuguese	Portuguese (Brazil) (Latin)	True	Phonemic_filtered	11331
 por_latn_bz_phonetic.tsv	por	Portuguese	Portuguese (Brazil) (Latin)	True	Phonetic	953
 por_latn_po_phonemic.tsv	por	Portuguese	Portuguese (Portugal) (Latin)	True	Phonemic	10122
 por_latn_po_phonemic_filtered.tsv	por	Portuguese	Portuguese (Portugal) (Latin)	True	Phonemic_filtered	9800
@@ -251,32 +255,32 @@ pan_guru_phonemic.tsv	pan	Panjabi	Punjabi (Gurmukhi)	False	Phonemic	139
 rum_latn_phonemic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian (Latin)	True	Phonemic	4103
 rum_latn_phonetic.tsv	rum	Romanian; Moldavian; Moldovan	Romanian (Latin)	True	Phonetic	6377
 rum_latn_phonetic_filtered.tsv	rum	Romanian; Moldavian; Moldovan	Romanian (Latin)	True	Phonetic_filtered	6271
-rus_cyrl_phonetic.tsv	rus	Russian	Russian (Cyrillic)	True	Phonetic	402582
+rus_cyrl_phonetic.tsv	rus	Russian	Russian (Cyrillic)	True	Phonetic	402586
 san_deva_phonemic.tsv	san	Sanskrit	Sanskrit (Devanagari)	False	Phonemic	6839
 san_deva_phonetic.tsv	san	Sanskrit	Sanskrit (Devanagari)	False	Phonetic	673
 srd_latn_phonemic.tsv	srd	Sardinian	Sardinian (Latin)	True	Phonemic	216
 stq_latn_phonemic.tsv	stq	Saterfriesisch	Saterland Frisian (Latin)	True	Phonemic	174
-sco_latn_phonemic.tsv	sco	Scots	Scots (Latin)	True	Phonemic	882
-sco_latn_phonetic.tsv	sco	Scots	Scots (Latin)	True	Phonetic	436
-gla_latn_phonemic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic (Latin)	True	Phonemic	1360
+sco_latn_phonemic.tsv	sco	Scots	Scots (Latin)	True	Phonemic	900
+sco_latn_phonetic.tsv	sco	Scots	Scots (Latin)	True	Phonetic	438
+gla_latn_phonemic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic (Latin)	True	Phonemic	1362
 gla_latn_phonetic.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic (Latin)	True	Phonetic	107
 hbs_cyrl_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic	22735
 hbs_cyrl_phonemic_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Cyrillic)	True	Phonemic_filtered	22543
 hbs_latn_phonemic.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic	23827
 hbs_latn_phonemic_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian (Latin)	True	Phonemic_filtered	23517
 shn_mymr_phonemic.tsv	shn	Shan	Shan (Myanmar)	False	Phonemic	487
-scn_latn_phonemic.tsv	scn	Sicilian	Sicilian (Latin)	True	Phonemic	844
-scn_latn_phonetic.tsv	scn	Sicilian	Sicilian (Latin)	True	Phonetic	284
+scn_latn_phonemic.tsv	scn	Sicilian	Sicilian (Latin)	True	Phonemic	855
+scn_latn_phonetic.tsv	scn	Sicilian	Sicilian (Latin)	True	Phonetic	287
 slo_latn_phonemic.tsv	slo	Slovak	Slovak (Latin)	True	Phonemic	3620
 slo_latn_phonetic.tsv	slo	Slovak	Slovak (Latin)	True	Phonetic	1620
 slv_latn_phonemic.tsv	slv	Slovenian	Slovene (Latin)	True	Phonemic	4396
 slv_latn_phonemic_filtered.tsv	slv	Slovenian	Slovene (Latin)	True	Phonemic_filtered	4390
 ajp_arab_phonemic.tsv	ajp	South Levantine Arabic	South Levantine Arabic (Arabic)	False	Phonemic	155
-spa_latn_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish (Castilian) (Latin)	True	Phonemic	60802
-spa_latn_ca_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish (Castilian) (Latin)	True	Phonemic_filtered	60674
+spa_latn_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish (Castilian) (Latin)	True	Phonemic	60805
+spa_latn_ca_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish (Castilian) (Latin)	True	Phonemic_filtered	60677
 spa_latn_ca_phonetic.tsv	spa	Spanish; Castilian	Spanish (Castilian) (Latin)	True	Phonetic	52190
-spa_latn_la_phonemic.tsv	spa	Spanish; Castilian	Spanish (Latin America) (Latin)	True	Phonemic	48715
-spa_latn_la_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish (Latin America) (Latin)	True	Phonemic_filtered	48646
+spa_latn_la_phonemic.tsv	spa	Spanish; Castilian	Spanish (Latin America) (Latin)	True	Phonemic	48718
+spa_latn_la_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish (Latin America) (Latin)	True	Phonemic_filtered	48649
 spa_latn_la_phonetic.tsv	spa	Spanish; Castilian	Spanish (Latin America) (Latin)	True	Phonetic	41854
 srn_latn_phonemic.tsv	srn	Sranan Tongo	Sranan Tongo (Latin)	True	Phonemic	162
 swe_latn_phonemic.tsv	swe	Swedish	Swedish (Latin)	True	Phonemic	3544
@@ -287,41 +291,43 @@ tgl_latn_phonetic.tsv	tgl	Tagalog	Tagalog (Latin)	True	Phonetic	1915
 tgk_cyrl_phonemic.tsv	tgk	Tajik	Tajik (Cyrillic)	True	Phonemic	142
 tam_taml_phonemic.tsv	tam	Tamil	Tamil (Tamil)	False	Phonemic	2485
 tam_taml_phonetic.tsv	tam	Tamil	Tamil (Tamil)	False	Phonetic	2386
+twf_latn_phonemic.tsv	twf	Northern Tiwa	Taos (Latin)	True	Phonemic	135
 tel_telu_phonemic.tsv	tel	Telugu	Telugu (Telugu)	False	Phonemic	442
 tel_telu_phonetic.tsv	tel	Telugu	Telugu (Telugu)	False	Phonetic	386
-nhg_latn_phonetic.tsv	nhg	Tetelcingo Nahuatl	Tetelcingo Nahuatl (Latin)	True	Phonetic	179
-tha_thai_phonemic.tsv	tha	Thai	Thai (Thai)	False	Phonemic	15048
-tib_tibt_phonemic.tsv	tib	Tibetan	Tibetan (Tibetan)	False	Phonemic	1874
+nhg_latn_phonetic.tsv	nhg	Tetelcingo Nahuatl	Tetelcingo Nahuatl (Latin)	True	Phonetic	305
+tha_thai_phonemic.tsv	tha	Thai	Thai (Thai)	False	Phonemic	15050
+tib_tibt_phonemic.tsv	tib	Tibetan	Tibetan (Tibetan)	False	Phonemic	1875
 ton_latn_phonemic.tsv	ton	Tonga (Tonga Islands)	Tongan (Latin)	True	Phonemic	154
-tur_latn_phonemic.tsv	tur	Turkish	Turkish (Latin)	True	Phonemic	1772
-tur_latn_phonetic.tsv	tur	Turkish	Turkish (Latin)	True	Phonetic	2026
-tur_latn_phonetic_filtered.tsv	tur	Turkish	Turkish (Latin)	True	Phonetic_filtered	1796
+tur_latn_phonemic.tsv	tur	Turkish	Turkish (Latin)	True	Phonemic	1789
+tur_latn_phonetic.tsv	tur	Turkish	Turkish (Latin)	True	Phonetic	2043
+tur_latn_phonetic_filtered.tsv	tur	Turkish	Turkish (Latin)	True	Phonetic_filtered	1812
 tuk_latn_phonemic.tsv	tuk	Turkmen	Turkmen (Latin)	True	Phonemic	107
 tyv_cyrl_phonemic.tsv	tyv	Tuvinian	Tuvan (Cyrillic)	True	Phonemic	462
-ukr_cyrl_phonetic.tsv	ukr	Ukrainian	Ukrainian (Cyrillic)	True	Phonetic	6041
-urd_arab_phonemic.tsv	urd	Urdu	Urdu (Arabic)	False	Phonemic	1061
+ukr_cyrl_phonetic.tsv	ukr	Ukrainian	Ukrainian (Cyrillic)	True	Phonetic	6148
+urd_arab_phonemic.tsv	urd	Urdu	Urdu (Arabic)	False	Phonemic	1063
 uig_arab_ara_phonemic.tsv	uig	Uighur	Uyghur (Arabic)	True	Phonemic	260
-vie_latn_hue_phonetic.tsv	vie	Vietnamese	Vietnamese (Huế) (Latin)	True	Phonetic	15237
-vie_latn_hue_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Huế) (Latin)	True	Phonetic_filtered	15234
-vie_latn_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese (Hà Nội) (Latin)	True	Phonetic	15238
-vie_latn_hanoi_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Hà Nội) (Latin)	True	Phonetic_filtered	15238
-vie_latn_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City) (Latin)	True	Phonetic	15235
-vie_latn_hcmc_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City) (Latin)	True	Phonetic_filtered	14535
+vie_latn_hue_phonetic.tsv	vie	Vietnamese	Vietnamese (Huế) (Latin)	True	Phonetic	15239
+vie_latn_hue_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Huế) (Latin)	True	Phonetic_filtered	15236
+vie_latn_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese (Hà Nội) (Latin)	True	Phonetic	15240
+vie_latn_hanoi_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Hà Nội) (Latin)	True	Phonetic_filtered	15240
+vie_latn_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City) (Latin)	True	Phonetic	15237
+vie_latn_hcmc_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese (Hồ Chí Minh City) (Latin)	True	Phonetic_filtered	14537
 vol_latn_phonemic.tsv	vol	Volapük	Volapük (Latin)	True	Phonemic	363
 vol_latn_phonetic.tsv	vol	Volapük	Volapük (Latin)	True	Phonetic	565
 wau_latn_phonemic.tsv	wau	Waurá	Wauja (Latin)	True	Phonemic	152
-wel_latn_nw_phonemic.tsv	wel	Welsh	Welsh (North Wales) (Latin)	True	Phonemic	8478
-wel_latn_nw_phonemic_filtered.tsv	wel	Welsh	Welsh (North Wales) (Latin)	True	Phonemic_filtered	8421
+wel_latn_nw_phonemic.tsv	wel	Welsh	Welsh (North Wales) (Latin)	True	Phonemic	8530
+wel_latn_nw_phonemic_filtered.tsv	wel	Welsh	Welsh (North Wales) (Latin)	True	Phonemic_filtered	8473
 wel_latn_nw_phonetic.tsv	wel	Welsh	Welsh (North Wales) (Latin)	True	Phonetic	561
-wel_latn_sw_phonemic.tsv	wel	Welsh	Welsh (South Wales) (Latin)	True	Phonemic	9946
-wel_latn_sw_phonemic_filtered.tsv	wel	Welsh	Welsh (South Wales) (Latin)	True	Phonemic_filtered	9873
+wel_latn_sw_phonemic.tsv	wel	Welsh	Welsh (South Wales) (Latin)	True	Phonemic	9999
+wel_latn_sw_phonemic_filtered.tsv	wel	Welsh	Welsh (South Wales) (Latin)	True	Phonemic_filtered	9925
 wel_latn_sw_phonetic.tsv	wel	Welsh	Welsh (South Wales) (Latin)	True	Phonetic	601
-fry_latn_phonemic.tsv	fry	Western Frisian	West Frisian (Latin)	True	Phonemic	971
+fry_latn_phonemic.tsv	fry	Western Frisian	West Frisian (Latin)	True	Phonemic	977
+apw_latn_phonetic.tsv	apw	Western Apache	Western Apache (Latin)	True	Phonetic	158
 mww_latn_phonemic.tsv	mww	Hmong Daw	White Hmong (Latin)	True	Phonemic	322
 xho_latn_phonetic.tsv	xho	Xhosa	Xhosa (Latin)	True	Phonetic	730
 sah_cyrl_phonemic.tsv	sah	Yakut	Yakut (Cyrillic)	True	Phonemic	162
 yid_hebr_phonemic.tsv	yid	Yiddish	Yiddish (Hebrew)	False	Phonemic	251
 yid_hebr_phonetic.tsv	yid	Yiddish	Yiddish (Hebrew)	False	Phonetic	358
-zza_latn_phonetic.tsv	zza	Zaza	Zazaki (Latin)	True	Phonetic	187
-zha_latn_phonemic.tsv	zha	Zhuang	Zhuang (Latin)	True	Phonemic	1137
+zza_latn_phonetic.tsv	zza	Zaza	Zazaki (Latin)	True	Phonetic	188
+zha_latn_phonemic.tsv	zha	Zhuang	Zhuang (Latin)	True	Phonemic	1143
 zul_latn_phonemic.tsv	zul	Zulu	Zulu (Latin)	True	Phonemic	1677

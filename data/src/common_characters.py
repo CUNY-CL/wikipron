@@ -1,19 +1,26 @@
 #!/usr/bin/env python
-"""Creates json file containing list of "Common" for each language
+"""Creates JSON file containing list of "Common" for each language
 
-This module takes TSV files from data and return a json file for 
-each language TSV file in data/tsv that lists the unicode 
-typed "Common" characters that appear ineach language TSV file.
+This module takes TSV files from data and writes a JSON file for
+each language TSV file in data/tsv that lists the Unicode
+typed "Common" and "Inherited" characters that appear
+in each language TSV file -
+common_char_summary_by_lang.
+
+It also writes a JSON file that includes a full
+"Common" and "Inherited" character set for all files -
+global_common_char_summary.json.
 """
 import os
 import json
+import unicodedata
+
+from typing import Dict, Optional
 
 import regex  # type: ignore
-from typing import Optional, Dict
-import unicodedata
 import unicodedataplus  # type: ignore
 
-from codes import TSV_DIRECTORY_PATH  # type: ignore
+from codes import TSV_DIRECTORY_PATH
 
 
 def _common_check(word: str) -> Optional[str]:
@@ -43,23 +50,23 @@ def _inherited_check(word: str) -> Optional[str]:
                 return char
     return None
 
+
 def main() -> None:
     with open(
-        "common_characters_summary.json", "w", encoding="utf-8"
+        "common_char_summary_by_lang.json", "w", encoding="utf-8"
     ) as out_path:
         # Creates a dictionary of special characters contained in each file
         master_set: Dict[str, Dict[str, Dict[str, str]]] = {}
         for src in sorted(os.listdir(TSV_DIRECTORY_PATH)):
-            print(src)
             iso639_code = src[: src.index("_")]
-            path_remainder = src[src.index("_") + 1 :]
+            path_remainder = src[src.index("_") + 1:]
             with open(
                 f"{TSV_DIRECTORY_PATH}/{src}", "r", encoding="utf=8"
             ) as source:
-                master_set[f"{iso639_code}_{path_remainder}"]= {}
-                master_set[f"{iso639_code}_{path_remainder}"]= {}
-                master_set[f"{iso639_code}_{path_remainder}"]["Common"]= {}
-                master_set[f"{iso639_code}_{path_remainder}"]["Inherited"]= {}
+                master_set[f"{iso639_code}_{path_remainder}"] = {}
+                master_set[f"{iso639_code}_{path_remainder}"] = {}
+                master_set[f"{iso639_code}_{path_remainder}"]["Common"] = {}
+                master_set[f"{iso639_code}_{path_remainder}"]["Inherited"] = {}
                 for line in source:
                     word = line.split("\t", 1)[0]
                     char = _common_check(word)
@@ -72,9 +79,9 @@ def main() -> None:
                                 f"{iso639_code}_{path_remainder}"
                             ]["Common"].keys()
                         ):
-                            master_set[f"{iso639_code}_{path_remainder}"]["Common"][
-                                char_name 
-                            ] = char
+                            master_set[f"{iso639_code}_{path_remainder}"][
+                                "Common"
+                            ][char_name] = char
                     if inh_char is not None:
                         inh_char_name = unicodedata.name(inh_char)
                         if (
@@ -83,23 +90,28 @@ def main() -> None:
                                 f"{iso639_code}_{path_remainder}"
                             ]["Inherited"].keys()
                         ):
-                            master_set[f"{iso639_code}_{path_remainder}"]["Inherited"][
-                                inh_char_name
-                            ] = inh_char
-            # Create global master common/inherited set.
-        global_set = {}
-        global_set["Common"] = {}
-        global_set["Inherited"] = {}
-        for key,value in master_set.items():
-            for k,v in value.items():
-                if k == "Common":
-                    global_set["Common"].update(v)
-                if k == "Inherited":
-                    global_set["Inherited"].update(v)           
+                            master_set[f"{iso639_code}_{path_remainder}"][
+                                "Inherited"
+                            ][inh_char_name] = inh_char
         json_object = json.dumps(master_set, ensure_ascii=False, indent=4)
-        json_object1 = json.dumps(global_set, ensure_ascii=False, indent=4)
-        print(f"{json_object}\n{json_object1}", file=out_path)
+        print(json_object, file=out_path)
 
-        
+    # Create global master common/inherited set.
+    global_set: Dict[str, Dict[str, str]] = {}
+    global_set["Common"] = {}
+    global_set["Inherited"] = {}
+    for value in master_set.values():
+        for k, v in value.items():
+            if k == "Common":
+                global_set["Common"].update(v)
+            if k == "Inherited":
+                global_set["Inherited"].update(v)
+    with open(
+        "global_common_char_summary.json", "w", encoding="utf-8"
+    ) as out_path:
+        json_object = json.dumps(global_set, ensure_ascii=False, indent=4)
+        print(json_object, file=out_path)
+
+
 if __name__ == "__main__":
     main()

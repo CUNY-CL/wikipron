@@ -5,6 +5,7 @@ set -eou pipefail
 
 main() {
   ./languages_update.py
+  ./common_characters.py
     for TSV in ../tsv/*.tsv; do
         # Explicitly uses byte-wise comparison for sorting
         # rather than a locale-dependent comparison.

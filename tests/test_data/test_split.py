@@ -205,7 +205,7 @@ def test_smoke_test_script(smoke_test_script):
     by the Unicode script property."""
     for script_sample, predicted_truth_val in smoke_test_script.samples:
         assert (
-            _generalized_check(smoke_test_script.script, script_sample)
+            _generalized_check(smoke_test_script.script, script_sample, "")
             == predicted_truth_val
         )
 
