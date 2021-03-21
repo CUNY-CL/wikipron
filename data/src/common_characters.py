@@ -61,6 +61,7 @@ def _is_common(word: str) -> Optional[str]:
                 return char
     return None
 
+
 def _inherited_check(word: str) -> Optional[str]:
     """Returns "Common" characters if a "Common" character
     is present in the word.
@@ -71,7 +72,8 @@ def _inherited_check(word: str) -> Optional[str]:
             # Checks if Common character is a space
             if not bool(regex.search(r"[\s]+", word)):
                 return char
-    return None 
+    return None
+
 
 def main() -> None:
     # List of commmon type Unicode characters
