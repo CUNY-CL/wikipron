@@ -15,8 +15,8 @@ Last, it prints an updated regex string for _generalized_check()
 in split.py
 """
 
-import os
 import json
+import os
 import unicodedata
 
 from typing import Dict, List, Optional
