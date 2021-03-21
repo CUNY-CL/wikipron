@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Updates languages.json
+"""Updates languages.json.
 
 This module takes the data/tsv directory as input and returns an
 updated version of languages.json, where the script entry for each
@@ -70,10 +70,7 @@ def _get_alias(
         unicodedataplus.property_value_aliases["script"][value]
     ).lower()
     # Removes qaac tag from end of script.
-    script = script.replace("qaac", "")
-    script = script.replace("qaai", "")
-
-    return script
+    return script.replace("qaac", "").replace("qaai", "")
 
 
 def _remove_mismatch_ids(
@@ -104,26 +101,19 @@ def _remove_mismatch_ids(
     return script_dict
 
 
-def _update_languages_json(
-    tsv_path: str,
-    output_path: str,
-) -> None:
-    """Detects and identifies all unicode scripts present in a TSV file
-    and updates languages.json to reflect updated ["script"]
-    entries for each language in languages.json
-    """
+def main():
     with open(
         LANGUAGES_PATH,
         "r",
         encoding="utf-8",
     ) as lang_source:
         languages = json.load(lang_source)
-        for file in os.listdir(tsv_path):
+        for file in os.listdir(TSV_DIRECTORY_PATH):
             if file.endswith(".tsv"):
                 iso639_code = file[: file.index("_")]
                 lang = languages[iso639_code]
                 with open(
-                    f"{tsv_path}/{file}",
+                    f"{TSV_DIRECTORY_PATH}/{file}",
                     "r",
                     encoding="utf-8",
                 ) as f:
@@ -147,24 +137,12 @@ def _update_languages_json(
                                         " ",
                                     )
                             _remove_mismatch_ids(lang)
-        json_object = json.dumps(
-            languages,
-            ensure_ascii=False,
-            indent=4,
-        )
         with open(
             LANGUAGES_PATH,
             "w",
             encoding="utf-8",
         ) as lang_source:
-            lang_source.write(json_object)
-
-
-def main():
-    _update_languages_json(
-        TSV_DIRECTORY_PATH,
-        LANGUAGES_PATH,
-    )
+            json.dump(languages, lang_source, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":

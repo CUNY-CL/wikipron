@@ -5,13 +5,13 @@ set -eou pipefail
 
 main() {
   ./languages_update.py
-  ./common_characters.py
-    for TSV in ../tsv/*.tsv; do
-        # Explicitly uses byte-wise comparison for sorting
-        # rather than a locale-dependent comparison.
-        LC_ALL=C sort -u -o "${TSV}" "${TSV}"
-        ./split.py "${TSV}"
-    done
+  REGEX_STRING=$(./common_characters.py)
+  for TSV in ../tsv/*.tsv; do
+      # Explicitly uses byte-wise comparison for sorting
+      # rather than a locale-dependent comparison.
+      LC_ALL=C sort -u -o "${TSV}" "${TSV}"
+      ./split.py --regex_string="${REGEX_STRING}" "${TSV}" 
+  done
 }
 
 main

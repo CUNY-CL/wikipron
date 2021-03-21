@@ -66,7 +66,7 @@ dut_latn_phonemic_filtered.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonemic_fi
 dut_latn_phonetic.tsv	dut	Dutch; Flemish	Dutch (Latin)	True	Phonetic	652
 dzo_tibt_phonemic.tsv	dzo	Dzongkha	Dzongkha (Tibetan)	False	Phonemic	188
 lwl_thai_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa (Thai)	False	Phonemic	253
-egy_latn_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian (Latin)	False	Phonemic	3341
+egy_latn_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian (Latin)	False	Phonemic	3403
 arz_arab_phonemic.tsv	arz	Egyptian Arabic	Egyptian Arabic (Arabic)	False	Phonemic	113
 eng_latn_uk_phonemic.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonemic	61173
 eng_latn_uk_phonemic_filtered.tsv	eng	English	English (UK, Received Pronunciation) (Latin)	True	Phonemic_filtered	60422

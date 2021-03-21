@@ -68,7 +68,7 @@
 | [TSV](tsv/dut_latn_phonetic.tsv) | dut | Dutch; Flemish | Dutch (Latin) | True | Phonetic | 652 |
 | [TSV](tsv/dzo_tibt_phonemic.tsv) | dzo | Dzongkha | Dzongkha (Tibetan) | False | Phonemic | 188 |
 | [TSV](tsv/lwl_thai_phonemic.tsv) | lwl | Eastern Lawa | Eastern Lawa (Thai) | False | Phonemic | 253 |
-| [TSV](tsv/egy_latn_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian (Latin) | False | Phonemic | 3,341 |
+| [TSV](tsv/egy_latn_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian (Latin) | False | Phonemic | 3,403 |
 | [TSV](tsv/arz_arab_phonemic.tsv) | arz | Egyptian Arabic | Egyptian Arabic (Arabic) | False | Phonemic | 113 |
 | [TSV](tsv/eng_latn_uk_phonemic.tsv) | eng | English | English (UK, Received Pronunciation) (Latin) | True | Phonemic | 61,173 |
 | [TSV](tsv/eng_latn_uk_phonemic_filtered.tsv) | eng | English | English (UK, Received Pronunciation) (Latin) | True | Phonemic_filtered | 60,422 |

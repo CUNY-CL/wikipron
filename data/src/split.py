@@ -1,43 +1,18 @@
 #!/usr/bin/env python
+"""Splits TSV files into new TSV files.
 
+This module identifies the orthographic script present in each file
+in data/tsv, splits the file by orthogrpahy and writes,
+a new file that is labeled by the orthography that is present in the file.
+"""
+
+import argparse
 import json
 import os
-import argparse
-
-from typing import Dict
 
 import regex  # type: ignore
 
-from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH, COMMMON_SET_PATH
-
-
-def _extend_regex(master_set: Dict[str, Dict[str, str]]) -> str:
-    extension_str = r"\s’ʔʻ"
-    # List of accepted commmon set characters
-    accepted_set = (
-        "RIGHT SINGLE QUOTATION MARK",
-        "MODIFIER LETTER APOSTROPHE",
-        "LEFT SINGLE QUOTATION MARK",
-        "APOSTROPHE",
-        "ZERO WIDTH SPACE",
-        "MIDDLE DOT",
-        "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
-        "KATAKANA MIDDLE DOT",
-        "ARABIC TATWEEL",
-        "TILDE",
-    )
-    for key, value in master_set.items():
-        if key == "Common":
-            for k, v in value.items():
-                if k in accepted_set:
-                    if v not in extension_str:
-                        extension_str += v
-            pass
-        if key == "Inherited":
-            for k, v in value.items():
-                if v not in extension_str:
-                    extension_str += v
-    return extension_str
+from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
 
 
 def _generalized_check(script: str, word: str, extension: str) -> bool:
@@ -55,14 +30,18 @@ def _iterate_through_file(
         with open(output_path, "w", encoding="utf-8") as output_tsv:
             for line in source:
                 word = line.split("\t", 1)[0]
-                if _generalized_check(unicode_script, word, extension):
-                    print(line.rstrip(), file=output_tsv)
+                # Quick fix for egy_phonemic glottal stop filter problem
+                if "egy_phonemic.tsv" in tsv_path:
+                    if _generalized_check(
+                        unicode_script, word, extension + "."
+                    ):
+                        print(line.rstrip(), file=output_tsv)
+                else:
+                    if _generalized_check(unicode_script, word, extension):
+                        print(line.rstrip(), file=output_tsv)
 
 
 def main(args: argparse.Namespace) -> None:
-    with open(COMMMON_SET_PATH, "r", encoding="utf-8") as common_source:
-        master_common_set = json.load(common_source)
-    regex_extension = _extend_regex(master_common_set)
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         languages = json.load(lang_source)
     iso639_code = args.tsv_path[
@@ -82,7 +61,7 @@ def main(args: argparse.Namespace) -> None:
                 f"{path_remainder}"
             )
             _iterate_through_file(
-                args.tsv_path, output_path, unicode_script, regex_extension
+                args.tsv_path, output_path, unicode_script, args.regex_string
             )
         # Removes unsplit files; removing files within a for loop doesn't
         # appear to lead to an error in postprocessing.
@@ -90,7 +69,13 @@ def main(args: argparse.Namespace) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="sets path to TSV")
+    parser = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    parser.add_argument(
+        "--regex_string", help="regex string produced by common_characters.py"
+    )
     parser.add_argument("tsv_path", help="path to TSV files")
     namespace = parser.parse_args()
     main(namespace)
