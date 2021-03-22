@@ -49,7 +49,7 @@ def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
     readme_list = []
-    languages_summary_list = []
+    summaries = []
     path = "../../data/tsv"
     modifiers = ["dialect", "script"]
     for file_path in os.listdir(path):
@@ -84,18 +84,16 @@ def main() -> None:
             num_of_entries,
         ]
         # TSV and README have different first column.
-        languages_summary_list.append([file_path] + row)
+        summaries.append([file_path] + row)
         readme_list.append([f"[TSV](tsv/{file_path})"] + row)
-    # Sorts by Wiktionary language name, with phonemic entries before phonetic
-    # ones.
-    languages_summary_list.sort(key=_wiki_name_and_transcription_level)
+    # Sorts by Wiktionary language name.
+    summaries.sort(key=_wiki_name_and_transcription_level)
     readme_list.sort(key=_wiki_name_and_transcription_level)
     # Writes the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
-        tsv_writer_object = csv.writer(
-            sink, delimiter="\t", lineterminator="\n"
-        )
-        tsv_writer_object.writerows(languages_summary_list)
+        tsv_writer = csv.writer(sink, delimiter="\t", lineterminator="\n")
+        tsv_writer.writerows(summaries)
+    sink.close()
     # Writes the README.
     with open(README_PATH, "w", encoding="utf-8") as sink:
         print(
