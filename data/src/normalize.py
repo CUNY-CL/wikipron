@@ -13,12 +13,12 @@ import unicodedata
 
 
 def main(args: argparse.Namespace) -> None:
-    with open(args.file_name, "r") as source, tempfile.NamedTemporaryFile(
+    with open(args.path, "r") as source, tempfile.NamedTemporaryFile(
         mode="w+", delete=False
     ) as sink:
         for line in source:
             print(unicodedata.normalize(args.norm, line), end="", file=sink)
-    shutil.move(sink.name, args.file_name)
+    shutil.move(sink.name, args.path)
 
 
 if __name__ == "__main__":
