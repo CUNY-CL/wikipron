@@ -110,7 +110,7 @@ def main():
         languages = json.load(source)
     for filename in os.listdir(TSV_DIRECTORY_PATH):
         if filename.endswith(".tsv"):
-            iso639_code = filename[:filename.index("_")]
+            iso639_code = filename[: filename.index("_")]
             lang = languages[iso639_code]
             with open(
                 f"{TSV_DIRECTORY_PATH}/{filename}", "r", encoding="utf-8"
