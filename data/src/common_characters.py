@@ -30,23 +30,38 @@ from codes import (
     GLOBAL_COMMMON_CHAR_LIST_PATH,
 )
 
+# List of commmon type Unicode characters
+# that will be included in regex string.
+accepted_list = [
+    "RIGHT SINGLE QUOTATION MARK",
+    "MODIFIER LETTER APOSTROPHE",
+    "LEFT SINGLE QUOTATION MARK",
+    "APOSTROPHE",
+    "ZERO WIDTH SPACE",
+    "MIDDLE DOT",
+    "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
+    "KATAKANA MIDDLE DOT",
+    "ARABIC TATWEEL",
+    "TILDE",
+]
+
 
 def _extend_regex(
     accepted_chars: List[str], master_set: Dict[str, Dict[str, str]]
 ) -> str:
-    extension_str = r"\s’ʔʻ"
+    extension = ["\s", "’", "ʔ", "ʻ"]
     for char_type, symbol in master_set.items():
         if char_type == "Common":
             for char, char_symbol in symbol.items():
                 if char in accepted_chars:
-                    if char_symbol not in extension_str:
-                        extension_str += char_symbol
+                    if char_symbol not in extension:
+                        extension.append(char_symbol)
             pass
         if char_type == "Inherited":
             for char, char_symbol in symbol.items():
-                if char_symbol not in extension_str:
-                    extension_str += char_symbol
-    return extension_str
+                if char_symbol not in extension:
+                    extension.append(char_symbol)
+    return "".join(extension)
 
 
 def _is_common(word: str) -> Optional[str]:
@@ -76,21 +91,6 @@ def _inherited_check(word: str) -> Optional[str]:
 
 
 def main() -> None:
-    # List of commmon type Unicode characters
-    # that will be included in regex string.
-    accepted_list = [
-        "RIGHT SINGLE QUOTATION MARK",
-        "MODIFIER LETTER APOSTROPHE",
-        "LEFT SINGLE QUOTATION MARK",
-        "APOSTROPHE",
-        "ZERO WIDTH SPACE",
-        "MIDDLE DOT",
-        "KATAKANA-HIRAGANA PROLONGED SOUND MARK",
-        "KATAKANA MIDDLE DOT",
-        "ARABIC TATWEEL",
-        "TILDE",
-    ]
-
     # Creates a dictionary of special characters contained in each file
     master_set: Dict[str, Dict[str, Dict[str, str]]] = {}
     for src in sorted(os.listdir(TSV_DIRECTORY_PATH)):
@@ -143,10 +143,8 @@ def main() -> None:
     global_set["Inherited"] = {}
     for symbol in master_set.values():
         for char_type, char_symbol in symbol.items():
-            if char_type == "Common":
-                global_set["Common"].update(char_symbol)
-            if char_type == "Inherited":
-                global_set["Inherited"].update(char_symbol)
+            if char_type in ("Common", "Inherited"):
+                global_set[char_type].update(char_symbol)
     with open(
         GLOBAL_COMMMON_CHAR_LIST_PATH, "w", encoding="utf-8"
     ) as write_path:
