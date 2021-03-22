@@ -74,5 +74,4 @@ if __name__ == "__main__":
         "--regex_string", help="regex string produced by common_characters.py"
     )
     parser.add_argument("tsv_path", help="path to TSV file")
-    namespace = parser.parse_args()
-    main(namespace)
+    main(parser.parse_args())
