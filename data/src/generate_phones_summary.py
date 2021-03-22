@@ -48,7 +48,6 @@ def main() -> None:
     languages_summary_list = []
     path = "../phones"
     modifiers = ["dialect"]
-
     for file_path in os.listdir(path):
         # Filters out README.md.
         if file_path.endswith(".md") or file_path.endswith("tsv"):

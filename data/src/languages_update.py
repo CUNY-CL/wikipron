@@ -106,43 +106,33 @@ def main():
         LANGUAGES_PATH,
         "r",
         encoding="utf-8",
-    ) as lang_source:
-        languages = json.load(lang_source)
-        for file in os.listdir(TSV_DIRECTORY_PATH):
-            if file.endswith(".tsv"):
-                iso639_code = file[: file.index("_")]
-                lang = languages[iso639_code]
-                with open(
-                    f"{TSV_DIRECTORY_PATH}/{file}",
-                    "r",
-                    encoding="utf-8",
-                ) as f:
-                    for line in f:
-                        if line is not None:
-                            word = line.split(
-                                "\t",
-                                1,
-                            )[0]
-                            script = _detect_best_script_name(word)
-                            if script is not None:
-                                if "script" not in lang:
-                                    lang["script"] = {}
-                                # Uses property_value_aliases to get
-                                # ISO-15924 code.
-                                if script not in lang["script"]:
-                                    lang["script"][
-                                        _get_alias(script)
-                                    ] = script.replace(
-                                        "_",
-                                        " ",
-                                    )
-                            _remove_mismatch_ids(lang)
-        with open(
-            LANGUAGES_PATH,
-            "w",
-            encoding="utf-8",
-        ) as lang_source:
-            json.dump(languages, lang_source, ensure_ascii=False, indent=4)
+    ) as source:
+        languages = json.load(source)
+    for filename in os.listdir(TSV_DIRECTORY_PATH):
+        if filename.endswith(".tsv"):
+            iso639_code = filename[:filename.index("_")]
+            lang = languages[iso639_code]
+            with open(
+                f"{TSV_DIRECTORY_PATH}/{filename}", "r", encoding="utf-8"
+            ) as source:
+                for line in source:
+                    if line is not None:
+                        word = line.split(
+                            "\t",
+                            1,
+                        )[0]
+                        script = _detect_best_script_name(word)
+                        if script is not None:
+                            if "script" not in lang:
+                                lang["script"] = {}
+                            # Uses property_value_aliases to get
+                            # ISO-15924 code.
+                            if script not in lang["script"]:
+                                script = script.replace("_", " ")
+                                lang["script"][_get_alias(script)] = script
+                        _remove_mismatch_ids(lang)
+    with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
+        json.dump(languages, sink, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":

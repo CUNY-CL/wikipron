@@ -89,7 +89,6 @@ def _build_scraping_config(
         )
     else:
         _call_scrape(config_settings, phonemic_config, phonemic_path)
-
     # Configures phonetic TSV.
     phonetic_config = wikipron.Config(phonetic=True, **config_settings)
     phonetic_path = f"{path_affix}phonetic.tsv"
@@ -117,9 +116,7 @@ def _build_scraping_config(
 def main(args: argparse.Namespace) -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
-
     codes = list(languages.keys())
-
     # Verifies language code for --restriction is valid.
     if args.restriction:
         # Cleans entry.
@@ -136,7 +133,6 @@ def main(args: argparse.Namespace) -> None:
                 logging.fatal("%r is not a valid ISO code", key)
             exit(1)
         codes = list(rset)
-
     # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
@@ -144,7 +140,6 @@ def main(args: argparse.Namespace) -> None:
         "skip_spaces_pron": True,
         "skip_spaces_word": True,
     }
-
     for code in codes:
         language_settings = languages[code]
         for k, v in language_settings.items():
@@ -185,7 +180,7 @@ if __name__ == "__main__":
         datefmt="%d-%b-%y %H:%M:%S",
         level="INFO",
     )
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--restriction",
         type=str,

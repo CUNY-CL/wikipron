@@ -1,10 +1,13 @@
 #!/usr/bin/env python
 """Creates JSON file containing list of "Common" for each language.
 
-This module takes TSV files from data and writes a JSON files that document
-which "Common" and "Inherited" characters appear in each language. It then
-prints an updated regex string to be passed to `split.py`."""
+This module takes TSV files from data and prints an updated regex string to be
+passed to `split.py`.
 
+If --json is enabled, it also writes JSON files which indicate which 
+"Common" and "Inherited" characters appear in each language."""
+
+import argparse
 import json
 import os
 import unicodedata
@@ -36,10 +39,10 @@ COMMON_ACCEPTED = [
 
 
 def _extend_regex(
-    accepted_chars: List[str], master: Dict[str, Dict[str, str]]
+    accepted_chars: List[str], common_chars: Dict[str, Dict[str, str]]
 ) -> str:
     extension = ["\s", "’", "ʔ", "ʻ"]
-    for char_type, symbol in master.items():
+    for char_type, symbol in common_chars.items():
         if char_type == "Common":
             for char, char_symbol in symbol.items():
                 if char in accepted_chars:
@@ -75,16 +78,16 @@ def _inherited_check(word: str) -> Optional[str]:
     return None
 
 
-def main() -> None:
+def main(args: argparse.Namespace) -> None:
     # Creates a dictionary of special characters contained in each file.
-    master: Dict[str, Dict[str, Dict[str, str]]] = {}
+    common_chars: Dict[str, Dict[str, Dict[str, str]]] = {}
     for src in sorted(os.listdir(TSV_DIRECTORY_PATH)):
         iso639_code = src[: src.index("_")]
         path_remainder = src[src.index("_") + 1 :]
         with open(
             f"{TSV_DIRECTORY_PATH}/{src}", "r", encoding="utf=8"
         ) as source:
-            ptr = master[f"{iso639_code}_{path_remainder}"] = {}
+            ptr = common_chars[f"{iso639_code}_{path_remainder}"] = {}
             ptr["Common"] = {}
             ptr["Inherited"] = {}
             for line in source:
@@ -101,23 +104,27 @@ def main() -> None:
                     inh_char_name = unicodedata.name(inh_char)
                     if inh_char_name not in ptr["Inherited"]:
                         ptr["Inherited"][inh_char_name] = inh_char
-        with open(COMMMON_CHAR_LIST_PATH, "w", encoding="utf-8") as sink:
-            json.dump(master, sink, ensure_ascii=False, indent=4)
-    # Creates global master common/inherited set.
-    global_set: Dict[str, Dict[str, str]] = {}
-    global_set["Common"] = {}
-    global_set["Inherited"] = {}
-    for symbol in master.values():
+        if args.summaries:
+            with open(COMMON_CHARS_PATH, "w", encoding="utf-8") as sink:
+                json.dump(common_chars, sink, ensure_ascii=False, indent=4)
+    # Creates global common_chars common/inherited set.
+    global_common_chars: Dict[str, Dict[str, str]] = {}
+    global_common_chars["Common"] = {}
+    global_common_chars["Inherited"] = {}
+    for symbol in common_chars.values():
         for char_type, char_symbol in symbol.items():
             if char_type in ("Common", "Inherited"):
-                global_set[char_type].update(char_symbol)
-    with open(
-        GLOBAL_COMMMON_CHAR_LIST_PATH, "w", encoding="utf-8"
-    ) as sink:
-        json.dump(global_set, sink, ensure_ascii=False, indent=4)
+                global_common_chars[char_type].update(char_symbol)
+    if args.summaries:
+        with open(GLOBAL_COMMON_CHARS_PATH, "w", encoding="utf-8") as sink:
+            json.dump(global_common_chars, sink, ensure_ascii=False, indent=4)
     # Prints extended regex string to stdout.
-    print(_extend_regex(COMMON_ACCEPTED, global_set))
+    print(_extend_regex(COMMON_ACCEPTED, global_common_chars))
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--summaries", action="store_true", help="write JSON summaries?"
+    )
+    main(parser.parse_args())

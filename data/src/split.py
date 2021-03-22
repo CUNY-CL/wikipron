@@ -69,13 +69,10 @@ def main(args: argparse.Namespace) -> None:
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description=__doc__,
-        formatter_class=argparse.RawDescriptionHelpFormatter,
-    )
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--regex_string", help="regex string produced by common_characters.py"
     )
-    parser.add_argument("tsv_path", help="path to TSV files")
+    parser.add_argument("tsv_path", help="path to TSV file")
     namespace = parser.parse_args()
     main(namespace)
