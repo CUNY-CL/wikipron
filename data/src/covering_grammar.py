@@ -20,15 +20,12 @@ def main(args: argparse.Namespace) -> None:
         if args.output_token_type in TOKEN_TYPES
         else pynini.SymbolTable.read_text(args.output_token_type)
     )
-    cg = (
-        pynini.string_file(
-            args.tsv_path,
-            input_token_type=input_token_type,
-            output_token_type=output_token_type,
-        )
-        .closure()
-        .optimize()
+    cg = pynini.string_file(
+        args.tsv_path,
+        input_token_type=input_token_type,
+        output_token_type=output_token_type,
     )
+    cg.closure().optimize()
     cg.write(args.fst_path)
 
 
