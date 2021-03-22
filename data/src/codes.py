@@ -35,11 +35,9 @@ import wikipron
 
 SRC_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(SRC_DIRECTORY, "languages.json")
-COMMMON_CHAR_LIST_PATH = os.path.join(
-    SRC_DIRECTORY, "common_char_summary_by_lang.json"
-)
-GLOBAL_COMMMON_CHAR_LIST_PATH = os.path.join(
-    SRC_DIRECTORY, "global_common_char_summary.json"
+COMMMON_CHARS_PATH = os.path.join(SRC_DIRECTORY, "common_chars.json")
+GLOBAL_COMMMON_CHARS_PATH = os.path.join(
+    SRC_DIRECTORY, "global_common_chars.json"
 )
 UNMATCHED_LANGUAGES_PATH = os.path.join(
     SRC_DIRECTORY, "unmatched_languages.json"
