@@ -1,0 +1,1681 @@
+{
+    "aar_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "acw_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "acw_arab_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ady_cyrl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ady_cyrl_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "afb_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "afr_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "afr_latn_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "afr_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ajp_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "alb_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "alb_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ale_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING CIRCUMFLEX ACCENT": "̂"
+        }
+    },
+    "ang_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ang_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "aot_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "apw_latn_phonetic.tsv": {
+        "Common": {
+            "RIGHT SINGLE QUOTATION MARK": "’",
+            "MODIFIER LETTER APOSTROPHE": "ʼ"
+        },
+        "Inherited": {
+            "COMBINING ACUTE ACCENT": "́",
+            "COMBINING LEFT HALF RING BELOW": "̜"
+        }
+    },
+    "ara_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "arc_hebr_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "arm_armn_e_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "arm_armn_e_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "arm_armn_w_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "arm_armn_w_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ary_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "arz_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "asm_beng_phonemic.tsv": {
+        "Common": {
+            "RIGHT SINGLE QUOTATION MARK": "’",
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "ast_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ayl_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "aze_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "aze_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "aze_latn_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bak_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bak_cyrl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ban_bali_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "baq_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "baq_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bcl_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bdq_latn_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER APOSTROPHE": "ʼ",
+            "RIGHT SINGLE QUOTATION MARK": "’"
+        },
+        "Inherited": {
+            "COMBINING BREVE": "̆"
+        }
+    },
+    "bel_cyrl_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "ben_beng_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ben_beng_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bre_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "bul_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bul_cyrl_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bul_cyrl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "bur_mymr_phonemic.tsv": {
+        "Common": {
+            "ZERO WIDTH SPACE": "​"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "bur_mymr_phonemic_filtered.tsv": {
+        "Common": {
+            "ZERO WIDTH SPACE": "​"
+        },
+        "Inherited": {}
+    },
+    "cat_latn_phonemic.tsv": {
+        "Common": {
+            "MIDDLE DOT": "·",
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "cbn_thai_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ceb_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cho_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "cmn_hani_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cnk_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cop_copt_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cor_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cor_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "cos_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "crk_cans_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "crk_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "crx_cans_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cze_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "cze_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "dan_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "dan_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "dlm_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "dng_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "dsb_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING ACUTE ACCENT": "́"
+        }
+    },
+    "dsb_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "dum_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "dut_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "dut_latn_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "dut_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "dzo_tibt_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "egy_latn_phonemic.tsv": {
+        "Common": {
+            "FULL STOP": "."
+        },
+        "Inherited": {}
+    },
+    "eng_latn_uk_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "eng_latn_uk_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "eng_latn_uk_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "eng_latn_us_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'",
+            "MODIFIER LETTER APOSTROPHE": "ʼ"
+        },
+        "Inherited": {}
+    },
+    "eng_latn_us_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'",
+            "MODIFIER LETTER APOSTROPHE": "ʼ"
+        },
+        "Inherited": {}
+    },
+    "eng_latn_us_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "enm_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "epo_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "est_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ewe_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING TILDE": "̃"
+        }
+    },
+    "fao_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "fao_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "fin_latn_phonemic.tsv": {
+        "Common": {
+            "RIGHT SINGLE QUOTATION MARK": "’"
+        },
+        "Inherited": {}
+    },
+    "fin_latn_phonetic.tsv": {
+        "Common": {
+            "RIGHT SINGLE QUOTATION MARK": "’"
+        },
+        "Inherited": {}
+    },
+    "fre_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "fre_latn_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "fre_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "fro_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "frr_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "fry_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "geo_geor_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "geo_geor_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ger_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "ger_latn_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "ger_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "gla_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "gla_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "gle_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "gle_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "glg_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "glg_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "glv_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "glv_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "gml_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "goh_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "got_goth_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "got_goth_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "grc_grek_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "COMBINING COMMA ABOVE": "̓",
+            "COMBINING GREEK PERISPOMENI": "͂",
+            "COMBINING DIAERESIS": "̈"
+        }
+    },
+    "gre_grek_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "COMBINING GREEK PERISPOMENI": "͂",
+            "COMBINING DIAERESIS": "̈",
+            "COMBINING COMMA ABOVE": "̓"
+        }
+    },
+    "gre_grek_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "COMBINING GREEK PERISPOMENI": "͂",
+            "COMBINING DIAERESIS": "̈",
+            "COMBINING COMMA ABOVE": "̓"
+        }
+    },
+    "gre_grek_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "gsw_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "haw_latn_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER TURNED COMMA": "ʻ"
+        },
+        "Inherited": {}
+    },
+    "haw_latn_phonetic.tsv": {
+        "Common": {
+            "MODIFIER LETTER TURNED COMMA": "ʻ"
+        },
+        "Inherited": {}
+    },
+    "hbs_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hbs_cyrl_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hbs_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hbs_latn_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "heb_hebr_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "heb_hebr_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hin_deva_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hin_deva_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hin_deva_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hrx_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hts_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hun_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "hun_latn_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "huu_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ice_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ice_latn_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ice_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ido_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ilo_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ilo_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ina_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ind_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ind_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ita_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "ita_latn_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "ita_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "izh_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "jam_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "jje_hang_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "jpn_hira_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK": "゚",
+            "COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK": "゙"
+        }
+    },
+    "jpn_hira_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING KATAKANA-HIRAGANA SEMI-VOICED SOUND MARK": "゚",
+            "COMBINING KATAKANA-HIRAGANA VOICED SOUND MARK": "゙"
+        }
+    },
+    "jpn_kana_phonetic.tsv": {
+        "Common": {
+            "KATAKANA-HIRAGANA PROLONGED SOUND MARK": "ー",
+            "KATAKANA MIDDLE DOT": "・"
+        },
+        "Inherited": {}
+    },
+    "jpn_kana_phonetic_filtered.tsv": {
+        "Common": {
+            "KATAKANA-HIRAGANA PROLONGED SOUND MARK": "ー",
+            "KATAKANA MIDDLE DOT": "・"
+        },
+        "Inherited": {}
+    },
+    "kal_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "kaz_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kaz_cyrl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kbd_cyrl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "khb_talu_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "khm_khmr_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "khm_khmr_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kik_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "kir_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kld_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kmr_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kor_hang_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kor_hang_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "kxd_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lad_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lao_laoo_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lat_latn_clas_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING BREVE": "̆",
+            "COMBINING DOUBLE INVERTED BREVE": "͡"
+        }
+    },
+    "lat_latn_clas_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING BREVE": "̆",
+            "COMBINING DOUBLE INVERTED BREVE": "͡"
+        }
+    },
+    "lat_latn_eccl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING BREVE": "̆",
+            "COMBINING DOUBLE INVERTED BREVE": "͡"
+        }
+    },
+    "lat_latn_eccl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING BREVE": "̆",
+            "COMBINING DOUBLE INVERTED BREVE": "͡"
+        }
+    },
+    "lat_latn_vulg_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lat_latn_vulg_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lav_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lav_latn_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lif_limb_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lij_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "lim_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lit_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lit_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "liv_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lmo_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'",
+            "MIDDLE DOT": "·"
+        },
+        "Inherited": {}
+    },
+    "lmy_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "lsi_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ltg_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ltz_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "ltz_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "lwl_thai_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER APOSTROPHE": "ʼ"
+        },
+        "Inherited": {
+            "COMBINING MACRON BELOW": "̱"
+        }
+    },
+    "mac_cyrl_phonetic.tsv": {
+        "Common": {
+            "RIGHT SINGLE QUOTATION MARK": "’"
+        },
+        "Inherited": {}
+    },
+    "mah_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING CEDILLA": "̧",
+            "COMBINING MACRON": "̄"
+        }
+    },
+    "mah_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING CEDILLA": "̧",
+            "COMBINING MACRON": "̄"
+        }
+    },
+    "mar_deva_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mar_deva_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "may_arab_ara_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "may_arab_ara_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "may_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "may_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mdf_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mfe_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "mga_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mic_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "mic_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "mlg_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mlt_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "mlt_latn_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "mnc_mong_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mnw_mymr_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mon_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mon_cyrl_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "mww_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nap_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "nav_latn_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER APOSTROPHE": "ʼ"
+        },
+        "Inherited": {
+            "COMBINING ACUTE ACCENT": "́"
+        }
+    },
+    "nci_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nci_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nds_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nep_deva_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "ZERO WIDTH JOINER": "‍"
+        }
+    },
+    "nep_deva_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "ZERO WIDTH JOINER": "‍"
+        }
+    },
+    "new_deva_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "nhg_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING MACRON BELOW": "̱"
+        }
+    },
+    "nhx_latn_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER APOSTROPHE": "ʼ"
+        },
+        "Inherited": {
+            "COMBINING MACRON BELOW": "̱"
+        }
+    },
+    "nmy_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING GRAVE ACCENT": "̀",
+            "COMBINING BREVE": "̆",
+            "COMBINING INVERTED BREVE": "̑"
+        }
+    },
+    "nno_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nno_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nob_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nob_latn_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nob_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "non_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING ACUTE ACCENT": "́"
+        }
+    },
+    "nor_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "nrf_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "nya_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "oci_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "oci_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ofs_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "okm_hang_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ori_orya_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "osp_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "osx_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ota_arab_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "pan_guru_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pbv_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pcc_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pdc_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "per_arab_phonemic.tsv": {
+        "Common": {
+            "ARABIC TATWEEL": "ـ"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌",
+            "ARABIC FATHATAN": "ً"
+        }
+    },
+    "per_arab_phonetic.tsv": {
+        "Common": {
+            "ARABIC TATWEEL": "ـ"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌",
+            "ARABIC FATHATAN": "ً"
+        }
+    },
+    "phl_latn_phonemic.tsv": {
+        "Common": {
+            "TILDE": "~"
+        },
+        "Inherited": {
+            "COMBINING DOT BELOW": "̣",
+            "COMBINING CARON": "̌"
+        }
+    },
+    "pjt_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pms_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pol_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "por_latn_bz_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "por_latn_bz_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "por_latn_bz_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "por_latn_po_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "por_latn_po_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "por_latn_po_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pox_latn_phonemic.tsv": {
+        "Common": {
+            "RIGHT SINGLE QUOTATION MARK": "’"
+        },
+        "Inherited": {
+            "COMBINING ACUTE ACCENT": "́"
+        }
+    },
+    "ppl_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "pus_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "ARABIC HAMZA ABOVE": "ٔ"
+        }
+    },
+    "rum_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "rum_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "rum_latn_phonetic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "rup_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "rus_cyrl_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "sah_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "san_deva_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "san_deva_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "sce_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "scn_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'",
+            "LEFT SINGLE QUOTATION MARK": "‘"
+        },
+        "Inherited": {}
+    },
+    "scn_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "sco_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "sco_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "sga_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "shn_mymr_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "slo_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "slo_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "slv_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "slv_latn_phonemic_filtered.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "sme_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "spa_latn_ca_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "spa_latn_ca_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "spa_latn_ca_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "spa_latn_la_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "spa_latn_la_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "spa_latn_la_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "srd_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "srn_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "stq_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "swe_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "swe_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "syc_syrc_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "syl_sylo_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tam_taml_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tam_taml_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tel_telu_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tel_telu_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tgk_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tgl_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "tgl_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "tha_thai_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "ZERO WIDTH JOINER": "‍"
+        }
+    },
+    "tib_tibt_phonemic.tsv": {
+        "Common": {
+            "ZERO WIDTH SPACE": "​"
+        },
+        "Inherited": {}
+    },
+    "ton_latn_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER TURNED COMMA": "ʻ"
+        },
+        "Inherited": {}
+    },
+    "tpw_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "tuk_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "tur_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "COMBINING DOT ABOVE": "̇"
+        }
+    },
+    "tur_latn_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "COMBINING DOT ABOVE": "̇"
+        }
+    },
+    "tur_latn_phonetic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "COMBINING DOT ABOVE": "̇"
+        }
+    },
+    "twf_latn_phonemic.tsv": {
+        "Common": {
+            "MODIFIER LETTER APOSTROPHE": "ʼ",
+            "RIGHT SINGLE QUOTATION MARK": "’"
+        },
+        "Inherited": {
+            "COMBINING GRAVE ACCENT": "̀",
+            "COMBINING ACUTE ACCENT": "́",
+            "COMBINING CIRCUMFLEX ACCENT": "̂",
+            "COMBINING DOUBLE GRAVE ACCENT": "̏",
+            "COMBINING DOUBLE ACUTE ACCENT": "̋"
+        }
+    },
+    "tyv_cyrl_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "uig_arab_ara_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ukr_cyrl_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "urd_arab_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "ARABIC FATHATAN": "ً",
+            "ARABIC LETTER SUPERSCRIPT ALEF": "ٰ"
+        }
+    },
+    "vie_latn_hanoi_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "vie_latn_hanoi_phonetic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "vie_latn_hcmc_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "vie_latn_hcmc_phonetic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "vie_latn_hue_phonetic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "vie_latn_hue_phonetic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "vol_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "vol_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "wau_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "wel_latn_nw_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "wel_latn_nw_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "wel_latn_nw_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "wel_latn_sw_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "wel_latn_sw_phonemic_filtered.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "wel_latn_sw_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "wlm_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "xho_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "ybi_phonemic.tsv": {
+        "Common": {
+            "COLON": ":"
+        },
+        "Inherited": {
+            "ZERO WIDTH JOINER": "‍",
+            "ZERO WIDTH NON-JOINER": "‌"
+        }
+    },
+    "ycl_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "yid_hebr_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "yid_hebr_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "yue_hani_phonemic.tsv": {
+        "Common": {
+            "MIDDLE DOT": "·"
+        },
+        "Inherited": {}
+    },
+    "zha_latn_phonemic.tsv": {
+        "Common": {
+            "APOSTROPHE": "'"
+        },
+        "Inherited": {}
+    },
+    "zul_latn_phonemic.tsv": {
+        "Common": {},
+        "Inherited": {}
+    },
+    "zza_latn_phonetic.tsv": {
+        "Common": {},
+        "Inherited": {
+            "COMBINING DOT ABOVE": "̇"
+        }
+    }
+}
