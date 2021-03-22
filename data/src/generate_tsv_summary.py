@@ -93,7 +93,6 @@ def main() -> None:
     with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t", lineterminator="\n")
         tsv_writer.writerows(summaries)
-    sink.close()
     # Writes the README.
     with open(README_PATH, "w", encoding="utf-8") as sink:
         print(
