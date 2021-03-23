@@ -11,7 +11,7 @@
     "dut": [
         "https://raw.githubusercontent.com/unimorph/nld/master/nld"
     ],
-    "eng": [
+    "eng_us": [
         "https://raw.githubusercontent.com/unimorph/eng/master/eng"
     ],
     "fre": [
