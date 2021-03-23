@@ -91,7 +91,7 @@
     },
     "mlt_web_2012_300K": {
         "path": [
-            "../tsv/mlt"
+            "../tsv/mlt_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/mlt_web_2012_300K.tar.gz"
     },
