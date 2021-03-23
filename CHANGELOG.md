@@ -19,6 +19,7 @@ Unreleased
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
 -   Added `data/morphology`. (\#369)
 -   Added SIGMORPHON 2021 morphology data. (\#375)
+-   Added `data/cg/tsv/jpn_hira.tsv`. (\#384)
 
 #### Changed
 
