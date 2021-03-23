@@ -13,3 +13,4 @@ WordPronPair = Tuple[Word, Pron]
 ExtractFunc = Callable[
     [Word, requests.Response, "Config"], Iterator[WordPronPair]
 ]
+

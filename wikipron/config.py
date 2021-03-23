@@ -201,3 +201,4 @@ class Config:
                 yield self.casefold(word), pron
 
         return extract_word_pron_with_casefolding
+
