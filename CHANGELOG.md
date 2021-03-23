@@ -17,6 +17,8 @@ Unreleased
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
+-   Added `data/morphology`. (\#369)
+-   Added SIGMORPHON 2021 morphology data. (\#375)
 
 #### Changed
 
@@ -32,6 +34,9 @@ Unreleased
 -   Updated `data/src/normalize.py` to be more efficient. (\#358)
 -   Fixed inaccuracies in `data/phones/geo_phonemic.phones`. (\#367)
 -   Fixed typo in `data/cg/tsv/geo.tsv` and added missing character. (\#370)
+-   Morphology URLs are now provided as a list. (\#376)
+-   Configured and scraped Yamphu (`ybi`). (\#380)
+-   Configured and scraped Khumi Chin (`cnk`). (\#381)
 
 ### Under `wikipron/` and elsewhere
 
@@ -102,6 +107,7 @@ Unreleased
 -   Added Latvian `.phones` file and re-scraped data. (\#321, \#322)
 -   Added Khmer `.phones` file and re-scraped data. (\#324, \#327)
 -   Added Østnorsk (Bokmål) `.phones` file and re-scraped data. (\#324, \#327)
+-   Added SIGMORPHON 2021 frequencies JSON. (\#332)
 -   Several languages added to `languagecodes.py`. (\#334)
 -   Configured scripts for Kazakh (`kaz`). (\#345)
 -   Added Easten Lawa (`lwl`). (\#346)

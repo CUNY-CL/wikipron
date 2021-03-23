@@ -4,11 +4,12 @@
 import json
 import logging
 import os
-import requests
 import tarfile
 import time
 
 from typing import Any, Dict
+
+import requests
 
 
 WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
@@ -23,8 +24,8 @@ def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
             target_path = url.split("/")[-1]
             logging.info("Downloading: %s", target_path)
             if response.status_code == 200:
-                with open(f"tgz/{target_path}", "wb") as f:
-                    f.write(response.raw.read())
+                with open(f"tgz/{target_path}", "wb") as sink:
+                    sink.write(response.raw.read())
             else:
                 logging.info(
                     "Status code %d while downloading %s",

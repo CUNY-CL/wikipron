@@ -1,0 +1,53 @@
+{
+    "ady": [
+        "https://raw.githubusercontent.com/unimorph/ady/master/ady"
+    ],
+    "arm_e": [
+        "https://raw.githubusercontent.com/unimorph/hye/master/hye"
+    ],
+    "bul": [
+        "https://raw.githubusercontent.com/unimorph/bul/master/bul"
+    ],
+    "dut": [
+        "https://raw.githubusercontent.com/unimorph/nld/master/nld"
+    ],
+    "eng": [
+        "https://raw.githubusercontent.com/unimorph/eng/master/eng"
+    ],
+    "fre": [
+        "https://raw.githubusercontent.com/unimorph/fra/master/fra"
+    ],
+    "geo": [
+        "https://raw.githubusercontent.com/unimorph/kat/master/kat"
+    ],
+    "gre": [
+        "https://raw.githubusercontent.com/unimorph/ell/master/ell"
+    ],
+    "hbs_latn": [
+        "https://raw.githubusercontent.com/unimorph/hbs/master/hbs"
+    ],
+    "hun": [
+        "https://raw.githubusercontent.com/unimorph/hun/master/hun"
+    ],
+    "ice": [
+        "https://raw.githubusercontent.com/unimorph/isl/master/isl"
+    ],
+    "ita": [
+        "https://raw.githubusercontent.com/unimorph/ita/master/ita"
+    ],
+    "lav": [
+        "https://raw.githubusercontent.com/unimorph/lav/master/lav"
+    ],
+    "mlt_latn": [
+        "https://raw.githubusercontent.com/unimorph/mlt/master/mlt"
+    ],
+    "rum": [
+        "https://raw.githubusercontent.com/unimorph/ron/master/ron"
+    ],
+    "slv": [
+        "https://raw.githubusercontent.com/unimorph/slv/master/slv"
+    ],
+    "wel_sw": [
+        "https://raw.githubusercontent.com/unimorph/cym/master/cym"
+    ]
+}
