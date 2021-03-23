@@ -116,4 +116,3 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             # connection has dropped appears to have led to
             # 'Connection reset by peer' errors.
             time.sleep(300)
-

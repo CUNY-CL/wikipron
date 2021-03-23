@@ -131,4 +131,3 @@ def main() -> None:
     args = _get_cli_args(sys.argv[1:])
     config = Config(**args.__dict__)
     _scrape_and_write(config)
-
