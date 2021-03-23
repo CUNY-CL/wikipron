@@ -17,12 +17,6 @@
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nld_mixed_2012_1M.tar.gz"
     },
-    "eng_news_2016_1M": {
-        "path": [
-            "../tsv/eng_us"
-        ],
-        "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/eng_news_2016_1M.tar.gz"
-    },
     "fra_news_2010_1M": {
         "path": [
             "../tsv/fre"
