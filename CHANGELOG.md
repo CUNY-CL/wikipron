@@ -37,6 +37,7 @@ Unreleased
 -   Morphology URLs are now provided as a list. (\#376)
 -   Configured and scraped Yamphu (`ybi`). (\#380)
 -   Configured and scraped Khumi Chin (`cnk`). (\#381)
+-   Made summary generation in `common_characters.py` optional. (\#382)
 
 ### Under `wikipron/` and elsewhere
 

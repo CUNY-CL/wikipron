@@ -33,8 +33,8 @@ def _count_phones(filepath: str) -> Dict[str, Set[str]]:
     but anything fancier doesn't seem worth the work.
     """
     phone_to_examples = collections.defaultdict(set)
-    with open(filepath, encoding="utf-8") as f:
-        for line in f:
+    with open(filepath, encoding="utf-8") as source:
+        for line in source:
             line = line.strip()
             if not line:
                 continue
@@ -97,7 +97,7 @@ def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
 
 
 def main(args: argparse.Namespace):
-    phone_to_examples: Dict[str, Set[str]] = _count_phones(args.filepath)
+    phone_to_examples: Dict[str, Set[str]] = _count_phones(args.tsv_path)
     for phone, examples in sorted(
         phone_to_examples.items(), key=lambda x: len(x[1]), reverse=True
     ):
@@ -112,5 +112,5 @@ def main(args: argparse.Namespace):
 if __name__ == "__main__":
     logging.basicConfig(format="%(levelname)s: %(message)s", level="INFO")
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("filepath", help="Path to TSV scraped by WikiPron")
+    parser.add_argument("tsv_path", help="path to TSV file")
     main(parser.parse_args())
