@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+"""Merges downloaded frequency data with pronunciation data."""
 
 import csv
 import json

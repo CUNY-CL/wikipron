@@ -1,18 +1,16 @@
-Frequencies scripts
-===================
+# Frequencies scripts
 
 The scripts in this directory are responsible for downloading word frequency
 counts from the [Leipzig Corpora
 Collection](https://wortschatz.uni-leipzig.de/en/download/) and merging those
 counts into [our corresponding TSVs](../tsv/).
 
-How to use
-----------
+## How to use
 
 [`grab_wortschatz_data.py`](grab_wortschatz_data.py) downloads and unpacks the
 TARs provided by the aforementioned Corpora Collection. [`merge.py`](merge.py)
 merges in the word frequency counts with our TSVs such that, for the languages
-covered by the Corpora Collection, we end up with three column `*_freq.tsv`
+covered by the Corpora Collection, we end up with three-column `*_freq.tsv`
 TSVs:
 
     bashkë  b a ʃ k ə   1005
@@ -29,8 +27,6 @@ each language links to the particular corpus we download.
 After successful merging, the user can delete the temporary `tgz` and `tsv`
 subdirectories.
 
-Shared tasks
-------------
+## Shared tasks
 
-Specific configurations for shared tasks are located in the `shared_tasks`
-subdirectory.
+Specific configurations for shared tasks are stored [here](shared_tasks).

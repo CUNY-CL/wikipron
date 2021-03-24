@@ -1,0 +1,54 @@
+{
+    "ady": [
+        "https://raw.githubusercontent.com/unimorph/ady/master/ady"
+    ],
+    "arm": [
+        "https://raw.githubusercontent.com/unimorph/hye/master/hye"
+    ],
+    "aze": [
+        "https://raw.githubusercontent.com/unimorph/aze/master/aze"
+    ],
+    "bak": [
+        "https://raw.githubusercontent.com/unimorph/bak/master/bak"
+    ],
+    "bel": [
+        "https://raw.githubusercontent.com/unimorph/bel/master/bel"
+    ],
+    "bul": [
+        "https://raw.githubusercontent.com/unimorph/bul/master/bul"
+    ],
+    "cat": [
+        "https://raw.githubusercontent.com/unimorph/cat/master/cat"
+    ],
+    "ces": [
+        "https://raw.githubusercontent.com/unimorph/ces/master/ces"
+    ],
+    "dan": [
+        "https://raw.githubusercontent.com/unimorph/dan/master/dan"
+    ],
+    "dut": [
+        "https://raw.githubusercontent.com/unimorph/nld/master/nld"
+    ],
+    "eng": [
+        "https://raw.githubusercontent.com/unimorph/eng/master/eng"
+    ],
+    "fao": [
+        "https://raw.githubusercontent.com/unimorph/fao/master/fao"
+    ],
+    "fin": [
+        "https://raw.githubusercontent.com/unimorph/fin/master/fin.1",
+        "https://raw.githubusercontent.com/unimorph/fin/master/fin.2"
+    ],
+    "glg": [
+        "https://raw.githubusercontent.com/unimorph/gal/master/gal"
+    ],
+    "geo": [
+        "https://raw.githubusercontent.com/unimorph/kat/master/kat"
+    ],
+    "ger": [
+        "https://raw.githubusercontent.com/unimorph/deu/master/deu"
+    ],
+    "gre": [
+        "https://raw.githubusercontent.com/unimorph/ell/master/ell"
+    ]
+}

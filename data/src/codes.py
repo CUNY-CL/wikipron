@@ -16,6 +16,7 @@ languages.json are transferred to the new languages dictionary being created.
 
 New languages that are added through this process and output to languages.json
 require further processing before being imported by scrape_and_write.py:
+
 * Casefolding must be specified
 * Dialect or script information may also be specified
 """
@@ -26,15 +27,20 @@ import os
 import re
 
 from typing import Dict, List
-from wikipron.scrape import HTTP_HEADERS
 
 import iso639
 import requests
 import requests_html  # type: ignore
+
 import wikipron
+from wikipron.scrape import HTTP_HEADERS
 
 SRC_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(SRC_DIRECTORY, "languages.json")
+COMMON_CHARS_PATH = os.path.join(SRC_DIRECTORY, "common_chars.json")
+GLOBAL_COMMON_CHARS_PATH = os.path.join(
+    SRC_DIRECTORY, "global_common_chars.json"
+)
 UNMATCHED_LANGUAGES_PATH = os.path.join(
     SRC_DIRECTORY, "unmatched_languages.json"
 )
@@ -100,17 +106,14 @@ def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
         ).json()
         for page in data["query"]["pages"].values():
             size = page["categoryinfo"]["size"]
-
             language_search = re.search(
                 r"Category:(.+?) terms with IPA pronunciation", page["title"]
             )
-
             if not language_search:
                 logging.warning(
                     "Could not extract language from title: %s", page["title"]
                 )
                 continue
-
             language = language_search.group(1)
             language_sizes[language] = size
     return language_sizes
@@ -128,7 +131,6 @@ def _scrape_wiktionary_language_code(lang_title: str) -> str:
             ]//td
                 /code
     """
-
     session = requests_html.HTMLSession()
     language_page = session.get(
         f"https://en.wiktionary.org/wiki/Category:{lang_title}_language",
@@ -162,13 +164,10 @@ def main() -> None:
     unmatched_languages = {}
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         prev_languages = json.load(lang_source)
-
     with open(ISO_639_1_PATH, "r", encoding="utf-8") as iso1_source:
         iso639_1 = json.load(iso1_source)
-
     with open(ISO_639_2_PATH, "r", encoding="utf-8") as iso2_source:
         iso639_2 = json.load(iso2_source)
-
     categories = _get_language_categories()
     sizes = _get_language_sizes(categories)
     for wiktionary_name, size in sizes.items():
@@ -190,7 +189,6 @@ def main() -> None:
                     "wiktionary_name": wiktionary_name
                 }
                 continue
-
             core_settings = {
                 "iso639_name": iso639_name,
                 "wiktionary_name": wiktionary_name,
@@ -210,7 +208,6 @@ def main() -> None:
                     "casefold": None,
                 }
             _check_language_code_against_wiki(iso639_code, wiktionary_name)
-
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
         json.dump(new_languages, sink, indent=4, ensure_ascii=False)
     with open(UNMATCHED_LANGUAGES_PATH, "w", encoding="utf-8") as sink:

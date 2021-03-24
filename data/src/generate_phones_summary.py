@@ -48,13 +48,13 @@ def main() -> None:
     languages_summary_list = []
     path = "../phones"
     modifiers = ["dialect"]
-
     for file_path in os.listdir(path):
         # Filters out README.md.
         if file_path.endswith(".md") or file_path.endswith("tsv"):
             continue
         with open(f"{path}/{file_path}", "r", encoding="utf-8") as phone_list:
-            num_of_entries = sum(1 for line in phone_list)
+            # We subtract one for the final newline.
+            num_of_entries = sum(1 for line in phone_list) - 1
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
             file_path.index("phone") : file_path.index(".")
