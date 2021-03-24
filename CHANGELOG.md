@@ -13,7 +13,7 @@ Unreleased
 ### Under `data/`
 
 #### Added
-`
+
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
@@ -24,7 +24,7 @@ Unreleased
 
 #### Changed
 
--	Added new columns in summary tables (\#365)
+-   Added new columns in summary tables. (\#365)
 -   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
     `data/phones/HOWTO.md`. (\#352)
 -   Added Atong (India) (`aot`). (\#353)
