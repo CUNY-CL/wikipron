@@ -108,9 +108,10 @@ def main() -> None:
         transcription_level = file_path[
             file_path.index("phone") : file_path.index(".")
         ].capitalize()
-        wiki_name = _handle_wiki_name(
-            languages[iso639_code], file_path, modifiers
-        )	
+        #wiki_name = _handle_wiki_name(
+        #    languages[iso639_code], file_path, modifiers
+        #)
+        wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = True if "filtered" in file_path else False
         script = _handle_script(languages[iso639_code], file_path)
         dialect = _handle_dialect(languages[iso639_code], file_path)
