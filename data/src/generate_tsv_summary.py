@@ -13,44 +13,35 @@ from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
     return ele[3] + ele[7]
 
-def _get_modifiers(
-    language: Dict[str, Any], modifier: str
-) -> Dict:
-    try:
-        return language[modifier]
-    except KeyError:
-        return {}
-
 def _handle_modifier(
-    language: Dict[str, Any], file_path: str, modifier: str,
+    language: Dict[str, Any],
+    file_path: str,
+    modifier: str,
 ) -> Dict:
-    modifiers = _get_modifiers(language, modifier)
-    key = file_path[
-        file_path.index("_") + 1 : file_path.rindex("_phone")
-    ]
+    modifiers = language.get(modifier, {})
+    key = file_path[file_path.index("_") + 1 : file_path.rindex("_phone")]
     if "_" in key:
         if modifier == "script":
-            key = key[:key.index("_")]
+            key = key[: key.index("_")]
         elif modifier == "dialect":
-            key = key[key.index("_")+1:]
+            key = key[key.index("_") + 1 :]
     return modifiers.get(key, "")
 
-def _handle_transcription_level(
-    file_path: str
-) -> str:
+def _handle_transcription_level(file_path: str) -> str:
     trans = file_path[
-        file_path.index("phone") : file_path.index(".")   
+        file_path.index("phone") : file_path.index(".")
     ].capitalize()
     if "_" in trans:
-        trans = trans[:trans.index("_")]
+        trans = trans[: trans.index("_")]
     return trans
+
 
 def _handle_wiki_name(
     language: Dict[str, Any], file_path: str, modifiers: List[str]
 ) -> str:
     name = language["wiktionary_name"]
     for modifier in modifiers:
-        if modifier in language:           
+        if modifier in language:
             key = file_path[
                 file_path.index("_") + 1 : file_path.rindex("_phone")
             ]
@@ -82,7 +73,6 @@ def main() -> None:
     readme_list = []
     summaries = []
     path = "../../data/tsv"
-    modifiers = ["dialect", "script"]
     for file_path in os.listdir(path):
         # Filters out README.md.
         if file_path.endswith(".md"):
@@ -104,7 +94,9 @@ def main() -> None:
         wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = "filtered" in file_path
         script = _handle_modifier(languages[iso639_code], file_path, "script")
-        dialect = _handle_modifier(languages[iso639_code], file_path, "dialect")
+        dialect = _handle_modifier(
+            languages[iso639_code], file_path, "dialect"
+        )
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
@@ -135,12 +127,24 @@ def main() -> None:
             file=sink,
         )
         print(
-            "| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |",
+            "| :---- |" + "".join([" :----: |" * 8]) + " ----: |",
             file=sink,
         )
-        for link, code, iso_name, wiki_name, script, dialect, fi, ph, cf, count in readme_list:
+        for (
+            link,
+            code,
+            iso_name,
+            wiki_name,
+            script,
+            dialect,
+            filtered,
+            phon,
+            casefold,
+            count,
+        ) in readme_list:
             print(
-                f"| {link} | {code} | {iso_name} | {wiki_name} | {script} | {dialect} | {fi} | {ph} | {cf} "
+                f"| {link} | {code} | {iso_name} | {wiki_name} | {script} "
+                f"| {dialect} | {filtered} | {phon} | {casefold} "
                 f"| {count:,} |",
                 file=sink,
             )
