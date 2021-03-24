@@ -11,28 +11,43 @@ from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
-    return ele[3] + ele[6]
+    return ele[3] + ele[7]
+
+def _get_modifiers(
+    language: Dict[str, Any], modifier: str
+) -> Dict:
+    try:
+        return language[modifier]
+    except KeyError:
+        return {}
 
 def _handle_script(
     language: Dict[str, Any], file_path: str
 ) -> Dict:
-    scripts = _get_scripts(language)
+    scripts = _get_modifiers(language, "script")
     key = file_path[
         file_path.index("_") + 1 : file_path.rindex("_phone")
     ]
+    if "_" in key:
+        key = key[:key.index("_")]
     if key in scripts:
         return scripts[key]
     else:
         return ""
 
-def _get_scripts(
-    language: Dict[str, Any]
+def _handle_dialect(
+    language: Dict[str, Any], file_path: str
 ) -> Dict:
-    try:
-        return language["script"]
-    except KeyError:
-        return {}
-
+    dialects = _get_modifiers(language, "dialect")
+    key = file_path[
+        file_path.index("_") + 1 : file_path.rindex("_phone")
+    ]
+    if "_" in key:
+        key = key[key.index("_")+1:]
+    if key in dialects:
+        return dialects[key]
+    else:
+        return ""
 
 def _handle_wiki_name(
     language: Dict[str, Any], file_path: str, modifiers: List[str]
@@ -98,11 +113,13 @@ def main() -> None:
         )	
         filtered = True if "filtered" in file_path else False
         script = _handle_script(languages[iso639_code], file_path)
+        dialect = _handle_dialect(languages[iso639_code], file_path)
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
             wiki_name,
             script,
+            dialect,
             filtered,
             transcription_level,
             languages[iso639_code]["casefold"],
@@ -122,17 +139,17 @@ def main() -> None:
     with open(README_PATH, "w", encoding="utf-8") as sink:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
-            "| Wiktionary Language Name | Script | Filtered "
+            "| Wiktionary Language Name | Script | Dialect | Filtered "
             "| Phonetic/Phonemic | Case-folding | # of entries |",
             file=sink,
         )
         print(
-            "| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |",
+            "| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |",
             file=sink,
         )
-        for link, code, iso_name, wiki_name, script, fi, ph, cf, count in readme_list:
+        for link, code, iso_name, wiki_name, script, dialect, fi, ph, cf, count in readme_list:
             print(
-                f"| {link} | {code} | {iso_name} | {wiki_name} | {script} | {fi} | {ph} | {cf} "
+                f"| {link} | {code} | {iso_name} | {wiki_name} | {script} | {dialect} | {fi} | {ph} | {cf} "
                 f"| {count:,} |",
                 file=sink,
             )
