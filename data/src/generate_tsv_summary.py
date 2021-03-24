@@ -31,6 +31,7 @@ def _handle_modifier(
         modifier = modifier.replace(" |", ",")
     return modifier
 
+
 def _handle_transcription_level(file_path: str) -> str:
     trans = file_path[
         file_path.index("phone") : file_path.index(".")
@@ -38,6 +39,7 @@ def _handle_transcription_level(file_path: str) -> str:
     if "_" in trans:
         trans = trans[: trans.index("_")]
     return trans
+
 
 def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
