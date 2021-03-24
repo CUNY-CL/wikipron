@@ -21,33 +21,19 @@ def _get_modifiers(
     except KeyError:
         return {}
 
-def _handle_script(
-    language: Dict[str, Any], file_path: str
+def _handle_modifier(
+    language: Dict[str, Any], file_path: str, modifier: str,
 ) -> Dict:
-    scripts = _get_modifiers(language, "script")
+    modifiers = _get_modifiers(language, modifier)
     key = file_path[
         file_path.index("_") + 1 : file_path.rindex("_phone")
     ]
     if "_" in key:
-        key = key[:key.index("_")]
-    if key in scripts:
-        return scripts[key]
-    else:
-        return ""
-
-def _handle_dialect(
-    language: Dict[str, Any], file_path: str
-) -> Dict:
-    dialects = _get_modifiers(language, "dialect")
-    key = file_path[
-        file_path.index("_") + 1 : file_path.rindex("_phone")
-    ]
-    if "_" in key:
-        key = key[key.index("_")+1:]
-    if key in dialects:
-        return dialects[key]
-    else:
-        return ""
+        if modifier == "script":
+            key = key[:key.index("_")]
+        elif modifier == "dialect":
+            key = key[key.index("_")+1:]
+    return modifiers.get(key, "")
 
 def _handle_transcription_level(
     file_path: str
@@ -116,9 +102,9 @@ def main() -> None:
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = _handle_transcription_level(file_path)
         wiki_name = languages[iso639_code]["wiktionary_name"]
-        filtered = True if "filtered" in file_path else False
-        script = _handle_script(languages[iso639_code], file_path)
-        dialect = _handle_dialect(languages[iso639_code], file_path)
+        filtered = "filtered" in file_path
+        script = _handle_modifier(languages[iso639_code], file_path, "script")
+        dialect = _handle_modifier(languages[iso639_code], file_path, "dialect")
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
