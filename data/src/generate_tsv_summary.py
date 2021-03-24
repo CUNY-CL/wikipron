@@ -49,6 +49,16 @@ def _handle_dialect(
     else:
         return ""
 
+def _handle_transcription_level(
+    file_path: str
+) -> str:
+    trans = file_path[
+        file_path.index("phone") : file_path.index(".")   
+    ].capitalize()
+    if "_" in trans:
+        trans = trans[:trans.index("_")]
+    return trans
+
 def _handle_wiki_name(
     language: Dict[str, Any], file_path: str, modifiers: List[str]
 ) -> str:
@@ -105,12 +115,12 @@ def main() -> None:
             os.remove(f"{path}/{file_path}")
             continue
         iso639_code = file_path[: file_path.index("_")]
+        '''
         transcription_level = file_path[
             file_path.index("phone") : file_path.index(".")
         ].capitalize()
-        #wiki_name = _handle_wiki_name(
-        #    languages[iso639_code], file_path, modifiers
-        #)
+        '''
+        transcription_level = _handle_transcription_level(file_path)
         wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = True if "filtered" in file_path else False
         script = _handle_script(languages[iso639_code], file_path)
