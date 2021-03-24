@@ -68,12 +68,12 @@ dzo_tibt_phonemic.tsv	dzo	Dzongkha	Dzongkha	Tibetan		False	Phonemic	False	188
 lwl_thai_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa	Thai		False	Phonemic	False	253
 arz_arab_phonemic.tsv	arz	Egyptian Arabic	Egyptian Arabic	Arabic		False	Phonemic	False	113
 egy_latn_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	Latin		False	Phonemic	False	3403
-eng_latn_uk_phonemic_filtered.tsv	eng	English	English	Latin	UK | Received Pronunciation	True	Phonemic	True	60422
-eng_latn_us_phonemic_filtered.tsv	eng	English	English	Latin	US | General American	True	Phonemic	True	57230
-eng_latn_uk_phonemic.tsv	eng	English	English	Latin	UK | Received Pronunciation	False	Phonemic	True	61173
-eng_latn_us_phonemic.tsv	eng	English	English	Latin	US | General American	False	Phonemic	True	58072
-eng_latn_us_phonetic.tsv	eng	English	English	Latin	US | General American	False	Phonetic	True	1633
-eng_latn_uk_phonetic.tsv	eng	English	English	Latin	UK | Received Pronunciation	False	Phonetic	True	1284
+eng_latn_uk_phonemic_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Phonemic	True	60422
+eng_latn_us_phonemic_filtered.tsv	eng	English	English	Latin	US, General American	True	Phonemic	True	57230
+eng_latn_uk_phonemic.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Phonemic	True	61173
+eng_latn_us_phonemic.tsv	eng	English	English	Latin	US, General American	False	Phonemic	True	58072
+eng_latn_us_phonetic.tsv	eng	English	English	Latin	US, General American	False	Phonetic	True	1633
+eng_latn_uk_phonetic.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Phonetic	True	1284
 epo_latn_phonemic.tsv	epo	Esperanto	Esperanto	Latin		False	Phonemic	True	14990
 est_latn_phonemic.tsv	est	Estonian	Estonian	Latin		False	Phonemic	True	429
 ewe_latn_phonemic.tsv	ewe	Ewe	Ewe	Latin		False	Phonemic	True	120

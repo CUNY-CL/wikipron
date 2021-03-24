@@ -26,8 +26,10 @@ def _handle_modifier(
             key = key[: key.index("_")]
         elif modifier == "dialect":
             key = key[key.index("_") + 1 :]
-    return modifiers.get(key, "")
-
+    modifier = modifiers.get(key, "")
+    if "|" in modifier:
+        modifier = modifier.replace(" |", ",")
+    return modifier
 
 def _handle_transcription_level(file_path: str) -> str:
     trans = file_path[
@@ -36,38 +38,6 @@ def _handle_transcription_level(file_path: str) -> str:
     if "_" in trans:
         trans = trans[: trans.index("_")]
     return trans
-
-
-def _handle_wiki_name(
-    language: Dict[str, Any], file_path: str, modifiers: List[str]
-) -> str:
-    name = language["wiktionary_name"]
-    for modifier in modifiers:
-        if modifier in language:
-            key = file_path[
-                file_path.index("_") + 1 : file_path.rindex("_phone")
-            ]
-            if not key:
-                logging.info(
-                    "Failed to isolate key for %r modifier in %r",
-                    modifier,
-                    file_path,
-                )
-                continue
-            # TODO: remove temporary solution after #365.
-            if "_" in key:
-                script_key, dialect_key = key.split("_")
-                if modifier == "dialect":
-                    values = language[modifier][dialect_key]
-                elif modifier == "script":
-                    values = language[modifier][script_key]
-            else:
-                values = language[modifier][key]
-            if "|" in values:
-                values = values.replace(" |", ",")
-            name += f" ({values})"
-    return name
-
 
 def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
@@ -132,7 +102,6 @@ def main() -> None:
             "| :---- |" + " :----: |" * 8 + " ----: |",
             file=sink,
         )
-        print([type(elem) for elem in readme_list[0]])
         for (
             link,
             code,

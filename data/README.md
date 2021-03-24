@@ -70,12 +70,12 @@
 | [TSV](tsv/lwl_thai_phonemic.tsv) | lwl | Eastern Lawa | Eastern Lawa | Thai |  | False | Phonemic | False | 253 |
 | [TSV](tsv/arz_arab_phonemic.tsv) | arz | Egyptian Arabic | Egyptian Arabic | Arabic |  | False | Phonemic | False | 113 |
 | [TSV](tsv/egy_latn_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | Latin |  | False | Phonemic | False | 3,403 |
-| [TSV](tsv/eng_latn_uk_phonemic_filtered.tsv) | eng | English | English | Latin | UK | Received Pronunciation | True | Phonemic | True | 60,422 |
-| [TSV](tsv/eng_latn_us_phonemic_filtered.tsv) | eng | English | English | Latin | US | General American | True | Phonemic | True | 57,230 |
-| [TSV](tsv/eng_latn_uk_phonemic.tsv) | eng | English | English | Latin | UK | Received Pronunciation | False | Phonemic | True | 61,173 |
-| [TSV](tsv/eng_latn_us_phonemic.tsv) | eng | English | English | Latin | US | General American | False | Phonemic | True | 58,072 |
-| [TSV](tsv/eng_latn_us_phonetic.tsv) | eng | English | English | Latin | US | General American | False | Phonetic | True | 1,633 |
-| [TSV](tsv/eng_latn_uk_phonetic.tsv) | eng | English | English | Latin | UK | Received Pronunciation | False | Phonetic | True | 1,284 |
+| [TSV](tsv/eng_latn_uk_phonemic_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Phonemic | True | 60,422 |
+| [TSV](tsv/eng_latn_us_phonemic_filtered.tsv) | eng | English | English | Latin | US, General American | True | Phonemic | True | 57,230 |
+| [TSV](tsv/eng_latn_uk_phonemic.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Phonemic | True | 61,173 |
+| [TSV](tsv/eng_latn_us_phonemic.tsv) | eng | English | English | Latin | US, General American | False | Phonemic | True | 58,072 |
+| [TSV](tsv/eng_latn_us_phonetic.tsv) | eng | English | English | Latin | US, General American | False | Phonetic | True | 1,633 |
+| [TSV](tsv/eng_latn_uk_phonetic.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Phonetic | True | 1,284 |
 | [TSV](tsv/epo_latn_phonemic.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Phonemic | True | 14,990 |
 | [TSV](tsv/est_latn_phonemic.tsv) | est | Estonian | Estonian | Latin |  | False | Phonemic | True | 429 |
 | [TSV](tsv/ewe_latn_phonemic.tsv) | ewe | Ewe | Ewe | Latin |  | False | Phonemic | True | 120 |
