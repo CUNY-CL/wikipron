@@ -132,6 +132,7 @@ def main() -> None:
             "| :---- |" + " :----: |" * 8 + " ----: |",
             file=sink,
         )
+        print([type(elem) for elem in readme_list[0]])
         for (
             link,
             code,
@@ -139,14 +140,14 @@ def main() -> None:
             wiki_name,
             script,
             dialect,
-            filtered,
+            is_filtered,
             phon,
             casefold,
             count,
         ) in readme_list:
             print(
                 f"| {link} | {code} | {iso_name} | {wiki_name} | {script} "
-                f"| {dialect} | {filtered} | {phon} | {casefold} "
+                f"| {dialect} | {is_filtered} | {phon} | {casefold} "
                 f"| {count:,} |",
                 file=sink,
             )
