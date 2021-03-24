@@ -18,7 +18,7 @@ def _handle_modifier(
     language: Dict[str, Any],
     file_path: str,
     modifier: str,
-) -> Dict:
+) -> str:
     modifiers = language.get(modifier, {})
     key = file_path[file_path.index("_") + 1:file_path.rindex("_phone")]
     if "_" in key:
