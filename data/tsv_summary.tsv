@@ -11,9 +11,9 @@ ale_latn_phonemic.tsv	ale	Aleut	Aleut	Latin		False	Phonemic	True	104
 grc_grek_phonemic.tsv	grc	Ancient Greek (to 1453)	Ancient Greek	Greek		False	Phonemic	True	90222
 ara_arab_phonemic.tsv	ara	Arabic	Arabic	Arabic		False	Phonemic	False	7279
 arc_hebr_phonemic.tsv	arc	Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)	Aramaic	Hebrew		False	Phonemic	False	1156
-arm_armn_w_phonetic_filtered.tsv	arm	Armenian	Armenian	Armenian	Western Armenian, standard	True	Phonetic	True	14040
+arm_armn_w_phonetic_filtered.tsv	arm	Armenian	Armenian	Armenian		True	Phonetic	True	14040
 arm_armn_e_phonetic.tsv	arm	Armenian	Armenian	Armenian	Eastern Armenian, standard	False	Phonetic	True	14182
-arm_armn_e_phonetic_filtered.tsv	arm	Armenian	Armenian	Armenian	Eastern Armenian, standard	True	Phonetic	True	14177
+arm_armn_e_phonetic_filtered.tsv	arm	Armenian	Armenian	Armenian		True	Phonetic	True	14177
 arm_armn_w_phonetic.tsv	arm	Armenian	Armenian	Armenian	Western Armenian, standard	False	Phonetic	True	14065
 rup_latn_phonetic.tsv	rup	Macedo-Romanian	Aromanian	Latin		False	Phonetic	True	149
 asm_beng_phonemic.tsv	asm	Assamese	Assamese	Bengali		False	Phonemic	False	2350
@@ -68,8 +68,8 @@ dzo_tibt_phonemic.tsv	dzo	Dzongkha	Dzongkha	Tibetan		False	Phonemic	False	188
 lwl_thai_phonemic.tsv	lwl	Eastern Lawa	Eastern Lawa	Thai		False	Phonemic	False	253
 arz_arab_phonemic.tsv	arz	Egyptian Arabic	Egyptian Arabic	Arabic		False	Phonemic	False	113
 egy_latn_phonemic.tsv	egy	Egyptian (Ancient)	Egyptian	Latin		False	Phonemic	False	3403
-eng_latn_uk_phonemic_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Phonemic	True	60422
-eng_latn_us_phonemic_filtered.tsv	eng	English	English	Latin	US, General American	True	Phonemic	True	57230
+eng_latn_uk_phonemic_filtered.tsv	eng	English	English	Latin		True	Phonemic	True	60422
+eng_latn_us_phonemic_filtered.tsv	eng	English	English	Latin		True	Phonemic	True	57230
 eng_latn_uk_phonemic.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Phonemic	True	61173
 eng_latn_us_phonemic.tsv	eng	English	English	Latin	US, General American	False	Phonemic	True	58072
 eng_latn_us_phonetic.tsv	eng	English	English	Latin	US, General American	False	Phonetic	True	1633
@@ -246,10 +246,10 @@ crk_cans_phonemic.tsv	crk	Plains Cree	Plains Cree	Canadian Aboriginal		False	Pho
 pbv_latn_phonemic.tsv	pbv	Pnar	Pnar	Latin		False	Phonemic	True	101
 pox_latn_phonemic.tsv	pox	Polabian	Polabian	Latin		False	Phonemic	True	228
 pol_latn_phonemic.tsv	pol	Polish	Polish	Latin		False	Phonemic	True	71863
-por_latn_po_phonemic_filtered.tsv	por	Portuguese	Portuguese	Latin	Portugal	True	Phonemic	True	9800
+por_latn_po_phonemic_filtered.tsv	por	Portuguese	Portuguese	Latin		True	Phonemic	True	9800
 por_latn_po_phonemic.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Phonemic	True	10122
 por_latn_bz_phonemic.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Phonemic	True	11489
-por_latn_bz_phonemic_filtered.tsv	por	Portuguese	Portuguese	Latin	Brazil	True	Phonemic	True	11331
+por_latn_bz_phonemic_filtered.tsv	por	Portuguese	Portuguese	Latin		True	Phonemic	True	11331
 por_latn_po_phonetic.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Phonetic	True	312
 por_latn_bz_phonetic.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Phonetic	True	953
 pan_guru_phonemic.tsv	pan	Panjabi	Punjabi	Gurmukhi		False	Phonemic	False	139
@@ -277,9 +277,9 @@ slo_latn_phonetic.tsv	slo	Slovak	Slovak	Latin		False	Phonetic	True	1620
 slv_latn_phonemic_filtered.tsv	slv	Slovenian	Slovene	Latin		True	Phonemic	True	4390
 slv_latn_phonemic.tsv	slv	Slovenian	Slovene	Latin		False	Phonemic	True	4396
 ajp_arab_phonemic.tsv	ajp	South Levantine Arabic	South Levantine Arabic	Arabic		False	Phonemic	False	155
-spa_latn_ca_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin	Castilian	True	Phonemic	True	60677
+spa_latn_ca_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin		True	Phonemic	True	60677
 spa_latn_ca_phonemic.tsv	spa	Spanish; Castilian	Spanish	Latin	Castilian	False	Phonemic	True	60805
-spa_latn_la_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	True	Phonemic	True	48649
+spa_latn_la_phonemic_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin		True	Phonemic	True	48649
 spa_latn_la_phonemic.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	False	Phonemic	True	48718
 spa_latn_ca_phonetic.tsv	spa	Spanish; Castilian	Spanish	Latin	Castilian	False	Phonetic	True	52190
 spa_latn_la_phonetic.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	False	Phonetic	True	41854
@@ -309,17 +309,17 @@ urd_arab_phonemic.tsv	urd	Urdu	Urdu	Arabic		False	Phonemic	False	1063
 uig_arab_ara_phonemic.tsv	uig	Uighur	Uyghur	Arabic		False	Phonemic	True	260
 vie_latn_hue_phonetic.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	False	Phonetic	True	15239
 vie_latn_hanoi_phonetic.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	False	Phonetic	True	15240
-vie_latn_hanoi_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	True	Phonetic	True	15240
-vie_latn_hue_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	True	Phonetic	True	15236
-vie_latn_hcmc_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	True	Phonetic	True	14537
+vie_latn_hanoi_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese	Latin		True	Phonetic	True	15240
+vie_latn_hue_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese	Latin		True	Phonetic	True	15236
+vie_latn_hcmc_phonetic_filtered.tsv	vie	Vietnamese	Vietnamese	Latin		True	Phonetic	True	14537
 vie_latn_hcmc_phonetic.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	False	Phonetic	True	15237
 vol_latn_phonemic.tsv	vol	Volapük	Volapük	Latin		False	Phonemic	True	363
 vol_latn_phonetic.tsv	vol	Volapük	Volapük	Latin		False	Phonetic	True	565
 wau_latn_phonemic.tsv	wau	Waurá	Wauja	Latin		False	Phonemic	True	152
 wel_latn_nw_phonemic.tsv	wel	Welsh	Welsh	Latin	North Wales	False	Phonemic	True	8530
-wel_latn_nw_phonemic_filtered.tsv	wel	Welsh	Welsh	Latin	North Wales	True	Phonemic	True	8473
+wel_latn_nw_phonemic_filtered.tsv	wel	Welsh	Welsh	Latin		True	Phonemic	True	8473
 wel_latn_sw_phonemic.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Phonemic	True	9999
-wel_latn_sw_phonemic_filtered.tsv	wel	Welsh	Welsh	Latin	South Wales	True	Phonemic	True	9925
+wel_latn_sw_phonemic_filtered.tsv	wel	Welsh	Welsh	Latin		True	Phonemic	True	9925
 wel_latn_nw_phonetic.tsv	wel	Welsh	Welsh	Latin	North Wales	False	Phonetic	True	561
 wel_latn_sw_phonetic.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Phonetic	True	601
 fry_latn_phonemic.tsv	fry	Western Frisian	West Frisian	Latin		False	Phonemic	True	977

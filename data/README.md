@@ -13,9 +13,9 @@
 | [TSV](tsv/grc_grek_phonemic.tsv) | grc | Ancient Greek (to 1453) | Ancient Greek | Greek |  | False | Phonemic | True | 90,222 |
 | [TSV](tsv/ara_arab_phonemic.tsv) | ara | Arabic | Arabic | Arabic |  | False | Phonemic | False | 7,279 |
 | [TSV](tsv/arc_hebr_phonemic.tsv) | arc | Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE) | Aramaic | Hebrew |  | False | Phonemic | False | 1,156 |
-| [TSV](tsv/arm_armn_w_phonetic_filtered.tsv) | arm | Armenian | Armenian | Armenian | Western Armenian, standard | True | Phonetic | True | 14,040 |
+| [TSV](tsv/arm_armn_w_phonetic_filtered.tsv) | arm | Armenian | Armenian | Armenian |  | True | Phonetic | True | 14,040 |
 | [TSV](tsv/arm_armn_e_phonetic.tsv) | arm | Armenian | Armenian | Armenian | Eastern Armenian, standard | False | Phonetic | True | 14,182 |
-| [TSV](tsv/arm_armn_e_phonetic_filtered.tsv) | arm | Armenian | Armenian | Armenian | Eastern Armenian, standard | True | Phonetic | True | 14,177 |
+| [TSV](tsv/arm_armn_e_phonetic_filtered.tsv) | arm | Armenian | Armenian | Armenian |  | True | Phonetic | True | 14,177 |
 | [TSV](tsv/arm_armn_w_phonetic.tsv) | arm | Armenian | Armenian | Armenian | Western Armenian, standard | False | Phonetic | True | 14,065 |
 | [TSV](tsv/rup_latn_phonetic.tsv) | rup | Macedo-Romanian | Aromanian | Latin |  | False | Phonetic | True | 149 |
 | [TSV](tsv/asm_beng_phonemic.tsv) | asm | Assamese | Assamese | Bengali |  | False | Phonemic | False | 2,350 |
@@ -70,8 +70,8 @@
 | [TSV](tsv/lwl_thai_phonemic.tsv) | lwl | Eastern Lawa | Eastern Lawa | Thai |  | False | Phonemic | False | 253 |
 | [TSV](tsv/arz_arab_phonemic.tsv) | arz | Egyptian Arabic | Egyptian Arabic | Arabic |  | False | Phonemic | False | 113 |
 | [TSV](tsv/egy_latn_phonemic.tsv) | egy | Egyptian (Ancient) | Egyptian | Latin |  | False | Phonemic | False | 3,403 |
-| [TSV](tsv/eng_latn_uk_phonemic_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Phonemic | True | 60,422 |
-| [TSV](tsv/eng_latn_us_phonemic_filtered.tsv) | eng | English | English | Latin | US, General American | True | Phonemic | True | 57,230 |
+| [TSV](tsv/eng_latn_uk_phonemic_filtered.tsv) | eng | English | English | Latin |  | True | Phonemic | True | 60,422 |
+| [TSV](tsv/eng_latn_us_phonemic_filtered.tsv) | eng | English | English | Latin |  | True | Phonemic | True | 57,230 |
 | [TSV](tsv/eng_latn_uk_phonemic.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Phonemic | True | 61,173 |
 | [TSV](tsv/eng_latn_us_phonemic.tsv) | eng | English | English | Latin | US, General American | False | Phonemic | True | 58,072 |
 | [TSV](tsv/eng_latn_us_phonetic.tsv) | eng | English | English | Latin | US, General American | False | Phonetic | True | 1,633 |
@@ -248,10 +248,10 @@
 | [TSV](tsv/pbv_latn_phonemic.tsv) | pbv | Pnar | Pnar | Latin |  | False | Phonemic | True | 101 |
 | [TSV](tsv/pox_latn_phonemic.tsv) | pox | Polabian | Polabian | Latin |  | False | Phonemic | True | 228 |
 | [TSV](tsv/pol_latn_phonemic.tsv) | pol | Polish | Polish | Latin |  | False | Phonemic | True | 71,863 |
-| [TSV](tsv/por_latn_po_phonemic_filtered.tsv) | por | Portuguese | Portuguese | Latin | Portugal | True | Phonemic | True | 9,800 |
+| [TSV](tsv/por_latn_po_phonemic_filtered.tsv) | por | Portuguese | Portuguese | Latin |  | True | Phonemic | True | 9,800 |
 | [TSV](tsv/por_latn_po_phonemic.tsv) | por | Portuguese | Portuguese | Latin | Portugal | False | Phonemic | True | 10,122 |
 | [TSV](tsv/por_latn_bz_phonemic.tsv) | por | Portuguese | Portuguese | Latin | Brazil | False | Phonemic | True | 11,489 |
-| [TSV](tsv/por_latn_bz_phonemic_filtered.tsv) | por | Portuguese | Portuguese | Latin | Brazil | True | Phonemic | True | 11,331 |
+| [TSV](tsv/por_latn_bz_phonemic_filtered.tsv) | por | Portuguese | Portuguese | Latin |  | True | Phonemic | True | 11,331 |
 | [TSV](tsv/por_latn_po_phonetic.tsv) | por | Portuguese | Portuguese | Latin | Portugal | False | Phonetic | True | 312 |
 | [TSV](tsv/por_latn_bz_phonetic.tsv) | por | Portuguese | Portuguese | Latin | Brazil | False | Phonetic | True | 953 |
 | [TSV](tsv/pan_guru_phonemic.tsv) | pan | Panjabi | Punjabi | Gurmukhi |  | False | Phonemic | False | 139 |
@@ -279,9 +279,9 @@
 | [TSV](tsv/slv_latn_phonemic_filtered.tsv) | slv | Slovenian | Slovene | Latin |  | True | Phonemic | True | 4,390 |
 | [TSV](tsv/slv_latn_phonemic.tsv) | slv | Slovenian | Slovene | Latin |  | False | Phonemic | True | 4,396 |
 | [TSV](tsv/ajp_arab_phonemic.tsv) | ajp | South Levantine Arabic | South Levantine Arabic | Arabic |  | False | Phonemic | False | 155 |
-| [TSV](tsv/spa_latn_ca_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish | Latin | Castilian | True | Phonemic | True | 60,677 |
+| [TSV](tsv/spa_latn_ca_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish | Latin |  | True | Phonemic | True | 60,677 |
 | [TSV](tsv/spa_latn_ca_phonemic.tsv) | spa | Spanish; Castilian | Spanish | Latin | Castilian | False | Phonemic | True | 60,805 |
-| [TSV](tsv/spa_latn_la_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish | Latin | Latin America | True | Phonemic | True | 48,649 |
+| [TSV](tsv/spa_latn_la_phonemic_filtered.tsv) | spa | Spanish; Castilian | Spanish | Latin |  | True | Phonemic | True | 48,649 |
 | [TSV](tsv/spa_latn_la_phonemic.tsv) | spa | Spanish; Castilian | Spanish | Latin | Latin America | False | Phonemic | True | 48,718 |
 | [TSV](tsv/spa_latn_ca_phonetic.tsv) | spa | Spanish; Castilian | Spanish | Latin | Castilian | False | Phonetic | True | 52,190 |
 | [TSV](tsv/spa_latn_la_phonetic.tsv) | spa | Spanish; Castilian | Spanish | Latin | Latin America | False | Phonetic | True | 41,854 |
@@ -311,17 +311,17 @@
 | [TSV](tsv/uig_arab_ara_phonemic.tsv) | uig | Uighur | Uyghur | Arabic |  | False | Phonemic | True | 260 |
 | [TSV](tsv/vie_latn_hue_phonetic.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | False | Phonetic | True | 15,239 |
 | [TSV](tsv/vie_latn_hanoi_phonetic.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Phonetic | True | 15,240 |
-| [TSV](tsv/vie_latn_hanoi_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Phonetic | True | 15,240 |
-| [TSV](tsv/vie_latn_hue_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | True | Phonetic | True | 15,236 |
-| [TSV](tsv/vie_latn_hcmc_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hồ Chí Minh City | True | Phonetic | True | 14,537 |
+| [TSV](tsv/vie_latn_hanoi_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin |  | True | Phonetic | True | 15,240 |
+| [TSV](tsv/vie_latn_hue_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin |  | True | Phonetic | True | 15,236 |
+| [TSV](tsv/vie_latn_hcmc_phonetic_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin |  | True | Phonetic | True | 14,537 |
 | [TSV](tsv/vie_latn_hcmc_phonetic.tsv) | vie | Vietnamese | Vietnamese | Latin | Hồ Chí Minh City | False | Phonetic | True | 15,237 |
 | [TSV](tsv/vol_latn_phonemic.tsv) | vol | Volapük | Volapük | Latin |  | False | Phonemic | True | 363 |
 | [TSV](tsv/vol_latn_phonetic.tsv) | vol | Volapük | Volapük | Latin |  | False | Phonetic | True | 565 |
 | [TSV](tsv/wau_latn_phonemic.tsv) | wau | Waurá | Wauja | Latin |  | False | Phonemic | True | 152 |
 | [TSV](tsv/wel_latn_nw_phonemic.tsv) | wel | Welsh | Welsh | Latin | North Wales | False | Phonemic | True | 8,530 |
-| [TSV](tsv/wel_latn_nw_phonemic_filtered.tsv) | wel | Welsh | Welsh | Latin | North Wales | True | Phonemic | True | 8,473 |
+| [TSV](tsv/wel_latn_nw_phonemic_filtered.tsv) | wel | Welsh | Welsh | Latin |  | True | Phonemic | True | 8,473 |
 | [TSV](tsv/wel_latn_sw_phonemic.tsv) | wel | Welsh | Welsh | Latin | South Wales | False | Phonemic | True | 9,999 |
-| [TSV](tsv/wel_latn_sw_phonemic_filtered.tsv) | wel | Welsh | Welsh | Latin | South Wales | True | Phonemic | True | 9,925 |
+| [TSV](tsv/wel_latn_sw_phonemic_filtered.tsv) | wel | Welsh | Welsh | Latin |  | True | Phonemic | True | 9,925 |
 | [TSV](tsv/wel_latn_nw_phonetic.tsv) | wel | Welsh | Welsh | Latin | North Wales | False | Phonetic | True | 561 |
 | [TSV](tsv/wel_latn_sw_phonetic.tsv) | wel | Welsh | Welsh | Latin | South Wales | False | Phonetic | True | 601 |
 | [TSV](tsv/fry_latn_phonemic.tsv) | fry | Western Frisian | West Frisian | Latin |  | False | Phonemic | True | 977 |

@@ -13,24 +13,17 @@ from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
     return ele[3] + ele[7]
 
-
-def _handle_modifier(
+def _handle_modifiers(
     language: Dict[str, Any],
     file_path: str,
-    modifier: str,
-) -> str:
-    modifiers = language.get(modifier, {})
-    key = file_path[file_path.index("_") + 1 : file_path.rindex("_phone")]
-    if "_" in key:
-        if modifier == "script":
-            key = key[: key.index("_")]
-        elif modifier == "dialect":
-            key = key[key.index("_") + 1 :]
-    modifier = modifiers.get(key, "")
-    if "|" in modifier:
-        modifier = modifier.replace(" |", ",")
-    return modifier
-
+):
+    dialects = language.get("dialect", {})
+    start = file_path.index("_") + 1
+    script_key = file_path[start:file_path.index("_", start)]
+    dialect_key = file_path[file_path.index("_", start) + 1: file_path.rindex("_")]
+    script = language['script'][script_key]
+    dialect = dialects.get(dialect_key, "").replace(" |", ",")
+    return script, dialect 
 
 def _handle_transcription_level(file_path: str) -> str:
     trans = file_path[
@@ -39,7 +32,6 @@ def _handle_transcription_level(file_path: str) -> str:
     if "_" in trans:
         trans = trans[: trans.index("_")]
     return trans
-
 
 def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
@@ -67,9 +59,8 @@ def main() -> None:
         transcription_level = _handle_transcription_level(file_path)
         wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = "filtered" in file_path
-        script = _handle_modifier(languages[iso639_code], file_path, "script")
-        dialect = _handle_modifier(
-            languages[iso639_code], file_path, "dialect"
+        script, dialect = _handle_modifiers(
+            languages[iso639_code], file_path
         )
         row = [
             iso639_code,
