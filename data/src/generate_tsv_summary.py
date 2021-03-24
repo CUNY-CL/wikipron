@@ -65,7 +65,6 @@ def _handle_wiki_name(
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:           
-            #print(modifier, language, "\n")
             key = file_path[
                 file_path.index("_") + 1 : file_path.rindex("_phone")
             ]
@@ -115,11 +114,6 @@ def main() -> None:
             os.remove(f"{path}/{file_path}")
             continue
         iso639_code = file_path[: file_path.index("_")]
-        '''
-        transcription_level = file_path[
-            file_path.index("phone") : file_path.index(".")
-        ].capitalize()
-        '''
         transcription_level = _handle_transcription_level(file_path)
         wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = True if "filtered" in file_path else False
