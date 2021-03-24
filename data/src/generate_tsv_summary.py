@@ -20,18 +20,18 @@ def _handle_modifier(
     modifier: str,
 ) -> str:
     modifiers = language.get(modifier, {})
-    key = file_path[file_path.index("_") + 1:file_path.rindex("_phone")]
+    key = file_path[file_path.index("_") + 1 : file_path.rindex("_phone")]
     if "_" in key:
         if modifier == "script":
             key = key[: key.index("_")]
         elif modifier == "dialect":
-            key = key[key.index("_") + 1:]
+            key = key[key.index("_") + 1 :]
     return modifiers.get(key, "")
 
 
 def _handle_transcription_level(file_path: str) -> str:
     trans = file_path[
-        file_path.index("phone"):file_path.index(".")
+        file_path.index("phone") : file_path.index(".")
     ].capitalize()
     if "_" in trans:
         trans = trans[: trans.index("_")]
@@ -45,7 +45,7 @@ def _handle_wiki_name(
     for modifier in modifiers:
         if modifier in language:
             key = file_path[
-                file_path.index("_") + 1:file_path.rindex("_phone")
+                file_path.index("_") + 1 : file_path.rindex("_phone")
             ]
             if not key:
                 logging.info(
