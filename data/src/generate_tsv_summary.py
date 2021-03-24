@@ -11,7 +11,27 @@ from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
-    return ele[3] + ele[5]
+    return ele[3] + ele[6]
+
+def _handle_script(
+    language: Dict[str, Any], file_path: str
+) -> Dict:
+    scripts = _get_scripts(language)
+    key = file_path[
+        file_path.index("_") + 1 : file_path.rindex("_phone")
+    ]
+    if key in scripts:
+        return scripts[key]
+    else:
+        return ""
+
+def _get_scripts(
+    language: Dict[str, Any]
+) -> Dict:
+    try:
+        return language["script"]
+    except KeyError:
+        return {}
 
 
 def _handle_wiki_name(
@@ -19,7 +39,8 @@ def _handle_wiki_name(
 ) -> str:
     name = language["wiktionary_name"]
     for modifier in modifiers:
-        if modifier in language:
+        if modifier in language:           
+            #print(modifier, language, "\n")
             key = file_path[
                 file_path.index("_") + 1 : file_path.rindex("_phone")
             ]
@@ -66,13 +87,17 @@ def main() -> None:
         ].capitalize()
         wiki_name = _handle_wiki_name(
             languages[iso639_code], file_path, modifiers
-        )
+        )	
+        filtered = True if "filtered" in file_path else False
+        script = _handle_script(languages[iso639_code], file_path)
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
             wiki_name,
-            languages[iso639_code]["casefold"],
+            script,
+            filtered,
             transcription_level,
+            languages[iso639_code]["casefold"],
             num_of_entries,
         ]
         # TSV and README have different first column.
@@ -92,17 +117,17 @@ def main() -> None:
     with open(README_PATH, "w", encoding="utf-8") as sink:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
-            "| Wiktionary Language Name | Case-folding "
-            "| Phonetic/Phonemic | # of entries |",
+            "| Wiktionary Language Name | Script | Filtered "
+            "| Phonetic/Phonemic | Case-folding | # of entries |",
             file=sink,
         )
         print(
-            "| :---- | :----: | :----: | :----: | :----: | :----: | ----: |",
+            "| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |",
             file=sink,
         )
-        for link, code, iso_name, wiki_name, cf, ph, count in readme_list:
+        for link, code, iso_name, wiki_name, script, fi, ph, cf, count in readme_list:
             print(
-                f"| {link} | {code} | {iso_name} | {wiki_name} | {cf} | {ph} "
+                f"| {link} | {code} | {iso_name} | {wiki_name} | {script} | {fi} | {ph} | {cf} "
                 f"| {count:,} |",
                 file=sink,
             )
