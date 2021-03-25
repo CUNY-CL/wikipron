@@ -60,8 +60,10 @@ def test_phones_data_matches_summary():
             with open(
                 f"{_PHONES_DIRECTORY}/{phones_list}", "r", encoding="utf-8"
             ) as tsv:
-                # Subtracting one for final blank line.
-                num_of_entries = sum(1 for line in tsv) - 1
+                # We exclude blank lines and comments.
+                num_of_entries = sum(
+                    1 for line in tsv if line.strip() and line[0] != "#"
+                )
             assert phones_list in name_to_count, (
                 f"{phones_list} in data/phones but not in "
                 "data/phones/phones_summary.tsv"
