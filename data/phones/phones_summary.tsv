@@ -1,38 +1,38 @@
-ady_phonetic.phones	ady	Adygei; Adyghe	Adyghe	Phonetic	72
-afr_phonemic.phones	afr	Afrikaans	Afrikaans	Phonemic	66
-arm_e_phonetic.phones	arm	Armenian	Armenian (Eastern Armenian, standard)	Phonetic	105
-arm_w_phonetic.phones	arm	Armenian	Armenian (Western Armenian, standard)	Phonetic	110
-aze_phonetic.phones	aze	Azerbaijani	Azerbaijani	Phonetic	70
-bul_phonemic.phones	bul	Bulgarian	Bulgarian	Phonemic	55
-bur_phonemic.phones	bur	Burmese	Burmese	Phonemic	88
-dut_phonemic.phones	dut	Dutch; Flemish	Dutch	Phonemic	53
-eng_uk_phonemic.phones	eng	English	English (UK, Received Pronunciation)	Phonemic	68
-eng_us_phonemic.phones	eng	English	English (US, General American)	Phonemic	67
-fre_phonemic.phones	fre	French	French	Phonemic	41
-geo_phonemic.phones	geo	Georgian	Georgian	Phonemic	42
-ger_phonemic.phones	ger	German	German	Phonemic	91
-gre_phonemic.phones	gre	Modern Greek (1453-)	Greek	Phonemic	40
-hin_phonemic.phones	hin	Hindi	Hindi	Phonemic	72
-hun_phonetic.phones	hun	Hungarian	Hungarian	Phonetic	91
-ice_phonemic.phones	ice	Icelandic	Icelandic	Phonemic	87
-ita_phonemic.phones	ita	Italian	Italian	Phonemic	39
-jpn_phonetic.phones	jpn	Japanese	Japanese	Phonetic	67
-khm_phonemic.phones	khm	Khmer	Khmer	Phonemic	90
-kor_phonetic.phones	kor	Korean	Korean	Phonetic	60
+ady_phonetic.phones	ady	Adygei; Adyghe	Adyghe	Phonetic	67
+afr_phonemic.phones	afr	Afrikaans	Afrikaans	Phonemic	61
+arm_e_phonetic.phones	arm	Armenian	Armenian (Eastern Armenian, standard)	Phonetic	72
+arm_w_phonetic.phones	arm	Armenian	Armenian (Western Armenian, standard)	Phonetic	72
+aze_phonetic.phones	aze	Azerbaijani	Azerbaijani	Phonetic	54
+bul_phonemic.phones	bul	Bulgarian	Bulgarian	Phonemic	52
+bur_phonemic.phones	bur	Burmese	Burmese	Phonemic	70
+dut_phonemic.phones	dut	Dutch; Flemish	Dutch	Phonemic	50
+eng_uk_phonemic.phones	eng	English	English (UK, Received Pronunciation)	Phonemic	64
+eng_us_phonemic.phones	eng	English	English (US, General American)	Phonemic	63
+fre_phonemic.phones	fre	French	French	Phonemic	40
+geo_phonemic.phones	geo	Georgian	Georgian	Phonemic	36
+ger_phonemic.phones	ger	German	German	Phonemic	83
+gre_phonemic.phones	gre	Modern Greek (1453-)	Greek	Phonemic	33
+hin_phonemic.phones	hin	Hindi	Hindi	Phonemic	64
+hun_phonetic.phones	hun	Hungarian	Hungarian	Phonetic	86
+ice_phonemic.phones	ice	Icelandic	Icelandic	Phonemic	71
+ita_phonemic.phones	ita	Italian	Italian	Phonemic	32
+jpn_phonetic.phones	jpn	Japanese	Japanese	Phonetic	64
+khm_phonemic.phones	khm	Khmer	Khmer	Phonemic	73
+kor_phonetic.phones	kor	Korean	Korean	Phonetic	61
 lat_clas_phonemic.phones	lat	Latin	Latin (Classical)	Phonemic	36
-lav_phonetic.phones	lav	Latvian	Latvian	Phonetic	115
-mlt_phonemic.phones	mlt	Maltese	Maltese	Phonemic	78
-nob_phonemic.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Phonemic	67
-por_bz_phonemic.phones	por	Portuguese	Portuguese (Brazil)	Phonemic	61
-por_po_phonemic.phones	por	Portuguese	Portuguese (Portugal)	Phonemic	54
-rum_phonetic.phones	rum	Romanian; Moldavian; Moldovan	Romanian	Phonetic	55
-hbs_phonemic.phones	hbs	Serbo-Croatian	Serbo-Croatian	Phonemic	71
-slv_phonemic.phones	slv	Slovenian	Slovene	Phonemic	51
-spa_ca_phonemic.phones	spa	Spanish; Castilian	Spanish (Castilian)	Phonemic	33
-spa_la_phonemic.phones	spa	Spanish; Castilian	Spanish (Latin America)	Phonemic	29
-tur_phonetic.phones	tur	Turkish	Turkish	Phonetic	56
-vie_hue_phonetic.phones	vie	Vietnamese	Vietnamese (Huế)	Phonetic	63
-vie_hanoi_phonetic.phones	vie	Vietnamese	Vietnamese (Hà Nội)	Phonetic	64
-vie_hcmc_phonetic.phones	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	Phonetic	53
-wel_nw_phonemic.phones	wel	Welsh	Welsh (North Wales)	Phonemic	71
-wel_sw_phonemic.phones	wel	Welsh	Welsh (South Wales)	Phonemic	61
+lav_phonetic.phones	lav	Latvian	Latvian	Phonetic	89
+mlt_phonemic.phones	mlt	Maltese	Maltese	Phonemic	59
+nob_phonemic.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Phonemic	54
+por_bz_phonemic.phones	por	Portuguese	Portuguese (Brazil)	Phonemic	55
+por_po_phonemic.phones	por	Portuguese	Portuguese (Portugal)	Phonemic	48
+rum_phonetic.phones	rum	Romanian; Moldavian; Moldovan	Romanian	Phonetic	51
+hbs_phonemic.phones	hbs	Serbo-Croatian	Serbo-Croatian	Phonemic	65
+slv_phonemic.phones	slv	Slovenian	Slovene	Phonemic	48
+spa_ca_phonemic.phones	spa	Spanish; Castilian	Spanish (Castilian)	Phonemic	29
+spa_la_phonemic.phones	spa	Spanish; Castilian	Spanish (Latin America)	Phonemic	27
+tur_phonetic.phones	tur	Turkish	Turkish	Phonetic	51
+vie_hue_phonetic.phones	vie	Vietnamese	Vietnamese (Huế)	Phonetic	53
+vie_hanoi_phonetic.phones	vie	Vietnamese	Vietnamese (Hà Nội)	Phonetic	54
+vie_hcmc_phonetic.phones	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	Phonetic	50
+wel_nw_phonemic.phones	wel	Welsh	Welsh (North Wales)	Phonemic	63
+wel_sw_phonemic.phones	wel	Welsh	Welsh (South Wales)	Phonemic	55

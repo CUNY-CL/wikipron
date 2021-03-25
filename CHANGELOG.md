@@ -41,6 +41,7 @@ Unreleased
 -   Configured and scraped Yamphu (`ybi`). (\#380)
 -   Configured and scraped Khumi Chin (`cnk`). (\#381)
 -   Made summary generation in `common_characters.py` optional. (\#382)
+-   Fixed phone counting in `data/src/generate_phones_summary.py` (\#390, \#392)
 
 ### Under `wikipron/` and elsewhere
 
