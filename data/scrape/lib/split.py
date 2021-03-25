@@ -12,7 +12,7 @@ import os
 
 import regex  # type: ignore
 
-from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY
+from data.scrape.lib.codes import LANGUAGES_PATH, TSV_DIRECTORY
 
 
 def _generalized_check(script: str, word: str, extension: str) -> bool:

@@ -7,7 +7,7 @@ import os
 
 from typing import Any, Dict, List
 
-from data.src.codes import (
+from data.scrape.lib.codes import (
     LANGUAGES_PATH,
     PHONES_SUMMARY_PATH,
     PHONES_README_PATH,
