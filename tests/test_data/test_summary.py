@@ -62,7 +62,9 @@ def test_phones_data_matches_summary():
             ) as tsv:
                 # We exclude blank lines and comments.
                 num_of_entries = sum(
-                    1 for line in tsv if line.strip() and line[0] != "#"
+                    1
+                    for line in tsv
+                    if line.strip() and not line.startswith("#")
                 )
             assert phones_list in name_to_count, (
                 f"{phones_list} in data/phones but not in "

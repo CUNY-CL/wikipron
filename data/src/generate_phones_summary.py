@@ -55,7 +55,9 @@ def main() -> None:
         with open(f"{path}/{file_path}", "r", encoding="utf-8") as phone_list:
             # We exclude blank lines and comments.
             num_of_entries = sum(
-                1 for line in phone_list if line.strip() and line[0] != "#"
+                1
+                for line in phone_list
+                if line.strip() and not line.startswith("#")
             )
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = file_path[
