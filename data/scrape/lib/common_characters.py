@@ -18,9 +18,9 @@ import regex  # type: ignore
 import unicodedataplus  # type: ignore
 
 from codes import (
-    TSV_DIRECTORY,
     COMMON_CHARS_PATH,
     GLOBAL_COMMON_CHARS_PATH,
+    TSV_DIRECTORY,
 )
 
 # List of commmon type Unicode characters included in the regex string.

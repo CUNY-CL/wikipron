@@ -15,8 +15,8 @@ import wikipron  # type: ignore
 from data.scrape.lib.codes import (
     LANGUAGES_PATH,
     LOGGING_PATH,
-    TSV_DIRECTORY,
     PHONES_DIRECTORY,
+    TSV_DIRECTORY,
 )
 
 
