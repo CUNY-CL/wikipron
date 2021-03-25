@@ -17,7 +17,7 @@ from typing import Dict, DefaultDict, Optional
 
 import unicodedataplus  # type: ignore
 
-from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH  # type: ignore
+from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY  # type: ignore
 
 
 def _detect_best_script_name(
@@ -108,12 +108,12 @@ def main():
         encoding="utf-8",
     ) as source:
         languages = json.load(source)
-    for filename in os.listdir(TSV_DIRECTORY_PATH):
+    for filename in os.listdir(TSV_DIRECTORY):
         if filename.endswith(".tsv"):
             iso639_code = filename[: filename.index("_")]
             lang = languages[iso639_code]
             with open(
-                f"{TSV_DIRECTORY_PATH}/{filename}", "r", encoding="utf-8"
+                f"{TSV_DIRECTORY}/{filename}", "r", encoding="utf-8"
             ) as source:
                 for line in source:
                     if line is not None:

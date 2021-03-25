@@ -35,26 +35,26 @@ import requests_html  # type: ignore
 import wikipron
 from wikipron.scrape import HTTP_HEADERS
 
-SRC_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
-LANGUAGES_PATH = os.path.join(SRC_DIRECTORY, "languages.json")
-COMMON_CHARS_PATH = os.path.join(SRC_DIRECTORY, "common_chars.json")
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")
 GLOBAL_COMMON_CHARS_PATH = os.path.join(
-    SRC_DIRECTORY, "global_common_chars.json"
+    LIB_DIRECTORY, "global_common_chars.json"
 )
 UNMATCHED_LANGUAGES_PATH = os.path.join(
-    SRC_DIRECTORY, "unmatched_languages.json"
+    LIB_DIRECTORY, "unmatched_languages.json"
 )
-LOGGING_PATH = os.path.join(SRC_DIRECTORY, "scraping.log")
-ISO_639_1_PATH = os.path.join(SRC_DIRECTORY, "iso639_1-to-iso639_2.json")
-ISO_639_2_PATH = os.path.join(SRC_DIRECTORY, "iso639_2.json")
+ISO_639_1_PATH = os.path.join(LIB_DIRECTORY, "iso639_1-to-iso639_2.json")
+ISO_639_2_PATH = os.path.join(LIB_DIRECTORY, "iso639_2.json")
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+LOGGING_PATH = os.path.join(SCRAPE_DIRECTORY, "scraping.log")
+README_PATH = os.path.join(SCRAPE_DIRECTORY, "README.md")
+LANGUAGES_SUMMARY_PATH = os.path.join(SCRAPE_DIRECTORY, "tsv_summary.tsv")
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
+PHONES_DIRECTORY = os.path.join(os.path.dirname(SCRAPE_DIRECTORY), "phones")
+PHONES_README_PATH = os.path.join(PHONES_DIRECTORY, "README.md")
+PHONES_SUMMARY_PATH = os.path.join(PHONES_DIRECTORY, "phones_summary.tsv")
 URL = "https://en.wiktionary.org/w/api.php"
-DATA_DIRECTORY = os.path.dirname(SRC_DIRECTORY)
-README_PATH = os.path.join(DATA_DIRECTORY, "README.md")
-LANGUAGES_SUMMARY_PATH = os.path.join(DATA_DIRECTORY, "tsv_summary.tsv")
-TSV_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "tsv")
-PHONES_DIRECTORY_PATH = os.path.join(DATA_DIRECTORY, "phones")
-PHONES_README_PATH = os.path.join(PHONES_DIRECTORY_PATH, "README.md")
-PHONES_SUMMARY_PATH = os.path.join(PHONES_DIRECTORY_PATH, "phones_summary.tsv")
 
 
 def _get_language_categories() -> List[str]:
