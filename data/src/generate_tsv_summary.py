@@ -11,38 +11,31 @@ from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
-    return ele[3] + ele[5]
+    return ele[3] + ele[7]
 
 
-def _handle_wiki_name(
-    language: Dict[str, Any], file_path: str, modifiers: List[str]
-) -> str:
-    name = language["wiktionary_name"]
-    for modifier in modifiers:
-        if modifier in language:
-            key = file_path[
-                file_path.index("_") + 1 : file_path.rindex("_phone")
-            ]
-            if not key:
-                logging.info(
-                    "Failed to isolate key for %r modifier in %r",
-                    modifier,
-                    file_path,
-                )
-                continue
-            # TODO: remove temporary solution after #365.
-            if "_" in key:
-                script_key, dialect_key = key.split("_")
-                if modifier == "dialect":
-                    values = language[modifier][dialect_key]
-                elif modifier == "script":
-                    values = language[modifier][script_key]
-            else:
-                values = language[modifier][key]
-            if "|" in values:
-                values = values.replace(" |", ",")
-            name += f" ({values})"
-    return name
+def _handle_modifiers(
+    language: Dict[str, Any],
+    file_path: str,
+):
+    dialects = language.get("dialect", {})
+    start = file_path.index("_") + 1
+    script_key = file_path[start : file_path.index("_", start)]
+    dialect_key = file_path[
+        file_path.index("_", start) + 1 : file_path.rindex("_")
+    ]
+    script = language["script"][script_key]
+    dialect = dialects.get(dialect_key, "").replace(" |", ",")
+    return script, dialect
+
+
+def _handle_transcription_level(file_path: str) -> str:
+    trans = file_path[
+        file_path.index("phone") : file_path.index(".")
+    ].capitalize()
+    if "_" in trans:
+        trans = trans[: trans.index("_")]
+    return trans
 
 
 def main() -> None:
@@ -51,7 +44,6 @@ def main() -> None:
     readme_list = []
     summaries = []
     path = "../../data/tsv"
-    modifiers = ["dialect", "script"]
     for file_path in os.listdir(path):
         # Filters out README.md.
         if file_path.endswith(".md"):
@@ -69,18 +61,19 @@ def main() -> None:
             os.remove(f"{path}/{file_path}")
             continue
         iso639_code = file_path[: file_path.index("_")]
-        transcription_level = file_path[
-            file_path.index("phone") : file_path.index(".")
-        ].capitalize()
-        wiki_name = _handle_wiki_name(
-            languages[iso639_code], file_path, modifiers
-        )
+        transcription_level = _handle_transcription_level(file_path)
+        wiki_name = languages[iso639_code]["wiktionary_name"]
+        filtered = "filtered" in file_path
+        script, dialect = _handle_modifiers(languages[iso639_code], file_path)
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
             wiki_name,
-            languages[iso639_code]["casefold"],
+            script,
+            dialect,
+            filtered,
             transcription_level,
+            languages[iso639_code]["casefold"],
             num_of_entries,
         ]
         # TSV and README have different first column.
@@ -97,17 +90,29 @@ def main() -> None:
     with open(README_PATH, "w", encoding="utf-8") as sink:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
-            "| Wiktionary Language Name | Case-folding "
-            "| Phonetic/Phonemic | # of entries |",
+            "| Wiktionary Language Name | Script | Dialect | Filtered "
+            "| Phonetic/Phonemic | Case-folding | # of entries |",
             file=sink,
         )
         print(
-            "| :---- | :----: | :----: | :----: | :----: | :----: | ----: |",
+            "| :---- |" + " :----: |" * 8 + " ----: |",
             file=sink,
         )
-        for link, code, iso_name, wiki_name, cf, ph, count in readme_list:
+        for (
+            link,
+            code,
+            iso_name,
+            wiki_name,
+            script,
+            dialect,
+            is_filtered,
+            phon,
+            casefold,
+            count,
+        ) in readme_list:
             print(
-                f"| {link} | {code} | {iso_name} | {wiki_name} | {cf} | {ph} "
+                f"| {link} | {code} | {iso_name} | {wiki_name} | {script} "
+                f"| {dialect} | {is_filtered} | {phon} | {casefold} "
                 f"| {count:,} |",
                 file=sink,
             )

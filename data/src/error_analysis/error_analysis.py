@@ -49,7 +49,7 @@ def main(args: argparse.Namespace) -> None:
                 rulematch_predmatch += 1
             else:
                 rulematch_pred_notmatch += 1
-    # Collects percentages....
+    # Collects percentages.
     rule_m_pred_nm = 100 * rulematch_pred_notmatch / total_records
     rule_m_pred_m = 100 * rulematch_predmatch / total_records
     rule_nm_pred_m = 100 * not_rulematch_predmatch / total_records

@@ -19,9 +19,12 @@ Unreleased
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
 -   Added `data/morphology`. (\#369)
 -   Added SIGMORPHON 2021 morphology data. (\#375)
+-   Added `data/cg/tsv/jpn_hira.tsv`. (\#384)
+-   Enforced final newlines. (\#387)
 
 #### Changed
 
+-   Added new columns in summary tables. (\#365)
 -   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
     `data/phones/HOWTO.md`. (\#352)
 -   Added Atong (India) (`aot`). (\#353)
@@ -37,6 +40,7 @@ Unreleased
 -   Morphology URLs are now provided as a list. (\#376)
 -   Configured and scraped Yamphu (`ybi`). (\#380)
 -   Configured and scraped Khumi Chin (`cnk`). (\#381)
+-   Made summary generation in `common_characters.py` optional. (\#382)
 
 ### Under `wikipron/` and elsewhere
 
