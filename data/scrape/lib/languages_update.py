@@ -128,8 +128,7 @@ def main():
                             # Uses property_value_aliases to get
                             # ISO-15924 code.
                             if script not in lang["script"]:
-                                script = script.replace("_", " ")
-                                lang["script"][_get_alias(script)] = script
+                                lang["script"][_get_alias(script)] = script.replace("_", " ")
                         _remove_mismatch_ids(lang)
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
         json.dump(languages, sink, ensure_ascii=False, indent=4)
