@@ -11,7 +11,7 @@ from data.scrape.lib.codes import (
     LANGUAGES_PATH,
     PHONES_SUMMARY_PATH,
     PHONES_README_PATH,
-    PHONES_DIRECTORY
+    PHONES_DIRECTORY,
 )
 
 
@@ -52,7 +52,9 @@ def main() -> None:
         # Filters out README.md.
         if file_path.endswith(".md") or file_path.endswith("tsv"):
             continue
-        with open(f"{PHONES_DIRECTORY}/{file_path}", "r", encoding="utf-8") as phone_list:
+        with open(
+            f"{PHONES_DIRECTORY}/{file_path}", "r", encoding="utf-8"
+        ) as phone_list:
             # We exclude blank lines and comments.
             num_of_entries = sum(
                 1

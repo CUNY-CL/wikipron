@@ -7,7 +7,12 @@ import os
 
 from typing import Any, Dict, List
 
-from data.scrape.lib.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH, TSV_DIRECTORY
+from data.scrape.lib.codes import (
+    LANGUAGES_PATH,
+    README_PATH,
+    LANGUAGES_SUMMARY_PATH,
+    TSV_DIRECTORY,
+)
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
@@ -45,7 +50,9 @@ def main() -> None:
     readme_list = []
     summaries = []
     for file_path in os.listdir(TSV_DIRECTORY):
-        with open(f"{TSV_DIRECTORY}/{file_path}", "r", encoding="utf-8") as tsv:
+        with open(
+            f"{TSV_DIRECTORY}/{file_path}", "r", encoding="utf-8"
+        ) as tsv:
             num_of_entries = sum(1 for line in tsv)
         # Removes files with less than 100 entries.
         if num_of_entries < 100:
