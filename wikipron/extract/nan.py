@@ -1,0 +1,59 @@
+"""Word and pron extraction for Min Nan."""
+
+import itertools
+import typing
+
+import requests_html
+
+from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
+
+
+if typing.TYPE_CHECKING:
+    from wikipron.config import Config
+    from wikipron.typing import Iterator, Word, Pron, WordPronPair
+
+
+# //ul//li[small[i[a[@title="w:Hokkien"]]]] is arbitarily selecting
+# Hokkien as the 'standard' dialect that there are subdialects of.
+_PRON_XPATH_SELECTOR_TEMPLATE = """
+    //div[@class="vsHide"][(.|ul)]
+        //li[a[@title="w:Min Nan"]]
+            //ul//li[small[i[a[@title="w:Hokkien"]]]]
+                {dialect_selector}
+"""
+
+_DIALECT_XPATH_SELECTOR_TEMPLATE = """
+//ul
+    //li[
+        small[i[a[{dialects_text}]]]
+    ]
+"""
+
+
+def yield_nan_pron(
+    request: requests_html, selector: str, config: "Config"
+) -> "Iterator[Pron]":
+    for li_container in request.html.xpath(selector):
+        yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
+
+
+def extract_word_pron_nan(
+    word: "Word", request: requests_html, config: "Config"
+) -> "Iterator[WordPronPair]":
+    if config.dialect:
+        dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(
+            dialects_text=" or ".join(
+                f'text() = "{d.strip()}"' for d in config.dialect.split("|")
+            )
+        )
+        selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
+            language=config.language, dialect_selector=dialect_selector
+        )
+        prons = yield_nan_pron(request, selector, config)
+    else:
+        selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
+            dialect_selector=""
+        )
+        prons = yield_nan_pron(request, selector, config)
+    words = itertools.repeat(word)
+    yield from zip(words, prons)
