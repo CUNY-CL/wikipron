@@ -4,7 +4,7 @@ import iso639
 import pytest
 
 import wikipron
-from data.src.codes import _get_language_categories, _get_language_sizes
+from data.scrape.lib.codes import _get_language_categories, _get_language_sizes
 from wikipron.languagecodes import LANGUAGE_CODES
 
 from . import can_connect_to_wiktionary

@@ -5,7 +5,7 @@ from typing import List
 
 import pytest
 
-from data.src.scrape import _build_scraping_config
+from data.scrape.scrape import _build_scraping_config
 
 
 def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:

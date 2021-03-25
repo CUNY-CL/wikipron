@@ -12,7 +12,7 @@ import os
 
 import regex  # type: ignore
 
-from data.src.codes import LANGUAGES_PATH, TSV_DIRECTORY_PATH
+from data.scrape.lib.codes import LANGUAGES_PATH, TSV_DIRECTORY
 
 
 def _generalized_check(script: str, word: str, extension: str) -> bool:
@@ -57,7 +57,7 @@ def main(args: argparse.Namespace) -> None:
                 return
         for script_prefix, unicode_script in lang["script"].items():
             output_path = (
-                f"{TSV_DIRECTORY_PATH}/{iso639_code}_{script_prefix}_"
+                f"{TSV_DIRECTORY}/{iso639_code}_{script_prefix}_"
                 f"{path_remainder}"
             )
             _iterate_through_file(

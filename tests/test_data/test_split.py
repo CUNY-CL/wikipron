@@ -5,13 +5,13 @@ import os
 
 from typing import Set
 
-from data.src.languages_update import _detect_best_script_name
-from data.src.split import _generalized_check
+from data.scrape.lib.languages_update import _detect_best_script_name
+from data.scrape.lib.split import _generalized_check
 
 _REPO_DIR = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 )
-_LANGUAGES = os.path.join(_REPO_DIR, "data/src/languages.json")
+_LANGUAGES = os.path.join(_REPO_DIR, "data/scrape/lib/languages.json")
 
 SmokeTestScript = collections.namedtuple(
     "SmokeTestScript", ("script", "samples")

@@ -12,11 +12,11 @@ from typing import Any, Dict, FrozenSet, Iterator
 
 import wikipron  # type: ignore
 
-from data.src.codes import (
+from data.scrape.lib.codes import (
     LANGUAGES_PATH,
     LOGGING_PATH,
-    TSV_DIRECTORY_PATH,
-    PHONES_DIRECTORY_PATH,
+    PHONES_DIRECTORY,
+    TSV_DIRECTORY,
 )
 
 
@@ -155,8 +155,8 @@ def main(args: argparse.Namespace) -> None:
         if "dialect" not in language_settings:
             _build_scraping_config(
                 config_settings,
-                f"{TSV_DIRECTORY_PATH}/{config_settings['key']}_",
-                f"{PHONES_DIRECTORY_PATH}/{config_settings['key']}_",
+                f"{TSV_DIRECTORY}/{config_settings['key']}_",
+                f"{PHONES_DIRECTORY}/{config_settings['key']}_",
             )
         else:
             for (dialect_key, dialect_value) in language_settings[
@@ -165,8 +165,8 @@ def main(args: argparse.Namespace) -> None:
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
-                    f"{TSV_DIRECTORY_PATH}/{config_settings['key']}_{dialect_key}_",
-                    f"{PHONES_DIRECTORY_PATH}/{config_settings['key']}_{dialect_key}_",
+                    f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
+                    f"{PHONES_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
                 )
 
 

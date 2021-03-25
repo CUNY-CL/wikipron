@@ -42,7 +42,6 @@ Steps used to update the dataset
         `datetime.date.today().isoformat()` but can be set manually using an ISO
         formatted string (ex. "2019-10-31").
 3.  Run [`postprocess`](postprocess).
-4.  Run [`generate_tsv_summary.py`](generate_tsv_summary.py).
 
 Running a subset of languages using the big scrape
 --------------------------------------------------
@@ -61,4 +60,3 @@ The following steps can be used to run the big scrape procedure for a subset:
     scrape run - which can be found in the messages logged to the console or in
     `scraping.log`.
 3.  Run [`postprocess`](postprocess).
-4.  Run [`generate_tsv_summary.py`](generate_tsv_summary.py).

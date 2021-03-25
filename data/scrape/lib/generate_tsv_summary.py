@@ -7,7 +7,12 @@ import os
 
 from typing import Any, Dict, List
 
-from data.src.codes import LANGUAGES_PATH, README_PATH, LANGUAGES_SUMMARY_PATH
+from data.scrape.lib.codes import (
+    LANGUAGES_PATH,
+    README_PATH,
+    LANGUAGES_SUMMARY_PATH,
+    TSV_DIRECTORY,
+)
 
 
 def _wiki_name_and_transcription_level(ele: List[str]) -> str:
@@ -20,9 +25,10 @@ def _handle_modifiers(
 ):
     dialects = language.get("dialect", {})
     start = file_path.index("_") + 1
+    end = file_path.rindex("_phon") + 1
     script_key = file_path[start : file_path.index("_", start)]
     dialect_key = file_path[
-        file_path.index("_", start) + 1 : file_path.rindex("_")
+        file_path.index("_", start) + 1 : file_path.rindex("_", start, end)
     ]
     script = language["script"][script_key]
     dialect = dialects.get(dialect_key, "").replace(" |", ",")
@@ -43,12 +49,10 @@ def main() -> None:
         languages = json.load(source)
     readme_list = []
     summaries = []
-    path = "../../data/tsv"
-    for file_path in os.listdir(path):
-        # Filters out README.md.
-        if file_path.endswith(".md"):
-            continue
-        with open(f"{path}/{file_path}", "r", encoding="utf-8") as tsv:
+    for file_path in os.listdir(TSV_DIRECTORY):
+        with open(
+            f"{TSV_DIRECTORY}/{file_path}", "r", encoding="utf-8"
+        ) as tsv:
             num_of_entries = sum(1 for line in tsv)
         # Removes files with less than 100 entries.
         if num_of_entries < 100:
@@ -58,7 +62,7 @@ def main() -> None:
                 file_path,
                 num_of_entries,
             )
-            os.remove(f"{path}/{file_path}")
+            os.remove(f"{TSV_DIRECTORY}/{file_path}")
             continue
         iso639_code = file_path[: file_path.index("_")]
         transcription_level = _handle_transcription_level(file_path)
