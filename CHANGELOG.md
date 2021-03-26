@@ -22,6 +22,7 @@ Unreleased
 -   Added `data/cg/tsv/jpn_hira.tsv`. (\#384)
 -   Enforced final newlines. (\#387)
 -   Adds all UniMorph languages to morphology. (\#393)
+-   Added `data/covering_grammar/lib/make_test_file.py` (\#396)
 
 #### Changed
 
@@ -45,6 +46,7 @@ Unreleased
 -   Fixed phone counting in `data/src/generate_phones_summary.py` (\#390, \#392)
 -   Reorganizes scraping scripts under `data/scrape` (\#394)
 -   Reorganizes `.phones` files and related scripts under `data/phones` (\#395)
+-   Reorganizes CG files and related scripts under `data/covering_grammar` (\#395)
 
 ### Under `wikipron/` and elsewhere
 
