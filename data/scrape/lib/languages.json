@@ -1263,7 +1263,11 @@
         "iso639_name": "Min Nan Chinese",
         "wiktionary_name": "Min Nan",
         "wiktionary_code": "nan",
-        "casefold": true
+        "casefold": true,
+        "skip_spaces_pron": false,
+        "dialect": {
+            "xi": "Xiamen"
+        }
     },
     "mvi": {
         "iso639_name": "Miyako",

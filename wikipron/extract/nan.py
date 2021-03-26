@@ -13,18 +13,20 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, Word, Pron, WordPronPair
 
 
-# //ul//li[small[i[a[@title="w:Hokkien"]]]] is arbitarily selecting
-# Hokkien as the 'standard' dialect that there are subdialects of.
+# /ul/li[small[i[a[@title="w:Hokkien"]]]] is arbitarily selecting
+# Hokkien as the 'standard' dialect. Users can then specify the
+# particular 'subdialect' of Hokkien that they desire using the
+# --dialect flag.
 _PRON_XPATH_SELECTOR_TEMPLATE = """
     //div[@class="vsHide"][(.|ul)]
-        //li[a[@title="w:Min Nan"]]
-            //ul//li[small[i[a[@title="w:Hokkien"]]]]
+        /li[a[@title="w:Min Nan"]]
+            /ul/li[small[i[a[@title="w:Hokkien"]]]]
                 {dialect_selector}
 """
 
 _DIALECT_XPATH_SELECTOR_TEMPLATE = """
-//ul
-    //li[
+/ul
+    /li[
         small[i[a[{dialects_text}]]]
     ]
 """
@@ -46,14 +48,11 @@ def extract_word_pron_nan(
                 f'text() = "{d.strip()}"' for d in config.dialect.split("|")
             )
         )
-        selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
-            language=config.language, dialect_selector=dialect_selector
-        )
-        prons = yield_nan_pron(request, selector, config)
     else:
-        selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
-            dialect_selector=""
-        )
-        prons = yield_nan_pron(request, selector, config)
+        dialect_selector = ""
+    selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
+        dialect_selector=dialect_selector
+    )    
     words = itertools.repeat(word)
+    prons = yield_nan_pron(request, selector, config)
     yield from zip(words, prons)
