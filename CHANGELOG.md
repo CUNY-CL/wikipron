@@ -44,6 +44,7 @@ Unreleased
 -   Made summary generation in `common_characters.py` optional. (\#382)
 -   Fixed phone counting in `data/src/generate_phones_summary.py` (\#390, \#392)
 -   Reorganizes scraping scripts under `data/scrape` (\#394)
+-   Reorganizes `.phones` files and related scripts under `data/phones` (\#395)
 
 ### Under `wikipron/` and elsewhere
 
