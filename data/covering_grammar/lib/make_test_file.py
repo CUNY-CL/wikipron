@@ -14,13 +14,8 @@ import logging
 def main(args: argparse.Namespace) -> None:
     with open(args.gold, "r") as gf, open(args.pred, "r") as pf:
         with open(args.out, "w") as wf:
-            # Loop over lines in the files containing the gold data and
-            # the predictions. Gather each word, its actual pronunciation,
-            # and its predicted pronunciation, and write them to the
-            # outfile.
             for i, (g_line, p_line) in enumerate(zip(gf, pf)):
                 try:
-                    # Separate lines into [word, pron] lists
                     g_data = g_line.split("\t")
                     p_data = p_line.split("\t")
                     # Make sure that gold data and predictions have the
