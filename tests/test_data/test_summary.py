@@ -6,7 +6,7 @@ _REPO_DIR = os.path.dirname(
 _TSV_SUMMARY = os.path.join(_REPO_DIR, "data/scrape/tsv_summary.tsv")
 _TSV_DIRECTORY = os.path.join(_REPO_DIR, "data/scrape/tsv")
 _PHONES_SUMMARY = os.path.join(_REPO_DIR, "data/phones/phones_summary.tsv")
-_PHONES_DIRECTORY = os.path.join(_REPO_DIR, "data/phones")
+_PHONES_DIRECTORY = os.path.join(_REPO_DIR, "data/phones/phones")
 
 
 def test_language_data_matches_summary():
