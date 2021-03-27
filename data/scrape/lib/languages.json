@@ -1267,6 +1267,12 @@
         "skip_spaces_pron": false,
         "dialect": {
             "xi": "Xiamen"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han"
         }
     },
     "mvi": {
