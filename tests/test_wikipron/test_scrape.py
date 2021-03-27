@@ -59,7 +59,6 @@ _SMOKE_TEST_LANGUAGES = [
 def test_smoke_test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
-    print(smoke_test_language)
     config = config_factory(
         key=smoke_test_language.key, **smoke_test_language.config_params
     )
