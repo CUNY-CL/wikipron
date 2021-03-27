@@ -23,10 +23,3 @@ three-column TSV files:
 ## Shared tasks
 
 Specific configurations for shared tasks are stored [here](shared_tasks).
-
-## TODO
-
--   Add *all* the UniMorph languages to
-    [`unimorph_languages.json`](unimorph_languages.json), and move the shared
-    task language JSON to a subdirectory, like in frequencies
--   Add a script for the actual splitting.

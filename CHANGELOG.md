@@ -21,6 +21,7 @@ Unreleased
 -   Added SIGMORPHON 2021 morphology data. (\#375)
 -   Added `data/cg/tsv/jpn_hira.tsv`. (\#384)
 -   Enforced final newlines. (\#387)
+-   Adds all UniMorph languages to morphology. (\#393)
 
 #### Changed
 
@@ -43,6 +44,7 @@ Unreleased
 -   Made summary generation in `common_characters.py` optional. (\#382)
 -   Fixed phone counting in `data/src/generate_phones_summary.py` (\#390, \#392)
 -   Reorganizes scraping scripts under `data/scrape` (\#394)
+-   Reorganizes `.phones` files and related scripts under `data/phones` (\#395)
 
 ### Under `wikipron/` and elsewhere
 

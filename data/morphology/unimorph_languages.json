@@ -2,8 +2,20 @@
     "ady": [
         "https://raw.githubusercontent.com/unimorph/ady/master/ady"
     ],
+    "alb": [
+        "https://raw.githubusercontent.com/unimorph/sqi/master/sqi"
+    ],
+    "ang": [
+        "https://raw.githubusercontent.com/unimorph/ang/master/ang"
+    ],
+    "ara": [
+        "https://raw.githubusercontent.com/unimorph/ara/master/ara"
+    ],
     "arm": [
         "https://raw.githubusercontent.com/unimorph/hye/master/hye"
+    ],
+    "ast": [
+        "https://raw.githubusercontent.com/unimorph/ast/master/ast"
     ],
     "aze": [
         "https://raw.githubusercontent.com/unimorph/aze/master/aze"
@@ -11,8 +23,17 @@
     "bak": [
         "https://raw.githubusercontent.com/unimorph/bak/master/bak"
     ],
+    "baq": [
+        "https://raw.githubusercontent.com/unimorph/eus/master/eus"
+    ],
     "bel": [
         "https://raw.githubusercontent.com/unimorph/bel/master/bel"
+    ],
+    "ben": [
+        "https://raw.githubusercontent.com/unimorph/ben/master/ben"
+    ],
+    "bre": [
+        "https://raw.githubusercontent.com/unimorph/bre/master/bre"
     ],
     "bul": [
         "https://raw.githubusercontent.com/unimorph/bul/master/bul"
@@ -20,17 +41,26 @@
     "cat": [
         "https://raw.githubusercontent.com/unimorph/cat/master/cat"
     ],
-    "ces": [
+    "cor": [
+        "https://raw.githubusercontent.com/unimorph/cor/master/cor"
+    ],
+    "cze": [
         "https://raw.githubusercontent.com/unimorph/ces/master/ces"
     ],
     "dan": [
         "https://raw.githubusercontent.com/unimorph/dan/master/dan"
+    ],
+    "dsb": [
+        "https://raw.githubusercontent.com/unimorph/dsb/master/dsb"
     ],
     "dut": [
         "https://raw.githubusercontent.com/unimorph/nld/master/nld"
     ],
     "eng": [
         "https://raw.githubusercontent.com/unimorph/eng/master/eng"
+    ],
+    "est": [
+        "https://raw.githubusercontent.com/unimorph/est/master/est"
     ],
     "fao": [
         "https://raw.githubusercontent.com/unimorph/fao/master/fao"
@@ -39,8 +69,14 @@
         "https://raw.githubusercontent.com/unimorph/fin/master/fin.1",
         "https://raw.githubusercontent.com/unimorph/fin/master/fin.2"
     ],
-    "glg": [
-        "https://raw.githubusercontent.com/unimorph/gal/master/gal"
+    "fre": [
+        "https://raw.githubusercontent.com/unimorph/fra/master/fra"
+    ],
+    "fro": [
+        "https://raw.githubusercontent.com/unimorph/fro/master/fro"
+    ],
+    "frr": [
+        "https://raw.githubusercontent.com/unimorph/frr/master/frr"
     ],
     "geo": [
         "https://raw.githubusercontent.com/unimorph/kat/master/kat"
@@ -48,7 +84,130 @@
     "ger": [
         "https://raw.githubusercontent.com/unimorph/deu/master/deu"
     ],
+    "gla": [
+        "https://raw.githubusercontent.com/unimorph/gla/master/gla"
+    ],
+    "gle": [
+        "https://raw.githubusercontent.com/unimorph/gle/master/gle"
+    ],
+    "glv": [
+        "https://raw.githubusercontent.com/unimorph/glv/master/glv"
+    ],
+    "got": [
+        "https://raw.githubusercontent.com/unimorph/got/master/got"
+    ],
     "gre": [
         "https://raw.githubusercontent.com/unimorph/ell/master/ell"
+    ],
+    "heb": [
+        "https://raw.githubusercontent.com/unimorph/heb/master/heb"
+    ],
+    "hin": [
+        "https://raw.githubusercontent.com/unimorph/hin/master/hin"
+    ],
+    "hun": [
+        "https://raw.githubusercontent.com/unimorph/hun/master/hun"
+    ],
+    "ice": [
+        "https://raw.githubusercontent.com/unimorph/isl/master/isl"
+    ],
+    "ita": [
+        "https://raw.githubusercontent.com/unimorph/ita/master/ita"
+    ],
+    "kal": [
+        "https://raw.githubusercontent.com/unimorph/kal/master/kal"
+    ],
+    "kaz": [
+        "https://raw.githubusercontent.com/unimorph/kaz/master/kaz"
+    ],
+    "kbd": [
+        "https://raw.githubusercontent.com/unimorph/kbd/master/kbd"
+    ],
+    "lat": [
+        "https://raw.githubusercontent.com/unimorph/lat/master/lat"
+    ],
+    "lav": [
+        "https://raw.githubusercontent.com/unimorph/lav/master/lav"
+    ],
+    "lit": [
+        "https://raw.githubusercontent.com/unimorph/lit/master/lit"
+    ],
+    "mac": [
+        "https://raw.githubusercontent.com/unimorph/mkd/master/mkd"
+    ],
+    "mlt": [
+        "https://raw.githubusercontent.com/unimorph/mlt/master/mlt"
+    ],
+    "nap": [
+        "https://raw.githubusercontent.com/unimorph/nap/master/nap"
+    ],
+    "nav": [
+        "https://raw.githubusercontent.com/unimorph/nav/master/nav"
+    ],
+    "nds": [
+        "https://raw.githubusercontent.com/unimorph/nds/master/nds"
+    ],
+    "nno": [
+        "https://raw.githubusercontent.com/unimorph/nno/master/nno"
+    ],
+    "nob": [
+        "https://raw.githubusercontent.com/unimorph/nob/master/nob"
+    ],
+    "oci": [
+        "https://raw.githubusercontent.com/unimorph/oci/master/oci"
+    ],
+    "per": [
+        "https://raw.githubusercontent.com/unimorph/fas/master/fas"
+    ],
+    "pol": [
+        "https://raw.githubusercontent.com/unimorph/pol/master/pol"
+    ],
+    "por": [
+        "https://raw.githubusercontent.com/unimorph/por/master/por"
+    ],
+    "pus": [
+        "https://raw.githubusercontent.com/unimorph/pus/master/pus"
+    ],
+    "que": [
+        "https://raw.githubusercontent.com/unimorph/que/master/que"
+    ],
+    "rum": [
+        "https://raw.githubusercontent.com/unimorph/ron/master/ron"
+    ],
+    "rus": [
+        "https://raw.githubusercontent.com/unimorph/rus/master/rus"
+    ],
+    "san": [
+        "https://raw.githubusercontent.com/unimorph/san/master/san"
+    ],
+    "sga": [
+        "https://raw.githubusercontent.com/unimorph/sga/master/sga"
+    ],
+    "slv": [
+        "https://raw.githubusercontent.com/unimorph/slv/master/slv"
+    ],
+    "sme": [
+        "https://raw.githubusercontent.com/unimorph/sme/master/sme"
+    ],
+    "spa": [
+        "https://raw.githubusercontent.com/unimorph/spa/master/spa"
+    ],
+    "swe": [
+        "https://raw.githubusercontent.com/unimorph/swe/master/swe"
+    ],
+    "syc": [
+        "https://raw.githubusercontent.com/unimorph/syc/master/syc"
+    ],
+    "tur": [
+        "https://raw.githubusercontent.com/unimorph/tur/master/tur"
+    ],
+    "ukr": [
+        "https://raw.githubusercontent.com/unimorph/ukr/master/ukr"
+    ],
+    "urd": [
+        "https://raw.githubusercontent.com/unimorph/urd/master/urd"
+    ],
+    "wel": [
+        "https://raw.githubusercontent.com/unimorph/cym/master/cym"
     ]
 }
