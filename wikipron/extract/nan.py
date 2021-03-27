@@ -52,7 +52,7 @@ def extract_word_pron_nan(
         dialect_selector = ""
     selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
         dialect_selector=dialect_selector
-    )    
+    )
     words = itertools.repeat(word)
     prons = yield_nan_pron(request, selector, config)
     yield from zip(words, prons)

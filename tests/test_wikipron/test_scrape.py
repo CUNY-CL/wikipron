@@ -38,10 +38,19 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("lat", "Latin", {}),
     # Japanese data is mostly phonetic transcription.
     SmokeTestLanguage("jpn", "Japanese", {"phonetic": True}),
-    SmokeTestLanguage("cmn", "Chinese", {}),
+    SmokeTestLanguage("cmn", "Chinese", {"skip_spaces_pron": False}),
     # Vietnamese data is mostly phonetic transcription.
-    SmokeTestLanguage("vie", "Vietnamese", {"phonetic": True}),
-    SmokeTestLanguage("yue", "Cantonese", {}),
+    SmokeTestLanguage(
+        "vie",
+        "Vietnamese",
+        {
+            "phonetic": True,
+            "skip_spaces_word": False,
+            "skip_spaces_pron": False,
+        },
+    ),
+    SmokeTestLanguage("yue", "Cantonese", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("nan", "Min Nan", {"skip_spaces_pron": False}),
 ]
 
 
@@ -50,6 +59,7 @@ _SMOKE_TEST_LANGUAGES = [
 def test_smoke_test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
     n = 10  # number of word-pron pairs to scrape
+    print(smoke_test_language)
     config = config_factory(
         key=smoke_test_language.key, **smoke_test_language.config_params
     )
