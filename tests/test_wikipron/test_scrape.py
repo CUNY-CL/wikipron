@@ -38,10 +38,19 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("lat", "Latin", {}),
     # Japanese data is mostly phonetic transcription.
     SmokeTestLanguage("jpn", "Japanese", {"phonetic": True}),
-    SmokeTestLanguage("cmn", "Chinese", {}),
+    SmokeTestLanguage("cmn", "Chinese", {"skip_spaces_pron": False}),
     # Vietnamese data is mostly phonetic transcription.
-    SmokeTestLanguage("vie", "Vietnamese", {"phonetic": True}),
-    SmokeTestLanguage("yue", "Cantonese", {}),
+    SmokeTestLanguage(
+        "vie",
+        "Vietnamese",
+        {
+            "phonetic": True,
+            "skip_spaces_word": False,
+            "skip_spaces_pron": False,
+        },
+    ),
+    SmokeTestLanguage("yue", "Cantonese", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("nan", "Min Nan", {"skip_spaces_pron": False}),
 ]
 
 

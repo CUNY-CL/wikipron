@@ -75,7 +75,11 @@ def _language_name_for_scraping(language):
     We'll keep this function as simple as possible, until it becomes too
     complicated and requires refactoring.
     """
-    return "Chinese" if language == "Cantonese" else language
+    return (
+        "Chinese"
+        if language == "Cantonese" or language == "Min Nan"
+        else language
+    )
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:
