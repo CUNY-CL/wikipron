@@ -19,7 +19,7 @@ if typing.TYPE_CHECKING:
 # --dialect flag.
 _PRON_XPATH_SELECTOR_TEMPLATE = """
     //div[@class="vsHide"][(.|ul)]
-        /li[a[@title="w:Min Nan"]]
+        //li[a[@title="w:Min Nan"]]
             /ul/li[small[i[a[@title="w:Hokkien"]]]]
                 {dialect_selector}
 """
