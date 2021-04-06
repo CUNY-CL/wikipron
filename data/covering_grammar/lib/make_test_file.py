@@ -21,7 +21,7 @@ def main(args: argparse.Namespace) -> None:
                 p_word, p_pron = p_line.rstrip().split("\t")
                 # Make sure that gold data and predictions have the
                 # same words.
-                if not g_word == p_word:
+                if g_word != p_word:
                     logging.warning(
                         "%s != %s (line %d)", g_word, p_word, lineno
                     )
