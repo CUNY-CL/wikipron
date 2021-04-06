@@ -196,6 +196,7 @@ mga_latn_phonemic.tsv	mga	Middle Irish (900-1200)	Middle Irish	Latin		False	Phon
 okm_hang_phonemic.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	Hangul		False	Phonemic	False	334
 gml_latn_phonemic.tsv	gml	Middle Low German	Middle Low German	Latin		False	Phonemic	True	170
 wlm_latn_phonemic.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Phonemic	True	144
+nan_hani_xi_phonemic.tsv	nan	Min Nan Chinese	Min Nan	Han	Xiamen	False	Phonemic	True	44588
 mdf_cyrl_phonemic.tsv	mdf	Moksha	Moksha	Cyrillic		False	Phonemic	True	117
 mnw_mymr_phonemic.tsv	mnw	Mon	Mon	Myanmar		False	Phonemic	False	514
 mon_cyrl_phonemic.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Phonemic	True	1166

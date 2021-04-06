@@ -53,6 +53,7 @@ Unreleased
 #### Added
 
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
+-  Added Min Nan extraction function. (\#397)
 
 [1.2.0] - 2021-01-30
 --------------------

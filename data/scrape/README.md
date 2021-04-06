@@ -198,6 +198,7 @@
 | [TSV](tsv/okm_hang_phonemic.tsv) | okm | Middle Korean (10th-16th cent.) | Middle Korean | Hangul |  | False | Phonemic | False | 334 |
 | [TSV](tsv/gml_latn_phonemic.tsv) | gml | Middle Low German | Middle Low German | Latin |  | False | Phonemic | True | 170 |
 | [TSV](tsv/wlm_latn_phonemic.tsv) | wlm | Middle Welsh | Middle Welsh | Latin |  | False | Phonemic | True | 144 |
+| [TSV](tsv/nan_hani_xi_phonemic.tsv) | nan | Min Nan Chinese | Min Nan | Han | Xiamen | False | Phonemic | True | 44,588 |
 | [TSV](tsv/mdf_cyrl_phonemic.tsv) | mdf | Moksha | Moksha | Cyrillic |  | False | Phonemic | True | 117 |
 | [TSV](tsv/mnw_mymr_phonemic.tsv) | mnw | Mon | Mon | Myanmar |  | False | Phonemic | False | 514 |
 | [TSV](tsv/mon_cyrl_phonemic.tsv) | mon | Mongolian | Mongolian | Cyrillic |  | False | Phonemic | True | 1,166 |
