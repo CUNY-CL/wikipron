@@ -22,7 +22,7 @@ Unreleased
 -   Added `data/cg/tsv/jpn_hira.tsv`. (\#384)
 -   Enforced final newlines. (\#387)
 -   Adds all UniMorph languages to morphology. (\#393)
--   Added `data/covering_grammar/lib/make_test_file.py` (\#396)
+-   Added `data/covering_grammar/lib/make_test_file.py` (\#396, \#399)
 
 #### Changed
 
