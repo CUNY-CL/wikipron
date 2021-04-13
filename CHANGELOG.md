@@ -23,6 +23,7 @@ Unreleased
 -   Enforced final newlines. (\#387)
 -   Adds all UniMorph languages to morphology. (\#393)
 -   Added `data/covering_grammar/lib/make_test_file.py` (\#396, \#399)
+-   Scraped Komi-Zyrian (`kpv`). (\#400)
 
 #### Changed
 
