@@ -887,7 +887,11 @@
         "iso639_name": "Komi-Zyrian",
         "wiktionary_name": "Komi-Zyrian",
         "wiktionary_code": "kpv",
-        "casefold": null
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
+        }
     },
     "kok": {
         "iso639_name": "Konkani (macrolanguage)",
