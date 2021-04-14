@@ -1,0 +1,232 @@
+# CONSONANT LETTERS
+b	b
+b	p  # Before a voiceless consonant.
+b	
+c	s  # Before <e, i, y>. Before <æ, œ> in some Greek and Latin loans.
+c	k
+ç	s
+cc	ks  # Before <e, i, y>.
+cc	k
+ch	ʃ
+ch	k  # Mainly in loanwords.
+ch	tʃ  # Mainly in loanwords.
+ct	kt
+ct	
+d	d
+d	
+f	f
+ff	f
+g	ʒ  # Before <e, i, y>
+g	ɡ
+g	
+g	dʒ  # Mainly in loanwords.
+gg	ɡʒ  # Before <e, i, y>
+gg	ɡ
+gn	ɲ
+h	
+j	ʒ
+j	dʒ  # Mainly in loanwords.
+k	k
+l	l
+l	
+ll	l
+m	m
+mm	m
+n	n
+ng	ŋ  # Mainly in loanwords.
+nn	n
+p	p
+p	
+ph	f
+pp	p
+pt	pt
+pt	t
+pt
+q	k
+r	ʁ
+rr	ʁ
+r	
+s	s
+s	z
+s	
+sc	s  # Before <e, i, y>.
+sc	sk
+sch	ʃ
+sch	sk
+st	st
+st	
+t	t
+t	
+tch	tʃ
+th	t
+v	v
+w	w
+w	v
+x	ks
+x	ɡz
+x	s
+x	z
+x	
+xc	ks  # Before <e, i, y>.
+xc	ksk
+z	z
+z	
+# VOWEL LETTERS
+a	a
+a	ɑ
+à	a
+â	ɑ
+â	a  # Parisian French.
+æ	e
+aa	a
+ae	e
+ae	a
+aë	aɛ
+ai	ɛ
+ai	e
+ai	ə  # In conjugations of <faire>.
+aî	ɛ
+aï	ai
+aï	aj
+aie	ɛ
+aie	ɛj
+ao	ao
+ao	aɔ
+aô	ao
+aô	aɔ
+aou	au
+aou	u
+aoû	au
+aoû	u
+au	o
+au	ɔ
+ay	ɛj
+ay	aj
+ay	ɛ
+aye	ɛi
+aye	ɛj
+e	ə
+e	ɛ
+e	e
+e	
+é	e
+é	ɛ  # I don't think this pronunciation occurs in the reformed orthography.
+ée	e
+è	ɛ
+ê	ɛ
+ê	e
+ê	ɛː  # Regional.
+ea	i  # In loanwords.
+eau	o
+ee	i  # In loanwords.
+ei	ɛ
+eî	ɛ
+eoi	wa
+eu	ø
+eu	œ
+eu	y  # In conjugations of <avoir>.
+eû	ø
+ey	ɛj
+ey	ɛ  # In loanwords.
+i	i
+i	j
+î	i
+ï	i
+ï	j
+o	o
+o	ɔ
+ô	o
+œ	œ
+œ	e
+œ	ɛ
+oê	wa
+œu	ø
+œu	œ
+oi	wa
+oi	wɑ
+oî	wa
+oie	wa
+oie	wɑ
+oo	ɔɔ
+oo	u  # In loanwords.
+ou	u
+ou	w
+où	u
+oû	u
+oue	u
+oy	waj
+oy	wa
+oy	ɔy  # In conjugations of <ouïr>.
+u	y
+u	ɥ
+û	y
+ue	ɥɛ
+ue	œ
+ue	y
+ue	
+uy	ɥij
+uy	yj
+y	i
+y	j
+ÿ	i
+# VOWELS/CONSONANT COMBINATIONS
+am	ɑ̃
+am[EOS]	am
+an	ɑ̃
+an	an
+aen	ɑ̃
+aën	ɑ̃
+aim	ɛ̃
+ain	ɛ̃
+aon	ɑ̃
+aw	o
+cqu	k
+cte[EOS]	t
+em	ɑ̃
+en	ɑ̃
+en	ɛ̃
+eim	ɛ̃
+ein	ɛ̃
+ent	ɑ̃
+ent	
+er	e
+er	ɛʁ
+es	
+es	e
+es	ɛ
+eun	œ̃
+ew	ju  # In loanwords.
+ge	ʒ
+gu	ɡ
+gu	ɡy
+gu	ɡɥ
+il[EOS]	j
+il[EOS]	il
+il[EOS]	i
+ilh	ij
+ilh	j
+ill	j
+ill	ij
+ill	il
+im	ɛ̃
+in	ɛ̃
+în	ɛ̃
+oin	wɛ̃
+oën	wɛ̃
+om	ɔ̃
+on	ɔ̃
+ow	o
+qu	k
+qu	kɥ
+qu	kw
+ti	ti
+ti	tj
+ti	si
+ti	sj
+um	œ̃
+um	ɔm
+un	œ̃
+ym	ɛ̃
+ym	im
+yn	ɛ̃
+

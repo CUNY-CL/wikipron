@@ -22,6 +22,7 @@ Unreleased
 -   Added `data/cg/tsv/jpn_hira.tsv`. (\#384)
 -   Enforced final newlines. (\#387)
 -   Adds all UniMorph languages to morphology. (\#393)
+-   Added `data/covering_grammar/tsv/fre_latn_phonemic.tsv` (\#398)
 -   Added `data/covering_grammar/lib/make_test_file.py` (\#396, \#399)
 -   Scraped Komi-Zyrian (`kpv`). (\#400)
 
@@ -48,6 +49,7 @@ Unreleased
 -   Reorganizes scraping scripts under `data/scrape` (\#394)
 -   Reorganizes `.phones` files and related scripts under `data/phones` (\#395)
 -   Reorganizes CG files and related scripts under `data/covering_grammar` (\#395)
+-   Reorganized `data/phones/phones/fre_phonemic.phones` (\#398)
 
 ### Under `wikipron/` and elsewhere
 
