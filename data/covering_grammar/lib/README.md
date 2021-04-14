@@ -31,5 +31,7 @@ Two input files are required:
 
 ## Example workflow
 
-1.  `cd data/src/error_analysis`
-2.  `./error_analysis.py --cg_path=cg.tsv --test_path=test.tsv`
+```bash
+cd data/src/error_analysis
+./error_analysis.py --cg_path=cg.tsv --test_path=test.tsv
+```
