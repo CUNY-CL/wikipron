@@ -22,7 +22,7 @@ def write_frequency_tsv(
     source_path = f"{basename}.tsv"
     sink_path = f"{basename}_freq.tsv"
     # Will try to overwrite narrow and broad WikiPron TSVs for all Wortschatz
-    # languages. WikiPron may not have both a narrow and broad TSV for all 
+    # languages. WikiPron may not have both a narrow and broad TSV for all
     # languages.
     try:
         # This is written to be run after remove_duplicates_and_split.sh

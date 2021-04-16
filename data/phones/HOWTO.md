@@ -19,7 +19,7 @@ file:
 When creating a `.phones` file for broadly transcribed data, the goal is often
 to create something that approximates a list of phonemes. However, there may 
 be segments that are properly considered pure allophones but appear in broad 
-transcriptions. However, such  segments may be quite frequent in the data and 
+transcriptions. However, such segments may be quite frequent in the data and 
 removing all pronunciations that contain them would greatly reduce the amount 
 of available data. Therefore, we prefer to simply add a comment of the form 
 `# Allophone of ...`; such annotations will ultimately be used improve 
