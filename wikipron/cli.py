@@ -15,9 +15,9 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         "key", help="key (i.e., ISO 639 code or name) for the language"
     )
     parser.add_argument(
-        "--phonetic",
+        "--narrow",
         action="store_true",
-        help="retrieves [phonetic] rather than /phonemic/ transcriptions",
+        help="retrieves [narrow] rather than /broad/ transcriptions",
     )
     parser.add_argument(
         "--stress",
