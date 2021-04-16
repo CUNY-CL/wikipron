@@ -77,7 +77,7 @@ def main() -> None:
         ]
         languages_summary_list.append([file_path] + row)
         readme_list.append([f"[phone]({file_path})"] + row)
-    # Sorts by Wiktionary language name, with phonemic entries before phonetic
+    # Sorts by Wiktionary language name, with broad entries before narrow
     # ones.
     languages_summary_list.sort(key=_wiki_name_and_transcription_level)
     readme_list.sort(key=_wiki_name_and_transcription_level)

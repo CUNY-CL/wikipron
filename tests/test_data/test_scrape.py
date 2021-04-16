@@ -11,10 +11,10 @@ from data.scrape.scrape import _build_scraping_config
 def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:
     """Creates dummy .phones files in dummy phones directory."""
     open(
-        f"{phones_dir}/{key}_{dialect}phonetic.phones", "w", encoding="utf-8"
+        f"{phones_dir}/{key}_{dialect}narrow.phones", "w", encoding="utf-8"
     ).close()
     open(
-        f"{phones_dir}/{key}_{dialect}phonemic.phones", "w", encoding="utf-8"
+        f"{phones_dir}/{key}_{dialect}broad.phones", "w", encoding="utf-8"
     ).close()
 
 
@@ -32,10 +32,10 @@ def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:
             "test_",
             True,
             [
-                "mul_test_phonetic.tsv",
-                "mul_test_phonemic.tsv",
-                "mul_test_phonetic_filtered.tsv",
-                "mul_test_phonemic_filtered.tsv",
+                "mul_test_narrow.tsv",
+                "mul_test_broad.tsv",
+                "mul_test_narrow_filtered.tsv",
+                "mul_test_broad_filtered.tsv",
             ],
         ),
         # Phones
@@ -44,10 +44,10 @@ def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:
             "",
             True,
             [
-                "mul_phonetic.tsv",
-                "mul_phonemic.tsv",
-                "mul_phonetic_filtered.tsv",
-                "mul_phonemic_filtered.tsv",
+                "mul_narrow.tsv",
+                "mul_broad.tsv",
+                "mul_narrow_filtered.tsv",
+                "mul_broad_filtered.tsv",
             ],
         ),
         # Dialect
@@ -55,14 +55,14 @@ def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:
             "mul",
             "test_",
             False,
-            ["mul_test_phonetic.tsv", "mul_test_phonemic.tsv"],
+            ["mul_test_narrow.tsv", "mul_test_broad.tsv"],
         ),
         # Standard
         (
             "mul",
             "",
             False,
-            ["mul_phonetic.tsv", "mul_phonemic.tsv"],
+            ["mul_narrow.tsv", "mul_broad.tsv"],
         ),
     ],
 )
