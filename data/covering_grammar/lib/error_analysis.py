@@ -19,7 +19,7 @@ __author__ = "Arundhati Sengupta"
 
 import argparse
 
-import prettytable  # type: ignore
+import prettytable
 import pynini
 from pynini.lib import rewrite
 

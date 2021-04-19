@@ -5,7 +5,7 @@ This tool performs a fine-grained error analysis of a G2P model. It prints a
 
 The performance matrix is a 2x2 table where the dimensions are:
 
--   whether the hypothesized pronunciation matches the corpus prediction, and
+-   whether the hypothesized pronunciation matches the corpus prediction and
 -   whether the hypothesized pronunciation adheres to the spelling rules of the
     language and script, according to a user-provided covering grammar.
 
