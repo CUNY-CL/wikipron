@@ -25,9 +25,14 @@ def _handle_wiki_name(
     name = language["wiktionary_name"]
     for modifier in modifiers:
         if modifier in language:
-            key = file_path[
-                file_path.index("_") + 1 : file_path.rindex("_phone")
-            ]
+            if "broad" in file_path:
+                key = file_path[
+                    file_path.index("_") + 1 : file_path.rindex("_broad")
+                ]
+            else:
+                key = file_path[
+                    file_path.index("_") + 1 : file_path.rindex("_narrow")
+                ]
             if not key:
                 logging.info(
                     "Failed to isolate key for %r modifier in %r",
@@ -50,7 +55,7 @@ def main() -> None:
     modifiers = ["dialect"]
     for file_path in os.listdir(PHONES_DIRECTORY):
         # Filters out README.md.
-        if file_path.endswith(".md") or file_path.endswith("tsv"):
+        if not file_path.endswith(".phones"):
             continue
         with open(
             f"{PHONES_DIRECTORY}/{file_path}", "r", encoding="utf-8"
@@ -62,9 +67,14 @@ def main() -> None:
                 if line.strip() and not line.startswith("#")
             )
         iso639_code = file_path[: file_path.index("_")]
-        transcription_level = file_path[
-            file_path.index("phone") : file_path.index(".")
-        ].capitalize()
+        if "broad" in file_path:
+            transcription_level = file_path[
+                file_path.index("broad") : file_path.index(".")
+            ].capitalize()
+        else:
+            transcription_level = file_path[
+                file_path.index("narrow") : file_path.index(".")
+            ].capitalize()
         wiki_name = _handle_wiki_name(
             languages[iso639_code], file_path, modifiers
         )
@@ -95,7 +105,7 @@ def main() -> None:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
             "| Wiktionary Language Name "
-            "| Phonetic/Phonemic | # of phones |",
+            "| Narrow/broad | # of phones |",
             file=sink,
         )
         print(

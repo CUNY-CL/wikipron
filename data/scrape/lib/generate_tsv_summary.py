@@ -25,7 +25,10 @@ def _handle_modifiers(
 ):
     dialects = language.get("dialect", {})
     start = file_path.index("_") + 1
-    end = file_path.rindex("_phon") + 1
+    if "broad" in file_path:
+        end = file_path.rindex("_broad") + 1
+    else:
+        end = file_path.rindex("_narrow") + 1
     script_key = file_path[start : file_path.index("_", start)]
     dialect_key = file_path[
         file_path.index("_", start) + 1 : file_path.rindex("_", start, end)
@@ -36,9 +39,14 @@ def _handle_modifiers(
 
 
 def _handle_transcription_level(file_path: str) -> str:
-    trans = file_path[
-        file_path.index("phone") : file_path.index(".")
-    ].capitalize()
+    if "broad" in file_path:
+        trans = file_path[
+            file_path.index("broad") : file_path.index(".")
+        ].capitalize()
+    else:
+        trans = file_path[
+            file_path.index("narrow") : file_path.index(".")
+        ].capitalize()
     if "_" in trans:
         trans = trans[: trans.index("_")]
     return trans

@@ -1,38 +1,38 @@
-ady_phonetic.phones	ady	Adygei; Adyghe	Adyghe	Phonetic	67
-afr_phonemic.phones	afr	Afrikaans	Afrikaans	Phonemic	61
-arm_e_phonetic.phones	arm	Armenian	Armenian (Eastern Armenian, standard)	Phonetic	72
-arm_w_phonetic.phones	arm	Armenian	Armenian (Western Armenian, standard)	Phonetic	72
-aze_phonetic.phones	aze	Azerbaijani	Azerbaijani	Phonetic	54
-bul_phonemic.phones	bul	Bulgarian	Bulgarian	Phonemic	52
-bur_phonemic.phones	bur	Burmese	Burmese	Phonemic	70
-dut_phonemic.phones	dut	Dutch; Flemish	Dutch	Phonemic	50
-eng_uk_phonemic.phones	eng	English	English (UK, Received Pronunciation)	Phonemic	64
-eng_us_phonemic.phones	eng	English	English (US, General American)	Phonemic	63
-fre_phonemic.phones	fre	French	French	Phonemic	40
-geo_phonemic.phones	geo	Georgian	Georgian	Phonemic	36
-ger_phonemic.phones	ger	German	German	Phonemic	83
-gre_phonemic.phones	gre	Modern Greek (1453-)	Greek	Phonemic	33
-hin_phonemic.phones	hin	Hindi	Hindi	Phonemic	64
-hun_phonetic.phones	hun	Hungarian	Hungarian	Phonetic	86
-ice_phonemic.phones	ice	Icelandic	Icelandic	Phonemic	71
-ita_phonemic.phones	ita	Italian	Italian	Phonemic	32
-jpn_phonetic.phones	jpn	Japanese	Japanese	Phonetic	64
-khm_phonemic.phones	khm	Khmer	Khmer	Phonemic	73
-kor_phonetic.phones	kor	Korean	Korean	Phonetic	61
-lat_clas_phonemic.phones	lat	Latin	Latin (Classical)	Phonemic	36
-lav_phonetic.phones	lav	Latvian	Latvian	Phonetic	89
-mlt_phonemic.phones	mlt	Maltese	Maltese	Phonemic	59
-nob_phonemic.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Phonemic	54
-por_bz_phonemic.phones	por	Portuguese	Portuguese (Brazil)	Phonemic	55
-por_po_phonemic.phones	por	Portuguese	Portuguese (Portugal)	Phonemic	48
-rum_phonetic.phones	rum	Romanian; Moldavian; Moldovan	Romanian	Phonetic	51
-hbs_phonemic.phones	hbs	Serbo-Croatian	Serbo-Croatian	Phonemic	65
-slv_phonemic.phones	slv	Slovenian	Slovene	Phonemic	48
-spa_ca_phonemic.phones	spa	Spanish; Castilian	Spanish (Castilian)	Phonemic	29
-spa_la_phonemic.phones	spa	Spanish; Castilian	Spanish (Latin America)	Phonemic	27
-tur_phonetic.phones	tur	Turkish	Turkish	Phonetic	51
-vie_hue_phonetic.phones	vie	Vietnamese	Vietnamese (Huế)	Phonetic	53
-vie_hanoi_phonetic.phones	vie	Vietnamese	Vietnamese (Hà Nội)	Phonetic	54
-vie_hcmc_phonetic.phones	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	Phonetic	50
-wel_nw_phonemic.phones	wel	Welsh	Welsh (North Wales)	Phonemic	63
-wel_sw_phonemic.phones	wel	Welsh	Welsh (South Wales)	Phonemic	55
+ady_narrow.phones	ady	Adygei; Adyghe	Adyghe	Narrow	67
+afr_broad.phones	afr	Afrikaans	Afrikaans	Broad	61
+arm_e_narrow.phones	arm	Armenian	Armenian (Eastern Armenian, standard)	Narrow	72
+arm_w_narrow.phones	arm	Armenian	Armenian (Western Armenian, standard)	Narrow	72
+aze_narrow.phones	aze	Azerbaijani	Azerbaijani	Narrow	54
+bul_broad.phones	bul	Bulgarian	Bulgarian	Broad	52
+bur_broad.phones	bur	Burmese	Burmese	Broad	70
+dut_broad.phones	dut	Dutch; Flemish	Dutch	Broad	50
+eng_uk_broad.phones	eng	English	English (UK, Received Pronunciation)	Broad	64
+eng_us_broad.phones	eng	English	English (US, General American)	Broad	63
+fre_broad.phones	fre	French	French	Broad	40
+geo_broad.phones	geo	Georgian	Georgian	Broad	36
+ger_broad.phones	ger	German	German	Broad	83
+gre_broad.phones	gre	Modern Greek (1453-)	Greek	Broad	33
+hin_broad.phones	hin	Hindi	Hindi	Broad	64
+hun_narrow.phones	hun	Hungarian	Hungarian	Narrow	86
+ice_broad.phones	ice	Icelandic	Icelandic	Broad	71
+ita_broad.phones	ita	Italian	Italian	Broad	32
+jpn_narrow.phones	jpn	Japanese	Japanese	Narrow	64
+khm_broad.phones	khm	Khmer	Khmer	Broad	73
+kor_narrow.phones	kor	Korean	Korean	Narrow	61
+lat_clas_broad.phones	lat	Latin	Latin (Classical)	Broad	36
+lav_narrow.phones	lav	Latvian	Latvian	Narrow	89
+mlt_broad.phones	mlt	Maltese	Maltese	Broad	59
+nob_broad.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Broad	54
+por_bz_broad.phones	por	Portuguese	Portuguese (Brazil)	Broad	55
+por_po_broad.phones	por	Portuguese	Portuguese (Portugal)	Broad	48
+rum_narrow.phones	rum	Romanian; Moldavian; Moldovan	Romanian	Narrow	51
+hbs_broad.phones	hbs	Serbo-Croatian	Serbo-Croatian	Broad	65
+slv_broad.phones	slv	Slovenian	Slovene	Broad	48
+spa_ca_broad.phones	spa	Spanish; Castilian	Spanish (Castilian)	Broad	29
+spa_la_broad.phones	spa	Spanish; Castilian	Spanish (Latin America)	Broad	27
+tur_narrow.phones	tur	Turkish	Turkish	Narrow	51
+vie_hue_narrow.phones	vie	Vietnamese	Vietnamese (Huế)	Narrow	53
+vie_hanoi_narrow.phones	vie	Vietnamese	Vietnamese (Hà Nội)	Narrow	54
+vie_hcmc_narrow.phones	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	Narrow	50
+wel_nw_broad.phones	wel	Welsh	Welsh (North Wales)	Broad	63
+wel_sw_broad.phones	wel	Welsh	Welsh (South Wales)	Broad	55
