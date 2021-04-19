@@ -27,7 +27,7 @@ Two input files are required:
     zero or more graphemes, and the right contains zero or more phones it can
     correspond to.
 2.  Test output: a three-column TSV file in which the columns are the graphemic
-    form, the hypothesized pronunciation, and the gold pronunciation.
+    form, the gold pronunciation, and the hypothesized pronunciation.
 
 ## Example workflow
 
