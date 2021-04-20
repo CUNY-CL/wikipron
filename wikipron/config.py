@@ -58,7 +58,7 @@ class Config:
         stress: bool = True,
         syllable_boundaries: bool = True,
         cut_off_date: Optional[str] = None,
-        phonetic: bool = False,
+        narrow: bool = False,
         dialect: Optional[str] = None,
         segment: bool = True,
         tone: bool = True,
