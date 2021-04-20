@@ -29,22 +29,22 @@ _SMOKE_TEST_LANGUAGES = [
     # Test that 'sup[a[@title = "wikipedia:Slovak phonology"]]' works.
     SmokeTestLanguage("slk", "Slovak", {}),
     # Test that the extra "span" layer for Korean is handled.
-    # Korean data is mostly phonetic transcription only.
-    SmokeTestLanguage("kor", "Korean", {"phonetic": True}),
+    # Korean data is mostly narrow transcription only.
+    SmokeTestLanguage("kor", "Korean", {"narrow": True}),
     SmokeTestLanguage("khb", "Lü", {}),
     SmokeTestLanguage("khm", "Khmer", {}),
     SmokeTestLanguage("shn", "Shan", {}),
     SmokeTestLanguage("tha", "Thai", {}),
     SmokeTestLanguage("lat", "Latin", {}),
-    # Japanese data is mostly phonetic transcription.
-    SmokeTestLanguage("jpn", "Japanese", {"phonetic": True}),
+    # Japanese data is mostly narrow transcription.
+    SmokeTestLanguage("jpn", "Japanese", {"narrow": True}),
     SmokeTestLanguage("cmn", "Chinese", {"skip_spaces_pron": False}),
-    # Vietnamese data is mostly phonetic transcription.
+    # Vietnamese data is mostly narrow transcription.
     SmokeTestLanguage(
         "vie",
         "Vietnamese",
         {
-            "phonetic": True,
+            "narrow": True,
             "skip_spaces_word": False,
             "skip_spaces_pron": False,
         },
