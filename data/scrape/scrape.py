@@ -90,13 +90,13 @@ def _build_scraping_config(
     else:
         _call_scrape(config_settings, phonemic_config, phonemic_path)
     # Configures phonetic TSV.
-    phonetic_config = wikipron.Config(phonetic=True, **config_settings)
+    phonetic_config = wikipron.Config(narrow=True, **config_settings)
     phonetic_path = f"{path_affix}narrow.tsv"
     # Checks for phonetic phones file.
     phones_phonetic = f"{phones_path_affix}narrow.phones"
     if os.path.exists(phones_phonetic):
         logging.info(
-            "Phonetic phones found for %r at %r",
+            "Narrow phones found for %r at %r",
             config_settings["key"],
             phones_phonetic,
         )
