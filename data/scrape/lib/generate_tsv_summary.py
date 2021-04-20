@@ -103,7 +103,7 @@ def main() -> None:
         print(
             "| Link | ISO 639-2 Code | ISO 639 Language Name "
             "| Wiktionary Language Name | Script | Dialect | Filtered "
-            "| Phonetic/Phonemic | Case-folding | # of entries |",
+            "| Narrow/Broad | Case-folding | # of entries |",
             file=sink,
         )
         print(

@@ -1,4 +1,4 @@
-| Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Phonetic/Phonemic | Case-folding | # of entries |
+| Link | ISO 639-2 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | Case-folding | # of entries |
 | :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/ady_cyrl_narrow.tsv) | ady | Adygei; Adyghe | Adyghe | Cyrillic |  | False | Narrow | True | 5,123 |
 | [TSV](tsv/ady_cyrl_narrow_filtered.tsv) | ady | Adygei; Adyghe | Adyghe | Cyrillic |  | True | Narrow | True | 4,895 |
