@@ -69,16 +69,16 @@ def _build_scraping_config(
 ) -> None:
     # Configures phonemic TSV.
     phonemic_config = wikipron.Config(**config_settings)
-    phonemic_path = f"{path_affix}phonemic.tsv"
+    phonemic_path = f"{path_affix}broad.tsv"
     # Checks for phonemic phones file.
-    phones_phonemic = f"{phones_path_affix}phonemic.phones"
+    phones_phonemic = f"{phones_path_affix}broad.phones"
     if os.path.exists(phones_phonemic):
         logging.info(
-            "Phonemic phones found for %r at %r",
+            "Broad transcription phones found for %r at %r",
             config_settings["key"],
             phones_phonemic,
         )
-        phonemic_path_filtered = f"{path_affix}phonemic_filtered.tsv"
+        phonemic_path_filtered = f"{path_affix}broad_filtered.tsv"
         phoneme_set = frozenset(_phones_reader(phones_phonemic))
         _call_scrape(
             config_settings,
@@ -90,17 +90,17 @@ def _build_scraping_config(
     else:
         _call_scrape(config_settings, phonemic_config, phonemic_path)
     # Configures phonetic TSV.
-    phonetic_config = wikipron.Config(phonetic=True, **config_settings)
-    phonetic_path = f"{path_affix}phonetic.tsv"
+    phonetic_config = wikipron.Config(narrow=True, **config_settings)
+    phonetic_path = f"{path_affix}narrow.tsv"
     # Checks for phonetic phones file.
-    phones_phonetic = f"{phones_path_affix}phonetic.phones"
+    phones_phonetic = f"{phones_path_affix}narrow.phones"
     if os.path.exists(phones_phonetic):
         logging.info(
-            "Phonetic phones found for %r at %r",
+            "Narrow phones found for %r at %r",
             config_settings["key"],
             phones_phonetic,
         )
-        phonetic_path_filtered = f"{path_affix}phonetic_filtered.tsv"
+        phonetic_path_filtered = f"{path_affix}narrow_filtered.tsv"
         phone_set = frozenset(_phones_reader(phones_phonetic))
         _call_scrape(
             config_settings,

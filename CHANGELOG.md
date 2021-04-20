@@ -51,6 +51,9 @@ Unreleased
 -   Reorganizes CG files and related scripts under `data/covering_grammar` (\#395)
 -   Reorganized `data/phones/phones/fre_phonemic.phones` (\#398)
 -   Removed `data/src/` (\#401)
+-   Renamed TSV files and phonelists to use the terms "broad"/"narrow" instead
+    of "phonemic"/"phonetic" (\#389, \#402)
+
 
 ### Under `wikipron/` and elsewhere
 

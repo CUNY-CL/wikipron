@@ -1,9 +1,9 @@
 Phones
 ======
 
-A `.phones` file is a list of permitted phonemes (or phones, for `_phonetic.tsv`
-files); any pronunciation which is not totally composed of the permitted
-phonemes (resp. phones) will be filtered as a postprocessing step.
+A `.phones` file is a list of permitted phones; any pronunciation which is not
+totally composed of the permitted phones will be filtered as a postprocessing 
+step.
 
 What they filter
 ----------------
@@ -16,12 +16,14 @@ file:
 -   non-native segments (e.g., a transcription of *Bach* as ending in the
     voiceless velar fricative /x/)
 
-Finally, for phonemic lists, there may be segments that are properly considered
-pure allophones but appear in phonemic transcriptions. However, such segments
-may be quite frequent in the data and removing all pronunciations that contain
-them would greatly reduce the amount of available data. Therefore, we prefer to
-simply add a comment of the form `# Allophone of ...`; such annotations will
-ultimately be used improve Wiktionary itself.
+When creating a `.phones` file for broadly transcribed data, the goal is often
+to create something that approximates a list of phonemes. However, there may 
+be segments that are properly considered pure allophones but appear in broad 
+transcriptions. However, such segments may be quite frequent in the data and 
+removing all pronunciations that contain them would greatly reduce the amount 
+of available data. Therefore, we prefer to simply add a comment of the form 
+`# Allophone of ...`; such annotations will ultimately be used improve 
+Wiktionary itself.
 
 Wiktionary has [transcription
 guidelines](https://en.wiktionary.org/wiki/Appendix:English_pronunciation) for
@@ -46,7 +48,7 @@ the [fork and pull](../../CONTRIBUTING.md) model for contributions.
     of its example word-pronunciation pairs, which should help you decide which
     phones/phonemes to remove. For the phones or phonemes to retain, remove the
     comments of counts and example word-pronunciation pairs.
-3.  For a phonemic list, add comments about allophony.
+3.  For a broadly transcribed list, add comments about allophony.
 4.  In [`../scrape`](../scrape) run 
     ```./scrape.py --restriction=<your-lang> && ./postprocess```
     This may take a while.
