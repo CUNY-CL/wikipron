@@ -19,14 +19,10 @@ def _wiki_name_and_transcription_level(ele: List[str]) -> str:
     return ele[3] + ele[4]
 
 
-def _handle_wiki_name(
-    language: Dict[str, Any], file_path: str
-) -> str:
+def _handle_wiki_name(language: Dict[str, Any], file_path: str) -> str:
     name = language["wiktionary_name"]
     if "dialect" in language:
-        key = file_path[
-            file_path.index("_") + 1 : file_path.rindex("_")
-        ]
+        key = file_path[file_path.index("_") + 1 : file_path.rindex("_")]
         if not key:
             logging.info(
                 "Failed to isolate key for dialect modifier in %r",
@@ -59,9 +55,7 @@ def main() -> None:
             transcription_level = "Broad"
         else:
             transcription_level = "Narrow"
-        wiki_name = _handle_wiki_name(
-            languages[iso639_code], file_path
-        )
+        wiki_name = _handle_wiki_name(languages[iso639_code], file_path)
         row = [
             iso639_code,
             languages[iso639_code]["iso639_name"],
