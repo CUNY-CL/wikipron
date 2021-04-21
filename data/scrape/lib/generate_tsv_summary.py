@@ -38,20 +38,6 @@ def _handle_modifiers(
     return script, dialect
 
 
-def _handle_transcription_level(file_path: str) -> str:
-    if "broad" in file_path:
-        trans = file_path[
-            file_path.index("broad") : file_path.index(".")
-        ].capitalize()
-    else:
-        trans = file_path[
-            file_path.index("narrow") : file_path.index(".")
-        ].capitalize()
-    if "_" in trans:
-        trans = trans[: trans.index("_")]
-    return trans
-
-
 def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
@@ -73,7 +59,10 @@ def main() -> None:
             os.remove(f"{TSV_DIRECTORY}/{file_path}")
             continue
         iso639_code = file_path[: file_path.index("_")]
-        transcription_level = _handle_transcription_level(file_path)
+        if "broad" in file_path:
+            transcription_level = "Broad"
+        else:
+            transcription_level = "Narrow"
         wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = "filtered" in file_path
         script, dialect = _handle_modifiers(languages[iso639_code], file_path)

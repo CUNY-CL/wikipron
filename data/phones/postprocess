@@ -1,0 +1,10 @@
+#!/bin/bash
+# Runs summary generation script.
+
+set -eou pipefail
+
+main() {
+    ./lib/generate_phones_summary.py
+}
+
+main
