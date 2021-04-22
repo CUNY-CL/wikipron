@@ -3,8 +3,4 @@
 
 set -eou pipefail
 
-main() {
-    ./lib/generate_phones_summary.py
-}
-
-main
+./lib/generate_phones_summary.py

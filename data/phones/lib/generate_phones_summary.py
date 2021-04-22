@@ -39,7 +39,7 @@ def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
     readme_list = []
-    phones_summary_list = []
+    phones_summaries = []
     for file_path in os.listdir(PHONES_DIRECTORY):
         with open(
             f"{PHONES_DIRECTORY}/{file_path}", "r", encoding="utf-8"
@@ -63,17 +63,17 @@ def main() -> None:
             transcription_level,
             num_of_entries,
         ]
-        phones_summary_list.append([file_path] + row)
+        phones_summaries.append([file_path] + row)
         readme_list.append([f"[phone](phones/{file_path})"] + row)
     # Sorts by Wiktionary language name, with broad entries before narrow
     # ones.
-    phones_summary_list.sort(key=_wiki_name_and_transcription_level)
+    phones_summaries.sort(key=_wiki_name_and_transcription_level)
     readme_list.sort(key=_wiki_name_and_transcription_level)
     with open(PHONES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer_object = csv.writer(
             sink, delimiter="\t", lineterminator="\n"
         )
-        tsv_writer_object.writerows(phones_summary_list)
+        tsv_writer_object.writerows(phones_summaries)
     # Writes the README.
     with open(PHONES_README_PATH, "w", encoding="utf-8") as sink:
         print(

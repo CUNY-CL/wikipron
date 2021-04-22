@@ -15,8 +15,8 @@ from data.scrape.lib.codes import (
 )
 
 
-def _wiki_name_and_transcription_level(ele: List[str]) -> str:
-    return ele[3] + ele[7]
+def wiki_name_filtered_and_path(ele: List[str]) -> str:
+    return ele[3] + str(ele[6]) + ele[0]
 
 
 def _handle_modifiers(
@@ -81,8 +81,8 @@ def main() -> None:
         summaries.append([file_path] + row)
         readme_list.append([f"[TSV](tsv/{file_path})"] + row)
     # Sorts by Wiktionary language name.
-    summaries.sort(key=_wiki_name_and_transcription_level)
-    readme_list.sort(key=_wiki_name_and_transcription_level)
+    summaries.sort(key=wiki_name_filtered_and_path)
+    readme_list.sort(key=wiki_name_filtered_and_path)
     # Writes the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t", lineterminator="\n")
