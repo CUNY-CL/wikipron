@@ -35,12 +35,9 @@ def main(args: argparse.Namespace) -> None:
         with open(args.test_path, "r") as source:
             for line in source:
                 total_records += 1
-                (ortho_str, hypo_p_str, gold_p_str) = line.rstrip().split(
-                    "\t", 2
-                )
-                ortho = pynini.accep(ortho_str)
-                hypo_p = pynini.accep(hypo_p_str.replace(" ", ""))
-                gold_p = pynini.accep(gold_p_str.replace(" ", ""))
+                ortho, hypo_p, gold_p = line.rstrip().split("\t", 2)
+                hypo_p = hypo_p.replace(" ", "")
+                gold_p = gold_p.replace(" ", "")
                 if rewrite.matches(ortho, hypo_p, cg_fst):
                     if gold_p == hypo_p:
                         rulematch_predmatch += 1
@@ -51,7 +48,6 @@ def main(args: argparse.Namespace) -> None:
                         not_rulematch_predmatch += 1
                     else:
                         not_rulematch_pred_notmatch += 1
-
         # Collects percentages.
         rule_m_pred_nm = 100 * rulematch_pred_notmatch / total_records
         rule_m_pred_m = 100 * rulematch_predmatch / total_records
