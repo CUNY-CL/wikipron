@@ -15,6 +15,7 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/geo_broad.phones) | geo | Georgian | Georgian | Broad | 36 |
 | [phone](phones/ger_broad.phones) | ger | German | German | Broad | 83 |
 | [phone](phones/gre_broad.phones) | gre | Modern Greek (1453-) | Greek | Broad | 33 |
+| [phone](phones/hbs_broad.phones) | hbs | Serbo-Croatian | Serbo-Croatian | Broad | 65 |
 | [phone](phones/hin_broad.phones) | hin | Hindi | Hindi | Broad | 64 |
 | [phone](phones/hun_narrow.phones) | hun | Hungarian | Hungarian | Narrow | 86 |
 | [phone](phones/ice_broad.phones) | ice | Icelandic | Icelandic | Broad | 71 |
@@ -29,13 +30,12 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 55 |
 | [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 48 |
 | [phone](phones/rum_narrow.phones) | rum | Romanian; Moldavian; Moldovan | Romanian | Narrow | 51 |
-| [phone](phones/hbs_broad.phones) | hbs | Serbo-Croatian | Serbo-Croatian | Broad | 65 |
 | [phone](phones/slv_broad.phones) | slv | Slovenian | Slovene | Broad | 48 |
 | [phone](phones/spa_ca_broad.phones) | spa | Spanish; Castilian | Spanish (Castilian) | Broad | 29 |
 | [phone](phones/spa_la_broad.phones) | spa | Spanish; Castilian | Spanish (Latin America) | Broad | 27 |
 | [phone](phones/tur_narrow.phones) | tur | Turkish | Turkish | Narrow | 51 |
-| [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 53 |
 | [phone](phones/vie_hanoi_narrow.phones) | vie | Vietnamese | Vietnamese (Hà Nội) | Narrow | 54 |
 | [phone](phones/vie_hcmc_narrow.phones) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | Narrow | 50 |
+| [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 53 |
 | [phone](phones/wel_nw_broad.phones) | wel | Welsh | Welsh (North Wales) | Broad | 63 |
 | [phone](phones/wel_sw_broad.phones) | wel | Welsh | Welsh (South Wales) | Broad | 55 |

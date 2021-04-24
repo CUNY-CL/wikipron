@@ -5,7 +5,8 @@ import json
 import logging
 import os
 
-from typing import Any, Dict, List
+from operator import itemgetter
+from typing import Any, Dict
 
 from data.scrape.lib.codes import (
     LANGUAGES_PATH,
@@ -13,10 +14,6 @@ from data.scrape.lib.codes import (
     PHONES_README_PATH,
     PHONES_DIRECTORY,
 )
-
-
-def _wiki_name_and_transcription_level(ele: List[str]) -> str:
-    return ele[3] + ele[4]
 
 
 def _handle_wiki_name(language: Dict[str, Any], file_path: str) -> str:
@@ -67,8 +64,8 @@ def main() -> None:
         readme_list.append([f"[phone](phones/{file_path})"] + row)
     # Sorts by Wiktionary language name, with broad entries before narrow
     # ones.
-    phones_summaries.sort(key=_wiki_name_and_transcription_level)
-    readme_list.sort(key=_wiki_name_and_transcription_level)
+    phones_summaries.sort(key=itemgetter(0))
+    readme_list.sort(key=itemgetter(0))
     with open(PHONES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer_object = csv.writer(
             sink, delimiter="\t", lineterminator="\n"

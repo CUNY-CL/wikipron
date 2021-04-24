@@ -5,7 +5,8 @@ import json
 import logging
 import os
 
-from typing import Any, Dict, List
+from operator import itemgetter
+from typing import Any, Dict
 
 from data.scrape.lib.codes import (
     LANGUAGES_PATH,
@@ -13,10 +14,6 @@ from data.scrape.lib.codes import (
     LANGUAGES_SUMMARY_PATH,
     TSV_DIRECTORY,
 )
-
-
-def wiki_name_filtered_and_path(ele: List[str]) -> str:
-    return ele[3] + str(ele[6]) + ele[0]
 
 
 def _handle_modifiers(
@@ -81,8 +78,8 @@ def main() -> None:
         summaries.append([file_path] + row)
         readme_list.append([f"[TSV](tsv/{file_path})"] + row)
     # Sorts by Wiktionary language name.
-    summaries.sort(key=wiki_name_filtered_and_path)
-    readme_list.sort(key=wiki_name_filtered_and_path)
+    summaries.sort(key=itemgetter(0))
+    readme_list.sort(key=itemgetter(0))
     # Writes the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t", lineterminator="\n")
