@@ -3,9 +3,10 @@
 import csv
 import json
 import logging
+import operator
 import os
 
-from typing import Any, Dict, List
+from typing import Any, Dict
 
 from data.scrape.lib.codes import (
     LANGUAGES_PATH,
@@ -13,10 +14,6 @@ from data.scrape.lib.codes import (
     LANGUAGES_SUMMARY_PATH,
     TSV_DIRECTORY,
 )
-
-
-def _wiki_name_and_transcription_level(ele: List[str]) -> str:
-    return ele[3] + ele[7]
 
 
 def _handle_modifiers(
@@ -36,20 +33,6 @@ def _handle_modifiers(
     script = language["script"][script_key]
     dialect = dialects.get(dialect_key, "").replace(" |", ",")
     return script, dialect
-
-
-def _handle_transcription_level(file_path: str) -> str:
-    if "broad" in file_path:
-        trans = file_path[
-            file_path.index("broad") : file_path.index(".")
-        ].capitalize()
-    else:
-        trans = file_path[
-            file_path.index("narrow") : file_path.index(".")
-        ].capitalize()
-    if "_" in trans:
-        trans = trans[: trans.index("_")]
-    return trans
 
 
 def main() -> None:
@@ -73,7 +56,10 @@ def main() -> None:
             os.remove(f"{TSV_DIRECTORY}/{file_path}")
             continue
         iso639_code = file_path[: file_path.index("_")]
-        transcription_level = _handle_transcription_level(file_path)
+        if "broad" in file_path:
+            transcription_level = "Broad"
+        else:
+            transcription_level = "Narrow"
         wiki_name = languages[iso639_code]["wiktionary_name"]
         filtered = "filtered" in file_path
         script, dialect = _handle_modifiers(languages[iso639_code], file_path)
@@ -91,9 +77,9 @@ def main() -> None:
         # TSV and README have different first column.
         summaries.append([file_path] + row)
         readme_list.append([f"[TSV](tsv/{file_path})"] + row)
-    # Sorts by Wiktionary language name.
-    summaries.sort(key=_wiki_name_and_transcription_level)
-    readme_list.sort(key=_wiki_name_and_transcription_level)
+    # Sorts by path to TSV.
+    summaries.sort(key=operator.itemgetter(0))
+    readme_list.sort(key=operator.itemgetter(0))
     # Writes the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t", lineterminator="\n")

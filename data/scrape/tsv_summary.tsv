@@ -1,79 +1,84 @@
+aar_latn_broad.tsv	aar	Afar	Afar	Latin		False	Broad	True	715
+acw_arab_broad.tsv	acw	Hijazi Arabic	Hijazi Arabic	Arabic		False	Broad	False	1090
+acw_arab_narrow.tsv	acw	Hijazi Arabic	Hijazi Arabic	Arabic		False	Narrow	False	167
 ady_cyrl_narrow.tsv	ady	Adygei; Adyghe	Adyghe	Cyrillic		False	Narrow	True	5123
 ady_cyrl_narrow_filtered.tsv	ady	Adygei; Adyghe	Adyghe	Cyrillic		True	Narrow	True	4895
-aar_latn_broad.tsv	aar	Afar	Afar	Latin		False	Broad	True	715
+afb_arab_broad.tsv	afb	Gulf Arabic	Gulf Arabic	Arabic		False	Broad	False	528
 afr_latn_broad.tsv	afr	Afrikaans	Afrikaans	Latin		False	Broad	True	1685
 afr_latn_broad_filtered.tsv	afr	Afrikaans	Afrikaans	Latin		True	Broad	True	1659
 afr_latn_narrow.tsv	afr	Afrikaans	Afrikaans	Latin		False	Narrow	True	121
+ajp_arab_broad.tsv	ajp	South Levantine Arabic	South Levantine Arabic	Arabic		False	Broad	False	155
 alb_latn_broad.tsv	alb	Albanian	Albanian	Latin		False	Broad	True	1450
 alb_latn_narrow.tsv	alb	Albanian	Albanian	Latin		False	Narrow	True	823
-gsw_latn_broad.tsv	gsw	Swiss German	Alemannic German	Latin		False	Broad	True	307
 ale_latn_broad.tsv	ale	Aleut	Aleut	Latin		False	Broad	True	104
-grc_grek_broad.tsv	grc	Ancient Greek (to 1453)	Ancient Greek	Greek		False	Broad	True	90222
+ang_latn_broad.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Broad	True	8854
+ang_latn_narrow.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Narrow	True	4341
+aot_latn_broad.tsv	aot	Atong (India)	Atong (India)	Latin		False	Broad	True	140
+apw_latn_narrow.tsv	apw	Western Apache	Western Apache	Latin		False	Narrow	True	158
 ara_arab_broad.tsv	ara	Arabic	Arabic	Arabic		False	Broad	False	7279
 arc_hebr_broad.tsv	arc	Imperial Aramaic (700-300 BCE); Official Aramaic (700-300 BCE)	Aramaic	Hebrew		False	Broad	False	1156
+arm_armn_e_narrow.tsv	arm	Armenian	Armenian	Armenian	Eastern Armenian, standard	False	Narrow	True	14182
+arm_armn_e_narrow_filtered.tsv	arm	Armenian	Armenian	Armenian	Eastern Armenian, standard	True	Narrow	True	14177
 arm_armn_w_narrow.tsv	arm	Armenian	Armenian	Armenian	Western Armenian, standard	False	Narrow	True	14065
 arm_armn_w_narrow_filtered.tsv	arm	Armenian	Armenian	Armenian	Western Armenian, standard	True	Narrow	True	14040
-arm_armn_e_narrow_filtered.tsv	arm	Armenian	Armenian	Armenian	Eastern Armenian, standard	True	Narrow	True	14177
-arm_armn_e_narrow.tsv	arm	Armenian	Armenian	Armenian	Eastern Armenian, standard	False	Narrow	True	14182
-rup_latn_narrow.tsv	rup	Macedo-Romanian	Aromanian	Latin		False	Narrow	True	149
+ary_arab_broad.tsv	ary	Moroccan Arabic	Moroccan Arabic	Arabic		False	Broad	False	1309
+arz_arab_broad.tsv	arz	Egyptian Arabic	Egyptian Arabic	Arabic		False	Broad	False	113
 asm_beng_broad.tsv	asm	Assamese	Assamese	Bengali		False	Broad	False	2350
 ast_latn_narrow.tsv	ast	Asturian	Asturian	Latin		False	Narrow	True	133
-aot_latn_broad.tsv	aot	Atong (India)	Atong (India)	Latin		False	Broad	True	140
+ayl_arab_broad.tsv	ayl	Libyan Arabic	Libyan Arabic	Arabic		False	Broad	False	157
 aze_latn_broad.tsv	aze	Azerbaijani	Azerbaijani	Latin		False	Broad	True	259
-aze_latn_narrow_filtered.tsv	aze	Azerbaijani	Azerbaijani	Latin		True	Narrow	True	2635
 aze_latn_narrow.tsv	aze	Azerbaijani	Azerbaijani	Latin		False	Narrow	True	2821
-bdq_latn_broad.tsv	bdq	Bahnar	Bahnar	Latin		False	Broad	True	161
-ban_bali_broad.tsv	ban	Balinese	Balinese	Balinese		False	Broad	True	186
+aze_latn_narrow_filtered.tsv	aze	Azerbaijani	Azerbaijani	Latin		True	Narrow	True	2635
 bak_cyrl_broad.tsv	bak	Bashkir	Bashkir	Cyrillic		False	Broad	True	108
 bak_cyrl_narrow.tsv	bak	Bashkir	Bashkir	Cyrillic		False	Narrow	True	2049
+ban_bali_broad.tsv	ban	Balinese	Balinese	Balinese		False	Broad	True	186
 baq_latn_broad.tsv	baq	Basque	Basque	Latin		False	Broad	True	1742
 baq_latn_narrow.tsv	baq	Basque	Basque	Latin		False	Narrow	True	186
+bcl_latn_broad.tsv	bcl	Central Bikol	Bikol Central	Latin		False	Broad	True	100
+bdq_latn_broad.tsv	bdq	Bahnar	Bahnar	Latin		False	Broad	True	161
 bel_cyrl_narrow.tsv	bel	Belarusian	Belarusian	Cyrillic		False	Narrow	True	3203
 ben_beng_broad.tsv	ben	Bengali	Bengali	Bengali		False	Broad	False	792
 ben_beng_narrow.tsv	ben	Bengali	Bengali	Bengali		False	Narrow	False	168
-bcl_latn_broad.tsv	bcl	Central Bikol	Bikol Central	Latin		False	Broad	True	100
-pcc_latn_broad.tsv	pcc	Bouyei	Bouyei	Latin		False	Broad	True	105
 bre_latn_broad.tsv	bre	Breton	Breton	Latin		False	Broad	True	495
-kxd_latn_broad.tsv	kxd	Brunei	Brunei Malay	Latin		False	Broad	True	346
 bul_cyrl_broad.tsv	bul	Bulgarian	Bulgarian	Cyrillic		False	Broad	True	31881
 bul_cyrl_broad_filtered.tsv	bul	Bulgarian	Bulgarian	Cyrillic		True	Broad	True	31782
 bul_cyrl_narrow.tsv	bul	Bulgarian	Bulgarian	Cyrillic		False	Narrow	True	6377
 bur_mymr_broad.tsv	bur	Burmese	Burmese	Myanmar		False	Broad	False	4636
 bur_mymr_broad_filtered.tsv	bur	Burmese	Burmese	Myanmar		True	Broad	False	4631
-yue_hani_broad.tsv	yue	Yue Chinese	Cantonese	Han		False	Broad	False	87378
-crx_cans_broad.tsv	crx	Carrier	Carrier	Canadian Aboriginal		False	Broad	False	175
 cat_latn_broad.tsv	cat	Catalan; Valencian	Catalan	Latin		False	Broad	True	55829
+cbn_thai_broad.tsv	cbn	Nyahkur	Nyah Kur	Thai		False	Broad	False	116
 ceb_latn_broad.tsv	ceb	Cebuano	Cebuano	Latin		False	Broad	True	326
-nya_latn_broad.tsv	nya	Nyanja	Chichewa	Latin		False	Broad	True	823
-cmn_hani_broad.tsv	cmn	Mandarin Chinese	Chinese	Han		False	Broad	False	133686
 cho_latn_broad.tsv	cho	Choctaw	Choctaw	Latin		False	Broad	True	112
-nci_latn_broad.tsv	nci	Classical Nahuatl	Classical Nahuatl	Latin		False	Broad	True	820
-nci_latn_narrow.tsv	nci	Classical Nahuatl	Classical Nahuatl	Latin		False	Narrow	True	1396
-syc_syrc_narrow.tsv	syc	Classical Syriac	Classical Syriac	Syriac		False	Narrow	False	5947
+cmn_hani_broad.tsv	cmn	Mandarin Chinese	Chinese	Han		False	Broad	False	133686
+cnk_latn_broad.tsv	cnk	Khumi Chin	Khumi Chin	Latin		False	Broad	True	307
 cop_copt_broad.tsv	cop	Coptic	Coptic	Coptic		False	Broad	True	418
 cor_latn_broad.tsv	cor	Cornish	Cornish	Latin		False	Broad	True	124
 cor_latn_narrow.tsv	cor	Cornish	Cornish	Latin		False	Narrow	True	680
 cos_latn_broad.tsv	cos	Corsican	Corsican	Latin		False	Broad	True	188
+crk_cans_broad.tsv	crk	Plains Cree	Plains Cree	Canadian Aboriginal		False	Broad	True	152
+crk_latn_broad.tsv	crk	Plains Cree	Plains Cree	Latin		False	Broad	True	193
+crx_cans_broad.tsv	crx	Carrier	Carrier	Canadian Aboriginal		False	Broad	False	175
 cze_latn_broad.tsv	cze	Czech	Czech	Latin		False	Broad	True	3222
 cze_latn_narrow.tsv	cze	Czech	Czech	Latin		False	Narrow	True	26778
-dlm_latn_broad.tsv	dlm	Dalmatian	Dalmatian	Latin		False	Broad	True	176
 dan_latn_broad.tsv	dan	Danish	Danish	Latin		False	Broad	True	4250
 dan_latn_narrow.tsv	dan	Danish	Danish	Latin		False	Narrow	True	7972
-sce_latn_broad.tsv	sce	Dongxiang	Dongxiang	Latin		False	Broad	True	119
+dlm_latn_broad.tsv	dlm	Dalmatian	Dalmatian	Latin		False	Broad	True	176
 dng_cyrl_broad.tsv	dng	Dungan	Dungan	Cyrillic		False	Broad	True	160
+dsb_latn_broad.tsv	dsb	Lower Sorbian	Lower Sorbian	Latin		False	Broad	True	1986
+dsb_latn_narrow.tsv	dsb	Lower Sorbian	Lower Sorbian	Latin		False	Narrow	True	1393
+dum_latn_broad.tsv	dum	Middle Dutch (ca. 1050-1350)	Middle Dutch	Latin		False	Broad	True	210
 dut_latn_broad.tsv	dut	Dutch; Flemish	Dutch	Latin		False	Broad	True	30623
 dut_latn_broad_filtered.tsv	dut	Dutch; Flemish	Dutch	Latin		True	Broad	True	30566
 dut_latn_narrow.tsv	dut	Dutch; Flemish	Dutch	Latin		False	Narrow	True	652
 dzo_tibt_broad.tsv	dzo	Dzongkha	Dzongkha	Tibetan		False	Broad	False	188
-lwl_thai_broad.tsv	lwl	Eastern Lawa	Eastern Lawa	Thai		False	Broad	False	253
-arz_arab_broad.tsv	arz	Egyptian Arabic	Egyptian Arabic	Arabic		False	Broad	False	113
 egy_latn_broad.tsv	egy	Egyptian (Ancient)	Egyptian	Latin		False	Broad	False	3403
-eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	True	57230
-eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	True	58072
 eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	True	61173
 eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	True	60422
 eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	True	1284
+eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	True	58072
+eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	True	57230
 eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	True	1633
+enm_latn_broad.tsv	enm	Middle English (1100-1500)	Middle English	Latin		False	Broad	True	6855
 epo_latn_broad.tsv	epo	Esperanto	Esperanto	Latin		False	Broad	True	14990
 est_latn_broad.tsv	est	Estonian	Estonian	Latin		False	Broad	True	429
 ewe_latn_broad.tsv	ewe	Ewe	Ewe	Latin		False	Broad	True	120
@@ -84,254 +89,249 @@ fin_latn_narrow.tsv	fin	Finnish	Finnish	Latin		False	Narrow	True	69008
 fre_latn_broad.tsv	fre	French	French	Latin		False	Broad	True	57029
 fre_latn_broad_filtered.tsv	fre	French	French	Latin		True	Broad	True	56911
 fre_latn_narrow.tsv	fre	French	French	Latin		False	Narrow	True	194
-glg_latn_broad.tsv	glg	Galician	Galician	Latin		False	Broad	True	4887
-glg_latn_narrow.tsv	glg	Galician	Galician	Latin		False	Narrow	True	1670
-kld_latn_broad.tsv	kld	Gamilaraay	Gamilaraay	Latin		False	Broad	True	454
-geo_geor_broad_filtered.tsv	geo	Georgian	Georgian	Georgian		True	Broad	False	15123
+fro_latn_broad.tsv	fro	Old French (842-ca. 1400)	Old French	Latin		False	Broad	True	347
+frr_latn_broad.tsv	frr	Northern Frisian	North Frisian	Latin		False	Broad	True	162
+fry_latn_broad.tsv	fry	Western Frisian	West Frisian	Latin		False	Broad	True	977
 geo_geor_broad.tsv	geo	Georgian	Georgian	Georgian		False	Broad	False	15124
+geo_geor_broad_filtered.tsv	geo	Georgian	Georgian	Georgian		True	Broad	False	15123
 ger_latn_broad.tsv	ger	German	German	Latin		False	Broad	True	35486
 ger_latn_broad_filtered.tsv	ger	German	German	Latin		True	Broad	True	34145
 ger_latn_narrow.tsv	ger	German	German	Latin		False	Narrow	True	10984
+gla_latn_broad.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	Latin		False	Broad	True	1362
+gla_latn_narrow.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	Latin		False	Narrow	True	107
+gle_latn_broad.tsv	gle	Irish	Irish	Latin		False	Broad	True	7328
+gle_latn_narrow.tsv	gle	Irish	Irish	Latin		False	Narrow	True	1575
+glg_latn_broad.tsv	glg	Galician	Galician	Latin		False	Broad	True	4887
+glg_latn_narrow.tsv	glg	Galician	Galician	Latin		False	Narrow	True	1670
+glv_latn_broad.tsv	glv	Manx	Manx	Latin		False	Broad	True	202
+glv_latn_narrow.tsv	glv	Manx	Manx	Latin		False	Narrow	True	125
+gml_latn_broad.tsv	gml	Middle Low German	Middle Low German	Latin		False	Broad	True	170
+goh_latn_broad.tsv	goh	Old High German (ca. 750-1050)	Old High German	Latin		False	Broad	True	130
 got_goth_broad.tsv	got	Gothic	Gothic	Gothic		False	Broad	True	1353
 got_goth_narrow.tsv	got	Gothic	Gothic	Gothic		False	Narrow	True	275
+grc_grek_broad.tsv	grc	Ancient Greek (to 1453)	Ancient Greek	Greek		False	Broad	True	90222
 gre_grek_broad.tsv	gre	Modern Greek (1453-)	Greek	Greek		False	Broad	True	10626
 gre_grek_broad_filtered.tsv	gre	Modern Greek (1453-)	Greek	Greek		True	Broad	True	10547
 gre_grek_narrow.tsv	gre	Modern Greek (1453-)	Greek	Greek		False	Narrow	True	408
-kal_latn_broad.tsv	kal	Kalaallisut	Greenlandic	Latin		False	Broad	True	173
-afb_arab_broad.tsv	afb	Gulf Arabic	Gulf Arabic	Arabic		False	Broad	False	528
-hts_latn_broad.tsv	hts	Hadza	Hadza	Latin		False	Broad	True	278
+gsw_latn_broad.tsv	gsw	Swiss German	Alemannic German	Latin		False	Broad	True	307
 haw_latn_broad.tsv	haw	Hawaiian	Hawaiian	Latin		False	Broad	True	493
 haw_latn_narrow.tsv	haw	Hawaiian	Hawaiian	Latin		False	Narrow	True	536
+hbs_cyrl_broad.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Cyrillic		False	Broad	True	22735
+hbs_cyrl_broad_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Cyrillic		True	Broad	True	22543
+hbs_latn_broad.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Latin		False	Broad	True	23827
+hbs_latn_broad_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Latin		True	Broad	True	23517
 heb_hebr_broad.tsv	heb	Hebrew	Hebrew	Hebrew		False	Broad	False	1439
 heb_hebr_narrow.tsv	heb	Hebrew	Hebrew	Hebrew		False	Narrow	False	146
-acw_arab_broad.tsv	acw	Hijazi Arabic	Hijazi Arabic	Arabic		False	Broad	False	1090
-acw_arab_narrow.tsv	acw	Hijazi Arabic	Hijazi Arabic	Arabic		False	Narrow	False	167
 hin_deva_broad.tsv	hin	Hindi	Hindi	Devanagari		False	Broad	False	11296
 hin_deva_broad_filtered.tsv	hin	Hindi	Hindi	Devanagari		True	Broad	False	10812
 hin_deva_narrow.tsv	hin	Hindi	Hindi	Devanagari		False	Narrow	False	9563
-hun_latn_narrow_filtered.tsv	hun	Hungarian	Hungarian	Latin		True	Narrow	True	55533
-hun_latn_narrow.tsv	hun	Hungarian	Hungarian	Latin		False	Narrow	True	55595
 hrx_latn_broad.tsv	hrx	Hunsrik	Hunsrik	Latin		False	Broad	True	1545
-ice_latn_broad_filtered.tsv	ice	Icelandic	Icelandic	Latin		True	Broad	True	9524
+hts_latn_broad.tsv	hts	Hadza	Hadza	Latin		False	Broad	True	278
+hun_latn_narrow.tsv	hun	Hungarian	Hungarian	Latin		False	Narrow	True	55595
+hun_latn_narrow_filtered.tsv	hun	Hungarian	Hungarian	Latin		True	Narrow	True	55533
+huu_latn_narrow.tsv	huu	Murui Huitoto	Murui Huitoto	Latin		False	Narrow	True	108
 ice_latn_broad.tsv	ice	Icelandic	Icelandic	Latin		False	Broad	True	9578
+ice_latn_broad_filtered.tsv	ice	Icelandic	Icelandic	Latin		True	Broad	True	9524
 ice_latn_narrow.tsv	ice	Icelandic	Icelandic	Latin		False	Narrow	True	424
 ido_latn_broad.tsv	ido	Ido	Ido	Latin		False	Broad	True	6382
 ilo_latn_broad.tsv	ilo	Iloko	Ilocano	Latin		False	Broad	True	323
 ilo_latn_narrow.tsv	ilo	Iloko	Ilocano	Latin		False	Narrow	True	217
+ina_latn_broad.tsv	ina	Interlingua (International Auxiliary Language Association)	Interlingua	Latin		False	Broad	True	265
 ind_latn_broad.tsv	ind	Indonesian	Indonesian	Latin		False	Broad	True	1555
 ind_latn_narrow.tsv	ind	Indonesian	Indonesian	Latin		False	Narrow	True	2637
-izh_latn_broad.tsv	izh	Ingrian	Ingrian	Latin		False	Broad	True	737
-ina_latn_broad.tsv	ina	Interlingua (International Auxiliary Language Association)	Interlingua	Latin		False	Broad	True	265
-gle_latn_broad.tsv	gle	Irish	Irish	Latin		False	Broad	True	7328
-gle_latn_narrow.tsv	gle	Irish	Irish	Latin		False	Narrow	True	1575
 ita_latn_broad.tsv	ita	Italian	Italian	Latin		False	Broad	True	15014
 ita_latn_broad_filtered.tsv	ita	Italian	Italian	Latin		True	Broad	True	14476
 ita_latn_narrow.tsv	ita	Italian	Italian	Latin		False	Narrow	True	6075
+izh_latn_broad.tsv	izh	Ingrian	Ingrian	Latin		False	Broad	True	737
 jam_latn_broad.tsv	jam	Jamaican Creole English	Jamaican Creole	Latin		False	Broad	True	147
-jpn_hira_narrow_filtered.tsv	jpn	Japanese	Japanese	Hiragana		True	Narrow	False	19689
+jje_hang_broad.tsv	jje	Jejueo	Jeju	Hangul		False	Broad	False	1006
 jpn_hira_narrow.tsv	jpn	Japanese	Japanese	Hiragana		False	Narrow	False	19930
+jpn_hira_narrow_filtered.tsv	jpn	Japanese	Japanese	Hiragana		True	Narrow	False	19689
 jpn_kana_narrow.tsv	jpn	Japanese	Japanese	Katakana		False	Narrow	False	5268
 jpn_kana_narrow_filtered.tsv	jpn	Japanese	Japanese	Katakana		True	Narrow	False	4765
-jje_hang_broad.tsv	jje	Jejueo	Jeju	Hangul		False	Broad	False	1006
-kbd_cyrl_narrow.tsv	kbd	Kabardian	Kabardian	Cyrillic		False	Narrow	True	834
+kal_latn_broad.tsv	kal	Kalaallisut	Greenlandic	Latin		False	Broad	True	173
 kaz_cyrl_broad.tsv	kaz	Kazakh	Kazakh	Cyrillic		False	Broad	True	119
 kaz_cyrl_narrow.tsv	kaz	Kazakh	Kazakh	Cyrillic		False	Narrow	True	745
+kbd_cyrl_narrow.tsv	kbd	Kabardian	Kabardian	Cyrillic		False	Narrow	True	834
+khb_talu_broad.tsv	khb	Lü	Lü	New Tai Lue		False	Broad	False	303
 khm_khmr_broad.tsv	khm	Khmer	Khmer	Khmer		False	Broad	False	3411
 khm_khmr_broad_filtered.tsv	khm	Khmer	Khmer	Khmer		True	Broad	False	3208
-cnk_latn_broad.tsv	cnk	Khumi Chin	Khumi Chin	Latin		False	Broad	True	307
 kik_latn_broad.tsv	kik	Kikuyu	Kikuyu	Latin		False	Broad	True	1129
-kpv_cyrl_broad.tsv	kpv	Komi-Zyrian	Komi-Zyrian	Cyrillic		False	Broad	True	321
+kir_cyrl_broad.tsv	kir	Kirghiz	Kyrgyz	Cyrillic		False	Broad	True	101
+kld_latn_broad.tsv	kld	Gamilaraay	Gamilaraay	Latin		False	Broad	True	454
+kmr_latn_broad.tsv	kmr	Northern Kurdish	Northern Kurdish	Latin		False	Broad	False	1172
 kor_hang_narrow.tsv	kor	Korean	Korean	Hangul		False	Narrow	False	16402
 kor_hang_narrow_filtered.tsv	kor	Korean	Korean	Hangul		True	Narrow	False	14141
-kir_cyrl_broad.tsv	kir	Kirghiz	Kyrgyz	Cyrillic		False	Broad	True	101
-lmy_latn_narrow.tsv	lmy	Lamboya	Laboya	Latin		False	Narrow	True	128
+kpv_cyrl_broad.tsv	kpv	Komi-Zyrian	Komi-Zyrian	Cyrillic		False	Broad	True	321
+kxd_latn_broad.tsv	kxd	Brunei	Brunei Malay	Latin		False	Broad	True	346
 lad_latn_broad.tsv	lad	Ladino	Ladino	Latin		False	Broad	True	101
 lao_laoo_broad.tsv	lao	Lao	Lao	Lao		False	Broad	False	513
-lsi_latn_broad.tsv	lsi	Lashi	Lashi	Latin		False	Broad	True	300
-ltg_latn_narrow.tsv	ltg	Latgalian	Latgalian	Latin		False	Narrow	True	125
-lat_latn_eccl_broad.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Broad	True	32334
-lat_latn_vulg_broad.tsv	lat	Latin	Latin	Latin	Vulgar	False	Broad	True	508
 lat_latn_clas_broad.tsv	lat	Latin	Latin	Latin	Classical	False	Broad	True	33333
-lat_latn_eccl_narrow.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Narrow	True	31750
 lat_latn_clas_narrow.tsv	lat	Latin	Latin	Latin	Classical	False	Narrow	True	32715
+lat_latn_eccl_broad.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Broad	True	32334
+lat_latn_eccl_narrow.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Narrow	True	31750
+lat_latn_vulg_broad.tsv	lat	Latin	Latin	Latin	Vulgar	False	Broad	True	508
 lat_latn_vulg_narrow.tsv	lat	Latin	Latin	Latin	Vulgar	False	Narrow	True	481
 lav_latn_narrow.tsv	lav	Latvian	Latvian	Latin		False	Narrow	True	1291
 lav_latn_narrow_filtered.tsv	lav	Latvian	Latvian	Latin		True	Narrow	True	1230
-ayl_arab_broad.tsv	ayl	Libyan Arabic	Libyan Arabic	Arabic		False	Broad	False	157
-lij_latn_broad.tsv	lij	Ligurian	Ligurian	Latin		False	Broad	True	756
 lif_limb_broad.tsv	lif	Limbu	Limbu	Limbu		False	Broad	False	108
+lij_latn_broad.tsv	lij	Ligurian	Ligurian	Latin		False	Broad	True	756
 lim_latn_narrow.tsv	lim	Limburgan	Limburgish	Latin		False	Narrow	True	125
 lit_latn_broad.tsv	lit	Lithuanian	Lithuanian	Latin		False	Broad	True	332
 lit_latn_narrow.tsv	lit	Lithuanian	Lithuanian	Latin		False	Narrow	True	12676
 liv_latn_broad.tsv	liv	Liv	Livonian	Latin		False	Broad	True	352
-ycl_latn_narrow.tsv	ycl	Lolopo	Lolopo	Latin		False	Narrow	True	109
 lmo_latn_broad.tsv	lmo	Lombard	Lombard	Latin		False	Broad	True	163
-nds_latn_broad.tsv	nds	Low German	Low German	Latin		False	Broad	True	185
-dsb_latn_broad.tsv	dsb	Lower Sorbian	Lower Sorbian	Latin		False	Broad	True	1986
-dsb_latn_narrow.tsv	dsb	Lower Sorbian	Lower Sorbian	Latin		False	Narrow	True	1393
+lmy_latn_narrow.tsv	lmy	Lamboya	Laboya	Latin		False	Narrow	True	128
+lsi_latn_broad.tsv	lsi	Lashi	Lashi	Latin		False	Broad	True	300
+ltg_latn_narrow.tsv	ltg	Latgalian	Latgalian	Latin		False	Narrow	True	125
 ltz_latn_broad.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish	Latin		False	Broad	True	4120
 ltz_latn_narrow.tsv	ltz	Letzeburgesch; Luxembourgish	Luxembourgish	Latin		False	Narrow	True	1764
-khb_talu_broad.tsv	khb	Lü	Lü	New Tai Lue		False	Broad	False	303
+lwl_thai_broad.tsv	lwl	Eastern Lawa	Eastern Lawa	Thai		False	Broad	False	253
 mac_cyrl_narrow.tsv	mac	Macedonian	Macedonian	Cyrillic		False	Narrow	True	6878
-mlg_latn_broad.tsv	mlg	Malagasy	Malagasy	Latin		False	Broad	True	146
-may_latn_broad.tsv	may	Malay (macrolanguage)	Malay	Latin		False	Broad	True	2057
-may_arab_ara_broad.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Broad	True	628
-may_latn_narrow.tsv	may	Malay (macrolanguage)	Malay	Latin		False	Narrow	True	444
-may_arab_ara_narrow.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Narrow	True	220
-mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	True	4035
-mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	True	4609
-mnc_mong_narrow.tsv	mnc	Manchu	Manchu	Mongolian		False	Narrow	False	890
-glv_latn_broad.tsv	glv	Manx	Manx	Latin		False	Broad	True	202
-glv_latn_narrow.tsv	glv	Manx	Manx	Latin		False	Narrow	True	125
-mar_deva_broad.tsv	mar	Marathi	Marathi	Devanagari		False	Broad	False	588
-mar_deva_narrow.tsv	mar	Marathi	Marathi	Devanagari		False	Narrow	False	118
 mah_latn_broad.tsv	mah	Marshallese	Marshallese	Latin		False	Broad	True	900
 mah_latn_narrow.tsv	mah	Marshallese	Marshallese	Latin		False	Narrow	True	1502
+mar_deva_broad.tsv	mar	Marathi	Marathi	Devanagari		False	Broad	False	588
+mar_deva_narrow.tsv	mar	Marathi	Marathi	Devanagari		False	Narrow	False	118
+may_arab_ara_broad.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Broad	True	628
+may_arab_ara_narrow.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Narrow	True	220
+may_latn_broad.tsv	may	Malay (macrolanguage)	Malay	Latin		False	Broad	True	2057
+may_latn_narrow.tsv	may	Malay (macrolanguage)	Malay	Latin		False	Narrow	True	444
+mdf_cyrl_broad.tsv	mdf	Moksha	Moksha	Cyrillic		False	Broad	True	117
 mfe_latn_broad.tsv	mfe	Morisyen	Mauritian Creole	Latin		False	Broad	True	206
-nhx_latn_broad.tsv	nhx	Isthmus-Mecayapan Nahuatl	Mecayapan Nahuatl	Latin		False	Broad	True	146
+mga_latn_broad.tsv	mga	Middle Irish (900-1200)	Middle Irish	Latin		False	Broad	True	247
 mic_latn_broad.tsv	mic	Mi'kmaq	Mi'kmaq	Latin		False	Broad	True	137
 mic_latn_narrow.tsv	mic	Mi'kmaq	Mi'kmaq	Latin		False	Narrow	True	135
-dum_latn_broad.tsv	dum	Middle Dutch (ca. 1050-1350)	Middle Dutch	Latin		False	Broad	True	210
-enm_latn_broad.tsv	enm	Middle English (1100-1500)	Middle English	Latin		False	Broad	True	6855
-mga_latn_broad.tsv	mga	Middle Irish (900-1200)	Middle Irish	Latin		False	Broad	True	247
-okm_hang_broad.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	Hangul		False	Broad	False	334
-gml_latn_broad.tsv	gml	Middle Low German	Middle Low German	Latin		False	Broad	True	170
-wlm_latn_broad.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Broad	True	144
-nan_hani_xi_broad.tsv	nan	Min Nan Chinese	Min Nan	Han	Xiamen	False	Broad	True	44588
-mdf_cyrl_broad.tsv	mdf	Moksha	Moksha	Cyrillic		False	Broad	True	117
+mlg_latn_broad.tsv	mlg	Malagasy	Malagasy	Latin		False	Broad	True	146
+mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	True	4609
+mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	True	4035
+mnc_mong_narrow.tsv	mnc	Manchu	Manchu	Mongolian		False	Narrow	False	890
 mnw_mymr_broad.tsv	mnw	Mon	Mon	Myanmar		False	Broad	False	514
 mon_cyrl_broad.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Broad	True	1166
 mon_cyrl_narrow.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Narrow	True	510
-ary_arab_broad.tsv	ary	Moroccan Arabic	Moroccan Arabic	Arabic		False	Broad	False	1309
-huu_latn_narrow.tsv	huu	Murui Huitoto	Murui Huitoto	Latin		False	Narrow	True	108
-nmy_latn_narrow.tsv	nmy	Namuyi	Namuyi	Latin		False	Narrow	True	368
-nav_latn_broad.tsv	nav	Navajo	Navajo	Latin		False	Broad	True	226
+mww_latn_broad.tsv	mww	Hmong Daw	White Hmong	Latin		False	Broad	True	322
+nan_hani_xi_broad.tsv	nan	Min Nan Chinese	Min Nan	Han	Xiamen	False	Broad	True	44588
 nap_latn_broad.tsv	nap	Neapolitan	Neapolitan	Latin		False	Broad	True	321
+nav_latn_broad.tsv	nav	Navajo	Navajo	Latin		False	Broad	True	226
+nci_latn_broad.tsv	nci	Classical Nahuatl	Classical Nahuatl	Latin		False	Broad	True	820
+nci_latn_narrow.tsv	nci	Classical Nahuatl	Classical Nahuatl	Latin		False	Narrow	True	1396
+nds_latn_broad.tsv	nds	Low German	Low German	Latin		False	Broad	True	185
 nep_deva_broad.tsv	nep	Nepali (macrolanguage)	Nepali	Devanagari		False	Broad	False	1223
 nep_deva_narrow.tsv	nep	Nepali (macrolanguage)	Nepali	Devanagari		False	Narrow	False	982
 new_deva_broad.tsv	new	Newari	Newar	Devanagari		False	Broad	False	403
-nrf_latn_broad.tsv	nrf	Jèrriais	Norman	Latin		False	Broad	True	175
-frr_latn_broad.tsv	frr	Northern Frisian	North Frisian	Latin		False	Broad	True	162
-kmr_latn_broad.tsv	kmr	Northern Kurdish	Northern Kurdish	Latin		False	Broad	False	1172
-sme_latn_broad.tsv	sme	Northern Sami	Northern Sami	Latin		False	Broad	True	3387
-nob_latn_broad_filtered.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		True	Broad	True	1292
-nob_latn_broad.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Broad	True	1711
-nob_latn_narrow.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Narrow	True	587
+nhg_latn_narrow.tsv	nhg	Tetelcingo Nahuatl	Tetelcingo Nahuatl	Latin		False	Narrow	True	305
+nhx_latn_broad.tsv	nhx	Isthmus-Mecayapan Nahuatl	Mecayapan Nahuatl	Latin		False	Broad	True	146
+nmy_latn_narrow.tsv	nmy	Namuyi	Namuyi	Latin		False	Narrow	True	368
 nno_latn_broad.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	Latin		False	Broad	True	1378
 nno_latn_narrow.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	Latin		False	Narrow	True	206
+nob_latn_broad.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Broad	True	1711
+nob_latn_broad_filtered.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		True	Broad	True	1292
+nob_latn_narrow.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Narrow	True	587
+non_latn_broad.tsv	non	Old Norse	Old Norse	Latin		False	Broad	True	164
 nor_latn_broad.tsv	nor	Norwegian	Norwegian	Latin		False	Broad	True	2056
-cbn_thai_broad.tsv	cbn	Nyahkur	Nyah Kur	Thai		False	Broad	False	116
+nrf_latn_broad.tsv	nrf	Jèrriais	Norman	Latin		False	Broad	True	175
+nya_latn_broad.tsv	nya	Nyanja	Chichewa	Latin		False	Broad	True	823
 oci_latn_broad.tsv	oci	Occitan (post 1500)	Occitan	Latin		False	Broad	True	387
 oci_latn_narrow.tsv	oci	Occitan (post 1500)	Occitan	Latin		False	Narrow	True	293
-ang_latn_broad.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Broad	True	8854
-ang_latn_narrow.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Narrow	True	4341
-fro_latn_broad.tsv	fro	Old French (842-ca. 1400)	Old French	Latin		False	Broad	True	347
 ofs_latn_broad.tsv	ofs	Old Frisian	Old Frisian	Latin		False	Broad	True	175
-goh_latn_broad.tsv	goh	Old High German (ca. 750-1050)	Old High German	Latin		False	Broad	True	130
-sga_latn_broad.tsv	sga	Old Irish (to 900)	Old Irish	Latin		False	Broad	True	2289
-non_latn_broad.tsv	non	Old Norse	Old Norse	Latin		False	Broad	True	164
-osx_latn_broad.tsv	osx	Old Saxon	Old Saxon	Latin		False	Broad	True	181
-osp_latn_narrow.tsv	osp	Old Spanish	Old Spanish	Latin		False	Narrow	True	267
-tpw_latn_broad.tsv	tpw	Tupí	Old Tupi	Latin		False	Broad	True	160
+okm_hang_broad.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	Hangul		False	Broad	False	334
 ori_orya_broad.tsv	ori	Oriya (macrolanguage)	Oriya	Oriya		False	Broad	False	218
+osp_latn_narrow.tsv	osp	Old Spanish	Old Spanish	Latin		False	Narrow	True	267
+osx_latn_broad.tsv	osx	Old Saxon	Old Saxon	Latin		False	Broad	True	181
 ota_arab_narrow.tsv	ota	Ottoman Turkish (1500-1928)	Ottoman Turkish	Arabic		False	Narrow	False	159
-pus_arab_broad.tsv	pus	Pushto	Pashto	Arabic		False	Broad	False	1242
+pan_guru_broad.tsv	pan	Panjabi	Punjabi	Gurmukhi		False	Broad	False	139
+pbv_latn_broad.tsv	pbv	Pnar	Pnar	Latin		False	Broad	True	101
+pcc_latn_broad.tsv	pcc	Bouyei	Bouyei	Latin		False	Broad	True	105
 pdc_latn_broad.tsv	pdc	Pennsylvania German	Pennsylvania German	Latin		False	Broad	True	103
 per_arab_broad.tsv	per	Persian	Persian	Arabic		False	Broad	False	6128
 per_arab_narrow.tsv	per	Persian	Persian	Arabic		False	Narrow	False	1922
 phl_latn_broad.tsv	phl	Phalura	Phalura	Latin		False	Broad	True	2227
-pms_latn_broad.tsv	pms	Piemontese	Piedmontese	Latin		False	Broad	True	732
-ppl_latn_broad.tsv	ppl	Pipil	Pipil	Latin		False	Broad	True	263
 pjt_latn_narrow.tsv	pjt	Pitjantjatjara	Pitjantjatjara	Latin		False	Narrow	True	125
-crk_latn_broad.tsv	crk	Plains Cree	Plains Cree	Latin		False	Broad	True	193
-crk_cans_broad.tsv	crk	Plains Cree	Plains Cree	Canadian Aboriginal		False	Broad	True	152
-pbv_latn_broad.tsv	pbv	Pnar	Pnar	Latin		False	Broad	True	101
-pox_latn_broad.tsv	pox	Polabian	Polabian	Latin		False	Broad	True	228
+pms_latn_broad.tsv	pms	Piemontese	Piedmontese	Latin		False	Broad	True	732
 pol_latn_broad.tsv	pol	Polish	Polish	Latin		False	Broad	True	71863
-por_latn_po_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Portugal	True	Broad	True	9800
-por_latn_po_broad.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Broad	True	10122
-por_latn_bz_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Brazil	True	Broad	True	11331
 por_latn_bz_broad.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Broad	True	11489
+por_latn_bz_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Brazil	True	Broad	True	11331
 por_latn_bz_narrow.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Narrow	True	953
+por_latn_po_broad.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Broad	True	10122
+por_latn_po_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Portugal	True	Broad	True	9800
 por_latn_po_narrow.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Narrow	True	312
-pan_guru_broad.tsv	pan	Panjabi	Punjabi	Gurmukhi		False	Broad	False	139
+pox_latn_broad.tsv	pox	Polabian	Polabian	Latin		False	Broad	True	228
+ppl_latn_broad.tsv	ppl	Pipil	Pipil	Latin		False	Broad	True	263
+pus_arab_broad.tsv	pus	Pushto	Pashto	Arabic		False	Broad	False	1242
 rum_latn_broad.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	Latin		False	Broad	True	4103
 rum_latn_narrow.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	Latin		False	Narrow	True	6377
 rum_latn_narrow_filtered.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	Latin		True	Narrow	True	6271
+rup_latn_narrow.tsv	rup	Macedo-Romanian	Aromanian	Latin		False	Narrow	True	149
 rus_cyrl_narrow.tsv	rus	Russian	Russian	Cyrillic		False	Narrow	True	402586
+sah_cyrl_broad.tsv	sah	Yakut	Yakut	Cyrillic		False	Broad	True	162
 san_deva_broad.tsv	san	Sanskrit	Sanskrit	Devanagari		False	Broad	False	6839
 san_deva_narrow.tsv	san	Sanskrit	Sanskrit	Devanagari		False	Narrow	False	673
-srd_latn_broad.tsv	srd	Sardinian	Sardinian	Latin		False	Broad	True	216
-stq_latn_broad.tsv	stq	Saterfriesisch	Saterland Frisian	Latin		False	Broad	True	174
-sco_latn_broad.tsv	sco	Scots	Scots	Latin		False	Broad	True	900
-sco_latn_narrow.tsv	sco	Scots	Scots	Latin		False	Narrow	True	438
-gla_latn_broad.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	Latin		False	Broad	True	1362
-gla_latn_narrow.tsv	gla	Gaelic; Scottish Gaelic	Scottish Gaelic	Latin		False	Narrow	True	107
-hbs_latn_broad.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Latin		False	Broad	True	23827
-hbs_cyrl_broad_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Cyrillic		True	Broad	True	22543
-hbs_cyrl_broad.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Cyrillic		False	Broad	True	22735
-hbs_latn_broad_filtered.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Latin		True	Broad	True	23517
-shn_mymr_broad.tsv	shn	Shan	Shan	Myanmar		False	Broad	False	487
+sce_latn_broad.tsv	sce	Dongxiang	Dongxiang	Latin		False	Broad	True	119
 scn_latn_broad.tsv	scn	Sicilian	Sicilian	Latin		False	Broad	True	855
 scn_latn_narrow.tsv	scn	Sicilian	Sicilian	Latin		False	Narrow	True	287
+sco_latn_broad.tsv	sco	Scots	Scots	Latin		False	Broad	True	900
+sco_latn_narrow.tsv	sco	Scots	Scots	Latin		False	Narrow	True	438
+sga_latn_broad.tsv	sga	Old Irish (to 900)	Old Irish	Latin		False	Broad	True	2289
+shn_mymr_broad.tsv	shn	Shan	Shan	Myanmar		False	Broad	False	487
 slo_latn_broad.tsv	slo	Slovak	Slovak	Latin		False	Broad	True	3620
 slo_latn_narrow.tsv	slo	Slovak	Slovak	Latin		False	Narrow	True	1620
 slv_latn_broad.tsv	slv	Slovenian	Slovene	Latin		False	Broad	True	4396
 slv_latn_broad_filtered.tsv	slv	Slovenian	Slovene	Latin		True	Broad	True	4390
-ajp_arab_broad.tsv	ajp	South Levantine Arabic	South Levantine Arabic	Arabic		False	Broad	False	155
-spa_latn_la_broad_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	True	Broad	True	48649
+sme_latn_broad.tsv	sme	Northern Sami	Northern Sami	Latin		False	Broad	True	3387
 spa_latn_ca_broad.tsv	spa	Spanish; Castilian	Spanish	Latin	Castilian	False	Broad	True	60805
 spa_latn_ca_broad_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin	Castilian	True	Broad	True	60677
-spa_latn_la_broad.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	False	Broad	True	48718
 spa_latn_ca_narrow.tsv	spa	Spanish; Castilian	Spanish	Latin	Castilian	False	Narrow	True	52190
+spa_latn_la_broad.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	False	Broad	True	48718
+spa_latn_la_broad_filtered.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	True	Broad	True	48649
 spa_latn_la_narrow.tsv	spa	Spanish; Castilian	Spanish	Latin	Latin America	False	Narrow	True	41854
+srd_latn_broad.tsv	srd	Sardinian	Sardinian	Latin		False	Broad	True	216
 srn_latn_broad.tsv	srn	Sranan Tongo	Sranan Tongo	Latin		False	Broad	True	162
+stq_latn_broad.tsv	stq	Saterfriesisch	Saterland Frisian	Latin		False	Broad	True	174
 swe_latn_broad.tsv	swe	Swedish	Swedish	Latin		False	Broad	True	3544
 swe_latn_narrow.tsv	swe	Swedish	Swedish	Latin		False	Narrow	True	222
+syc_syrc_narrow.tsv	syc	Classical Syriac	Classical Syriac	Syriac		False	Narrow	False	5947
 syl_sylo_broad.tsv	syl	Sylheti	Sylheti	Syloti Nagri		False	Broad	False	224
-tgl_latn_broad.tsv	tgl	Tagalog	Tagalog	Latin		False	Broad	True	3321
-tgl_latn_narrow.tsv	tgl	Tagalog	Tagalog	Latin		False	Narrow	True	1915
-tgk_cyrl_broad.tsv	tgk	Tajik	Tajik	Cyrillic		False	Broad	True	142
 tam_taml_broad.tsv	tam	Tamil	Tamil	Tamil		False	Broad	False	2485
 tam_taml_narrow.tsv	tam	Tamil	Tamil	Tamil		False	Narrow	False	2386
-twf_latn_broad.tsv	twf	Northern Tiwa	Taos	Latin		False	Broad	True	135
 tel_telu_broad.tsv	tel	Telugu	Telugu	Telugu		False	Broad	False	442
 tel_telu_narrow.tsv	tel	Telugu	Telugu	Telugu		False	Narrow	False	386
-nhg_latn_narrow.tsv	nhg	Tetelcingo Nahuatl	Tetelcingo Nahuatl	Latin		False	Narrow	True	305
+tgk_cyrl_broad.tsv	tgk	Tajik	Tajik	Cyrillic		False	Broad	True	142
+tgl_latn_broad.tsv	tgl	Tagalog	Tagalog	Latin		False	Broad	True	3321
+tgl_latn_narrow.tsv	tgl	Tagalog	Tagalog	Latin		False	Narrow	True	1915
 tha_thai_broad.tsv	tha	Thai	Thai	Thai		False	Broad	False	15050
 tib_tibt_broad.tsv	tib	Tibetan	Tibetan	Tibetan		False	Broad	False	1875
 ton_latn_broad.tsv	ton	Tonga (Tonga Islands)	Tongan	Latin		False	Broad	True	154
-tur_latn_broad.tsv	tur	Turkish	Turkish	Latin		False	Broad	True	1789
-tur_latn_narrow_filtered.tsv	tur	Turkish	Turkish	Latin		True	Narrow	True	1812
-tur_latn_narrow.tsv	tur	Turkish	Turkish	Latin		False	Narrow	True	2043
+tpw_latn_broad.tsv	tpw	Tupí	Old Tupi	Latin		False	Broad	True	160
 tuk_latn_broad.tsv	tuk	Turkmen	Turkmen	Latin		False	Broad	True	107
+tur_latn_broad.tsv	tur	Turkish	Turkish	Latin		False	Broad	True	1789
+tur_latn_narrow.tsv	tur	Turkish	Turkish	Latin		False	Narrow	True	2043
+tur_latn_narrow_filtered.tsv	tur	Turkish	Turkish	Latin		True	Narrow	True	1812
+twf_latn_broad.tsv	twf	Northern Tiwa	Taos	Latin		False	Broad	True	135
 tyv_cyrl_broad.tsv	tyv	Tuvinian	Tuvan	Cyrillic		False	Broad	True	462
+uig_arab_ara_broad.tsv	uig	Uighur	Uyghur	Arabic		False	Broad	True	260
 ukr_cyrl_narrow.tsv	ukr	Ukrainian	Ukrainian	Cyrillic		False	Narrow	True	6148
 urd_arab_broad.tsv	urd	Urdu	Urdu	Arabic		False	Broad	False	1063
-uig_arab_ara_broad.tsv	uig	Uighur	Uyghur	Arabic		False	Broad	True	260
-vie_latn_hcmc_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	True	Narrow	True	14537
 vie_latn_hanoi_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	False	Narrow	True	15240
-vie_latn_hue_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	True	Narrow	True	15236
-vie_latn_hcmc_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	False	Narrow	True	15237
-vie_latn_hue_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	False	Narrow	True	15239
 vie_latn_hanoi_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	True	Narrow	True	15240
+vie_latn_hcmc_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	False	Narrow	True	15237
+vie_latn_hcmc_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	True	Narrow	True	14537
+vie_latn_hue_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	False	Narrow	True	15239
+vie_latn_hue_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	True	Narrow	True	15236
 vol_latn_broad.tsv	vol	Volapük	Volapük	Latin		False	Broad	True	363
 vol_latn_narrow.tsv	vol	Volapük	Volapük	Latin		False	Narrow	True	565
 wau_latn_broad.tsv	wau	Waurá	Wauja	Latin		False	Broad	True	152
-wel_latn_sw_broad.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Broad	True	9999
-wel_latn_nw_broad_filtered.tsv	wel	Welsh	Welsh	Latin	North Wales	True	Broad	True	8473
 wel_latn_nw_broad.tsv	wel	Welsh	Welsh	Latin	North Wales	False	Broad	True	8530
-wel_latn_sw_broad_filtered.tsv	wel	Welsh	Welsh	Latin	South Wales	True	Broad	True	9925
+wel_latn_nw_broad_filtered.tsv	wel	Welsh	Welsh	Latin	North Wales	True	Broad	True	8473
 wel_latn_nw_narrow.tsv	wel	Welsh	Welsh	Latin	North Wales	False	Narrow	True	561
+wel_latn_sw_broad.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Broad	True	9999
+wel_latn_sw_broad_filtered.tsv	wel	Welsh	Welsh	Latin	South Wales	True	Broad	True	9925
 wel_latn_sw_narrow.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Narrow	True	601
-fry_latn_broad.tsv	fry	Western Frisian	West Frisian	Latin		False	Broad	True	977
-apw_latn_narrow.tsv	apw	Western Apache	Western Apache	Latin		False	Narrow	True	158
-mww_latn_broad.tsv	mww	Hmong Daw	White Hmong	Latin		False	Broad	True	322
+wlm_latn_broad.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Broad	True	144
 xho_latn_narrow.tsv	xho	Xhosa	Xhosa	Latin		False	Narrow	True	730
-sah_cyrl_broad.tsv	sah	Yakut	Yakut	Cyrillic		False	Broad	True	162
 ybi_deva_broad.tsv	ybi	Yamphu	Yamphu	Devanagari		False	Broad	False	112
+ycl_latn_narrow.tsv	ycl	Lolopo	Lolopo	Latin		False	Narrow	True	109
 yid_hebr_broad.tsv	yid	Yiddish	Yiddish	Hebrew		False	Broad	False	251
 yid_hebr_narrow.tsv	yid	Yiddish	Yiddish	Hebrew		False	Narrow	False	358
-zza_latn_narrow.tsv	zza	Zaza	Zazaki	Latin		False	Narrow	True	188
+yue_hani_broad.tsv	yue	Yue Chinese	Cantonese	Han		False	Broad	False	87378
 zha_latn_broad.tsv	zha	Zhuang	Zhuang	Latin		False	Broad	True	1143
 zul_latn_broad.tsv	zul	Zulu	Zulu	Latin		False	Broad	True	1677
+zza_latn_narrow.tsv	zza	Zaza	Zazaki	Latin		False	Narrow	True	188
