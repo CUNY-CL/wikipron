@@ -3,9 +3,9 @@
 import csv
 import json
 import logging
+import operator
 import os
 
-from operator import itemgetter
 from typing import Any, Dict
 
 from data.scrape.lib.codes import (
@@ -77,9 +77,9 @@ def main() -> None:
         # TSV and README have different first column.
         summaries.append([file_path] + row)
         readme_list.append([f"[TSV](tsv/{file_path})"] + row)
-    # Sorts by Wiktionary language name.
-    summaries.sort(key=itemgetter(0))
-    readme_list.sort(key=itemgetter(0))
+    # Sorts by path to TSV.
+    summaries.sort(key=operator.itemgetter(0))
+    readme_list.sort(key=operator.itemgetter(0))
     # Writes the TSV.
     with open(LANGUAGES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer = csv.writer(sink, delimiter="\t", lineterminator="\n")

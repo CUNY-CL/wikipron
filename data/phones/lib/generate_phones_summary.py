@@ -3,9 +3,9 @@
 import csv
 import json
 import logging
+import operator
 import os
 
-from operator import itemgetter
 from typing import Any, Dict
 
 from data.scrape.lib.codes import (
@@ -62,10 +62,9 @@ def main() -> None:
         ]
         phones_summaries.append([file_path] + row)
         readme_list.append([f"[phone](phones/{file_path})"] + row)
-    # Sorts by Wiktionary language name, with broad entries before narrow
-    # ones.
-    phones_summaries.sort(key=itemgetter(0))
-    readme_list.sort(key=itemgetter(0))
+    # Sorts by path to TSV.
+    phones_summaries.sort(key=operator.itemgetter(0))
+    readme_list.sort(key=operator.itemgetter(0))
     with open(PHONES_SUMMARY_PATH, "w", encoding="utf-8") as sink:
         tsv_writer_object = csv.writer(
             sink, delimiter="\t", lineterminator="\n"
