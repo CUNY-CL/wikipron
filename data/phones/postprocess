@@ -1,0 +1,6 @@
+#!/bin/bash
+# Runs summary generation script.
+
+set -eou pipefail
+
+./lib/generate_phones_summary.py

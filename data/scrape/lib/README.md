@@ -10,7 +10,7 @@ the permitted phones/phonemes.
 regarding the contents of the TSVs [`scrape.py`](scrape.py) generated and the
 configuration settings that were passed to scrape. [`postprocess`](../postprocess)
 sorts and removes entries in each TSV if they have the same graphemic form and
-phonetic/phonemic form as a previous entry. In addition it splits TSVs
+narrow/broad form as a previous entry. In addition it splits TSVs
 containing multiple scripts (Arabic, Cyrillic, etc.) into constituent TSVs
 containing a single script. [`languages.json`](languages.json) provides
 [`scrape.py`](../scrape.py) with a dictionary containing the information it needs

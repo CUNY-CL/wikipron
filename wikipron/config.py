@@ -58,7 +58,7 @@ class Config:
         stress: bool = True,
         syllable_boundaries: bool = True,
         cut_off_date: Optional[str] = None,
-        phonetic: bool = False,
+        narrow: bool = False,
         dialect: Optional[str] = None,
         segment: bool = True,
         tone: bool = True,
@@ -72,7 +72,7 @@ class Config:
             stress, syllable_boundaries, segment, tone
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
-        self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
+        self.ipa_regex: str = _PHONES_REGEX if narrow else _PHONEMES_REGEX
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
