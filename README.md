@@ -184,5 +184,5 @@ WikiPron is released under an Apache 2.0 license. Please see
 for details.
 
 Please note that Wiktionary data in the
-[data/](https://github.com/kylebgorman/wikipron/tree/master/data) directory has
+[`data/`](https://github.com/kylebgorman/wikipron/tree/master/data) directory has
 [its own licensing terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights).
