@@ -51,6 +51,7 @@ Unreleased
 -   Reorganizes CG files and related scripts under `data/covering_grammar` (\#395)
 -   Reorganized `data/phones/phones/fre_phonemic.phones` (\#398)
 -   Removed `data/src/` (\#401)
+-   Fixed typo in `README.md` (\#407)
 
 ### Under `wikipron/` and elsewhere
 
