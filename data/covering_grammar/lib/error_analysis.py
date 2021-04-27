@@ -43,11 +43,10 @@ def main(args: argparse.Namespace) -> None:
                         rulematch_predmatch += 1
                     else:
                         rulematch_pred_notmatch += 1
+                elif gold_p == hypo_p:
+                    not_rulematch_predmatch += 1
                 else:
-                    if gold_p == hypo_p:
-                        not_rulematch_predmatch += 1
-                    else:
-                        not_rulematch_pred_notmatch += 1
+                    not_rulematch_pred_notmatch += 1
         # Collects percentages.
         rule_m_pred_nm = 100 * rulematch_pred_notmatch / total_records
         rule_m_pred_m = 100 * rulematch_predmatch / total_records
@@ -55,7 +54,7 @@ def main(args: argparse.Namespace) -> None:
         rule_nm_pred_nm = 100 * not_rulematch_pred_notmatch / total_records
         # Builds and prints the table.
         print_table = prettytable.PrettyTable()
-        print_table.field_names = ["", "CG match", "CG not-match"]
+        print_table.field_names = ["", "CG match", "CG non-match"]
         print_table.add_row(
             ["Pron match", f"{rule_m_pred_m:.2f}", f"{rule_nm_pred_m:.2f}"]
         )
