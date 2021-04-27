@@ -60,7 +60,7 @@ def main(args: argparse.Namespace) -> None:
         )
         print_table.add_row(
             [
-                "Pron not-match",
+                "Pron non-match",
                 f"{rule_m_pred_nm:.2f}",
                 f"{rule_nm_pred_nm:.2f}",
             ]
