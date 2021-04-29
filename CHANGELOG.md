@@ -51,6 +51,8 @@ Unreleased
 -   Reorganizes CG files and related scripts under `data/covering_grammar` (\#395)
 -   Reorganized `data/phones/phones/fre_phonemic.phones` (\#398)
 -   Removed `data/src/` (\#401)
+-   Fixed Column ordering of the test file read by the script in 
+    `data/covering_grammar/lib/error_analysis.py` (\#411)
 
 ### Under `wikipron/` and elsewhere
 
