@@ -21,4 +21,4 @@ Data directories
     frequencies can be found [here](./frequencies/README.md).
 - The [morphology](./morphology) directory contains scripts that download
   UniMorph data for all languages covered by both UniMorph and the "Big Scrape".
-  - Details can be found [here](./morphology/README.md)
+  - Details can be found [here](./morphology/README.md).
