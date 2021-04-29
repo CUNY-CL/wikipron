@@ -25,7 +25,7 @@ def main(args: argparse.Namespace) -> None:
             if g_word != p_word:
                 logging.error("%s != %s (line %d)", g_word, p_word, lineno)
                 exit(1)
-            print(f"{g_word}\t{g_pron}\t{p_pron}", file=wf)
+            print(f"{g_word}\t{p_pron}\t{g_pron}", file=wf)
 
 
 if __name__ == "__main__":
