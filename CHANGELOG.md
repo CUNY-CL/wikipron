@@ -54,6 +54,7 @@ Unreleased
 -   Renamed TSV files and phonelists to use the terms "broad"/"narrow" instead
     of "phonemic"/"phonetic" (\#389, \#402, \#405)
 -   Fixed typo in `README.md` (\#407)
+-   Fixed order of data in `data/covering_grammar/lib/make_test_file.py` (\#410)
 
 ### Under `wikipron/` and elsewhere
 
