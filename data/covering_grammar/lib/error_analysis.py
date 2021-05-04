@@ -7,7 +7,7 @@ Two input files are required:
     zero or more graphemes, and the right contains zero or more phones it can
     correspond to.
 2.  Test output: a three-column TSV file in which the columns are the graphemic
-    form, the hypothesized pronunciation, and the gold pronunciation.
+    form, the gold pronunciation, and the hypothesized pronunciation.
 
 Example:
 
@@ -19,9 +19,16 @@ __author__ = "Arundhati Sengupta"
 
 import argparse
 
-import prettytable  # type: ignore
+import prettytable
 import pynini
 from pynini.lib import rewrite
+
+
+def match_pronunciation_rule(ortho, pron, cg_fst):
+    try:
+        return rewrite.matches(ortho, pron, cg_fst)
+    except Exception:
+        return False
 
 
 def main(args: argparse.Namespace) -> None:
@@ -35,23 +42,18 @@ def main(args: argparse.Namespace) -> None:
         with open(args.test_path, "r") as source:
             for line in source:
                 total_records += 1
-                (ortho_str, hypo_p_str, gold_p_str) = line.rstrip().split(
-                    "\t", 2
-                )
-                ortho = pynini.accep(ortho_str)
-                hypo_p = pynini.accep(hypo_p_str.replace(" ", ""))
-                gold_p = pynini.accep(gold_p_str.replace(" ", ""))
-                if rewrite.matches(ortho, hypo_p, cg_fst):
+                ortho, gold_p, hypo_p = line.rstrip().split("\t", 2)
+                hypo_p = hypo_p.replace(" ", "")
+                gold_p = gold_p.replace(" ", "")
+                if match_pronunciation_rule(ortho, hypo_p, cg_fst):
                     if gold_p == hypo_p:
                         rulematch_predmatch += 1
                     else:
                         rulematch_pred_notmatch += 1
+                elif gold_p == hypo_p:
+                    not_rulematch_predmatch += 1
                 else:
-                    if gold_p == hypo_p:
-                        not_rulematch_predmatch += 1
-                    else:
-                        not_rulematch_pred_notmatch += 1
-
+                    not_rulematch_pred_notmatch += 1
         # Collects percentages.
         rule_m_pred_nm = 100 * rulematch_pred_notmatch / total_records
         rule_m_pred_m = 100 * rulematch_predmatch / total_records
@@ -59,13 +61,13 @@ def main(args: argparse.Namespace) -> None:
         rule_nm_pred_nm = 100 * not_rulematch_pred_notmatch / total_records
         # Builds and prints the table.
         print_table = prettytable.PrettyTable()
-        print_table.field_names = ["", "CG match", "CG not-match"]
+        print_table.field_names = ["", "CG match", "CG non-match"]
         print_table.add_row(
             ["Pron match", f"{rule_m_pred_m:.2f}", f"{rule_nm_pred_m:.2f}"]
         )
         print_table.add_row(
             [
-                "Pron not-match",
+                "Pron non-match",
                 f"{rule_m_pred_nm:.2f}",
                 f"{rule_nm_pred_nm:.2f}",
             ]
