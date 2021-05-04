@@ -78,7 +78,7 @@ def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
             or phone in OTHER_VALID_IPA
         )
     )
-    if len(bad_ipa_phonemes) and filepath.endswith("phonemic.tsv"):
+    if len(bad_ipa_phonemes) and filepath.endswith("broad.tsv"):
         logging.warning("Found %d invalid IPA phones:", len(bad_ipa_phonemes))
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:

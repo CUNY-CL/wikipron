@@ -19,10 +19,9 @@ __author__ = "Arundhati Sengupta"
 
 import argparse
 
-import prettytable
+import prettytable  # type: ignore
 import pynini
 from pynini.lib import rewrite
-
 
 def match_pronunciation_rule(ortho, pron, cg_fst):
     try:

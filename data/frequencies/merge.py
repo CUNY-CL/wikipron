@@ -21,9 +21,9 @@ def write_frequency_tsv(
     basename = f"{wiki_tsv_affix}_{level}"
     source_path = f"{basename}.tsv"
     sink_path = f"{basename}_freq.tsv"
-    # Will try to overwrite phonetic and phonemic WikiPron TSVs
-    # for all Wortschatz languages. WikiPron may not have both a
-    # phonetic and phonemic TSV for all languages.
+    # Will try to overwrite narrow and broad WikiPron TSVs for all Wortschatz
+    # languages. WikiPron may not have both a narrow and broad TSV for all
+    # languages.
     try:
         # This is written to be run after remove_duplicates_and_split.sh
         # and retain sorted order.
@@ -56,10 +56,10 @@ def main() -> None:
     with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
     levels = [
-        "phonetic",
-        "phonemic",
-        "phonetic_filtered",
-        "phonemic_filtered",
+        "narrow",
+        "broad",
+        "narrow_filtered",
+        "broad_filtered",
     ]
     for freq_file in os.listdir("tsv"):
         word_freq_dict = {}
