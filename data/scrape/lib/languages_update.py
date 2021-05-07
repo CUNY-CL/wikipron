@@ -28,7 +28,7 @@ def _detect_best_script_name(
     word belongs to along with the corresponding confidence expressed as a
     maximum likelihood estimate computed over the `word` sample. If `strict`
     is enabled, then all the characters must belong to the same script and
-    `(None, None)` is returned on failure.
+    `None` is returned on failure.
 
     Example: "ژۇرنال" -> ("Arabic", 1.0).
     """
@@ -69,7 +69,7 @@ def _get_alias(
     script = "".join(
         unicodedataplus.property_value_aliases["script"][value]
     ).lower()
-    # Removes qaac tag from end of script.
+    # Removes `qaac/qaai` tags from end of script.
     return script.replace("qaac", "").replace("qaai", "")
 
 
@@ -131,7 +131,7 @@ def main():
                                 lang["script"][
                                     _get_alias(script)
                                 ] = script.replace("_", " ")
-                        _remove_mismatch_ids(lang)
+                            _remove_mismatch_ids(lang)
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
         json.dump(languages, sink, ensure_ascii=False, indent=4)
 

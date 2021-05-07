@@ -1110,7 +1110,10 @@
         "iso639_name": "Makasar",
         "wiktionary_name": "Makasar",
         "wiktionary_code": "mak",
-        "casefold": null
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "mlg": {
         "iso639_name": "Malagasy",
