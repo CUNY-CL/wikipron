@@ -32,6 +32,6 @@ Two input files are required:
 ## Example workflow
 
 ```bash
-cd data/src/error_analysis
+cd data/covering_grammar/lib
 ./error_analysis.py --cg_path=cg.tsv --test_path=test.tsv
 ```
