@@ -25,7 +25,7 @@ Unreleased
 -   Added `data/covering_grammar/tsv/fre_latn_phonemic.tsv` (\#398)
 -   Added `data/covering_grammar/lib/make_test_file.py` (\#396, \#399)
 -   Scraped Komi-Zyrian (`kpv`). (\#400)
--   Scraped Makasar (`mak`). (\#415)
+-   Scraped Makasar (`mak`). (\#415, #419)
 
 #### Changed
 
@@ -57,6 +57,7 @@ Unreleased
 -   Fixed typo in `README.md` (\#407)
 -   Fixed column ordering of the test file read by the script in 
     `data/covering_grammar/lib/error_analysis.py` (\#411)
+-   Fixed Common character collection in `common_characters.py` (\#419)
 
 ### Under `wikipron/` and elsewhere
 
