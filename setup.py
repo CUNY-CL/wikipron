@@ -19,7 +19,7 @@ def main():
         description="Scraping grapheme-to-phoneme data from Wiktionary.",
         long_description=_LONG_DESCRIPTION,
         long_description_content_type="text/markdown",
-        url="https://github.com/kylebgorman/wikipron",
+        url="https://github.com/CUNY-CL/wikipron",
         keywords=[
             "computational linguistics",
             "natural language processing",
