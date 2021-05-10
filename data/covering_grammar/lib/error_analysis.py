@@ -31,10 +31,10 @@ from pynini.lib import rewrite
 def create_new_log_dir() -> str:
     error_log_dir = os.path.join(os.getcwd(), "logs")
     try:
-         os.makedirs(error_log_dir)
+        os.makedirs(error_log_dir)
     except OSError as e:
         if e.errno != errno.EEXIST:
-            raise  Exception("Failed to create a log directory")
+            raise Exception("Failed to create a log directory")
     return error_log_dir
 
 
@@ -57,12 +57,18 @@ def main(args: argparse.Namespace) -> None:
         not_rulematch_predmatch = 0
         not_rulematch_pred_notmatch = 0
         total_records = 0
-        error_log_dir = create_new_log_dir()    #create error_log directory using current timestamp
+        error_log_dir = (
+            create_new_log_dir()
+        )  # create error_log directory using current timestamp
         today_timestamp = get_current_timestamp()
         with open(args.test_path, "r") as source:
-            with open(os.path.join(error_log_dir, today_timestamp + "_error.tsv"), "w", encoding = "utf8") as f:
+            with open(
+                os.path.join(error_log_dir, today_timestamp + "_error.tsv"),
+                "w",
+                encoding="utf8",
+            ) as f:
                 writer = csv.writer(f)
-                writer.writerow(["Orthography", "Gold" ,"Hypo"])
+                writer.writerow(["Orthography", "Gold", "Hypo"])
                 for line in source:
                     total_records += 1
                     ortho, gold_p, hypo_p = line.rstrip().split("\t", 2)
