@@ -445,4 +445,6 @@ LANGUAGE_CODES = {
     "ybi": "Yamphu",
     # Khumi Chin: ISO 639-3 only.
     "cnk": "Khumi Chin",
+    # Wiyot: ISO 639-3 only.
+    "wiy": "Wiyot",
 }
