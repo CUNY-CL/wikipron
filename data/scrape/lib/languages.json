@@ -2118,6 +2118,15 @@
             "latn": "Latin"
         }
     },
+    "wiy": {
+        "iso639_name": "Wiyot",
+        "wiktionary_name": "Wiyot",
+        "wiktionary_code": "wiy",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "xho": {
         "iso639_name": "Xhosa",
         "wiktionary_name": "Xhosa",
