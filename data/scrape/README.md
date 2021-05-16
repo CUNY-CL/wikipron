@@ -336,5 +336,6 @@
 | [TSV](tsv/yid_hebr_narrow.tsv) | yid | Yiddish | Yiddish | Hebrew |  | False | Narrow | False | 358 |
 | [TSV](tsv/yue_hani_broad.tsv) | yue | Yue Chinese | Cantonese | Han |  | False | Broad | False | 87,378 |
 | [TSV](tsv/zha_latn_broad.tsv) | zha | Zhuang | Zhuang | Latin |  | False | Broad | True | 1,143 |
+| [TSV](tsv/zom_latn_broad.tsv) | zom | Zou | Zou | Latin |  | False | Broad | None | 140 |
 | [TSV](tsv/zul_latn_broad.tsv) | zul | Zulu | Zulu | Latin |  | False | Broad | True | 1,677 |
 | [TSV](tsv/zza_latn_narrow.tsv) | zza | Zaza | Zazaki | Latin |  | False | Narrow | True | 188 |
