@@ -326,6 +326,7 @@ wel_latn_nw_narrow.tsv	wel	Welsh	Welsh	Latin	North Wales	False	Narrow	True	561
 wel_latn_sw_broad.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Broad	True	9999
 wel_latn_sw_broad_filtered.tsv	wel	Welsh	Welsh	Latin	South Wales	True	Broad	True	9925
 wel_latn_sw_narrow.tsv	wel	Welsh	Welsh	Latin	South Wales	False	Narrow	True	601
+wiy_latn_broad.tsv	wiy	Wiyot	Wiyot	Latin		False	Broad	True	144
 wlm_latn_broad.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Broad	True	144
 xho_latn_narrow.tsv	xho	Xhosa	Xhosa	Latin		False	Narrow	True	730
 ybi_deva_broad.tsv	ybi	Yamphu	Yamphu	Devanagari		False	Broad	False	112
