@@ -2178,6 +2178,15 @@
             "latn": "Latin"
         }
     },
+    "zom": {
+        "iso639_name": "Zou",
+        "wiktionary_name": "Zou",
+        "wiktionary_code": "zom",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "zul": {
         "iso639_name": "Zulu",
         "wiktionary_name": "Zulu",
