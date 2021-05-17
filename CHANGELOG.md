@@ -26,7 +26,9 @@ Unreleased
 -   Added `data/covering_grammar/lib/make_test_file.py` (\#396, \#399)
 -   Scraped Komi-Zyrian (`kpv`). (\#400)
 -   Scraped Makasar (`mak`). (\#415, #419)
--   Configured and scraped Zou (`zom`). (\#421)
+-   Scraped Zou (`zom`). (\#421)
+-   Scraped Wiyot (`wiy`). (\#422)
+-   Scrape Sidamo (`sid`). (\#423)
 
 #### Changed
 

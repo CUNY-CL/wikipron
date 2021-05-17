@@ -1803,7 +1803,10 @@
         "iso639_name": "Sidamo",
         "wiktionary_name": "Sidamo",
         "wiktionary_code": "sid",
-        "casefold": null
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "sms": {
         "iso639_name": "Skolt Sami",
@@ -2113,6 +2116,15 @@
         "iso639_name": "Hmong Daw",
         "wiktionary_name": "White Hmong",
         "wiktionary_code": "mww",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
+    "wiy": {
+        "iso639_name": "Wiyot",
+        "wiktionary_name": "Wiyot",
+        "wiktionary_code": "wiy",
         "casefold": true,
         "script": {
             "latn": "Latin"
