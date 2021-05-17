@@ -273,6 +273,7 @@ sco_latn_broad.tsv	sco	Scots	Scots	Latin		False	Broad	True	900
 sco_latn_narrow.tsv	sco	Scots	Scots	Latin		False	Narrow	True	438
 sga_latn_broad.tsv	sga	Old Irish (to 900)	Old Irish	Latin		False	Broad	True	2289
 shn_mymr_broad.tsv	shn	Shan	Shan	Myanmar		False	Broad	False	487
+sid_latn_broad.tsv	sid	Sidamo	Sidamo	Latin		False	Broad		192
 slo_latn_broad.tsv	slo	Slovak	Slovak	Latin		False	Broad	True	3620
 slo_latn_narrow.tsv	slo	Slovak	Slovak	Latin		False	Narrow	True	1620
 slv_latn_broad.tsv	slv	Slovenian	Slovene	Latin		False	Broad	True	4396
