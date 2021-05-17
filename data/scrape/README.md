@@ -329,6 +329,7 @@
 | [TSV](tsv/wel_latn_sw_broad.tsv) | wel | Welsh | Welsh | Latin | South Wales | False | Broad | True | 9,999 |
 | [TSV](tsv/wel_latn_sw_broad_filtered.tsv) | wel | Welsh | Welsh | Latin | South Wales | True | Broad | True | 9,925 |
 | [TSV](tsv/wel_latn_sw_narrow.tsv) | wel | Welsh | Welsh | Latin | South Wales | False | Narrow | True | 601 |
+| [TSV](tsv/wiy_latn_broad.tsv) | wiy | Wiyot | Wiyot | Latin |  | False | Broad | True | 144 |
 | [TSV](tsv/wlm_latn_broad.tsv) | wlm | Middle Welsh | Middle Welsh | Latin |  | False | Broad | True | 144 |
 | [TSV](tsv/xho_latn_narrow.tsv) | xho | Xhosa | Xhosa | Latin |  | False | Narrow | True | 730 |
 | [TSV](tsv/ybi_deva_broad.tsv) | ybi | Yamphu | Yamphu | Devanagari |  | False | Broad | False | 112 |
