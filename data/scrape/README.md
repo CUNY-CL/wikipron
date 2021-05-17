@@ -275,6 +275,7 @@
 | [TSV](tsv/sco_latn_narrow.tsv) | sco | Scots | Scots | Latin |  | False | Narrow | True | 438 |
 | [TSV](tsv/sga_latn_broad.tsv) | sga | Old Irish (to 900) | Old Irish | Latin |  | False | Broad | True | 2,289 |
 | [TSV](tsv/shn_mymr_broad.tsv) | shn | Shan | Shan | Myanmar |  | False | Broad | False | 487 |
+| [TSV](tsv/sid_latn_broad.tsv) | sid | Sidamo | Sidamo | Latin |  | False | Broad | None | 192 |
 | [TSV](tsv/slo_latn_broad.tsv) | slo | Slovak | Slovak | Latin |  | False | Broad | True | 3,620 |
 | [TSV](tsv/slo_latn_narrow.tsv) | slo | Slovak | Slovak | Latin |  | False | Narrow | True | 1,620 |
 | [TSV](tsv/slv_latn_broad.tsv) | slv | Slovenian | Slovene | Latin |  | False | Broad | True | 4,396 |

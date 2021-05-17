@@ -1803,7 +1803,10 @@
         "iso639_name": "Sidamo",
         "wiktionary_name": "Sidamo",
         "wiktionary_code": "sid",
-        "casefold": null
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "sms": {
         "iso639_name": "Skolt Sami",

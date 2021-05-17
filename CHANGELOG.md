@@ -27,6 +27,7 @@ Unreleased
 -   Scraped Komi-Zyrian (`kpv`). (\#400)
 -   Scraped Makasar (`mak`). (\#415, #419)
 -   Configuring and scraping Wiyot (`wiy`). (\#422)
+-   Scrape Sidamo (`sid`). (\#423)
 
 #### Changed
 
