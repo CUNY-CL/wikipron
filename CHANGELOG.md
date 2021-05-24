@@ -32,6 +32,7 @@ Unreleased
 
 #### Changed
 
+-   Added covering grammar coverage error log and specified error_type in error_analysis.py. (\#424)
 -   Added error log writing in error_analysis.py. (\#420)
 -   Added new columns in summary tables. (\#365)
 -   Fixed broken paths in `data/src/generate_phones_summary.py` and in 

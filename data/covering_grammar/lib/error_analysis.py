@@ -60,7 +60,7 @@ def main(args: argparse.Namespace) -> None:
                 "w",
                 encoding="utf8",
             ) as log_file:
-                fieldnames = ["Orthography", "Gold", "Hypo"]
+                fieldnames = ["Error_type", "Orthography", "Gold", "Hypo"]
                 tsv_writer_object = csv.DictWriter(
                     log_file,
                     fieldnames=fieldnames,
@@ -80,6 +80,7 @@ def main(args: argparse.Namespace) -> None:
                             rulematch_pred_notmatch += 1
                             tsv_writer_object.writerow(
                                 {
+                                    "Error_type": "CG_match_Pron_non_match",
                                     "Orthography": ortho,
                                     "Gold": gold_p,
                                     "Hypo": hypo_p,
@@ -87,10 +88,19 @@ def main(args: argparse.Namespace) -> None:
                             )
                     elif gold_p == hypo_p:
                         not_rulematch_predmatch += 1
+                        tsv_writer_object.writerow(
+                            {
+                                "Error_type": "CG_non_match_pron_match",
+                                "Orthography": ortho,
+                                "Gold": gold_p,
+                                "Hypo": hypo_p,
+                            }
+                        )
                     else:
                         not_rulematch_pred_notmatch += 1
                         tsv_writer_object.writerow(
                             {
+                                "Error_type": "CG_non_match_pron_non_match",
                                 "Orthography": ortho,
                                 "Gold": gold_p,
                                 "Hypo": hypo_p,
