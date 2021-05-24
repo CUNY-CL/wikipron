@@ -86,7 +86,6 @@ def main(args: argparse.Namespace) -> None:
                                     "Hypo": hypo_p,
                                 }
                             )
-
                     elif gold_p == hypo_p:
                         not_rulematch_predmatch += 1
                         tsv_writer_object.writerow(
