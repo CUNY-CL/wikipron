@@ -1,5 +1,6 @@
 a	aː
 a	a
+a	au
 á	auː
 á	au
 æ	ai
@@ -16,6 +17,8 @@ e	ɛː
 e	e
 é	jɛː
 é	jɛ
+é	ɛ
+é	ɛː
 ei	ei
 ei	eiː
 ey	ei
@@ -36,16 +39,21 @@ gg	kː
 gg	cː
 gg	k
 gj	c
+ggj	cː
+ggj	c
 h	h
 h
+h	ç
 hj	ç
 hl	l̥
 hn	n̥
+hr	r̥
 i	i
 i	ɪ
 i	ɪː
 í	i
 í	iː
+ía	iːja
 j	j
 j
 j	c
