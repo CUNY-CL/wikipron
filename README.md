@@ -33,7 +33,7 @@ Command-line tool
 
 ### Installation
 
-WikiPron requires Python 3.6+. It is available through pip:
+WikiPron requires Python 3.6+. It is available from PyPI:
 
 ```bash
 pip install wikipron
