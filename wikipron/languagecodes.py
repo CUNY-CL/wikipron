@@ -449,4 +449,6 @@ LANGUAGE_CODES = {
     "zom": "Zou",
     # Wiyot: ISO 639-3 only.
     "wiy": "Wiyot",
+    # Chibcha: ISO 639-3 only.
+    "chb": "Chibcha",
 }
