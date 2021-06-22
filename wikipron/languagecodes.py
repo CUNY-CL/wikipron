@@ -449,6 +449,8 @@ LANGUAGE_CODES = {
     "zom": "Zou",
     # Wiyot: ISO 639-3 only.
     "wiy": "Wiyot",
+    # Central Atlas Tamazight (Berber). ISO 639-9 only.
+    "tzm": "Central Atlas Tamazight",
     # Chibcha: ISO 639-3 only.
     "chb": "Chibcha",
 }

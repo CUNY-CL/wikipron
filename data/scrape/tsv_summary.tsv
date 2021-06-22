@@ -310,6 +310,8 @@ tur_latn_narrow.tsv	tur	Turkish	Turkish	Latin		False	Narrow	True	2043
 tur_latn_narrow_filtered.tsv	tur	Turkish	Turkish	Latin		True	Narrow	True	1812
 twf_latn_broad.tsv	twf	Northern Tiwa	Taos	Latin		False	Broad	True	135
 tyv_cyrl_broad.tsv	tyv	Tuvinian	Tuvan	Cyrillic		False	Broad	True	462
+tzm_tfng_broad.tsv	tzm	Central Atlas Tamazight	Central Atlas Tamazight	Tifinagh		False	Broad	False	483
+tzm_tfng_narrow.tsv	tzm	Central Atlas Tamazight	Central Atlas Tamazight	Tifinagh		False	Narrow	False	509
 uig_arab_ara_broad.tsv	uig	Uighur	Uyghur	Arabic		False	Broad	True	260
 ukr_cyrl_narrow.tsv	ukr	Ukrainian	Ukrainian	Cyrillic		False	Narrow	True	6148
 urd_arab_broad.tsv	urd	Urdu	Urdu	Arabic		False	Broad	False	1063

@@ -171,6 +171,10 @@ _SMOKE_TEST_LANGUAGES = [
         "Georgian",
         [("ააბარგებს", True), ("ژלرنال", False), ("wikipron", False)],
     ),
+    SmokeTestScript(
+        "Tifinagh",
+        [("ⵜⴼⵏⵗ", True), ("ⵜⵉⴼⵉⵏⴰⵖ", True), ("wikipron", False)],
+    ),
 ]
 
 
