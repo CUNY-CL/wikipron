@@ -312,6 +312,12 @@
             "latn": "Latin"
         }
     },
+    "tzm": {
+        "iso639_name": "Central Atlas Tamazight",
+        "wiktionary_name": "Central Atlas Tamazight",
+        "wiktionary_code": "tzm",
+        "casefold": false,
+    },
     "ckb": {
         "iso639_name": "Central Kurdish",
         "wiktionary_name": "Central Kurdish",
