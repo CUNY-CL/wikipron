@@ -29,6 +29,7 @@ Unreleased
 -   Scraped Zou (`zom`). (\#421)
 -   Scraped Wiyot (`wiy`). (\#422)
 -   Scrape Sidamo (`sid`). (\#423)
+-   Configured and scraped Chibcha (`chb`). (\#430)
 
 #### Changed
 
