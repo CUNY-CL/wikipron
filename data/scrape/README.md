@@ -153,6 +153,8 @@
 | [TSV](tsv/jpn_kana_narrow.tsv) | jpn | Japanese | Japanese | Katakana |  | False | Narrow | False | 5,268 |
 | [TSV](tsv/jpn_kana_narrow_filtered.tsv) | jpn | Japanese | Japanese | Katakana |  | True | Narrow | False | 4,765 |
 | [TSV](tsv/kal_latn_broad.tsv) | kal | Kalaallisut | Greenlandic | Latin |  | False | Broad | True | 173 |
+| [TSV](tsv/kas_arab_broad.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Broad | False | 270 |
+| [TSV](tsv/kas_arab_narrow.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Narrow | False | 160 |
 | [TSV](tsv/kaz_cyrl_broad.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Broad | True | 119 |
 | [TSV](tsv/kaz_cyrl_narrow.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Narrow | True | 745 |
 | [TSV](tsv/kbd_cyrl_narrow.tsv) | kbd | Kabardian | Kabardian | Cyrillic |  | False | Narrow | True | 834 |
