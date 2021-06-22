@@ -50,6 +50,7 @@
 | [TSV](tsv/cat_latn_broad.tsv) | cat | Catalan; Valencian | Catalan | Latin |  | False | Broad | True | 55,829 |
 | [TSV](tsv/cbn_thai_broad.tsv) | cbn | Nyahkur | Nyah Kur | Thai |  | False | Broad | False | 116 |
 | [TSV](tsv/ceb_latn_broad.tsv) | ceb | Cebuano | Cebuano | Latin |  | False | Broad | True | 326 |
+| [TSV](tsv/chb_latn_broad.tsv) | chb | Chibcha | Chibcha | Latin |  | False | Broad | True | 122 |
 | [TSV](tsv/cho_latn_broad.tsv) | cho | Choctaw | Choctaw | Latin |  | False | Broad | True | 112 |
 | [TSV](tsv/cmn_hani_broad.tsv) | cmn | Mandarin Chinese | Chinese | Han |  | False | Broad | False | 133,686 |
 | [TSV](tsv/cnk_latn_broad.tsv) | cnk | Khumi Chin | Khumi Chin | Latin |  | False | Broad | True | 307 |
@@ -275,7 +276,7 @@
 | [TSV](tsv/sco_latn_narrow.tsv) | sco | Scots | Scots | Latin |  | False | Narrow | True | 438 |
 | [TSV](tsv/sga_latn_broad.tsv) | sga | Old Irish (to 900) | Old Irish | Latin |  | False | Broad | True | 2,289 |
 | [TSV](tsv/shn_mymr_broad.tsv) | shn | Shan | Shan | Myanmar |  | False | Broad | False | 487 |
-| [TSV](tsv/sid_latn_broad.tsv) | sid | Sidamo | Sidamo | Latin |  | False | Broad | None | 192 |
+| [TSV](tsv/sid_latn_broad.tsv) | sid | Sidamo | Sidamo | Latin |  | False | Broad | True | 192 |
 | [TSV](tsv/slo_latn_broad.tsv) | slo | Slovak | Slovak | Latin |  | False | Broad | True | 3,620 |
 | [TSV](tsv/slo_latn_narrow.tsv) | slo | Slovak | Slovak | Latin |  | False | Narrow | True | 1,620 |
 | [TSV](tsv/slv_latn_broad.tsv) | slv | Slovenian | Slovene | Latin |  | False | Broad | True | 4,396 |
@@ -338,6 +339,6 @@
 | [TSV](tsv/yid_hebr_narrow.tsv) | yid | Yiddish | Yiddish | Hebrew |  | False | Narrow | False | 358 |
 | [TSV](tsv/yue_hani_broad.tsv) | yue | Yue Chinese | Cantonese | Han |  | False | Broad | False | 87,378 |
 | [TSV](tsv/zha_latn_broad.tsv) | zha | Zhuang | Zhuang | Latin |  | False | Broad | True | 1,143 |
-| [TSV](tsv/zom_latn_broad.tsv) | zom | Zou | Zou | Latin |  | False | Broad | None | 140 |
+| [TSV](tsv/zom_latn_broad.tsv) | zom | Zou | Zou | Latin |  | False | Broad | True | 140 |
 | [TSV](tsv/zul_latn_broad.tsv) | zul | Zulu | Zulu | Latin |  | False | Broad | True | 1,677 |
 | [TSV](tsv/zza_latn_narrow.tsv) | zza | Zaza | Zazaki | Latin |  | False | Narrow | True | 188 |
