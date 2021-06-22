@@ -273,7 +273,7 @@ sco_latn_broad.tsv	sco	Scots	Scots	Latin		False	Broad	True	900
 sco_latn_narrow.tsv	sco	Scots	Scots	Latin		False	Narrow	True	438
 sga_latn_broad.tsv	sga	Old Irish (to 900)	Old Irish	Latin		False	Broad	True	2289
 shn_mymr_broad.tsv	shn	Shan	Shan	Myanmar		False	Broad	False	487
-sid_latn_broad.tsv	sid	Sidamo	Sidamo	Latin		False	Broad		192
+sid_latn_broad.tsv	sid	Sidamo	Sidamo	Latin		False	Broad	True	192
 slo_latn_broad.tsv	slo	Slovak	Slovak	Latin		False	Broad	True	3620
 slo_latn_narrow.tsv	slo	Slovak	Slovak	Latin		False	Narrow	True	1620
 slv_latn_broad.tsv	slv	Slovenian	Slovene	Latin		False	Broad	True	4396
@@ -309,6 +309,8 @@ tur_latn_narrow.tsv	tur	Turkish	Turkish	Latin		False	Narrow	True	2043
 tur_latn_narrow_filtered.tsv	tur	Turkish	Turkish	Latin		True	Narrow	True	1812
 twf_latn_broad.tsv	twf	Northern Tiwa	Taos	Latin		False	Broad	True	135
 tyv_cyrl_broad.tsv	tyv	Tuvinian	Tuvan	Cyrillic		False	Broad	True	462
+tzm_tfng_broad.tsv	tzm	Central Atlas Tamazight	Central Atlas Tamazight	Tifinagh		False	Broad	False	483
+tzm_tfng_narrow.tsv	tzm	Central Atlas Tamazight	Central Atlas Tamazight	Tifinagh		False	Narrow	False	509
 uig_arab_ara_broad.tsv	uig	Uighur	Uyghur	Arabic		False	Broad	True	260
 ukr_cyrl_narrow.tsv	ukr	Ukrainian	Ukrainian	Cyrillic		False	Narrow	True	6148
 urd_arab_broad.tsv	urd	Urdu	Urdu	Arabic		False	Broad	False	1063
@@ -336,6 +338,6 @@ yid_hebr_broad.tsv	yid	Yiddish	Yiddish	Hebrew		False	Broad	False	251
 yid_hebr_narrow.tsv	yid	Yiddish	Yiddish	Hebrew		False	Narrow	False	358
 yue_hani_broad.tsv	yue	Yue Chinese	Cantonese	Han		False	Broad	False	87378
 zha_latn_broad.tsv	zha	Zhuang	Zhuang	Latin		False	Broad	True	1143
-zom_latn_broad.tsv	zom	Zou	Zou	Latin		False	Broad		140
+zom_latn_broad.tsv	zom	Zou	Zou	Latin		False	Broad	True	140
 zul_latn_broad.tsv	zul	Zulu	Zulu	Latin		False	Broad	True	1677
 zza_latn_narrow.tsv	zza	Zaza	Zazaki	Latin		False	Narrow	True	188

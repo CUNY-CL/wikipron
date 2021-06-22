@@ -275,7 +275,7 @@
 | [TSV](tsv/sco_latn_narrow.tsv) | sco | Scots | Scots | Latin |  | False | Narrow | True | 438 |
 | [TSV](tsv/sga_latn_broad.tsv) | sga | Old Irish (to 900) | Old Irish | Latin |  | False | Broad | True | 2,289 |
 | [TSV](tsv/shn_mymr_broad.tsv) | shn | Shan | Shan | Myanmar |  | False | Broad | False | 487 |
-| [TSV](tsv/sid_latn_broad.tsv) | sid | Sidamo | Sidamo | Latin |  | False | Broad | None | 192 |
+| [TSV](tsv/sid_latn_broad.tsv) | sid | Sidamo | Sidamo | Latin |  | False | Broad | True | 192 |
 | [TSV](tsv/slo_latn_broad.tsv) | slo | Slovak | Slovak | Latin |  | False | Broad | True | 3,620 |
 | [TSV](tsv/slo_latn_narrow.tsv) | slo | Slovak | Slovak | Latin |  | False | Narrow | True | 1,620 |
 | [TSV](tsv/slv_latn_broad.tsv) | slv | Slovenian | Slovene | Latin |  | False | Broad | True | 4,396 |
@@ -311,6 +311,8 @@
 | [TSV](tsv/tur_latn_narrow_filtered.tsv) | tur | Turkish | Turkish | Latin |  | True | Narrow | True | 1,812 |
 | [TSV](tsv/twf_latn_broad.tsv) | twf | Northern Tiwa | Taos | Latin |  | False | Broad | True | 135 |
 | [TSV](tsv/tyv_cyrl_broad.tsv) | tyv | Tuvinian | Tuvan | Cyrillic |  | False | Broad | True | 462 |
+| [TSV](tsv/tzm_tfng_broad.tsv) | tzm | Central Atlas Tamazight | Central Atlas Tamazight | Tifinagh |  | False | Broad | False | 483 |
+| [TSV](tsv/tzm_tfng_narrow.tsv) | tzm | Central Atlas Tamazight | Central Atlas Tamazight | Tifinagh |  | False | Narrow | False | 509 |
 | [TSV](tsv/uig_arab_ara_broad.tsv) | uig | Uighur | Uyghur | Arabic |  | False | Broad | True | 260 |
 | [TSV](tsv/ukr_cyrl_narrow.tsv) | ukr | Ukrainian | Ukrainian | Cyrillic |  | False | Narrow | True | 6,148 |
 | [TSV](tsv/urd_arab_broad.tsv) | urd | Urdu | Urdu | Arabic |  | False | Broad | False | 1,063 |
@@ -338,6 +340,6 @@
 | [TSV](tsv/yid_hebr_narrow.tsv) | yid | Yiddish | Yiddish | Hebrew |  | False | Narrow | False | 358 |
 | [TSV](tsv/yue_hani_broad.tsv) | yue | Yue Chinese | Cantonese | Han |  | False | Broad | False | 87,378 |
 | [TSV](tsv/zha_latn_broad.tsv) | zha | Zhuang | Zhuang | Latin |  | False | Broad | True | 1,143 |
-| [TSV](tsv/zom_latn_broad.tsv) | zom | Zou | Zou | Latin |  | False | Broad | None | 140 |
+| [TSV](tsv/zom_latn_broad.tsv) | zom | Zou | Zou | Latin |  | False | Broad | True | 140 |
 | [TSV](tsv/zul_latn_broad.tsv) | zul | Zulu | Zulu | Latin |  | False | Broad | True | 1,677 |
 | [TSV](tsv/zza_latn_narrow.tsv) | zza | Zaza | Zazaki | Latin |  | False | Narrow | True | 188 |
