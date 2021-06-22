@@ -50,6 +50,7 @@
 | [TSV](tsv/cat_latn_broad.tsv) | cat | Catalan; Valencian | Catalan | Latin |  | False | Broad | True | 55,829 |
 | [TSV](tsv/cbn_thai_broad.tsv) | cbn | Nyahkur | Nyah Kur | Thai |  | False | Broad | False | 116 |
 | [TSV](tsv/ceb_latn_broad.tsv) | ceb | Cebuano | Cebuano | Latin |  | False | Broad | True | 326 |
+| [TSV](tsv/chb_latn_broad.tsv) | chb | Chibcha | Chibcha | Latin |  | False | Broad | True | 122 |
 | [TSV](tsv/cho_latn_broad.tsv) | cho | Choctaw | Choctaw | Latin |  | False | Broad | True | 112 |
 | [TSV](tsv/cmn_hani_broad.tsv) | cmn | Mandarin Chinese | Chinese | Han |  | False | Broad | False | 133,686 |
 | [TSV](tsv/cnk_latn_broad.tsv) | cnk | Khumi Chin | Khumi Chin | Latin |  | False | Broad | True | 307 |

@@ -333,6 +333,15 @@
         "wiktionary_code": "ce",
         "casefold": true
     },
+    "chb": {
+        "iso639_name": "Chibcha",
+        "wiktionary_name": "Chibcha",
+        "wiktionary_code": "chb",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "nya": {
         "iso639_name": "Nyanja",
         "wiktionary_name": "Chichewa",

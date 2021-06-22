@@ -48,6 +48,7 @@ bur_mymr_broad_filtered.tsv	bur	Burmese	Burmese	Myanmar		True	Broad	False	4631
 cat_latn_broad.tsv	cat	Catalan; Valencian	Catalan	Latin		False	Broad	True	55829
 cbn_thai_broad.tsv	cbn	Nyahkur	Nyah Kur	Thai		False	Broad	False	116
 ceb_latn_broad.tsv	ceb	Cebuano	Cebuano	Latin		False	Broad	True	326
+chb_latn_broad.tsv	chb	Chibcha	Chibcha	Latin		False	Broad	True	122
 cho_latn_broad.tsv	cho	Choctaw	Choctaw	Latin		False	Broad	True	112
 cmn_hani_broad.tsv	cmn	Mandarin Chinese	Chinese	Han		False	Broad	False	133686
 cnk_latn_broad.tsv	cnk	Khumi Chin	Khumi Chin	Latin		False	Broad	True	307
