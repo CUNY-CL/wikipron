@@ -31,6 +31,7 @@ Unreleased
 -   Scrape Sidamo (`sid`). (\#423)
 -   Scraped Central Atlas Tamazight (`tzm`). (\#429)
 -   Scraped Chibcha (`chb`). (\#430)
+-   Scraped Kashmiri (`kas`). (\#431)
 
 #### Changed
 
