@@ -861,7 +861,8 @@
         "script": {
             "arab": "Arabic",
             "deva": "Devanagari",
-            "zinh": "Inherited"
+            "zinh": "Inherited",
+            "shrd": "Sharada"
         }
     },
     "kaz": {

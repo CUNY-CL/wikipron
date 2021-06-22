@@ -175,6 +175,15 @@ _SMOKE_TEST_LANGUAGES = [
         "Tifinagh",
         [("ⵜⴼⵏⵗ", True), ("ⵜⵉⴼⵉⵏⴰⵖ", True), ("wikipron", False)],
     ),
+    SmokeTestScript(
+        "Sharada",
+        [
+            ("𑆉𑆇𑆃𑆂", True),
+            ("𑆯𑆳𑆫𑆢𑆳", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 
