@@ -316,7 +316,10 @@
         "iso639_name": "Central Atlas Tamazight",
         "wiktionary_name": "Central Atlas Tamazight",
         "wiktionary_code": "tzm",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "tfng": "Tifinagh"
+        }
     },
     "ckb": {
         "iso639_name": "Central Kurdish",
