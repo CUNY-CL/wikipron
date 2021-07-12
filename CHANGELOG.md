@@ -32,6 +32,7 @@ Unreleased
 -   Scraped Central Atlas Tamazight (`tzm`). (\#429)
 -   Scraped Chibcha (`chb`). (\#430)
 -   Scraped Kashmiri (`kas`). (\#431)
+-   Added Malayalam (`mal`) scrape. (\#434)
 
 #### Changed
 
