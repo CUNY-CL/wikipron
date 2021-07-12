@@ -1157,7 +1157,11 @@
         "iso639_name": "Malayalam",
         "wiktionary_name": "Malayalam",
         "wiktionary_code": "ml",
-        "casefold": null
+        "casefold": null,
+        "script": {
+            "mlym": "Malayalam",
+            "arab": "Arabic"
+        }
     },
     "mlt": {
         "iso639_name": "Maltese",
