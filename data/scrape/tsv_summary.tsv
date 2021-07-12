@@ -194,6 +194,7 @@ mac_cyrl_narrow.tsv	mac	Macedonian	Macedonian	Cyrillic		False	Narrow	True	6878
 mah_latn_broad.tsv	mah	Marshallese	Marshallese	Latin		False	Broad	True	900
 mah_latn_narrow.tsv	mah	Marshallese	Marshallese	Latin		False	Narrow	True	1502
 mak_latn_narrow.tsv	mak	Makasar	Makasar	Latin		False	Narrow	True	405
+mal_mlym_narrow.tsv	mal	Malayalam	Malayalam	Malayalam		False	Narrow		141
 mar_deva_broad.tsv	mar	Marathi	Marathi	Devanagari		False	Broad	False	588
 mar_deva_narrow.tsv	mar	Marathi	Marathi	Devanagari		False	Narrow	False	118
 may_arab_ara_broad.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Broad	True	628
