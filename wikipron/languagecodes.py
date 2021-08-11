@@ -453,4 +453,9 @@ LANGUAGE_CODES = {
     "tzm": "Central Atlas Tamazight",
     # Chibcha: ISO 639-3 only.
     "chb": "Chibcha",
+    # Dhivehi: Aliases.
+    "div": "Dhivehi",
+    "dv": "Dhivehi",
+    "divehi": "Dhivehi",
+    "maldivian": "Dhivehi",
 }
