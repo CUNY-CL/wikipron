@@ -1939,6 +1939,15 @@
             "cyrl": "Cyrillic"
         }
     },
+    "blt": {
+        "iso639_name": "Tai Dam",
+        "wiktionary_name": "Tai Dam",
+        "wiktionary_code": "blt",
+        "casefold": false,
+        "script": {
+            "tavt": "Tai Viet"
+        }
+    },
     "tam": {
         "iso639_name": "Tamil",
         "wiktionary_name": "Tamil",
