@@ -63,6 +63,7 @@ cze_latn_broad.tsv	cze	Czech	Czech	Latin		False	Broad	True	3222
 cze_latn_narrow.tsv	cze	Czech	Czech	Latin		False	Narrow	True	26778
 dan_latn_broad.tsv	dan	Danish	Danish	Latin		False	Broad	True	4250
 dan_latn_narrow.tsv	dan	Danish	Danish	Latin		False	Narrow	True	7972
+div_thaa_broad.tsv	div	Dhivehi, Divehi, Maldivian	Dhivehi	Thaana		False	Broad	False	130
 dlm_latn_broad.tsv	dlm	Dalmatian	Dalmatian	Latin		False	Broad	True	176
 dng_cyrl_broad.tsv	dng	Dungan	Dungan	Cyrillic		False	Broad	True	160
 dsb_latn_broad.tsv	dsb	Lower Sorbian	Lower Sorbian	Latin		False	Broad	True	1986
