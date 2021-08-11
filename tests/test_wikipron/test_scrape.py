@@ -51,6 +51,7 @@ _SMOKE_TEST_LANGUAGES = [
     ),
     SmokeTestLanguage("yue", "Cantonese", {"skip_spaces_pron": False}),
     SmokeTestLanguage("nan", "Min Nan", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("blt", "Tai Dam", {}),
 ]
 
 

@@ -68,6 +68,7 @@ Unreleased
 -   Fixed column ordering of the test file read by the script in 
     `data/covering_grammar/lib/error_analysis.py` (\#411)
 -   Fixed Common character collection in `common_characters.py` (\#419)
+-   Scraping test fixed for `blt`. (\#436)
 
 ### Under `wikipron/` and elsewhere
 
