@@ -41,6 +41,7 @@
 | [TSV](tsv/bel_cyrl_narrow.tsv) | bel | Belarusian | Belarusian | Cyrillic |  | False | Narrow | True | 3,203 |
 | [TSV](tsv/ben_beng_broad.tsv) | ben | Bengali | Bengali | Bengali |  | False | Broad | False | 792 |
 | [TSV](tsv/ben_beng_narrow.tsv) | ben | Bengali | Bengali | Bengali |  | False | Narrow | False | 168 |
+| [TSV](tsv/blt_tavt_broad.tsv) | blt | Tai Dam | Tai Dam | Tai Viet |  | False | Broad | False | 143 |
 | [TSV](tsv/bre_latn_broad.tsv) | bre | Breton | Breton | Latin |  | False | Broad | True | 495 |
 | [TSV](tsv/bul_cyrl_broad.tsv) | bul | Bulgarian | Bulgarian | Cyrillic |  | False | Broad | True | 31,881 |
 | [TSV](tsv/bul_cyrl_broad_filtered.tsv) | bul | Bulgarian | Bulgarian | Cyrillic |  | True | Broad | True | 31,782 |
