@@ -442,6 +442,16 @@
             "latn": "Latin"
         }
     },
+    "div": {
+        "iso639_name": "Dhivehi, Divehi, Maldivian",
+        "wiktionary_name": "Dhivehi",
+        "wiktionary_code": "dv",
+        "casefold": false,
+        "script": {
+            "thaa": "Thaana",
+            "deva": "Devanagari"
+        }
+    },
     "sce": {
         "iso639_name": "Dongxiang",
         "wiktionary_name": "Dongxiang",

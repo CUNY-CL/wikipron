@@ -455,4 +455,9 @@ LANGUAGE_CODES = {
     "chb": "Chibcha",
     # Tai-Dam: ISO 639-3 only.
     "blt": "Tai Dam",
+    # Dhivehi: Aliases.
+    "div": "Dhivehi",
+    "dv": "Dhivehi",
+    "divehi": "Dhivehi",
+    "maldivian": "Dhivehi",
 }

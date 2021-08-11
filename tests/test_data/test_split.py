@@ -193,6 +193,15 @@ _SMOKE_TEST_LANGUAGES = [
             ("tiếng Việt", False),
         ],
     ),
+    SmokeTestScript(
+        "Thaana",
+        [
+            ("ތާނަ", True),
+            ("އޫޟ", True),
+            ("اُردُو", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 

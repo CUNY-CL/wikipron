@@ -66,6 +66,7 @@
 | [TSV](tsv/cze_latn_narrow.tsv) | cze | Czech | Czech | Latin |  | False | Narrow | True | 26,778 |
 | [TSV](tsv/dan_latn_broad.tsv) | dan | Danish | Danish | Latin |  | False | Broad | True | 4,250 |
 | [TSV](tsv/dan_latn_narrow.tsv) | dan | Danish | Danish | Latin |  | False | Narrow | True | 7,972 |
+| [TSV](tsv/div_thaa_broad.tsv) | div | Dhivehi, Divehi, Maldivian | Dhivehi | Thaana |  | False | Broad | False | 130 |
 | [TSV](tsv/dlm_latn_broad.tsv) | dlm | Dalmatian | Dalmatian | Latin |  | False | Broad | True | 176 |
 | [TSV](tsv/dng_cyrl_broad.tsv) | dng | Dungan | Dungan | Cyrillic |  | False | Broad | True | 160 |
 | [TSV](tsv/dsb_latn_broad.tsv) | dsb | Lower Sorbian | Lower Sorbian | Latin |  | False | Broad | True | 1,986 |
