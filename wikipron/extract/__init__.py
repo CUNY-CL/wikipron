@@ -1,3 +1,4 @@
+from wikipron.extract.blt import extract_word_pron_blt
 from wikipron.extract.cmn import extract_word_pron_cmn
 from wikipron.extract.jpn import extract_word_pron_jpn
 from wikipron.extract.khb import extract_word_pron_lu
@@ -21,6 +22,7 @@ EXTRACTION_FUNCTIONS = {
     "Lü": extract_word_pron_lu,
     "Min Nan": extract_word_pron_nan,
     "Shan": extract_word_pron_shan,
+    "Tai Dam": extract_word_pron_blt,
     "Thai": extract_word_pron_thai,
     "Vietnamese": extract_word_pron_vie,
 }

@@ -184,6 +184,15 @@ _SMOKE_TEST_LANGUAGES = [
             ("wikipron", False),
         ],
     ),
+    SmokeTestScript(
+        "Tai Viet",
+        [
+            ("ꪮ꪿ꪮꪙꪙ꫁ꪮꪥ", True),
+            ("ꪐ꫞ꫛꪛ", True),
+            ("ፊደል", False),
+            ("tiếng Việt", False),
+        ],
+    ),
 ]
 
 
