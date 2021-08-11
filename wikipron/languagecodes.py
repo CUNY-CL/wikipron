@@ -453,4 +453,6 @@ LANGUAGE_CODES = {
     "tzm": "Central Atlas Tamazight",
     # Chibcha: ISO 639-3 only.
     "chb": "Chibcha",
+    # Tai-Dam: ISO 639-3 only.
+    "blt": "Tai Dam",
 }
