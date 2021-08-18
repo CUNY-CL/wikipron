@@ -69,6 +69,7 @@ Unreleased
     `data/covering_grammar/lib/error_analysis.py` (\#411)
 -   Fixed Common character collection in `common_characters.py` (\#419)
 -   Scraping test fixed for `blt`. (\#436)
+-   Changed URLs to point at CUNY-CL repo, where applicable. (\#438)
 
 ### Under `wikipron/` and elsewhere
 

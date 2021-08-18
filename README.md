@@ -75,10 +75,10 @@ to segment the transcription into whitespace. The segmentation tends to place
 IPA diacritics and modifiers on the "parent" symbol. For instance, \[kʰæt\] is
 rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
-#### Parentheses 
+#### Parentheses
 
 Some of transcriptions contain parentheses to indicate alternative pronunciations.
-The parentheses (but not the content) are discarded in the scrape unless the 
+The parentheses (but not the content) are discarded in the scrape unless the
 `--no-skip-parens` flag is used.
 
 #### Output
@@ -129,8 +129,8 @@ for word, pron in wikipron.scrape(config):
 Data
 ----
 
-We also make available [a database of 2.5 million word/pronunciation
-pairs](https://github.com/kylebgorman/wikipron/tree/master/data) mined using
+We also make available [a database of over 3 million word/pronunciation
+pairs](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using
 WikiPron.
 
 Models
@@ -145,7 +145,8 @@ Development
 ### Repository
 
 The source code of WikiPron is hosted on GitHub at
-https://github.com/kylebgorman/wikipron, where development also happens.
+[`https://github.com/CUNY-CL/wikipron`](https://github.com/CUNY-CL/wikipron),
+where development also happens.
 
 For the latest changes not yet released through `pip` or working on the codebase
 yourself, you may obtain the latest source code through GitHub and `git`:
@@ -167,22 +168,22 @@ yourself, you may obtain the latest source code through GitHub and `git`:
     ```
 
 We keep track of notable changes in
-[CHANGELOG.md](https://github.com/kylebgorman/wikipron/blob/master/CHANGELOG.md).
+[CHANGELOG.md](https://github.com/CUNY-CL/wikipron/blob/master/CHANGELOG.md).
 
 ### Contribution
 
 For questions, bug reports, and feature requests, please [file an
-issue](https://github.com/kylebgorman/wikipron/issues).
+issue](https://github.com/CUNY-CL/wikipron/issues).
 
 If you would like to contribute to the `wikipron` codebase, please see
-[CONTRIBUTING.md](https://github.com/kylebgorman/wikipron/blob/master/CONTRIBUTING.md).
+[CONTRIBUTING.md](https://github.com/CUNY-CL/wikipron/blob/master/CONTRIBUTING.md).
 
 ### License
 
 WikiPron is released under an Apache 2.0 license. Please see
-[LICENSE.txt](https://github.com/kylebgorman/wikipron/blob/master/LICENSE.txt)
+[LICENSE.txt](https://github.com/CUNY-CL/wikipron/blob/master/LICENSE.txt)
 for details.
 
 Please note that Wiktionary data in the
-[`data/`](https://github.com/kylebgorman/wikipron/tree/master/data) directory has
+[`data/`](https://github.com/CUNY-CL/wikipron/tree/master/data) directory has
 [its own licensing terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights).
