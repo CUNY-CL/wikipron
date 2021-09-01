@@ -162,7 +162,7 @@ yourself, you may obtain the latest source code through GitHub and `git`:
     ```bash
     git clone https://github.com/<your-github-username>/wikipron.git
     cd wikipron
-    pip install --upgrade pip setuptools
+    pip install -U pip setuptools
     pip install -r requirements.txt
     pip install --no-deps -e .
     ```
