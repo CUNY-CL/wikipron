@@ -38,6 +38,16 @@
         "wiktionary_code": "ain",
         "casefold": true
     },
+    "akk": {
+        "iso639_name": "Akkadian",
+        "wiktionary_name": "Akkadian",
+        "wiktionary_code": "akk",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "xsux": "Cuneiform"
+        }
+    },
     "alb": {
         "iso639_name": "Albanian",
         "wiktionary_name": "Albanian",
