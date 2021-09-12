@@ -10,6 +10,7 @@
 | [TSV](tsv/afr_latn_broad_filtered.tsv) | afr | Afrikaans | Afrikaans | Latin |  | True | Broad | True | 1,659 |
 | [TSV](tsv/afr_latn_narrow.tsv) | afr | Afrikaans | Afrikaans | Latin |  | False | Narrow | True | 121 |
 | [TSV](tsv/ajp_arab_broad.tsv) | ajp | South Levantine Arabic | South Levantine Arabic | Arabic |  | False | Broad | False | 155 |
+| [TSV](tsv/akk_latn_broad.tsv) | akk | Akkadian | Akkadian | Latin |  | False | Broad | True | 199 |
 | [TSV](tsv/alb_latn_broad.tsv) | alb | Albanian | Albanian | Latin |  | False | Broad | True | 1,450 |
 | [TSV](tsv/alb_latn_narrow.tsv) | alb | Albanian | Albanian | Latin |  | False | Narrow | True | 823 |
 | [TSV](tsv/ale_latn_broad.tsv) | ale | Aleut | Aleut | Latin |  | False | Broad | True | 104 |
