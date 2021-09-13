@@ -7,7 +7,7 @@ _REPO_DIR = os.path.dirname(
 _LANGUAGES = os.path.join(_REPO_DIR, "data/scrape/lib/languages.json")
 
 
-def test_phones_data_matches_summary():
+def test_casefold_value():
     """Check if each language in data/scrape/lib/languages.json
     has a value for 'casefold' key.
     """
