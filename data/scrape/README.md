@@ -86,6 +86,7 @@
 | [TSV](tsv/enm_latn_broad.tsv) | enm | Middle English (1100-1500) | Middle English | Latin |  | False | Broad | True | 6,855 |
 | [TSV](tsv/epo_latn_broad.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Broad | True | 14,990 |
 | [TSV](tsv/est_latn_broad.tsv) | est | Estonian | Estonian | Latin |  | False | Broad | True | 429 |
+| [TSV](tsv/ett_ital_broad.tsv) | ett | Etruscan | Etruscan | Old Italic |  | False | Broad | False | 130 |
 | [TSV](tsv/ewe_latn_broad.tsv) | ewe | Ewe | Ewe | Latin |  | False | Broad | True | 120 |
 | [TSV](tsv/fao_latn_broad.tsv) | fao | Faroese | Faroese | Latin |  | False | Broad | True | 1,740 |
 | [TSV](tsv/fao_latn_narrow.tsv) | fao | Faroese | Faroese | Latin |  | False | Narrow | True | 1,120 |
@@ -198,7 +199,7 @@
 | [TSV](tsv/mah_latn_broad.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Broad | True | 900 |
 | [TSV](tsv/mah_latn_narrow.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Narrow | True | 1,502 |
 | [TSV](tsv/mak_latn_narrow.tsv) | mak | Makasar | Makasar | Latin |  | False | Narrow | True | 405 |
-| [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | None | 141 |
+| [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | False | 141 |
 | [TSV](tsv/mar_deva_broad.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Broad | False | 588 |
 | [TSV](tsv/mar_deva_narrow.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Narrow | False | 118 |
 | [TSV](tsv/may_arab_ara_broad.tsv) | may | Malay (macrolanguage) | Malay | Arabic |  | False | Broad | True | 628 |
