@@ -79,6 +79,7 @@ Unreleased
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
 -  Added Min Nan extraction function. (\#397)
 -  Added Tai Dam extraction function, configuration and initial scrape. (\#435)
+-  Added test of `casefold` value for languages in `data/scrape/lib/languages.json` (\#442)
 
 [1.2.0] - 2021-01-30
 --------------------

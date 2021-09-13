@@ -335,7 +335,7 @@
         "iso639_name": "Central Kurdish",
         "wiktionary_name": "Central Kurdish",
         "wiktionary_code": "ckb",
-        "casefold": null
+        "casefold": false
     },
     "che": {
         "iso639_name": "Chechen",
@@ -871,7 +871,7 @@
         "iso639_name": "Karelian",
         "wiktionary_name": "Karelian",
         "wiktionary_code": "krl",
-        "casefold": null
+        "casefold": true
     },
     "kas": {
         "iso639_name": "Kashmiri",
@@ -936,7 +936,7 @@
         "iso639_name": "Konkani (macrolanguage)",
         "wiktionary_name": "Konkani",
         "wiktionary_code": "kok",
-        "casefold": null
+        "casefold": false
     },
     "kor": {
         "iso639_name": "Korean",
@@ -1177,7 +1177,7 @@
         "iso639_name": "Malayalam",
         "wiktionary_name": "Malayalam",
         "wiktionary_code": "ml",
-        "casefold": null,
+        "casefold": false,
         "script": {
             "mlym": "Malayalam",
             "arab": "Arabic"
@@ -1888,7 +1888,7 @@
         "iso639_name": "Southern Yukaghir",
         "wiktionary_name": "Southern Yukaghir",
         "wiktionary_code": "yux",
-        "casefold": null
+        "casefold": true
     },
     "spa": {
         "iso639_name": "Spanish; Castilian",
@@ -2018,7 +2018,7 @@
         "iso639_name": "Tokelau",
         "wiktionary_name": "Tokelauan",
         "wiktionary_code": "tkl",
-        "casefold": null
+        "casefold": true
     },
     "ton": {
         "iso639_name": "Tonga (Tonga Islands)",
@@ -2222,7 +2222,7 @@
         "iso639_name": "Yoruba",
         "wiktionary_name": "Yoruba",
         "wiktionary_code": "yo",
-        "casefold": null
+        "casefold": true
     },
     "zza": {
         "iso639_name": "Zaza",
