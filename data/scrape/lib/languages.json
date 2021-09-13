@@ -327,6 +327,15 @@
         "wiktionary_code": "ckb",
         "casefold": false
     },
+    "nhn": {
+        "iso639_name": "Central Nahuatl",
+        "wiktionary_name": "Central Nahuatl",
+        "wiktionary_code": "nhn",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "che": {
         "iso639_name": "Chechen",
         "wiktionary_name": "Chechen",
