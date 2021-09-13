@@ -18,8 +18,8 @@ def test_casefold_value():
         if languages[language]["casefold"] is None:
             missing_languages.add(languages[language]["wiktionary_name"])
 
-    assert len(missing_languages) == 0, (
+    assert not missing_languages, (
         "The following languages do not have a 'casefold' value "
         "in data/scrape/lib/languages.json:"
-        f"{[lang for lang in missing_languages]}"
+        f"{missing_languages}"
     )
