@@ -34,6 +34,7 @@ Unreleased
 -   Scraped Kashmiri (`kas`). (\#431)
 -   Added Malayalam (`mal`) scrape. (\#434)
 -   Configuration and initial scrape for Dhivehi (`div`, Maldivian). (\#437)
+-   Configuring and scraping Etruscan (`ett`). (\#444)
 
 #### Changed
 
