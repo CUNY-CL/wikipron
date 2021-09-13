@@ -460,4 +460,6 @@ LANGUAGE_CODES = {
     "dv": "Dhivehi",
     "divehi": "Dhivehi",
     "maldivian": "Dhivehi",
+    # Etruscan: ISO 639-3 only.
+    "ett": "Etruscan",
 }
