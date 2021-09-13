@@ -555,6 +555,15 @@
             "latn": "Latin"
         }
     },
+    "ett": {
+        "iso639_name": "Etruscan",
+        "wiktionary_name": "Etruscan",
+        "wiktionary_code": "ett",
+        "casefold": false,
+        "script": {
+            "ital": "Old Italic"
+        }
+    },
     "ewe": {
         "iso639_name": "Ewe",
         "wiktionary_name": "Ewe",
