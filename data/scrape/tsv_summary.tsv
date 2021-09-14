@@ -118,6 +118,7 @@ gre_grek_broad.tsv	gre	Modern Greek (1453-)	Greek	Greek		False	Broad	True	10626
 gre_grek_broad_filtered.tsv	gre	Modern Greek (1453-)	Greek	Greek		True	Broad	True	10547
 gre_grek_narrow.tsv	gre	Modern Greek (1453-)	Greek	Greek		False	Narrow	True	408
 gsw_latn_broad.tsv	gsw	Swiss German	Alemannic German	Latin		False	Broad	True	307
+guj_gujr_broad.tsv	guj	Gujarati	Gujarati	Gujarati		False	Broad	False	120
 haw_latn_broad.tsv	haw	Hawaiian	Hawaiian	Latin		False	Broad	True	493
 haw_latn_narrow.tsv	haw	Hawaiian	Hawaiian	Latin		False	Narrow	True	536
 hbs_cyrl_broad.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Cyrillic		False	Broad	True	22735
@@ -154,6 +155,7 @@ jpn_hira_narrow_filtered.tsv	jpn	Japanese	Japanese	Hiragana		True	Narrow	False	1
 jpn_kana_narrow.tsv	jpn	Japanese	Japanese	Katakana		False	Narrow	False	5268
 jpn_kana_narrow_filtered.tsv	jpn	Japanese	Japanese	Katakana		True	Narrow	False	4765
 kal_latn_broad.tsv	kal	Kalaallisut	Greenlandic	Latin		False	Broad	True	173
+kan_knda_broad.tsv	kan	Kannada	Kannada	Kannada		False	Broad	False	100
 kas_arab_broad.tsv	kas	Kashmiri	Kashmiri	Arabic		False	Broad	False	270
 kas_arab_narrow.tsv	kas	Kashmiri	Kashmiri	Arabic		False	Narrow	False	160
 kaz_cyrl_broad.tsv	kaz	Kazakh	Kazakh	Cyrillic		False	Broad	True	119
@@ -169,6 +171,7 @@ kmr_latn_broad.tsv	kmr	Northern Kurdish	Northern Kurdish	Latin		False	Broad	Fals
 kor_hang_narrow.tsv	kor	Korean	Korean	Hangul		False	Narrow	False	16402
 kor_hang_narrow_filtered.tsv	kor	Korean	Korean	Hangul		True	Narrow	False	14141
 kpv_cyrl_broad.tsv	kpv	Komi-Zyrian	Komi-Zyrian	Cyrillic		False	Broad	True	321
+krl_latn_broad.tsv	krl	Karelian	Karelian	Latin		False	Broad	True	106
 kxd_latn_broad.tsv	kxd	Brunei	Brunei Malay	Latin		False	Broad	True	346
 lad_latn_broad.tsv	lad	Ladino	Ladino	Latin		False	Broad	True	101
 lao_laoo_broad.tsv	lao	Lao	Lao	Lao		False	Broad	False	513
