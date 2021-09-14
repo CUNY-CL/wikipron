@@ -87,6 +87,7 @@
 | [TSV](tsv/enm_latn_broad.tsv) | enm | Middle English (1100-1500) | Middle English | Latin |  | False | Broad | True | 6,855 |
 | [TSV](tsv/epo_latn_broad.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Broad | True | 14,990 |
 | [TSV](tsv/est_latn_broad.tsv) | est | Estonian | Estonian | Latin |  | False | Broad | True | 429 |
+| [TSV](tsv/ett_ital_broad.tsv) | ett | Etruscan | Etruscan | Old Italic |  | False | Broad | False | 130 |
 | [TSV](tsv/ewe_latn_broad.tsv) | ewe | Ewe | Ewe | Latin |  | False | Broad | True | 120 |
 | [TSV](tsv/fao_latn_broad.tsv) | fao | Faroese | Faroese | Latin |  | False | Broad | True | 1,740 |
 | [TSV](tsv/fao_latn_narrow.tsv) | fao | Faroese | Faroese | Latin |  | False | Narrow | True | 1,120 |
@@ -120,6 +121,7 @@
 | [TSV](tsv/gre_grek_broad_filtered.tsv) | gre | Modern Greek (1453-) | Greek | Greek |  | True | Broad | True | 10,547 |
 | [TSV](tsv/gre_grek_narrow.tsv) | gre | Modern Greek (1453-) | Greek | Greek |  | False | Narrow | True | 408 |
 | [TSV](tsv/gsw_latn_broad.tsv) | gsw | Swiss German | Alemannic German | Latin |  | False | Broad | True | 307 |
+| [TSV](tsv/guj_gujr_broad.tsv) | guj | Gujarati | Gujarati | Gujarati |  | False | Broad | False | 120 |
 | [TSV](tsv/haw_latn_broad.tsv) | haw | Hawaiian | Hawaiian | Latin |  | False | Broad | True | 493 |
 | [TSV](tsv/haw_latn_narrow.tsv) | haw | Hawaiian | Hawaiian | Latin |  | False | Narrow | True | 536 |
 | [TSV](tsv/hbs_cyrl_broad.tsv) | hbs | Serbo-Croatian | Serbo-Croatian | Cyrillic |  | False | Broad | True | 22,735 |
@@ -156,6 +158,7 @@
 | [TSV](tsv/jpn_kana_narrow.tsv) | jpn | Japanese | Japanese | Katakana |  | False | Narrow | False | 5,268 |
 | [TSV](tsv/jpn_kana_narrow_filtered.tsv) | jpn | Japanese | Japanese | Katakana |  | True | Narrow | False | 4,765 |
 | [TSV](tsv/kal_latn_broad.tsv) | kal | Kalaallisut | Greenlandic | Latin |  | False | Broad | True | 173 |
+| [TSV](tsv/kan_knda_broad.tsv) | kan | Kannada | Kannada | Kannada |  | False | Broad | False | 100 |
 | [TSV](tsv/kas_arab_broad.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Broad | False | 270 |
 | [TSV](tsv/kas_arab_narrow.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Narrow | False | 160 |
 | [TSV](tsv/kaz_cyrl_broad.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Broad | True | 119 |
@@ -171,6 +174,7 @@
 | [TSV](tsv/kor_hang_narrow.tsv) | kor | Korean | Korean | Hangul |  | False | Narrow | False | 16,402 |
 | [TSV](tsv/kor_hang_narrow_filtered.tsv) | kor | Korean | Korean | Hangul |  | True | Narrow | False | 14,141 |
 | [TSV](tsv/kpv_cyrl_broad.tsv) | kpv | Komi-Zyrian | Komi-Zyrian | Cyrillic |  | False | Broad | True | 321 |
+| [TSV](tsv/krl_latn_broad.tsv) | krl | Karelian | Karelian | Latin |  | False | Broad | True | 106 |
 | [TSV](tsv/kxd_latn_broad.tsv) | kxd | Brunei | Brunei Malay | Latin |  | False | Broad | True | 346 |
 | [TSV](tsv/lad_latn_broad.tsv) | lad | Ladino | Ladino | Latin |  | False | Broad | True | 101 |
 | [TSV](tsv/lao_laoo_broad.tsv) | lao | Lao | Lao | Lao |  | False | Broad | False | 513 |
@@ -199,7 +203,7 @@
 | [TSV](tsv/mah_latn_broad.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Broad | True | 900 |
 | [TSV](tsv/mah_latn_narrow.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Narrow | True | 1,502 |
 | [TSV](tsv/mak_latn_narrow.tsv) | mak | Makasar | Makasar | Latin |  | False | Narrow | True | 405 |
-| [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | None | 141 |
+| [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | False | 141 |
 | [TSV](tsv/mar_deva_broad.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Broad | False | 588 |
 | [TSV](tsv/mar_deva_narrow.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Narrow | False | 118 |
 | [TSV](tsv/may_arab_ara_broad.tsv) | may | Malay (macrolanguage) | Malay | Arabic |  | False | Broad | True | 628 |
@@ -229,6 +233,7 @@
 | [TSV](tsv/nep_deva_narrow.tsv) | nep | Nepali (macrolanguage) | Nepali | Devanagari |  | False | Narrow | False | 982 |
 | [TSV](tsv/new_deva_broad.tsv) | new | Newari | Newar | Devanagari |  | False | Broad | False | 403 |
 | [TSV](tsv/nhg_latn_narrow.tsv) | nhg | Tetelcingo Nahuatl | Tetelcingo Nahuatl | Latin |  | False | Narrow | True | 305 |
+| [TSV](tsv/nhn_latn_broad.tsv) | nhn | Central Nahuatl | Central Nahuatl | Latin |  | False | Broad | True | 102 |
 | [TSV](tsv/nhx_latn_broad.tsv) | nhx | Isthmus-Mecayapan Nahuatl | Mecayapan Nahuatl | Latin |  | False | Broad | True | 146 |
 | [TSV](tsv/nmy_latn_narrow.tsv) | nmy | Namuyi | Namuyi | Latin |  | False | Narrow | True | 368 |
 | [TSV](tsv/nno_latn_broad.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | Latin |  | False | Broad | True | 1,378 |

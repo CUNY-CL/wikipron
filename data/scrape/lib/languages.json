@@ -337,6 +337,15 @@
         "wiktionary_code": "ckb",
         "casefold": false
     },
+    "nhn": {
+        "iso639_name": "Central Nahuatl",
+        "wiktionary_name": "Central Nahuatl",
+        "wiktionary_code": "nhn",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "che": {
         "iso639_name": "Chechen",
         "wiktionary_name": "Chechen",
@@ -565,6 +574,15 @@
             "latn": "Latin"
         }
     },
+    "ett": {
+        "iso639_name": "Etruscan",
+        "wiktionary_name": "Etruscan",
+        "wiktionary_code": "ett",
+        "casefold": false,
+        "script": {
+            "ital": "Old Italic"
+        }
+    },
     "ewe": {
         "iso639_name": "Ewe",
         "wiktionary_name": "Ewe",
@@ -669,7 +687,11 @@
         "iso639_name": "Gujarati",
         "wiktionary_name": "Gujarati",
         "wiktionary_code": "gu",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "gujr": "Gujarati",
+            "sinh": "Sinhala"
+        }
     },
     "afb": {
         "iso639_name": "Gulf Arabic",
@@ -865,13 +887,19 @@
         "iso639_name": "Kannada",
         "wiktionary_name": "Kannada",
         "wiktionary_code": "kn",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "knda": "Kannada"
+        }
     },
     "krl": {
         "iso639_name": "Karelian",
         "wiktionary_name": "Karelian",
         "wiktionary_code": "krl",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "kas": {
         "iso639_name": "Kashmiri",
