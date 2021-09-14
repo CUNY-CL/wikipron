@@ -859,7 +859,10 @@
         "iso639_name": "Kannada",
         "wiktionary_name": "Kannada",
         "wiktionary_code": "kn",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "knda": "Kannada"
+        }
     },
     "krl": {
         "iso639_name": "Karelian",

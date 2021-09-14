@@ -154,6 +154,7 @@ jpn_hira_narrow_filtered.tsv	jpn	Japanese	Japanese	Hiragana		True	Narrow	False	1
 jpn_kana_narrow.tsv	jpn	Japanese	Japanese	Katakana		False	Narrow	False	5268
 jpn_kana_narrow_filtered.tsv	jpn	Japanese	Japanese	Katakana		True	Narrow	False	4765
 kal_latn_broad.tsv	kal	Kalaallisut	Greenlandic	Latin		False	Broad	True	173
+kan_knda_broad.tsv	kan	Kannada	Kannada	Kannada		False	Broad	False	100
 kas_arab_broad.tsv	kas	Kashmiri	Kashmiri	Arabic		False	Broad	False	270
 kas_arab_narrow.tsv	kas	Kashmiri	Kashmiri	Arabic		False	Narrow	False	160
 kaz_cyrl_broad.tsv	kaz	Kazakh	Kazakh	Cyrillic		False	Broad	True	119
