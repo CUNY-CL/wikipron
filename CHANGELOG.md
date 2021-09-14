@@ -34,6 +34,7 @@ Unreleased
 -   Added Kashmiri (`kas`). (\#431)
 -   Added Malayalam (`mal`). (\#434)
 -   Added Dhivehi (`div`). (\#437)
+-   Added Akkadian (`akk`). (\#441)
 -   Added Central Nahuatl (`nhn`). (\#443)
 -   Added Etruscan (`ett`). (\#444)
 -   Added Gujarati (`guj`). (\#445)

@@ -202,6 +202,15 @@ _SMOKE_TEST_LANGUAGES = [
             ("wikipron", False),
         ],
     ),
+    SmokeTestScript(
+        "Cuneiform",
+        [
+            ("𒄑𒉿𒌆", True),
+            ("𒁲𒋻", True),
+            ("جܡ", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 
