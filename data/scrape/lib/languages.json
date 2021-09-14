@@ -861,7 +861,10 @@
         "iso639_name": "Karelian",
         "wiktionary_name": "Karelian",
         "wiktionary_code": "krl",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "kas": {
         "iso639_name": "Kashmiri",
