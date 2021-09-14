@@ -117,6 +117,7 @@ gre_grek_broad.tsv	gre	Modern Greek (1453-)	Greek	Greek		False	Broad	True	10626
 gre_grek_broad_filtered.tsv	gre	Modern Greek (1453-)	Greek	Greek		True	Broad	True	10547
 gre_grek_narrow.tsv	gre	Modern Greek (1453-)	Greek	Greek		False	Narrow	True	408
 gsw_latn_broad.tsv	gsw	Swiss German	Alemannic German	Latin		False	Broad	True	307
+guj_gujr_broad.tsv	guj	Gujarati	Gujarati	Gujarati		False	Broad	False	120
 haw_latn_broad.tsv	haw	Hawaiian	Hawaiian	Latin		False	Broad	True	493
 haw_latn_narrow.tsv	haw	Hawaiian	Hawaiian	Latin		False	Narrow	True	536
 hbs_cyrl_broad.tsv	hbs	Serbo-Croatian	Serbo-Croatian	Cyrillic		False	Broad	True	22735
@@ -196,7 +197,7 @@ mac_cyrl_narrow.tsv	mac	Macedonian	Macedonian	Cyrillic		False	Narrow	True	6878
 mah_latn_broad.tsv	mah	Marshallese	Marshallese	Latin		False	Broad	True	900
 mah_latn_narrow.tsv	mah	Marshallese	Marshallese	Latin		False	Narrow	True	1502
 mak_latn_narrow.tsv	mak	Makasar	Makasar	Latin		False	Narrow	True	405
-mal_mlym_narrow.tsv	mal	Malayalam	Malayalam	Malayalam		False	Narrow		141
+mal_mlym_narrow.tsv	mal	Malayalam	Malayalam	Malayalam		False	Narrow	False	141
 mar_deva_broad.tsv	mar	Marathi	Marathi	Devanagari		False	Broad	False	588
 mar_deva_narrow.tsv	mar	Marathi	Marathi	Devanagari		False	Narrow	False	118
 may_arab_ara_broad.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Broad	True	628
