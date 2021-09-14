@@ -119,6 +119,7 @@
 | [TSV](tsv/gre_grek_broad_filtered.tsv) | gre | Modern Greek (1453-) | Greek | Greek |  | True | Broad | True | 10,547 |
 | [TSV](tsv/gre_grek_narrow.tsv) | gre | Modern Greek (1453-) | Greek | Greek |  | False | Narrow | True | 408 |
 | [TSV](tsv/gsw_latn_broad.tsv) | gsw | Swiss German | Alemannic German | Latin |  | False | Broad | True | 307 |
+| [TSV](tsv/guj_gujr_broad.tsv) | guj | Gujarati | Gujarati | Gujarati |  | False | Broad | False | 120 |
 | [TSV](tsv/haw_latn_broad.tsv) | haw | Hawaiian | Hawaiian | Latin |  | False | Broad | True | 493 |
 | [TSV](tsv/haw_latn_narrow.tsv) | haw | Hawaiian | Hawaiian | Latin |  | False | Narrow | True | 536 |
 | [TSV](tsv/hbs_cyrl_broad.tsv) | hbs | Serbo-Croatian | Serbo-Croatian | Cyrillic |  | False | Broad | True | 22,735 |
