@@ -659,7 +659,11 @@
         "iso639_name": "Gujarati",
         "wiktionary_name": "Gujarati",
         "wiktionary_code": "gu",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "gujr": "Gujarati",
+            "sinh": "Sinhala"
+        }
     },
     "afb": {
         "iso639_name": "Gulf Arabic",
@@ -864,7 +868,10 @@
         "iso639_name": "Karelian",
         "wiktionary_name": "Karelian",
         "wiktionary_code": "krl",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "kas": {
         "iso639_name": "Kashmiri",
