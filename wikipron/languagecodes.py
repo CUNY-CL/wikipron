@@ -462,4 +462,6 @@ LANGUAGE_CODES = {
     "maldivian": "Dhivehi",
     # Central Nahuatl: ISO 639-3 only.
     "nhn": "Central Nahuatl",
+    # Etruscan: ISO 639-3 only.
+    "ett": "Etruscan",
 }
