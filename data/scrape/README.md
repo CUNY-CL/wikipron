@@ -232,6 +232,7 @@
 | [TSV](tsv/nep_deva_narrow.tsv) | nep | Nepali (macrolanguage) | Nepali | Devanagari |  | False | Narrow | False | 982 |
 | [TSV](tsv/new_deva_broad.tsv) | new | Newari | Newar | Devanagari |  | False | Broad | False | 403 |
 | [TSV](tsv/nhg_latn_narrow.tsv) | nhg | Tetelcingo Nahuatl | Tetelcingo Nahuatl | Latin |  | False | Narrow | True | 305 |
+| [TSV](tsv/nhn_latn_broad.tsv) | nhn | Central Nahuatl | Central Nahuatl | Latin |  | False | Broad | True | 102 |
 | [TSV](tsv/nhx_latn_broad.tsv) | nhx | Isthmus-Mecayapan Nahuatl | Mecayapan Nahuatl | Latin |  | False | Broad | True | 146 |
 | [TSV](tsv/nmy_latn_narrow.tsv) | nmy | Namuyi | Namuyi | Latin |  | False | Narrow | True | 368 |
 | [TSV](tsv/nno_latn_broad.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | Latin |  | False | Broad | True | 1,378 |

@@ -230,6 +230,7 @@ nep_deva_broad.tsv	nep	Nepali (macrolanguage)	Nepali	Devanagari		False	Broad	Fal
 nep_deva_narrow.tsv	nep	Nepali (macrolanguage)	Nepali	Devanagari		False	Narrow	False	982
 new_deva_broad.tsv	new	Newari	Newar	Devanagari		False	Broad	False	403
 nhg_latn_narrow.tsv	nhg	Tetelcingo Nahuatl	Tetelcingo Nahuatl	Latin		False	Narrow	True	305
+nhn_latn_broad.tsv	nhn	Central Nahuatl	Central Nahuatl	Latin		False	Broad	True	102
 nhx_latn_broad.tsv	nhx	Isthmus-Mecayapan Nahuatl	Mecayapan Nahuatl	Latin		False	Broad	True	146
 nmy_latn_narrow.tsv	nmy	Namuyi	Namuyi	Latin		False	Narrow	True	368
 nno_latn_broad.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	Latin		False	Broad	True	1378
