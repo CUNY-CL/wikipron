@@ -169,6 +169,7 @@ kmr_latn_broad.tsv	kmr	Northern Kurdish	Northern Kurdish	Latin		False	Broad	Fals
 kor_hang_narrow.tsv	kor	Korean	Korean	Hangul		False	Narrow	False	16402
 kor_hang_narrow_filtered.tsv	kor	Korean	Korean	Hangul		True	Narrow	False	14141
 kpv_cyrl_broad.tsv	kpv	Komi-Zyrian	Komi-Zyrian	Cyrillic		False	Broad	True	321
+krl_latn_broad.tsv	krl	Karelian	Karelian	Latin		False	Broad	True	106
 kxd_latn_broad.tsv	kxd	Brunei	Brunei Malay	Latin		False	Broad	True	346
 lad_latn_broad.tsv	lad	Ladino	Ladino	Latin		False	Broad	True	101
 lao_laoo_broad.tsv	lao	Lao	Lao	Lao		False	Broad	False	513

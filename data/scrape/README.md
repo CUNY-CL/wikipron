@@ -171,6 +171,7 @@
 | [TSV](tsv/kor_hang_narrow.tsv) | kor | Korean | Korean | Hangul |  | False | Narrow | False | 16,402 |
 | [TSV](tsv/kor_hang_narrow_filtered.tsv) | kor | Korean | Korean | Hangul |  | True | Narrow | False | 14,141 |
 | [TSV](tsv/kpv_cyrl_broad.tsv) | kpv | Komi-Zyrian | Komi-Zyrian | Cyrillic |  | False | Broad | True | 321 |
+| [TSV](tsv/krl_latn_broad.tsv) | krl | Karelian | Karelian | Latin |  | False | Broad | True | 106 |
 | [TSV](tsv/kxd_latn_broad.tsv) | kxd | Brunei | Brunei Malay | Latin |  | False | Broad | True | 346 |
 | [TSV](tsv/lad_latn_broad.tsv) | lad | Ladino | Ladino | Latin |  | False | Broad | True | 101 |
 | [TSV](tsv/lao_laoo_broad.tsv) | lao | Lao | Lao | Lao |  | False | Broad | False | 513 |
