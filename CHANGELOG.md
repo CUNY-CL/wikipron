@@ -34,6 +34,7 @@ Unreleased
 -   Added Kashmiri (`kas`). (\#431)
 -   Added Malayalam (`mal`). (\#434)
 -   Added Dhivehi (`div`). (\#437)
+-   Added Etruscan (`ett`). (\#444)
 -   Added Gujarati (`guj`). (\#445)
 -   Added Kannada (`kan`). (\#446)
 -   Added Karelian (`krl`). (\#447)

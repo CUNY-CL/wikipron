@@ -84,6 +84,7 @@ eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narr
 enm_latn_broad.tsv	enm	Middle English (1100-1500)	Middle English	Latin		False	Broad	True	6855
 epo_latn_broad.tsv	epo	Esperanto	Esperanto	Latin		False	Broad	True	14990
 est_latn_broad.tsv	est	Estonian	Estonian	Latin		False	Broad	True	429
+ett_ital_broad.tsv	ett	Etruscan	Etruscan	Old Italic		False	Broad	False	130
 ewe_latn_broad.tsv	ewe	Ewe	Ewe	Latin		False	Broad	True	120
 fao_latn_broad.tsv	fao	Faroese	Faroese	Latin		False	Broad	True	1740
 fao_latn_narrow.tsv	fao	Faroese	Faroese	Latin		False	Narrow	True	1120
