@@ -153,6 +153,7 @@ jpn_hira_narrow_filtered.tsv	jpn	Japanese	Japanese	Hiragana		True	Narrow	False	1
 jpn_kana_narrow.tsv	jpn	Japanese	Japanese	Katakana		False	Narrow	False	5268
 jpn_kana_narrow_filtered.tsv	jpn	Japanese	Japanese	Katakana		True	Narrow	False	4765
 kal_latn_broad.tsv	kal	Kalaallisut	Greenlandic	Latin		False	Broad	True	173
+kan_knda_broad.tsv	kan	Kannada	Kannada	Kannada		False	Broad	False	100
 kas_arab_broad.tsv	kas	Kashmiri	Kashmiri	Arabic		False	Broad	False	270
 kas_arab_narrow.tsv	kas	Kashmiri	Kashmiri	Arabic		False	Narrow	False	160
 kaz_cyrl_broad.tsv	kaz	Kazakh	Kazakh	Cyrillic		False	Broad	True	119
@@ -196,7 +197,7 @@ mac_cyrl_narrow.tsv	mac	Macedonian	Macedonian	Cyrillic		False	Narrow	True	6878
 mah_latn_broad.tsv	mah	Marshallese	Marshallese	Latin		False	Broad	True	900
 mah_latn_narrow.tsv	mah	Marshallese	Marshallese	Latin		False	Narrow	True	1502
 mak_latn_narrow.tsv	mak	Makasar	Makasar	Latin		False	Narrow	True	405
-mal_mlym_narrow.tsv	mal	Malayalam	Malayalam	Malayalam		False	Narrow		141
+mal_mlym_narrow.tsv	mal	Malayalam	Malayalam	Malayalam		False	Narrow	False	141
 mar_deva_broad.tsv	mar	Marathi	Marathi	Devanagari		False	Broad	False	588
 mar_deva_narrow.tsv	mar	Marathi	Marathi	Devanagari		False	Narrow	False	118
 may_arab_ara_broad.tsv	may	Malay (macrolanguage)	Malay	Arabic		False	Broad	True	628
