@@ -170,6 +170,7 @@
 | [TSV](tsv/kor_hang_narrow.tsv) | kor | Korean | Korean | Hangul |  | False | Narrow | False | 16,402 |
 | [TSV](tsv/kor_hang_narrow_filtered.tsv) | kor | Korean | Korean | Hangul |  | True | Narrow | False | 14,141 |
 | [TSV](tsv/kpv_cyrl_broad.tsv) | kpv | Komi-Zyrian | Komi-Zyrian | Cyrillic |  | False | Broad | True | 321 |
+| [TSV](tsv/krl_latn_broad.tsv) | krl | Karelian | Karelian | Latin |  | False | Broad | True | 106 |
 | [TSV](tsv/kxd_latn_broad.tsv) | kxd | Brunei | Brunei Malay | Latin |  | False | Broad | True | 346 |
 | [TSV](tsv/lad_latn_broad.tsv) | lad | Ladino | Ladino | Latin |  | False | Broad | True | 101 |
 | [TSV](tsv/lao_laoo_broad.tsv) | lao | Lao | Lao | Lao |  | False | Broad | False | 513 |
@@ -198,7 +199,7 @@
 | [TSV](tsv/mah_latn_broad.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Broad | True | 900 |
 | [TSV](tsv/mah_latn_narrow.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Narrow | True | 1,502 |
 | [TSV](tsv/mak_latn_narrow.tsv) | mak | Makasar | Makasar | Latin |  | False | Narrow | True | 405 |
-| [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | None | 141 |
+| [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | False | 141 |
 | [TSV](tsv/mar_deva_broad.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Broad | False | 588 |
 | [TSV](tsv/mar_deva_narrow.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Narrow | False | 118 |
 | [TSV](tsv/may_arab_ara_broad.tsv) | may | Malay (macrolanguage) | Malay | Arabic |  | False | Broad | True | 628 |
