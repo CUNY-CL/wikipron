@@ -40,6 +40,7 @@ Unreleased
 -   Added Gujarati (`guj`). (\#445)
 -   Added Kannada (`kan`). (\#446)
 -   Added Karelian (`krl`). (\#447)
+-   Added Southern Yukaghir (`yux`). (\#449)
 
 #### Changed
 
