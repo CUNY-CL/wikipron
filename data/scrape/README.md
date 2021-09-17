@@ -272,6 +272,7 @@
 | [TSV](tsv/pox_latn_broad.tsv) | pox | Polabian | Polabian | Latin |  | False | Broad | True | 228 |
 | [TSV](tsv/ppl_latn_broad.tsv) | ppl | Pipil | Pipil | Latin |  | False | Broad | True | 263 |
 | [TSV](tsv/pus_arab_broad.tsv) | pus | Pushto | Pashto | Arabic |  | False | Broad | False | 1,242 |
+| [TSV](tsv/rgn_latn_broad.tsv) | rgn | Romagnol | Romagnol | Latin |  | False | Broad | True | 323 |
 | [TSV](tsv/rum_latn_broad.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | Latin |  | False | Broad | True | 4,103 |
 | [TSV](tsv/rum_latn_narrow.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | Latin |  | False | Narrow | True | 6,377 |
 | [TSV](tsv/rum_latn_narrow_filtered.tsv) | rum | Romanian; Moldavian; Moldovan | Romanian | Latin |  | True | Narrow | True | 6,271 |
