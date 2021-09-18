@@ -41,6 +41,7 @@ Unreleased
 -   Added Kannada (`kan`). (\#446)
 -   Added Karelian (`krl`). (\#447)
 -   Added Romagnol (`rgn`). (\#448)
+-   Added Southern Yukaghir (`yux`). (\#449)
 
 #### Changed
 

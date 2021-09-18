@@ -350,6 +350,7 @@ ycl_latn_narrow.tsv	ycl	Lolopo	Lolopo	Latin		False	Narrow	True	109
 yid_hebr_broad.tsv	yid	Yiddish	Yiddish	Hebrew		False	Broad	False	251
 yid_hebr_narrow.tsv	yid	Yiddish	Yiddish	Hebrew		False	Narrow	False	358
 yue_hani_broad.tsv	yue	Yue Chinese	Cantonese	Han		False	Broad	False	87378
+yux_cyrl_broad.tsv	yux	Southern Yukaghir	Southern Yukaghir	Cyrillic		False	Broad	True	119
 zha_latn_broad.tsv	zha	Zhuang	Zhuang	Latin		False	Broad	True	1143
 zom_latn_broad.tsv	zom	Zou	Zou	Latin		False	Broad	True	140
 zul_latn_broad.tsv	zul	Zulu	Zulu	Latin		False	Broad	True	1677
