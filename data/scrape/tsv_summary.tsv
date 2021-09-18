@@ -270,6 +270,7 @@ por_latn_po_narrow.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Narrow	Tru
 pox_latn_broad.tsv	pox	Polabian	Polabian	Latin		False	Broad	True	228
 ppl_latn_broad.tsv	ppl	Pipil	Pipil	Latin		False	Broad	True	263
 pus_arab_broad.tsv	pus	Pushto	Pashto	Arabic		False	Broad	False	1242
+rgn_latn_broad.tsv	rgn	Romagnol	Romagnol	Latin		False	Broad	True	323
 rum_latn_broad.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	Latin		False	Broad	True	4103
 rum_latn_narrow.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	Latin		False	Narrow	True	6377
 rum_latn_narrow_filtered.tsv	rum	Romanian; Moldavian; Moldovan	Romanian	Latin		True	Narrow	True	6271
