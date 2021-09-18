@@ -464,4 +464,6 @@ LANGUAGE_CODES = {
     "nhn": "Central Nahuatl",
     # Etruscan: ISO 639-3 only.
     "ett": "Etruscan",
+    # Romagnol: ISO 639-3 only.
+    "rgn": "Romagnol",
 }
