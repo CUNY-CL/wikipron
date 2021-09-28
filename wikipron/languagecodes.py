@@ -466,4 +466,6 @@ LANGUAGE_CODES = {
     "ett": "Etruscan",
     # Romagnol: ISO 639-3 only.
     "rgn": "Romagnol",
+    # Urak Lawoi': ISO 639-3 only.
+    "urk": "Urak Lawoi'",
 }

@@ -327,6 +327,8 @@ tzm_tfng_narrow.tsv	tzm	Central Atlas Tamazight	Central Atlas Tamazight	Tifinagh
 uig_arab_ara_broad.tsv	uig	Uighur	Uyghur	Arabic		False	Broad	True	260
 ukr_cyrl_narrow.tsv	ukr	Ukrainian	Ukrainian	Cyrillic		False	Narrow	True	6148
 urd_arab_broad.tsv	urd	Urdu	Urdu	Arabic		False	Broad	False	1063
+urk_thai_broad.tsv	urk	Urak Lawoi'	Urak Lawoi'	Thai		False	Broad	False	520
+urk_thai_narrow.tsv	urk	Urak Lawoi'	Urak Lawoi'	Thai		False	Narrow	False	520
 vie_latn_hanoi_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	False	Narrow	True	15240
 vie_latn_hanoi_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	True	Narrow	True	15240
 vie_latn_hcmc_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hồ Chí Minh City	False	Narrow	True	15237
