@@ -2116,7 +2116,10 @@
         "iso639_name": "Urak Lawoi'",
         "wiktionary_name": "Urak Lawoi'",
         "wiktionary_code": "urk",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "thai": "Thai"
+        }
     },
     "urd": {
         "iso639_name": "Urdu",
