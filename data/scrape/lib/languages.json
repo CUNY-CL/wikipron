@@ -2112,6 +2112,12 @@
             "cyrl": "Cyrillic"
         }
     },
+    "urk": {
+        "iso639_name": "Urak Lawoi'",
+        "wiktionary_name": "Urak Lawoi'",
+        "wiktionary_code": "urk",
+        "casefold": false
+    },
     "urd": {
         "iso639_name": "Urdu",
         "wiktionary_name": "Urdu",
