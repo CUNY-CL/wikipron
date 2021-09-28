@@ -329,6 +329,8 @@
 | [TSV](tsv/uig_arab_ara_broad.tsv) | uig | Uighur | Uyghur | Arabic |  | False | Broad | True | 260 |
 | [TSV](tsv/ukr_cyrl_narrow.tsv) | ukr | Ukrainian | Ukrainian | Cyrillic |  | False | Narrow | True | 6,148 |
 | [TSV](tsv/urd_arab_broad.tsv) | urd | Urdu | Urdu | Arabic |  | False | Broad | False | 1,063 |
+| [TSV](tsv/urk_thai_broad.tsv) | urk | Urak Lawoi' | Urak Lawoi' | Thai |  | False | Broad | False | 520 |
+| [TSV](tsv/urk_thai_narrow.tsv) | urk | Urak Lawoi' | Urak Lawoi' | Thai |  | False | Narrow | False | 520 |
 | [TSV](tsv/vie_latn_hanoi_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Narrow | True | 15,240 |
 | [TSV](tsv/vie_latn_hanoi_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Narrow | True | 15,240 |
 | [TSV](tsv/vie_latn_hcmc_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hồ Chí Minh City | False | Narrow | True | 15,237 |
