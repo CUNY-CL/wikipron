@@ -42,6 +42,7 @@ Unreleased
 -   Added Karelian (`krl`). (\#447)
 -   Added Romagnol (`rgn`). (\#448)
 -   Added Southern Yukaghir (`yux`). (\#449)
+-   Added Urak Lawoi' (`urk`). (\#451)
 
 #### Changed
 
