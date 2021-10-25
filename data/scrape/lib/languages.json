@@ -711,6 +711,16 @@
             "latn": "Latin"
         }
     },
+    "hau": {
+        "iso639_name": "Hausa",
+        "wiktionary_name": "Hausa",
+        "wiktionary_code": "ha",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "arab": "Arabic"
+        }
+    },
     "haw": {
         "iso639_name": "Hawaiian",
         "wiktionary_name": "Hawaiian",
