@@ -43,6 +43,7 @@ Unreleased
 -   Added Romagnol (`rgn`). (\#448)
 -   Added Southern Yukaghir (`yux`). (\#449)
 -   Added Urak Lawoi' (`urk`). (\#451)
+-   Added Hausa (`ha`). (\#452)
 
 #### Changed
 
