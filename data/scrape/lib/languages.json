@@ -923,6 +923,15 @@
             "shrd": "Sharada"
         }
     },
+    "csb": {
+        "iso639_name": "Kashubian",
+        "wiktionary_name": "Kashubian",
+        "wiktionary_code": "csb",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "kaz": {
         "iso639_name": "Kazakh",
         "wiktionary_name": "Kazakh",
