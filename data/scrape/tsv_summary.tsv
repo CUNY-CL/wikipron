@@ -61,6 +61,7 @@ cos_latn_broad.tsv	cos	Corsican	Corsican	Latin		False	Broad	True	188
 crk_cans_broad.tsv	crk	Plains Cree	Plains Cree	Canadian Aboriginal		False	Broad	True	152
 crk_latn_broad.tsv	crk	Plains Cree	Plains Cree	Latin		False	Broad	True	193
 crx_cans_broad.tsv	crx	Carrier	Carrier	Canadian Aboriginal		False	Broad	False	175
+csb_latn_broad.tsv	csb	Kashubian	Kashubian	Latin		False	Broad	True	168
 cze_latn_broad.tsv	cze	Czech	Czech	Latin		False	Broad	True	3222
 cze_latn_narrow.tsv	cze	Czech	Czech	Latin		False	Narrow	True	26778
 dan_latn_broad.tsv	dan	Danish	Danish	Latin		False	Broad	True	4250
