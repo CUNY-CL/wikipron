@@ -63,6 +63,7 @@
 | [TSV](tsv/crk_cans_broad.tsv) | crk | Plains Cree | Plains Cree | Canadian Aboriginal |  | False | Broad | True | 152 |
 | [TSV](tsv/crk_latn_broad.tsv) | crk | Plains Cree | Plains Cree | Latin |  | False | Broad | True | 193 |
 | [TSV](tsv/crx_cans_broad.tsv) | crx | Carrier | Carrier | Canadian Aboriginal |  | False | Broad | False | 175 |
+| [TSV](tsv/csb_latn_broad.tsv) | csb | Kashubian | Kashubian | Latin |  | False | Broad | True | 168 |
 | [TSV](tsv/cze_latn_broad.tsv) | cze | Czech | Czech | Latin |  | False | Broad | True | 3,222 |
 | [TSV](tsv/cze_latn_narrow.tsv) | cze | Czech | Czech | Latin |  | False | Narrow | True | 26,778 |
 | [TSV](tsv/dan_latn_broad.tsv) | dan | Danish | Danish | Latin |  | False | Broad | True | 4,250 |
