@@ -468,4 +468,6 @@ LANGUAGE_CODES = {
     "rgn": "Romagnol",
     # Urak Lawoi': ISO 639-3 only.
     "urk": "Urak Lawoi'",
+    # Tabaru: ISO 639-3 only.
+    "tby": "Tabaru",
 }
