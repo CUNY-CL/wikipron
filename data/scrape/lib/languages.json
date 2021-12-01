@@ -1996,7 +1996,7 @@
         "casefold": true,
         "script": {
             "latn": "Latin"
-        }	    
+        }
     },
     "tgl": {
         "iso639_name": "Tagalog",
