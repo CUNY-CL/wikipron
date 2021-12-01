@@ -312,6 +312,7 @@
 | [TSV](tsv/syl_sylo_broad.tsv) | syl | Sylheti | Sylheti | Syloti Nagri |  | False | Broad | False | 224 |
 | [TSV](tsv/tam_taml_broad.tsv) | tam | Tamil | Tamil | Tamil |  | False | Broad | False | 2,485 |
 | [TSV](tsv/tam_taml_narrow.tsv) | tam | Tamil | Tamil | Tamil |  | False | Narrow | False | 2,386 |
+| [TSV](tsv/tby_latn_narrow.tsv) | tby | Tabaru | Tabaru | Latin |  | False | Narrow | True | 121 |
 | [TSV](tsv/tel_telu_broad.tsv) | tel | Telugu | Telugu | Telugu |  | False | Broad | False | 442 |
 | [TSV](tsv/tel_telu_narrow.tsv) | tel | Telugu | Telugu | Telugu |  | False | Narrow | False | 386 |
 | [TSV](tsv/tgk_cyrl_broad.tsv) | tgk | Tajik | Tajik | Cyrillic |  | False | Broad | True | 142 |
