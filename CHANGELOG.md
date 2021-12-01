@@ -45,6 +45,7 @@ Unreleased
 -   Added Urak Lawoi' (`urk`). (\#451)
 -   Added Hausa (`ha`). (\#452)
 -   Added Kashubian (`csb`). (\#453)
+-   Added Tabaru (`tby`). (\#455)
 
 #### Changed
 

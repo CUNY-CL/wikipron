@@ -1989,6 +1989,15 @@
             "sylo": "Syloti Nagri"
         }
     },
+    "tby": {
+        "iso639_name": "Tabaru",
+        "wiktionary_name": "Tabaru",
+        "wiktionary_code": "tby",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "tgl": {
         "iso639_name": "Tagalog",
         "wiktionary_name": "Tagalog",
