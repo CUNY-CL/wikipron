@@ -226,6 +226,7 @@
 | [TSV](tsv/mnw_mymr_broad.tsv) | mnw | Mon | Mon | Myanmar |  | False | Broad | False | 514 |
 | [TSV](tsv/mon_cyrl_broad.tsv) | mon | Mongolian | Mongolian | Cyrillic |  | False | Broad | True | 1,166 |
 | [TSV](tsv/mon_cyrl_narrow.tsv) | mon | Mongolian | Mongolian | Cyrillic |  | False | Narrow | True | 510 |
+| [TSV](tsv/mqs_latn_broad.tsv) | mqs | West Makian | West Makian | Latin |  | False | Broad | True | 108 |
 | [TSV](tsv/mww_latn_broad.tsv) | mww | Hmong Daw | White Hmong | Latin |  | False | Broad | True | 322 |
 | [TSV](tsv/nan_hani_xi_broad.tsv) | nan | Min Nan Chinese | Min Nan | Han | Xiamen | False | Broad | True | 44,588 |
 | [TSV](tsv/nap_latn_broad.tsv) | nap | Neapolitan | Neapolitan | Latin |  | False | Broad | True | 321 |

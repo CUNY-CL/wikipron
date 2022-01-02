@@ -224,6 +224,7 @@ mnc_mong_narrow.tsv	mnc	Manchu	Manchu	Mongolian		False	Narrow	False	890
 mnw_mymr_broad.tsv	mnw	Mon	Mon	Myanmar		False	Broad	False	514
 mon_cyrl_broad.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Broad	True	1166
 mon_cyrl_narrow.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Narrow	True	510
+mqs_latn_broad.tsv	mqs	West Makian	West Makian	Latin		False	Broad	True	108
 mww_latn_broad.tsv	mww	Hmong Daw	White Hmong	Latin		False	Broad	True	322
 nan_hani_xi_broad.tsv	nan	Min Nan Chinese	Min Nan	Han	Xiamen	False	Broad	True	44588
 nap_latn_broad.tsv	nap	Neapolitan	Neapolitan	Latin		False	Broad	True	321
