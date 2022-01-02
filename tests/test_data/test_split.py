@@ -211,6 +211,15 @@ _SMOKE_TEST_LANGUAGES = [
             ("wikipron", False),
         ],
     ),
+    SmokeTestScript(
+        "Ethiopic",
+        [
+            ("እናት", True),
+            ("ግዕዝ", True),
+            ("𐩣𐩣𐩾", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 
