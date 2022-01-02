@@ -88,8 +88,8 @@
         "wiktionary_code": "am",
         "casefold": false,
         "script": {
-            "ethi": "Geʽez"
-        }	    
+            "ethi": "Ethiopic"
+        }
     },
     "grc": {
         "iso639_name": "Ancient Greek (to 1453)",

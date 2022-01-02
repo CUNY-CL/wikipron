@@ -12,6 +12,7 @@ akk_latn_broad.tsv	akk	Akkadian	Akkadian	Latin		False	Broad	True	199
 alb_latn_broad.tsv	alb	Albanian	Albanian	Latin		False	Broad	True	1450
 alb_latn_narrow.tsv	alb	Albanian	Albanian	Latin		False	Narrow	True	823
 ale_latn_broad.tsv	ale	Aleut	Aleut	Latin		False	Broad	True	104
+amh_ethi_broad.tsv	amh	Amharic	Amharic	Ethiopic		False	Broad	False	272
 ang_latn_broad.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Broad	True	8854
 ang_latn_narrow.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Narrow	True	4341
 aot_latn_broad.tsv	aot	Atong (India)	Atong (India)	Latin		False	Broad	True	140
