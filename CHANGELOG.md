@@ -46,6 +46,7 @@ Unreleased
 -   Added Hausa (`ha`). (\#452)
 -   Added Kashubian (`csb`). (\#453)
 -   Added Tabaru (`tby`). (\#455)
+-   Added West Makian (`mqs`). (\#457)
 
 #### Changed
 
