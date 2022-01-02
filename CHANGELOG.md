@@ -47,6 +47,7 @@ Unreleased
 -   Added Kashubian (`csb`). (\#453)
 -   Added Tabaru (`tby`). (\#455)
 -   Added West Makian (`mqs`). (\#457)
+-   Added Amharic (`amh`). (\#458)
 
 #### Changed
 
