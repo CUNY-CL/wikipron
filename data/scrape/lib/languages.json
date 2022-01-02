@@ -2226,6 +2226,15 @@
             "latn": "Latin"
         }
     },
+    "mqs": {
+        "iso639_name": "West Makian",
+        "wiktionary_name": "West Makian",
+        "wiktionary_code": "mqs",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "apw": {
         "iso639_name": "Western Apache",
         "wiktionary_name": "Western Apache",
