@@ -470,4 +470,6 @@ LANGUAGE_CODES = {
     "urk": "Urak Lawoi'",
     # Tabaru: ISO 639-3 only.
     "tby": "Tabaru",
+    # West Makian: ISO 639-3 only.
+    "mqs": "West Makian",
 }
