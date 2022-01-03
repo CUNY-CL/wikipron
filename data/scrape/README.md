@@ -14,6 +14,7 @@
 | [TSV](tsv/alb_latn_broad.tsv) | alb | Albanian | Albanian | Latin |  | False | Broad | True | 1,450 |
 | [TSV](tsv/alb_latn_narrow.tsv) | alb | Albanian | Albanian | Latin |  | False | Narrow | True | 823 |
 | [TSV](tsv/ale_latn_broad.tsv) | ale | Aleut | Aleut | Latin |  | False | Broad | True | 104 |
+| [TSV](tsv/amh_ethi_broad.tsv) | amh | Amharic | Amharic | Ethiopic |  | False | Broad | False | 272 |
 | [TSV](tsv/ang_latn_broad.tsv) | ang | Old English (ca. 450-1100) | Old English | Latin |  | False | Broad | True | 8,854 |
 | [TSV](tsv/ang_latn_narrow.tsv) | ang | Old English (ca. 450-1100) | Old English | Latin |  | False | Narrow | True | 4,341 |
 | [TSV](tsv/aot_latn_broad.tsv) | aot | Atong (India) | Atong (India) | Latin |  | False | Broad | True | 140 |

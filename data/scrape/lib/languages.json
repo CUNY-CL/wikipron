@@ -82,6 +82,15 @@
         "wiktionary_code": "alr",
         "casefold": true
     },
+    "amh": {
+        "iso639_name": "Amharic",
+        "wiktionary_name": "Amharic",
+        "wiktionary_code": "am",
+        "casefold": false,
+        "script": {
+            "ethi": "Ethiopic"
+        }
+    },
     "grc": {
         "iso639_name": "Ancient Greek (to 1453)",
         "wiktionary_name": "Ancient Greek",
