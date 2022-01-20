@@ -1137,6 +1137,15 @@
             "latn": "Latin"
         }
     },
+    "olo": {
+        "iso639_name": "Livvi",
+        "wiktionary_name": "Livvi",
+        "wiktionary_code": "olo",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "ycl": {
         "iso639_name": "Lolopo",
         "wiktionary_name": "Lolopo",
