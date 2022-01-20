@@ -48,6 +48,7 @@ Unreleased
 -   Added Tabaru (`tby`). (\#455)
 -   Added West Makian (`mqs`). (\#457)
 -   Added Amharic (`amh`). (\#458)
+-   Added Livvi (`olo`). (\#459)
 
 #### Changed
 
