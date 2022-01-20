@@ -252,6 +252,7 @@ oci_latn_broad.tsv	oci	Occitan (post 1500)	Occitan	Latin		False	Broad	True	387
 oci_latn_narrow.tsv	oci	Occitan (post 1500)	Occitan	Latin		False	Narrow	True	293
 ofs_latn_broad.tsv	ofs	Old Frisian	Old Frisian	Latin		False	Broad	True	175
 okm_hang_broad.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	Hangul		False	Broad	False	334
+olo_latn_broad.tsv	olo	Livvi	Livvi	Latin		False	Broad	True	204
 ori_orya_broad.tsv	ori	Oriya (macrolanguage)	Oriya	Oriya		False	Broad	False	218
 osp_latn_narrow.tsv	osp	Old Spanish	Old Spanish	Latin		False	Narrow	True	267
 osx_latn_broad.tsv	osx	Old Saxon	Old Saxon	Latin		False	Broad	True	181
