@@ -472,4 +472,6 @@ LANGUAGE_CODES = {
     "tby": "Tabaru",
     # West Makian: ISO 639-3 only.
     "mqs": "West Makian",
+    # Livvi-Karelian (Olonets): ISO 639-3 only.
+    "olo": "Livvi",
 }
