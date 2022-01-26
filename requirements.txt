@@ -1,4 +1,4 @@
-black==20.8b1
+black==21.12b0
 flake8==3.8.4
 iso639==0.1.4
 mypy==0.790
