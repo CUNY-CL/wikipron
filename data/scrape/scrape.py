@@ -120,12 +120,12 @@ def main(args: argparse.Namespace) -> None:
     # Verifies language code for --restriction is valid.
     if args.restriction:
         # Cleans entry.
-        keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
+        keys = re.split(r"[;,\s]+\s*", args.restriction.strip(";, "))
         if not keys[0]:
             # Checks for empty entry.
             logging.fatal("Restriction flag raised but no language provided")
             exit(1)
-        rset = frozenset(args.restriction)
+        rset = frozenset(keys)
         lset = frozenset(codes)
         eset = rset - lset
         if eset:
@@ -184,7 +184,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--restriction",
         type=str,
-        nargs="+",
         help="restricts scrape to specified language(s)",
     )
     main(parser.parse_args())
