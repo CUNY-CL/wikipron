@@ -52,7 +52,11 @@ The following steps can be used to run the big scrape procedure for a subset:
     line arguments for desired languages. Note: languages must be in their ISO
     designation and argument string must delineate with comma, semicolon, or
     space. E.g. To target only Lithuanian and Spanish:
-    `./scrape.py --restriction='lit; spa'`
+    `./scrape.py --restriction='lit; spa'`.
+    To target all but one or more specific languages, apply the `--exclude` flag,
+    e.g., to exclude Lithuanian and Spanish:
+    `./scrape.py --exclude='lit; spa'`.
+    Only one, but not both, of `--restriction` and `--exclude` can be applied.
 2.  If `cut_off_date` in [`scrape.py`](../scrape.py) was set using
     `datetime.date.today().isoformat()` and it is important that all the data
     you scrape is from before the same date, then manually set `cut_off_date` in

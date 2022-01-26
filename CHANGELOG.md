@@ -14,6 +14,7 @@ Unreleased
 
 #### Added
 
+-   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
@@ -52,6 +53,7 @@ Unreleased
 
 #### Changed
 
+-   Fixed the `--restriction` flag for specifying multiple languages in `data/scrape/scrape.py`. (\#460)
 -   Added covering grammar coverage error log and specified error_type in error_analysis.py. (\#424)
 -   Added error log writing in error_analysis.py. (\#420)
 -   Added new columns in summary tables. (\#365)
