@@ -116,23 +116,38 @@ def _build_scraping_config(
 def main(args: argparse.Namespace) -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
-    codes = list(languages.keys())
-    # Verifies language code for --restriction is valid.
+    codes = frozenset(languages.keys())
     if args.restriction:
         # Cleans entry.
-        keys = re.split(r"[;,\s]+\s*", args.restriction[0].strip(";, "))
-        if not keys[0]:
+        restriction_set = frozenset(
+            re.split(r"[;,\s]+\s*", args.restriction.strip(";, "))
+        )
+        if len(restriction_set) == 1 and not list(restriction_set)[0]:
             # Checks for empty entry.
             logging.fatal("Restriction flag raised but no language provided")
             exit(1)
-        rset = frozenset(args.restriction)
-        lset = frozenset(codes)
-        eset = rset - lset
-        if eset:
-            for key in eset:
+        if not restriction_set.issubset(codes):
+            for key in restriction_set - codes:
                 logging.fatal("%r is not a valid ISO code", key)
             exit(1)
-        codes = list(rset)
+    else:
+        restriction_set = codes
+    if args.exclude:
+        # Cleans entry.
+        exclude_set = frozenset(
+            re.split(r"[;,\s]+\s*", args.exclude.strip(";, "))
+        )
+        if len(exclude_set) == 1 and not list(exclude_set)[0]:
+            # Checks for empty entry.
+            logging.fatal("Exclude flag raised but no language provided")
+            exit(1)
+        if not exclude_set.issubset(codes):
+            for key in exclude_set - codes:
+                logging.fatal("%r is not a valid ISO code", key)
+            exit(1)
+    else:
+        exclude_set = frozenset()
+    codes = restriction_set - exclude_set
     # "2020-01-15" (Big Scrape 3).
     cut_off_date = datetime.date.today().isoformat()
     wikipron_accepted_settings = {
@@ -181,10 +196,15 @@ if __name__ == "__main__":
         level="INFO",
     )
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument(
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument(
         "--restriction",
         type=str,
-        nargs="+",
         help="restricts scrape to specified language(s)",
+    )
+    group.add_argument(
+        "--exclude",
+        type=str,
+        help="excludes specified language(s)",
     )
     main(parser.parse_args())
