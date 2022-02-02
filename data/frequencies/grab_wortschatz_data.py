@@ -86,7 +86,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "--restriction",
-        type=str,
         help="restricts download to specified language(s)",
     )
     main(parser.parse_args())

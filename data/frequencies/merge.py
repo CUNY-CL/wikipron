@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 """Merges downloaded frequency data with pronunciation data."""
 
+import argparse
 import csv
 import json
 import logging
 import os
-import tempfile
 
 from typing import Dict
 
@@ -16,11 +16,12 @@ def write_frequency_tsv(
     wiki_tsv_affix: str,
     level: str,
     frequencies_dict: Dict[str, int],
+    args: argparse.Namespace,
 ) -> None:
     # Complete WikiPron TSV paths.
     basename = f"{wiki_tsv_affix}_{level}"
     source_path = f"{basename}.tsv"
-    sink_path = f"{basename}_freq.tsv"
+    sink_path = f"{args.dest_dir}/{os.path.basename(source_path)}"
     # Will try to overwrite narrow and broad WikiPron TSVs for all Wortschatz
     # languages. WikiPron may not have both a narrow and broad TSV for all
     # languages.
@@ -31,9 +32,7 @@ def write_frequency_tsv(
             wiki_tsv = csv.reader(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
-            with tempfile.NamedTemporaryFile(
-                mode="w", dir="../tsv", delete=False
-            ) as source:
+            with open(sink_path, "w") as source:
                 # Our TSVs may be two or three columns
                 # depending on if merge.py has been run.
                 for word, pron, *prev_count in wiki_tsv:
@@ -46,13 +45,11 @@ def write_frequency_tsv(
                         )
                     else:
                         print(f"{word}\t{pron}\t0", file=source)
-                temp_path = source.name
-        os.replace(temp_path, sink_path)
     except FileNotFoundError as err:
         logging.info("File not found: %s", err)
 
 
-def main() -> None:
+def main(args: argparse.Namespace) -> None:
     with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
     levels = [
@@ -61,6 +58,7 @@ def main() -> None:
         "narrow_filtered",
         "broad_filtered",
     ]
+    os.makedirs(args.dest_dir, exist_ok=True)
     for freq_file in os.listdir("tsv"):
         word_freq_dict = {}
         # For accessing correct language in wortschatz_languages.json.
@@ -86,11 +84,17 @@ def main() -> None:
                     word_freq_dict[word] = word_freq_dict[word] + freq
         for wiki_tsv_path in languages[file_to_match]["path"]:
             for level in levels:
-                write_frequency_tsv(wiki_tsv_path, level, word_freq_dict)
+                write_frequency_tsv(wiki_tsv_path, level, word_freq_dict, args)
 
 
 if __name__ == "__main__":
     logging.basicConfig(
         format="%(filename)s %(levelname)s: %(message)s", level="INFO"
     )
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--dest-dir",
+        required=True,
+        help="Destination directory where the merged data is created",
+    )
+    main(parser.parse_args())

@@ -20,7 +20,7 @@
     },
     "asm_wikipedia_2021_100K": {
         "path": [
-            "../tsv/asm"
+            "../tsv/asm_beng"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/asm_wikipedia_2021_100K.tar.gz"
     },
@@ -38,7 +38,7 @@
     },
     "bel_news_2011_300K": {
         "path": [
-            "../tsv/bel"
+            "../tsv/bel_cyrl"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/bel_news_2011_300K.tar.gz"
     },
@@ -68,7 +68,7 @@
     },
     "nld_news_2020_1M": {
         "path": [
-            "../tsv/dut"
+            "../tsv/dut_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nld_news_2020_1M.tar.gz"
     },
@@ -117,7 +117,7 @@
     },
     "deu_news_2021_1M": {
         "path": [
-            "../tsv/ger"
+            "../tsv/ger_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/deu_news_2021_1M.tar.gz"
     },
@@ -172,7 +172,7 @@
     },
     "ita_news_2020_1M": {
         "path": [
-            "../tsv/ita"
+            "../tsv/ita_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ita_news_2020_1M.tar.gz"
     },
@@ -269,13 +269,13 @@
     },
     "nno-no_web_2020_1M": {
         "path": [
-            "../tsv/nno"
+            "../tsv/nno_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/nno-no_web_2020_1M.tar.gz"
     },
     "fas_newscrawl_2019_1M": {
         "path": [
-            "../tsv/per"
+            "../tsv/per_arab"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/fas_newscrawl_2019_1M.tar.gz"
     },
@@ -294,7 +294,7 @@
     },
     "ron_news_2020_1M": {
         "path": [
-            "../tsv/rum"
+            "../tsv/rum_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ron_news_2020_1M.tar.gz"
     },
@@ -331,13 +331,13 @@
     },
     "swe_news_2020_1M": {
         "path": [
-            "../tsv/swe"
+            "../tsv/swe_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/swe_news_2020_1M.tar.gz"
     },
     "tgl_newscrwal_2011_300K": {
         "path": [
-            "../tsv/tgl"
+            "../tsv/tgl_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/tgl_newscrwal_2011_300K.tar.gz"
     },
@@ -355,7 +355,7 @@
     },
     "ukr_news_2020_1M": {
         "path": [
-            "../tsv/ukr"
+            "../tsv/ukr_cyrl"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ukr_news_2020_1M.tar.gz"
     },
@@ -394,19 +394,19 @@
     },
     "ceb_wikipedia_2021_1M": {
         "path": [
-            "../tsv/ceb"
+            "../tsv/ceb_latn"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ceb_wikipedia_2021_1M.tar.gz"
     },
     "ben_news_2020_300K": {
         "path": [
-            "../tsv/ceb"
+            "../tsv/ben_beng"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/ben_news_2020_300K.tar.gz"
     },
     "tha-th_web_2018_1M": {
         "path": [
-            "../tsv/per"
+            "../tsv/tha_thai"
         ],
         "data_url": "http://pcai056.informatik.uni-leipzig.de/downloads/corpora/tha-th_web_2018_1M.tar.gz"
     }
