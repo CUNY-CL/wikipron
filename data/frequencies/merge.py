@@ -85,7 +85,9 @@ def main(args: argparse.Namespace) -> None:
                     word_freq_dict[word] = word_freq_dict[word] + freq
         for wiki_tsv_prefix in languages[file_to_match]["file_prefixes"]:
             for level in levels:
-                write_frequency_tsv(wiki_tsv_prefix, level, word_freq_dict, args)
+                write_frequency_tsv(
+                    wiki_tsv_prefix, level, word_freq_dict, args
+                )
 
 
 if __name__ == "__main__":

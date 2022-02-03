@@ -12,3 +12,4 @@ env/
 **/freq_tsvs
 data/frequencies/tsv/*
 data/frequencies/tgz/*
+data/morphology/tsv/*

@@ -14,6 +14,9 @@
     "arm": [
         "https://raw.githubusercontent.com/unimorph/hye/master/hye"
     ],
+    "asm": [
+        "https://raw.githubusercontent.com/unimorph/asm/master/asm"
+    ],
     "ast": [
         "https://raw.githubusercontent.com/unimorph/ast/master/ast"
     ],
@@ -40,6 +43,9 @@
     ],
     "cat": [
         "https://raw.githubusercontent.com/unimorph/cat/master/cat"
+    ],
+    "ceb": [
+        "https://raw.githubusercontent.com/unimorph/ceb/master/ceb"
     ],
     "cor": [
         "https://raw.githubusercontent.com/unimorph/cor/master/cor"
@@ -198,6 +204,9 @@
     "syc": [
         "https://raw.githubusercontent.com/unimorph/syc/master/syc"
     ],
+    "tgl": [
+        "https://raw.githubusercontent.com/unimorph/tgl/master/tgl"
+    ],    
     "tur": [
         "https://raw.githubusercontent.com/unimorph/tur/master/tur"
     ],
