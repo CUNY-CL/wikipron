@@ -13,15 +13,15 @@ from grab_wortschatz_data import WORTSCHATZ_DICT_PATH
 
 
 def write_frequency_tsv(
-    wiki_tsv_affix: str,
+    wiki_tsv_prefix: str,
     level: str,
     frequencies_dict: Dict[str, int],
     args: argparse.Namespace,
 ) -> None:
     # Complete WikiPron TSV paths.
-    basename = f"{wiki_tsv_affix}_{level}"
-    source_path = f"{basename}.tsv"
-    sink_path = f"{args.dest_dir}/{os.path.basename(source_path)}"
+    basename = f"{wiki_tsv_prefix}_{level}.tsv"
+    source_path = os.path.join(args.source_pron_dir, basename)
+    sink_path = os.path.join(args.dest_dir, basename)
     # Will try to overwrite narrow and broad WikiPron TSVs for all Wortschatz
     # languages. WikiPron may not have both a narrow and broad TSV for all
     # languages.
@@ -59,13 +59,14 @@ def main(args: argparse.Namespace) -> None:
         "broad_filtered",
     ]
     os.makedirs(args.dest_dir, exist_ok=True)
-    for freq_file in os.listdir("tsv"):
+    for freq_file in os.listdir(args.source_freq_dir):
         word_freq_dict = {}
         # For accessing correct language in wortschatz_languages.json.
         file_to_match = freq_file.rsplit("-", 1)[0]
         logging.info("Currently working on: %s", file_to_match)
 
-        with open(f"tsv/{freq_file}", "r", encoding="utf-8") as tsv:
+        freq_path = os.path.join(args.source_freq_dir, freq_file)
+        with open(freq_path, "r", encoding="utf-8") as tsv:
             frequencies_tsv = csv.reader(
                 tsv, delimiter="\t", quoting=csv.QUOTE_NONE
             )
@@ -82,9 +83,9 @@ def main(args: argparse.Namespace) -> None:
                     word_freq_dict[word] = freq
                 else:
                     word_freq_dict[word] = word_freq_dict[word] + freq
-        for wiki_tsv_path in languages[file_to_match]["path"]:
+        for wiki_tsv_prefix in languages[file_to_match]["file_prefixes"]:
             for level in levels:
-                write_frequency_tsv(wiki_tsv_path, level, word_freq_dict, args)
+                write_frequency_tsv(wiki_tsv_prefix, level, word_freq_dict, args)
 
 
 if __name__ == "__main__":
@@ -96,5 +97,18 @@ if __name__ == "__main__":
         "--dest-dir",
         required=True,
         help="Destination directory where the merged data is created",
+    )
+    parser.add_argument(
+        "--source-pron-dir",
+        required=True,
+        help="Source directory of pronunciation data as TSV files",
+    )
+    parser.add_argument(
+        "--source-freq-dir",
+        default="tsv",
+        help=(
+            "Source directory of frequency data "
+            "unpacked from the downloaded Wortschatz files"
+        ),
     )
     main(parser.parse_args())

@@ -4,8 +4,11 @@ __pycache__/
 *.py[cdo]
 *.egg-info/
 *.log
+env/
+.idea/
+
+# Temporary data files.
 **/tars
 **/freq_tsvs
-env/
-
-.idea/
+data/frequencies/tsv/*
+data/frequencies/tgz/*

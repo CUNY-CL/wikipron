@@ -10,8 +10,7 @@ counts into [our corresponding TSVs](../tsv/).
 [`grab_wortschatz_data.py`](grab_wortschatz_data.py) downloads and unpacks the
 TARs provided by the aforementioned Corpora Collection. [`merge.py`](merge.py)
 merges in the word frequency counts with our TSVs such that, for the languages
-covered by the Corpora Collection, we end up with three-column `*_freq.tsv`
-TSVs:
+covered by the Corpora Collection, we end up with three-column TSVs:
 
     bashkë  b a ʃ k ə   1005
     bashkëfajtor    b a ʃ k f a j t ɔ ɹ 2

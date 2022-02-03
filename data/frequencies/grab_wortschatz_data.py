@@ -5,7 +5,6 @@ import argparse
 import json
 import logging
 import os
-import re
 import tarfile
 import time
 
@@ -17,24 +16,10 @@ import requests
 WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
 
 
-def download(data_to_grab: Dict[str, Any], args: argparse.Namespace) -> Dict[str, Any]:
+def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
     to_retry = {}
     os.makedirs("tgz", exist_ok=True)
-    codes = frozenset(key[:3] for key in data_to_grab)
-    if args.restriction:
-        restriction_set = frozenset(
-            re.split(r"[;,\s]+\s*", args.restriction.strip(";, "))
-        )
-        if len(restriction_set) == 1 and not list(restriction_set)[0]:
-            raise ValueError("Restriction flag raised but no language provided")
-        if not restriction_set.issubset(codes):
-            for key in restriction_set - codes:
-                raise ValueError(f"{key} is not a valid ISO code", key)
-    else:
-        restriction_set = codes
     for language in data_to_grab:
-        if language[:3] not in restriction_set:
-            continue
         url = data_to_grab[language]["data_url"]
         with requests.get(url, stream=True) as response:
             target_path = url.split("/")[-1]
@@ -69,13 +54,13 @@ def unpack() -> None:
 
 
 def main(args: argparse.Namespace) -> None:
-    with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
+    with open(args.freq_json_path, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
     # Hack for repeatedly attempting to download Wortschatz data
     # as a way of getting around 404 response from their server.
-    langs_to_retry = download(languages, args)
+    langs_to_retry = download(languages)
     while langs_to_retry:
-        langs_to_retry = download(langs_to_retry, args)
+        langs_to_retry = download(langs_to_retry)
     unpack()
 
 
@@ -85,7 +70,8 @@ if __name__ == "__main__":
     )
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
-        "--restriction",
-        help="restricts download to specified language(s)",
+        "--freq-json-path",
+        default=WORTSCHATZ_DICT_PATH,
+        help="Path to the JSON file for the Wortschatz frequency download URLs",
     )
     main(parser.parse_args())
