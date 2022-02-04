@@ -13,7 +13,8 @@ from typing import Any, Dict
 import requests
 
 
-WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
+_THIS_DIR = os.path.dirname(__file__)
+WORTSCHATZ_DICT_PATH = os.path.join(_THIS_DIR, "wortschatz_languages.json")
 
 
 def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:

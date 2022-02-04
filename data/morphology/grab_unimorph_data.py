@@ -12,7 +12,8 @@ from typing import Dict, List
 import requests
 
 
-UNIMORPH_DICT_PATH = "unimorph_languages.json"
+_THIS_DIR = os.path.dirname(__file__)
+UNIMORPH_DICT_PATH = os.path.join(_THIS_DIR, "unimorph_languages.json")
 
 
 def download(data_to_grab: Dict[str, List[str]]) -> Dict[str, List[str]]:
