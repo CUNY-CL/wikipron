@@ -5,7 +5,7 @@ paradigms from [UniMorph](https://unimorph.github.io/).
 
 ## How to use
 
-[`grab_unimorph_data.py`](graph_unimorph_data.py) downloads UniMorph data as
+[`grab_unimorph_data.py`](grab_unimorph_data.py) downloads UniMorph data as
 three-column TSV files:
 
     кошка   кошек   N;GEN;PL

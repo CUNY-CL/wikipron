@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 """Downloads and decompresses Wortschatz frequency data."""
 
+import argparse
 import json
 import logging
 import os
@@ -12,12 +13,13 @@ from typing import Any, Dict
 import requests
 
 
-WORTSCHATZ_DICT_PATH = "wortschatz_languages.json"
+_THIS_DIR = os.path.dirname(__file__)
+WORTSCHATZ_DICT_PATH = os.path.join(_THIS_DIR, "wortschatz_languages.json")
 
 
 def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
     to_retry = {}
-    os.mkdir("tgz")
+    os.makedirs("tgz", exist_ok=True)
     for language in data_to_grab:
         url = data_to_grab[language]["data_url"]
         with requests.get(url, stream=True) as response:
@@ -40,7 +42,7 @@ def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
 
 
 def unpack() -> None:
-    os.mkdir("tsv")
+    os.makedirs("tsv", exist_ok=True)
     for tarball in os.listdir("tgz"):
         logging.info("Unpacking: %s", tarball)
         with tarfile.open(name=f"tgz/{tarball}", mode="r:gz") as tar_data:
@@ -52,8 +54,8 @@ def unpack() -> None:
                     tar_data.extract(file_entry, "tsv")
 
 
-def main() -> None:
-    with open(WORTSCHATZ_DICT_PATH, "r", encoding="utf-8") as langs:
+def main(args: argparse.Namespace) -> None:
+    with open(args.freq_json_path, "r", encoding="utf-8") as langs:
         languages = json.load(langs)
     # Hack for repeatedly attempting to download Wortschatz data
     # as a way of getting around 404 response from their server.
@@ -67,4 +69,10 @@ if __name__ == "__main__":
     logging.basicConfig(
         format="%(filename)s %(levelname)s: %(message)s", level="INFO"
     )
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--freq-json-path",
+        default=WORTSCHATZ_DICT_PATH,
+        help="path to the JSON file for the Wortschatz frequency download URLs",
+    )
+    main(parser.parse_args())

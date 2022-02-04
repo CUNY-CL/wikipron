@@ -662,7 +662,8 @@
         "casefold": true,
         "script": {
             "zyyy": "Common",
-            "latn": "Latin"
+            "latn": "Latin",
+            "hebr": "Hebrew"
         }
     },
     "got": {
