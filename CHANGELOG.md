@@ -53,6 +53,10 @@ Unreleased
 
 #### Changed
 
+-   Updated scraped data in preparation for the SIGMORPHON 2022 shared task:
+    `swe nno ger dut ita rum ukr bel tgl ceb ben asm per pus tha lwl`. (\#461)
+-   Made scripts under `data/frequencies/` and `data/morphology/` more flexible,
+    especially for the purposes of preparing data for a shared task. (\#461)
 -   Fixed the `--restriction` flag for specifying multiple languages in `data/scrape/scrape.py`. (\#460)
 -   Added covering grammar coverage error log and specified error_type in error_analysis.py. (\#424)
 -   Added error log writing in error_analysis.py. (\#420)
