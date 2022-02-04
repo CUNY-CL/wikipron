@@ -98,18 +98,18 @@ if __name__ == "__main__":
     parser.add_argument(
         "--dest-dir",
         required=True,
-        help="Destination directory where the merged data is created",
+        help="destination directory where the merged data is created",
     )
     parser.add_argument(
         "--source-pron-dir",
         required=True,
-        help="Source directory of pronunciation data as TSV files",
+        help="source directory of pronunciation data as TSV files",
     )
     parser.add_argument(
         "--source-freq-dir",
         default="tsv",
         help=(
-            "Source directory of frequency data "
+            "source directory of frequency data "
             "unpacked from the downloaded Wortschatz files"
         ),
     )

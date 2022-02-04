@@ -57,6 +57,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--unimorph-json-path",
         default=UNIMORPH_DICT_PATH,
-        help="Path to the JSON file for the UniMorph download URLs",
+        help="path to the JSON file for the UniMorph download URLs",
     )
     main(parser.parse_args())

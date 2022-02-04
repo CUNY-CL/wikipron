@@ -73,6 +73,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--freq-json-path",
         default=WORTSCHATZ_DICT_PATH,
-        help="Path to the JSON file for the Wortschatz frequency download URLs",
+        help="path to the JSON file for the Wortschatz frequency download URLs",
     )
     main(parser.parse_args())
