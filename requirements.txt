@@ -2,7 +2,7 @@ black==21.12b0
 flake8==3.8.4
 iso639==0.1.4
 mypy==0.790
-pytest==6.1.1
+pytest==7.0.0
 requests-html==0.10.0
 requests==2.24.0
 segments==2.2.0
