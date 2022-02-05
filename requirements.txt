@@ -7,4 +7,4 @@ requests-html==0.10.0
 requests==2.24.0
 segments==2.2.0
 setuptools==50.3.1
-unicodedataplus==13.0.0.post2
+unicodedataplus==14.0.0.post2

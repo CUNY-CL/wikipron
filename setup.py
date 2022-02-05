@@ -40,7 +40,6 @@ def main():
             "requests-html",
             "segments>=2.2.0,<3",
             "setuptools",
-            "unicodedataplus",
         ],
         entry_points={"console_scripts": ["wikipron = wikipron.cli:main"]},
         classifiers=[
