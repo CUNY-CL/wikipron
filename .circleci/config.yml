@@ -1,7 +1,8 @@
 version: 2.1
 
 orbs:
-  python: circleci/python@1.2.0
+  # https://circleci.com/developer/orbs/orb/circleci/python
+  python: circleci/python@1.5.0
 
 
 jobs:
@@ -13,7 +14,9 @@ jobs:
       command-run:
         type: string
     docker:
-      - image: cimg/python:3.9
+      # Use the latest Python 3.x image from CircleCI that WikiPron supports.
+      # See: https://circleci.com/developer/images/image/cimg/python
+      - image: cimg/python:3.10
         #auth:
         #  username: $DOCKERHUB_USERNAME
         #  password: $DOCKERHUB_PASSWORD
@@ -87,5 +90,4 @@ workflows:
             - mypy
           matrix:
             parameters:
-              python-version: ["3.6", "3.7", "3.8", "3.9"]
-
+              python-version: ["3.7", "3.8", "3.9", "3.10"]
