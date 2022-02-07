@@ -96,10 +96,15 @@ Unreleased
 
 #### Added
 
+-  Added support for Python 3.10. (\#462)
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
 -  Added Min Nan extraction function. (\#397)
 -  Added Tai Dam extraction function, configuration and initial scrape. (\#435)
 -  Added test of `casefold` value for languages in `data/scrape/lib/languages.json` (\#442)
+
+#### Removed
+
+-  Dropped support for Python 3.6. (\#462)
 
 [1.2.0] - 2021-01-30
 --------------------
