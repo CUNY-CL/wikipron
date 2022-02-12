@@ -38,6 +38,11 @@ Steps used to update the dataset
     -   To find new languages you can run `git diff languages.json` or search
         for `null` values within [`languages.json`](languages.json).
 2.  Run [`scrape.py`](../scrape.py).
+    -   For the annual big scrape, apply the `--fresh` flag when you run
+        `scrape.py` the first time for the year. If the run dies out in the middle
+        (or if you abort the execution, intentionally or otherwise), `unscraped.json`
+        records which languages have not been scraped, and you can run `scrape.py`
+        again _without_ the `--fresh` flag to scrape only the remaining languages.
     -   By default `cut_off_date` in `main()` is set using
         `datetime.date.today().isoformat()` but can be set manually using an ISO
         formatted string (ex. "2019-10-31").
