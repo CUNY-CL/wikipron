@@ -160,10 +160,12 @@ def main(args: argparse.Namespace) -> None:
         logging.info("`unscraped.json` detected and used")
     else:
         unscraped_codes = frozenset(languages.keys())
-        # "2020-01-15" (Big Scrape 3).
+        # Previous cut-off dates for big scrape runs:
+        # - "2020-01-15"
+        # - "2022-01-24"
         cut_off_date = datetime.date.today().isoformat()
-    codes = (restriction_set - exclude_set) & unscraped_codes
-    remaining = set(codes)
+    codes = sorted((restriction_set - exclude_set) & unscraped_codes)
+    remaining = codes.copy()
     wikipron_accepted_settings = {
         "casefold": False,
         "skip_spaces_pron": True,
@@ -201,7 +203,7 @@ def main(args: argparse.Namespace) -> None:
         with open(_UNSCRAPED_JSON_FILENAME, "w") as f:
             unscraped = {
                 "cut_off_date": cut_off_date,
-                "unscraped": list(remaining),
+                "unscraped": sorted(remaining),
             }
             json.dump(unscraped, f, indent=4)
 
