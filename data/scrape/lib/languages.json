@@ -1532,8 +1532,7 @@
         "wiktionary_code": "new",
         "casefold": false,
         "script": {
-            "deva": "Devanagari",
-            "newa": "Newa"
+            "deva": "Devanagari"
         }
     },
     "nrf": {
