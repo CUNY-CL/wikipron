@@ -1,4 +1,3 @@
-a	a
 aball	a v a l͈
 abis	a vʲ i s
 abis	a vʲ i sʲ
@@ -139,6 +138,7 @@ adruchoisséni	a ð r u x o sʲ eː nʲ i
 adráigsetar	a ð r͈ aː xʲ sʲ e d a r
 adráigsetar	a ð r͈ aː ɣʲ sʲ e d a r
 adrími	a ð r͈ʲ iː ṽʲ i
+adteich	a ð tʲ e xʲ
 adtluchedar	a ð t l u xʲ e ð a r
 adtreba	a ð tʲ rʲ e v a
 adágainn	a ð aː ɣ i n͈ʲ
@@ -159,11 +159,9 @@ agad	a ɣ ə ð
 agair	a ɣ i rʲ
 agat	a ɣ a d
 aicce	a kʲ e
-aiccend	a kʲ e n͈ d
 aicci	a kʲ i
 aicher	a xʲ e r
 aichre	a xʲ rʲ e
-aicned	a ɡʲ nʲ e ð
 aicniud	a ɡʲ nʲ u ð
 aicsenaib	a kʲ sʲ e n i vʲ
 aicsin	a kʲ sʲ i nʲ
@@ -176,7 +174,6 @@ aiges	a ɣʲ e s
 aigid	a ɣʲ i ðʲ
 ail	a lʲ
 aile	a lʲ e
-ailid	a lʲ i ðʲ
 ailide	a lʲ i ðʲ e
 ailidetu	a lʲ i ðʲ e d u
 ailidi	a lʲ i ðʲ i
@@ -185,7 +182,6 @@ ailte	a i lʲ tʲ e
 ailén	a lʲ eː n
 aimdetar	a mʲ ðʲ e d a r
 aimmded	a mʲ ðʲ e ð
-aimser	a mʲ sʲ e r
 ain	a nʲ
 ainder	a n͈ʲ dʲ ə r
 aingel	a nʲ ɣʲ e l
@@ -212,7 +208,6 @@ airid	a rʲ i ðʲ
 airigther	a rʲ i ɣʲ θʲ e r
 airisem	a rʲ ə sʲ ə ṽ
 aisil	a sʲ i lʲ
-aisndís	a sʲ nʲ dʲ iː sʲ
 aite	a dʲ e
 aithche	a θʲ xʲ e
 aithchi	a θʲ xʲ i
@@ -236,15 +231,14 @@ altae	a l͈ t e
 altram	a l͈ t r a m
 am	a m
 amail	a ṽ i lʲ
-amal	a ṽ a l
 amar	a ṽ a r
 amein	a ṽʲ e nʲ
 ammait	a m i dʲ
 ammus	a m u s
 amne	a ṽ nʲ e
 amrae	a ṽ r e
-anaid	a n i ðʲ
 and	a n͈ d
+anglan	a n ɣ l a n
 anim	a nʲ i m
 anim	a nʲ i ṽʲ
 anmain	a n m i nʲ
@@ -268,7 +262,6 @@ apid	a b i ðʲ
 apstal	a b s t a l
 ar	a r
 ara	a r a
-arachrin	a r a xʲ rʲ i nʲ
 aracotar	a r a k o d a r
 ararethi	a r a rʲ e θʲ i
 arbeir	a r bʲ e rʲ
@@ -278,18 +271,19 @@ ard	a r͈ d
 arda	a r͈ d a
 ardu	a r͈ d u
 arfen	a r fʲ e n
-argaib	a r ɡ a vʲ
 argat	a r ɡ a d
-armidethar	a r mʲ i ðʲ e θ a r
 arna	a r͈ n͈ a
 arnachcorathar	a r͈ n͈ a x ɡ o r a θ a r
 arnap	a r͈ n͈ a b
+arnatomnad	a r͈ n͈ aː t o ṽ n a ð
+arneat	a r n e ə d
 arpeti	a r pʲ e dʲ i
 arrad	a r͈ a ð
 arreith	a r r͈ʲ e θʲ
 arrosfí	a r͈ o s fʲ iː
 arrosfí	a r͈ o s vʲ iː
 arsaid	a r͈ s i ðʲ
+arse	a r͈ʲ sʲ e
 arsidetu	a r s i ðʲ e d u
 arsissedar	a r sʲ i sʲ ə ð ə r
 art	a r͈ t
@@ -311,7 +305,6 @@ asindet	a s i nʲ dʲ ə d
 asmbeir	a s mʲ bʲ e rʲ
 asruguset	a s r u ɣ u sʲ e d
 ass	a s
-assa	a s a
 assagúiset	a s a ɡ uː sʲ e d
 assagúsea	a s a ɡ uː sʲ a
 assu	a s u
@@ -363,12 +356,14 @@ badb	b a ð v
 baid	b a ðʲ
 baid	b a ə ðʲ
 baile	b a lʲ e
+bairgen	b a rʲ ɣʲ ə n
 balb	b a l v
 balba	b a l v a
 ball	b a l͈
 ban	b a n
 banb	b a n͈ v
 banscál	b a n s k aː l
+bar	v a r
 bard	b a r͈ d
 bardu	b a r͈ d u
 bas	b a s
@@ -385,13 +380,11 @@ beid	bʲ e ðʲ
 bein	bʲ e nʲ
 beir	bʲ e rʲ
 beires	bʲ e rʲ e s
-beirid	bʲ e rʲ i ðʲ
 beit	bʲ e dʲ
 beith	bʲ e θʲ
 bem	bʲ e ṽ
 bemmi	bʲ e mʲ i
 ben	bʲ e n
-benaid	bʲ e n i ðʲ
 benair	bʲ e n i rʲ
 bendacht	bʲ e n͈ d a x t
 benn	bʲ e n͈
@@ -436,12 +429,13 @@ bocht	b o x t
 bodar	b o ð a r
 boin	b o nʲ
 boinenn	b o nʲ e n͈
-boingid	b o ŋʲ ɡʲ i ðʲ
 boladmar	b o l a ð ṽ a r
 bolg	b o l ɡ
 bona	b o n a
+bongaid	b o ŋʲ ɡʲ i ðʲ
 borb	b o r b
 borba	b o r b a
+both	b o θ
 boí	b oː i̯
 brain	b r a nʲ
 bran	b r a n
@@ -488,6 +482,7 @@ bróc	b r oː ɡ
 brón	b r oː n
 brónach	b r oː n a x
 brúmar	b r uː ṽ a r
+buid	b u ðʲ
 buide	b u ðʲ e
 buiden	b u ðʲ e n
 buidi	b u ðʲ i
@@ -497,14 +492,12 @@ buinne	b u n͈ʲ e
 buirbe	b u rʲ bʲ e
 bun	b u n
 burb	b u r b
-báid	b aː ðʲ
 báidid	b aː ðʲ ə ðʲ
 bán	b aː n
 bána	b aː n a
 báo	b aː u̯
 bás	b aː s
 bé	bʲ eː
-béim	bʲ eː mʲ
 bél	bʲ eː l
 bélib	bʲ eː l i vʲ
 bélmar	bʲ eː l ṽ a r
@@ -519,7 +512,6 @@ bíad	bʲ iː a̯ ð
 bíada	bʲ iː a̯ ð a
 bíid	bʲ iː i ðʲ
 bís	bʲ iː s
-bíth	bʲ iː θʲ
 bíuu	bʲ iː u̯
 bó	b oː
 bú	b uː
@@ -539,8 +531,6 @@ caithig	k a θʲ i ɣʲ
 camm	k a m
 camma	k a m a
 cammu	k a m u
-canaid	k a n i ðʲ
-capall	k a p a l͈
 carad	k a r a ð
 carae	k a r e
 caraid	k a r i ðʲ
@@ -651,6 +641,7 @@ cit	kʲ i d
 ciúin	kʲ iː u̯ nʲ
 ciúine	kʲ iː u̯ nʲ e
 claidbiu	k l a ðʲ vʲ u
+claide	k l a ðʲ e
 claidib	k l a ðʲ i vʲ
 claidid	k l a ðʲ i ðʲ
 claidiub	k l a ðʲ u v
@@ -679,7 +670,6 @@ cobair	k o v ə rʲ
 cobais	k o v ə sʲ
 cobodlus	k o v o ð l u s
 cochall	k o x a l͈
-cocubus	k o ɡ u v u s
 coibnesta	k o vʲ nʲ e s t a
 coimded	k o ṽ ðʲ e ð
 coimdiu	k o ṽʲ ðʲ u
@@ -695,7 +685,6 @@ colmáin	k o l m aː nʲ
 colmán	k o l m aː n
 colnide	k o l͈ n͈ i ðʲ e
 columb	k o l u m b
-comalnad	k o ṽ a l͈ n͈ a ð
 comalnaithir	k o ṽ a l n i θʲ i rʲ
 comalnammar	k o ṽ a l n a m a r
 comalnit	k o ṽ a l n i dʲ
@@ -707,7 +696,6 @@ commant	k o m ə n͈ d
 comolnatar	k o ṽ o l n a d a r
 comsuidigthe	k o ṽ h u ðʲ i ɣʲ θʲ e
 comsuidigthi	k o ṽ h u ðʲ i ɣʲ θʲ i
-comsuidigud	k o ṽ h u ðʲ i ɣ u ð
 comthururas	k o ṽ θ u r u r a s
 comthururasib	k o ṽ θ u r u r a s i vʲ
 comét	k o ṽʲ eː d
@@ -749,7 +737,6 @@ corop	k o r o b
 corp	k o r p
 corruanat	k o r͈ u a n a d
 cos	k o s
-cosc	k o s k
 coscitir	k o sʲ kʲ i dʲ i rʲ
 coscur	k o s k u r
 cosmail	k o s ṽ i l
@@ -758,18 +745,16 @@ cossa	k o s a
 cotarsnatu	k o d a r s n͈ a d u
 cote	k o dʲ e
 coíca	k oː i̯ ɡ a
-coím	k oː i̯ v
-coím	k oː i̯ vʲ
-coínid	k o i̯ nʲ ə ðʲ
+coím	k oː i̯ ṽ
+coím	k oː i̯ ṽʲ
+coínid	k oː i̯ nʲ ə ðʲ
 coíniud	k o i̯ nʲ u ð
 creitem	kʲ rʲ e dʲ e ṽ
-creitid	kʲ rʲ e dʲ i ðʲ
 creitim	kʲ rʲ e dʲ i mʲ
 creitim	kʲ rʲ e dʲ i ṽʲ
 crenaid	kʲ rʲ e n i ðʲ
 cretim	kʲ rʲ e dʲ i mʲ
 cretim	kʲ rʲ e dʲ i ṽʲ
-cride	kʲ rʲ i ðʲ e
 cridi	kʲ rʲ i ðʲ e
 cridiu	kʲ rʲ i ðʲ u
 crith	kʲ r͈ʲ i θ
@@ -793,24 +778,21 @@ cuir	k u rʲ
 cuire	k u rʲ e
 cuirethar	k u rʲ e θ a r
 cuit	k u dʲ
-cullach	k u l͈ a x
 cum	k u ṽ
 cumachtach	k u ṽ a x t a x
 cumachtae	k u ṽ a x t e
 cumachtaig	k u ṽ a x t i ɣʲ
 cumgat	k u ṽ ɡ a d
-cummae	k u m e
+cummae	k u m b e
 cummatu	k u m a d u
 cummiscther	k u mʲ i sʲ kʲ θʲ e r
 cumscaigthetu	k u ṽ s k i ɣʲ θʲ e d u
 cumtach	k u ṽ d ə x
-cumung	k u ṽ u ŋ ɡ
 cách	k aː x
 cáech	k aː i̯ x
 cáel	k aː i̯ l
 cáel	k oː i̯ l
 cáelán	k aː i̯ l aː n
-cáera	k aː i̯ r a
 cáich	k aː xʲ
 cáin	k aː nʲ
 céile	kʲ eː lʲ e
@@ -818,10 +800,10 @@ céille	kʲ eː l͈ʲ e
 céimm	kʲ eː mʲ
 célide	kʲ eː lʲ i ðʲ e
 cér	kʲ eː r
-césaid	kʲ eː s i ðʲ
 céste	kʲ eː s t e
 cét	kʲ eː d
 cétal	kʲ eː t ə l
+cétaín	kʲ eː d a i̯ nʲ
 cétmad	kʲ eː d ṽ a ð
 cétnae	kʲ eː d n͈ e
 cétni	kʲ eː d n͈ i
@@ -837,6 +819,8 @@ cóemgen	k oː i̯ ṽ ɣʲ e n
 cói	k o i̯
 cóic	k oː ɡʲ
 cóiced	k oː ɡʲ e ð
+cóir	k o i rʲ
+cóir	k oː rʲ
 cú	k uː
 cúan	k uː a̯ n
 cúl	k uː l
@@ -857,6 +841,7 @@ dam	d a ṽ
 dama	d a ṽ a
 damán	d a ṽ aː n
 dano	d a n o
+dardaín	d a r d a i̯ nʲ
 darolgea	d a r o lʲ ɣʲ a
 dath	d a θ
 daum	d a u̯ ṽ
@@ -871,7 +856,6 @@ dechmad	dʲ e x ṽ a ð
 dechraigidir	dʲ e x r i ɣʲ i ðʲ i rʲ
 dechrigmir	dʲ e x r i ɣʲ mʲ i rʲ
 deich	dʲ e xʲ
-deidbir	dʲ e ðʲ vʲ i rʲ
 deired	dʲ e rʲ ə ð
 deiscipul	dʲ e sʲ kʲ i b u l
 deithbir	dʲ e θʲ vʲ i rʲ
@@ -883,7 +867,6 @@ denim	dʲ eː nʲ i mʲ
 deorad	dʲ eː u̯ r a ð
 derb	dʲ e r v
 derbráthair	dʲ e r b r aː θ i rʲ
-derbsiur	dʲ e rʲ vʲ fʲ i u r
 derc	dʲ e r k
 derg	dʲ e r ɡ
 dermat	dʲ e r m ə d
@@ -908,14 +891,13 @@ ditá	dʲ i t ɑː
 dliged	dʲ lʲ i ɣʲ e ð
 dligid	dʲ lʲ i ɣʲ i ðʲ
 dligud	dʲ lʲ i ɣ u ð
-do	d o
 doadbadar	d o a ð v a ð a r
 doadbit	d o a ð v i dʲ
 doaidlea	d o h a ðʲ l͈ʲ a
 doaig	d o a ɣʲ
 doairbertar	d o h a rʲ bʲ e r d a r
 doairbir	d o h a rʲ bʲ i rʲ
-doaurchain	d o œ r x ə nʲ
+doaurchain	d o h a u̯ r x ə nʲ
 dobeir	d o bʲ e rʲ
 doberam	d o bʲ e r a ṽ
 dobidci	d o bʲ i ð ɡʲ i
@@ -932,8 +914,7 @@ doe	d o e
 doeclainn	d o e ɡ l ə n͈ʲ
 doecmalla	d o e ɡ m ə l͈ a
 doeim	d o h e ṽʲ
-doesta	d o e s t a
-doetarrat	d o e d ə r͈ ə d
+doetarrat	d o h e d ə r͈ ə d
 doeth	d o h e θ
 dofich	d o fʲ i xʲ
 dofil	d o f i l
@@ -947,7 +928,6 @@ dogníat	d o ɡʲ nʲ iː a d
 dogníthe	d o ɡʲ nʲ iː θʲ e
 dogníu	d o ɡʲ nʲ iː u̯
 dogoa	d o ɡ o a
-doib	d o i vʲ
 doicc	d o hʲ i ɡʲ
 doinfet	d o i nʲ fʲ ə dʲ
 doinóla	d o i n oː l a
@@ -956,16 +936,13 @@ doirseo	d o r͈ʲ sʲ o
 dolega	d o l͈ʲ e ɣ a
 dolugai	d o l͈ u ɣ i
 dolugub	d o l͈ u ɣ u v
-doléici	d o l͈ʲ eː ɡʲ i
 dom	d o m
 dom	d o ṽ
 domeiccethar	d o mʲ e ɡʲ ə θ ə r
-domeil	d o mʲ e lʲ
 domnach	d o ṽ n ə x
 domnall	d o ṽ n a l͈
 domoiniur	d o m o nʲ u r
 domoiniur	d o m u nʲ u r
-domuinethar	d o m u nʲ e θ a r
 domun	d o ṽ u n
 domén	d o mʲ eː n
 don	d o n
@@ -979,10 +956,10 @@ dorata	d o r͈ a d a
 dorchacht	d o r x a x t
 dorchatas	d o r x ə d ə s
 dorigénsat	d o r͈ʲ i ɣʲ eː n s a d
+dorn	d o r n
 dorolgea	d o r͈ o lʲ ɣʲ a
-doruimnethar	d o r u mʲ nʲ ə θ ə r
+doruimnethar	d o r u ṽʲ nʲ ə θ ə r
 dorus	d o r u s
-doscara	d o s k a r a
 doslí	d o sʲ l͈ʲ iː
 dosom	d o s o m
 dothuit	d o t u tʲ
@@ -1001,13 +978,14 @@ druid	d r u i ðʲ
 druimm	d r u mʲ
 druí	d r uː i̯
 drécht	dʲ rʲ eː x t
+drúcht	d r uː x t
 duacair	d u h a ɡ ə rʲ
 duaisilbi	d u a sʲ i lʲ vʲ i
 dub	d u v
-dubach	d u v a x
 dubae	d u v e
 dugnéu	d u ɡʲ nʲ eː u̯
 dugní	d u ɡʲ nʲ iː
+dugníat	d u ɡʲ nʲ iː a d
 dugníth	d u ɡʲ nʲ iː θ
 dugníther	d u ɡʲ nʲ iː θʲ e r
 duine	d u nʲ e
@@ -1033,7 +1011,6 @@ détso	dʲ e t s o
 déu	dʲ eː u̯
 dí	dʲ iː
 día	dʲ iː a̯
-dían	dʲ iː ə n
 días	dʲ i a̯ s
 díbirciud	d iː v ə rʲ ɡʲ u d
 dídnad	d iː ð n ə ð
@@ -1066,7 +1043,6 @@ ecguisti	e ɡ u sʲ tʲ i
 ech	e x
 echlach	e x l a x
 echu	e x u
-eclais	e ɡ l i sʲ
 ed	e ð
 eich	e xʲ
 eiplet	e bʲ lʲ e d
@@ -1074,6 +1050,7 @@ eirbthi	e rʲ bʲ θʲ i
 ella	e lː a
 ellach	e l͈ a x
 ellug	e l͈ u ɣ
+encu	e n ɡ u
 engach	e ŋ ɡ a x
 eochaid	eː u̯ x i ðʲ
 epaid	œ b ə ðʲ
@@ -1115,6 +1092,7 @@ feidil	fʲ e ðʲ i lʲ
 feidm	fʲ e ðʲ mʲ
 feirg	fʲ e rʲ ɡʲ
 fel	fʲ e l
+felsub	fʲ e l s u v
 fer	fʲ e r
 feraid	fʲ e r i ðʲ
 fercaigidir	fʲ e r ɡ i ɣʲ i ðʲ i rʲ
@@ -1150,11 +1128,10 @@ fir	fʲ i rʲ
 firend	fʲ i rʲ e n͈
 firend	fʲ i rʲ e n͈ d
 firennach	fʲ i rʲ e n͈ a x
-fis	fʲ i s
-fis	fʲ i u̯ s
 fissi	fʲ i sʲ i
 fitir	fʲ i dʲ i rʲ
 fiur	fʲ i u r
+fius	fʲ i u̯ s
 flaith	f l a θʲ
 flaithius	f l a θʲ u s
 fled	fʲ lʲ e ð
@@ -1165,9 +1142,9 @@ focerdam	f o kʲ e r͈ d a ṽ
 focerdat	f o kʲ e r͈ d a d
 focerrad	f o kʲ e r͈ a ð
 focertar	f o kʲ e r d a r
+fochaidi	f o x ə ðʲ i
 focheirt	f o xʲ e r͈ʲ dʲ
 fochell	f o xʲ ə l͈
-fochid	f o x i ðʲ
 fochidi	f o x i ðʲ i
 fochidib	f o x i ðʲ i vʲ
 fochricc	f o x r ə ɡʲ
@@ -1181,7 +1158,6 @@ fodaimid	f o d a ṽʲ i ðʲ
 fodaraithminedar	f o d a r͈ a θʲ mʲ i nʲ e ð a r
 fodmat	f o ð ṽ a d
 fogaib	f o ɡ a vʲ
-fogur	f o ɣ u r
 foillsigthir	f o l͈ sʲ i ɣʲ θʲ i rʲ
 foilsigdde	f o l͈ʲ sʲ i ɣʲ dʲ e
 foilsigedar	f o l͈ sʲ i ɣʲ e ð a r
@@ -1199,11 +1175,9 @@ folt	f o l͈ t
 fon	f o n
 fonn	f o n͈
 for	f o r
-fora	f o r a
 foraib	f o r i vʲ
 foraithminedar	f o r a θʲ mʲ i nʲ e ð a r
 forc	f o r k
-forcain	f o r k a nʲ
 forcanat	f o r k a n a d
 forcell	f o rʲ ɡʲ e l͈
 forcenna	f o r kʲ e n͈ a
@@ -1221,6 +1195,7 @@ fortachtaigid	f o r͈ t a x t i ɣʲ i ðʲ
 fortchide	f o r͈ʲ tʲ xʲ i ðʲ e
 fortgide	f o r͈ʲ tʲ ɣʲ i ðʲ e
 fortgidiu	f o r͈ʲ tʲ ɣʲ i ðʲ u
+forus	f o r u s
 forálaig	f o r͈ aː l i ɣʲ
 fosisedar	f o s i sʲ ə ð ə r
 fota	f o d a
@@ -1233,13 +1208,13 @@ frecndairc	fʲ rʲ e k n͈ d i rʲ kʲ
 frecor	fʲ rʲ e ɡ u r
 frecrae	fʲ rʲ e ɡ r e
 frepaid	fʲ rʲ e b ə ðʲ
-frescisiu	fʲ r͈ʲ e sʲ kʲ ə sʲ u
+frescisiu	fʲ rʲ e sʲ kʲ ə sʲ u
 fri	fʲ rʲ i
 fris	fʲ rʲ i sʲ
-frisben	fʲ rʲ i s bʲ e n
 frisbrudi	fʲ rʲ i s b r u ðʲ i
 frisgair	fʲ rʲ i s ɡ a rʲ
 friu	fʲ rʲ i u̯
+friumm	fʲ rʲ i u̯ m
 friusom	fʲ rʲ i u̯ s o m
 frém	fʲ rʲ eː ṽ
 fuar	f u ə r
@@ -1265,7 +1240,6 @@ fén	fʲ eː n
 fér	fʲ eː r
 fés	fʲ eː s
 fíacail	fʲ iː a̯ k i lʲ
-fíad	fʲ iː a̯ ð
 fíada	fʲ i a̯ ð a
 fíadach	fʲ iː a̯ ð a x
 fíado	fʲ i a̯ ð o
@@ -1276,9 +1250,8 @@ fír	fʲ iː r
 fír	fʲ iː rʲ
 fíre	fʲ iː rʲ e
 fírinne	fʲ iː rʲ i n͈ʲ e
-fírián	fʲ iː rʲ i aː n
-fíriánaigidir	fʲ iː rʲ i aː n i ɣʲ i ðʲ i rʲ
-fíriánigedar	fʲ iː r i aː n i ɣʲ e ð a r
+fíríanaigidir	fʲ iː rʲ i̺̯ n i ɣʲ i ðʲ i rʲ
+fíríanigedar	fʲ iː r iː a̯ n i ɣʲ e ð a r
 fíu	fʲ iː u̯
 gabor	ɡ a v o r
 gabul	ɡ a v u l
@@ -1300,7 +1273,6 @@ gelid	ɡʲ e lʲ ə ð
 gell	ɡʲ e l͈
 gellach	ɡʲ e l͈ a x
 gen	ɡʲ e n
-genti	ɡʲ e n͈ʲ tʲ i
 gessi	ɡʲ e sʲ i
 gil	ɡʲ i lʲ
 gile	ɡʲ i lʲ e
@@ -1309,7 +1281,7 @@ gilu	ɡʲ i l u
 glan	ɡ l a n
 glas	ɡ l a s
 gleinn	ɡʲ lʲ e n͈ʲ
-glenaid	ɡʲ l͈ʲ e n ə ðʲ
+glenaid	ɡʲ lʲ e n ə ðʲ
 glenn	ɡʲ lʲ e n͈
 glenn	ɡʲ lʲ e n͈ʲ
 glicc	ɡʲ lʲ i kʲ
@@ -1340,10 +1312,9 @@ gréine	ɡʲ rʲ eː nʲ e
 grían	ɡʲ rʲ iː a̯ n
 gríanach	ɡʲ rʲ iː a̯ n a x
 guid	ɡ u ðʲ
-guide	ɡ u ðʲ e
 guidi	ɡ u ðʲ i
-guidid	ɡ u ðʲ i ðʲ
 guin	ɡ u nʲ
+guth	ɡ ʊ θ
 gáeth	ɡ aː i̯ θ
 gáethach	ɡ aː i̯ θ a x
 gé	ɡʲ eː
@@ -1389,7 +1360,7 @@ immidfolngi	i mʲ i ðʲ o l ŋ i
 immráidi	i mʲ r͈ aː ð i
 immtét	i mʲ tʲ eː dʲ
 immurgu	i m u r ɣ u
-imned	i mʲ nʲ e ð
+imned	i mʲ nʲ ə ð
 impúd	i m p uː ð
 imrádud	i mʲ r aː ð u ð
 ind	i n͈ d
@@ -1398,7 +1369,6 @@ indala	i n͈ d a l a
 indarbanar	i n͈ d a r b a n a r
 indbadaigid	i n͈ d v a ð i ɣʲ i ðʲ
 indbadigthi	i n͈ d v a ð i ɣʲ θʲ i
-indeb	i n͈ʲ dʲ e v
 indi	i n͈ʲ dʲ i
 indidit	i n͈ʲ dʲ i ðʲ i dʲ
 indocbál	i n͈ d o ɡ v aː l
@@ -1411,19 +1381,17 @@ ingen	i nʲ ɣʲ e n
 ingen	i ŋʲ ɡʲ e n
 ingenrad	i nʲ ɣʲ e n r a ð
 ingnae	i ŋ ɣ n e
-ingreimm	i nʲ ɣʲ rʲ e mʲ
 inloing	i n͈ l͈ o ŋʲ ɡʲ
 innahí	i n͈ a h iː
 innocht	i n͈ o x t
 insamlathar	i n s a ṽ l a θ a r
-inse	i n͈ s e
-inse	i n͈ʲ sʲ e
+intamail	i n t ə ṽ ə lʲ
 intamlid	i n͈ t a ṽ l i ðʲ
 intinn	i n͈ʲ tʲ i n͈ʲ
 intled	i n͈ʲ tʲ lʲ e ð
 intleda	i n͈ʲ tʲ lʲ e ð a
 intí	i n͈ʲ tʲ iː
-intísiu	i n͈ʲ tʲ iː sʲ i u̯
+intísin	i n͈ʲ tʲ iː sʲ i nʲ
 inunn	i n u n͈
 irbág	i r v aː ɣ
 irbága	i r v aː ɣ a
@@ -1432,7 +1400,6 @@ iris	i rʲ i sʲ
 irlam	œ r l͈ ə ṽ
 irlamu	i r l͈ a ṽ u
 isin	i s i n
-isind	i s i n͈ d
 isindí	i sʲ i n͈ dʲ iː
 it	i d
 it	i t
@@ -1458,6 +1425,7 @@ laigin	l͈ a ɣʲ i nʲ
 lasar	l͈ a s a r
 lat	l a t
 laí	l͈ aː i̯
+laíches	l͈ aː i̯ xʲ ə s
 lebor	l͈ʲ e v ə r
 lega	l͈ʲ e ɣ a
 legad	l͈ʲ e ɣ a ð
@@ -1466,6 +1434,7 @@ legar	l͈ʲ e ɣ a r
 legas	l͈ e ɣ a s
 leith	l͈ʲ e θʲ
 leithe	l͈ʲ e θʲ e
+lemm	lʲ e mʲ
 lenamain	l͈ʲ e n ə ṽ ə nʲ
 leosom	lʲ e u̯ s o m
 lepaid	l͈ʲ e b i ðʲ
@@ -1473,9 +1442,8 @@ ler	l͈ʲ e r
 les	lʲ e sʲ
 leth	l͈ʲ e θ
 lethan	l͈ʲ e θ a n
-lethar	l͈ʲ e θ a r
-leu	lʲ e u̯
 leusom	lʲ e u̯ s o m
+lia	l͈ʲ i a
 liacc	l͈ʲ i a ɡ
 liae	l͈ʲ i e
 lib	lʲ i vʲ
@@ -1485,6 +1453,7 @@ lige	l͈ʲ i ɣʲ e
 ligid	l͈ʲ i ɣʲ ə ð
 ligiu	l͈ʲ i ɣʲ u
 lim	lʲ i mʲ
+limm	lʲ i mʲ
 lingid	l͈ʲ i ŋʲ ɡʲ i ðʲ
 linn	l͈ʲ i n͈ʲ
 liter	l͈ʲ i tʲ e r
@@ -1513,10 +1482,9 @@ lugu	l͈ u ɣ u
 luid	l͈ u ðʲ
 luide	l͈ u ðʲ e
 lus	l͈ u s
-lá	l͈ aː
+lá	l͈ aː e
 láech	l͈ aː i̯ x
 láib	l͈ aː vʲ
-láiches	l͈ aː i̯ xʲ ə s
 láine	l͈ aː nʲ e
 láitir	l͈ aː dʲ i rʲ
 lám	l͈ aː ṽ
@@ -1537,22 +1505,17 @@ líach	l͈ʲ iː a̯ x
 líaig	l͈ʲ i a̯ ɣʲ
 líath	l͈ʲ iː a̯ θ
 líathrit	l͈ʲ iː a̯ θ r i ðʲ
-lín	l͈ʲ iː n
-lín	l͈ʲ iː nʲ
 líth	l͈ʲ iː θ
 líthu	l͈ʲ iː θ u
 lóchet	l oː xʲ ə d
-lóeg	l͈ oː i̯ ɣ
 lóg	l͈ oː ɣ
 lúas	l͈ uː a̯ s
 lúath	l͈ uː a̯ θ
 m'	m
 m'	mʲ
 macc	m a k
-maccidóndu	m a kʲ i ð oː n͈ d u
 maccu	m a k u
 machae	m a x e
-machdad	m a x ð a ð
 machthad	m a x θ a ð
 macthae	m a k θ e
 macthi	m a k θ i
@@ -1563,6 +1526,7 @@ magistru	m a ɣʲ i s t r u
 maicc	m a kʲ
 maid	m a ðʲ
 maidid	m a ðʲ i ðʲ
+maidm	m a ðʲ mʲ
 maig	m a ɣʲ
 maisse	m a sʲ e
 maissi	m a sʲ i
@@ -1577,7 +1541,6 @@ mani	m a nʲ i
 manid	m a nʲ i ðʲ
 maraid	m a r ə ðʲ
 marb	m a r v
-marbaid	m a r v i ðʲ
 marc	m a r k
 marcach	m a r k a x
 margad	m a r ɡ a ð
@@ -1600,12 +1563,9 @@ mbí	mʲ bʲ iː
 mbíth	mʲ bʲ iː θʲ
 mebuir	mʲ e ṽ u rʲ
 medc	mʲ e ð ɡ
+medón	mʲ e ð oː n
 meirle	mʲ e r lʲ e
 menmae	mʲ e n m e
-mescae	mʲ e s k e
-mescaid	mʲ e s k i ðʲ
-mescc	mʲ e s k
-mesctha	mʲ e s k θ a
 messe	mʲ e sʲ e
 metrapoil	mʲ e t r a p o lʲ
 mide	mʲ i ðʲ e
@@ -1643,7 +1603,6 @@ muccaidecht	m u k i ðʲ e x t
 muccfoil	m u k o lʲ
 mug	m u ɣ
 muilt	m u l͈ʲ tʲ
-muinethar	m u nʲ e θ a r
 muinter	m u n͈ʲ tʲ e r
 muinteras	m u n͈ʲ tʲ e r a s
 muintir	m u n͈ʲ tʲ i rʲ
@@ -1658,7 +1617,7 @@ mára	m aː r a
 máthar	m aː θ a r
 máthir	m aː θ i rʲ
 mé	mʲ eː
-méine	mʲ eː nʲ e
+méin	mʲ eː nʲ
 méit	mʲ eː dʲ
 mér	mʲ eː r
 mí	mʲ iː
@@ -1676,12 +1635,14 @@ móir	m oː rʲ
 móire	m oː rʲ e
 mór	m oː r
 móra	m oː r a
+móu	m oː u̯
 múinid	m uː nʲ i ðʲ
 mún	m uː n
 múnigid	m uː nʲ i ɣʲ i ðʲ
 múr	m uː r
 na	n͈ a
 na	n͈ aː
+nacc	n a k
 nach	n͈ a x
 nachamindarbanar	n͈ a x a ṽ i n͈ d a r v a n a r
 nachibberar	n͈ a x i vʲ bʲ e r a r
@@ -1696,6 +1657,7 @@ ndea	n͈ʲ dʲ e a
 ndig	n͈ʲ dʲ i ɣʲ
 ndodcadchai	n͈ d o ð ɡ a ð x i
 ndoirse	n͈ d o r͈ʲ sʲ e
+ndu	n͈ d u
 ndugníther	n͈ d u ɡʲ nʲ iː θʲ e r
 nduit	n͈ d u tʲ
 ndé	n͈ʲ dʲ eː
@@ -1712,8 +1674,6 @@ neutur	n͈ʲ eː u̯ d u r
 nglas	ŋ ɡ l a s
 ngrád	ŋ ɡ r aː ð
 nia	n͈ʲ i a
-niba	n͈ʲ i v a
-nigid	n͈ʲ i ɣʲ ə ðʲ
 nim	n͈ʲ i ṽʲ
 nime	n͈ʲ i ṽʲ e
 nini	n͈ʲ i n͈ʲ i
@@ -1738,6 +1698,7 @@ noíb	n͈ oː i̯ v
 noíb	n͈ oː i̯ vʲ
 noídenacht	n͈ oː i̯ ðʲ e n a x t
 noídiu	n͈ oː i̯ ð i u̯
+nuae	n u e
 nudubfeil	n͈ u d u v fʲ e lʲ
 ná	n͈ aː
 nách	n͈ aː x
@@ -1747,6 +1708,7 @@ náire	n͈ aː rʲ e
 námae	n͈ aː ṽ e
 nél	n͈ʲ eː l
 ní	n͈ʲ iː
+níba	n͈ʲ iː v a
 níbo	n͈ʲ iː b o
 níbu	n͈ʲ iː b u
 nícon	n͈ʲ i k o n
@@ -1757,7 +1719,6 @@ níssu	n͈ʲ iː s u
 nísu	n͈ʲ iː s u
 níta	n͈ʲ iː d a
 nó	n͈ oː
-núa	n͈ uː a̯
 núall	n͈ uː a̯ l͈
 oc	o ɡ
 occo	o ɡ o
@@ -1771,12 +1732,10 @@ olc	o l k
 olchenae	o l xʲ e n e
 oldaas	o l d a a s
 oll	o l͈
-olla	o l͈ a
 ollam	o l͈ a ṽ
 opar	o b a r
 orbbae	o r b e
 orc	o r k
-orcaid	o r ɡ i ðʲ
 orcun	o r ɡ u n
 othar	o θ a r
 oí	oː i̯
@@ -1785,8 +1744,8 @@ oíngus	oː i̯ n ɣ u s
 oínur	oː i̯ n u r
 oítiu	o i̯ tʲ u
 paiter	p a dʲ e r
-peccad	pʲ e k a ð
 pecthae	pʲ e k θ e
+pecthaig	pʲ e k θ ə ɣʲ
 persan	pʲ e r͈ s a n
 persin	pʲ e r͈ s i nʲ
 petur	pʲ e d u r
@@ -1795,7 +1754,6 @@ phóca	f oː ɡ a
 precept	pʲ rʲ e ɡʲ e p t
 precepte	pʲ rʲ e ɡʲ e pʲ tʲ e
 pridcha	pʲ rʲ i ð x a
-pridchaid	pʲ rʲ i ð x i ðʲ
 pridches	pʲ rʲ i ðʲ xʲ e s
 pridchim	pʲ rʲ i ð x i mʲ
 pridchimme	pʲ rʲ i ð x i mʲ e
@@ -1817,7 +1775,6 @@ reg	r͈ʲ e ɣ
 rega	r͈ʲ e ɣ a
 regad	r͈ʲ e ɣ a ð
 regam	r͈ʲ e ɣ a ṽ
-regas	r͈ʲ e ɣ a s
 regat	r͈ʲ e ɣ a d
 rehenaus	r͈ a h e n ə s
 reithe	r͈ʲ e θʲ e
@@ -1830,7 +1787,6 @@ rig	r͈ʲ i ɣ
 riga	r͈ʲ i ɣ a
 rige	r͈ʲ i ɣʲ e
 roadamrigther	r͈ o a ð a ṽ r i ɣʲ θʲ e r
-robad	r o v a ð
 robartae	r͈ o v ə r t e
 robat	r o v a d
 robatar	r o b aː d a r
@@ -1843,7 +1799,6 @@ robá	r o b aː
 robátar	r o b aː d a r
 robí	r͈ o bʲ iː
 rocluinemmar	r o k l u nʲ e m a r
-rocluinethar	r o k l u nʲ e θ a r
 rocoiscset	r o k o sʲ kʲ sʲ e d
 rofinnadar	r͈ o fʲ i n͈ a ð a r
 rofoilsigsetar	r͈ o f o l͈ʲ sʲ i ɣʲ sʲ e d a r
@@ -1876,14 +1831,14 @@ rétglu	r͈ eː d ɣ l u
 rétu	r͈ʲ eː d u
 réud	r͈ʲ eː u̯ ð
 rí	r͈ʲ iː
+rían	r͈ʲ iː a̯ n
 ríar	r͈ʲ iː a̯ r
 ríchtu	r͈ʲ iː x t u
 ríctar	r͈ʲ iː k d a r
 ríg	r͈ iː ɣ
 ríg	r͈ iː ɣʲ
 rígdae	r͈ʲ iː ɣ ð e
-rím	r͈ʲ iː ṽ
-rímid	r͈ʲ iː ṽ i ðʲ
+róe	r͈ oː i̯
 róm	r͈ oː ṽ
 rót	r͈ oː d
 rúad	r͈ uː a̯ ð
@@ -1893,7 +1848,6 @@ rúnde	r͈ uː n͈ d e
 rúsc	r uː s k
 sabbait	s a b aː dʲ
 sabbait	s a b i dʲ
-sacart	s a ɡ a r͈ t
 saidid	s a ðʲ i ðʲ
 saiget	s a ɣʲ ə d
 saigid	s a ɣʲ ə ðʲ
@@ -1903,16 +1857,12 @@ salach	s a l ə x
 salainn	s a l i n͈ʲ
 salann	s a l a n͈
 sam	s a ṽ
-samail	s a ṽ i lʲ
 samailter	s a ṽ i l͈ʲ tʲ e r
 samain	s a ṽ i nʲ
 samaltar	s a ṽ a l͈ t a r
-samlaid	s a ṽ l i ðʲ
-samlaidir	s a ṽ l i ðʲ i rʲ
 samrad	s a ṽ r a ð
 saír	s aː i̯ rʲ
 saíre	s a i̯ rʲ e
-saíthar	s aː i̯ θ a r
 scarinn	s k a r i n͈ʲ
 sceid	sʲ kʲ e i ðʲ
 sceith	sʲ kʲ e θʲ
@@ -1926,7 +1876,6 @@ scél	sʲ kʲ eː l
 sebac	sʲ e v a k
 sech	sʲ e x
 sechmaill	sʲ e x m i l͈ʲ
-sechmall	sʲ e x m a l͈
 secht	sʲ e x t
 seichem	sʲ e xʲ e ṽ
 seichithir	sʲ e xʲ i θʲ i rʲ
@@ -1959,14 +1908,10 @@ siu	sʲ i u̯
 siur	sʲ i u r
 slaidid	s l͈ a ðʲ i ðʲ
 slicht	sʲ l͈ʲ i x t
-slis	sʲ l͈ʲ i s
-slis	sʲ l͈ʲ i sʲ
-slisne	sʲ l͈ʲ i sʲ n͈ⁿ e
 slucait	s l͈ u ɡ ə dʲ
 sluindid	s l͈ u n͈ʲ dʲ ə ðʲ
 sláinte	s l͈ aː n͈ʲ tʲ ə
 slán	s l͈ aː n
-slíab	sʲ l͈ʲ iː a̯ v
 slóg	s l͈ oː ɣ
 slógu	s l͈ oː ɣ u
 slóig	s l͈ oː ɣʲ
@@ -1979,7 +1924,7 @@ snigid	sʲ n͈ʲ i ɣʲ i ðʲ
 snisni	sʲ n͈ʲ i sʲ n͈ʲ i
 sní	sʲ n͈ʲ iː
 so	s o
-socamail	s o k a ṽ a lʲ
+sochuide	s o x u ðʲ e
 sodain	s o ð i nʲ
 soilse	s o l͈ʲ sʲ e
 soiscélae	s o sʲ kʲ eː l e
@@ -2051,11 +1996,11 @@ tart	t a r͈ t
 tarta	t a r͈ d a
 tarta	t a r͈ t a
 taís	t a i̯ s
+taít	t aː i̯ d
 taít	t aː i̯ dʲ
 tech	tʲ e x
 techt	tʲ e x t
 techtai	tʲ e x t i
-techtaid	tʲ e x t i ðʲ
 teg	tʲ e ɣ
 tegdais	tʲ e ɣ ð ə sʲ
 teglach	tʲ e ɣ l a x
@@ -2103,10 +2048,10 @@ toil	t o lʲ
 toirsech	t o r͈ʲ sʲ e x
 tol	t o l
 tolg	t o l ɡ
+tomnad	t o ṽ n a ð
 tomus	t o ṽ u s
 tonn	t o n͈
 topar	t o b a r
-torad	t o r a ð
 torbae	t o r v e
 torc	t o r k
 torrach	t o r͈ a x
@@ -2116,11 +2061,9 @@ toschith	t o sʲ xʲ i θʲ
 tost	t o s t
 tosuch	t o s u x
 toísech	t oː i̯ sʲ ə x
-toísegu	t oː i̯ sʲ e ɣ u
 toísig	t oː i̯ sʲ i ɣʲ
 tracht	t r a x t
 traig	t r a ɣʲ
-tre	tʲ rʲ e
 tris	tʲ rʲ i s
 trisgata	t r͈ i s ɡ a d a
 triunni	tʲ rʲ i u̯ n͈ʲ i
@@ -2147,7 +2090,6 @@ táncatar	t aː ŋ ɡ a d a r
 té	tʲ eː
 téchtae	tʲ eː x t e
 téchtu	tʲ eː x t u
-téiged	tʲ eː ɣʲ e ð
 téis	tʲ eː sʲ
 téit	tʲ eː dʲ
 téite	tʲ eː dʲ e
@@ -2178,13 +2120,12 @@ uinnius	u n͈ʲ u s
 uisce	u sʲ kʲ e
 uisse	u sʲ e
 ulad	u l a ð
-ulaid	u l i ðʲ
-ulaith	u l i θʲ
 ulath	u l a θ
 ulod	u l o ð
 uloth	u l o θ
 ultaib	u l͈ d i vʲ
 ultu	u l͈ t u
+umae	u ṽ e
 umal	u ṽ a l
 ungae	u ŋ ɡ e
 uraid	u r ə ðʲ
@@ -2222,7 +2163,6 @@ uraid	u r ə ðʲ
 écsamail	eː ɡ s a ṽ i lʲ
 égept	eː ɣʲ e f t
 égept	eː ɣʲ e p t
-éicen	eː ɡʲ e n
 éis	eː sʲ
 éisi	eː sʲ i
 élud	eː l u ð
@@ -2260,7 +2200,6 @@ uraid	u r ə ðʲ
 íasc	iː a̯ s k
 ícc	iː k
 ícc	iː kʲ
-íccaid	iː k i ðʲ
 ímáig	iː ṽ aː ɣʲ
 ís	iː s
 ísel	iː sʲ e l
@@ -2274,7 +2213,7 @@ uraid	u r ə ðʲ
 óenmad	oː i̯ n ṽ a ð
 óentu	oː i̯ n͈ t u
 ól	oː l
-ón	oː n
+ómun	oː ṽ u n
 úadisi	uː a̯ dʲ i sʲ i
 úair	uː a̯ rʲ
 úait	uː a̯ tʲ
@@ -2283,7 +2222,6 @@ uraid	u r ə ðʲ
 úas	uː a̯ s
 úasal	uː a̯ s a l
 úath	uː a̯ θ
-úathbás	uː a̯ θ v aː s
 úathmar	uː a̯ θ ṽ a r
 ɔidrofoilsigsetar	k o nʲ i ð r o f o l͈ sʲ i ɣʲ sʲ e d a r
 ɔrabad	k o r͈ a v a ð

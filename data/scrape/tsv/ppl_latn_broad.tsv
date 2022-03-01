@@ -1,21 +1,40 @@
 achtu	a t͡ʃ t u
-ajku	a h k u
+acoat	a k u a t
+acoat	a k u w a t
+acoat	a ɡ u a t
+acoat	a ɡ u w a t
+acoyot	a k u j u t
+acoyot	a ɡ u j u t
+ahat	a h a t
+ahco	a h k u
+ahuacat	a w a k a t
+ahuacat	a w a ɡ a t
+ajshitia	a h ʃ i t i a
 ajsi	a h s i
+ajwi	a h w i
 ajwiak	a h w i j a k
-akuyut	aː k u j uː t
-akuyut	aː ɣ u j uː t
-amat	aː m a t
+ajwilia	a h w i l i a
+amat	a m a t
 anmejemet	a n m e h e m e t
-apan	aː p a ŋ
+apan	a p a ŋ
 ashan	a ʃ a ŋ
 ashan	aː ʃ aː ŋ
 ashnuj	a ʃ n u h
-at	aː t
-awakat	a w a k a t
-awakat	aː w a k a t
-awakat	aː w a ɣ a t
-ayutuch	aː j uː t u t͡ʃ
-ayutzin	aː j uː t͡s i ŋ
+at	a t
+axnoh	a ʃ n u h
+ayotoch	a j u t u t͡ʃ
+ayotzin	a j u t͡s i ŋ
+cahuayoh	k a w a j u h
+cal	k a l
+cal	k a ɬ
+cal	k a ɬʲ
+cal	k aː l
+cal	ɡ a l
+calat	k a l a t
+caltapach	k a l t a p a t͡ʃ
+caltapach	ɡ a l t a p a t͡ʃ
+canauhti	k a n a w t i
+caztiyah	k a s t i j a h
 cha	t͡ʃ a
 chan	t͡ʃ a ŋ
 chiknawi	t͡ʃ i k n aː w i
@@ -24,62 +43,41 @@ chikwasen	t͡ʃ i kʷ a s eː ŋ
 chikwey	t͡ʃ i kʷ eː j
 chil	t͡ʃ i l
 chil	t͡ʃ i ɬ
-chil	t͡ʃ iː l
 chiltik	t͡ʃ i l t i k
 chiltik	t͡ʃ iː l t i k
 chiltik	t͡ʃ iː ɬ t i k
 chiwa	t͡ʃ i w a
-ejekat	a h a k a t
-ejekat	e h e k a t
-ejekat	e h e ɣ a t
-ejekat	e h eː k a t
-elut	e l u t
-elut	e lʲ u t
-elut	e ɬ u t
-elut	eː l u t
+coat	k u w a t
+coat	kʷ a t
+coat	ɡ u w a t
+coque	k u k e
+coque	ɡ u ɣ e
+coquetzpal	k u k e t͡s p a l
+coquetzpal	k uː ɣ e t͡s p a ɬ
+ehecat	e h e k a t
+ehecat	e h e ɡ a t
+elot	e l u t
+elot	e lʲ u t
+elot	e ɬ u t
 epat	e p a t
 et	e t
-et	eː t
+ezti	e s t i
 ijpak	i h p a k
 ilwia	i l w i j a
 ina	iː n a
 inte	i n t eː
 ipan	i p a ŋ
-ish	i ʃ
-ish	iː ʃ
 ishpan	iː ʃ p a ŋ
-ita	i t a
-ita	i ð a
 itan	i t a ŋ
+itta	i t a
+itta	i ð a
+ix	i ʃ
+kajkawa	k a h k a w a
 kakawani	k a k a w a n i
 kakawani	ɡ a ɣ a w a n i
-kal	k a l
-kal	k a ɬ
-kal	k a ɬʲ
-kal	k aː l
-kal	ɡ a l
-kalat	k aː l a t
-kaltapach	k a l t a p a t͡ʃ
-kaltapach	ɡ a l t a p a t͡ʃ
-kanawti	k a n a w t i
 kashtul	k a ʃ t u l
-kastiaj	k a s t i j a h
-kawayu	k aː w a j u h
 ketza	k e t͡s a
 ketza	ɣ e t͡s a
-kimichin	k i m i t͡ʃ i ŋ
-kimichin	ɡ i m i t͡ʃ i ŋ
-kinia	k i n i j a h
-kinia	ɡ i n i j a h
-kuat	k u w a t
-kuat	k uː w a t
-kuat	kʷ a t
-kuat	ɡ uː w a t
-kuke	k u k e
-kuke	k uː k e
-kuke	ɡ uː ɣ e
-kuketzpal	k uː k e t͡s p a l
-kuketzpal	k uː ɣ e t͡s p a ɬ
 kulut	k uː l u t
 kulut	ɡ uː l u t
 kumit	k u m i t
@@ -117,6 +115,7 @@ mekat	m e k a t
 mekat	m e ɣ a t
 meshijku	m eː ʃ i h k u
 metzti	m eː t͡s t i
+mewa	m e w a
 mey	m e j
 mey	m eː j
 michin	m i t͡ʃ i ŋ
@@ -131,6 +130,7 @@ mulkit	m u l k i t
 mulkit	m u l k iː t
 musta	m u s t a
 musta	m uː s t a
+muta	m u t a
 mututzin	m u t u h t͡s i ŋ
 mututzin	m u t u t s i ŋ
 mututzin	m u t u t͡s i ŋ
@@ -160,9 +160,13 @@ pelua	p eː l u w a
 petzut	p e s u t
 petzut	p eː t͡s u t
 pewa	p eː w a
-pia	p i j a
-pia	p j a
+piya	p i j a
+piya	p j a
 pula	p u l a
+quimichin	k i m i t͡ʃ i ŋ
+quimichin	ɡ i m i t͡ʃ i ŋ
+quiniyah	k i n i j a h
+quiniyah	ɡ i n i j a h
 se	s eː
 senpual	s eː m p u w a l
 seujti	s i j u h t i
@@ -177,13 +181,11 @@ sital	s iː t a l
 siwat	s i w aː t
 siwatket	s i w aː t k e t
 sulin	s uː l i ŋ
+tacat	t a k a t
+tacat	t a ɣ a t
 taja	t a h a
 tajku	t a h k u
 takamet	t aː ɣ a m e t
-takat	t a k a t
-takat	t a ɣ a t
-takat	t aː k a t
-takat	t aː ɣ a t
 taketza	t a k e t͡s a
 taketza	t a ɣ e t͡s a
 takwal	t a kʷ a l
@@ -195,9 +197,10 @@ taltusan	t aː l t uː s a ŋ
 tamal	t a m a l
 tamal	t a m a ɬ
 tamal	t aː m a l
+tamewal	t a m e w a l
 tami	t a m i
 tapua	t a p u w a
-tapui	t a p u w i
+tapuwi	t a p u w i
 tashkal	t a ʃ k a l
 tashkal	t a ʃ k a lʲ
 tawial	t a w i j a l

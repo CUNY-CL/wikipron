@@ -3,7 +3,11 @@
         "iso639_name": "Abkhazian",
         "wiktionary_name": "Abkhaz",
         "wiktionary_code": "ab",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic"
+        }
     },
     "ady": {
         "iso639_name": "Adygei; Adyghe",
@@ -36,7 +40,12 @@
         "iso639_name": "Ainu (Japan)",
         "wiktionary_name": "Ainu",
         "wiktionary_code": "ain",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "kana": "Katakana",
+            "cyrl": "Cyrillic"
+        }
     },
     "akk": {
         "iso639_name": "Akkadian",
@@ -80,7 +89,10 @@
         "iso639_name": "Alutor",
         "wiktionary_name": "Alutor",
         "wiktionary_code": "alr",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "amh": {
         "iso639_name": "Amharic",
@@ -106,7 +118,8 @@
         "wiktionary_code": "ar",
         "casefold": false,
         "script": {
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "syrc": "Syriac"
         }
     },
     "arc": {
@@ -178,7 +191,8 @@
         "casefold": true,
         "script": {
             "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
         }
     },
     "bdq": {
@@ -288,7 +302,8 @@
         "wiktionary_code": "my",
         "casefold": false,
         "script": {
-            "mymr": "Myanmar"
+            "mymr": "Myanmar",
+            "latn": "Latin"
         }
     },
     "yue": {
@@ -344,7 +359,11 @@
         "iso639_name": "Central Kurdish",
         "wiktionary_name": "Central Kurdish",
         "wiktionary_code": "ckb",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "arab": "Arabic",
+            "latn": "Latin"
+        }
     },
     "nhn": {
         "iso639_name": "Central Nahuatl",
@@ -359,7 +378,12 @@
         "iso639_name": "Chechen",
         "wiktionary_name": "Chechen",
         "wiktionary_code": "ce",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
+        }
     },
     "chb": {
         "iso639_name": "Chibcha",
@@ -413,7 +437,8 @@
         "wiktionary_code": "syc",
         "casefold": false,
         "script": {
-            "syrc": "Syriac"
+            "syrc": "Syriac",
+            "hebr": "Hebrew"
         }
     },
     "cop": {
@@ -477,7 +502,8 @@
         "casefold": false,
         "script": {
             "thaa": "Thaana",
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "arab": "Arabic"
         }
     },
     "sce": {
@@ -548,7 +574,10 @@
         "iso639_name": "Emilian",
         "wiktionary_name": "Emilian",
         "wiktionary_code": "egl",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "eng": {
         "iso639_name": "English",
@@ -700,7 +729,8 @@
         "casefold": false,
         "script": {
             "gujr": "Gujarati",
-            "sinh": "Sinhala"
+            "sinh": "Sinhala",
+            "arab": "Arabic"
         }
     },
     "afb": {
@@ -876,7 +906,8 @@
         "casefold": false,
         "script": {
             "hira": "Hiragana",
-            "kana": "Katakana"
+            "kana": "Katakana",
+            "hani": "Han"
         }
     },
     "jje": {
@@ -892,7 +923,10 @@
         "iso639_name": "K'iche'",
         "wiktionary_name": "K'iche'",
         "wiktionary_code": "quc",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "kbd": {
         "iso639_name": "Kabardian",
@@ -949,7 +983,8 @@
         "casefold": true,
         "script": {
             "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
         }
     },
     "khm": {
@@ -958,7 +993,8 @@
         "wiktionary_code": "km",
         "casefold": false,
         "script": {
-            "khmr": "Khmer"
+            "khmr": "Khmer",
+            "mymr": "Myanmar"
         }
     },
     "cnk": {
@@ -993,7 +1029,10 @@
         "iso639_name": "Konkani (macrolanguage)",
         "wiktionary_name": "Konkani",
         "wiktionary_code": "kok",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "deva": "Devanagari"
+        }
     },
     "kor": {
         "iso639_name": "Korean",
@@ -1011,7 +1050,8 @@
         "wiktionary_code": "ky",
         "casefold": true,
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
         }
     },
     "lmy": {
@@ -1426,7 +1466,9 @@
         "wiktionary_code": "mn",
         "casefold": true,
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "latn": "Latin",
+            "mong": "Mongolian"
         }
     },
     "ary": {
@@ -1490,7 +1532,8 @@
         "wiktionary_code": "new",
         "casefold": false,
         "script": {
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "newa": "Newa"
         }
     },
     "nrf": {
@@ -1518,7 +1561,8 @@
         "casefold": false,
         "script": {
             "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
         }
     },
     "sme": {
@@ -1563,7 +1607,8 @@
         "wiktionary_code": "cbn",
         "casefold": false,
         "script": {
-            "thai": "Thai"
+            "thai": "Thai",
+            "mymr": "Myanmar"
         }
     },
     "oci": {
@@ -1806,7 +1851,8 @@
         "wiktionary_code": "pa",
         "casefold": false,
         "script": {
-            "guru": "Gurmukhi"
+            "guru": "Gurmukhi",
+            "arab": "Arabic"
         }
     },
     "rgn": {
@@ -1842,7 +1888,10 @@
         "iso639_name": "San Pedro Amuzgos Amuzgo",
         "wiktionary_name": "San Pedro Amuzgos Amuzgo",
         "wiktionary_code": "azg",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "san": {
         "iso639_name": "Sanskrit",
@@ -1850,7 +1899,8 @@
         "wiktionary_code": "sa",
         "casefold": false,
         "script": {
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "shrd": "Sharada"
         }
     },
     "srd": {
@@ -1896,7 +1946,8 @@
         "casefold": true,
         "script": {
             "latn": "Latin",
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
         }
     },
     "shn": {
@@ -1930,7 +1981,10 @@
         "iso639_name": "Skolt Sami",
         "wiktionary_name": "Skolt Sami",
         "wiktionary_code": "sms",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "slo": {
         "iso639_name": "Slovak",
@@ -2005,7 +2059,8 @@
         "wiktionary_code": "syl",
         "casefold": false,
         "script": {
-            "sylo": "Syloti Nagri"
+            "sylo": "Syloti Nagri",
+            "beng": "Bengali"
         }
     },
     "tby": {
@@ -2070,7 +2125,8 @@
         "wiktionary_code": "te",
         "casefold": false,
         "script": {
-            "telu": "Telugu"
+            "telu": "Telugu",
+            "knda": "Kannada"
         }
     },
     "nhg": {
@@ -2148,7 +2204,10 @@
         "iso639_name": "Tzotzil",
         "wiktionary_name": "Tzotzil",
         "wiktionary_code": "tzo",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "ukr": {
         "iso639_name": "Ukrainian",
@@ -2267,7 +2326,10 @@
         "iso639_name": "Western Lawa",
         "wiktionary_name": "Western Lawa",
         "wiktionary_code": "lcp",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "thai": "Thai"
+        }
     },
     "mww": {
         "iso639_name": "Hmong Daw",
@@ -2327,7 +2389,10 @@
         "iso639_name": "Yoruba",
         "wiktionary_name": "Yoruba",
         "wiktionary_code": "yo",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "zza": {
         "iso639_name": "Zaza",
@@ -2335,7 +2400,8 @@
         "wiktionary_code": "zza",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "arab": "Arabic"
         }
     },
     "zha": {

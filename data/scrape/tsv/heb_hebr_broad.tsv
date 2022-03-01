@@ -27,6 +27,7 @@
 אבות	ʔ a v o t
 אבות	ʔ ɔ v oː θ
 אבזם	ʔ a v z a m
+אבטחה	a v t a x a
 אביב	a v i v
 אבן	e v e n
 אבנט	ʔ a v n ɛ t
@@ -36,7 +37,6 @@
 אברהם	a v ʁ a h a m
 אברהם	ʔ a b r a h a m
 אברהם	ʔ a b r aː h aː m
-אברהם	ʔ a v r ɔ h ɔ m
 אברהם	ʔ æ v r ɔ h ɔ m
 אגם	a ɡ a m
 אגם	ʔ a ɣ a m
@@ -58,8 +58,8 @@
 אדם	a d a m
 אדם	ɔ d ɔ m
 אדם	ʔ a d a m
-אדם	ʔ aː d aː m
 אדם	ʔ ɔ ð ɔ m
+אדם	ʔ ɔː ð ɔː m
 אדמה	a d a m a
 אדריכל	a d ʁ i χ a l
 אהב	ɔ h a v
@@ -101,10 +101,15 @@
 אות	ʔ oː t
 אות	ʔ ø θ
 אותיום	o t j o m
+אזהרה	a z h a r a
 אזמל	ʔ i z m e l
-אחד	e χ a d
+אח	a χ
+אח	ɔ χ
+אח	ʔ a ħ
+אח	ʔ ɔ ħ
 אחד	e χ ɔ d
 אחד	ʔ e ħ aː d
+אחד	ʔ e χ a d
 אחד	ʔ e̞ ħ ä d̪
 אחד	ʔ æ ħ ɔ ð
 אחד	ʔ ɛ ħ ɔ ð
@@ -126,14 +131,14 @@
 איבוד	ʔ i b u d
 איגרוף	i ɡ ʁ u f
 איך	ʔ e χ
-אין	e n
+אין	ʔ e n
 איפה	e f o
-איפה	e j f o
 איראן	i ʁ a n
 איש	ʔ i ʃ
 אכלה	ʔ o χ l a
 אל	ʔ a l
 אל	ʔ e l
+אל	ʔ ɛ l
 אלא	e l a
 אלה	e l e
 אלוה	e l o a
@@ -162,7 +167,11 @@
 אני	ʔ a n i
 אנציקלופדיה	ɛ n t s i k l ɔ p ɛ d j a
 אסור	a s u ʁ
-אסטרופיזיקה	a s t ʁ ɔ f i z i k a
+אסטרופיזיקה	a s t ʁ o f i z i k a
+אסנת	a s ə n a t
+אסנת	o s n a t
+אסנת	ɔ s n ə s
+אסנת	ʔ ɔ s ă n aː θ
 אסתר	e s t e j r
 אסתר	e s t e ʁ
 אסתר	e s t̪ e r
@@ -187,11 +196,12 @@
 ארמון	ʔ a r m o n
 ארמני	a r m e n i
 ארמנית	a ʁ m ɛ n i t
+ארנק	a r n a k
+ארנק	a ʁ n a k
 ארץ	e r e s
 ארץ	e ʁ e t͡s
 ארץ	ʔ e r e sˤ
 ארץ	ʔ æ r æ sˤ
-ארץ	ʔ ɛ ʀ ɛ sˤ
 ארר	ʔ a ʁ a ʁ
 אשה	ʔ i ʃ a
 אשור	a ʃ u ʁ
@@ -199,7 +209,7 @@
 אשכיים	ɛ ʃ χ a i m
 אשכים	a ʃ a χ i m
 אשמה	a ʃ m a
-אשפה	ʔ a ʃ p a
+אשפה	a ʃ p a
 את	e d
 את	e t
 את	e ɪ s
@@ -243,6 +253,7 @@
 בלשנות	b a l ʃ a n u t
 במהירות	b e m e h i ʁ u t
 במהירות	b i m h i ʁ u t
+במו	b e m o
 במקום	b a m a k o m
 במקום	b i m k o m
 בן	b e n
@@ -251,6 +262,8 @@
 בני	b n e
 בני	b n i
 בניין	b i n j a n
+בעיה	b a a j a
+בעיה	b e a j a
 בקבוק	b a k b u k
 בקע	b a k a
 בקע	b aː q a ʕ
@@ -264,17 +277,18 @@
 ברבור	b a ʁ b u ʁ
 ברוך	b a ʁ u χ
 ברור	b a ʁ u ʁ
-ברכה	b ə r aː χ aː
 ברכה	b ʁ a χ a
 ברציפות	b ə r ə t s i f u t
 בשל	b ə ʃ e l
 בשעטו״מ	b e ʃ a a t o v a u m u t s l a χ a t
 בשעטו״מ	b e ʃ a a t u m
 בשר	b aː s aː r
+בת	b a t
 גבול	ɡ v u l
+גבעה	ɡ i v a
 גברבר	ɡ v a ʁ v a ʁ
 גבריאל	ɡ a v ʁ i ɛ l
-גדול	ɡ a d ɔ l
+גדול	ɡ a d o̞ l
 גוי	ɡ o j
 גולן	ɡ ɔ l a n
 גוף	ɡ u f
@@ -310,6 +324,7 @@
 גרון	ɡ a ʁ o n
 גרש	ɡ e ʁ e ʃ
 ג׳וק	d ʒ u k
+ג׳ירפה	d ʒ i ʁ a f a
 דבק	d a v a k
 דבק	d e v e k
 דבר	d a b a r
@@ -340,7 +355,7 @@
 דוד	d ɔː w iː ð
 דוד	d̪ aː v i d̪
 דוד	d̪ o d̪
-דוח	d o χ
+דוח	d u a χ
 דולר	d o l a r
 דיו	d i j o
 דיכוי	d i k u j
@@ -352,7 +367,9 @@
 דממה	d m a m a
 דן	d a n
 דעה	d e ʔ a
+דעת	d a ʔ a t
 דפקתי	d a f a k t i
+דקל	d e k e l
 דרך	d e ʁ e χ
 דרקון	d a r q o n
 דרקון	d a ʁ k o n
@@ -368,6 +385,7 @@
 הארץ	h ɔ ʔ ɔ ʀ ɛ sˤ
 הבין	h ɛ v i n
 הבנה	h a v a n a
+הבנה	h o v n e
 הוא	h u
 הודו	h o d u
 הודו	h oː d d uː
@@ -446,19 +464,22 @@
 זכר	z u χ u r
 זכר	z ɔ x ɔ r
 זכר	z ɔ χ ɔ r
+זמזומילה	z i m z u m i l a
 זמן	z m a n
 זן	z a n
 זן	z ɔː n
 זנה	z a n a
+זרג	z é r e ɡ
+ח	χ e t
 חבל	χ a v a l
 חבל	χ e v e l
 חבר	x a v e j r
 חבר	ħ a b e r
 חבר	ħ a v e r
-חבר	ħ aː b eː r
 חבר	ħ ɔ v e r
 חבר	ħ ɔ v eː r
 חבר	χ a v e ʁ
+חבר	χ aː b eː r
 חברון	ħ ɛ v r oː n
 חברון	χ e v ʁ o n
 חברותא	χ a v ʁ u t a
@@ -490,7 +511,11 @@
 חיים	x a j i m
 חיים	ħ a j i m
 חיים	ħ æ j i m
-חכם	ħ ɑː x ɑː m
+חכם	x u x u m
+חכם	x ɔ x ɔ m
+חכם	ħ a x a m
+חכם	ħ ɑː k ɑː m
+חכם	ħ ɔ x ɔ m
 חכם	χ a χ a m
 חלום	χ a l o m
 חלומות	χ a l ɔ m ɔ t
@@ -591,6 +616,7 @@
 יוחנן	j oː ħ aː n aː n
 יוחנן	j ø ħ ɔ n ɔ n
 יוכבד	j o χ e v e d
+יום	j o m
 יומולדת	j ɔ m u l ɛ d ɛ t
 יון	j a v a n
 יון	j o n
@@ -638,12 +664,12 @@
 ישב	j i ʃ e v
 ישיבה	j e ʃ i v a
 ישעיהו	j e ʃ a ʕ j a h u
+ישראל	i s ʁ a ʔ e l
 ישראל	j i s r a ʔ e l
 ישראל	j i s r aː ʔ eː l
 ישראל	j i s r u a j l
 ישראל	j i s r ɔ e j l
-ישראל	j i s r ɔ ʔ e l
-ישראל	j i s ʁ a ʔ e l
+ישראל	j i s r ɔː ʔ eː l
 ישראל	j i ɬ r aː ʔ eː l
 כאילו	k e ʔ i l u
 כאילו	k i l u
@@ -656,7 +682,7 @@
 כבר	k v a ʁ
 כדאי	k e d a j
 כדורעף	k a d u ʁ a f
-כדי	k e d e j
+כדי	k e d e
 כוהן	k o h e n
 כוהן	k o j h e n
 כוהן	k oː h eː n
@@ -682,12 +708,14 @@
 כיוון	k i v u n
 כיסא	k i s e
 כך	k a χ
+ככה	k a χ a
 כלבלב	k l a v l a v
 כלל	k a l a l
 כלל	k l a l
 כמו	k e m o
 כמו	k m o
 כמעט	k i m ʔ a t
+כן	k a n
 כן	k e n
 כנסת	k n e s e t
 כנען	k e n a ʔ a n
@@ -731,6 +759,7 @@
 לו	l u
 לובסטר	l o b s t e ʁ
 לחיים	l e χ a j i m
+לחם	l e χ e m
 ליד	l e j a d
 לילה	l a j l a
 לימד	l i m ɛ d
@@ -794,7 +823,7 @@
 מחסנית	m a χ s a n i t
 מחק	m a χ a k
 מחקים	m e χ a k i m
-מחר	m ɑ ħ ɑ r
+מחר	m ɑ χ ɑ r
 מחרתיים	m a ħ o r a t a j i m
 מחרתיים	m a ħ o r a θ a j i m
 מחרתיים	m o χ o ʁ a t a j i m
@@ -802,7 +831,6 @@
 מחרתיים	m o χ ʁ o t a j i m
 מחשב	m a ħ ʃ eː v
 מחשב	m a χ ʃ e v
-מחשבה	m a χ ʃ a v a
 מחשבון	m a χ ʃ e v o n
 מחשבון	m a χ ʃ e v o n i m
 מטר	m a t a ʁ
@@ -823,6 +851,7 @@
 מלון	m a l o n
 מלון	m e l o n
 מלון	m i l o n
+מלחין	m a l χ i n
 מלך	m a l a χ
 מלך	m e l e χ
 מלך	m ɔː l a x
@@ -837,6 +866,7 @@
 מניין	m i n j ɔ n
 מסדרון	m i s d a ʁ o n
 מסדרון	m i s d ə ʁ o n
+מסך	m a s a χ
 מסכת	m a s e χ e t
 מסכת	m a s s ɛː χ ɛ θ
 מסעדה	m i s ʔ a d a
@@ -849,6 +879,7 @@
 מפסידן	m a f s i d a n
 מפעל	m i f ʔ a l
 מצא	m a t s a
+מצרים	m i t͡s ʁ a j i m
 מקום	m a k o m
 מקום	m e k o m
 מקסיקו	m ɛ k s i k ɔ
@@ -861,6 +892,7 @@
 מרפק	m a ʁ p ɛ k
 מרפק	m i ʁ p ɛ k
 מרשתת	m i r ʃ e t e t
+משאית	m a s a ʔ i t
 משה	m o ʃ e
 משהו	m a ʃ ɛ h u
 משוש	m a s o s
@@ -942,6 +974,7 @@
 סוף	s o f
 סופגנייה	s u f ɡ a n i j a
 סופגנייה	s u f ɡ a n j a
+סופ״ש	s o f a ʃ
 סיבוך	s i b u χ
 סיוט	s i u t
 סינכרן	s i n k r e n
@@ -955,6 +988,7 @@
 סמל	s ɛ m ɛ l
 סנפיר	s n a p i ʁ
 סעודה	s e ʔ u d a
+ספרד	s f a ʁ a d
 ספרדית	s f a ʁ a d i t
 ספריה	s i f r i j a
 ספרייה	s i f ʁ i j a
@@ -978,6 +1012,7 @@
 עדכון	i d k u n
 עדן	ʕ a d e n
 עדן	ʕ e d e n
+עובדיה	a w a d i a
 עוגה	ʕ u ɡ a
 עוגות	u ɡ o t
 עוגייה	u ɡ i j a
@@ -1003,7 +1038,7 @@
 עזה	ʕ a zː ɔ
 עזה	ʕ æ zː ɔ
 עזיז	ʕ a z i z
-עט	ʕ e t
+עט	ʔ e t
 עט	ʕ eː tˤ
 עיוור	i v ɛ ʁ
 עייף	ʕ a j a f
@@ -1011,6 +1046,7 @@
 עייף	ʕ i j e f
 עין	a j i n
 עיפרון	ʔ i p a ʁ o n
+עיר	i ʁ
 עכוז	a k u z
 על	a l
 על	ŋ a l
@@ -1045,6 +1081,7 @@
 עצם	ʕ æ sˀ æ m
 עצם	ʕ ɛ sˀ ɛ m
 עקשן	ʔ a k ʃ a n
+ערב	e ʁ e v
 ערבית	a ʁ a v i t
 ערבית	a ʁ v i t
 ערום	a ʁ u m
@@ -1061,8 +1098,13 @@
 עשה	ʕ ɔ s ɔ
 עשה	ʕ ɔː s ɔː
 עשים	a ʃ i m
-עת	ʕ e t
+עת	ʔ e t
 עת	ʕ eː θ
+פאה	p e a
+פאה	p e ɪ̯ ɔ
+פאה	p e ʔ a
+פאה	p e ʔː ɔ
+פאה	p eː ʔ ɑː
 פונדק	p u n d a k
 פופאי	p o p a j
 פופולרי	p o p u l a ʁ i
@@ -1071,6 +1113,7 @@
 פח	p a χ
 פח	p a χ i m
 פחדן	p a χ d a n
+פטל	p e t e l
 פטמה	p i t m a
 פי	p i
 פיזי	f i z i
@@ -1105,6 +1148,7 @@
 פרסית	p a ʁ s i t
 פשט	p a ʃ a t
 פשטות	p a ʃ t u t
+פשלה	f a ʃ l a
 צבא	t͡s a v a
 צבעוני	t s i v ʔ o n i
 צדק	s e d e k
@@ -1145,6 +1189,7 @@
 צריך	sˤ ɔ r i x
 צריך	t͡s a ʁ i χ
 צריך	t͡s ɔ r i x
+צרפת	t s a ʁ f a t
 צרפתית	t s a ʁ f a t i t
 צ׳ק	t ʃ e k
 קדח	k a d a x
@@ -1175,6 +1220,7 @@
 קיץ	k a j i t s
 קל	k a l
 קלה	k a l a
+קן	k e n
 קנה	k a n a
 קניון	k a n j o n
 קניון	k e n j o n
@@ -1333,6 +1379,7 @@
 שמואל	ʃ æ̆ m u ʔ e l
 שמואל	ʃ ă m u ʔ e l
 שמואל	ʃ ə m uː ʔ eː l
+שמים	ʃ a m a j i m
 שמימי	ʃ m e j m i
 שמן	ʃ a m a n
 שמן	ʃ e m e n
@@ -1347,6 +1394,7 @@
 שמעון	ʃ i m ʕ œ n
 שמעון	ʃ i m ʕ ə oː n
 שמעון	ʃ ɪ m ə n
+שמש	ʃ e m e ʃ
 שנא	s a n e
 שנא	s a n e ʔ
 שנא	s aː n eː ʔ
@@ -1382,6 +1430,7 @@
 שריר	ʃ ʁ i ʁ
 שש	ʃ e ʃ
 שתה	ʃ a t a
+שתל	ʃ a t a l
 ש״ח	ʃ a χ
 ש״ץ	ʃ a t s
 תא	t a
@@ -1399,6 +1448,7 @@
 תורה	t oː r aː
 תורה	t ø r ɔ
 תורה	t̪ o ɾ a
+תות	t u t
 תחת	t a x a s
 תחת	t a ħ a t
 תחת	t a ħ a θ
@@ -1411,6 +1461,9 @@
 תלוי	t a l u i
 תלוי	t a l u j
 תמונה	t m u n a
+תמנון	t a m n u n
+תמנון	t m a n u n
+תפארת	t i f e ʁ e t
 תפוז	t a p u z
 תפוח	t a p u a χ
 תפילה	t f i l a
