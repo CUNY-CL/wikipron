@@ -15,6 +15,7 @@ Unreleased
 #### Added
 
 -   Big scrape for 2022. (\#463)
+-   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#463)
 -   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
