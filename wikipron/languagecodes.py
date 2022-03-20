@@ -474,4 +474,6 @@ LANGUAGE_CODES = {
     "mqs": "West Makian",
     # Livvi-Karelian (Olonets): ISO 639-3 only.
     "olo": "Livvi",
+    # Central Kurdish: ISO 639-3 only.
+    "ckb": "Central Kurdish",
 }

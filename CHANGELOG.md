@@ -14,6 +14,8 @@ Unreleased
 
 #### Added
 
+-   Big scrape for 2022. (\#464)
+-   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
 -   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
@@ -96,6 +98,7 @@ Unreleased
 
 #### Added
 
+-  Added `ckb` in `languagecodes.py`. (\#464)
 -  Added support for Python 3.10. (\#462)
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
 -  Added Min Nan extraction function. (\#397)

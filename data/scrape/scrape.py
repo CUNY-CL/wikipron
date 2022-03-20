@@ -20,6 +20,11 @@ from data.scrape.lib.codes import (
 )
 
 
+_UNSCRAPED_JSON_FILENAME = os.path.join(
+    os.path.dirname(__file__), "unscraped.json"
+)
+
+
 def _phones_reader(path: str) -> Iterator[str]:
     # Reads phones file.
     with open(path, "r", encoding="utf-8") as source:
@@ -147,9 +152,20 @@ def main(args: argparse.Namespace) -> None:
             exit(1)
     else:
         exclude_set = frozenset()
-    codes = restriction_set - exclude_set
-    # "2020-01-15" (Big Scrape 3).
-    cut_off_date = datetime.date.today().isoformat()
+    if not args.fresh and os.path.exists(_UNSCRAPED_JSON_FILENAME):
+        with open(_UNSCRAPED_JSON_FILENAME) as f:
+            unscraped_json = json.load(f)
+        unscraped_codes = frozenset(unscraped_json["unscraped"])
+        cut_off_date = unscraped_json["cut_off_date"]
+        logging.info("`unscraped.json` detected and used")
+    else:
+        unscraped_codes = frozenset(languages.keys())
+        # Previous cut-off dates for big scrape runs:
+        # - "2020-01-15"
+        # - "2022-01-24"
+        cut_off_date = datetime.date.today().isoformat()
+    codes = sorted((restriction_set - exclude_set) & unscraped_codes)
+    remaining = codes.copy()
     wikipron_accepted_settings = {
         "casefold": False,
         "skip_spaces_pron": True,
@@ -183,6 +199,13 @@ def main(args: argparse.Namespace) -> None:
                     f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
                     f"{PHONES_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
                 )
+        remaining.remove(code)
+        with open(_UNSCRAPED_JSON_FILENAME, "w") as f:
+            unscraped = {
+                "cut_off_date": cut_off_date,
+                "unscraped": sorted(remaining),
+            }
+            json.dump(unscraped, f, indent=4)
 
 
 if __name__ == "__main__":
@@ -206,5 +229,10 @@ if __name__ == "__main__":
         "--exclude",
         type=str,
         help="excludes specified language(s)",
+    )
+    parser.add_argument(
+        "--fresh",
+        action="store_true",
+        help="forces a fresh scrape for all languages",
     )
     main(parser.parse_args())

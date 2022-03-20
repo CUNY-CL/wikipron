@@ -13,3 +13,4 @@ env/
 data/frequencies/tsv/*
 data/frequencies/tgz/*
 data/morphology/tsv/*
+data/scrape/unscraped.json
