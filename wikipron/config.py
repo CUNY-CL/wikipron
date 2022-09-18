@@ -86,16 +86,21 @@ class Config:
         self.restart_key = None
 
     def _get_language(self, key) -> str:
-        key = key.lower().strip()
-        if key.startswith("proto-"):
+        key = key.strip()
+        if key.lower().startswith("proto-"):
             language = "-".join(x.title() for x in key.split("-"))
             return language
         try:
-            language = LANGUAGE_CODES[key]
+            language = LANGUAGE_CODES[key.lower()]
         except KeyError:
-            # In some cases it returns "Language; Dialect";
-            # we just save the "first half".
-            language = iso639.to_name(key).split(";")[0]
+            func = iso639.Language.match
+            try:
+                language = (
+                    func(key) or func(key.lower()) or func(key.title())
+                ).name
+            except AttributeError:
+                # No `name` attribute when iso639.Language.match returns None.
+                raise ValueError(f"Unrecognized language code or name: {key}")
         logging.info("Language: %r", language)
         return language
 
@@ -105,9 +110,7 @@ class Config:
             logging.info("No cut-off date specified")
             return today.isoformat()
         try:
-            # TODO: when we require Python 3.7+ later, we can do this:
-            #  d = datetime.date.fromisoformat(cut_off_date)
-            d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
+            d = datetime.date.fromisoformat(cut_off_date)
         except ValueError as e:
             msg = (
                 "Cut-off date must be in ISO format (e.g., 2019-10-23): "
