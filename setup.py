@@ -35,7 +35,7 @@ def main():
         zip_safe=False,
         setup_requires=["setuptools>=39"],
         install_requires=[
-            "iso639",
+            "python-iso639",
             "requests",
             "requests-html",
             "segments>=2.2.0,<3",

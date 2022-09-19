@@ -53,7 +53,6 @@ wikipron fra
 #### Specifying the Language
 
 The language is indicated by a three-letter [ISO
-639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) or [ISO
 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) language code,
 e.g., `fra` for French. For which languages can be scraped,
 [here](https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language)

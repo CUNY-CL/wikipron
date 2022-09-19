@@ -86,43 +86,46 @@ class Config:
         self.restart_key = None
 
     def _get_language(self, key) -> str:
-        key = key.lower().strip()
-        if key.startswith("proto-"):
+        key = key.strip()
+        if key.lower().startswith("proto-"):
             language = "-".join(x.title() for x in key.split("-"))
             return language
         try:
-            language = LANGUAGE_CODES[key]
+            language = LANGUAGE_CODES[key.lower()]
         except KeyError:
-            # In some cases it returns "Language; Dialect";
-            # we just save the "first half".
-            language = iso639.to_name(key).split(";")[0]
+            func = iso639.Language.match
+            try:
+                language = (
+                    func(key) or func(key.lower()) or func(key.title())
+                ).name
+            except AttributeError:
+                # No `name` attribute when iso639.Language.match returns None.
+                raise ValueError(f"Unrecognized language code or name: {key}")
         logging.info("Language: %r", language)
         return language
 
-    def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
+    def _get_cut_off_date(self, cut_off_date_str: Optional[str]) -> str:
         today = datetime.date.today()
-        if not cut_off_date:
+        if not cut_off_date_str:
             logging.info("No cut-off date specified")
             return today.isoformat()
         try:
-            # TODO: when we require Python 3.7+ later, we can do this:
-            #  d = datetime.date.fromisoformat(cut_off_date)
-            d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
+            cut_off_date = datetime.date.fromisoformat(cut_off_date_str)
         except ValueError as e:
             msg = (
                 "Cut-off date must be in ISO format (e.g., 2019-10-23): "
-                f"{cut_off_date}"
+                f"{cut_off_date_str}"
             )
             raise ValueError(msg) from e
-        if d > today:
+        if cut_off_date > today:
             msg = (
                 "Cut-off date cannot be later than today's date: "
-                f"{cut_off_date}"
+                f"{cut_off_date_str}"
             )
             raise ValueError(msg)
 
-        logging.info("Cut-off date: %r", cut_off_date)
-        return cut_off_date
+        logging.info("Cut-off date: %r", cut_off_date_str)
+        return cut_off_date_str
 
     def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
         default_func: Callable[[Word], Word] = lambda word: word  # noqa: E731

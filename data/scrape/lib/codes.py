@@ -5,12 +5,9 @@ This is a tool for scraping all languages with over 100 entries from:
 
 https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language
 
-For each language it grabs the language name and language code (likely ISO
-639-1) that Wiktionary uses.
-
-It compares that code with those in iso639_1-to-iso639_2.json and
-iso639_2.json in order to grab the appropriate ISO 639-2 or ISO 639-3 code
-and language name. A dictionary containing this data is created and converted
+For each language it grabs the language name and ISO 639 language code
+that Wiktionary uses in order to determine the appropriate ISO 639-3 code.
+A dictionary containing this data is created and converted
 to a JSON file (languages.json). Config settings for languages already in
 languages.json are transferred to the new languages dictionary being created.
 
@@ -44,8 +41,6 @@ GLOBAL_COMMON_CHARS_PATH = os.path.join(
 UNMATCHED_LANGUAGES_PATH = os.path.join(
     LIB_DIRECTORY, "unmatched_languages.json"
 )
-ISO_639_1_PATH = os.path.join(LIB_DIRECTORY, "iso639_1-to-iso639_2.json")
-ISO_639_2_PATH = os.path.join(LIB_DIRECTORY, "iso639_2.json")
 SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
 LANGUAGES_SUMMARY_PATH = os.path.join(SCRAPE_DIRECTORY, "tsv_summary.tsv")
 LOGGING_PATH = os.path.join(SCRAPE_DIRECTORY, "scraping.log")
@@ -152,7 +147,7 @@ def _check_language_code_against_wiki(
     """Checks if WikiPron can handle the assigned ISO language code."""
     try:
         language_inferred = wikipron.Config(key=language_code).language
-    except iso639.NonExistentLanguageError:
+    except ValueError:
         logging.warning("WikiPron cannot handle %r", language)
     else:
         if language_inferred != language:
@@ -170,10 +165,6 @@ def main() -> None:
     unmatched_languages = {}
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as lang_source:
         prev_languages = json.load(lang_source)
-    with open(ISO_639_1_PATH, "r", encoding="utf-8") as iso1_source:
-        iso639_1 = json.load(iso1_source)
-    with open(ISO_639_2_PATH, "r", encoding="utf-8") as iso2_source:
-        iso639_2 = json.load(iso2_source)
     categories = _get_language_categories()
     sizes = _get_language_sizes(categories)
     for wiktionary_name, size in sizes.items():
@@ -183,18 +174,15 @@ def main() -> None:
             wiktionary_code = _scrape_wiktionary_language_code(
                 wiktionary_name.replace(" ", "_")
             )
-            if wiktionary_code in iso639_1:
-                iso639_code = iso639_1[wiktionary_code]["code"]
-                iso639_name = iso639_1[wiktionary_code]["name"]
-            elif wiktionary_code in iso639_2:
-                iso639_code = wiktionary_code
-                iso639_name = iso639_2[wiktionary_code]["name"]
-            else:
+            iso639_lang = iso639.Language.match(wiktionary_code)
+            if iso639_lang is None:
                 # No match found for the Wiktionary code.
                 unmatched_languages[wiktionary_code] = {
                     "wiktionary_name": wiktionary_name
                 }
                 continue
+            iso639_code = iso639_lang.part3
+            iso639_name = iso639_lang.name
             core_settings = {
                 "iso639_name": iso639_name,
                 "wiktionary_name": wiktionary_name,

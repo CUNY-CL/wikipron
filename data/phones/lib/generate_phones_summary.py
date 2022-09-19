@@ -77,7 +77,7 @@ def main() -> None:
             file=sink,
         )
         print(
-            "| Link | ISO 639-2 Code | ISO 639 Language Name "
+            "| Link | ISO 639-3 Code | ISO 639 Language Name "
             "| Wiktionary Language Name "
             "| Narrow/broad | # of phones |",
             file=sink,
