@@ -104,28 +104,28 @@ class Config:
         logging.info("Language: %r", language)
         return language
 
-    def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
+    def _get_cut_off_date(self, cut_off_date_str: Optional[str]) -> str:
         today = datetime.date.today()
-        if not cut_off_date:
+        if not cut_off_date_str:
             logging.info("No cut-off date specified")
             return today.isoformat()
         try:
-            d = datetime.date.fromisoformat(cut_off_date)
+            cut_off_date = datetime.date.fromisoformat(cut_off_date_str)
         except ValueError as e:
             msg = (
                 "Cut-off date must be in ISO format (e.g., 2019-10-23): "
-                f"{cut_off_date}"
+                f"{cut_off_date_str}"
             )
             raise ValueError(msg) from e
-        if d > today:
+        if cut_off_date > today:
             msg = (
                 "Cut-off date cannot be later than today's date: "
-                f"{cut_off_date}"
+                f"{cut_off_date_str}"
             )
             raise ValueError(msg)
 
-        logging.info("Cut-off date: %r", cut_off_date)
-        return cut_off_date
+        logging.info("Cut-off date: %r", cut_off_date_str)
+        return cut_off_date_str
 
     def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
         default_func: Callable[[Word], Word] = lambda word: word  # noqa: E731
