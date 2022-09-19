@@ -5,12 +5,9 @@ This is a tool for scraping all languages with over 100 entries from:
 
 https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language
 
-For each language it grabs the language name and language code (likely ISO
-639-1) that Wiktionary uses.
-
-It compares that code with those in iso639_1-to-iso639_2.json and
-iso639_2.json in order to grab the appropriate ISO 639-2 or ISO 639-3 code
-and language name. A dictionary containing this data is created and converted
+For each language it grabs the language name and ISO 639 language code
+that Wiktionary uses in order to determine the appropriate ISO 639-3 code.
+A dictionary containing this data is created and converted
 to a JSON file (languages.json). Config settings for languages already in
 languages.json are transferred to the new languages dictionary being created.
 
@@ -20,8 +17,6 @@ require further processing before being imported by scrape_and_write.py:
 * Casefolding must be specified
 * Dialect or script information may also be specified
 """
-
-# TODO: Updater module docstring above.
 
 import logging
 import json
