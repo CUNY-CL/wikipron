@@ -167,7 +167,7 @@ yourself, you may obtain the latest source code through GitHub and `git`:
     ```
 
 We keep track of notable changes in
-[CHANGELOG.md](https://github.com/CUNY-CL/wikipron/blob/master/CHANGELOG.md).
+[`CHANGELOG.md`](https://github.com/CUNY-CL/wikipron/blob/master/CHANGELOG.md).
 
 ### Contribution
 
