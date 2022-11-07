@@ -5,6 +5,9 @@
     "nds-de": {
         "wiktionary_name": "German Low German"
     },
+    "gmw-jdt": {
+        "wiktionary_name": "Jersey Dutch"
+    },
     "roa-opt": {
         "wiktionary_name": "Old Portuguese"
     },
@@ -17,11 +20,11 @@
     "gem-pro": {
         "wiktionary_name": "Proto-Germanic"
     },
+    "grk-pro": {
+        "wiktionary_name": "Proto-Hellenic"
+    },
     "itc-pro": {
         "wiktionary_name": "Proto-Italic"
-    },
-    "jpx-pro": {
-        "wiktionary_name": "Proto-Japonic"
     },
     "poz-mly-pro": {
         "wiktionary_name": "Proto-Malayic"
