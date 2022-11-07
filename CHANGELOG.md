@@ -55,7 +55,7 @@ Unreleased
 
 #### Changed
 
--   Switched to ISO 639-3 language codes. (\#468)
+-   Removed `casefold:true` from langauges.json and rescraped `hye` and `apw` (\#469)
 -   Updated scraped data in preparation for the SIGMORPHON 2022 shared task:
     `swe nno ger dut ita rum ukr bel tgl ceb ben asm per pus tha lwl`. (\#461)
 -   Made scripts under `data/frequencies/` and `data/morphology/` more flexible,
