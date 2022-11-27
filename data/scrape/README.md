@@ -125,6 +125,7 @@
 | [TSV](tsv/grc_grek_broad.tsv) | grc | Ancient Greek (to 1453) | Ancient Greek | Greek |  | False | Broad | True | 98,085 |
 | [TSV](tsv/gsw_latn_broad.tsv) | gsw | Swiss German | Alemannic German | Latin |  | False | Broad | True | 397 |
 | [TSV](tsv/guj_gujr_broad.tsv) | guj | Gujarati | Gujarati | Gujarati |  | False | Broad | False | 176 |
+| [TSV](tsv/gur_latn_broad.tsv) | gur | Farefare | Farefare | Latin |  | False | Broad | True | 101 |
 | [TSV](tsv/hau_latn_broad.tsv) | hau | Hausa | Hausa | Latin |  | False | Broad | True | 1,703 |
 | [TSV](tsv/hau_latn_narrow.tsv) | hau | Hausa | Hausa | Latin |  | False | Narrow | True | 1,678 |
 | [TSV](tsv/haw_latn_broad.tsv) | haw | Hawaiian | Hawaiian | Latin |  | False | Broad | True | 626 |
