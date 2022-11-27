@@ -812,6 +812,15 @@
             "arab": "Arabic"
         }
     },
+    "gur": {
+        "iso639_name": "Farefare",
+        "wiktionary_name": "Farefare",
+        "wiktionary_code": "gur",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "hau": {
         "iso639_name": "Hausa",
         "wiktionary_name": "Hausa",
