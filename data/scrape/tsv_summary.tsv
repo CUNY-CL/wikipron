@@ -334,6 +334,8 @@ tam_taml_narrow.tsv	tam	Tamil	Tamil	Tamil		False	Narrow	False	3752
 tby_latn_narrow.tsv	tby	Tabaru	Tabaru	Latin		False	Narrow	True	106
 tel_telu_broad.tsv	tel	Telugu	Telugu	Telugu		False	Broad	False	450
 tel_telu_narrow.tsv	tel	Telugu	Telugu	Telugu		False	Narrow	False	386
+tft_latn_broad.tsv	tft	Ternate	Ternate	Latin		False	Broad	True	208
+tft_latn_narrow.tsv	tft	Ternate	Ternate	Latin		False	Narrow	True	1044
 tgk_cyrl_broad.tsv	tgk	Tajik	Tajik	Cyrillic		False	Broad	True	150
 tgl_latn_broad.tsv	tgl	Tagalog	Tagalog	Latin		False	Broad	True	8535
 tgl_latn_narrow.tsv	tgl	Tagalog	Tagalog	Latin		False	Narrow	True	7824
