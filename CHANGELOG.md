@@ -55,6 +55,7 @@ Unreleased
 -   Added Kalmyk (`xal`). (\#472)
 -   Added Ternate (`tft`). (\#473)
 -   Added Abkhaz (`abk`). (\#474)
+-   Added Farefare (`gur`). (\#475)
 
 #### Changed
 

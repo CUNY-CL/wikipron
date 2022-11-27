@@ -125,6 +125,7 @@ got_goth_narrow.tsv	got	Gothic	Gothic	Gothic		False	Narrow	True	341
 grc_grek_broad.tsv	grc	Ancient Greek (to 1453)	Ancient Greek	Greek		False	Broad	True	98085
 gsw_latn_broad.tsv	gsw	Swiss German	Alemannic German	Latin		False	Broad	True	397
 guj_gujr_broad.tsv	guj	Gujarati	Gujarati	Gujarati		False	Broad	False	176
+gur_latn_broad.tsv	gur	Farefare	Farefare	Latin		False	Broad	True	101
 hau_latn_broad.tsv	hau	Hausa	Hausa	Latin		False	Broad	True	1703
 hau_latn_narrow.tsv	hau	Hausa	Hausa	Latin		False	Narrow	True	1678
 haw_latn_broad.tsv	haw	Hawaiian	Hawaiian	Latin		False	Broad	True	626
