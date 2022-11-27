@@ -145,6 +145,8 @@ hye_armn_e_narrow.tsv	hye	Armenian	Armenian	Armenian	Eastern Armenian, standard	
 hye_armn_e_narrow_filtered.tsv	hye	Armenian	Armenian	Armenian	Eastern Armenian, standard	True	Narrow	True	14656
 hye_armn_w_narrow.tsv	hye	Armenian	Armenian	Armenian	Western Armenian, standard	False	Narrow	True	14505
 hye_armn_w_narrow_filtered.tsv	hye	Armenian	Armenian	Armenian	Western Armenian, standard	True	Narrow	True	14495
+iba_latn_broad.tsv	iba	Iban	Iban	Latin		False	Broad	True	310
+iba_latn_narrow.tsv	iba	Iban	Iban	Latin		False	Narrow	True	147
 ido_latn_broad.tsv	ido	Ido	Ido	Latin		False	Broad	True	6990
 ilo_latn_broad.tsv	ilo	Iloko	Ilocano	Latin		False	Broad	True	331
 ilo_latn_narrow.tsv	ilo	Iloko	Ilocano	Latin		False	Narrow	True	221
