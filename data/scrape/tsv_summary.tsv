@@ -1,4 +1,6 @@
 aar_latn_broad.tsv	aar	Afar	Afar	Latin		False	Broad	True	1538
+abk_cyrl_broad.tsv	abk	Abkhazian	Abkhaz	Cyrillic		False	Broad	True	124
+abk_cyrl_narrow.tsv	abk	Abkhazian	Abkhaz	Cyrillic		False	Narrow	True	619
 acw_arab_broad.tsv	acw	Hijazi Arabic	Hijazi Arabic	Arabic		False	Broad	False	1122
 acw_arab_narrow.tsv	acw	Hijazi Arabic	Hijazi Arabic	Arabic		False	Narrow	False	173
 ady_cyrl_narrow.tsv	ady	Adygei; Adyghe	Adyghe	Cyrillic		False	Narrow	True	5119
