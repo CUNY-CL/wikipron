@@ -365,6 +365,7 @@ vol_latn_narrow.tsv	vol	Volapük	Volapük	Latin		False	Narrow	True	567
 wau_latn_broad.tsv	wau	Waurá	Wauja	Latin		False	Broad	True	152
 wiy_latn_broad.tsv	wiy	Wiyot	Wiyot	Latin		False	Broad	True	151
 wlm_latn_broad.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Broad	True	147
+xal_cyrl_broad.tsv	xal	Kalmyk, Oirat	Kalmyk	Cyrillic		False	Broad	True	104
 xho_latn_narrow.tsv	xho	Xhosa	Xhosa	Latin		False	Narrow	True	871
 ybi_deva_broad.tsv	ybi	Yamphu	Yamphu	Devanagari		False	Broad	False	136
 ycl_latn_narrow.tsv	ycl	Lolopo	Lolopo	Latin		False	Narrow	True	109
