@@ -52,7 +52,8 @@ Unreleased
 -   Added West Makian (`mqs`). (\#457)
 -   Added Amharic (`amh`). (\#458)
 -   Added Livvi (`olo`). (\#459)
-=   Added Kalmyk (`xal`). (\#472)
+-   Added Kalmyk (`xal`). (\#472)
+-   Added Ternate (`tft`). (\#473)
 
 #### Changed
 
@@ -65,7 +66,7 @@ Unreleased
 -   Added covering grammar coverage error log and specified error_type in error_analysis.py. (\#424)
 -   Added error log writing in error_analysis.py. (\#420)
 -   Added new columns in summary tables. (\#365)
--   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
+-   Fixed broken paths in `data/src/generate_phones_summary.py` and in
     `data/phones/HOWTO.md`. (\#352)
 -   Added Atong (India) (`aot`). (\#353)
 -   Added Egyptian Arabic (`arz`). (\#354)
@@ -90,7 +91,7 @@ Unreleased
 -   Renamed TSV files and phonelists to use the terms "broad"/"narrow" instead
     of "phonemic"/"phonetic" (\#389, \#402, \#405)
 -   Fixed typo in `README.md` (\#407)
--   Fixed column ordering of the test file read by the script in 
+-   Fixed column ordering of the test file read by the script in
     `data/covering_grammar/lib/error_analysis.py` (\#411)
 -   Fixed Common character collection in `common_characters.py` (\#419)
 -   Scraping test fixed for `blt`. (\#436)
@@ -122,7 +123,7 @@ Unreleased
 
 #### Added
 
--   Added generate_phones_summary.py, generating `./phones/README.md` and `./phones/phones_summary.tsv`. (\#344) 
+-   Added generate_phones_summary.py, generating `./phones/README.md` and `./phones/phones_summary.tsv`. (\#344)
 -   Added Afrikaans whitelists, filtered TSV file, rescraped phonemic and phonetic TSV files. (\#311)
 -   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)
