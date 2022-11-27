@@ -57,6 +57,7 @@ Unreleased
 -   Added Abkhaz (`abk`). (\#474)
 -   Added Farefare (`gur`). (\#475)
 -   Added Iban (`iba`). (\#476)
+-   Added Laz (`lzz`). (\#477)
 
 #### Changed
 
