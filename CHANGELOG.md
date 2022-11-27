@@ -52,7 +52,8 @@ Unreleased
 -   Added West Makian (`mqs`). (\#457)
 -   Added Amharic (`amh`). (\#458)
 -   Added Livvi (`olo`). (\#459)
-=   Added Kalmyk (`xal`). (\#472)
+-   Added Kalmyk (`xal`). (\#472)
+-   Added Abkhaz (`abk`). (\#474)
 
 #### Changed
 
