@@ -919,6 +919,15 @@
             "armn": "Armenian"
         }
     },
+    "iba": {
+        "iso639_name": "Iban",
+        "wiktionary_name": "Iban",
+        "wiktionary_code": "iba",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
+    },
     "ido": {
         "iso639_name": "Ido",
         "wiktionary_name": "Ido",

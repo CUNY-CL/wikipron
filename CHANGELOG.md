@@ -56,6 +56,7 @@ Unreleased
 -   Added Ternate (`tft`). (\#473)
 -   Added Abkhaz (`abk`). (\#474)
 -   Added Farefare (`gur`). (\#475)
+-   Added Iban (`iba`). (\#476)
 
 #### Changed
 
