@@ -338,6 +338,8 @@
 | [TSV](tsv/tby_latn_narrow.tsv) | tby | Tabaru | Tabaru | Latin |  | False | Narrow | True | 106 |
 | [TSV](tsv/tel_telu_broad.tsv) | tel | Telugu | Telugu | Telugu |  | False | Broad | False | 450 |
 | [TSV](tsv/tel_telu_narrow.tsv) | tel | Telugu | Telugu | Telugu |  | False | Narrow | False | 386 |
+| [TSV](tsv/tft_latn_broad.tsv) | tft | Ternate | Ternate | Latin |  | False | Broad | True | 208 |
+| [TSV](tsv/tft_latn_narrow.tsv) | tft | Ternate | Ternate | Latin |  | False | Narrow | True | 1,044 |
 | [TSV](tsv/tgk_cyrl_broad.tsv) | tgk | Tajik | Tajik | Cyrillic |  | False | Broad | True | 150 |
 | [TSV](tsv/tgl_latn_broad.tsv) | tgl | Tagalog | Tagalog | Latin |  | False | Broad | True | 8,535 |
 | [TSV](tsv/tgl_latn_narrow.tsv) | tgl | Tagalog | Tagalog | Latin |  | False | Narrow | True | 7,824 |
