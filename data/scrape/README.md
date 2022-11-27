@@ -216,6 +216,7 @@
 | [TSV](tsv/ltz_latn_broad.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | Latin |  | False | Broad | True | 4,225 |
 | [TSV](tsv/ltz_latn_narrow.tsv) | ltz | Letzeburgesch; Luxembourgish | Luxembourgish | Latin |  | False | Narrow | True | 2,226 |
 | [TSV](tsv/lwl_thai_broad.tsv) | lwl | Eastern Lawa | Eastern Lawa | Thai |  | False | Broad | False | 253 |
+| [TSV](tsv/lzz_geor_broad.tsv) | lzz | Laz | Laz | Georgian |  | False | Broad | False | 136 |
 | [TSV](tsv/mah_latn_broad.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Broad | True | 885 |
 | [TSV](tsv/mah_latn_narrow.tsv) | mah | Marshallese | Marshallese | Latin |  | False | Narrow | True | 1,006 |
 | [TSV](tsv/mak_latn_narrow.tsv) | mak | Makasar | Makasar | Latin |  | False | Narrow | True | 413 |
