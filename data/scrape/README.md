@@ -1,6 +1,8 @@
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | Case-folding | # of entries |
 | :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/aar_latn_broad.tsv) | aar | Afar | Afar | Latin |  | False | Broad | True | 1,538 |
+| [TSV](tsv/abk_cyrl_broad.tsv) | abk | Abkhazian | Abkhaz | Cyrillic |  | False | Broad | True | 124 |
+| [TSV](tsv/abk_cyrl_narrow.tsv) | abk | Abkhazian | Abkhaz | Cyrillic |  | False | Narrow | True | 619 |
 | [TSV](tsv/acw_arab_broad.tsv) | acw | Hijazi Arabic | Hijazi Arabic | Arabic |  | False | Broad | False | 1,122 |
 | [TSV](tsv/acw_arab_narrow.tsv) | acw | Hijazi Arabic | Hijazi Arabic | Arabic |  | False | Narrow | False | 173 |
 | [TSV](tsv/ady_cyrl_narrow.tsv) | ady | Adygei; Adyghe | Adyghe | Cyrillic |  | False | Narrow | True | 5,119 |
