@@ -111,10 +111,12 @@ Unreleased
 -  Added Min Nan extraction function. (\#397)
 -  Added Tai Dam extraction function, configuration and initial scrape. (\#435)
 -  Added test of `casefold` value for languages in `data/scrape/lib/languages.json` (\#442)
+-  Added support for Python 3.11.
 
 #### Removed
 
 -  Dropped support for Python 3.6. (\#462)
+-  Dropped support for Python 3.7.
 
 #### Changed
 

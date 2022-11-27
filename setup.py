@@ -35,7 +35,7 @@ def main():
         zip_safe=False,
         setup_requires=["setuptools>=39"],
         install_requires=[
-            "python-iso639",
+            "python-iso639>=2022.11.27",
             "requests",
             "requests-html",
             "segments>=2.2.0,<3",
@@ -45,10 +45,10 @@ def main():
         classifiers=[
             "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3 :: Only",
-            "Programming Language :: Python :: 3.7",
             "Programming Language :: Python :: 3.8",
             "Programming Language :: Python :: 3.9",
             "Programming Language :: Python :: 3.10",
+            "Programming Language :: Python :: 3.11",
             "Development Status :: 3 - Alpha",
             "Environment :: Console",
             "License :: OSI Approved :: Apache Software License",

@@ -98,8 +98,7 @@ class Config:
                 language = (
                     func(key) or func(key.lower()) or func(key.title())
                 ).name
-            except AttributeError:
-                # No `name` attribute when iso639.Language.match returns None.
+            except iso639.LanguageNotFoundError:
                 raise ValueError(f"Unrecognized language code or name: {key}")
         logging.info("Language: %r", language)
         return language

@@ -16,7 +16,7 @@ jobs:
     docker:
       # Use the latest Python 3.x image from CircleCI that WikiPron supports.
       # See: https://circleci.com/developer/images/image/cimg/python
-      - image: cimg/python:3.10
+      - image: cimg/python:3.11
         #auth:
         #  username: $DOCKERHUB_USERNAME
         #  password: $DOCKERHUB_PASSWORD
@@ -90,4 +90,4 @@ workflows:
             - mypy
           matrix:
             parameters:
-              python-version: ["3.7", "3.8", "3.9", "3.10"]
+              python-version: ["3.8", "3.9", "3.10", "3.11"]
