@@ -8,7 +8,7 @@ import logging
 import os
 import re
 
-from typing import Any, Dict, FrozenSet, Iterator
+from typing import Any, Dict, FrozenSet, Iterator, Optional
 
 import wikipron  # type: ignore
 
@@ -49,7 +49,7 @@ def _call_scrape(
     lang_settings: Dict[str, str],
     config: wikipron.Config,
     tsv_path: str,
-    phones_set: FrozenSet[str] = None,
+    phones_set: Optional[FrozenSet[str]] = None,
     tsv_filtered_path: str = "",
 ) -> None:
     with open(tsv_path, "w", encoding="utf-8") as source:
@@ -164,14 +164,14 @@ def main(args: argparse.Namespace) -> None:
         # - "2020-01-15"
         # - "2022-01-24"
         cut_off_date = datetime.date.today().isoformat()
-    codes = sorted((restriction_set - exclude_set) & unscraped_codes)
-    remaining = codes.copy()
+    codes_sorted = sorted((restriction_set - exclude_set) & unscraped_codes)
+    remaining = codes_sorted.copy()
     wikipron_accepted_settings = {
         "casefold": False,
         "skip_spaces_pron": True,
         "skip_spaces_word": True,
     }
-    for code in codes:
+    for code in codes_sorted:
         language_settings = languages[code]
         for k, v in language_settings.items():
             if k in wikipron_accepted_settings:
