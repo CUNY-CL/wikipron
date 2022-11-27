@@ -367,6 +367,7 @@
 | [TSV](tsv/wau_latn_broad.tsv) | wau | Waurá | Wauja | Latin |  | False | Broad | True | 152 |
 | [TSV](tsv/wiy_latn_broad.tsv) | wiy | Wiyot | Wiyot | Latin |  | False | Broad | True | 151 |
 | [TSV](tsv/wlm_latn_broad.tsv) | wlm | Middle Welsh | Middle Welsh | Latin |  | False | Broad | True | 147 |
+| [TSV](tsv/xal_cyrl_broad.tsv) | xal | Kalmyk, Oirat | Kalmyk | Cyrillic |  | False | Broad | True | 104 |
 | [TSV](tsv/xho_latn_narrow.tsv) | xho | Xhosa | Xhosa | Latin |  | False | Narrow | True | 871 |
 | [TSV](tsv/ybi_deva_broad.tsv) | ybi | Yamphu | Yamphu | Devanagari |  | False | Broad | False | 136 |
 | [TSV](tsv/ycl_latn_narrow.tsv) | ycl | Lolopo | Lolopo | Latin |  | False | Narrow | True | 109 |
