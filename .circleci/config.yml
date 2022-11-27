@@ -82,7 +82,7 @@ workflows:
       - pre-build:
           name: mypy
           command-name: mypy
-          command-run: mypy --ignore-missing-imports project/wikipron project/tests project/data
+          command-run: mypy --install-types --ignore-missing-imports --non-interactive project/wikipron project/tests project/data
       - build-python:
           requires:
             - flake8

@@ -3,7 +3,7 @@ import functools
 import logging
 import re
 
-from typing import Callable, Optional, cast
+from typing import Callable, Optional
 
 import iso639
 import segments
@@ -11,7 +11,7 @@ import segments
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.default import extract_word_pron_default
 from wikipron.languagecodes import LANGUAGE_CODES
-from wikipron.typing import ExtractFunc, Pron, Word
+from wikipron.typing import ExtractFunc
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
@@ -67,8 +67,8 @@ class Config:
         skip_parens: bool = True,
     ):
         self.language: str = self._get_language(key)
-        self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
-        self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
+        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
+        self.process_pron: Callable[[str], str] = self._get_process_pron(
             stress, syllable_boundaries, segment, tone
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
@@ -126,13 +126,12 @@ class Config:
         logging.info("Cut-off date: %r", cut_off_date_str)
         return cut_off_date_str
 
-    def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
-        default_func: Callable[[Word], Word] = lambda word: word  # noqa: E731
+    def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
+        default_func: Callable[[str], str] = lambda word: word  # noqa: E731
         return self._casefold_word if casefold else default_func
 
-    def _casefold_word(self, word: Word) -> Word:
-        # 'str.casefold' returns a 'str' so we need to cast it to a 'Word'
-        return cast(Word, str.casefold(word))
+    def _casefold_word(self, word: str) -> str:
+        return str.casefold(word)
 
     def _get_process_pron(
         self,
@@ -140,7 +139,7 @@ class Config:
         syllable_boundaries: bool,
         segment: bool,
         tone: bool,
-    ) -> Callable[[Pron], Pron]:
+    ) -> Callable[[str], str]:
         processors = []
         if not stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
@@ -155,7 +154,7 @@ class Config:
             )
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
-        def wrapper(pron):
+        def wrapper(pron: str):
             for processor in processors:
                 pron = processor(pron)
             # GH-59: Skip prons that are empty, or have only stress marks or
