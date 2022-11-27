@@ -150,6 +150,8 @@
 | [TSV](tsv/hye_armn_e_narrow_filtered.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian, standard | True | Narrow | True | 14,656 |
 | [TSV](tsv/hye_armn_w_narrow.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian, standard | False | Narrow | True | 14,505 |
 | [TSV](tsv/hye_armn_w_narrow_filtered.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian, standard | True | Narrow | True | 14,495 |
+| [TSV](tsv/iba_latn_broad.tsv) | iba | Iban | Iban | Latin |  | False | Broad | True | 310 |
+| [TSV](tsv/iba_latn_narrow.tsv) | iba | Iban | Iban | Latin |  | False | Narrow | True | 147 |
 | [TSV](tsv/ido_latn_broad.tsv) | ido | Ido | Ido | Latin |  | False | Broad | True | 6,990 |
 | [TSV](tsv/ilo_latn_broad.tsv) | ilo | Iloko | Ilocano | Latin |  | False | Broad | True | 331 |
 | [TSV](tsv/ilo_latn_narrow.tsv) | ilo | Iloko | Ilocano | Latin |  | False | Narrow | True | 221 |
