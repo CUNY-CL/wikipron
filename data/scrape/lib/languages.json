@@ -2128,6 +2128,16 @@
             "knda": "Kannada"
         }
     },
+    "tft": {
+        "iso639_name": "Ternate",
+        "wiktionary_name": "Ternate",
+        "wiktionary_code": "tft",
+        "casefold": true,
+        "script": {
+            "latn": "Latin",
+            "arab": "Arabic"
+        }
+    },
     "tgk": {
         "iso639_name": "Tajik",
         "wiktionary_name": "Tajik",
