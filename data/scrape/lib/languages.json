@@ -1064,8 +1064,8 @@
         }
     },
     "khb": {
-        "iso639_name": "L\u00fc",
-        "wiktionary_name": "L\u00fc",
+        "iso639_name": "Lü",
+        "wiktionary_name": "Lü",
         "wiktionary_code": "khb",
         "casefold": false,
         "script": {
@@ -1624,8 +1624,8 @@
         }
     },
     "nob": {
-        "iso639_name": "Norwegian Bokm\u00e5l",
-        "wiktionary_name": "Norwegian Bokm\u00e5l",
+        "iso639_name": "Norwegian Bokmål",
+        "wiktionary_name": "Norwegian Bokmål",
         "wiktionary_code": "nb",
         "casefold": true,
         "script": {
@@ -1651,7 +1651,7 @@
         }
     },
     "nrf": {
-        "iso639_name": "J\u00e8rriais",
+        "iso639_name": "Jèrriais",
         "wiktionary_name": "Norman",
         "wiktionary_code": "nrf",
         "casefold": true,
@@ -2172,7 +2172,7 @@
         }
     },
     "tpw": {
-        "iso639_name": "Tup\u00ed",
+        "iso639_name": "Tupí",
         "wiktionary_name": "Old Tupi",
         "wiktionary_code": "tpw",
         "casefold": true,
@@ -2280,19 +2280,19 @@
         "skip_spaces_word": false,
         "skip_spaces_pron": false,
         "dialect": {
-            "hanoi": "H\u00e0 N\u1ed9i",
-            "hcmc": "H\u1ed3 Ch\u00ed Minh City",
-            "hue": "Hu\u1ebf",
-            "tc": "Vinh, Thanh Ch\u01b0\u01a1ng",
-            "ht": "H\u00e0 T\u0129nh"
+            "hanoi": "Hà Nội",
+            "hcmc": "Hồ Chí Minh City",
+            "hue": "Huế",
+            "tc": "Vinh, Thanh Chương",
+            "ht": "Hà Tĩnh"
         },
         "script": {
             "latn": "Latin"
         }
     },
     "vol": {
-        "iso639_name": "Volap\u00fck",
-        "wiktionary_name": "Volap\u00fck",
+        "iso639_name": "Volapük",
+        "wiktionary_name": "Volapük",
         "wiktionary_code": "vo",
         "casefold": true,
         "script": {
@@ -2300,7 +2300,7 @@
         }
     },
     "wau": {
-        "iso639_name": "Waur\u00e1",
+        "iso639_name": "Waurá",
         "wiktionary_name": "Wauja",
         "wiktionary_code": "wau",
         "casefold": true,
@@ -2324,6 +2324,15 @@
         "casefold": true,
         "script": {
             "latn": "Latin"
+        }
+    },
+    "xal": {
+        "iso639_name": "Kalmyk, Oirat",
+        "wiktionary_name": "Kalmyk",
+        "wiktionary_code": "xal",
+        "casefold": true,
+        "script": {
+            "cyrl": "Cyrillic"
         }
     },
     "xho": {
