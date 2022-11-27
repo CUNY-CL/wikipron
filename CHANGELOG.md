@@ -54,6 +54,7 @@ Unreleased
 -   Added Livvi (`olo`). (\#459)
 -   Added Kalmyk (`xal`). (\#472)
 -   Added Ternate (`tft`). (\#473)
+-   Added Iban (`iba`). (\#476)
 
 #### Changed
 
