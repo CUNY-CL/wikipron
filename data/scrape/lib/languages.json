@@ -1329,6 +1329,15 @@
             "thai": "Thai"
         }
     },
+    "lzz": {
+        "iso639_name": "Laz",
+        "wiktionary_name": "Laz",
+        "wiktionary_code": "lzz",
+        "casefold": false,
+        "script": {
+            "geor": "Georgian"
+        }
+    },
     "mah": {
         "iso639_name": "Marshallese",
         "wiktionary_name": "Marshallese",
