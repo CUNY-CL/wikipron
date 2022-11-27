@@ -2336,6 +2336,15 @@
             "latn": "Latin"
         }
     },
+    "xal": {
+        "iso639_name": "Kalmyk, Oirat",
+        "wiktionary_name": "Kalmyk",
+        "wiktionary_code": "xal",
+        "casefold": true,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
+    },
     "xho": {
         "iso639_name": "Xhosa",
         "wiktionary_name": "Xhosa",
