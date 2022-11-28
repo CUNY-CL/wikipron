@@ -39,6 +39,9 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
 ]
 
+[project.scripts]
+wikipron = "wikipron.cli:main"
+
 [project.urls]
 Homepage = "https://github.com/CUNY-CL/wikipron"
 
