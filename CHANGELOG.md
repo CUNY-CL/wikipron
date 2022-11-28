@@ -121,6 +121,7 @@ Unreleased
 #### Changed
 
 -   Switched to ISO 639-3 language codes. (\#468)
+-   Converted `setup.py` to `pyproject.toml`.
 
 [1.2.0] - 2021-01-30
 --------------------

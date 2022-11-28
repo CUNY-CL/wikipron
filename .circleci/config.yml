@@ -1,16 +1,13 @@
 version: 2.1
 
 orbs:
-  # https://circleci.com/developer/orbs/orb/circleci/python
-  python: circleci/python@1.5.0
+  win: circleci/windows@5.0
 
 
 jobs:
   pre-build:
-    description: Install and run a Python standalone package
+    description: A check that needs to be done on only one supported Python version
     parameters:
-      command-name:
-        type: string
       command-run:
         type: string
     docker:
@@ -23,15 +20,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Create custom requirements
-          command: grep << parameters.command-name >> requirements.txt > << parameters.command-name >>_requirements.txt
-      - python/install-packages:
-          pkg-manager: pip
-          pip-dependency-file: << parameters.command-name >>_requirements.txt
-          cache-version: << parameters.command-name >>-v1
-      - run:
-          working_directory: ~/
-          command: << parameters.command-run >>
+          command: pip install -r requirements.txt
 
   build-python:
     parameters:
@@ -44,28 +33,38 @@ jobs:
         #  password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - python/install-packages:
-          pkg-manager: pip
-          pre-install-steps:
-              - run:
-                  name: Build source distribution and install package from it
-                  command: |
-                      pip install --progress-bar off --upgrade pip setuptools
-                      python setup.py sdist
-                      pip install dist/*.tar.gz
+      - run:
+          name: Build source distribution and install package from it
+          command: |
+              pip install -r requirements.txt && \
+              python -m build && \
+              pip install dist/`ls dist/ | grep .whl`
       - run:
           name: Show installed Python packages
           command: pip list -v
       - run:
           name: Run python tests
-          working_directory: ~/
-          # Avoid being able to import wikipron by relative import.
-          # Test code by importing the *installed* wikipron in site-packages.
           command: |
-              sudo chown circleci:circleci /home
-              pytest -vv project/tests --junitxml /tmp/testxml/report.xml
+              pytest -vv tests --junitxml /tmp/testxml/report.xml
       - store_test_results:
           path: /tmp/testxml/
+
+  build-python-win:
+    executor:
+      name: win/default
+      shell: powershell.exe
+    steps:
+      - checkout
+      - run: systeminfo
+      - run:
+          name: Run tests on Windows
+          shell: bash.exe
+          command: |
+            python --version && \
+            pip install -r requirements.txt && \
+            pip install . && \
+            pip list && \
+            pytest
 
 workflows:
   version: 2
@@ -73,21 +72,31 @@ workflows:
     jobs:
       - pre-build:
           name: flake8
-          command-name: flake8
-          command-run: flake8 project/setup.py project/wikipron project/tests
+          command-run: flake8 wikipron tests
       - pre-build:
           name: black
-          command-name: black
-          command-run: black --line-length=79 --check project/setup.py project/wikipron project/tests project/data
+          command-run: black --line-length=79 --check wikipron tests data
       - pre-build:
           name: mypy
-          command-name: mypy
-          command-run: mypy --install-types --ignore-missing-imports --non-interactive project/wikipron project/tests project/data
+          command-run: mypy --install-types --ignore-missing-imports --non-interactive wikipron tests data
+      - pre-build:
+          name: twine
+          command-run: |
+            python -m build && \
+            twine check dist/`ls dist/ | grep .tar.gz` && \
+            twine check dist/`ls dist/ | grep .whl`
       - build-python:
           requires:
             - flake8
             - black
             - mypy
+            - twine
           matrix:
             parameters:
               python-version: ["3.8", "3.9", "3.10", "3.11"]
+      - build-python-win:
+          requires:
+            - flake8
+            - black
+            - mypy
+            - twine
