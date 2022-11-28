@@ -1,13 +1,13 @@
 import re
 import time
 import unicodedata
+from importlib.metadata import version
 
 from typing import Any, Dict
 
 import requests
 import requests_html
 
-import wikipron
 from wikipron.config import Config
 from wikipron.typing import Iterator, WordPronPair
 
@@ -19,7 +19,7 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 # Http headers for api call
 HTTP_HEADERS = {
     "User-Agent": (
-        f"WikiPron/{wikipron.__version__} "
+        f"WikiPron/{version('wikipron')} "
         "(https://github.com/CUNY-CL/wikipron) "
         f"requests/{requests.__version__}"
     ),
