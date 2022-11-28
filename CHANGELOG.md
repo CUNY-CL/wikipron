@@ -12,6 +12,13 @@ Unreleased
 
 ### Under `data/`
 
+### Under `wikipron/` and elsewhere
+
+[1.3.0] - 2022-11-28
+--------------------
+
+### Under `data/`
+
 #### Added
 
 -   Big scrape for 2022. (\#464)
