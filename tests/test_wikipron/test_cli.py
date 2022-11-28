@@ -14,7 +14,7 @@ def test_terminal_command():
     assert shutil.which(_TERMINAL_COMMAND), (
         f'The terminal command "{_TERMINAL_COMMAND}" does not exist. '
         "Is the package not installed correctly? "
-        f'Or is the command "{_TERMINAL_COMMAND}" not defined in setup.py?'
+        f'Or is the command "{_TERMINAL_COMMAND}" not defined in pyproject.toml?'
     )
     smoke_test_command = f"{_TERMINAL_COMMAND} --help"
     help_manual = os.popen(smoke_test_command).read()

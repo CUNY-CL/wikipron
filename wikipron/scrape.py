@@ -4,10 +4,10 @@ import unicodedata
 
 from typing import Any, Dict
 
-import pkg_resources
 import requests
 import requests_html
 
+import wikipron
 from wikipron.config import Config
 from wikipron.typing import Iterator, WordPronPair
 
@@ -19,7 +19,7 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 # Http headers for api call
 HTTP_HEADERS = {
     "User-Agent": (
-        f"WikiPron/{pkg_resources.get_distribution('wikipron').version} "
+        f"WikiPron/{wikipron.__version__} "
         "(https://github.com/kylebgorman/wikipron) "
         f"requests/{requests.__version__}"
     ),
