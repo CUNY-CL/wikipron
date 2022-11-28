@@ -5,7 +5,7 @@ WikiPron
 version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipron)
 [![Supported Python
 versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org/project/wikipron)
-[![CircleCI](https://circleci.com/gh/CUNY-CL/wikipron/tree/master.svg?style=svg)](https://circleci.com/gh/CUNY-CL/wikipron/tree/master)
+[![CircleCI](https://circleci.com/gh/CUNY-CL/wikipron/tree/master.svg?style=shield)](https://circleci.com/gh/CUNY-CL/wikipron/tree/master)
 [![Paper](http://img.shields.io/badge/paper-ACL:2020.lrec--1.521-B31B1B.svg)](https://www.aclweb.org/anthology/2020.lrec-1.521/)
 [![Conference](http://img.shields.io/badge/LREC-2020-4b44ce.svg)](https://lrec2020.lrec-conf.org/en/)
 
@@ -32,8 +32,6 @@ Command-line tool
 -----------------
 
 ### Installation
-
-WikiPron requires Python 3.6+. It is available from PyPI:
 
 ```bash
 pip install wikipron
