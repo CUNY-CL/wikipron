@@ -28,18 +28,18 @@ _DIALECT_XPATH_SELECTOR_TEMPLATE = (
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, Pron, WordPronPair
+    from wikipron.typing import Iterator, WordPronPair
 
 
 def extract_pron(
     request: requests_html, selector: str, config: "Config"
-) -> "Iterator[Pron]":
+) -> "Iterator[str]":
     for pron_element in request.html.xpath(selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_vie(
-    word: "Word", request: requests_html, config: "Config"
+    word: str, request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     if config.dialect:
         dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(

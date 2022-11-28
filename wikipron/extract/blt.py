@@ -21,11 +21,11 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, WordPronPair
+    from wikipron.typing import Iterator, WordPronPair
 
 
 def extract_word_pron_blt(
-    word: "Word", request: requests_html, config: "Config"
+    word: str, request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(language=config.language)

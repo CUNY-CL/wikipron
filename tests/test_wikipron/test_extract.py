@@ -11,7 +11,7 @@ from wikipron.extract.default import extract_word_pron_default
 )
 def test_extraction_functions_have_the_same_signature(func):
     expected_annotations = {
-        "word": "Word",
+        "word": str,
         "request": requests_html,
         "config": "Config",
         "return": "Iterator[WordPronPair]",

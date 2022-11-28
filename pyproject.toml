@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools >= 65.3.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wikipron"
+version = "1.3.0"
+description = "Scraping grapheme-to-phoneme data from Wiktionary"
+readme = "README.md"
+requires-python = ">= 3.8.*"
+license = { text = "Apache 2.0" }
+authors = [ { name = "WikiPron authors", email = "kylebgorman@gmail.com" } ]
+keywords = [
+    "computational linguistics",
+    "natural language processing",
+    "phonology",
+    "phonetics",
+    "speech",
+    "language",
+    "Wiktionary",
+]
+dependencies = [
+    'python-iso639 >= 2022.11.27',
+    'requests',
+    'requests-html',
+    'segments >= 2.2.0, < 3',
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+wikipron = "wikipron.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/CUNY-CL/wikipron"
+
+[tool.setuptools]
+zip-safe = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.pytest.ini_options]
+addopts = "-vv --durations=0 --strict-markers"
+testpaths = ["tests"]

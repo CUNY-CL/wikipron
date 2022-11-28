@@ -1,15 +1,13 @@
 import requests
 
-from typing import TYPE_CHECKING, Callable, Iterator, NewType, Tuple
+from typing import TYPE_CHECKING, Callable, Iterator, Tuple
 
 
 if TYPE_CHECKING:
     from wikipron.config import Config  # noqa: F401
 
 
-Word = NewType("Word", str)
-Pron = NewType("Pron", str)
-WordPronPair = Tuple[Word, Pron]
+WordPronPair = Tuple[str, str]
 ExtractFunc = Callable[
-    [Word, requests.Response, "Config"], Iterator[WordPronPair]
+    [str, requests.Response, "Config"], Iterator[WordPronPair]
 ]

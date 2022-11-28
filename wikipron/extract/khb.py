@@ -1,7 +1,7 @@
 """Word and pron extraction for Lü.
 
 Customized extractor for Lü has to deal with wrong titles (see the
-original report here: https://github.com/kylebgorman/wikipron/issues/86).
+original report here: https://github.com/CUNY-CL/wikipron/issues/86).
 """
 
 import itertools
@@ -25,11 +25,11 @@ _IPA_XPATH_SELECTOR = """
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, WordPronPair
+    from wikipron.typing import Iterator, WordPronPair
 
 
 def extract_word_pron_lu(
-    word: "Word", request: requests_html, config: "Config"
+    word: str, request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     prons = yield_pron(request.html, _IPA_XPATH_SELECTOR, config)

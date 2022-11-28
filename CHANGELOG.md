@@ -12,6 +12,13 @@ Unreleased
 
 ### Under `data/`
 
+### Under `wikipron/` and elsewhere
+
+[1.3.0] - 2022-11-28
+--------------------
+
+### Under `data/`
+
 #### Added
 
 -   Big scrape for 2022. (\#464)
@@ -111,14 +118,19 @@ Unreleased
 -  Added Min Nan extraction function. (\#397)
 -  Added Tai Dam extraction function, configuration and initial scrape. (\#435)
 -  Added test of `casefold` value for languages in `data/scrape/lib/languages.json` (\#442)
+-  Added support for Python 3.11. (\#479)
+-  Added checks for the Python source distribution and wheel on CI. (\#479)
+-  Turned on tests for Windows on CI. (\#479)
 
 #### Removed
 
 -  Dropped support for Python 3.6. (\#462)
+-  Dropped support for Python 3.7. (\#479)
 
 #### Changed
 
 -   Switched to ISO 639-3 language codes. (\#468)
+-   Converted `setup.py` to `pyproject.toml`. (\#479)
 
 [1.2.0] - 2021-01-30
 --------------------

@@ -51,7 +51,7 @@ from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Pron, Word, WordPronPair
+    from wikipron.typing import Iterator, WordPronPair
 
 
 _TOC_ETYMOLOGY_XPATH_SELECTOR = """
@@ -98,7 +98,7 @@ def _get_tags(request: requests_html) -> List[str]:
     return tags
 
 
-def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[Word]":
+def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[str]":
     heading = "h2" if tag == "Latin" else "h3"
     word_xpath_selector = _WORD_XPATH_TEMPLATE.format(heading=heading, tag=tag)
     try:
@@ -116,7 +116,7 @@ def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[Word]":
 
 def _yield_latin_pron(
     request: requests_html, config: "Config", tag: str
-) -> "Iterator[Pron]":
+) -> "Iterator[str]":
     heading = "h2" if tag == "Latin" else "h3"
     if config.dialect:
         dialect_selector = _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE.format(
@@ -136,7 +136,7 @@ def _yield_latin_pron(
 
 
 def extract_word_pron_latin(
-    word: "Word", request: requests_html, config: "Config"
+    word: str, request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     # For Latin, we don't use the title word from the Wiktionary page,
     # because it never has macrons (necessary for Latin vowel length).

@@ -10,7 +10,7 @@ from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, Pron, WordPronPair
+    from wikipron.typing import Iterator, WordPronPair
 
 
 # /ul/li[small[i[a[@title="w:Hokkien"]]]] is arbitarily selecting
@@ -34,13 +34,13 @@ _DIALECT_XPATH_SELECTOR_TEMPLATE = """
 
 def yield_nan_pron(
     request: requests_html, selector: str, config: "Config"
-) -> "Iterator[Pron]":
+) -> "Iterator[str]":
     for li_container in request.html.xpath(selector):
         yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_nan(
-    word: "Word", request: requests_html, config: "Config"
+    word: str, request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     if config.dialect:
         dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(

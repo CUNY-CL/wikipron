@@ -210,7 +210,7 @@ def test_american_english_dialect_selection():
     "expected_language, keys",
     [
         # Languages that the iso639 package can directly handle.
-        ("English", {"en", "eng", "english", "English"}),
+        ("English", {"en", "eng", "English"}),
         ("Spanish", {"spa", "es"}),
         # Languages handled by our own _LANGUAGE_CODES dict.
         ("Greek", {"el", "ell", "gre", "Greek"}),

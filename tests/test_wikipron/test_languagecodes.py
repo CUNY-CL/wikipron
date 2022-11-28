@@ -31,7 +31,7 @@ def test_language_coverage():
             continue
         try:
             language_code = iso639.Language.match(language).part3
-        except AttributeError:
+        except iso639.LanguageNotFoundError:
             # Check if WikiPron can handle `language` directly.
             language_code = language
         try:
