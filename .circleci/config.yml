@@ -21,6 +21,8 @@ jobs:
       - checkout
       - run:
           command: pip install -r requirements.txt
+      - run:
+          command: << parameters.command-run >>
 
   build-python:
     parameters:
