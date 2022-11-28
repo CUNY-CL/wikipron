@@ -190,7 +190,7 @@ class Config:
                     "Wiktionary. The dialect parameter, specified for "
                     "%r, may or may not work as desired. "
                     "If you notice any issues, please report them at "
-                    "https://github.com/kylebgorman/wikipron/issues.",
+                    "https://github.com/CUNY-CL/wikipron/issues.",
                     language,
                     self.dialect,
                 )

@@ -20,7 +20,7 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 HTTP_HEADERS = {
     "User-Agent": (
         f"WikiPron/{wikipron.__version__} "
-        "(https://github.com/kylebgorman/wikipron) "
+        "(https://github.com/CUNY-CL/wikipron) "
         f"requests/{requests.__version__}"
     ),
 }

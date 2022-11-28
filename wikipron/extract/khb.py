@@ -1,7 +1,7 @@
 """Word and pron extraction for Lü.
 
 Customized extractor for Lü has to deal with wrong titles (see the
-original report here: https://github.com/kylebgorman/wikipron/issues/86).
+original report here: https://github.com/CUNY-CL/wikipron/issues/86).
 """
 
 import itertools

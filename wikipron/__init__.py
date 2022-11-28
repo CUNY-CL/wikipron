@@ -6,5 +6,5 @@ from wikipron.config import Config
 from wikipron.scrape import scrape
 
 
-__version__ = version("wikipron")
+__version__: str = version("wikipron")
 __all__ = ["__version__", "Config", "scrape"]
