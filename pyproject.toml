@@ -45,6 +45,9 @@ Homepage = "https://github.com/CUNY-CL/wikipron"
 [tool.setuptools]
 zip-safe = false
 
+[tool.setuptools.packages.find]
+where = [ "." ]
+
 [tool.pytest.ini_options]
 addopts = "-vv --durations=0 --strict-markers"
 testpaths = ["tests"]
