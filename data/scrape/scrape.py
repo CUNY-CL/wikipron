@@ -12,7 +12,7 @@ from typing import Any, Dict, FrozenSet, Iterator
 
 import wikipron  # type: ignore
 
-from lib.codes import (
+from data.scrape.lib.codes import (
     LANGUAGES_PATH,
     LOGGING_PATH,
     PHONES_DIRECTORY,
