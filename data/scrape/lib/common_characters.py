@@ -59,7 +59,7 @@ def _extend_regex(
 def _is_common(word: str) -> Optional[str]:
     """Returns any Common characters."""
     for char in word:
-        if unicodedataplus.script(char) == "Inherited":
+        if unicodedataplus.script(char) == "Common":
             # Space characters don't count.
             if regex.search(r"[\s]+", word):
                 continue

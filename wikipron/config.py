@@ -3,7 +3,7 @@ import functools
 import logging
 import re
 
-from typing import Callable, Optional, cast
+from typing import Callable, Optional
 
 import iso639
 import segments
@@ -11,7 +11,7 @@ import segments
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.default import extract_word_pron_default
 from wikipron.languagecodes import LANGUAGE_CODES
-from wikipron.typing import ExtractFunc, Pron, Word
+from wikipron.typing import ExtractFunc
 
 # GH-49: Estonian and Slovak use @title = "wikipedia:{language} phonology".
 # GH-50: Korean has an extra "span" layer (for fonts) in //li[span[sup[a.
@@ -58,7 +58,7 @@ class Config:
         stress: bool = True,
         syllable_boundaries: bool = True,
         cut_off_date: Optional[str] = None,
-        phonetic: bool = False,
+        narrow: bool = False,
         dialect: Optional[str] = None,
         segment: bool = True,
         tone: bool = True,
@@ -67,12 +67,12 @@ class Config:
         skip_parens: bool = True,
     ):
         self.language: str = self._get_language(key)
-        self.casefold: Callable[[Word], Word] = self._get_casefold(casefold)
-        self.process_pron: Callable[[Pron], Pron] = self._get_process_pron(
+        self.casefold: Callable[[str], str] = self._get_casefold(casefold)
+        self.process_pron: Callable[[str], str] = self._get_process_pron(
             stress, syllable_boundaries, segment, tone
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
-        self.ipa_regex: str = _PHONES_REGEX if phonetic else _PHONEMES_REGEX
+        self.ipa_regex: str = _PHONES_REGEX if narrow else _PHONEMES_REGEX
         self.pron_xpath_selector: str = self._get_pron_xpath_selector(
             self.language, dialect
         )
@@ -86,51 +86,52 @@ class Config:
         self.restart_key = None
 
     def _get_language(self, key) -> str:
-        key = key.lower().strip()
-        if key.startswith("proto-"):
+        key = key.strip()
+        if key.lower().startswith("proto-"):
             language = "-".join(x.title() for x in key.split("-"))
             return language
         try:
-            language = LANGUAGE_CODES[key]
+            language = LANGUAGE_CODES[key.lower()]
         except KeyError:
-            # In some cases it returns "Language; Dialect";
-            # we just save the "first half".
-            language = iso639.to_name(key).split(";")[0]
+            func = iso639.Language.match
+            try:
+                language = (
+                    func(key) or func(key.lower()) or func(key.title())
+                ).name
+            except iso639.LanguageNotFoundError:
+                raise ValueError(f"Unrecognized language code or name: {key}")
         logging.info("Language: %r", language)
         return language
 
-    def _get_cut_off_date(self, cut_off_date: Optional[str]) -> str:
+    def _get_cut_off_date(self, cut_off_date_str: Optional[str]) -> str:
         today = datetime.date.today()
-        if not cut_off_date:
+        if not cut_off_date_str:
             logging.info("No cut-off date specified")
             return today.isoformat()
         try:
-            # TODO: when we require Python 3.7+ later, we can do this:
-            #  d = datetime.date.fromisoformat(cut_off_date)
-            d = datetime.datetime.strptime(cut_off_date, "%Y-%m-%d").date()
+            cut_off_date = datetime.date.fromisoformat(cut_off_date_str)
         except ValueError as e:
             msg = (
                 "Cut-off date must be in ISO format (e.g., 2019-10-23): "
-                f"{cut_off_date}"
+                f"{cut_off_date_str}"
             )
             raise ValueError(msg) from e
-        if d > today:
+        if cut_off_date > today:
             msg = (
                 "Cut-off date cannot be later than today's date: "
-                f"{cut_off_date}"
+                f"{cut_off_date_str}"
             )
             raise ValueError(msg)
 
-        logging.info("Cut-off date: %r", cut_off_date)
-        return cut_off_date
+        logging.info("Cut-off date: %r", cut_off_date_str)
+        return cut_off_date_str
 
-    def _get_casefold(self, casefold: bool) -> Callable[[Word], Word]:
-        default_func: Callable[[Word], Word] = lambda word: word  # noqa: E731
+    def _get_casefold(self, casefold: bool) -> Callable[[str], str]:
+        default_func: Callable[[str], str] = lambda word: word  # noqa: E731
         return self._casefold_word if casefold else default_func
 
-    def _casefold_word(self, word: Word) -> Word:
-        # 'str.casefold' returns a 'str' so we need to cast it to a 'Word'
-        return cast(Word, str.casefold(word))
+    def _casefold_word(self, word: str) -> str:
+        return str.casefold(word)
 
     def _get_process_pron(
         self,
@@ -138,7 +139,7 @@ class Config:
         syllable_boundaries: bool,
         segment: bool,
         tone: bool,
-    ) -> Callable[[Pron], Pron]:
+    ) -> Callable[[str], str]:
         processors = []
         if not stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
@@ -153,7 +154,7 @@ class Config:
             )
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
-        def wrapper(pron):
+        def wrapper(pron: str):
             for processor in processors:
                 pron = processor(pron)
             # GH-59: Skip prons that are empty, or have only stress marks or
@@ -189,7 +190,7 @@ class Config:
                     "Wiktionary. The dialect parameter, specified for "
                     "%r, may or may not work as desired. "
                     "If you notice any issues, please report them at "
-                    "https://github.com/kylebgorman/wikipron/issues.",
+                    "https://github.com/CUNY-CL/wikipron/issues.",
                     language,
                     self.dialect,
                 )

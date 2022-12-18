@@ -1,15 +1,15 @@
 import re
 import time
 import unicodedata
+from importlib.metadata import version
 
-from typing import Any, Dict, cast
+from typing import Any, Dict
 
-import pkg_resources
 import requests
 import requests_html
 
 from wikipron.config import Config
-from wikipron.typing import Iterator, Pron, WordPronPair
+from wikipron.typing import Iterator, WordPronPair
 
 # Queries for the MediaWiki backend.
 # Documentation here: https://www.mediawiki.org/wiki/API:Categorymembers
@@ -19,8 +19,8 @@ _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
 # Http headers for api call
 HTTP_HEADERS = {
     "User-Agent": (
-        f"WikiPron/{pkg_resources.get_distribution('wikipron').version} "
-        "(https://github.com/kylebgorman/wikipron) "
+        f"WikiPron/{version('wikipron')} "
+        "(https://github.com/CUNY-CL/wikipron) "
         f"requests/{requests.__version__}"
     ),
 }
@@ -64,8 +64,7 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
             # Pronunciation processing is done in NFD-space;
             # we convert back to NFC afterwards.
             normalized_pron = unicodedata.normalize("NFC", pron)
-            # 'cast' is required 'normalize' doesn't return a 'Pron'
-            yield word, cast(Pron, normalized_pron)
+            yield word, normalized_pron
 
 
 def _language_name_for_scraping(language):

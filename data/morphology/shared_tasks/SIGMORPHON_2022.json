@@ -1,0 +1,44 @@
+{
+    "asm": [
+        "https://raw.githubusercontent.com/unimorph/asm/master/asm"
+    ],
+    "bel": [
+        "https://raw.githubusercontent.com/unimorph/bel/master/bel"
+    ],
+    "ben": [
+        "https://raw.githubusercontent.com/unimorph/ben/master/ben"
+    ],
+    "ceb": [
+        "https://raw.githubusercontent.com/unimorph/ceb/master/ceb"
+    ],
+    "dut": [
+        "https://raw.githubusercontent.com/unimorph/nld/master/nld"
+    ],
+    "ger": [
+        "https://raw.githubusercontent.com/unimorph/deu/master/deu"
+    ],
+    "ita": [
+        "https://raw.githubusercontent.com/unimorph/ita/master/ita"
+    ],
+    "nno": [
+        "https://raw.githubusercontent.com/unimorph/nno/master/nno"
+    ],
+    "per": [
+        "https://raw.githubusercontent.com/unimorph/fas/master/fas"
+    ],
+    "pus": [
+        "https://raw.githubusercontent.com/unimorph/pus/master/pus"
+    ],
+    "rum": [
+        "https://raw.githubusercontent.com/unimorph/ron/master/ron"
+    ],
+    "swe": [
+        "https://raw.githubusercontent.com/unimorph/swe/master/swe"
+    ],
+    "tgl": [
+        "https://raw.githubusercontent.com/unimorph/tgl/master/tgl"
+    ],
+    "ukr": [
+        "https://raw.githubusercontent.com/unimorph/ukr/master/ukr"
+    ]
+}

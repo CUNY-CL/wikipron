@@ -5,7 +5,7 @@ WikiPron
 version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipron)
 [![Supported Python
 versions](https://img.shields.io/pypi/pyversions/wikipron.svg)](https://pypi.org/project/wikipron)
-[![CircleCI](https://circleci.com/gh/kylebgorman/wikipron/tree/master.svg?style=svg)](https://circleci.com/gh/kylebgorman/wikipron/tree/master)
+[![CircleCI](https://circleci.com/gh/CUNY-CL/wikipron/tree/master.svg?style=shield)](https://circleci.com/gh/CUNY-CL/wikipron/tree/master)
 [![Paper](http://img.shields.io/badge/paper-ACL:2020.lrec--1.521-B31B1B.svg)](https://www.aclweb.org/anthology/2020.lrec-1.521/)
 [![Conference](http://img.shields.io/badge/LREC-2020-4b44ce.svg)](https://lrec2020.lrec-conf.org/en/)
 
@@ -24,7 +24,7 @@ If you use WikiPron in your research, please cite the following:
 Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean
 Miller, Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020). [Massively
 multilingual pronunciation mining with
-WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In In *Proceedings
+WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In *Proceedings
 of the 12th Language Resources and Evaluation Conference*, pages 4223-4228.
 \[[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)\]
 
@@ -32,8 +32,6 @@ Command-line tool
 -----------------
 
 ### Installation
-
-WikiPron requires Python 3.6+. It is available through pip:
 
 ```bash
 pip install wikipron
@@ -53,7 +51,6 @@ wikipron fra
 #### Specifying the Language
 
 The language is indicated by a three-letter [ISO
-639-2](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes) or [ISO
 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) language code,
 e.g., `fra` for French. For which languages can be scraped,
 [here](https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language)
@@ -75,10 +72,10 @@ to segment the transcription into whitespace. The segmentation tends to place
 IPA diacritics and modifiers on the "parent" symbol. For instance, \[kʰæt\] is
 rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
-#### Parentheses 
+#### Parentheses
 
 Some of transcriptions contain parentheses to indicate alternative pronunciations.
-The parentheses (but not the content) are discarded in the scrape unless the 
+The parentheses (but not the content) are discarded in the scrape unless the
 `--no-skip-parens` flag is used.
 
 #### Output
@@ -129,8 +126,8 @@ for word, pron in wikipron.scrape(config):
 Data
 ----
 
-We also make available [a database of 2.5 million word/pronunciation
-pairs](https://github.com/kylebgorman/wikipron/tree/master/data) mined using
+We also make available [a database of over 3 million word/pronunciation
+pairs](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using
 WikiPron.
 
 Models
@@ -145,7 +142,8 @@ Development
 ### Repository
 
 The source code of WikiPron is hosted on GitHub at
-https://github.com/kylebgorman/wikipron, where development also happens.
+[`https://github.com/CUNY-CL/wikipron`](https://github.com/CUNY-CL/wikipron),
+where development also happens.
 
 For the latest changes not yet released through `pip` or working on the codebase
 yourself, you may obtain the latest source code through GitHub and `git`:
@@ -161,28 +159,28 @@ yourself, you may obtain the latest source code through GitHub and `git`:
     ```bash
     git clone https://github.com/<your-github-username>/wikipron.git
     cd wikipron
-    pip install --upgrade pip setuptools
+    pip install -U pip setuptools
     pip install -r requirements.txt
     pip install --no-deps -e .
     ```
 
 We keep track of notable changes in
-[CHANGELOG.md](https://github.com/kylebgorman/wikipron/blob/master/CHANGELOG.md).
+[`CHANGELOG.md`](https://github.com/CUNY-CL/wikipron/blob/master/CHANGELOG.md).
 
 ### Contribution
 
 For questions, bug reports, and feature requests, please [file an
-issue](https://github.com/kylebgorman/wikipron/issues).
+issue](https://github.com/CUNY-CL/wikipron/issues).
 
 If you would like to contribute to the `wikipron` codebase, please see
-[CONTRIBUTING.md](https://github.com/kylebgorman/wikipron/blob/master/CONTRIBUTING.md).
+[CONTRIBUTING.md](https://github.com/CUNY-CL/wikipron/blob/master/CONTRIBUTING.md).
 
 ### License
 
 WikiPron is released under an Apache 2.0 license. Please see
-[LICENSE.txt](https://github.com/kylebgorman/wikipron/blob/master/LICENSE.txt)
+[LICENSE.txt](https://github.com/CUNY-CL/wikipron/blob/master/LICENSE.txt)
 for details.
 
 Please note that Wiktionary data in the
-[`data/`](https://github.com/kylebgorman/wikipron/tree/master/data) directory has
+[`data/`](https://github.com/CUNY-CL/wikipron/tree/master/data) directory has
 [its own licensing terms](https://en.wiktionary.org/wiki/Wiktionary:Copyrights).

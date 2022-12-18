@@ -12,8 +12,18 @@ Unreleased
 
 ### Under `data/`
 
+### Under `wikipron/` and elsewhere
+
+[1.3.0] - 2022-11-28
+--------------------
+
+### Under `data/`
+
 #### Added
 
+-   Big scrape for 2022. (\#464)
+-   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
+-   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
 -   Added `data/src/normalize.py`. (\#356)
 -   Updated `README.md`. (\#360)
 -   Added `data/cg/tsv/geo.tsv`. (\#367)
@@ -24,12 +34,50 @@ Unreleased
 -   Adds all UniMorph languages to morphology. (\#393)
 -   Added `data/covering_grammar/tsv/fre_latn_phonemic.tsv` (\#398)
 -   Added `data/covering_grammar/lib/make_test_file.py` (\#396, \#399)
--   Scraped Komi-Zyrian (`kpv`). (\#400)
+-   Added Komi-Zyrian (`kpv`). (\#400)
+-   Added Makasar (`mak`). (\#415, #419)
+-   Added Zou (`zom`). (\#421)
+-   Added Wiyot (`wiy`). (\#422)
+-   Added Sidamo (`sid`). (\#423)
+-   Added Central Atlas Tamazight (`tzm`). (\#429)
+-   Added Chibcha (`chb`). (\#430)
+-   Added Kashmiri (`kas`). (\#431)
+-   Added Malayalam (`mal`). (\#434)
+-   Added Dhivehi (`div`). (\#437)
+-   Added Akkadian (`akk`). (\#441)
+-   Added Central Nahuatl (`nhn`). (\#443)
+-   Added Etruscan (`ett`). (\#444)
+-   Added Gujarati (`guj`). (\#445)
+-   Added Kannada (`kan`). (\#446)
+-   Added Karelian (`krl`). (\#447)
+-   Added Romagnol (`rgn`). (\#448)
+-   Added Southern Yukaghir (`yux`). (\#449)
+-   Added Urak Lawoi' (`urk`). (\#451)
+-   Added Hausa (`ha`). (\#452)
+-   Added Kashubian (`csb`). (\#453)
+-   Added Tabaru (`tby`). (\#455)
+-   Added West Makian (`mqs`). (\#457)
+-   Added Amharic (`amh`). (\#458)
+-   Added Livvi (`olo`). (\#459)
+-   Added Kalmyk (`xal`). (\#472)
+-   Added Ternate (`tft`). (\#473)
+-   Added Abkhaz (`abk`). (\#474)
+-   Added Farefare (`gur`). (\#475)
+-   Added Iban (`iba`). (\#476)
+-   Added Laz (`lzz`). (\#477)
 
 #### Changed
 
+-   Switched to ISO 639-3 language codes. (\#468)
+-   Updated scraped data in preparation for the SIGMORPHON 2022 shared task:
+    `swe nno ger dut ita rum ukr bel tgl ceb ben asm per pus tha lwl`. (\#461)
+-   Made scripts under `data/frequencies/` and `data/morphology/` more flexible,
+    especially for the purposes of preparing data for a shared task. (\#461)
+-   Fixed the `--restriction` flag for specifying multiple languages in `data/scrape/scrape.py`. (\#460)
+-   Added covering grammar coverage error log and specified error_type in error_analysis.py. (\#424)
+-   Added error log writing in error_analysis.py. (\#420)
 -   Added new columns in summary tables. (\#365)
--   Fixed broken paths in `data/src/generate_phones_summary.py` and in 
+-   Fixed broken paths in `data/src/generate_phones_summary.py` and in
     `data/phones/HOWTO.md`. (\#352)
 -   Added Atong (India) (`aot`). (\#353)
 -   Added Egyptian Arabic (`arz`). (\#354)
@@ -51,15 +99,38 @@ Unreleased
 -   Reorganizes CG files and related scripts under `data/covering_grammar` (\#395)
 -   Reorganized `data/phones/phones/fre_phonemic.phones` (\#398)
 -   Removed `data/src/` (\#401)
--   Fixed Column ordering of the test file read by the script in 
+-   Renamed TSV files and phonelists to use the terms "broad"/"narrow" instead
+    of "phonemic"/"phonetic" (\#389, \#402, \#405)
+-   Fixed typo in `README.md` (\#407)
+-   Fixed column ordering of the test file read by the script in
     `data/covering_grammar/lib/error_analysis.py` (\#411)
+-   Fixed Common character collection in `common_characters.py` (\#419)
+-   Scraping test fixed for `blt`. (\#436)
+-   Changed URLs to point at CUNY-CL repo, where applicable. (\#438)
 
 ### Under `wikipron/` and elsewhere
 
 #### Added
 
+-  Added `ckb` in `languagecodes.py`. (\#464)
+-  Added support for Python 3.10. (\#462)
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
 -  Added Min Nan extraction function. (\#397)
+-  Added Tai Dam extraction function, configuration and initial scrape. (\#435)
+-  Added test of `casefold` value for languages in `data/scrape/lib/languages.json` (\#442)
+-  Added support for Python 3.11. (\#479)
+-  Added checks for the Python source distribution and wheel on CI. (\#479)
+-  Turned on tests for Windows on CI. (\#479)
+
+#### Removed
+
+-  Dropped support for Python 3.6. (\#462)
+-  Dropped support for Python 3.7. (\#479)
+
+#### Changed
+
+-   Switched to ISO 639-3 language codes. (\#468)
+-   Converted `setup.py` to `pyproject.toml`. (\#479)
 
 [1.2.0] - 2021-01-30
 --------------------
@@ -68,7 +139,7 @@ Unreleased
 
 #### Added
 
--   Added generate_phones_summary.py, generating `./phones/README.md` and `./phones/phones_summary.tsv`. (\#344) 
+-   Added generate_phones_summary.py, generating `./phones/README.md` and `./phones/phones_summary.tsv`. (\#344)
 -   Added Afrikaans whitelists, filtered TSV file, rescraped phonemic and phonetic TSV files. (\#311)
 -   Added German whitelists and filtered TSV file. (\#285)
 -   Added whitelisting capabilities to `postprocess`. (\#152)

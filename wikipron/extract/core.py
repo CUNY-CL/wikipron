@@ -10,7 +10,7 @@ import requests_html
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Pron
+    from wikipron.typing import Iterator
 
 
 def _skip_pron(pron: str, skip_spaces: bool) -> bool:
@@ -31,7 +31,7 @@ def yield_pron(
     request_html: requests_html.Element,
     ipa_xpath_selector: str,
     config: "Config",
-) -> "Iterator[Pron]":
+) -> "Iterator[str]":
     for ipa_element in request_html.xpath(ipa_xpath_selector):
         m = re.search(config.ipa_regex, ipa_element.text)
         if not m:

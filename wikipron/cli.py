@@ -15,9 +15,9 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         "key", help="key (i.e., ISO 639 code or name) for the language"
     )
     parser.add_argument(
-        "--phonetic",
+        "--narrow",
         action="store_true",
-        help="retrieves [phonetic] rather than /phonemic/ transcriptions",
+        help="retrieves [narrow] rather than /broad/ transcriptions",
     )
     parser.add_argument(
         "--stress",
@@ -50,7 +50,7 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
     parser.add_argument(
         "--casefold",
         action="store_true",
-        help="apply case-folding to the orthographic form",
+        help="applies case-folding to the orthographic form",
     )
     parser.add_argument(
         "--cut-off-date",
@@ -60,43 +60,43 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         "--segment",
         action="store_true",
         default=True,
-        help="segment the IPA pronunciation (e.g., with whitespace)",
+        help="segments the IPA pronunciation (e.g., with whitespace)",
     )
     parser.add_argument(
         "--no-segment",
         action="store_false",
         dest="segment",
-        help="do not segment the IPA pronunciation",
+        help="does not segment the IPA pronunciation",
     )
     parser.add_argument(
         "--skip-spaces-word",
         action="store_true",
         default=True,
-        help="skip entries with space in orthographic form",
+        help="skips entries with space in orthographic form",
     )
     parser.add_argument(
         "--no-skip-spaces-word",
         dest="skip_spaces_word",
         action="store_false",
-        help="do not skip entries with space in orthographic form",
+        help="does not skip entries with space in orthographic form",
     )
     parser.add_argument(
         "--skip-spaces-pron",
         action="store_true",
         default=True,
-        help="skip entries with space in the transcription",
+        help="skips entries with space in the transcription",
     )
     parser.add_argument(
         "--no-skip-spaces-pron",
         dest="skip_spaces_pron",
         action="store_false",
-        help="do not skip entries with space in the transcript",
+        help="does not skip entries with space in the transcript",
     )
     parser.add_argument(
         "--tone",
         action="store_true",
         default=True,
-        help="include tones in the transcriptions",
+        help="includes tones in the transcriptions",
     )
     parser.add_argument(
         "--no-tone",
@@ -108,13 +108,13 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         "--skip-parens",
         action="store_true",
         default=True,
-        help="remove parentheses from the transcriptions",
+        help="removes parentheses from the transcriptions",
     )
     parser.add_argument(
         "--no-skip-parens",
         action="store_false",
         dest="skip_parens",
-        help="include parentheses in the transcriptions",
+        help="includes parentheses in the transcriptions",
     )
     return parser.parse_args(args)
 

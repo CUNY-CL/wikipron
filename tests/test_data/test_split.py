@@ -171,6 +171,55 @@ _SMOKE_TEST_LANGUAGES = [
         "Georgian",
         [("ააბარგებს", True), ("ژלرنال", False), ("wikipron", False)],
     ),
+    SmokeTestScript(
+        "Tifinagh",
+        [("ⵜⴼⵏⵗ", True), ("ⵜⵉⴼⵉⵏⴰⵖ", True), ("wikipron", False)],
+    ),
+    SmokeTestScript(
+        "Sharada",
+        [
+            ("𑆉𑆇𑆃𑆂", True),
+            ("𑆯𑆳𑆫𑆢𑆳", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Tai Viet",
+        [
+            ("ꪮ꪿ꪮꪙꪙ꫁ꪮꪥ", True),
+            ("ꪐ꫞ꫛꪛ", True),
+            ("ፊደል", False),
+            ("tiếng Việt", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Thaana",
+        [
+            ("ތާނަ", True),
+            ("އޫޟ", True),
+            ("اُردُو", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Cuneiform",
+        [
+            ("𒄑𒉿𒌆", True),
+            ("𒁲𒋻", True),
+            ("جܡ", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Ethiopic",
+        [
+            ("እናት", True),
+            ("ግዕዝ", True),
+            ("𐩣𐩣𐩾", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 

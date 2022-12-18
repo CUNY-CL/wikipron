@@ -30,13 +30,13 @@ def test_language_coverage():
             # the Mon language (ISO 639 code: "mnw").
             continue
         try:
-            language_code = iso639.to_iso639_2(language)
-        except iso639.NonExistentLanguageError:
+            language_code = iso639.Language.match(language).part3
+        except iso639.LanguageNotFoundError:
             # Check if WikiPron can handle `language` directly.
             language_code = language
         try:
             language_inferred = wikipron.Config(key=language_code).language
-        except iso639.NonExistentLanguageError:
+        except ValueError:
             warnings.warn(f'WikiPron cannot handle "{language}".')
             continue
         if language_inferred != language:

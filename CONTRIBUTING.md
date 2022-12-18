@@ -5,23 +5,23 @@ Thank you for your interest in contributing to the `wikipron` codebase!
 This page assumes that you have already created a fork of the `wikipron` repo
 under your GitHub account and have the codebase available locally for
 development work. If you have followed
-[these steps](https://github.com/kylebgorman/wikipron#development),
+[these steps](https://github.com/CUNY-CL/wikipron#development),
 then you are all set.
 
 ## Working on a Feature or Bug Fix
 
 The development steps below assumes that your local Git repo has a remote
-`upstream` link to `kylebgorman/wikipron`:
+`upstream` link to `CUNY-CL/wikipron`:
    
 ```bash
-git remote add upstream https://github.com/kylebgorman/wikipron.git
+git remote add upstream https://github.com/CUNY-CL/wikipron.git
 ```
 
 After this step (which you only have to do once),
 running `git remote -v` should show your local Git repo
 has links to both "origin"
 (pointing to your fork `<your-github-username>/wikipron`)
-and "upstream" (pointing to `kylebgorman/wikipron`).
+and "upstream" (pointing to `CUNY-CL/wikipron`).
 
 To work on a feature or bug fix, here are the development steps: 
 
@@ -50,17 +50,17 @@ To work on a feature or bug fix, here are the development steps:
    git push origin new-branch-name
    ```
 5. Go to your fork `https://github.com/<your-github-username>/wikipron` and
-   create a pull request off of your branch against the `kylebgorman/wikipron`
+   create a pull request off of your branch against the `CUNY-CL/wikipron`
    repo.
 
 6. Add an entry to
-   [CHANGELOG.md](https://github.com/kylebgorman/wikipron/blob/master/CHANGELOG.md),
+   [CHANGELOG.md](https://github.com/CUNY-CL/wikipron/blob/master/CHANGELOG.md),
    commit this change, and push this commit to your branch.
 
 ## Documentation
 
 * If relevant, please update the top-level
-  [README](https://github.com/kylebgorman/wikipron/blob/master/README.md)
+  [README](https://github.com/CUNY-CL/wikipron/blob/master/README.md)
   for your changes.
 
 * To document functions and class methods, please name them transparently and
@@ -82,7 +82,7 @@ If you would like to help avoid wasting free Internet resources
 (every push triggers a new CI autobuild),
 you can run the following checks locally before pushing commits:
 * `mypy --ignore-missing-imports wikipron/ tests/ data/`
-* `flake8 setup.py wikipron/ tests/`
-* `black --line-length=79 --check setup.py wikipron/ tests/ data/`
+* `flake8 wikipron/ tests/`
+* `black --line-length=79 --check wikipron/ tests/ data/`
     * You can fix any errors by running the same command without `--check`
 * `pytest tests/`

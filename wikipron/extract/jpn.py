@@ -22,7 +22,7 @@ from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
-    from wikipron.typing import Iterator, Word, Pron, WordPronPair
+    from wikipron.typing import Iterator, WordPronPair
 
 
 # Grab title of <a> because of possibly split kana.
@@ -35,7 +35,7 @@ _WORD_XPATH_SELECTOR = """
 
 def yield_jpn_pron(
     request: requests_html, config: "Config"
-) -> "Iterator[Pron]":
+) -> "Iterator[str]":
     # For simplicity, just want to grab the first transcription.
     # Will encounter words that have no transcription.
     pron_element = request.html.xpath(config.pron_xpath_selector, first=True)
@@ -43,7 +43,7 @@ def yield_jpn_pron(
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
-def yield_jpn_word(word: "Word", request: requests_html) -> "Iterator[Word]":
+def yield_jpn_word(word: str, request: requests_html) -> "Iterator[str]":
     # Again for simplicity, only grabbing first "sub"-word.
     word_element = request.html.xpath(_WORD_XPATH_SELECTOR, first=True)
     if word_element:
@@ -54,7 +54,7 @@ def yield_jpn_word(word: "Word", request: requests_html) -> "Iterator[Word]":
 
 
 def extract_word_pron_jpn(
-    word: "Word", request: requests_html, config: "Config"
+    word: str, request: requests_html, config: "Config"
 ) -> "Iterator[WordPronPair]":
     # If we can't find a kana alternative, then the headword
     # must itself be kana.

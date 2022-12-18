@@ -112,12 +112,12 @@ def test_cut_off_date(error, cut_off_date, word_available_date, expected):
 
 
 @pytest.mark.parametrize(
-    "phonetic, ipa_regex, word_in_ipa",
+    "narrow, ipa_regex, word_in_ipa",
     [(True, _PHONES_REGEX, "[foobar]"), (False, _PHONEMES_REGEX, "/foobar/")],
 )
-def test_ipa_regex(phonetic, ipa_regex, word_in_ipa):
-    config = config_factory(phonetic=phonetic)
-    # Make sure we use the correct regex depending on phonetic vs phonemic.
+def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
+    config = config_factory(narrow=narrow)
+    # Make sure we use the correct regex depending on narrow vs broad.
     assert config.ipa_regex == ipa_regex
     # Make sure the IPA extraction by regex works.
     assert re.search(ipa_regex, word_in_ipa).group(1) == "foobar"
@@ -210,7 +210,7 @@ def test_american_english_dialect_selection():
     "expected_language, keys",
     [
         # Languages that the iso639 package can directly handle.
-        ("English", {"en", "eng", "english", "English"}),
+        ("English", {"en", "eng", "English"}),
         ("Spanish", {"spa", "es"}),
         # Languages handled by our own _LANGUAGE_CODES dict.
         ("Greek", {"el", "ell", "gre", "Greek"}),
