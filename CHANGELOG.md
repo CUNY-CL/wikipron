@@ -107,6 +107,7 @@ Unreleased
 -   Fixed Common character collection in `common_characters.py` (\#419)
 -   Scraping test fixed for `blt`. (\#436)
 -   Changed URLs to point at CUNY-CL repo, where applicable. (\#438)
+-   Upstream consistency work on English wrt the use of tie bars. (\#483)
 
 ### Under `wikipron/` and elsewhere
 
