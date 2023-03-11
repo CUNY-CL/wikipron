@@ -21,6 +21,7 @@ Unreleased
 
 #### Added
 
+-   Fixes Georgian (`kat`) phones and rescrapes. (\#488)
 -   Big scrape for 2022. (\#464)
 -   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
 -   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
