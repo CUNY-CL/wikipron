@@ -175,8 +175,8 @@
 | [TSV](tsv/kan_knda_broad.tsv) | kan | Kannada | Kannada | Kannada |  | False | Broad | False | 100 |
 | [TSV](tsv/kas_arab_broad.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Broad | False | 394 |
 | [TSV](tsv/kas_arab_narrow.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Narrow | False | 241 |
-| [TSV](tsv/kat_geor_broad.tsv) | kat | Georgian | Georgian | Georgian |  | False | Broad | False | 15,428 |
-| [TSV](tsv/kat_geor_broad_filtered.tsv) | kat | Georgian | Georgian | Georgian |  | True | Broad | False | 3,991 |
+| [TSV](tsv/kat_geor_broad.tsv) | kat | Georgian | Georgian | Georgian |  | False | Broad | False | 15,615 |
+| [TSV](tsv/kat_geor_broad_filtered.tsv) | kat | Georgian | Georgian | Georgian |  | True | Broad | False | 15,597 |
 | [TSV](tsv/kaz_cyrl_broad.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Broad | True | 203 |
 | [TSV](tsv/kaz_cyrl_narrow.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Narrow | True | 1,089 |
 | [TSV](tsv/kbd_cyrl_narrow.tsv) | kbd | Kabardian | Kabardian | Cyrillic |  | False | Narrow | True | 833 |
