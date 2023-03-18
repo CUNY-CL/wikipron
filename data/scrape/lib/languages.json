@@ -598,7 +598,8 @@
         "script": {
             "zyyy": "Common",
             "latn": "Latin",
-            "grek": "Greek"
+            "grek": "Greek",
+            "hebr": "Hebrew"
         }
     },
     "enm": {
