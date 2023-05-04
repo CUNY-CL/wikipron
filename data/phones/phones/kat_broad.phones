@@ -1,9 +1,13 @@
-# Based on https://en.wikipedia.org/wiki/Help:IPA/Georgian
-# VOWELS
-ɑ
+# Based on:
+#
+#     Robins, R. H., and Natalie Waterson. 1952. Notes on the phonetics of the
+#     Georgian word. Bulletin of the School of Oriental and African Studies
+#     141:55–72.
+#
+a  # Wikipedia has ɑ, but R&W say [ɑ] is a back allophone of /a/.
 i
-ɛ
-ɔ
+e  # Wikipedia has ɛ.
+o  # Wikipedia has ɔ.
 u
 # CONSONANTS
 r

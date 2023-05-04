@@ -12,7 +12,7 @@ main() {
         LC_ALL=C sort -u -o "${TSV}" "${TSV}"
         ./lib/split.py --regex_string="${REGEX_STRING}" "${TSV}" 
     done
-    ./lib/generate_tsv_summary.py
+    ./lib/generate_summary.py
 }
 
 main

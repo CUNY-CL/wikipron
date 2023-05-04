@@ -87,12 +87,12 @@
 | [TSV](tsv/ell_grek_broad.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | False | Broad | True | 11,900 |
 | [TSV](tsv/ell_grek_broad_filtered.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | True | Broad | True | 11,725 |
 | [TSV](tsv/ell_grek_narrow.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | False | Narrow | True | 407 |
-| [TSV](tsv/eng_latn_uk_broad.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Broad | True | 66,476 |
-| [TSV](tsv/eng_latn_uk_broad_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Broad | True | 65,765 |
-| [TSV](tsv/eng_latn_uk_narrow.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Narrow | True | 1,343 |
-| [TSV](tsv/eng_latn_us_broad.tsv) | eng | English | English | Latin | US, General American | False | Broad | True | 63,813 |
-| [TSV](tsv/eng_latn_us_broad_filtered.tsv) | eng | English | English | Latin | US, General American | True | Broad | True | 62,993 |
-| [TSV](tsv/eng_latn_us_narrow.tsv) | eng | English | English | Latin | US, General American | False | Narrow | True | 1,700 |
+| [TSV](tsv/eng_latn_uk_broad.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Broad | True | 71,727 |
+| [TSV](tsv/eng_latn_uk_broad_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Broad | True | 71,021 |
+| [TSV](tsv/eng_latn_uk_narrow.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Narrow | True | 1,557 |
+| [TSV](tsv/eng_latn_us_broad.tsv) | eng | English | English | Latin | US, General American | False | Broad | True | 69,683 |
+| [TSV](tsv/eng_latn_us_broad_filtered.tsv) | eng | English | English | Latin | US, General American | True | Broad | True | 68,874 |
+| [TSV](tsv/eng_latn_us_narrow.tsv) | eng | English | English | Latin | US, General American | False | Narrow | True | 2,035 |
 | [TSV](tsv/enm_latn_broad.tsv) | enm | Middle English (1100-1500) | Middle English | Latin |  | False | Broad | True | 8,825 |
 | [TSV](tsv/epo_latn_broad.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Broad | True | 4,889 |
 | [TSV](tsv/epo_latn_narrow.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Narrow | True | 12,218 |
@@ -175,8 +175,8 @@
 | [TSV](tsv/kan_knda_broad.tsv) | kan | Kannada | Kannada | Kannada |  | False | Broad | False | 100 |
 | [TSV](tsv/kas_arab_broad.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Broad | False | 394 |
 | [TSV](tsv/kas_arab_narrow.tsv) | kas | Kashmiri | Kashmiri | Arabic |  | False | Narrow | False | 241 |
-| [TSV](tsv/kat_geor_broad.tsv) | kat | Georgian | Georgian | Georgian |  | False | Broad | False | 15,428 |
-| [TSV](tsv/kat_geor_broad_filtered.tsv) | kat | Georgian | Georgian | Georgian |  | True | Broad | False | 3,991 |
+| [TSV](tsv/kat_geor_broad.tsv) | kat | Georgian | Georgian | Georgian |  | False | Broad | False | 15,615 |
+| [TSV](tsv/kat_geor_broad_filtered.tsv) | kat | Georgian | Georgian | Georgian |  | True | Broad | False | 15,597 |
 | [TSV](tsv/kaz_cyrl_broad.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Broad | True | 203 |
 | [TSV](tsv/kaz_cyrl_narrow.tsv) | kaz | Kazakh | Kazakh | Cyrillic |  | False | Narrow | True | 1,089 |
 | [TSV](tsv/kbd_cyrl_narrow.tsv) | kbd | Kabardian | Kabardian | Cyrillic |  | False | Narrow | True | 833 |
