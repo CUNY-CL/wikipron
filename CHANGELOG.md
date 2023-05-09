@@ -22,6 +22,8 @@ Unreleased
 #### Added
 
 -   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
+-   Upstream cleaning wrt English tie bar. (\#491)
+-   Upstream cleaning wrt English high vowel and schwa. (\#493)
 -   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 -   Big scrape for 2022. (\#464)
 -   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
@@ -109,7 +111,6 @@ Unreleased
 -   Fixed Common character collection in `common_characters.py` (\#419)
 -   Scraping test fixed for `blt`. (\#436)
 -   Changed URLs to point at CUNY-CL repo, where applicable. (\#438)
--   Upstream cleaning wrt English tie bar. (\#491)
 
 ### Under `wikipron/` and elsewhere
 
