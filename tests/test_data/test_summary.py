@@ -3,18 +3,18 @@ import os
 _REPO_DIR = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 )
-_TSV_SUMMARY = os.path.join(_REPO_DIR, "data/scrape/tsv_summary.tsv")
+_TSV_SUMMARY = os.path.join(_REPO_DIR, "data/scrape/summary.tsv")
 _TSV_DIRECTORY = os.path.join(_REPO_DIR, "data/scrape/tsv")
-_PHONES_SUMMARY = os.path.join(_REPO_DIR, "data/phones/phones_summary.tsv")
+_PHONES_SUMMARY = os.path.join(_REPO_DIR, "data/phones/summary.tsv")
 _PHONES_DIRECTORY = os.path.join(_REPO_DIR, "data/phones/phones")
 
 
 def test_language_data_matches_summary():
-    """Check if each TSV in data/tsv is present in data/tsv_summary.tsv
+    """Check if each TSV in data/tsv is present in data/tsv/summary.tsv
     (and vice-versa) as well as if the number of entries in each TSV in
-    data/tsv matches its listed number of entries in data/tsv_summary.tsv.
+    data/tsv matches its listed number of entries in data/tsv/summary.tsv.
 
-    (Basically checks whether generate_tsv_summary.py has been run.)
+    (Basically checks whether generate_summary.py has been run.)
     """
     name_to_count = {}
     with open(_TSV_SUMMARY, "r", encoding="utf-8") as lang_summary:
@@ -44,17 +44,16 @@ def test_language_data_matches_summary():
 
 def test_phones_data_matches_summary():
     """Check if each .phones file in data/phones is present in
-    data/phones/phones_summary.tsv and if the number of phones in each .phones
-    file matches its listed number of phones in data/phones_summary.tsv.
+    data/phones/summary.tsv and if the number of phones in each .phones
+    file matches its listed number of phones in data/phones/summary.tsv.
 
-    (Basically checks whether generate_phones_summary.py has been run.)
+    (Basically checks whether generate_summary.py has been run.)
     """
     name_to_count = {}
     with open(_PHONES_SUMMARY, "r", encoding="utf-8") as phones_summary:
         for line in phones_summary:
             language = line.rstrip().split("\t")
             name_to_count[language[0]] = int(language[-1])
-
     for phones_list in os.listdir(_PHONES_DIRECTORY):
         if phones_list.endswith(".phones"):
             with open(
@@ -68,15 +67,15 @@ def test_phones_data_matches_summary():
                 )
             assert phones_list in name_to_count, (
                 f"{phones_list} in data/phones but not in "
-                "data/phones/phones_summary.tsv"
+                "data/phones/summary.tsv"
             )
             assert name_to_count[phones_list] == num_of_entries, (
                 f"Number of entries in {phones_list} does not match "
-                "number of entries in data/phones/phones_summary.tsv."
+                "number of entries in data/phones/summary.tsv."
             )
             del name_to_count[phones_list]
     assert len(name_to_count) == 0, (
         "The following .phones files are listed in "
-        "data/phones/phones_summary.tsv but could not be found in "
+        "data/phones/summary.tsv but could not be found in "
         f"data/phones: {[name for name in name_to_count.keys()]}"
     )
