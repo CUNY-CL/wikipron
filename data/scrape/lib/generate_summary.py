@@ -111,11 +111,8 @@ def main() -> None:
                 f"| {count:,} |",
                 file=sink,
             )
-    # adding KPI code
-    # Currently hard-coded; what's a good alternative?
-    TSV_PATH = "../tsv_summary.tsv"
     table = pandas.read_csv(
-        TSV_PATH,
+        LANGUAGES_SUMMARY_PATH,
         sep="\t",
         names=[
             "link",
