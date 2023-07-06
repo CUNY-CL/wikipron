@@ -6,6 +6,8 @@ __pycache__/
 *.log
 env/
 .idea/
+.DS_Store
+.vscode/
 
 # Temporary data files.
 **/tars

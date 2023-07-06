@@ -5,15 +5,12 @@ import json
 import logging
 import operator
 import os
-import pandas
 from typing import Any, Dict
 
-from codes import (
-    LANGUAGES_PATH,
-    README_PATH,
-    LANGUAGES_SUMMARY_PATH,
-    TSV_DIRECTORY,
-)
+import pandas
+
+from codes import (LANGUAGES_PATH, LANGUAGES_SUMMARY_PATH, README_PATH,
+                   TSV_DIRECTORY)
 
 
 def _handle_modifiers(
@@ -26,9 +23,9 @@ def _handle_modifiers(
         end = file_path.rindex("_broad") + 1
     else:
         end = file_path.rindex("_narrow") + 1
-    script_key = file_path[start: file_path.index("_", start)]
+    script_key = file_path[start : file_path.index("_", start)]
     dialect_key = file_path[
-        file_path.index("_", start) + 1: file_path.rindex("_", start, end)
+        file_path.index("_", start) + 1 : file_path.rindex("_", start, end)
     ]
     script = language["script"][script_key]
     dialect = dialects.get(dialect_key, "").replace(" |", ",")
@@ -41,7 +38,9 @@ def main() -> None:
     readme_list = []
     summaries = []
     for file_path in os.listdir(TSV_DIRECTORY):
-        with open(f"{TSV_DIRECTORY}/{file_path}", "r", encoding="utf-8") as tsv:
+        with open(
+            f"{TSV_DIRECTORY}/{file_path}", "r", encoding="utf-8"
+        ) as tsv:
             num_of_entries = sum(1 for line in tsv)
         # Removes files with less than 100 entries.
         if num_of_entries < 100:
@@ -158,7 +157,7 @@ def main() -> None:
     entries = table[~table.filtered].no_entries.sum()
     print(f"Entries:\t{entries:,}")
 
-    bullet_list = (  
+    bullet_list = (
         f"* Languages: {languages} \n"
         f"\t* Broad transcription files: {broad_files} \n"
         f"\t* Narrow transcription files: {narrow_files} \n"
@@ -175,6 +174,7 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(format="%(filename)s %(levelname)s: %(message)s", level="INFO")
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(message)s", level="INFO"
+    )
     main()
-
