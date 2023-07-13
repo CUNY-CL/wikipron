@@ -24,11 +24,11 @@ _other_valid_ipa = frozenset(
 )
 
 _suffixed_other_valid_ipa = frozenset(
-    phone + 'ː'
-    for phone in _other_valid_ipa
+    phone + "ː" for phone in _other_valid_ipa
 )
 
 OTHER_VALID_IPA = _other_valid_ipa | _suffixed_other_valid_ipa
+
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
     """Count the phones in the given TSV file.
