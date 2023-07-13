@@ -17,12 +17,18 @@ from typing import Dict, List, Set
 
 import ipapy
 
-OTHER_VALID_IPA = frozenset(
+OTHER_VALID_IPA = set(
     phone
     for phone in ipapy.UNICODE_TO_IPA.keys()
     if not ipapy.is_valid_ipa(unicodedata.normalize("NFD", phone))
 )
 
+SUFFIXED_OTHER_VALID_IPA = set(
+    phone + 'ː'
+    for phone in OTHER_VALID_IPA
+)
+
+OTHER_VALID_IPA = frozenset(OTHER_VALID_IPA | SUFFIXED_OTHER_VALID_IPA)
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
     """Count the phones in the given TSV file.
