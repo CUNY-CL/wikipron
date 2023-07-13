@@ -13,6 +13,7 @@ Unreleased
 ### Under `data/`
 
 ### Under `wikipron/` and elsewhere
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 
 [1.3.0] - 2022-11-28
 --------------------
