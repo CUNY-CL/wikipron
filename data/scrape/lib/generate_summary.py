@@ -7,8 +7,7 @@ from typing import Any, Dict
 
 import pandas as pd
 
-from codes import (LANGUAGES_PATH, LANGUAGES_SUMMARY_PATH, README_PATH,
-                   TSV_DIRECTORY)
+from codes import LANGUAGES_PATH, LANGUAGES_SUMMARY_PATH, README_PATH, TSV_DIRECTORY
 
 
 def _handle_modifiers(language: Dict[str, Any], file_path: str):
@@ -124,7 +123,9 @@ def main() -> None:
     num_broad_files = table["narrow_broad"].value_counts()["Broad"]
     num_narrow_files = table["narrow_broad"].value_counts()["Narrow"]
     dialects = table.groupby(["iso_639_2_code", "dialect"]).ngroups
-    num_entries = table[table["filtered"] == False]["no_entries"].sum()  # Count unfiltered pronunciations
+    num_entries = table[table["filtered"] == False][
+        "no_entries"
+    ].sum()  # Count unfiltered pronunciations
 
     # Writes the README with KPIs and remaining information.
     with open(README_PATH, "w", encoding="utf-8") as sink:
@@ -173,7 +174,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(
-        format="%(filename)s %(levelname)s: %(message)s", level="INFO"
-    )
+    logging.basicConfig(format="%(filename)s %(levelname)s: %(message)s", level="INFO")
     main()
