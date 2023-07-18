@@ -1,3 +1,13 @@
+* Languages: 251
+  * Broad transcription files: 259
+  * Narrow transcription files: 129
+* Languages & dialects: 15
+  * Broad transcription files: 19
+  * Narrow transcription files: 20
+* Scripts: 39
+* Pronunciations: 2,678,150
+
+
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | Case-folding | # of entries |
 | :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/aar_latn_broad.tsv) | aar | Afar | Afar | Latin |  | False | Broad | True | 1,538 |
