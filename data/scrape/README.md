@@ -1,7 +1,7 @@
 * Languages: 251
   * Broad transcription files: 259
   * Narrow transcription files: 129
-* Languages & dialects: 15
+* Dialects: 15
   * Broad transcription files: 19
   * Narrow transcription files: 20
 * Scripts: 39
