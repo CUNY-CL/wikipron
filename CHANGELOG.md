@@ -13,6 +13,7 @@ Unreleased
 ### Under `data/`
 
 ### Under `wikipron/` and elsewhere
+-   Caught iso639.language.LanguageNotFoundError error in codes.py (\#498)
 
 [1.3.0] - 2022-11-28
 --------------------
@@ -22,6 +23,7 @@ Unreleased
 #### Added
 
 -   Added KPI computation to `generate_summary.py`. (\#465)
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
 -   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
 -   Upstream cleaning wrt English tie bar. (\#491)
