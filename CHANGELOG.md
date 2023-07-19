@@ -22,6 +22,7 @@ Unreleased
 
 #### Added
 
+-   Added KPI computation to `generate_summary.py`. (\#465)
 -   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
 -   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
