@@ -21,6 +21,7 @@ Unreleased
 
 #### Added
 
+-   Added KPI computation to `generate_summary.py`. (\#465)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
 -   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
 -   Upstream cleaning wrt English tie bar. (\#491)
