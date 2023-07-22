@@ -398,10 +398,14 @@
 ابرو	a b ɾ uː
 ابرو	æ b ɾ uː
 ابری	ʔ æ b ɾ iː
-ابریشم	a b ɾ i ʃ a m ~ a b ɾ i ʃ u m
-ابریشم	a b ɾ iː ʃ a m ~ a b ɾ iː ʃ u m
-ابریشم	a b ɾ iː ʃ a m ~ a b ɾ iː ʃ ʊ m
-ابریشم	æ b ɾ iː ʃ æ m ~ æ b ɾ iː ʃ o m
+ابریشم	a b ɾ i ʃ a m
+ابریشم	a b ɾ i ʃ u m
+ابریشم	a b ɾ iː ʃ a m
+ابریشم	a b ɾ iː ʃ u m
+ابریشم	a b ɾ iː ʃ a m
+ابریشم	a b ɾ iː ʃ ʊ m
+ابریشم	æ b ɾ iː ʃ æ m
+ابریشم	æ b ɾ iː ʃ o m
 ابریق	e b ɾ iː ɢ
 ابریق	i b ɾ i q
 ابریق	i b ɾ iː q
@@ -607,10 +611,14 @@
 ارض	a ɾ z
 ارض	æ ɾ z
 ارغنون	æ ɾ ɣ æ n uː n
-ارغوان	a ɾ ɣ a v ɔː n ~ a ɾ ɣ u v ɔː n
-ارغوان	a ɾ ɣ a w ɑː n ~ a ɾ ɣ u w ɑː n
-ارغوان	a ɾ ɣ a w ɒː n ~ a ɾ ɣ ʊ w ɒː n
-ارغوان	æ ɾ ɢ æ v ɒː n ~ æ ɾ ɢ o v ɒː n
+ارغوان	a ɾ ɣ a v ɔː n
+ارغوان	a ɾ ɣ u v ɔː n
+ارغوان	a ɾ ɣ a w ɑː n
+ارغوان	a ɾ ɣ u w ɑː n
+ارغوان	a ɾ ɣ a w ɒː n
+ارغوان	a ɾ ɣ ʊ w ɒː n
+ارغوان	æ ɾ ɢ æ v ɒː n
+ارغوان	æ ɾ ɢ o v ɒː n
 ارغوانی	a ɾ ɣ a v ɔː n iː
 ارغوانی	a ɾ ɣ a w ɑː n iː
 ارغوانی	a ɾ ɣ a w ɒː n iː
@@ -1122,10 +1130,14 @@
 انگاشتن	a n ɡ ɒː ʃ t a n
 انگاشتن	a n ɡ ɔ ʃ t a n
 انگاشتن	æ n ɡ ɒː ʃ t æ n
-انگبین	a n ɡ u b i n ~ a n ɡ a b i n
-انگبین	a n ɡ u b iː n ~ a n ɡ a b iː n
-انگبین	a n ɡ ʊ b iː n ~ a n ɡ a b iː n
-انگبین	æ n ɡ o b iː n ~ æ n ɡ æ b iː n
+انگبین	a n ɡ u b i n
+انگبین	a n ɡ a b i n
+انگبین	a n ɡ u b iː n
+انگبین	a n ɡ a b iː n
+انگبین	a n ɡ ʊ b iː n
+انگبین	a n ɡ a b iː n
+انگبین	æ n ɡ o b iː n
+انگبین	æ n ɡ æ b iː n
 انگشت	a n ɡ i ʃ t
 انگشت	a n ɡ u ʃ t
 انگشت	a n ɡ ɪ ʃ t
@@ -1180,10 +1192,14 @@
 اکثر	a k s a ɾ
 اکثر	æ k s æ ɾ
 اگرچه	æ ɡ æ ɾ t ʃ e
-اگیر	a ɡ i ɾ ~ i ɡ i ɾ
-اگیر	a ɡ iː ɾ ~ i ɡ iː ɾ
-اگیر	a ɡ iː ɾ ~ ɪ ɡ iː ɾ
-اگیر	æ ɡ iː ɾ ~ e ɡ iː ɾ
+اگیر	a ɡ i ɾ
+اگیر	i ɡ i ɾ
+اگیر	a ɡ iː ɾ
+اگیر	i ɡ iː ɾ
+اگیر	a ɡ iː ɾ
+اگیر	ɪ ɡ iː ɾ
+اگیر	æ ɡ iː ɾ
+اگیر	e ɡ iː ɾ
 ای	e j
 ای	æ j
 ایالت	i j ɑː l a t
@@ -1527,9 +1543,12 @@
 بستن	b æ s t æ n
 بسته	b a s t a
 بسته	b æ s t e
-بسد	b o s æ d ~ b e s æ d
-بسد	b u s a d ~ b i s a d
-بسد	b ʊ s a d ~ b ɪ s a d
+بسد	b o s æ d
+بسد	b e s æ d
+بسد	b u s a d
+بسد	b i s a d
+بسد	b ʊ s a d
+بسد	b ɪ s a d
 بسنده	b æ s æ n d e
 بسیار	b e s j ɒː ɾ
 بسیار	b i s j ɑː ɾ
@@ -1681,12 +1700,16 @@
 بوییدن	b uː j iː d a n
 بوییدن	b uː j iː d æ n
 بوییدن	b ɵː j i d a n
-بچه	b a t t͡ʃ a ~ b a t͡ʃ a
+بچه	b a t t͡ʃ a
+بچه	b a t͡ʃ a
 بچه	b e t ʃ e
 بچه	b e tː ʃ e
-بچه	b æ t t͡ʃ e ~ b æ t͡ʃ e
-بچگی	b a t t͡ʃ a ɡ iː ~ b a t͡ʃ a ɡ iː
-بچگی	b æ t t͡ʃ e ɡ iː ~ b æ t͡ʃ e ɡ iː
+بچه	b æ t t͡ʃ e
+بچه	b æ t͡ʃ e
+بچگی	b a t t͡ʃ a ɡ iː
+بچگی	b a t͡ʃ a ɡ iː
+بچگی	b æ t t͡ʃ e ɡ iː
+بچگی	b æ t͡ʃ e ɡ iː
 بژ	b e ʒ
 بکارت	b a k ɑː ɾ a t
 بکارت	b a k ɒː ɾ a t
@@ -1868,10 +1891,14 @@
 تاجگذاری	t ɒː d͡ʒ ɡ o z ɒː ɾ iː
 تاجگذاری	t ɒː d͡ʒ ɡ ʊ z ɒː ɾ iː
 تاجگذاری	t ɔː d͡ʒ ɡ u z ɔː ɾ iː
-تاجیک	t ɑː d͡ʒ i k ~ t ɑː d͡ʒ iː k
-تاجیک	t ɒː d͡ʒ e k ~ t ɒː d͡ʒ iː k
-تاجیک	t ɒː d͡ʒ ɪ k ~ t ɒː d͡ʒ iː k
-تاجیک	t ɔː d͡ʒ i k ~ t ɔː d͡ʒ i k
+تاجیک	t ɑː d͡ʒ i k
+تاجیک	t ɑː d͡ʒ iː k
+تاجیک	t ɒː d͡ʒ e k
+تاجیک	t ɒː d͡ʒ iː k
+تاجیک	t ɒː d͡ʒ ɪ k
+تاجیک	t ɒː d͡ʒ iː k
+تاجیک	t ɔː d͡ʒ i k
+تاجیک	t ɔː d͡ʒ i k
 تاجیکستان	t ɑː d͡ʒ iː k i s t ɑː n
 تاجیکستان	t ɒː d͡ʒ iː k e s t ɒː n
 تاجیکستان	t ɒː d͡ʒ iː k ɪ s t ɒː n
@@ -1916,9 +1943,12 @@
 تبریک	t a b ɾ i k
 تبریک	t a b ɾ iː k
 تبریک	t æ b ɾ iː k
-تجربه	t a d͡ʒ ɾ u b a ~ t a d͡ʒ ɾ i b a
-تجربه	t a d͡ʒ ɾ ʊ b a ~ t a d͡ʒ ɾ ɪ b a
-تجربه	t æ d͡ʒ ɾ o b e ~ t æ d͡ʒ ɾ e b e
+تجربه	t a d͡ʒ ɾ u b a
+تجربه	t a d͡ʒ ɾ i b a
+تجربه	t a d͡ʒ ɾ ʊ b a
+تجربه	t a d͡ʒ ɾ ɪ b a
+تجربه	t æ d͡ʒ ɾ o b e
+تجربه	t æ d͡ʒ ɾ e b e
 تجربی	t æ d ʒ ɾ o b iː
 تحت	t a h t i
 تحت	t a h t ɪ
@@ -2225,7 +2255,8 @@
 تک	t æ k
 تکرار	t a k ɾ ɑː ɾ
 تکرار	t a k ɾ ɒː ɾ
-تکرار	t a k ɾ ɒː ɾ ~ t e k ɾ ɒː ɾ
+تکرار	t a k ɾ ɒː ɾ
+تکرار	t e k ɾ ɒː ɾ
 تکرار	t a k ɾ ɔː ɾ
 تکفور	t æ k f uː ɾ
 تکواژ	t a k v â ʒ
@@ -3374,15 +3405,19 @@
 درس	d a ɾ s
 درس	d æ ɾ s
 درست	d o ɾ o s t
-درست	d o ɾ o s ~ d o ɾ o s t
+درست	d o ɾ o s
+درست	d o ɾ o s t
 درست	d u ɾ u s t
 درست	d ɾ o s t
 درست	d ʊ ɾ ʊ s t
 درشت	d o ɾ o ʃ t
 درشت	d ɾ o ʃ t
-درفش	d e ɾ æ f ʃ ~ d æ ɾ æ f ʃ
-درفش	d i ɾ a f ʃ ~ d a ɾ a f ʃ
-درفش	d ɪ ɾ a f ʃ ~ d a ɾ a f ʃ
+درفش	d e ɾ æ f ʃ
+درفش	d æ ɾ æ f ʃ
+درفش	d i ɾ a f ʃ
+درفش	d a ɾ a f ʃ
+درفش	d ɪ ɾ a f ʃ
+درفش	d a ɾ a f ʃ
 درمان	d a ɾ m ɑː n
 درمان	d a ɾ m ɒː n
 درمان	d a ɾ m ɔː n
@@ -3391,9 +3426,12 @@
 درمانگاه	d a ɾ m ɒː n ɡ ɒː h
 درمانگاه	d a ɾ m ɔː n ɡ ɔː h
 درمانگاه	d æ ɾ m ɒː n ɡ ɒː h
-درمنه	d e ɾ æ m n e ~ d e ɾ m æ n e
-درمنه	d i ɾ a m n a ~ d i ɾ m a n a
-درمنه	d ɪ ɾ a m n a ~ d ɪ ɾ m a n a
+درمنه	d e ɾ æ m n e
+درمنه	d e ɾ m æ n e
+درمنه	d i ɾ a m n a
+درمنه	d i ɾ m a n a
+درمنه	d ɪ ɾ a m n a
+درمنه	d ɪ ɾ m a n a
 درنده	d a ɾ a n d a
 درنده	d æ ɾ æ n d e
 درنگ	d e ɾ æ n ɡ
@@ -3625,10 +3663,13 @@
 دچار	d ʊ t͡ʃ ɒː ɾ
 دژ	d e ʒ
 دژ	d i ʒ
-دژ	d o ʒ ~ d e ʒ
-دژ	d u ʒ ~ d i ʒ
+دژ	d o ʒ
+دژ	d e ʒ
+دژ	d u ʒ
+دژ	d i ʒ
 دژ	d ɪ ʒ
-دژ	d ʊ ʒ ~ d ɪ ʒ
+دژ	d ʊ ʒ
+دژ	d ɪ ʒ
 دگر	d e ɡ æ ɾ
 دگر	d i ɡ a ɾ
 دگر	d ɪ ɡ a ɾ
@@ -3903,10 +3944,14 @@
 روزها	ɾ oː z h ɒː
 روزها	ɾ uː z h ɒː
 روزها	ɾ ɵː z h ɔː
-روزگار	ɾ oː z ɡ ɑː ɾ ~ ɾ oː z i ɡ ɑː ɾ
-روزگار	ɾ oː z ɡ ɒː ɾ ~ ɾ oː z ɪ ɡ ɒː ɾ
-روزگار	ɾ uː z ɡ ɒː ɾ ~ ɾ uː z e ɡ ɒː ɾ
-روزگار	ɾ ɵː z ɡ ɔː ɾ ~ ɾ ɵː z i ɡ ɔː ɾ
+روزگار	ɾ oː z ɡ ɑː ɾ
+روزگار	ɾ oː z i ɡ ɑː ɾ
+روزگار	ɾ oː z ɡ ɒː ɾ
+روزگار	ɾ oː z ɪ ɡ ɒː ɾ
+روزگار	ɾ uː z ɡ ɒː ɾ
+روزگار	ɾ uː z e ɡ ɒː ɾ
+روزگار	ɾ ɵː z ɡ ɔː ɾ
+روزگار	ɾ ɵː z i ɡ ɔː ɾ
 روس	ɾ u s
 روس	ɾ uː s
 روستا	ɾ oː s t ɑː
@@ -4522,10 +4567,14 @@
 سنبوسه	s a m b ɵː s a
 سنبوسه	s æ m b uː s e
 سنت‌ها	s o n æ t h ɒː
-سنجاب	s a n d͡ʒ ɑː b ~ s i n d͡ʒ ɑː b
-سنجاب	s a n d͡ʒ ɒː b ~ s ɪ n d͡ʒ ɒː b
-سنجاب	s a n d͡ʒ ɔː b ~ s i n d͡ʒ ɔː b
-سنجاب	s æ n d͡ʒ ɒː b ~ s e n d͡ʒ ɒː b
+سنجاب	s a n d͡ʒ ɑː b
+سنجاب	s i n d͡ʒ ɑː b
+سنجاب	s a n d͡ʒ ɒː b
+سنجاب	s ɪ n d͡ʒ ɒː b
+سنجاب	s a n d͡ʒ ɔː b
+سنجاب	s i n d͡ʒ ɔː b
+سنجاب	s æ n d͡ʒ ɒː b
+سنجاب	s e n d͡ʒ ɒː b
 سند	s e n d
 سند	s i n d
 سند	s ɪ n d
@@ -4866,11 +4915,14 @@
 شستن	ʃ o s t æ n
 شستن	ʃ u s t a n
 شستن	ʃ ʊ s t a n
-شش	ʃ a ʃ ~ ʃ i ʃ
-شش	ʃ a ʃ ~ ʃ ɪ ʃ
+شش	ʃ a ʃ
+شش	ʃ i ʃ
+شش	ʃ a ʃ
+شش	ʃ ɪ ʃ
 شش	ʃ o ʃ
 شش	ʃ u ʃ
-شش	ʃ æ ʃ ~ ʃ e ʃ
+شش	ʃ æ ʃ
+شش	ʃ e ʃ
 شش	ʃ ʊ ʃ
 شطرنج‌باز	ʃ a t ɾ a n d͡ʒ b ɑː z
 شطرنج‌باز	ʃ a t ɾ a n d͡ʒ b ɒː z
@@ -4920,9 +4972,12 @@
 شماریدن	ʃ u m ɔː ɾ i d a n
 شماریدن	ʃ ʊ m ɒː ɾ iː d a n
 شمال	ʃ o m ɒː l
-شمردن	ʃ o m o ɾ d æ n ~ ʃ e m o ɾ d æ n
-شمردن	ʃ u m u ɾ d a n ~ ʃ i m u ɾ d a n
-شمردن	ʃ ʊ m ʊ ɾ d a n ~ ʃ ɪ m ʊ ɾ d a n
+شمردن	ʃ o m o ɾ d æ n
+شمردن	ʃ e m o ɾ d æ n
+شمردن	ʃ u m u ɾ d a n
+شمردن	ʃ i m u ɾ d a n
+شمردن	ʃ ʊ m ʊ ɾ d a n
+شمردن	ʃ ɪ m ʊ ɾ d a n
 شمسی	ʃ a m s iː
 شمسی	ʃ æ m s iː
 شمع	ʃ a m ʔ
@@ -4946,14 +5001,22 @@
 شنفتن	ʃ e n o f t æ n
 شنفتن	ʃ i n u f t a n
 شنفتن	ʃ ɪ n ʊ f t a n
-شنگار	ʃ a n ɡ ɑː ɾ ~ ʃ i n ɡ ɑː ɾ
-شنگار	ʃ a n ɡ ɒː ɾ ~ ʃ ɪ n ɡ ɒː ɾ
-شنگار	ʃ a n ɡ ɔː ɾ ~ ʃ i n ɡ ɔː ɾ
-شنگار	ʃ æ n ɡ ɒː ɾ ~ ʃ e n ɡ ɒː ɾ
-شنیدن	ʃ e n iː d æ n ~ ʃ o n iː d æ n
-شنیدن	ʃ i n i d a n ~ ʃ u n i d a n
-شنیدن	ʃ i n iː d a n ~ ʃ u n iː d a n
-شنیدن	ʃ ɪ n iː d a n ~ ʃ ʊ n iː d a n
+شنگار	ʃ a n ɡ ɑː ɾ
+شنگار	ʃ i n ɡ ɑː ɾ
+شنگار	ʃ a n ɡ ɒː ɾ
+شنگار	ʃ ɪ n ɡ ɒː ɾ
+شنگار	ʃ a n ɡ ɔː ɾ
+شنگار	ʃ i n ɡ ɔː ɾ
+شنگار	ʃ æ n ɡ ɒː ɾ
+شنگار	ʃ e n ɡ ɒː ɾ
+شنیدن	ʃ e n iː d æ n
+شنیدن	ʃ o n iː d æ n
+شنیدن	ʃ i n i d a n
+شنیدن	ʃ u n i d a n
+شنیدن	ʃ i n iː d a n
+شنیدن	ʃ u n iː d a n
+شنیدن	ʃ ɪ n iː d a n
+شنیدن	ʃ ʊ n iː d a n
 شهادت	ʃ æ h ɒː d̪ æ t̪
 شهد	ʃ a h d
 شهد	ʃ æ h d
@@ -5052,10 +5115,14 @@
 شکم	ʃ e k æ m
 شکم	ʃ i k a m
 شکم	ʃ ɪ k a m
-شکوفه	ʃ o k uː f e ~ ʃ e k uː f e
-شکوفه	ʃ u k u f a ~ ʃ i k u f a
-شکوفه	ʃ u k uː f a ~ ʃ i k uː f a
-شکوفه	ʃ ʊ k uː f a ~ ʃ ɪ k uː f a
+شکوفه	ʃ o k uː f e
+شکوفه	ʃ e k uː f e
+شکوفه	ʃ u k u f a
+شکوفه	ʃ i k u f a
+شکوفه	ʃ u k uː f a
+شکوفه	ʃ i k uː f a
+شکوفه	ʃ ʊ k uː f a
+شکوفه	ʃ ɪ k uː f a
 شکیفتن	ʃ e k iː f t æ n
 شکیفتن	ʃ i k i f t a n
 شکیفتن	ʃ i k iː f t a n
@@ -5406,10 +5473,14 @@
 علاقه	a l ɒː q a
 علاقه	a l ɔː q a
 علاقه	æ l ɒː ɢ e
-علاوه	e l ɒː v e ~ æ l ɒː v e
-علاوه	i l ɑː w a ~ a l ɑː w a
-علاوه	i l ɔː v a ~ a l ɔː v a
-علاوه	ɪ l ɒː w a ~ a l ɒː w a
+علاوه	e l ɒː v e
+علاوه	æ l ɒː v e
+علاوه	i l ɑː w a
+علاوه	a l ɑː w a
+علاوه	i l ɔː v a
+علاوه	a l ɔː v a
+علاوه	ɪ l ɒː w a
+علاوه	a l ɒː w a
 علت	e l l æ t
 علت	i l l a t
 علت	ɪ l l a t
@@ -5476,14 +5547,22 @@
 غاز	ɣ ɑː z
 غاز	ɣ ɒː z
 غاز	ɣ ɔː z
-غافت	ɢ ɒː f e t ~ ɢ ɒː f æ t
-غافت	ɣ ɑː f i t ~ ɣ ɑː f a t
-غافت	ɣ ɒː f ɪ t ~ ɣ ɒː f a t
-غافت	ɣ ɔː f i t ~ ɣ ɔː f a t
-غافث	ɢ ɒː f e s ~ ɢ ɒː f æ s
-غافث	ɣ ɑː f i s ~ ɣ ɑː f a s
-غافث	ɣ ɒː f ɪ s ~ ɣ ɒː f a s
-غافث	ɣ ɔː f i s ~ ɣ ɔː f a s
+غافت	ɢ ɒː f e t
+غافت	ɢ ɒː f æ t
+غافت	ɣ ɑː f i t
+غافت	ɣ ɑː f a t
+غافت	ɣ ɒː f ɪ t
+غافت	ɣ ɒː f a t
+غافت	ɣ ɔː f i t
+غافت	ɣ ɔː f a t
+غافث	ɢ ɒː f e s
+غافث	ɢ ɒː f æ s
+غافث	ɣ ɑː f i s
+غافث	ɣ ɑː f a s
+غافث	ɣ ɒː f ɪ s
+غافث	ɣ ɒː f a s
+غافث	ɣ ɔː f i s
+غافث	ɣ ɔː f a s
 غالب	ɢ ɒː l e b
 غالب	ɣ ɑː l i b
 غالب	ɣ ɒː l ɪ b
@@ -5493,10 +5572,14 @@
 غایب	ɣ ɒː j ɪ b
 غایب	ɣ ɔː j i b
 غذا	ɢ e z ɒː
-غذا	ɢ e z ɒː ~ ɢ æ z ɒː
-غذا	ɣ i z ɑː ~ ɣ a z ɑː
-غذا	ɣ i z ɔː ~ ɣ a z ɔː
-غذا	ɣ ɪ z ɒː ~ ɣ a z ɒː
+غذا	ɢ e z ɒː
+غذا	ɢ æ z ɒː
+غذا	ɣ i z ɑː
+غذا	ɣ a z ɑː
+غذا	ɣ i z ɔː
+غذا	ɣ a z ɔː
+غذا	ɣ ɪ z ɒː
+غذا	ɣ a z ɒː
 غرق	ɣ æ ɾ ɣ
 غره	ɢ æ ɾ ɾ e
 غریب	ɢ æ ɾ iː b
@@ -5682,20 +5765,28 @@
 فروغ	f ʊ ɾ oː ɣ
 فروهر	f o ɾ uː h æ ɾ
 فروهر	f u ɾ oː h æ ɾ
-فریب	f a ɾ e b ~ f i ɾ e b
-فریب	f a ɾ eː b ~ f i ɾ eː b
-فریب	f a ɾ eː b ~ f ɪ ɾ eː b
-فریب	f æ ɾ iː b ~ f e ɾ iː b
+فریب	f a ɾ e b
+فریب	f i ɾ e b
+فریب	f a ɾ eː b
+فریب	f i ɾ eː b
+فریب	f a ɾ eː b
+فریب	f ɪ ɾ eː b
+فریب	f æ ɾ iː b
+فریب	f e ɾ iː b
 فریبا	f a ɾ e b ɔː
 فریبا	f a ɾ eː b ɑː
 فریبا	f a ɾ eː b ɒː
 فریبا	f æ ɾ iː b ɒː
 فریدون	f e ɾ e i̯ d uː n
 فریدون	f i ɾ eː d uː n
-فریفتن	f a ɾ e f t a n ~ f i ɾ e f t a n
-فریفتن	f a ɾ eː f t a n ~ f i ɾ eː f t a n
-فریفتن	f a ɾ eː f t a n ~ f ɪ ɾ eː f t a n
-فریفتن	f æ ɾ iː f t æ n ~ f e ɾ iː f t æ n
+فریفتن	f a ɾ e f t a n
+فریفتن	f i ɾ e f t a n
+فریفتن	f a ɾ eː f t a n
+فریفتن	f i ɾ eː f t a n
+فریفتن	f a ɾ eː f t a n
+فریفتن	f ɪ ɾ eː f t a n
+فریفتن	f æ ɾ iː f t æ n
+فریفتن	f e ɾ iː f t æ n
 فسیل	f o s iː l
 فشار	f e ʃ ɒː ɾ
 فشار	f i ʃ ɑː ɾ
@@ -5716,10 +5807,14 @@
 فصیح	f a s iː
 فصیح	f a s iː h
 فصیح	f æ s iː h
-فضا	f a z ɑː ~ f i z ɑː
-فضا	f a z ɒː ~ f ɪ z ɒː
-فضا	f a z ɔː ~ f i z ɔː
-فضا	f æ z ɒː ~ f e z ɒː
+فضا	f a z ɑː
+فضا	f i z ɑː
+فضا	f a z ɒː
+فضا	f ɪ z ɒː
+فضا	f a z ɔː
+فضا	f i z ɔː
+فضا	f æ z ɒː
+فضا	f e z ɒː
 فضازمان	f a z ɑː z a m ɑː n
 فضازمان	f a z ɒː z a m ɒː n
 فضازمان	f a z ɔː z a m ɔː n
@@ -5966,13 +6061,20 @@
 قفل	q u f l
 قفل	q ʊ f l
 قفل	ɢ o f l
-ققنس	ˑq a q n u s ~ q u q n u s
-ققنس	ˑq a q n ʊ s ~ q ʊ q n ʊ s
-ققنس	ˑɢ æ ɢ n o s ~ ɢ o ɢ n o s
-ققنوس	ˑq a q n u s ~ q u q n u s
-ققنوس	ˑq a q n uː s ~ q u q n uː s
-ققنوس	ˑq a q n uː s ~ q ʊ q n uː s
-ققنوس	ˑɢ æ ɢ n uː s ~ ɢ o ɢ n uː s
+ققنس	ˑq a q n u s
+ققنس	q u q n u s
+ققنس	ˑq a q n ʊ s
+ققنس	q ʊ q n ʊ s
+ققنس	ˑɢ æ ɢ n o s
+ققنس	ɢ o ɢ n o s
+ققنوس	ˑq a q n u s
+ققنوس	q u q n u s
+ققنوس	ˑq a q n uː s
+ققنوس	q u q n uː s
+ققنوس	ˑq a q n uː s
+ققنوس	q ʊ q n uː s
+ققنوس	ˑɢ æ ɢ n uː s
+ققنوس	ɢ o ɢ n uː s
 قلاوز	q u l ɑː w u z
 قلاوز	q u l ɔ v u z
 قلاوز	q ʊ l ɒː w ʊ z
@@ -6051,15 +6153,24 @@
 قید	ɢ e j d
 قیصر	q a j s a ɾ
 قیصر	ɢ e j s æ ɾ
-قیمت	q i m a t ~ q a j m a t
-قیمت	q iː m a t ~ q a j m a t
-قیمت	ɢ iː m æ t ~ ɢ e j m æ t
-قیمتی	q i m a t iː ~ q a j m a t iː
-قیمتی	q iː m a t iː ~ q a j m a t iː
-قیمتی	ɢ iː m æ t iː ~ ɢ e j m æ t iː
-قیمه	q i m a ~ q a j m a
-قیمه	q iː m a ~ q a j m a
-قیمه	ɢ iː m e ~ ɢ e j m e
+قیمت	q i m a t
+قیمت	q a j m a t
+قیمت	q iː m a t
+قیمت	q a j m a t
+قیمت	ɢ iː m æ t
+قیمت	ɢ e j m æ t
+قیمتی	q i m a t iː
+قیمتی	q a j m a t iː
+قیمتی	q iː m a t iː
+قیمتی	q a j m a t iː
+قیمتی	ɢ iː m æ t iː
+قیمتی	ɢ e j m æ t iː
+قیمه	q i m a
+قیمه	q a j m a
+قیمه	q iː m a
+قیمه	q a j m a
+قیمه	ɢ iː m e
+قیمه	ɢ e j m e
 قیچی	q a j t͡ʃ iː
 قیچی	ɢ e j t͡ʃ iː
 كنج	k o n d͡ʒ
@@ -6347,9 +6458,12 @@
 مجموعه	m æ d͡ʒ m uː ʔ e
 مجید	m æ d͡ʒ iː d
 محافظه‌کار	m o h ɒː f e z e k ɒː ɾ
-محبت	m o h æ b b æ t ~ m æ h æ b b æ t
-محبت	m u h a b b a t ~ m a h a b b a t
-محبت	m ʊ h a b b a t ~ m a h a b b a t
+محبت	m o h æ b b æ t
+محبت	m æ h æ b b æ t
+محبت	m u h a b b a t
+محبت	m a h a b b a t
+محبت	m ʊ h a b b a t
+محبت	m a h a b b a t
 محبوب	m a h b u b
 محبوب	m a h b uː b
 محبوب	m æ h b uː b
@@ -6691,10 +6805,14 @@
 معنوی	m a ʔ n a v iː
 معنوی	m a ʔ n a w iː
 معنوی	m æ ʔ n æ v iː
-معنی	m a ʔ n ɑː ~ m a ʔ n iː
-معنی	m a ʔ n ɒː ~ m a ʔ n iː
-معنی	m a ʔ n ɔː ~ m a ʔ n iː
-معنی	m æ ʔ n ɒː ~ m æ ʔ n iː
+معنی	m a ʔ n ɑː
+معنی	m a ʔ n iː
+معنی	m a ʔ n ɒː
+معنی	m a ʔ n iː
+معنی	m a ʔ n ɔː
+معنی	m a ʔ n iː
+معنی	m æ ʔ n ɒː
+معنی	m æ ʔ n iː
 مغ	m a ɣ
 مغ	m o ɢ
 مغ	m u ɣ
@@ -6723,10 +6841,14 @@
 مقاله	m a q ɒː l a
 مقاله	m a q ɔː l a
 مقاله	m æ ɢ ɒː l e
-مقاومت	m o ɢ ɒː v e m æ t ~ m o ɢ ɒː v æ m æ t
-مقاومت	m u q ɑː w i m a t ~ m u q ɑː w a m a t
-مقاومت	m u q ɔː v i m a t ~ m u q ɔː v a m a t
-مقاومت	m ʊ q ɒː w ɪ m a t ~ m ʊ q ɒː w a m a t
+مقاومت	m o ɢ ɒː v e m æ t
+مقاومت	m o ɢ ɒː v æ m æ t
+مقاومت	m u q ɑː w i m a t
+مقاومت	m u q ɑː w a m a t
+مقاومت	m u q ɔː v i m a t
+مقاومت	m u q ɔː v a m a t
+مقاومت	m ʊ q ɒː w ɪ m a t
+مقاومت	m ʊ q ɒː w a m a t
 مقداد	m e ɣ d ɒː d
 مقدار	m e ɢ d ɒː ɾ
 مقدار	m i q d ɑː ɾ
@@ -6866,12 +6988,18 @@
 مهر	m ɪ h ɾ
 مهر	m ɵː h ɾ
 مهر	m ʊ h ɾ
-مهربان	m e h ɾ a b ɔː n ~ m e h ɾ u b ɔː n
-مهربان	m e h ɾ æ b ɒː n ~ m e h ɾ o b ɒː n
-مهربان	m e h ɾ ɒː b uː n ~ m e h ɾ o b uː n
-مهربان	m eː ɾ a b ɒː n ~ m eː ɾ ʊ b ɒː n
-مهربان	m i h ɾ a b ɑː n ~ m i h ɾ u b ɑː n
-مهربان	m ɪ h ɾ a b ɒː n ~ m ɪ h ɾ ʊ b ɒː n
+مهربان	m e h ɾ a b ɔː n
+مهربان	m e h ɾ u b ɔː n
+مهربان	m e h ɾ æ b ɒː n
+مهربان	m e h ɾ o b ɒː n
+مهربان	m e h ɾ ɒː b uː n
+مهربان	m e h ɾ o b uː n
+مهربان	m eː ɾ a b ɒː n
+مهربان	m eː ɾ ʊ b ɒː n
+مهربان	m i h ɾ a b ɑː n
+مهربان	m i h ɾ u b ɑː n
+مهربان	m ɪ h ɾ a b ɒː n
+مهربان	m ɪ h ɾ ʊ b ɒː n
 مهربانی	m e h ɾ a b ɔː n iː
 مهربانی	m e h ɾ æ b ɒː n iː
 مهربانی	m i h ɾ a b ɑː n iː
@@ -6966,9 +7094,12 @@
 مژده	m o ʒ d e
 مژده	m u ʒ d a
 مژده	m ʊ ʒ d a
-مژه	m o ʒ e ~ m e ʒ e
-مژه	m u ʒ a ~ m i ʒ a
-مژه	m ʊ ʒ a ~ m ɪ ʒ a
+مژه	m o ʒ e
+مژه	m e ʒ e
+مژه	m u ʒ a
+مژه	m i ʒ a
+مژه	m ʊ ʒ a
+مژه	m ɪ ʒ a
 مک	m æ k
 مکانیک	m e k ɒː n iː k
 مکانیک	m i k ɔː n i k
@@ -6996,18 +7127,25 @@
 میدان	m a j d ɒː n
 میدان	m a j d ɔː n
 میدان	m e j d ɒː n
-میرزا	m i ɾ z ɔː ~ m i ɾ z ɔː
-میرزا	m iː ɾ z ɑː ~ m i ɾ z ɑː
-میرزا	m iː ɾ z ɒː ~ m e ɾ z ɒː
-میرزا	m iː ɾ z ɒː ~ m ɪ ɾ z ɒː
+میرزا	m i ɾ z ɔː
+میرزا	m i ɾ z ɔː
+میرزا	m iː ɾ z ɑː
+میرزا	m i ɾ z ɑː
+میرزا	m iː ɾ z ɒː
+میرزا	m e ɾ z ɒː
+میرزا	m iː ɾ z ɒː
+میرزا	m ɪ ɾ z ɒː
 میرزاخانی	m i ɾ z ɒː x ɒː n iː
 میرزاخانی	m iː ɾ z ɒː x ɒː n iː
 میرنده	m i ɾ a n d a
 میرنده	m iː ɾ a n d a
 میرنده	m iː ɾ æ n d e
-میز	m e z ~ m i z
-میز	m eː z ~ m iː z
-میز	m iː z ~ m iː z
+میز	m e z
+میز	m i z
+میز	m eː z
+میز	m iː z
+میز	m iː z
+میز	m iː z
 میزان	m i z ɔ n
 میزان	m iː z ɑː n
 میزان	m iː z ɒː n
@@ -7091,10 +7229,14 @@
 نارنجی	n ɒː ɾ a n d͡ʒ iː
 نارنجی	n ɒː ɾ e n d͡ʒ iː
 نارنجی	n ɔː ɾ a n d͡ʒ iː
-نارون	n ɑː ɾ w a n ~ n ɑː ɾ w u n
-نارون	n ɒː ɾ v æ n ~ n ɒː ɾ v o n
-نارون	n ɒː ɾ w a n ~ n ɒː ɾ w ʊ n
-نارون	n ɔː ɾ v a n ~ n ɔː ɾ v u n
+نارون	n ɑː ɾ w a n
+نارون	n ɑː ɾ w u n
+نارون	n ɒː ɾ v æ n
+نارون	n ɒː ɾ v o n
+نارون	n ɒː ɾ w a n
+نارون	n ɒː ɾ w ʊ n
+نارون	n ɔː ɾ v a n
+نارون	n ɔː ɾ v u n
 نارگیله	n ɑː ɾ ɡ iː l a
 نارگیله	n ɒː ɾ ɡ iː l a
 نارگیله	n ɒː ɾ ɡ iː l e
@@ -7315,10 +7457,18 @@
 نمودن	n a m u d a n
 نمودن	n a m uː d a n
 نمودن	n æ m uː d æ n
-نمونه	n a m u n a ~ n u m u n a ~ n i m u n a
-نمونه	n a m uː n a ~ n u m uː n a ~ n i m uː n a
-نمونه	n a m uː n a ~ n ʊ m uː n a ~ n ɪ m uː n a
-نمونه	n æ m uː n e ~ n o m uː n e ~ n e m uː n e
+نمونه	n a m u n a
+نمونه	n u m u n a
+نمونه	n i m u n a
+نمونه	n a m uː n a
+نمونه	n u m uː n a
+نمونه	n i m uː n a
+نمونه	n a m uː n a
+نمونه	n ʊ m uː n a
+نمونه	n ɪ m uː n a
+نمونه	n æ m uː n e
+نمونه	n o m uː n e
+نمونه	n e m uː n e
 نمک	n e m e k
 نمک	n m æ k
 نمک	n æ m e k
@@ -7557,12 +7707,18 @@
 همنوع‌خواری	h æ m n o w ʔ x ɒː ɾ iː
 همه	h æ m e
 همه	h æ m e j e
-همچنان	h æ m t ʃ o n ɒː n ~ h æ m t ʃ e n ɒː n
-همچنین	h a m t͡ʃ a n i n ~ h a m t͡ʃ u n i n
-همچنین	h a m t͡ʃ a n iː n ~ h a m t͡ʃ u n iː n
-همچنین	h a m t͡ʃ a n iː n ~ h a m t͡ʃ ʊ n iː n
-همچنین	h æ m t͡ʃ e n iː n ~ h æ m t͡ʃ o n iː n
-همچنین	h æ m t͡ʃ æ n iː n ~ h æ m t͡ʃ o n iː n
+همچنان	h æ m t ʃ o n ɒː n
+همچنان	h æ m t ʃ e n ɒː n
+همچنین	h a m t͡ʃ a n i n
+همچنین	h a m t͡ʃ u n i n
+همچنین	h a m t͡ʃ a n iː n
+همچنین	h a m t͡ʃ u n iː n
+همچنین	h a m t͡ʃ a n iː n
+همچنین	h a m t͡ʃ ʊ n iː n
+همچنین	h æ m t͡ʃ e n iː n
+همچنین	h æ m t͡ʃ o n iː n
+همچنین	h æ m t͡ʃ æ n iː n
+همچنین	h æ m t͡ʃ o n iː n
 همیشه	h a m e ʃ a
 همیشه	h a m eː ʃ a
 همیشه	h æ m iː ʃ e
@@ -7592,7 +7748,8 @@
 هنرپیشه	h ʊ n a ɾ p iː ʃ a
 هنوز	h a n oː z
 هنوز	h a n ɵː z
-هنوز	h æ n u ~ h æ n uː z
+هنوز	h æ n u
+هنوز	h æ n uː z
 هنوز	h æ n uː z
 هنگ	h a n ɡ
 هنگ	h æ n ɡ
@@ -7706,10 +7863,14 @@
 ورز	w a ɾ z
 وروجک	v o ɾ uː d͡ʒ æ kʲ
 وروجک	v u ɾ u d͡ʒ e kʲ
-وزارت	v e z ɒː ɾ æ t ~ v æ z ɒː ɾ æ t
-وزارت	v i z ɔː ɾ a t ~ v a z ɔː ɾ a t
-وزارت	w i z ɑː ɾ a t ~ w a z ɑː ɾ a t
-وزارت	w ɪ z ɒː ɾ a t ~ w a z ɒː ɾ a t
+وزارت	v e z ɒː ɾ æ t
+وزارت	v æ z ɒː ɾ æ t
+وزارت	v i z ɔː ɾ a t
+وزارت	v a z ɔː ɾ a t
+وزارت	w i z ɑː ɾ a t
+وزارت	w a z ɑː ɾ a t
+وزارت	w ɪ z ɒː ɾ a t
+وزارت	w a z ɒː ɾ a t
 وزغ	v æ z æ ɣ
 وزن	v a z n
 وزن	w a z n
@@ -8266,10 +8427,14 @@
 چرا	t ʃ a ɾ ɔː
 چرا	t ʃ ʊ ɾ ɒː
 چرا	t͡ʃ e ɾ ɒː
-چراغ	t͡ʃ e ɾ ɒː ɢ ~ t͡ʃ æ ɾ ɒː ɢ
-چراغ	t͡ʃ i ɾ ɑː ɣ ~ t͡ʃ a ɾ ɑː ɣ
-چراغ	t͡ʃ i ɾ ɔː ɣ ~ t͡ʃ a ɾ ɔː ɣ
-چراغ	t͡ʃ ɪ ɾ ɒː ɣ ~ t͡ʃ a ɾ ɒː ɣ
+چراغ	t͡ʃ e ɾ ɒː ɢ
+چراغ	t͡ʃ æ ɾ ɒː ɢ
+چراغ	t͡ʃ i ɾ ɑː ɣ
+چراغ	t͡ʃ a ɾ ɑː ɣ
+چراغ	t͡ʃ i ɾ ɔː ɣ
+چراغ	t͡ʃ a ɾ ɔː ɣ
+چراغ	t͡ʃ ɪ ɾ ɒː ɣ
+چراغ	t͡ʃ a ɾ ɒː ɣ
 چربی	t͡ʃ a ɾ b iː
 چربی	t͡ʃ æ ɾ b iː
 چرخ	t͡ʃ a ɾ x
@@ -8282,10 +8447,14 @@
 چرمه	t͡ʃ æ ɾ m e
 چرک	t ʃ e ɾ k
 چرک	t ʃ æ ɾ k
-چریک	t͡ʃ e ɾ iː k ~ t͡ʃ æ ɾ iː k
-چریک	t͡ʃ i ɾ i k ~ t͡ʃ a ɾ i k
-چریک	t͡ʃ i ɾ iː k ~ t͡ʃ a ɾ iː k
-چریک	t͡ʃ ɪ ɾ iː k ~ t͡ʃ a ɾ iː k
+چریک	t͡ʃ e ɾ iː k
+چریک	t͡ʃ æ ɾ iː k
+چریک	t͡ʃ i ɾ i k
+چریک	t͡ʃ a ɾ i k
+چریک	t͡ʃ i ɾ iː k
+چریک	t͡ʃ a ɾ iː k
+چریک	t͡ʃ ɪ ɾ iː k
+چریک	t͡ʃ a ɾ iː k
 چشم	t͡ʃ a ʃ m
 چشم	t͡ʃ æ ʃ m
 چشمان	t ʃʰ e ʃ m ɒː
@@ -8298,9 +8467,12 @@
 چطور	t͡ʃ i t a v ɾ
 چطور	t͡ʃ i t a w ɾ
 چطور	t͡ʃ ɪ t a w ɾ
-چغندر	t͡ʃ o ɢ o n d æ ɾ ~ t͡ʃ o ɢ o n d æ ɾ
-چغندر	t͡ʃ u ɣ u n d a ɾ ~ t͡ʃ u ɣ u n d a ɾ
-چغندر	t͡ʃ ʊ ɣ ʊ n d a ɾ ~ t͡ʃ ʊ ɣ ʊ n d a ɾ
+چغندر	t͡ʃ o ɢ o n d æ ɾ
+چغندر	t͡ʃ o ɢ o n d æ ɾ
+چغندر	t͡ʃ u ɣ u n d a ɾ
+چغندر	t͡ʃ u ɣ u n d a ɾ
+چغندر	t͡ʃ ʊ ɣ ʊ n d a ɾ
+چغندر	t͡ʃ ʊ ɣ ʊ n d a ɾ
 چقدر	t͡ʃ e ɢ æ d æ ɾ
 چقدر	t͡ʃ i q a d a ɾ
 چقدر	t͡ʃ ɪ q a d a ɾ
@@ -8396,9 +8568,12 @@
 چگونه	t͡ʃ i ɡ u n a
 چگونه	t͡ʃ i ɡ uː n a
 چگونه	t͡ʃ ɪ ɡ uː n a
-چی	t͡ʃ iː ~ t͡ʃ e
-چی	t͡ʃ iː ~ t͡ʃ i
-چی	t͡ʃ iː ~ t͡ʃ ɪ
+چی	t͡ʃ iː
+چی	t͡ʃ e
+چی	t͡ʃ iː
+چی	t͡ʃ i
+چی	t͡ʃ iː
+چی	t͡ʃ ɪ
 چیدن	t͡ʃ i d a n
 چیدن	t͡ʃ iː d a n
 چیدن	t͡ʃ iː d æ n
@@ -8505,14 +8680,22 @@
 کاسب	k ɔː s i b
 کاسه	k ɒː s e
 کاسه	k ɒː s æ
-کاغد	k ɑː ɣ a d ~ k ɑː ɣ i d
-کاغد	k ɒː ɢ æ d ~ k ɒː ɢ e d
-کاغد	k ɒː ɣ a d ~ k ɒː ɣ ɪ d
-کاغد	k ɔː ɣ a d ~ k ɔː ɣ i d
-کاغذ	k ɑː ɣ a ð ~ k ɑː ɣ i ð
-کاغذ	k ɒː ɢ æ z ~ k ɒː ɢ e z
-کاغذ	k ɒː ɣ a z ~ k ɒː ɣ ɪ z
-کاغذ	k ɔː ɣ a z ~ k ɔː ɣ i z
+کاغد	k ɑː ɣ a d
+کاغد	k ɑː ɣ i d
+کاغد	k ɒː ɢ æ d
+کاغد	k ɒː ɢ e d
+کاغد	k ɒː ɣ a d
+کاغد	k ɒː ɣ ɪ d
+کاغد	k ɔː ɣ a d
+کاغد	k ɔː ɣ i d
+کاغذ	k ɑː ɣ a ð
+کاغذ	k ɑː ɣ i ð
+کاغذ	k ɒː ɢ æ z
+کاغذ	k ɒː ɢ e z
+کاغذ	k ɒː ɣ a z
+کاغذ	k ɒː ɣ ɪ z
+کاغذ	k ɔː ɣ a z
+کاغذ	k ɔː ɣ i z
 کاغذها	k ɒː ɣ æ z h ɒː
 کافر	k ɒː f e r
 کافی	k ɑː f iː
@@ -8595,9 +8778,12 @@
 کریمه	k e ɾ iː m e
 کس	k a s
 کس	k æ s
-کسشعر	k o s e ʃ e ɾ ~ k o s ʃ e ɾ
-کسشعر	k u s i ʃ i ɾ ~ k u s ʃ i ɾ
-کسشعر	k ʊ s ɪ ʃ ɪ ɾ ~ k ʊ s ʃ ɪ ɾ
+کسشعر	k o s e ʃ e ɾ
+کسشعر	k o s ʃ e ɾ
+کسشعر	k u s i ʃ i ɾ
+کسشعر	k u s ʃ i ɾ
+کسشعر	k ʊ s ɪ ʃ ɪ ɾ
+کسشعر	k ʊ s ʃ ɪ ɾ
 کسی	k a s e
 کسی	k a s eː
 کسی	k e s iː
@@ -8649,15 +8835,22 @@
 کلفخشنگ	k æ l æ f æ x ʃ æ n ɡ
 کلمه	k a l a m a
 کلمه	k æ l æ m e
-کلنگ	k o l æ ŋ ɡ ~ k o l o ŋ ɡ
-کلنگ	k u l a ŋ ɡ ~ k u l u ŋ ɡ
-کلنگ	k ʊ l a ŋ ɡ ~ k ʊ l ʊ ŋ ɡ
+کلنگ	k o l æ ŋ ɡ
+کلنگ	k o l o ŋ ɡ
+کلنگ	k u l a ŋ ɡ
+کلنگ	k u l u ŋ ɡ
+کلنگ	k ʊ l a ŋ ɡ
+کلنگ	k ʊ l ʊ ŋ ɡ
 کله	k æ l l æ
 کلپ	k l æ p
-کلید	k a l i d ~ k i l i d
-کلید	k a l iː d ~ k i l iː d
-کلید	k a l iː d ~ k ɪ l iː d
-کلید	k æ l iː d ~ k e l iː d
+کلید	k a l i d
+کلید	k i l i d
+کلید	k a l iː d
+کلید	k i l iː d
+کلید	k a l iː d
+کلید	k ɪ l iː d
+کلید	k æ l iː d
+کلید	k e l iː d
 کلیچه	k o l iː t͡ʃ e
 کلیچه	k u l i t͡ʃ a
 کلیچه	k u l iː t͡ʃ a
@@ -8696,10 +8889,14 @@
 کن	k o n
 کن	k u n
 کن	k ʊ n
-کنار	k a n ɑː ɾ ~ k i n ɑː ɾ
-کنار	k a n ɒː ɾ ~ k ɪ n ɒː ɾ
-کنار	k a n ɔː ɾ ~ k i n ɔː ɾ
-کنار	k æ n ɒː ɾ ~ k e n ɒː ɾ
+کنار	k a n ɑː ɾ
+کنار	k i n ɑː ɾ
+کنار	k a n ɒː ɾ
+کنار	k ɪ n ɒː ɾ
+کنار	k a n ɔː ɾ
+کنار	k i n ɔː ɾ
+کنار	k æ n ɒː ɾ
+کنار	k e n ɒː ɾ
 کنجکاو	k o n d͡ʒ k ɒː v
 کنجکاو	k u n d͡ʒ k ɑː w
 کنجکاو	k u n d͡ʒ k ɔː v
@@ -8879,11 +9076,16 @@
 گرا	ɡ a ɾ ɔː
 گرا	ɡ æ ɾ ɒː
 گراز	ɡ o ɾ ɒː z
-گران	ɡ a ɾ ɑː n ~ ɡ i ɾ ɑː n
-گران	ɡ a ɾ ɒː n ~ ɡ ɪ ɾ ɒː n
-گران	ɡ a ɾ ɔː n ~ ɡ i ɾ ɔː n
-گران	ɡ æ ɾ ɒː n ~ ɡ e ɾ ɒː n
-گران	ɡ ɒː ɾ uː n ~ ɡ e ɾ uː n
+گران	ɡ a ɾ ɑː n
+گران	ɡ i ɾ ɑː n
+گران	ɡ a ɾ ɒː n
+گران	ɡ ɪ ɾ ɒː n
+گران	ɡ a ɾ ɔː n
+گران	ɡ i ɾ ɔː n
+گران	ɡ æ ɾ ɒː n
+گران	ɡ e ɾ ɒː n
+گران	ɡ ɒː ɾ uː n
+گران	ɡ e ɾ uː n
 گربسن	ɡ e r b e s æ n
 گربه	ɡ o ɾ b e
 گربه	ɡ u ɾ b a
