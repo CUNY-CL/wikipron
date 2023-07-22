@@ -1,5 +1,4 @@
-WikiPron
-========
+# WikiPron
 
 [![PyPI
 version](https://badge.fury.io/py/wikipron.svg)](https://pypi.org/project/wikipron)
@@ -24,12 +23,11 @@ If you use WikiPron in your research, please cite the following:
 Jackson L. Lee, Lucas F.E. Ashby, M. Elizabeth Garza, Yeonju Lee-Sikka, Sean
 Miller, Alan Wong, Arya D. McCarthy, and Kyle Gorman (2020). [Massively
 multilingual pronunciation mining with
-WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In *Proceedings
-of the 12th Language Resources and Evaluation Conference*, pages 4223-4228.
+WikiPron](https://www.aclweb.org/anthology/2020.lrec-1.521/). In *Proceedings of
+the 12th Language Resources and Evaluation Conference*, pages 4223-4228.
 \[[bibtex](https://www.aclweb.org/anthology/2020.lrec-1.521.bib)\]
 
-Command-line tool
------------------
+## Command-line tool
 
 ### Installation
 
@@ -39,7 +37,7 @@ pip install wikipron
 
 ### Usage
 
-#### Quick Start
+#### Quick start
 
 After installation, the terminal command `wikipron` will be available. As a
 basic example, the following command scrapes G2P data for French:
@@ -48,7 +46,7 @@ basic example, the following command scrapes G2P data for French:
 wikipron fra
 ```
 
-#### Specifying the Language
+#### Specifying the language
 
 The language is indicated by a three-letter [ISO
 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes) language code,
@@ -56,7 +54,7 @@ e.g., `fra` for French. For which languages can be scraped,
 [here](https://en.wiktionary.org/wiki/Category:Terms_with_IPA_pronunciation_by_language)
 is the complete list of languages on Wiktionary that have pronunciation entries.
 
-#### Specifying the Dialect
+#### Specifying the dialect
 
 One can optionally specify dialects to target using the `--dialect` flag. The
 dialect name can be found together with the transcription on Wiktionary. For
@@ -64,6 +62,13 @@ example, "(UK, US) IPA: /təˈmɑːtəʊ/". To restrict to the union of dialects
 the pipe character '\|': e.g., `--dialect='General American | US'`.
 Transcriptions which lack a dialect specification are selected regardless of the
 value of this flag.
+
+#### Specifying the transcription level
+
+By default, WikiPron selects broad pronunciations in angled brackets /like
+this/. One can instead select narrow transcriptions written \[like this\] using
+the `--narrow` flag. Note that some languages only have broad or narrow
+transcriptions (e.g., Russian only has the latter.
 
 #### Segmentation
 
@@ -74,9 +79,9 @@ rendered `kʰ æ t`. This can be disabled using the `--no-segment` flag.
 
 #### Parentheses
 
-Some of transcriptions contain parentheses to indicate alternative pronunciations.
-The parentheses (but not the content) are discarded in the scrape unless the
-`--no-skip-parens` flag is used.
+Some of transcriptions contain parentheses to indicate alternative
+pronunciations. The parentheses (but not the content) are discarded in the
+scrape unless the `--no-skip-parens` flag is used.
 
 #### Output
 
@@ -104,13 +109,12 @@ file, please redirect the standard output to a filename of your choice:
 wikipron fra > fra.tsv
 ```
 
-#### Advanced Options
+#### Advanced options
 
 The `wikipron` terminal command has an array of options to configure your
 scraping run. For a full list of the options, please run `wikipron -h`.
 
-Python API
-----------
+## Python API
 
 The underlying module can also be used from Python. A standard workflow looks
 like:
@@ -123,21 +127,18 @@ for word, pron in wikipron.scrape(config):
     ...
 ```
 
-Data
-----
+## Data
 
 We also make available [a database of over 3 million word/pronunciation
 pairs](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using
 WikiPron.
 
-Models
-------
+## Models
 
 We host grapheme-to-phoneme models and modeling software [in a separate
 repository](https://github.com/kylebgorman/wikipron-modeling).
 
-Development
------------
+## Development
 
 ### Repository
 
@@ -167,7 +168,7 @@ yourself, you may obtain the latest source code through GitHub and `git`:
 We keep track of notable changes in
 [`CHANGELOG.md`](https://github.com/CUNY-CL/wikipron/blob/master/CHANGELOG.md).
 
-### Contribution
+### Contributing
 
 For questions, bug reports, and feature requests, please [file an
 issue](https://github.com/CUNY-CL/wikipron/issues).
@@ -178,8 +179,8 @@ If you would like to contribute to the `wikipron` codebase, please see
 ### License
 
 WikiPron is released under an Apache 2.0 license. Please see
-[LICENSE.txt](https://github.com/CUNY-CL/wikipron/blob/master/LICENSE.txt)
-for details.
+[LICENSE.txt](https://github.com/CUNY-CL/wikipron/blob/master/LICENSE.txt) for
+details.
 
 Please note that Wiktionary data in the
 [`data/`](https://github.com/CUNY-CL/wikipron/tree/master/data) directory has
