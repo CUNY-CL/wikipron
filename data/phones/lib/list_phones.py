@@ -17,11 +17,17 @@ from typing import Dict, List, Set
 
 import ipapy
 
-OTHER_VALID_IPA = frozenset(
+_other_valid_ipa = frozenset(
     phone
     for phone in ipapy.UNICODE_TO_IPA.keys()
     if not ipapy.is_valid_ipa(unicodedata.normalize("NFD", phone))
 )
+
+_suffixed_other_valid_ipa = frozenset(
+    phone + "ː" for phone in _other_valid_ipa
+)
+
+OTHER_VALID_IPA = _other_valid_ipa | _suffixed_other_valid_ipa
 
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
