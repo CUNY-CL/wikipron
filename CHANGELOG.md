@@ -22,6 +22,7 @@ Unreleased
 
 #### Added
 
+=======
 -   Added KPI computation to `generate_summary.py`. (\#465)
 -   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
@@ -120,6 +121,7 @@ Unreleased
 
 #### Added
 
+-  Added documentation about selecting transcription level. (\#502)
 -  Added `ckb` in `languagecodes.py`. (\#464)
 -  Added support for Python 3.10. (\#462)
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
