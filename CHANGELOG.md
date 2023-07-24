@@ -22,7 +22,7 @@ Unreleased
 
 #### Added
 
--   Caught iso639.language.LanguageNotFoundError error in codes.py (\#498)
+-   Caught `iso639.language.LanguageNotFoundError` error in codes.py (\#498)
 -   Added KPI computation to `generate_summary.py`. (\#465)
 -   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
