@@ -174,9 +174,13 @@ def main() -> None:
             wiktionary_code = _scrape_wiktionary_language_code(
                 wiktionary_name.replace(" ", "_")
             )
+
             try:
                 iso639_lang = iso639.Language.match(wiktionary_code)
             except iso639.language.LanguageNotFoundError:
+                unmatched_languages[wiktionary_code] = {
+                    "wiktionary_name": wiktionary_name
+                }
                 logging.warning(
                     "Could not find language with code %s", wiktionary_code
                 )
