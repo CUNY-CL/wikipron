@@ -5,8 +5,20 @@
     "nds-de": {
         "wiktionary_name": "German Low German"
     },
+    "gmw-jdt": {
+        "wiktionary_name": "Jersey Dutch"
+    },
+    "grk-mar": {
+        "wiktionary_name": "Mariupol Greek"
+    },
+    "zlw-ocs": {
+        "wiktionary_name": "Old Czech"
+    },
     "roa-opt": {
-        "wiktionary_name": "Old Portuguese"
+        "wiktionary_name": "Old Galician-Portuguese"
+    },
+    "zlw-opl": {
+        "wiktionary_name": "Old Polish"
     },
     "map-pro": {
         "wiktionary_name": "Proto-Austronesian"
@@ -16,9 +28,6 @@
     },
     "gem-pro": {
         "wiktionary_name": "Proto-Germanic"
-    },
-    "itc-pro": {
-        "wiktionary_name": "Proto-Italic"
     },
     "jpx-pro": {
         "wiktionary_name": "Proto-Japonic"
@@ -34,8 +43,5 @@
     },
     "gmq-scy": {
         "wiktionary_name": "Scanian"
-    },
-    "gmq-bot": {
-        "wiktionary_name": "Westrobothnian"
     }
 }
