@@ -139,6 +139,7 @@ Unreleased
 
 #### Changed
 
+-   Fixed missing logging for proto-languages. (\#505)
 -   Switched to ISO 639-3 language codes. (\#468)
 -   Converted `setup.py` to `pyproject.toml`. (\#479)
 
