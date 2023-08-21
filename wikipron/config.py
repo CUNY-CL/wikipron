@@ -85,21 +85,23 @@ class Config:
         self.skip_parens: bool = skip_parens
         self.restart_key = None
 
-    def _get_language(self, key) -> str:
+    def _get_language(self, key: str) -> str:
         key = key.strip()
         if key.lower().startswith("proto-"):
             language = "-".join(x.title() for x in key.split("-"))
-            return language
-        try:
-            language = LANGUAGE_CODES[key.lower()]
-        except KeyError:
-            func = iso639.Language.match
+        else:
             try:
-                language = (
-                    func(key) or func(key.lower()) or func(key.title())
-                ).name
-            except iso639.LanguageNotFoundError:
-                raise ValueError(f"Unrecognized language code or name: {key}")
+                language = LANGUAGE_CODES[key.lower()]
+            except KeyError:
+                func = iso639.Language.match
+                try:
+                    language = (
+                        func(key) or func(key.lower()) or func(key.title())
+                    ).name
+                except iso639.LanguageNotFoundError:
+                    raise ValueError(
+                        f"Unrecognized language code or name: {key}"
+                    )
         logging.info("Language: %r", language)
         return language
 
