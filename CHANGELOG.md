@@ -11,9 +11,9 @@ Unreleased
 ----------
 
 ### Under `data/`
--   Moved IPAs of words with tildes to multiple lines. (\#379)
 
 ### Under `wikipron/` and elsewhere
+-   Added not-already-mentioned language names. (\#478)
 
 [1.3.0] - 2022-11-28
 --------------------
@@ -21,7 +21,7 @@ Unreleased
 ### Under `data/`
 
 #### Added
-
+-   Moved IPAs of words with tildes to multiple lines. (\#379)
 -   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
 -   Added KPI computation to `generate_summary.py`. (\#465)
 -   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
