@@ -259,7 +259,8 @@ LANGUAGE_CODES = {
     "cbn": "Nyah Kur",
     "nyah kur": "Nyah Kur",
     "nyahkur": "Nyah Kur",
-    # Not-already-mentioned languages from languages.json that have a difference between their iso639 and Wiktionary name.
+    # Not-already-mentioned languages from languages.json that have
+    # a difference between their iso639 and Wiktionary name.
     "ain": "Ainu",
     "rup": "Aromanian",
     "bjb": "Barngarla",
