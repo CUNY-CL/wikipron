@@ -50,7 +50,7 @@ zip-safe = false
 
 [tool.setuptools.packages.find]
 where = ["src"]
-namespace = false
+namespaces = false
 
 [tool.pytest.ini_options]
 addopts = "-vv --durations=0 --strict-markers"
