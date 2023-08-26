@@ -83,7 +83,7 @@ def main(args: argparse.Namespace) -> None:
     common_chars: Dict[str, Dict[str, Dict[str, str]]] = {}
     for src in sorted(os.listdir(TSV_DIRECTORY)):
         iso639_code = src[: src.index("_")]
-        path_remainder = src[src.index("_") + 1:]
+        path_remainder = src[src.index("_") + 1 :]
         with open(f"{TSV_DIRECTORY}/{src}", "r", encoding="utf=8") as source:
             ptr = common_chars[f"{iso639_code}_{path_remainder}"] = {}
             ptr["Common"] = {}

@@ -24,9 +24,9 @@ def _handle_modifiers(language: Dict[str, Any], file_path: str):
         end = file_path.rindex("_broad") + 1
     else:
         end = file_path.rindex("_narrow") + 1
-    script_key = file_path[start:file_path.index("_", start)]
+    script_key = file_path[start : file_path.index("_", start)]
     dialect_key = file_path[
-        file_path.index("_", start) + 1:file_path.rindex("_", start, end)
+        file_path.index("_", start) + 1 : file_path.rindex("_", start, end)
     ]
     script = language["script"][script_key]
     dialect = dialects.get(dialect_key, "").replace(" |", ",")

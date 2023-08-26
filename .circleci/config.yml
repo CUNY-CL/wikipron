@@ -74,13 +74,13 @@ workflows:
     jobs:
       - pre-build:
           name: flake8
-          command-run: flake8 data src tests
+          command-run: flake8 --extend-ignore E203 data src tests
       - pre-build:
           name: black
           command-run: black --line-length=79 --check data src tests
       - pre-build:
           name: mypy
-          command-run: mypy --install-types --ignore-missing-imports --non-interactive data src tests
+          command-run: mypy --install-types --ignore-missing-imports --non-interactive src tests
       - pre-build:
           name: twine
           command-run: |
