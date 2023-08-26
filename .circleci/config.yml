@@ -77,10 +77,10 @@ workflows:
           command-run: flake8 wikipron tests
       - pre-build:
           name: black
-          command-run: black --line-length=79 --check wikipron tests data
+          command-run: black --line-length=79 --check data src tests
       - pre-build:
           name: mypy
-          command-run: mypy --install-types --ignore-missing-imports --non-interactive wikipron tests data
+          command-run: mypy --install-types --ignore-missing-imports --non-interactive data src tests
       - pre-build:
           name: twine
           command-run: |
