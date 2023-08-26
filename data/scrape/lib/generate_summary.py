@@ -24,9 +24,9 @@ def _handle_modifiers(language: Dict[str, Any], file_path: str):
         end = file_path.rindex("_broad") + 1
     else:
         end = file_path.rindex("_narrow") + 1
-    script_key = file_path[start : file_path.index("_", start)]
+    script_key = file_path[start:file_path.index("_", start)]
     dialect_key = file_path[
-        file_path.index("_", start) + 1 : file_path.rindex("_", start, end)
+        file_path.index("_", start) + 1:file_path.rindex("_", start, end)
     ]
     script = language["script"][script_key]
     dialect = dialects.get(dialect_key, "").replace(" |", ",")
@@ -91,7 +91,8 @@ def main() -> None:
     # Calculates KPIs.
     num_languages = len(unique_iso_codes)
     num_scripts = len(unique_scripts)
-    # Calculates the number of "Broad" and "Narrow" files for unique iso codes and dialects.
+    # Calculates the number of "Broad" and "Narrow" files for unique ISO
+    # codes and dialects.
     table = pandas.read_csv(
         LANGUAGES_SUMMARY_PATH,
         sep="\t",
@@ -121,7 +122,7 @@ def main() -> None:
     num_narrow_files = table["narrow_broad"].value_counts()["Narrow"]
     dialects = table.groupby(["iso_639_2_code", "dialect"]).ngroups
     # Counts unfiltered pronunciations.
-    num_entries = table[table["filtered"] == False]["no_entries"].sum()
+    num_entries = table[~table["filtered"]]["no_entries"].sum()
     # Writes the README with KPIs and remaining information.
     with open(README_PATH, "w", encoding="utf-8") as sink:
         # Writes KPIs.

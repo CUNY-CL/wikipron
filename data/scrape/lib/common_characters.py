@@ -4,7 +4,7 @@
 This module takes TSV files from data and prints an updated regex string to be
 passed to `split.py`.
 
-If --json is enabled, it also writes JSON files which indicate which 
+If --json is enabled, it also writes JSON files which indicate which
 "Common" and "Inherited" characters appear in each language."""
 
 import argparse
@@ -41,7 +41,7 @@ COMMON_ACCEPTED = [
 def _extend_regex(
     accepted_chars: List[str], common_chars: Dict[str, Dict[str, str]]
 ) -> str:
-    extension = ["\s", "’", "ʔ", "ʻ"]
+    extension = [r"\s", "’", "ʔ", "ʻ"]
     for char_type, symbol in common_chars.items():
         if char_type == "Common":
             for char, char_symbol in symbol.items():
@@ -83,7 +83,7 @@ def main(args: argparse.Namespace) -> None:
     common_chars: Dict[str, Dict[str, Dict[str, str]]] = {}
     for src in sorted(os.listdir(TSV_DIRECTORY)):
         iso639_code = src[: src.index("_")]
-        path_remainder = src[src.index("_") + 1 :]
+        path_remainder = src[src.index("_") + 1:]
         with open(f"{TSV_DIRECTORY}/{src}", "r", encoding="utf=8") as source:
             ptr = common_chars[f"{iso639_code}_{path_remainder}"] = {}
             ptr["Common"] = {}

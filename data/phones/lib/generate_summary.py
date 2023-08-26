@@ -19,7 +19,7 @@ from data.scrape.lib.codes import (
 def _handle_wiki_name(language: Dict[str, Any], file_path: str) -> str:
     name = language["wiktionary_name"]
     if "dialect" in language:
-        key = file_path[file_path.index("_") + 1 : file_path.rindex("_")]
+        key = file_path[file_path.index("_") + 1:file_path.rindex("_")]
         if not key:
             logging.info(
                 "Failed to isolate key for dialect modifier in %r",

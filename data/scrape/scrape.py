@@ -59,13 +59,13 @@ def _call_scrape(
             with open(
                 tsv_filtered_path, "w", encoding="utf-8"
             ) as source_filtered:
-                for (word, pron) in scrape_results:
+                for word, pron in scrape_results:
                     line = f"{word}\t{pron}"
                     if _filter(word, pron, phones_set):
                         print(line, file=source_filtered)
                     print(line, file=source)
         else:
-            for (word, pron) in scrape_results:
+            for word, pron in scrape_results:
                 print(f"{word}\t{pron}", file=source)
 
 
@@ -190,14 +190,15 @@ def main(args: argparse.Namespace) -> None:
                 f"{PHONES_DIRECTORY}/{config_settings['key']}_",
             )
         else:
-            for (dialect_key, dialect_value) in language_settings[
+            for dialect_key, dialect_value in language_settings[
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
                 _build_scraping_config(
                     config_settings,
                     f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
-                    f"{PHONES_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
+                    f"{PHONES_DIRECTORY}/"
+                    f"{config_settings['key']}_{dialect_key}_",
                 )
         remaining.remove(code)
         with open(_UNSCRAPED_JSON_FILENAME, "w") as f:
