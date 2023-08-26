@@ -74,7 +74,7 @@ workflows:
     jobs:
       - pre-build:
           name: flake8
-          command-run: flake8 wikipron tests
+          command-run: flake8 data src tests
       - pre-build:
           name: black
           command-run: black --line-length=79 --check data src tests
