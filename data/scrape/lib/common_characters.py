@@ -17,11 +17,15 @@ from typing import Dict, List, Optional
 import regex  # type: ignore
 import unicodedataplus  # type: ignore
 
-from codes import (
-    COMMON_CHARS_PATH,
-    GLOBAL_COMMON_CHARS_PATH,
-    TSV_DIRECTORY,
+
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")
+GLOBAL_COMMON_CHARS_PATH = os.path.join(
+    LIB_DIRECTORY, "global_common_chars.json"
 )
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 
 # List of commmon type Unicode characters included in the regex string.
 COMMON_ACCEPTED = [

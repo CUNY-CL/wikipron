@@ -32,6 +32,7 @@ import requests_html  # type: ignore
 import wikipron
 from wikipron.scrape import HTTP_HEADERS
 
+
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")

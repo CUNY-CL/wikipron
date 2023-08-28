@@ -9,12 +9,13 @@ from typing import Any, Dict, Set
 
 import pandas
 
-from codes import (
-    LANGUAGES_PATH,
-    LANGUAGES_SUMMARY_PATH,
-    README_PATH,
-    TSV_DIRECTORY,
-)
+
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+LANGUAGES_SUMMARY_PATH = os.path.join(SCRAPE_DIRECTORY, "summary.tsv")
+README_PATH = os.path.join(SCRAPE_DIRECTORY, "README.md")
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 
 
 def _handle_modifiers(language: Dict[str, Any], file_path: str):
