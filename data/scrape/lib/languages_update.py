@@ -17,7 +17,7 @@ from typing import Dict, DefaultDict, Optional
 
 import unicodedataplus  # type: ignore
 
-from codes import LANGUAGES_PATH, TSV_DIRECTORY  # type: ignore
+from .codes import LANGUAGES_PATH, TSV_DIRECTORY  # type: ignore
 
 
 def _detect_best_script_name(

@@ -12,12 +12,20 @@ from typing import Any, Dict, FrozenSet, Iterator, Optional
 
 import wikipron  # type: ignore
 
-from lib.codes import (
-    LANGUAGES_PATH,
-    LOGGING_PATH,
-    PHONES_DIRECTORY,
-    TSV_DIRECTORY,
-)
+if __name__ == "__main__":
+    from lib.codes import (
+        LANGUAGES_PATH,
+        LOGGING_PATH,
+        PHONES_DIRECTORY,
+        TSV_DIRECTORY,
+    )
+else:
+    from .lib.codes import (
+        LANGUAGES_PATH,
+        LOGGING_PATH,
+        PHONES_DIRECTORY,
+        TSV_DIRECTORY,
+    )
 
 
 _UNSCRAPED_JSON_FILENAME = os.path.join(
