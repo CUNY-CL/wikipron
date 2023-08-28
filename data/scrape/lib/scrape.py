@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Performs the big scrape."""
+"""Runs the big scrape."""
 
 import argparse
 import datetime
@@ -12,23 +12,16 @@ from typing import Any, Dict, FrozenSet, Iterator, Optional
 
 import wikipron  # type: ignore
 
-if __name__ == "__main__":
-    from lib.codes import (
-        LANGUAGES_PATH,
-        LOGGING_PATH,
-        PHONES_DIRECTORY,
-        TSV_DIRECTORY,
-    )
-else:
-    from .lib.codes import (
-        LANGUAGES_PATH,
-        LOGGING_PATH,
-        PHONES_DIRECTORY,
-        TSV_DIRECTORY,
-    )
 
-
-_UNSCRAPED_JSON_FILENAME = os.path.join(
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+PHONES_DIRECTORY = os.path.join(
+    os.path.dirname(SCRAPE_DIRECTORY), "phones/phones"
+)
+LOGGING_PATH = os.path.join(SCRAPE_DIRECTORY, "scraping.log")
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
+UNSCRAPED_JSON_FILENAME = os.path.join(
     os.path.dirname(__file__), "unscraped.json"
 )
 
@@ -77,7 +70,7 @@ def _call_scrape(
                 print(f"{word}\t{pron}", file=source)
 
 
-def _build_scraping_config(
+def build_scraping_config(
     config_settings: Dict[str, Any], path_affix: str, phones_path_affix: str
 ) -> None:
     # Configures broad TSV.
@@ -160,8 +153,8 @@ def main(args: argparse.Namespace) -> None:
             exit(1)
     else:
         exclude_set = frozenset()
-    if not args.fresh and os.path.exists(_UNSCRAPED_JSON_FILENAME):
-        with open(_UNSCRAPED_JSON_FILENAME) as f:
+    if not args.fresh and os.path.exists(UNSCRAPED_JSON_FILENAME):
+        with open(UNSCRAPED_JSON_FILENAME) as f:
             unscraped_json = json.load(f)
         unscraped_codes = frozenset(unscraped_json["unscraped"])
         cut_off_date = unscraped_json["cut_off_date"]
@@ -192,7 +185,7 @@ def main(args: argparse.Namespace) -> None:
             **wikipron_accepted_settings,
         }
         if "dialect" not in language_settings:
-            _build_scraping_config(
+            build_scraping_config(
                 config_settings,
                 f"{TSV_DIRECTORY}/{config_settings['key']}_",
                 f"{PHONES_DIRECTORY}/{config_settings['key']}_",
@@ -202,14 +195,14 @@ def main(args: argparse.Namespace) -> None:
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
-                _build_scraping_config(
+                build_scraping_config(
                     config_settings,
                     f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
                     f"{PHONES_DIRECTORY}/"
                     f"{config_settings['key']}_{dialect_key}_",
                 )
         remaining.remove(code)
-        with open(_UNSCRAPED_JSON_FILENAME, "w") as f:
+        with open(UNSCRAPED_JSON_FILENAME, "w") as f:
             unscraped = {
                 "cut_off_date": cut_off_date,
                 "unscraped": sorted(remaining),
