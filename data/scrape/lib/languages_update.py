@@ -17,7 +17,11 @@ from typing import Dict, DefaultDict, Optional
 
 import unicodedataplus  # type: ignore
 
-from data.scrape.lib.codes import LANGUAGES_PATH, TSV_DIRECTORY  # type: ignore
+
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 
 
 def _detect_best_script_name(

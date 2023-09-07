@@ -14,9 +14,9 @@ jobs:
       # Use the latest Python 3.x image from CircleCI that WikiPron supports.
       # See: https://circleci.com/developer/images/image/cimg/python
       - image: cimg/python:3.11
-        #auth:
-        #  username: $DOCKERHUB_USERNAME
-        #  password: $DOCKERHUB_PASSWORD
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
@@ -30,9 +30,9 @@ jobs:
         type: string
     docker:
       - image: cimg/python:<< parameters.python-version >>
-        #auth:
-        #  username: $DOCKERHUB_USERNAME
-        #  password: $DOCKERHUB_PASSWORD
+        auth:
+          username: $DOCKERHUB_USERNAME
+          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
@@ -74,13 +74,13 @@ workflows:
     jobs:
       - pre-build:
           name: flake8
-          command-run: flake8 wikipron tests
+          command-run: flake8 --extend-ignore E203 data src tests
       - pre-build:
           name: black
-          command-run: black --line-length=79 --check wikipron tests data
+          command-run: black --line-length=79 --check data src tests
       - pre-build:
           name: mypy
-          command-run: mypy --install-types --ignore-missing-imports --non-interactive wikipron tests data
+          command-run: mypy --install-types --ignore-missing-imports --non-interactive src tests
       - pre-build:
           name: twine
           command-run: |

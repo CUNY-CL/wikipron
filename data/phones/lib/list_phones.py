@@ -89,7 +89,7 @@ def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
-                f"[%d %04x %s %s]"
+                "[%d %04x %s %s]"
                 % (i, ord(c), unicodedata.category(c), unicodedata.name(c))
                 for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
             ]

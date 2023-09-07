@@ -117,10 +117,11 @@ Unreleased
 -   Scraping test fixed for `blt`. (\#436)
 -   Changed URLs to point at CUNY-CL repo, where applicable. (\#438)
 
-### Under `wikipron/` and elsewhere
+### Under `src/` and elsewhere
 
 #### Added
 
+-  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
 -  Added documentation about selecting transcription level. (\#502)
 -  Added `ckb` in `languagecodes.py`. (\#464)
 -  Added support for Python 3.10. (\#462)

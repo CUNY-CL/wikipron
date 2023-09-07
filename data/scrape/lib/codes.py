@@ -32,6 +32,7 @@ import requests_html  # type: ignore
 import wikipron
 from wikipron.scrape import HTTP_HEADERS
 
+
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")
@@ -44,16 +45,8 @@ UNMATCHED_LANGUAGES_PATH = os.path.join(
 SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
 LANGUAGES_SUMMARY_PATH = os.path.join(SCRAPE_DIRECTORY, "summary.tsv")
 LOGGING_PATH = os.path.join(SCRAPE_DIRECTORY, "scraping.log")
-README_PATH = os.path.join(SCRAPE_DIRECTORY, "README.md")
-TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 PHONES_DIRECTORY = os.path.join(
     os.path.dirname(SCRAPE_DIRECTORY), "phones/phones"
-)
-PHONES_README_PATH = os.path.join(
-    os.path.dirname(PHONES_DIRECTORY), "README.md"
-)
-PHONES_SUMMARY_PATH = os.path.join(
-    os.path.dirname(PHONES_DIRECTORY), "summary.tsv"
 )
 URL = "https://en.wiktionary.org/w/api.php"
 

@@ -1,0 +1,6 @@
+#!/bin/bash
+# Runs the scrape.
+
+set -eou pipefail
+
+./lib/scrape.py $@
