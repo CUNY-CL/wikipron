@@ -1231,7 +1231,7 @@
         "iso639_name": "Khiamniungan Naga",
         "wiktionary_name": "Khiamniungan Naga",
         "wiktionary_code": "kix",
-        "casefold": null
+        "casefold": true
     },
     "khm": {
         "iso639_name": "Khmer",
@@ -1635,7 +1635,7 @@
         "iso639_name": "Mansi",
         "wiktionary_name": "Mansi",
         "wiktionary_code": "mns",
-        "casefold": null
+        "casefold": true
     },
     "glv": {
         "iso639_name": "Manx",
@@ -2421,7 +2421,7 @@
         "iso639_name": "Seri",
         "wiktionary_name": "Seri",
         "wiktionary_code": "sei",
-        "casefold": null
+        "casefold": true
     },
     "shn": {
         "iso639_name": "Shan",
