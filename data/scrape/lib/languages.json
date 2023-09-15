@@ -603,8 +603,7 @@
             "thaa": "Thaana",
             "deva": "Devanagari",
             "arab": "Arabic",
-            "sinh": "Sinhala",
-            "lisu": "Lisu"
+            "sinh": "Sinhala"
         }
     },
     "sce": {
@@ -1565,8 +1564,7 @@
         "casefold": false,
         "script": {
             "deva": "Devanagari",
-            "beng": "Bengali",
-            "tirh": "Tirhuta"
+            "beng": "Bengali"
         }
     },
     "mak": {
@@ -1892,8 +1890,7 @@
         "wiktionary_code": "new",
         "casefold": false,
         "script": {
-            "deva": "Devanagari",
-            "newa": "Newa"
+            "deva": "Devanagari"
         }
     },
     "niv": {
@@ -2060,8 +2057,7 @@
         "wiktionary_code": "sga",
         "casefold": true,
         "script": {
-            "latn": "Latin",
-            "ogam": "Ogham"
+            "latn": "Latin"
         }
     },
     "kaw": {
@@ -2360,8 +2356,7 @@
         "casefold": false,
         "script": {
             "arab": "Arabic",
-            "deva": "Devanagari",
-            "mult": "Multani"
+            "deva": "Devanagari"
         }
     },
     "srd": {
@@ -2648,8 +2643,7 @@
         "casefold": false,
         "script": {
             "telu": "Telugu",
-            "knda": "Kannada",
-            "brah": "Brahmi"
+            "knda": "Kannada"
         }
     },
     "tft": {
