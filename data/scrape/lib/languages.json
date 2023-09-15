@@ -33,7 +33,8 @@
         "wiktionary_code": "af",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "arab": "Arabic"
         }
     },
     "ain": {
@@ -61,7 +62,10 @@
         "iso639_name": "Akkala Sami",
         "wiktionary_name": "Akkala Sami",
         "wiktionary_code": "sia",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "sqi": {
         "iso639_name": "Albanian",
@@ -132,7 +136,10 @@
         "iso639_name": "Aragonese",
         "wiktionary_name": "Aragonese",
         "wiktionary_code": "an",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "arc": {
         "iso639_name": "Official Aramaic (700-300 BCE)",
@@ -155,7 +162,8 @@
             "e": "Eastern Armenian, standard"
         },
         "script": {
-            "armn": "Armenian"
+            "armn": "Armenian",
+            "geor": "Georgian"
         }
     },
     "rup": {
@@ -181,7 +189,10 @@
         "iso639_name": "Assyrian Neo-Aramaic",
         "wiktionary_name": "Assyrian Neo-Aramaic",
         "wiktionary_code": "aii",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "syrc": "Syriac"
+        }
     },
     "ast": {
         "iso639_name": "Asturian",
@@ -236,13 +247,21 @@
         "iso639_name": "Balti",
         "wiktionary_name": "Balti",
         "wiktionary_code": "bft",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "arab": "Arabic",
+            "tibt": "Tibetan",
+            "deva": "Devanagari"
+        }
     },
     "bjb": {
         "iso639_name": "Banggarla",
         "wiktionary_name": "Barngarla",
         "wiktionary_code": "bjb",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "bak": {
         "iso639_name": "Bashkir",
@@ -267,13 +286,19 @@
         "iso639_name": "Bats",
         "wiktionary_name": "Bats",
         "wiktionary_code": "bbl",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "geor": "Georgian"
+        }
     },
     "bar": {
         "iso639_name": "Bavarian",
         "wiktionary_name": "Bavarian",
         "wiktionary_code": "bar",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "bel": {
         "iso639_name": "Belarusian",
@@ -281,7 +306,8 @@
         "wiktionary_code": "be",
         "casefold": true,
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "latn": "Latin"
         }
     },
     "ben": {
@@ -352,7 +378,10 @@
         "iso639_name": "Buriat",
         "wiktionary_name": "Buryat",
         "wiktionary_code": "bua",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "yue": {
         "iso639_name": "Yue Chinese",
@@ -430,14 +459,18 @@
         "script": {
             "latn": "Latin",
             "cyrl": "Cyrillic",
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "geor": "Georgian"
         }
     },
     "chr": {
         "iso639_name": "Cherokee",
         "wiktionary_name": "Cherokee",
         "wiktionary_code": "chr",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cher": "Cherokee"
+        }
     },
     "chb": {
         "iso639_name": "Chibcha",
@@ -461,13 +494,23 @@
         "iso639_name": "Chickasaw",
         "wiktionary_name": "Chickasaw",
         "wiktionary_code": "cic",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "zho": {
         "iso639_name": "Chinese",
         "wiktionary_name": "Chinese",
         "wiktionary_code": "zh",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "bopo": "Bopomofo",
+            "hani": "Han"
+        }
     },
     "cho": {
         "iso639_name": "Choctaw",
@@ -559,7 +602,8 @@
         "script": {
             "thaa": "Thaana",
             "deva": "Devanagari",
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "sinh": "Sinhala"
         }
     },
     "sce": {
@@ -682,7 +726,10 @@
         "iso639_name": "Evenki",
         "wiktionary_name": "Evenki",
         "wiktionary_code": "evn",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "ewe": {
         "iso639_name": "Ewe",
@@ -697,7 +744,10 @@
         "iso639_name": "Fala",
         "wiktionary_name": "Fala",
         "wiktionary_code": "fax",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "gur": {
         "iso639_name": "Farefare",
@@ -732,7 +782,8 @@
         "wiktionary_code": "fr",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         }
     },
     "glg": {
@@ -804,7 +855,10 @@
         "iso639_name": "Guarani",
         "wiktionary_name": "Guaraní",
         "wiktionary_code": "gn",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "guj": {
         "iso639_name": "Gujarati",
@@ -830,7 +884,10 @@
         "iso639_name": "Gun",
         "wiktionary_name": "Gun",
         "wiktionary_code": "guw",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "hts": {
         "iso639_name": "Hadza",
@@ -845,7 +902,10 @@
         "iso639_name": "Haitian",
         "wiktionary_name": "Haitian Creole",
         "wiktionary_code": "ht",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "hau": {
         "iso639_name": "Hausa",
@@ -889,7 +949,10 @@
         "iso639_name": "Hiligaynon",
         "wiktionary_name": "Hiligaynon",
         "wiktionary_code": "hil",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "hin": {
         "iso639_name": "Hindi",
@@ -978,7 +1041,10 @@
         "iso639_name": "Ingush",
         "wiktionary_name": "Ingush",
         "wiktionary_code": "inh",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "ina": {
         "iso639_name": "Interlingua (International Auxiliary Language Association)",
@@ -1031,7 +1097,12 @@
         "iso639_name": "Javanese",
         "wiktionary_name": "Javanese",
         "wiktionary_code": "jv",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin",
+            "bali": "Balinese",
+            "java": "Javanese"
+        }
     },
     "jje": {
         "iso639_name": "Jejueo",
@@ -1046,7 +1117,10 @@
         "iso639_name": "Juǀʼhoan",
         "wiktionary_name": "Juǀ'hoan",
         "wiktionary_code": "ktz",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "quc": {
         "iso639_name": "K'iche'",
@@ -1070,7 +1144,10 @@
         "iso639_name": "Kaingang",
         "wiktionary_name": "Kaingang",
         "wiktionary_code": "kgp",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "xal": {
         "iso639_name": "Kalmyk",
@@ -1094,7 +1171,10 @@
         "iso639_name": "Pampanga",
         "wiktionary_name": "Kapampangan",
         "wiktionary_code": "pam",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "krl": {
         "iso639_name": "Karelian",
@@ -1141,7 +1221,19 @@
         "iso639_name": "Khalaj",
         "wiktionary_name": "Khalaj",
         "wiktionary_code": "klj",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
+    },
+    "kix": {
+        "iso639_name": "Khiamniungan Naga",
+        "wiktionary_name": "Khiamniungan Naga",
+        "wiktionary_code": "kix",
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "khm": {
         "iso639_name": "Khmer",
@@ -1175,13 +1267,19 @@
         "iso639_name": "Kildin Sami",
         "wiktionary_name": "Kildin Sami",
         "wiktionary_code": "sjd",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "koi": {
         "iso639_name": "Komi-Permyak",
         "wiktionary_name": "Komi-Permyak",
         "wiktionary_code": "koi",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "kpv": {
         "iso639_name": "Komi-Zyrian",
@@ -1199,7 +1297,8 @@
         "wiktionary_code": "kok",
         "casefold": false,
         "script": {
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "knda": "Kannada"
         }
     },
     "kor": {
@@ -1216,7 +1315,12 @@
         "iso639_name": "Kwakiutl",
         "wiktionary_name": "Kwak'wala",
         "wiktionary_code": "kwk",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin",
+            "zyyy": "Common",
+            "grek": "Greek"
+        }
     },
     "kir": {
         "iso639_name": "Kirghiz",
@@ -1262,7 +1366,8 @@
         "wiktionary_code": "lsi",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         }
     },
     "ltg": {
@@ -1392,7 +1497,10 @@
         "iso639_name": "Louisiana Creole",
         "wiktionary_name": "Louisiana Creole",
         "wiktionary_code": "lou",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "nds": {
         "iso639_name": "Low German",
@@ -1416,7 +1524,10 @@
         "iso639_name": "Lushootseed",
         "wiktionary_name": "Lushootseed",
         "wiktionary_code": "lut",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "ltz": {
         "iso639_name": "Luxembourgish",
@@ -1450,7 +1561,11 @@
         "iso639_name": "Maithili",
         "wiktionary_name": "Maithili",
         "wiktionary_code": "mai",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "deva": "Devanagari",
+            "beng": "Bengali"
+        }
     },
     "mak": {
         "iso639_name": "Makasar",
@@ -1494,7 +1609,10 @@
         "iso639_name": "Malecite-Passamaquoddy",
         "wiktionary_name": "Malecite-Passamaquoddy",
         "wiktionary_code": "pqm",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "mlt": {
         "iso639_name": "Maltese",
@@ -1514,6 +1632,12 @@
             "mong": "Mongolian"
         }
     },
+    "mns": {
+        "iso639_name": "Mansi",
+        "wiktionary_name": "Mansi",
+        "wiktionary_code": "mns",
+        "casefold": true
+    },
     "glv": {
         "iso639_name": "Manx",
         "wiktionary_name": "Manx",
@@ -1527,13 +1651,19 @@
         "iso639_name": "Maori",
         "wiktionary_name": "Maori",
         "wiktionary_code": "mi",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "mch": {
         "iso639_name": "Maquiritari",
         "wiktionary_name": "Maquiritari",
         "wiktionary_code": "mch",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "mar": {
         "iso639_name": "Marathi",
@@ -1703,7 +1833,10 @@
         "iso639_name": "Muong",
         "wiktionary_name": "Muong",
         "wiktionary_code": "mtq",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "huu": {
         "iso639_name": "Murui Huitoto",
@@ -1764,7 +1897,10 @@
         "iso639_name": "Gilyak",
         "wiktionary_name": "Nivkh",
         "wiktionary_code": "niv",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "nrf": {
         "iso639_name": "Jèrriais",
@@ -1835,7 +1971,10 @@
         "iso639_name": "Nupe-Nupe-Tako",
         "wiktionary_name": "Nupe",
         "wiktionary_code": "nup",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "cbn": {
         "iso639_name": "Nyahkur",
@@ -1871,7 +2010,10 @@
         "iso639_name": "Old Russian",
         "wiktionary_name": "Old East Slavic",
         "wiktionary_code": "orv",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "ang": {
         "iso639_name": "Old English (ca. 450-1100)",
@@ -1922,7 +2064,11 @@
         "iso639_name": "Kawi",
         "wiktionary_name": "Old Javanese",
         "wiktionary_code": "kaw",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin",
+            "java": "Javanese"
+        }
     },
     "non": {
         "iso639_name": "Old Norse",
@@ -1982,7 +2128,10 @@
         "iso639_name": "Pangasinan",
         "wiktionary_name": "Pangasinan",
         "wiktionary_code": "pag",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "pus": {
         "iso639_name": "Pushto",
@@ -2010,7 +2159,8 @@
         "skip_spaces_pron": false,
         "script": {
             "cyrl": "Cyrillic",
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "zinh": "Inherited"
         }
     },
     "phl": {
@@ -2019,7 +2169,8 @@
         "wiktionary_code": "phl",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "arab": "Arabic"
         }
     },
     "pms": {
@@ -2113,7 +2264,10 @@
         "iso639_name": "Rapanui",
         "wiktionary_name": "Rapa Nui",
         "wiktionary_code": "rap",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "rgn": {
         "iso639_name": "Romagnol",
@@ -2128,7 +2282,11 @@
         "iso639_name": "Romany",
         "wiktionary_name": "Romani",
         "wiktionary_code": "rom",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin",
+            "grek": "Greek"
+        }
     },
     "ron": {
         "iso639_name": "Romanian",
@@ -2147,20 +2305,27 @@
         "casefold": true,
         "script": {
             "cyrl": "Cyrillic",
-            "zyyy": "Common"
+            "zyyy": "Common",
+            "latn": "Latin"
         }
     },
     "ksw": {
         "iso639_name": "S'gaw Karen",
         "wiktionary_name": "S'gaw Karen",
         "wiktionary_code": "ksw",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "mymr": "Myanmar"
+        }
     },
     "slr": {
         "iso639_name": "Salar",
         "wiktionary_name": "Salar",
         "wiktionary_code": "slr",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "azg": {
         "iso639_name": "San Pedro Amuzgos Amuzgo",
@@ -2178,14 +2343,21 @@
         "casefold": false,
         "script": {
             "deva": "Devanagari",
-            "shrd": "Sharada"
+            "shrd": "Sharada",
+            "sinh": "Sinhala",
+            "zyyy": "Common",
+            "mlym": "Malayalam"
         }
     },
     "skr": {
         "iso639_name": "Saraiki",
         "wiktionary_name": "Saraiki",
         "wiktionary_code": "skr",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "arab": "Arabic",
+            "deva": "Devanagari"
+        }
     },
     "srd": {
         "iso639_name": "Sardinian",
@@ -2200,7 +2372,10 @@
         "iso639_name": "Sassarese Sardinian",
         "wiktionary_name": "Sassarese",
         "wiktionary_code": "sdc",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "stq": {
         "iso639_name": "Saterfriesisch",
@@ -2240,6 +2415,12 @@
             "arab": "Arabic"
         }
     },
+    "sei": {
+        "iso639_name": "Seri",
+        "wiktionary_name": "Seri",
+        "wiktionary_code": "sei",
+        "casefold": true
+    },
     "shn": {
         "iso639_name": "Shan",
         "wiktionary_name": "Shan",
@@ -2271,19 +2452,29 @@
         "iso639_name": "Silesian",
         "wiktionary_name": "Silesian",
         "wiktionary_code": "szl",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "snd": {
         "iso639_name": "Sindhi",
         "wiktionary_name": "Sindhi",
         "wiktionary_code": "sd",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "arab": "Arabic",
+            "deva": "Devanagari"
+        }
     },
     "sin": {
         "iso639_name": "Sinhala",
         "wiktionary_name": "Sinhalese",
         "wiktionary_code": "si",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "sinh": "Sinhala"
+        }
     },
     "sms": {
         "iso639_name": "Skolt Sami",
@@ -2325,7 +2516,10 @@
         "iso639_name": "South Slavey",
         "wiktionary_name": "South Slavey",
         "wiktionary_code": "xsl",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "yux": {
         "iso639_name": "Southern Yukaghir",
@@ -2362,7 +2556,10 @@
         "iso639_name": "Swahili (macrolanguage)",
         "wiktionary_name": "Swahili",
         "wiktionary_code": "sw",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "swe": {
         "iso639_name": "Swedish",
@@ -2491,13 +2688,19 @@
         "iso639_name": "Tlingit",
         "wiktionary_name": "Tlingit",
         "wiktionary_code": "tli",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "tkl": {
         "iso639_name": "Tokelau",
         "wiktionary_name": "Tokelauan",
         "wiktionary_code": "tkl",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "ton": {
         "iso639_name": "Tonga (Tonga Islands)",
@@ -2505,26 +2708,37 @@
         "wiktionary_code": "to",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         }
     },
     "srs": {
         "iso639_name": "Sarsi",
         "wiktionary_name": "Tsuut'ina",
         "wiktionary_code": "srs",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "tsn": {
         "iso639_name": "Tswana",
         "wiktionary_name": "Tswana",
         "wiktionary_code": "tn",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "yrk": {
         "iso639_name": "Nenets",
         "wiktionary_name": "Tundra Nenets",
         "wiktionary_code": "yrk",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic",
+            "zyyy": "Common"
+        }
     },
     "tur": {
         "iso639_name": "Turkish",
@@ -2549,7 +2763,10 @@
         "iso639_name": "Turoyo",
         "wiktionary_name": "Turoyo",
         "wiktionary_code": "tru",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "syrc": "Syriac"
+        }
     },
     "tyv": {
         "iso639_name": "Tuvinian",
@@ -2579,7 +2796,10 @@
         "iso639_name": "Ubykh",
         "wiktionary_name": "Ubykh",
         "wiktionary_code": "uby",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "ukr": {
         "iso639_name": "Ukrainian",
@@ -2587,20 +2807,27 @@
         "wiktionary_code": "uk",
         "casefold": true,
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "latn": "Latin"
         }
     },
     "bbn": {
         "iso639_name": "Uneapa",
         "wiktionary_name": "Uneapa",
         "wiktionary_code": "bbn",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "hsb": {
         "iso639_name": "Upper Sorbian",
         "wiktionary_name": "Upper Sorbian",
         "wiktionary_code": "hsb",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "urk": {
         "iso639_name": "Urak Lawoi'",
@@ -2627,14 +2854,20 @@
         "casefold": true,
         "script": {
             "cyrl": "Cyrillic",
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "latn": "Latin"
         }
     },
     "uzb": {
         "iso639_name": "Uzbek",
         "wiktionary_name": "Uzbek",
         "wiktionary_code": "uz",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin",
+            "cyrl": "Cyrillic",
+            "arab": "Arabic"
+        }
     },
     "vie": {
         "iso639_name": "Vietnamese",
@@ -2667,19 +2900,28 @@
         "iso639_name": "Votic",
         "wiktionary_name": "Votic",
         "wiktionary_code": "vot",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "wbk": {
         "iso639_name": "Waigali",
         "wiktionary_name": "Waigali",
         "wiktionary_code": "wbk",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "wln": {
         "iso639_name": "Walloon",
         "wiktionary_name": "Walloon",
         "wiktionary_code": "wa",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "wau": {
         "iso639_name": "Waurá",
@@ -2734,7 +2976,11 @@
         "iso639_name": "Western Kayah",
         "wiktionary_name": "Western Kayah",
         "wiktionary_code": "kyu",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin",
+            "kali": "Kayah Li"
+        }
     },
     "lcp": {
         "iso639_name": "Western Lawa",
@@ -2778,7 +3024,8 @@
         "wiktionary_code": "sah",
         "casefold": true,
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "latn": "Latin"
         }
     },
     "ybi": {
@@ -2805,14 +3052,18 @@
         "wiktionary_code": "yo",
         "casefold": true,
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "arab": "Arabic"
         }
     },
     "yua": {
         "iso639_name": "Yucateco",
         "wiktionary_name": "Yucatec Maya",
         "wiktionary_code": "yua",
-        "casefold": false
+        "casefold": false,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "zza": {
         "iso639_name": "Zaza",

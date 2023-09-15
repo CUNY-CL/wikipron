@@ -1,4 +1,3 @@
-אבא	a b a
 אבן	ʔ ɛː v ɛ n
 אברהם	a v r ɔ h ɔ m
 אברהם	ʔ a v r ɔː h ɔː m
@@ -6,16 +5,15 @@
 אדוני	a d o n u j
 אדוני	a d ɛ ɪ n o j
 אדם	ɔ d ɔ m
-אויב	ʔ oː j eː v
+אויב	ʔ oː j eː β
 אות	ʔ oː θ
 אח	u χ
 אח	ʔ ɔː ħ
 אחד	e χ u d
-אחד	ʔ e ħ aː ð
 אחד	ʔ e̞ ħ ä ð
 איש	ʔ iː ʃ
 אלוהים	e l o h i m
-אלוהים	ɛ l oː h iː m
+אלוהים	ʔ ɛ l oː h iː m
 אנוכי	ɔ n o j x i
 אסתר	e s t e j r
 אסתר	e s t ə r
@@ -26,25 +24,25 @@
 ארץ	e ɾ e t͡s
 ארץ	e ʁ e t͡s
 ארץ	ʔ ɛː rˤ ɛ sˤ
-אשה	ʔ i ʃː ɔː
+אשה	ʔ i ʃ ʃ ɔː
 אשר	a ʃ ɛ ʁ
 בוקר	b oː q ɛ ʀ̟
 בית	b aː j i θ
 בן	b eː n
 בנימין	b i n j a m i n
 בראשית	b a ʀ̟ eː ʔ ʃ iː θ
-ברז	b e ʁ e z
 ברזים	b ʁ a z i m
 בשר	b a s a ʁ
 בשר	b ɔ s ɔ r
 בת	b a θ
 גבעה	ɡ i v ʕ ɔː
+גדול	ɡ ɔː ð oː o l
 ג׳ירף	d ʒ i ʁ a f
 דבר	d aː β aː r
 דבר	d ɔː v ɔː ʀ̟
 דברים	d v ɔ r ɪ m
 דגש	d ä ɡ e̞ ʃ
-דגש	d ɔ ɣ e ʃ
+דגש	d ɔː ɣ eː ʃ
 דוד	d eː ð
 דוד	d ɔː v ə d
 דוד	d̪ u d̪
@@ -65,41 +63,49 @@
 זהיר	z a h i ʁ
 זהיר	z a i ʁ
 זונה	z o n a
+זיעה	z eː ʕ ɔː
 ח	x
 ח	χ
+חבר	ħ ɔː v eː e ʀ̟
 חבר	χ aː β eː ɾ
-חזיר	χ a z i ʁ
 חיים	x a j i m
 חיים	x a j ɪ m
 חכם	ħ ɑː x ɑː m
+חמש	ħ ɔː m eː e ʃ
 חנייה	χ a n a j a
 חסד	ħ ɛ s ɛ ð
 חפרפרת	x ä f ä ɣ p e̞ ʁ e̞ t
 חרת	χ a ʁ a t
-חשב	ħ a ʃ a v
+חשב	χ a ʃ a v
 חשבון	ħ e ʃ b o n
 חשוב	χ ɔ ʃ ə v
 חתול	x a θ u l
 טוב	tˤ oː β
+יאור	j e ʔ o ʁ
+יאור	j ŏ ʔ oː r
 יד	j ɔ ð
 ידע	j a d̪ a ŋ
 ידע	j e d̪ a ŋ
+ידע	j ɔː ð äː ä ʕ
+ידע	j ɛː ð ä ʕ
 יוחנן	j e ħ ɔ n ɔ n
 יום	j oː m
 יצחק	j i sˤ ħ ɔː q
-ירושה	j ɛ ʁ u ʃ a
-ירושלים	j a ʀ̟ uː ʃ ɔː l aː j i m
+יצחק	j i t͡s x ɔ k
 יריחו	j ɛ ʁ i χ o
+ישמעאל	j i ʃ m ɔ e j l
+ישמעאל	j i ʃ m ɔː ʕ eː l
 כאן	k a n
 כבוד	k aː β oː ð
-כבוד	k ɔ v e ð
 כוהן	k u h e n
 כותב	k oː θ eː v
+כיסא	kʰ i s s eː
 להתראות	l e h i t ʁ a ʔ o t
-לחייך	l ɛ χ a j ɛ χ
 לחם	l ɛː χ ɛ m
 לילה	l aː j l ɔː
+מדע	m ä d d ɔː ɔ ʕ
 מדפסת	m a t p e s e t
+מדרשים	m i d r a ʃ i m
 מושג	m u s a ɡ
 מושלם	m u ʃ l ä m
 מזגן	m a z ɡ a n
@@ -108,47 +114,63 @@
 מזרקה	m i z ʁ a k a
 מלכה	m a l k ɔː
 מניין	m i n j ə n
+מפתח	m æ f t eː j æ ħ
 מצותיו	m i t s v ɔ t a v
 מצרים	m i sˤ rˤ ɑː j i m
 מרגמה	m a ʁ ɡ e m a
 משהו	m a ʃ u
 משהו	m a ʃ ɛ u
 משטרה	m i ʃ t a ʁ a
+משיח	m a ʃ i a ħ
 משיח	m a ʃ i a χ
 משיח	m aː ʃ iː a ħ
 משיח	m ɔ ʃ i ə χ
-משיח	m ɔː ʃ iː a ħ
+משיח	m ɔː ʃ iː j ä ħ
+משיח	m ɔː ʃ iː æ ħ
 נהג	n aː h a ɣ
+נהר	n ɔ h ɔ ʁ
 נהר	n ɔː h ɔː ʀ̟
 נורא	n o ʁ a
 נחש	n a χ a ʃ
 נער	n aː ʕ a ʀ̟
 סדין	s a d i n
+סיר	s i ɾ
+סיר	s i ʁ
 סנדוויץ׳	s e̞ n d v i t͡ʃ
 סניף	s n i f
-ספריה	s i f ʁ i j ä
+ספרייה	s i f ʁ i j ä
+עבד	ʕ ɔː v äː ä ð
+עבד	ʕ ɛː v ɛ ð
+עבודה	a v e j d ə
+עבודה	a v o j d ə
+עבודה	ŋ a v o d a
 עברית	ŋ i v r i t
 עברית	ʕ iː β r iː θ
 עולם	ŋ o l a m
+עומר	ʕ oː m ɛ ʀ̟
 עור	ʕ o r
+עורב	ʕ oː ʀ̟ eː e v
 עזה	ŋ a z a
 עזה	ʔ a z a
 עיר	ʕ iː ʀ̟
+עץ	ŋ e s
 עץ	ʕ eː sˤ
 עצם	ŋ e t s e m
 ערב	ʕ ɛː ʀ̟ ɛ v
 עשה	ŋ a s a
 פיצה	p i t͡s ä
 פרדיגמה	p a ʁ a d i ɡ m a
-פרה	p a ʁ a
 פרחים	p ʁ a χ i m
-צבע	t͡s e̞ v ä
+צבע	t͡s e̞ v ä ʕ
 צדק	t͡s e d ə k
 צדק	t͡s ɛ d ɛ k
 צייד	t s a j a d
 צריך	sˤ aː r i x
 קול	ʔ oː l
+קלה	q̟ ɑ l l ɔː
 קליד	k l i d
+קנה	q ɔː n ɔː
+קרח	q̟ ɛː ʀ̟ ä ħ
 קשת	k e ʃ e θ
 קשת	ʔ e ʃ e t
 רבקה	r i b k aː
@@ -157,27 +179,32 @@
 רבקה	r i β k aː
 רבקה	ʁ i f k a
 רבקה	ʁ i f k ɔ
+רגל	ʀ̟ ɛː ʁ ɛ l
 רוח	r i a χ
 רוח	ʀ̟ uː w a ħ
 רומח	ʁ ɔ m a χ
+ריח	ʀ̟ eː j ä ħ
 רעיון	ʁ a a j o n
+שאלה	ʃ ä ʔ eː l ɔː
 שבועה	ʃ v u ʔ a
 שבת	ʃ a b a t
+שבת	ʃ a b b ɔː θ
 שדה	s ɔː ð ɛː
 שומר	ʃ o j m ə r
 שומר	ʃ u m e r
-שחיטה	ʃ χ i t a
+שורש	ʃ oː ʀ̟ ɛ ʃ
 שיהיה	ʃ ɛ ɪ̯ j e
 שלג	ʃ e l e ɡ
-שלטון	ʃ i l t o n
-שלטוני	ʃ i l t o n i
+שלושה	ʃ ä l oː ʃ ɔː
 שמים	ʃ ɔː m aː j i m
 שמש	ʃ ɛː m ɛ ʃ
+שעה	ʃ ɔː ʕ ɔː
 שקר	ʃ e k e ʁ
 שקר	ʃ e ʔ e r
+תאום	tʰ o ʔ oː õ m
+תורה	tʰ oː ʀ̟ ɔː
 תזוזה	d͡z u z a
 תזוזה	t z u z a
 תחת	t a x ə s
-תפארת	t i f ɛː rˤ ɛ θ
+תפארת	t i f ʔ ɛ r ɛ θ
 תפוח	t aː p uː w a ħ
-תצליל	t a t͡s l i l

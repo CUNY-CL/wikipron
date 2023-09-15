@@ -21,6 +21,7 @@ Unreleased
 ### Under `data/`
 
 #### Added
+-   Big scrape for 2023. (\#512)
 -   Moved IPAs of words with tildes to multiple lines. (\#379)
 -   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
 -   Added KPI computation to `generate_summary.py`. (\#465)

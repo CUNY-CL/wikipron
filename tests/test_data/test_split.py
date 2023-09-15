@@ -220,6 +220,24 @@ _SMOKE_TEST_LANGUAGES = [
             ("wikipron", False),
         ],
     ),
+    SmokeTestScript(
+        "Cherokee",
+        [
+            ("ᎬᎾ", True),
+            ("ᎩᎵᏏᏲ", True),
+            ("Հայոց", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Kayah Li",
+        [
+            ("ꤓꤝꤤ꤬", True),
+            ("ꤢꤩ꤬ꤓꤣ꤬ꤔꤢꤧ", True),
+            ("ກວ່າ", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 
