@@ -1231,7 +1231,10 @@
         "iso639_name": "Khiamniungan Naga",
         "wiktionary_name": "Khiamniungan Naga",
         "wiktionary_code": "kix",
-        "casefold": true
+        "casefold": true,
+        "script": {
+            "latn": "Latin"
+        }
     },
     "khm": {
         "iso639_name": "Khmer",
