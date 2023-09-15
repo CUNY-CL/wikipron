@@ -9,6 +9,7 @@ to reflect such that script key entries match ISO 15924 aliases.
 """
 
 import collections
+import logging
 import json
 import operator
 import os
@@ -115,7 +116,11 @@ def main():
     for filename in os.listdir(TSV_DIRECTORY):
         if filename.endswith(".tsv"):
             iso639_code = filename[: filename.index("_")]
-            lang = languages[iso639_code]
+            try:
+                lang = languages[iso639_code]
+            except KeyError as key:
+                logging.warning("Key not found: %s", key)
+                continue
             with open(
                 f"{TSV_DIRECTORY}/{filename}", "r", encoding="utf-8"
             ) as source:
@@ -141,4 +146,7 @@ def main():
 
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(message)s", level="WARNING"
+    )
     main()

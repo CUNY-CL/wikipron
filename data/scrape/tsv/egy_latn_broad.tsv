@@ -4,6 +4,10 @@ bbwt	b ɛ b uː t
 bdt	b ɛ d ɛ t
 bdš	b ɛ d ɛ ʃ
 bgs	b ɛ ɡ ɛ s
+bhd	b ɛ h ɛ d
+bhn	b ɛ h ɛ n
+bht	b ɛ h ɛ t
+bhꜣ	b ɛ h ɑ
 bhꜣw	b ɛ h ɑ uː
 bjf	b i f
 bjk	b i k
@@ -48,9 +52,13 @@ bwtj	b uː t i
 bzj	b ɛ z i
 bšj	b ɛ ʃ i
 bšṯ	b ɛ ʃ ɛ t͡ʃ
+bḥ	b ɛ ħ
 bḥdt	b ɛ ħ d ɛ t
 bḥn	b ɛ ħ ɛ n
+bḥnj	b ɛ ħ n i
+bḥnt	b ɛ ħ n ɛ t
 bḥs	b ɛ ħ ɛ s
+bḥw	b ɛ ħ uː
 bḥz	b ɛ ħ ɛ z
 bḫnt	b ɛ x n ɛ t
 bṯ	b ɛ t͡ʃ
@@ -198,6 +206,7 @@ dšrt	tʼ a ʃ ɾ a t
 dšrt	tʼ a ʃ ɾ a ʔ
 dšrt	tʼ a ʃ ɾ ə
 dḥr	d ɛ ħ ɛ r
+dḫ	d ɛ x
 dꜣ	d ɑ
 dꜣb	d ɑ b
 dꜣdꜣ	d ɑ d ɑ
@@ -308,19 +317,19 @@ hnw	h iː n
 hnw	h iː n a w
 hnw	h iː n ə ʔ
 hnw	h ɛ n uː
+hp	h e p
+hp	h i p
 hp	h ɛ p
-hp	ħ e p
-hp	ħ i p
 hr	h aː ɾ
 hr	h oː ɾ
 hr	h ɛ r
 hrm	h ɛ r ɛ m
-hrw	h a ɾ u w w a w
+hrw	h a ɾ u w w
 hrw	h a ɾ w u w
 hrw	h a ʔ w
 hrw	h a ʔ w u w
 hrw	h a ʔ w ə ʔ
-hrw	h ə ɾ u w w ə ʔ
+hrw	h ə ɾ u w w
 hrw	h ə ɾ ø w w
 hrw	h ɛ r uː
 hwhw	h uː h uː
@@ -351,6 +360,7 @@ jbt	i b ɛ t
 jbt	j iː b a t
 jbt	j iː b a ʔ
 jbt	ʔ iː β ə
+jbšꜣ	i b ʃ ɑ
 jbḥ	i b ɛ ħ
 jbṯt	i b t͡ʃ ɛ t
 jbꜣ	i b ɑ
@@ -361,6 +371,7 @@ jdj	i d i
 jdmj	i d m i
 jdmj	j V tʼ uː m V j
 jdmj	ʔ ə tʼ eː m
+jdn	i d ɛ n
 jdr	i d ɛ r
 jdt	i d ɛ t
 jdt	ʔ a ʔ tʼ ə
@@ -377,7 +388,8 @@ jfdw	i f ɛ d uː
 jfdw	j a f tʼ a w
 jfdw	ʔ ə f tʼ a w
 jft	i f ɛ t
-jgrt	i ɡ r ɛ t
+jgrt	i ɡ ɛ r ɛ t
+jhb	i h ɛ b
 jhm	i h ɛ m
 jj	i ʔ i
 jj	j iː j i t
@@ -387,7 +399,10 @@ jj	ʔ iː ʔ ə ʔ
 jjwj	i ʔ i uː i
 jkm	i k ɛ m
 jkn	i k ɛ n
+jkw	i k uː
 jky	i k iː
+jkꜣnꜣ	i k ɑ n ɑ
+jkꜣw	i k ɑ uː
 jm	i m
 jmj	i m i
 jmj	j a m i j
@@ -482,6 +497,7 @@ jqr	j aː qʼ a ʔ
 jqr	j aː qʼ i ɾ
 jqr	j aː qʼ i ʔ
 jqr	j oː qʼ ə
+jqḥ	i k ɛ ħ
 jqḥw	i k ɛ ħ uː
 jr	i r
 jrj	i r i
@@ -544,7 +560,7 @@ jtrt	i t r ɛ t
 jtrw	i t ɛ r uː
 jtrw	j a t ɾ a w
 jtrw	j a ʔ ɾ
-jtrw	j a ʔ ɾ a w
+jtrw	j a ʔ ɾ ə
 jty	i t iː
 jtḥ	i t ɛ ħ
 jtḥ	j aː t a ħ
@@ -577,6 +593,10 @@ jwnw	ʔ aː n ə ʔ
 jwnw	ʔ oː n ə
 jwnyt	i uː n iː t
 jwr	i uː r
+jwr	j aː w a ɾ
+jwr	j aː w a ʔ
+jwr	ʔ aː w a ʔ
+jwr	ʔ oː w ə
 jwrꜣḥy	i uː r ɑ ħ iː
 jwsw	i uː s uː
 jwt	i uː t
@@ -599,12 +619,14 @@ jzft	j a z aː f a t
 jzft	ʔ a s aː f a ʔ
 jzft	ʔ a s oː f ə
 jzftj	i z f ɛ t i
+jzj	i z i
 jzkn	i z k ɛ n
 jzr	i z ɛ r
 jzr	j a s ɾ V w
 jzr	j a z ɾ V w
 jzr	ʔ a s ɾ
 jzwt	i z uː t
+jzzj	i z ɛ z i
 jšdt	i ʃ ɛ d ɛ t
 jšst	i ʃ ɛ s ɛ t
 jšš	i ʃ ɛ ʃ
@@ -626,6 +648,7 @@ jḫt	i x ɛ t
 jḫḫw	i x ɛ x uː
 jṯj	i t͡ʃ i
 jṯꜣ	i t͡ʃ ɑ
+jꜣb	i ɑ b
 jꜣbj	i ɑ b i
 jꜣbt	i ɑ b ɛ t
 jꜣbt	j a ʀ b a t
@@ -634,12 +657,20 @@ jꜣbt	j oː β ə
 jꜣbtj	i ɑ b t i
 jꜣbtj	j a ʀ i b t i j
 jꜣbtj	ʔ ə j e β t
+jꜣbtjw	i ɑ b t i uː
 jꜣbtt	i ɑ b ɛ t ɛ t
+jꜣd	i ɑ d
+jꜣdt	i ɑ d ɛ t
 jꜣdw	i ɑ d uː
 jꜣft	i ɑ f ɛ t
+jꜣj	i ɑ i
 jꜣjw	i ɑ i uː
+jꜣk	i ɑ k
 jꜣkb	i ɑ k ɛ b
-jꜣkbyt	i ɑ k ɛ b iː t
+jꜣkby	i ɑ k b iː
+jꜣkbyt	i ɑ k b iː t
+jꜣkw	i ɑ k uː
+jꜣm	i ɑ m
 jꜣmw	i ɑ m uː
 jꜣq	i ɑ k
 jꜣqt	i ɑ k ɛ t
@@ -648,10 +679,13 @@ jꜣqt	j u ʀ qʼ a ʔ
 jꜣqt	ʔ eː qʼ ə
 jꜣqt	ʔ uː qʼ a ʔ
 jꜣr	i ɑ r
+jꜣrr	i ɑ r ɛ r
 jꜣrrt	i ɑ r ɛ r ɛ t
+jꜣrrt	j a l a ʀ l a t
+jꜣrrt	j a l a ʀ l a ʔ
 jꜣrrt	j a ʀ l a l j a t
 jꜣrrt	j a ʀ l a l j a ʔ
-jꜣrrt	ʔ a l a l ʔ ə
+jꜣrrt	ʔ a l a ʔ l ə
 jꜣrw	i ɑ r uː
 jꜣs	i ɑ s
 jꜣt	i ɑ t
@@ -662,15 +696,21 @@ jꜣw	j a ʀ a w
 jꜣw	ʔ ə ʔ a w
 jꜣwj	i ɑ uː i
 jꜣwt	i ɑ uː t
+jꜣwtj	i ɑ uː t i
+jꜣyt	i ɑ iː t
 jꜣš	i ɑ ʃ
 jꜣḫmjnš	i ɑ x m i n ɛ ʃ
 jꜣḫw	i ɑ x uː
 jꜣḫw	j a ʀ χ a w
 jꜣḫw	j oː χ
+jꜣṯ	i ɑ t͡ʃ
+jꜣṯw	i ɑ t͡ʃ uː
 jꜣꜣ	i ɑ ʔ ɑ
 jꜣꜣt	i ɑ ʔ ɑ t
 jꜣꜣyt	i ɑ ʔ ɑ iː t
 jꜣꜥ	i ɑ ʔ ɑː
+jꜣꜥš	i ɑ ʔ ɑː ʃ
+jꜥ	i ɑː
 jꜥb	i ɑː b
 jꜥf	i ɑː f
 jꜥj	i ɑː i
@@ -693,7 +733,6 @@ kbn	k ɛ b ɛ n
 kf	k ɛ f
 kfj	k ɛ f i
 kftjw	k ɛ f t i uː
-kftyw	k ɛ f t iː uː
 kfꜣ	k ɛ f ɑ
 kj	k i
 kkw	k ɛ k uː
@@ -732,8 +771,9 @@ kꜣ	k ɑ
 kꜣhs	k ɑ h ɛ s
 kꜣj	k ɑ i
 kꜣkꜣ	k ɑ k ɑ
+kꜣkꜣj	k ɑ k ɑ i
 kꜣm	k a ʀ m
-kꜣm	k a ʀ n V w
+kꜣm	k a ʀ m V w
 kꜣm	k oː m
 kꜣm	k ɑ m
 kꜣmn	k ɑ m ɛ n
@@ -765,11 +805,6 @@ m	m ə
 m	m̩
 m	ɛ m
 mds	m ɛ d ɛ s
-mdt	m aː tʼ a t
-mdt	m aː tʼ a ʔ
-mdt	m oː tʼ ə
-mdt	m ə tʼ ə t
-mdt	m ɛ d ɛ t
 mdw	m a tʼ u w w
 mdw	m aː tʼ a w
 mdw	m oː tʼ
@@ -779,12 +814,15 @@ mdwj	m e tʼ w ə
 mdwj	m i tʼ w i t
 mdwj	m i tʼ w i ʔ
 mdwj	m ɛ d uː i
-mfkꜣt	m a f a k ʀ a t
-mfkꜣt	m a f a k ʀ a ʔ
-mfkꜣt	m ə f a ʔ k ə
+mdwt	m aː tʼ a t
+mdwt	m aː tʼ a ʔ
+mdwt	m oː tʼ ə
+mdwt	m ə tʼ ə t
+mdwt	m ɛ d uː t
 mfkꜣt	m ɛ f k ɑ t
 mgꜣ	m ɛ ɡ ɑ
 mhj	m ɛ h i
+mht	m ɛ h ɛ t
 mj	m i
 mjgꜣdn	m i ɡ ɑ d ɛ n
 mjktj	m i k t i
@@ -854,6 +892,9 @@ mnḫt	m a w n aː χ i t
 mnḫt	m a w n aː χ i ʔ
 mnḫt	m ə n oː χ ə
 mnḫt	m ɛ n x ɛ t
+mnṯw	m a n c V w
+mnṯw	m a n t V
+mnṯw	m a n t V w
 mnṯw	m o n t uː
 mnṯw	m ɛ n t͡ʃ uː
 mnꜥt	m ɛ n ɑː t
@@ -868,7 +909,9 @@ mrj	m e j ʔ ə
 mrj	m i j j i ʔ
 mrj	m i ɾ j i t
 mrj	m ɛ r i
+mrkbt	m a ɾ k a b t V
 mrkbt	m ɛ r k ɛ b ɛ t
+mrkbt	β ə ɾ k a w t
 mrrt	m ɛ r ɛ r ɛ t
 mrt	m ɛ r ɛ t
 mrw	m eː ɾ
@@ -931,7 +974,7 @@ msḥ	m ɛ s ɛ ħ
 msḫn	m e s χ ə n
 msḫn	m i s χ i n
 msḫn	m ɛ s x ɛ n
-msḫtyw	m ɛ s x ɛ t iː uː
+msḫtjw	m ɛ s x ɛ t i uː
 msꜣḏt	m a s w i ʀ cʼ i t
 msꜣḏt	m a s w i ʀ tʼ i ʔ
 msꜣḏt	m ə s w iː tʼ ə
@@ -959,6 +1002,7 @@ mwt	m i ʔ w a ʔ
 mwt	m oː w
 mwt	m uː t
 mww	m uː ʔ uː
+mwy	m uː iː
 my	m iː
 mz	m ɛ z
 mzwr	m ɛ z uː r
@@ -972,6 +1016,9 @@ mšw	m ɛ ʃ uː
 mšꜥ	m a ʃ ʕ a j
 mšꜥ	m a ʕ ʃ ə
 mšꜥ	m ɛ ʃ ɑː
+mḏd	m ɛ d͡ʒ ɛ d
+mḏdt	m ɛ d͡ʒ d ɛ t
+mḏdw	m ɛ d͡ʒ ɛ d uː
 mḏrj	m e tʼ ɾ a ʔ
 mḏrj	m e tʼ ɾ ə
 mḏrj	m i cʼ ɾ i t
@@ -989,6 +1036,7 @@ mḏwtj	m ə t͡ʃʼ ə w aː t ə ʔ
 mḏwtj	m ə t͡ʃʼ ə w oː t
 mḏwtj	m ɛ d͡ʒ uː t i
 mḏḥ	m ɛ d͡ʒ ɛ ħ
+mḏꜣ	m ɛ d͡ʒ ɑ
 mḏꜣt	m ɛ d͡ʒ ɑ t
 mḏꜣy	m ɛ d͡ʒ ɑ iː
 mḥ	m ɛ ħ
@@ -1002,12 +1050,12 @@ mḥtj	m ɛ ħ t i
 mḥtjw	m ɛ ħ t i uː
 mḥtt	m ɛ ħ t ɛ t
 mḥw	m ɛ ħ uː
+mḥyt	m a ħ eː ʔ
 mḥyt	m a ħ iː j V t
 mḥyt	m a ħ iː j V ʔ
 mḥyt	m a ħ uː j V t
 mḥyt	m a ħ uː j V ʔ
 mḥyt	m ə ħ eː ʔ
-mḥyt	m ə ħ eː ʔ ə ʔ
 mḥyt	m ə ħ uː ʔ ə ʔ
 mḥyt	m ɛ ħ iː t
 mḫꜣt	m ɛ x ɑ t
@@ -1130,6 +1178,7 @@ ngꜣw	n ɛ ɡ ɑ uː
 nhj	n ɛ h i
 nhm	n ɛ h ɛ m
 nhmhm	n ɛ h ɛ m h ɛ m
+nhnh	n ɛ h n ɛ h
 nhp	n aː h a p
 nhp	n oː h ə p
 nhp	n ɛ h ɛ p
@@ -1180,6 +1229,7 @@ nnj	n ɛ n i
 nnw	n aː n a w
 nnw	n oː n
 nnw	n ɛ n uː
+nnwt	n ɛ n uː t
 nnšm	j
 nnšm	n
 nnšm	n a j ʃ
@@ -1258,10 +1308,10 @@ nwd	n uː d
 nwdt	n uː d ɛ t
 nwdw	n uː d uː
 nwj	n uː i
-nwt	n eː ʔ ə
 nwt	n uː t
 nwt	n uː ʔ a t
 nwt	n uː ʔ a ʔ
+nwt	n øː ʔ ə
 nwtj	n uː t i
 nwtkꜣrṯ	n uː t k ɑ r ɛ t͡ʃ
 nwtwt	n uː t uː t
@@ -1269,6 +1319,7 @@ nwy	n uː iː
 nwyt	n uː iː t
 nwḥ	n uː ħ
 nwḫ	n uː x
+nwꜣ	n uː ɑ
 nyny	n iː n iː
 nznzn	n ɛ z ɛ n z ɛ n
 nš	n ɛ ʃ
@@ -1281,6 +1332,7 @@ nšp	n ɛ ʃ ɛ p
 nšt	n ɛ ʃ ɛ t
 nḏ	n ɛ d͡ʒ
 nḏdnḏd	n ɛ d͡ʒ ɛ d n ɛ d͡ʒ ɛ d
+nḏdḏd	n ɛ d͡ʒ ɛ d d͡ʒ ɛ d
 nḏm	n aː cʼ a m
 nḏm	n aː cʼ i m
 nḏm	n aː tʼ a m
@@ -1354,6 +1406,7 @@ nṯrw	n a c uː ɾ a w [ 1 ]
 nṯrw	n a t uː ɾ a w
 nṯrw	n ə t eː ɾ ə
 nṯrw	n ɛ t͡ʃ ɛ r uː
+nṯrwj	n ɛ t͡ʃ r uː i
 nṯryt	n ɛ t͡ʃ r iː t
 nẖnm	n ɛ ç n ɛ m
 nẖs	n ɛ ç ɛ s
@@ -1404,6 +1457,7 @@ prt	p ə ɾ oː ʔ
 prt	p ə ɾ ø ʔ
 prt	p ɛ r ɛ t
 prwypwsꜣ	p ɛ r uː iː p uː s ɑ
+pryt	p ɛ r iː t
 psg	p aː s a kʼ
 psg	p oː kʼ ə s
 psg	p ɛ s ɛ ɡ
@@ -1411,6 +1465,7 @@ psj	p iː s i t
 psj	p iː s i ʔ
 psj	p iː s ə
 psj	p ɛ s i
+psmṯk	p s a m aː c ə k
 psmṯk	p ɛ s m ɛ t͡ʃ ɛ k
 psš	p aː s a ʃ
 psš	p oː s ə ʃ
@@ -1552,12 +1607,15 @@ qrs	qʼ oː ʔ s
 qrst	k ɛ r ɛ s ɛ t
 qrsw	k ɛ r ɛ s uː
 qrwjwꜣpꜣdrꜣ	k ɛ r uː i uː ɑ p ɑ d r ɑ
+qrwjwꜣpꜣdrꜣt	k ɛ r uː i uː ɑ p ɑ d r ɑ t
 qs	k ɛ s
 qs	qʼ e s
 qs	qʼ i s
 qsn	k ɛ s ɛ n
 qsnt	k ɛ s ɛ n ɛ t
 qysrs	k iː s r ɛ s
+qḥqḥ	k ɛ ħ k ɛ ħ
+qḥqḥw	k ɛ ħ k ɛ ħ uː
 qꜣb	k ɑ b
 qꜣbt	k ɑ b ɛ t
 qꜣbt	qʼ i ʀ b V t
@@ -1569,6 +1627,7 @@ qꜣj	k ɑ i
 qꜣqꜣw	k ɑ k ɑ uː
 qꜣr	k ɑ r
 qꜣs	k ɑ s
+qꜣw	k ɑ uː
 qꜣꜣ	k ɑ ʔ ɑ
 qꜣꜥ	k ɑ ʔ ɑː
 qꜥḥ	k ɑː ħ
@@ -1619,9 +1678,6 @@ rmṯ	ɾ aː m a c
 rmṯ	ɾ aː m a ʔ
 rmṯ	ɾ oː m ə
 rmṯt	r ɛ m ɛ t͡ʃ ɛ t
-rmṯt	ɾ a m c a t
-rmṯt	ɾ a m t a ʔ
-rmṯt	ɾ a m t ə
 rn	r ɛ n
 rn	ɾ e n
 rn	ɾ i n
@@ -1651,10 +1707,14 @@ rrj	ɾ iː ɾ i j
 rrj	ɾ iː ɾ ə ʔ
 rs	r ɛ s
 rsj	r ɛ s i
+rsj	ɾ uː s V j
+rsj	ɾ uː s ə
+rsj	ɾ øː s
 rsw	r ɛ s uː
 rswt	r ɛ s uː t
 rtḥ	r ɛ t ɛ ħ
 rtḥtj	r ɛ t ħ ɛ t i
+rw	r uː
 rwd	r uː d
 rwj	r uː i
 rwt	r uː t
@@ -1755,6 +1815,7 @@ sjm	s i m
 sjn	s i n
 sjnj	s i n i
 sjnw	s i n uː
+sjp	s i p
 sjsjw	s a ɾ s i j j a w
 sjsjw	s i s i uː
 sjsnw	s i s n uː
@@ -1936,6 +1997,7 @@ swꜣj	s i w ʀ i ʔ
 swꜣj	s uː ɑ i
 swꜣḏ	s ɛ w ɑ d͡ʒ
 swꜥb	s ɛ w ɑː b
+szf	s ɛ z ɛ f
 sš	s ɛ ʃ
 sšd	s ɛ ʃ ɛ d
 sšm	s ɛ ʃ ɛ m
@@ -1950,6 +2012,7 @@ sšpt	ʃ oː p ə
 sšr	s ɛ ʃ ɛ r
 sšrw	s ɛ ʃ r uː
 sštꜣ	s ɛ ʃ t ɑ
+sšwj	s ɛ ʃ uː i
 sḏ	s ɛ d͡ʒ
 sḏb	s ɛ d͡ʒ ɛ b
 sḏd	s e t͡ʃʼ ʔ ə
@@ -1993,10 +2056,12 @@ sḥꜣbj	s ɛ ħ ɑ b i
 sḥꜣj	s ɛ ħ ɑ i
 sḫd	s ɛ x ɛ d
 sḫdḫd	s ɛ x ɛ d x ɛ d
+sḫm	s aː χ a m
+sḫm	s oː χ ə m
 sḫm	s ɛ x ɛ m
-sḫmt	s e χ m ə
-sḫmt	s i χ m i t
-sḫmt	s i χ m i ʔ
+sḫmt	s a χ m a t
+sḫmt	s a χ m a ʔ
+sḫmt	s a χ m ə
 sḫmt	s ɛ x m ɛ t
 sḫn	s ɛ x ɛ n
 sḫntj	s ɛ x ɛ n ɛ t i
@@ -2073,6 +2138,8 @@ tf	t i f
 tf	t ɛ f
 tfn	t ɛ f ɛ n
 tfnt	t ɛ f n ɛ t
+tfnwt	t V f eː n V ʔ
+tfnwt	t ə f eː n ə
 tfnwt	t ɛ f n uː t
 tfꜣ	t ɛ f ɑ
 thj	t ɛ h i
@@ -2109,9 +2176,8 @@ tnm	t ɛ n ɛ m
 tnmw	t ɛ n ɛ m uː
 tnw	t ɛ n uː
 tnṯ	t ɛ n ɛ t͡ʃ
-tp	cʼ a p
+tp	t a p
 tp	t ɛ p
-tp	tʼ a p
 tpj	t a p i j
 tpj	t ə p e j
 tpj	t ɛ p i
@@ -2140,6 +2206,7 @@ tḫj	t iː χ i ʔ
 tḫj	t iː χ ə
 tḫj	t ɛ x i
 tḫn	t ɛ x ɛ n
+tḫw	t ɛ x uː
 tꜣ	t a ʀ
 tꜣ	t a ʔ
 tꜣ	t i ʀ
@@ -2167,6 +2234,7 @@ wbnw	w ɛ b ɛ n uː
 wbḫ	w a b a χ
 wbḫ	w ə β a χ
 wbḫ	w ɛ b ɛ x
+wbḫt	w ɛ b x ɛ t
 wbꜣ	w ɛ b ɑ
 wbꜣyt	w ɛ b ɑ iː t
 wdfj	w e tʼ f ə
@@ -2186,6 +2254,7 @@ wfꜣ	w aː f ə ʔ
 wfꜣ	w oː f
 wfꜣ	w ɛ f ɑ
 wgg	w ɛ ɡ ɛ ɡ
+whj	w ɛ h i
 wj	w i
 wjn	w i n
 wjꜣ	w i ɑ
@@ -2237,8 +2306,9 @@ wpwtj	w a p w uː t i j
 wpwtj	w ə p w eː t
 wpwtj	w ə p w ø t j
 wpwtj	w ɛ p uː t i
-wr	w eː ɾ
 wr	w uː ɾ a w
+wr	w uː ɾ ə
+wr	w øː ɾ
 wr	w ɛ r
 wrm	w V ɾ a m
 wrm	w V ɾ aː m
@@ -2269,14 +2339,13 @@ wsj	w iː s i t
 wsj	w iː s i ʔ
 wsj	w iː s ə
 wsj	w ɛ s i
-wsjr	w a s j iː ɾ i t
-wsjr	w a s j iː ɾ i ʔ
-wsjr	w ə s iː ɾ ə
-wsjr	w ə s ʔ iː ɾ a ʔ
 wsjr	w ɛ s i r
 wsn	w ɛ s ɛ n
 wspjsyns	w ɛ s p i s iː n ɛ s
 wsr	w ɛ s ɛ r
+wsrt	w a s ɾ i t
+wsrt	w a s ɾ i ʔ
+wsrt	w a s ɾ ə
 wsrt	w ɛ s r ɛ t
 wsrw	w ɛ s ɛ r uː
 wst	w ɛ s ɛ t
@@ -2332,6 +2401,7 @@ wḥꜣt	w a ħ ʀ a t
 wḥꜣt	w a ħ ʀ a ʔ
 wḥꜣt	w a ħ ʔ ə
 wḥꜣt	w ɛ ħ ɑ t
+wḥꜣtjw	w ɛ ħ ɑ t i uː
 wḥꜥ	w ɛ ħ ɑː
 wḫd	w ɛ x ɛ d
 wḫdt	w ɛ x d ɛ t
@@ -2371,9 +2441,9 @@ wꜣḥ	w oː ʔ ə ħ
 wꜣḥ	w ɑ ħ
 wꜣḥyt	w ɑ ħ iː t
 wꜣḫj	w ɑ x i
-wꜥ	w u ʕ ʕ u w
-wꜥ	w u ʕ ʕ ə ʔ
-wꜥ	w ø ʕ ʕ
+wꜥ	w e ʕ i
+wꜥ	w i ʕ j V w
+wꜥ	w i ʕ j ə
 wꜥ	w ɑː
 wꜥ	w ə ʕ
 wꜥb	w a ʕ a b
@@ -2382,6 +2452,7 @@ wꜥb	w iː ʕ a b
 wꜥb	w ɑː b
 wꜥb	w ə ʕ a p
 wꜥbt	w ɑː b ɛ t
+wꜥbw	w ɑː b uː
 wꜥf	w ɑː f
 wꜥj	w i ʕ j i t
 wꜥj	w ɑː i
@@ -2399,6 +2470,7 @@ wꜥꜣ	w i ʕ i ʀ
 wꜥꜣ	w ɑː ʔ ɑ
 wꜥꜣ	w ə ʕ e j
 wꜥꜥw	w ɑː ʔ ɑː uː
+yhwꜣ	iː h uː ɑ
 ym	iː m
 ypw	iː p uː
 yrdwnꜣ	iː r d uː n ɑ
@@ -2418,7 +2490,11 @@ z	z ɑ
 z	z ɛ
 zbj	z ɛ b i
 zbn	z ɛ b ɛ n
+zbṯ	s aː b a ʔ
+zbṯ	s oː β ə
+zbṯ	z aː b a c
 zbṯ	z ɛ b ɛ t͡ʃ
+zf	z ɛ f
 zfn	z ɛ f ɛ n
 zft	s eː f ə
 zft	s iː f a ʔ
@@ -2456,6 +2532,7 @@ znj	s iː n i ʔ
 znj	s iː n ə
 znj	z iː n i t
 znj	z ɛ n i
+znmwt	z ɛ n m uː t
 znt	z ɛ n ɛ t
 znḥm	s u n ħ uː m V w
 znḥm	s ə n ħ eː m
@@ -2466,6 +2543,7 @@ zp	z a p
 zp	z ɛ p
 zpj	z ɛ p i
 zpt	z ɛ p ɛ t
+zpyt	z ɛ p iː t
 zpꜣ	z ɛ p ɑ
 zr	z ɛ r
 zt	s u ʔ
@@ -2525,6 +2603,7 @@ zꜣwtj	s ə j a w t
 zꜣwtj	s ə ʔ j a w t ə ʔ
 zꜣwtj	z V ʀ j a w t V j
 zꜣwtj	z ɑ uː t i
+zꜣy	s əː j ə
 zꜣy	z ɑ iː
 zꜣṯ	z ɑ t͡ʃ
 zꜣṯw	z ɑ t͡ʃ uː
@@ -2583,6 +2662,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 šnwt	ʃ ɛ n uː t
 šnḏwt	ʃ ɛ n d͡ʒ uː t
 šnṯ	ʃ ɛ n ɛ t͡ʃ
+šnꜥ	ʃ ɛ n ɑː
 šnꜥtj	ʃ ɛ n ɑː t i
 šnꜥw	ʃ ɛ n ɑː uː
 šps	ʃ ɛ p ɛ s
@@ -2611,7 +2691,6 @@ zꜣṯw	z ɑ t͡ʃ uː
 šs	ʃ ɛ s
 šsm	ʃ ɛ s ɛ m
 šsp	ʃ ɛ s ɛ p
-šspw	ʃ ɛ s p uː
 šsr	ʃ ɛ s ɛ r
 šsꜣ	ʃ ɛ s ɑ
 šsꜣw	ʃ ɛ s ɑ uː
@@ -2620,19 +2699,21 @@ zꜣṯw	z ɑ t͡ʃ uː
 št	ʃ i ʔ
 št	ʃ ɛ t
 štj	ʃ ɛ t i
+štjw	ʃ ɛ t i uː
 štw	ʃ ɛ t uː
-štyw	ʃ ɛ t iː uː
 štꜣ	ʃ ɛ t ɑ
 štꜣw	ʃ ɛ t ɑ uː
 šw	ʃ uː
 šwj	ʃ uː i
 šwt	ʃ uː t
+šww	ʃ uː ʔ uː
 šwꜣw	ʃ uː ɑ uː
 šzp	ʃ aː p
 šzp	ʃ aː z a p
 šzp	ʃ oː p
 šzp	ʃ ɛ z ɛ p
 šzpt	ʃ ɛ z p ɛ t
+šzpw	ʃ ɛ z p uː
 ššy	ʃ ɛ ʃ iː
 šꜣ	ʃ ɑ
 šꜣbw	ʃ ɑ b uː
@@ -2653,6 +2734,10 @@ zꜣṯw	z ɑ t͡ʃ uː
 šꜣꜥ	ʃ ə ʔ a ʕ
 šꜥ	ʃ ɑː
 šꜥd	ʃ ɑː d
+šꜥt	ʃ eː ʕ ə
+šꜥt	ʃ iː ʕ V t
+šꜥt	ʃ iː ʕ V ʔ
+šꜥt	ʃ iː ʕ ə
 šꜥt	ʃ ɑː t
 šꜥwt	ʃ ɑː uː t
 šꜥy	ʃ aː ʕ V j
@@ -2753,6 +2838,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḏꜣhꜣ	d͡ʒ ɑ h ɑ
 ḏꜣj	d͡ʒ ɑ i
 ḏꜣjs	d͡ʒ ɑ i s
+ḏꜣm	d͡ʒ ɑ m
 ḏꜣr	d͡ʒ ɑ r
 ḏꜣt	d͡ʒ ɑ t
 ḏꜣtt	d͡ʒ ɑ t ɛ t
@@ -2772,11 +2858,15 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḏꜥnt	t͡ʃʼ u ʕ n a ʔ
 ḏꜥnt	t͡ʃʼ ø ʕ n ə
 ḏꜥr	d͡ʒ ɑː r
+ḥbbt	ħ ɛ b ɛ b ɛ t
 ḥbnnwt	ħ ɛ b n ɛ n uː t
 ḥbs	ħ a b a s
+ḥbs	ħ aː b a s
+ḥbs	ħ oː β ə s
 ḥbs	ħ ə β a s
 ḥbs	ħ ɛ b ɛ s
 ḥbsw	ħ ɛ b ɛ s uː
+ḥbswt	ħ ɛ b s uː t
 ḥbsyt	ħ ɛ b s iː t
 ḥbw	ħ ɛ b uː
 ḥbꜣbꜣ	ħ ɛ b ɑ b ɑ
@@ -2808,8 +2898,8 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḥmsj	ħ ɛ m ɛ s i
 ḥmt	ħ i j a m w a t
 ḥmt	ħ i j a m w a ʔ
-ḥmt	ħ iː m a t
-ḥmt	ħ iː m a ʔ
+ḥmt	ħ i j m a t
+ḥmt	ħ i j m a ʔ
 ḥmt	ħ iː m ə
 ḥmt	ħ ə j a m w ə
 ḥmt	ħ ɛ m ɛ t
@@ -2833,9 +2923,12 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḥnqt	ħ ɛ n k ɛ t
 ḥns	ħ ɛ n ɛ s
 ḥnt	ħ ɛ n ɛ t
+ḥntj	ħ ɛ n t i
 ḥnw	ħ ə n e w
 ḥnw	ħ ɛ n uː
 ḥnwt	ħ ɛ n uː t
+ḥnzk	ħ ɛ n z ɛ k
+ḥnzkt	ħ ɛ n z ɛ k ɛ t
 ḥnꜥ	ħ ɛ n ɑː
 ḥnꜥj	ħ ɛ n ɑː i
 ḥnꜥw	ħ ɛ n ɑː uː
@@ -2890,6 +2983,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḥw	ħ uː
 ḥwj	ħ uː i
 ḥwn	ħ uː n
+ḥwnj	ħ uː n i
 ḥwnt	ħ uː n ɛ t
 ḥwrw	ħ uː r uː
 ḥwt	ħ a w ə
@@ -2990,6 +3084,9 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḫftj	x ɛ f t i
 ḫftt	x ɛ f ɛ t ɛ t
 ḫftw	x ɛ f ɛ t uː
+ḫfꜣ	x ɛ f ɑ
+ḫfꜣj	x ɛ f ɑ i
+ḫfꜣt	x ɛ f ɑ t
 ḫfꜣꜣt	x ɛ f ɑ ʔ ɑ t
 ḫfꜥ	x ɛ f ɑː
 ḫm	x ɛ m
@@ -3042,6 +3139,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḫpd	x ɛ p ɛ d
 ḫpdwj	x ɛ p d uː i
 ḫpj	x ɛ p i
+ḫpp	x ɛ p ɛ p
 ḫpr	x ɛ p ɛ r
 ḫpr	χ aː p a ɾ
 ḫpr	χ aː p a ʔ
@@ -3059,6 +3157,9 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḫpš	χ aː p V ʃ
 ḫpš	χ oː p ə ʃ
 ḫr	x ɛ r
+ḫr	χ u ɾ
+ḫr	χ u ʔ
+ḫr	χ ø ʔ
 ḫrj	x ɛ r i
 ḫrp	x ɛ r ɛ p
 ḫrp	χ aː ɾ a p
@@ -3094,6 +3195,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ḫw	x uː
 ḫwd	x uː d
 ḫwj	x uː i
+ḫww	x uː ʔ uː
 ḫwzj	x uː z i
 ḫwzj	χ i w z i t
 ḫšꜣyꜣrwšꜣ	x ɛ ʃ ɑ iː ɑ r uː ʃ ɑ
@@ -3162,6 +3264,8 @@ zꜣṯw	z ɑ t͡ʃ uː
 ṯwfj	t͡ʃ a w f
 ṯwfj	t͡ʃ uː f i
 ṯwn	t͡ʃ uː n
+ṯwpꜣjr	c uː p a ɾ
+ṯwpꜣjr	t͡ʃ uː p ɑ i r
 ṯwt	t͡ʃ uː t
 ṯz	c iː z u w
 ṯz	t͡ʃ iː s u w
@@ -3182,8 +3286,8 @@ zꜣṯw	z ɑ t͡ʃ uː
 ṯꜣ	t͡ʃ ɑ
 ṯꜣj	c i ʀ j i t
 ṯꜣj	t͡ʃ i ʀ j i ʔ
-ṯꜣj	t͡ʃ iː ʔ a ʔ
-ṯꜣj	t͡ʃ iː ʔ ə
+ṯꜣj	t͡ʃ iː ʔ
+ṯꜣj	t͡ʃ iː ʔ ə ʔ
 ṯꜣj	t͡ʃ ɑ i
 ṯꜣm	t͡ʃ ɑ m
 ṯꜣr	t͡ʃ ɑ r
@@ -3244,10 +3348,12 @@ zꜣṯw	z ɑ t͡ʃ uː
 ẖt	ç uː w a t
 ẖt	ç uː w a ʔ
 ẖt	ç ɛ t
+ẖz	ç ɛ z
 ẖzj	ç iː s i ʔ
 ẖzj	ç iː s ə
 ẖzj	ç iː z i t
 ẖzj	ç ɛ z i
+ẖꜣk	ç ɑ k
 ẖꜣr	ç ɑ r
 ẖꜣrt	ç ɑ r ɛ t
 ẖꜣt	ç ɑ t
@@ -3413,6 +3519,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ꜣꜣ	ɑ ʔ ɑ
 ꜣꜣt	ɑ ʔ ɑ t
 ꜣꜣtꜣ	ɑ ʔ ɑ t ɑ
+ꜣꜥ	ɑ ʔ ɑː
 ꜣꜥbt	ɑ ʔ ɑː b ɛ t
 ꜣꜥfj	ɑ ʔ ɑː f i
 ꜣꜥw	ɑ ʔ ɑː uː
@@ -3493,6 +3600,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ꜥqw	ʕ a qʼ w u w
 ꜥqyt	ɑː k iː t
 ꜥqꜣ	ɑː k ɑ
+ꜥr	ɑː r
 ꜥrf	ɑː r ɛ f
 ꜥrq	ɑː r ɛ k
 ꜥrq	ʕ a l a qʼ
@@ -3504,6 +3612,8 @@ zꜣṯw	z ɑ t͡ʃ uː
 ꜥrrwt	ɑː r ɛ r uː t
 ꜥrt	ɑː r ɛ t
 ꜥsṯjrṯt	ɑː s t͡ʃ i r t͡ʃ ɛ t
+ꜥsṯrdt	ɑː s ɛ t͡ʃ r ɛ d ɛ t
+ꜥsṯt	ɑː s t͡ʃ ɛ t
 ꜥt	ɑː t
 ꜥtḫ	ɑː t ɛ x
 ꜥwt	ɑː uː t
@@ -3533,6 +3643,7 @@ zꜣṯw	z ɑ t͡ʃ uː
 ꜥḥꜥw	j a ħ j a w
 ꜥḥꜥw	ɑː ħ ɑː uː
 ꜥḥꜥw	ʕ a ħ ʕ a w
+ꜥḫj	ɑː x i
 ꜥḫm	ɑː x ɛ m
 ꜥḫm	ʕ aː χ a m
 ꜥḫm	ʕ oː χ ə m
@@ -3560,6 +3671,8 @@ zꜣṯw	z ɑ t͡ʃ uː
 ꜥꜣpp	ʕ V ʀ p aː p V w
 ꜥꜣpp	ʕ a p oː p
 ꜥꜣpp	ʕ a ʔ p aː p ə ʔ
+ꜥꜣsjty	ɑː ʔ ɑ s i t iː
+ꜥꜣstjr	ɑː ʔ ɑ s t i r
 ꜥꜣt	ɑː ʔ ɑ t
 ꜥꜣw	ɑː ʔ ɑ uː
 ꜥꜣꜥ	ɑː ʔ ɑ ʔ ɑː
