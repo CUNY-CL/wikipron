@@ -22,7 +22,7 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
 
 _DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
-    '  (span[@class = "ib-content qualifier-content" and {dialects_text}]\n'
+    '  (span[@class = "ib-content" and {dialects_text}]\n'
     "   or i/a[{dialects_text}])"
 )
 
