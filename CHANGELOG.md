@@ -14,6 +14,7 @@ Unreleased
 
 ### Under `wikipron/` and elsewhere
 -   Added not-already-mentioned language names. (\#478)
+-   Fixed dialect selector. (\#513)
 
 [1.3.0] - 2022-11-28
 --------------------
