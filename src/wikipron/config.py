@@ -30,8 +30,8 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
 """
 _DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
-    '  (span[@class = "ib-content qualifier-content" and a[{dialects_text}]]\n'
-    '   or count(span[@class = "ib-content qualifier-content"]) = 0)'
+    '  (span[@class = "ib-content" and a[{dialects_text}]]\n'
+    '   or count(span[@class = "ib-content"]) = 0)'
 )
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
