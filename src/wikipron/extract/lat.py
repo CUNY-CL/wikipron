@@ -74,7 +74,7 @@ _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE = """
   and
   span[@class = "IPA"]
   and
-  span[@class = "ib-content qualifier-content" and a[{dialects_text}]]
+  span[@class = "ib-content" and a[{dialects_text}]]
 ]
 """
 

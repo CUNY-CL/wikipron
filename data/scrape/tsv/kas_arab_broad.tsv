@@ -51,7 +51,10 @@
 اَمب	a m b
 اَنٛگریٖزؠ	a ŋ ɡ r iː zʲ
 اَنٛگریٖزؠ	ã ɡ r iː zʲ
+اَنٛگریٖزی	a ŋ ɡ r iː z iː
+اَنٛگریٖزی	ã ɡ r iː z iː
 اَپُز	a p u z
+اَپۆز	a p o z
 اَچھُر	a t͡ʃʰ u r
 اَڈُن	a ɖ u n
 اَکھ	a kʰ
@@ -64,6 +67,8 @@
 اِدرار	i d r ɑː r
 اِنسان	i n s aː n
 اِنڈِیا	i n ɖ i j aː
+اٟ	s aː j i m a d
+اٟ	ɨː
 اۄ	l ə ʈʲ w aː w u k
 اۄ	ɔ
 اۄا	l ə ʈʲ w aː w u k m a d
@@ -76,17 +81,19 @@
 اے	eː
 اے	j aː j u k
 اےٚ	e
-اےٚ	kʰ iː m ɨ j aː j u k
+اےٚ	n iː m ɨ j aː j u k
 ب	b
 ب	b eː
 بادام	b aː d aː m
 بادَم	b aː d a m
 باوُت	b ɑː w u t
 بوزُن	b oː z u n
+بوم	b oː m
 بوے	b oː j
 بَرتھا	b a r tʰ aː
 بَلُن	b a l u n
 بَہ	b a h
+بِہٲرؠ	b i h əː rʲ
 بھارَت	bʰ aː r a t
 بہَ	b a
 بہٕ	b ɨ
@@ -103,7 +110,8 @@
 تٕژھ	t̪ ɨ t͡sʰ
 تٟر	t ɨː r
 تھ	tʰ
-تھ	tʰ ə
+تھ	tʰ a
+تھۄکھ	tʰ ɔ kʰ
 تۆت	t o t
 ث	s
 ث	s eː
@@ -116,22 +124,29 @@
 خ	kʰ a j
 خ	x
 خاوَنٛد	kʰ aː w a n d
+خَلٕق	kʰ a l ɨ k
+خَلٕق	x a l ɨ q
 د	d
 د	d aː l
 داتھ	d aː tʰ
 دارؠل	d aː rʲ a l
 دارُن	d aː r u n
 دانٛد	d ãː d
-داہ	d ə h
+داہ	d aː h
 دود	d̪ oː d̪
+دَروازٕ	d a r v aː z ɨ
+دَروازٕ	d a r w aː z ɨ
 دَنٛد	d ã n d
 دَکھیُٛن	d a kʰ j u n
+دُمتوٗلؠ	d u m t uː l iː
 دُکان	d u k aː n
 دُکاندار	d u k aː n d aː r
-دٔہ	d aː h
+دٔے	d ə j
 دٲر	d əː r
 دۄد	d ɔ d
 دۄہ	d ɔ h
+دید	d e d
+دێد	d e d
 ذ	z
 ذ	z aː l
 ر	r
@@ -162,6 +177,7 @@
 زَنان	z a n aː n
 زَنٛگ	z ã ɡ
 زُر	z u r
+زُو	z u ʋ
 زُوُن	z u w u n
 زٔنؠ	z ə nʲ
 زٕ	z ɨ
@@ -189,6 +205,7 @@
 شُپ	ʃ u p
 شٲج	ʃ əː d͡ʒ
 شیر	ʃ eː r
+شےٚ	ʃ e
 ص	s
 ص	s ɔː d
 صِفَر	s i f a r
@@ -206,8 +223,8 @@
 ف	f
 ف	f eː
 ف	pʰ
-ق	k
-ق	k aː f
+ق	q
+ق	q aː f
 ل	l
 ل	l aː m
 لؠو	lʲ a w
@@ -221,7 +238,10 @@
 مَرُن	m a r u n
 مَشرِق	m a ʃ r i k
 مَغرِب	m a ɡ r i b
+مَنٛزٕ	m a n z ɨ
 مٕتھٕر	m ɨ tʰ ɨ r
+مٲدان	m əː d aː n
+مۄنڈُ	m ɔ n ɖ u
 ن	n
 ن	n uː n
 ن	◌̃
@@ -232,7 +252,9 @@
 نَتہٕ	n a t ɨ
 نَشُن	n a ʃ u n
 نَنُن	n a n u n
+نَو	n a v
 نَو	n a w
+نَو	n a ʋ
 نۄش	n ɔ ʃ
 و	oː
 و	w
@@ -241,8 +263,11 @@
 وان	w aː n
 وانٛگُن	w ãː ɡ u n
 ووٗنٛٹ	w ũː ʈ
+وَدُن	v a d u n
+وَدُن	w a d u n
 وَدُن	ʋ a d u n
 وُشُن	w u ʃ u n
+وۄتَر	w ɔ t a r
 وۄتُر	w ɔ t u r
 ویٖر	ʋ iː ɾ
 َ	a
@@ -260,20 +285,19 @@
 ٲ	a m aː l ɨ m a d
 ٲ	əː
 ٲس	əː s
-ٲشٕژ	əː ʃ ɨ t͡s
 ٲٹھ	əː ʈʰ
 ٲڈراوُن	əː ɖ ɾ aː w u n
 ٲڈرُن	əː ɖ ɾ u n
-ٳ	s aː j i m a d
-ٳ	ɨː
+ٲہی	əː ʃ ɨ t͡s
 ٹ	ʈ
 ٹ	ʈ eː
 ٹھ	ʈʰ
-ٹھ	ʈʰ ə
+ٹھ	ʈʰ a
 ٹۄپھ	ʈ ɔ pʰ
 پ	p
 پ	p eː
 پانٛژھ	p ãː t͡sʰ
+پرَٛشُن	p r a ʃ u n
 پرَٛکٕرٲن	p r a k ɨ r əː n
 پرٛاگ	p r aː ɡ
 پوش	p oː ʃ
@@ -284,6 +308,7 @@
 پَرُن	p a r u n
 پَرکھٲے	p a ɾ kʰ əː j
 پَمپوش	p a m p oː ʃ
+پَن	p a n
 پَنٛجاب	p a n d͡ʒ aː b
 پَنٛجٲبؠ	p a n d͡ʒ əː bʲ
 پَچھِم	p a t͡ʃʰ i m
@@ -292,7 +317,7 @@
 پٲنٛژھ	p ə̃ː t͡sʰ
 پٲکِستان	p əː k i s t aː n
 پھ	pʰ
-پھ	pʰ ə
+پھ	pʰ a
 پھَش	pʰ a ʃ
 پھَکھ	pʰ a kʰ
 پھۆل	pʰ o l
@@ -307,7 +332,7 @@
 چ	t͡ʃ
 چ	t͡ʃ iː m
 چھ	t͡ʃʰ
-چھ	t͡ʃʰ ə
+چھ	t͡ʃʰ a
 چھَلُن	t͡ʃʰ a l u n
 چھَکُن	t͡ʃʰ a k u n
 چھَکھ	t ʃʰ a kʰ
@@ -328,7 +353,7 @@
 ژَٹُن	t͡s a ʈ u n
 ژٕ	t͡s ɨ
 ژھ	t͡sʰ
-ژھ	t͡sʰ ə
+ژھ	t͡sʰ a
 ژھانٛڈُن	t͡sʰ ãː ɖ u n
 ژھۄپٕہ	t͡sʰ ɔ p ɨ
 ژیر	t͡s eː r
@@ -338,7 +363,11 @@
 کوشُر	k oː ʃ u r
 کوٗر	k uː r
 کَتھ	k a tʰ
+کَرَکھ	k a r a kʰ
 کَرُن	k a r u n
+کَرٕنَے	k a r ɨ n a j
+کَریل	k a r eː l
+کَشیٖر	k a ʃ iː r
 کَن	k a n
 کَژھ	k a t͡sʰ
 کُل	k u l
@@ -347,10 +376,12 @@
 کٲشُر	k əː ʃ u r
 کٲم	k əː m
 کھ	kʰ
-کھ	kʰ ə
+کھ	kʰ a
+کھؠما	kʲʰ a m aː
 کھوژُن	kʰ oː t͡s u n
 کھوژٕناوُن	kʰ oː t͡s ɨ n ɑː ʋ u n
 کھۄر	kʰ ɔ ɾ
+کھیٛۆن	k hʲ o n
 کھیٛۆن	kʰ j o n
 کۄلَے	k ɔ l a j
 کۄہ	k ɔ h
@@ -363,6 +394,7 @@
 گاٹُل	ɡ aː ʈ u l
 گاٹٕج	ɡ aː ʈ ɨ d͡ʒ
 گاٹٕلؠ	ɡ aː ʈ ɨ lʲ
+گَبگَب	ɡ a b ɡ a b
 گَرواجیٚنؠ	ɡ a r w aː d͡ʒ e nʲ
 گَروول	ɡ a r w oː l
 گَرُن	ɡ a r u n
@@ -372,12 +404,20 @@
 گُل	ɡ u l
 گُپُن	ɡ u p u n
 گٔر	ɡ ə r
+گٔڈؠ	ɡ ə ɖʲ
+گۄڈنِچ	ɡ ɔ ɖ n i t͡ʃ
 ں	n uː n ɡ ɔ n aː
 ں	◌̃
 ہ	h
 ہ	h eː
+ہاوُن	h aː v u n
+ہاوُن	h aː w u n
+ہاوُن	h aː ʋ u n
 ہَش	h a ʃ
 ہِندوستان	h i n d oː s t aː n
+ہِندوستٲنؠ	h i n d oː s t əː nʲ
+ہِندُستان	h i n d u s t aː n
+ہِندُستٲنؠ	h i n d u s t əː nʲ
 ہِندی	h i n d iː
 ہِہُر	h i h u r
 ہیُٛہُر	h j u h u r
