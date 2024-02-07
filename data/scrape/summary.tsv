@@ -95,12 +95,12 @@ egy_latn_broad.tsv	egy	Egyptian (Ancient)	Egyptian	Latin		False	Broad	False	3682
 ell_grek_broad.tsv	ell	Modern Greek (1453-)	Greek	Greek		False	Broad	True	14933
 ell_grek_broad_filtered.tsv	ell	Modern Greek (1453-)	Greek	Greek		True	Broad	True	14526
 ell_grek_narrow.tsv	ell	Modern Greek (1453-)	Greek	Greek		False	Narrow	True	337
-eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	True	102678
-eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	True	101200
-eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	True	3180
-eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	True	72028
-eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	True	71425
-eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	True	2300
+eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	True	77474
+eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	True	76849
+eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	True	1738
+eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	True	75751
+eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	True	75105
+eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	True	2423
 enm_latn_broad.tsv	enm	Middle English (1100-1500)	Middle English	Latin		False	Broad	True	10412
 epo_latn_broad.tsv	epo	Esperanto	Esperanto	Latin		False	Broad	True	4075
 epo_latn_narrow.tsv	epo	Esperanto	Esperanto	Latin		False	Narrow	True	15738
