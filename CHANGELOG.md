@@ -22,6 +22,7 @@ Unreleased
 ### Under `data/`
 
 #### Added
+-   Big scrape for 2024. (\#514)
 -   Big scrape for 2023. (\#512)
 -   Moved IPAs of words with tildes to multiple lines. (\#379)
 -   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
@@ -123,6 +124,7 @@ Unreleased
 
 #### Added
 
+-  Fixed dialect selectors for languages other than Latin. (\#511)
 -  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
 -  Added documentation about selecting transcription level. (\#502)
 -  Added `ckb` in `languagecodes.py`. (\#464)
