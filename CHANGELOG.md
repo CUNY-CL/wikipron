@@ -22,6 +22,8 @@ Unreleased
 ### Under `data/`
 
 #### Added
+
+-   Fixed CLI arg bug in `list_phones.py`. (\#516)
 -   Big scrape for 2024. (\#514)
 -   Big scrape for 2023. (\#512)
 -   Moved IPAs of words with tildes to multiple lines. (\#379)
