@@ -112,7 +112,7 @@ def main(args: argparse.Namespace):
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
     print(f"\n# unique phones: {len(phone_to_examples)}")
-    _check_ipa_phonemes(phone_to_examples, args.filepath)
+    _check_ipa_phonemes(phone_to_examples, args.tsv_path)
 
 
 if __name__ == "__main__":
