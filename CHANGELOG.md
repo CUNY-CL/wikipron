@@ -128,6 +128,7 @@ Unreleased
 
 #### Added
 
+-  Adds Python 3.12 classifiers and tests. (\#518)
 -  Fixed dialect selectors for languages other than Latin. (\#511)
 -  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
 -  Added documentation about selecting transcription level. (\#502)
