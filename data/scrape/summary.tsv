@@ -269,8 +269,8 @@ mic_latn_broad.tsv	mic	Mi'kmaq	Mi'kmaq	Latin		False	Broad	True	195
 mic_latn_narrow.tsv	mic	Mi'kmaq	Mi'kmaq	Latin		False	Narrow	True	193
 mkd_cyrl_narrow.tsv	mkd	Macedonian	Macedonian	Cyrillic		False	Narrow	True	61366
 mlg_latn_broad.tsv	mlg	Malagasy	Malagasy	Latin		False	Broad	True	186
-mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	True	18353
-mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	True	18273
+mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	True	17515
+mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	True	13716
 mnc_mong_narrow.tsv	mnc	Manchu	Manchu	Mongolian		False	Narrow	False	1451
 mnw_mymr_broad.tsv	mnw	Mon	Mon	Myanmar		False	Broad	False	1156
 mon_cyrl_broad.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Broad	True	3479

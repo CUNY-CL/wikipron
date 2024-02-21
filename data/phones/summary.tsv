@@ -1,4 +1,4 @@
-ady_narrow.phones	ady	Adyghe	Adyghe	Narrow	67
+ady_narrow.phones	ady	Adygei; Adyghe	Adyghe	Narrow	67
 afr_broad.phones	afr	Afrikaans	Afrikaans	Broad	61
 aze_narrow.phones	aze	Azerbaijani	Azerbaijani	Narrow	54
 bul_broad.phones	bul	Bulgarian	Bulgarian	Broad	52
@@ -22,16 +22,16 @@ khm_broad.phones	khm	Khmer	Khmer	Broad	73
 kor_narrow.phones	kor	Korean	Korean	Narrow	61
 lat_clas_broad.phones	lat	Latin	Latin (Classical)	Broad	36
 lav_narrow.phones	lav	Latvian	Latvian	Narrow	89
-mlt_broad.phones	mlt	Maltese	Maltese	Broad	61
+mlt_broad.phones	mlt	Maltese	Maltese	Broad	59
 mya_broad.phones	mya	Burmese	Burmese	Broad	70
-nld_broad.phones	nld	Dutch	Dutch	Broad	50
+nld_broad.phones	nld	Dutch; Flemish	Dutch	Broad	50
 nob_broad.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Broad	54
 por_bz_broad.phones	por	Portuguese	Portuguese (Brazil)	Broad	55
 por_po_broad.phones	por	Portuguese	Portuguese (Portugal)	Broad	48
-ron_narrow.phones	ron	Romanian	Romanian	Narrow	51
+ron_narrow.phones	ron	Romanian; Moldavian; Moldovan	Romanian	Narrow	51
 slv_broad.phones	slv	Slovenian	Slovene	Broad	48
-spa_ca_broad.phones	spa	Spanish	Spanish (Castilian)	Broad	29
-spa_la_broad.phones	spa	Spanish	Spanish (Latin America)	Broad	27
+spa_ca_broad.phones	spa	Spanish; Castilian	Spanish (Castilian)	Broad	29
+spa_la_broad.phones	spa	Spanish; Castilian	Spanish (Latin America)	Broad	27
 tur_narrow.phones	tur	Turkish	Turkish	Narrow	51
 vie_hanoi_narrow.phones	vie	Vietnamese	Vietnamese (Hà Nội)	Narrow	54
 vie_hcmc_narrow.phones	vie	Vietnamese	Vietnamese (Hồ Chí Minh City)	Narrow	50
