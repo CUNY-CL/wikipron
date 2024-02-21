@@ -5,7 +5,7 @@
   * Broad transcription files: 19
   * Narrow transcription files: 20
 * Scripts: 44
-* Pronunciations: 3,529,423
+* Pronunciations: 3,530,261
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | Case-folding | # of entries |
@@ -281,8 +281,8 @@
 | [TSV](tsv/mic_latn_narrow.tsv) | mic | Mi'kmaq | Mi'kmaq | Latin |  | False | Narrow | True | 193 |
 | [TSV](tsv/mkd_cyrl_narrow.tsv) | mkd | Macedonian | Macedonian | Cyrillic |  | False | Narrow | True | 61,366 |
 | [TSV](tsv/mlg_latn_broad.tsv) | mlg | Malagasy | Malagasy | Latin |  | False | Broad | True | 186 |
-| [TSV](tsv/mlt_latn_broad.tsv) | mlt | Maltese | Maltese | Latin |  | False | Broad | True | 17,515 |
-| [TSV](tsv/mlt_latn_broad_filtered.tsv) | mlt | Maltese | Maltese | Latin |  | True | Broad | True | 13,716 |
+| [TSV](tsv/mlt_latn_broad.tsv) | mlt | Maltese | Maltese | Latin |  | False | Broad | True | 18,353 |
+| [TSV](tsv/mlt_latn_broad_filtered.tsv) | mlt | Maltese | Maltese | Latin |  | True | Broad | True | 18,273 |
 | [TSV](tsv/mnc_mong_narrow.tsv) | mnc | Manchu | Manchu | Mongolian |  | False | Narrow | False | 1,451 |
 | [TSV](tsv/mnw_mymr_broad.tsv) | mnw | Mon | Mon | Myanmar |  | False | Broad | False | 1,156 |
 | [TSV](tsv/mon_cyrl_broad.tsv) | mon | Mongolian | Mongolian | Cyrillic |  | False | Broad | True | 3,479 |
