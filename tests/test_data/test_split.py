@@ -165,7 +165,8 @@ _SMOKE_TEST_LANGUAGES = [
         [("ᤀᤠᤀᤡᤴᤋᤠᤴᤍᤡᤰ", True), ("ژלرنال", False), ("wikipron", False)],
     ),
     SmokeTestScript(
-        "Bopomofo", [("ㄅㄆㄇㄈ", True), ("ژלرنال", False), ("wikipron", False)]
+        "Bopomofo",
+        [("ㄅㄆㄇㄈ", True), ("ژלرنال", False), ("wikipron", False)],
     ),
     SmokeTestScript(
         "Georgian",

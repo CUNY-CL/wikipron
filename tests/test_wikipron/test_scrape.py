@@ -37,7 +37,7 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("tha", "Thai", {}),
     # TODO(#514): Latin extractor is broken; disabling. Uncomment the
     # following line to re-enable.
-    #SmokeTestLanguage("lat", "Latin", {}),
+    # SmokeTestLanguage("lat", "Latin", {}),
     # Japanese data is mostly narrow transcription.
     SmokeTestLanguage("jpn", "Japanese", {"narrow": True}),
     SmokeTestLanguage("cmn", "Chinese", {"skip_spaces_pron": False}),
