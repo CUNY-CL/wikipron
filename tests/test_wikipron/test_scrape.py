@@ -35,7 +35,8 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("khm", "Khmer", {}),
     SmokeTestLanguage("shn", "Shan", {}),
     SmokeTestLanguage("tha", "Thai", {}),
-    # TODO(#514): Latin extractor is broken; disabling.
+    # TODO(#514): Latin extractor is broken; disabling. Uncomment the
+    # following line to re-enable.
     #SmokeTestLanguage("lat", "Latin", {}),
     # Japanese data is mostly narrow transcription.
     SmokeTestLanguage("jpn", "Japanese", {"narrow": True}),
@@ -78,7 +79,8 @@ def test_special_languages_covered_by_smoke_test():
     """All languages handled by wikipron.extract must have a smoke test."""
     special_languages = {lang for lang in EXTRACTION_FUNCTIONS.keys()}
     smoke_test_languages = {lang.wik_name for lang in _SMOKE_TEST_LANGUAGES}
-    # TODO(#514): Latin extractor is broken; disabling its check here.
+    # TODO(#514): Latin extractor is broken; disabling its check here. Remove
+    # the following line to re-enable.
     smoke_test_languages.add("Latin")
     assert special_languages.issubset(smoke_test_languages), (
         "These languages must also be included in the smoke test: "
