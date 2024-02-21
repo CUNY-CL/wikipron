@@ -8,11 +8,13 @@ import os
 
 from typing import Any, Dict
 
-from data.scrape.lib.codes import (
-    LANGUAGES_PATH,
-    PHONES_SUMMARY_PATH,
-    PHONES_README_PATH,
-    PHONES_DIRECTORY,
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+PHONES_DIRECTORY = os.path.normpath(os.path.join(LIB_DIRECTORY, os.pardir))
+PHONES_README_PATH = os.path.join(PHONES_DIRECTORY, "README.md")
+PHONES_SUMMARY_PATH = os.path.join(PHONES_DIRECTORY, "summary.tsv")
+PHONES_PHONES_DIRECTORY = os.path.join(PHONES_DIRECTORY, "phones")
+LANGUAGES_PATH = os.path.normpath(
+    os.path.join(PHONES_DIRECTORY, os.pardir, "scrape/lib/languages.json")
 )
 
 
@@ -37,9 +39,9 @@ def main() -> None:
         languages = json.load(source)
     readme_list = []
     phones_summaries = []
-    for file_path in os.listdir(PHONES_DIRECTORY):
+    for file_path in os.listdir(PHONES_PHONES_DIRECTORY):
         with open(
-            f"{PHONES_DIRECTORY}/{file_path}", "r", encoding="utf-8"
+            f"{PHONES_PHONES_DIRECTORY}/{file_path}", "r", encoding="utf-8"
         ) as phone_list:
             # We exclude blank lines and comments.
             num_of_entries = sum(
