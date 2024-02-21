@@ -23,6 +23,8 @@ Unreleased
 
 #### Added
 
+-   Updated Maltese (`mlt`) phonelist. (\#517)
+-   Fixed path bug in `generate_summary.py`. (\#517)
 -   Fixed CLI arg bug in `list_phones.py`. (\#516)
 -   Big scrape for 2024. (\#514)
 -   Big scrape for 2023. (\#512)
