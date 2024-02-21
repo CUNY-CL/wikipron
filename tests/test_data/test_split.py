@@ -148,7 +148,7 @@ _SMOKE_TEST_LANGUAGES = [
         [("ꦧꦲꦸꦱꦱ꧀ꦠꦿ", True), ("ژלرنال", False), ("wikipron", False)],
     ),
     SmokeTestScript(
-        "Common", [("ʻ", True), ("ژלرنال", False), ("wikipron", False)]
+        "Common", [("ʻ", True), ("ژלرنال", False), ("wikip@ron", False)]
     ),
     SmokeTestScript(
         "Coptic", [("ϣⲙⲏⲛ", True), ("ژלرنال", False), ("wikipron", False)]
