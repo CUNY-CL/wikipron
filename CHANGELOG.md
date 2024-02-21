@@ -128,6 +128,7 @@ Unreleased
 
 #### Added
 
+-  Adds Python 3.12 support. (\#520)
 -  Temporarily disables Latin testing in lieu of #514. (\#519)
 -  Fixed dialect selectors for languages other than Latin. (\#511)
 -  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
