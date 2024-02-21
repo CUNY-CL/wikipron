@@ -1,6 +1,6 @@
 black==24.2.0
 build==0.9.0
-flake8==6.0.0
+flake8==7.0.0
 python-iso639==2022.11.27
 mypy==1.1.1
 pytest==7.2.0
