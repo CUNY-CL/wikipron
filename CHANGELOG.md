@@ -128,6 +128,7 @@ Unreleased
 
 #### Added
 
+-  Temporarily disables Latin testing in lieu of #514. (\#519)
 -  Fixed dialect selectors for languages other than Latin. (\#511)
 -  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
 -  Added documentation about selecting transcription level. (\#502)
