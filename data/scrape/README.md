@@ -5,7 +5,7 @@
   * Broad transcription files: 19
   * Narrow transcription files: 20
 * Scripts: 44
-* Pronunciations: 3,530,261
+* Pronunciations: 3,533,304
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | Case-folding | # of entries |
@@ -55,8 +55,8 @@
 | [TSV](tsv/bcl_latn_narrow.tsv) | bcl | Central Bikol | Bikol Central | Latin |  | False | Narrow | True | 4,541 |
 | [TSV](tsv/bdq_latn_broad.tsv) | bdq | Bahnar | Bahnar | Latin |  | False | Broad | True | 193 |
 | [TSV](tsv/bel_cyrl_narrow.tsv) | bel | Belarusian | Belarusian | Cyrillic |  | False | Narrow | True | 4,055 |
-| [TSV](tsv/ben_beng_broad.tsv) | ben | Bengali | Bengali | Bengali |  | False | Broad | False | 6,120 |
-| [TSV](tsv/ben_beng_narrow.tsv) | ben | Bengali | Bengali | Bengali |  | False | Narrow | False | 5,277 |
+| [TSV](tsv/ben_beng_broad.tsv) | ben | Bengali | Bengali | Bengali |  | False | Broad | False | 6,610 |
+| [TSV](tsv/ben_beng_narrow.tsv) | ben | Bengali | Bengali | Bengali |  | False | Narrow | False | 5,872 |
 | [TSV](tsv/bjb_latn_broad.tsv) | bjb | Banggarla | Barngarla | Latin |  | False | Broad | False | 136 |
 | [TSV](tsv/blt_tavt_narrow.tsv) | blt | Tai Dam | Tai Dam | Tai Viet |  | False | Narrow | False | 233 |
 | [TSV](tsv/bod_tibt_broad.tsv) | bod | Tibetan | Tibetan | Tibetan |  | False | Broad | False | 2,562 |
@@ -130,9 +130,9 @@
 | [TSV](tsv/fax_latn_broad.tsv) | fax | Fala | Fala | Latin |  | False | Broad | False | 490 |
 | [TSV](tsv/fin_latn_broad.tsv) | fin | Finnish | Finnish | Latin |  | False | Broad | True | 155,339 |
 | [TSV](tsv/fin_latn_narrow.tsv) | fin | Finnish | Finnish | Latin |  | False | Narrow | True | 155,331 |
-| [TSV](tsv/fra_latn_broad.tsv) | fra | French | French | Latin |  | False | Broad | True | 78,045 |
-| [TSV](tsv/fra_latn_broad_filtered.tsv) | fra | French | French | Latin |  | True | Broad | True | 77,862 |
-| [TSV](tsv/fra_latn_narrow.tsv) | fra | French | French | Latin |  | False | Narrow | True | 237 |
+| [TSV](tsv/fra_latn_broad.tsv) | fra | French | French | Latin |  | False | Broad | True | 80,008 |
+| [TSV](tsv/fra_latn_broad_filtered.tsv) | fra | French | French | Latin |  | True | Broad | True | 79,760 |
+| [TSV](tsv/fra_latn_narrow.tsv) | fra | French | French | Latin |  | False | Narrow | True | 232 |
 | [TSV](tsv/fro_latn_broad.tsv) | fro | Old French (842-ca. 1400) | Old French | Latin |  | False | Broad | True | 884 |
 | [TSV](tsv/frr_latn_broad.tsv) | frr | Northern Frisian | North Frisian | Latin |  | False | Broad | True | 167 |
 | [TSV](tsv/fry_latn_broad.tsv) | fry | Western Frisian | West Frisian | Latin |  | False | Broad | True | 1,039 |
