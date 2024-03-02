@@ -7,10 +7,24 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic
 Versioning](http://semver.org/spec/v2.0.0.html).
 
-Unreleased
-----------
+[1.3.1] - 2024-03-02
+--------------------
 
 ### Under `data/`
+
+-   Updated Maltese (`mlt`) phonelist. (\#517)
+-   Fixed path bug in `generate_summary.py`. (\#517)
+-   Fixed CLI arg bug in `list_phones.py`. (\#516)
+-   Big scrape for 2023. (\#512)
+-   Moved IPAs of words with tildes to multiple lines. (\#379)
+-   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
+-   Added KPI computation to `generate_summary.py`. (\#465)
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
+-   Renamed the two TSV summaries to `summary.tsv`. (\#494)
+-   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
+-   Upstream cleaning wrt English tie bar. (\#491)
+-   Upstream cleaning wrt English high vowel and schwa. (\#493)
+-   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 
 ### Under `wikipron/` and elsewhere
 -   Added not-already-mentioned language names. (\#478)
@@ -23,20 +37,6 @@ Unreleased
 
 #### Added
 
--   Updated Maltese (`mlt`) phonelist. (\#517)
--   Fixed path bug in `generate_summary.py`. (\#517)
--   Fixed CLI arg bug in `list_phones.py`. (\#516)
--   Big scrape for 2024. (\#514)
--   Big scrape for 2023. (\#512)
--   Moved IPAs of words with tildes to multiple lines. (\#379)
--   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
--   Added KPI computation to `generate_summary.py`. (\#465)
--   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
--   Renamed the two TSV summaries to `summary.tsv`. (\#494)
--   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
--   Upstream cleaning wrt English tie bar. (\#491)
--   Upstream cleaning wrt English high vowel and schwa. (\#493)
--   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 -   Big scrape for 2022. (\#464)
 -   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
 -   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
