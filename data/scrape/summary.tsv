@@ -43,8 +43,8 @@ bcl_latn_broad.tsv	bcl	Central Bikol	Bikol Central	Latin		False	Broad	True	4545
 bcl_latn_narrow.tsv	bcl	Central Bikol	Bikol Central	Latin		False	Narrow	True	4541
 bdq_latn_broad.tsv	bdq	Bahnar	Bahnar	Latin		False	Broad	True	193
 bel_cyrl_narrow.tsv	bel	Belarusian	Belarusian	Cyrillic		False	Narrow	True	4055
-ben_beng_broad.tsv	ben	Bengali	Bengali	Bengali		False	Broad	False	6610
-ben_beng_narrow.tsv	ben	Bengali	Bengali	Bengali		False	Narrow	False	5872
+ben_beng_broad.tsv	ben	Bengali	Bengali	Bengali		False	Broad	False	6120
+ben_beng_narrow.tsv	ben	Bengali	Bengali	Bengali		False	Narrow	False	5277
 bjb_latn_broad.tsv	bjb	Banggarla	Barngarla	Latin		False	Broad	False	136
 blt_tavt_narrow.tsv	blt	Tai Dam	Tai Dam	Tai Viet		False	Narrow	False	233
 bod_tibt_broad.tsv	bod	Tibetan	Tibetan	Tibetan		False	Broad	False	2562
@@ -118,9 +118,9 @@ fas_arab_narrow.tsv	fas	Persian	Persian	Arabic		False	Narrow	False	21730
 fax_latn_broad.tsv	fax	Fala	Fala	Latin		False	Broad	False	490
 fin_latn_broad.tsv	fin	Finnish	Finnish	Latin		False	Broad	True	155339
 fin_latn_narrow.tsv	fin	Finnish	Finnish	Latin		False	Narrow	True	155331
-fra_latn_broad.tsv	fra	French	French	Latin		False	Broad	True	80008
-fra_latn_broad_filtered.tsv	fra	French	French	Latin		True	Broad	True	79760
-fra_latn_narrow.tsv	fra	French	French	Latin		False	Narrow	True	232
+fra_latn_broad.tsv	fra	French	French	Latin		False	Broad	True	78045
+fra_latn_broad_filtered.tsv	fra	French	French	Latin		True	Broad	True	77862
+fra_latn_narrow.tsv	fra	French	French	Latin		False	Narrow	True	237
 fro_latn_broad.tsv	fro	Old French (842-ca. 1400)	Old French	Latin		False	Broad	True	884
 frr_latn_broad.tsv	frr	Northern Frisian	North Frisian	Latin		False	Broad	True	167
 fry_latn_broad.tsv	fry	Western Frisian	West Frisian	Latin		False	Broad	True	1039
