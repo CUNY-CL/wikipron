@@ -76,7 +76,6 @@ def main() -> None:
             dialect,
             filtered,
             transcription_level,
-            languages[iso639_code]["casefold"],
             num_of_entries,
         ]
         # TSV and README have different first column.
@@ -158,13 +157,11 @@ def main() -> None:
             dialect,
             is_filtered,
             phon,
-            casefold,
             count,
         ) in readme_list:
             print(
                 f"| {link} | {code} | {iso_name} | {wiki_name} | {script} "
-                f"| {dialect} | {is_filtered} | {phon} | {casefold} "
-                f"| {count:,} |",
+                f"| {dialect} | {is_filtered} | {phon} | {count:,} |",
                 file=sink,
             )
 

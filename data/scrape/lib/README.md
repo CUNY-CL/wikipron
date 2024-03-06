@@ -27,13 +27,6 @@ Wiktionary that have over 100 entries but that could not be matched with an ISO
 1.  Run [`codes.py`](codes.py) to update [`languages.json`](languages.json).
     -   If there are new Wiktionary languages with over 100 entries, they will
         be added to [`languages.json`](languages.json).
-    -   As mentioned in the comment at the top of [`codes.py`](codes.py), any
-        new languages added to [`languages.json`](languages.json) will not have
-        their case-folding settings specified. Their `"casefold"` value will
-        therefore be set to `None`.
-    -   Whether or not to apply case-folding for these new languages needs to be
-        manually set by changing the `"casefold"` value within
-        [`languages.json`](languages.json).
     -   To find new languages you can run `git diff languages.json` or search
         for `null` values within [`languages.json`](languages.json).
 2.  Run [`scrape`](../scrape).
