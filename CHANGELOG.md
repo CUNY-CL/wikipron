@@ -25,14 +25,19 @@ Unreleased
 
 ### Under `data/`
 
+#### Added
+
+-   Added KPI computation to `generate_summary.py`. (\#465)
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
+
+#### Changed
+
 -   Updated Maltese (`mlt`) phonelist. (\#517)
 -   Fixed path bug in `generate_summary.py`. (\#517)
 -   Fixed CLI arg bug in `list_phones.py`. (\#516)
 -   Big scrape for 2023. (\#512)
 -   Moved IPAs of words with tildes to multiple lines. (\#379)
 -   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
--   Added KPI computation to `generate_summary.py`. (\#465)
--   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
 -   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
 -   Upstream cleaning wrt English tie bar. (\#491)
@@ -41,7 +46,12 @@ Unreleased
 
 ### Under `wikipron/` and elsewhere
 
+#### Added
+
 -   Added not-already-mentioned language names. (\#478)
+
+#### Fixed
+
 -   Fixed dialect selector. (\#513)
 
 [1.3.0] - 2022-11-28
