@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic
 Versioning](http://semver.org/spec/v2.0.0.html).
 
+Unreleased
+----------
+
+### Under `wikipron/` and elsewhere
+
+#### Added
+
+-   Remove the case-folding attributes for the big scrape. (\#469)
+
+#### Changed.
+
+-   Removed the case-folding test for the big scrape. (\#469)
+
 [1.3.1] - 2024-03-02
 --------------------
 
@@ -27,6 +40,7 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 -   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 
 ### Under `wikipron/` and elsewhere
+
 -   Added not-already-mentioned language names. (\#478)
 -   Fixed dialect selector. (\#513)
 
