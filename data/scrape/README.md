@@ -9,7 +9,7 @@
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
-| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |
+| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: | ----: |
 | [TSV](tsv/aar_latn_broad.tsv) | aar | Afar | Afar | Latin |  | False | Broad | 1,559 |
 | [TSV](tsv/aar_latn_narrow.tsv) | aar | Afar | Afar | Latin |  | False | Narrow | 1,521 |
 | [TSV](tsv/abk_cyrl_broad.tsv) | abk | Abkhazian | Abkhaz | Cyrillic |  | False | Broad | 141 |
