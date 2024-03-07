@@ -105,7 +105,6 @@ def main() -> None:
             "dialect",
             "filtered",
             "narrow_broad",
-            "case_folding",
             "no_entries",
         ],
     )
@@ -141,7 +140,7 @@ def main() -> None:
         print(
             "| Link | ISO 639-3 Code | ISO 639 Language Name "
             "| Wiktionary Language Name | Script | Dialect | Filtered "
-            "| Narrow/Broad | Case-folding | # of entries |",
+            "| Narrow/Broad | # of entries |",
             file=sink,
         )
         print(
