@@ -201,7 +201,6 @@ def main() -> None:
                 # Adds previously unseen language.
                 new_languages[iso639_code] = {
                     **core_settings,
-                    "casefold": None,
                 }
             _check_language_code_against_wiki(iso639_code, wiktionary_name)
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:

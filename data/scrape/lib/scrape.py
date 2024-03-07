@@ -168,7 +168,6 @@ def main(args: argparse.Namespace) -> None:
     codes_sorted = sorted((restriction_set - exclude_set) & unscraped_codes)
     remaining = codes_sorted.copy()
     wikipron_accepted_settings = {
-        "casefold": False,
         "skip_spaces_pron": True,
         "skip_spaces_word": True,
     }

@@ -7,10 +7,30 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic
 Versioning](http://semver.org/spec/v2.0.0.html).
 
+Unreleased
+----------
+
+### Under `wikipron/` and elsewhere
+
+#### Added
+
+-   Remove the case-folding attributes for the big scrape. (\#469)
+
+#### Changed.
+
+-   Removed the case-folding test for the big scrape. (\#469)
+
 [1.3.1] - 2024-03-02
 --------------------
 
 ### Under `data/`
+
+#### Added
+
+-   Added KPI computation to `generate_summary.py`. (\#465)
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
+
+#### Changed
 
 -   Updated Maltese (`mlt`) phonelist. (\#517)
 -   Fixed path bug in `generate_summary.py`. (\#517)
@@ -18,8 +38,6 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 -   Big scrape for 2023. (\#512)
 -   Moved IPAs of words with tildes to multiple lines. (\#379)
 -   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
--   Added KPI computation to `generate_summary.py`. (\#465)
--   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
 -   Renamed the two TSV summaries to `summary.tsv`. (\#494)
 -   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
 -   Upstream cleaning wrt English tie bar. (\#491)
@@ -27,7 +45,13 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 -   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 
 ### Under `wikipron/` and elsewhere
+
+#### Added
+
 -   Added not-already-mentioned language names. (\#478)
+
+#### Fixed
+
 -   Fixed dialect selector. (\#513)
 
 [1.3.0] - 2022-11-28
