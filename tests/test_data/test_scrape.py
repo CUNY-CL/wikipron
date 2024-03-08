@@ -5,7 +5,7 @@ from typing import List
 
 import pytest
 
-from data.scrape.scrape import _build_scraping_config
+from data.scrape.lib import scrape
 
 
 def write_dummy_phones_files(phones_dir, key: str, dialect: str) -> None:
@@ -72,8 +72,8 @@ def test_file_creation(
     phones: bool,
     expected_file_name: List[str],
 ):
-    """Check whether _build_scraping_config() outputs TSVs with expected
-    file names based on presence or absence of dialect specification
+    """Check whether scrape.build_scraping_config() outputs TSVs with
+    expected file names based on presence or absence of dialect specification
     or .phones files for a given language.
     """
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -83,7 +83,7 @@ def test_file_creation(
             write_dummy_phones_files(
                 f"{temp_dir}/phones", iso_key, dialect_affix
             )
-        _build_scraping_config(
+        scrape.build_scraping_config(
             config_settings={"key": iso_key},
             path_affix=f"{temp_dir}/tsv/{iso_key}_{dialect_affix}",
             phones_path_affix=f"{temp_dir}/phones/{iso_key}_{dialect_affix}",

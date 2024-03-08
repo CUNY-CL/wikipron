@@ -165,7 +165,8 @@ _SMOKE_TEST_LANGUAGES = [
         [("ᤀᤠᤀᤡᤴᤋᤠᤴᤍᤡᤰ", True), ("ژלرنال", False), ("wikipron", False)],
     ),
     SmokeTestScript(
-        "Bopomofo", [("ㄅㄆㄇㄈ", True), ("ژלرنال", False), ("wikipron", False)]
+        "Bopomofo",
+        [("ㄅㄆㄇㄈ", True), ("ژלرنال", False), ("wikipron", False)],
     ),
     SmokeTestScript(
         "Georgian",
@@ -217,6 +218,24 @@ _SMOKE_TEST_LANGUAGES = [
             ("እናት", True),
             ("ግዕዝ", True),
             ("𐩣𐩣𐩾", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Cherokee",
+        [
+            ("ᎬᎾ", True),
+            ("ᎩᎵᏏᏲ", True),
+            ("Հայոց", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Kayah Li",
+        [
+            ("ꤓꤝꤤ꤬", True),
+            ("ꤢꤩ꤬ꤓꤣ꤬ꤔꤢꤧ", True),
+            ("ກວ່າ", False),
             ("wikipron", False),
         ],
     ),

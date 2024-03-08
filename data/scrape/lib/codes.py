@@ -32,6 +32,7 @@ import requests_html  # type: ignore
 import wikipron
 from wikipron.scrape import HTTP_HEADERS
 
+
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")
@@ -42,18 +43,10 @@ UNMATCHED_LANGUAGES_PATH = os.path.join(
     LIB_DIRECTORY, "unmatched_languages.json"
 )
 SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
-LANGUAGES_SUMMARY_PATH = os.path.join(SCRAPE_DIRECTORY, "tsv_summary.tsv")
+LANGUAGES_SUMMARY_PATH = os.path.join(SCRAPE_DIRECTORY, "summary.tsv")
 LOGGING_PATH = os.path.join(SCRAPE_DIRECTORY, "scraping.log")
-README_PATH = os.path.join(SCRAPE_DIRECTORY, "README.md")
-TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 PHONES_DIRECTORY = os.path.join(
     os.path.dirname(SCRAPE_DIRECTORY), "phones/phones"
-)
-PHONES_README_PATH = os.path.join(
-    os.path.dirname(PHONES_DIRECTORY), "README.md"
-)
-PHONES_SUMMARY_PATH = os.path.join(
-    os.path.dirname(PHONES_DIRECTORY), "phones_summary.tsv"
 )
 URL = "https://en.wiktionary.org/w/api.php"
 
@@ -174,7 +167,16 @@ def main() -> None:
             wiktionary_code = _scrape_wiktionary_language_code(
                 wiktionary_name.replace(" ", "_")
             )
-            iso639_lang = iso639.Language.match(wiktionary_code)
+            try:
+                iso639_lang = iso639.Language.match(wiktionary_code)
+            except iso639.language.LanguageNotFoundError:
+                unmatched_languages[wiktionary_code] = {
+                    "wiktionary_name": wiktionary_name
+                }
+                logging.warning(
+                    "Could not find language with code %s", wiktionary_code
+                )
+                continue
             if iso639_lang is None:
                 # No match found for the Wiktionary code.
                 unmatched_languages[wiktionary_code] = {
@@ -199,7 +201,6 @@ def main() -> None:
                 # Adds previously unseen language.
                 new_languages[iso639_code] = {
                     **core_settings,
-                    "casefold": None,
                 }
             _check_language_code_against_wiki(iso639_code, wiktionary_name)
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:

@@ -10,9 +10,49 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 Unreleased
 ----------
 
+### Under `wikipron/` and elsewhere
+
+#### Added
+
+-   Remove the case-folding attributes for the big scrape. (\#469)
+
+#### Changed.
+
+-   Removed the case-folding test for the big scrape. (\#469)
+
+[1.3.1] - 2024-03-02
+--------------------
+
 ### Under `data/`
 
+#### Added
+
+-   Added KPI computation to `generate_summary.py`. (\#465)
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
+
+#### Changed
+
+-   Updated Maltese (`mlt`) phonelist. (\#517)
+-   Fixed path bug in `generate_summary.py`. (\#517)
+-   Fixed CLI arg bug in `list_phones.py`. (\#516)
+-   Big scrape for 2023. (\#512)
+-   Moved IPAs of words with tildes to multiple lines. (\#379)
+-   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
+-   Renamed the two TSV summaries to `summary.tsv`. (\#494)
+-   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
+-   Upstream cleaning wrt English tie bar. (\#491)
+-   Upstream cleaning wrt English high vowel and schwa. (\#493)
+-   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
+
 ### Under `wikipron/` and elsewhere
+
+#### Added
+
+-   Added not-already-mentioned language names. (\#478)
+
+#### Fixed
+
+-   Fixed dialect selector. (\#513)
 
 [1.3.0] - 2022-11-28
 --------------------
@@ -21,8 +61,6 @@ Unreleased
 
 #### Added
 
--   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
--   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 -   Big scrape for 2022. (\#464)
 -   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
 -   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
@@ -109,12 +147,16 @@ Unreleased
 -   Fixed Common character collection in `common_characters.py` (\#419)
 -   Scraping test fixed for `blt`. (\#436)
 -   Changed URLs to point at CUNY-CL repo, where applicable. (\#438)
--   Upstream cleaning wrt English tie bar. (\#491)
 
-### Under `wikipron/` and elsewhere
+### Under `src/` and elsewhere
 
 #### Added
 
+-  Adds Python 3.12 support. (\#520)
+-  Temporarily disables Latin testing in lieu of #514. (\#519)
+-  Fixed dialect selectors for languages other than Latin. (\#511)
+-  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
+-  Added documentation about selecting transcription level. (\#502)
 -  Added `ckb` in `languagecodes.py`. (\#464)
 -  Added support for Python 3.10. (\#462)
 -  Added test of phones list generation in `test_data/test_summary.py` (\#363)
@@ -132,6 +174,7 @@ Unreleased
 
 #### Changed
 
+-   Fixed missing logging for proto-languages. (\#505)
 -   Switched to ISO 639-3 language codes. (\#468)
 -   Converted `setup.py` to `pyproject.toml`. (\#479)
 

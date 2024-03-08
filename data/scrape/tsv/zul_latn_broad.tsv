@@ -21,11 +21,9 @@ amathe	á m aː tʰ é
 ayina	ʔ a j iː n a
 bana	ɓ áː n a
 bayede	ɓ a j éː d e
-be	ɓ e
 bona	ɓ oː n á
 botswana	ɓ ôː t͡sʼʷ aː n a
 buhlungu	ɓ u ɬ ûː n ɡ u
-c	ǀ
 cha	ǀʰ á
 cishe	ǀ íː ʃ e
 cwala	ǀ w aː l a
@@ -43,6 +41,7 @@ duma	d úː m a
 dwa	d w a
 ebula	e ɓ uː l a
 ebuza	e ɓ uː z a
+egoli	ɛ ɡ ɔː l i
 eluka	e l uː ɠ a
 engeza	e n ɡ eː z a
 ethwasa	e tʰ w aː s a
@@ -82,6 +81,7 @@ hlikihla	ɬ i ɠ iː ɬ a
 hlobonga	ɬ o ɓ oː n ɡ a
 hlonipha	ɬ o n íː pʰ a
 ibala	îː ɓ âː l a
+ibalazwe	îː ɓ a l áː z w e
 ibandla	í ɓ âː n ɮ a
 ibele	îː ɓ éː l e
 ibhaka	íː b aː ɠ á
@@ -196,6 +196,7 @@ ihlakani	îː ɬ a ɠ âː n i
 ihlathi	îː ɬ âː tʰ i
 ihlaya	íː ɬ aː j á
 ihlelo	íː ɬ eː l o
+ihlengethwa	iː ɬ é n ɡ eː tʰ w a
 ihlezi	íː ɬ eː z i
 ihlo	îː ɬ o
 ihlobo	íː ɬ oː ɓ o
@@ -223,6 +224,7 @@ ikhabethe	iː kʰ á ɓ eː tʰ e
 ikhala	íː kʰ aː l a
 ikhalenda	iː kʰ á l eː n d a
 ikhanda	îː kʰ âː n d a
+ikhangaru	iː kʰ á n ɡ aː r u
 ikhanjana	îː kʰ a ɲ d ʒ áː n a
 ikhanzi	îː kʰ áː n z i
 ikhaphethe	iː kʰ á pʰ eː tʰ e
@@ -420,7 +422,6 @@ ingungumbane	i n ɡ u n ɡ ú m b aː n e
 ingwane	í n ɡ w aː n e
 ingwe	íː n ɡ w e
 ingwedli	í n ɡ w eː ɮ i
-ingwenya	í n ɡ w eː ɲ a
 ingwenya	íᵑ ɡʷ eː ɲ a
 ingxabano	íᵑ ǁʱ a ɓ áː n o
 ingxenye	íᵑ ǁʱ éː ɲ e
@@ -511,7 +512,6 @@ insimba	í n s îː m b a
 insimbi	í n s îː m b i
 insimu	í n s îː m u
 insipho	í n s iː pʰ o
-insizwa	í n s íː z w a
 inso	îː n s ó
 insundu	í n s ûː n d u
 inswelakalo	í n s w e l á ɠ aː l o
@@ -850,6 +850,7 @@ isono	í s ôː n o
 isonto	íː s oː n t o
 isosa	îː s óː s a
 isu	íː s u
+isulumani	îː s u l ú m aː n i
 isundu	îː s ûː n d u
 iswazi	íː s w aː z i
 itafula	iː t á f uː l a
@@ -986,6 +987,7 @@ luma	l ûː m a
 lwa	l w a
 madlala	m a ɮʱ aː l a
 mahhala	m a ɦ áː l a
+manje	m aːː n d͡ʒ e
 maye	mʱ á jʱ êː
 mema	m eː m a
 mhla	m̩ ɬ a
@@ -994,8 +996,6 @@ mhlophe	m̩ ɬ ôː pʰ e
 mina	m iː n á
 muntu	m ùː n t ù
 musa	mʱ úː s a
-na	n a
-na	n á
 nakanjani	n a ɠ á ɲ d ʒ aː n í
 namhlanje	n á m̩ ɬ áː ɲ d ʒ é
 nceda	ᵑǀ eː d a
@@ -1186,6 +1186,7 @@ ubukhosazana	ú ɓ u kʰ o s á z aː n a
 ubukhosikazi	ú ɓ u kʰ o s í ɠ aː z i
 ubukhulu	ú ɓ u kʰ ûː l u
 ubukhuphekhuphe	u ɓ u kʰ u pʰ é kʰ uː pʰ e
+ubulembu	u ɓ ú l eː m b u
 ubuluhlaza	ú ɓ u l u ɬ âː z a
 ubumhlophe	ú ɓ u m̩ ɬ ôː pʰ e
 ubumnene	ú ɓ u m̩ n êː n e
@@ -1330,6 +1331,7 @@ ukunxele	ú ɠ uᵑ ǁ êː l e
 ukunyenyeza	u ɠ u ɲ é ɲ eː z a
 ukunyenyeza	u ɠ ú ɲ e ɲ éː z a
 ukupela	ú ɠ u p éː l a
+ukuphakama	ú ɠ u pʰ a ɠ áː m a
 ukupheka	u ɠ ú pʰ eː ɠ a
 ukuphela	ú ɠ u pʰ éː l a
 ukuphoqa	u ɠ ú pʰ oː ǃ a
@@ -1679,6 +1681,7 @@ ushizi	ú ʃ iː z i
 ushukela	u ʃ ú ɠ eː l a
 usiba	ûː s íː ɓ a
 usogekle	ú s ó ɡ eː k x e
+usomandla	ú s o m áː n ɮ a
 usuku	ûː s ûː ɠ u
 utamatisi	ú t a m á t iː s i
 uthando	ûː tʰ âː n d o

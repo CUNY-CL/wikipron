@@ -3,4 +3,4 @@
 
 set -eou pipefail
 
-./lib/generate_phones_summary.py
+./lib/generate_summary.py

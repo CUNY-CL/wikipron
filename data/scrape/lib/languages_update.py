@@ -9,6 +9,7 @@ to reflect such that script key entries match ISO 15924 aliases.
 """
 
 import collections
+import logging
 import json
 import operator
 import os
@@ -17,7 +18,11 @@ from typing import Dict, DefaultDict, Optional
 
 import unicodedataplus  # type: ignore
 
-from data.scrape.lib.codes import LANGUAGES_PATH, TSV_DIRECTORY  # type: ignore
+
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 
 
 def _detect_best_script_name(
@@ -111,7 +116,11 @@ def main():
     for filename in os.listdir(TSV_DIRECTORY):
         if filename.endswith(".tsv"):
             iso639_code = filename[: filename.index("_")]
-            lang = languages[iso639_code]
+            try:
+                lang = languages[iso639_code]
+            except KeyError as key:
+                logging.warning("Key not found: %s", key)
+                continue
             with open(
                 f"{TSV_DIRECTORY}/{filename}", "r", encoding="utf-8"
             ) as source:
@@ -137,4 +146,7 @@ def main():
 
 
 if __name__ == "__main__":
+    logging.basicConfig(
+        format="%(filename)s %(levelname)s: %(message)s", level="WARNING"
+    )
     main()

@@ -4,7 +4,7 @@
 This module takes TSV files from data and prints an updated regex string to be
 passed to `split.py`.
 
-If --json is enabled, it also writes JSON files which indicate which 
+If --json is enabled, it also writes JSON files which indicate which
 "Common" and "Inherited" characters appear in each language."""
 
 import argparse
@@ -17,11 +17,15 @@ from typing import Dict, List, Optional
 import regex  # type: ignore
 import unicodedataplus  # type: ignore
 
-from codes import (
-    COMMON_CHARS_PATH,
-    GLOBAL_COMMON_CHARS_PATH,
-    TSV_DIRECTORY,
+
+LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
+LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
+COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")
+GLOBAL_COMMON_CHARS_PATH = os.path.join(
+    LIB_DIRECTORY, "global_common_chars.json"
 )
+SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
+TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 
 # List of commmon type Unicode characters included in the regex string.
 COMMON_ACCEPTED = [
@@ -41,7 +45,7 @@ COMMON_ACCEPTED = [
 def _extend_regex(
     accepted_chars: List[str], common_chars: Dict[str, Dict[str, str]]
 ) -> str:
-    extension = ["\s", "’", "ʔ", "ʻ"]
+    extension = [r"\s", "’", "ʔ", "ʻ"]
     for char_type, symbol in common_chars.items():
         if char_type == "Common":
             for char, char_symbol in symbol.items():

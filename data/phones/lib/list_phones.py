@@ -17,11 +17,17 @@ from typing import Dict, List, Set
 
 import ipapy
 
-OTHER_VALID_IPA = frozenset(
+_other_valid_ipa = frozenset(
     phone
     for phone in ipapy.UNICODE_TO_IPA.keys()
     if not ipapy.is_valid_ipa(unicodedata.normalize("NFD", phone))
 )
+
+_suffixed_other_valid_ipa = frozenset(
+    phone + "ː" for phone in _other_valid_ipa
+)
+
+OTHER_VALID_IPA = _other_valid_ipa | _suffixed_other_valid_ipa
 
 
 def _count_phones(filepath: str) -> Dict[str, Set[str]]:
@@ -83,7 +89,7 @@ def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
         phoneme_id = 1
         for phoneme in bad_ipa_phonemes:
             bad_chars = [
-                f"[%d %04x %s %s]"
+                "[%d %04x %s %s]"
                 % (i, ord(c), unicodedata.category(c), unicodedata.name(c))
                 for i, c in enumerate(ipapy.invalid_ipa_characters(phoneme))
             ]
@@ -106,7 +112,7 @@ def main(args: argparse.Namespace):
             f"{', '.join(_pick_examples_for_display(examples))}"
         )
     print(f"\n# unique phones: {len(phone_to_examples)}")
-    _check_ipa_phonemes(phone_to_examples, args.filepath)
+    _check_ipa_phonemes(phone_to_examples, args.tsv_path)
 
 
 if __name__ == "__main__":
