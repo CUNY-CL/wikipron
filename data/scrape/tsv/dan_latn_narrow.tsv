@@ -1196,6 +1196,8 @@ danskere	d̥ æ n s ɡ̊ ɐ ɐ
 danskeren	d̥ æ n s ɡ̊ ɐ ɐ n
 database	d̥ æː tˢ a b̥ æː s ə
 datid	d̥ a tˢ i ðˀ
+dativ	d aˑ t iˀ v
+dativ	d æː t i wˀ
 dato	d̥ æː tˢ o
 dato	t ɛː t sʰ o̝
 datter	d̥ æ ɾ ɐ
@@ -1241,6 +1243,7 @@ desuagtet	d̥ ɛ s u ɑ ɡ̊ d̥ ə ð
 desværre	d̥ e s ʋ a ɐ̯ ɐ
 det	d̥ e̝
 det	t e̝
+detonator	d e t o n æː t ʌ
 dette	d̥ ɛ d̥ ə
 deviere	d e v i eˀ ʌ
 diagonal	d̥ i a ɡ̊ o n æːˀ l
@@ -1287,6 +1290,14 @@ dom	d̥ ʌ mˀ
 domkirke	d̥ ʌ m kʰ i ɐ̯ ɡ̊ ə
 dommer	d̥ ʌ m ɐ
 dommer	t ɒ̽ m ɒ̽
+donation	d o n a ɕ oˀ n
+donationen	d o n a ɕ oˀ n n̩
+donationens	d o n a ɕ oˀ n n̩ s
+donationer	d o n a ɕ oˀ n ɐ
+donationerne	d o n a ɕ oˀ n ɐ n ə
+donationernes	d o n a ɕ oˀ n ɐ n ɛ s
+donationers	d o n a ɕ oˀ n ɐ s
+donations	d o n a ɕ oˀ n s
 drage	d̥ ʁ ɑ ɕ e
 drage	d̥ ʁ ɑː w ə
 drage	d̥ ʁ ɑː ʊ
@@ -1334,6 +1345,7 @@ dræbte	d̥ ʁ a b̥ d̥ ə
 dræbte	d̥ ʁ ɑ b̥ d̥ ə
 drøbel	d̥ ʁ œ ʊ̯ˀ ə l
 drøm	d̥ ʁ ɶ mˀ
+drøm	t ʁ ɶ m̰
 drømme	d̥ ʁ ɶ m ə
 drømmekage	d̥ ʁ ɶ m ə kʰ a ɪ̯ ə
 drømmeverden	d̥ ʁ ɶ m ə ʋ a ɐ̯ d̥ n̩
@@ -2590,8 +2602,8 @@ grød	ɡ̊ ʁ œ ðˠˀ
 grøft	ɡ̊ ʁ œ f d̥
 grøn	k ʁ ɶ̝ nˀ
 grøn	ɡ̊ ʁ ɶ nˀ
-grønland	ɡ̊ ʁ ɶ n l a nˀ
-grønlandsk	ɡ̊ ʁ ɶ n l a nˀ s ɡ̊
+grønland	ɡ̊ ʁ ɶ n l æ nˀ
+grønlandsk	ɡ̊ ʁ ɶ n l æ nˀ s ɡ̊
 grønlænder	ɡ̊ ʁ ɶ n l ɛ nˀ ɐ
 grønsvær	ɡ̊ ʁ ɶ n s ʋ ɛ ɐ̯ˀ
 grønt	ɡ̊ ʁ ɶ nˀ d̥
@@ -2756,10 +2768,12 @@ hat	h æ t
 hav	h a
 hav	h ɑ w
 havde	h æː ð ə
-have	h a
-have	h æˀ
+have	h æ
 have	h æː ʊ
 have	h æː ʋ ə
+have	h ɛˀ
+have	h ɛː ʊ
+have	h ɛː ʋ ə
 havet	h æˀ v ə ð
 havet	h æˀ w ð̩
 havfrue	h ɑ ʊ̯ f ʁ̥ uː ə
@@ -2953,10 +2967,10 @@ hostesaft	h oː s d̥ ə s ɑ f d̥
 hotdog	h ʌ d̥ d̥ ʌ ɡ̊
 hov	h ɒ w
 hov	h ɒ wˀ
-hoved	h oː ð̩
+hoved	h o̝ː ð̩ ˕˗
 hovedbanegård	h oː ð b̥ æː n ɡ̊ ɒˀ
 hovedbanegård	h oː ə ð b̥ æː n ə ɡ̊ ɒˀ
-hovedet	h oː ð̩ ð̩
+hovedet	h o̝ː ð̩ ˕˗ˠ ð̩ ˕˗
 hovedpine	h oː ð̩ pʰ iː n̩
 hovedpine	h oː ə ð pʰ iː n ə
 hovedpulsåre	h oː ə ð̩ pʰ u l s ɑː ɑ
@@ -3098,6 +3112,7 @@ hyttet	h y d̥ ð̩
 håb	h ɔːˀ b̥
 håbe	h ɔː b̥ ə
 hån	h ɔːˀ n
+hån	h ɔ̰ː n
 hånd	h ʌ nˀ
 håndgemæng	h ʌ n ɡ̊ e m ɛ ŋ
 håndjern	h ʌ n j æ ɐ̯ˀ n
@@ -3141,6 +3156,7 @@ hæv	h ɛ wˀ
 hævd	h ɛ wˀ d̥
 hævde	h ɛ w d̥ ə
 hæve	h ɛː w ə
+hævn	h ɛ wˀ n
 hævngerrig	h ɛ w n ɡ̊ æ ɐ̯ i
 hævngerrig	h ɛ w n ɡ̊ æ ɐ̯ˀ i
 hø	h eːˀ
@@ -3275,10 +3291,10 @@ indtægt	e n tˢ ɛ ɡ̊ d̥
 indvortes	e n ʋ ɒˀ d̥ ə s
 indvortes	e n ʋ ɒː d̥ ə s
 infinitesimalregning	e n f i n i tˢ e s i m æːˀ l ʕ ɑ ɪ̯ n e ŋ
-ingen	e ŋ ŋ̩
+ingen	e ŋ ŋ̍
 ingeniør	e̝ n ɕ n̩ j øˀ ɐ̯
 ingeniør	e̝ n ɕ n̩ j øˀ ɒ̯̽
-ingenting	e ŋ ŋ̩ t e ŋˀ
+ingenting	e̝ ŋ ŋ̍ t͡sʰ e̝ ŋˀ
 insekt	e n s ɛ ɡ̊ d̥
 intelligent	e n tˢ e l i ɡ̊ ɛ nˀ d̥
 interessant	e̝ n t s χ ɒ̽ s æ nˀ t
@@ -3326,10 +3342,12 @@ ja	j ɛ
 jade	j æː ð̩
 jag	j æ jˀ
 jage	j æː j ə
+jage	j æː æ
 jage	j ɛː ɪ
 jakkesæt	j ɑ ɡ̊ ə s e d̥
 jakkesæt	j ɑ̈ k ə s e t
 jaloux	ɕ æ l u
+januar	j æ n u ɑ̈ˀ
 japaner	j a pʰ æːˀ n ɐ
 japansk	j a pʰ æːˀ n s ɡ̊
 jasmin	ɕ a s m iːˀ n
@@ -3614,6 +3632,13 @@ knalde	kʰ n a l ə
 knap	kʰ n ɑ b̥
 knar	kʰ n ɑːˀ
 knarr	kʰ n ɑːˀ
+knejpen	k n ɑ j p ə n
+knejpens	k n ɑ j p ə n s
+knejper	k n ɑ j p ɐ
+knejperne	k n ɑ j p ɐ n ə
+knejpernes	k n ɑ j p ɐ n ə s
+knejpers	k n ɑ j p ɐ s
+knejpes	k n ɑ j p ə s
 kneppe	kʰ n e b̥ ə
 kneppe	kʰ n ɛ b̥ ə
 kniv	kʰ n i wˀ
@@ -4228,6 +4253,7 @@ lokale	l o kʰ æːˀ l ə
 lokke	l ʌ ɡ̊ ə
 lokomotiv	l o ɡ o m o tˢ i wˀ , l ɔ ɡ o m o tˢ i wˀ
 lokum	l ɔ kʰ ɔ m
+lol	l ʌ lˀ
 lolland	l ʌ l a nˀ
 lomme	l ʌ m m̩
 lommetørklæde	l ʌ m ə tˢ ɶ ɐ̯ kʰ l̥ ɛː ð ə
@@ -4399,6 +4425,7 @@ løss	l œ s
 løst	l øˀ s d̥
 løste	l øˀ s d̥ ə
 løste	l øː s d̥ ə
+løv	l øˀ ʊ̯
 løve	l øː ʊ
 løve	l øː ʋ ə
 løvinde	l ø w e n ə
@@ -5498,7 +5525,10 @@ rakte	ʁ ɑ ɡ̊ d̥ ə
 ral	ʁ ɑ lˀ
 rambuk	ʁ ɑ m b̥ ɔ ɡ̊
 ran	ʁ ɑːˀ n
+randen	ʁ ɑ nˀ n̩
+randens	ʁ ɑ nˀ n̩ s
 randers	ʁ ɑ n ɐ s
+rands	ʁ ɑ nˀ s
 randt	ʁ ɑ nˀ d̥
 rane	ʁ ɑː n ə
 rang	ʁ ɑ ŋˀ
@@ -6085,6 +6115,8 @@ skelen	s ɡ̊ eː l ə n
 sket	s ɡ̊ eˀ d̥
 skete	s ɡ̊ eˀ d̥ ə
 skete	s ɡ̊ eː d̥ ə
+skib	s k i ʊ̰
+skib	s k ḭː p
 skib	s ɡ̊ i wˀ
 skib	s ɡ̊ iˀ b̥
 skid	s ɡ̊ i ð̞ˀ
@@ -6189,6 +6221,8 @@ skyr	s ɡ̊ y ɐ̯ˀ
 skyter	s ɡ̊ y d̥ ɐ
 skyts	s ɡ̊ ø d̥ s
 skytte	s ɡ̊ ø d̥ ə
+skål	s k ɔˀ l
+skål	s k ɔ̰ː l
 skåne	s ɡ̊ ɔː n ə
 skåning	s ɡ̊ ɔː n e ŋ
 skåren	s ɡ̊ ɒː ɐ n
@@ -6342,6 +6376,7 @@ smørrebrød	s m ɶ ɐ b̥ ʁ œ ðˀ
 snakke	s n ɑ ɡ̊ ə
 snakke	s n ɑː ɡ̊ ə
 snakke	s n ɑ̈ k ə
+snart	s n ɑˀ t
 snavset	s n ɑ w s ɘ ð
 sne	s n eˀ
 snebold	s n e b̥ ʌ lˀ d̥
@@ -6426,6 +6461,8 @@ spektakel	s b̥ e tˢ ɑ ɡ̊ ə l
 spekulativ	s b̥ e ɡ̊ u l a tˢ i ʊ̯ˀ
 spelt	s b̥ ɛ lˀ d̥
 spidde	s b̥ i ð ð̩
+spidde	s p i ɤ ə
+spidde	s p iː ɤ
 spilde	s b i l ə
 spille	s b̥ e l ə
 spilleliste	s b e̝ l ə l e̝ s d ə
@@ -6460,6 +6497,7 @@ spredte	s b̥ ʁ æˀ d̥ ə
 spredte	s b̥ ʁ æː d̥ ə
 spredte	s b̥ ʁ ɛˀ d̥ ə
 spredte	s b̥ ʁ ɛː d̥ ə
+springe	s b̥ ʁ e ŋ ə
 springe	s b̥ ʁ ɛ ŋ ə
 springer	s b̥ ʁ e ŋ ɐ
 springer	s b̥ ʁ e ŋˀ ɐ
@@ -6678,7 +6716,7 @@ student	s d̥ u d̥ e nˀ d̥
 studentereksamen	s d̥ u d̥ e nˀ d̥ ɐ e ɡ̊ s æː m m̩
 studentereksamen	s d̥ u d̥ e nˀ d̥ ɐ ɛ ɡ̊ s æː m m̩
 studere	s d̥ u d̥ eˀ ɐ
-studerende	s d̥ u d̥ eˀ ɐ
+studerende	s d̥ u d̥ eˀ ɐ n ə
 stue	s d̥ uː u
 stuearrest	s d̥ uː a ʁ a s d̥
 stuearrest	s d̥ uː a ʁ ɑ s d̥
@@ -7237,6 +7275,8 @@ tomat	t sʰ o̝ m ɛˀ d̥
 tomat	tˢ o m æːˀ d̥
 tombak	tˢ ɔ m b̥ ɑ ɡ̊
 tomle	tˢ ʌ m l ə
+tomme	t s ɒ m m
+tomme	t s ɒ m ə
 tomme	tˢ ʌ m ə
 tommel	tˢ ʌ m l̩
 tommel	tˢ ʌ m ə l
@@ -7299,6 +7339,7 @@ trick	tˢ ʁ ɛ ɡ̊
 trin	tˢ ʁ̥ i n
 trit	tˢ ʁ̥ i d̥
 triumf	t ʁ i ɔ mˀ f
+tro	t s ʁ o̰ː
 tro	tˢ ʁ̥ oˀ
 trods	tˢ ʁ̥ ʌ s
 trodse	tˢ ʁ̥ ʌ s ə
@@ -7310,6 +7351,8 @@ troet	tˢ ʁ̥ oˀ ð̩
 trojansk	tˢ ʁ o j æˀ n s ɡ̊
 trold	tˢ ʁ̥ ʌ lˀ
 trolig	tˢ ʁ̥ oː l i
+tromme	t s ʁ ɔ m m
+tromme	t s ʁ ɔ m ə
 trompeter	tˢ ʁ̥ ɔ m pʰ e d̥ ɐ
 trompeter	tˢ ʁ̥ ɔ m pʰ eːˀ d̥ ɐ
 trompeter	tˢ ʁ̥ ɔ m pʰ ə tˢ eːˀ ɐ̯
@@ -7517,6 +7560,7 @@ tøjet	tˢ ʌ jˀ ə ð
 tøjet	tˢ ʌ ðˀ ð̩
 tøjhus	tˢ ʌ j h uˀ s
 tøjle	tˢ ʌ ɪ̯ l ə
+tøjr	t ʌ jˀ ʌ
 tøjte	tˢ ʌ j d̥ ə
 tølt	tˢ œ lˀ d̥
 tømme	tˢ œ m ə

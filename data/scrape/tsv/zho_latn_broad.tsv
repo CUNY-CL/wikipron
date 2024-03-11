@@ -10,6 +10,7 @@ B	p u̯ ɔ ⁵ ⁵
 B	p ɛ ⁵ ⁵
 BB	p i ⁵ ⁵ b̥ i ²
 BB	p i ⁵ ⁵ p i ⁵ ⁵
+BBQ	p ä ⁵ ⁵ p i ² ¹ ⁴ ⁻ ² ¹ kʰ i̯ o ʊ̯ ⁵ ⁵
 BGM	p i ⁵ ¹ ⁻ ⁵ ³ t͡ɕ i ⁵ ¹ ˀa ɪ̯ m ³ ⁵
 BT	p i ⁵ ¹ ⁻ ⁵ ³ tʰ i ⁵ ¹
 BY	p a ɪ̯ ⁵ ⁵
@@ -55,7 +56,6 @@ JB	t͡ɕ i ⁵ ⁵ p ä ⁵ ⁵
 JJ	t͡ɕ i ⁵ ⁵ t͡ɕ i ⁵ ⁵
 JJ	t͡ɕ i̯ ɛ ² ¹ ⁴ d͡ʑ̥ i̯ ɛ ⁴
 K	kʰ a ɪ̯ ⁵ ⁵
-K	kʰ e ɪ̯
 K	kʰ e ɪ̯ ⁵ ¹
 K	kʰ e ɪ̯ ⁵ ⁵
 K	kʰ ɛ ⁵ ⁵
@@ -83,7 +83,7 @@ OBS	ˀo ʊ̯ ⁵ ⁵ p ä ⁵ ⁵ s ɑ ŋ ⁵ ⁵
 OIer	ˀo ʊ̯ ⁵ ⁵ ˀa ɪ̯ ⁵ ⁵ ˀɤ ɻ ²
 OK	ˀo ʊ̯ ⁵ ⁵ kʰ e ɪ̯ ⁵ ¹
 OK	ˀo ʊ̯ ⁵ ⁵ kʰ e ɪ̯ ⁵ ⁵
-OL	ˀo ʊ̯ ⁵ ⁵ ˀa ɪ̯ ³ ⁵ ⁻ ⁵ ⁵ l o ʊ̯ ³
+OL	ˀo ʊ̯ ⁵ ⁵ ˀa ɪ̯ ³ ⁵ l o ʊ̯ ³
 OP	ˀo ʊ̯ ⁵ ⁵ pʰ i ⁵ ¹
 P	pʰ i ⁵ ¹
 P	pʰ i ⁵ ⁵
@@ -140,6 +140,7 @@ Z	ʈ͡ʂ ʐ̩ ³ ⁵
 all right	ˀo ʊ̯ ⁵ ¹ l a ɪ̯ ¹
 biù	p i̯ o ʊ̯ ⁵ ¹
 by	p a ɪ̯ ⁵ ⁵
+city walk	ɕ i ⁵ ⁵ tʰ i ⁵ ⁵ w ɔ ⁵ ¹ ⁻ ⁵ ³ kʰ ɤ ⁵ ¹
 coser	kʰ ɑ ʊ̯ ⁵ ⁵ s ə ɻ ²
 dalao	t ä ⁵ ¹ l ɑ ʊ̯ ² ¹ ⁴ ⁻ ² ¹ ⁽ ⁴ ⁾
 down	t ä n ⁵ ¹
@@ -150,6 +151,7 @@ emo	i ⁵ ⁵ m o ʊ̯ ² ¹ ⁴ ⁻ ² ¹ ⁽ ⁴ ⁾
 fo	f o ʊ̯ ⁵ ⁵
 fu	f i̯ o ʊ̯ ⁵ ⁵
 gay	k e ɪ̯ ⁵ ¹
+high	x a ɪ̯ ⁵ ⁵
 jb	t͡ɕ i ⁵ ⁵ p ä ⁵ ⁵
 jio	t͡ɕ i̯ ɔ ² ¹ ⁴
 jio	t͡ɕ i̯ ɔ ³ ⁵
@@ -161,17 +163,19 @@ man	m ä n ⁵ ⁵
 man	m ɛ n ⁵ ⁵
 mua	m u̯ ä
 n	ˀə n ⁵ ⁵
+pizza	p i ² ¹ ⁴ ⁻ ² ¹ s ä ⁵ ¹
 po	pʰ o ʊ̯ ⁵ ⁵
 po	pʰ u̯ ɔ ⁵ ⁵
 rt	ʐ u ³ ⁵ tʰ i ³ ⁵
 tm	tʰ ä ⁵ ⁵ m ä ⁵ ⁵
 tmd	tʰ ä ⁵ ⁵ m ä ⁵ ⁵ d̥ ə ²
 up	ˀä ⁵ ¹ pʰ u ¹
+wow	u a u ⁵ ⁵
 xmsl	ɕ i̯ ɛ n ⁵ ¹ ⁻ ⁵ ³ m u ⁵ ¹ s z̩ ² ¹ ⁴ l ə ⁴
 xswl	ɕ i̯ ɑ ʊ̯ ⁵ ¹ s z̩ ² ¹ ⁴ ⁻ ³ ⁵ w ɔ ² ¹ ⁴ l ə ⁴
 xyn	ɕ i̯ ɑ ʊ̯ ² ¹ ⁴ ⁻ ² ¹ j ɑ ʊ̯ ⁵ ¹ n i̯ ɑ ŋ ³ ⁵
 yyds	j ʊ ŋ ² ¹ ⁴ ⁻ ³ ⁵ ɥ ɛ n ² ¹ ⁴ d̥ ə ⁴ ʂ ə n ³ ⁵
 yyds	j ʊ ŋ ² ¹ ⁴ ⁻ ³ ⁵ ɥ ɛ n ² ¹ ⁴ ⁻ ² ¹ t ä n ⁵ ⁵ ʂ ə n ⁵ ⁵
-yygq	i n ⁵ ⁵ j ɑ ŋ ³ ⁵ ⁻ ⁵ ⁵ k u̯ a ɪ̯ ⁵ ¹ ⁻ ⁵ ³ t͡ɕʰ i ⁵ ¹
+yygq	i n ⁵ ⁵ j ɑ ŋ ³ ⁵ k u̯ a ɪ̯ ⁵ ¹ ⁻ ⁵ ³ t͡ɕʰ i ⁵ ¹
 yysy	j o ʊ̯ ² ¹ ⁴ ⁻ ² ¹ i ⁵ ⁵ ʂ u̯ ɔ ⁵ ⁵ i ⁵ ⁵
 yysyqs	j o ʊ̯ ² ¹ ⁴ ⁻ ² ¹ i ⁵ ⁵ ʂ u̯ ɔ ⁵ ⁵ i ⁵ ⁵ t͡ɕʰ y̯ ɛ ⁵ ¹ ʂ ʐ̩ ³ ⁵
