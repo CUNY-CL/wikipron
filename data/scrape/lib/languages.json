@@ -456,7 +456,8 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han"
+            "hani": "Han",
+            "zzzz": "Unknown"
         }
     },
     "cho": {
@@ -540,7 +541,8 @@
             "thaa": "Thaana",
             "deva": "Devanagari",
             "arab": "Arabic",
-            "sinh": "Sinhala"
+            "sinh": "Sinhala",
+            "lisu": "Lisu"
         }
     },
     "sce": {
@@ -1161,7 +1163,8 @@
         "wiktionary_code": "kok",
         "script": {
             "deva": "Devanagari",
-            "knda": "Kannada"
+            "knda": "Kannada",
+            "latn": "Latin"
         }
     },
     "kor": {
@@ -1180,7 +1183,8 @@
         "script": {
             "latn": "Latin",
             "zyyy": "Common",
-            "grek": "Greek"
+            "grek": "Greek",
+            "zzzz": "Unknown"
         }
     },
     "kir": {
@@ -1399,7 +1403,8 @@
         "wiktionary_code": "mai",
         "script": {
             "deva": "Devanagari",
-            "beng": "Bengali"
+            "beng": "Bengali",
+            "tirh": "Tirhuta"
         }
     },
     "mak": {
@@ -1463,7 +1468,10 @@
     "mns": {
         "iso639_name": "Mansi",
         "wiktionary_name": "Mansi",
-        "wiktionary_code": "mns"
+        "wiktionary_code": "mns",
+        "script": {
+            "cyrl": "Cyrillic"
+        }
     },
     "glv": {
         "iso639_name": "Manx",
@@ -1558,7 +1566,8 @@
         "wiktionary_name": "Middle Korean",
         "wiktionary_code": "okm",
         "script": {
-            "hang": "Hangul"
+            "hang": "Hangul",
+            "hani": "Han"
         }
     },
     "gml": {
@@ -1589,7 +1598,8 @@
             "zyyy": "Common",
             "latn": "Latin",
             "hira": "Hiragana",
-            "hani": "Han"
+            "hani": "Han",
+            "bopo": "Bopomofo"
         }
     },
     "mvi": {
@@ -1599,7 +1609,8 @@
         "script": {
             "hira": "Hiragana",
             "kana": "Katakana",
-            "hani": "Han"
+            "hani": "Han",
+            "latn": "Latin"
         }
     },
     "mdf": {
@@ -1615,7 +1626,8 @@
         "wiktionary_name": "Mon",
         "wiktionary_code": "mnw",
         "script": {
-            "mymr": "Myanmar"
+            "mymr": "Myanmar",
+            "thai": "Thai"
         }
     },
     "mon": {
@@ -1690,7 +1702,8 @@
         "wiktionary_name": "Newar",
         "wiktionary_code": "new",
         "script": {
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "newa": "Newa"
         }
     },
     "niv": {
@@ -2107,7 +2120,8 @@
         "wiktionary_code": "skr",
         "script": {
             "arab": "Arabic",
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "mult": "Multani"
         }
     },
     "srd": {
@@ -2163,7 +2177,10 @@
     "sei": {
         "iso639_name": "Seri",
         "wiktionary_name": "Seri",
-        "wiktionary_code": "sei"
+        "wiktionary_code": "sei",
+        "script": {
+            "latn": "Latin"
+        }
     },
     "shn": {
         "iso639_name": "Shan",
@@ -2363,7 +2380,8 @@
         "wiktionary_code": "te",
         "script": {
             "telu": "Telugu",
-            "knda": "Kannada"
+            "knda": "Kannada",
+            "brah": "Brahmi"
         }
     },
     "tft": {
@@ -2388,7 +2406,8 @@
         "wiktionary_name": "Thai",
         "wiktionary_code": "th",
         "script": {
-            "thai": "Thai"
+            "thai": "Thai",
+            "zyyy": "Common"
         }
     },
     "bod": {

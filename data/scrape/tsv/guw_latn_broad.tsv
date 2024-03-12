@@ -54,6 +54,7 @@ adi	ā ɖ í
 ado	à d ó
 adu	a ɖ ú
 adà	ā d à
+adɔvi	ā d ɔ̀ v í
 adọgo	ā d ɔ̀ ɡ ō
 adọkun	ā d ɔ̄ k ũ̄
 adọvi	ā d ɔ̀ v í
@@ -77,9 +78,11 @@ agban	ā ɡ͡b ã̀
 agban	ā ɡ͡b ã́
 agbanlin	ā ɡ͡b ã̀ l ĩ́
 agbasa	ā ɡ͡b ā s ā
+agbegbe	ā ɡ͡b è ɡ͡b è
 agun	à ɡ ũ̀
 agun	ā ɡ ũ̀
 agɔ	à ɡ ɔ́
+agọ	à ɡ ɔ́
 agọnkẹ	ā ɡ ɔ̃̀ k ɛ́
 ahimẹ	à x ì m ɛ̃̀
 ahlinhan	ā ɣ l í ɣ ã́
@@ -113,9 +116,11 @@ akuẹ	à kʷ ɛ́
 akuẹsẹdotẹn	à kʷ ɛ́ s ɛ́ d ó t ɛ̃̀
 akwekwe	à kʷ é kʷ é
 akwɛ	à k w ɛ́
+akwɛsɛdotɛn	à kʷ ɛ́ s ɛ́ d ó t ɛ̃̀
 akwẹ	à kʷ ɛ́
 akɔ	a k ɔ̀
 akɔgbe	ā k ɔ̀ ɡ͡b è
+akɔta	ā k ɔ̄ t ā
 akọ	a k ɔ̀
 akọgbe	ā k ɔ̀ ɡ͡b è
 akọta	ā k ɔ̄ t ā
@@ -155,6 +160,7 @@ avọ	ā v ɔ̀
 avọyantọ	ā v ɔ̀ ɲ ã̀ t ɔ́
 awa	ā w à
 awe	à w è
+awhan	ā ɣʷ ã̀
 awu	ā w ù
 awọntin	ā w ɔ̃̄ t ĩ́
 aximɛ	à x ì m ɛ̃̀
@@ -165,12 +171,14 @@ ayi	ā j ì
 ayi	ā j í
 ayi	ā j ī
 ayigba	ā j í ɡ͡b à
+ayigbanɔ	ā j í ɡ͡b à n ɔ̃̀
 ayihundatɔ	ā j ī ɣ ṹ d á t ɔ́
 ayihundatọ	ā j ī ɣ ṹ d á t ɔ́
 ayimatɛn	ā j í m ã́ t ɛ̃̀
 ayimatẹn	ā j í m ã́ t ɛ̃̀
 ayiɖohwɛɖo	ā j í ɖ ó ɣʷ ɛ̀ ɖ ó
 ayu	ā j ú
+ayẹyẹ	ā j ɛ̄ j ɛ̄
 ayọ	à j ɔ́
 ayọ	ā j ɔ́
 azin	ā z ĩ̀
@@ -179,6 +187,8 @@ azo	ā z ò
 azui	ā z ū ì
 azui	ā zʷ ì
 azɔn	à z ɔ̃́
+azɔnnywɛtɔ	à z ɔ̃́ ɲʷ ɛ̃́ t ɔ́
+azɔnxwe	à z ɔ̃́ xʷ é
 azẹ	ā z ɛ̀
 azọn	à z ɔ̃́
 azọn	ā z ɔ̃̀
@@ -225,6 +235,7 @@ ejuma	ē d͡ʒ ú m ã́
 enẹgodo	ē n ɛ̄ ɡ ō d ō
 etɔn	é t ɔ̃̀
 etọn	é t ɔ̃̀
+eɔ	é ɔ̀
 fataka	f à t á k à
 fiɖe	f í ɖ é
 fleṣe	f l ē ʃ ē
@@ -245,11 +256,13 @@ gbe	ɡ͡b è
 gbedide	ɡ͡b ē d ī d ē
 gbetato	ɡ͡b é t ā t ò
 gbeyantọ	ɡ͡b è ɲ ã̀ t ɔ́
+gbeɖe	ɡ͡b è ɖ é
 gbigbọ	ɡ͡b ī ɡ͡b ɔ̀
 gble	ɡ͡b l é
 gbo	ɡ͡b ò
 gbo	ɡ͡b ó
 gbowle	ɡ͡b ò w l ē
+gbɔ	ɡ͡b ɔ́
 gbɛ	ɡ͡b ɛ̀
 gbɛtɔ	ɡ͡b ɛ̀ t ɔ́
 gbẹ	ɡ͡b ɛ̀
@@ -289,13 +302,15 @@ hwevi	ɣʷ e v í
 hwlɛ	ɣʷ l ɛ̀
 hùwaji	h ù w ā d͡ʒ ī
 hɔn	h ɔ̃̄
+hɔngbo	h ɔ̃̀ ɡ͡b ó
 hɔnhungan	h ɔ̃̄ h ũ̀ ɡ ã̀
 hɔnmɛ	ɣ ɔ̃̀ m ɛ̃̀
 hɛn	h ɛ̃̀
 hẹn	h ɛ̃̀
 họ	x ɔ̀
 họmẹsi	h ɔ̄ m ɛ̄ s ī
-họn	h ɔ n
+họn	h ɔ̃̀
+họngbo	h ɔ̃̀ ɡ͡b ó
 họnhungan	h ɔ̃̄ h ũ̀ ɡ ã̀
 họnmẹ	ɣ ɔ̃̀ m ɛ̃̀
 họntọn	x ɔ̃́ t ɔ̃̀
@@ -331,6 +346,7 @@ klo	k l ó
 koklo	k ò k l ó
 kpa	k͡p à
 kpa	k͡p á
+kpaca	k͡p á t͡ʃ á
 kpakpa	k͡p á k͡p á
 kpataki	k͡p à t à k ì
 kpatakpata	k͡p á t á k͡p á t á
@@ -353,6 +369,8 @@ kẹdẹ	k ɛ́ ɖ ɛ́
 kẹkẹ	k ɛ̀ k ɛ́
 kẹntọ	k ɛ̃̄ t ɔ̄
 kẹtẹkẹtẹ	k ɛ́ t ɛ́ k ɛ́ t ɛ́
+kọ	k ɔ̀
+kọ	k ɔ́
 kọmẹnu	k ɔ̄ m ɛ̄ n ũ̄
 lan	l ã̀
 lanmɛ	l ã̀ m ɛ̃̀
@@ -551,6 +569,7 @@ tẹn	t ɛ̃̀
 tẹpamẹ	t ɛ́ k͡p ā m ɛ̄
 tọjihun	t ɔ̄ j ī h ṹ
 tọju	t ɔ́ d͡ʒ ú
+tọn	t ɔ̃̀
 tọṣiọvi	t ɔ̄ ʃ ī ɔ v ī
 un	ũ̀
 vavo	v á v ò

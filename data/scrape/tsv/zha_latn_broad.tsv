@@ -23,7 +23,8 @@ asoi	ʔ a ˨˦ θ oː i ˨˦
 aucouh	ʔ aː u ˧˥ ɕ o u ˧
 audaliya	ʔ aː u ˧˥ t a ˧˥ l i ˧˥ j a ˧˥
 aumwnz	ʔ aː u ˧˥ m ɯ n ˧˩
-aux ma dox haeb	ʔ aː u ˦˨ m a ˨˦ t o ˦˨ h a p ˧
+aux	ʔ aː u ˦˨
+aux ma doxhaeb	ʔ aː u ˦˨ m a ˨˦ t o ˦˨ h a p ˧
 ayuzvuengz	ʔ a ˨˦ j u ˧˩ β uː ŋ ˧˩
 bae	p a i ˨˦
 baed	p a t ˧
@@ -142,14 +143,17 @@ byaraiz	pʲ a ˨˦ ɣ aː i ˧˩
 byavanx	pʲ a ˨˦ β aː n ˦˨
 byayouzyiz	pʲ a ˨˦ j o u ˧˩ j i ˧˩
 byoem	pʲ o m ˨˦
-byoengq hangx saez	pʲ o ŋ ˧˥ h aː ŋ ˦˨ θ a i ˧˩
+byoengq	pʲ o ŋ ˧˥
+byoengqhangxsaez	pʲ o ŋ ˧˥ h aː ŋ ˦˨ θ a i ˧˩
 byoenh	pʲ o n ˧
 cabceiq	ɕ aː p ˧ ɕ e i ˧˥
 cae	ɕ a i ˨˦
+caeg	ɕ a k ˧
 caekhaex	ɕ a k ˥ h a i ˦˨
 caem	ɕ a m ˨˦
 caencik	ɕ a n ˨˦ ɕ i k ˥
 caet	ɕ a t ˥
+caet nyied cibseiq	ɕ a t ˥ ɲ iː t ˧ ɕ i p ˧ θ e i ˧˥
 caeuq	ɕ a u ˧˥
 caezgya	ɕ a i ˧˩ kʲ a ˨˦
 cag	ɕ aː k ˧
@@ -175,6 +179,7 @@ ceh	ɕ e ˧
 ceih	ɕ e i ˧
 ceij	ɕ e i ˥
 ceiq	ɕ e i ˧˥
+ceiz	ɕ e i ˧˩
 cej	ɕ e ˥
 cengh	ɕ eː ŋ ˧
 cenh	ɕ eː n ˧
@@ -214,10 +219,13 @@ cim	ɕ i m ˨˦
 cimz	ɕ i m ˧˩
 cinanz	ɕ i ˧˥ n aː n ˧˩
 cinghhaij	ɕ i ŋ ˧ h aː i ˥
+cingj	ɕ i ŋ ˥
 cingjsoq	ɕ i ŋ ˥ θ o ˧˥
+cingz	ɕ i ŋ ˧˩
 cinz	ɕ i n ˧˩
 ciokco	ɕ i ˨˦ ʔ oː k ˧˥ ɕ o ˨˦
 ciq	ɕ i ˧˥
+cit	ɕ i t ˥
 ciz	ɕ i ˧˩
 coemx	ɕ o m ˦˨
 coeng	ɕ o ŋ ˨˦
@@ -318,7 +326,6 @@ dawh	t a ɯ ˧
 dawzroengz	t a ɯ ˧˩ ɣ o ŋ ˧˩
 daxmeh	t a ˦˨ m e ˧
 dayoz	t a ˧˥ j o ˧˩
-de	t e ˨˦
 deih	t e i ˧
 dem	t eː m ˨˦
 dem gyaeuj dem rieng	t eː m ˨˦ kʲ a u ˥ t eː m ˨˦ ɣ iː ŋ ˨˦
@@ -342,6 +349,7 @@ diemj	t iː m ˥
 diemq	t iː m ˧˥
 diemz	t iː m ˧˩
 diengan	t iː ˨˦ ŋ aː n ˨˦
+diengz	t iː ŋ ˧˩
 diengzhaex	t iː ŋ ˧˩ h a i ˦˨
 dienh	t iː n ˧
 dienheiq	t iː n ˨˦ h e i ˧˥
@@ -404,11 +412,16 @@ dwknyaen	t ɯ k ˥ ɲ a n ˨˦
 dwzgoz	t ɯ ˧˩ k o ˧˩
 eij	ʔ e i ˥
 eiseng	ʔ e i ˨˦ θ eː ŋ ˨˦
+ej	ʔ e ˥
 ek	ʔ eː k ˧˥
 ep	ʔ eː p ˧˥
 ep meuz gwn meiq	ʔ eː p ˧˥ m eː u ˧˩ k ɯ n ˨˦ m e i ˧˥
+et	ʔ eː t ˧˥
+eu	ʔ eː u ˨˦
+faek	f a k ˥
 faen	f a n ˨˦
 faencung	f a n ˨˦ ɕ u ŋ ˨˦
+faengx	f a ŋ ˦˨
 faenh	f a n ˧
 faenj	f a n ˥
 faenz	f a n ˧˩
@@ -544,6 +557,7 @@ gizdah	k i ˧˩ t a ˧
 gizhaenx	k i ˧˩ h a n ˦˨
 gizlinz	k i ˧˩ l i n ˧˩
 gizneix	k i ˧˩ n e i ˦˨
+go	k o ˨˦
 godumh	k o ˨˦ t u m ˧
 goemz	k o m ˧˩
 goeng	k o ŋ ˨˦
@@ -614,7 +628,7 @@ gwd	k ɯ t ˧
 gwh	k ɯ ˧
 gwih	k ɯː i ˧
 gwn	k ɯ n ˨˦
-gwn haeux rog	k ɯ n ˨˦ h a u ˦˨ ɣ oː k ˧
+gwn haeuxrog	k ɯ n ˨˦ h a u ˦˨ ɣ oː k ˧
 gwnz	k ɯ n ˧˩
 gwz	k ɯ ˧˩
 gwzlaujcuz	k ɯ ˧˩ l aː u ˥ ɕ u ˧˩
@@ -655,6 +669,8 @@ haenx	h a n ˦˨
 haenz	h a n ˧˩
 haeuj	h a u ˥
 haeux	h a u ˦˨
+haeuxcid	h a u ˦˨ ɕ i t ˧
+haeuxdaeq	h a u ˦˨ t a i ˧˥
 haeuxyangz	h a u ˦˨ j aː ŋ ˧˩
 haex	h a i ˦˨
 hagdangz	h aː k ˧ t aː ŋ ˧˩
@@ -670,6 +686,7 @@ haiz	h aː i ˧˩
 haj	h a ˥
 hak	h aː k ˧˥
 hakdoj	h aː k ˧˥ t o ˥
+hamz	h aː m ˧˩
 hangh	h aː ŋ ˧
 hangz	h aː ŋ ˧˩
 hangzcouh	h aː ŋ ˧˩ ɕ o u ˧
@@ -688,6 +705,7 @@ hawsingz guenjleix	h a ɯ ˨˦ θ i ŋ ˧˩ k uː n ˥ l e i ˦˨
 heiq	h e i ˧˥
 heiqhaeuh	h e i ˧˥ h a u ˧
 hek	h eː k ˧˥
+heng	h eː ŋ ˨˦
 henj	h eː n ˥
 henz	h eː n ˧˩
 heu	h eː u ˨˦
@@ -726,6 +744,7 @@ huznanz	h u ˧˩ n aː n ˧˩
 hwet	h ɯː t ˧˥
 hwk	h ɯ k ˥
 hwnj	h ɯ n ˥
+hwnjdaeuj	h ɯ n ˥ t a u ˥
 hwnz	h ɯ n ˧˩
 hwzlungzgyangh	h ɯ ˧˩ l u ŋ ˧˩ kʲ aː ŋ ˧
 ien	ʔ iː n ˨˦
@@ -869,6 +888,7 @@ mauh	m aː u ˧
 maux	m aː u ˦˨
 mauznanzcuz	m aː u ˧˩ n aː n ˧˩ ɕ u ˧˩
 max	m a ˦˨
+maxdaez	m a ˦˨ t a i ˧˩
 maxgai	m a ˦˨ k aː i ˨˦
 maxlaeuz	m a ˦˨ l a u ˧˩
 maxlangzgangz	m a ˦˨ l aː ŋ ˧˩ k aː ŋ ˧˩
@@ -904,6 +924,7 @@ menbauh	m eː n ˧˥ p aː u ˧
 mengz	m eː ŋ ˧˩
 menjden	m eː n ˥ t eː n ˧˥
 meuz	m eː u ˧˩
+mi	m i ˨˦
 mieng	m iː ŋ ˨˦
 mienh	m iː n ˧
 mienhbau	m iː n ˧ p aː u ˨˦
@@ -917,6 +938,7 @@ miznaj	m i ˧˩ n a ˥
 mizyauq	m i ˧˩ j aː u ˧˥
 moeb	m o p ˧
 moed	m o t ˧
+moeddaeuz	m o t ˧ t a u ˧˩
 moeggva	m o k ˧ kʷ a ˨˦
 moegsawz	m o k ˧ θ a ɯ ˧˩
 moek	m o k ˥
@@ -944,6 +966,7 @@ mwz	m ɯ ˧˩
 myaiz	mʲ aː i ˧˩
 myauzcuz	mʲ aː u ˧˩ ɕ u ˧˩
 myonzlieng	mʲ oː n ˧˩ l iː ŋ ˨˦
+na	n a ˨˦
 nae	n a i ˨˦
 naehang	n a i ˨˦ h aː ŋ ˨˦
 naek	n a k ˥
@@ -984,6 +1007,7 @@ ndaw	ɗ a ɯ ˨˦
 ndei	ɗ e i ˨˦
 ndeu	ɗ eː u ˨˦
 nding	ɗ i ŋ ˨˦
+ndip	ɗ i p ˥
 ndit	ɗ i t ˥
 ndo	ɗ o ˨˦
 ndoeng	ɗ o ŋ ˨˦
@@ -993,6 +1017,18 @@ ndok	ɗ oː k ˧˥
 nduk	ɗ u k ˥
 ndungjndingq	ɗ u ŋ ˥ ɗ i ŋ ˧˥
 ndwen	ɗ ɯː n ˨˦
+ndwen'it	ɗ ɯː n ˨˦ ʔ i t ˥
+ndwenbet	ɗ ɯː n ˨˦ p eː t ˧˥
+ndwencaet	ɗ ɯː n ˨˦ ɕ a t ˥
+ndwencib	ɗ ɯː n ˨˦ ɕ i p ˧
+ndwencieng	ɗ ɯː n ˨˦ ɕ iː ŋ ˨˦
+ndwengouj	ɗ ɯː n ˨˦ k o u ˥
+ndwenlab	ɗ ɯː n ˨˦ l aː p ˧
+ndwenloeg	ɗ ɯː n ˨˦ l o k ˧
+ndwenngeih	ɗ ɯː n ˨˦ ŋ e i ˧
+ndwenngux	ɗ ɯː n ˨˦ ŋ u ˦˨
+ndwensam	ɗ ɯː n ˨˦ θ aː m ˨˦
+ndwenseiq	ɗ ɯː n ˨˦ θ e i ˧˥
 neimungzguj	n e i ˧˥ m u ŋ ˧˩ k u ˥
 neix	n e i ˦˨
 nengz	n eː ŋ ˧˩
@@ -1059,6 +1095,7 @@ nyouh	ɲ o u ˧
 nyued	ɲ uː t ˧
 nyungz	ɲ u ŋ ˧˩
 nywj	ɲ ɯ ˥
+o	ʔ o ˨˦
 oij	ʔ oː i ˥
 ok	ʔ oː k ˧˥
 okdaeuj	ʔ oː k ˧˥ t a u ˥
@@ -1167,6 +1204,7 @@ saeu	θ a u ˨˦
 sai	θ aː i ˨˦
 saidoengz	θ aː i ˨˦ t o ŋ ˧˩
 sam	θ aː m ˨˦
+sam sim song hoz	θ aː m ˨˦ θ i m ˨˦ θ oː ŋ ˨˦ h o ˧˩
 san	θ aː n ˨˦
 sang	θ aː ŋ ˨˦
 sanghaij	θ aː ŋ ˧˥ h aː i ˥
@@ -1189,6 +1227,7 @@ seng	θ eː ŋ ˨˦
 sengj	θ eː ŋ ˥
 sevei	θ e ˧˥ β e i ˧˥
 seveicujyi	θ e ˧˥ β e i ˧˥ ɕ u ˥ j i ˧˥
+si	θ i ˧˥
 sien	θ iː n ˨˦
 siengj	θ iː ŋ ˥
 siet	θ iː t ˧˥
@@ -1200,6 +1239,7 @@ sihningz	θ i ˧ n i ŋ ˧˩
 sik	θ i k ˥
 sim	θ i m ˨˦
 simhai	θ i m ˨˦ h aː i ˨˦
+sin	θ i n ˨˦
 singhgiz	θ i ŋ ˧ k i ˧˩
 singhgizhaj	θ i ŋ ˧ k i ˧˩ h a ˥
 singhgizit	θ i ŋ ˧ k i ˧˩ ʔ i t ˥
@@ -1304,6 +1344,7 @@ yaekseiz	j a k ˥ θ e i ˧˩
 yaem	j a m ˨˦
 yaeuh	j a u ˧
 yaeuj	j a u ˥
+yaez	j a i ˧˩
 yah	j a ˧
 yahmaiq	j a ˧ m aː i ˧˥
 yameijnizya	j a ˨˦ m e i ˥ n i ˧˩ j a ˨˦

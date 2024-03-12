@@ -10,8 +10,10 @@ amarea	a m a r e a
 amate	a m a t e
 amava	a m a v a
 amico	a m i k o
-ancian	a n t s i a n
-anglese	a ŋ ɡ l e z e
+ancian	a n s j a n
+ancian	a n t͡s j a n
+anglese	a n ɡ l e s e
+anglese	a n ɡ l e z e
 animal	a n i m a l
 anque	a ŋ k w e
 apud	a p u d
@@ -33,16 +35,19 @@ benvenite	b e n v e n i t e
 berillo	b e r i lː o
 besonio	b e z o n j o
 bibita	b i b i t a
-bibliotheca	b i b l j o t e k a
+bibliotheca	b i b l i o t e k a
 blanc	b l a ŋ k
 boteca	b o t e k a
 butyro	b u t i r o
 byzantin	b i z a n t i n
 byzantino	b i z a n t i n o
-byzantio	b i z a n t i o
+byzantio	b i z a n s j o
+byzantio	b i z a n t j o
+byzantio	b i z a n t͡s j o
 c	k
 c	t s
 c	t s e
+caffe	k a f e
 caffe	k a f f e
 calcea	k a l t s e a
 camera	k a m e r a
@@ -54,30 +59,49 @@ catto	k a t t o
 chile	t͡ʃ i l e
 ci	t s i
 ciao	t͡ʃ a o
-cinque	t s i ŋ k w e
-citate	t s i t a t e
+cinque	t͡s i n k w e
+citate	t͡s i t a t e
 cocina	k o t s i n a
-comenciar	k o m e n t s j a r
+comenciar	k o m e n s j a r
+comenciar	k o m e n t͡s j a r
 commode	k o m m o d e
 confortabile	k o n f o r t a b i l e
 constantinopolita	k o n s t a n t i n o p o l i t a
 constantinopolitan	k o n s t a n t i n o p o l i t a n
-credentia	k ɾ e d e n t s j a
+credentia	k r e d e n s j a
+credentia	k r e d e n t j a
+credentia	k r e d e n t͡s j a
 cucu	k u k u
 cuje	k u j e
 curte	k u r t e
 debe	d e b e
 deber	d e b e r
 dece	d e t s e
-decider	d e t s i d e r
+decider	d e t͡s i d e r
 decime	d e t s i m e
 densitate	d e n s i t a t e
 devenir	d e v e n i r
 dicer	d i t s e r
 difficile	d i f f i t s i l e
 discoperir	d i s k o p e ɾ i ɾ
+disponibile	d i s p o n i b i l e
+disponibilitate	d i s p o n i b i l i t a t e
 dominica	d o m i n i k a
 dubita	d u b i t a
+effortia	e f o r s j a
+effortia	e f o r t͡s j a
+effortiante	e f o r s j a n t e
+effortiante	e f o r t͡s j a n t e
+effortiar	e f o r s j a r
+effortiar	e f o r t͡s j a r
+effortiara	e f o r s j a r a
+effortiara	e f o r t͡s j a r a
+effortiarea	e f o r s j a r e a
+effortiarea	e f o r t͡s j a r e a
+effortiate	e f o r s j a t e
+effortiate	e f o r t͡s j a t e
+effortiava	e f f o r t͡s j a v a
+effortiava	e f o r s j a v a
 effortio	e f f o ɾ t s j o
 effortio	e fː o ɾ t s j o
 egyptiano	e ɡ i p t i̯ a n o
@@ -104,6 +128,7 @@ g	d ʒ
 g	d ʒ e
 g	ɡ
 g	ʒ
+garantia	ɡ a r a n t i a
 gay	ɡ e ɪ
 gente	ɡ e n t e
 germania	ɡ e ɾ m a n j a
@@ -118,7 +143,9 @@ homine	h o m i n e
 hospital	h o s p i t a l
 illac	i l l a k
 illuminar	i l l u m i n a r
+impossibile	i m p o s i b i l e
 indian	i n d j a n
+instabilitate	i n s t a b i l i t a t e
 international	i n t e r n a t s j o n a l
 interne	i n t e r n e
 inusabile	i n u s a b i l e
@@ -162,6 +189,7 @@ mathematico	m a t e m a t i k o
 matino	m a t i n o
 maxime	m a k s i m e
 melior	m e l j o r
+mentha	m e n t a
 mercuridi	m e r k u r i d i
 miaular	m j ɑ u̯ l ɑ r
 micre	m i k r e
@@ -226,7 +254,13 @@ quechua	k e t ʃ w a
 question	k w e s t j o n
 qui	k i
 recipe	r e t s i p e
-reciper	r e t s i p e r
+reciper	r e t͡s i p e r
+repasto	r e p a s t o
+requirer	r e k w i r e r
+requisite	r e k w i s i t e
+requisite	r e k w i z i t e
+retardar	r e t a r d a r
+retardarea	r e t a r d a r e a
 revolution	r e v o l u t͡s j o n
 romanic	r o m a n i k
 sabbato	s a b b a t o
@@ -239,6 +273,8 @@ scote	s k o t e
 scotia	s k o t s j a
 scotic	s k o t i k
 scriber	s k r i b e r
+scribite	s k r i b i t e
+scripte	s k r i p t e
 scuma	s k u m
 section	s e k t i̯ o n
 seculo	s e k u l o
@@ -247,6 +283,10 @@ septime	s e p t i m e
 sequente	s e k w e n t e
 servir	s e r v i r
 sincer	s i n t s e ɾ
+societate	s o s i e t a t e
+societate	s o t͡s i e t a t e
+societates	s o s i e t a t e s
+societates	s o t͡s i e t a t e s
 solmente	s o l m e n t e
 sponso	s p o n s o
 statounitese	s t a t o u n i t e s e
