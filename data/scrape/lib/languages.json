@@ -456,8 +456,7 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han",
-            "zzzz": "Unknown"
+            "hani": "Han"
         }
     },
     "cho": {
@@ -541,8 +540,7 @@
             "thaa": "Thaana",
             "deva": "Devanagari",
             "arab": "Arabic",
-            "sinh": "Sinhala",
-            "lisu": "Lisu"
+            "sinh": "Sinhala"
         }
     },
     "sce": {
@@ -1162,9 +1160,7 @@
         "wiktionary_name": "Konkani",
         "wiktionary_code": "kok",
         "script": {
-            "deva": "Devanagari",
-            "knda": "Kannada",
-            "latn": "Latin"
+            "deva": "Devanagari"
         }
     },
     "kor": {
@@ -1182,9 +1178,7 @@
         "wiktionary_code": "kwk",
         "script": {
             "latn": "Latin",
-            "zyyy": "Common",
-            "grek": "Greek",
-            "zzzz": "Unknown"
+            "zyyy": "Common"
         }
     },
     "kir": {
@@ -1403,8 +1397,7 @@
         "wiktionary_code": "mai",
         "script": {
             "deva": "Devanagari",
-            "beng": "Bengali",
-            "tirh": "Tirhuta"
+            "beng": "Bengali"
         }
     },
     "mak": {
@@ -1566,8 +1559,7 @@
         "wiktionary_name": "Middle Korean",
         "wiktionary_code": "okm",
         "script": {
-            "hang": "Hangul",
-            "hani": "Han"
+            "hang": "Hangul"
         }
     },
     "gml": {
@@ -1702,8 +1694,7 @@
         "wiktionary_name": "Newar",
         "wiktionary_code": "new",
         "script": {
-            "deva": "Devanagari",
-            "newa": "Newa"
+            "deva": "Devanagari"
         }
     },
     "niv": {
@@ -2119,9 +2110,7 @@
         "wiktionary_name": "Saraiki",
         "wiktionary_code": "skr",
         "script": {
-            "arab": "Arabic",
-            "deva": "Devanagari",
-            "mult": "Multani"
+            "arab": "Arabic"
         }
     },
     "srd": {
@@ -2379,9 +2368,7 @@
         "wiktionary_name": "Telugu",
         "wiktionary_code": "te",
         "script": {
-            "telu": "Telugu",
-            "knda": "Kannada",
-            "brah": "Brahmi"
+            "telu": "Telugu"
         }
     },
     "tft": {
