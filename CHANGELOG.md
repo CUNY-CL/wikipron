@@ -65,6 +65,7 @@ Unreleased
 
 #### Added
 
+-   Big scrape for 2023. (\#512)
 -   Moved IPAs of words with tildes to multiple lines. (\#379)
 -   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
 -   Added KPI computation to `generate_summary.py`. (\#465)
@@ -165,11 +166,8 @@ Unreleased
 
 #### Added
 
-<<<<<<< HEAD
 -  Adds Python 3.12 support. (\#520)
 -  Temporarily disables Latin testing in lieu of #514. (\#519)
-=======
->>>>>>> aab4ca3 (Updates changelog.)
 -  Fixed dialect selectors for languages other than Latin. (\#511)
 -  Moved `wikipron/` directory under `src/` and adjusted package finding. (\#508)
 -  Added documentation about selecting transcription level. (\#502)

@@ -1,11 +1,11 @@
-* Languages: 309
-  * Broad transcription files: 307
-  * Narrow transcription files: 173
+* Languages: 307
+  * Broad transcription files: 304
+  * Narrow transcription files: 171
 * Dialects: 15
   * Broad transcription files: 19
   * Narrow transcription files: 20
-* Scripts: 44
-* Pronunciations: 4,291,090
+* Scripts: 43
+* Pronunciations: 4,288,512
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -33,7 +33,6 @@
 | [TSV](tsv/aot_latn_broad.tsv) | aot | Atong (India) | Atong (India) | Latin |  | False | Broad | 181 |
 | [TSV](tsv/apw_latn_narrow.tsv) | apw | Western Apache | Western Apache | Latin |  | False | Narrow | 147 |
 | [TSV](tsv/ara_arab_broad.tsv) | ara | Arabic | Arabic | Arabic |  | False | Broad | 12,524 |
-| [TSV](tsv/ara_arab_narrow.tsv) | ara | Arabic | Arabic | Arabic |  | False | Narrow | 116 |
 | [TSV](tsv/arc_hebr_broad.tsv) | arc | Official Aramaic (700-300 BCE) | Aramaic | Hebrew |  | False | Broad | 1,165 |
 | [TSV](tsv/arg_latn_broad.tsv) | arg | Aragonese | Aragonese | Latin |  | False | Broad | 296 |
 | [TSV](tsv/ary_arab_broad.tsv) | ary | Moroccan Arabic | Moroccan Arabic | Arabic |  | False | Broad | 2,043 |
@@ -278,7 +277,6 @@
 | [TSV](tsv/mal_mlym_narrow.tsv) | mal | Malayalam | Malayalam | Malayalam |  | False | Narrow | 357 |
 | [TSV](tsv/mar_deva_broad.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Broad | 2,654 |
 | [TSV](tsv/mar_deva_narrow.tsv) | mar | Marathi | Marathi | Devanagari |  | False | Narrow | 595 |
-| [TSV](tsv/mch_latn_narrow.tsv) | mch | Maquiritari | Maquiritari | Latin |  | False | Narrow | 1,450 |
 | [TSV](tsv/mdf_cyrl_broad.tsv) | mdf | Moksha | Moksha | Cyrillic |  | False | Broad | 132 |
 | [TSV](tsv/mfe_latn_broad.tsv) | mfe | Morisyen | Mauritian Creole | Latin |  | False | Broad | 206 |
 | [TSV](tsv/mga_latn_broad.tsv) | mga | Middle Irish (900-1200) | Middle Irish | Latin |  | False | Broad | 312 |
@@ -286,8 +284,8 @@
 | [TSV](tsv/mic_latn_narrow.tsv) | mic | Mi'kmaq | Mi'kmaq | Latin |  | False | Narrow | 193 |
 | [TSV](tsv/mkd_cyrl_narrow.tsv) | mkd | Macedonian | Macedonian | Cyrillic |  | False | Narrow | 62,040 |
 | [TSV](tsv/mlg_latn_broad.tsv) | mlg | Malagasy | Malagasy | Latin |  | False | Broad | 186 |
-| [TSV](tsv/mlt_latn_broad.tsv) | mlt | Maltese | Maltese | Latin |  | False | Broad | 18,391 |
-| [TSV](tsv/mlt_latn_broad_filtered.tsv) | mlt | Maltese | Maltese | Latin |  | True | Broad | 18,311 |
+| [TSV](tsv/mlt_latn_broad.tsv) | mlt | Maltese | Maltese | Latin |  | False | Broad | 18,438 |
+| [TSV](tsv/mlt_latn_broad_filtered.tsv) | mlt | Maltese | Maltese | Latin |  | True | Broad | 18,348 |
 | [TSV](tsv/mnc_mong_narrow.tsv) | mnc | Manchu | Manchu | Mongolian |  | False | Narrow | 1,461 |
 | [TSV](tsv/mns_cyrl_narrow.tsv) | mns | Mansi | Mansi | Cyrillic |  | False | Narrow | 237 |
 | [TSV](tsv/mnw_mymr_broad.tsv) | mnw | Mon | Mon | Myanmar |  | False | Broad | 1,162 |
@@ -337,7 +335,6 @@
 | [TSV](tsv/okm_hang_broad.tsv) | okm | Middle Korean (10th-16th cent.) | Middle Korean | Hangul |  | False | Broad | 595 |
 | [TSV](tsv/okm_hang_narrow.tsv) | okm | Middle Korean (10th-16th cent.) | Middle Korean | Hangul |  | False | Narrow | 244 |
 | [TSV](tsv/olo_latn_broad.tsv) | olo | Livvi | Livvi | Latin |  | False | Broad | 265 |
-| [TSV](tsv/ori_orya_broad.tsv) | ori | Oriya (macrolanguage) | Oriya | Oriya |  | False | Broad | 569 |
 | [TSV](tsv/orv_cyrl_broad.tsv) | orv | Old Russian | Old East Slavic | Cyrillic |  | False | Broad | 1,042 |
 | [TSV](tsv/osp_latn_broad.tsv) | osp | Old Spanish | Old Spanish | Latin |  | False | Broad | 616 |
 | [TSV](tsv/osx_latn_broad.tsv) | osx | Old Saxon | Old Saxon | Latin |  | False | Broad | 251 |
@@ -435,7 +432,6 @@
 | [TSV](tsv/tgl_latn_broad.tsv) | tgl | Tagalog | Tagalog | Latin |  | False | Broad | 17,768 |
 | [TSV](tsv/tgl_latn_narrow.tsv) | tgl | Tagalog | Tagalog | Latin |  | False | Narrow | 19,344 |
 | [TSV](tsv/tha_thai_broad.tsv) | tha | Thai | Thai | Thai |  | False | Broad | 16,606 |
-| [TSV](tsv/tkl_latn_broad.tsv) | tkl | Tokelau | Tokelauan | Latin |  | False | Broad | 375 |
 | [TSV](tsv/tkl_latn_narrow.tsv) | tkl | Tokelau | Tokelauan | Latin |  | False | Narrow | 372 |
 | [TSV](tsv/ton_latn_broad.tsv) | ton | Tonga (Tonga Islands) | Tongan | Latin |  | False | Broad | 168 |
 | [TSV](tsv/tpw_latn_broad.tsv) | tpw | Tupí | Old Tupi | Latin |  | False | Broad | 349 |
@@ -473,7 +469,6 @@
 | [TSV](tsv/wln_latn_broad.tsv) | wln | Walloon | Walloon | Latin |  | False | Broad | 2,526 |
 | [TSV](tsv/xal_cyrl_broad.tsv) | xal | Kalmyk | Kalmyk | Cyrillic |  | False | Broad | 328 |
 | [TSV](tsv/xho_latn_narrow.tsv) | xho | Xhosa | Xhosa | Latin |  | False | Narrow | 878 |
-| [TSV](tsv/xsl_latn_broad.tsv) | xsl | South Slavey | South Slavey | Latin |  | False | Broad | 115 |
 | [TSV](tsv/xsl_latn_narrow.tsv) | xsl | South Slavey | South Slavey | Latin |  | False | Narrow | 138 |
 | [TSV](tsv/ybi_deva_broad.tsv) | ybi | Yamphu | Yamphu | Devanagari |  | False | Broad | 136 |
 | [TSV](tsv/ycl_latn_narrow.tsv) | ycl | Lolopo | Lolopo | Latin |  | False | Narrow | 109 |
