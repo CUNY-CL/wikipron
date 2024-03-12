@@ -9,7 +9,7 @@ aksent	ɑ k s ɒ ŋ
 alaskar	ɑ l ɑ s k ɑ ɾ
 alaskisk	ɑ l ɑ s k ɪ s k
 alfabet	ɑ l f ɑ b eː t
-alna	² æː ɻ ɳ ɐ̞
+alna	² æː ɳ ɐ̞
 alna	² ɐ̞ l n ɐ̞
 and	ɐ̞ n d
 and	ɐ̞ nː
@@ -67,6 +67,7 @@ bømlo	¹ b ø m l u̞
 datamus	d aː t ɑ m ʉʷː s
 daud'e	d a̝ u̯ː e
 diskotek	d ɪ s k ʊ t eː k
+dombås	² d u̞ m b o̞ː s
 dovendyr	d oː ʋ ə n d yː ɾ
 dovrefjell	² d o̞ ʋ r ə f j ɛ̝ ʎː
 draupne	² d r œ ʊ̯ p n̥ ə
@@ -80,20 +81,15 @@ dumming	d ʊ m m ɪ ŋ
 dysleksi	d ʏ s l ɛ k s iː
 døgn	d œ j n
 døgn	d œ ŋ n
-eg	eː
-eg	eː ɡ
-eg	iː
-eg	æ ɪː
-eg	æː
-eg	æː i̯ ɡ
-eg	æː ɡ
-eg	æː ɣ
-eg	ə
-eg	ə ɡ
-eg	ɛ̝ i̯ː
-eg	ɛ̝ː
-eg	ɛ̝ː k
-eg	ɛ̝ː ɡ
+eg	a̝ː i
+eg	eː ɪ
+eg	i̞ e ɡ
+eg	ɛ i
+eg	ɛ ɪ
+eg	ɛ ɪː ɡ
+eg	ɛ ɪː ɣ
+eg	ɛː ɪ
+eg	ɪ ɛ̝ ɡ̥
 ei	ɛ̝ ɪ̯ː
 eiliv	² a̝ ɪ̯ː l ɪ ʋ
 eiliv	² æ ɪ̯ː l ɪ ʋ
@@ -143,7 +139,6 @@ fitjar	² f i c͡çː ɐ̞
 fjes	f j eː s
 fjord	f j o̞ː ɾˠ
 fjære	f j æː ɾ ə
-fjøl	f j øʷː l
 fjøs	f j øː s
 flugu	² f ɽ oː ɡ o
 flugu	² f ɽ u ɡ u
@@ -155,6 +150,7 @@ flugu	² f ɽ ʉ ɣ ɣ ʉ
 flugu	² f ɽ ʉː ɡ ʉ
 flått	f l ɔ t
 forakte	f ɔ ɾ ɑ̀ k t ə
+forstå	f ɔ̞ ʂ ʈ o̞ː
 fosen	f u̞ː s n̩
 foss	f ɞ̞ sː
 fridtjov	² f r ɪː c͡ç u̞ˑ ʋ
@@ -251,6 +247,8 @@ haud	h œ ʉ̯ː
 haud	h ɐ ɵ̯ː
 haud	h ɐ ʉ̯ː d
 haud	h ɞ̞ ʉ̯ː d
+haug	h æ ʉ̯ ɡ
+haug	h æ ʉ̯ː
 haurt	h æ ʉ̯ ɾ̥ˠ t
 havfru	h aː ʋ f ɾ ʉʷː
 heddal	² h ɛ̝ d d ɐ̞ˑ l
@@ -258,16 +256,14 @@ heiddal	² h ɛ̝ i d d ɐ̞ˑ l
 heilag’u	² h a̝ ɪ̯ː l ɐ̞ ɡ ʊ
 heimferd	² h ɛ̝ ɪː ɱ f ɛ̝ˑ r
 heimferd	² h ɛ̝ ɪː ɱ f ɛ̝ˑ ɽ
+heitdal	² h ɛ̝ d d ɐ̞ˑ l
+heitdal	² h ɛ̝ i d d ɐ̞ˑ l
 hel	h ɛ̝ː l
 hel	h ɛ̝ː ɽ
 helg	h æ l ɡ
 helg	h æ ɽ j
 helg	h æ ɽ ɡ
 helg	h ɛ ɽ ɡ
-helheim	² h ɛ̝ː l h ɛ̞ ɪ m
-helheim	² h ɛ̝ː l ɛ̞ ɪ m
-helheim	² h ɛ̝ː ɽ h ɛ̞ ɪ m
-helheim	² h ɛ̝ː ɽ ɛ ɪ m
 helsott	² h æː l s u̞ tˑ
 helsott	² h æː ɻ ʂ u̞ tˑ
 helsott	² h æː ʂ u̞ tˑ
@@ -294,8 +290,20 @@ hjålm	ç o̞ l m
 ho	h u̞ː
 ho	h ũ̞ː
 hod	h ɞ̞ː
+hol	h o̞ː l
+hol	h o̞ː ɽ
+hol	h u̞ ɽ
+hol	h æː ɽ
+hol	h øː l
+hol	h øː ɽ
+hol	h ɐː ɽ
+hol	h ɔ lˑ
 hol	h ɞ̞ː l
 hol	h ɞ̞ː ɽ
+hol	h ɵː ɽ
+hol	h ɶː l
+hol	h ɶː ɽ
+hol	h ʊ ɔ l
 holmsbu	h œ̀ ɽ m s b ʉ̌
 holmsbu	h ɔ̀ ɳ ʂ b ʉ̌
 holmsbu	h ɔ̀ ɽ m s b ʉ̌
@@ -338,6 +346,7 @@ hyggja	² h ʏ ɟ͡ʝː ɑ
 hyggja	² h ʏ ʝː ɑ
 hyggje	² h ʏ ɟ͡ʝː ə
 hyggje	² h ʏ ʝː ə
+hyllestad	h ʏ lː ə s t ɑː
 håg	h o̞ː ɡ
 håko	² h ɐ̞ u̞ː k o u
 håkon	² h ɐ̞ u̞ː k o n
@@ -395,7 +404,7 @@ kjip	ç iː p
 kjukling	² c͡çʷ ʉ kʷ l̻ ɪ i̯ ŋ ɡ
 kjukling	² çʷ ʉ kʷ l̻ ɪ ŋ
 kjåkkji	² ç o̞ː ç ç ɪ
-kjåkkā	² ç ɔː kː ɒː
+kjåkkā	² ç o̞ː kː ɒː
 kjærleik	² c͡ç æː r l ɛ̝ ɪ̯ˑ k
 kjærleik	² ç æː l̠ ɛ̝ ɪ̯ˑ k
 kjærleik	² ç æː r l ɛ̝ ɪ̯ˑ k
@@ -442,6 +451,8 @@ krøderen	k r øː d ə ɳ̩
 krøderen	k r øː ɳ̩
 kva	kʰ ʋ ɐ̞ː
 kvantefysikk	k ʋ ɑ n t ə f ʏʷ s ɪ k
+kvel	k ʋ iː l
+kvel	k ʋ ɛ ɪː l
 kvelds	k ʋ ɛ l s
 kvinlog	¹ k ʋ i n l oː ɡ
 kvinlog	¹ k ʋ i n l uː ɡ
@@ -512,6 +523,7 @@ mjølne	² m j œ l n ə
 mjølne	² m j œː l n ə
 mjølne	² m j œː ɳ ə
 modig	m uː d ɪ
+molte	² m ɞ̞ l̥ t ə
 morgon	² m o̞ r ɡ o̞
 morgon	² m ɞ̞ r ɡ o
 morgon	² m ɞ̞ r ɡ u̞
@@ -524,6 +536,7 @@ musé	m ʉʷ s eː
 mylnar	² m ʏʷ l n ɐ̞ r
 mylnar	² m ʏʷː ɳ ɐ̞ r
 mylnar	² m ʏʷː ɻ ɳ ɐ̞ r
+måillt	m o̞ ʎ̥ c
 mål	m o̞ː l
 mål	m o̞ː ɽ
 mål	m ɐ̞ o̯ː l
@@ -533,6 +546,8 @@ mållag	² m o̞ː l l ɐ̞ˑ ɡ
 mållag	² m o̞ː ɭ ɐ̞ˑ ɡ
 måltid	² m o̞ː l t iˑ
 måltid	² m o̞ː ʈ iˑ
+måndag	¹ m o̞ n d ɐ̞
+måndag	¹ m o̞ n d ɐ̞ˑ ɡ
 måne	² m o̞ː n e
 møre	² m øː ɾˠ e
 møy	m ø ʏ̯
@@ -584,6 +599,9 @@ nóg	n o u̯ː ɡ
 nóg	n u̞ ɡ
 nóg	n u̞ː ɡ
 nótt	n ɔ ʊ̯ː tʰː
+odal	² o u̞ː d ɐ̞ l
+odal	² oː ɐ̞ l
+odal	² u̞ː ɐ̞ l
 oddernes	² o̞ d d o̞ ɰ n eː s
 oden	² u̞ː d n̩
 oden	² u̞ː d ə n
@@ -609,6 +627,7 @@ ord	uː rˠ
 ord	uː ɺ̠
 ord	uː ɽ
 ordstilling	uʷː ʂ t ɪ l l ɪ ŋ
+oslo	o u̯ː s l o u̯ː
 oslo	ú̞ s l ǔ̞
 oslo	ú̞ ʂ ɭ ǔ̞
 oslo	ú̞ ʃ l̠ ǔ̞
@@ -653,6 +672,8 @@ saud	s œ ʊ̯ː
 saudinnje	² s æ ʉː d i ɲ ə
 saupne	² s œ ʊ̯ p n̥ ə
 saupne	² s œ ʊ̯ː p n̥ ə
+seig	s æ ɪ ɡ
+seig	s æ ɪː
 selle	s ɛ l l ə
 setesdal	² s æː t ɪ s d ɐ̞ː l
 setesdal	² s ɛ̝ː t ə s d ɐ̞ˑ l
@@ -731,6 +752,8 @@ stein	s t ɛ̝ ɪ̯ d n
 steinkjer	² s t e ɲ ç ə ɾ
 stikkontakt	s t ɪ k k ʊ n t ɑ k t
 stillongs	s t iː l l ɔ ŋ s
+stjard	s c͡ç ɐ̞ː ɽ
+stjard	ʃ ɐ̞ː ɽ
 stjørdal	² ʂ ø ɖ ɖ ɐ̞ˑ ɽ
 stjørdal	² ʂ ø ɻ ɖ ɐ̞ˑ ɽ
 stjørdalen	² ʂ ø ɖ ɖ ɐ̞ˑ ɲ
@@ -781,7 +804,7 @@ tispe	t ɪ s p ə
 tomte	² t u̞ m t ə
 tomte	² t ɞ̞ m t ə
 torlav	² tʰ ɞ̞ l l ɐ̞ˑ ʋ
-torleiv	² tʰ ɞ̞ l l ɛ̝ ɪ̯ː ʋ
+torleiv	² tʰ ɞ̞ l l ɛ̝ ɪ̯ ʋ
 torsdag	tʰ uː r s d̥ a
 torsdag	tʰ uː r s d̥ ɐ̞ː ɡ
 torsdag	tʰ uː s d̥ a

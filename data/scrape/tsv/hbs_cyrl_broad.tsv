@@ -334,7 +334,6 @@
 александрија	a l e k s ǎ n d r i j a
 алем	ǎ l e m
 алем	ǎː l e m
-алергичан	a l ě r ɡ i t͡ʃ a n
 алергичар	a l ě r ɡ i t͡ʃ a r
 алергично	a l ě r ɡ i t͡ʃ n o
 алергичност	a l ě r ɡ i t͡ʃ n oː s t
@@ -509,22 +508,22 @@
 ангиологија	a n ɡ i o l ǒ ɡ i j a
 англизам	a n ɡ l ǐ z a m
 англикан	a n ɡ l ǐ k aː n
-англиканац	a ŋ ɡ l i k ǎː n a t͡s
+англиканац	a n ɡ l i k ǎː n a t͡s
 англикански	a n ɡ l ǐ k aː n s k iː
 англист	ǎ n ɡ l i s t
 англистика	a n ɡ l ǐ s t i k a
 англистички	a n ɡ l ǐ s t i t͡ʃ k i
 англистички	a n ɡ l ǐ s t i t͡ʃ k iː
-англицизам	a ŋ ɡ l i t͡s ǐ z a m
+англицизам	a n ɡ l i t͡s ǐ z a m
 англоамерика	a n ɡ l o a m ě r i k a
-англоамерички	a ŋ ɡ l o a m ě r i t͡ʃ k iː
-англосаксонац	a ŋ ɡ l o s a k s ǒː n a t͡s
+англоамерички	a n ɡ l o a m ě r i t͡ʃ k iː
+англосаксонац	a n ɡ l o s a k s ǒː n a t͡s
 англосаксонски	a n ɡ l o s ǎ k s oː n s k iː
 англосаски	a n ɡ l ǒ s a s k iː
 англофил	a n ɡ l ǒ f iː l
 англофоб	a n ɡ l ǒ f oː b
-ангола	a ŋ ɡ ôː l a
-анголац	a ŋ ɡ ǒː l a t͡s
+ангола	a n ɡ ôː l a
+анголац	a n ɡ ǒː l a t͡s
 анголка	ǎ n ɡ oː l k a
 анголски	ǎ n ɡ o l s k iː
 андалузија	a n d ǎ l uː z i j a
@@ -570,7 +569,7 @@
 аниса	ǎ n i s a
 анихилација	a n i x i l ǎː t͡s i j a
 анка	âː n k a
-анкара	ǎ ŋ k a r a
+анкара	ǎ n k a r a
 анкета	a n k ě t a
 анкетар	a n k ě t aː r
 анкетирати	a n k e t ǐː r a t i
@@ -827,6 +826,7 @@
 аспект	ǎ s p e k t
 аспирин	a s p ǐ r iː n
 аспра	â s p r a
+астероид	a s t e r ǒ iː d
 астма	ǎ s t m a
 астматичан	a s t m ǎ t i t͡ʃ a n
 астматичар	a s t m ǎ t i t͡ʃ aː r
@@ -1027,7 +1027,6 @@
 бадњак	b â d ɲ aː k
 баждар	b ǎ ʒ d aː r
 баждарити	b a ʒ d ǎː r i t i
-база	b ǎː z a
 базати	b ǎː z a t i
 базга	b ǎ z ɡ a
 баздети	b ǎ z d e t i
@@ -1091,8 +1090,8 @@
 банално	b ǎ n aː l n o
 баналност	b a n ǎː l n oː s t
 банана	b a n ǎː n a
-бангкок	b ǎ ŋ ɡ k o k
-бангладеш	b ǎ ŋ ɡ l a d e ʃ
+бангкок	b ǎ n ɡ k o k
+бангладеш	b ǎ n ɡ l a d e ʃ
 банда	b âː n d a
 бандера	b a n d ěː r a
 бандит	b ǎ n d iː t
@@ -1459,7 +1458,6 @@
 бескомпромисан	b ê s k o m p r o m i s a n
 бескомпромисно	b ê s k o m p r o m i s n o
 бесконачан	b ê s k o n a t͡ʃ a n
-бесконачно	b ê s k o n a t͡ʃ n o
 бесконачност	b ê s k o n a t͡ʃ n oː s t
 бескорисно	b ê s k o r i s n o
 бескорисност	b ê s k o r iː s n oː s t
@@ -1661,6 +1659,7 @@
 бит	b îː t
 битан	b î t a n
 битанга	b ǐ t aː n ɡ a
+битва	b î t ʋ a
 битер	b ǐ t e r
 бити	b î t i
 битка	b î t k a
@@ -1842,6 +1841,7 @@
 божићни	b ǒ ʒ i t͡ɕ n iː
 божур	b ǒ ʒ uː r
 божји	b ô ʒ j iː
+боза	b ǒː z a
 бозон	b ǒ z oː n
 бокал	b ǒ k aː l
 боквица	b ô k ʋ i t͡s a
@@ -2049,13 +2049,14 @@
 брукати	b r û k a t i
 брус	b r ûː s
 брусити	b r ǔː s i t i
+брусница	b r ǔ s n i t͡s a
 бруталан	b r û t aː l a n
 бруталност	b r u t ǎː l n oː s t
 брујати	b r ǔː j a t i
 брчкати	b r̂ t͡ʃ k a t i
 бршљан	b ř̩ ʃ ʎ a n
 брђанин	b r̩̂ d͡ʑ a n i n
-брђанка	b r̩̂ d͡ʑ aː ŋ k a
+брђанка	b r̩̂ d͡ʑ aː n k a
 брљати	b řː ʎ a t i
 брњица	b r̩̂ ɲ i t͡s a
 буба	b û b a
@@ -2156,6 +2157,7 @@
 була	b ǔː l a
 булазнити	b u l ǎː z n i t i
 булевар	b u l ě v aː r
+бумбар	b û m b aː r
 буна	b ǔː n a
 бунар	b ǔ n aː r
 бунда	b ûː n d a
@@ -2567,7 +2569,6 @@
 висиномјер	ʋ î s i n o m j eː r
 висински	ʋ ǐ s iː n s k iː
 висити	ʋ î s i t i
-виски	ʋ î s k i
 висок	ʋ ǐ s o k
 високо	ʋ i s ǒ k o
 висораван	ʋ î s o r aː ʋ a n
@@ -2727,7 +2728,7 @@
 врањ	ʋ r âː ɲ
 враћати	ʋ r â t͡ɕ a t i
 враџбина	ʋ r â d͡ʒ b i n a
-врба	ʋ řː b a
+врба	ʋ ř̩ː b a
 врбовина	ʋ ř b o ʋ i n a
 врг	ʋ r̂ ɡ
 вргањ	ʋ ř ɡ aː ɲ
@@ -2886,6 +2887,7 @@
 габон	ɡ ǎ b oː n
 габула	ɡ â b u l a
 гавез	ɡ â ʋ eː z
+гавран	ɡ â ʋ r aː n
 гадан	ɡ ǎ d a n
 гадити	ɡ â d i t i
 газ	ɡ âː z
@@ -2915,7 +2917,7 @@
 гамбија	ɡ ǎ m b i j a
 гана	ɡ â n a
 ганац	ɡ ǎː n a t͡s
-гангстер	ɡ ǎ ŋ ɡ s t e r
+гангстер	ɡ ǎ n ɡ s t e r
 гангстерски	ɡ ǎ n ɡ s t e r s k i
 гангстерски	ɡ ǎ n ɡ s t e r s k iː
 ганеш	ɡ a n ê ʃ
@@ -3055,7 +3057,6 @@
 гланцати	ɡ l âː n t͡s a t i
 глас	ɡ l âː s
 гласан	ɡ l â s a n
-гласати	ɡ l ǎ s a t i
 гласач	ɡ l ǎ s aː t͡ʃ
 гласачица	ɡ l a s ǎ t͡ʃ i t͡s a
 гласина	ɡ l ǎ s i n a
@@ -3311,6 +3312,7 @@
 гренланд	ɡ r ě n l a n d
 гренландски	ɡ r ě n l a n d s k iː
 грепсти	ɡ r ê p s t i
+грех	ɡ r êː x
 грехован	ɡ r ě x oː ʋ a n
 грецизам	ɡ r e t͡s ǐ z a m
 грешан	ɡ r ê ʃ a n
@@ -3650,6 +3652,7 @@
 декада	d e k ǎː d a
 декадентан	d e k a d ě n t a n
 декан	d ě k aː n
+деклинација	d e k l i n ǎː t͡s i j a
 деконтаминација	d e k o n t a m i n ǎː t͡s i j a
 декоративан	d ê k o r a t iː ʋ a n
 декоративно	d ê k o r a t iː ʋ n o
@@ -3720,6 +3723,7 @@
 дериште	d ê r iː ʃ t e
 дерматологија	d e r m a t o l ǒ ɡ i j a
 дернек	d ě r n e k
+дерс	d ê r s
 десерт	d ě s e r t
 десет	d ê s e t
 десетак	d e s ěː t a k
@@ -3830,7 +3834,6 @@
 диктаторски	d ǐ k t aː t o r s k iː
 диктатура	d i k t a t ǔː r a
 диктирати	d i k t ǐː r a t i
-дикција	d ǐ k t͡s i j a
 дилема	d i l ěː m a
 дилетант	d i l ě t a n t
 дилкуша	d ǐ l k u ʃ a
@@ -3881,8 +3884,8 @@
 дистрибуција	d i s t r i b ǔː t͡s i j a
 дисфорија	d i s f ǒ r i j a
 дисциплина	d i s t͡s i p l ǐː n a
-дисјункција	d i s j ǔ ŋ k t͡s i j a
-дифтонгизација	d i f t o ŋ ɡ i z ǎː t͡s i j a
+дисјункција	d i s j ǔ n k t͡s i j a
+дифтонгизација	d i f t o n ɡ i z ǎː t͡s i j a
 дифтоншки	d ǐ f t o n ʃ k iː
 дифузан	d î f uː z a n
 дифузивност	d i f u z ǐː ʋ n oː s t
@@ -3910,7 +3913,6 @@
 диљем	d îː ʎ e m
 диња	d î ɲ a
 дићи	d î t͡ɕ i
-длака	d l â k a
 длакав	d l â k a ʋ
 длакавост	d l â k a ʋ oː s t
 длачица	d l â t͡ʃ i t͡s a
@@ -4069,6 +4071,7 @@
 допринијети	d o p r ǐ n j eː t i
 доприносити	d o p r i n ǒ s i t i
 допријети	d ǒ p r j eː t i
+допуна	d ô p u n a
 допунити	d ǒ p u n i t i
 допунски	d ǒ p u n s k iː
 допустив	d o p ǔ s t i ʋ
@@ -4079,8 +4082,6 @@
 допуњавати	d o p u ɲ ǎː ʋ a t i
 дорадити	d o r ǎː d i t i
 дорађивати	d o r a d͡ʑ ǐː ʋ a t i
-дорски	d ôː r s k i
-дорски	d ôː r s k iː
 доручак	d ǒ r u t͡ʃ a k
 доручковати	d ǒ r u t͡ʃ k o ʋ a t i
 досад	d ǒ s a d
@@ -4792,6 +4793,7 @@
 житељ	ʒ ǐː t e ʎ
 житница	ʒ î t n i t͡s a
 жица	ʒ î t s a
+жиће	ʒ ǐː t͡ɕ e
 жлеб	ʒ l êː b
 жлезда	ʒ l ěː z d a
 жлица	ʒ l î t͡s a
@@ -4962,7 +4964,7 @@
 загребачки	z ǎː ɡ r e b a t͡ʃ k iː
 загрепсти	z ǎ ɡ r e p s t i
 загрепчанин	z ǎː ɡ r e p t͡ʃ a n i n
-загрепчанка	z ǎː ɡ r e p t͡ʃ aː ŋ k a
+загрепчанка	z ǎː ɡ r e p t͡ʃ aː n k a
 загрејавати	z a ɡ r e j ǎː ʋ a t i
 загрејати	z ǎ ɡ r e j a t i
 загризати	z a ɡ r ǐː z a t i
@@ -5656,6 +5658,7 @@
 и	i
 иако	î a k o
 ибрик	ǐ b r iː k
+ибришим	i b r ǐ ʃ i m
 ива	ǐː ʋ a
 иван	ǐ ʋ a n
 ивана	ǐ ʋ a n a
@@ -5670,7 +5673,7 @@
 игра	ǐ ɡ r a
 игралишни	ǐ ɡ r a l iː ʃ n iː
 игралиште	ǐ ɡ r a l iː ʃ t e
-игранка	ǐ ɡ r a ŋ k a
+игранка	ǐ ɡ r a n k a
 играти	î ɡ r a t i
 играч	ǐ ɡ r aː t͡ʃ
 играчица	i ɡ r ǎ t͡ʃ i t͡s a
@@ -5789,6 +5792,7 @@
 извидети	ǐ z ʋ i d e t i
 извидник	ǐ z ʋ i d n iː k
 извидјети	ǐ z ʋ i d j e t i
+извини	i z ʋ i n i
 извинити	i z ʋ ǐː n i t i
 извиђати	i z ʋ ǐː d͡ʑ a t i
 извијестити	i z ʋ i j ěː s t i t i
@@ -6242,17 +6246,17 @@
 иницијално	î n i t͡s i j aː l n o
 иницијатива	i n i t͡s i j a t ǐː ʋ a
 иницијатор	i n i t͡s ǐ j aː t o r
-инкарнација	i ŋ k a r n ǎː t͡s i j a
+инкарнација	i n k a r n ǎː t͡s i j a
 инквизитор	i n k ʋ ǐ z iː t o r
 инквизиторски	i n k ʋ ǐ z iː t o r s k iː
-инквизиција	i ŋ k ʋ i z ǐː t͡s i j a
-инклинација	i ŋ k l i n ǎː t͡s i j a
+инквизиција	i n k ʋ i z ǐː t͡s i j a
+инклинација	i n k l i n ǎː t͡s i j a
 инкомпатибилан	î n k o m p a t i b iː l a n
 инкомпатибилно	î n k o m p a t i b iː l n o
-инкорпорација	i ŋ k o r p o r ǎː t͡s i j a
-инкриминација	i ŋ k r i m i n ǎː t͡s i j a
+инкорпорација	i n k o r p o r ǎː t͡s i j a
+инкриминација	i n k r i m i n ǎː t͡s i j a
 инкубатор	i n k ǔ b aː t o r
-инкубација	i ŋ k u b ǎː t͡s i j a
+инкубација	i n k u b ǎː t͡s i j a
 инкунабула	i n k u n ǎ b u l a
 иновативан	î n o ʋ a t iː ʋ a n
 иновација	i n o ʋ ǎː t͡s i j a
@@ -6371,7 +6375,7 @@
 ирационализам	i r a t͡s i o n a l ǐ z a m
 ирационално	î r a t͡s i o n aː l n o
 ирачанин	i r ǎː t͡ʃ a n i n
-ирачанка	i r ǎː t͡ʃ aː ŋ k a
+ирачанка	i r ǎː t͡ʃ aː n k a
 ирачки	ǐ r aː t ʃ k i
 ирачки	ǐ r aː t ʃ k iː
 иреалан	î r e aː l a n
@@ -6771,7 +6775,7 @@
 канап	k ǎ n aː p
 канаринац	k a n a r ǐː n a t͡s
 канађанин	k a n ǎː d͡ʑ a n i n
-канађанка	k a n ǎː d͡ʑ aː ŋ k a
+канађанка	k a n ǎː d͡ʑ aː n k a
 кандидат	k a n d ǐ d aː t
 кандидатура	k a n d i d a t ǔː r a
 кандидирати	k a n d i d ǐː r a t i
@@ -6856,7 +6860,7 @@
 карловац	k âː r l o ʋ a t͡s
 карма	k â r m a
 кармелићанин	k a r m e l ǐː t͡ɕ a n i n
-кармелићанка	k a r m e l ǐː t͡ɕ aː ŋ k a
+кармелићанка	k a r m e l ǐː t͡ɕ aː n k a
 карневал	k a r n ě ʋ aː l
 карневалски	k a r n ě ʋ aː l s k i
 карневалски	k a r n ě ʋ aː l s k iː
@@ -6884,6 +6888,7 @@
 касати	k â s a t i
 касијан	k ǎ s i j a n
 каскада	k a s k ǎː d a
+каскати	k â s k a t i
 каснити	k ǎ s n i t i
 касније	k ǎ s n i j eː
 касно	k â s n o
@@ -7464,9 +7469,9 @@
 конвој	k ǒ n ʋ o j
 конгенијалан	k ô n ɡ e n i j aː l a n
 конгенијално	k ô n ɡ e n i j aː l n o
-конго	k ô ŋ ɡ o
-конгрегационализам	k o ŋ ɡ r e ɡ a t͡s i o n a l ǐ z a m
-конгрегација	k o ŋ ɡ r e ɡ ǎː t͡s i j a
+конго	k ô n ɡ o
+конгрегационализам	k o n ɡ r e ɡ a t͡s i o n a l ǐ z a m
+конгрегација	k o n ɡ r e ɡ ǎː t͡s i j a
 конгрес	k ǒ n ɡ r e s
 конгресмен	k ǒ n ɡ r e s m e n
 конгресни	k ǒ n ɡ r e s n iː
@@ -7920,7 +7925,7 @@
 крањски	k r âː ɲ s k iː
 краћати	k r ǎ t͡ɕ a t i
 краћење	k r ǎː t͡ɕ eː ɲ e
-крв	k r̂ː ʋ
+крв	k r̩̂ː ʋ
 крвав	k r̂ ʋ a ʋ
 крвавити	k r ʋ ǎː ʋ i t i
 крвавица	k r ʋ ǎ ʋ i t͡s a
@@ -8183,12 +8188,13 @@
 крканлук	k r̩ k ǎː n l u k
 кркаче	k ř k a t͡ʃ eː
 кркнути	k r̂ k n u t i
-кркуша	k ř k u ʃ a
+кркуша	k ř̩ k u ʃ a
 кркљанац	k r k ʎ ǎː n a t͡s
 кркљати	k ř k ʎ a t i
 крлежијанац	k r l e ʒ i j ǎː n a t͡s
 крлежијански	k r l e ʒ ǐ j aː n s k iː
 крлежијанство	k r l e ʒ i j ǎː n s t ʋ o
+крлетка	k ř̩ l e t k a
 крма	k r̂ m a
 крма	k řː m a
 крмак	k řː m a k
@@ -8479,7 +8485,6 @@
 кушач	k ǔ ʃ aː t͡ʃ
 кушачица	k u ʃ ǎ t͡ʃ i t͡s a
 куја	k û j a
-кућа	k û t͡ɕ a
 кућаница	k û t͡ɕ a n i t͡s a
 кућевласник	k u t͡ɕ ě ʋ l aː s n iː k
 кући	k û t͡ɕ i
@@ -8744,7 +8749,7 @@
 леђни	l êː d͡ʑ n iː
 леја	l ěː j a
 лењ	l êː ɲ
-лењинград	l ě ɲ i ŋ ɡ r aː d
+лењинград	l ě ɲ i n ɡ r aː d
 лењинизам	l e ɲ i n ǐ z a m
 лењинистички	l e ɲ i n ǐ s t i t ʃ k i
 лењинистички	l e ɲ i n ǐ s t i t ʃ k iː
@@ -8922,7 +8927,6 @@
 логичан	l ǒ ɡ i t͡ʃ a n
 логичар	l ǒ ɡ i t͡ʃ aː r
 логички	l ǒ ɡ i t͡ʃ k iː
-логично	l ǒ ɡ i t͡ʃ n o
 логор	l ôː ɡ o r
 логораш	l o ɡ ǒ r aː ʃ
 логоровати	l ôː ɡ o r o ʋ a t i
@@ -9027,6 +9031,8 @@
 луетичан	l u ě t i t͡ʃ a n
 луетичар	l u ě t i t͡ʃ aː r
 лужички	l û ʒ i t͡ʃ k iː
+лук	l û k
+лук	l ûː k
 лука	l ǔː k a
 лукав	l û k a ʋ
 лукавац	l û k a ʋ a t͡s
@@ -9153,7 +9159,7 @@
 малоазијски	m a l o âː z iː j s k iː
 малобројан	m â l o b r oː j a n
 малограђанин	m a l ǒ ɡ r a d͡ʑ a n i n
-малограђанка	m a l ǒ ɡ r a d͡ʑ aː ŋ k a
+малограђанка	m a l ǒ ɡ r a d͡ʑ aː n k a
 малограђански	m a l ǒ ɡ r a d͡ʑ a n s k iː
 малодушан	m a l ǒ d u ʃ a n
 малодушно	m a l ǒ d u ʃ n o
@@ -9764,6 +9770,7 @@
 мормон	m ǒ r m oː n
 мормонизам	m o r m o n ǐ z a m
 морнар	m ǒ r n aː r
+морнарица	m o r n ǎ r i t͡s a
 морски	m ǒ r s k iː
 морталитет	m o r t a l ǐ t eː t
 морфем	m ǒ r f eː m
@@ -9782,6 +9789,7 @@
 мотивирати	m o t i ʋ ǐː r a t i
 мотика	m ǒ t i k a
 мотка	m ô t k a
+мотовило	m o t ǒ ʋ i l o
 мотоцикл	m o t o t͡s ǐ k l̩
 мотрити	m ǒ t r i t i
 мотриште	m ô t r iː ʃ t e
@@ -9812,7 +9820,6 @@
 мрвица	m r̩̂ ʋ i t͡s a
 мрети	m r êː t i
 мрзак	m r̂ z a k
-мрзети	m řː z e t i
 мрзити	m řː z i t i
 мрзовољан	m r̂ z o ʋ oː ʎ a n
 мријети	m r j êː t i
@@ -11346,7 +11353,7 @@
 никшић	n î k ʃ i t͡ɕ
 нил	n î l
 нимало	n ǐ m a l o
-нимфа	n îː ɱ f a
+нимфа	n îː m f a
 нимфоманка	n i m f ǒ m aː n k a
 нимфомански	n i m f ǒ m aː n s k i
 нимфомански	n i m f ǒ m aː n s k iː
@@ -11419,6 +11426,7 @@
 новчаница	n o ʋ t͡ʃ ǎ n i t͡s a
 новчано	n ǒ ʋ t͡ʃ a n o
 новчић	n ǒ ʋ t͡ʃ i t͡ɕ
+нога	n ǒ ɡ a
 ногавица	n ǒ ɡ a ʋ i t͡s a
 ногат	n ǒ ɡ a t
 ногица	n ǒ ɡ i t͡s a
@@ -11798,6 +11806,7 @@
 одан	ô d aː n
 оданде	ô d aː n d e
 оданост	ô d aː n oː s t
+одар	ǒ d a r
 одати	ǒ d a t i
 одбацивати	o d b a t͡s ǐː ʋ a t i
 одбацити	o d b ǎː t͡s i t i
@@ -12432,6 +12441,7 @@
 осакаћивати	o s a k a t͡ɕ ǐː ʋ a t i
 осам	ô s a m
 осама	ô s a m a
+осамсто	ô s a m s t o
 осамљен	ǒ s aː m ʎ e n
 осамљеност	ǒ s aː m ʎ e n oː s t
 осао	ô s a o
@@ -12560,6 +12570,7 @@
 отапати	o t ǎː p a t i
 отарасити	o t a r ǎː s i t i
 отац	ǒ t a t͡s
+отаџбина	ǒ t a d͡ʒ b i n a
 отварати	o t ʋ ǎː r a t i
 отварач	o t ʋ ǎ r aː t͡ʃ
 отвор	ǒ t ʋ o r
@@ -12745,7 +12756,7 @@
 палатал	p a l ǎ t aː l
 палатални	p â l a t aː l n iː
 палац	p â l a t͡s
-палачинка	p a l a t͡ʃ ǐː ŋ k a
+палачинка	p a l a t͡ʃ ǐː n k a
 палеж	p ǎː l e ʒ
 палента	p ǎ l eː n t a
 палеографија	p a l e o ɡ r ǎ f i j a
@@ -12792,7 +12803,6 @@
 паничарка	p ǎ n i t͡ʃ aː r k a
 панично	p ǎ n i t͡ʃ n o
 панонија	p ǎ n oː n i j a
-панорама	p a n o r ǎː m a
 панпсихизам	p a n p s i x ǐ z a m
 пансион	p a n s ǐ oː n
 панславизам	p a n s l a ʋ ǐ z a m
@@ -13011,11 +13021,12 @@
 пека	p ê k a
 пекар	p ê k aː r
 пеква	p ê k ʋ a
-пекинг	p ě k i ŋ ɡ
+пекинг	p ě k i n ɡ
 пекиншки	p ě k i n ʃ k iː
 пелена	p ê l e n a
 пеливан	p e l ǐ ʋ aː n
 пеликан	p e l ǐ k aː n
+пелин	p ě l i n
 пелуд	p ě l u d
 пендрек	p ě n d r e k
 пенетрација	p e n e t r ǎː t͡s i j a
@@ -13214,6 +13225,7 @@
 плазити	p l â z i t i
 плакати	p l â k a t i
 плакање	p l â k aː ɲ e
+плам	p l âː m
 пламен	p l â m eː n
 пламен	p l ǎ m e n
 пламенац	p l a m ěː n a t͡s
@@ -13784,6 +13796,7 @@
 помножити	p o m n ǒ ʒ i t i
 помодан	p ô m oː d a n
 поморанџа	p o m ǒ r aː n d͡ʒ a
+поморац	p ǒ m o r a t͡s
 помоћ	p ô m oː t͡ɕ
 помоћи	p ǒ m o t͡ɕ i
 помоћни	p ǒ m o t͡ɕ n iː
@@ -13792,6 +13805,7 @@
 помоћу	p ô m o t͡ɕ u
 помусти	p ǒ m u s t i
 помфрит	p ǒ m f r i t
+помњив	p ǒ m ɲ i ʋ
 понављати	p o n ǎː ʋ ʎ a t i
 понадвор	p o n a d v o r
 понаособ	p o n a ǒ s o b
@@ -14237,6 +14251,7 @@
 праводобан	p r â ʋ o d o b a n
 праводобно	p r â ʋ o d o b n o
 праводобност	p r â ʋ o d o b n oː s t
+правопис	p r â ʋ o p iː s
 правописни	p r â ʋ o p iː s n iː
 праворек	p r â ʋ o r eː k
 праворијек	p r â ʋ o r i j eː k
@@ -15461,7 +15476,7 @@
 пунашан	p û n aː ʃ a n
 пунити	p û n i t i
 пунктуалан	p û n k t u aː l a n
-пунктуација	p u ŋ k t u ǎː t͡s i j a
+пунктуација	p u n k t u ǎː t͡s i j a
 пуно	p û n o
 пуноглавац	p u n ǒ ɡ l a ʋ a t͡s
 пуногласје	p u n ǒ ɡ l aː s j e
@@ -15527,7 +15542,7 @@
 пуцњава	p ǔ t͡s ɲ a ʋ a
 пуч	p û t͡ʃ
 пучанин	p ǔː t͡ʃ a n i n
-пучанка	p ǔː t͡ʃ aː ŋ k a
+пучанка	p ǔː t͡ʃ aː n k a
 пучанство	p u t͡ʃ ǎː n s t ʋ o
 пучина	p ǔ t͡ʃ i n a
 пучист	p ǔ t͡ʃ i s t
@@ -15794,6 +15809,7 @@
 раздјељивати	r a z d j e ʎ ǐː ʋ a t i
 разилазак	r a z ǐ l a z a k
 разилазити	r a z ǐ l a z i t i
+разина	r ǎ z i n a
 разићи	r ǎ z iː t͡ɕ i
 разлабавити	r ǎ z l a b a ʋ i t i
 разлагати	r a z l ǎː ɡ a t i
@@ -16202,7 +16218,7 @@
 резултатски	r e z ǔ l t aː t s k i
 резултатски	r e z ǔ l t aː t s k iː
 резултирати	r e z u l t ǐː r a t i
-реинкарнација	r e i ŋ k a r n ǎː t͡s i j a
+реинкарнација	r e i n k a r n ǎː t͡s i j a
 реинкарнирати	r e i n k a r n ǐː r a t i
 реинтродукција	r e i n t r o d ǔ k t͡s i j a
 река	r ěː k a
@@ -16450,7 +16466,6 @@
 рођење	r o d͡ʑ ěː ɲ e
 ројалист	r o j ǎ l i s t
 ројалистички	r o j a l ǐ s t i t͡ʃ k iː
-рт	r̩̂ t
 ртањ	r̂ t a ɲ
 руанда	r ǔ aː n d a
 руанђанин	r u ǎː n d͡ʑ a n i n
@@ -16612,7 +16627,7 @@
 рјешив	r j ě ʃ i ʋ
 с	s
 с́	ɕ
-с́евер	ç ê ʋ e r
+с́евер	ɕ ê ʋ e r
 с́утра	ɕ û t r a
 сабах	s a b a x
 сабах	s ǎ b aː x
@@ -16634,6 +16649,7 @@
 саблазнити	s a b l ǎː z n i t i
 сабласно	s â b l aː s n o
 сабласност	s â b l aː s n oː s t
+сабласт	s â b l aː s t
 сабластан	s â b l aː s t a n
 сабор	s ǎː b o r
 сабориште	s ǎ b o r iː ʃ t e
@@ -16890,9 +16906,9 @@
 самљети	s ǎ m ʎ e t i
 сан	s â n
 сангвиник	s a n ɡ ʋ ǐ n i k
-сангрија	s a ŋ ɡ r ǐ j a
+сангрија	s a n ɡ r ǐ j a
 сандаловина	s ǎ n d a l o ʋ i n a
-санкција	s ǎ ŋ k t͡s i j a
+санкција	s ǎ n k t͡s i j a
 санскртски	s ǎ n s k r̩ t s k iː
 саобраћај	s â o b r a t͡ɕ aː j
 саоне	s â o n e
@@ -17468,9 +17484,9 @@
 син	s îː n
 синагога	s i n a ɡ ǒː ɡ a
 синак	s î n a k
-сингапур	s ǐ ŋ ɡ a p uː r
+сингапур	s ǐ n ɡ a p uː r
 сингл	s ǐ n ɡ l
-синглица	s î ŋ ɡ l i t͡s a
+синглица	s î n ɡ l i t͡s a
 синдикализам	s i n d i k a l ǐ z a m
 синдикат	s i n d ǐ k aː t
 синдром	s ǐ n d r oː m
@@ -17631,6 +17647,7 @@
 склероза	s k l e r ǒː z a
 склеротичан	s k l e r ǒ t i t͡ʃ a n
 склон	s k l ô n
+склонидба	s k l ǒ n i d b a
 склонити	s k l ǒ n i t i
 склониште	s k l ô n iː ʃ t e
 склоност	s k l ô n oː s t
@@ -17932,7 +17949,7 @@
 смоква	s m ô k ʋ a
 смоквик	s m ǒ k ʋ iː k
 смоквин	s m ô k ʋ i n
-смокинг	s m ǒ k i ŋ ɡ
+смокинг	s m ǒ k i n ɡ
 смоков	s m ǒ k o ʋ
 смотак	s m ô t a k
 смотати	s m ǒ t a t i
@@ -18432,6 +18449,7 @@
 стогодишњица	s t o ɡ ǒ d i ʃ ɲ i t͡s a
 столац	s t ǒ l a t͡s
 столећима	s t ǒ l e t͡ɕ i m a
+столица	s t ǒ l i t͡s a
 столчић	s t ǒː l t͡ʃ i t͡ɕ
 столњак	s t ôː l ɲ aː k
 стомак	s t ô m aː k
@@ -19205,6 +19223,7 @@
 ткогод	t k ǒ ɡ o d
 тло	t l ô
 тмаст	t m â s t
+тмина	t m î n a
 тмуран	t m ǔː r a n
 тоалет	t o ǎ l e t
 тобоже	t ǒ b o ʒ e
@@ -19252,6 +19271,7 @@
 топломер	t ô p l o m eː r
 топломјер	t ô p l o m j eː r
 топлота	t o p l ǒ t a
+топола	t o p ǒ l a
 топологија	t o p o l ǒ ɡ i j a
 тополошки	t o p ǒ l o ʃ k iː
 топоним	t o p ǒ n iː m
@@ -19485,7 +19505,6 @@
 третирати	t r e t ǐː r a t i
 третман	t r ě t m aː n
 треф	t r ê f
-треш	t r ê ʃ
 трење	t r ěː ɲ e
 трећи	t r ê t͡ɕ iː
 трећина	t r e t͡ɕ ǐ n a
@@ -19722,7 +19741,7 @@
 туђ	t û d͡ʑ
 туђина	t u d͡ʑ ǐ n a
 туђинац	t u d͡ʑ ǐː n a t͡s
-туђинка	t ǔ d͡ʑ iː ŋ k a
+туђинка	t ǔ d͡ʑ iː n k a
 туђица	t ǔ d͡ʑ i t͡s a
 туђман	t û d͡ʑ m a n
 туљан	t ǔ ʎ a n
@@ -19791,6 +19810,7 @@
 уверен	ǔ ʋ e r e n
 уверење	u ʋ e r ěː ɲ e
 уверити	ǔ ʋ e r i t i
+увертира	u ʋ e r t ǐː r a
 уверљив	u ʋ ě r ʎ i ʋ
 уверљиво	u ʋ ě r ʎ i ʋ o
 уверљивост	u ʋ ě r ʎ i ʋ oː s t
@@ -20447,8 +20467,8 @@
 училиште	ǔ t͡ʃ i l iː ʃ t e
 учинак	ǔ t͡ʃ i n a k
 учинити	u t͡ʃ ǐ n i t i
-учинковит	u t͡ʃ i ŋ k ǒ ʋ i t
-учинковито	u t͡ʃ i ŋ k ǒ ʋ i t o
+учинковит	u t͡ʃ i n k ǒ ʋ i t
+учинковито	u t͡ʃ i n k ǒ ʋ i t o
 учионица	u t͡ʃ i ǒː n i t͡s a
 учитељ	ǔ t͡ʃ i t e ʎ
 учитељски	ǔ t ʃ i t e ʎ s k i
@@ -20791,11 +20811,11 @@
 фундаменталан	f û n d a m e n t aː l a n
 фундаментализам	f u n d a m e n t a l ǐ z a m
 фундаменталистички	f u n d a m e n t a l ǐ s t i t͡ʃ k iː
-функционалан	f û ŋ k t͡s i o n aː l a n
-функционализам	f u ŋ k t͡s i o n a l ǐ z a m
-функционално	f ǔ ŋ k t͡s i o n aː l n o
-функционирати	f u ŋ k t͡s i o n ǐː r a t i
-функција	f ǔ ŋ k t͡s i j a
+функционалан	f û n k t͡s i o n aː l a n
+функционализам	f u n k t͡s i o n a l ǐ z a m
+функционално	f ǔ n k t͡s i o n aː l n o
+функционирати	f u n k t͡s i o n ǐː r a t i
+функција	f ǔ n k t͡s i j a
 фунта	f ûː n t a
 фуриозан	f û r i oː z a n
 фуриозно	f û r i oː z n o
@@ -21048,7 +21068,7 @@
 холандија	x o l ǎ n d i j a
 холандски	x ǒ l a n d s k iː
 холанђанин	x o l ǎː n d͡ʑ a n i n
-холанђанка	x o l ǎː n d͡ʑ aː ŋ k a
+холанђанка	x o l ǎː n d͡ʑ aː n k a
 холистички	x o l ǐ s t i t͡ʃ k i
 холистички	x o l ǐ s t i t͡ʃ k iː
 холограф	x o l ǒ ɡ r a f
@@ -21261,7 +21281,7 @@
 цензор	t͡s ê n z o r
 цензура	t͡s e n z ǔː r a
 ценити	t͡s ěː n i t i
-ценкати	t͡s e ŋ k a t i
+ценкати	t͡s e n k a t i
 цент	t͡s ê n t
 центар	t͡s ê n t a r
 центарфор	t͡s ê n t a r f oː r
@@ -21312,7 +21332,7 @@
 цивилни	t͡s ǐ ʋ iː l n iː
 циганин	t͡s î ɡ a n i n
 циганити	t͡s i ɡ ǎː n i t i
-циганка	t͡s î ɡ aː ŋ k a
+циганка	t͡s î ɡ aː n k a
 цигански	t s î ɡ a n s k i
 цигански	t s î ɡ a n s k iː
 цигара	t͡s i ɡ ǎː r a
@@ -21338,7 +21358,7 @@
 циничан	t͡s ǐ n i t͡ʃ a n
 цинички	t s ǐ n i t ʃ k i
 цинички	t s ǐ n i t ʃ k iː
-цинк	t͡s î ŋ k
+цинк	t͡s î n k
 цио	t͡s î o
 ционизам	t͡s i o n ǐ z a m
 ципела	t͡s ǐ p e l a
@@ -21385,7 +21405,7 @@
 црвен	t s ř ʋ e n
 црвендаћ	t͡s r ʋ ě n d aː t͡ɕ
 црвенити	t͡s r ʋ ě n i t i
-црвенкаст	t͡s r̩ ʋ ě ŋ k a s t
+црвенкаст	t͡s r̩ ʋ ě n k a s t
 црвенокос	t͡s r ʋ e n ǒ k o s
 црвенперка	t͡s r ʋ ě n p eː r k a
 црвењети	t͡s r ʋ ě ɲ e t i
@@ -21395,6 +21415,7 @@
 цревни	t͡s r êː ʋ n iː
 цревља	t͡s r ê ʋ ʎ a
 цријевни	t͡s r i j êː ʋ n iː
+цријево	t͡s r i j ěː ʋ o
 цркавати	t͡s r k ǎː ʋ a t i
 црква	t͡s r̩̂ː k ʋ a
 црквен	t͡s ř k ʋ e n
@@ -21438,7 +21459,7 @@
 цјелокупан	t͡s j e l ǒ k u p a n
 цјелокупно	t͡s j e l ǒ k u p n o
 цјеник	t͡s j ě n iː k
-цјенкати	t͡s j e ŋ k a t i
+цјенкати	t͡s j e n k a t i
 цјепидлака	t͡s j e p ǐ d l a k a
 цјепидлачити	t͡s j e p ǐ d l a t͡ʃ i t i
 цјепкати	t͡s j ê p k a t i
@@ -21448,7 +21469,6 @@
 чавчји	t͡ʃ â ʋ t͡ʃ j iː
 чагаљ	t͡ʃ ǎ ɡ a ʎ
 чад	t͡ʃ âː d
-чадор	t ʃ â d o r
 чак	t͡ʃ â k
 чакавац	t͡ʃ ǎː k a ʋ a t͡s
 чакавизам	t͡ʃ a k a ʋ ǐ z a m
@@ -21556,7 +21576,6 @@
 често	t͡ʃ êː s t o
 чета	t͡ʃ ê t a
 четверокут	t͡ʃ ê t ʋ e r o k uː t
-четвероношке	t͡ʃ e t ʋ e r ǒ n o ʃ k eː
 четворица	t͡ʃ e t ʋ ǒ r i t͡s a
 четворка	t͡ʃ ě t ʋ oː r k a
 четвртак	t͡ʃ e t ʋ ř̩ː t a k
@@ -21598,6 +21617,7 @@
 чиновништво	t͡ʃ i n o ʋ n ǐː ʃ t ʋ o
 чип	t͡ʃ î p
 чипка	t͡ʃ î p k a
+чир	t͡ʃ î r
 чирак	t ʃ ǐ r aː k
 число	t͡ʃ ǐː s l o
 чист	t͡ʃ î s t
@@ -21609,9 +21629,8 @@
 чистост	t͡ʃ î s t oː s t
 чистота	t͡ʃ i s t ǒ t a
 чистоћа	t͡ʃ i s t ǒ t͡ɕ a
-читав	t͡ʃ î t a ʋ
 читак	t͡ʃ î t a k
-читанка	t͡ʃ ǐ t aː ŋ k a
+читанка	t͡ʃ ǐ t aː n k a
 читаоница	t͡ʃ i t a ǒː n i t͡s a
 читати	t͡ʃ ǐ t a t i
 читање	t͡ʃ ǐ t aː ɲ e
@@ -21737,6 +21756,7 @@
 шанк	ʃ â n k
 шапа	ʃ ǎː p a
 шапат	ʃ â p aː t
+шапка	ʃ â p k a
 шапнути	ʃ ǎ p n u t i
 шаптати	ʃ ǎ p t a t i
 шаптач	ʃ ǎ p t aː t͡ʃ
@@ -21794,6 +21814,7 @@
 швицарски	ʃ ʋ î t͡s a r s k iː
 шврака	ʃ ʋ r â k a
 швракопис	ʃ ʋ r â k o p iː s
+шврљати	ʃ ʋ ř̩ː ʎ a t i
 шева	ʃ ěː ʋ a
 шевал	ʃ ě ʋ aː l
 шегрт	ʃ ě ɡ r t
@@ -22061,12 +22082,13 @@
 шокирати	ʃ o k ǐː r a t i
 шол	ʃ ôː l
 шопати	ʃ ô p a t i
-шопинг	ʃ ǒ p i ŋ ɡ
+шопинг	ʃ ǒ p i n ɡ
 шос	ʃ ô s
 шоу	ʃ ô u
 шофер	ʃ ǒ f eː r
 шоц	ʃ ô t͡s
 шоштар	ʃ ô ʃ t aː r
+шојка	ʃ ôː j k a
 шоља	ʃ ǒː ʎ a
 шпага	ʃ p ǎː ɡ a
 шпада	ʃ p âː d a
@@ -22126,11 +22148,11 @@
 шписбиргер	ʃ p îː s b i r ɡ e r
 шписер	ʃ p ǐː s e r
 шпиц	ʃ p î t͡s
-шпицанге	ʃ p î t͡s aː ŋ ɡ e
+шпицанге	ʃ p î t͡s aː n ɡ e
 шпицбарт	ʃ p î t͡s b aː r t
 шпицл	ʃ p ǐ t͡s l
 шпицнаме	ʃ p î t͡s n aː m e
-шпиццанге	ʃ p î t͡s t͡s aː ŋ ɡ e
+шпиццанге	ʃ p î t͡s t͡s aː n ɡ e
 шпијати	ʃ p ǐ j a t i
 шпијун	ʃ p ǐ j uː n
 шпијунирати	ʃ p i j u n ǐː r a t i
@@ -22379,7 +22401,6 @@
 ђул	d͡ʑ ûː l
 ђуле	d͡ʑ û l e
 ђунах	d͡ʑ ǔ n aː x
-ј	j
 ја	j â
 ја	j âː
 јаблан	j â b l aː n
@@ -22782,7 +22803,6 @@
 људство	ʎ ǔ d s t ʋ o
 љупко	ʎ û p k o
 љупкост	ʎ û p k oː s t
-љут	ʎ ûː t
 љутити	ʎ ǔː t i t i
 љуто	ʎ ûː t o
 љутња	ʎ ǔː t ɲ a
@@ -22931,8 +22951,9 @@
 џинс	d͡ʒ îː n s
 џихад	d͡ʒ ǐ x aː d
 џиџа	d͡ʒ ǐː d͡ʒ a
-џогинг	d͡ʒ ǒ ɡ i ŋ ɡ
+џогинг	d͡ʒ ǒ ɡ i n ɡ
 џоинт	d͡ʒ ǒ i n t
 џокер	d͡ʒ ǒ k e r
 џокеј	d͡ʒ ǒ k eː j
 џудо	d͡ʒ û d o
+џукела	d͡ʒ ǔ k e l a

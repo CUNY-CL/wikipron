@@ -25,6 +25,8 @@ abadau	a b aː ɛ
 abades	a b aː d ɛ s
 abadesau	a b a d ɛ s a i̯
 abadesau	a b a d ɛ s ɛ
+aball	aː b a ɬ
+aballu	a b a ɬ i
 abatai	a b a t a i̯
 abathocroalaidd	a b a θ ɔ k r ɔ a l a i̯ ð
 abathocroalaidd	a b a θ ɔ k r ɔ aː l a i̯ ð
@@ -54,6 +56,8 @@ aberteifi	a b ɛ r t e i̯ v i
 aberteifi	a b ɛ r t iː v i
 aberth	a b ɛ r θ
 aberth	aː b ɛ r θ
+aberthaf	a b ɛ r θ a
+aberthaf	a b ɛ r θ a v
 aberthau	a b ɛ r θ a i̯
 aberthau	a b ɛ r θ ɛ
 aberthged	a b ɛ r θ ɡ ɛ d
@@ -72,6 +76,8 @@ abladol	a b l a d ɔ l
 abladol	a b l aː d ɔ l
 abostol	a b ɔ s d ɔ l
 absen	a b s ɛ n
+absennaf	a b s ɛ n a
+absennaf	a b s ɛ n a v
 absennau	a b s ɛ n ɛ
 absennau	a b s ɛ n ɛ a i̯
 absennol	a b s ɛ n ɔ l
@@ -99,14 +105,20 @@ aceniadau	a k ɛ n j a d ɛ
 aceniadau	a k ɛ n j aː d a i̯
 aceniadau	a k ɛ n j aː d ɛ
 acenion	a k ɛ n j ɔ n
+acennaf	a k ɛ n a
+acennaf	a k ɛ n a v
 acennu	a k ɛ n i
 acer	a k ɛ r
+aceri	a k eː r i
+aceri	a k ɛ r ɪ
 ach	a χ
 ach	aː χ
 acha	aː χ a
 achan	a χ a n
 achan	aː χ a n
 achles	a χ l ɛ s
+achlesaf	a χ l ɛ s a
+achlesaf	a χ l ɛ s a v
 achlesau	a χ l ɛ s a i̯
 achlesau	a χ l ɛ s ɛ
 achlesu	a χ l ɛ s i
@@ -120,6 +132,8 @@ achlysuron	a χ l ə s ɪ r ɔ n
 achoedd	aː χ ɔ i̯ ð
 achos	aː χ ɔ s
 achos	χ ɔ s
+achosaf	a χ ɔ s a
+achosaf	a χ ɔ s a v
 achosi	a χ ɔ s i
 achosion	a χ ɔ s j ɔ n
 achosion	a χ ɔ ʃ ɔ n
@@ -155,6 +169,8 @@ act	a k t
 actau	a k t a i̯
 actau	a k t ɛ
 acti	a k t i
+actiaf	a k t j a
+actiaf	a k t j a v
 actiniwm	a k t ɪ n j ʊ m
 actio	a k t j ɔ
 actor	a k t ɔ r
@@ -204,8 +220,10 @@ adaryddion	a d a r ə ð j ɔ n
 adawed	a d a u̯ ɛ d
 adborth	a d b ɔ r θ
 adborthion	a d b ɔ r θ j ɔ n
+adda	a ð a
 addas	aː ð a s
 addasiad	a ð a s j a d
+addasiad	a ð a ʃ a d
 addasrwydd	a ð a s r ʊ i̯ ð
 addasu	a ð a s i
 addawa	a ð a u̯ a
@@ -219,9 +237,12 @@ addefiad	a ð ɛ v j a d
 addewid	a ð ɛ u̯ ɪ d
 addfwyn	a ð v ʊ i̯ n
 addfwynder	a ð v ʊ i̯ n d ɛ r
+addien	a ð i ɛ n
 addo	aː ð ɔ
 addoldy	a ð ɔ l d i
 addolgar	a ð ɔ l ɡ a r
+addoli	a ð oː l i
+addoli	a ð ɔ l i
 addoliad	a ð ɔ l j a d
 addolwr	a ð oː l ʊ r
 addolwr	a ð ɔ l ʊ r
@@ -467,11 +488,14 @@ aeaf	e i̯ a
 aeaf	e i̯ a v
 aech	a i̯ χ
 aed	a i̯ d
+aeddan	e i̯ ð a n
 aeddfed	e i̯ ð v ɛ d
 aeddfedrwydd	e i̯ ð v ɛ d r ʊ i̯ ð
 aeddfedu	e i̯ ð v eː d i
 aeddfedu	e i̯ ð v ɛ d i
+aeddon	e i̯ ð ɔ n
 ael	a i̯ l
+aelan	e i̯ l a n
 aeled	e i̯ l ɛ d
 aeledau	e i̯ l eː d ɛ
 aeledau	e i̯ l ɛ d a i̯
@@ -488,23 +512,29 @@ aelodau	e i̯ l oː d a i̯
 aelodau	e i̯ l oː d ɛ
 aelodau	e i̯ l ɔ d a i̯
 aelodau	e i̯ l ɔ d ɛ
+aelwen	e i̯ l w ɛ n
 aelwyd	e i̯ l ʊ i̯ d
 aelwydydd	e i̯ l ʊ i̯ d ɪ ð
+aelwyn	e i̯ l w ɪ n
 aem	a i̯ m
 aen	a i̯ n
 aent	a i̯ n t
 aer	a i̯ r
 aer	aː r
 aeres	e i̯ r ɛ s
+aerfen	e i̯ r v ɛ n
 aerobeg	e i̯ r oː b ɛ ɡ
 aerobeg	e i̯ r ɔ b ɛ ɡ
 aerobig	e i̯ r oː b ɪ ɡ
 aerobig	e i̯ r ɔ b ɪ ɡ
 aeron	e i̯ r ɔ n
+aerona	e i̯ r oː n a
 aeronen	e i̯ r oː n ɛ n
 aeronen	e i̯ r ɔ n ɛ n
 aeronog	e i̯ r oː n ɔ ɡ
 aeronog	e i̯ r ɔ n ɔ ɡ
+aeronwen	e i̯ r ɔ n
+aeronwy	e i̯ r ɔ n ʊ i̯
 aerwy	e i̯ r ʊ i̯
 aet	a i̯ t
 aeth	a i̯ θ
@@ -529,6 +559,7 @@ aethpwyd	e i̯ θ p ʊ i̯ d
 aethus	e i̯ θ ɪ s
 aethus	iː θ ɪ s
 aethwn	e i̯ θ ʊ n
+aethwy	e i̯ θ ʊ i̯
 aetsh	a i̯ t ʃ
 aetshys	e i̯ t ʃ ɪ z
 af	aː
@@ -543,6 +574,8 @@ afalau	v aː l ɛ
 afallen	a v a ɬ ɛ n
 afallennau	a v a ɬ ɛ n a i̯
 afallennau	a v a ɬ ɛ n ɛ
+afallon	a v a ɬ ɔ n
+afan	a v a n
 afan	aː v a n
 afanc	aː v a ŋ k
 afancod	a v a ŋ k ɔ d
@@ -553,6 +586,7 @@ affelion	a f ɛ l j ɔ n
 affganistan	a f ɡ a n ɪ s d a n
 affliw	a f l ɪ u̯
 affrica	a f r ɪ k a
+affrig	a f r ɪ ɡ
 affwys	a f ʊ i̯ s
 affwysau	a f ʊ i̯ s a i̯
 affwysau	a f ʊ i̯ s ɛ
@@ -575,11 +609,14 @@ aflonydd	a v l ɔ n ɪ ð
 aflonyddu	a v l ɔ n ə ð i
 aflonyddwch	a v l ɔ n ə ð ʊ χ
 aflonyddwr	a v l ɔ n ə ð ʊ r
+afloyw	a v l ɔ i̯ u
+aflun	a v l ɪ n
 afluniaidd	a v l ɨ̞ n j a i̯ ð
 aflwydd	a v l ʊ i̯ ð
 aflwyddiannus	a v l ʊ i̯ ð j a n ɪ s
 aflwyddiant	a v l ʊ i̯ ð j a n t
 aflwyddo	a v l ʊ i̯ ð ɔ
+aflym	a v l ɪ m
 aflêr	a v l eː r
 afocado	a v ɔ k a d ɔ
 afocado	a v ɔ k aː d ɔ
@@ -595,6 +632,7 @@ afonig	a v oː n ɪ ɡ
 afonig	a v ɔ n ɪ ɡ
 afonol	a v oː n ɔ l
 afonol	a v ɔ n ɔ l
+afonwy	a v ɔ n ʊ i̯
 afonydd	a v oː n ɪ ð
 afonydd	a v ɔ n ɪ ð
 afr	a v a r
@@ -642,6 +680,8 @@ agerlongau	a ɡ ɛ r l ɔ ŋ a i̯
 agerlongau	a ɡ ɛ r l ɔ ŋ ɛ
 ageru	a ɡ eː r i
 ageru	a ɡ ɛ r i
+agnes	a ɡ n ɪ s
+agnest	a ɡ n ɛ s t
 agor	aː ɡ ɔ r
 agora	a ɡ oː r a
 agora	a ɡ ɔ r a
@@ -677,7 +717,9 @@ agweddi	a ɡ w ɛ ð i
 agweddïau	a ɡ w ɛ ð iː a i̯
 agweddïau	a ɡ w ɛ ð iː ɛ
 ai	a i̯
+aidan	e i̯ d ə n
 aidd	a i̯ ð
+aiden	e i̯ d ə n
 aiff	a i̯ f
 aifft	a i̯ f d
 aifft	ə r a i̯ f d
@@ -693,12 +735,14 @@ ais	a i̯ s
 ait	a i̯ t
 alan	a l a n
 alan	aː l a n
+alana	a l a n a
 alannon	a l a n ɔ n
 alar	a l a r
 alar	aː l a r
 alarch	aː l a r χ
 alaw	a l a u̯
 alaw	aː l a u̯
+alawn	a l a u̯ n
 alban	a l b a n
 alban	ə r a l b a n
 albanau	a l b a n a i̯
@@ -708,8 +752,18 @@ albanau	a l b aː n ɛ
 albaneg	a l b a n ɛ ɡ
 albania	a l b a n j a
 albwm	a l b ʊ m
+alcali	a l k a l i
 alcohol	a l k ɔ h ɔ l
+alcwyn	a l k ʊ i̯ n
+aldith	a l d ɪ θ
+aldrydd	a l d r ə ð
+aldwyn	a l d ʊ i̯ n
+aldwyth	a l d ʊ i̯ θ
+aldyth	a l d ɪ θ
+alec	a l ɪ k
+aled	a l ɛ d
 alfarch	a l v a r χ
+alis	a l ɪ s
 all	aː ɬ
 alla	a ɬ a
 allai	a ɬ a i̯
@@ -740,7 +794,12 @@ alli	a ɬ i
 allo	a ɬ ɔ
 allor	a ɬ ɔ r
 allt	a ɬ d
+alltraw	a ɬ t r a u̯
+alltro	a ɬ d r ɔ
+alltroëdig	a ɬ t r ɔ eː d ɪ ɡ
+alltroëdig	a ɬ t r ɔ ɛ d ɪ ɡ
 alltud	a ɬ d ɪ d
+alltwen	a ɬ t w ɛ n
 allwedd	a ɬ w ɛ ð
 allwedd	a ɬ w ɛ θ
 allweddell	a ɬ w eː ð ɛ ɬ
@@ -748,8 +807,10 @@ allweddell	a ɬ w ɛ ð ɛ ɬ
 allweddellau	a ɬ w ɛ ð ɛ ɬ a i̯
 allweddellau	a ɬ w ɛ ð ɛ ɬ ɛ
 allwthio	a ɬ ʊ θ j ɔ
+allwyd	a ɬ ʊ i̯ d
 almaen	a l m a i̯ n
 almaen	ə r a l m a i̯ n
+almaen	ə r a l m a ɨ̯ n
 almaeneg	a l m e i̯ n ɛ ɡ
 almaenwr	a l m e i̯ n ʊ r
 almanac	a l m a n a k
@@ -760,12 +821,23 @@ almonau	a l m oː n a i̯
 almonau	a l m oː n ɛ
 almonau	a l m ɔ n a i̯
 almonau	a l m ɔ n ɛ
+aloi	a l o i̯
+alon	a l ɔ n
+alon	aː l ɔ n
+alun	a l ɪ n
+aluna	a l ɪ n a
+alwen	a l w ɛ n
+alwena	a l w ɛ n a
+alwina	a l w ɪ n a
 alwminiwm	a l ʊ m ɪ n j ʊ m
+alwyn	a l ʊ i̯ n
 alys	a l ɪ s
 am	a m
 amaethyddiaeth	a m e i̯ θ ə ð j a i̯ θ
 amaethyddiaeth	a m e i̯ θ ə ð j ɛ θ
+aman	a m a n
 amanita	a m a n ɪ t a
+amanwy	a m a n ʊ i̯
 amau	a m ɛ
 ambell	a m b ɛ ɬ
 ambeutu	a m b e i̯ t i
@@ -817,10 +889,18 @@ amheuaeth	a m h e i̯ a i̯ θ
 amheuaeth	a m h e i̯ ɛ θ
 amheuaf	a m h e i̯ a
 amheuaf	a m h e i̯ a v
+amheus	a m h e ɪ s
+amhosib	a m h ɔ s ɪ b
+amig	a m ɪ ɡ
 amlach	a m l a χ
+amlawdd	a m l a u̯ ð
 amlen	a m l ɛ n
+amlodd	a m l oː ð
 amlwg	a m l ʊ ɡ
 amlygu	a m l ə ɡ i
+amlyn	a m l ɪ n
+amnaid	a m n a i̯ d
+amnaid	a m n ɛ d
 amnewid	a n n ɛ u̯ ɪ d
 amobr	a m ɔ b r
 amod	a m ɔ d
@@ -831,10 +911,12 @@ amodau	a m ɔ d ɛ
 amodi	a m oː d i
 amodi	a m ɔ d i
 amodiad	a m ɔ d j a d
+amos	a m ɔ s
 amrannau	a m r a n a i̯
 amrannau	a m r a n ɛ
 amrant	a m r a n t
 amrantiad	a m r a n t j a d
+amranwen	a m r a n w ɛ n
 amrwd	a m r ʊ d
 amrwymo	a m r ʊ i̯ m ɔ
 amryw	a m r ɪ u̯
@@ -863,6 +945,8 @@ amserlen	a m s ɛ r l ɛ n
 amserlenni	a m s ɛ r l ɛ n i
 amseroedd	a m s eː r ɔ i̯ ð
 amseroedd	a m s ɛ r ɔ i̯ ð
+amwys	a m ʊ ɨ s
+amwysedd	a m w ɨ s ɛ ð
 amwythig	a m ʊ i̯ θ ɪ ɡ
 anabl	a n a b l
 anabl	aː n a b l
@@ -895,19 +979,29 @@ anafiadau	a n a v j aː d a i̯
 anafiadau	a n a v j aː d ɛ
 anafu	a n aː v i
 anaml	aː n a m l
+anarawd	a n a r a u̯ d
 anawsterau	a n a u̯ s d eː r a i̯
 anawsterau	a n a u̯ s d eː r ɛ
 anawsterau	a n a u̯ s d ɛ r a i̯
 anawsterau	a n a u̯ s d ɛ r ɛ
+andras	a n d r a s
+andreas	a n d r ɛ a s
+andro	a n d r oː
+androw	a n d r o u̯
+aneira	a n e i̯ r a
 aneiri	a n e i̯ r i
+aneirin	a n e i̯ r ɪ n
 aneiriol	a n e i̯ r j ɔ l
 aneirod	a n e i̯ r ɔ d
+aneirwen	a n e i̯ r w ɛ n
 anelu	a n eː l i
 anelu	a n ɛ l i
+anes	a n ɛ s
 anesboniadwy	a n ɛ s b ɔ n j a d ʊ i̯
 anesboniadwy	a n ɛ s b ɔ n jː d ʊ i̯
 anesgusodol	a n ɛ s ɡ ɪ s oː d ɔ l
 anesgusodol	a n ɛ s ɡ ɪ s ɔ d ɔ l
+anest	a n ɛ s t
 aneurin	a n e i̯ r ɪ n
 anfantais	a n v a n t a i̯ s
 anfantais	a n v a n t ɛ s
@@ -925,12 +1019,14 @@ anfoesol	a n v ɔ i̯ s ɔ l
 anfon	a n v ɔ n
 anfonaf	a n v oː n a v
 anfonaf	a n v ɔ n a v
+anfwriadol	a n v ʊ r j a d ɔ l
 anfynych	a n v ə n ɪ χ
 angall	a ŋ a ɬ
 angau	a ŋ a i̯
 angau	a ŋ ɛ
 angel	a ŋ a l
 angel	a ŋ ɛ l
+angell	a n ɡ ɛ ɬ
 angen	a ŋ ɛ n
 angenrheidiol	a ŋ ɛ n r̥ e i̯ d j ɔ l
 angenrheidrwydd	a ŋ ɛ n r̥ e i̯ d r ʊ i̯ ð
@@ -954,6 +1050,10 @@ anghofrwydd	a ŋ h ɔ v r ʊ i̯ ð
 anghofus	a ŋ h oː v ɪ s
 anghofus	a ŋ h ɔ v ɪ s
 anghofuster	a ŋ h ɔ v ɪ s d ɛ r
+anghredadwy	a ŋ h r ɛ d a d u
+anghredadwy	a ŋ h r ɛ d a d ʊ i̯
+anghredadwy	a ŋ h r ɛ d aː d u
+anghredadwy	a ŋ h r ɛ d aː d ʊ i̯
 anghydfod	a ŋ h ə d v ɔ d
 anghydfodau	a ŋ h ə d v oː d a i̯
 anghydfodau	a ŋ h ə d v oː d ɛ
@@ -1028,11 +1128,13 @@ anheddau	a n h eː ð a i̯
 anheddau	a n h eː ð ɛ
 anheddau	a n h ɛ ð a i̯
 anheddau	a n h ɛ ð ɛ
+anhryloyw	a n h r ə l ɔ i̯ u
 anhwylder	a n h ʊ i̯ l d ɛ r
 anhwylderau	a n h ʊ i̯ l d eː r a i̯
 anhwylderau	a n h ʊ i̯ l d eː r ɛ
 anhwylderau	a n h ʊ i̯ l d ɛ r a i̯
 anhwylderau	a n h ʊ i̯ l d ɛ r ɛ
+anhyblyg	a n h ə b l ɪ ɡ
 anhygoel	a n h ə ɡ ɔ i̯ l
 anhysbys	a n h ə s b ɪ s
 anial	a n j a l
@@ -1055,6 +1157,7 @@ animeiddiadau	a n ɪ m e i̯ ð j j aː d ɛ
 animeiddio	a n ɪ m e i̯ ð j ɔ
 animeiddiwr	a n ɪ m e i̯ ð j ʊ r
 animeiddwyr	a n ɪ m e i̯ ð w ɪ r
+anlawdd	a n l a u̯ ð
 anlwc	a n l ʊ k
 anlwcus	a n l ʊ k ɪ s
 annedd	a n a ð
@@ -1062,12 +1165,18 @@ annedd	a n ɛ ð
 anner	a n ɛ r
 annerbyniol	a n ɛ r b ə n j o l
 annerch	a n ɛ r χ
+annes	a n ɛ s
+annest	a n ɛ s t
 annhebyg	a n h eː b ɪ ɡ
 annhebyg	a n h ɛ b ɪ ɡ
 annhebygol	a n h ɛ b ə ɡ ɔ l
 annhebygrwydd	a n h ɛ b ə ɡ r ʊ i̯ ð
 annheg	a n h eː ɡ
 annherfynol	a n h ɛ r v ə n ɔ l
+annibynadwy	a n ɪ b ə n a d u
+annibynadwy	a n ɪ b ə n a d ʊ i̯
+annibynadwy	a n ɪ b ə n aː d u
+annibynadwy	a n ɪ b ə n aː d ʊ i̯
 anniddorol	a n ɪ ð oː r ɔ l
 anniddorol	a n ɪ ð ɔ r ɔ l
 annoeth	a n ɔ i̯ θ
@@ -1125,7 +1234,9 @@ anweddus	a n w ɛ ð ɪ s
 anweladwy	a n w ɛ l aː d ʊ i̯
 anweledig	a n w ɛ l eː d ɪ ɡ
 anweledig	a n w ɛ l ɛ d ɪ ɡ
+anwes	a n w a s
 anwes	a n w ɛ s
+anwir	a n w ɪ r
 anwybod	a n w ɪ b ɔ d
 anwybod	a n ʊ i̯ b ɔ d
 anwybodus	a n w ɪ b oː d ɪ s
@@ -1205,6 +1316,8 @@ arddaf	a r ð a v
 arddangos	a r ð a ŋ ɡ ɔ s
 arddangosfa	a r ð a ŋ ɡ ɔ s v a
 arddangosfeydd	a r ð a ŋ ɡ ɔ s v e i̯ ð
+arddansoddiad	a r ð a n s ɔ ð j a d
+arddansoddiaeth	a r ð a n s ɔ ð j ɛ θ
 arddel	a r ð ɛ l
 arddelw	a r ð ɛ l
 arddelw	a r ð ɛ l u
@@ -1307,10 +1420,18 @@ arholiadau	a r ɔ l j a d ɛ
 arholiadau	a r ɔ l j aː d ɛ
 arhosa	a r h ɔ s a
 arhosaf	a r h ɔ s a v
+arhosais	a r h ɔ s a i̯ s
+arhosais	a r h ɔ s ɛ s
+arhosaist	a r h ɔ s a i̯ s t
+arhosaist	a r h ɔ s ɛ s t
 arhosan	a r h ɔ s a n
 arhosfa	a r h ɔ s v a
+arhosiad	a r h ɔ s j a d
+arhosiad	a r h ɔ ʃ a d
+arhosle	a r h ɔ s l ɛ
 arhosoch	a r h ɔ s ɔ χ
 arhosodd	a r h ɔ s ɔ ð
+arhosol	a r h ɔ s ɔ l
 arhoson	a r h ɔ s ɔ n
 arhoswch	a r h ɔ s ʊ χ
 arial	a r j a l
@@ -1320,6 +1441,7 @@ ariannin	ə r a r j a n ɪ n
 ariannog	a r j a n ɔ ɡ
 ariannwr	a r j a n ʊ r
 arianrhod	a r j a n r̥ ɔ d
+arlais	a r l a i̯ s
 arllwys	a r ɬ ʊ i̯ s
 arllwys	a r ɬ ʊ s
 arllwysaf	a r ɬ ʊ i̯ s a
@@ -1342,7 +1464,9 @@ arnon	a r n ɔ n
 arnot	a r n ɔ t
 arnyn	a r n ɪ n
 arnynt	a r n ɪ n t
+arogl	a r ɔ ɡ l
 arogldarth	a r ɔ ɡ l d a r θ
+arogli	a r ɔ ɡ l i
 arolwg	a r oː l ʊ ɡ
 arolwg	a r ɔ l ʊ ɡ
 arolygiad	a r ɔ l ə ɡ j a d
@@ -1416,6 +1540,7 @@ arwynebeddau	a r ʊ i̯ n ɛ b eː ð a i̯
 arwynebeddau	a r ʊ i̯ n ɛ b eː ð ɛ
 arwynebeddau	a r ʊ i̯ n ɛ b ɛ ð a i̯
 arwynebeddau	a r ʊ i̯ n ɛ b ɛ ð ɛ
+arwynt	a r w ɪ n t
 arwyr	a r w ɪ r
 asbri	a s b r i
 asen	a s ɛ n
@@ -1433,6 +1558,7 @@ asesiadau	a s ɛ ʃ aː d ɛ
 asesu	a s ɛ s i
 aseswr	a s ɛ s ʊ r
 aseswyr	a s ɛ s w ɪ r
+aseth	a s ɛ θ
 asgell	a s ɡ ɛ ɬ
 asgellog	a s ɡ ɛ ɬ ɔ ɡ
 asgwrn	a s ɡ ʊ r n
@@ -1526,6 +1652,7 @@ atodiadau	a t ɔ d j aː d a i̯
 atodiadau	a t ɔ d j aː d ɛ
 atodlen	a t ɔ d l ɛ n
 atom	a t ɔ m
+atomig	a t ɔ m ɪ ɡ
 aton	a t ɔ n
 atot	a t ɔ t
 atsain	a t s a i̯ n
@@ -1547,6 +1674,8 @@ awdurdodau	a u̯ d ɪ r d oː d a i̯
 awdurdodau	a u̯ d ɪ r d oː d ɛ
 awdurdodau	a u̯ d ɪ r d ɔ d a i̯
 awdurdodau	a u̯ d ɪ r d ɔ d ɛ
+awdurol	a u̯ d iː r ɔ l
+awdurol	a u̯ d ɪ r ɔ l
 awduron	a u̯ d iː r ɔ n
 awduron	a u̯ d ɪ r ɔ n
 aweddwr	a u̯ ɛ ð ʊ r
@@ -1554,7 +1683,7 @@ aweddyfroedd	a u̯ ɛ ð ə v r ɔ i̯ ð
 awel	a u̯ ɛ l
 awen	a u̯ ɛ n
 awgrym	a u̯ ɡ r ɪ m
-awgrymiad	a u̯ ɡ r ə m j a d
+awgrymiad	a u̯ ɡ r ɪ m j a d
 awgrymiadau	a u̯ ɡ r ə m j a d a i̯
 awgrymiadau	a u̯ ɡ r ə m j a d ɛ
 awgrymiadau	a u̯ ɡ r ə m j aː d a i̯
@@ -1628,7 +1757,6 @@ bagiau	b a ɡ j ɛ
 baglu	b a ɡ l i
 bagét	b a ɡ ɛ t
 bagéts	b a ɡ ɛ t s
-bahamas	b a h a m a z
 bahamas	b a h aː m a z
 bai	b a i̯
 baich	b a i̯ χ
@@ -1696,6 +1824,7 @@ barcud	b a r k ɪ d
 barcutiaid	b a r k ɪ t j a i̯ d
 barcutiaid	b a r k ɪ t j ɛ d
 bardd	b a r ð
+barddas	b a r ð a s
 barddoniaeth	b a r ð ɔ n j a i̯ θ
 barf	b a r v
 barfau	b a r v a i̯
@@ -1707,6 +1836,7 @@ bargen	b a r ɡ ɛ n
 barhau	b a r h a i̯
 baris	b aː r ɪ s
 bariwm	b a r j ʊ m
+barlys	b a r l ɪ s
 barn	b a r n
 barnau	b a r n a i̯
 barnau	b a r n ɛ
@@ -1725,6 +1855,8 @@ bartïon	b a r t iː ɔ n
 barus	b a r ɪ s
 barus	b aː r ɪ s
 bas	b aː s
+basai	b a s a i̯
+basai	b a s ɛ
 basau	b a s a i̯
 basau	b a s ɛ
 basech	b a s ɛ χ
@@ -1755,6 +1887,7 @@ basŵn	b a s uː n
 bath	b aː θ
 bathau	b a θ a i̯
 bathau	b a θ ɛ
+bathawd	b aː θ a u̯ d
 bathdai	b a θ d a i̯
 bathdy	b a θ d i
 bathodyn	b a θ oː d ɪ n
@@ -1786,6 +1919,8 @@ bedw	b eː d u
 bedw	b ɛ d u
 bedwar	b ɛ d w a r
 bedwen	b ɛ d w ɛ n
+bedydd	b eː d ɪ ð
+bedydd	b ɛ d ɪ ð
 bei	b e i
 beiau	b e i̯ a i̯
 beiau	b e i̯ ɛ
@@ -1967,6 +2102,7 @@ bipes	b ɪ p ɛ s
 bipi	b ɪ p i
 bipo	b ɪ p ɔ
 birmingham	b ə r m ɪ ŋ h a m
+bisgedi	b ɪ s k e d i
 bismwth	b ɪ z m ʊ θ
 biti	b ɪ t i
 biwi	b ɪ u̯ i
@@ -2038,6 +2174,8 @@ blogiau	b l ɔ ɡ j ɛ
 blogio	b l ɔ ɡ j ɔ
 blogiwr	b l ɔ ɡ j ʊ r
 blogwyr	b l ɔ ɡ w ɪ r
+bloneg	b l oː n ɛ ɡ
+bloneg	b l ɔ n ɛ ɡ
 blorai	b l oː r a i̯
 blorai	b l ɔ r a i̯
 bloreion	b l ɔ r e i̯ ɔ n
@@ -2061,6 +2199,7 @@ bobl	b ɔ b ɔ l
 bobloedd	b ɔ b l ɔ i̯ ð
 boch	b oː χ
 bochdew	b ɔ χ d ɛ u̯
+bochgoch	b ɔ χ ɡ ɔ χ
 bochlwyd	b ɔ χ l ʊ i̯ d
 bocs	b ɔ k s
 bocsio	b ɔ k s j ɔ
@@ -2077,11 +2216,14 @@ bodiau	b ɔ d j ɛ
 bodlon	b ɔ d l ɔ n
 bodoli	b ɔ d oː l i
 bodoli	b ɔ d ɔ l i
+boed	b ɔ i̯ d
 boenen	b ɔ i̯ n ɛ n
 boeni	b ɔ i̯ n i
 boeth	b oː θ
 boeth	b ɔ i̯ θ
 boethach	b ɔ i̯ θ a χ
+bogail	b oː ɡ a i̯ l
+bogail	b ɔ ɡ a i̯ l
 bohriwm	b ɔ r j ʊ m
 boi	b ɔ i̯
 bol	b ɔ l
@@ -2097,6 +2239,8 @@ boneddigion	b ɔ n ɛ ð ɪ ɡ j ɔ n
 bongorff	b ɔ ŋ ɡ ɔ r f
 bonheddig	b ɔ n h eː ð ɪ ɡ
 bonheddig	b ɔ n h ɛ ð ɪ ɡ
+bontinog	b ɔ n t iː n ɔ ɡ
+bontinog	b ɔ n t ɪ n ɔ ɡ
 bop	b ɔ p
 boptai	b ɔ p t a i̯
 bopty	b ɔ p t i
@@ -2188,6 +2332,7 @@ brics	b r ɪ k s
 bricsen	b r ɪ k s ɛ n
 bricyll	b r ɪ k ɪ ɬ
 bricyllen	b r ɪ k ə ɬ ɛ n
+brid	b r iː d
 bridge	b r ɪ d͡ʒ
 brif	b r iː v
 brifddinas	b r iː v ð iː n a s
@@ -2219,6 +2364,8 @@ broblemau	b r ɔ b l ɛ m a i̯
 broblemau	b r ɔ b l ɛ m ɛ
 broc	b r ɔ k
 broch	b r oː χ
+brochell	b r oː χ ɛ ɬ
+brochell	b r ɔ χ ɛ ɬ
 brochion	b r ɔ χ j ɔ n
 brochod	b r oː χ ɔ d
 brochod	b r ɔ χ ɔ d
@@ -2229,10 +2376,14 @@ broga	b r ɔ ɡ a
 bromin	b r oː m ɪ n
 bromin	b r ɔ m ɪ n
 bron	b r ɔ n
+brongoch	b r ɔ ŋ ɡ ɔ χ
 bronlas	b r ɔ n l a s
 bronnau	b r ɔ n a i̯
 bronnau	b r ɔ n ɛ
+bronrhuddyn	b r ɔ n r̥ iː ð ɪ n
+bronrhuddyn	b r ɔ n r̥ ɪ ð ɪ n
 bronwen	b r ɔ n w ɛ n
+bronwyn	b r ɔ n w ɪ n
 brotest	b r ɔ t ɛ s t
 brown	b r o u̯ n
 brwd	b r uː d
@@ -2296,7 +2447,10 @@ buail	b i a i̯ l
 bual	b i a l
 bual	b iː a l
 buan	b iː a n
+buarth	b iː a r θ
 budd	b iː ð
+buddai	b iː ð a i̯
+buddai	b ɪ ð a i̯
 buddion	b ɪ ð j ɔ n
 buddsoddi	b ɪ ð s oː ð i
 buddsoddi	b ɪ ð s ɔ ð i
@@ -2332,6 +2486,7 @@ buwch	b ɪ u̯ χ
 bwa	b uː a
 bwced	b ʊ k ɛ d
 bwch	b uː χ
+bwci	b ʊ k i
 bwgan	b uː ɡ a n
 bwgan	b ʊ ɡ a n
 bwl	b ʊ l
@@ -2356,6 +2511,7 @@ bwrw	b uː r u
 bwrw	b ʊ r u
 bwrwndi	b ʊ r ʊ n d i
 bws	b ʊ s
+bwth	b uː θ
 bwthyn	b ʊ θ ɪ n
 bwyd	b ʊ i̯ d
 bwydlen	b ʊ i̯ d l ɛ n
@@ -2417,6 +2573,7 @@ byr	b ɪ r
 byrddau	b ə r ð a i̯
 byrddau	b ə r ð ɛ
 byrddydd	b ə r ð ɪ ð
+byrdra	b ə r d r a
 byrlymau	b ə r l ə m a i̯
 byrlymu	b ə r l ə m i
 byrraf	b ə r a v
@@ -2442,8 +2599,10 @@ bywyd	b ə u̯ ɪ d
 bywydeg	b ə u̯ ə d ɛ ɡ
 bàth	b a θ
 bêl	b eː l
+bêr	b eː r
 bôm	b oː m
 bôn	b oː n
+bônt	b oː n t
 bûm	b iː m
 bŵt	b uː t
 ca	k aː
@@ -2588,6 +2747,7 @@ cala	k a l a
 cala	k aː l a
 calan	k a l a n
 calan	k aː l a n
+calch	k a l χ
 calchfaen	k a l χ v a i̯ n
 caled	k a l ɛ d
 caled	k aː l ɛ d
@@ -2598,9 +2758,12 @@ calenigion	k a l ɛ n ɪ ɡ j ɔ n
 caleted	k a l ɛ t ɛ d
 califforniwm	k a l ɪ f ɔ r n j ʊ m
 call	k aː ɬ
+callestr	k a ɬ ɛ s d
+callestr	k a ɬ ɛ s d r
 callio	k a ɬ j ɔ
 calon	k a l ɔ n
-calon	k aː l ɔ n
+calonnau	k a l ɔ n a i̯
+calonnau	k a l ɔ n ɛ
 calsiwm	k a l s j ʊ m
 cam	k a m
 camau	k a m a i̯
@@ -2616,6 +2779,10 @@ camddealltwriaeth	k a m ð ɛ a ɬ d ʊ r j ɛ θ
 camdreiglad	k a m d r e i̯ ɡ l a d
 camdreiglo	k a m d r e i̯ ɡ l ɔ
 camerŵn	k a m ɛ r uː n
+camesgor	k a m ɛ s ɡ ɔ r
+camesgoriad	k a m ɛ s ɡ oː r j a d
+camesgoriad	k a m ɛ s ɡ ɔ r j a d
+camfa	k a m v a
 camgymeriad	k a m ɡ ə m ɛ r j a d
 camlas	k a m l a s
 camlesi	k a m l ɛ s i
@@ -2700,7 +2867,7 @@ canmoliaethau	k a n m ɔ l j e i̯ θ ɛ
 canmolwr	k a n m oː l ʊ r
 canmolwr	k a n m ɔ l ʊ r
 canmolwyr	k a n m ɔ l w ɪ r
-cannaid	k a n a ɪ d
+cannaid	k a n a i̯ d
 cannu	k a n i
 cannwyll	k a n ʊ i̯ ɬ
 cannydd	k a n ɪ ð
@@ -2746,6 +2913,7 @@ capel	k a p ɛ l
 car	k a r
 cara	k a r a
 cara	k aː r a
+caradog	k a r aː d ɔ ɡ
 carafannau	k a r a v a n a i̯
 carafannau	k a r a v a n ɛ
 carafán	k a r a v a n
@@ -2782,6 +2950,8 @@ caren	k a r ɛ n
 caren	k aː r ɛ n
 carent	k a r ɛ n t
 carent	k aː r ɛ n t
+carer	k a r ɛ r
+carer	k aː r ɛ r
 cares	k a r ɛ s
 cares	k aː r ɛ s
 carest	k a r ɛ s d
@@ -2796,7 +2966,10 @@ cariad	k a r j a d
 carioci	k a r i ɔ k i
 carit	k a r ɪ t
 carit	k aː r ɪ t
+carn	k a r n
 carnedd	k a r n ɛ ð
+carneddau	k a r n eː ð a i̯
+carneddau	k a r n ɛ ð a i̯
 carneddi	k a r n eː ð i
 carneddi	k a r n ɛ ð i
 caro	k a r ɔ
@@ -2805,6 +2978,7 @@ carom	k a r ɔ m
 carom	k aː r ɔ m
 caron	k a r ɔ n
 caron	k aː r ɔ n
+carped	k a r p ɛ d
 carreg	k a r ɛ ɡ
 carsi	k a r s i
 carthen	k a r θ ɛ n
@@ -2824,6 +2998,7 @@ cas	k aː s
 casach	k aː s a χ
 cased	k aː s ɛ d
 casgen	k a s ɡ ɛ n
+casgliad	k a s ɡ l j a d
 casglu	k a s ɡ l i
 casnewydd	k a s n ɛ u̯ ɪ ð
 casnewydd	k aː s n ɛ u̯ ɪ ð
@@ -2848,6 +3023,8 @@ cato	k a t ɔ
 catrin	k a t r ɪ n
 cau	k a i̯
 cau	k ɔ i̯
+cawell	k a w ɛ ɬ
+cawell	k aː w ɛ ɬ
 cawl	k a u̯ l
 cawn	k a u̯ n
 cawna	k a u̯ n a
@@ -2879,6 +3056,10 @@ cefnogi	k ɛ v n ɔ ɡ i
 cefnwyn	k ɛ v n w ɪ n
 cefnwyrdd	k ɛ v n w ɪ r ð
 ceg	k eː ɡ
+cegid	k eː ɡ ɪ d
+cegid	k ɛ ɡ ɪ d
+cegin	k eː ɡ ɪ n
+cegin	k ɛ ɡ ɪ n
 cei	k e i̯
 ceidw	k e i̯ d u
 ceidwadol	k e i̯ d w a d ɔ l
@@ -2903,6 +3084,7 @@ celai	k eː l a i̯
 celai	k eː l ɛ
 celai	k ɛ l a i̯
 celai	k ɛ l ɛ
+celbren	k ɛ l b r ɛ n
 celdy	k ɛ l d i
 celen	k eː l ɛ n
 celen	k ɛ l ɛ n
@@ -2913,6 +3095,7 @@ celficyn	k ɛ l v ɪ k ɪ n
 cell	k ɛ ɬ
 celli	k ɛ ɬ i
 celloedd	k ɛ ɬ ɔ ɨ̯ ð
+celsan	k ɛ l s a n
 celu	k eː l i
 celu	k ɛ l i
 celwydd	k ɛ l w ɪ ð
@@ -2945,6 +3128,7 @@ cerbyd	k ɛ r b ɪ d
 cerdd	k ɛ r ð
 cerdded	k ɛ r ð ɛ d
 cerddi	k ɛ r ð i
+cerddin	k ɛ r ð ɪ n
 cerddor	k ɛ r ð ɔ r
 cerddorfa	k ɛ r ð ɔ r v a
 cerddorfaol	k ɛ r ð ɔ r v aː ɔ l
@@ -3190,6 +3374,7 @@ chlywed	χ l ɪ u̯ ɛ d
 chlêr	χ l eː r
 chnau	χ n a i̯
 chneuen	χ n e i̯ ɛ n
+chnoc	χ n ɔ k
 chnoi	χ n ɔ i̯
 chnwd	χ n uː d
 choch	χ oː χ
@@ -3243,6 +3428,8 @@ chrwban	χ r uː b a n
 chrwban	χ r ʊ b a n
 chrwth	χ r uː θ
 chrwys	χ r ʊ ɪ̯ s
+chrys	χ r iː s
+chrys	χ r ɨː s
 chu	χ iː
 chul	χ iː l
 chusan	χ ɪ s a n
@@ -3259,6 +3446,7 @@ chwaer	ʍ a i̯ r
 chwaer	ʍ aː r
 chwaer	χ w a i̯ r
 chwaeth	χ w a i̯ θ
+chwaethus	χ w a i̯ θ ɪ s
 chwain	χ w a i̯ n
 chwaith	χ w a i̯ θ
 chwalu	χ w aː l i
@@ -3311,8 +3499,6 @@ chwerw	ʍ eː r u
 chwerw	ʍ ɛ r u
 chwerw	χ w eː r u
 chwerw	χ w ɛ r u
-chwerwddwr	χ w ɛ r w ð ʊ r
-chwerwddwr	χ w ɛ r ð ʊ r
 chwery	χ w eː r i
 chwery	χ w ɛ r i
 chwest	χ w ɛ s d
@@ -3326,6 +3512,7 @@ chwilio	w ɪ l ɔ
 chwilio	ʍ ɪ l j ɔ
 chwilio	ʍ ɪ l ɔ
 chwilio	χ w ɪ l j ɔ
+chwilod	χ w ɪ l ɔ d
 chwinciad	χ w ɪ ŋ k j a d
 chwiorydd	ʍ i oː r ɪ ð
 chwiorydd	ʍ i ɔ r ɪ ð
@@ -3339,6 +3526,8 @@ chwith	ʍ iː θ
 chwith	χ w iː θ
 chwithau	χ w iː θ a i̯
 chwithau	χ w ɪ θ a i̯
+chwiw	χ w ɪ u̯
+chwiwell	χ w ɪ u̯ ɛ ɬ
 chwmni	χ ʊ m n i
 chwmpas	χ ʊ m p a s
 chwningen	χ ʊ n ɪ ŋ ɛ n
@@ -3458,6 +3647,8 @@ cicio	k ɪ k j ɔ
 cig	k iː ɡ
 cigfrain	k ɪ ɡ v r a i̯ n
 cigfran	k ɪ ɡ v r a n
+cigydd	k iː ɡ ɪ ð
+cigydd	k ɪ ɡ ɪ ð
 cil	k iː l
 cilbost	k ɪ l b ɔ s t
 cilbren	k ɪ l b r ɛ n
@@ -3490,10 +3681,16 @@ ciwcymbr	k ɪ u̯ k ə m b r
 ciwcymbrau	k ɪ u̯ k ə m b r a i̯
 ciwcymbrau	k ɪ u̯ k ə m b r ɛ
 ciwdod	k ɪ u̯ d ɔ d
+ciwt	k ɪ u̯ t
 claddu	k l a ð i
 claddu	k l aː ð i
 claf	k l aː v
+clais	k l a i̯ s
+clais	k l a i̯ ʃ
 clas	k l aː s
+clasur	k l a s ɪ r
+clasurol	k l a s iː r ɔ l
+clasurol	k l a s ɪ r ɔ l
 clau	k l a i̯
 clawdd	k l a u̯ ð
 clawr	k l a u̯ r
@@ -3551,9 +3748,13 @@ clou	k l ɔ i̯
 clown	k l o u̯ n
 clown	k l ɔ u̯ n
 clud	k l iː d
+cludo	k l iː d ɔ
+cludo	k l ɪ d ɔ
 clun	k l iː n
 clust	k l ɪ s d
 clustdlws	k l ɪ s d l ʊ s
+clustiog	k l ɪ s d j ɔ ɡ
+clustog	k l ɪ s d ɔ ɡ
 clwb	k l uː b
 clwb	k l ʊ b
 clwt	k l ʊ t
@@ -3561,6 +3762,7 @@ clwyd	k l ʊ i̯ d
 clwyf	k l ʊ i̯ v
 clwyfau	k l ʊ i̯ v a i̯
 clwyfau	k l ʊ i̯ v ɛ
+clwyfdy	k l ʊ i̯ v d i
 clwyfo	k l ʊ i̯ v ɔ
 clwyfus	k l ʊ i̯ v ɪ s
 cly	k l iː
@@ -3571,6 +3773,8 @@ clyfar	k l ə v a r
 clymu	k l ə m i
 clyw	k l ɪ u̯
 clywaf	k l ə w a v
+clywaist	k l ə u̯ a i̯ s t
+clywaist	k l ə u̯ ɛ s t
 clywed	k l ə w ɛ d
 clywed	k l ɪ u̯ ɛ d
 clywedog	k l ə u̯ eː d ɔ ɡ
@@ -3596,15 +3800,18 @@ cnoi	k n ɔ i̯
 cnuchio	k n ɪ χ j ɔ
 cnud	k n iː d
 cnwd	k n uː d
+cnwp	k n ʊ p
 cobalt	k oː b a l t
 cobalt	k ɔ b a l t
 cobra	k ɔ b r a
 coch	k oː χ
 cochen	k oː χ ɛ n
 cochen	k ɔ χ ɛ n
+cochgam	k ɔ χ ɡ a m
+cochi	k oː χ i
+cochi	k ɔ χ i
 cochion	k ɔ χ j ɔ n
 cochlas	k ɔ χ l a s
-cochwys	k ɔ χ w ɪ s
 cochyn	k oː χ ɪ n
 cochyn	k ɔ χ ɪ n
 cocsa	k ɔ k s a
@@ -3644,6 +3851,7 @@ coelcerth	k ɔ i̯ l k ɛ r θ
 coelio	k ɔ i̯ l j ɔ
 coes	k oː s
 coes	k ɔ i̯ s
+coesgoch	k ɔ i̯ s ɡ ɔ χ
 coeth	k oː θ
 coeth	k ɔ i̯ θ
 coethi	k ɔ i̯ θ i
@@ -3742,6 +3950,8 @@ copïo	k ɔ p iː ɔ
 copïwr	k ɔ p iː ʊ r
 copïwyr	k ɔ p iː w ɪ r
 cor	k ɔ r
+corbennog	k ɔ r b ɛ n ɔ ɡ
+corbys	k ɔ r b ɪ s
 corcyn	k ɔ r k ɪ n
 cordd	k ɔ r ð
 corea	k ɔ r eː a
@@ -3760,6 +3970,7 @@ corgwn	k ɔ r ɡ ʊ n
 corgïaid	k ɔ r ɡ i a i̯ d
 corhedydd	k ɔ r h eː d ɪ ð
 corhedydd	k ɔ r h ɛ d ɪ ð
+corhocys	k ɔ r h ɔ k ɪ s
 corhwyad	k ɔ r h ʊ i̯ a d
 corhwyaden	k ɔ r h ʊ i̯ a d ɛ n
 corhwyaden	k ɔ r h ʊ i̯ aː d ɛ n
@@ -3769,6 +3980,7 @@ corn	k ɔ r n
 cornel	k ɔ r n ɛ l
 corneli	k ɔ r n eː l i
 corneli	k ɔ r n ɛ l i
+corniog	k ɔ r n j ɔ ɡ
 coron	k oː r ɔ n
 coron	k ɔ r ɔ n
 coronafeirws	k ɔ r oː n a v e i̯ r ʊ s
@@ -3800,27 +4012,39 @@ cowboi	k o u̯ b ɔ i̯
 cowbois	k o u̯ b ɔ i̯ z
 cowyll	k ɔ u̯ ɪ ɬ
 crac	k r a k
+crach	k r aː χ
 craf	k r aː v
+craff	k r a f
+craffter	k r a f t ɛ r
 crafu	k r a v i
 crafu	k r aː v i
+cragen	k r aː ɡ ɛ n
+cragennog	k r a ɡ ɛ n ɔ ɡ
 craidd	k r a i̯ ð
 crair	k r a i̯ r
+craith	k r a i̯ θ
 cramen	k r a m ɛ n
 cranc	k r a ŋ k
 crancod	k r a ŋ k ɔ d
 cras	k r aː s
+crasboeth	k r a s b ɔ ɨ̯ θ
 crasddadrwydd	k r a s ð a d r ʊ i̯ ð
 crasddadrwydd	k r aː s ð a d r ʊ i̯ ð
 crasfeydd	k r a s v e i̯ ð
 crasu	k r a s i
 crau	k r a i̯
 craw	k r a u̯
+crawn	k r a u̯ n
 creadigol	k r ɛ a d ɪ ɡ ɔ l
 creadur	k r ɛ a d ɪ r
 crech	k r eː χ
 cred	k r eː d
 creda	k r eː d a
 creda	k r ɛ d a
+credadwy	k r ɛ d a d u
+credadwy	k r ɛ d a d ʊ i̯
+credadwy	k r ɛ d aː d u
+credadwy	k r ɛ d aː d ʊ i̯
 credaf	k r eː d a
 credaf	k r eː d a v
 credaf	k r ɛ d a
@@ -3851,6 +4075,9 @@ cref	k r eː v
 crefydd	k r eː v ɪ ð
 crefydd	k r ɛ v ɪ ð
 crefyddol	k r ɛ v ə ð ɔ l
+creg	k r eː ɡ
+cregen	k r eː ɡ ɛ n
+cregen	k r ɛ ɡ ɛ n
 cregynna	k r ɛ ɡ ə n a
 crehyrod	k r ɛ h ə r ɔ d
 creision	k r e i̯ s j ɔ n
@@ -3861,6 +4088,7 @@ creisionen	k r e i̯ ʃ oː n ɛ n
 creisionen	k r e i̯ ʃ ɔ n ɛ n
 creisionllyd	k r e i̯ s j ɔ n ɬ ɪ d
 creisionllyd	k r e i̯ ʃ ɔ n ɬ ɪ d
+creithiog	k r e i̯ θ j ɔ ɡ
 crempog	k r ɛ m p ɔ ɡ
 creto	k r ɛ t ɔ
 creu	k r e i̯
@@ -3883,6 +4111,8 @@ cristnogaeth	k r ɪ s d n oː ɡ a i̯ θ
 cristnogaeth	k r ɪ s d n oː ɡ ɛ θ
 cristnogaeth	k r ɪ s d n ɔ ɡ a i̯ θ
 cristnogaeth	k r ɪ s d n ɔ ɡ ɛ θ
+cristnoges	k r ɪ s t n oː ɡ ɛ s
+cristnoges	k r ɪ s t n ɔ ɡ ɛ s
 cristnogion	k r ɪ s d n ɔ ɡ j ɔ n
 cristnogol	k r ɪ s d n oː ɡ ɔ l
 cristnogol	k r ɪ s d n ɔ ɡ ɔ l
@@ -3906,17 +4136,28 @@ croeshoelio	k r ɔ i̯ s h ɔ i̯ l j ɔ
 croesholi	k r ɔ i̯ s h oː l i
 croesholi	k r ɔ i̯ s h ɔ l i
 croesi	k r ɔ i̯ s i
+croesiad	k r ɔ i̯ ʃ a d
+croesiad	k r ɔ ɨ̯ j a d
 croeso	k r ɔ i̯ s ɔ
+croestoriad	k r ɔ i̯ s d ɔ r j a d
 croestorri	k r ɔ i̯ s d ɔ r i
 crog	k r oː ɡ
+crogen	k r oː ɡ ɛ n
+crogen	k r ɔ ɡ ɛ n
 croglen	k r ɔ ɡ l ɛ n
+cromen	k r ɔ m ɛ n
 cromfach	k r ɔ m v a χ
 cromiwm	k r ɔ m j ʊ m
 cromlech	k r ɔ m l ɛ χ
+cronadur	k r ɔ n a d ɪ r
+cronadur	k r ɔ n aː d ɪ r
+cronfa	k r ɔ n v a
 cronni	k r ɔ n i
 croth	k r oː θ
 crothell	k r oː θ ɛ ɬ
 crothell	k r ɔ θ ɛ ɬ
+croyw	k r ɔ i̯ u
+crud	k r iː d
 crug	k r iː ɡ
 crugiau	k r ɪ ɡ j a i̯
 crugiau	k r ɪ ɡ j ɛ
@@ -3924,6 +4165,8 @@ crwban	k r uː b a n
 crwban	k r ʊ b a n
 crwbanod	k r ʊ b aː n ɔ d
 crwm	k r ʊ m
+crwman	k r uː m a n
+crwman	k r ʊ m a n
 crwn	k r ʊ n
 crwst	k r ʊ s d
 crwt	k r ʊ t
@@ -3937,7 +4180,9 @@ crychach	k r ə χ a χ
 crychau	k r ə χ a i̯
 crychau	k r ə χ ɛ
 cryched	k r ə χ ɛ d
+crychiad	k r ə χ j a d
 crychion	k r ə χ j ɔ n
+crychu	k r ə χ i
 crychydd	k r ə χ ɪ ð
 crychyddion	k r ə χ ə ð j ɔ n
 crychyddod	k r ə χ ə ð ɔ d
@@ -3951,17 +4196,21 @@ crydiau	k r ə d j ɛ
 cryf	k r iː v
 cryfder	k r ə v d ɛ r
 cryfhau	k r ə v h a i̯
+cryg	k r iː ɡ
 cryman	k r ə m a n
 crymu	k r ə m i
 cryn	k r ɪ n
 cryndod	k r ə n d ɔ d
 crynhoad	k r ə n h oː a d
 crynhoad	k r ə n h ɔ a d
+crynhoi	k r ə n̥ h ɔ i̯
 crynoddisg	k r ə n o ð ɪ s ɡ
 crynu	k r ə n i
 crynwr	k r ə n ʊ r
 crynwyr	k r ə n w ɪ r
 crypton	k r ɪ p t ɔ n
+crys	k r iː s
+crys	k r ɨː s
 crysau	k r ə s a i̯
 crysau	k r ə s ɛ
 crythau	k r ə θ a i̯
@@ -3970,9 +4219,14 @@ crëwr	k r eː ʊ r
 crëwr	k r ɛ ʊ r
 crëyr	k r eː ɪ r
 crŷn	k r iː n
+cthef	kᵊ θ ɛ v
+cthef	ɛ k θ ɛ v
+cthem	kᵊ θ ɛ m
+cthem	ɛ k θ ɛ m
 cu	k iː
 cucumer	k ɪ k ɪ m ɛ r
 cudd	k iː ð
+cuddfa	k ɪ ð v a
 cuddio	k ɪ ð j ɔ
 cuddliw	k ɪ ð l ɪ u̯
 cudyll	k iː d ɪ ɬ
@@ -3988,6 +4242,7 @@ culdiroedd	k ɪ l d iː r ɔ i̯ ð
 culdiroedd	k ɪ l d ɪ r ɔ i̯ ð
 culed	k iː l ɛ d
 culion	k ɪ l j ɔ n
+cur	k ɪ r
 curiwm	k ɪ u̯ r j ʊ m
 curo	k iː r ɔ
 curo	k ɪ r ɔ
@@ -4062,7 +4317,9 @@ cwpaneidiau	k ʊ p a n e i̯ d j ɛ
 cwpla	k ʊ p l a
 cwplws	k ʊ p l ʊ s
 cwpwrdd	k ʊ p ʊ r ð
+cwr	k ʊ r
 cwrdd	k ʊ r ð
+cwrl	k ʊ r l
 cwrs	k ʊ r s
 cwrw	k uː r u
 cwrw	k ʊ r u
@@ -4080,6 +4337,8 @@ cwtsh	k ʊ t ʃ
 cwtshys	k ʊ t ʃ ɪ z
 cwtsio	k ʊ t ʃ ɔ
 cwyd	k ʊ ɪ̯ d
+cwyddo	k w ɪ ð ɔ
+cwyddo	k ʊ i̯ ð ɔ
 cwymp	k ʊ ɪ̯ m p
 cwymplen	k ʊ i̯ m p l ɛ n
 cwympo	k w ɪ m p ɔ
@@ -4150,6 +4409,7 @@ cyfan	k ə v a n
 cyfandir	k ə v a n d ɪ r
 cyfandirol	k ə v a n d iː r ɔ l
 cyfandirol	k ə v a n d ɪ r ɔ l
+cyfannedd	k ə v a n ɛ ð
 cyfannu	k ə v a n i
 cyfanswm	k ə v a n s ʊ m
 cyfansymiau	k ə v a n s ə m j a i̯
@@ -4216,6 +4476,7 @@ cyffesgell	k ə f ɛ s ɡ ɛ ɬ
 cyffesu	k ə f ɛ s i
 cyffeswr	k ə f ɛ s ʊ r
 cyffin	k ə f ɪ n
+cyffordd	k ə f ɔ r ð
 cyfforddus	k ə f ɔ r ð ɪ s
 cyffredin	k ə f r eː d ɪ n
 cyffredin	k ə f r ɛ d ɪ n
@@ -4351,6 +4612,8 @@ cyfun	k ə v ɪ n
 cyfundrefn	k ə v ɪ n d r ɛ v n
 cyfundrefnol	k ə v ɪ n d r ɛ v n ɔ l
 cyfundrefnu	k ə v ɪ n d r ɛ v n i
+cyfuniad	k ə v ɪ n j a d
+cyfuwch	k ə v ɪ u̯ χ
 cyfweld	k ə v w ɛ l d
 cyfweliad	k ə v w ɛ l j a d
 cyfwelydd	k ə v w eː l ɪ ð
@@ -4394,6 +4657,7 @@ cymdoges	k ə m d ɔ ɡ ɛ s
 cymdogol	k ə m d oː ɡ ɔ l
 cymdogol	k ə m d ɔ ɡ ɔ l
 cymedr	k ə m ɛ d r
+cymedrig	k ə m ɛ d r ɪ ɡ
 cymedrol	k ə m ɛ d r ɔ l
 cymedroldeb	k ə m ɛ d r ɔ l d ɛ b
 cymedroli	k ə m ɛ d r oː l i
@@ -4404,6 +4668,9 @@ cymedrolwyr	k ə m ɛ d r ɔ l w ɪ r
 cymell	k ə m ɛ ɬ
 cymen	k ə m ɛ n
 cymer	k ə m ɛ r
+cymesuredd	k ə m ɛ s iː r ɛ ð
+cymesuredd	k ə m ɛ s ɪ r ɛ ð
+cymharol	k ə m h aː r ɔ l
 cymharu	k ə m aː r i
 cymharu	k ə m h aː r i
 cymhleth	k ə m h l ɛ θ
@@ -4416,6 +4683,10 @@ cymhlethdodau	k ə m h l ɛ θ d ɔ d ɛ
 cymhlethdodau	k ə m l ɛ θ d oː d ɛ
 cymhlethdodau	k ə m l ɛ θ d ɔ d ɛ
 cymhlethu	k ə m h l ɛ θ i
+cymhwysiad	k ə m h ʊ i̯ s j a d
+cymhwysiad	k ə m h ʊ i̯ ʃ a d
+cymhwyso	k ə m h ʊ i̯ s ɔ
+cymhwyster	k ə m h ʊ i̯ s d ɛ r
 cymorth	k ə m ɔ r θ
 cymorthion	k ə m ɔ r θ j ɔ n
 cymraeg	k ə m r a i̯ ɡ
@@ -4459,9 +4730,19 @@ cynddelw	k ə n ð ɛ l u
 cynddrwg	k ə n ð r ʊ ɡ
 cyndyn	k ə n d ɪ n
 cyndynrwydd	k ə n d ə n r ʊ i̯ ð
+cynefin	k ə n ɛ v ɪ n
+cynefinder	k ə n ɛ v ɪ n d ɛ r
+cynefindod	k ə n ɛ v ɪ n d ɔ d
+cynefindra	k ə n ɛ v ɪ n d r a
+cynefineiddio	k ə n ɛ v ɪ n a i̯ ð j ɔ
+cynefino	k ə n ɛ v ɪ n ɔ
+cynefinol	k ə n ɛ v ɪ n ɔ l
+cynefinwr	k ə n ɛ v ɪ n ʊ r
+cynefinwyr	k ə n ɛ v ɪ n w ɪ r
 cynfas	k ə n v a s
 cynffon	k ə n f ɔ n
 cynffonddu	k ə n f ɔ n ð i
+cynffonna	k ə n f ɔ n a
 cynflaidd	k ə n v l a i̯ ð
 cyngaf	k ə ŋ a v
 cyngaws	k ə ŋ a u̯ s
@@ -4515,6 +4796,7 @@ cynorthwyydd	k ə n ɔ r θ ʊ i̯ ɪ ð
 cynradd	k ə n r a ð
 cynrychioli	k ə n r ə χ j oː l i
 cynrychioli	k ə n r ə χ j ɔ l i
+cynsail	k ə n s a i̯ l
 cynt	k ɪ n t
 cyntaf	k ə n t a
 cyntaf	k ə n t a v
@@ -4566,6 +4848,8 @@ cysgon	k ə s ɡ ɔ n
 cysgu	k ə s ɡ i
 cysgwch	k ə s ɡ ʊ χ
 cyson	k ə s ɔ n
+cysonyn	k ə s oː n ɪ n
+cysonyn	k ə s ɔ n ɪ n
 cystadlaethau	k ə s d a d l e i̯ θ a i̯
 cystadlaethau	k ə s d a d l e i̯ θ ɛ
 cystadleuaeth	k ə s d a d l e i̯ a i̯ θ
@@ -4614,6 +4898,8 @@ cytûn	k ə t iː n
 cyw	k ɪ u̯
 cywarch	k ə u̯ a r χ
 cyweirio	k ə u̯ e i̯ r j ɔ
+cywes	k ə w a s
+cywes	k ə w ɛ s
 cywir	k ə w ɪ r
 cywiro	k ə u̯ iː r ɔ
 cywiro	k ə u̯ ɪ r ɔ
@@ -4622,9 +4908,11 @@ cywyddau	k ə w ə ð a i̯
 cywyddau	k ə w ə ð ɛ
 cyẅres	k ə uː r ɛ s
 cyẅres	k ə ʊ r ɛ s
+câl	k aː l
 cân	k aː n
 cânt	k aː n t
 câr	k aː r
+cêl	k eː l
 còd	k ɔ d
 côd	k oː d
 côr	k oː r
@@ -4739,7 +5027,7 @@ daliff	d aː l ɪ f
 dalit	d aː l ɪ t
 dall	d aː ɬ
 dallt	d a ɬ d
-dallu	d a l ɪ
+dallu	d a ɬ i
 dalo	d a l ɔ
 dalo	d aː l ɔ
 daloch	d aː l ɔ χ
@@ -4757,7 +5045,9 @@ damwain	d a m w a i̯ n
 damweiniau	d a m w e i̯ n j a i̯
 damweiniau	d a m w e i̯ n j ɛ
 damweinio	d a m w e i̯ n j ɔ
+damweiniol	d a m w e i̯ n j ɔ l
 dan	d a n
+danadl	d aː n a d
 danadl	d aː n a d l
 danas	d a n a s
 danfon	d a n v ɔ n
@@ -4883,6 +5173,8 @@ ddau	ð a i̯
 ddau	ð ɔ i̯
 ddaw	ð a u̯
 dde	ð eː
+ddeallais	ð e a ɬ a i̯ s
+ddeallais	ð e a ɬ ɛ s
 ddeallaist	ð ɛ a ɬ a i̯ s d
 ddeallaist	ð ɛ a ɬ ɛ s d
 ddealloch	ð j a ɬ ɔ χ
@@ -4994,6 +5286,7 @@ ddosbarthau	ð ɔ s b a r θ ɛ
 ddot	ð ɔ t
 ddown	ð o u̯ n
 ddraenog	ð r a i̯ n ɔ ɡ
+ddraig	ð r a i̯ ɡ
 ddrama	ð r a m a
 ddrama	ð r aː m a
 ddringo	ð r ɪ ŋ ɔ
@@ -5004,6 +5297,9 @@ ddu	ð iː
 ddulyn	ð iː l ɪ n
 ddulyn	ð ɪ l ɪ n
 dduw	ð ɪ u̯
+ddwedais	ð w ɛ d a i̯ s
+ddwedais	ð w ɛ d ɛ s
+ddwedais	ð w ɛ d ɛ ʃ
 ddweud	ð w e i̯ d
 ddwfr	ð ʊ v r
 ddwl	ð ʊ l
@@ -5146,6 +5442,8 @@ delet	d ɛ l ɛ t
 delfryd	d ɛ l v r ɪ d
 deli	d eː l i
 deli	d ɛ l i
+delid	d eː l ɪ d
+delid	d ɛ l ɪ d
 delir	d eː l ɪ r
 delir	d ɛ l ɪ t
 delit	d eː l ɪ t
@@ -5206,6 +5504,7 @@ detyd	d ɛ t ɪ d
 deuawd	d e i̯ a u̯ d
 deubegwn	d e i̯ b eː ɡ ʊ n
 deubegwn	d e i̯ b ɛ ɡ ʊ n
+deubol	d e i̯ b ɔ l
 deud	d e i̯ d
 deuddeg	d e i̯ ð ɛ ɡ
 deuddegfed	d e i̯ ð ɛ ɡ v ɛ d
@@ -5216,6 +5515,7 @@ deugeinfed	d e i̯ ɡ e i̯ n v ɛ d
 deugeiniau	d e i̯ ɡ e i̯ n j a i̯
 deugeiniau	d e i̯ ɡ e i̯ n j ɛ
 deugeiniau	d ɪ ɡ e i̯ n j ɛ
+deui	d e i̯ i
 deulo	d e i̯ l ɔ
 deulo	d iː l ɔ
 deulu	d e i̯ l i
@@ -5252,12 +5552,17 @@ diamod	d i a m ɔ d
 diamod	d i aː m ɔ d
 diamod	d iː a m ɔ d
 diamod	d iː aː m ɔ d
+diamwys	d j a m ʊ ɨ s
 dianc	d iː a ŋ k
 diarhebion	d i a r h ɛ b j ɔ n
 diben	d iː b ɛ n
 diben	d ɪ b ɛ n
 dibwys	d iː b ʊ i̯ s
 dibwys	d ɪ b ʊ i̯ s
+dibynadwy	d ɪ b ə n a d u
+dibynadwy	d ɪ b ə n a d ʊ i̯
+dibynadwy	d ɪ b ə n aː d u
+dibynadwy	d ɪ b ə n aː d ʊ i̯
 dibynnu	d i b ə n i
 dichon	d iː χ ɔ n
 dichon	d ɪ χ ɔ n
@@ -5272,6 +5577,10 @@ didolnod	d ɪ d ɔ l n ɔ d
 didolnodi	d ɪ d ɔ l n oː d i
 didolnodi	d ɪ d ɔ l n ɔ d i
 didranc	d ɪ d r a ŋ k
+diemwnt	d͡ʒ ɛ m ʊ n t
+diemyntau	d j ɛ m ə n t a i̯
+diemyntau	d j ɛ m ə n t ɛ
+diemyntau	d͡ʒ ɛ m ə n t ɛ
 dienw	d i eː n u
 dienw	d i ɛ n u
 difetha	d ɪ v ɛ θ a
@@ -5279,6 +5588,11 @@ diffodd	d ɪ f ɔ ð
 diffydd	d ɪ f ɪ ð
 diffyg	d ɪ f ɪ ɡ
 diflas	d ɪ v l a s
+diflasu	d ɪ v l a s i
+diflin	d ɪ v l ɪ n
+diflinder	d ɪ v l ɪ n d ɛ r
+diflino	d ɪ v l iː n ɔ
+diflino	d ɪ v l ɪ n ɔ
 difodi	d ɪ v oː d i
 difodi	d ɪ v ɔ d i
 difrodi	d ɪ v r oː d i
@@ -5311,6 +5625,8 @@ dihareb	d ɪ h aː r ɛ b
 dihuno	d iː n ɔ
 dihuno	d ɪ h iː n ɔ
 dihuno	d ɪ h ɪ n ɔ
+dilead	d ɪ l eː a d
+dilead	d ɪ l ɛ a d
 dileu	d ɪ l e i̯
 dillad	d ɪ ɬ a d
 dilledyn	d ɪ ɬ eː d ɪ n
@@ -5321,9 +5637,12 @@ dilynwr	d ɪ l ə n ʊ r
 dilynwyr	d i l ə n w ɪ r
 dilyw	d ɪ l ɪ u̯
 dim	d ɪ m
+dimai	d ɪ m a i̯
+dimai	d ɪ m ɛ
 din	d iː n
 dinas	d iː n a s
 dinas	d ɪ n a s
+dinistr	d ɪ n ɪ s t r
 dinistrio	d ɪ n ɪ s d r j o
 diniwed	d ɪ n i u̯ ɛ d
 diobaith	d i oː b a i̯ θ
@@ -5341,6 +5660,8 @@ diogel	d ɪ oː ɡ ɛ l
 diogel	d ɪ ɔ ɡ ɛ l
 diolchgarwch	d i ɔ l χ ɡ a r ʊ χ
 diolchgarwch	d iː ɔ l χ ɡ a r ʊ χ
+diota	d i ɔ t a
+diota	d j ɔ t a
 dipyn	d ɪ p ɪ n
 dir	d iː r
 diraddio	d ɪ r a ð j ɔ
@@ -5366,6 +5687,7 @@ disgynebau	d ɪ s ɡ ə n ɛ b a i̯
 disgynebau	d ɪ s ɡ ə n ɛ b ɛ
 disgynedig	d ɪ s ɡ ə n eː d ɪ ɡ
 disgynneb	d ɪ s ɡ ə n ɛ b
+disgyrchedd	d ɪ s ɡ ə r χ ɛ ð
 disgyrchiant	d ɪ s ɡ ə r χ j a n t
 disiau	d iː ʃ ɛ
 distawrwydd	d ɪ s d a u̯ r ʊ i̯ ð
@@ -5403,6 +5725,7 @@ dodi	d oː d i
 dodi	d ɔ d i
 dodiad	d ɔ d j a d
 dodrefn	d ɔ d r ɛ v n
+doed	d ɔ i̯ d
 doedd	d oː ð
 doedd	d ɔ i̯ ð
 doeddech	d ɔ i̯ ð ɛ χ
@@ -5468,16 +5791,22 @@ dosbarthwr	d ɔ s b a r θ ʊ r
 dosbarthwyr	d ɔ s b a r θ w ɪ r
 dost	d ɔ s t
 dot	d ɔ t
+dowciar	d o u̯ k j a r
+dowcio	d o u̯ k j ɔ
+dowciwr	d o u̯ k j ʊ r
 dowd	d o u̯ d
 down	d o u̯ n
 draed	d r a i̯ d
 draed	d r aː d
+draen	d r a i̯ n
 draenog	d r a i̯ n ɔ ɡ
 draeth	d r a i̯ θ
 draeth	d r aː θ
 drafod	d r a v ɔ d
 drafod	d r aː v ɔ d
+dragiog	d r a ɡ j ɔ ɡ
 draig	d r a i̯ ɡ
+drain	d r a i̯ n
 drama	d r aː m a
 dramor	d r a m ɔ r
 drannoeth	d r a n ɔ i̯ θ
@@ -5488,8 +5817,11 @@ dre	d r eː
 drefydd	d r eː v ɪ ð
 drefydd	d r ɛ v ɪ ð
 dreidl	d r e i̯ d l
+dreigiau	d r e i̯ ɡ j a i̯
 dreiglad	d r e i̯ ɡ l a d
 dreiglo	d r e i̯ ɡ l ɔ
+dreisiol	d r e i̯ s j ɔ l
+dreisiol	d r e i̯ ʃ ɔ l
 dreisiwr	d r e i̯ s j ʊ r
 dreisiwr	d r e i̯ ʃ ʊ r
 drennydd	d r ɛ n ɪ ð
@@ -5536,7 +5868,6 @@ drydanwr	d r ə d aː n ʊ r
 drydanwyr	d r ə d a n w ɪ r
 drygioni	d r ə ɡ j oː n i
 drygioni	d r ə ɡ j ɔ n i
-dryll	d r iː ɬ
 dryll	d r ɪ ɬ
 drysfa	d r ə s v a
 drysfeydd	d r ə s v e i̯ ð
@@ -5566,6 +5897,7 @@ dugoch	d ɪ ɡ ɔ χ
 dull	d ɪ ɬ
 dulyn	d iː l ɪ n
 dulyn	d ɪ l ɪ n
+dun	d ɪ n
 dur	d iː r
 duw	d ɪ u̯
 duwiau	d ɪ u̯ j a i̯
@@ -5573,6 +5905,9 @@ duwiau	d ɪ u̯ j ɛ
 duwies	d ɪ u̯ j ɛ s
 dw	d w
 dw	d ʊ
+dwedais	d w ɛ d a i̯ s
+dwedais	d w ɛ d ɛ s
+dwedais	d w ɛ d ɛ ʃ
 dwedodd	d w eː d ɔ ð
 dwedodd	d w ɛ d ɔ ð
 dwedon	d w ɛ d ɔ n
@@ -5655,6 +5990,7 @@ dyfi	d ə v i
 dyflwydd	d ə v l ʊ i̯ ð
 dyfnhau	d ə v n h a i̯
 dyfnion	d ə v n j ɔ n
+dyfnwal	d ə v n w a l
 dyfrdwy	d ə v r d ʊ i̯
 dyfrfarch	d ə v r v a r χ
 dyfrgi	d ə v r ɡ i
@@ -5670,6 +6006,7 @@ dyledion	d ə l ɛ d j ɔ n
 dylen	d ə l ɛ n
 dylet	d ə l ɛ t
 dylid	d ə l i d
+dylosg	d ə l ɔ s ɡ
 dylu	d ə l i
 dylunio	d ə l ɪ n j ɔ
 dylwn	d ə l ʊ n
@@ -5748,6 +6085,7 @@ dywyll	d ə ʊ i̯ ɬ
 dâl	d aː l
 dân	d aː n
 dâr	d aː r
+dêl	d eː l
 dîm	d iː m
 dòl	d ɔ l
 dôl	d oː l
@@ -5781,6 +6119,10 @@ echddoe	ɛ χ ð ɔ i̯
 echdoe	ɛ χ d ɔ i̯
 echdoe	ɛ χ ð ɔ
 echdoe	ɛ χ ð ɔ i̯
+echdoriad	ɛ χ d ɔ r j a d
+echdorri	ɛ χ d ɔ r i
+echel	eː χ ɛ l
+echel	ɛ χ ɛ l
 echlysur	ɛ χ l ə s ɪ r
 echnos	ɛ χ n ɔ s
 echryd	ɛ χ r ɪ d
@@ -5832,6 +6174,7 @@ efwr	ɛ v ʊ r
 efydd	eː v ɪ ð
 efydd	ɛ v ɪ ð
 efyrnwy	ɛ v ə r n ʊ i̯
+eglur	ɛ ɡ l ɪ r
 eglurdeb	ɛ ɡ l ɪ r d ɛ b
 eglurder	ɛ ɡ l ɪ r d ɛ r
 egluro	ɛ ɡ l iː r ɔ
@@ -5839,6 +6182,9 @@ egluro	ɛ ɡ l ɪ r ɔ
 eglwys	ɛ ɡ l ʊ i̯ s
 eglwys	ɛ ɡ l ʊ s
 egni	ɛ ɡ n i
+egr	ɛ ɡ r
+egroes	ɛ ɡ r oː s
+egroes	ɛ ɡ r ɔ i̯ s
 egwyddor	ɛ ɡ ʊ i̯ ð ɔ r
 egwyl	eː ɡ ʊ i̯ l
 egwyl	eː ɡ ʊ l
@@ -5855,6 +6201,8 @@ ehedydd	ɛ h eː d ɪ ð
 ehedydd	ɛ h ɛ d ɪ ð
 ehöeg	ɛ h oː ɛ ɡ
 ei	e i̯
+eich	e i̯ χ
+eich	ə χ
 eicon	e i̯ k ɔ n
 eid	e i̯ d
 eidal	e i̯ d a l
@@ -5938,6 +6286,7 @@ elain	ɛ l a i̯ n
 elc	ɛ l k
 elciaid	ɛ l k j a i̯ d
 elciaid	ɛ l k j ɛ d
+eldrydd	ɛ l d r ə ð
 elech	eː l ɛ χ
 elech	ɛ l ɛ χ
 electromagneteg	ɛ l ɛ k t r ɔ m a ɡ n ɛ t ɛ ɡ
@@ -5962,6 +6311,8 @@ elet	eː l ɛ t
 elet	ɛ l ɛ t
 elfed	ɛ l v ɛ d
 elfen	ɛ l v ɛ n
+elfennol	ɛ l v ɛ n ɔ l
+elgan	ɛ l ɡ a n
 eli	eː l i
 eli	ɛ l i
 elid	eː l ɪ d
@@ -5974,6 +6325,7 @@ elir	ɛ l ɪ r
 elit	eː l ɪ t
 elit	ɛ l ɪ t
 elli	ɛ ɬ i
+elltrewyn	ɛ ɬ t r e u̯ ɪ n
 elltydd	ɛ ɬ d ɪ ð
 ellyll	ɛ ɬ ɪ ɬ
 ellyn	ɛ ɬ ɪ n
@@ -6078,12 +6430,14 @@ eraill	eː r ɪ ɬ
 eraill	ɛ r a i̯ ɬ
 eraill	ɛ r ɪ ɬ
 erbiwm	ɛ r b j ʊ m
+erblith	ɛ r b l ɪ θ
 erbyn	ɛ r b ɪ n
 erch	ɛ r χ
 erchi	ɛ r χ i
 erchwyn	ɛ r χ w ɪ n
 erchyll	ɛ r χ ɪ ɬ
 erddi	ɛ r ð i
+erfin	ɛ r v ɪ n
 erfyn	ɛ r v ɪ n
 ergyd	ɛ r ɡ ɪ d
 erioed	r j oː d
@@ -6093,6 +6447,10 @@ erioed	ɛ r j ɔ i̯ d
 erlid	ɛ r l ɪ d
 ers	ɛ r s
 erthygl	ɛ r θ ɪ ɡ l
+erthyl	ɛ r θ ɪ l
+erthyliad	ɛ r θ ə l j a d
+erthylu	ɛ r θ ə l ɪ
+erthylus	ɛ r θ ə l ɪ s
 erw	eː r u
 erw	ɛ r u
 erwau	ɛ r w a i̯
@@ -6114,7 +6472,14 @@ esgidiau	s ɡ ɪ d ʒ ɛ
 esgidiau	s ɡ ɪ t ʃ ɛ
 esgidiau	ɛ s ɡ ɪ d j a i̯
 esgob	ɛ s ɡ ɔ b
+esgobaeth	ɛ s ɡ oː b a i̯ θ
+esgobaeth	ɛ s ɡ oː b ɛ θ
+esgobaeth	ɛ s ɡ ɔ b ɛ θ
 esgobion	ɛ s ɡ ɔ b j ɔ n
+esgori	e s ɡ oː r i
+esgori	e s ɡ ɔ r i
+esgoriad	ɛ s ɡ oː r j a d
+esgoriad	ɛ s ɡ ɔ r j a d
 esgus	ɛ s ɡ ɪ s
 esgusoda	ɛ s k ɪ s oː d a
 esgusoda	ɛ s k ɪ s ɔ d a
@@ -6125,12 +6490,22 @@ esgusodwch	ɛ s k ɪ s ɔ d ʊ χ
 esgyll	ɛ s ɡ ɪ ɬ
 esgyn	ɛ s ɡ ɪ n
 esgyrn	ɛ s ɡ ɪ r n
+esmwyth	ɛ s m ʊ i̯ θ
+esmwythydd	ɛ s m ʊ i̯ θ ɪ n
 est	eː s d
 est	ɛ s d
 estron	ɛ s d r ɔ n
 estrys	ɛ s d r ɪ s
 estyn	ɛ s d ɪ n
 estynwlad	ɛ s d ə n w l a d
+ether	eː θ ɛ r
+ether	ɛ θ ɛ r
+etholadwy	ɛ θ ɔ l a d u
+etholadwy	ɛ θ ɔ l a d ʊ i̯
+etholadwy	ɛ θ ɔ l aː d u
+etholadwy	ɛ θ ɔ l aː d ʊ i̯
+etholedig	ɛ θ ɔ l eː d ɪ ɡ
+etholedig	ɛ θ ɔ l ɛ d ɪ ɡ
 etholiad	ɛ θ ɔ l j a d
 etholiadau	ɛ θ ɔ l j a d a i̯
 etholiadau	ɛ θ ɔ l j a d ɛ
@@ -6190,7 +6565,6 @@ fanwl	v aː n ʊ l
 fara	v a r a
 fara	v aː r a
 farchnad	v a r χ n a d
-farchog	v a r χ ɔ ɡ
 farchogion	v a r χ ɔ ɡ j ɔ n
 fardd	v a r ð
 farfog	v a r v ɔ ɡ
@@ -6201,6 +6575,8 @@ farnwr	v a r n ʊ r
 farus	v a r ɪ s
 farus	v aː r ɪ s
 fas	v aː s
+fasai	v a s a i̯
+fasai	v a s ɛ
 fasen	s ɛ n
 fasen	v a s ɛ n
 fasen	v ə s ɛ n
@@ -6280,7 +6656,9 @@ fetrig	v ɛ t r ɪ ɡ
 fewn	v ɛ u̯ n
 fewn	v ɪ u̯ n
 fewnblyg	v ɛ u̯ n b l ɪ ɡ
+fewnol	v ɛ u̯ n ɔ l
 ffa	f aː
+ffacbys	f a k b ɪ s
 ffagod	f a ɡ ɔ d
 ffair	f a i̯ r
 ffaith	f a i̯ θ
@@ -6351,8 +6729,10 @@ ffionau	f ɪ ɔ n ɛ
 ffiseg	f ɪ z ɛ ɡ
 ffisioleg	f ɪ s j ɔ l ɛ ɡ
 ffisioleg	f ɪ ʃ ɔ l ɛ ɡ
+fflach	f l aː χ
 fflamgwr	f l a m ɡ ʊ r
 fflapjac	f l a p d ʒ a k
+fflasg	f l a s ɡ
 fflat	f l a t
 fflerofiwm	f l ɛ r ɔ v j ʊ m
 ffliw	f l ɪ u̯
@@ -6383,6 +6763,7 @@ ffoniwch	f ɔ n j ʊ χ
 ffoniwn	f ɔ n j ʊ n
 fforc	f ɔ r k
 fforch	f ɔ r χ
+fforchog	f ɔ r χ ɔ ɡ
 ffordd	f ɔ r
 ffordd	f ɔ r ð
 fforddio	f ɔ r ð j ɔ
@@ -6545,6 +6926,7 @@ fodlon	v ɔ d l ɔ n
 fodryb	v ɔ d r ɪ b
 fodur	v oː d ɪ r
 fodur	v ɔ d ɪ r
+foed	v ɔ i̯ d
 foes	v ɔ i̯ s
 fol	v ɔ l
 fola	v ɔ l a
@@ -6558,6 +6940,7 @@ ford	v ɔ r d
 fordydd	v ɔ r d ɪ ð
 fore	v oː r ɛ
 fore	v ɔ r ɛ
+forgi	v ɔ r ɡ i
 forio	v ɔ r j ɔ
 foroco	v ɔ r ɔ k ɔ
 foron	v oː r ɔ n
@@ -6567,6 +6950,7 @@ fory	v ɔ r i
 foth	v oː θ
 fothau	v ɔ θ a i̯
 fothau	v ɔ θ ɛ
+frag	v r aː ɡ
 frain	v r a i̯ n
 fraith	v r a i̯ θ
 frathu	v r a θ i
@@ -6674,8 +7058,6 @@ fôn	v oː n
 fôr	v oː r
 fûm	v iː m
 fẁg	v ʊ ɡ
-g	ɛ ɡ
-g	ɡ ə
 ga	ɡ aː
 gacen	ɡ a k ɛ n
 gach	ɡ aː χ
@@ -6698,6 +7080,8 @@ gadael	ɡ a d a i̯ l
 gadael	ɡ a d ɛ l
 gadael	ɡ aː d a i̯ l
 gadael	ɡ aː d ɛ l
+gadair	ɡ a d a i̯ r
+gadair	ɡ a d ɛ r
 gadair	ɡ aː d a i̯ r
 gadair	ɡ aː d ɛ r
 gadawed	ɡ a d a u̯ ɛ d
@@ -6771,7 +7155,6 @@ gallant	ɡ a ɬ a n t
 galled	ɡ a ɬ ɛ d
 gallen	ɡ a ɬ ɛ n
 galler	ɡ a ɬ ɛ r
-gallgo	a ɬ ɡ ɔ
 galli	ɡ a ɬ i
 gallio	ɡ a ɬ j ɔ
 gallo	ɡ a ɬ ɔ
@@ -6893,6 +7276,8 @@ garen	ɡ a r ɛ n
 garen	ɡ aː r ɛ n
 garent	ɡ a r ɛ n t
 garent	ɡ aː r ɛ n t
+garer	ɡ a r ɛ r
+garer	ɡ aː r ɛ r
 gares	ɡ a r ɛ s
 gares	ɡ aː r ɛ s
 garest	ɡ a r ɛ s t
@@ -6910,6 +7295,7 @@ garnau	ɡ a r n ɛ
 garo	ɡ a r ɔ
 garo	ɡ aː r ɔ
 garreg	ɡ a r ɛ ɡ
+garth	b ɨ a r θ
 garthen	ɡ a r θ ɛ n
 gartre	ɡ a r t r ɛ
 gartre	ɡ a t r ɛ
@@ -6963,8 +7349,10 @@ geidwadol	ɡ e i̯ d w a d ɔ l
 geifr	ɡ e i̯ v r
 geifr	ɡ e i̯ v ɪ r
 geilw	ɡ e i̯ l u
+geilwad	ɡ e i̯ l w a d
 geir	ɡ e i̯ r
 geirda	ɡ e i̯ r d a
+geirfa	ɡ e i̯ r v a
 geiriadur	ɡ e i̯ r j a d ɪ r
 geiriadur	ɡ e i̯ r j aː d ɪ r
 geiriadurwr	ɡ e i̯ r j a d iː r ʊ r
@@ -6990,6 +7378,8 @@ gelen	ɡ ɛ l ɛ n
 gelet	ɡ eː l ɛ t
 gelet	ɡ ɛ l ɛ t
 gell	ɡ ɛ ɬ
+gellgi	ɡ ɛ ɬ ɡ iː
+gellgwn	ɡ ɛ ɬ ɡ uː n
 gelli	ɡ ɛ ɬ i
 gellid	ɡ ɛ ɬ i d
 gellir	ɡ ɛ ɬ i r
@@ -7061,6 +7451,7 @@ gini	ɡ ɪ n i
 ginio	ɡ ɪ n j ɔ
 ginio	ɡ ɪ n ɔ
 gist	ɡ ɪ s d
+giw	ɡ ɪ u̯
 giwba	ɡ ɪ u̯ b a
 gladdu	ɡ l a ð i
 gladdu	ɡ l aː ð i
@@ -7088,19 +7479,27 @@ glefyd	ɡ l ɛ v ɪ d
 gleifion	ɡ l e i̯ v j ɔ n
 gleiniau	ɡ l e i̯ n j a i̯
 gleiniau	ɡ l e i̯ n j ɛ
+gleisiad	ɡ l e i̯ s j a d
+gleisiad	ɡ l e i̯ ʃ a d
 gleision	ɡ l e i̯ s j ɔ n
 gleision	ɡ l e i̯ ʃ ɔ n
 glendid	ɡ l ɛ n d ɪ d
+gleuad	ɡ l e i̯ a d
 glew	ɡ l ɛ u̯
+glewder	ɡ l ɛ u̯ d ɛ r
 glin	ɡ l iː n
 glo	ɡ l oː
 gloan	ɡ l oː a n
 gloan	ɡ l ɔ a n
 gloch	ɡ l oː χ
+gloes	ɡ l oː s
+gloes	ɡ l ɔ i̯ s
 gloi	ɡ l ɔ i̯
 glosen	ɡ l ɔ s ɛ n
 gloset	ɡ l ɔ s ɛ t
 gloyw	ɡ l ɔ i̯ u
+gloywder	ɡ l ɔ i̯ uː d e r
+gloywedd	ɡ l ɔ i̯ w ɛ ð
 glud	ɡ l iː d
 gludio	ɡ l ɪ d j ɔ
 glust	ɡ l ɪ s t
@@ -7117,6 +7516,8 @@ glynu	ɡ l ə n i
 glythineb	ɡ l ə θ iː n ɛ b
 glythineb	ɡ l ə θ ɪ n ɛ b
 glyw	ɡ l ɪ u̯
+glywaist	ɡ l ə u̯ a i̯ s t
+glywaist	ɡ l ə u̯ ɛ s t
 glywed	ɡ l ə u̯ ɛ d
 glywed	ɡ l ɪ u̯ ɛ d
 glân	ɡ l aː n
@@ -7165,6 +7566,9 @@ gododd	ɡ oː d ɔ ð
 gododd	ɡ ɔ d ɔ ð
 godon	ɡ oː d ɔ n
 godon	ɡ ɔ d ɔ n
+godre	ɡ ɔ d r ɛ
+gody	ɡ oː d i
+gody	ɡ ɔ d i
 goed	ɡ oː d
 goed	ɡ ɔ i̯ d
 goeg	ɡ ɔ i̯ ɡ
@@ -7191,6 +7595,10 @@ goginio	ɡ ɔ ɡ ɪ n j ɔ
 goginioch	ɡ ɔ ɡ ɪ n j ɔ χ
 goginiodd	ɡ ɔ ɡ ɪ n j ɔ ð
 goginion	ɡ ɔ ɡ ɪ n j ɔ n
+goglais	ɡ ɔ ɡ l a i̯ s
+goglais	ɡ ɔ ɡ l a i̯ ʃ
+goglais	ɡ ɔ ɡ l ɛ s
+goglais	ɡ ɔ ɡ l ɛ ʃ
 gogledd	ɡ ɔ ɡ l ɛ ð
 gogleddol	ɡ ɔ ɡ l eː ð ɔ l
 gogleddol	ɡ ɔ ɡ l ɛ ð ɔ l
@@ -7265,9 +7673,15 @@ gordderchadon	ɡ ɔ r ð ɛ r χ a d ɔ n
 gordderchadon	ɡ ɔ r ð ɛ r χ aː d ɔ n
 gorea	ɡ ɔ r eː a
 gorff	ɡ ɔ r f
+gorffen	ɡ ɔ r f a n
+gorffen	ɡ ɔ r f ɛ n
 gorffennaf	ɡ ɔ r f ɛ n a v
 gorffennol	ɡ ɔ r f ɛ n ɔ l
 gorffwyll	ɡ ɔ r f ʊ i̯ ɬ
+gorflin	ɡ ɔ r l ɪ n
+gorflinder	ɡ ɔ r v l ɪ n d ɛ r
+gorflino	ɡ ɔ r v l iː n ɔ
+gorflino	ɡ ɔ r v l ɪ n ɔ
 gorfod	ɡ ɔ f ɔ
 gorfod	ɡ ɔ f ɔ d
 gorfod	ɡ ɔ r f ɔ d
@@ -7296,6 +7710,14 @@ gorwedd	ɡ ɔ r w ɛ ð
 gorweiddiog	ɡ ɔ r w e i̯ ð j ɔ ɡ
 gorwel	ɡ ɔ r w ɛ l
 gosod	ɡ ɔ s ɔ d
+gosodedig	ɡ ɔ s ɔ d eː d ɪ ɡ
+gosodedig	ɡ ɔ s ɔ d ɛ d ɪ ɡ
+gosodiad	ɡ ɔ s oː d j a d
+gosodiad	ɡ ɔ s ɔ d j a d
+gosodol	ɡ ɔ s oː d ɔ l
+gosodol	ɡ ɔ s ɔ d ɔ l
+gosodwr	ɡ ɔ s oː d ʊ r
+gosodwr	ɡ ɔ s ɔ d ʊ r
 gosteg	ɡ ɔ s d ɛ ɡ
 gostwng	ɡ ɔ s d ʊ ŋ
 gostyngaidd	ɡ ɔ s d ə ŋ a i̯ ð
@@ -7312,6 +7734,7 @@ graff	ɡ r aː f
 gramadeg	ɡ r a m a d ɛ ɡ
 grasus	ɡ r a s ɪ s
 grau	ɡ r a i̯
+grawn	ɡ r a u̯ n
 grawnwin	ɡ r a u̯ n w ɪ n
 gre	ɡ r eː
 greda	ɡ r eː d a
@@ -7343,10 +7766,18 @@ gronell	ɡ r oː n ɛ ɬ
 gronell	ɡ r ɔ n ɛ ɬ
 gronellau	ɡ r ɔ n ɛ ɬ a i̯
 gronellau	ɡ r ɔ n ɛ ɬ ɛ
+gronyn	ɡ r oː n ɪ n
+gronyn	ɡ r ɔ n ɪ n
+grudd	ɡ r iː ð
+grudd	ɡ r ɨː ð
 gruffudd	ɡ r ɪ f ɪ ð
 grug	ɡ r iː ɡ
 gruga	ɡ r iː ɡ a
 gruga	ɡ r ɪ ɡ a
+grugo	ɡ r iː ɡ ɔ
+grugo	ɡ r ɪ ɡ ɔ
+grugos	ɡ r iː ɡ ɔ s
+grugos	ɡ r ɪ ɡ ɔ s
 grwban	ɡ r uː b a n
 grwban	ɡ r ʊ b a n
 grwpiau	ɡ r ʊ p j a i̯
@@ -7356,6 +7787,8 @@ grwys	ɡ r ʊ ɪ̯ s
 gryf	ɡ r iː v
 grym	ɡ r ɪ m
 grymus	ɡ r ə m ɪ s
+grys	ɡ r iː s
+grys	ɡ r ɨː s
 grêt	ɡ r eː t
 grôt	ɡ r oː t
 grŵp	ɡ r uː p
@@ -7368,6 +7801,9 @@ gusanau	ɡ ɪ s aː n ɛ
 gusanu	ɡ ɪ s a n i
 gusanu	ɡ ɪ s aː n i
 gut	ɡ ɪ t
+gwach	ɡ w aː χ
+gwacter	ɡ w a k t ɛ r
+gwactod	ɡ w a k t ɔ d
 gwadd	ɡ w aː ð
 gwadiad	ɡ w a d j a d
 gwadn	ɡ w aː d n̥
@@ -7436,13 +7872,16 @@ gwasanaeth	ɡ w a s aː n a i̯ θ
 gwasanaeth	ɡ w a s aː n ɛ θ
 gwasanaethau	ɡ w a s a n e i̯ θ a i̯
 gwasanaethau	ɡ w a s a n e i̯ θ ɛ
+gwasg	ɡ w a s ɡ
 gwasgaru	ɡ w a s ɡ aː r i
+gwasgod	ɡ w a s k ɔ d
 gwastad	ɡ w a s d a d
 gwastraff	ɡ w a s d r a f
 gwastraffu	ɡ w a s d r a f i
 gwau	ɡ w a i̯
 gwaun	ɡ w a i̯ n
 gwaun	ɡ w e i̯ n
+gwawch	ɡ w a u̯ χ
 gwawd	ɡ w a u̯ d
 gwawl	ɡ w a u̯ l
 gwawn	ɡ w a u̯ n
@@ -7466,6 +7905,8 @@ gwddwg	ɡ uː ð u ɡ
 gwddwg	ɡ ʊ ð ʊ ɡ
 gwdihŵ	ɡ ʊ d ɪ h uː
 gwe	ɡ w eː
+gwead	ɡ w eː a d
+gweadedd	ɡ w ɛ aː d ɛ ð
 gwedd	ɡ w eː ð
 gweddi	ɡ w eː ð i
 gweddi	ɡ w ɛ ð i
@@ -7487,6 +7928,8 @@ gweedig	ɡ w ɛ ɛ d i ɡ
 gwefan	ɡ w eː v a n
 gwefan	ɡ w ɛ v a n
 gwefr	ɡ w ɛ v r
+gwegil	ɡ w eː ɡ ɪ l
+gwegil	ɡ w ɛ ɡ ɪ l
 gweiddi	ɡ w e i̯ ð i
 gweilch	ɡ w e i̯ l χ
 gweill	ɡ w e i̯ ɬ
@@ -7566,6 +8009,7 @@ gwely	ɡ w eː l i
 gwely	ɡ w ɛ l i
 gwen	ɡ w ɛ n
 gwenan	ɡ w ɛ n a n
+gwendid	ɡ w ɛ n d ɪ d
 gwenen	ɡ w ɛ n ɛ n
 gwener	ɡ w ɛ n ɛ r
 gwenhwyfar	ɡ w ɛ n h ʊ i̯ v a r
@@ -7605,6 +8049,9 @@ gwern	ɡ w ɛ r n
 gwernen	ɡ w ɛ r n ɛ n
 gwernog	ɡ w ɛ r n ɔ ɡ
 gwers	ɡ w ɛ r s
+gwerslyfr	ɡ w e r s l ə v ɪ r
+gwerslyfr	ɡ w e r s l ɪ v r
+gwerslyfr	ɡ w e r s l ɪ v ɪ r
 gwerth	ɡ w ɛ r θ
 gwerthfawrogi	ɡ w ɛ r θ v a u̯ r oː ɡ i
 gwerthfawrogi	ɡ w ɛ r θ v a u̯ r ɔ ɡ i
@@ -7637,8 +8084,10 @@ gwinau	ɡ w ɪ n a i̯
 gwinoedd	ɡ w iː n ɔ i̯ ð
 gwinoedd	ɡ w ɪ n ɔ i̯ ð
 gwir	ɡ w iː r
+gwirf	ɡ w ɪ r v
 gwirfoddol	ɡ w ɪ r v oː ð ɔ l
 gwirfoddol	ɡ w ɪ r v ɔ ð ɔ l
+gwirfwy	ɡ w ɪ r v ʊ i̯
 gwirod	ɡ w iː r ɔ d
 gwirod	ɡ w ɪ r ɔ d
 gwirodlyn	ɡ w ɪ r ɔ d l ɪ n
@@ -7648,7 +8097,6 @@ gwisga	ɡ w ɪ s ɡ a
 gwisgo	ɡ w ɪ s ɡ ɔ
 gwisgo	ɡ w ɪ ʃ ɡ ɔ
 gwiw	ɡ w ɪ u̯
-gwiwer	ɡ w ɪ u̯ ɛ r
 gwiwerod	ɡ w ɪ u̯ eː r ɔ d
 gwiwerod	ɡ w ɪ u̯ ɛ r ɔ d
 gwlad	ɡ l aː d
@@ -7734,8 +8182,11 @@ gwregys	ɡ w r eː ɡ ɪ s
 gwregys	ɡ w r ɛ ɡ ɪ s
 gwreiddiadur	ɡ w r ɛ i̯ ð j a d ɪ r
 gwreiddiadur	ɡ w r ɛ i̯ ð j aː d ɪ r
+gwreiddiau	ɡ w r e i̯ ð j a i̯
+gwreiddiau	ɡ w r e i̯ ð j ɛ
 gwreiddio	ɡ w r e i̯ ð j ɔ
 gwreiddiol	ɡ w r e i̯ ð j ɔ l
+gwreiddioldeb	ɡ w r e i̯ ð j ɔ l d ɛ b
 gwreiddyn	ɡ w r e i̯ ð ɪ n
 gwrendy	ɡ w r ɛ n d i
 gwres	ɡ w r eː s
@@ -7768,6 +8219,7 @@ gwrthryfeloedd	ɡ ʊ r θ r ə v ɛ l ɔ i̯ ð
 gwrthryfelwr	ɡ ʊ r θ r ə v eː l ʊ r
 gwrthryfelwr	ɡ ʊ r θ r ə v ɛ l ʊ r
 gwrthryfelwyr	ɡ ʊ r θ r ə v ɛ l w ɪ r
+gwrthsur	ɡ ʊ r θ s ɪ r
 gwrthwynebair	ɡ ʊ r θ w ɪ n ɛ b a i̯ r
 gwrthwynebiad	ɡ ʊ r θ w ɪ n ɛ b j a d
 gwrthwynebiadau	ɡ ʊ r θ w ɪ n ɛ b j a d a i̯
@@ -7869,13 +8321,18 @@ gwyddyl	ɡ w ɪ ð ɪ l
 gwyddyl	ɡ ʊ i̯ ð ɪ l
 gwydion	ɡ w ɪ d j ɔ n
 gwydion	ɡ ʊ i̯ d j ɔ n
+gwydr	ɡ w ɪ d r
 gwydr	ɡ w ɪ d ɪ r
 gwydraid	ɡ w ə d r a i̯ d
 gwydrau	ɡ w ə d r ɛ
+gwydryn	ɡ w ə d r ɪ n
 gwyfyn	ɡ w ə v ɪ n
+gwylaeth	ɡ w ə l a i̯ θ
+gwylaeth	ɡ w ə l ɛ θ
 gwylan	ɡ ʊ i̯ l a n
 gwylanod	ɡ ʊ i̯ l a n ɔ d
 gwylanod	ɡ ʊ i̯ l aː n ɔ d
+gwylanwydd	ɡ ʊ i̯ l aː n ʊ i̯ ð
 gwyliau	ɡ w ɪ l j a i̯
 gwyliau	ɡ w ɪ l j ɛ
 gwyliau	ɡ ʊ i̯ l j a i̯
@@ -7911,6 +8368,7 @@ gwyndyd	ɡ ʊ i̯ n d ɪ d
 gwynedd	ɡ u i̯ n ɛ ð
 gwyneira	ɡ w ɪ n e i̯ r a
 gwyneth	ɡ w ɪ n ɛ θ
+gwyniad	ɡ w ɪ n j a d
 gwynion	ɡ w ə n j ɔ n
 gwynion	ɡ w ɪ n j ɔ n
 gwynlas	ɡ w ɪ n l a s
@@ -7955,6 +8413,7 @@ gydag	ɡ ɪ d a ɡ
 gydbreswylwyr	ɡ iː d b r ɛ s ʊ i̯ l w ɪ r
 gyddfau	ɡ ə ð v a i̯
 gyddfau	ɡ ə ð v ɛ
+gyddfddu	ɡ ə ð v ð i
 gyddfgoch	ɡ ə ð v ɡ ɔ χ
 gyfaill	ɡ ə v a i̯ ɬ
 gyfaredd	ɡ ə v a r ɛ ð
@@ -8034,9 +8493,11 @@ gynnwrf	ɡ ə n ʊ r v
 gynnyn	ɡ ə n ɪ n
 gynradd	ɡ ə n r a ð
 gyrdd	ɡ ɪ r ð
+gyrfa	ɡ ə r v a
 gyrgoed	ɡ ə r ɡ ɔ i̯ d
 gyrhaeddais	ɡ ə r h e i̯ ð a i̯ s
 gyrhaeddais	ɡ ə r h e i̯ ð ɛ s
+gyriad	ɡ ə r j a d
 gyrliog	ɡ ə r l j ɔ ɡ
 gyrraedd	ɡ ə r a i̯ ð
 gyrraedd	ɡ ə r a ð
@@ -8065,12 +8526,14 @@ gâl	ɡ aː l
 gân	ɡ aː n
 gât	ɡ aː t
 gès	ɡ ɛ s
+gêl	ɡ eː l
 gêm	ɡ eː m
 gên	ɡ eː n
 gïau	ɡ iː a
 gïau	ɡ iː a ɨ̯
 gïau	ɡ iː ɛ
 gôl	ɡ oː l
+gôr	ɡ oː r
 gôt	ɡ oː t
 gŵr	ɡ uː r
 gŵydd	ɡ ʊ i̯ ð
@@ -8138,6 +8601,7 @@ haden	h a d ɛ n
 haden	h aː d ɛ n
 haderyn	h a d eː r ɪ n
 haderyn	h a d ɛ r ɪ n
+hadog	h a d o ɡ
 hadolygu	h a d ɔ l ə ɡ i
 hadran	h a d r a n
 hadu	h aː d i
@@ -8168,6 +8632,7 @@ hafren	h a v r ɛ n
 hagor	h a ɡ ɔ r
 hagor	h aː ɡ ɔ r
 hagr	h a ɡ r
+haidd	h a i̯ ð
 hail	h a i̯ l
 haint	h a i̯ n t
 hais	h a i s
@@ -8179,6 +8644,8 @@ hallt	h a ɬ d
 halmanac	h a l m a n a k
 halmanaciau	a l m a n a k j a i̯
 halmanaciau	a l m a n a k j ɛ
+halogen	h a l oː ɡ ɛ n
+halogen	h a l ɔ ɡ ɛ n
 halwminiwm	h a l ʊ m ɪ n j ʊ m
 hamerica	h a m ɛ r ɪ k a
 hamgylch	h a m ɡ ɪ l χ
@@ -8424,6 +8891,10 @@ hifanc	h ɪ v a ŋ k
 hil	h iː l
 hiliaeth	h ɪ l j a i̯ θ
 hiliaeth	h ɪ l j ɛ θ
+hiliwr	h ɪ l ɪ ʊ r
+hilydd	h iː l ɪ ð
+hilydd	h ɪ l ɪ ð
+hilyddol	h ɪ l ɪ ð ɔ l
 hin	h iː n
 hinon	h iː n ɔ n
 hinon	h ɪ n ɔ n
@@ -8436,6 +8907,7 @@ hiraeth	h ɪ r ɛ θ
 hirddisgwyliedig	h iː r ð ɪ s ɡ ʊ i̯ l j eː d ɪ ɡ
 hirddisgwyliedig	h iː r ð ɪ s ɡ ʊ i̯ l j ɛ d ɪ ɡ
 hirddydd	h ɪ r ð ɪ ð
+hirfaith	h ɪ r v a i̯ θ
 hirgron	h ɪ r ɡ r ɔ n
 hirgrwn	h ɪ r ɡ r ʊ n
 hirgrynion	h ɪ r ɡ r ə n j ɔ n
@@ -8476,6 +8948,7 @@ hogan	h ɔ ɡ a n
 hogen	h ɔ ɡ ɛ n
 hogiau	h ɔ ɡ j a i̯
 hogiau	h ɔ ɡ j ɛ
+hogldy	h ɔ ɡ l d i
 hogyn	h ɔ ɡ ɪ n
 holaf	h oː l a
 holaf	h oː l a v
@@ -8509,6 +8982,7 @@ huan	h i a n
 huan	h iː a n
 huawdl	h iː a u̯ d l
 hud	h iː d
+hudd	h iː ð
 huddygl	h ɪ ð ɪ ɡ l
 hudlath	h ɪ d l a θ
 hudo	h iː d ɔ
@@ -8519,6 +8993,8 @@ hugain	h iː ɡ a i̯ n
 hugain	h iː ɡ ɛ n
 hugain	h ɪ ɡ a i̯ n
 hugain	h ɪ ɡ ɛ n
+hugan	h iː ɡ a n
+hugan	h ɪ ɡ a n
 hun	h iː n
 huna	h iː n a
 huna	h ɪ n a
@@ -8528,6 +9004,9 @@ hunain	h ɪ n a i̯ n
 hunain	h ɪ n ɛ n
 hunan	h iː n a n
 hunan	h ɪ n a n
+hunaneglur	h iː n a n ɛ ɡ l ɪ r
+hunaneglur	h ɪ n a n ɛ ɡ l ɪ r
+hunangofiaint	h ɪ n a n ɡ ɔ v j a i̯ n t
 hunangofiannau	h ɪ n a n ɡ ɔ v j a n a i̯
 hunangofiannau	h ɪ n a n ɡ ɔ v j a n ɛ
 hunangofiant	h ɪ n a n ɡ ɔ v j a n t
@@ -8548,6 +9027,8 @@ hunllef	h ɪ n ɬ ɛ
 hunllef	h ɪ n ɬ ɛ v
 huno	h iː n ɔ
 huno	h ɪ n ɔ
+hurt	h ɪ r t
+hurten	h ɪ r t ɛ n
 hurtyn	h ɪ r t ɪ n
 huwd	h ɪ u̯ d
 hwch	h uː χ
@@ -8595,6 +9076,8 @@ hydoddedd	h ə d oː ð ɛ ð
 hydoddedd	h ə d ɔ ð ɛ ð
 hydoddedig	h ə d ɔ ð eː d ɪ ɡ
 hydoddedig	h ə d ɔ ð ɛ d ɪ ɡ
+hydoddeiddiaf	h ə d ɔ ð e i̯ ð j a
+hydoddeiddiaf	h ə d ɔ ð e i̯ ð j a v
 hydoddeiddio	h ə d ɔ ð e i̯ ð j ɔ
 hydoddi	h ə d oː ð i
 hydoddi	h ə d ɔ ð i
@@ -8617,6 +9100,7 @@ hydrogen	h ə d r ɔ ɡ ɛ n
 hydrogen	h ɪ d r ɔ ɡ ɛ n
 hyfed	h ə v ɛ d
 hyfyw	h ə v ɪ u̯
+hyglwyf	h ə ɡ l ʊ i̯ v
 hygyrch	h ə ɡ ɪ r χ
 hylendid	h ə l ɛ n d ɪ d
 hylif	h ə l ɪ v
@@ -8642,6 +9126,7 @@ hyrddod	h ə r ð ɔ d
 hyrwyddo	h ə r ʊ i̯ ð ɔ
 hyrwyddwr	h ə r ʊ i̯ ð ʊ r
 hyrwyddwyr	h ə r ʊ i̯ ð w ɨ̞ r
+hysb	h ɪ s b
 hysbys	h ə s b ɪ s
 hysbyseb	h ə s b ə s ɛ b
 hysbysebion	h ə s b ə s ɛ b j ɔ n
@@ -8656,6 +9141,7 @@ hysgubo	h ə s ɡ iː b ɔ
 hystafell	h ə s d a v ɛ ɬ
 hystafell	h ə s d aː v ɛ ɬ
 hywel	h ə u̯ ɛ l
+hêl	h eː l
 hŵr	h uː r
 hŷn	h iː n
 i	iː
@@ -8666,9 +9152,14 @@ ia	iː a
 ia	j a
 iaaidd	j aː a i̯ ð
 iach	j aː χ
+iachus	j a χ ɪ s
+iachus	j aː χ ɪ s
+iachusol	j a χ ɪ s ɔ l
 iaith	j a i̯ θ
 ianto	j a n t ɔ
 iarll	j a r ɬ
+iarllaeth	j a r ɬ a i̯ θ
+iarllaeth	j a r ɬ ɛ θ
 ias	j aː s
 iasau	j a s a i̯
 iasau	j a s ɛ
@@ -8691,6 +9182,9 @@ iddi	iː ð i
 iddi	ɪ ð i
 iddo	iː ð ɔ
 iddo	ɪ ð ɔ
+iddoch	iː ð ɔ χ
+iddot	iː ð ɔ t
+iddych	iː ð ɨ̞ χ
 iddyn	iː ð ɪ n
 iddyn	ɪ ð ɪ n
 iddynt	iː ð ɪ n t
@@ -8725,6 +9219,7 @@ imâm	ɪ m aː m
 in	ɪ n
 india	ɪ n d j a
 indiwm	ɪ n d j ʊ m
+indrawn	ɪ n d r a u̯ n
 innau	ɪ n a i̯
 innau	ɪ n ɛ
 inni	ɪ n i
@@ -8747,6 +9242,7 @@ is	iː s
 is	iː ʃ
 isaf	iː s a v
 isaf	ɪ s a v
+isatomig	iː s a t ɔ m ɪ ɡ
 isel	iː s ɛ l
 isel	iː ʃ ɛ l
 isel	ɪ s ɛ l
@@ -8763,18 +9259,26 @@ iseldiraidd	ɪ s ɛ l d iː r ɛ ð
 iseldiraidd	ɪ s ɛ l d ɪ r a i̯ ð
 iseldiraidd	ɪ s ɛ l d ɪ r ɛ ð
 iseldiroedd	ə r ɪ s ɛ l d ɪ r ɔ i̯ ð
+iseldiroedd	ə r ɪ s ɛ l d ɪ r ɔ ɨ̯ ð
 iseldiroedd	ɪ s ɛ l d ɪ r ɔ i̯ ð
 iselydd	ɪ s eː l ɪ ð
 iselydd	ɪ s ɛ l ɪ ð
 iselyddion	ɪ s ɛ l ə ð j ɔ n
 isetholiad	ɪ s ɛ θ ɔ l j a d
+isfyd	iː s v iː d
+islaw	iː s l a u̯
 isod	ɪ s ɔ d
 isosgeles	i s ɔ s ɡ ɛ l ɛ s
+isrywogaeth	iː s r ɪ u̯ oː ɡ a ɨ̯ θ
+isrywogaeth	iː s r ɪ u̯ oː ɡ ɛ θ
+isrywogaeth	iː s r ɪ u̯ ɔ ɡ a ɨ̯ θ
+isrywogaeth	iː s r ɪ u̯ ɔ ɡ ɛ θ
 isteitl	iː s d e i̯ t l
 isteitlau	iː s d e i̯ t l a i̯
 isteitlau	iː s d e i̯ t l ɛ
 isteitlo	iː s d e i̯ t l ɔ
 it	ɪ t
+ith	iː θ
 ithfaen	ɪ θ v a i̯ n
 iti	ɪ t i
 iwan	ɪ u̯ a n
@@ -8790,6 +9294,7 @@ iytan	j ə t a n
 iâ	j aː
 iâl	j aː l
 iâr	j aː r
+iäen	j aː ɛ n
 iôn	j oː n
 iôr	j oː r
 j	d ʒ eː
@@ -8805,6 +9310,9 @@ jyngl	d͡ʒ ə ŋ ɡ l
 jyngls	d͡ʒ ə ŋ ɡ l z
 jôc	d͡ʒ oː k
 jôcs	d͡ʒ oː k s
+kantiad	k a n t j a d
+kantiaeth	k a n t j a i̯ θ
+kantiaeth	k a n t j ɛ θ
 labordy	l a b ɔ r d i
 labovaidd	l a b ɔ v a i̯ ð
 ladd	l aː ð
@@ -8879,6 +9387,8 @@ lembo	l ɛ m b ɔ
 lembos	l ɛ m b ɔ z
 lemon	l ɛ m ɔ n
 lemwn	l ɛ m ʊ n
+lentyl	l ɛ n t ɪ l
+lentys	l ɛ n t ɪ s
 lerpwl	l ɛ r p ʊ l
 les	l eː s
 lesau	l ɛ s a i̯
@@ -8917,8 +9427,12 @@ lithwania	l ɪ θ w a n j a
 liwgar	l ɪ u̯ ɡ a r
 liwio	l ɪ u̯ j ɔ
 llac	ɬ a k
+llach	ɬ aː χ
 llachar	ɬ a χ a r
 lladd	ɬ aː ð
+lladdfa	l a ð v a
+lladdfan	l a ð v a n
+lladdiad	ɬ a ð j a d
 lladdwr	ɬ a ð ʊ r
 lladdwyr	ɬ a ð ʊ i̯ r
 lladin	ɬ a d ɪ n
@@ -8937,7 +9451,7 @@ llafar	ɬ aː v a r
 llafariad	ɬ a v a r j a d
 llafariaid	ɬ a v a r j a i̯ d
 llafariaid	ɬ a v a r j ɛ d
-llafur	ɬ a v ɪ r
+llafur	ɬ aː v ɪ r
 llai	ɬ a i̯
 llaid	ɬ a i̯ d
 llais	ɬ a i̯ s
@@ -8966,6 +9480,7 @@ llatai	ɬ a t a i̯
 llath	ɬ aː θ
 llau	ɬ a i̯
 llaw	ɬ a u̯
+llawch	ɬ a u̯ χ
 llawdriniaeth	ɬ a ʊ d r ɪ n j a i̯ θ
 llawen	ɬ a u̯ ɛ n
 llawer	ɬ a u̯ ɛ r
@@ -8991,6 +9506,8 @@ lledr	ɬ ɛ d ɛ r
 llefaru	ɬ e v aː r i
 llefarydd	ɬ ɛ v a r ɪ ð
 llefarydd	ɬ ɛ v aː r ɪ ð
+lleferydd	ɬ ɛ v eː r ɪ ð
+lleferydd	ɬ ɛ v ɛ r ɪ ð
 llefn	ɬ ɛ v n
 llefrith	ɬ ɛ v r ɪ θ
 llefydd	ɬ eː v ɪ ð
@@ -9010,18 +9527,27 @@ lleied	ɬ e i̯ ɛ d
 lleihau	ɬ e i̯ h a i̯
 lleill	ɬ e i̯ ɬ
 lleinw	ɬ e i̯ n u
+lleisiad	ɬ e i̯ s j a d
 lleisiau	ɬ e i̯ s j a i̯
 lleisiau	ɬ e i̯ s j ɛ
 lleisiau	ɬ e i̯ ʃ a i̯
 lleisiau	ɬ e i̯ ʃ ɛ
 lleisio	ɬ e i̯ s j ɔ
 lleisio	ɬ e i̯ ʃ ɔ
+lleisiol	ɬ e i̯ s j ɔ l
+lleisiol	ɬ e i̯ ʃ ɔ l
 lleisydd	ɬ e i̯ s ɪ ð
 llen	ɬ ɛ n
+lleng	ɬ ɛ ŋ
+llengfilwr	ɬ ɛ ŋ v ɪ l ʊ r
+llengfilwyr	ɬ ɛ ŋ v ɪ l w ɪ r
 llengig	ɬ ɛ ŋ ɡ ɪ ɡ
+llengoedd	ɬ ɛ ŋ ɔ i̯ ð
 llenni	ɬ ɛ n i
 llenwad	ɬ ɛ n w a d
 llenwi	ɬ ɛ n w i
+llenydd	ɬ eː n ɪ ð
+llenydd	ɬ ɛ n ɪ ð
 llenydda	ɬ ɛ n ə ð a
 llenyddiaeth	ɬ ɛ n ə ð j a i̯ θ
 llenyddiaeth	ɬ ɛ n ə ð j ɛ θ
@@ -9031,6 +9557,7 @@ lleoedd	ɬ eː ɔ ð
 lleol	ɬ eː ɔ l
 lleoli	ɬ ɛ oː l i
 lleoli	ɬ ɛ ɔ l i
+lleoliad	ɬ ɛ ɔ l j a d
 lles	ɬ eː s
 llesg	ɬ ɛ s ɡ
 llesol	ɬ ɛ s ɔ l
@@ -9045,16 +9572,19 @@ llestr	ɬ ɛ s t r
 llestr	ɬ ɛ s t ɛ r
 llestri	ɬ ɛ s t r i
 llethol	ɬ ɛ θ ɔ l
-llety	ɬ eː t iː
+llety	ɬ ɛ t i
+lleu	ɬ e i̯
 lleua	ɬ e i̯ a
 lleuad	ɬ e i̯ a d
 lleuen	ɬ e i̯ ɛ n
 lleugylch	ɬ e i̯ ɡ ɪ l χ
 llew	ɬ ɛ u̯
 llewod	ɬ ɛ u̯ ɔ d
+llewyglyd	ɬ ɛ w ə ɡ l ɪ d
 llewyrch	ɬ ɛ u̯ ɪ r χ
 llewyrchu	ɬ ɛ u̯ ə r χ i
 llewys	ɬ ɛ u̯ ɪ s
+lliain	ɬ i a i̯ n
 llid	ɬ iː d
 llif	ɬ iː v
 llifed	ɬ iː v ɛ d
@@ -9091,6 +9621,8 @@ lloches	ɬ oː χ ɛ s
 lloches	ɬ ɔ χ ɛ s
 llochesau	ɬ ɔ χ ɛ s a i̯
 llochesau	ɬ ɔ χ ɛ s ɛ
+llochi	ɬ oː χ i
+llochi	ɬ ɔ χ i
 lloegr	ɬ ɔ i̯ ɡ r
 lloegr	ɬ ɔ i̯ ɡ ɛ r
 lloer	ɬ ɔ i̯ r
@@ -9107,6 +9639,7 @@ llongau	ɬ ɔ ŋ a i̯
 llongau	ɬ ɔ ŋ ɛ
 llongwr	ɬ ɔ ŋ ʊ r
 llongwyr	ɬ ɔ ŋ w ɪ r
+llonni	ɬ ɔ n i
 llonydd	ɬ oː n ɪ ð
 llonydd	ɬ ɔ n ɪ ð
 llonyddu	ɬ ɔ n ə ð i
@@ -9119,9 +9652,14 @@ llosgi	ɬ ɔ s ɡ i
 llosgydd	ɬ ɔ s ɡ ɪ ð
 llost	ɬ ɔ s d
 llu	ɬ iː
+lluarth	ɬ iː a r θ
+llud	ɬ iː d
 lluddias	ɬ ɪ ð j a s
 lludw	ɬ iː d u
 lludw	ɬ ɪ d u
+lluest	ɬ i ɛ s d
+lluesty	ɬ i ɛ s d i
+lluesty	ɬ j ɛ s d i
 llun	ɬ iː n
 llundain	ɬ ɪ n d a i̯ n
 llundain	ɬ ɪ n d ɛ n
@@ -9161,6 +9699,8 @@ llw	ɬ uː
 llwch	ɬ uː χ
 llwchwr	ɬ uː χ ʊ r
 llwchwr	ɬ ʊ χ ʊ r
+llwg	ɬ uː ɡ
+llwglyd	ɬ ʊ ɡ l ɪ d
 llwgu	ɬ uː ɡ i
 llwgu	ɬ ʊ ɡ i
 llwm	ɬ ʊ m
@@ -9187,6 +9727,8 @@ llwyfan	ɬ ʊ i̯ v a n
 llwyfandir	ɬ ʊ i̯ v a n d ɪ r
 llwyn	ɬ ʊ i̯ n
 llwynog	ɬ ʊ i̯ n ɔ ɡ
+llwynoges	ɬ ʊ i̯ n oː ɡ ɛ s
+llwynoges	ɬ ʊ i̯ n ɔ ɡ ɛ s
 llwyth	ɬ ʊ i̯ θ
 llwythais	ɬ ʊ i̯ θ a i̯ s
 llwythais	ɬ ʊ i̯ θ ɛ s
@@ -9202,6 +9744,7 @@ llychlyn	ɬ ə χ l ɪ n
 llychlynnaidd	ɬ ə χ l ə n a i̯ ð
 llychlynnwr	ɬ ə χ l ə n ʊ r
 llychlynwyr	ɬ ə χ l ə n w ɪ r
+llyd	ɬ iː d
 llydan	ɬ ə d a n
 llydanbigau	ɬ ə d a m b iː ɡ ɛ
 llydanbigau	ɬ ə d a m b ɪ ɡ a i̯
@@ -9223,10 +9766,12 @@ llyfrgell	ɬ ə v ə r ɡ ɛ ɬ
 llyfrgellwyr	ɬ ə v r ɡ ɛ ɬ w ɪ r
 llyfrgellydd	ɬ ə v r ɡ ɛ ɬ ɪ ð
 llyfu	ɬ ə v i
+llyg	ɬ iː ɡ
 llygad	ɬ ɪ ɡ a d
 llygaid	ɬ ə ɡ a i̯ d
 llygaid	ɬ ə ɡ ɛ d
 llygaid	ɬ ɪ ɡ ɛ d
+llygeidiog	ɬ ə ɡ e i̯ d j ɔ ɡ
 llygod	ɬ ə ɡ ɔ d
 llygoden	ɬ ə ɡ oː d ɛ n
 llygoden	ɬ ə ɡ ɔ d ɛ n
@@ -9344,6 +9889,7 @@ lwytho	l ʊ i̯ θ ɔ
 lwythodd	l ʊ i̯ θ ɔ ð
 lychlyn	l ə χ l ɪ n
 lychlynnwr	l ə χ l ə n ʊ r
+lyd	l iː d
 lydan	l ə d a n
 lydanbigau	l ə d a m b iː ɡ ɛ
 lydanbigau	l ə d a m b ɪ ɡ a i̯
@@ -9405,6 +9951,9 @@ machgen	m a χ ɡ ɛ n
 machgenyn	m a χ ɡ ɛ n ɪ n
 machlud	m a χ l ɪ d
 machynlleth	m a χ ə n ɬ ɛ θ
+macon	m a k ɔ n
+maconen	m a k oː n ɛ n
+maconen	m a k ɔ n ɛ n
 macydelgi	m a k ə d ɛ l ɡ i
 macymwn	m a k ə m ʊ n
 mad	m aː d
@@ -9446,19 +9995,24 @@ magnelwyr	m a ɡ n eː l ʊ r
 magnelwyr	m a ɡ n ɛ l ʊ r
 magnesiwm	m a ɡ n ɛ s j ʊ m
 magu	m aː ɡ i
+magwyr	m aː ɡ ʊ i̯ r
 maharen	m a h a r ɛ n
 maharen	m a h aː r ɛ n
 mai	m a i̯
 maidd	m a i̯ ð
 main	m a i̯ n
 maint	m a i̯ n t
+maip	m a i̯ p
 mair	m a i̯ r
 maith	m a i̯ θ
 maleiswedd	m a l e i̯ s w ɛ ð
 malu	m aː l i
+malw	m aː l u
+malwen	m a l w ɛ n
 malwod	m a l w ɔ d
 malwota	m a l w ɔ t a
 malwr	m aː l ʊ r
+malws	m aː l ʊ s
 malwyr	m a l w ɪ r
 mam	m a m
 mamau	m a m a i̯
@@ -9466,6 +10020,8 @@ mamau	m a m ɛ
 mambŵ	m a m b uː
 mamoth	m a m ɔ θ
 man	m a n
+manag	m a n a ɡ
+manag	m aː n a ɡ
 maneg	m a n ɛ ɡ
 maneg	m aː n ɛ ɡ
 manganîs	m a ŋ ɡ a n iː z
@@ -9489,6 +10045,7 @@ manylu	m a n ə l i
 manylwch	m a n ə l ʊ χ
 manylyn	m a n ə l ɪ n
 map	m a p
+mapgoll	m a p ɡ ɔ ɬ
 mapiau	m a p j a i̯
 mapiau	m a p j ɛ
 mapio	m a p j ɔ
@@ -9496,6 +10053,10 @@ mapio	m a p ɔ
 mara	m a r a
 mara	m aː r a
 march	m a r χ
+marchfieri	m a r χ v i eː r i
+marchfieri	m a r χ v i ɛ r i
+marchfieri	m a r χ v j eː r i
+marchfieri	m a r χ v j ɛ r i
 marchgacwn	m a r χ ɡ a k ʊ n
 marchgacynen	m a r χ ɡ a k ə n ɛ n
 marchnad	m a r χ n a d
@@ -9506,14 +10067,22 @@ marchogaeth	m a r χ oː ɡ ɛ θ
 marchogaeth	m a r χ ɔ ɡ a i̯ θ
 marchogaeth	m a r χ ɔ ɡ ɛ θ
 marchogion	m a r χ ɔ ɡ j ɔ n
+marddanadl	d aː n a d
+marddanadl	d aː n a d l
+mardon	m a r d ɔ n
 mari	m a r i
 mari	m aː r i
 marnau	m a r n a i̯
 marnau	m a r n ɛ
 marnwr	m a r n ʊ r
+maro	m a r ɔ
 marus	m a r ɪ s
 marus	m aː r ɪ s
 marw	m aː r u
+marwddanadl	m a r w ð aː n a d l
+marwddanadl	m a r ð aː n a d
+marwdy	m a r d i
+marwdy	m a r w d i
 mas	m aː s
 masen	m a s ɛ n
 masg	m a s ɡ
@@ -9535,6 +10104,7 @@ mawl	m a u̯ l
 mawn	m a u̯ n
 mawr	m a u̯ r
 mawr	m o u̯ r
+mawredd	m a u̯ r ɛ ð
 mawrth	m a u̯ r θ
 mawrth	m o u̯ r θ
 mechgyn	m ɛ χ ɡ ɪ n
@@ -9563,6 +10133,7 @@ meddwi	m ɛ ð w i
 meddwl	m eː ð ʊ l
 meddwl	m ɛ ð ʊ l
 meddwn	m ɛ ð ʊ n
+meddwyn	m ɛ ð w ɪ n
 meddyf	m eː ð ɪ v
 meddyf	m ɛ ð ɪ v
 meddyg	m eː ð ɪ ɡ
@@ -9602,6 +10173,7 @@ meicrodon	m e i̯ k r ɔ d ɔ n
 meiddio	m e i ð j ɔ
 meiddion	m e i̯ ð j ɔ n
 meidrol	m e i̯ d r ɔ l
+meillion	m e i̯ ɬ j ɔ n
 meinwen	m e i̯ n w ɛ n
 meithrin	m e i̯ θ r ɪ n
 meithrinfa	m e i̯ θ r ɪ n v a
@@ -9636,6 +10208,9 @@ melyster	m ɛ l ə s d ɛ r
 mendelefiwm	m ɛ n d ɛ l ɛ v j ʊ m
 menig	m eː n ɪ ɡ
 menig	m ɛ n ɪ ɡ
+menter	m ɛ n t ɛ r
+mentr	m ɛ n t r
+mentr	m ɛ n t r̩
 menyn	m eː n ɪ n
 menyn	m ɛ n ɪ n
 menyw	m eː n ɪ u̯
@@ -9674,15 +10249,16 @@ metelegydd	m ɛ t ɛ l ɛ ɡ ɪ ð
 methan	m ɛ θ a n
 mether	m ɛ θ ɛ r
 methi	m ɛ θ i
+methiant	m ɛ θ j a n t
 metho	m ɛ θ ɔ
 methu	m ɛ θ i
 metr	m ɛ t r
 metrig	m ɛ t r ɪ ɡ
-mewn	m ɛ u̯ n
 mewn	m ɪ u̯ n
 mewnanadlu	m ɛ u̯ n a n a d l i
 mewnblyg	m ɛ u̯ n b l ɪ ɡ
 mewnddodiad	m ɛ u̯ n ð ɔ d j a d
+mewndro	m ɛ u̯ n d r ɔ
 mewnfodol	m ɛ u̯ n v oː d ɔ l
 mewnfodol	m ɛ u̯ n v ɔ d ɔ l
 mewnforiadwy	m ɛ u̯ n v ɔ r j a d ʊ i̯
@@ -9852,6 +10428,10 @@ mi	m iː
 microdon	m ɪ k r ɔ d ɔ n
 microsgopau	m e i̯ k r ɔ s ɡ ɔ p ɛ
 microsgopau	m ɪ k r ɔ s ɡ ɔ p a i̯
+mieri	m i eː r i
+mieri	m i ɛ r i
+mieri	m j eː r i
+mieri	m j ɛ r i
 mign	m ɪ ɡ ɪ n
 migwrn	m iː ɡ ʊ r n
 migwrn	m ɪ ɡ ʊ r n
@@ -9872,11 +10452,13 @@ milwrol	m ɪ l uː r ɔ l
 milwrol	m ɪ l ʊ r ɔ l
 milwyr	m ɪ l w ɪ r
 min	m iː n
+miniog	m ɪ n j ɔ ɡ
 mis	m iː s
 mis	m iː ʃ
 mislif	m ɪ s l ɪ v
 mislifol	m ɪ s l iː v ɔ l
 mislifol	m ɪ s l ɪ v ɔ l
+misol	m ɪ s ɔ l
 mlaidd	m l a i̯ ð
 mlas	m l aː s
 mleiddiaid	m l e i̯ ð j a i̯ d
@@ -9913,6 +10495,7 @@ modrwy	m ɔ d r ʊ i̯
 modryb	m ɔ d r ɪ b
 modur	m oː d ɪ r
 modur	m ɔ d ɪ r
+moed	m ɔ i̯ d
 moel	m ɔ i̯ l
 moelni	m ɔ i̯ l n i
 moes	m ɔ i̯ s
@@ -9930,6 +10513,8 @@ molifia	m ɔ l ɪ v j a
 moll	m ɔ ɬ
 mollt	m ɔ ɬ t
 molybdenwm	m ɔ l ɪ b d ɛ n ʊ m
+moment	m oː m ɛ n t
+moment	m ɔ m ɛ n t
 mor	m ɔ r
 mordaith	m ɔ r d a i̯ θ
 mordeithiau	m ɔ r d e i̯ θ j a i̯
@@ -9943,14 +10528,17 @@ moresg	m ɔ r ɛ s ɡ
 morfarch	m ɔ r v a r χ
 morfil	m ɔ r v ɪ l
 morfilod	m ɔ r v ɪ l ɔ d
+morfuwch	m ɔ r v ɪ u̯ χ
 morgan	m ɔ r ɡ a n
 morgannwg	m ɔ r ɡ a n ʊ ɡ
 morgeisio	m ɔ r ɡ e i̯ s j ɔ
 morgeisio	m ɔ r ɡ e i̯ ʃ ɔ
+morgi	m ɔ r ɡ i
 morgrug	m ɔ r ɡ r ɪ ɡ
 morgrugyn	m ɔ r ɡ r iː ɡ ɪ n
 morgrugyn	m ɔ r ɡ r ɪ ɡ ɪ n
 morio	m ɔ r j ɔ
+morlo	m ɔ r l ɔ
 moroco	m ɔ r ɔ k ɔ
 moron	m oː r ɔ n
 moron	m ɔ r ɔ n
@@ -10017,6 +10605,7 @@ mudwr	m iː d ʊ r
 mudwr	m ɪ d ʊ r
 mudydd	m iː d ɪ ð
 mudydd	m ɪ d ɪ ð
+mul	m iː l
 munud	m ɪ n ɛ d
 munud	m ɪ n ɪ d
 munudau	m ɪ n iː d a i̯
@@ -10041,7 +10630,6 @@ mwncïod	m ʊ ŋ k iː ɔ d
 mwng	m ʊ ŋ
 mwnt	m ʊ n t
 mwnwgl	m ʊ n ʊ ɡ l
-mwnwgl	m ʊ n ʊ ɡ ʊ l
 mwrllwch	m ʊ r l ʊ χ
 mws	m uː s
 mwsogla	m ʊ s ɔ ɡ l a
@@ -10049,6 +10637,7 @@ mwsoglaidd	m ʊ s ɔ ɡ l a i̯ ð
 mwsoglaidd	m ʊ s ɔ ɡ l ɛ ð
 mwsoglyd	m ʊ s ɔ ɡ l ɪ d
 mwst	m ʊ s d
+mwstasiog	m ʊ s d a ʃ ɔ ɡ
 mwthyn	m ʊ θ ɪ n
 mwy	m ʊ i̯
 mwya	m ʊ i̯ a
@@ -10072,6 +10661,7 @@ mwyngloddiol	m ʊ i̯ ŋ ɡ l ɔ ð j ɔ l
 mwynhau	m ʊ i̯ n h a i̯
 mwynwr	m ʊ i̯ n ʊ r
 mwytho	m ʊ i̯ θ ɔ
+mychan	m ə χ a n
 myfanwy	m ə v a n ʊ i̯
 myfanwy	m ə v aː n ʊ i̯
 myfi	m ə v iː
@@ -10079,6 +10669,7 @@ myfyrio	m ə v ə r j ɔ
 myfyriwr	m ə v ə r j ʊ r
 myfyrwyr	m ə v ə r w ɪ r
 myfïol	m ə v iː ɔ l
+mygu	m ə ɡ i
 mygydau	m ə ɡ ə d a i̯
 mygydau	m ə ɡ ə d ɛ
 mygydog	m ə ɡ ə d ɔ ɡ
@@ -10130,8 +10721,10 @@ màs	m a s
 mân	m aː n
 mêl	m eː l
 mên	m eː n
+mêr	m eː r
 mêt	m eː t
 mêts	m eː t s
+môl	m oː l
 môn	m oː n
 môr	m oː r
 mŷr	m iː r
@@ -10207,6 +10800,10 @@ nefoedd	n eː v ɔ i̯ ð
 nefoedd	n eː v ɔ ð
 nefoedd	n ɛ v ɔ i̯ ð
 nefoedd	n ɛ v ɔ ð
+nefol	n eː v ɔ l
+nefol	n ɛ v ɔ l
+nefolaidd	n ɛ v oː l a i̯ ð
+nefolaidd	n ɛ v ɔ l a i̯ ð
 neges	n eː ɡ ɛ s
 neges	n ɛ ɡ ɛ s
 negeseua	n ɛ ɡ ɛ s e i̯ a
@@ -10228,6 +10825,7 @@ neiliaid	n e i̯ l j a i̯ d
 neiliaid	n e i̯ l j ɛ d
 neiniau	n e i̯ n j a i̯
 neiniau	n e i̯ n j ɛ
+neirin	n e i̯ r ɪ n
 neithiwr	n e i̯ θ j ʊ r
 neithiwr	n e i̯ θ ʊ r
 neithiwr	n iː θ ʊ r
@@ -10259,6 +10857,7 @@ nesgiau	n ɛ s ɡ j ɛ
 neshi	n ɛ ʃ i
 nest	n eː s d
 nest	n ɛ s d
+nest	n ɛ s t
 neu	n e i̯
 neu	n ɛ
 neuadd	n e i̯ a ð
@@ -10277,6 +10876,9 @@ newyddion	n ɛ u̯ ə ð j ɔ n
 newyn	n ɛ u̯ ɪ n
 newynau	n ɛ u̯ ə n a i̯
 newynau	n ɛ u̯ ə n ɛ
+newynllyd	n ɛ w ə n ɬ ɪ d
+newynog	n ɛ u̯ ə n ɔ ɡ
+ng	ŋ
 ngadael	ŋ a d a i̯ l
 ngadael	ŋ a d ɛ l
 ngadael	ŋ aː d a i̯ l
@@ -10459,6 +11061,8 @@ nghrwban	ŋ̊ r uː b a n
 nghrwban	ŋ̊ r ʊ b a n
 nghrwth	ŋ̊ r uː θ
 nghrwys	ŋ̊ r ʊ ɪ̯ s
+nghrys	ŋ̊ r iː s
+nghrys	ŋ̊ r ɨː s
 nghusan	ŋ̊ ɪ s a n
 nghusanau	ŋ̊ ɪ s a n a i̯
 nghusanau	ŋ̊ ɪ s a n ɛ
@@ -10478,6 +11082,9 @@ nghwrdd	ŋ̊ ʊ r ð
 nghwrs	ŋ̊ ʊ r s
 nghwrw	ŋ̊ uː r u
 nghwrw	ŋ̊ ʊ r u
+nghwympo	ŋ̊ w ɪ m p ɔ
+nghwympo	ŋ̊ ʊ m p ɔ
+nghwympo	ŋ̊ ʊ ɪ̯ m p ɔ
 nghwyn	ŋ̊ ʊ i̯ n
 nghychwyn	ŋ̊ ə χ w ɪ n
 nghydbreswylwyr	ŋ̊ iː d b r ɛ s ʊ i̯ l w ɪ r
@@ -10854,6 +11461,14 @@ nodau	n oː d a i̯
 nodau	n oː d ɛ
 nodau	n ɔ d a i̯
 nodau	n ɔ d ɛ
+noddfa	n ɔ ð v a
+noddi	n oː ð i
+noddi	n ɔ ð i
+noddwr	n oː ð ʊ r
+noddwr	n ɔ ð ʊ r
+nodedig	n ɔ d eː d ɪ ɡ
+nodedig	n ɔ d ɛ d ɪ ɡ
+nodedigrwydd	n ɔ d ɛ d ɪ ɡ r ʊ i̯ ð
 nodi	n oː d i
 nodi	n ɔ d i
 nodrefn	n ɔ d r ɛ v n
@@ -10881,6 +11496,7 @@ noswaith	n ɔ s w a i̯ θ
 noswaith	n ɔ s w ɛ θ
 not	n ɔ t
 nraenog	n r a i̯ n ɔ ɡ
+nraig	n r a i̯ ɡ
 nrama	n r a m a
 nrama	n r aː m a
 nrwm	n r ʊ m
@@ -10930,6 +11546,11 @@ oblegid	ɔ b l eː ɡ ɪ d
 oblegid	ɔ b l ɛ ɡ ɪ d
 oce	ɔ k ɛ
 ocr	ɔ k r
+ocsid	ɔ k s ɪ d
+ocsidaidd	o k s ɪ d a i̯ ð
+ocsidiad	o k s ɪ d j a d
+ocsidydd	ɔ k s iː d ɪ ð
+ocsidydd	ɔ k s ɪ d ɪ ð
 ocsigenu	ɔ k s ɪ ɡ eː n i
 ocsigenu	ɔ k s ɪ ɡ ɛ n i
 ocsiwn	ɔ k ʃ ʊ n
@@ -10956,10 +11577,12 @@ oen	ɔ i̯ n
 oer	oː r
 oer	ɔ i̯ r
 oerach	ɔ i̯ r a χ
+oerfel	ɔ i̯ r v ɛ l
 oeri	ɔ i̯ r i
 oes	oː s
 oes	w eː s
 oes	ɔ i̯ s
+oesfyr	ɔ ɪ s v ɪ r
 ofalus	ɔ v a l ɪ s
 ofalus	ɔ v aː l ɪ s
 ofer	oː v ɛ r
@@ -11050,6 +11673,7 @@ olympaidd	ɔ l ɪ m p a i̯ ð
 olympaidd	ɔ l ɪ m p ɛ ð
 olynu	ɔ l ə n i
 oman	ɔ m a n
+ombwdsmon	ɔ m b ʊ d s m ɔ n
 omled	ɔ m l ɛ d
 ongl	ɔ ŋ l
 onglydd	ɔ ŋ l ɪ ð
@@ -11066,6 +11690,8 @@ optegydd	ɔ p t eː ɡ ɪ ð
 optegydd	ɔ p t ɛ ɡ ɪ ð
 oren	oː r ɛ n
 oren	ɔ r ɛ n
+orffen	ɔ r f a n
+orffen	ɔ r f ɛ n
 orffennaf	ɔ r f ɛ n a v
 organig	ɔ r ɡ a n ɪ ɡ
 organig	ɔ r ɡ aː n ɪ ɡ
@@ -11092,7 +11718,6 @@ pa	p aː
 pab	p aː b
 pabell	p a b ɛ ɬ
 pabell	p aː b ɛ ɬ
-pabi	p a b i
 pabi	p aː b i
 pabydd	p a b ɪ ð
 pabydd	p aː b ɪ ð
@@ -11150,6 +11775,8 @@ paned	p aː n ɛ d
 paneidiau	p a n e i̯ d j a i̯
 paneidiau	p a n e i̯ d j ɛ
 pannas	p a n a s
+pannog	p a n ɔ ɡ
+panog	p aː n ɔ ɡ
 pant	p a n t
 papaia	p a p a i̯ a
 papur	p a p ɪ r
@@ -11235,6 +11862,7 @@ pedrongl	p ɛ d r ɔ ŋ l
 pedronglau	p ɛ d r ɔ ŋ l a i̯
 pedronglau	p ɛ d r ɔ ŋ l ɛ
 pedrsill	p ɛ d r s ɪ ɬ
+pedryn	p ɛ d r ɪ n
 pedwar	p ɛ d w a r
 pedwarawd	p ɛ d w aː r a u̯ d
 pedwaredd	p ɛ d w a r ɛ ð
@@ -11296,7 +11924,9 @@ penderfyniaeth	p ɛ n d ɛ r v ə n j ɛ θ
 penderfynol	p ɛ n d ɛ r v ə n ɔ l
 penderfynu	p ɛ n d ɛ r v ə n i
 penderfynwch	p ɛ n d ɛ r v ə n ʊ χ
+pendew	p ɛ n d ɛ u̯
 pendrist	p ɛ n d r ɪ s d
+pendro	p ɛ n d r o
 pendrwm	p ɛ n d r ʊ m
 penelin	p ɛ n eː l ɪ n
 penelin	p ɛ n ɛ l ɪ n
@@ -11323,6 +11953,7 @@ pennau	p ɛ n ɛ
 pennill	p ɛ n ɪ ɬ
 pennod	p ɛ n ɔ d
 pennog	p ɛ n ɔ ɡ
+pennyg	p ɛ n ɪ ɡ
 pensaer	p ɛ n s a i̯ r
 pensaernïaeth	p ɛ n s a i̯ r n iː a i̯ θ
 pensaernïaeth	p ɛ n s ɛ r n iː ɛ θ
@@ -11335,14 +11966,20 @@ pentref	p ɛ n t r ɛ
 pentref	p ɛ n t r ɛ v
 pentwr	p ɛ n t ʊ r
 pentyrru	p ɛ n t ə r i
+penwag	p ɛ n w a ɡ
 penwaig	p ɛ n w a i̯ ɡ
 perchen	p ɛ r χ ɛ n
 perchennog	p ɛ r χ ɛ n ɔ ɡ
 perchentyaeth	p ɛ r χ ɛ n t iː a i θ
+perchentyol	p ɛ r χ ɛ n t iː ɔ l
 peren	p eː r ɛ n
 peren	p ɛ r ɛ n
 perfedd	p ɛ r v ɛ ð
 perfeddion	p ɛ r v ɛ ð j ɔ n
+perfieri	p ɛ r v i eː r i
+perfieri	p ɛ r v i ɛ r i
+perfieri	p ɛ r v j eː r i
+perfieri	p ɛ r v j ɛ r i
 perihelion	p ɛ r ɪ h ɛ l j ɔ n
 peris	p eː r ɪ s
 peris	p ɛ r ɪ s
@@ -11351,6 +11988,9 @@ perl	p ɛ r l
 perlau	p ɛ r l a i̯
 perlau	p ɛ r l ɛ
 perllan	p ɛ r ɬ a n
+permanganad	p ɛ r m a ŋ ɡ a n a d
+permanganad	p ɛ r m a ŋ ɡ aː n a d
+perocsid	p ɛ r ɔ k s ɪ d
 perseiniol	p ɛ r s e i̯ n j ɔ l
 persli	p ɛ r s l i
 person	p ɛ r s ɔ n
@@ -11377,7 +12017,9 @@ pethau	p eː θ a i̯
 pethau	p eː θ ɛ
 pethau	p ɛ θ a i̯
 pethau	p ɛ θ ɛ
+petris	p ɛ t r ɪ s
 petroliwm	p ɛ t r ɔ l j ʊ m
+petruso	p ɛ t r ɪ s ɔ
 petryal	p ɛ t r iː a l
 petryalau	p ɛ t r i a l a i̯
 petryalau	p ɛ t r i a l ɛ
@@ -11576,6 +12218,8 @@ pibell	p ɪ b ɛ ɬ
 piben	p iː b ɛ n
 piben	p ɪ b ɛ n
 pibgorn	p ɪ b ɡ ɔ r n
+pibo	p iː b ɔ
+pibo	p ɪ b ɔ
 pibonwy	p ɪ b oː n u i̯
 pibonwy	p ɪ b ɔ n u i̯
 pibonwyen	p ɪ b ɔ n u i̯ ɛ n
@@ -11607,6 +12251,7 @@ pigfelyn	p ɪ ɡ v ɛ l ɪ n
 piglas	p ɪ ɡ l a s
 pigwrn	p iː ɡ ʊ r n
 pigwrn	p ɪ ɡ ʊ r n
+pigwyn	p ɪ ɡ w ɪ n
 pigyn	p iː ɡ ɪ n
 pigyn	p ɪ ɡ ɪ n
 pigynnau	p ɪ ɡ ə n a i̯
@@ -11617,6 +12262,7 @@ pilaon	p ɪ l aː ɔ n
 pilen	p iː l ɛ n
 pilen	p ɪ l ɛ n
 pilipala	p ɪ l ɪ p aː l a
+pillffon	p ɪ ɬ f ɔ n
 pin	p iː n
 pin	p ɪ n
 pinafal	p iː n a v a l
@@ -11641,6 +12287,7 @@ pipi	p ɪ p i
 pipo	p ɪ p ɔ
 pipon	p ɪ p ɔ n
 piso	p ɪ s ɔ
+piston	p ɪ s d ɔ n
 piw	p iː u̯
 piwi	p ɪ u̯ i
 piws	p ɪ u̯ s
@@ -11685,6 +12332,11 @@ plethwaith	p l ɛ θ w a i̯ θ
 plis	p l iː z
 plismon	p l i s m ɔ n
 plismones	p l i s m ɔ n ɛ s
+plith	p l iː θ
+plorod	p l oː r ɔ d
+plorod	p l ɔ r ɔ d
+ploryn	p l oː r ɪ n
+ploryn	p l ɔ r ɪ n
 plu	p l iː
 pluen	p l iː ɛ n
 pluf	p l iː v
@@ -11697,6 +12349,8 @@ plwtoniwm	p l ʊ t ɔ n j ʊ m
 plwyf	p l ʊ i̯
 plwyf	p l ʊ i̯ v
 plyg	p l iː ɡ
+plygain	p l ə ɡ a i̯ n
+plygain	p l ə ɡ ɛ n
 plygiau	p l ə ɡ j a i̯
 plygiau	p l ə ɡ j ɛ
 plygio	p l ə ɡ j ɔ
@@ -11706,6 +12360,7 @@ plymio	p l ə m j ɔ
 plymiwr	p l ə m j ʊ r
 plymwr	p l ə m ʊ r
 plymwyr	p l ə m w ɪ r
+plôr	p l oː r
 pob	p oː b
 pobi	p ɔ b i
 pobl	p oː b ɔ l
@@ -11716,6 +12371,9 @@ poblog	p ɔ b l ɔ ɡ
 poblogaidd	p ɔ b l ɔ ɡ a i̯ ð
 pobol	p oː b ɔ l
 pobol	p ɔ b ɔ l
+poced	p oː k ɛ d
+poced	p ɔ k ɛ d
+poed	p ɔ i̯ d
 poen	p oː n
 poen	p ɔ i̯ n
 poena	p ɔ i̯ n a
@@ -11728,6 +12386,8 @@ poer	p ɔ i̯ r
 poeth	p oː θ
 poeth	p ɔ i̯ θ
 poethach	p ɔ i̯ θ a χ
+poethrawn	p o i̯ θ r a u̯ n
+poethwg	p ɔ i̯ θ ʊ ɡ
 polisi	p ɔ l ɪ s i
 polisïau	p ɔ l ɪ s i a i̯
 polisïau	p ɔ l ɪ s i ɛ
@@ -11766,6 +12426,9 @@ pothellog	p ɔ θ ɛ ɬ ɔ ɡ
 pothellu	p ɔ θ ɛ ɬ i
 poti	p ɔ t i
 potsio	p ɔ t ʃ ɔ
+powdr	p o u̯ d r
+powdr	p o u̯ d ʊ r
+praff	p r aː f
 prag	p r aː ɡ
 praseodymiwm	p r a s ɛ ɔ d ɪ m j ʊ m
 prawf	p r a u̯
@@ -11852,11 +12515,13 @@ pryd	p r iː d
 prydael	p r ə d a i̯ l
 prydain	p r ə d a i̯ n
 prydain	p r ə d ɛ n
+prydeinig	p r ə d e i̯ n ɪ ɡ
 pryder	p r ə d ɛ r
-prydferth	p r ə d v ɛ θ
+prydferth	p r ə d v ɛ r θ
 pryf	p r iː v
 pryfed	p r ə v ɛ d
 pryfyn	p r ə v ɪ n
+pryfysol	p r ə v ə s ɔ l
 pryna	p r ə n a
 prynhawn	p n a u̯ n
 prynhawn	p r ə n a u̯ n
@@ -11887,10 +12552,13 @@ punnau	p ɪ n a i̯
 punnau	p ɪ n ɛ
 punnoedd	p ɪ n ɔ i̯ ð
 punt	p ɪ n t
+pupur	p iː s
 pur	p iː r
 puramid	p ɪ r a m ɪ d
+purdeb	p ɪ r d ɛ b
 pured	p iː r ɛ d
 pured	p ɪ r ɛ d
+purlan	p i r l a n
 putain	p ɪ t a i̯ n
 putain	p ɪ t ɛ n
 puteindy	p ɪ t e i̯ n d i
@@ -11925,6 +12593,7 @@ pwysigrwydd	p ʊ i̯ s ɪ ɡ r ʊ i̯ ð
 pwyslais	p ʊ i̯ s l a i̯ s
 pwysleisio	p ʊ i̯ s l e i̯ s j ɔ
 pwysleisio	p ʊ i̯ s l e i̯ ʃ ɔ
+pwyso	p ʊ i̯ s ɔ
 pydredd	p ə d r ɛ ð
 pydru	p ə d r i
 pyg	p iː ɡ
@@ -11932,6 +12601,8 @@ pyglyd	p ə ɡ l ɪ d
 pyjamas	p ə d͡ʒ a m a z
 pyliau	p ə l j a i̯
 pyliau	p ə l j ɛ
+pylor	p ə l ɔ r
+pylu	p ə l i
 pymtheg	p ə m θ ɛ ɡ
 pymthegfed	p ə m θ ɛ ɡ v ɛ d
 pymthegnos	p ə m θ ɛ ɡ n ɔ s
@@ -11939,18 +12610,21 @@ pyramid	p ɪ r a m ɪ d
 pyrwydd	p ɪ r ʊ i̯ ð
 pys	p iː s
 pysen	p ə s ɛ n
+pysgadain	p ə s ɡ aː d a i̯ n
 pysgod	p ə s ɡ ɔ d
 pysgodyn	p ə s ɡ oː d ɪ n
 pysgodyn	p ə s ɡ ɔ d ɪ n
 pysgota	p ə s ɡ ɔ t a
 pysgotwr	p ə s ɡ ɔ t ʊ r
 pythefnos	p ə θ ɛ v n ɔ s
+pâl	p aː l
 pâr	p aː r
 pêl	p eː l
 pêr	p eː r
 pìn	p ɪ n
 pŵer	p u ɛ r
 pŵer	p uː ɛ r
+pŵl	p uː l
 pỳg	p ə ɡ
 rabi	r a b i
 raced	r a k ɛ d
@@ -12015,11 +12689,15 @@ rhagddodiad	r̥ a ɡ ð ɔ d j a d
 rhagenw	r̥ a ɡ eː n u
 rhagenw	r̥ a ɡ ɛ n u
 rhagfyr	r̥ a ɡ v ɪ r
+rhaglen	r̥ a ɡ l a n
+rhaglen	r̥ a ɡ l ɛ n
 rhaglenni	r̥ a ɡ l ɛ n i
 rhaglennu	r̥ a ɡ l ɛ n i
 rhaglun	r̥ a ɡ l ɪ n
 rhagluniau	r̥ a ɡ l ɨ̞ n j a i̯
 rhagluniau	r̥ a ɡ l ɨ̞ n j ɛ
+rhagor	r̥ a ɡ ɔ r
+rhagor	r̥ aː ɡ ɔ r
 rhagori	r̥ a ɡ oː r i
 rhagori	r̥ a ɡ ɔ r i
 rhagoriaeth	r̥ a ɡ ɔ r j a i̯ θ
@@ -12048,6 +12726,9 @@ rhannu	r̥ a n i
 rhatach	r͈ aː t a χ
 rhathu	r̥ a θ i
 rhaw	r̥ a u̯
+rhawch	r̥ a u̯ χ
+rhawiau	r̥ a u̯ j a i̯
+rhawiau	r̥ a u̯ j ɛ
 rhawn	r̥ a u̯ n
 rhech	r̥ eː χ
 rheda	r̥ eː d a
@@ -12178,6 +12859,7 @@ rhithweledigaeth	r̥ ɪ θ w ɛ l ɛ d iː ɡ a i̯ θ
 rhithweledigaeth	r̥ ɪ θ w ɛ l ɛ d iː ɡ ɛ θ
 rhiw	r̥ ɪ u̯
 rho	r̥ oː
+rhoch	r̥ oː χ
 rhod	r̥ oː d
 rhodd	r̥ oː ð
 rhoddion	r̥ ɔ ð j ɔ n
@@ -12191,6 +12873,7 @@ rhodri	r̥ ɔ d r i
 rhofio	r̥ ɔ v j ɔ
 rhoi	r̥ ɔ i̯
 rhos	r̥ oː s
+rhosb	r̥ ɔ s b
 rhosmari	r̥ ɔ s m aː r i
 rhosod	r̥ ɔ s ɔ d
 rhostog	r̥ ɔ s d ɔ ɡ
@@ -12201,12 +12884,16 @@ rhosynnau	r̥ ɔ s ə n ɛ
 rhosys	r̥ ɔ s ɪ s
 rhudd	r̥ iː ð
 rhuddgoch	r̥ ɨ ð ɡ ɔ χ
+rhuddog	r̥ iː ð ɔ ɡ
+rhuddog	r̥ ɪ ð ɔ ɡ
 rhuddwyn	r̥ ɪ ð w ɪ n
+rhuddygl	r̥ ɪ ð ɪ ɡ l
 rhued	r̥ iː ɛ d
 rhufain	r̥ iː v a i̯ n
 rhufain	r̥ iː v ɛ n
 rhufain	r̥ ɪ v a i̯ n
 rhufain	r̥ ɪ v ɛ n
+rhufeiniad	r̥ ɪ v e i̯ n j a d
 rhufeinig	r̥ ɪ v e i̯ n ɪ ɡ
 rhufeiniwr	r̥ ɪ v e i̯ n j ʊ r
 rhufeinwyr	r̥ ɪ v e i̯ n w ɪ r
@@ -12257,6 +12944,7 @@ rhyd	r̥ iː d
 rhydaman	r̥ ɪ d a m a n
 rhydau	r̥ ə d a i̯
 rhydau	r̥ ə d ɛ
+rhydd	r̥ iː
 rhydd	r̥ iː ð
 rhyddfarn	r̥ ə ð v a r n
 rhyddfraint	r̥ ə ð v r a i̯ n t
@@ -12271,6 +12959,7 @@ rhyddhad	r̥ ə ð h aː d
 rhyddhaf	r̥ ə ð h aː v
 rhyddhau	r̥ ə ð h a i̯
 rhyddid	r̥ ə ð ɪ d
+rhydwythol	r̥ ə d ʊ i̯ θ ɔ l
 rhydychen	r̥ iː d ə χ ɛ n
 rhydychen	r̥ ɪ d ə χ ɛ n
 rhyfedd	r̥ ə v ɛ ð
@@ -12282,6 +12971,8 @@ rhyfela	r̥ ə v ɛ l a
 rhyfelwr	r̥ ə v eː l ʊ r
 rhyfelwr	r̥ ə v ɛ l ʊ r
 rhyfelwyr	r̥ ə v ɛ l w ɪ r
+rhyn	r̥ ɪ n
+rhyngol	r̥ ə ŋ ɔ l
 rhyngrwyd	r̥ ə ŋ r ʊ i̯ d
 rhyngwladol	r̥ ə ŋ l a d ɔ l
 rhyngwladol	r̥ ə ŋ l aː d ɔ l
@@ -12299,10 +12990,16 @@ rhywbeth	r̥ ʊ b ɛ θ
 rhywbeth	r̥ ʊ p ɛ θ
 rhywbryd	r̥ ɪ u̯ b r ɪ d
 rhywedd	r̥ ɪ u̯ ɛ ð
+rhywfaint	r̥ ɪ u̯ v a i̯ n t
+rhywfodd	r̥ ɪ u̯ v ɔ ð
 rhywiol	r̥ ɪ u̯ j ɔ l
 rhywle	r ʊ l ɛ
 rhywle	r̥ ɪ u̯ l ɛ
 rhywle	r̥ ʊ l ɛ
+rhywogaeth	r̥ ɪ u̯ oː ɡ a ɨ̯ θ
+rhywogaeth	r̥ ɪ u̯ oː ɡ ɛ θ
+rhywogaeth	r̥ ɪ u̯ ɔ ɡ a ɨ̯ θ
+rhywogaeth	r̥ ɪ u̯ ɔ ɡ ɛ θ
 rhywsut	r ɪ u̯ s ɪ t
 rhywsut	r̥ ɪ u̯ s ɪ t
 rhywun	r ɪ u̯ ɪ n
@@ -12337,6 +13034,8 @@ rosynnau	r ɔ s ə n a i̯
 rosynnau	r ɔ s ə n ɛ
 rosys	r ɔ s ɪ s
 rownd	r ɔ u̯ n d
+rudd	r iː ð
+rudd	r ɨː ð
 rufain	r ɪ v a i̯ n
 rufeinig	r ɪ v e i̯ n ɪ ɡ
 rutherffordiwm	r ə ð ə r f ɔ r d j ʊ m
@@ -12406,6 +13105,7 @@ saffari	s a f aː r i
 safle	s a v l ɛ
 safon	s a v ɔ n
 safon	s aː v ɔ n
+safri	s a v r i
 saib	s a i̯ b
 saif	s a i̯ v
 saig	s a i̯ ɡ
@@ -12441,6 +13141,8 @@ sawdd	s a u̯ ð
 sawdl	s a u̯ d l
 sawdl	s a u̯ d ʊ l
 sawl	s a u̯ l
+sawr	s a u̯ r
+sawrus	s a u̯ r ɪ s
 saws	s a u̯ s
 sawsiau	s a u̯ s j a i̯
 sawsiau	s a u̯ s j ɛ
@@ -12452,9 +13154,14 @@ sbaenes	s b e i̯ n ɛ s
 sbaenwr	s b e i̯ n ʊ r
 sbaenwyr	s b e i̯ n w ɪ r
 sbageti	s b a ɡ ɛ t i
+sbaner	s b aː n ɛ r
 sbectol	s b ɛ k t ɔ l
 sbectolog	s b ɛ k t oː l ɔ ɡ
 sbectolog	s b ɛ k t ɔ l ɔ ɡ
+sbeis	s b e i̯ s
+sbeisiog	s b e i̯ s j ɔ ɡ
+sbeisiog	s b e i̯ ʃ ɔ ɡ
+sbeislyd	s b e i̯ s l ɪ d
 sbel	s b ɛ l
 sbio	s b iː ɔ
 sbleisio	s b l e i̯ s j ɔ
@@ -12463,11 +13170,15 @@ sbon	s b ɔ n
 sbonc	s b ɔ ŋ k
 sboncen	s b ɔ ŋ k ɛ n
 sbonciwr	s b ɔ ŋ k j ʊ r
+sboner	s b ɔ n ɛ r
+sbot	s b ɔ t
+sbring	s b r ɪ ŋ
 sbwliau	s b ʊ l j a i̯
 sbwliau	s b ʊ l j ɛ
 sbwlio	s b ʊ l j ɔ
 sbwriel	s b ʊ r j ɛ l
 sbâr	s b aː r
+sbôc	s b oː k
 sbŵl	s b uː l
 scandiwm	s ɡ a n d j ʊ m
 sdim	s d ɪ m
@@ -12588,6 +13299,7 @@ sgriniau	s ɡ r ɪ n j ɛ
 sgrinio	s ɡ r i n j ɔ
 sgwariau	s ɡ w a r j a i̯
 sgwariau	s ɡ w a r j ɛ
+sgwarnog	s ɡ w a r n ɔ ɡ
 sgwd	s ɡ uː d
 sgwlio	s ɡ ʊ l j ɔ
 sgwrs	s ɡ ʊ r s
@@ -12601,6 +13313,8 @@ sgynno	s ɡ ə n ɔ
 sgynnoch	s ɡ ə n ɔ χ
 sgynnon	s ɡ ə n ɔ n
 sgynnyn	s ɡ ə n ɪ n
+sgyrsiol	s ɡ ə r s j ɔ l
+sgyrsiol	s ɡ ə r ʃ ɔ l
 sgythia	s ɡ ə θ j a
 sgìl	s ɡ ɪ l
 sgïo	s ɡ i ɔ
@@ -12633,6 +13347,7 @@ siartiau	ʃ a r t j ɛ
 sibrwd	s ɪ b r ʊ d
 sicr	s ɪ k ɪ r
 sicrhau	s ɪ k ɪ r h a ɨ̯
+sicrwydd	s ɪ k r ʊ i̯ ð
 sidan	s iː d a n
 sidan	s ɪ d a n
 sifil	s ɪ v ɪ l
@@ -12710,9 +13425,13 @@ slej	s l ɛ d͡ʒ
 slejys	s l ɛ d͡ʒ ɪ z
 slofacia	s l ɔ v a k j a
 slofenia	s l ɔ v ɛ n j a
+slorwm	s l oː r ʊ m
+slorwm	s l ɔ r ʊ m
+smot	s m ɔ t
 smwddio	s m ʊ ð j ɔ
 smygu	s m ə ɡ i
 snwcer	s n ʊ k ɛ r
+so	s oː
 soch	s oː χ
 soddi	s oː ð i
 soddi	s ɔ ð i
@@ -12723,6 +13442,7 @@ sodor	s ɔ d ɔ r
 sodro	s ɔ d r ɔ
 soffa	s ɔ f a
 sofren	s ɔ v r ɛ n
+sorth	s ɔ r θ
 sos	s oː s
 sosban	s ɔ s b a n
 sosej	s ɔ s ɛ d͡ʒ
@@ -12754,6 +13474,7 @@ stopiem	s d ɔ p j ɛ m
 stopio	s d ɔ p j ɔ
 stori	s d oː r i
 stori	s d ɔ r i
+stormus	s t ɔ r m ɪ s
 storïau	s d ɔ r iː a i̯
 storïau	s d ɔ r iː ɛ
 strach	s d r aː χ
@@ -12765,21 +13486,25 @@ streicio	s d r e i̯ k j ɔ
 streicwr	s t r ɛ i k ʊ r
 streip	s d r e i̯ p
 strontiwm	s d r ɔ n t j ʊ m
+strwythur	s t r ʊ i̯ θ ɪ r
 stryd	s d r iː d
 stwrsiwn	s d ʊ r ʃ ʊ n
 stwrsiynod	s d ʊ r ʃ ə n ɔ d
 styfnig	s d ə v n ɪ ɡ
 stêm	s d eː m
+stôl	s t oː l
 stŵr	s d uː r
 sudd	s iː ð
 sumbol	s ɪ m b ɔ l
 sunthesis	s ɪ n θ ɛ s ɪ s
+sur	s iː r
 surdoes	s ɪ r d ɔ i̯ s
 sustem	s ɪ s d ɛ m
 sut	s ɪ t
 sut	ʃ ʊ d
 sut	ʃ ʊ t
 sw	z uː
+swch	s uː χ
 swdan	s ʊ d a n
 sweden	s w eː d ɛ n
 sweden	s w ɛ d ɛ n
@@ -12819,10 +13544,14 @@ swynol	s ʊ i̯ n ɔ l
 sy	s iː
 sych	s iː χ
 sychach	s ə χ a χ
+sychder	s ə χ d ɛ r
+sychdwr	s ə χ d ʊ r
+syched	s ə χ ɛ d
 sychin	s ə χ ɪ n
 sychnant	s ə χ n a n t
 sychnentydd	s ə χ n ɛ n t ɪ ð
 sychu	s ə χ i
+sychwr	s ə χ ʊ r
 sydd	s iː ð
 syfi	s ə v i
 syfl	s ɪ v l
@@ -12871,6 +13600,7 @@ symudol	s ə m iː d ɔ l
 symudol	s ə m ɪ d ɔ l
 symudon	s ə m iː d ɔ n
 symudon	s ə m ɪ d ɔ n
+syn	s iː n
 synau	s ə n a i̯
 synau	s ə n ɛ
 syndod	s ə n d ɔ d
@@ -12878,6 +13608,10 @@ syndodau	s ə n d oː d a i̯
 syndodau	s ə n d oː d ɛ
 syndodau	s ə n d ɔ d a i̯
 syndodau	s ə n d ɔ d ɛ
+syndodol	s ə n d oː d ɔ l
+syndodol	s ə n d ɔ d ɔ l
+syndodus	s ə n d oː d ɪ s
+syndodus	s ə n d ɔ d ɪ s
 syniad	s ə n j a d
 synio	s ə n j ɔ
 synnu	s ə n i
@@ -12961,6 +13695,8 @@ tal	t aː l
 tala	t a l a
 tala	t aː l a
 talach	t a l a χ
+talaf	t a l a
+talaf	t a l a v
 talaf	t aː l a
 talaf	t aː l a v
 talai	t a l a i̯
@@ -12978,6 +13714,7 @@ talan	t aː l a n
 talant	t a l a n t
 talant	t aː l a n t
 talcen	t a l k ɛ n
+talch	t a l χ
 taldra	t a l d r a
 taleb	t aː l ɛ b
 taled	t a l ɛ d
@@ -13048,6 +13785,8 @@ taro	t aː r ɔ
 tarth	t a r θ
 tarw	t a r u
 tarw	t aː r u
+tasai	t a s a i̯
+tasai	t a s ɛ
 tasmania	t a z m a n j a
 taten	t a t ɛ n
 tato	t a t ɔ
@@ -13059,6 +13798,8 @@ taw	t a
 taw	t a u̯
 taw	t ə
 tawa	t a u̯ a
+tawch	t a u̯ χ
+tawchu	t a u̯ χ i
 tawdd	t a u̯ ð
 tawe	t a u̯ ɛ
 tawel	t a u̯ ɛ l
@@ -13104,6 +13845,7 @@ teimlad	t ʊ m l a d
 teimlo	t e i̯ m l ɔ
 teimlo	t ɪ m l ɔ
 teimlo	t ʊ m l ɔ
+teios	t e ɪ ɔ s
 teipiadur	t e i̯ p a d ɪ r
 teipiadur	t e i̯ p aː d ɪ r
 teipiadur	t e i̯ p j a d ɪ r
@@ -13127,6 +13869,9 @@ teithiau	t e i̯ θ j a i̯
 teithiau	t e i̯ θ j ɛ
 teithio	t e i̯ θ ɔ
 teithio	t i θ ɔ
+teithlyfr	t e i̯ θ l ə v ɪ r
+teithlyfr	t e i̯ θ l ɪ v r
+teithlyfr	t e i̯ θ l ɪ v ɪ r
 teitl	t e i̯ t l
 teitlau	t e i̯ t l a i̯
 teitlau	t e i̯ t l ɛ
@@ -13184,6 +13929,7 @@ terfysgoedd	t ɛ r v ə s ɡ ɔ i̯ ð
 terfysgu	t ɛ r v ə s ɡ i
 terfysgwr	t ɛ r v ə s ɡ ʊ r
 terfysgwyr	t ɛ r v ə s ɡ w ɪ r
+termiadur	t ɛ r m j aː d ɪ r
 tery	t eː r i
 tery	t ɛ r i
 terydr	t eː r ɪ d r
@@ -13345,6 +14091,8 @@ threfydd	θ r eː v ɪ ð
 threfydd	θ r ɛ v ɪ ð
 threiglad	θ r e i̯ ɡ l a d
 threiglo	θ r e i̯ ɡ l ɔ
+threisiol	θ r e i̯ s j ɔ l
+threisiol	θ r e i̯ ʃ ɔ l
 threisiwr	θ r e i̯ s j ʊ r
 threisiwr	θ r e i̯ ʃ ʊ r
 thrennydd	θ r ɛ n ɪ ð
@@ -13360,6 +14108,7 @@ throed	θ r ɔ i̯ d
 throednoeth	θ r ɔ i̯ d n ɔ i̯ θ
 throes	θ r ɔ i̯ s
 throi	θ r ɔ i̯
+throid	θ r ɔ i̯ d
 thrown	θ r o u̯ n
 thrwydded	θ r ʊ i̯ ð ɛ d
 thrwyddedau	θ r ʊ i̯ ð eː d a i̯
@@ -13405,8 +14154,13 @@ timoedd	t iː m ɔ ð
 timoedd	t ɪ m ɔ i̯ ð
 timoedd	t ɪ m ɔ ð
 tin	t iː n
+tinboeth	t ɪ n b oː θ
+tinboeth	t ɪ n b ɔ i̯ θ
+tindew	t ɪ n d ɛ u̯
+tindroed	t ɪ n d r ɔ i̯ d
 tinfelyn	t ɪ n v eː l ɪ n
 tinfelyn	t ɪ n v ɛ l ɪ n
+tingoch	t ɪ ŋ ɡ ɔ χ
 tipyn	t ɪ p ɪ n
 tir	t iː r
 tirana	t ɪ r aː n a
@@ -13414,7 +14168,8 @@ tiroedd	t iː r ɔ i̯ ð
 tiroedd	t iː r ɔ ð
 tiroedd	t ɪ r ɔ i̯ ð
 tiroedd	t ɪ r ɔ ð
-tisiad	t ɪ ʃ a d
+tisiad	ɪ s j a d
+tisiad	ɪ ʃ a d
 tisian	t ɪ ʃ a n
 titaniwm	t ɪ t a n j ʊ m
 tithau	t iː θ a i̯
@@ -13442,10 +14197,14 @@ tlotai	t l ɔ t a i̯
 tloty	t l ɔ t i
 tlotyn	t l ɔ t ɪ n
 tlws	t l uː s
+to	t oː
 toc	t ɔ k
+tochi	t oː χ i
+tochi	t ɔ χ i
 tocyn	t ɔ k ɪ n
 tocynnau	t ɔ k ə n a i̯
 tocynnau	t ɔ k ə n ɛ
+toddbwynt	t ɔ ð b ʊ i̯ n t
 toddf	t ɔ ð v
 toddi	t oː ð i
 toddi	t ɔ ð i
@@ -13463,9 +14222,14 @@ toiledau	t ɔ i̯ l ɛ d a i̯
 toiledau	t ɔ i̯ l ɛ d ɛ
 toiledi	t ɔ i̯ l eː d i
 toiledi	t ɔ i̯ l ɛ d i
+tolch	t ɔ l χ
+tolchi	t ɔ l χ i
+tolchiad	t ɔ l χ j a d
 tolio	t ɔ l j ɔ
+tom	t ɔ m
 tomato	t ɔ m a t ɔ
 tomatos	t ɔ m a t ɔ z
+tomen	t ɔ m ɛ n
 tomos	t oː m ɔ s
 ton	t ɔ n
 tonau	t oː n a i̯
@@ -13538,9 +14302,14 @@ trafod	t r a v ɔ d
 trafod	t r aː v ɔ d
 traidd	t r a i̯ ð
 trais	t r a i̯ s
+tramgwydd	t r a m ɡ w ɪ ð
+tramgwydd	t r a m ɡ ʊ i̯ ð
+tramgwyddo	t r a m ɡ w ɪ ð ɔ
+tramgwyddo	t r a m ɡ ʊ i̯ ð ɔ
 tramor	t r a m ɔ r
 trannoeth	t r a n ɔ i̯ θ
 traphoethi	t r a f ɔ i̯ θ i
+traphont	t r a f ɔ n t
 traul	t r a i̯ l
 traw	t r a u̯
 trawant	t r a u̯ a n t
@@ -13556,10 +14325,13 @@ trawsleoli	t r a u̯ s l ɛ ɔ l i
 trawsrywedd	t r a u̯ s r ɪ u̯ ɛ ð
 trawsryweddol	t r a u̯ s r ɪ u̯ ɛ ð ɔ l
 trawst	t r a u̯ s d
+trawstoriad	t r a u̯ s d ɔ r j a d
+trawstorri	t r a u̯ s d ɔ r i
 trawstrefa	t r a u̯ s d r eː v a
 trawstrefa	t r a u̯ s t r ɛ v a
 tre	t r eː
 trech	t r eː χ
+trechiad	t r ɛ χ j a d
 trefedigaeth	t r ɛ v ɛ d ɪ ɡ a i̯ θ
 trefedigaeth	t r ɛ v ɛ d ɪ ɡ ɛ θ
 trefedigaethau	t r ɛ v ɛ d ɪ ɡ e i̯ θ a i̯
@@ -13570,9 +14342,11 @@ trefi	t r ɛ v i
 trefn	t r eː v ɛ n
 trefn	t r ɛ v n
 trefn	t r ɛ v ɛ n
+trefnu	t r ɛ v n i
 trefnus	t r ɛ v n ɪ s
 trefol	t r eː v ɔ l
 trefol	t r ɛ v ɔ l
+trefolaeth	t r ɛ v ɔ l a ɪ θ
 trefor	t r eː v ɔ r
 trefor	t r ɛ v ɔ r
 treftadaeth	t r ɛ v t aː d a i̯ θ
@@ -13607,6 +14381,7 @@ trengholiadau	t r ɛ ŋ h ɔ l j aː d ɛ
 trennydd	t r ɛ n ɪ ð
 treulio	t r e i̯ l j ɔ
 treuliodd	t r e i̯ l j ɔ ð
+trewi	t r ɛ u̯ i
 tri	t r iː
 triawd	t r iː a u̯ d
 trigain	t r iː ɡ a i̯ n
@@ -13628,6 +14403,12 @@ troa	t r ɔ a
 troan	t r oː a n
 troan	t r ɔ a n
 troch	t r oː χ
+trochi	t r oː χ i
+trochi	t r ɔ χ i
+trochwr	t r oː χ ʊ r
+trochwr	t r ɔ χ ʊ r
+trochydd	t r oː χ ɪ ð
+trochydd	t r ɔ χ ɪ ð
 trodd	t r oː ð
 troed	t r oː d
 troed	t r ɔ i̯ d
@@ -13642,6 +14423,8 @@ troer	t r ɔ i̯ r
 troes	t r ɔ i̯ s
 troet	t r ɔ i̯ t
 trof	t r oː v
+trofwrdd	t r oː v ʊ r ð
+trofwrdd	t r ɔ v ʊ r ð
 troi	t r ɔ i̯
 troid	t r ɔ i̯ d
 trois	t r ɔ i̯ s
@@ -13665,6 +14448,8 @@ trown	t r o u̯ n
 trowsus	t r o u̯ s ɪ s
 trowsusau	t r o u̯ s ɪ s a i̯
 trowsusau	t r o u̯ s ɪ s ɛ
+troëdig	t r ɔ eː d ɪ ɡ
+troëdig	t r ɔ ɛ d ɪ ɡ
 trueni	t r eː n i
 trueni	t r i eː n i
 trueni	t r i ɛ n i
@@ -13695,6 +14480,7 @@ trwynolyn	t r ʊ i̯ n ɔ l ɪ n
 trwyth	t r ʊ i̯ θ
 try	t r iː
 trybedd	t r ə b ɛ ð
+tryblith	t r ə b l ɪ θ
 trydan	t r ə d a n
 trydanwr	t r ə d a n ʊ r
 trydanwr	t r ə d aː n ʊ r
@@ -13707,7 +14493,10 @@ tryferi	t r ə v eː r i
 tryferi	t r ə v ɛ r i
 tryferu	t r ə v eː r i
 tryferu	t r ə v ɛ r i
+tryloyw	t r ə l ɔ i̯ u
+trymder	t r ə m d ɛ r
 trymhau	t r ə m h a i̯
+trysor	t r ə s ɔ r
 trywel	t r ə u̯ ɛ l
 tryweli	t r ə u̯ eː l i
 tryweli	t r ə u̯ ɛ l i
@@ -13726,6 +14515,8 @@ tudalen	t ɪ d aː l ɛ n
 tudalennau	t ɪ d a l ɛ n a i̯
 tudalennau	t ɪ d a l ɛ n ɛ
 tudno	t ɪ d n ɔ
+tueddol	t ɪ eː ð ɔ l
+tueddol	t ɪ ɛ ð ɔ l
 tun	t ɪ n
 turtur	t ɪ r t ɪ r
 twf	t uː v
@@ -13740,6 +14531,7 @@ twndish	t ʊ n d ɪ ʃ
 twng	t ʊ ŋ
 twngsten	t ʊ ŋ s d ɛ n
 twp	t ʊ p
+twptra	t ʊ p t r a
 twr	t ʊ r
 twrbanau	t ʊ r b a n a i̯
 twrbanau	t ʊ r b a n ɛ
@@ -13758,6 +14550,7 @@ twymyn	t ʊ i̯ m ɪ n
 twymynau	t ʊ i̯ m ə n a i̯
 twyn	t ʊ i̯ n
 twyt	t ʊ i̯ t
+twyth	t ʊ i̯ θ
 tyb	t iː b
 tybaco	t ə b a k ɔ
 tybed	t ə b ɛ d
@@ -13780,12 +14573,15 @@ tymor	t ə m ɔ r
 tyn	t ɪ n
 tyndra	t ə n d r a
 tyner	t ə n ɛ r
+tynerder	t ə n ɛ r d ɛ r
 tynged	t ə ŋ ɛ d
 tyngedfenyddiaeth	t ə ŋ ɛ d v ɛ n ə ð j a i̯ θ
 tyngedfenyddiaeth	t ə ŋ ɛ d v ɛ n ə ð j ɛ θ
 tyngu	t ə ŋ i
+tynhau	t ə n h a i̯
 tynnu	t ə n i
 tyr	t ɪ r
+tyrchu	t ə r χ i
 tyrd	t ɪ r d
 tyred	t ə r ɛ d
 tyrrau	t ə r a i̯
@@ -13812,6 +14608,7 @@ tywyllwch	t ʊ ɬ ʊ χ
 tâl	t aː l
 tân	t aː n
 tâp	t aː p
+têl	t eː l
 têr	t eː r
 tîm	t iː m
 tôn	t oː n
@@ -13821,10 +14618,17 @@ tŷ	t iː
 u	iː b eː d ɔ l
 u	iː b ɛ d ɔ l
 u	iː ɡ ʊ p a n
-u	ɨː
+uch	iː χ
 uchaf	iː χ a v
 uchaf	ə χ a
 uchaf	ɪ χ a v
+uchafu	ɪ χ aː v ɪ
+uchanianaeth	ɪ χ a n j aː n a i̯ θ
+uchanianaeth	ɪ χ a n j aː n ɛ θ
+uchanianeg	ɪ χ a n j aː n ɛ ɡ
+uchawdur	ɪ χ a u̯ d ɪ r
+uchawdurol	ɪ χ a u̯ d iː r ɔ l
+uchawdurol	ɪ χ a u̯ d ɪ r ɔ l
 uchder	ɪ χ d ɛ r
 uchderau	ɪ χ d eː r a i̯
 uchderau	ɪ χ d eː r ɛ
@@ -13833,11 +14637,15 @@ uchel	iː χ ɛ l
 uchel	ə χ ɛ l
 uchel	ɪ χ ɛ l
 ucheldir	ɪ χ ɛ l d ɪ r
+uchelu	ɪ χ eː l i
+uchelu	ɪ χ ɛ l i
 uchelwr	ɪ χ eː l ʊ r
 uchelwr	ɪ χ ɛ l ʊ r
 uchelwydd	ɪ χ ɛ l w ɪ ð
+udd	iː ð
 ufelai	ɪ v eː l a i̯
 ufelai	ɪ v ɛ l a i̯
+uffarn	ɪ f a r n
 uffern	ɪ f ɛ r n
 ufudd	iː v ɪ ð
 ufudd	ɪ v ɪ ð
@@ -13869,7 +14677,10 @@ undebau	ɪ n d eː b a i̯
 undebau	ɪ n d eː b ɛ
 undebau	ɪ n d ɛ b a i̯
 undebau	ɪ n d ɛ b ɛ
+undeboli	ɪ n d ɛ b oː l ɪ
+undeboli	ɪ n d ɛ b ɔ l ɪ
 undeg	ɪ n d ɛ ɡ
+undydd	ɪ n d ɪ ð
 uned	iː n ɛ d
 uned	ɪ n ɛ d
 unedau	ɪ n eː d a i̯
@@ -13888,6 +14699,7 @@ unet	ɪ n ɛ t
 unfed	ɪ n v ɛ d
 uni	iː n i
 uni	ɪ n i
+uniad	ɪ n j a d
 uniawn	ɪ n j a u̯ n
 unid	iː n ɪ d
 unid	ɪ n ɪ d
@@ -13912,11 +14724,13 @@ unit	ɪ n ɪ t
 unllygeidiog	iː n ɬ ə ɡ e i̯ d j ɔ ɡ
 unllygeidiog	ɪ n ɬ ə ɡ e i̯ d j ɔ ɡ
 unman	ɪ n m a n
+unnos	ɪ n ɔ s
 uno	iː n ɔ
 uno	ɪ n ɔ
 unrhyw	ɪ n r ɪ u̯
 unrhyw	ɪ n r̥ ɪ u̯
 unset	ɪ n s ɛ t
+untrew	ɪ n t r ɛ u̯
 unwaith	ɪ n w a i̯ θ
 unwaith	ɪ n w ɛ θ
 urdd	ɪ r ð
@@ -13930,15 +14744,24 @@ utganu	ɪ t ɡ aː n i
 utgorn	ɪ t ɡ ɔ r n
 utgyrn	ɪ t ɡ ɪ r n
 uwch	ɪ u̯ χ
+uwchalaw	ɪ u̯ χ aː l a u̯
+uwchamserol	ɪ u̯ χ a m s eː r ɔ l
+uwchamserol	ɪ u̯ χ a m s ɛ r ɔ l
 uwchben	ɪ u̯ χ b ɛ n
+uwchiaith	ɪ u̯ χ j a i̯ θ
+uwchlaw	ɪ u̯ χ l a u̯
 uwchradd	i u̯ χ r a ð
 uwchraddiad	ɪ u̯ χ r a ð j a d
 uwchraddio	ɪ u̯ χ r a ð j ɔ
 uwd	ɪ u̯ d
+uwdfys	ɪ u̯ d v ɪ s
+uwtffon	ɪ u̯ t f ɔ n
 w	uː
 w	w
 w	ʊ
+wab	w a b
 wael	w a i̯ l
+wag	w aː ɡ
 wahanol	w a h a n ɔ l
 wahanol	w a h aː n ɔ l
 wahanol	w a n ɔ l
@@ -14045,6 +14868,8 @@ wiclo	w ɪ k l ɔ
 win	w iː n
 winoedd	w iː n ɔ i̯ ð
 winoedd	w ɪ n ɔ i̯ ð
+winwns	w iː n ʊ n s
+winwns	w ɪ n ʊ n s
 wiwer	w ɪ u̯ ɛ r
 wiwerod	w ɪ u̯ eː r ɔ d
 wiwerod	w ɪ u̯ ɛ r ɔ d
@@ -14156,11 +14981,14 @@ wylio	ʊ i̯ l j ɔ
 wyll	w ɪ ɬ
 wyll	ʊ i̯ ɬ
 wylo	ʊ i̯ l ɔ
+wylofus	ʊ i̯ l oː v ɪ s
+wylofus	ʊ i̯ l ɔ v ɪ s
 wyn	w ɪ n
 wyneb	w ɪ n ɛ b
 wyneb	ʊ i̯ n ɛ b
 wynion	w ə n j ɔ n
 wynion	w ɪ n j ɔ n
+wynt	w ɪ n t
 wynwyn	ʊ i̯ n w ɪ n
 wyres	ʊ i̯ r ɛ s
 wyrion	ʊ i̯ r j ɔ n
@@ -14191,6 +15019,8 @@ y	ə
 ych	iː χ
 ych	ə χ
 ychen	ə χ ɛ n
+ychwaneg	ə χ w a n ɛ ɡ
+ychwaneg	ə χ w aː n ɛ ɡ
 ychwanegiad	ə χ w a n ɛ ɡ j a d
 ychwanegol	ə χ w a n eː ɡ ɔ l
 ychwanegol	ə χ w a n ɛ ɡ ɔ l
@@ -14244,6 +15074,8 @@ ymddwyn	ə m ð ʊ i̯ n
 ymdeimlad	ə m d e i̯ m l a d
 ymdeimlo	ə m d e i̯ m l ɔ
 ymdoddbwynt	ə m d ɔ ð b ʊ i̯ n t
+ymdoddi	ə m d oː ð i
+ymdoddi	ə m d ɔ ð i
 ymdopi	ə m d ɔ p i
 ymdrafferthu	ə m d r a f ɛ r θ i
 ymdraidd	ə m d r a i̯ ð
@@ -14303,8 +15135,15 @@ ymlusgo	ə m l ɪ s ɡ ɔ
 ymlynu	ə m l ə n i
 ymlâdd	ə m l aː ð
 ymlŷn	ə m l iː n
+ymollwng	ə m ɔ ɬ ʊ ŋ
 ymosod	ə m ɔ s ɔ d
+ymosodedd	ə m ɔ s oː d ɛ ð
+ymosodedd	ə m ɔ s ɔ d ɛ ð
+ymosodiad	ə m ɔ s oː d j a d
+ymosodiad	ə m ɔ s ɔ d j a d
 ymosodol	ə m ɔ s ɔ d ɔ l
+ymosodwr	ə m ɔ s oː d ʊ r
+ymosodwr	ə m ɔ s ɔ d ʊ r
 ymrafael	ə m r a v a i̯ l
 ymrafael	ə m r a v ɛ l
 ymrafael	ə m r aː v a i̯ l
@@ -14405,9 +15244,12 @@ ysmygoch	ə s m ə ɡ ɔ χ
 ysmygodd	ə s m ə ɡ ɔ ð
 ysmygon	ə s m ə ɡ ɔ n
 ysmygu	ə s m ə ɡ i
-ysmygwr	ə m l ɪ s ɡ ɔ
+ysmygwr	ə s m ə ɡ ʊ r
 ysmygwyr	ə s m ə ɡ w ɪ r
+ysol	ə s ɔ l
 ystad	ə s d a d
+ystaenwydr	ə s t a i̯ n w ɪ d r
+ystaenwydr	ə s t a i̯ n w ɪ d ɪ r
 ystafell	s d a v ɛ ɬ
 ystafell	s d aː v ɛ ɬ
 ystafell	ə s d a v ɛ ɬ
@@ -14420,6 +15262,7 @@ ystlys	ə s d l ɪ s
 ystod	ə s d ɔ d
 ystrad	ə s d r a d
 ystradwel	ə s d r a d w ɛ l
+ystum	ə s t ɪ m
 ystyr	ə s d ɪ r
 ystyried	ə s d ə r j ɛ d
 ysu	ə s i
@@ -14427,15 +15270,24 @@ yswain	ə s w a i̯ n
 yswigen	ə s w iː ɡ ɛ n
 yswigen	ə s w ɪ ɡ ɛ n
 ysywaeth	ə s ə u̯ a i̯ θ
+yta	ə t a
 yterbiwm	ɪ t ɛ r b j ʊ m
 ytriwm	ɪ t r j ʊ m
 yw	ɪ u̯
+zwinglïad	s w ɪ ŋ ɡ l iː a d
+zwinglïaeth	s w ɪ ŋ ɡ l iː a i̯ θ
+zwinglïaeth	s w ɪ ŋ ɡ l iː ɛ θ
+à	a
+á	a
 â	a
 â	aː
 âi	aː i̯
 âl	aː l
 ân	aː n
 ânt	aː n t
+ä	a
+ä	aː
+è	ɛ
 èch	ɛ χ
 èdd	ɛ ð
 èf	ɛ v
@@ -14444,11 +15296,25 @@ yw	ɪ u̯
 èll	ɛ ɬ
 ès	ɛ s
 èth	ɛ θ
+é	ɛ
+ê	eː
 êl	eː l
+ë	eː
+ë	ɛ
+ì	ɪ
+í	ɪ
+î	iː
+ï	iː
+ï	ɪ
 ïodin	iː ɔ d ɪ n
 ïon	iː ɔ n
+ò	ɔ
+ó	ɔ
+ô	oː
 ôd	oː d
 ôl	oː l
+ö	oː
+ö	ɔ
 ù	ɪ
 ú	ɪ
 û	iː
@@ -14457,6 +15323,7 @@ yw	ɪ u̯
 ý	ɪ
 ÿ	iː
 ÿ	ɪ
+ŵ	uː
 ŵr	uː r
 ŵydd	ʊ ɪ̯ ð
 ŵyl	ʊ i̯ l
@@ -14466,6 +15333,11 @@ yw	ɪ u̯
 ŷ	iː
 ŷd	iː d
 ᵹ	ɣ
+ẁ	ʊ
+ẃ	ʊ
+ẅ	uː
+ẅ	ʊ
+ỳ	ə
 ꝺ	ð
 ꝿ	ŋ
 ꞁ	ɬ

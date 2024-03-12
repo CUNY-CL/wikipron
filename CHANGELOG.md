@@ -10,7 +10,11 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 Unreleased
 ----------
 
-### Under `wikipron/` and elsewhere
+### Under `data/`
+
+-   Big scrape for 2024. (\#514)
+
+### Under `src/` and elsewhere
 
 #### Added
 
@@ -44,7 +48,7 @@ Unreleased
 -   Upstream cleaning wrt English high vowel and schwa. (\#493)
 -   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 
-### Under `wikipron/` and elsewhere
+### Under `src/` and elsewhere
 
 #### Added
 
@@ -61,6 +65,16 @@ Unreleased
 
 #### Added
 
+-   Big scrape for 2023. (\#512)
+-   Moved IPAs of words with tildes to multiple lines. (\#379)
+-   Caught `iso639.language.LanguageNotFoundError` error in `codes.py`. (\#498)
+-   Added KPI computation to `generate_summary.py`. (\#465)
+-   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
+-   Renamed the two TSV summaries to `summary.tsv`. (\#494)
+-   Renamed `generate_tsv_summary.py` to `generate_summary.py`. (\#492)
+-   Upstream cleaning wrt English tie bar. (\#491)
+-   Upstream cleaning wrt English high vowel and schwa. (\#493)
+-   Fixed Georgian (`kat`) phones and rescrapes. (\#488)
 -   Big scrape for 2022. (\#464)
 -   Added the `--fresh` flag to `data/scrape/scrape.py` to facilitate running the big scrape in batches. (\#464)
 -   Added the `--exclude` flag for excluding one or more languages in `data/scrape/scrape.py`. (\#460)
@@ -295,7 +309,7 @@ Unreleased
 
 -   Fixed path issue with phonetic whitelisted files. (\#195)
 
-### Under `wikipron/` and Elsewhere
+### Under `wikipron/` and elsewhere
 
 #### Added
 

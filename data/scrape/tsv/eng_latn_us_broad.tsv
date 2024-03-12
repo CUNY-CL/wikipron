@@ -51,6 +51,9 @@
 've	v
 've	ə
 've	ə v
+<<<<<<< HEAD
+=======
+>>>>>>> bad2358 (English scrape after #511 (#515))
 a	e ɪ
 a	e ɪ̯
 a	æ
@@ -72,6 +75,7 @@ aachen	ɑ x ə n
 aacu	e ɪ e ɪ k e ɪ j ʊ
 aacu	æ k ʊ
 aad	ɑː d
+aakp	e ɪ e ɪ k e ɪ p iː
 aalborg	ɑ l b ɔ ɹ ɡ
 aalborg	ɔ l b ɔ ɹ ɡ
 aalii	ɑ l i i
@@ -2442,6 +2446,7 @@ ae	e ɪ
 ae	iː
 ae	ə
 aeaea	iː j iː ə
+aeap	e ɪ iː e ɪ p iː
 aecium	iː s i ə m
 aedeagal	i d i e ɪ ɡ ə l
 aedeagal	i d i ə ɡ ə l
@@ -2592,6 +2597,7 @@ affords	ə f ɔ ɹ d z
 afforest	ə f ɒ ɹ ɪ s t
 afforest	ə f ɔ ɹ ɪ s t
 affranchise	ə f r æ n t͡ʃ a ɪ z
+affranchise	ə f ɹ æ n t͡ʃ a ɪ z
 affray	ə f ɹ e ɪ
 affret	ə f ɹ ɛ t
 affricate	æ f ɹ ə k e ɪ t
@@ -2923,6 +2929,8 @@ aiguille	e ɪ ɡ w i l
 aiguillette	e ɪ ɡ w ɪ l ɛ t
 aikido	a ɪ k iː d ə ʊ
 ail	e ɪ l
+ailanthus	e ɪ l æ n θ ə s
+ailanthus	e ɪ l æ n θ ə s ɪ z
 ailantus	e ɪ l æ n t ə s
 ailed	e ɪ l d
 aileron	e ɪ l ə r ɒ n
@@ -3964,6 +3972,7 @@ amphitheatre	æ m p ə θ i j ə t ɚ
 amphitrite	æ m f ɪ t ɹ a ɪ t i
 amphoe	ɑ m p ə ʊ
 amphoe	ɑ m p ɜː
+amphora	æ m f ɔː ɹ ə
 amphora	æ m f ə ɹ ə
 amphotericin	æ m f ə t ɛ ɹ ɪ s ɪ n
 ampicillin	æ m p ɪ s ɪ l ɪ n
@@ -4821,6 +4830,7 @@ aphantasia	e ɪ f æ n t e ɪ ʒ ə
 aphasia	ə f e ɪ z ɪ ə
 aphasia	ə f e ɪ ʒ ə
 aphasic	ə f e ɪ z ə k
+aphasic	ə f e ɪ̯ z ɪ k
 aphelia	æ p h i l i ə
 aphelia	æ p h i l j ə
 aphelia	ə f i l i ə
@@ -7349,6 +7359,7 @@ bambooey	b æ m b uː i
 bamboozle	b æ m b uː z l̩
 bambuterol	b æ m b j uː t ə ɹ ɒ l
 bame	b e ɪ m
+bame	b iː e ɪ ɛ m iː
 bamf	b æ m f
 bamma	b æ m ə
 bammer	b æ m ɚ
@@ -7445,6 +7456,9 @@ bannockburn	b æ n ə k b ɜː ɹ n
 banns	b æ n z
 banoffee	b ə n ɔ f i
 banqiao	b ɑː n t͡ʃ j a ʊ
+banquet	b æ n k w ɪ t
+banquet	b æ ŋ k w ɪ t
+banquet	b æ ŋ k ɪ t
 banqueter	b æ n k w ɪ t ɚ
 banquette	b æ ŋ k ɛ t
 banquo	b æ ŋ k w o ʊ
@@ -9591,6 +9605,7 @@ blyth	b l a ɪ ð
 blythe	b l a ɪ ð
 blyton	b l a ɪ t ə n
 blót	b l o ʊ t
+bmx	b iː ɛ m ɛ k s
 bo	b o ʊ
 bo'ness	b o ʊ n ɛ s
 bo's'n	b ə ʊ s n̩
@@ -10572,8 +10587,8 @@ brewis	b ɹ uː ɪ s
 brews	b ɹ uː z
 brewster	b ɹ u s t ɚ
 brexiteer	b ɹ ɛ k s ɪ t i ɹ
-brexiter	b ɹ ɛ k s ɪ t ɚ
-brexiter	b ɹ ɛ ɡ z ɪ t ɚ
+brexiter	b ɹ ɛ k s ɪ t ə ɹ
+brexiter	b ɹ ɛ ɡ z ɪ t ə ɹ
 brezhnev	b ɹ ɛ ʒ n ə v
 brezhnev	b ɹ ɛ ʒ n ɛ v
 bri	b ɹ a ɪ
@@ -10706,8 +10721,8 @@ bristle	b ɹ ɪ s ə l
 bristle	b ɹ ɪ s ɫ
 bristly	b ɹ ɪ s l i
 bristol	b ɹ ɪ s t ə l
-brisure	b ɹ ɪ z j ʊ ɚ
-brisure	b ɹ ɪ ʒ ʊ ɚ
+brisure	b ɹ ɪ z j ʊ ə ɹ
+brisure	b ɹ ɪ ʒ ʊ ə ɹ
 brit	b ɹ ɪ t
 britain	b ɹ ɪ t ə n
 britannia	b ɹ ɪ t æ n i ə
@@ -10732,7 +10747,7 @@ brizzle	b ɹ ɪ z l
 brno	b ɝ n o ʊ
 bro	b ɹ o ʊ
 broach	b ɹ o ʊ t͡ʃ
-broacher	b ɹ ə ʊ t͡ʃ ɚ
+broacher	b ɹ ə ʊ t͡ʃ ə ɹ
 broad	b ɹ ɔ d
 broadband	b ɹ ɔː d b æ n d
 broadbent	b r ɔː d b ɛ n t
@@ -10941,6 +10956,9 @@ brython	b ɹ ɪ θ ɒ n
 brython	b ɹ ɪ θ ə n
 brythonic	b ɹ ɪ θ ɒ n ɪ k
 brăila	b r ə iː l ə
+bskyb	b iː s k a ɪ b iː
+btdubs	b i t i d ʌ b z
+btex	b iː t iː ɛ k s
 btu	b iː t iː j uː
 buansuah	b u æ n s u ə
 buat	b uː ə t
@@ -10994,7 +11012,7 @@ buckling	b ʌ k l ɪ ŋ
 buckling	b ʌ k ə l ɪ ŋ
 buckner	b ʌ k n ɚ
 bucko	b ʌ k o ʊ
-buckraker	b ʌ k ɹ e ɪ k ɚ
+buckraker	b ʌ k ɹ e ɪ k ə ɹ
 buckram	b ʌ k ɹ ə m
 bucks	b ʌ k s
 buckwheat	b ʌ k w iː t
@@ -12163,7 +12181,7 @@ capeline	k æ p ə l ɪ n
 capellini	k æ p ə l i n i
 caper	k e ɪ p ɚ
 capercaillie	k æ p ɚ k e ɪ l i
-caperer	k e ɪ p ə ɹ ɚ
+caperer	k e ɪ p ə ɹ ə ɹ
 capes	k e ɪ p s
 capeshit	k e ɪ p ʃ ɪ t
 capetian	k ə p iː ʃ ə n
@@ -12371,7 +12389,7 @@ cardinalate	k ɑː ɹ d ɪ n ə l ə t
 cardio	k ɑ ɹ d i o ʊ
 cardiology	k ɑː ɹ d i ɒ l ə d ʒ i
 cardiovascular	k ɑː ɹ d i ə ʊ v æ s k j ʊ l ə ɹ
-cardioverter	k ɑː ɹ d i ə ʊ v ɜː ɹ t ɚ
+cardioverter	k ɑː ɹ d i ə ʊ v ɜː ɹ t ə ɹ
 cardist	k ɑ ɹ d ɪ s t
 cardistry	k ɑ ɹ d ɪ s t ɹ i
 cardoon	k ɑː ɹ d uː n
@@ -12625,7 +12643,7 @@ casher	k æ ʃ ɚ
 cashew	k æ ʃ j uː
 cashew	k æ ʃ uː
 cashew	k ə ʃ uː
-cashierer	k æ ʃ ɪ ə ɹ ɚ
+cashierer	k æ ʃ ɪ ə ɹ ə ɹ
 cashmere	k æ ʃ m i ɹ
 cashmere	k æ ʒ m i ɹ
 cashola	k æ ʃ o ʊ l ə
@@ -12644,7 +12662,7 @@ caspian	k æ s p i ə n
 caspofungin	k æ s p o ʊ f ʌ n d͡ʒ ɪ n
 casque	k æ s k
 cassander	k ə s æ n d ə ɹ
-cassander	k ə s ɑː n d ɚ
+cassander	k ə s ɑː n d ə ɹ
 cassandra	k ə s æ n d ɹ ə
 cassandra	k ə s ɑː n d ɹ ə
 cassata	k ə s ɑ t ə
@@ -12883,7 +12901,7 @@ causal	k ɔ z ə l
 causality	k ɔ z æ l ɪ t ɪ
 causation	k ɔ z e ɪ ʃ ə n
 causative	k ɔ z ə t ɪ v
-causator	k ɔː z e ɪ t ɚ
+causator	k ɔː z e ɪ t ə ɹ
 cause	k ɔ z
 caused	k ɔ z d
 causeless	k ɔː z l ə s
@@ -12899,7 +12917,7 @@ cauterize	k ɔː t ə ɹ a ɪ z
 caution	k ɔ ʃ ə n
 cautionary	k ɔ ʃ ə n ɛ ɹ i
 cautious	k ɔː ʃ ə s
-cautiouser	k ɔː ʃ ə s ɚ
+cautiouser	k ɔː ʃ ə s ə ɹ
 cautiously	k ɔː ʃ ə s l i
 cava	k e ɪ v ə
 cava	k ɑ v ə
@@ -13137,7 +13155,7 @@ centrosymmetricity	s ɛ n t ɹ ə ʊ s ɪ m ə t ɹ ɪ s ɪ t i
 cents	s ɛ n t s
 centum	k ɛ n t ə m
 centum	s ɛ n t ə m
-centumvir	s ɛ n t ʌ m v ɚ
+centumvir	s ɛ n t ʌ m v ə ɹ
 centuply	s ɛ n t j uː p l i
 centuply	s ɛ n t uː p l i
 centuriate	s ɛ n t j ʊ ə ɹ i e ɪ t
@@ -13688,7 +13706,7 @@ cheaping	t͡ʃ iː p ɪ ŋ
 cheapish	t͡ʃ iː p ɪ ʃ
 cheaply	t͡ʃ iː p l i
 cheaps	t͡ʃ iː p s
-cheaster	t͡ʃ iː s t ɚ
+cheaster	t͡ʃ iː s t ə ɹ
 cheat	t͡ʃ iː t
 cheated	t͡ʃ iː t ɪ d
 cheater	t͡ʃ iː t ɚ
@@ -14017,7 +14035,7 @@ chillum	t͡ʃ ɪ l ə m
 chillun	t͡ʃ ɪ l ə n
 chilly	t͡ʃ ɪ l i
 chiltepin	t͡ʃ ɪ l t ɛ p ɪ n
-chilver	t͡ʃ ɪ l v ɚ
+chilver	t͡ʃ ɪ l v ə ɹ
 chimbley	t͡ʃ ɪ m b l i
 chimed	t͡ʃ a ɪ m d
 chimenea	t ʃ ɪ m ə n e ɪ ə
@@ -14718,6 +14736,7 @@ civitates	s ɪː v ɪː t e ɪ t s
 civvies	s ɪ v i s
 civvy	s ɪ v i
 ciws	s iː w ɪ z
+clabber	k l æ b ə ɹ
 clabber	k l æ b ɚ
 clack	k l æ k
 clacks	k l æ k s
@@ -15607,7 +15626,7 @@ colloquial	k ə l o ʊ k w i ə l
 colloquialism	k ə l o ʊ k w i ə l ɪ z ə m
 colloquialize	k ə l ə ʊ k w i ə l a ɪ z
 colloquially	k ə l o ʊ k w i ə l i
-colloquium	k ə l ə ʊ k w iː ə m
+colloquium	k ə l ə ʊ k w i ə m
 collude	k ə l uː d
 collum	k ɑ l ə m
 collusion	k ə l uː ʒ ə n
@@ -16167,6 +16186,7 @@ condemn	k ə n d ɪ m
 condemnable	k ə n d ɛ m n ə b ə l
 condemnation	k ɑ n d ə m n e ɪ ʃ ə n
 condemned	k ə n d ɛ m d
+condemner	k ə n d ɛ m ə ɹ
 condemner	k ə n d ɛ m ɚ
 condensate	k ɒ n d ə n s e ɪ t
 condensate	k ɒ n d ə n s ə t
@@ -16400,8 +16420,8 @@ conlanger	k ɑ n l æ ŋ ɚ
 conlanging	k ɑ n l æ ŋ ɪ ŋ
 conley	k ɒ n l ɪ
 conn	k ɑ n
-connacht	k ɑ n ɔː t
-connacht	k ɑ n ə x t
+connacht	k ɒ n ɔː t
+connacht	k ɒ n ə x t
 connascence	k ə n æ s ə n s
 connect	k ə n ɛ k t
 connectability	k ə n ɛ k t ə b ɪ l ɪ t i
@@ -16944,6 +16964,7 @@ copies	k ɑ p i z
 copious	k o ʊ p i ə s
 copist	k ɒ p ɪ s t
 copium	k o ʊ p i ə m
+coplanar	k ə ʊ p l e ɪ n ə ɹ
 coplanar	k ə ʊ p l e ɪ n ɚ
 copland	k o p l ə n d
 copland	k ɒ p l ə n d
@@ -17102,7 +17123,9 @@ corporate	k ɔ ɹ p ə ɹ e ɪ t
 corporate	k ɔ ɹ p ə ɹ ə t
 corporate	k ɔ ɹ p ɹ ə t
 corporation	k ɔ ɹ p ə ɹ e ɪ ʃ ə n
+corporature	k ɔː ɹ p ə ɹ ə t j ʊ ə ɹ
 corporature	k ɔː ɹ p ə ɹ ə t j ʊ ɚ
+corporature	k ɔː ɹ p ə ɹ ə t͡ʃ ə ɹ
 corporature	k ɔː ɹ p ə ɹ ə t͡ʃ ɚ
 corposant	k ɔː ɹ p ə s æ n t
 corposant	k ɔː ɹ p ə s ə n t
@@ -17460,6 +17483,7 @@ covidtide	k o ʊ v ɪ d t a ɪ d
 covie	k ʌ v i
 covin	k ʌ v ɪ n
 cow	k a ʊ
+cow	ɘ k a ʊ
 cowabunga	k a ʊ ə b ʌ ŋ ɡ ə
 cowage	k a ʊ ɪ d͡ʒ
 cowan	k a ʊ ə n
@@ -18179,6 +18203,8 @@ csch	k o ʊ s ɛ t ʃ
 csch	k o ʊ ʃ ɛ k
 csis	s iː s ɪ s
 csrf	s iː s ɜː ɹ f
+csrf	s iː ɛ s ɑː ɹ ɛ f
+css	s i ɛ s ɛ s
 csun	s iː s ʌ n
 csx	s i ɛ s ɛ k s
 ctab	s iː t æ b
@@ -18839,7 +18865,9 @@ dalian	d ɑː l i æ n
 dalian	d ɑː l i ə n
 dalian	d ɑː l i ɛ n
 dalian	d ɑː l iː ə n
+daliao	d ɑ l i ɑ ʊ
 daliesque	d ɑː l i ɛ s k
+daliu	d ɑ l i o ʊ
 dallas	d æ l ə s
 dalles	d æ l z
 dalliance	d æ l i ə n s
@@ -19159,6 +19187,7 @@ dazzling	d æ z l ɪ ŋ
 dazzling	d æ z l̩ ɪ ŋ
 dbol	d iː b ɔː l
 ddos	d iː d ɒ s
+ddr	d iː d iː ɑ ɹ
 de'ang	d ə ɑ ŋ
 deacon	d iː k ə n
 deaconess	d iː k ə n ɛ s
@@ -19719,6 +19748,7 @@ demesne	d ɪ m e ɪ n
 demesne	d ɪ m iː n
 demesnial	d ɪ m iː n i ə l
 demeter	d ə m iː t ə ɹ
+demeter	d ɛ m ɪ t ə ɹ
 demeter	d ɛ m ɪ t ɚ
 demi	d ə m iː
 demi	d ɛ m i
@@ -19816,6 +19846,7 @@ denial	d ɪ n a ɪ ə l
 denied	d ɪ n a ɪ d
 denier	d ə n ɪ ə ɹ
 denier	d ɛ n j ə ɹ
+denier	d ɪ n a ɪ ə ɹ
 denier	d ɪ n a ɪ ɚ
 denigrate	d ɛ n ɪ ɡ ɹ e ɪ t
 denisovan	d ɨ n iː s ə v ə n
@@ -19846,6 +19877,7 @@ dentes	d ɛ n t i z
 dentilled	d ɛ n t ɪ l d
 dentinoid	d ɛ n t ɪ n ɔ ɪ d
 dentiparous	d ɛ n t ɪ p ə ɹ ə s
+dentiroster	d ɛ n t ə ɹ ɑ s t ə ɹ
 dentiroster	d ɛ n t ə ɹ ɑ s t ɚ
 dentist	d ɛ n t ɪ s t
 dentistry	d ɛ n t ɪ s t ɹ i
@@ -20539,6 +20571,7 @@ dielectric	d a ɪ ə l ɛ k t ɹ ɪ k
 dielectric	d a ɪ ɪ l ɛ k t ɹ ɪ k
 dielectrophoretic	d a ɪ ə l ɛ k t ɹ o ʊ f ə ɹ ɛ t ɪ k
 diencephalon	d a ɪ ə n s ɛ f ə l ɒ n
+diencephalon	d a ɪ̯ ə n s ɛ f ə l ɑ n
 diene	d a ɪ iː n
 diener	d iː n ɚ
 dieppe	d i ɛ p
@@ -20725,6 +20758,7 @@ dinb	d ɪ n b iː
 dincha	d ɪ n t͡ʃ ə
 dine	d a ɪ n
 dined	d a ɪ n d
+diner	d a ɪ n ə ɹ
 diner	d a ɪ n ɚ
 dinero	d ɪ n ɛ ɹ o ʊ
 dines	d a ɪ n z
@@ -21051,8 +21085,11 @@ dishonest	d ɪ s ɑ n ɪ s t
 dishonest	d ɪ z ɒ n ɛ s t
 dishonest	d ɪ z ɒ n ɪ s t
 dishonesty	d ɪ s ɒ n ɪ s t i
+dishonor	d ɪ s ɑ n ə ɹ
 dishonor	d ɪ s ɑ n ɚ
+dishonour	d ɪ s ɒ n ə ɹ
 dishonour	d ɪ s ɒ n ɚ
+dishonour	d ɪ z ɒ n ə ɹ
 dishonour	d ɪ z ɒ n ɚ
 dishorse	d ɪ s h ɔː ɹ s
 dishwasher	d ɪ ʃ w ɔ ʃ ɚ
@@ -21309,6 +21346,7 @@ dived	d a ɪ̯ v d
 divel	d a ɪ v ɛ l
 divel	d ɪ v ɛ l
 divel	d ɪ v ɪ l
+diver	d a ɪ̯ v ə ɹ
 diver	d a ɪ̯ v ɚ
 diverge	d a ɪ v ɝ d͡ʒ
 diverge	d ɪ v ɝ d͡ʒ
@@ -21508,6 +21546,8 @@ dogma	d ɔ ɡ m ə
 dogman	d ɔ ɡ m ə n
 dogmatic	d ɑ ɡ m æ t ɪ k
 dogmatic	d ɔ ɡ m æ t ɪ k
+dogpile	d ɑ ɡ p a ɪ l
+dogpile	d ɔ ɡ p a ɪ l
 dogra	d o ʊ ɡ ɾ ə
 dogs	d ɑ ɡ z
 dogs	d ɔ ɡ z
@@ -21778,7 +21818,6 @@ dotation	d o ʊ t e ɪ ʃ ə n
 dotcom	d ɑ t k ɑ m
 doted	d ə ʊ t ɪ d
 doter	d ə ʊ t ə ɹ
-doth	d ɒ θ
 doth	d ʌ θ
 dothan	d o ʊ θ ə n
 dotish	d ə ʊ t ɪ ʃ
@@ -21944,6 +21983,7 @@ draggings	d ɹ æ ɡ ɪ ŋ z
 draggle	d ɹ æ ɡ ə l
 dragline	d ɹ æ ɡ l a ɪ n
 dragon	d ɹ æ ɡ ə n
+dragon	d ɹ æ ɡ ɪ n
 dragoness	d ɹ æ ɡ ə n ɛ s
 dragonet	d ɹ æ ɡ ə n ɛ t
 dragonfly	d ɹ æ ɡ ə n f l a ɪ
@@ -25665,6 +25705,7 @@ eyre	ɛ ɹ
 eyrie	a ɪ ɹ i
 eyrie	ɛ ɹ i
 eyrie	ɪ ɹ i
+ez	iː z iː
 ezafe	ɛ z ɑː f e ɪ
 ezekiel	ɪ z iː k i ə l
 ezetimibe	ɛ z ɛ t ɪ m a ɪ b
@@ -25972,6 +26013,7 @@ farad	f æ ɹ ə d
 farah	f æ r ə
 farah	f ɑ r ɑ x
 farah	f ɛ ə r ə
+farber	f ɑ ɹ b ə ɹ
 farce	f ɑ ɹ s
 farcical	f ɑː ɹ s ɪ k ə l
 farcilite	f ɑː ɹ s ɪ l a ɪ t
@@ -28086,7 +28128,7 @@ frayne	f ɹ e ɪ n
 frays	f ɹ e ɪ z
 frazil	f r e ɪ z ə l
 frazil	f r æ z ə l
-frazzle	f r æ z l̩
+frazzle	f ɹ æ z ə l
 frb	ɛ f ɔː ɹ b iː
 freak	f ɹ iː k
 freakazoid	f ɹ iː k ə z ɔ ɪ d
@@ -29713,6 +29755,7 @@ gibraltar	d͡ʒ ɪ b ɹ ɔː l t ə ɹ
 gibsmedat	ɡ ɪ b s m i d æ t
 gibson	ɡ ɪ b s ə n
 giclée	ʒ i k l e ɪ
+gid	d͡ʒ iː a ɪ d iː
 giddy	ɡ ɪ d i
 giddyup	ɡ ɪ d i ʌ p
 gideon	ɡ ɪ d i ə n
@@ -32350,6 +32393,7 @@ haüyne	h ɑː w ɪ n
 haüyne	h ɔː ɪ n
 haüyne	ɑː w iː n
 haüynite	ɑː w iː n a ɪ t
+hbo	e ɪ t ʃ b iː o ʊ
 hdd	e ɪ t͡ʃ d iː d iː
 he	h e ɪ
 he	h i
@@ -33343,6 +33387,7 @@ hokkien	h ɑ k i ɛ n
 hokshan	h ɒ k ʃ ɑː n
 hokum	h o ʊ k ə m
 hola	o ʊ l ɑː
+holap	e ɪ t͡ʃ ə ʊ ɛ l e ɪ p iː
 holap	h o ʊ l æ p
 holard	h ɒ l ɑː ɹ d
 holborn	h ə ʊ b ə n
@@ -33449,6 +33494,7 @@ homily	h ɑ m ə l i
 homily	h ɑ m ɪ l i
 homing	h o ʊ m ɪ ŋ
 hominy	h ɒ m ɪ n i
+homlin	h æ m l ɪ n
 hommage	o ʊ m ɑː ʒ
 hommage	ɒ m ɑː ʒ
 homo	h o ʊ m o ʊ
@@ -33909,6 +33955,7 @@ hu	h u
 huabiao	h w ɑː b j a ʊ
 huai'an	h w a ɪ ɑ n
 huang	h w ɑː ŋ
+huanggang	h w ɑ ŋ ɡ ɑ ŋ
 huanghuali	h w ɑ ŋ h w ɑː l iː
 huave	w ɑː v e ɪ
 huawei	h w ɑː w e ɪ
@@ -34167,6 +34214,7 @@ husking	h ʌ s k ɪ ŋ
 huskings	h ʌ s k ɪ ŋ z
 husks	h ʌ s k s
 husky	h ʌ s k i
+husman	h ʌ z m æ n
 huss	h ʌ s
 hussar	h ʌ s ə ɹ
 husstuss	h ʌ s t ʌ s
@@ -34694,6 +34742,7 @@ iee	a ɪ iː iː
 ielts	a ɪ̯ ɛ l t s
 if	ɪ f
 if't	ɪ f t
+iff	ɪ f ə n d o ʊ n l i ɪ f
 iffy	ɪ f i
 ifrit	ɪ f ɹ iː t
 ifs	ɪ f s
@@ -34731,6 +34780,7 @@ iife	ɪ f i
 iihf	a ɪ a ɪ e ɪ t ʃ ɛ f
 iihf	d ʌ b ə ɫ a ɪ e ɪ t ʃ ɛ f
 ijbol	i d͡ʒ b o ʊ l
+ijdb	a ɪ d͡ʒ e ɪ d iː b iː
 ijeoma	ɪ d͡ʒ i o ʊ m ə
 ikat	iː k æ t
 ike	a ɪ k
@@ -35900,6 +35950,16 @@ insatiate	ɪ n s e ɪ ʃ ɪ t
 inscribe	ɪ n s k ɹ a ɪ b
 inscribed	ɪ n s k ɹ a ɪ b d
 inscription	ɪ n s k ɹ ɪ p ʃ ə n
+inscripturate	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ e ɪ t
+inscripturate	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ ɪ t
+inscripturate	ɪ n s k ɹ ɪ p t͡ʃ ʊ ɹ e ɪ t
+inscripturate	ɪ n s k ɹ ɪ p t͡ʃ ʊ ɹ ɪ t
+inscripturated	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ e ɪ t ɪ d
+inscripturated	ɪ n s k ɹ ɪ p t͡ʃ ʊ ɹ e ɪ t ɪ d
+inscripturating	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ e ɪ t ɪ ŋ
+inscripturation	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ e ɪ ʃ ə n
+inscripturation	ɪ n s k ɹ ɪ p t͡ʃ ʊ ɹ e ɪ ʃ ə n
+inscripturations	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ e ɪ ʃ ə n z
 inscrutable	ɪ n s k ɹ uː t ə b l̩
 inseam	ɪ n s iː m
 insect	ɪ n s ɛ k t
@@ -36526,6 +36586,7 @@ iowa	a ɪ ə w e ɪ
 iowa	a ɪ ə w ə
 ipa	a ɪ p iː e ɪ
 ipad	a ɪ p æ d
+ipcc	a ɪ p iː s iː s iː
 ipe	i p e ɪ
 ipecac	ɪ p ɪ k æ k
 ipecacuanha	ɪ p ɪ k a k j uː æ n ə
@@ -36546,6 +36607,7 @@ ipu	iː p uː
 iqaluit	ɪ k æ l ʊ ɪ t
 iqalungmiut	ɪ k a l ʊ ŋ m iː ʊ t
 iqama	ɪ k ɑː m ə
+ira	a ɪ ɑ ɹ e ɪ
 ira	a ɪ ɹ ə
 ira	i r ə
 iraan	a ɪ ɹ ə æ n
@@ -37608,6 +37670,7 @@ jpeg	d͡ʒ e ɪ p ɛ ɡ
 jpeg'd	d͡ʒ e ɪ p ɛ ɡ d
 jpeged	d͡ʒ e ɪ p ɛ ɡ d
 jpegged	d͡ʒ e ɪ p ɛ ɡ d
+jrotc	d͡ʒ e ɪ ɑː ɹ ə ʊ t iː s iː
 json	d͡ʒ e ɪ s ɑ n
 json	d͡ʒ e ɪ s ə n
 jth	d͡ʒ e ɪ θ
@@ -38056,7 +38119,7 @@ katagelastic	k æ t ə d͡ʒ ə l æ s t ɪ k
 katagelasticism	k æ t ə d͡ʒ ə l æ s t ɪ s ɪ z m̩
 katagelasticist	k æ t ə d͡ʒ ə l æ s t ɪ s ɪ s t
 katahdin	k ə t ɑ d ɪ n
-katakana	k æ t ə k æ n ə
+katakana	k æ t ə k ɑː n ə
 katakana	k ɑ t ə k ɑː n ə
 katana	k ə t ɑ n ə
 katar	k ə t ɑ ɹ
@@ -38646,6 +38709,7 @@ kiwi	k iː w i
 kiwi	k iː w iː
 kizh	k ɪ t͡ʃ
 kizzy	k ɪ z i
+kl	k e ɪ ɛ l
 klafter	k l ɑ f t ɚ
 klagenfurt	k l ɑː ɡ ə n f ʊ ə ɹ t
 klamath	k l æ m ə θ
@@ -39299,6 +39363,7 @@ lamprophony	l æ m p ɹ ɑ f ə n i
 lamps	l æ m p s
 lampshade	l æ m p ʃ e ɪ d
 lan	l æ n
+lan	ɛ l e ɪ ɛ n
 lanai	l ɑː n a ɪ
 lanai	l ə n a ɪ
 lanark	l æ n ə ɹ k
@@ -39524,6 +39589,7 @@ latex	l e ɪ t ɛ k s
 latex	l e ɪ t ɛ x
 latex	l ɑː t ɛ x
 lath	l æ θ
+lath	l ɑː θ
 lathe	l e ɪ ð
 lather	l æ ð ɚ
 laths	l æ θ s
@@ -40702,6 +40768,7 @@ lithography	l ɪ θ ɒ ɡ ɹ ə f i
 lithophyte	l ɪ θ ə f a ɪ t
 lithotripsy	l ɪ θ ə t ɹ ɪ p s i
 lithp	l ɪ θ p
+lithsman	l i t h s m ə n
 lithuania	l ɪ θ u e ɪ n i ə
 lithuania	l ɪ θ w e ɪ n i ə
 lithuanian	l ɪ θ u e ɪ n i ə n
@@ -41908,6 +41975,7 @@ mailbox	m e ɪ l b ɑ k s
 mailed	m e ɪ l d
 mailing	m e ɪ l ɪ ŋ
 maillot	m æ j o ʊ
+mailman	m e ɪ l m æ n , m e ɪ l m ə n
 mails	m e ɪ l z
 maim	m e ɪ m
 maimonides	m a ɪ m ɑ n ə d i z
@@ -45289,6 +45357,8 @@ motorola	m o ʊ t ɚ ɹ o ʊ l ə
 motown	m o ʊ t a ʊ n
 motrix	m ə ʊ t ɹ ɪ k s
 motte	m ɒ t
+mottle	m ɑ t ə l
+mottled	m ɑ t ə l d
 motto	m ɑ t o ʊ
 mouchard	m u ʃ ɑ ɹ d
 mouchoir	m u ʃ w ɑ ɹ
@@ -45384,6 +45454,7 @@ mrs	m ɪ s ɪ z
 mrs	m ɪ z
 mrsa	m ɝ s ə
 mrsa	ɛ m ɑ ɹ ɛ s e ɪ
+mrt	ɛ m ɑː ɹ t iː
 ms	m ɪ s
 ms	m ɪ z
 ms	ɛ m z
@@ -46110,6 +46181,7 @@ nasality	n e ɪ z æ l ɪ t iː
 nasalized	n e ɪ z l̩ a ɪ z d
 nasally	n e ɪ z ə l i
 nasb	n æ z b i
+nasb	ɛ n e ɪ ɛ s b iː
 nascar	n æ s k ɑ ɹ
 nascence	n e ɪ s ə n s
 nascent	n e ɪ s ə n t
@@ -46526,6 +46598,7 @@ nervine	n ɝ v a ɪ n
 nervine	n ɝ v i n
 nervous	n ɝː v ə s
 nervy	n ɝ v i
+nes	ɛ n iː ɛ s
 nescience	n ɛ ʃ ə n s
 nescient	n ɛ ʃ ə n t
 nesh	n ɛ ʃ
@@ -46676,6 +46749,7 @@ nextborn	n ɛ k s t b ɔː ɹ n
 nextstep	n ɛ k s t s t ɛ p
 nexus	n ɛ k s u s
 nexus	n ɛ k s ə s
+nfl	ɛ n ɛ f ɛ l
 ng	ə ŋ
 ng	ɛ ŋ
 ng	ɪ ŋ
@@ -46746,7 +46820,7 @@ nicolas	n ɪ k l ə s
 nicolas	n ɪ k ə l ə s
 nicole	n ɪ k o ʊ l
 nicolson	n ɪ k ə l s ə n
-nicosia	n ɪ k ə s iː ə
+nicosia	n ɪ k o ʊ s i ə
 nicotine	n ɪ k ə t iː n
 nicotinoid	n ɪ k ə t ɪ n ɔ ɪ d
 nictate	n ɪ k t e ɪ t
@@ -47329,6 +47403,7 @@ nubile	n u b a ɪ l
 nublet	n ʌ b l ɪ t
 nuc	n j uː k
 nuc	n ʌ k
+nuc	ɛ n j uː s iː
 nucca	n ʌ k ə
 nuch	n ʌ t͡ʃ
 nucha	n j u k ə
@@ -50602,6 +50677,7 @@ peanuts	p i n ə t s
 peanuts	p i n ʌ t s
 pear	p ɛ ɚ
 pearl	p ɝ l
+pearlescent	p ə r l ɛ s ə n t
 pearlite	p ɝ l a ɪ t
 pearls	p ɝ l z
 pearson	p ɪ ɹ s ə n
@@ -51505,6 +51581,7 @@ phenotype	f iː n o ʊ t a ɪ p
 phenotype	f iː n ə t a ɪ p
 phenoxazine	f ɪ n ɒ k s ə z iː n
 phenoxybenzamine	f ɪ n ɑ k s i b ɛ n z ə m iː n
+phenoxymethylpenicillin	f ɪ n ɑ k s ɪ m ɛ θ ə l p ɛ n ɪ s ɪ l ɪ n
 phenoxypropazine	f ə n ɒ s k i p ɹ ə ʊ p ə z iː n
 phensuximide	f ɛ n s ʌ k s ɪ m a ɪ d
 phentolamine	f ɛ n t ɑ l ə m iː n
@@ -52449,6 +52526,7 @@ playwright	p l e ɪ ɹ a ɪ t
 plaza	p l æ z ə
 plaza	p l ɑː z ə
 plazzy	p l æ z i
+plc	p iː ɛ l s iː
 plea	p l iː
 pleach	p l i t͡ʃ
 pleached	p l i t͡ʃ t
@@ -62282,6 +62360,7 @@ sleepiphany	s l ɪ p ɪ f ə n i
 sleepish	s l iː p ɪ ʃ
 sleepless	s l iː p l ə s
 sleeps	s l iː p s
+sleepsuit	s l i p s j u t
 sleepy	s l iː p i
 sleet	s l iː t
 sleety	s l iː t i
@@ -62318,7 +62397,6 @@ slightingly	s l a ɪ t ɪ ŋ l i
 slightly	s l a ɪ t l i
 sligo	s l a ɪ ɡ ə ʊ
 slim	s l ɪ m
-slime	s l a ɪ m
 slimeball	s l a ɪ m b ɔ l
 slimebucket	s l a i m b ʌ k ɪ t
 sliming	s l a ɪ m ɪ ŋ
@@ -62561,6 +62639,7 @@ smoothen	s m uː ð ə n
 smoothie	s m uː ð i
 smoothly	s m uː ð l i
 smorc	s m ɔ ɹ k
+smorc	ɛ s ɛ m ɔ ɹ k
 smore	s m ɔː ɹ
 smorgasbord	s m ɔ ɹ ɡ ə s b ɔ ɹ d
 smote	s m o ʊ t
@@ -62835,6 +62914,7 @@ sodden	s ɑ d ə n
 sodium	s o ʊ d i ə m
 sodom	s ɑ d ə m
 sodomise	s ɒ d ə m a ɪ z
+sodomiser	s ɑ d ə m a ɪ z ə ɹ
 sodomiser	s ɒ d ə m a ɪ z ə ɹ
 sodomite	s ɑ d ə m a ɪ t
 sodomitic	s ɒ d ə m ɪ t ɪ k
@@ -62842,7 +62922,7 @@ sodomitically	s ɑ d ə m ɪ t ɪ k l i
 sodomy	s ɒ d ə m i
 sody	s o ʊ d i
 soe	s ə ʊ
-soever	s o ʊ ɛ v ə ɹ
+soever	s o ʊ ɛ v ɚ
 sofa	s o ʊ f ə
 soffit	s ɑ f ɪ t
 soffritto	s ə f ɹ iː t ə ʊ
@@ -63038,7 +63118,7 @@ songket	s ɒ ŋ k ɛ t
 songline	s ɒ ŋ l a ɪ n
 songs	s ɑ ŋ z
 songs	s ɔ ŋ z
-songster	s ɒ ŋ s t ə ɹ
+songster	s ɒ ŋ s t ɚ
 songstress	s ɑ ŋ ɡ s t ɹ ɪ s
 songy	s ɑ ŋ i
 songy	s ɔ ŋ i
@@ -63071,7 +63151,7 @@ sooth	s uː θ
 soothe	s uː ð
 soothed	s uː ð d
 soothing	s uː ð ɪ ŋ
-soothsayer	s uː θ s e ɪ ə ɹ
+soothsayer	s u θ s e ɪ ɚ
 sooty	s ʊ t i
 sophene	s o ʊ f iː n i
 sophia	s o ʊ f i ə
@@ -63118,7 +63198,7 @@ sorehon	s ɔː ɹ h ə n
 sorely	s ɔ ɹ l i
 sorghum	s ɔ ɹ ɡ ə m
 sorites	s ə ɹ a ɪ t iː z
-sorner	s ɔ ɹ n ə ɹ
+sorner	s ɔ ɹ n ɚ
 sororal	s ə ɹ ɔː ɹ ə l
 sororate	s ə ɹ ɔː ɹ ə t
 sororize	s ɒ ɹ ə ɹ a ɪ z
@@ -63175,7 +63255,7 @@ souls	s o ʊ l z
 souly	s o ʊ l i
 sound	s a ʊ n d
 sounded	s a ʊ n d ɪ d
-sounder	s a ʊ n d ə ɹ
+sounder	s a ʊ n d ɚ
 sounding	s a ʊ n d ɪ ŋ
 soundless	s a ʊ n d l ə s
 soundlore	s a ʊ n d l ɔ ɹ
@@ -63190,7 +63270,7 @@ soupçon	s uː p s ɒ n
 soupçon	s uː p s ɒ̃
 souq	s uː k
 souq	s uː q
-sour	s a ʊ ə ɹ
+sour	s a ʊ ɚ
 sourball	s a ʊ ɚ b ɑː l
 source	s uː ɹ s
 source	s ɔ ɹ s
@@ -63210,7 +63290,7 @@ souslik	s uː s l ɪ k
 souslik	s ʊ s l ɪ k
 sousveillance	s uː v e ɪ l ə n s
 sout	s a ʊ t
-souter	s u t ə ɹ
+souter	s u t ɚ
 souterrain	s uː t ə ɹ e ɪ n
 south	s a ʊ θ
 south	s uː θ
@@ -63234,8 +63314,8 @@ sow	s o ʊ
 sowell	s o ʊ l
 sowell	s o ʊ w ə l
 sowell	s o ʊ ə l
-sower	s a ʊ ə ɹ
-sower	s ə ʊ ə ɹ
+sower	s a ʊ ɚ
+sower	s ə ʊ ɚ
 sowing	s o ʊ ɪ ŋ
 sowl	s a ʊ l
 sowl	s a ʊ ə l
@@ -63260,7 +63340,7 @@ space	s p e ɪ s
 spacefaring	s p e ɪ s f æ ɹ ɪ ŋ
 spacelike	s p e ɪ s l a ɪ k
 spaceman	s p e ɪ s m æ n
-spacer	s p e ɪ s ə ɹ
+spacer	s p e ɪ s ɚ
 spaces	s p e ɪ s ɪ z
 spacescraper	s p e ɪ s s k ɹ e ɪ p ə
 spacious	s p e ɪ ʃ ə s
@@ -63268,7 +63348,7 @@ spackle	s p æ k ə l
 spadassinicide	s p ɑ d ə s ɪ n ɪ s e ɪ d
 spade	s p e ɪ d
 spadea	s p e ɪ d ɪ ə
-spader	s p e ɪ d ə ɹ
+spader	s p e ɪ d ɚ
 spades	s p e ɪ d z
 spadiceous	s p ə d ɪ ʃ i ə s
 spadiceous	s p ə d ɪ ʃ ə s
@@ -63353,11 +63433,11 @@ spatula	s p æ t͡ʃ ə l ə
 spatula	s p æ t͡ʃ ʊ l ə
 spatulous	s p æ t j ʊ l ə s
 spaug	s p ɔː ɡ
-spaulder	s p ɔ l d ə ɹ
+spaulder	s p ɔ l d ɚ
 spavin	s p æ v ɪ n
 spawl	s p ɔː l
 spawn	s p ɔ n
-spawner	s p ɔː n ə ɹ
+spawner	s p ɔ n ɚ
 spayed	s p e ɪ d
 spaz	s p æ z
 spaza	s p ɑː z ə
@@ -63459,7 +63539,7 @@ spend	s p ɛ n d
 spender	s p ɛ n d ɚ
 spending	s p ɛ n d ɪ ŋ
 spendthrift	s p ɛ n d θ ɹ ɪ f t
-spenser	s p ɛ n s ə ɹ
+spenser	s p ɛ n s ɚ
 spent	s p ɛ n t
 sperage	s p ɛ ɹ ɪ d ʒ
 sperate	s p ɪ ə ɹ ə t
@@ -63500,7 +63580,7 @@ spherocyte	s f ɛ ɹ ə s a ɪ t
 spherule	s f ɪ ɹ j uː l
 sphex	s f ɛ k s
 sphexish	s f ɛ k s ɪ ʃ
-sphincter	s f ɪ ŋ k t ə ɹ
+sphincter	s f ɪ ŋ k t ɚ
 sphinx	s f ɪ ŋ k s
 sphragide	s f r æ d͡ʒ a ɪ d
 sphragis	s f r æ d͡ʒ ɪ s
@@ -63684,6 +63764,7 @@ spoke	s p ə ʊ k
 spoken	s p o ʊ k ə n
 spoliation	s p ə ʊ l i e ɪ ʃ ə n
 spoliator	s p o ʊ l i e ɪ t ə ɹ
+spoliator	s p o ʊ l i e ɪ t ɚ
 spondee	s p ɒ n d i
 spondulicks	s p ɑ n d j u l ɪ k s
 spondylosis	s p ɒ n d ɪ l ə ʊ s ɪ s
@@ -63845,6 +63926,7 @@ sputter	s p ʌ t ɚ
 spy	s p a ɪ
 spying	s p a ɪ ɪ ŋ
 sql	s iː k w ə l
+sql	ɛ s k j uː ɛ l
 squab	s k w ɑ b
 squabash	s k w ə b æ ʃ
 squabble	s k w ɑː b l
@@ -64889,6 +64971,7 @@ stutter	s t ʌ t ɚ
 stuttgart	s t ʊ t ɡ ɑː ɹ t
 stuttgart	s t ʌ t ɡ ɑː ɹ t
 stuttgart	ʃ t ʊ t ɡ ɑː ɹ t
+stx	s n t k ɹ ɔ s
 sty	s t a ɪ
 stye	s t a ɪ
 stygian	s t ɪ d͡ʒ i ə n
@@ -68239,10 +68322,12 @@ tiwed	t a ɪ ə w d
 tiwed	t a ɪ ʊ d
 tiyn	t iː j ɪ n
 tjaele	t͡ʃ e ɪ l ə
+tko	t i k e ɪ o ʊ
 tlaloc	t l ə l o ʊ k
 tlaxcala	t l ɑː s k ɑː l ə
 tlaxcala	t l ɑː ʃ k ɑː l ə
 tlayuda	t l ɑ j u d ə
+tldr	t iː ɛ l d iː ɑː ɹ
 tlemcen	t l ɛ m s ɛ n
 tlingit	k l ɪ ŋ k ɪ t
 tlingit	t l ɪ ŋ ɡ ɪ t
@@ -68552,7 +68637,7 @@ torsion	t o r ʒ ə n
 torsion	t o r ʒ ɪ n
 torsk	t ɔ ɹ s k
 torso	t ɔ ɹ s o ʊ
-tort	t o ɹ t
+tort	t ɔ ɹ t
 torte	t ɔ ɹ t
 tortellini	t ɔ ɹ t ə l i n i
 tortfeasance	t ɔ ə ɹ t f iː z ə n s
@@ -70026,7 +70111,7 @@ typhon	t a ɪ f ə n
 typhonomachy	t a ɪ f ə n ɑ m ə k i
 typhoon	t a ɪ f u n
 typhus	t a ɪ f ə s
-typical	t ɪ p ɪ k l̩
+typical	t ɪ p ɪ k ə l
 typically	t ɪ p ɪ k l i
 typically	t ɪ p ɪ k ə l i
 typify	t ɪ p ɪ f a ɪ
@@ -70107,6 +70192,7 @@ uefa	j u e ɪ f ə
 uelen	w e ɪ l ɛ n
 ues	j uː z
 uey	j uː i
+ufa	j uː f ə , uː f ɑː
 uffish	ʌ f ɪ ʃ
 ufo	j u f o ʊ
 ufo	j u f o ʊ̯
@@ -70136,6 +70222,7 @@ uh	ʌː
 uint	j uː ɪ n t
 uist	j uː ɪ s t
 uist	uː ɪ s t
+uitlander	a ɪ t l æ n d ə ɹ
 uk	j uː k e ɪ
 ukase	j uː k e ɪ s
 ukase	j uː k e ɪ z
@@ -71147,6 +71234,7 @@ usability	j uː z ə b ɪ l ɪ t i
 usable	j uː z ə b ə l
 usage	j uː s ɪ d͡ʒ
 usage	j uː z ɪ d͡ʒ
+usaid	j uː ɛ s e ɪ a ɪ d iː
 usaid	j uː ɛ s e ɪ d
 usania	j uː s e ɪ n i ə
 usanian	j uː s e ɪ n i ə n
@@ -72514,6 +72602,8 @@ voyage	v ɔ ɪ ɪ d͡ʒ
 voyeur	v w ɑ j ɜ ɹ
 voyeur	v ɔ ɪ j ɜ r
 voyeurism	v w ɑː j ɜː ɹ ɪ z ə m
+vp	l ɪ t l̩ v i p i
+vpotus	v iː p o ʊ t ə s
 vpotus	v ə p o ʊ t ə s
 vraic	v ɹ e ɪ k
 vraisemblance	v ɹ e ɪ s ɑ m b l ɑ n s
@@ -74031,6 +74121,7 @@ wizen	w ɪ z ə n
 wizened	w i z ə n d
 wizened	w ɪ z ə n d
 wlan	d ʌ b ə l j u l æ n
+wmaf	d ʌ b ə l j uː ɛ m e ɪ ɛ f
 wo	w o
 wo	w ɔː
 woad	w o ʊ d
@@ -74493,6 +74584,8 @@ wuzhi	w uː d͡ʒ iː
 wuzu	w uː z uː
 wwmccs	w ɪ m ɛ k s
 wwoof	w ʊ f
+www	d ʌ b d ʌ b d ʌ b
+www	d ʌ b ə l j uː d ʌ b ə l j uː d ʌ b ə l j uː
 wyatt	w a ɪ ə t
 wychert	w ɪ t͡ʃ ɚ t
 wyden	w a ɪ d ə n
@@ -74727,6 +74820,7 @@ xor	k s o ɹ
 xor	k s z o ɹ
 xor	z o ɹ
 xor	ɛ k s o ɹ
+xor	ɛ k s ɔ ɹ
 xorn	z o ɹ n
 xu	s uː
 xu	ʃ uː
@@ -75165,6 +75259,7 @@ youthhood	j uː θ h ə d
 youthhood	j uː θ h ʊ d
 youthly	j uː θ l i
 youths	j uː ð z
+youths	j uː θ s
 youtiao	j o ʊ t j a ʊ
 youtube	j u t u b
 youtuber	j uː t j uː b ə ɹ
@@ -75202,6 +75297,8 @@ yuan	j u ə n
 yuan	j uː ɑ n
 yuan	j uː ə n
 yuan	w ɑ n
+yuanbao	w ɑ n b ɑ ʊ
+yuanbao	w ɛ n p ɑ ʊ
 yucaipa	j uː k a ɪ p ə
 yucca	j uː k ə
 yucca	j ʌ k ə

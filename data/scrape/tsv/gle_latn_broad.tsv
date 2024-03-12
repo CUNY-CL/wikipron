@@ -202,6 +202,7 @@ aibhneacha	ə i vʲ n ə x ə
 aibhneacha	ə i vʲ n̠ʲ ə x iː
 aibhneacha	ə i vʲ n̠ʲ ə x ə
 aibhneacha	ɛ vʲ n̠ʲ a x ə
+aibhní	ə i ŋʲ iː
 aibhéis	aː vʲ ɛ ʃ
 aibidh	a bʲ ɪ ɟ
 aibreán	a bʲ ə ɾʲ ɑː n̪ˠ
@@ -310,7 +311,6 @@ aird	aː ɾˠ dʲ
 aird	ɑː ɾˠ dʲ
 airde	a i ɾʲ dʲ ə
 airde	iː ɾˠ dʲ ə
-airde	æː ɾˠ dʲ ə
 airde	ɑː ɾˠ dʲ ə
 airde	ʌ ɾˠ dʲ ə
 aire	a ɾʲ ə
@@ -342,8 +342,10 @@ airm	ɪ ɾʲ ə mʲ
 airméanach	a ɾʲ ə mʲ eː nˠ ə x
 airméin	a ɾʲ ə mʲ eː nʲ
 airméinis	a ɾʲ ə mʲ eː nʲ ə ʃ
-airne	æː ɾˠ n̠ʲ ə
+airne	aː ɾˠ n̠ʲ ə
 airne	ɑː ɾˠ n̠ʲ ə
+airneán	aː ɾˠ n̠ʲ a lˠ
+airneán	aː ɾˠ n̠ʲ a l̪ˠ
 airnéis	aː ɾˠ n̠ʲ e ʃ
 airnéis	aː ɾˠ n̠ʲ æ ʃ
 airnéis	aː ɾˠ n̠ʲ ɛ ʃ
@@ -432,9 +434,11 @@ aithníodh	æ nʲ iː x
 aithníonn	a h nʲ iː n̪ˠ
 aithníonn	æ nʲ iː n̪ˠ
 aithreacha	a h ɾʲ ə x ə
+aithreacha	æ h ɾʲ a x ə
 aithreacha	æ h ɾʲ ə x ə
 aithreacha	æː ɾʲ ə x iː
 aithreachas	a h ə ɾʲ ə x ə sˠ
+aithreachas	a ɾʲ ə x ə s̪
 aithreachas	æ h ɾʲ a x ə sˠ
 aithrí	a ɾʲ h iː
 aithrí	æ h ɾʲ i
@@ -458,6 +462,7 @@ allais	a l̪ˠ ə ʃ
 allais	ɑ l̪ˠ ə ʃ
 allas	a l̪ˠ ə sˠ
 allas	ɑ l̪ˠ ə sˠ
+allta	a u l̪ˠ t̪ˠ ə
 alltracha	ɑ l̪ˠ t̪ˠ ɾˠ ə x ə
 alltracha	ɑː l̪ˠ t̪ˠ ɾˠ ə x iː
 alpán	a lˠ pˠ a nˠ
@@ -491,8 +496,10 @@ am	ɑː mˠ
 am	ə mˠ
 amach	ə mˠ a x
 amadán	a mˠ ə d̪ˠ a nˠ
+amadán	a mˠ ə d̪ˠ a n̪ˠ
 amadán	a mˠ ə d̪ˠ ɑː nˠ
-amadán	ɑ mˠ ə d̪ˠ ɑː nˠ
+amadán	a mˠ ə d̪ˠ ɑː n̪ˠ
+amadán	ɑ mˠ ə d̪ˠ ɑː n̪ˠ
 amaid	a mˠ ə dʲ
 amaideach	ɑ mˠ ə dʲ ə x
 amaideacha	ɑ m ə dʲ ə x ə
@@ -525,13 +532,17 @@ amhrasach	ɑ̃ v ɾˠ ə sˠ ə x
 amhráin	oː ɾˠ æ nʲ
 amhráin	oː ɾˠ ɑː nʲ
 amhráin	ə u ɾˠ ɑː nʲ
+amhrán	oː ɾˠ ɑː n
 amhrán	oː ɾˠ ɑː nˠ
-amhrán	ɑː ɾˠ ɑː nˠ
+amhrán	oː ɾˠ ɑː n̪ˠ
+amhrán	ũː ɾˠ ɑː n̪ˠ
+amhrán	ɑː ɾˠ ɑː n
+amhrán	ɑ̃ ũ ɾˠ ɑː n̪ˠ
 amhrán	ɔː ɾˠ a nˠ
-amhrán	ə u ɾˠ ɑː n̪ˠ
+amhrán	ɔː ɾˠ a n̪ˠ
 amhscarthanach	a u sˠ k ə ɾˠ n̪ˠ ə x
 amháin	ə vˠ ɑː nʲ
-amháin	ə w æː nʲ
+amháin	ə w ãː nʲ
 amháin	ə w ɑː nʲ
 amparán	a u m pˠ ə ɾˠ ɑː n̪ˠ
 amscaí	a mˠ sˠ k iː
@@ -539,7 +550,7 @@ amuigh	ə mˠ iː
 amuigh	ə mˠ ɪ ç
 amuigh	ə mˠ ɪ ɟ
 amuigh	ə mˠ ʊ
-amáireach	ə mˠ æː ɾʲ a h
+amáireach	ə mˠ aː ɾʲ a x
 amáireach	ə mˠ ɑː ɾʲ ə x
 amárach	ə mˠ aː ɾˠ a x
 amárach	ə mˠ ɑː ɾˠ ə x
@@ -559,6 +570,8 @@ anam	ɑ n̪ˠ ə mˠ
 anamacha	a nˠ ə mˠ ə x ə
 anamacha	a n̪ˠ ə mˠ ə x iː
 anamhaith	ɑ n̪ˠ ə vˠ ɑ h
+anamhóin	ɑ n̪ˠ ə vˠ õː nʲ
+anamhóin	ɑ n̪ˠ ə vˠ ũː nʲ
 anamhór	ɑ n̪ˠ ə vˠ u ə ɾˠ
 anamnacha	a n̪ˠ ə mˠ n̪ˠ ə x iː
 anamnacha	ɑ n ə mˠ n ɑ x ə
@@ -594,32 +607,40 @@ annamh	ɑ n̪ˠ ə
 anocht	ə n ɔ x t̪ˠ
 anocht	ə n̪ˠ ɔ x t̪ˠ
 anocht	ə n̪ˠ ʌ x t̪ˠ
+anoir	ə n̠ʲ ɛ ɾʲ
 anoir	ə n̪ˠ ɛ ɾʲ
 anoir	ə n̪ˠ ɪ ɾʲ
+anois	ə n ɪ ʃ
 anois	ə nʲ ɪ ʃ
 anois	ə nˠ ɪ ʃ
 anois	ə n̪ˠ ɪ ʃ
+anonn	ə n uː n̪ˠ
 anonn	ə n̪ˠ uː n̪ˠ
 anonn	ə n̪ˠ ʌ n̪ˠ
 anraith	a n̪ˠ ɾˠ ə h
 anraith	aː nˠ ɾˠ ɪ
-anró	aː nˠ ɾˠ ɔ
-anseo	i n̠ʲ ʃ ɔ
+anrud	a n̪ˠ ɾˠ ʌ d̪ˠ
+anró	a u ɾˠ oː
+anró	aː nˠ ɾˠ ɔː
+anró	aː n̪ˠ ɾˠ ɔː
+anróch	a u ɾˠ oː x
 anseo	ə nʲ ʃ ɔ
+anseo	ə n̠ʲ ʃ ɔ
 anseo	ə n̪ˠ ʃ ɔ
-ansin	ə nʲ ʃ ɪ nʲ
+ansin	ə n̠ʲ ʃ ɪ nʲ
 ansin	ə n̪ˠ ʃ ɪ nʲ
 antaine	a n̪ˠ t̪ˠ ə nʲ ə
 antráthach	a n̪ˠ t̪ˠ ɾ aː x
 antóin	a n̪ˠ t̪ˠ oː nʲ
 antóin	a n̪ˠ t̪ˠ ə nʲ
 anuas	ə n̪ˠ u ə sˠ
+anuraidh	ə n ɞ ɾˠ ə
 anuraidh	ə n̪ˠ ɔ ɾˠ ə
 anuraidh	ə n̪ˠ ɨ̞ ɾˠ i
 anuraidh	ə n̪ˠ ɪ ɾʲ ɪ ɟ
 anáil	ə n ɑː l
 aníos	ə n̠ʲ iː sˠ
-anóirthear	ə n̪ˠ ɔː ɾˠ i ɾʲ
+anóirthear	ə n̪ˠ ɔː ɾˠ h i ɾʲ
 aodh	eː
 aodh	iː
 aoi	iː
@@ -670,7 +691,6 @@ aonaid	eː nˠ ə dʲ
 aonbheannach	eː nˠ vʲ a nˠ ə x
 aonbheannach	eː nˠ vʲ ə nˠ a x
 aonbheannach	iː nˠ vʲ a nˠ a h
-aonghas	eː ŋ ɣ ə sˠ
 aonghas	n̪ˠ ĩː sˠ
 aonghas	n̪ˠ ɯ̃ː sˠ
 aonghas	æ ŋ ɡ ə sˠ
@@ -707,9 +727,9 @@ araon	ə ɾˠ ɯː n
 araon	ɛ ɾˠ eː nˠ
 araon	ɛ ɾˠ eː n̪ˠ
 araon	ɛ ɾˠ ɤː nˠ
-arbhar	a ɾˠ uː ɾˠ
 arbhar	a ɾˠ ə w ə ɾˠ
 arbhar	ɑ ɾˠ uː ɾˠ
+arbhar	ə ɾˠ uː ɾˠ
 arc	a ɾˠ k
 arcán	a ɾˠ k a nˠ
 arcán	a ɾˠ k ɑː nˠ
@@ -736,21 +756,24 @@ ardú	aː ɾˠ d̪ˠ u
 ardú	ɑː ɾˠ d̪ˠ uː
 argóint	ɑ ɾˠ ɡ oː nʲ tʲ
 argóint	ɑ ɾˠ ɡ ɔ nʲ tʲ
+ariamh	ə ɾʲ i ə vˠ
+ariamh	ə ɾʲ i ə w
 arm	a ɾˠ ə mˠ
 arm	ɑ ɾˠ ə mˠ
 arraing	a ɾˠ ə n̠ʲ
 arraingeacha	a ɾˠ ə n̠ʲ a x ə
 arsa	a ɾˠ sˠ ə
+arsa	ə ɾˠ sˠ ə
 artaire	a ɾˠ t̪ˠ ə ɾʲ ə
 arán	a ɾˠ a nˠ
 arán	a ɾˠ a n̪ˠ
 arán	ə ɾˠ ɑː n
 arán	ə ɾˠ ɑː n̪ˠ
-arán	ɾˠ ɑː n
 arán	ɾˠ ɑː nˠ
 arán	ɾˠ ɑː n̪ˠ
 aréir	ə ɾˠ eː ɾʲ
 aréir	ə ɾˠ ə i̯ ɾʲ
+arís	ə ɾʲ iː ʃ
 aríst	ə ɾʲ iː ʃ tʲ
 aríst	ə ɾˠ ɪ ʃ tʲ
 arú	a ɾˠ u
@@ -783,6 +806,7 @@ asam	a sˠ ə mˠ
 asam	ɑ sˠ ə mˠ
 asamsa	a sˠ ə mˠ sˠ ə
 asamsa	ɑ sˠ ə mˠ sˠ ə
+asarlaíocht	a sˠ ə l̪ˠ ɾˠ i a x t̪ˠ
 asat	a sˠ t̪ˠ ə d̪ˠ
 asat	a sˠ ə d̪ˠ
 asat	a sˠ ə t̪ˠ
@@ -834,9 +858,9 @@ athrú	ɑ ɾˠ uː
 athuair	a h u ə ɾʲ
 atuirseach	a t̪ˠ ʊ ɾˠ ʃ a h
 atuirseach	a t̪ˠ ʊ ɾˠ ʃ ə x
-atá	a t̪ˠ æ
+atá	a t̪ˠ a
 atá	a t̪ˠ ɑː
-atá	ə t̪ˠ æː
+atá	ə t̪ˠ aː
 atá	ə t̪ˠ ɑː
 aíocht	i ə x t̪ˠ
 b'	bʲ
@@ -849,7 +873,9 @@ ba	bˠ a
 ba	bˠ a h
 ba	bˠ ɑ
 ba	bˠ ɑ h
+ba	bˠ ɔ
 ba	bˠ ə
+ba	bˠ ə j
 babhta	bˠ ɑ u t̪ˠ ə
 bablóinia	bˠ a bˠ lˠ oː nʲ i ə
 bac	bˠ a k
@@ -885,6 +911,7 @@ badhbh	bˠ ə i vˠ
 badráil	bˠ a d̪ˠ ɾˠ a lʲ
 badráil	bˠ a d̪ˠ ɾˠ ɑː lʲ
 badráil	bˠ ɑ d̪ˠ ɾˠ ɑː lʲ
+bagairt	bˠ a ɡ ə ɾˠ tʲ
 bagáiste	bʲ ɞ ɡ ɑː ʃ tʲ ə
 bagáiste	bˠ a ɡ a ʃ tʲ ə
 bagáiste	bˠ a ɡ ɑː ʃ tʲ ə
@@ -918,17 +945,22 @@ baineann	bˠ a nʲ ə n̪ˠ
 baineann	bˠ ɪ nʲ ə n̪ˠ
 baineann	bˠ ɪ ɾʲ ə n̪ˠ
 baineannach	bˠ a nʲ ə nˠ ə x
+bainfidh	bˠ ɪ nʲ h ə
 bainim	bˠ a nʲ ə mʲ
 bainim	bˠ æ nʲ ə mʲ
 bainim	bˠ ɪ nʲ ə mʲ
 bainis	b a nʲ ə ʃ
+bainis	b a nˠ ə ʃ
+bainis	b a n̪ˠ ə ʃ
 bainne	bˠ a n̠ʲ ə
 bainne	bˠ a ɲ ə
 bainne	bˠ æ n̠ʲ ə
 bainne	bˠ ɑ nʲ ə
+bainse	bˠ æ n̠ʲ ʃ ə
 baint	bˠ a n̠ʲ tʲ
 baint	bˠ æ n̠ʲ tʲ
 baint	bˠ ɪ nʲ tʲ
+baint	bˠ ɪ n̠ʲ tʲ
 baintreach	bʲ a n tʲ ɾʲ ə x
 baintreach	bˠ a nʲ tʲ ɾʲ ə x
 baintreach	bˠ æ n̠ʲ tʲ ɾʲ a x
@@ -980,6 +1012,9 @@ ballán	bˠ ʊ l̪ˠ ɑː n
 balsamach	bˠ a lˠ sˠ ə mˠ a h
 balsamach	bˠ a lˠ sˠ ə mˠ ə x
 bambairne	bˠ ɑ u mˠ bˠ ə ɾˠ nʲ ə
+ban	bˠ a nˠ
+banais	b a nˠ ə ʃ
+banais	b a n̪ˠ ə ʃ
 banaltra	bʲ æ n ə l̪ˠ t̪ˠ ɾˠ ə
 banaltra	bˠ a nˠ ə l̪ˠ t̪ˠ ɾˠ ə
 banaltra	bˠ ɑ n̪ˠ ə ɾˠ l̪̥ˠ h ə
@@ -1027,7 +1062,9 @@ bardasach	bˠ æː ɾˠ d̪ˠ ə sˠ a h
 bardasach	bˠ ɑː ɾˠ d̪ˠ ə sˠ ə x
 barr	bˠ aː ɾˠ
 barr	bˠ ɑː ɾˠ
+barra	bˠ a ɾˠ ə
 barrach	bˠ a ɾˠ ə x
+barraíocht	bˠ a ɾˠ i a x t̪ˠ
 barraíocht	bˠ ɔ ɾˠ i a x t̪ˠ
 barrchith	bˠ a ɾˠ ç ɪ ç
 barrchith	bˠ aː ɾˠ ç ɪ ç
@@ -1035,6 +1072,9 @@ barrchith	bˠ ɑː ɾˠ ç ɪ
 barrchith	bˠ ɑː ɾˠ ç ɪ h
 barriall	bˠ aː ɾˠ i ə l̪ˠ
 barriall	bˠ ɑː ɾˠ i ə l̪ˠ
+barúil	bˠ a ɾˠ u lʲ
+barúil	bˠ a ɾˠ uː lʲ
+barúil	bˠ ə ɾˠ uː lʲ
 barúlach	bˠ a ɾˠ u lˠ a h
 barúlach	bˠ a ɾˠ uː lˠ ə x
 barúlach	bˠ a ɾˠ uː l̪ˠ ə x
@@ -1069,6 +1109,8 @@ bealach	bʲ a lˠ a h
 bealach	bʲ a lˠ ə x
 bealach	bʲ ə l̪ˠ ɑ x
 bealach	bˠ ɑ lˠ ə x
+bealadh	bʲ a h lˠ u
+bealadh	bʲ a h l̪ˠ u
 bealaigh	bʲ a lˠ i
 bealaigh	bʲ a lˠ iː
 bealaigh	bʲ a lˠ ə
@@ -1121,6 +1163,7 @@ bearradh	bʲ ɑː ɾˠ ə tʲ
 bearradh	bʲ ɑː ɾˠ ə vˠ
 bearradh	bʲ ɑː ɾˠ ə x
 bearraim	bʲ aː ɾˠ ə mʲ
+bearrfaidh	bʲ aː ɾˠ h ə
 bearrtha	bʲ aː ɾˠ h ə
 bearrtha	bʲ ɑː ɾˠ h ə
 beart	bʲ a ɾˠ t̪ˠ
@@ -1136,6 +1179,7 @@ beathaigh	bʲ a h i
 beathaigh	bʲ ɛ h i
 beathaisnéisí	bʲ a h ɑ ʃ nʲ eː ʃ iː
 beathaisnéisí	bʲ æ h ɑ ʃ nʲ eː ʃ iː
+beathú	bʲ a h uː
 beich	bʲ ɛ ç
 beiche	bʲ ɛ ç ɪ
 beid	bʲ ɛ dʲ
@@ -1224,6 +1268,7 @@ bhean	vʲ a nˠ
 bhean	vʲ a n̪ˠ
 bhean	vʲ æ n
 bhean	vʲ æː n̪ˠ
+bheanna	vʲ a n̪ˠ ə
 bheannaigh	vʲ a n̪ˠ i
 bheannaigh	vʲ a n̪ˠ iː
 bheannaigh	vʲ a n̪ˠ ə
@@ -1260,6 +1305,7 @@ bhfadhb	w ə i bˠ
 bhfaide	w a dʲ ə
 bhfaigheann	vˠ ɑ j ə n̪ˠ
 bhfaigheann	w aː n̪ˠ
+bhfaigheas	w ɑː sˠ
 bhfaighidh	w iː
 bhfaighim	vˠ a i mʲ
 bhfaighinn	w aː n̠ʲ
@@ -1277,8 +1323,10 @@ bhfeice	vʲ ɛ c ɪ
 bhfeiceanna	vʲ ɛ c ə n̪ˠ ə
 bhfeicfidh	vʲ ɛ c i
 bhfeicfidh	vʲ ɛ c ɪ
+bhfeileann	vʲ ɛ lʲ ə n̪ˠ
 bhfeirm	vʲ ɛ ɾʲ ə mʲ
 bhfeis	vʲ ɛ ʃ
+bhfiacha	vʲ i ə x ə
 bhfiaradh	vʲ i ə ɾˠ u
 bhfiaradh	vʲ i ə ɾˠ uː
 bhfiaradh	vʲ i ə ɾˠ ə
@@ -1304,6 +1352,7 @@ bhfreastalaíodh	vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː tʲ
 bhfreastalaíodh	vʲ ɾʲ a sˠ t̪ˠ ə lˠ iː x
 bhfreastalódh	vʲ ɾʲ a sˠ t̪ˠ ə lˠ oː tʲ
 bhfreastalódh	vʲ ɾʲ a sˠ t̪ˠ ə lˠ oː x
+bhfréimh	vʲ rʲ eː vʲ
 bhfuair	vˠ u ə ɾʲ
 bhfuair	w u ə ɾʲ
 bhfuil	bˠ i lʲ
@@ -1312,9 +1361,12 @@ bhfuil	w ɪ lʲ
 bhféadfá	vʲ iː a̯ t̪ˠ fˠ ɑː
 bhféar	vʲ eː ɾˠ
 bhféar	vʲ iː a̯ ɾˠ
+bhfís	vʲ iː ʃ
+bhia	vʲ i ə
 bhialann	vʲ i ə lˠ ə n̪ˠ
 bhialann	vʲ i ə l̪ˠ ə n̪ˠ
 bhig	vʲ ɪ ɟ
+bhinde	vʲ ɪ n̠ʲ dʲ ə
 bhisigh	vʲ ɪ ʃ i
 bhisigh	vʲ ɪ ʃ iː
 bhisigh	vʲ ɪ ʃ ə
@@ -1344,6 +1396,8 @@ bhodhraigh	w oː ɾˠ ə
 bhog	vˠ ɔ ɡ
 bhog	w ɔ ɡ
 bhog	w ʌ ɡ
+bhoicht	vˠ ɔ x tʲ
+bhoicht	w ɔ x tʲ
 bholg	vˠ ɔ l̪ˠ ə ɡ
 bholg	w ɔ l ə k
 bholg	w ɔ lˠ ə ɡ
@@ -1351,6 +1405,8 @@ bholg	w ɔ l̪ˠ ə ɡ
 bhraith	w ɾˠ a
 bhraith	w ɾˠ a ç
 bhrasaíl	vˠ ɾˠ a sˠ iː lʲ
+bhrata	vˠ ɾˠ a t̪ˠ ə
+bhrata	w ɾˠ a t̪ˠ ə
 bhreab	vʲ ɾʲ a bˠ
 bhreathnaigh	vʲ ɾʲ a h nˠ i
 bhreathnaigh	vʲ ɾʲ a n̪ˠ ə
@@ -1375,8 +1431,16 @@ bhrád	w ɾˠ aː d̪ˠ
 bhrád	w ɾˠ ɑː d̪ˠ
 bhrí	vʲ ɾʲ iː
 bhríd	vʲ ɾʲ iː dʲ
+bhróga	vˠ ɾˠ oː ɡ ə
+bhróga	w ɾˠ oː ɡ iː
+bhróga	w ɾˠ oː ɡ ə
+bhróga	w ɾˠ ɔː ɡ ə
+bhróin	vˠ ɾˠ oː nʲ
+bhróin	w ɾˠ oː nʲ
+bhróin	w ɾˠ uː nʲ
 bhuail	vˠ u ə lʲ
 bhuail	w u ə lʲ
+bhuailte	w u ə l̠ʲ tʲ ə
 bhun	vˠ ʊ nˠ
 bhun	w ʊ nˠ
 bhun	w ʌ nˠ
@@ -1450,9 +1514,11 @@ bileogach	bʲ ɪ lʲ oː ɡ ə x
 bille	bʲ ɪ lʲ ə
 billiún	bʲ i l̠ʲ uː nˠ
 billí	bʲ ɪ lʲ iː
+binde	bʲ ɪ n̠ʲ dʲ ə
 bindealán	bʲ i n̠ʲ dʲ ə lˠ a nˠ
 bindealán	bʲ i n̠ʲ dʲ ə lˠ ɑː nˠ
 bindealán	bʲ i n̠ʲ dʲ ə l̪ˠ ɑː n̪ˠ
+binid	bʲ ɪ nʲ ə dʲ
 binn	bʲ a i ɲ
 binn	bʲ iː nʲ
 binn	bʲ iː n̠ʲ
@@ -1583,7 +1649,6 @@ bodach	bˠ ʌ d̪ˠ a h
 bodhaire	bˠ ɨ̞ vʲ ɾʲ ə
 bodhar	bˠ oː ɾˠ
 bodhar	bˠ ɑ u ɾˠ
-bodhar	bˠ ə u ɾˠ
 bodhraigh	bˠ oː ɾˠ i
 bodhrán	bˠ oː ɾˠ æ n̪ˠ
 bodhrán	bˠ ə u ɾˠ ɑː n̪ˠ
@@ -1625,6 +1690,7 @@ boireannach	bˠ ɛ ɾʲ ə n̪ˠ ə x
 boiriceach	bˠ ɛ ɾʲ ɪ c a x
 boiriceach	bˠ ɛ ɾʲ ɪ c ə x
 boise	bˠ ɞ ʃ ə
+boiseog	bˠ ʊ sˠ oː ɡ
 boladh	bˠ ɔ lˠ u
 boladh	bˠ ɔ l̪ˠ u
 boladh	bˠ ɔ l̪ˠ ə
@@ -1700,6 +1766,7 @@ bpósfadh	bˠ ɔː sˠ u
 bpósfadh	bˠ ɔː sˠ ə tʲ
 brabúsach	bˠ ɾˠ a bˠ u sˠ a x
 brabúsach	bˠ ɾˠ a bˠ uː sˠ ə x
+brac	bˠ ɾˠ a k
 brachán	bˠ ɾˠ a h a nˠ
 brachán	bˠ ɾˠ a h a n̪ˠ
 brachán	bˠ ɾˠ a x ɑː nˠ
@@ -1728,6 +1795,7 @@ braith	bˠ ɾˠ a ç
 branda	bˠ ɾˠ a n̪ˠ d̪ˠ ə
 branda	bˠ ɾˠ æ n̪ˠ d̪ˠ ə
 branda	bˠ ɾˠ ɑ u n̪ˠ d̪ˠ ə
+brandubh	b r a n̪ˠ d̪ˠ uː
 braon	bˠ ɾˠ eː n̪ˠ
 braon	bˠ ɾˠ iː nˠ
 braon	bˠ ɾˠ ɯː nˠ
@@ -1801,10 +1869,12 @@ breáichte	bʲ ɾʲ aː x tʲ ə
 briathar	bʲ ɾʲ i ə h ə ɾˠ
 briathar	bʲ ɾʲ i ə ɾˠ
 briathar	bʲ ɾʲ iː h ə ɾˠ
+briathra	bʲ ɾʲ i ə h ɾˠ ə
 briathra	bʲ ɾʲ iː ɾˠ ə
 bric	bʲ ɾʲ ɪ c
 brice	bʲ ɾʲ ɪ c ɪ
 bricfeasta	bʲ ɾʲ ɛ c fˠ ɑː sˠ t̪ˠ ə
+bricfeasta	bʲ ɾʲ ɪ c fʲ a sˠ t̪ˠ
 bricfeasta	bʲ ɾʲ ɪ c fʲ a sˠ t̪ˠ ə
 bricfásta	bʲ ɾʲ ɪ c fˠ ɑː sˠ t̪ˠ ə
 brionglóid	bʲ ɾʲ ɨ̞ ŋ lˠ ɔ dʲ
@@ -1846,6 +1916,7 @@ broim	bˠ ɾˠ a i mʲ
 broim	bˠ ɾˠ iː mʲ
 broim	bˠ ɾˠ ɪ mʲ
 broinn	bˠ ɾˠ iː n̠ʲ
+brollach	bˠ ə ɾˠ l̪ˠ a x
 brollach	bˠ ɾˠ a l̪ˠ a x
 brollach	bˠ ɾˠ ɔ l̪ˠ ə x
 bromach	bˠ ɾˠ ɔ mˠ ə x
@@ -1876,8 +1947,11 @@ bruite	bˠ ɾˠ ɪ tʲ ə
 bruith	bˠ ɾˠ ɪ fʲ
 bruith	bˠ ɾˠ ʊ
 bruithim	bˠ ɾˠ ɪ fʲ ə mʲ
+bruithne	bˠ ɾˠ ɪ h nʲ ə
+bruitíneach	bˠ ɾˠ ɪ tʲ iː nʲ ə x
 bruscar	bˠ ɾˠ ʊ sˠ k ə ɾˠ
 bruth	bˠ ɾˠ uː
+bruth	bˠ ɾˠ ɞ h
 bruth	bˠ ɾˠ ɯ h
 bruth	bˠ ɾˠ ʊ h
 bruíon	bˠ ɾˠ iː nˠ
@@ -1969,6 +2043,7 @@ buail	bˠ iː lʲ
 buail	bˠ u ə lʲ
 buail	bˠ ɔ lʲ
 buaile	bˠ u ə lʲ ə
+buaileann	bˠ u ə lʲ ə n̪ˠ
 buailim	bˠ u ə lˠ ə mʲ
 buailim	bˠ u ə l̪ˠ ə mʲ
 buailte	bˠ u ə l̠ʲ tʲ ə
@@ -2023,8 +2098,10 @@ buime	bˠ ɪ mʲ ə
 buimpéis	bˠ iː mʲ pʲ eː ʃ
 buin	bˠ ɪ nʲ
 buinne	bˠ ɪ n̠ʲ ə
+buinneach	bˠ ɪ nʲ a x
+buinneach	bˠ ɪ n̠ʲ a x
+buinneach	bˠ ɪ n̠ʲ ə x
 buinneach	bˠ ɪ ɲ a x
-buinneach	bˠ ɪ ɲ ə x
 buinneán	bˠ ɪ n̠ʲ a nˠ
 buinneán	bˠ ɪ n̠ʲ a n̪ˠ
 bullán	bˠ ʊ l ɑː n
@@ -2051,12 +2128,14 @@ buntús	bˠ u nˠ tˠ uː sˠ
 bunábhar	bˠ ʊ nˠ æː w ə ɾˠ
 bunábhar	bˠ ʊ nˠ ɑː vˠ ə ɾˠ
 bunábhar	bˠ ʊ nˠ ɑː w ə ɾˠ
+bunóc	bˠ ʊ n̪ˠ oː k
 bunús	b ə n̪ˠ uː sˠ
 bunús	b ʊ nˠ uː sˠ
 bunús	b ʌ nˠ u sˠ
 bunúsach	b ə n̪ˠ uː sˠ ə x
 bunúsach	b ʊ n̪ˠ uː sˠ ə x
 bunúsach	b ʌ n̪ˠ u sˠ a h
+burdún	bˠ uː ɾˠ d̪ˠ uː n̪ˠ
 burla	bˠ uː rˠ l̪ˠ ə
 bus	bˠ ɞ sˠ
 bus	bˠ ʊ sˠ
@@ -2144,6 +2223,7 @@ béal	bʲ eː l̪ˠ
 béal	bʲ i ɑ̯ l̪ˠ
 béalbhach	bʲ eː lˠ w a x
 béalbhach	bʲ eː l̪ˠ w a x
+béar	bʲ eː ɾˠ
 béarfad	bʲ eː ɾˠ ə d̪ˠ
 béarfaidh	bʲ eː ɾˠ h i
 béarfaidh	bʲ eː ɾˠ ə
@@ -2211,10 +2291,14 @@ cacht	k a x t̪ˠ
 cad	k a d̪ˠ
 cadhnra	k ə i nˠ ɾˠ ə
 cadhnraí	k ə i nˠ ɾˠ iː
+cadán	k a d̪ˠ ɑː nˠ
+cadán	k a d̪ˠ ɑː n̪ˠ
 cadás	k ʊ dˠ ɑ sˠ
 cafarr	k a fˠ ə ɾˠ
 caib	k a bʲ
 caib	k ɑ bʲ
+caibirlín	k a bˠ ə ɾˠ l̠ʲ i nʲ
+caidreamh	k ɞ dʲ ə ɾʲ ə v
 caife	k a fʲ ə
 caifé	k a fʲ eː
 caighdeán	k ə i dʲ aː n̪ˠ
@@ -2265,7 +2349,7 @@ cairde	k aː ɾˠ dʲ ə
 cairde	k ɑː ɾˠ dʲ ə
 cairdeach	k aː r dʲ a x
 cairdeach	k ɑː r dʲ ə x
-cairdeas	k æː ɾˠ dʲ ə sˠ
+cairdeas	k aː ɾˠ dʲ ə sˠ
 cairdeas	k ɑː ɾˠ dʲ ə sˠ
 cairdiúil	k æː ɾˠ dʲ u lʲ
 cairdiúil	k ɑː ɾˠ dʲ uː lʲ
@@ -2285,6 +2369,7 @@ caisleán	k a ʃ l̠ʲ ɑː n̪ˠ
 caisleán	k ə ʃ lʲ ɑː n̪ˠ
 caisleán	k ʊ ʃ l̠ʲ ɑː nˠ
 caisleán	k ʊ ʃ l̠ʲ ɑː n̪ˠ
+caismirt	k æ ʃ mʲ ə ɾˠ tʲ
 cait	k a tʲ
 cait	k ɑ tʲ
 cait	k ɪ tʲ
@@ -2333,6 +2418,9 @@ camán	k a m aː n
 can	k a nˠ
 can	k a n̪ˠ
 cana	k a nˠ ə
+canach	k a nˠ a x
+canach	k a nˠ ə x
+canach	k a n̪ˠ ə x
 canadh	k a nˠ u
 canadh	k a nˠ uː
 canadh	k a nˠ ə
@@ -2373,6 +2461,7 @@ caoch	k iː x
 caoch	k ɯː x
 caoga	k eː ɡ ə
 caoga	k iː ɡ ə
+caoi	k eː
 caoi	k iː
 caoiche	k iː ç ə
 caoile	k iː lʲ ə
@@ -2390,6 +2479,7 @@ caoineadh	k iː nʲ ə vˠ
 caoineadh	k iː nʲ ə x
 caoineadh	k iː nʲ ə ɡ
 caoineas	k iː nʲ ə sˠ
+caoinfidh	k iː nʲ h ə
 caoire	k iː ɾʲ ə
 caoirigh	k iː ɾʲ i
 caoirigh	k iː ɾʲ iː
@@ -2415,6 +2505,7 @@ caonach	k iː nˠ a x
 caonach	k iː nˠ ə x
 caonach	k ɯː nˠ a x
 caor	k eː ɾˠ
+caor	k iː ɾʲ
 caor	k iː ɾˠ
 caor	k ɯː ɾˠ
 caora	k eː r ə
@@ -2435,6 +2526,7 @@ captaen	k ɑ pˠ t̪ˠ eː n̪ˠ
 car	k a rˠ
 cara	k a ɾˠ ə
 cara	k ɑ ɾˠ ə
+carachtair	k a ɾˠ ə x t̪ˠ ə ɾʲ
 carachtar	k a ɾˠ ə x t̪ˠ ə ɾˠ
 carad	k a ɾˠ ə d̪ˠ
 carad	k ɑ ɾˠ ə d̪ˠ
@@ -2465,13 +2557,16 @@ carn	k aː ɾˠ n̪ˠ
 carn	k ɑː ɾˠ n̪ˠ
 carnán	k aː ɾˠ n̪ˠ a nˠ
 carnán	k aː ɾˠ n̪ˠ a n̪ˠ
-carraig	k a ɾˠ ə c
+carr	k aː ɾˠ
+carr	k ɑː ɾˠ
+carraig	k a ɾˠ ɪ c
 carraig	k aː ɾˠ ɪ ɟ
 carraig	k ɑ ɾˠ ɪ ɟ
 carraigreacha	k a ɾˠ ɪ ɟ ɾʲ ə x iː
 carraigín	k a ɾˠ ɪ ɟ i nʲ
 carraigín	k a ɾˠ ɪ ɟ iː nʲ
 carraigín	k ɑ ɾˠ ɪ ɟ iː nʲ
+carria	k a ɾˠ i ə
 cart	k ɑ ɾˠ t̪ˠ
 cartadh	k a ɾˠ t̪ˠ u
 cartadh	k a ɾˠ t̪ˠ uː
@@ -2483,6 +2578,8 @@ cartadh	k ɑ ɾˠ t̪ˠ ə
 cartadh	k ɑ ɾˠ t̪ˠ ə x
 cartadh	k ɑ ɾˠ t̪ˠ ə ɡ
 carthanach	k a ɾˠ h ə n̪ˠ a x
+carthanas	k a ɾˠ h ə nˠ ə sˠ
+carthanas	k a ɾˠ h ə n̪ˠ ə sˠ
 cas	k a sˠ
 cas	k ɑ sˠ
 casa	k a sˠ ə
@@ -2512,6 +2609,7 @@ castóir	kˠ a sˠ tˠ o ɾʲ
 castóir	kˠ a sˠ tˠ oː ɾʲ
 casáin	k a sˠ æ nʲ
 casán	k ɑ sˠ ɑ nˠ
+casán	k ɑ sˠ ɑ n̪ˠ
 casúr	k a sˠ u ɾˠ
 casúr	k a sˠ uː ɾˠ
 cat	k a t̪ˠ
@@ -2535,6 +2633,8 @@ cathaoir	k a i h i ɾʲ
 cathaoir	k ə i ɾʲ
 cathaoirleach	k a i ɾˠ l̠ʲ ə x
 cathrach	k ɑ h ə ɾˠ ə x
+cathracha	k a i h ɾˠ a x ə
+cathróir	k a i h ɾʲ i ɔ ɾʲ
 catán	k a t̪ˠ æ nˠ
 catán	k a t̪ˠ ɑː nˠ
 catán	k ə t̪ˠ ɑː n̪ˠ
@@ -2643,9 +2743,7 @@ ceathrar	c a h ɾˠ ə ɾˠ
 ceathrar	c æː ɾˠ
 ceathrú	c a h ɾˠ u
 ceathrú	c a h ɾˠ uː
-ceathrú	c a ɾˠ h u
 ceathrú	c a ɾˠ h uː
-ceathrú	c a ɾˠ u
 ceathrú	c a ɾˠ uː
 ceathrú	c æ ɾˠ uː
 ceathrúnaí	c æː ɾˠ uː n̪ˠ iː
@@ -2688,10 +2786,14 @@ ceo	c oː
 ceo	c ɔː
 ceoch	c oː x
 ceoch	c ɔː x
+ceoigh	c oː ɟ
 ceoil	c oː lʲ
 ceoil	c ɔː lʲ
 ceol	c oː lˠ
+ceol	c oː l̪ˠ
 ceol	c ɔː lˠ
+ceol	c ɔː l̪ˠ
+ceolchoirm	c oː lˠ x ɞ ɾʲ ə mʲ
 ceolmhar	c oː l̪ˠ vˠ ə ɾˠ
 ceolmhar	c oː l̪ˠ w ə ɾˠ
 ceolmhar	c ɔː l̪ˠ w ə ɾˠ
@@ -2721,9 +2823,15 @@ chait	x ɪ tʲ
 chaith	x a
 chaith	x a i h
 chaith	x ɑ h
+chaitheamh	x a
+chaitheamh	x a h u
+chaitheamh	x a h ə v
+chaitheamh	x ã h ũ
 chama	x a mˠ ə
 chaoi	x iː
 chaoil	x iː lʲ
+chaoimhe	x iː
+chaoimhe	x iː vʲ ə
 chaol	x eː l̪ˠ
 chaol	x iː lˠ
 chaol	x iː l̪ˠ
@@ -2732,10 +2840,12 @@ chapaill	x a pˠ ə l̪ʲ
 chapall	x a pˠ ə l̪ˠ
 chara	x a ɾˠ ə
 chara	x ɑ ɾˠ ə
+charachtair	x a ɾˠ ə x t̪ˠ ə ɾʲ
 charad	x a ɾˠ ə d̪ˠ
 charaid	x a ɾˠ ə dʲ
 charn	x æː ɾˠ n̪ˠ
 charn	x ɑː ɾˠ n̪ˠ
+charria	x a ɾˠ i ə
 chas	x a sˠ
 chas	x ɑ sˠ
 chasadh	x a sˠ u
@@ -2758,6 +2868,8 @@ chead	ç a d̪ˠ
 chead	ç æː d̪ˠ
 cheada	ç a d̪ˠ ə
 cheada	ç æː d̪ˠ ə
+chealg	ç a lˠ ə ɡ
+chealg	ç a l̪ˠ ə ɡ
 cheana	h a nˠ ə
 cheana	h a n̪ˠ ə
 cheann	ç a n̪ˠ
@@ -2810,6 +2922,8 @@ chip	ç ɪ pʲ
 chirce	ç ɪ ɾʲ c ə
 chiribeas	x ɪ ɾʲ ə b a s
 chirt	ç ɪ ɾˠ tʲ
+chiseanna	ç ɪ ʃ ə n̪ˠ iː
+chiseanna	ç ɪ ʃ ə n̪ˠ ə
 chistin	ç ɪ ʃ tʲ ə nʲ
 chiumhais	ç uː ʃ
 chiúin	ç uː nʲ
@@ -2825,11 +2939,15 @@ chloisfeadh	x lˠ ɔ ʃ ə x
 chluimhrí	x lˠ ɨ̞̃ vʲ ɾʲ i
 chlé	ç lʲ eː
 chléibh	ç lʲ eː vʲ
+chlóis	x lˠ oː ʃ
+chlóis	x l̪ˠ oː ʃ
 chneasta	ç nʲ a sˠ t̪ˠ ə
 chneasta	ç ɾʲ a sˠ t̪ˠ ə
-chnoc	x nˠ ɔ k
-chnoc	x n̪ˠ ɔ k
-chnoc	x ɾˠ ɔ k
+chnoc	x n ɔ k
+chnoc	x n̪ˠ ɞ k
+chnoc	x n̪ˠ ʊ k
+chnoc	x ɾˠ ʊ k
+chnoc	x ɾˠ ʌ k
 chnuic	x nˠ ɪ c
 chnuic	x n̪ˠ ɪ c
 chnuic	x ɾˠ ɪ c
@@ -2842,8 +2960,13 @@ chodladh	x ʌ l̪ˠ u
 chodlata	k ɔ l̪ˠ ə t̪ˠ ə
 chodlata	k ʌ l̪ˠ ə t̪ˠ ə
 choil	x ɛ lʲ
+choillte	x iː lʲ tʲ ə
+choillte	x ə i l̠ʲ tʲ ə
+choillte	x ɞ l̠ʲ tʲ ə
+choillte	x ʌ l̠ʲ tʲ ə
 choire	x ɛ ɾʲ ə
 cholla	x ʌ l̪ˠ ə
+chom	x ʌ mˠ
 chomh	k oː
 chomh	x o
 chomh	x oː
@@ -2869,6 +2992,7 @@ chorraigh	x ɔ ɾˠ i
 chorraigh	x ɔ ɾˠ iː
 chorraigh	x ɔ ɾˠ ə
 chorraigh	x ɔ ɾˠ ɪ ɟ
+chortha	x ɨ̞ ɾˠ h ə
 chos	x ɔ sˠ
 chos	x ʌ sˠ
 choscair	h a sˠ k ə ɾʲ
@@ -2883,6 +3007,7 @@ chrainn	x ɾˠ ɪ n̠ʲ
 chrann	x ɾˠ a n̪ˠ
 chrann	x ɾˠ a u n̪ˠ
 chrann	x ɾˠ ɑː n̪ˠ
+chraobhacha	x ɾˠ iː w a x ə
 chrap	x ɾˠ a pˠ
 chrap	x ɾˠ ʌ pˠ
 chreathnaigh	ç ɾʲ a h nˠ i
@@ -2914,6 +3039,7 @@ chuaigh	x u ə ɟ
 chuain	x u ə nʲ
 chuain	x uː nʲ
 chuairt	x u ə ɾˠ tʲ
+chuairt	x uː ɾˠ tʲ
 chuala	x u ə lˠ i
 chuala	x u ə lˠ ə
 chuala	x u ə l̪ˠ i
@@ -2971,6 +3097,7 @@ chuimhnigh	x ɪ vʲ nʲ iː
 chuir	x ɪ ɾʲ
 chuireadh	x ɪ ɾʲ u
 chuireadh	x ɪ ɾʲ uː
+chuireadh	x ɪ ɾʲ ə
 chuireadh	x ɪ ɾʲ ə tʲ
 chuireadh	x ɪ ɾʲ ə x
 chuireas	x ɪ ɾʲ ə sˠ
@@ -2978,6 +3105,7 @@ chuirfeadh	x ɪ ɾˠ h u
 chuirfeadh	x ɪ ɾˠ h uː
 chuirfeadh	x ɪ ɾˠ h ə tʲ
 chuirfeadh	x ɪ ɾˠ h ə x
+chuirfí	x ɪ ɾʲ fʲ i
 chuiris	x ɪ ɾʲ ə ʃ
 chum	x uː mˠ
 chum	x ʊ mˠ
@@ -3053,7 +3181,10 @@ chúl	x uː lˠ
 chúl	x uː l̪ˠ
 chúns	x uː n̪ˠ sˠ
 chúrsa	x uː ɾˠ sˠ ə
+ciabh	c i ə vˠ
+ciabh	c i ə w
 ciach	c i ə x
+ciachán	c o x ɑ̃ː n̪ˠ
 ciall	c i ə l̪ˠ
 ciallmhar	c i ə l̪ˠ vˠ ə ɾˠ
 cian	c i ə nˠ
@@ -3128,6 +3259,7 @@ cinnigí	c ɪ n̠ ɪ ɟ i
 cinnigí	c ɪ n̠ ɪ ɟ iː
 cinnire	c ɪ n̠ʲ ə ɾʲ ə
 cinnire	c ɪ ɲ ɪ ɾʲ ə
+cinniúint	c ɪ nʲ uː nʲ tʲ
 cinnte	c iː n̠ʲ tʲ ə
 cinnte	c ə i nʲ tʲ ə
 cinnte	c ɪ nʲ tʲ ə
@@ -3143,8 +3275,11 @@ ciontach	c ə u nˠ t̪ˠ ə x
 ciontach	c ɨ̞ n̪ˠ t̪ˠ a x
 ciontaí	c ɨ̞ n̪ˠ t̪ˠ i
 ciorcal	c i ɾˠ k ə lˠ
+ciota	c ɯ t̪ˠ ə
+ciotach	c ə t̪ˠ a x
 ciotach	c ɪ t̪ˠ a h
 ciotach	c ɪ t̪ˠ ə x
+ciothramach	c ɨ̞ h ɾˠ ə mˠ a x
 ciotrúnta	c ɨ̞ t̪ˠ ə ɾˠ uː n̪ˠ t̪ˠ ə
 ciotóg	c ɨ̞ t̪ˠ a ɡ
 cipín	c ɪ pʲ i nʲ
@@ -3171,6 +3306,8 @@ cith	c ɨ̞ h
 cith	c ɪ
 cith	c ɪ ç
 cith	c ʊ x
+cithréim	c ɨ̞ h ɾˠ ə mˠ
+cithréimeach	c ɨ̞ h ɾˠ ə mˠ a x
 ciumhais	c uː ʃ
 ciumhais	c ũː sˠ
 ciumhaise	c uː ʃ ə
@@ -3268,9 +3405,11 @@ cliathán	c lʲ iː h a nˠ
 cliathán	c lʲ iː h a n̪ˠ
 cliathánach	c lʲ iː h a n a x
 clibirt	c lʲ ɪ bʲ ə ɾˠ tʲ
+clismearnach	c lʲ ɪ ʃ mʲ ə ɾˠ n̠ʲ i
 cliste	cʲ lʲ ɪ ʃ tʲ ə
 cloch	k lˠ ɔ x
 cloch	k l̪ˠ ɔ x
+cloch	k l̪ˠ ɞ x
 clocha	k lˠ ʌ x ə
 clocha	k l̪ˠ ɔ x ə
 clocásach	k lˠ ɔ k a sˠ a x
@@ -3290,6 +3429,7 @@ clogaide	k lˠ ʌ ɡ ə dʲ ə
 cloich	k lˠ ɔ i ç
 cloich	k l̪ˠ ɔ i ç
 cloich	k l̪ˠ ɞ h
+cloiche	k l̪ˠ ɞ h ɪ
 cloig	k lˠ ɪ ɟ
 cloigeann	k lˠ æ ɟ ə n̪ˠ
 cloigeann	k lˠ ɛ ɟ ə n̪ˠ
@@ -3321,6 +3461,8 @@ cluimhreach	k lˠ ɨ̞̃ vʲ ɾʲ a x
 cluimhrí	k lˠ ɨ̞̃ vʲ ɾʲ i
 cluin	k l ɨ n
 cluin	k l̪ˠ ɪ nʲ
+cluinfidh	k lˠ ɨ̞ nʲ h ə
+cluinfidh	k l̪ˠ ɨ̞ nʲ h ə
 cluinim	k lˠ ɨ̞ nʲ ə mˠ
 clupaid	k lˠ ʊ pˠ ə dʲ
 clupaid	k lˠ ʌ pˠ ə dʲ ə
@@ -3345,6 +3487,7 @@ cló	k l̪ˠ oː
 clóca	k lˠ oː k ə
 clóca	k l̪ˠ oː k ə
 clóis	k lˠ oː ʃ
+clóis	k l̪ˠ oː ʃ
 clóiséad	k lˠ oː ʃ eː d̪ˠ
 clóscríobhaithe	k lˠ oː ʃ c ɾʲ iː w iː
 clóscríobhaí	k lˠ oː ʃ c ɾʲ iː w iː
@@ -3367,16 +3510,31 @@ clúmh	k l̪ˠ ũː vˠ
 cnag	k n̪ˠ ɑ ɡ
 cnag	k ɾˠ a ɡ
 cnagadh	k n̪ˠ ɑ ɡ ə
+cnagadh	k n̪ˠ ɑ ɡ ə tʲ
+cnagadh	k n̪ˠ ɑ ɡ ə vˠ
+cnagadh	k n̪ˠ ɑ ɡ ə x
+cnagadh	k n̪ˠ ɑ ɡ ə ɡ
+cnagadh	k ɾˠ a ɡ u
+cnagadh	k ɾˠ a ɡ uː
+cnagadh	k ɾˠ a ɡ ə
+cnagadh	k ɾˠ a ɡ ə tʲ
+cnagadh	k ɾˠ a ɡ ə vˠ
+cnagadh	k ɾˠ a ɡ ə x
 cnagaire	k nˠ a ɡ ə ɾʲ ə
 cnagaire	k ɾˠ a ɡ ə ɾʲ ə
 cnaipe	k nˠ a pʲ ə
 cnaipe	k ɾˠ a pʲ ə
+cnaipe	k ɾˠ ɛ pʲ ə
 cnaipe	k ɾˠ ɨ̞ pʲ ə
+cneadach	c ɾʲ a d̪ˠ i
 cneas	c nʲ a sˠ
 cneas	c ɾʲ a sˠ
 cneasta	c nʲ a sˠ t̪ˠ ə
 cneasta	c ɾʲ a sˠ t̪ˠ ə
 cneasú	c ɾʲ a sˠ u
+cneatán	c ɾʲ a t̪ˠ a nˠ
+cneatán	c ɾʲ a t̪ˠ a n̪ˠ
+cniotáil	c ɾʲ ɪ tʲ a lʲ
 cnoc	k n ɔ k
 cnoc	k n̪ˠ ɞ k
 cnoc	k n̪ˠ ʊ k
@@ -3410,7 +3568,8 @@ cnámh	k ɾ ãː w
 cnámha	k ɾˠ ãː w ə
 cníopaire	c nʲ iː pˠ ə ɾʲ ə
 cníopaire	c ɾʲ iː pˠ ə ɾʲ ə
-cnó	k nˠ oː
+cnó	k n oː
+cnó	k n̪ˠ oː
 cnó	k ɾˠ oː
 cnó	k ɾˠ uː
 cnó	k ɾˠ õː
@@ -3494,8 +3653,10 @@ coim	k ɨ̞ mʲ
 coimeád	c ɪ mʲ ɑː d̪ˠ
 coimhead	k ɨ̞ vʲ a d̪ˠ
 coimhead	k ɨ̞̃ vʲ a d̪ˠ
+coimhlint	k ɨ̞ vʲ lʲ ə n̠ʲ
 coimhthiolán	k ɨ̞ fʲ ə lˠ a nˠ
 coimpléasc	k ʊ mˠ pˠ lˠ a sˠ k
+coimrí	k ʌ mʲ ɾʲ i
 coin	k ɪ nʲ
 coinleach	k iː nʲ lʲ ə x
 coinleach	k ɪ n̠ʲ l̠ʲ ə x
@@ -3505,14 +3666,17 @@ coinneal	k ɪ nʲ ə l̪ˠ
 coinneal	k ɪ n̠ʲ ə lˠ
 coinneal	k ɪ n̠ʲ ə l̪ˠ
 coinneochaidh	k ɪ n̠ʲ a x ə
+coinneáil	k ɪ n̠ʲ a lʲ
 coinneáil	k ɪ n̠ʲ æ l̠ʲ tʲ
 coinneáil	k ɪ n̠ʲ ɑː lʲ
 coinnigh	k ɪ n̠ʲ i
 coinnigh	k ɪ n̠ʲ ə
 coinnleoir	k a i ɲ lʲ oː ɾʲ
+coinnleoir	k ɪ n̠ʲ l̠ʲ ɔ ɾʲ
 coinníoll	k ɪ nʲ iː l̪ˠ
 coinníoll	k ɪ nʲ ɪ ɟ ə l̪ˠ
 coinníoll	k ɪ n̠ʲ iː l̪ˠ
+coinscleo	k ɪ n̠ʲ ʃ c lʲ ɔ
 coinín	k ə nʲ iː nʲ
 coinín	k ɪ n̠ʲ i nʲ
 coir	k ɛ ɾʲ
@@ -3525,19 +3689,25 @@ coireach	k ɨ̞ ɾˠ h a x
 coireanna	k ɛ ɾʲ ə nˠ ə
 coirm	k ɞ ɾʲ ə mʲ
 coirnis	k oː ɾˠ nʲ ɪ ʃ
-coirnéal	k ɔ ɾˠ ɲ a lˠ
-coirnéal	k ɔ ɾˠ ɲ eː lˠ
-coirnéal	k ə ɾˠ ɲ eː lˠ
+coirnéal	k ɔ ɾˠ n̠ʲ a lˠ
+coirnéal	k ɔ ɾˠ n̠ʲ eː lˠ
+coirnéal	k ə ɾˠ n̠ʲ eː lˠ
 coirp	k ɪ ɾʲ pʲ
-cois	k ɔ ʃ
 cois	k ɞ ʃ
 coisc	k ʌ ʃ c
+coiscim	k ɞ ʃ c ɪ mʲ
 coiscéim	k æ ʃ c ɪ mʲ
 coise	k ɔ ʃ ə
 coise	k ɞ ʃ ə
 coisin	k ɔ ʃ ɪ nʲ
+coisreac	k ɔ ʃ ɾʲ ə k
+coisreac	k ɛ ʃ ɾʲ ə k
+coisreacaim	k ɔ ʃ ɾʲ ə k ə mˠ
+coisreacaim	k ɔ ʃ ɾʲ ɪ c i mˠ
+coisreacaim	k ɛ ʃ ɾʲ ə k ə mʲ
+coisric	k ɔ ʃ ɾʲ ɪ c
 coisric	k ɛ ʃ ɾʲ ɪ c
-coisrig	k ɛ ʃ ɾʲ ɪ c
+coisrig	k ɔ ʃ ɾʲ ɪ c
 coiste	k ɔ ʃ tʲ ə
 coisíocht	k ɔ ʃ i a x t
 coisíocht	k ɔ ʃ i ə x t
@@ -3576,14 +3746,15 @@ colún	k ʌ lˠ u nˠ
 colúr	k ɔ l̪ˠ u ɾˠ
 colúr	k ɔ l̪ˠ uː ɾˠ
 com	k ʌ mˠ
+comach	k ɔ mˠ a x
 comh	k ɔ
 comhair	k oː rʲ
-comhairle	k oː ɾˠ l̠ʲ ə
 comhairle	k õː ɾˠ l̠ʲ ə
+comhairle	k ũː ɾˠ l̠ʲ ə
 comhar	k õː ɾˠ
-comharsa	k oː ɾˠ sˠ ə
 comharsa	k uː ɾˠ sˠ ə
 comharsa	k õː ɾˠ sˠ ə
+comharsa	k ũː ɾˠ sˠ ə
 comharsanna	k uː ɾˠ sˠ ə n̪ˠ iː
 comhartha	k oː ɾˠ h ə
 comhartha	k uː ɾˠ h ə
@@ -3624,14 +3795,16 @@ comórtas	k ɤ mˠ ɔ ɾˠ t̪ˠ ə sˠ
 con	k ɔ nˠ
 conairt	k ɔ n̪ˠ ə ɾˠ tʲ
 conairt	k ʊ nˠ ə ɾˠ tʲ
+conairt	k ʊ n̪ˠ ə ɾˠ tʲ
 conairt	k ʌ nˠ ə ɾˠ tʲ
+conairt	k ʌ n̪ˠ ə ɾˠ tʲ
 conamar	k ɔ n̪ˠ ə mˠ ə ɾˠ
 conamar	k ʊ nˠ ə mˠ ə ɾˠ
 conamar	k ʌ nˠ ə mˠ ə ɾˠ
 conamara	k ʊ n̪ˠ ə m a ɾˠ ə
 conartha	k ʌ n̪ˠ ə ɾˠ ə
-conas	k n ɞ s
-conas	k ʊ nˠ ə sˠ
+conas	k ə n̪ˠ ɞ sˠ
+conas	k ɞ n̪ˠ ə sˠ
 concas	k uː ŋ k ə sˠ
 conchobhar	k ʊ nˠ x ə w a ɾˠ
 conchúr	k nˠ ʊ x uː ɾˠ
@@ -3654,7 +3827,8 @@ connadh	k ʊ n̪ˠ uː
 connadh	k ʊ n̪ˠ ə
 connadh	k ʌ n̪ˠ u
 conradh	k ʌ nˠ ɾˠ u
-consan	k ʊ nˠ sˠ ə nˠ
+consan	k ɔ n̪ˠ sˠ ə nˠ
+consan	k ɔ n̪ˠ sˠ ə n̪ˠ
 contae	k uː n d eː
 contae	k uː n̪ˠ t̪ˠ eː
 contae	k ʌ n̪ˠ d̪ˠ a i
@@ -3666,7 +3840,8 @@ copar	k o pˠ ə ɾˠ
 copóg	k ɔ pˠ oː ɡ
 copóg	k ɔ pˠ ɔ ɡ
 copóg	k ə pˠ oː ɡ
-cor	k ɔ ɾˠ
+cor	k ɞ ɾˠ
+cor	k ʌ ɾˠ
 cora	k ɔ ɾˠ ə
 coradh	k ɔ ɾˠ u
 coradh	k ɔ ɾˠ uː
@@ -3690,11 +3865,13 @@ cornadh	k oː ɾˠ n̪ˠ ə ɡ
 cornadh	k ɔː ɾˠ n̪ˠ u
 cornadh	k ɔː ɾˠ n̪ˠ ə tʲ
 corp	k ɔ ɾˠ pˠ
+corp	k ʌ ɾˠ pˠ
 corpartha	k ɔ ɾˠ pˠ ə ɾˠ ə
 corr	k ɔ ɾˠ
 corr	k ə u ɾˠ
 corrach	k ɔ ɾˠ a x
 corrach	k ɔ ɾˠ ə x
+corrach	k ʌ ɾˠ a x
 corradh	k ɔ ɾˠ u
 corradh	k ɔ ɾˠ uː
 corradh	k ɔ ɾˠ ə
@@ -3704,11 +3881,13 @@ corraigh	k ɔ ɾˠ ə
 corraigh	k ɔ ɾˠ ɪ ɟ
 corrlach	k ɔ ɾˠ l̪ˠ a x
 corrán	k ɔ ɾˠ a nˠ
+corrán	k ɔ ɾˠ a n̪ˠ
 corrán	k ɔ ɾˠ ɑː nˠ
+corrán	k ɔ ɾˠ ɑː n̪ˠ
 corrán	k ə ɾˠ ɑː n̪ˠ
 corrú	k ɔ ɾˠ uː
 corrú	k ʌ ɾˠ u
-cortha	k ɨ̞ ɾˠ h ə
+cortha	k ʌ ɾˠ h ə
 coróin	k ɔ ɾˠ uː nʲ
 coróin	k ɔ ɾˠ æ nʲ
 coróin	k ə ɾˠ oː nʲ
@@ -3725,12 +3904,13 @@ cos	k ɞ sˠ
 cosa	k ɔ sˠ ə
 cosa	k ʌ sˠ ə
 cosaint	k ɔ sˠ ə n̠ʲ tʲ
+cosaint	k ɞ sˠ ə nʲ tʲ
 cosaint	k ʌ sˠ ə n̠ʲ tʲ
 cosc	k ɔ sˠ k
 coscair	k a sˠ k ə ɾʲ
 coscair	k ɔ sˠ k ə ɾʲ
-coscairt	k a sˠ k ə ɾʲ tʲ
-coscairt	k ɔ sˠ k ə ɾʲ tʲ
+coscairt	k a sˠ k ə ɾˠ tʲ
+coscairt	k ɔ sˠ k ə ɾˠ tʲ
 coscartha	k a sˠ k ə ɾˠ ə
 cosnamh	k ɔ sˠ n̪ˠ u
 costas	k ɔ sˠ t̪ˠ ə sˠ
@@ -3763,6 +3943,7 @@ craiceann	k ɾˠ ɛ c ə n̪ˠ
 craiceann	k ɾˠ ɞ c ə n̪ˠ
 craiceann	k ɾˠ ɪ c ə n̪ˠ
 craiceanna	k ɾˠ a c ə n̪ˠ ə
+craicne	k ɾˠ æ c nʲ ə
 crann	k ɾˠ a n̪ˠ
 crann	k ɾˠ a u n̪ˠ
 crann	k ɾˠ ɑː n̪ˠ
@@ -3811,7 +3992,6 @@ criathar	c ɾʲ i ə h ə ɾˠ
 criathar	c ɾʲ iː h ə ɾˠ
 crios	c ɾʲ ɨ̞ sˠ
 crios	c ɾʲ ɪ sˠ
-crios	c ɾʲ ʊ sˠ
 criostal	k ɾˠ ɪ sˠ t̪ˠ ə lˠ
 crith	c ɾʲ ɨ̞ h
 crith	c ɾʲ ɪ h
@@ -3834,6 +4014,7 @@ crochadh	k ɾˠ ɔ x ə ɡ
 crochta	k ɾˠ ɔ x t̪ˠ ə
 crochta	k ɾˠ ʌ x t̪ˠ ə
 crodh	k ɾˠ ʊ h
+crogall	k ɾˠ ɔ ɡ ə l̪ˠ
 croibh	k ɾˠ ɛ vʲ
 croibh	k ɾˠ ɨ̞ vʲ
 croidh	k ɾˠ ɨ̞ vʲ
@@ -3847,6 +4028,7 @@ crom	k ɾˠ ɑ u mˠ
 crom	k ɾˠ ʊ mˠ
 crom	k ɾˠ ʌ mˠ
 cromaim	k ɾˠ ɔ mˠ ə mʲ
+cromaim	k ɾˠ ɞ mˠ ə mʲ
 cromfad	k ɾˠ ɑ u mˠ h ə d̪ˠ
 cromtha	k ɾˠ ɑ u m h ə
 cronaigh	k ɾˠ ʌ h nˠ i
@@ -3918,7 +4100,10 @@ cruitíneach	k ɾˠ ɪ tʲ i nʲ a x
 cruitíneach	k ɾˠ ɪ tʲ iː nʲ ə x
 crumhóg	k ɾˠ ʊ̃ w ɔ ɡ
 crup	k ɾˠ ʌ pˠ
+cruth	k ɾˠ ɞ h
+cruth	k ɾˠ ɯ h
 cruth	k ɾˠ ʊ h
+crutha	k ɾˠ ɔ h ə
 cruthaigh	k ɾˠ ʊ h i
 cruthaigh	k ɾˠ ʊ h ɪ ɟ
 crá	k ɾˠ aː
@@ -3980,6 +4165,7 @@ cuain	k u ə nʲ
 cuain	k uː nʲ
 cuaird	k u ə ɾˠ dʲ
 cuairt	k u ə ɾˠ tʲ
+cuairt	k uː ɾˠ tʲ
 cuan	k u ə nˠ
 cuan	k u ə n̪ˠ
 cuan	k uː nˠ
@@ -4033,6 +4219,7 @@ cuir	k ɪ ɾʲ
 cuire	k ɪ ɾʲ ə
 cuireadh	k ɪ ɾʲ u
 cuireadh	k ɪ ɾʲ uː
+cuireadh	k ɪ ɾʲ ə
 cuireadh	k ɪ ɾʲ ə tʲ
 cuireadh	k ɪ ɾʲ ə vˠ
 cuireadh	k ɪ ɾʲ ə x
@@ -4074,6 +4261,7 @@ cum	k ʊ mˠ
 cuma	k ʊ mˠ ə
 cumann	k ʊ mˠ ə n̪ˠ
 cumannachas	k ʊ mˠ ə n̪ˠ ə x ə s
+cumas	k ʊ mˠ ə sˠ
 cumha	k u ə
 cumha	k uː
 cumha	k ũː i
@@ -4083,6 +4271,8 @@ cumhdaigh	k uː d̪ˠ ə
 cumhdaigh	k uː d̪ˠ ɪ ɟ
 cumhrán	k uː ɾˠ ɑː nˠ
 cumtha	k uː mˠ h ə
+cun	k ʊ nˠ
+cun	k ʊ n̪ˠ
 cuntais	k uː n̪ˠ t̪ˠ ə ʃ
 cuntais	k ɤ n̪ˠ t̪ˠ ə ʃ
 cuntais	k ʊ n̪ˠ t̪ˠ ə ʃ
@@ -4118,6 +4308,9 @@ curaí	k ə ɾˠ iː
 curaí	k ɤ ɾˠ i
 curaí	k ʊ ɾˠ iː
 curaí	k ʌ ɾˠ iː
+curtha	k ʌ ɾˠ h ə
+curthacha	k ɨ̞ ɾˠ h a x ə
+curthacha	k ʌ ɾˠ h a x ə
 cuán	k uː æ nˠ
 cuán	k uː ɑː nˠ
 cuán	k uː ɑː n̪ˠ
@@ -4138,6 +4331,7 @@ cáilíocht	kˠ aː lʲ iː a x tˠ
 cáilíocht	kˠ ɑː lʲ i ə x tˠ
 cáin	k aː nʲ
 cáin	k ɑː nʲ
+cáinfidh	k aː nʲ h ə
 cáinte	k æː n̠ʲ tʲ ə
 cáinte	k ɑː n̠ʲ tʲ ə
 cáis	k aː ʃ
@@ -4146,6 +4340,7 @@ cáisc	k æː ʃ c
 cáisc	k ɑː ʃ c
 cáit	k aː tʲ
 cáit	k ɑː tʲ
+cáithnín	k aː h nʲ i nʲ
 cál	k aː lˠ
 cál	k aː l̪ˠ
 cál	k ɑː lˠ
@@ -4212,7 +4407,6 @@ cér	c eː ɾˠ
 cérb	c eː ɾˠ bˠ
 cérbh	c eː ɾˠ vˠ
 cím	c iː mʲ
-cíoch	c i ə x
 cíocrach	c iː k ɾˠ a h
 cíocrach	c iː k ɾˠ ə x
 cíocras	c iː k ɾˠ ə sˠ
@@ -4289,11 +4483,13 @@ cúirialta	k uː ɾʲ i ə l̪ˠ t̪ˠ ə
 cúirt	k uː ɾˠ tʲ
 cúis	k uː ʃ
 cúl	k uː lˠ
+cúl	k uː l̪ˠ
 cúlach	k uː lˠ a x
 cúlach	k uː lˠ ə x
 cúlach	k uː l̪ˠ ə x
 cúlaí	k uː lˠ i
 cúlaí	k uː lˠ iː
+cúlaí	k uː l̪ˠ i
 cúlaí	k uː l̪ˠ iː
 cúlriascach	k uː lˠ ɾˠ eː s k a x
 cúlriascach	k uː lˠ ɾˠ ɤː s k a x
@@ -4316,6 +4512,7 @@ cúngach	k uː ŋ ɡ ə x
 cúngach	k ũː ɡ l a x
 cúntóir	k uː nˠ t̪ˠ oː ɾʲ
 cúr	k uː ɾˠ
+cúraim	k uː ɾʲ ə mʲ
 cúraim	k uː ɾˠ ə mʲ
 cúram	k uː ɾˠ ə mˠ
 cúramach	k uː ɾˠ ə mˠ a h
@@ -4325,7 +4522,7 @@ cúthail	k uː h ə lʲ
 cúthail	k uː lʲ
 cúthalta	k uː h ə l̪ˠ t̪ˠ ə
 d'ainneoin	d̪ˠ a n̠ʲ oː nʲ
-d'ainneoin	d̪ˠ ə nʲ oː nʲ
+d'ainneoin	d̪ˠ ə nʲ uː nʲ
 d'ainneoin	ə j æ n̠ʲ æ nʲ
 d'aithin	d̪ˠ a h ə nʲ
 d'aithin	d̪ˠ eː h ə n
@@ -4389,6 +4586,8 @@ d'fhuaití	d̪ˠ u ə tʲ iː
 d'fhulaing	d̪ˠ ɨ̞ lʲ ə n̠ʲ
 d'fhulaing	d̪ˠ ɪ l̠ʲ ə n̠ʲ
 d'fhulaing	d̪ˠ ʊ lˠ ə n̠ʲ
+d'fhág	d̪ˠ aː ɡ
+d'fhág	d̪ˠ ɑː ɡ
 d'fhágadar	d̪ˠ æː ɡ ə d̪ˠ ə ɾˠ
 d'fhágadar	d̪ˠ ɑː ɡ ə d̪ˠ ə ɾˠ
 d'fhágadar	d̪ˠ ə ɣ ɑː ɡ ə d̪ˠ ə ɾˠ
@@ -4409,6 +4608,7 @@ d'fhás	dˠ ɑː sˠ
 d'fhógair	d̪ˠ oː ɡ ə ɾʲ
 d'fhógair	d̪ˠ u ə ɡ ə ɾʲ
 d'iarr	dʲ i ə ɾˠ
+d'imigh	dʲ ɨ̞ mʲ i
 d'imigh	dʲ ɪ mʲ ɪ ɟ
 d'imigh	d̪ˠ ə j ɪ mʲ ə
 d'inseodh	dʲ iː nʲ ʃ oː tʲ
@@ -4498,10 +4698,10 @@ damh	d̪ˠ ʊ̃ h
 damhsa	d̪ˠ ə u sˠ ə
 damhsa	d̪ˠ ə̃ ũ sˠ ə
 damhsaigh	d̪ˠ a u sˠ ə
-damhán	d̪ˠ ə a w a nˠ
-damhán	d̪ˠ ə a w a n̪ˠ
-damhán	d̪ˠ ə a w ɑː nˠ
-damhán	d̪ˠ ə a w ɑː n̪ˠ
+damhán	d̪ˠ a w a nˠ
+damhán	d̪ˠ a w a n̪ˠ
+damhán	d̪ˠ a w ɑː nˠ
+damhán	d̪ˠ a w ɑː n̪ˠ
 damhán	d̪ˠ ə vˠ ɑː n̪ˠ
 damnaigh	d̪ˠ a mˠ nˠ i
 damnaigh	d̪ˠ a mˠ nˠ iː
@@ -4540,6 +4740,8 @@ daonra	dˠ iː n̪ˠ ɾˠ ə
 daor	d̪ˠ eː ɾˠ
 daor	d̪ˠ iː ɾˠ
 daor	d̪ˠ ɯː ɾˠ
+dar	d̪ˠ a ɾˠ
+dar	d̪ˠ ɪ ɾʲ
 dara	d̪ˠ a ɾˠ ə
 dara	d̪ˠ ɑ ɾˠ ə
 darna	d̪ˠ ɑː ɾˠ n̪ˠ ə
@@ -4657,6 +4859,7 @@ deasa	dʲ a sˠ ə
 deasaigh	dʲ a sˠ i
 deasaigh	dʲ a sˠ iː
 deasaigh	dʲ a sˠ ɪ ɟ
+deasc	dʲ æ sˠ k
 deasú	dʲ a sˠ u
 deasú	dʲ a sˠ uː
 deatach	dʲ a t̪ˠ a x
@@ -4671,6 +4874,7 @@ deichniúr	dʲ ɪ h nʲ u ɾˠ
 deichniúr	dʲ ɪ n̠ʲ uː ɾˠ
 deifir	dʲ ɛ fʲ ə ɾʲ
 deifre	dʲ ɛ fʲ rʲ ə
+deifreach	dʲ ɛ fʲ ə ɾʲ ə x
 deighilt	dʲ ə i lʲ tʲ
 deighilt	d͡ʒ ə i l t͡ʃ
 deil	dʲ ɛ lʲ
@@ -4688,6 +4892,7 @@ deinim	dʲ ɛ nʲ ə mʲ
 deinim	dʲ ɛ nʲ ɪ mʲ
 deinim	dʲ ɪ nʲ ə mʲ
 deir	dʲ ɛ ɾʲ
+deirdre	dʲ ɛ ɾˠ dʲ ɾʲ ə
 deire	dʲ ɛ ɾʲ ə
 deireadh	dʲ ɛ ɾʲ u
 deireadh	dʲ ɛ ɾʲ uː
@@ -4695,8 +4900,11 @@ deireadh	dʲ ɛ ɾʲ ə
 deireadh	dʲ ɛ ɾʲ ə tʲ
 deireadh	dʲ ɛ ɾʲ ə vˠ
 deireadh	dʲ ɛ ɾʲ ə x
+deireanach	dʲ ɛ ɾʲ ə n ə x
 deireanach	dʲ ɛ ɾʲ ə nˠ a h
 deireanach	dʲ ɛ ɾʲ ə nˠ ə x
+deireanach	dʲ ɛ ɾʲ ə n̪ˠ a h
+deireanach	dʲ ɛ ɾʲ ə n̪ˠ ə x
 deireann	dʲ ɛ ɾʲ ə n̪ˠ
 deirfiúr	dʲ ɛ ɾʲ ə fʲ a ɾˠ
 deirfiúr	dʲ ɛ ɾʲ ə fʲ ə ɾˠ
@@ -4718,6 +4926,8 @@ deirge	dʲ ɛ ɾʲ ɪ ɟ ɪ
 deirge	dʲ ɪ ɾʲ ɪ ɟ ɪ
 deirim	dʲ ɛ ɾʲ ə mʲ
 deirtear	dʲ ɛ ɾʲ tʲ ə ɾˠ
+deirtear	dʲ ɛ ɾˠ h ə ɾˠ
+deirtear	dʲ ɛ ɾˠ t̪ˠ ə ɾˠ
 deis	dʲ ɛ ʃ
 deisceabal	dʲ ɛ ʃ c ə bˠ ə lˠ
 deisceart	dʲ ɛ ʃ c ə ɾˠ t̪ˠ
@@ -4759,6 +4969,8 @@ dhaoibh	ɣ iː bʲ
 dhaoibh	ɣ iː vʲ
 dhaoibhse	j iː pʲ ʃ ə
 dhaoine	ɣ iː nʲ ə
+dhara	ɣ a ɾˠ ə
+dhara	ɣ ɑ ɾˠ ə
 dharna	ɣ ɑː ɾˠ n̪ˠ ə
 dhath	ɣ a h
 dhath	ɣ a x
@@ -4781,6 +4993,8 @@ dheinimís	j ɪ nʲ ə mʲ iː ʃ tʲ
 dheireadh	j ɛ ɾʲ u
 dheireadh	j ɛ ɾʲ uː
 dheireadh	j ɛ ɾʲ ə
+dheora	j oː ɾˠ ə
+dheora	j ɔː ɾˠ ə
 dhesean	j ɛ ʃ ə nˠ
 dhi	iː
 dhi	j iː
@@ -4812,6 +5026,7 @@ dhorn	ɣ oː ɾˠ n̪ˠ
 dhorn	ɣ ɔː ɾˠ n̪ˠ
 dhorn	ɣ ʌ ɾˠ ə n̪ˠ
 dhreas	j ɾʲ a sˠ
+dhréim	j ɾʲ eː mʲ
 dhubh	ɣ ʊ fˠ
 dhubh	ɣ ʊ h
 dhubh	ɣ ʊ vˠ
@@ -4826,12 +5041,18 @@ dhul	ɣ ʊ lˠ
 dhá	a
 dhá	ɑː
 dhá	ɣ aː
-dhá	ɣ æː
 dhá	ɣ ɑː
 dháiríre	ɣ æ ɾʲ iː ɾʲ ə
 dháiríre	ɣ ɑː ɾʲ iː ɾʲ ə
 dháréag	ɣ ɑː ɾˠ eː ɡ
 dhéag	j eː ɡ
+dhéanamh	j aː nˠ u
+dhéanamh	j aː nˠ uː
+dhéanamh	j eː nˠ ə
+dhéanamh	j i a̯ n̪ˠ ə vˠ
+dhéanamh	j iː nˠ uː
+dhéanamh	j iː n̪ˠ ə
+dhéanamh	j ɪ n̪ˠ ə
 dhéanas	j eː n ə sˠ
 dhéanas	j iː n ə sˠ
 dhéanfadh	j iː n ə tʲ
@@ -4929,12 +5150,13 @@ difríocht	dʲ ɪ fʲ ɾʲ i ə x t̪ˠ
 dil	dʲ ɪ lʲ
 dile	dʲ i lʲ ə
 ding	dʲ ɪ ɲ ɟ
-dinnéar	dʲ ɪ nʲ e ɾˠ
 dinnéar	dʲ ɪ nʲ eː ɾˠ
+dinnéar	dʲ ɪ n̠ʲ eː ɾˠ
 dinnéir	dʲ iː n eː ɾʲ
 diomaite	dʲ ɨ̞ mˠ ɪ tʲ ə
 diomaite	dʲ ɪ mˠ ɪ tʲ ə
 dise	dʲ ɪ ʃ ə
+diucs	dʲ ɯ k s
 diúc	dʲ uː k
 diúca	dʲ uː k ə
 diúic	dʲ uː c
@@ -4945,6 +5167,7 @@ diúlfaidh	dʲ uː lˠ h i
 diúlfaidh	dʲ uː l̪ˠ h i
 diúltú	dʲ uː l̪ˠ t̪ˠ u
 diúltú	dʲ uː l̪ˠ t̪ˠ uː
+diúracas	dʲ uː ɾˠ ə k ə sˠ
 diúracán	dʲ uː ɾˠ ə k a nˠ
 diúracán	dʲ uː ɾˠ ə k ɑː nˠ
 diúracán	dʲ uː ɾˠ ə k ɑː n̪ˠ
@@ -4981,6 +5204,7 @@ dochar	d̪ˠ ɞ x ə ɾˠ
 dochar	d̪ˠ ʌ x ə ɾˠ
 dochartach	d̪ˠ ɔ x ə ɾˠ t̪ˠ a x
 dochartach	d̪ˠ ɔ x ə ɾˠ t̪ˠ ə x
+dochma	d̪ˠ ɔ x mˠ ə
 dochreidte	d̪ˠ ɔ ç ɾʲ ɛ tʲ ə
 dochtúir	d̪ˠ ɔ x t̪ˠ uː ɾʲ
 dochtúir	d̪ˠ ʌ x t̪ˠ u ɾʲ
@@ -4988,7 +5212,8 @@ dochtúr	d̪ˠ ɔ x t̪ˠ uː ɾˠ
 dod	d̪ˠ ɔ d̪ˠ
 dod	d̪ˠ ʌ d̪ˠ
 dofhulaingthe	d̪ˠ ɔ ɞ l ə n̠ʲ tʲ
-doghrainneach	d̪ˠ ɔː ɾ ɪ ɲ a x
+doghrainn	d̪ˠ ɔː ɾˠ ə n̠ʲ
+doghrainneach	d̪ˠ ɔː ɾ ə n̠ʲ a x
 doicheall	d̪ˠ ɔ i ç ə l̪ˠ
 doiciméad	d̪ˠ ɔ c ɪ mʲ e d̪ˠ
 doiciméad	d̪ˠ ɔ c ɪ mʲ eː d̪ˠ
@@ -5002,6 +5227,7 @@ doimhneacht	d̪ˠ e vʲ nʲ ə x t̪ˠ
 doimhneacht	d̪ˠ iː nʲ ə x t̪ˠ
 doineann	d̪ˠ ɪ n̠ʲ ə n̪ˠ
 doir	d̪ˠ ɛ ɾʲ
+doirb	d̪ˠ ɪ ɾʲ ə bʲ
 doire	d̪ˠ ɛ ɾʲ ə
 doire	d̪ˠ ɪ ɾʲ ə
 doireadh	d̪ˠ ɛ ɾʲ u
@@ -5011,6 +5237,7 @@ doireadh	d̪ˠ ɛ ɾʲ ə vˠ
 doireadh	d̪ˠ ɛ ɾʲ ə x
 doireadh	d̪ˠ ɛ ɾʲ ə ɡ
 doirn	d̪ˠ ɨ̞ ɾˠ n̠ʲ
+doirnín	d̪ˠ ɨ̞ ɾˠ n̠ʲ i nʲ
 doirse	d̪ˠ oː ɾˠ ʃ ə
 doirse	d̪ˠ ɞ ɾʲ ʃ ə
 doirse	d̪ˠ ʌ ɾˠ ʃ ə
@@ -5056,8 +5283,11 @@ dona	d̪ˠ ɞ nˠ ə
 dona	d̪ˠ ɞ n̪ˠ ə
 dona	d̪ˠ ʌ nˠ ə
 dona	d̪ˠ ʌ n̪ˠ ə
-donas	d̪ˠ ɔ nˠ ə sˠ
+donas	d̪ˠ ɞ n̪ˠ ə sˠ
+donas	d̪ˠ ʊ nˠ ə sˠ
+donas	d̪ˠ ʊ n̪ˠ ə sˠ
 donas	d̪ˠ ʌ nˠ ə sˠ
+donas	d̪ˠ ʌ n̪ˠ ə sˠ
 donasach	d̪ˠ ɔ nˠ ə sˠ ə x
 donasach	d̪ˠ ʌ nˠ ə sˠ a h
 donn	d̪ˠ a u n̪ˠ
@@ -5077,20 +5307,26 @@ doras	d̪ˠ ɞ ɾˠ ə sˠ
 doras	d̪ˠ ʌ ɾˠ ə sˠ
 dorcha	d̪ˠ ɔ ɾˠ ə x ə
 dorcha	d̪ˠ ɞ ɾˠ ə x ə
+dorcha	d̪ˠ ʌ ɾˠ ə x ə
 dorchacht	d̪ˠ ɔ ɾˠ ə x ə x t̪ˠ
 dorchacht	d̪ˠ ʌ ɾˠ ə x a h t̪ˠ
 dorchadas	d̪ˠ ɔ ɾˠ x ə sˠ
 dorchadas	d̪ˠ ɔ ɾˠ ə x ə d̪ˠ ə sˠ
 dorchadas	d̪ˠ ɞ ɾˠ x ə sˠ
 dord	d̪ˠ oː ɾˠ d̪ˠ
+dorga	d̪ˠ ɔ ɾˠ ə ɡ ə
 dorn	d̪ˠ a u ɾˠ n ə
 dorn	d̪ˠ oː ɾˠ n̪ˠ
 dorn	d̪ˠ ɔ ɾˠ ə n
 dorn	d̪ˠ ɔː ɾˠ n̪ˠ
 dorn	d̪ˠ ʌ ɾˠ ə n̪ˠ
+dorr	d̪ˠ ʌ ɾˠ
+dorrga	d̪ˠ ɔ ɾˠ ə ɡ ə
 dortadh	d̪ˠ oː ɾˠ t̪ˠ ə
 dortha	d̪ˠ ɨ̞ ɾˠ h ə
 dortha	d̪ˠ ʌ ɾˠ h ə
+dorú	d̪ˠ ɔ ɾˠ ə ɡ ə
+dorú	d̪ˠ ə ɾˠ uː
 dos	d̪ˠ ɔ sˠ
 dos	d̪ˠ ʌ sˠ
 dosna	d̪ˠ ɔ sˠ n̪ˠ ə
@@ -5101,6 +5337,7 @@ drabhlás	d̪ˠ ɾˠ ə u l̪ˠ ɑː sˠ
 drabhlásach	dʲ ɾʲ ə u lˠ a sˠ a x
 drabhlásach	d̪ˠ ɾˠ ə u lˠ ɑː sˠ ə x
 drabhlásach	d̪ˠ ɾˠ ə u l̪ˠ ɑː sˠ ə x
+draein	d̪ˠ ɾˠ eː nʲ
 dragan	d̪ˠ ɾˠ a ɡ ə nˠ
 draid	d̪ˠ ɾˠ a dʲ
 draid	d̪ˠ ɾˠ ɑ d̪ˠ
@@ -5187,6 +5424,7 @@ druncaera	d̪ˠ ɾˠ ʊ ŋ k eː ɾˠ ə
 dráma	d̪ˠ ɾˠ æː mˠ ə
 dráma	d̪ˠ ɾˠ ɑː mˠ ə
 dréacht	dʲ ɾʲ eː x t̪ˠ
+dréim	dʲ ɾʲ eː mʲ
 dréimire	dʲ ɾʲ eː mʲ ə ɾʲ ə
 drúcht	dʲ ɾʲ uː x t̪ˠ ə
 drúcht	d̪ˠ ɾ uː x t̪ˠ
@@ -5217,6 +5455,9 @@ dtiocfad	d̪ˠ ʊ k ə d̪ˠ
 dtiocfainn	dʲ ʊ k ə n̠ʲ
 dtiocfá	dʲ ʊ k fˠ ɑː
 dtiocfá	d̪ˠ ʊ k fˠ ɑː
+dtithe	dʲ iː
+dtithe	dʲ ɪ h ə
+dtithe	dʲ ɪ h ɪ
 dtomacha	d̪ˠ ʊ mˠ ə x iː
 dtomacha	d̪ˠ ʌ mˠ h a x ə
 dtomacha	d̪ˠ ʌ mˠ ə x iː
@@ -5271,6 +5512,7 @@ dubh	d̪ˠ ʊ w
 dubhach	d̪ˠ ʊ a x
 dubhach	d̪ˠ ʊ w ə x
 dubhghall	d̪ˠ ʊ w ə l
+dubhghus	d̪ˠ uː ɣ u sˠ
 ducht	d̪ˠ ʊ x t̪ˠ
 dugaire	d̪ˠ ɤ ɡ ə ɾʲ ə
 dugaire	d̪ˠ ʊ ɡ ə ɾʲ ə
@@ -5287,7 +5529,9 @@ duilleach	d̪ˠ ɪ l̠ʲ a x
 duilleach	d̪ˠ ɪ l̠ʲ ə x
 duilleog	dʲ ɪ l oː ɡ
 duilleog	d̪ˠ ɪ l̠ʲ a ɡ
-duilliúr	d̪ˠ ɪ lʲ uː ɾˠ
+duilleog	d̪ˠ ɪ l̠ʲ oː ɡʲ
+duilliúir	dʲ ə lʲ uː rʲ
+duilliúr	dʲ ə lʲ uː ɾˠ
 duilliúr	d̪ˠ ɪ l̠ʲ u ɾˠ
 duilliúr	d̪ˠ ɪ l̠ʲ uː ɾˠ
 duine	d̪ˠ ɪ nʲ ə
@@ -5295,7 +5539,9 @@ duine	d̪ˠ ɪ n̠ʲ ə
 duit	d̪ˠ ɞ tʲ
 duit	d̪ˠ ɪ tʲ
 duitse	d̪ˠ ɪ tʲ ʃ ə
+dul	d̪ˠ ɞ l̪ˠ
 dul	d̪ˠ ʊ lˠ
+dul	d̪ˠ ʊ l̪ˠ
 dumha	d̪ˠ ũː i
 dusta	d̪ˠ ɪ sˠ t̪ˠ ə
 dusta	d̪ˠ ʊ sˠ t̪ˠ ə
@@ -5454,6 +5700,7 @@ dímheas	dʲ ĩː vʲ a sˠ
 dínn	dʲ iː n̠ʲ
 dínn	d̪ˠ iː n̠ʲ
 dínne	dʲ iː n̠ʲ ə
+dínnéar	dʲ iː n̠ʲ a ɾˠ
 dínnéar	dʲ iː n̠ʲ eː ɾˠ
 díobh	dʲ iː bˠ
 díobh	d̪ˠ iː bˠ
@@ -5489,8 +5736,8 @@ díomhaoin	dʲ iː w iː nʲ
 díomhaoin	dʲ ĩː w i nʲ
 díomhnas	dʲ uː nʲ ə s
 díomsa	dʲ iː mˠ sˠ ə
+díomá	dʲ iː mˠ a
 díomá	dʲ iː mˠ vˠ ɑː
-díomá	dʲ iː mˠ æ
 díomá	dʲ iː mˠ ɑː
 díon	dʲ iː nˠ
 díonach	dʲ iː nˠ a x
@@ -5524,6 +5771,7 @@ dóbair	d̪ˠ oː bˠ ə ɾʲ
 dócha	d̪ˠ oː x ə
 dócha	d̪ˠ ɔː x ə
 dóchas	d̪ˠ oː x ə sˠ
+dóchas	d̪ˠ ɔ x ə sˠ
 dóchas	d̪ˠ ɔː x ə sˠ
 dócúl	d̪ˠ oː k uː lˠ
 dócúl	d̪ˠ oː k uː l̪ˠ
@@ -5616,6 +5864,7 @@ dúramar	d̪ˠ uː ɾˠ ə mˠ ə ɾˠ
 dúras	d̪ˠ uː ɾˠ ə sˠ
 dúshlán	d̪ˠ uː l̪ˠ a nˠ
 dúshlán	d̪ˠ uː l̪ˠ a n̪ˠ
+dúthracht	d̪ˠ uː h ɾˠ a x t̪ˠ
 ea	a
 ea	j a
 eabar	a bˠ ə ɾˠ
@@ -5675,7 +5924,6 @@ earrach	æː ɾˠ ə x
 earrach	ə ɾˠ a x
 earráideach	a ɾˠ a dʲ a x
 earráideach	a ɾˠ aː dʲ ə x
-earráideach	ə ɾˠ aː dʲ ə x
 easbhaidh	a sˠ w i
 eascaine	a sˠ k ə nʲ ə
 eascann	a sˠ k ə n̪ˠ
@@ -5758,6 +6006,7 @@ eochaidh	ɔ x i
 eochaidh	ɔ x iː
 eochaidh	ɔ x ɪ ɟ
 eochair	ɔ x ə ɾʲ
+eochair	ɞ x ə ɾʲ
 eoghan	oː nˠ
 eoghan	oː n̪ˠ
 eoghan	ɔː nˠ
@@ -5768,11 +6017,14 @@ eol	ɔː lˠ
 eolach	oː lˠ ə x
 eolach	oː l̪ˠ ə x
 eolach	ɔː lˠ a x
+eolach	ɔː l̪ˠ a x
 eolais	oː lˠ ə ʃ
 eolais	ɔː lˠ ə ʃ
 eolas	oː lˠ ə sˠ
+eolas	oː l̪ˠ ə sˠ
 eolas	ɔː lˠ ə sˠ
-eolaí	oː ʟˠ iː
+eolas	ɔː l̪ˠ ə sˠ
+eolaí	ɔː lˠ i
 eolaíocht	oː lˠ i ə x t̪ˠ
 eoraip	oː ɾ ə pʲ
 eorna	oː ɾˠ n̪ˠ ə
@@ -5801,31 +6053,62 @@ fadóigh	fˠ a d̪ˠ ə i̯
 faghta	fˠ ɑ x t̪ˠ ə
 fagháilt	fˠ ɑː lʲ tʲ
 faide	fˠ a dʲ ə
+faide	fˠ ɑ dʲ ə
 faide	fˠ ɪ dʲ ə
+faigh	fˠ a
 faigh	fˠ a ɟ
 faigh	fˠ æː j
 faigh	fˠ ɑː
 faigh	fˠ ə i
+faigheadh	fˠ a i ə x
+faigheadh	fˠ ɑː tʲ
+faigheadh	fˠ ɑː x
 faigheann	fˠ aː n̪ˠ
 faigheann	fˠ ɑ j ə n̪ˠ
+faigheann	fˠ ɑː n̪ˠ
+faighfeá	fˠ a i ɑː
+faighidh	fˠ a i ə
 faighidh	fˠ iː
+faighidh	fˠ ə i
+faighidís	fˠ ɑː dʲ ə ʃ
+faighigí	fˠ ɑː h iː
+faighigí	fˠ ɑː ɟ iː
 faighim	fˠ a i mʲ
+faighim	fˠ ɑː mʲ
+faighimid	fˠ ɑː mˠ ə dʲ
+faighinn	fˠ a i ə n̠ʲ
+faighte	fˠ ɑ tʲ ə
 faightear	fˠ a h a ɾˠ
+faightear	fˠ ɑ tʲ ə ɾˠ
+faighteá	fˠ ɑ tʲ ɑː
 fail	fˠ a lʲ
 faill	fˠ ɑ i lʲ
 faire	fˠ a ɾʲ ə
 faire	fˠ æ ɾʲ ə
+fairsing	fˠ a ɾˠ sˠ ə n̠ʲ
 fairsing	fˠ a ɾˠ ʃ ə n̠ʲ
 fairsing	fˠ ɑ ɾˠ ʃ ə nʲ
 fairsing	fˠ ɑ ɾˠ ʃ ɪ ɲ
+fairsinge	fˠ a ɾˠ sˠ n̠ʲ ə
+fairsinge	fˠ ɑː ɾʲ ʃ n̠ʲ ə
+fairsingeach	fˠ a ɾˠ sˠ n̠ʲ a x
+fairsingeachas	fˠ a ɾˠ sˠ n̠ʲ a x ə sˠ
+fairsingiúil	fˠ a ɾˠ sˠ n̠ʲ u lʲ
 faisean	fˠ a ʃ ə nˠ
+faisean	fˠ a ʃ ə n̪ˠ
+faisnéis	f ɑː ʃ n ə ʃ
 faiteach	fˠ a tʲ a x
 faiteach	fˠ a tʲ ə x
+faithne	fˠ æ h nʲ ə
 faitíos	fˠ a tʲ iː ə sˠ
 faitíos	fˠ a tʲ ç iː sˠ
 faitíos	fˠ a tʲ ç ə sˠ
 faitíos	fˠ aː tʲ i ə sˠ
 faitíos	fˠ æ tʲ i sˠ
+fala	fˠ a lˠ ə
+fala	fˠ a l̪ˠ ə
+fala	fˠ ɑ l ə
+fala	fˠ ɑ l̪ˠ ə
 falamh	fˠ a l̪ˠ ə
 falla	fˠ ɑ l̪ˠ ə
 falsa	fˠ a l̪ˠ sˠ ə
@@ -5836,6 +6119,7 @@ fanacht	fˠ a n̪ˠ a x t̪ˠ
 fanacht	fˠ a n̪ˠ ə x t̪ˠ
 fanacht	fˠ ɑ n ə x t̪ˠ
 fanacht	fˠ ə n̪ˠ ɑ x t̪ˠ
+fanaim	fˠ ɑ n ə mʲ
 fann	fˠ a n̪ˠ
 fann	fˠ a u n̪ˠ
 fann	fˠ ɑː n̪ˠ
@@ -5852,6 +6136,7 @@ faochóg	fˠ iː x ɔ ɡ
 faochóg	fˠ ɯː x ɔ ɡ
 faoi	fˠ iː
 faoileog	fˠ iː lʲ a ɡ
+faoileán	fˠ ə i l̠ʲ ɑː n̪ˠ
 faoilleach	fˠ iː lʲ ə x
 faoilleach	fˠ iː l̠ʲ a x
 faoilleach	fˠ iː l̠ʲ ə x
@@ -5876,6 +6161,13 @@ faraor	fˠ a ɾˠ iː ɾˠ
 faraor	fˠ a ɾˠ ɯː ɾˠ
 farc	fˠ a ɾˠ k
 farraige	fˠ a ɾˠ ɪ ɟ ɪ
+fascadh	fˠ a sˠ k u
+fascadh	fˠ a sˠ k ə
+fascadh	fˠ ɑ sˠ k ə
+fata	fˠ a t̪ˠ ə
+fata	fˠ ɑ t̪ˠ ə
+fataí	fˠ a t̪ˠ iː
+fataí	fˠ ɑ t̪ˠ iː
 fathach	fˠ a h ə x
 fathach	fˠ a i h a x
 fathach	fˠ aː x
@@ -5884,6 +6176,7 @@ feabhas	fʲ ə u sˠ
 feabhra	fʲ a u ɾˠ ə
 feac	fʲ a k
 feaca	fʲ a k ə
+feacht	fʲ a x t̪ˠ
 feachtas	fʲ a x t̪ˠ ə sˠ
 fead	fʲ a d̪ˠ
 feadh	fʲ a
@@ -5901,6 +6194,7 @@ feag	fʲ a ɡ
 feag	fʲ ə ɯ̯
 feag	fʲ ɨ̞ ɡ
 feairín	fʲ a ɾʲ iː nʲ
+feairín	fʲ a ɾˠ iː nʲ
 feall	fʲ a l̪ˠ
 feall	fʲ ɑː l̪ˠ
 feallfaidh	fʲ a l̪ˠ h ə
@@ -5910,8 +6204,10 @@ fealsamh	fʲ a l̪ˠ sˠ ə vˠ
 fealsúnacht	fʲ a l̪ˠ sˠ u nˠ a x t̪ˠ
 fealsúnacht	fʲ a l̪ˠ sˠ uː nˠ ə x t̪ˠ
 fealsúnacht	fʲ a l̪ˠ sˠ uː n̪ˠ ə x t̪ˠ
+feamainn	fʲ a mˠ ə n
 feamainn	fʲ a mˠ ə n̠ʲ
 feamainn	fʲ a mˠ ɪ ɲ
+feamainneach	fʲ a mˠ ə n̠ʲ ə x
 feann	fʲ a n̪ˠ
 feann	fʲ a u n̪ˠ
 feann	fʲ ɑː n̪ˠ
@@ -5923,17 +6219,23 @@ fearbán	fʲ a ɾˠ ə bˠ a nˠ
 fearbán	fʲ a ɾˠ ə bˠ a n̪ˠ
 feardorcha	fʲ a ɾˠ d̪ˠ ɔ ɾˠ ə x ə
 fearg	fʲ a ɾˠ ə ɡ
+fearg	fʲ æ ɾˠ ə ɡ
 fearg	fʲ æː ɾˠ ə ɡ
 feargach	fʲ a ɾˠ ə ɡ a x
 feargach	fʲ a ɾˠ ə ɡ ə x
+feargach	fʲ æ ɾˠ ə ɡ ə x
 fearghas	fʲ a ɾˠ iː sˠ
 fearghas	fʲ a ɾˠ ə ɡ ə sˠ
 fearr	fʲ aː ɾˠ
 fearr	fʲ ɑː ɾˠ
+fearsaid	fʲ a ɾˠ sˠ ə dʲ
+fearsaid	fʲ a ɾˠ sˠ ə d̪ˠ
 fearthainn	fʲ a ɾˠ h ə n̠ʲ
 fearthainn	fʲ a ɾˠ h ə ɲ
+fearthainn	fʲ a ɾˠ ə n
 fearúil	fʲ a ɾˠ u lʲ
 fearúil	fʲ a ɾˠ uː lʲ
+feascar	fʲ a sˠ k ə ɾˠ
 feasta	fʲ a sˠ t̪ˠ ə
 feic	fʲ ɛ c
 feice	fʲ ɛ c ɪ
@@ -5955,14 +6257,19 @@ feidhm	fʲ ə i mʲ
 feidhmeannach	fʲ ə i mʲ ə n̪ˠ ə x
 feidhmiúil	fʲ ə i mʲ uː lʲ
 feighil	fʲ ə i lʲ
+feil	fʲ ɛ lʲ
+feileann	fʲ ɛ lʲ ə n̪ˠ
+feilim	fʲ ɛ lʲ ə mʲ
 feiliúint	fʲ ɪ lʲ uː nʲ tʲ
 feiliúnach	fʲ ɛ lʲ uː nˠ ə x
 feiliúnach	fʲ ɪ lʲ uː n̪ˠ ə x
 feirg	fʲ ɛ ɾʲ ɪ ɟ
+feirge	fʲ a ɾˠ ə ɡ ə
 feirge	fʲ ɛ ɾʲ ɪ ɟ ɪ
 feirge	fʲ ɪ ɾʲ ɪ ɟ ɪ
 feirm	fʲ ɛ ɾʲ ə mʲ
 feis	fʲ ɛ ʃ
+feiscint	fʲ ɛ ʃ c ə n̠ʲ tʲ
 feisigh	fʲ ɛ ʃ iː
 feistigh	fʲ ɛ ʃ tʲ i
 feistigh	fʲ ɛ ʃ tʲ iː
@@ -5989,6 +6296,7 @@ feoite	fʲ ɔː tʲ ə
 feola	fʲ oː lˠ ə
 feola	fʲ oː l̪ˠ ə
 feola	fʲ ɔː lˠ ə
+feola	fʲ ɔː l̪ˠ ə
 feolmhach	fʲ ɔː lˠ w a x i
 feolmhach	fʲ ɔː l̪ˠ w a x i
 feá	fʲ aː
@@ -6000,6 +6308,7 @@ fhada	ɑ d̪ˠ ə
 fhagháilt	ɑː lʲ tʲ
 fhaide	a dʲ ə
 fhaigheann	aː n̪ˠ
+fhaigheas	ɑː sˠ
 fhaightear	a h a ɾˠ
 fhaill	ɑ i lʲ
 fhaire	a ɾʲ ə
@@ -6029,6 +6338,7 @@ fheicfeadh	ɛ c uː
 fheicfeadh	ɛ c ə tʲ
 fheicfeadh	ɛ c ə x
 fheictear	ɛ c tʲ ə ɾˠ
+fheileann	ɛ lʲ ə n̪ˠ
 fheis	ɛ ʃ
 fhiacail	i ə k ə l
 fhiacail	i ə k ə lʲ
@@ -6057,14 +6367,20 @@ fhocal	ʌ k ə l̪ˠ
 fhonn	uː n̪ˠ
 fhonn	ə u n̪ˠ
 fhonn	ʌ n̪ˠ
+fhrainc	ɾˠ a ɲ c
+fhrainc	ɾˠ æ ɲ c
 fhraoigh	ɾˠ iː
 fhraoigh	ɾˠ iː ɟ
 fhreagair	ɾʲ a ɡ ə ɾʲ
+fhreagair	ɾʲ ɨ̞ ɡ ə ɾʲ
 fhreastail	ɾʲ a sˠ t̪ˠ ə lʲ
+fhreastal	ɾʲ a sˠ t̪ˠ ə lˠ
+fhreastal	ɾʲ a sˠ t̪ˠ ə l̪ˠ
 fhreastalaíodh	ɾʲ a sˠ t̪ˠ ə lˠ iː tʲ
 fhreastalaíodh	ɾʲ a sˠ t̪ˠ ə lˠ iː x
 fhreastalódh	ɾʲ a sˠ t̪ˠ ə lˠ oː tʲ
 fhreastalódh	ɾʲ a sˠ t̪ˠ ə lˠ oː x
+fhréimh	rʲ eː vʲ
 fhuaigh	u ə
 fhuaigh	u ə j
 fhuaigh	u ə ɟ
@@ -6080,6 +6396,7 @@ fhuinneoig	ɪ n̠ʲ oː ɟ
 fhuinneoig	ɪ n̠ʲ æ ɟ
 fhuinneoig	ɪ n̠ʲ ɔ ɟ
 fhuiriste	ɾʲ ɪ ʃ tʲ ə
+fhuirste	ɔ ɾˠ sˠ tʲ ə
 fhágadar	æː ɡ ə d̪ˠ ə ɾˠ
 fhágadar	ɑː ɡ ə d̪ˠ ə ɾˠ
 fhágadh	æː ɡ u
@@ -6093,6 +6410,10 @@ fhágfadh	æː k ə tʲ
 fhágfadh	ɑː k uː
 fhágfadh	ɑː k ə tʲ
 fhágfadh	ɑː k ə x
+fhásas	aː sˠ ə sˠ
+fhásas	ɑː sˠ ə sˠ
+fhéadaim	eː d̪ˠ ə mʲ
+fhéadaim	eː d̪ˠ ə mˠ
 fhéadann	eː d̪ˠ ə n̪ˠ
 fhéadann	iː a̯ d̪ˠ ə n̪ˠ
 fhéar	eː ɾˠ
@@ -6102,6 +6423,7 @@ fhéir	eː ɾʲ
 fhírinne	iː ɾʲ ə nʲ ə
 fhírinne	iː ɾʲ ə n̠ʲ ə
 fhírinne	iː ɾʲ ɪ ɲ ɪ
+fhís	iː ʃ
 fhómhair	oː vˠ ə ɾʲ
 fhómhair	oː ɾʲ
 fhómhair	uː w ə ɾʲ
@@ -6112,15 +6434,22 @@ fhómhar	oː ɾˠ
 fhómhar	uː w ə ɾˠ
 fhómhar	õː ɾˠ
 fhómhar	ɔː w ə ɾˠ
+fia	fʲ i ə
+fiabhrais	fʲ i ə vˠ ɾˠ ə ʃ
+fiabhrais	fʲ i ə w ɾˠ ə ʃ
+fiabhrais	fʲ ɛ vˠ ɾˠ ə ʃ
+fiabhrais	fʲ ɪ w ɾˠ ə ʃ
 fiabhras	fʲ i ə vˠ ɾˠ ə sˠ
 fiabhras	fʲ i ə w ɾˠ ə sˠ
+fiabhras	fʲ ɛ vˠ ɾˠ ə sˠ
 fiabhras	fʲ ɪ w ɾˠ ə sˠ
-fiacail	fʲ i ə k ə l
 fiacail	fʲ i ə k ə lʲ
 fiach	fʲ i a̯ x
 fiach	fʲ i ə x
 fiacha	fʲ i a̯ x ə
 fiacha	fʲ i ə x ə
+fiachaint	fʲ i ə x ə ṉʲ tʲ
+fiachta	fʲ i ə x t̪ˠ ə
 fiacháil	fʲ i a̯ x æ lʲ
 fiaclóir	fʲ i ə k lˠ oː ɾʲ
 fiaclóir	fʲ i ə k lˠ ɔ ɾʲ
@@ -6128,6 +6457,7 @@ fiaclóir	fʲ i ə k l̪ˠ oː ɾʲ
 fiafraigh	fʲ i ə fˠ ɾˠ i
 fiafraigh	fʲ i ə ɾˠ ə
 fiafraí	fʲ i ə ɾˠ iː
+fiair	fʲ i ə ɾʲ
 fial	fʲ i ə lˠ
 fianaise	fʲ i ə n̪ˠ ə ʃ
 fiar	fʲ i ə ɾˠ
@@ -6138,12 +6468,16 @@ fiaradh	fʲ i ə ɾˠ ə tʲ
 fiaradh	fʲ i ə ɾˠ ə vˠ
 fiaradh	fʲ i ə ɾˠ ə x
 fiaradh	fʲ i ə ɾˠ ə ɡ
+fiarshúil	fʲ i ə ɾʲ h u lʲ
 fiartha	fʲ i ə ɾˠ h ə
 fiastalach	fʲ i ə sˠ t̪ˠ a lˠ a x
 fiastalach	fʲ i ə sˠ t̪ˠ ə l ə x
 fiche	fʲ iː
 fiche	fʲ ɪ h ə
 fiche	fʲ ɪ ç ə
+fichead	fʲ iː d̪ˠ
+fichead	fʲ ɪ h ə d̪ˠ
+fichead	fʲ ɪ ç ə d̪ˠ
 fichid	fʲ iː dʲ
 fichid	fʲ ɪ h ə dʲ
 fichid	fʲ ɪ ç ə dʲ
@@ -6163,6 +6497,7 @@ finn	fʲ iː ɲ
 finn	fʲ ɪ n̠ʲ
 finne	fʲ ɪ n̠ʲ ə
 fiodh	fʲ ɪ
+fiolar	fʲ ɯ l̪ˠ ə ɾˠ
 fionn	fʲ ũː n̪ˠ
 fionn	fʲ ɨ̞ n̪ˠ
 fionn	fʲ ɪ n̪ˠ
@@ -6189,6 +6524,7 @@ fiáin	fʲ iː ɑː nʲ
 fiánta	fʲ i ə n̪ˠ t̪ˠ ə
 fiánta	fʲ iː a n̪ˠ t̪ˠ ə
 fiánta	fʲ iː ɑː n̪ˠ t̪ˠ ə
+fiántas	fʲ i ɑː n̪ˠ t̪ˠ ə sˠ
 fiú	fʲ uː
 fiúntach	fʲ uː n̪ˠ t̪ˠ a x
 fiúntach	fʲ uː n̪ˠ t̪ˠ ə x
@@ -6228,6 +6564,8 @@ fliuchadh	fʲ lʲ ʊ x ə x
 fliuchadh	fʲ lʲ ʊ x ə ɡ
 fliuchlach	fʲ lʲ ɨ̞ x lˠ a x
 fliuchlach	fʲ lʲ ɨ̞ x l̪ˠ a x
+fliuchán	fʲ lʲ ə x ɑ̃ː n
+fliuchán	fʲ lʲ ɯ x ɑ̃ː n
 fliúit	fʲ lʲ uː tʲ
 focail	fˠ ɔ k ə lʲ
 focail	fˠ ʌ k ə lʲ
@@ -6249,7 +6587,7 @@ foghlaim	fʲ ɔː lʲ ə mʲ
 foghlaim	fˠ oː l̪ˠ ɪ mʲ
 foide	fˠ ɛ dʲ ə
 foighdeach	fˠ ə i dʲ a x
-foighid	fˠ ə i dʲ
+foighid	fˠ a i dʲ
 foighide	fˠ ə i̯ dʲ ə
 foighne	fˠ ə i nʲ ə
 foighneach	fˠ ə i nʲ ə x
@@ -6277,6 +6615,8 @@ folaigh	fˠ ɔ l̪ˠ ɪ ɟ
 folamh	fˠ aː l̪ˠ ə
 folamh	fˠ ɔ lˠ u
 folamh	fˠ ɔ lˠ uː
+folamh	fˠ ɔ l̪ˠ u
+folamh	fˠ ɔ l̪ˠ uː
 folamh	fˠ ɔ l̪ˠ ə vˠ
 folaím	fˠ ɔ lˠ i mˠ
 folláin	fˠ a l̪ˠ æ nʲ
@@ -6293,6 +6633,8 @@ fomhuireán	f ɔː w ə rʲ æ nˠ
 fonn	fˠ uː n̪ˠ
 fonn	fˠ ɑ u n̪ˠ
 fonn	fˠ ʌ n̪ˠ
+fonnmhar	fˠ ɔ n̪ˠ ə vˠ ə ɾˠ
+fonnmhar	fˠ ɞ n̪ˠ ə vˠ ə ɾˠ
 foradh	fˠ a ɾˠ u
 foradh	fˠ ɔ ɾˠ uː
 foradh	fˠ ɔ ɾˠ ə
@@ -6308,6 +6650,7 @@ fos	fˠ ɔ sˠ
 fos	fˠ ʌ sˠ
 foscadh	fˠ a sˠ k u
 foscadh	fˠ a sˠ k ə
+foscadh	fˠ ɑ sˠ k ə
 foscail	fˠ a sˠ k ə lʲ
 foscail	fˠ ɔ sˠ k ə lʲ
 fosclóchaidh	fˠ a sˠ k lˠ a x i
@@ -6337,6 +6680,7 @@ fraoigh	fˠ ɾˠ iː
 fraoigh	fˠ ɾˠ iː ɟ
 frat	fˠ ɾˠ a t̪ˠ
 freagair	fʲ ɾʲ a ɡ ə ɾʲ
+freagair	fʲ ɾʲ ɨ̞ ɡ ə ɾʲ
 freagairt	fʲ rʲ a ɡ ə ɾˠ tʲ
 freagra	fʲ ɾʲ a ɡ ə ɾˠ ə
 freagra	fʲ ɾʲ a ɡ ɾˠ ə
@@ -6344,6 +6688,7 @@ freagra	fʲ ɾʲ ɨ̞ ɡ ɾˠ ə
 freang	fʲ ɾʲ ɑ u ŋ ɡ
 freastail	fʲ ɾʲ a sˠ t̪ˠ ə lʲ
 freastal	fʲ ɾʲ a sˠ t̪ˠ ə lˠ
+freastal	fʲ ɾʲ a sˠ t̪ˠ ə l̪ˠ
 freastalaí	fʲ ɾʲ a sˠ t̪ˠ ə lˠ i
 freastalaí	fʲ ɾʲ a sˠ t̪ˠ ə lˠ iː
 freastalaí	fʲ ɾʲ a sˠ t̪ˠ ə l̪ˠ iː
@@ -6364,6 +6709,7 @@ freisin	fˠ ɾˠ ɔ ʃ ə nʲ
 freo	fˠ ɾˠ oː bˠ
 fria	fˠ ɾˠ eː
 frigh	fʲ ɾʲ iː
+frisnéiseach	fʲ ɾʲ ɪ ʃ n̠ʲ æ ʃ a x
 frithir	fʲ ɾʲ ɪ h ə ɾʲ
 frása	fˠ ɾˠ æː sˠ ə
 frása	fˠ ɾˠ ɑː sˠ ə
@@ -6395,6 +6741,9 @@ fuair	fˠ u ə ɾʲ
 fuaire	fˠ iː ɾʲ ə
 fuaire	fˠ u ə ɾʲ ə
 fuaire	fˠ uː ɾʲ ə
+fuaireadar	fˠ u ə ɾˠ ə d̪ˠ ə ɾˠ
+fuaireamar	fˠ u ə ɾˠ ə mˠ ə ɾˠ
+fuaireas	fˠ u ə ɾˠ ə sˠ
 fuaiscneamh	fˠ u ə ʃ c nʲ u
 fual	fˠ u ə lˠ
 fuar	fˠ iː ɾˠ
@@ -6404,6 +6753,7 @@ fuaraigh	fˠ u ə ɾˠ iː
 fuaraigh	fˠ u ə ɾˠ ə
 fuaraigh	fˠ u ə ɾˠ ɪ ɟ
 fuaraigh	fˠ ɯː ɾˠ i
+fuarthas	fʲ ɾʲ iː vˠ
 fuarán	fˠ u ə ɾˠ a nˠ
 fuarán	fˠ u ə ɾˠ a n̪ˠ
 fuarán	fˠ u ə ɾˠ ɑː nˠ
@@ -6414,6 +6764,7 @@ fuascladh	fˠ u ə sˠ k l̪ˠ u
 fuath	fˠ u ə
 fuil	fˠ ɨ̞ lʲ
 fuil	fˠ ɪ lʲ
+fuiliceach	fˠ ɪ lʲ ɪ c ə x
 fuinneamh	fˠ ɪ n̠ʲ u
 fuinneamh	fˠ ɪ n̠ʲ uː
 fuinneamh	fˠ ɪ n̠ʲ ə
@@ -6435,9 +6786,12 @@ fuinneoig	fˠ ə ɲ oː ɟ
 fuinneoig	fˠ ɪ n̠ʲ oː ɟ
 fuinneoig	fˠ ɪ n̠ʲ æ ɟ
 fuinneoig	fˠ ɪ n̠ʲ ɔ ɟ
+fuinniúil	fˠ ə nʲ uː lʲ
 fuireachas	fˠ ɪ ɾʲ ə x ə sˠ
 fuireachas	fˠ ʌ ɾˠ a x ə sˠ
 fuiriste	fʲ ɾʲ ɪ ʃ tʲ ə
+fuirseadh	fˠ ɔ ɾˠ sˠ u
+fuirste	fˠ ɔ ɾˠ sˠ tʲ ə
 fuisce	fˠ ɪ ʃ c ɪ
 fuiseog	fˠ ə ʃ oː ɡ
 fuiseog	fˠ ɪ ʃ oː ɡ
@@ -6473,6 +6827,7 @@ fágadh	fˠ ɑː ɡ ə ɡ
 fágaim	fˠ aː ɡ ə mˠ
 fágaim	fˠ ɑː ɡ ə mʲ
 fágaint	fˠ ɑː ɡ ə nʲ tʲ
+fágann	fˠ aː ɡ ə n̪ˠ
 fágann	fˠ ɑː ɡ ə n̪ˠ
 fágfaidh	fˠ aː k i
 fágfaidh	fˠ aː k ə
@@ -6489,8 +6844,10 @@ fáidheanna	fˠ aː j ə n̪ˠ i
 fáil	fˠ aː lʲ
 fáil	fˠ ɑː lʲ
 fáilt	fˠ ɑː lʲ tʲ
-fáilte	fˠ aː lʲ tʲ ə
+fáilte	fˠ aː l̠ʲ tʲ ə
 fáilte	fˠ ɑː lʲ tʲ ə
+fáilte	fˠ ɑː l̠ʲ tʲ ə
+fáinleog	aː n̠ʲ l̠ʲ ɔ ɡ
 fáinne	fˠ aː n̠ʲ ə
 fáinne	fˠ ɑː n̠ʲ ə
 fáinne	fˠ ɑː ɲ ə
@@ -6504,13 +6861,17 @@ fáltas	fˠ aː l̪ˠ t̪ˠ ə sˠ
 fáltas	fˠ ɑː l̪ˠ t̪ˠ ə sˠ
 fán	fˠ æː n̪ˠ
 fán	fˠ ɑː n̪ˠ
-fána	fˠ æː nˠ ə
+fána	fˠ aː nˠ ə
+fána	fˠ aː n̪ˠ ə
+fána	fˠ ɑː nˠ ə
+fána	fˠ ɑː n̪ˠ ə
 fánach	fˠ æː nˠ a h
 fánach	fˠ ɑː nˠ ə x
 fás	fˠ aː sˠ
 fás	fˠ ɑː sˠ
 fásach	fˠ æː sˠ a x
 fásach	fˠ ɑː sˠ ə x
+fásaim	fˠ ɑː sˠ ə mʲ
 fásta	fˠ ɑː sˠ t̪ˠ ə
 fáth	fˠ aː
 fáth	fˠ ɑː
@@ -6518,8 +6879,10 @@ fáth	fˠ ɑː h
 fé	fʲ eː
 féach	fʲ eː x
 féach	fʲ i a x
-féachaint	fʲ eː x ɪ nʲ tʲ
+féach	fʲ i ə x
+féachaint	fʲ eː x ɪ ṉʲ tʲ
 féachaint	fʲ i a x ɪ nʲ tʲ
+féachaint	fʲ i ə x ə ṉʲ tʲ
 féad	fʲ eː d̪ˠ
 féad	fʲ iː a̯ d̪ˠ
 féadachtáil	fʲ eː d̪ˠ ə x t̪ˠ ɑː lʲ
@@ -6552,6 +6915,7 @@ féilire	fʲ eː lʲ ə ɾʲ ə
 féin	fʲ eː nʲ
 féin	h eː nʲ
 féin	h iː nʲ
+féin	pʲ eː nʲ
 féinchúis	fʲ eː nʲ x uː ʃ
 féineach	fʲ eː nʲ a x
 féinfhostaithe	fʲ eː nʲ o sˠ t̪ˠ ə h ə
@@ -6581,6 +6945,8 @@ fíor	fʲ iː ɾˠ
 fíoraíocht	fʲ iː ɾˠ i ə x t̪ˠ
 fíoraíocht	fʲ ə ɯ̯ ɾˠ i a x t̪ˠ
 fíoraíocht	fʲ ɨ̞ ɣ ə ɾˠ i a x t̪ˠ
+fíormhaith	fʲ iː ɾʲ w ã i ç
+fíoruisce	fʲ iː ɾʲ ɪ ʃ c ɪ
 fír	fʲ iː ɾʲ
 fírinne	fʲ iː ɾʲ ə nʲ ə
 fírinne	fʲ iː ɾʲ ə n̠ʲ ə
@@ -6599,6 +6965,9 @@ fógra	fˠ ɔː ɡ ɾˠ ə
 fógradh	fˠ u ə ɡ ɾˠ u
 fóill	fˠ oː l̠ʲ
 fóill	fˠ ɔː l̠ʲ
+fóirstean	fˠ ɔː ɾˠ sˠ tʲ ə nˠ
+fóirstean	fˠ ɔː ɾˠ sˠ tʲ ə n̪ˠ
+fóirsteanach	fˠ ɔː ɾˠ sˠ tʲ ə nʲ a x
 fómhar	fˠ oː vˠ ə ɾˠ
 fómhar	fˠ oː ɾˠ
 fómhar	fˠ uː w ə ɾˠ
@@ -6671,6 +7040,7 @@ gaeilic	ɡ eː lʲ ə c
 gael	ɡ eː lˠ
 gaelach	ɡ eː lˠ a x
 gaelach	ɡ eː lˠ ə x
+gaelach	ɡ eː l̪ˠ a x
 gaelach	ɡ eː l̪ˠ ə x
 gafa	ɡ a fˠ ə
 gaibh	ɡ a vʲ
@@ -6692,10 +7062,13 @@ gainmhe	ɡ ɑ nʲ ĩː
 gainne	ɡ ɪ n̠ʲ ə
 gainéan	ɡ ɛ nʲ a nˠ
 gair	ɡ a ɾʲ
+gair	ɡ ɪ ɾʲ
 gairbhe	ɡ ɪ ɾʲ ə vʲ ə
 gairdín	ɡ æː ɾˠ dʲ i nʲ
 gairdín	ɡ ɑː ɾˠ dʲ iː nʲ
 gaire	ɡ a ɾʲ ə
+gairfidh	ɡ ɪ ɾʲ h ə
+gairge	ɡ a ɾʲ ɪ ɟ ə
 gairid	ɟ a ɾʲ ə dʲ
 gairid	ɡ a ɾʲ ə dʲ
 gairid	ɡ ɛ ɾʲ ə dʲ
@@ -6762,6 +7135,7 @@ gaosán	ɡ ɯː sˠ a nˠ
 gaoth	ɡ eː h
 gaoth	ɡ iː
 gaoth	ɡ ɯː
+gaothrán	ɡ eː ɾ̥ˠ ɑː n̪ˠ
 gaothrán	ɡ iː ɾ̥ˠ ɑː n̪ˠ
 garbh	ɡ a ɾˠ u
 garbh	ɡ a ɾˠ uː
@@ -6771,6 +7145,11 @@ garda	ɡ aː ɾˠ d̪ˠ ə
 garda	ɡ ɑː ɾˠ d̪ˠ ə
 gardaí	ɡ aː ɾˠ d̪ˠ i
 gardaí	ɡ ɑː ɾˠ d̪ˠ iː
+garg	ɡ ɑ ɹ ɡ
+garg	ɡ ɑː ɡ
+garga	ɡ a ɾˠ ə ɡ ə
+garr	ɡ aː ɾˠ
+garr	ɡ ɑː ɾˠ
 garraí	ɡ a ɾˠ iː
 garraí	ɡ aː ɾˠ i
 garraí	ɡ ɑ ɾˠ iː
@@ -6791,6 +7170,8 @@ gc	ɟ
 gc	ɡ
 gcairde	ɡ ɑː ɾˠ dʲ ə
 gcaoi	ɡ iː
+gcaoimhe	ɡ iː
+gcaoimhe	ɡ iː vʲ ə
 gcaoirigh	ɡ iː ɾʲ i
 gcaoirigh	ɡ iː ɾʲ iː
 gcaoirigh	ɡ iː ɾʲ ə
@@ -6828,6 +7209,8 @@ gcinn	ɟ iː n̠ʲ
 gcinn	ɟ ə i ɲ
 gcinn	ɟ ɪ n̠ʲ
 gcloich	ɡ l̪ˠ ɞ h
+gclóis	ɡ lˠ oː ʃ
+gclóis	ɡ l̪ˠ oː ʃ
 gcnoic	ɡ nˠ ɪ c
 gcnoic	ɡ n̪ˠ ɪ c
 gcnoic	ɡ ɾˠ ɪ c
@@ -6843,13 +7226,19 @@ gcoill	ɡ iː lʲ
 gcoill	ɡ ə i l̠ʲ
 gcoill	ɡ ɞ l̠ʲ
 gcoill	ɡ ʌ l̠ʲ
+gcoillte	ɡ iː lʲ tʲ ə
+gcoillte	ɡ ə i l̠ʲ tʲ ə
+gcoillte	ɡ ɞ l̠ʲ tʲ ə
+gcoillte	ɡ ʌ l̠ʲ tʲ ə
 gcoinneal	ɡ ɪ n̠ʲ ə lˠ
 gcomhluadar	ɡ oː lˠ u ə d̪ˠ ə ɾˠ
 gcomhluadar	ɡ ɔː lˠ u ə d̪ˠ ə ɾˠ
+gcortha	ɡ ɨ̞ ɾˠ h ə
 gcrainn	ɡ ɾˠ a i ɲ
 gcrainn	ɡ ɾˠ iː nʲ
 gcrainn	ɡ ɾˠ iː n̠ʲ
 gcrainn	ɡ ɾˠ ɪ n̠ʲ
+gcraobhacha	ɡ ɾˠ iː w a x ə
 gcroí	ɡ ɾˠ iː
 gcuairt	ɡ u ə ɾˠ tʲ
 gcuairteanna	ɡ u ə ɾˠ tʲ ə n̪ˠ ə
@@ -6863,6 +7252,7 @@ gcuimhne	ɡ ɪ vʲ n ə
 gcuimhne	ɡ ɪ̃ vʲ nʲ ə
 gcuireadh	ɡ ɪ ɾʲ u
 gcuireadh	ɡ ɪ ɾʲ uː
+gcuireadh	ɡ ɪ ɾʲ ə
 gcuireadh	ɡ ɪ ɾʲ ə tʲ
 gcuireadh	ɡ ɪ ɾʲ ə x
 gcuireann	ɡ ɪ ɾʲ ə n̪ˠ
@@ -6957,7 +7347,6 @@ gearradh	ɟ ɑː ɾˠ ə x
 gearraim	ɟ a ɾˠ ə mʲ
 gearraim	ɟ a ɾˠ ə mˠ
 gearrcach	ɟ ɑː ɾˠ k ə x
-gearrfaidh	ɟ aː ɾˠ h i
 gearrfaidh	ɟ aː ɾˠ h ə
 gearrfaidh	ɟ aː ɾˠ h ɪ ɟ
 gearrfaidh	ɟ ɑː ɾˠ h iː
@@ -6970,7 +7359,6 @@ gearrán	ɟ a ɾˠ a nˠ
 gearrán	ɟ a ɾˠ a n̪ˠ
 gearrán	ɟ a ɾˠ ɑː nˠ
 gearrán	ɟ a ɾˠ ɑː n̪ˠ
-gearrán	ɟ ə ɾˠ ɑː n̪ˠ
 gearán	ɟ a ɾˠ a nˠ
 gearán	ɟ a ɾˠ a n̪ˠ
 gearán	ɟ a ɾˠ ɑː nˠ
@@ -7015,6 +7403,10 @@ ghabhar	ɣ ə u ɾˠ
 ghabhas	ɣ ə i sˠ
 ghabhtaí	ɣ ə i t iː
 ghada	ɣ a d̪ˠ ə
+ghaelach	ɣ eː lˠ a x
+ghaelach	ɣ eː lˠ ə x
+ghaelach	ɣ eː l̪ˠ a x
+ghaelach	ɣ eː l̪ˠ ə x
 ghaibh	ɣ a vʲ
 ghairdín	ɣ æː ɾˠ dʲ i nʲ
 ghairdín	ɣ ɑː ɾˠ dʲ iː nʲ
@@ -7034,16 +7426,56 @@ ghealach	j a l̪ˠ a x
 ghealach	j a l̪ˠ ə x
 ghealach	j æ l̪ˠ ə x
 ghealach	j ə l̪ˠ ɑ x
+gheallta	j a l̪ˠ t̪ˠ ə
+gheallta	j a u l̪ˠ t̪ˠ ə
+gheallta	j aː l̪ˠ t̪ˠ ə
+gheallta	j ɑː l̪ˠ t̪ˠ ə
 ghearr	j aː ɾˠ
 ghearr	j ɑː ɾˠ
+ghearradh	j a ɾˠ u
+ghearradh	j a ɾˠ uː
+ghearradh	j a ɾˠ ə
+ghearradh	j a ɾˠ ə tʲ
+ghearradh	j a ɾˠ ə x
+ghearradh	j ɑː ɾˠ ə
+ghearradh	j ɑː ɾˠ ə tʲ
+ghearradh	j ɑː ɾˠ ə x
 ghearrtaí	j aː ɾˠ t̪ˠ iː
 ghearrtaí	j ɑː ɾˠ t̪ˠ iː
+gheasa	j a sˠ ə
 gheibh	j ɛ vʲ
+gheibhim	j ə i mʲ
 gheibhim	j ɛ vʲ ə mˠ
+gheibhinn	j ə i nʲ
+gheibhtí	j ə i tʲ iː
+gheobhad	j a u ə d̪ˠ
+gheobhad	j oː d̪ˠ
+gheobhad	j ɛ fʲ ə d̪ˠ
+gheobhadh	j a u ə tʲ
+gheobhadh	j a u ə x
+gheobhadh	j e fˠ ə tʲ
+gheobhadh	j e fˠ ə x
+gheobhaidh	j a u
 gheobhaidh	j oː
+gheobhaidh	j ɛ fʲ ə
+gheobhaidís	j a u ə dʲ iː ʃ
+gheobhainn	j a u ə n̠ʲ
+gheobhainn	j oː nʲ
+gheobhainn	j ɛ fˠ ə n̠ʲ
+gheobhair	j oː ɾʲ
 gheofar	j oː h a r
+gheofar	j ɛ fˠ ə ɾˠ
+gheofaí	j oː fˠ iː
+gheofaí	j ɛ fˠ iː
+gheofá	j a u ɑː
+gheofá	j e fˠ ɑː
+gheofá	j oː fˠ ɑː
 ghine	j ɪ nʲ ə
 ghing	j ɪ ɲ
+ghiob	j ɨ̞ bˠ
+ghiob	j ɪ bˠ
+ghiorria	j a ɾˠ i ə
+ghiorria	j ɪ ɾˠ i ə
 ghlac	ɣ lˠ a k
 ghlac	ɣ lˠ ɑ k
 ghlacann	ɣ lˠ a k ə n̪ˠ
@@ -7051,6 +7483,9 @@ ghlan	ɣ lˠ a nˠ
 ghlic	j lʲ ɪ c
 ghlinne	j lʲ i n̠ʲ ə
 ghliocais	j l ʊ k ə ʃ
+ghlúin	ɣ l uː n
+ghlúin	ɣ lˠ uː nʲ
+ghlúin	ɣ l̪ˠ uː nʲ
 ghlúine	ɣ l uː n ə
 ghlúine	ɣ lˠ uː nʲ ə
 ghlúine	ɣ l̪ˠ uː nʲ ə
@@ -7062,10 +7497,15 @@ ghnáth	ɣ nˠ ɑː
 ghnáth	ɣ n̪ˠ ɑː
 ghnáth	ɣ ɾˠ æː
 ghnáth	ɣ ɾˠ ɑː
+ghním	nʲ iː mʲ
+ghním	nʲ iː mˠ
+ghním	n̠ʲ iː mʲ
+ghním	n̠ʲ iː mˠ
 ghníomh	j nʲ iː vˠ
 ghníomh	j ɾʲ iː vˠ
 ghníomh	j ɾʲ iː w
 ghníomh	j ɾʲ ĩ u
+ghníomhartha	j ɾʲ iː w ə ɾˠ i
 ghníomhaíocht	ɣ n̪ˠ iː vˠ i ə x t̪ˠ
 ghníomhaíocht	ɣ ɾˠ iː w i a h t̪ˠ
 ghníomhaíocht	ɣ ɾˠ iː w i ə x t̪ˠ
@@ -7081,7 +7521,10 @@ ghoid	ɣ ɪ dʲ
 ghoidfeadh	ɣ ɪ tʲ ə x
 ghoir	ɣ ɪ ɾʲ
 ghoirid	ɣ ʌ ɾʲ ə dʲ
+ghor	ɣ ɔ ɾˠ
+ghor	ɣ ʌ ɾˠ
 ghread	j ɾʲ a d̪ˠ
+ghreadadh	j ɾʲ a d̪ˠ u
 ghrian	j ɾʲ i ə nˠ
 ghrian	j ɾʲ i ə n̪ˠ
 ghrá	ɣ ɾˠ aː
@@ -7097,12 +7540,15 @@ ghualainn	ɣ u ə lˠ ə n̠ʲ
 ghualainn	ɣ u ə l̪ˠ ə nʲ
 ghualainn	ɣ u ə l̪ˠ ə n̠ʲ
 ghuigh	ɣ iː
+ghustal	ɣ ʊ sˠ t̪ˠ ə lˠ
+ghustal	ɣ ʊ sˠ t̪ˠ ə l̪ˠ
 ghuí	ɣ iː
 ghéaraigh	j eː ɾˠ i
 ghéaraigh	j eː ɾˠ iː
 ghéaraigh	j eː ɾˠ ə
 ghéaraigh	j iː a̯ ɾˠ ə
 ghéaraigh	j iː a̯ ɾˠ ɪ ɟ
+ghéig	j eː ɟ
 giall	ɟ i ə l̪ˠ
 gibe	ɟ ɨ̞ bʲ ə
 gibe	ɟ ɪ bʲ ə
@@ -7118,6 +7564,7 @@ giob	ɟ ɪ bˠ
 giobóg	ɟ ɨ̞ bˠ ɔ ɡ
 giodalach	ɟ ɨ̞ d̪ˠ ə lˠ a x
 giolcach	ɟ ɨ̞ lˠ k a x
+giolcach	ɟ ɨ̞ l̪ˠ k a x
 giolla	ɟ ɨ̞ l̪ˠ ə
 giolla	ɟ ɪ l̪ˠ ə
 giolla	ɟ ɯ l̪ˠ ə
@@ -7134,6 +7581,7 @@ giota	ɟ ɨ̞ t̪ˠ ə
 giotár	ɟ ɪ t̪ˠ aː ɾˠ
 giotár	ɟ ɪ t̪ˠ ɑː ɾˠ
 girseach	ɟ ɪ ɾˠ ʃ a h
+giucs	ɟ ɯ k sˠ
 giuirléid	ɟ uː ɾˠ lʲ e dʲ
 giuirléid	ɟ uː ɾˠ lʲ eː dʲ
 giúdach	ɟ uː d̪ˠ a h
@@ -7142,13 +7590,17 @@ giúis	ɟ uː sˠ
 giúis	ɟ uː ʃ
 giúistís	ɟ uː ʃ tʲ i ʃ
 giúistís	ɟ uː ʃ tʲ iː ʃ
+glac	ɡ l ɑ k
 glac	ɡ lˠ a k
-glac	ɡ lˠ ɑ k
+glac	ɡ l̪ˠ a k
+glac	ɡ l̪ˠ ɑ k
 glacaim	ɡ l̪ˠ ɑ k ə mʲ
 glacann	ɡ lˠ a k ə n̪ˠ
 glacfaidh	ɡ lˠ a k ə
 glaine	ɡ lˠ a nʲ ə
 glaine	ɡ lˠ ɨ̞ nʲ ə
+glaine	ɡ l̪ˠ a nʲ ə
+glaine	ɡ l̪ˠ ɨ̞ nʲ ə
 glaise	ɡ lˠ a ʃ ə
 glaise	ɡ lˠ ɨ̞ ʃ ə
 glan	ɡ lˠ a nˠ
@@ -7185,11 +7637,12 @@ gleo	ɟ lʲ oː
 gleo	ɟ lʲ ɔː
 gleoite	ɟ lʲ oː tʲ ə
 glic	ɟ lʲ ɪ c
-gliceas	ɟ lʲ ɪ c ə s
+gliceas	ɟ lʲ ɪ c ə sˠ
 glinn	ɟ lʲ i n̠ʲ
 glinne	ɟ lʲ i n̠ʲ ə
 gliocais	ɟ l ʊ k ə ʃ
 gliocas	ɟ l ʊ k ə sˠ
+gliogaire	ɟ lʲ ɯ ɡ ə ɾʲ ə
 gliogar	ɟ lʲ ɪ ɡ ə ɾˠ
 gliomach	ɟ lʲ ɨ̞ mˠ a x
 glioscarnach	ɟ lʲ ɨ̞ sˠ k ə ɾˠ n̪ˠ ə x
@@ -7212,6 +7665,8 @@ glóire	ɡ lˠ oː ɾʲ ə
 glóire	ɡ lˠ ɔː ɾʲ ə
 glór	ɡ lˠ oː ɾˠ
 glór	ɡ lˠ ɔː ɾˠ
+glór	ɡ l̪ˠ oː ɾˠ
+glór	ɡ l̪ˠ ɔː ɾˠ
 glúin	ɡ l uː n
 glúin	ɡ lˠ uː nʲ
 glúin	ɡ l̪ˠ uː nʲ
@@ -7219,7 +7674,7 @@ glúine	ɡ l uː n ə
 glúine	ɡ lˠ uː nʲ ə
 glúine	ɡ l̪ˠ uː nʲ ə
 glún	ɡ l̪ˠ uː n̪ˠ
-gnaithe	ɡ ɾˠ a
+gnaithe	ɡ ɾˠ aː
 gnaithí	ɡ ɾˠ aː iː
 gnaoi	ɡ n iː
 gnaoi	ɡ n̪ˠ iː
@@ -7315,10 +7770,14 @@ goirme	ɡ ɪ ɾʲ ə mʲ ə
 goirt	ɡ ɔ ɾˠ tʲ
 goirt	ɡ ɪ ɾˠ tʲ
 goirt	ɡ ʌ ɾˠ tʲ
+goirteog	ɡ ɔ ɾˠ tʲ ɔ ɡ
 goirín	ɡ ɪ ɾʲ i nʲ
 gol	ɡ ɔ lˠ
 gol	ɡ ɔ l̪ˠ
 gol	ɡ ʌ lˠ
+gol	ɡ ʌ l̪ˠ
+gola	ɡ ɔ lˠ ə
+gola	ɡ ɔ l̪ˠ ə
 goldar	ɡ ʌ l̪ˠ d̪ˠ ə ɾˠ
 gonán	ɡ ɔ nˠ a nˠ
 gor	ɡ ɔ ɾˠ
@@ -7334,12 +7793,13 @@ gort	ɡ ɔ ɾˠ t̪ˠ
 gort	ɡ ʌ ɾˠ t̪ˠ
 gorta	ɡ ɔ ɾˠ t̪ˠ ə
 gortaigh	ɡ ɔ ɾˠ t̪ˠ ə
+gortha	ɡ ʌ ɾˠ h ə
 gortú	ɡ ɔ ɾˠ t̪ˠ u
 gortú	ɡ ɔ ɾˠ t̪ˠ uː
 gortú	ɡ ə ɾˠ t̪ˠ uː
 gorún	ɡ ɔ ɾˠ uː nˠ
 gorún	ɡ ə ɾˠ uː n̪ˠ
-gorún	ɡ ʌ ɾˠ uː nˠ
+gorún	ɡ ʌ ɾˠ u nˠ
 gos	ɡ ɔ sˠ
 gos	ɡ ə sˠ
 gradam	ɡ ɾˠ a d̪ˠ ə mˠ
@@ -7348,8 +7808,10 @@ gram	ɡ ɾˠ a mˠ
 gread	ɟ ɾʲ a d̪ˠ
 greadadh	ɟ ɾʲ a d̪ˠ u
 greadhain	ɟ ɾʲ ə i nʲ
+grean	ɟ ɾʲ a nˠ
+grean	ɟ ɾʲ a n̪ˠ
 greann	ɟ ɾʲ a n̪ˠ
-greann	ɟ ɾʲ ɑ u n̪ˠ
+greann	ɟ ɾʲ a u n̪ˠ
 greann	ɟ ɾʲ ɑː n̪ˠ
 greannach	ɟ rʲ a n̪ˠ a h
 greannach	ɟ rʲ a n̪ˠ ə x
@@ -7380,6 +7842,7 @@ gruaig	ɡ ɾˠ u ə ɟ
 gruaig	ɡ ɾˠ u ə ɡ
 gruama	ɡ ɾˠ u ə mˠ ə
 gruama	ɡ ɾˠ uː mˠ ə
+gruth	ɡ ɾˠ ɯ h
 gruth	ɡ ɾˠ ʊ h
 grá	ɡ ɾˠ aː
 grá	ɡ ɾˠ aː j
@@ -7398,7 +7861,7 @@ gráiniúil	ɡ ɾˠ ɑː nʲ ũ lʲ
 gráinne	ɡ ɾˠ ɑː nʲ ə
 gráinne	ɡ ɾˠ ɑː n̠ʲ ə
 gráinne	ɡ ɾˠ ɑː ɲ ɪ
-grámhar	ɡ ɾˠ æː w ə ɾˠ
+grámhar	ɡ ɾˠ aː w ə ɾˠ
 grámhar	ɡ ɾˠ ɑː vˠ ə ɾˠ
 grámhar	ɡ ɾˠ ɑː w ə ɾˠ
 gránach	ɡ ɾˠ æː nˠ a h
@@ -7453,7 +7916,10 @@ gur	ɡ ə ɾˠ
 gur	ɡ ʊ ɾˠ
 gus	ɡ ʊ sˠ
 gus	ɡ ʌ sˠ
+gustal	ɡ ʊ sˠ t̪ˠ ə lˠ
+gustal	ɡ ʊ sˠ t̪ˠ ə l̪ˠ
 guta	ɡ ʊ t̪ˠ ə
+guth	ɡ ɯ h
 guth	ɡ ʊ h
 guí	ɡ i ə
 guí	ɡ iː
@@ -7475,6 +7941,7 @@ gáirí	ɡ æː ɾʲ i
 gáirí	ɡ ɑː ɾʲ iː
 gámaí	ɡ ɑː mˠ iː
 gé	ɟ eː
+gé	ɟ eː w ə
 géacha	ɟ eː x ə
 géag	ɟ eː ɡ
 géag	ɟ iː a̯ ɡ
@@ -7487,8 +7954,10 @@ géaraigh	ɟ eː ɾˠ ə
 géaraigh	ɟ iː a̯ ɾˠ ɪ ɟ
 géarleanúint	ɟ eː ɾˠ lʲ a nˠ ũː n̠ʲ tʲ
 géarleanúint	ɟ eː ɾˠ lʲ a n̪ˠ ũː n̠ʲ tʲ
-géibheann	ɟ eː βʲ i ŋʲ
-géibheann	ɟ eː βʲ ə n̪ˠ
+géibheann	ɟ eː vʲ ə n̪ˠ
+géibheann	ɟ eː vʲ ɪ ɲ
+géibheannach	ɟ eː vʲ ə n̪ˠ a x
+géibheannach	ɟ eː vʲ ə n̪ˠ ə x
 géig	ɟ eː ɟ
 géillfidh	ɟ eː l̠ʲ h ə
 géim	ɟ eː mʲ
@@ -7501,7 +7970,9 @@ gúna	ɡ uː nˠ ə
 gúna	ɡ uː n̪ˠ ə
 gúnga	ɡ ɾˠ uː ŋ ɡ ə
 h	h
+hachar	h a x ə ɾˠ
 hadharca	h ə i ə ɾˠ k ə
+haer	h eː ɾˠ
 haige	h a ɟ ɪ
 hail	h a lʲ
 haill	h ɑː l̠ʲ
@@ -7540,6 +8011,7 @@ heagla	h a ɡ ə l̪ˠ ə
 heagla	h aː ɡ l ə
 heagla	h ɨ̞ ɡ lˠ ə
 hidrigin	h ɪ dʲ ɾʲ ɪ ɟ ɪ nʲ
+hiomarcach	h ʊ mˠ ə ɾˠ k ə x
 hiomlán	h ə mˠ l̪ˠ ɑː n̪ˠ
 hiomlán	h ʊ mˠ lˠ ɑː nˠ
 hiomlán	h ʌ mˠ lˠ æ nˠ
@@ -7603,6 +8075,7 @@ iarraidh	i ə ɾˠ ə
 iarraidh	i ə ɾˠ ɪ ɟ
 iarraidh	ɨ̞ ɾˠ i
 iarraigí	i ə ɾˠ ə ɟ iː
+iarrfaidh	i ə ɾˠ h ə
 iarsmalann	i ə ɾˠ sˠ mˠ ə lˠ ə n̪ˠ
 iarthar	i ə ɾˠ h ə ɾˠ
 iasc	i ə sˠ k
@@ -7617,6 +8090,7 @@ idir	ɪ dʲ ə ɾʲ
 idirghuí	a d̪ˠ ə ɾˠ ɣ i ə
 idirghuí	ɪ dʲ ə rʲ ɣ iː
 ifreann	ɪ fʲ ɾʲ ə nˠ
+igín	ɪ ɟ ɪ n̠ʲ
 im	a i mʲ
 im	iː mʲ
 im	ɨ̞ mʲ
@@ -7631,11 +8105,12 @@ imeall	ɪ mʲ ə l̪ˠ
 imeall	ɯ mˠ ə l̪ˠ
 imeall	ʊ mˠ ə l̪ˠ
 imeartha	ɨ̞ mʲ ə ɾˠ ə
-imigh	ɪ mʲ i
+imigh	ɨ̞ mʲ i
 imigh	ɪ mʲ iː
 imigh	ɪ mʲ ə
 imigh	ɪ mʲ ɪ ɟ
 imir	ɪ mʲ ə ɾʲ
+imirce	ɨ̞ mʲ ə ɾʲ c ɪ
 imirt	ɨ̞ mʲ ə ɾˠ tʲ
 imirt	ɪ mʲ ə ɾˠ tʲ
 imithe	ɪ mʲ ɪ h ɪ
@@ -7663,6 +8138,7 @@ india	ɪ nʲ dʲ i ə
 indiacha	ɪ n i ə x ə
 inghlactha	ɪ nʲ ɣ lˠ a k h ə
 inis	ɪ nʲ ɪ ʃ
+inis	ɪ n̠ʲ ɪ ʃ
 inmhe	ɪ nʲ ə vʲ
 inne	ɪ n̠ʲ ə
 inne	ɪ ɲ ə
@@ -7687,6 +8163,7 @@ ins	ɪ nˠ sˠ
 inscne	ɪ n̠ʲ ʃ c nʲ ə
 inse	ɪ nʲ ʃ ə
 inse	ɪ n̠ʲ ʃ ə
+inseachas	ɪ n̠ʲ ʃ a x ə sˠ
 inseodh	iː nʲ ʃ oː tʲ
 inseodh	iː nʲ ʃ oː x
 inste	ɪ n̠ʲ ʃ tʲ ə
@@ -7708,8 +8185,10 @@ iodáilis	ɪ dˠ aː lʲ ɪ ʃ
 iolar	ɔ l̪ˠ ə ɾˠ
 iolar	ɪ lˠ ə ɾˠ
 iolar	ʌ lˠ ə ɾˠ
+iomad	ɯ mˠ ə d̪ˠ
 iomad	ʊ mˠ ə d̪ˠ
 iomad	ʌ mˠ ə d̪ˠ
+iomadúil	ʊ mˠ ə d̪ˠ uː lʲ
 iomaire	ʊ mˠ ə ɾʲ ə
 iomaire	ʌ mˠ ə ɾʲ ə
 iomall	ɨ̞ mˠ ə l̪ˠ
@@ -7719,13 +8198,13 @@ iomarbhá	ʌ mˠ ə ɾˠ w a i
 iomarca	ɯ mˠ ə ɾˠ k ə
 iomarca	ʊ mˠ ə ɾˠ k ə
 iomarca	ʌ mˠ ə ɾˠ k ə
+iomarcach	ʊ mˠ ə ɾˠ k ə x
 iomas	ɤ mˠ ə sˠ
 iomas	ʊ mˠ ə sˠ
 iomaí	mˠ oː
 iomaí	mˠ uː
 iomaí	ʊ mˠ iː
 iomaí	ʌ mˠ i
-iomlán	ə mˠ l̪ˠ ɑː n̪ˠ
 iomlán	ʊ mˠ lˠ ɑː nˠ
 iomlán	ʊ mˠ l̪ˠ ɑː n̪ˠ
 iomlán	ʌ mˠ lˠ a nˠ
@@ -7761,14 +8240,24 @@ ionam	ʊ n̪ˠ ə mˠ
 ionamsa	æ n̪ˠ ə mˠ sˠ ə
 ionamsa	ɪ n ə mˠ sˠ ə
 ionamsa	ɪ n̪ˠ ə mˠ sˠ ə
+ionas	ɯ n̪ˠ ə sˠ
+ionas	ʊ n̪ˠ ə sˠ
 ionga	uː ŋ ə
 ionga	uː ŋ ɡ ə
 ionga	ɔ ŋ ə
 ionga	ɨ̞ ŋ ə
+ionnas	ɯ n̪ˠ ə sˠ
+ionnas	ʊ n̪ˠ ə sˠ
 ionraic	ʌ n̪ˠ ɾˠ ɪ c ɪ
+ionsair	ɪ n̠ʲ ʃ ɛ ɾʲ
+ionsair	ʌ n̪ˠ s ɛ ɾʲ
+ionsaí	uː nˠ sˠ iː
 ionsaí	ɔ nˠ sˠ iː
 ionsaí	ɤ nˠ sˠ i
-ionsaí	ʊ nˠ sˠ iː
+ionsorm	ɪ n̠ʲ ʃ ɔ ɾˠ ə mˠ
+ionsorm	ʌ n̪ˠ sˠ ɔ ɾˠ ə mˠ
+ionsort	ɪ n̠ʲ ʃ ɔ ɾˠ t̪ˠ
+ionsort	ʌ n̪ˠ sˠ ɔ ɾˠ t̪ˠ
 iontach	eː n̪ˠ t̪ˠ a x
 iontach	iː n̪ˠ t̪ˠ a x
 iontach	iː n̪ˠ t̪ˠ ə x
@@ -7795,7 +8284,7 @@ is	ʃ
 ise	ɪ ʃ ə
 isteach	ə ʃ tʲ a x
 isteach	ə ʃ tʲ æ x
-istigh	ə ʃ tʲ ɪ j
+istigh	ə ʃ tʲ iː
 istigh	ə ʃ tʲ ɪ ɟ
 it	ɪ t̪ˠ
 ite	ɪ tʲ ə
@@ -7821,6 +8310,7 @@ labhair	l̪ˠ oː ɾʲ
 labhair	l̪ˠ ə u ɾʲ
 labhairt	l̪ˠ a u ɾʲ tʲ
 labhairt	l̪ˠ oː ɾˠ tʲ
+labharfaidh	l̪ˠ oː ɾˠ h ə
 lacha	l̪ˠ a x ə
 lachtach	l̪ˠ a x t̪ˠ a h
 lachtach	l̪ˠ a x t̪ˠ ə x
@@ -7839,10 +8329,13 @@ laga	l̪ˠ a ɡ ə
 laga	l̪ˠ ɑ ɡ ə
 laghach	l̪ˠ eː x
 laghach	l̪ˠ ɤː x
+laghairt	l̪ˠ ə i ɾˠ tʲ
 laghdaigh	l̪ˠ eː d̪ˠ i
 laghdaigh	l̪ˠ ɤː d̪ˠ i
 laghdú	l̪ˠ eː d̪ˠ u
 laghdú	l̪ˠ ɤː d̪ˠ u
+lagú	l̪ˠ ɑ ɡ uː
+lagú	l̪ˠ ə ɡ uː
 laidhre	l̪ˠ eː ɾʲ ə
 laidhre	l̪ˠ ə i ɾʲ ə
 laidhre	l̪ˠ ɤː ɾʲ ə
@@ -7911,6 +8404,8 @@ leabaidh	l̠ʲ a bˠ ɪ ɟ
 leabhair	l̠ʲ ə u rʲ
 leabhar	l̠ʲ oː ɾˠ
 leabhar	l̠ʲ ə u ɾˠ
+leabhartha	l̠ʲ oː ɾˠ h i
+leabhartha	l̠ʲ ə u ɾˠ h ə
 leac	l̠ʲ a k
 leac	l̠ʲ æ k
 leaca	l̠ʲ a k ə
@@ -7928,9 +8423,10 @@ leagadh	l̠ʲ a ɡ ə vˠ
 leagadh	l̠ʲ a ɡ ə x
 leagadh	l̠ʲ a ɡ ə ɡ
 leagaim	l̠ʲ a ɡ ə mʲ
-leagan	l̠ʲ a ɡ ə nˠ
+leagan	l̠ʲ a ɡ ə n̪ˠ
 leagan	l̠ʲ æ ɡ ə n̪ˠ
 leagan	l̠ʲ ɨ̞ ɡ ə nˠ
+leagan	l̠ʲ ɨ̞ ɡ ə n̪ˠ
 leagann	l̠ʲ a ɡ ə n̪ˠ
 leagfadh	l̠ʲ a k u
 leagfadh	l̠ʲ a k uː
@@ -8001,6 +8497,7 @@ leathanach	l̠ʲ ɑː nˠ ə x
 leathar	l̠ʲ a h ə ɾˠ
 leathchoróin	l̠ʲ a x ɔ ɾˠ æ nʲ
 leathchéad	l̠ʲ æ ç eː d̪ˠ
+leathracha	l̠ʲ a h ɾˠ a x ə
 leathré	lʲ a h ɾʲ eː
 leathshúil	l̠ʲ a h uː lʲ
 leathuair	l̠ʲ a h u ə ɾʲ
@@ -8012,6 +8509,11 @@ leice	l̠ʲ ɛ c ɪ
 leiceann	l̠ʲ ɛ c ə n̪ˠ
 leictreachas	l̠ʲ ɛ c tʲ ɾʲ a h ə sˠ
 leictreachas	l̠ʲ ɛ c tʲ ɾʲ ə x ə sˠ
+leifteanant	lʲ ɛ fʲ tʲ a n̪ˠ ə n̪ˠ t̪ˠ
+leifteanant	l̠ʲ ɛ fʲ tʲ a nˠ ə n̪ˠ t̪ˠ
+leifteanant	l̠ʲ ɛ fʲ tʲ a n̪ˠ ə n̪ˠ t̪ˠ
+leifteanant	l̠ʲ ɛ fʲ tʲ ə nˠ ə n̪ˠ t̪ˠ
+leifteanant	l̠ʲ ɛ fʲ tʲ ə n̪ˠ ə n̪ˠ t̪ˠ
 leifteán	l̠ʲ ə fʲ tʲ aː n̪ˠ
 leifteán	l̠ʲ ɛ fʲ tʲ a nˠ
 leifteán	l̠ʲ ɛ fʲ tʲ ɑː nˠ
@@ -8023,6 +8525,9 @@ leis	lʲ ɛ ʃ
 leis	l̠ʲ ɛ ʃ
 leisce	lʲ ɛ ʃ c ɪ
 leisce	l̠ʲ ɛ ʃ c ɪ
+leisciúil	lʲ ɛ ʃ c uː lʲ
+leisciúil	l̠ʲ ɛ ʃ c u lʲ
+leisciúil	l̠ʲ ɛ ʃ c uː lʲ
 leite	l̠ʲ ɛ tʲ ə
 leitean	l̠ʲ ɛ tʲ ə nˠ
 leith	l̠ʲ ɛ h
@@ -8034,6 +8539,7 @@ leithead	l̠ʲ ɛ h ə d̪ˠ
 leithid	l̠ʲ eː dʲ
 leithid	l̠ʲ ɛ h ə dʲ
 leithigh	l̠ʲ ɛ h i
+leithne	l̠ʲ ɪ h nʲ ə
 leithscéal	l̠ʲ ɛ ʃ c e lˠ
 leithscéal	l̠ʲ ɛ ʃ c eː lˠ
 leithscéal	l̠ʲ ɪ ʃ c e lˠ
@@ -8114,6 +8620,7 @@ linn	l̠ʲ iː n̠ʲ
 linn	l̠ʲ ɪ n̠ʲ
 linne	lʲ ɪ n̠ʲ ə
 linne	l̠ʲ ɪ n̠ʲ ə
+liobairne	l̪ˠ ʌ bˠ ə ɾˠ n̠ʲ ə
 liobar	l̠ʲ ɨ̞ bˠ ə ɾˠ
 liobarnach	lʲ ɨ̞ bˠ ə ɾˠ n̪ˠ ə x
 liobarnach	lʲ ɯ bˠ ə ɾˠ n̪ˠ ə x
@@ -8153,7 +8660,10 @@ loca	l̪ˠ ɔ k ə
 loca	l̪ˠ ʌ k ə
 locadh	l̪ˠ ɔ k u
 loch	l̪ˠ ɔ x
+loch	l̪ˠ ɞ x
 locht	l̪ˠ ɔ x t̪ˠ
+locht	l̪ˠ ɞ x t̪ˠ
+locht	l̪ˠ ʊ x t̪ˠ
 lochta	l̪ˠ ɔ x t̪ˠ ə
 lochtanna	l̪ˠ ɔ x t̪ˠ ə n̪ˠ iː
 lochtanna	l̪ˠ ɔ x t̪ˠ ə n̪ˠ ə
@@ -8169,6 +8679,7 @@ loing	l̪ˠ ɪ ɲ
 loinge	l̪ˠ ɪ ɲ ɟ ɪ
 loingeas	l̪ˠ ɪ ɲ ɟ ə sˠ
 loirg	l̪ˠ ɞ ɾʲ ɪ ɟ
+loirgim	l̪ˠ ɞ ɾʲ ɪ ɟ ə mʲ
 loisc	l̪ˠ ɞ ʃ c
 loiscim	l̪ˠ ɞ ʃ c ɪ mʲ
 loistín	l̪ˠ ɞ ʃ tʲ iː nʲ
@@ -8181,7 +8692,18 @@ lom	l̪ˠ ɑ u mˠ
 lom	l̪ˠ ʊ mˠ
 lom	l̪ˠ ʌ mˠ
 lomabharróg	l̪ˠ ɔ mˠ ə vˠ ɑ ɾˠ oː ɡ
+lomadh	l̪ˠ ɔ mˠ ə
+lomadh	l̪ˠ ɔ mˠ ə x
+lomadh	l̪ˠ ɔ mˠ ə ɡ
+lomadh	l̪ˠ ʊ mˠ uː
+lomadh	l̪ˠ ʊ mˠ ə
+lomadh	l̪ˠ ʊ mˠ ə tʲ
+lomadh	l̪ˠ ʊ mˠ ə vˠ
+lomadh	l̪ˠ ʊ mˠ ə x
+lomadh	l̪ˠ ʌ mˠ u
+lomadh	l̪ˠ ʌ mˠ ə tʲ
 lomaim	l̪ˠ ɔ mˠ ə mʲ
+lomaim	l̪ˠ ɞ mˠ ə mʲ
 lomfad	l̪ˠ ɑ u mˠ h ə d̪ˠ
 long	l̪ˠ uː ŋ ɡ
 long	l̪ˠ ɔ ŋ
@@ -8192,6 +8714,8 @@ lonnaithe	l̪ˠ ɔ n̪ˠ iː
 lonnaithe	l̪ˠ ɔ n̪ˠ ə h ə
 lonrach	l̠ʲ ɨ̞ nˠ ɾˠ a x
 lonrach	l̠ʲ ɨ̞ n̠ʲ ə ɾˠ a x
+lonradh	l ũː n̪ˠ ɾˠ ə
+lonradh	l̪ˠ ã ũ n̪ˠ ɾˠ ə
 lonta	l̪ˠ ʊ n̪ˠ t̪ˠ ə
 lorg	l̪ˠ ɔ ɾˠ ə ɡ
 lorg	l̪ˠ ʌ ɾˠ ə ɡ
@@ -8213,6 +8737,9 @@ luail	l̪ˠ u ə lʲ
 luain	l̪ˠ u ə nʲ
 luaith	l̪ˠ u i̯
 luaith	l̪ˠ u ə
+luaithreamhán	l̪ˠ u ə h ɾʲ ə w a nˠ
+luaithreamhán	l̪ˠ u ə h ɾʲ ə w a n̪ˠ
+luaithrigh	l̪ˠ u ə h ɾʲ i
 luan	l̪ˠ u ə nˠ
 luas	l̪ˠ u ə sˠ
 luascánach	l̪ˠ u ə sˠ k a n a x
@@ -8221,6 +8748,7 @@ luath	l̪ˠ u ə h
 luathcha	l̪ˠ u ə x ə
 luaíocht	l̪ˠ u i̯ a x t̪ˠ
 luch	l̪ˠ ɔ x
+luch	l̪ˠ ɯ x
 luch	l̪ˠ ʊ x
 luch	l̪ˠ ʌ x
 lucharachán	l̪ˠ ʊ x ə ɾˠ ə x ɑː nˠ
@@ -8310,6 +8838,8 @@ léamh	l̠ʲ eː w
 léan	lʲ iː a̯ n̪ˠ
 léan	l̠ʲ eː nˠ
 léan	l̠ʲ eː n̪ˠ
+léanmhar	l̠ʲ eː nˠ u ɾˠ
+léanmhar	l̠ʲ eː n̪ˠ u ɾˠ
 léann	l̠ʲ eː n̪ˠ
 léarscáil	lʲ eː ɾˠ sˠ k aː lʲ
 léaró	l̠ʲ eː ɾˠ oː
@@ -8329,7 +8859,9 @@ léim	lʲ eː mʲ
 léim	l̠ʲ eː j ə mˠ
 léim	l̠ʲ eː mʲ
 léimt	l̠ʲ eː mʲ tʲ
+léine	l̠ʲ eː nʲ i
 léine	l̠ʲ eː nʲ ə
+léinidh	l̠ʲ eː nʲ i
 léinn	lʲ eː nʲ
 léir	l̠ʲ eː ɾʲ
 léis	l̠ʲ eː ʃ
@@ -8468,7 +9000,9 @@ mainicín	mˠ a nʲ ə c iː nʲ
 mainicín	mˠ a nʲ ɪ c i nʲ
 mainicín	mˠ a nʲ ɪ c iː nʲ
 mainnear	mˠ æ n̠ʲ ə ɾʲ
+mainéar	mˠ æ nʲ æ ɾʲ
 mair	mˠ a ɾʲ
+mair	mˠ æ ɾʲ
 mair	mˠ ɛ ɾʲ
 mairbh	mˠ a rʲ ə vʲ
 mairbh	mˠ ɑ rʲ ə vʲ
@@ -8481,6 +9015,8 @@ mairg	mˠ æ ɾʲ ɪ ɟ
 mairim	mˠ a ɾʲ ə mʲ
 mairim	mˠ æ ɾʲ ə mˠ
 mairim	mˠ ɛ ɾʲ ə mˠ
+mairnéalach	mˠ aː ɾˠ n̠ʲ a lˠ a x
+mairnéalach	mˠ aː ɾˠ n̠ʲ a l̪ˠ a x
 mairstean	mˠ a ɾˠ sˠ tʲ ə nˠ
 mairt	mˠ a ɾˠ tʲ
 mairteoil	mˠ a ɾʲ tʲ oː lʲ
@@ -8555,12 +9091,13 @@ maorga	mˠ iː ɾˠ ɡ ə
 maos	mˠ eː sˠ
 maos	mˠ iː sˠ
 maos	mˠ ɯ̃ː sˠ
-maoth	mˠ eː
+maoth	mˠ eː h
 maoth	mˠ iː
 maoth	mˠ ɯ̃ː
 mapa	mˠ a pˠ ə
 mar	mˠ a ɾˠ
 mar	mˠ ɑ ɾˠ
+mar	mˠ ə ɾˠ
 maraigh	mˠ a ɾˠ iː
 maraigh	mˠ a ɾˠ ə
 maraigh	mˠ a ɾˠ ə w i
@@ -8570,6 +9107,9 @@ maratón	mˠ a ɾˠ ə t̪ˠ ɔ nˠ
 maratón	mˠ ɑ ɾˠ ə t̪ˠ oː n̪ˠ
 maraí	mˠ a ɾˠ i
 maraí	mˠ a ɾˠ iː
+maraím	mˠ a ɾˠ iː mʲ
+maraím	mˠ a ɾˠ ə w i mˠ
+maraím	mˠ ə ɾˠ iː mʲ
 marbh	mˠ a rˠ u
 marbh	mˠ a rˠ uː
 marbh	mˠ ɑ ɾˠ ə vˠ
@@ -8591,6 +9131,7 @@ mart	mˠ a ɾˠ tˠ
 marú	mˠ a ɾˠ uː
 marú	mˠ a ɾˠ ə w ə
 marú	mˠ ɑ ɾˠ uː
+marú	mˠ ə ɾˠ uː
 maslú	mˠ a sˠ l̪ˠ u
 mathúin	mˠ a h uː nʲ
 matrarc	mˠ a t̪ˠ ɾˠ ə ɾˠ k
@@ -8620,14 +9161,22 @@ mbealach	mʲ a lˠ a h
 mbealach	mʲ a lˠ ə x
 mbealach	mʲ ə l̪ˠ ɑ x
 mbealach	mˠ ɑ lˠ ə x
+mbean	mʲ a nˠ
+mbean	mʲ a n̪ˠ
+mbean	mʲ æ n
+mbean	mʲ æː n̪ˠ
+mbeanna	mʲ a n̪ˠ ə
 mbeas	mʲ ɛ sˠ
 mbeas	mʲ ɛ ɪ sˠ
 mbeid	mʲ ɛ dʲ
 mbeinn	mʲ e i n̠ʲ
+mbia	mʲ i ə
 mbláthanna	mˠ l̪ˠ æ h ə n̪ˠ ə
 mbláthanna	mˠ l̪ˠ ɑː h ə n̪ˠ ə
 mbláthanna	mˠ l̪ˠ ɑː n̪ˠ iː
 mboga	mˠ ɔ ɡ ə
+mboicht	mˠ ɔ x tʲ
+mbrata	mˠ ɾˠ a t̪ˠ ə
 mbreathnaíonn	mʲ ɾʲ a n̪ˠ iː n̪ˠ
 mbreathnaíonn	mʲ ɾʲ æː n̪ˠ iː n̪ˠ
 mbris	mʲ ɾʲ ɪ ʃ
@@ -8636,6 +9185,12 @@ mbriseadh	mʲ ɾʲ ɪ ʃ uː
 mbriseadh	mʲ ɾʲ ɪ ʃ ə
 mbriseadh	mʲ ɾʲ ɪ ʃ ə tʲ
 mbriseadh	mʲ ɾʲ ɪ ʃ ə x
+mbróga	mˠ ɾˠ oː ɡ iː
+mbróga	mˠ ɾˠ oː ɡ ə
+mbróga	mˠ ɾˠ ɔː ɡ ə
+mbróin	mˠ ɾˠ oː nʲ
+mbróin	mˠ ɾˠ uː nʲ
+mbuailte	mˠ u ə l̠ʲ tʲ ə
 mbá	mˠ aː
 mbá	mˠ ɑː
 mbád	mˠ ɑː d̪ˠ
@@ -8651,11 +9206,10 @@ meabhair	mʲ oː rʲ
 meacain	mʲ a k a nʲ
 meacain	mʲ a k ə nʲ
 meacan	mʲ a k a nˠ
+meacan	mʲ a k a n̪ˠ
 meacan	mʲ a k ə nˠ
+meacan	mʲ a k ə n̪ˠ
 meadar	mʲ a d̪ˠ ə ɾˠ
-meadhbh	mʲ eː vˠ
-meadhbh	mʲ eː w
-meadhbh	mʲ eː w ə
 meadhg	mʲ a i ɡˠ
 meadhg	mʲ eː ɡˠ
 meaingeal	m æ ɲ ɟ ə l
@@ -8679,7 +9233,7 @@ meallta	mʲ a l̪ˠ t̪ˠ ə
 meana	mʲ a nˠ i
 meana	mʲ a n̪ˠ i
 meana	mʲ a n̪ˠ ə
-meanma	mʲ a nˠ mˠ ə
+meanma	mʲ a nˠ ə mˠ ə
 meannán	mʲ a n̪ˠ a nˠ
 meannán	mʲ a n̪ˠ a n̪ˠ
 mear	mʲ a ɾˠ
@@ -8701,7 +9255,6 @@ meathló	mʲ a h lˠ ɔ
 meathló	mʲ a h l̪ˠ oː
 meathán	m a h a nˠ
 meathán	m a h a n̪ˠ
-meidhbhín	mʲ eː vʲ iː nʲ
 meidhir	mʲ ə i rʲ
 meil	mʲ ɛ lʲ
 meileadh	mʲ ɛ lʲ u
@@ -8731,7 +9284,8 @@ meithle	mʲ ɛ h lʲ ə
 meoin	mʲ oː nʲ
 meon	mʲ uː n̪ˠ
 meonúil	mʲ uː n̪ˠ uː lʲ
-meá	mʲ aː
+meá	mʲ æ h
+meá	mʲ ɑː
 meáchan	mʲ aː x ə nˠ
 meáfaidh	mʲ ãː i̯ h ə
 meáfaidh	mʲ ɑː h ɪ ɟ
@@ -8977,7 +9531,10 @@ mná	mˠ n̪ˠ ɑː
 mná	mˠ ɾˠ aː
 mná	mˠ ɾˠ ɑː
 mo	mˠ a
+mo	mˠ ɔ
 mo	mˠ ə
+moch	m ɔ x
+moch	m ɯ x
 moch	mˠ ɔ x
 moch	mˠ ʊ x
 moch	mˠ ʌ x
@@ -9002,15 +9559,22 @@ mol	mˠ ʌ lˠ
 mol	mˠ ʌ l̪ˠ
 mola	mˠ ɔ lˠ ə
 mola	mˠ ʌ lˠ ə
-molad	mˠ ɔ lˠ ə d̪ˠ
+molad	mˠ ɔ l̪ˠ ə d̪ˠ
 moladh	mˠ ɔ lˠ uː
 moladh	mˠ ɔ lˠ ə
 moladh	mˠ ɔ lˠ ə tʲ
 moladh	mˠ ɔ lˠ ə vˠ
 moladh	mˠ ɔ lˠ ə x
-moladh	mˠ ɔ lˠ ə ɡ
+moladh	mˠ ɔ l̪ˠ uː
+moladh	mˠ ɔ l̪ˠ ə
+moladh	mˠ ɔ l̪ˠ ə tʲ
+moladh	mˠ ɔ l̪ˠ ə vˠ
+moladh	mˠ ɔ l̪ˠ ə x
+moladh	mˠ ɔ l̪ˠ ə ɡ
 moladh	mˠ ʌ lˠ u
 moladh	mˠ ʌ lˠ ə tʲ
+moladh	mˠ ʌ l̪ˠ u
+moladh	mˠ ʌ l̪ˠ ə tʲ
 molann	mˠ ɔ lˠ ə n̪ˠ
 molann	mˠ ʌ lˠ ə n̪ˠ
 molas	mˠ ɔ lˠ ə sˠ
@@ -9024,9 +9588,11 @@ molfaidh	mˠ ʌ lˠ h ə
 molfaidh	mˠ ʌ l̪ˠ h ə
 molfar	mˠ ɔ lˠ fˠ ə ɾˠ
 moll	mˠ ʌ l̪ˠ
-molt	m ɔ l̪ˠ t̪ˠ
-molt	m ɞ l̪ˠ h
-molt	m ɞ l̪ˠ t̪ˠ
+molt	mˠ ɔ l̪ˠ h
+molt	mˠ ɔ l̪ˠ t̪ˠ
+molt	mˠ ɞ l̪ˠ h
+molt	mˠ ɞ l̪ˠ t̪ˠ
+molta	mˠ ɔ l̪ˠ t̪ˠ ə
 monabhar	mˠ ɔ nˠ ə vˠ ə ɾˠ
 monabhar	mˠ ɔ nˠ ə w ə ɾˠ
 monabhar	mˠ ʊ nˠ ə w ə ɾˠ
@@ -9073,6 +9639,8 @@ muide	mˠ ɪ dʲ ə
 muidne	mˠ ɪ dʲ nʲ ə
 muileann	mˠ ɪ lʲ ə n̪ˠ
 muilinn	mˠ ɪ lʲ ə n̠ʲ
+muimhneach	mˠ iː n̠ʲ ə x
+muinchille	mˠ ɪ ɾʲ h i l̠ʲ ə
 muine	mˠ ɪ nʲ ə
 muineál	mʲ ə nʲ ɑː l̪ˠ
 muineál	mˠ ɪ n ɑː l
@@ -9090,8 +9658,9 @@ muirear	mˠ ɪ ɾʲ ə ɾˠ
 muirir	mˠ ɪ ɾʲ ə ɾʲ
 muiris	mˠ ɪ ɾʲ ə ʃ
 muirneach	mˠ ʌ ɾˠ n̠ʲ a x
-muirnín	mˠ uː ɾˠ nʲ i nʲ
 muirnín	mˠ uː ɾˠ nʲ iː nʲ
+muirnín	mˠ uː ɾˠ n̠ʲ iː nʲ
+muirnín	mˠ ʌ ɾˠ n̠ʲ i nʲ
 muirín	mˠ ɪ ɾʲ i nʲ
 muirín	mˠ ɪ ɾʲ iː nʲ
 muis	mˠ ɪ ʃ
@@ -9102,7 +9671,9 @@ mullach	mˠ ʊ l̪ˠ ə x
 mumhain	mˠ uː nʲ
 mumhan	mˠ uː nˠ
 muna	mˠ ʊ nˠ ə
+mungarlach	mˠ ʊ ŋ ɡ ə ɾˠ l̪ˠ ə x
 mur	mˠ ə ɾˠ
+mura	mˠ ə ɾˠ
 mura	mˠ ʊ ɾˠ ə
 murab	mˠ ʊ ɾˠ ə bˠ
 murach	mˠ ʊ ɾˠ ə x
@@ -9114,7 +9685,7 @@ murnán	mˠ uː ɾˠ n̪ˠ a nˠ
 murnán	mˠ uː ɾˠ n̪ˠ aː nˠ
 murnán	mˠ uː ɾˠ n̪ˠ aː n̪ˠ
 mustar	mˠ ʊ sˠ t̪ˠ ə ɾˠ
-má	mˠ æː
+má	mˠ aː
 má	mˠ ɑː
 mág	mˠ ɑː ɡ
 máilín	mˠ æː lʲ i nʲ
@@ -9129,6 +9700,9 @@ máistreás	mˠ æː ʃ tʲ ɾʲ æ sˠ
 máistreás	mˠ ɑː ʃ tʲ ɾʲ ɑː sˠ
 máistreása	mˠ æː ʃ tʲ ɾʲ æ sˠ ə
 máistreása	mˠ ɑː ʃ tʲ ɾʲ ɑː sˠ ə
+máithreacha	mˠ a i h ɾˠ a x ə
+máithreacha	mˠ ɑː h ɾʲ ə x ə
+máithreacha	mˠ ɑː ɾʲ ə x iː
 mála	mˠ æː l̪ˠ ə
 mála	mˠ ɑː l̪ˠ ə
 málta	mˠ ɑː l̪ˠ t̪ˠ ə
@@ -9153,6 +9727,9 @@ máthar	mˠ ɑː ɾˠ
 mé	mʲ eː
 mé	mʲ iː
 mé	mʲ ə
+méabh	mʲ eː vˠ
+méabh	mʲ eː w
+méabh	mʲ eː w ə
 méad	mʲ eː d̪ˠ
 méadaigh	mʲ eː d̪ˠ ɪ ɟ
 méadail	mʲ eː d̪ˠ ə lˠ
@@ -9166,6 +9743,7 @@ méalach	mʲ eː lˠ ə x
 méanar	mʲ eː n̪ˠ ɾˠ ə
 méar	mʲ eː ɾˠ
 méar	mʲ iː a̯ ɾˠ
+méibhín	mʲ eː vʲ iː nʲ
 méid	mʲ eː dʲ
 méin	mʲ eː nʲ
 méine	mʲ eː nʲ ə
@@ -9202,6 +9780,7 @@ míosa	mʲ iː sˠ ə
 mír	mʲ iː ɾʲ
 míre	mʲ iː ɾʲ ə
 míreanna	mʲ iː ɾʲ ə n̪ˠ ə
+mírialta	mʲ iː ɾʲ i a l̪ˠ t̪ˠ ə
 mís	mʲ iː ʃ
 míshásta	mʲ iː h ɑː sˠ t̪ˠ ə
 místiúrtha	mʲ iː ʃ tʲ u ɾˠ h ə
@@ -9244,6 +9823,8 @@ múchadh	mˠ uː x ə tʲ
 múchadh	mˠ uː x ə vˠ
 múchadh	mˠ uː x ə x
 múchadh	mˠ uː x ə ɡ
+múchaim	mˠ uː x ə mʲ
+múchaim	mˠ uː x ə mˠ
 múin	mˠ uː nʲ
 múineadh	mˠ uː nʲ u
 múineadh	mˠ uː nʲ uː
@@ -9252,6 +9833,7 @@ múineadh	mˠ uː nʲ ə tʲ
 múineadh	mˠ uː nʲ ə vˠ
 múineadh	mˠ uː nʲ ə x
 múineadh	mˠ uː nʲ ə ɡ
+múinfidh	mˠ uː nʲ h ə
 múinid	mˠ uː nʲ ə dʲ
 múinte	mˠ uː n̠ʲ tʲ ə
 múinteoir	mˠ uː n̠ʲ tʲ a ɾʲ
@@ -9277,7 +9859,7 @@ múnfaidh	mˠ uː n̪ˠ h ə
 múnla	mˠ uː n̪ˠ l̪ˠ ə
 múr	mˠ uː ɾˠ
 mús	mˠ uː sˠ
-na	nˠ ə
+na	n̪ˠ ə
 nach	n̪ˠ a x
 nae	n̪ˠ eː
 naigín	n̪ˠ a ɟ iː nʲ
@@ -9291,6 +9873,7 @@ naomh	n̪ˠ eː vˠ
 naomh	n̪ˠ iː vˠ
 naomh	n̪ˠ iː w
 naomh	n̪ˠ ɯː w
+naomhóg	n̪ˠ eː vˠ oː ɡ
 naonúr	n̪ˠ eː n̪ˠ uː ɾˠ
 naonúr	n̪ˠ iː nˠ uː ɾˠ
 naonúr	n̪ˠ ɨ̞ nˠ u ɾˠ
@@ -9315,10 +9898,15 @@ nc	ŋ k
 nc	ɲ c
 nd	n̠ʲ
 nd	n̪ˠ
+ndara	n̪ˠ a ɾˠ ə
+ndara	n̪ˠ ɑ ɾˠ ə
 ndearna	n̠ʲ ɑː ɾˠ n̪ˠ ə
 ndearnadar	n̠ʲ aː ɾˠ n̪ˠ ə d̪ˠ ə ɾˠ
 ndearnamar	n̠ʲ aː ɾˠ n̪ˠ ə mˠ ə ɾˠ
 ndearnas	n̠ʲ aː ɾˠ n̪ˠ ə sˠ
+ndeora	nʲ oː ɾˠ ə
+ndeora	n̠ʲ oː ɾˠ ə
+ndeora	n̠ʲ ɔː ɾˠ ə
 ndiaidh	n̠ʲ i ə
 ndlaoi	n̪ˠ lˠ iː
 ndlaoi	n̪ˠ l̪ˠ iː
@@ -9335,6 +9923,13 @@ ndán	n̪ˠ æː nˠ
 ndán	n̪ˠ ɑː nˠ
 ndán	n̪ˠ ɑː n̪ˠ
 ndé	n̠ʲ eː
+ndéanamh	nʲ i a̯ n̪ˠ ə vˠ
+ndéanamh	n̠ʲ aː nˠ u
+ndéanamh	n̠ʲ aː nˠ uː
+ndéanamh	n̠ʲ eː nˠ ə
+ndéanamh	n̠ʲ iː nˠ uː
+ndéanamh	n̠ʲ iː n̪ˠ ə
+ndéanamh	n̠ʲ ɪ n̪ˠ ə
 ndéanas	n̠ʲ eː n ə sˠ
 ndéanas	n̠ʲ iː n ə sˠ
 ndéanfadh	n̠ʲ iː n ə tʲ
@@ -9373,6 +9968,7 @@ neartrach	n̠ʲ a ɾˠ t̪ˠ ɾˠ a x
 neas	nʲ a sˠ
 neas	n̠ʲ a sˠ
 neascóid	n̠ʲ a sˠ k ɔ dʲ
+neathanna	n̠ʲ a h ə n̪ˠ ĩ
 neide	n̠ʲ ɛ dʲ ə
 neimhe	n̠ʲ ɨ̞̃ vʲ ə
 neimheadh	nʲ ɛ vʲ u
@@ -9403,15 +9999,31 @@ ngeall	ɲ a l̪ˠ
 ngeall	ɲ a u l̪ˠ
 ngeall	ɲ ɑː l̪ˠ
 ngeallann	ɲ a l̪ˠ ə n̪ˠ
+ngeallta	ɲ a l̪ˠ t̪ˠ ə
+ngeallta	ɲ a u l̪ˠ t̪ˠ ə
+ngeallta	ɲ aː l̪ˠ t̪ˠ ə
+ngeallta	ɲ ɑː l̪ˠ t̪ˠ ə
+ngearradh	ɲ a ɾˠ u
+ngearradh	ɲ a ɾˠ uː
+ngearradh	ɲ a ɾˠ ə
+ngearradh	ɲ a ɾˠ ə tʲ
+ngearradh	ɲ a ɾˠ ə x
+ngearradh	ɲ ɑː ɾˠ ə
+ngearradh	ɲ ɑː ɾˠ ə tʲ
+ngearradh	ɲ ɑː ɾˠ ə x
+ngeasa	ɲ a sˠ ə
 ngeimhreadh	ɲ iː vʲ ɾʲ ə
 ngeimhreadh	ɲ iː ɾʲ ə
 ngeimhreadh	ɲ ɛ vʲ ɾʲ u
 ngeimhreadh	ɲ ɛ vʲ ɾʲ uː
+ngiorria	ɲ a ɾˠ i ə
+ngiorria	ɲ ɪ ɾˠ i ə
 nglacfaidh	ŋ lˠ a k ə
 nglacfá	ŋ l ɑ k f ɑː
 ngleann	ɲ lʲ a n̪ˠ
 ngleann	ɲ lʲ ɑ u n̪ˠ
 ngleann	ɲ lʲ ɑː n̪ˠ
+ngníomhartha	ɲ ɾʲ iː w ə ɾˠ i
 ngnóthaí	n̪ˠ uː iː
 ngobadh	ŋ ɔ bˠ uː
 ngobadh	ŋ ɔ bˠ ə
@@ -9425,6 +10037,7 @@ ngor	ŋ ʌ ɾˠ
 ngort	ŋ ɔ ɾˠ t̪ˠ
 ngort	ŋ ʌ ɾˠ t̪ˠ
 ngram	ŋ ɾˠ a mˠ
+ngreadadh	ɲ ɾʲ a d̪ˠ u
 ngrian	ɲ ɾʲ i ə nˠ
 ngrian	ɲ ɾʲ iː a̯ n̪ˠ
 ngráin	ŋ ɾˠ æː nʲ
@@ -9438,6 +10051,7 @@ ngréin	ɲ ɾʲ eː nʲ
 nguí	ŋ iː
 nguíonna	ŋ iː n̪ˠ ə
 ngé	ɲ eː
+ngéig	ɲ eː ɟ
 nia	n̠ʲ i ə
 niamh	n̠ʲ i ə w
 niamh	n̠ʲ iː w
@@ -9452,6 +10066,7 @@ nimh	n̠ʲ ɨ̞ fʲ
 nimh	n̠ʲ ɨ̞ vʲ
 nimh	n̠ʲ ɪ vʲ
 nimhe	nʲ ĩː
+nimhneach	n̠ʲ ɨ̞̃ vʲ nʲ a x
 nite	nʲ ɪ tʲ ə
 nite	n̠ʲ ɨ̞ tʲ ə
 nitear	n̠ʲ ɨ̞ tʲ ə ɾˠ
@@ -9469,6 +10084,7 @@ nochtaim	n̪ˠ ɔ x t̪ˠ ə mʲ
 nochtaim	n̪ˠ ɔ x t̪ˠ ə mˠ
 nod	n̪ˠ ɔ d̪ˠ
 nod	n̪ˠ ʌ d̪ˠ
+nodaire	n̪ˠ ɔ d̪ˠ ə ɾʲ ə
 nollag	n̪ˠ ɔ l̪ˠ ə k
 nollag	n̪ˠ ɔ l̪ˠ ə ɡ
 nollag	n̪ˠ ʌ l̪ˠ ə k
@@ -9503,6 +10119,8 @@ náisiún	n̪ˠ æː ʃ u nˠ
 náisiún	n̪ˠ ɑː ʃ uː nˠ
 náisiún	n̪ˠ ɑː ʃ uː n̪ˠ
 námhaid	n̪ˠ aː w ə dʲ
+nár	n̪ˠ æ ɾʲ
+nár	n̪ˠ ɑː ɾˠ
 néal	nʲ iː a̯ l̪ˠ
 néal	n̠ʲ eː lˠ
 néal	n̠ʲ eː l̪ˠ
@@ -9517,7 +10135,9 @@ ní	n̠ʲ iː
 nífidh	n̠ʲ iː h ə
 níl	nʲ iː nʲ
 níl	n̠ʲ iː lʲ
+ním	nʲ iː mʲ
 ním	n̠ʲ iː mʲ
+ním	n̠ʲ iː mˠ
 nímid	n̠ʲ iː mʲ ə dʲ
 nín	n̠ʲ iː nʲ
 níne	n̠ʲ iː nʲ ə
@@ -9529,6 +10149,9 @@ níon	n̠ʲ i ə nˠ
 níon	n̠ʲ i ə n̪ˠ
 níonn	n̠ʲ i ə n̪ˠ
 níonn	n̠ʲ iː n̪ˠ
+níor	nʲ iː ɾˠ
+níor	n̠ʲ iː ɾʲ
+níor	n̠ʲ iː ɾˠ
 níos	n̠ʲ iː sˠ
 níosa	nʲ iː sˠ ə
 nó	n̪ˠ oː
@@ -9545,18 +10168,21 @@ nóinín	n̪ˠ uː nʲ iː nʲ
 nóisean	n̪ˠ oː ʃ ə n̪ˠ
 nóra	n̪ˠ oː ɾˠ ə
 nóra	n̪ˠ uː ɾˠ ə
+nóra	n̪ˠ ɔː ɾˠ ə
 nós	n̪ˠ uː sˠ
 nós	n̪ˠ õː sˠ
-nóta	nˠ oː t̪ˠ ə
+nóta	n̪ˠ oː t̪ˠ ə
 nótaire	n̪ˠ oː t ə ɾʲ ə
 nótaire	n̪ˠ ɔː t ə ɾʲ ə
 obair	ɔ bˠ ə ɾʲ
 obair	ʊ bˠ ɪ ɾʲ
 obann	ɔ bˠ ə n̪ˠ
+obann	ɞ bˠ ə n̪ˠ
 oblátach	ɔ bˠ lˠ a t̪ˠ a x
 oblátach	ɔ bˠ lˠ ɑː t̪ˠ ə x
 oblátach	ə bˠ l̪ˠ ɑː t̪ˠ ə x
 ocht	ɔ x t̪ˠ
+ocht	ɞ x t̪ˠ
 ocht	ʌ x t̪ˠ
 ochtar	ɔ x t̪ˠ ə ɾˠ
 ochtó	o x t̪ˠ oː
@@ -9595,6 +10221,7 @@ oibrí	ə i bʲ ɾʲ iː
 oibrí	ɨ̞ bʲ ɾʲ i
 oibrím	ɛ bʲ ə ɾʲ iː mʲ
 oide	ɛ dʲ ə
+oide	ɞ dʲ ə
 oideachais	ɛ dʲ ə x ə ʃ
 oideachas	ɛ dʲ ə x ə sˠ
 oideas	ɛ dʲ ə sˠ
@@ -9658,6 +10285,7 @@ oilim	ɪ lʲ ə mˠ
 oiliúin	ɛ l uː n
 oiliúin	ɛ l ə vˠ ə n
 oiliúin	ɛ lʲ u nʲ
+oiliúint	ə lʲ uː nʲ tʲ
 oiliúint	ɛ lʲ u nʲ
 oiltear	ɛ lʲ tʲ ə ɾˠ
 oiltear	ɪ lʲ tʲ ə ɾˠ
@@ -9672,6 +10300,8 @@ oiread	ɪ ɾʲ ə d̪ˠ
 oiread	ʌ ɾˠ ə d̪ˠ
 oirear	ɪ ɾʲ ə ɾˠ
 oirim	ɪ ɾʲ ə mʲ
+oiriúint	ə ɾʲ uː nʲ tʲ
+oiriúnach	ə ɾʲ uː n̪ˠ ə x
 oirnis	ə u ɾʲ n̠ʲ ə ʃ
 oirthear	e ɾʲ h ə ɾˠ
 oirthear	ɔː ɾˠ h iː ɾʲ
@@ -9686,6 +10316,7 @@ oitir	ɔ tʲ ə rʲ
 ola	ɔ lˠ ə
 olann	ɔ lˠ ə n̪ˠ
 olann	ɔ l̪ˠ ə n̪ˠ
+olann	ɞ l̪ˠ ə n̪ˠ
 olc	ɔ lˠ k
 olc	ɔ l̪ˠ k
 olca	ɔ lˠ k ə
@@ -9784,7 +10415,8 @@ pardún	pˠ ɑː ɾˠ d̪ˠ uː n̪ˠ
 parthalán	pˠ aː ɾˠ h lˠ a nˠ
 parthalán	pˠ ɑ ɾˠ h ə lˠ ɑː nˠ
 parthalán	pˠ ɑ ɾˠ h ə l̪ˠ ɑː n̪ˠ
-parthas	pˠ aː r h u s
+parthas	pˠ a ɾˠ ə h ə sˠ
+parthas	pˠ aː r h uː s
 paráiste	pˠ a ɾˠ æ ʃ tʲ ə
 paráiste	pˠ ə ɾˠ ɑː ʃ tʲ ə
 paráiste	pˠ ɾˠ ɑː ʃ tʲ ə
@@ -9855,6 +10487,7 @@ philéir	fʲ ə lʲ eː ɾʲ
 philéir	fʲ ɪ lʲ e ɾʲ
 philéir	fʲ ɪ lʲ eː ɾʲ
 phinc	fʲ ɪ ɲ c
+phioc	fʲ ɯ k
 phioc	fʲ ʊ k
 phiocadh	fʲ ɪ k u
 phiocadh	fʲ ɪ k ə tʲ
@@ -9894,8 +10527,8 @@ phálás	fˠ ɑː lˠ ɑː sˠ
 phálás	fˠ ɑː l̪ˠ ɑː sˠ
 pháras	fˠ æː ɾˠ ə sˠ
 pháras	fˠ ɑː ɾˠ ə sˠ
-phóca	pˠ oː k ə
-phóca	pˠ ɔː k ə
+phóca	fˠ oː k ə
+phóca	fˠ ɔː k ə
 phógfaí	fˠ ɔː k fʲ i
 phógfaí	fˠ ɔː k i
 phós	fˠ oː sˠ
@@ -9965,6 +10598,7 @@ pinn	pʲ a i ɲ
 pinn	pʲ iː n̠ʲ
 pinn	pʲ ɪ n̠ʲ
 piobar	pʲ ɯ bˠ ə ɾˠ
+pioc	pʲ ɯ k
 pioc	pʲ ʊ k
 piocadh	pʲ ɪ k u
 piocadh	pʲ ɪ k ə tʲ
@@ -9979,6 +10613,7 @@ piont	pʲ uː n̪ˠ t̪ˠ
 pionta	pʲ ɪ n̪ˠ t̪ˠ ə
 pionós	pʲ ɨ̞ n u s
 pis	pʲ ɪ ʃ
+pisreog	pʲ ɪ ʃ ɾʲ ɔ ɡ
 pite	pʲ ɪ tʲ ə
 plaic	pˠ lˠ a c
 plaice	pˠ lˠ a c ɪ
@@ -10022,6 +10657,7 @@ pobail	pˠ ʌ bˠ ə lʲ
 pobal	pˠ ɔ bˠ ə lˠ
 pobal	pˠ ɔ bˠ ə l̪ˠ
 pobal	pˠ ʌ bˠ ə lˠ
+pobal	pˠ ʌ bˠ ə l̪ˠ
 pobalscoil	pˠ ɔ bˠ ə lˠ sˠ k ɛ lʲ
 poiblí	pˠ ɔ bˠ l̪ˠ iː
 poiblí	pˠ ə i bʲ lʲ iː
@@ -10049,6 +10685,7 @@ portach	pˠ ɔ ɾˠ t̪ˠ ə x
 portach	pˠ ə ɾˠ t̪ˠ a x
 portach	pˠ ʌ ɾˠ t̪ˠ a x
 portaireacht	pˠ ɔ ɾˠ t̪ˠ ə ɾʲ ə x t̪ˠ
+portán	pˠ ə ɾˠ t̪ˠ ɑː n̪ˠ
 pota	pˠ ɔ t̪ˠ ə
 potaisiam	pˠ ɔ t̪ˠ a ʃ i ə mˠ
 praghas	p ɾˠ ə i sˠ
@@ -10060,6 +10697,8 @@ pras	pˠ ɾˠ a sˠ
 pras	pˠ ɾˠ ɑ sˠ
 pratastúnach	pˠ ɾˠ aː t̪ˠ ə sˠ t̪ˠ uː n̪ˠ ə x
 preab	pʲ ɾʲ a bˠ
+preabán	pʲ ɾʲ a bˠ a nˠ
+preabán	pʲ ɾʲ a bˠ a n̪ˠ
 preas	pʲ ɾʲ a sˠ
 prioc	pʲ ɾʲ ʊ k
 prios	pʲ ɾʲ ɨ̞ sˠ
@@ -10095,11 +10734,14 @@ próifíl	pˠ ɾˠ ɔː fʲ i lʲ
 próis	pˠ ɾˠ oː ʃ
 puball	pˠ ʊ bˠ ə l̪ˠ
 puca	pˠ ʊ k ə
+puimcín	pˠ ɪ mʲ c iː n
+puimcín	pˠ ɪ mʲ c ɪ n̠ʲ
 puinn	pˠ iː nʲ
 puis	pˠ ɪ ʃ
 puisín	pʲ ɪ ʃ i nʲ
 puisín	pˠ ɪ ʃ i nʲ
 puisín	pˠ ɪ ʃ iː nʲ
+puiteach	pˠ ʊ tʲ ə x
 puithín	pˠ ɪ h iː nʲ
 punann	pˠ ʊ nˠ ə n̪ˠ
 punann	pˠ ʊ n̪ˠ ə n̪ˠ
@@ -10238,6 +10880,7 @@ raiméis	ɾˠ aː mˠ a sˠ
 raiméis	ɾˠ æː mʲ e ʃ
 raiméis	ɾˠ ɑː mʲ eː ʃ
 rainnt	ɾˠ ɑ i nʲ tʲ
+raithneach	ɾˠ a i h nʲ a x
 raithneach	ɾˠ æ h nʲ a x
 raithneach	ɾˠ æ n̠ʲ a x
 ramhar	ɾˠ a u ɾˠ
@@ -10257,6 +10900,8 @@ reacht	ɾˠ a x t̪ˠ
 reachtach	ɾˠ a x t̪ˠ a x
 reachtach	ɾˠ a x t̪ˠ ə x
 reath	ɾˠ a h
+reatha	ɾˠ a h ə
+reathaim	ɾˠ a h ə mˠ
 reathfaidh	ɾˠ a fˠ ə
 reic	ɾˠ ɛ c
 reicteam	ɾˠ ɛ c tʲ ə mˠ
@@ -10290,6 +10935,7 @@ riachtanas	ɾˠ iː x t̪ˠ ə nˠ ə sˠ
 riachtanas	ɾˠ ɤː x t̪ˠ ə nˠ ə sˠ
 riachtanas	ɾˠ ɯː x t̪ˠ ə nˠ ə sˠ
 riail	ɾˠ eː lˠ
+riail	ɾˠ eː l̪ˠ
 riail	ɾˠ i ə lʲ
 riail	ɾˠ ɤː lˠ
 rialacha	ɾˠ eː lˠ a x ə
@@ -10334,9 +10980,10 @@ riocht	ɾˠ ʊ x t̪ˠ
 risteard	ɾˠ ɪ ʃ tʲ ɑː ɾˠ d̪ˠ
 rite	ɾˠ ɨ̞ tʲ ə
 rite	ɾˠ ɪ tʲ ə
-rith	ɾˠ ɪ h
+rith	ɾˠ ɞ h
 rith	ɾˠ ɪ ç
-rith	ɾˠ ɯ h ç
+rith	ɾˠ ɯ h
+rith	ɾˠ ɯ ç
 rith	ɾˠ ʊ
 rithfidh	ɾˠ ɪ ç ə
 rithim	ɾˠ ɪ h ə mʲ
@@ -10394,15 +11041,18 @@ ruacan	ɾˠ u ə k ə nˠ
 ruadhán	ɾˠ uː a nˠ
 ruadhán	ɾˠ uː ɑː nˠ
 ruadhán	ɾˠ uː ɑː n̪ˠ
+ruag	ɾˠ u ə ɡ
 ruaig	ɾˠ u ə ɟ
 ruaigim	ɾˠ u ə ɟ ɪ mʲ
 ruaigim	ɾˠ u ə ɟ ɪ mˠ
 ruainne	ɾˠ u ə n̠ʲ ə
 ruainne	ɾˠ uː n̠ʲ ə
+ruairí	ɾˠ u ə ɾʲ iː
 rud	ɾˠ ɨ̞ d̪ˠ
 rud	ɾˠ ʊ d̪ˠ
 rud	ɾˠ ʌ d̪ˠ
 ruda	ɾˠ ʊ d̪ˠ ə
+rug	ɾˠ ʌ ɡ
 rugadh	ɾˠ ɞ ɡ ə vˠ
 rugadh	ɾˠ ʊ ɡ u
 rugadh	ɾˠ ʊ ɡ uː
@@ -10415,6 +11065,7 @@ rá	ɾˠ ɑː
 ráinig	ɾˠ aː nʲ ɪ c
 ráinig	ɾˠ ɑː nʲ ɪ c
 ráinig	ɾˠ ɑː nʲ ɪ ɟ
+ráit	ɾˠ aː tʲ
 ráite	ɾˠ ɑː tʲ ə
 ráithe	ɾˠ aː ç ə
 rámha	ɾˠ ɑ̃ː
@@ -10430,7 +11081,7 @@ rásúr	ɾˠ ɑː sˠ uː ɾˠ
 ráth	ɾˠ aː x
 ráth	ɾˠ ɑː
 ráthanna	ɾˠ aː x ə n̪ˠ i
-ré	rˠ eː
+ré	ɾˠ eː
 réabadh	ɾˠ eː bˠ ə
 réad	ɾˠ eː d̪ˠ
 réal	ɾˠ eː lˠ
@@ -10491,13 +11142,16 @@ rógánta	ɾˠ oː ɡ ɑː n̪ˠ t̪ˠ ə
 rógánta	ɾˠ ɔː ɡ ə n̪ˠ t̪ˠ ə
 róid	ɾˠ oː dʲ
 róid	ɾˠ ɔː dʲ
+róimh	ɾˠ õː vʲ
 róimhe	ɾˠ õː vʲ ə
 róis	ɾˠ oː ʃ
 róisín	rˠ oː ʃ iː nʲ
 ról	ɾˠ oː lˠ
 rón	ɾˠ oː n̪ˠ
 rón	ɾˠ uː nˠ
+rón	ɾˠ uː n̪ˠ
 rón	ɾˠ õː nˠ
+rón	ɾˠ õː n̪ˠ
 rópa	ɾˠ oː pˠ ə
 rópa	ɾˠ ɔː pˠ ə
 rós	ɾˠ oː sˠ
@@ -10599,6 +11253,7 @@ san	sˠ ə n̪ˠ
 sanasán	sˠ a nˠ ə sˠ a nˠ
 sanasán	sˠ a nˠ ə sˠ ɑː nˠ
 sanasán	sˠ ɑ n̪ˠ ə sˠ ɑː n̪ˠ
+santach	sˠ a i nʲ tʲ ə x
 saoi	sˠ iː
 saoil	sˠ eː lʲ
 saoil	sˠ iː lʲ
@@ -10606,7 +11261,6 @@ saoile	sˠ iː lʲ ə
 saoileann	sˠ iː lʲ ə n̪ˠ
 saoir	sˠ iː ɾʲ
 saoire	sˠ iː ɾʲ ə
-saoirse	sˠ iː ɾʲ ʃ ə
 saoirse	sˠ iː ɾˠ ʃ ə
 saoiste	sˠ iː ʃ tʲ ə
 saoistí	sˠ iː ʃ tʲ i
@@ -10644,7 +11298,9 @@ saothar	sˠ iː h ə ɾˠ
 saothar	sˠ iː ɾˠ
 saothar	sˠ ɯ h ə ɾˠ
 saothraigh	sˠ iː ɾˠ ə
+saothrú	sˠ iː h ɾˠ u
 saothrú	sˠ iː ɾˠ uː
+saothrú	sˠ ɯː h ɾˠ u
 sara	sˠ a ɾˠ ə
 saraiste	sˠ a ɾˠ ə ʃ tʲ ə
 sasana	sˠ a sˠ ə nˠ ə
@@ -10656,6 +11312,8 @@ scadán	sˠ k ə d̪ˠ ɑː n̪ˠ
 scafa	sˠ k ɑ fˠ ə
 scafaire	sˠ k a fˠ ə ɾʲ ə
 scaid	sˠ k æ dʲ
+scailleagán	sˠ k a l̠ʲ ə ɡ ɑː nˠ
+scailleagán	sˠ k a l̠ʲ ə ɡ ɑː n̪ˠ
 scairbh	sˠ k æ ɾʲ ə vʲ
 scairt	sˠ k a ɾˠ tʲ
 scairteadh	sˠ k a ɾˠ tʲ u
@@ -10699,6 +11357,8 @@ scaoilim	sˠ k iː lʲ ə mʲ
 scaoilte	sˠ k iː lʲ tʲ ə
 scaollmhar	sˠ k iː lˠ u ɾˠ
 scaollmhar	sˠ k ɯː lˠ u ɾˠ
+scaoth	sˠ k eː h
+scaoth	sˠ k iː
 scar	s k a ɾˠ
 scara	sˠ k a ɾˠ ə
 scaradh	sˠ k a ɾˠ u
@@ -10752,6 +11412,7 @@ scion	ʃ c ɨ̞ n̪ˠ
 sciurd	ʃ c ɨ̞ ɾˠ d̪
 sciurdadh	ʃ c ɨ̞ ɾˠ d̪ u
 sciúirse	sˠ c uː ɾˠ ʃ ə
+sciúirsí	ʃ c uː ɾˠ sˠ i
 sciúlán	ʃ c uː lˠ a nˠ
 sciúlán	ʃ c uː lˠ ɑː nˠ
 sciúlán	ʃ c uː l̪ˠ a n̪ˠ
@@ -10762,8 +11423,10 @@ sclábhaíocht	sˠ k lˠ ɑː w i ə x t̪ˠ
 sclábhaíocht	sˠ k l̪ˠ ɑː vˠ i ə x t̪ˠ
 scoil	sˠ k ɔ lʲ
 scoil	sˠ k ɞ lʲ
+scoile	sˠ k ɞ lʲ ə
 scoileanna	sˠ k ɛ lʲ ə n̪ˠ iː
-scoileanna	sˠ k ɛ lʲ ə n̪ˠ ə
+scoileanna	sˠ k ɞ lʲ ə n̪ˠ ə
+scoilt	sˠ k ɞ lʲ tʲ
 scoith	sˠ k a i ç
 scoitheadh	s k a h u
 scoithim	sˠ k a i h ə mˠ
@@ -10863,6 +11526,7 @@ seachtar	ʃ a x t̪ˠ ə ɾˠ
 seachtar	ʃ æː x t̪ˠ ə ɾˠ
 seachtó	ʃ a x t̪ˠ oː
 seacláid	ʃ æ k lˠ ɑː dʲ
+seacláid	ʃ æ k l̪ˠ ɑː dʲ
 sead	ʃ a d̪ˠ
 seada	ʃ a d̪ˠ ə
 seadadh	ʃ a d̪ˠ u
@@ -10908,7 +11572,11 @@ seanduine	ʃ a n̪ˠ ɪ nʲ ə
 seanduine	ʃ æ n̪ˠ ɪ nʲ ə
 seanfhear	ʃ a nˠ a ɾˠ
 seanfhocal	ʃ a nˠ ɔ k ə lˠ
+seanfhocal	ʃ a nˠ ɔ k ə l̪ˠ
 seang	ʃ a n̪ˠ ə ɡ
+seangaire	ʃ a nˠ ə ɡ ə ɾʲ ə
+seangaire	ʃ a n̪ˠ ə ɡ ə ɾʲ ə
+seanléim	ʃ æ n̠ʲ l̠ʲ eː mʲ
 seanmóir	ʃ a nˠ ə m oː ɾʲ
 seanmóir	ʃ a nˠ ə m ɔ ɾʲ
 seanmóir	ʃ a n̪ˠ ə m oː ɾʲ
@@ -10926,6 +11594,7 @@ seanscéal	ʃ a n̪ˠ ʃ c i a l̪ˠ
 searbh	ʃ a rˠ u
 searbh	ʃ a rˠ uː
 searbh	ʃ a ɾˠ ə vˠ
+searrach	ʃ a ɾˠ a x
 seas	ʃ a sˠ
 seas	ʃ æ sˠ
 seasamh	ʃ a sˠ u
@@ -10934,8 +11603,10 @@ seasamh	ʃ a sˠ ə
 seasamh	ʃ a sˠ ə vˠ
 seasamh	ʃ æ sˠ ə
 seasca	ʃ a sˠ k ə
+seascann	ʃ a sˠ k ə nʲ
 seic	ʃ ɛ c
 seiche	ʃ ɛ ç ə
+seicin	ʃ ɪ c nʲ ə
 seift	ʃ ɛ fʲ tʲ
 seiftiú	ʃ ɛ fʲ tʲ u
 seilbh	ʃ ɛ lʲ ə vʲ
@@ -10947,7 +11618,9 @@ seimint	ʃ ɛ mʲ ə nʲ tʲ
 seinm	ʃ ɛ nʲ ə mʲ
 seinm	ʃ ɪ nʲ ə mʲ
 seinn	ʃ ɪ n̠ʲ
+seinnfidh	ʃ ɪ n̠ʲ h ə
 seirbhe	ʃ ɪ ɾʲ ɪ vʲ ə
+seisc	ʃ ɛ ʃ c
 seise	ʃ ɛ ʃ ə
 seisean	ʃ ɛ ʃ ə nˠ
 seisear	ʃ ɛ ʃ ə ɾˠ
@@ -10958,6 +11631,8 @@ seisreach	ʃ ɛ ʃ ɾʲ a x
 seisreach	ʃ ɛ ʃ ɾʲ ə x
 seithe	ʃ ɛ ç ə
 seo	ʃ ɔ
+seobh	ʃ ɔ w
+seod	ʃ ɔ d̪
 seoid	ʃ oː dʲ
 seoid	ʃ ɔː dʲ
 seoigh	ʃ oː j
@@ -10971,8 +11646,9 @@ seolaim	ʃ oː lˠ ə mʲ
 seolaim	ʃ oː l̪ˠ ə mʲ
 seolaim	ʃ ɔː lˠ ə mˠ
 seolaim	ʃ ɔː l̪ˠ ə mˠ
-seomra	ʃ oː mˠ ɾˠ ə
 seomra	ʃ uː mˠ ɾˠ ə
+seomra	ʃ õː mˠ ə ɾˠ ə
+seomra	ʃ ɑ̃ ũː mˠ ə ɾˠ ə
 seordán	ʃ oː ɾˠ d̪ˠ ɑː nˠ
 seordán	ʃ oː ɾˠ d̪ˠ ɑː n̪ˠ
 seordán	ʃ ɔː ɾˠ d̪ˠ a nˠ
@@ -10999,6 +11675,7 @@ shaoil	h iː lʲ
 sheaicéad	h a c eː d̪ˠ
 sheaicéad	h a c æ d̪ˠ
 sheaicéad	h æː c eː d̪ˠ
+sheanléim	h æ n̠ʲ l̠ʲ eː mʲ
 sheisear	h ɛ ʃ ə ɾˠ
 sheoirse	ç oː ɾˠ ʃ ə
 sheolamar	ç oː l̪ˠ ə mˠ ə ɾʲ
@@ -11041,11 +11718,16 @@ shlí	h lʲ iː
 shlí	h l̠ʲ iː
 shlíoc	h lʲ iː k
 shnaidhm	h n̪ˠ ĩː mʲ
+shneachta	h nʲ a x t̪ˠ ə
+shneachta	h nʲ ã x t̪ˠ ə
+shneachta	h nʲ æː x t̪ˠ ə
 shnua	h n̪ˠ uː
 shnua	h n̪ˠ uː ə
 shnáith	nˠ æː i ç
 shnámh	h n̪ˠ ãː w
 shnámh	h n̪ˠ ɑː vˠ
+shníomh	h nʲ iː vˠ
+shníomh	h nʲ iː w
 shníomhtaí	nʲ iː w h i
 sholas	h ɔ lˠ ə sˠ
 sholas	h ɔ l̪ˠ ə sˠ
@@ -11061,6 +11743,8 @@ shrathnaigh	h ɾˠ ʌ h n̪ˠ i
 shrathnaigh	h ɾˠ ʌ h n̪ˠ ə
 shráid	h ɾˠ aː dʲ
 shráid	h ɾˠ ɑː dʲ
+shróna	h ɾˠ oː nˠ ə
+shróna	h ɾˠ oː n̪ˠ ə
 shuigh	h iː
 shuigh	h ɪ ɟ
 shuigh	h ʊ
@@ -11151,13 +11835,12 @@ sinéad	ʃ ɪ nʲ e d̪ˠ
 sinéad	ʃ ɪ nʲ eː d̪ˠ
 siobhán	ʃ ʊ w aː n̪ˠ
 sioc	ʃ ɨ̞ k
-sioc	ʃ ʊ k
+sioc	ʃ ɯ k
 siocair	ʃ ɨ̞ k ɪ ɾʲ
 siocair	ʃ ʌ k ɪ ɾʲ
 siolla	ʃ ɨ̞ l̪ˠ u
 siolla	ʃ ɪ l̪ˠ ə
 siolla	ʃ ɯ l̪ˠ ə
-sionnach	ʃ ɪ n̪ˠ a h
 sionnach	ʃ ɪ n̪ˠ a x
 sionnach	ʃ ɪ n̪ˠ ɑ x
 sionnach	ʃ ɪ n̪ˠ ə x
@@ -11223,6 +11906,8 @@ sliasad	ʃ lʲ i ə sˠ ə d̪ˠ
 slige	ʃ l̠ʲ ɪ ɟ ɪ
 sligeach	ʃ l̠ʲ ɪ ɟ a x
 sligeach	ʃ l̠ʲ ɪ ɟ ə x
+sliogán	ʃ lʲ ə ɡ ɑ̃ː n̪ˠ
+sliogán	ʃ lʲ ɨ̞ ɡ ɑ̃ː n̪ˠ
 slisne	ʃ l̠ʲ ɪ ʃ n̠ʲ ə
 slog	sˠ l̪ˠ ɔ ɡ
 slog	sˠ l̪ˠ ʌ ɡ
@@ -11276,6 +11961,7 @@ slíoc	ʃ lʲ iː k
 slíoc	ʃ l̠ʲ iː k
 smacht	sˠ mˠ a x t̪ˠ
 smacht	sˠ mˠ ɑ x t̪ˠ
+smachtín	sˠ mˠ a x tʲ iː nʲ
 smailte	sˠ mˠ æ l̠ʲ tʲ ə
 smaoin	sˠ mˠ iː n
 smaoin	sˠ mˠ ɯː n
@@ -11316,6 +12002,7 @@ sna	sˠ nˠ ə
 snag	sˠ n̪ˠ a ɡ
 snaga	sˠ n̪ˠ a ɡ ə
 snagcheol	sˠ n̪ a ɡ ç oː lˠ
+snaidhm	sˠ n̪ˠ iː mʲ
 snaidhm	sˠ n̪ˠ ĩː mʲ
 snaoisín	sˠ n̪ˠ iː ʃ i nʲ
 snaoisín	sˠ n̪ˠ iː ʃ iː nʲ
@@ -11346,10 +12033,14 @@ snámhfaidh	sˠ n̪ˠ aː w h ə
 snáth	sˠ n̪ˠ aː
 snáth	sˠ n̪ˠ ɑː
 snáth	sˠ n̪ˠ ɑː h
+snátha	sˠ n̪ˠ aː
+snátha	sˠ n̪ˠ ɑː
+snátha	sˠ n̪ˠ ɑː h ə
 snáthad	sˠ n̪ˠ a h a d̪ˠ
 snáthad	sˠ n̪ˠ a h ə d̪ˠ
 snáthad	sˠ n̪ˠ ɑː h ə d̪ˠ
 snáthadh	sˠ n̪ˠ a h u w
+snáthaid	sˠ n̪ˠ a h ə dʲ
 snáthaid	sˠ n̪ˠ a h ə d̪ˠ
 snáthaid	sˠ n̪ˠ ɑː dʲ
 snáthaid	sˠ n̪ˠ ɑː h ə d̪ˠ
@@ -11368,6 +12059,7 @@ sochaí	sˠ ɔ x i
 sochaí	sˠ ɔ x iː
 sochaí	sˠ ə x iː
 sochraid	sˠ ɔ x ɾˠ ə dʲ
+sochraid	sˠ ɞ x ə ɾˠ ə dʲ
 sochreidte	sˠ ɔ ç ɾʲ ɛ tʲ ə
 sochreidte	sˠ ɔː ç ɾʲ ɛ tʲ ə
 socra	sˠ ɔ k ɾˠ ə
@@ -11379,6 +12071,8 @@ socraigh	sˠ ʌ k ɾˠ i
 socrú	sˠ ɔ k ɾˠ uː
 socrú	sˠ ə k ɾˠ uː
 socrú	sˠ ʌ k ɾˠ u
+sodar	sˠ ɔ d̪ˠ ə ɾˠ
+sodar	sˠ ɞ d̪ˠ ə ɾˠ
 sodhantach	sˠ oː n̪ˠ t̪ˠ a x
 soic	sˠ ɨ̞ c
 soic	sˠ ɪ c
@@ -11415,6 +12109,9 @@ solais	sˠ ɔ lˠ ə ʃ
 solais	sˠ ɔ l̪ˠ ə ʃ
 solas	sˠ ɔ lˠ ə sˠ
 solas	sˠ ɔ l̪ˠ ə sˠ
+sona	sˠ ɔ n̪ˠ ə
+sona	sˠ ɞ n̪ˠ ə
+sona	sˠ ʊ nˠ ə
 sona	sˠ ʊ n̪ˠ ə
 sonra	s oː nˠ ɾˠ ə
 sonra	sˠ ɔ n̪ˠ ɾˠ ə
@@ -11424,7 +12121,7 @@ sonrú	sˠ oː nˠ ɾˠ u
 sonrú	sˠ õː ɾˠ u
 sonrú	sˠ ɔ n̪ˠ ɾˠ uː
 sop	sˠ a pˠ
-sop	sˠ ɔ pˠ
+sop	sˠ ɞ pˠ
 sorcas	sˠ ɔ ɾˠ k ə sˠ
 sorcas	sˠ ʌ ɾˠ k ə sˠ
 sorcha	s ɔ ɾˠ ə x ə
@@ -11454,6 +12151,7 @@ spealadóir	sˠ pʲ a l̪ˠ ə d̪ˠ oː ɾʲ
 spealaid	sˠ pʲ a lˠ ə dʲ
 spealas	sˠ pʲ a lˠ ə s
 speanc	sˠ pʲ ɪ ɲ c
+speireach	sˠ p ʌ ɾˠ a x
 speisialta	sˠ pʲ eː ʃ ɑː l̪ˠ t̪ˠ ə
 speisialta	sˠ pʲ ɛ ʃ i ə l̪ˠ t̪ˠ ə
 spideog	s pʲ iː d̪ˠ oː ɡ
@@ -11468,6 +12166,7 @@ spochadh	sˠ pˠ ɔ x ə
 sponc	sˠ pˠ ɔ ŋ k
 sponc	sˠ pˠ ʊ ŋ k
 sponc	sˠ pˠ ʌ ŋ k
+sporach	sˠ p ʌ ɾˠ a x
 sprantais	s pˠ rˠ a n tˠ ɪ ʃ
 spraoi	sˠ pˠ ɾˠ iː
 spreag	sˠ pʲ ɾʲ a ɡ
@@ -11479,6 +12178,7 @@ spreagadh	sˠ pʲ ɾʲ a ɡ ə vˠ
 spreagadh	sˠ pʲ ɾʲ a ɡ ə x
 spreagadh	sˠ pʲ ɾʲ a ɡ ə ɡ
 spreagtha	sˠ pʲ rʲ a k ə
+sprioc	sˠ pʲ ɾʲ ɯ k
 spriog	sˠ pʲ ɾʲ ʊ ɡ
 spriogadh	sˠ pʲ ɾʲ ʊ ɡ ə
 spriogadh	sˠ pʲ ɾʲ ʊ ɡ ə x
@@ -11516,15 +12216,18 @@ spáráil	sˠ pˠ ə ɾˠ ɑː lʲ
 spás	sˠ pˠ æː sˠ
 spás	sˠ pˠ ɑː sˠ
 spéacla	sˠ pʲ eː k l̪ˠ ə
-spéir	s pʲ eː ɾʲ
+spéir	sˠ pʲ eː ɾʲ
 spéis	sˠ pʲ eː ʃ
 spíon	sˠ pʲ iː nˠ
 spíon	sˠ pʲ iː n̪ˠ
 spúnóg	sˠ pˠ uː nˠ a ɡ
 spúnóg	sˠ pˠ uː nˠ oː ɡ
 spúnóg	sˠ pˠ uː n̪ˠ oː ɡ
-srathair	sˠ ɾˠ a h æ rʲ
+srath	sˠ ɾˠ a
+srath	sˠ ɾˠ a h
+srathair	sˠ ɾˠ a h æ ɾʲ
 srathair	sˠ ɾˠ a h ə rʲ
+srathair	sˠ ɾˠ a h ə ɾˠ
 srathnaigh	sˠ ɾˠ a h nˠ iː
 srathnaigh	sˠ ɾˠ a h nˠ ə
 srathnaigh	sˠ ɾˠ a h n̪ˠ iː
@@ -11532,7 +12235,8 @@ srathnaigh	sˠ ɾˠ a h n̪ˠ ə
 srathnaigh	sˠ ɾˠ ɑ h n̪ˠ ɪ ɟ
 srathnaigh	sˠ ɾˠ ʌ h nˠ i
 srathnaigh	sˠ ɾˠ ʌ h n̪ˠ i
-srathnú	sˠ ɾˠ ʌ h n u
+srathnú	sˠ ɾˠ ʌ h nˠ u
+srathnú	sˠ ɾˠ ʌ h n̪ˠ u
 sreang	sˠ ɾˠ a ŋ
 sreang	sˠ ɾˠ ɑː ŋ
 sreang	ʃ ɾˠ a u ŋ ɡ
@@ -11540,12 +12244,15 @@ sreangán	ʃ ɾʲ ɑ u ŋ ɑː n̪ˠ
 sreangán	ʃ ɾʲ ɑ u ŋ ɡ ɑː n̪ˠ
 srian	sˠ ɾˠ eː nˠ
 srian	sˠ ɾˠ eː n̪ˠ
-srian	sˠ ɾˠ i a nˠ
+srian	sˠ ɾˠ i a n̪ˠ
 srian	ʃ ɾʲ i ə nˠ
 srian	ʃ ɾʲ i ə n̪ˠ
 sroistint	sˠ ɾˠ ɞ ʃ tʲ ə nʲ tʲ
 sroistint	sˠ ɾˠ ɪ ʃ tʲ ə nʲ tʲ
+srotha	sˠ ɾˠ ɔ h ə
 sruith	sˠ ɾˠ ʊ h
+sruth	sˠ ɾˠ ɞ h
+sruth	sˠ ɾˠ ɯ h
 sruth	sˠ ɾˠ ʊ h
 sruthán	sˠ ɾˠ ɑː n̪ˠ
 sruthán	sˠ ɾˠ ʊ h a nˠ
@@ -11554,9 +12261,9 @@ sráid	sˠ ɾˠ aː dʲ
 sráid	sˠ ɾˠ ɑː dʲ
 sráidbhaile	sˠ ɾˠ ɑː dʲ w a lʲ ə
 sráide	sˠ ɾˠ aː dʲ ə
+sráideog	sˠ ɾˠ aː dʲ ɔ ɡ
 sréin	sˠ ɾˠ eː nʲ
-srófach	sˠ ɾ oː fˠ ə x
-srófach	sˠ ɾ ɔː fˠ a x
+srófach	sˠ ɾˠ ɔː fˠ a x
 srón	sˠ ɾˠ oː n
 srón	sˠ ɾˠ oː nˠ
 srón	sˠ ɾˠ uː n
@@ -11621,6 +12328,8 @@ stopallán	sˠ t̪ˠ ɑ p ə lˠ æ nˠ
 stopallán	sˠ t̪ˠ ɔ p ə l̪ˠ ɑː nˠ
 stopallán	sˠ t̪ˠ ɔ p ə l̪ˠ ɑː n̪ˠ
 stoptha	sˠ t̪ˠ ɔ pˠ ə
+stoth	s t̪ˠ ɞ h
+stotha	s t̪ˠ ɔ h ə
 straidhn	sˠ t̪ˠ ɾˠ ɑ i nʲ
 straidhn	sˠ t̪ˠ ɾˠ ə i nʲ
 straiméad	sˠ t̪ˠ ɾˠ aː mʲ æ dʲ
@@ -11639,9 +12348,9 @@ stróic	sˠ t̪ˠ ɾˠ oː c
 stróicthe	sˠ t̪ˠ ɾˠ oː c ə
 stróicthe	sˠ t̪ˠ ɾˠ ɔː c ə
 stua	sˠ t̪ˠ u ə
-stuidéir	sˠ t̪ˠ ə dʲ eː rʲ
+stuidéir	sˠ t̪ˠ ə dʲ eː ɾʲ
 stuif	sˠ t̪ˠ ɪ fʲ
-stá	sˠ t̪ˠ æː
+stá	sˠ t̪ˠ aː
 stá	sˠ t̪ˠ ɑː
 stábh	sˠ t̪ˠ æː w
 stábh	sˠ t̪ˠ ɑː vˠ
@@ -11704,8 +12413,9 @@ sáigh	sˠ aː j
 sáigh	sˠ ɑː
 sáigh	sˠ ɑː j
 sáigh	sˠ ɑː ɟ
-sáil	sˠ æː lʲ
+sáil	sˠ aː lʲ
 sáil	sˠ ɑː lʲ
+sáile	sˠ aː lʲ ə
 sáile	sˠ ɑː lʲ ə
 sáim	sˠ aː mˠ
 sáim	sˠ ɑː mʲ
@@ -11736,6 +12446,8 @@ sé	ʃ ə
 sé	ʃ ɛ
 séabra	ʃ eː bˠ ɾˠ ə
 séabraí	ʃ eː bˠ ɾˠ iː
+séad	ʃ eː d̪ˠ
+séad	ʃ iː a̯ d̪ˠ
 séamas	ʃ eː mˠ ə sˠ
 séan	ʃ eː nˠ
 séarlas	ʃ eː ɾˠ l̪ˠ ə sˠ
@@ -11846,6 +12558,7 @@ tabhair	t̪ˠ uː ɾʲ
 tabhairt	t̪ˠ oː ɾˠ tʲ
 tabhairt	t̪ˠ ɔ ɾˠ tʲ
 tabharfad	t̪ˠ uː ɾˠ h ə d̪ˠ
+tabharfaidh	tʲ uː ɾˠ ə
 tabharfaidh	t̪ˠ oː ɾʲ h ə
 tabharfaidh	t̪ˠ uː ɾʲ h ə
 tabharfaidh	t̪ˠ uː ɾˠ h ə
@@ -11895,6 +12608,7 @@ tairg	t̪ˠ æ ɾʲ ɪ ɟ
 tairne	t̪ˠ aː ɾˠ n̠ʲ ə
 tairne	t̪ˠ ɑː ɾˠ n̠ʲ ə
 tairngreacht	t̪ˠ a ɾˠ ɡ ə ɾʲ a x t̪ˠ
+tairseach	t̪ˠ ɔ ɾˠ sˠ a x
 tais	t̪ˠ a ʃ
 tais	t̪ˠ æ ʃ
 taisc	t̪ˠ a ʃ c
@@ -11913,13 +12627,20 @@ taispeánfaidh	tʲ ɛ ʃ a n̪ˠ ə
 taisteal	t̪ˠ a ʃ tʲ ə l̪ˠ
 taithí	t̪ˠ a h i
 taithí	t̪ˠ a h iː
+taitin	t̪ˠ æ tʲ iː nʲ
 taitneachtáil	t̪ˠ æ n̠ʲ ə x t̪ˠ ɑː lʲ
 taitnigh	t̪ˠ a n̠ʲ ə
+taitním	t̪ˠ æ tʲ nʲ iː mˠ
 talamh	t̪ˠ a lˠ u
 talamh	t̪ˠ a lˠ uː
 talamh	t̪ˠ a lˠ ə
-talamh	t̪ˠ ɑ lˠ ə vˠ
+talamh	t̪ˠ a l̪ˠ u
+talamh	t̪ˠ a l̪ˠ uː
+talamh	t̪ˠ a l̪ˠ ə
+talamh	t̪ˠ ɑ l̪ˠ ə vˠ
 talamh	t̪ˠ ɔ lˠ u
+talamh	t̪ˠ ɔ l̪ˠ u
+talún	t̪ˠ ə l̪ˠ uː n̪ˠ
 tamall	t̪ˠ a mˠ ə l̪ˠ
 tamall	t̪ˠ a mˠ ə l̪ˠ t̪ˠ
 tamall	t̪ˠ ɑ mˠ ə l̪ˠ
@@ -11929,6 +12650,7 @@ tambóirín	t̪ˠ a mˠ bˠ oː ɾʲ iː nʲ
 tamhlacht	t̪ˠ ɑː vˠ l̠ʲ a x t̪ˠ
 tanaí	t̪ˠ a n̪ˠ iː
 tanaí	t̪ˠ ɑ n iː
+tanaí	t̪ˠ ɑ n̪ˠ iː
 tanaí	t̪ˠ ə n̪ˠ iː
 tanaíocha	t̪ˠ a nˠ iː x ə
 taobh	t̪ˠ eː vˠ
@@ -11962,12 +12684,15 @@ tar	t̪ˠ a ɾˠ
 tarbh	t̪ˠ a ɾˠ u
 tarbh	t̪ˠ a ɾˠ uː
 tarbh	t̪ˠ ɑ ɾˠ ə vˠ
+tarcaisne	t̪ˠ a ɾˠ k ə ʃ n̠ʲ ə
+tarcaisne	t̪ˠ ɑ ɾˠ k ə ʃ nʲ ə
 tarlaigh	t̪ˠ ɑː ɾˠ l̪ˠ ə
 tarlú	t̪ˠ ɑː ɾˠ l̪ˠ uː
 tarmachan	t̪ˠ a ɾ ə mˠ ə x ə nˠ
 tarnochta	t̪ˠ aː ɾˠ n̪ˠ a x t̪ˠ ə
 tarra	t̪ˠ a ɾˠ ə
 tarraing	t̪ˠ a ɾʲ ɪ ɟ
+tarraing	t̪ˠ a ɾˠ n̠ʲ
 tarraing	t̪ˠ a ɾˠ ə n̠ʲ
 tarraing	t̪ˠ ɑ ɾˠ ə n
 tarraingt	t̪ˠ a ɾˠ n̠ʲ tʲ
@@ -11976,6 +12701,8 @@ tarraingt	t̪ˠ ɑ ɾˠ ə k
 tarraingím	t̪ˠ a ɾʲ ɪ ɟ iː mʲ
 tarrtháil	t̪ˠ aː ɾˠ h æ lʲ
 tarrtháil	t̪ˠ ɑː ɾˠ h ɑː lʲ
+tarrthálach	t̪ˠ aː ɾˠ h a lˠ a x
+tarrthálach	t̪ˠ aː ɾˠ h a l̪ˠ a x
 tart	t̪ˠ a ɾˠ t̪ˠ
 tart	t̪ˠ ɑ ɾˠ t̪ˠ
 tarta	t̪ˠ a ɾˠ t̪ˠ ə
@@ -11985,6 +12712,8 @@ tastáil	t̪ˠ a sˠ t̪ˠ ɑː lʲ
 tchí	tʲ iː
 tchífidh	tʲ iː fʲ i
 tchífidh	tʲ iː fʲ ə
+tchím	tʲ iː mˠ
+tchíthear	tʲ i h ə ɾˠ
 te	tʲ ɛ
 te	tʲ ɛ h
 teach	tʲ a x
@@ -11997,9 +12726,11 @@ teachín	tʲ a x i nʲ
 teachín	tʲ a x iː nʲ
 teagasc	tʲ a ɡ ə sˠ k
 teagascóir	tʲ a ɡ ə sˠ k oː ɾʲ
-teaghlach	tʲ æː ɫ̪ ə x
-teaghlach	tʲ ə i ɫ̪ ə x
+teaghlach	tʲ æː l̪ˠ ə x
+teaghlach	tʲ ə i lˠ ə x
+teaghlach	tʲ ə i l̪ˠ ə x
 teaghlach	tʲ ɨ̞ ɣ ə lˠ a x
+teaghlach	tʲ ɨ̞ ɣ ə l̪ˠ a x
 teagmhaigh	tʲ a ŋ w i
 teagmhaigh	tʲ a ŋ ə vˠ ɪ ɟ
 teagmhaigh	tʲ a ɡ w iː
@@ -12049,6 +12780,9 @@ teocht	tʲ oː x t̪ˠ
 teoiric	tʲ oː ɾʲ ɪ c
 teoiric	tʲ ɔː ɾʲ ɪ c
 teora	tʲ oː ɾˠ ə
+teorainn	tʲ oː ɾˠ ə nʲ
+teorainn	tʲ oː ɾˠ ə n̠ʲ
+teorainn	tʲ ɔː ɾˠ ə n̠ʲ
 th	h
 th'	h
 thabharfadh	h oː ɾˠ ə tʲ
@@ -12065,6 +12799,7 @@ thais	h a ʃ
 thais	h æ ʃ
 thaiscigh	t̪ˠ æ ʃ c i
 thaiscigh	t̪ˠ æ ʃ c ɪ
+thaitin	h æ tʲ iː nʲ
 thall	h a l̪ˠ
 thall	h ɑː l̪ˠ
 thall	h ɔ l̪ˠ
@@ -12083,6 +12818,10 @@ tharlaigh	h ɑ ɾˠ l̪ˠ ɪ ɟ
 tharlódh	h ɑː ɾˠ l̪ˠ oː tʲ
 tharlódh	h ɑː ɾˠ l̪ˠ oː x
 tharra	h a ɾˠ ə
+tharraing	h a ɾʲ ɪ ɟ
+tharraing	h a ɾˠ n̠ʲ
+tharraing	h a ɾˠ ə n̠ʲ
+tharraing	h ɑ ɾˠ ə n
 thart	h a ɾˠ t̪ˠ
 tharta	h a ɾˠ t̪ˠ ə
 theach	h a x
@@ -12108,6 +12847,9 @@ thiocfainn	h ʊ k ə n̠ʲ
 thiocfá	h ʊ k fˠ ɑː
 thiománach	h ɪ mˠ æ n a h
 thit	h ɪ tʲ
+thithe	h iː
+thithe	h ɪ h ə
+thithe	h ɪ h ɪ
 thlig	h lʲ ɪ ɟ
 thogh	h eː
 thogh	h ɤː
@@ -12121,8 +12863,22 @@ thorann	h ɔ ɾˠ ə n̪ˠ
 thorann	h ʌ ɾˠ ə n̪ˠ
 thosnaigh	h ɔ sˠ ə n̪ˠ ɪ ɟ
 thraoith	h ɾˠ iː
+threabh	h ɾ oː
+threabh	h ɾʲ a vˠ
+threabh	h ɾʲ ə u
 threo	h ɾʲ oː
 threo	h ɾʲ ɔː
+threoraigh	h ɾ oː ɾʲ ə
+thrian	h ɾ i ə nˠ
+thrian	h ɾ i ə n̪ˠ
+thriomaigh	h ɾ ɨ̞ mˠ i
+thriúr	h ɾ uː ɾˠ
+throid	h ɾˠ ɞ dʲ
+throid	h ɾˠ ɪ dʲ
+throsc	h ɾˠ ɔ sˠ k
+thrácht	h ɾˠ aː x t̪ˠ
+thréig	h ɾ eː ɟ
+thréig	h ɾʲ eː ɟ
 thuaidh	h u ə
 thuaidh	h u ə j
 thuaidh	h u ə ɟ
@@ -12130,10 +12886,11 @@ thuama	h u ə mˠ ə
 thuas	h u ə sˠ
 thug	h ʊ ɡ
 thug	h ʌ ɡ
-thugadh	h ʊ ɡ u
 thugadh	h ʊ ɡ uː
 thugadh	h ʊ ɡ ə tʲ
 thugadh	h ʊ ɡ ə x
+thugadh	h ʌ ɡ u
+thugadh	h ʌ ɡ ə tʲ
 thuig	h ɪ ɟ
 thuigeas	h ɪ ɟ ə sˠ
 thuigfeadh	h ɪ c ə x
@@ -12146,6 +12903,7 @@ thuilleadh	h ɪ l̠ʲ ə tʲ
 thuilleadh	h ɪ l̠ʲ ə x
 thuilleamar	h ɪ l̠ʲ ə mˠ ə ɾˠ
 thuiscint	h ɪ ʃ c ɪ n̠ʲ tʲ
+thuisligh	h ɾˠ ɪ ʃ l̠ʲ i
 thur	h ʊ ɾˠ
 thur	h ʌ ɾˠ
 thura	h ʊ ɾˠ ə
@@ -12203,7 +12961,7 @@ tinneas	tʲ ɪ nʲ ə sˠ
 tinneas	tʲ ɪ n̠ʲ ə sˠ
 tinnis	tʲ ɪ n̠ʲ ə ʃ
 tinte	tʲ ɪ n̠ʲ tʲ ə
-tiobraid	tʲ ʊ b ɾˠ ɪ dʲ
+tiobraid	tʲ ʊ bˠ ɾˠ ə dʲ
 tiocfad	tʲ ʊ k ə d̪ˠ
 tiocfad	t̪ˠ ʊ k ə d̪ˠ
 tiocfaidh	tʲ ɨ̞ k i
@@ -12224,6 +12982,7 @@ tiománaí	tʲ ɪ mˠ æ nˠ i
 tiománaí	tʲ ʊ mˠ ɑː nˠ iː
 tionchar	tʲ ɤ ŋ x ə ɾˠ
 tionchar	tʲ ʊ ŋ x ə ɾˠ
+tionlacadh	t̪ˠ uː l̪ˠ ə k ə
 tionscadal	tʲ i n̪ˠ sˠ k ə d̪ˠ ə lˠ
 tiorma	tʲ ɾʲ ʊ m ə
 tirim	tʲ ɛ ɾʲ ə mʲ
@@ -12268,6 +13027,7 @@ tobar	t̪ˠ ʌ bˠ ə ɾˠ
 tobán	t̪ˠ ɔ bˠ ɑː nˠ
 tobán	t̪ˠ ə bˠ ɑː n̪ˠ
 tobán	t̪ˠ ʌ bˠ a nˠ
+tochas	t̪ˠ ɔ x ə sˠ
 togair	t̪ˠ ɔ ɡ ə ɾʲ
 togh	t̪ˠ eː
 togh	t̪ˠ ɤː
@@ -12284,6 +13044,7 @@ toghfaidh	t̪ˠ ɤː h ə
 toghtar	t̪ˠ ɨ̥ tʲ ə ɾˠ
 toighte	t̪ˠ ɨ̞ tʲ ə
 toil	t̪ˠ ɔ lʲ
+toil	t̪ˠ ɞ lʲ
 toil	t̪ˠ ɪ lʲ
 toiligh	t̪ˠ ɛ lʲ iː
 toiligh	t̪ˠ ɞ lʲ ɪ ɟ
@@ -12294,6 +13055,7 @@ toinn	t̪ˠ a ɪ ɲ
 toinn	t̪ˠ iː n̠ʲ
 toinn	t̪ˠ ɪ n̠ʲ
 toinne	t̪ˠ ɪ n̠ʲ ə
+tointe	t̪ˠ ɨ̞ n̠ʲ tʲ ə
 toir	t̪ˠ ɛ ɾʲ
 toirbhir	t̪ˠ æ ɾʲ ə vʲ ə ɾʲ
 toircheas	t̪ˠ ɔː ɾˠ h i sˠ
@@ -12333,6 +13095,8 @@ tonn	t̪ˠ ɑ u n̪ˠ
 tonn	t̪ˠ ɔ n̪ˠ
 tonn	t̪ˠ ʌ n̪ˠ
 tonnús	t̪ˠ ɤ n̪ˠ u sˠ
+tor	t̪ˠ ɔ ɾˠ
+tor	t̪ˠ ʌ ɾˠ
 toradh	t̪ˠ ɔ ɾˠ u
 toradh	t̪ˠ ɔ ɾˠ uː
 toradh	t̪ˠ ɔ ɾˠ ə
@@ -12344,8 +13108,10 @@ torann	t̪ˠ ʌ ɾˠ ə n̪ˠ
 torc	t̪ˠ ɔ ɾˠ k
 torc	t̪ˠ ʌ ɾˠ k
 torcán	̪ tˠ ə ɾˠ k ɑː n̪ˠ
+tormas	t̪ˠ ʌ ɾˠ ə mˠ ə sˠ
 tormán	t̪ˠ a ɾˠ ə mˠ a nˠ
 tormán	t̪ˠ a ɾˠ ə mˠ a n̪ˠ
+torrach	t̪ˠ a ɾˠ a x
 torthaí	t̪ˠ ɔ ɾˠ iː
 tortóg	t uː r t ɔ ɡ
 tosach	t̪ˠ ɔ sˠ ə x
@@ -12353,7 +13119,7 @@ tosach	t̪ˠ ə sˠ ɑ x
 tosach	t̪ˠ ʌ sˠ a h
 tosaigh	t̪ˠ ɔ sˠ iː
 tosaigh	t̪ˠ ɔ sˠ ə
-tosaigh	t̪ˠ ɔ sˠ ɪ ɟ
+tosaigh	t̪ˠ ɞ sˠ ɪ ɟ
 tosaigh	t̪ˠ ʌ sˠ i
 tosaitheoir	t̪ˠ ɔ sˠ ə h oː ɾʲ
 tosaí	t̪ˠ ɔ sˠ iː
@@ -12361,6 +13127,7 @@ tosaí	t̪ˠ ə sˠ iː
 tosaí	t̪ˠ ʌ sˠ i
 tosnaigh	t̪ˠ ɔ sˠ ə n̪ˠ ɪ ɟ
 tost	t̪ˠ ɔ sˠ t̪ˠ
+tost	t̪ˠ ɞ sˠ t̪ˠ
 tostar	t̪ˠ ɔ sˠ t̪ˠ ə ɾˠ
 tostar	t̪ˠ ʌ sˠ t̪ˠ ə ɾˠ
 tosú	t̪ˠ ɔ sˠ uː
@@ -12400,8 +13167,14 @@ treoir	tʲ ɾʲ ɔː ɾʲ
 treoracha	tʲ ɾʲ oː ɾˠ ə x iː
 treoracha	tʲ ɾʲ oː ɾˠ ə x ə
 treoracha	tʲ ɾʲ ɔː ɾˠ a h ə
+treoraigh	tʲ ɾʲ oː ɾʲ ə
+triail	tʲ ɾʲ i æː lˠ
+triail	tʲ ɾʲ i ə lʲ
+triail	tʲ ɾʲ iː ɑː lʲ
+triail	t̪ˠ ɾˠ iː ɑː lʲ
 triall	tʲ ɾʲ i ə l̪ˠ
 trian	tʲ ɾʲ i ə nˠ
+trian	tʲ ɾʲ i ə n̪ˠ
 triantán	tʲ ɾʲ i ə n̪ˠ t̪ˠ a nˠ
 triantán	tʲ ɾʲ i ə n̪ˠ t̪ˠ ɑː nˠ
 triantán	tʲ ɾʲ i ə n̪ˠ t̪ˠ ɑː n̪ˠ
@@ -12417,19 +13190,23 @@ trioblóidí	nˠ ə tʲ rʲ ɪ bˠ ə lˠ oː dʲ iː
 triomach	tʲ ɾʲ ɪ m a h
 triomach	tʲ ɾʲ ɪ m ə x
 triomach	tʲ ɾʲ ʊ m ə x
+triomaigh	tʲ ɾʲ ɨ̞ mˠ i
+triomú	tʲ ɾʲ ɨ̞ mˠ uː
 triuch	tʲ ɾʲ ʊ h
 triuch	tʲ ɾʲ ʊ x
 triúr	tʲ ɾʲ uː ɾˠ
 troda	t̪ˠ ɾˠ ɔ d̪ˠ ə
 troda	t̪ˠ ɾˠ ɨ̞ d̪ˠ ə
 troda	t̪ˠ ɾˠ ʌ d̪ˠ ə
-troid	t̪ˠ ɾˠ ɛ dʲ
+troid	t̪ˠ ɾˠ ɞ dʲ
+troid	t̪ˠ ɾˠ ɪ dʲ
 troigh	t̪ˠ ɾˠ iː
 troigh	t̪ˠ ɾˠ ɔ
 troigh	t̪ˠ ɾˠ ɪ ɟ
 troime	t̪ˠ ɾˠ ɨ̞ mʲ ə
 troime	t̪ˠ ɾˠ ɪ mʲ ə
 troimide	t̪ˠ ɾˠ ɪ mʲ ə dʲ ə
+troisc	t̪ˠ ɾˠ ɔ sˠ k
 troithe	t̪ˠ ɾˠ eː
 troithe	t̪ˠ ɾˠ ɛ h ə
 troithe	t̪ˠ ɾˠ ɪ h ə
@@ -12442,7 +13219,9 @@ tromluí	t̪ˠ ɾˠ ʌ mˠ lˠ i
 tromluí	t̪ˠ ɾˠ ʌ mˠ l̪ˠ i
 tromán	t̪ˠ ɾˠ ə mˠ ɑː n̪ˠ
 tromán	t̪ˠ ɾˠ ʊ mˠ ɑː nˠ
+tromán	t̪ˠ ɾˠ ʊ mˠ ɑː n̪ˠ
 tromán	t̪ˠ ɾˠ ʌ mˠ a nˠ
+tromán	t̪ˠ ɾˠ ʌ mˠ a n̪ˠ
 trosc	t̪ˠ ɾˠ ɔ sˠ k
 troscadh	t̪ˠ ɾˠ ɔ sˠ k uː
 troscadh	t̪ˠ ɾˠ ɔ sˠ k ə
@@ -12453,10 +13232,12 @@ trua	t̪ˠ ɾˠ u ə j
 truaill	t̪ˠ ɾˠ u ə l̠ʲ
 truaí	t̪ˠ ɾˠ u ə j
 truicear	t̪ˠ ɾˠ ɪ c ə ɾˠ
+trá	tˠ rˠ ɑː w
 trá	t̪ˠ ɾˠ aː
 trá	t̪ˠ ɾˠ aː j
 trá	t̪ˠ ɾˠ aː w
 trá	t̪ˠ ɾˠ ɑː
+trá	t̪ˠ ɾˠ ɑː w
 trá	t̪ˠ ɾˠ ɑː ɟ
 trácht	t̪ˠ ɾˠ aː x t̪ˠ
 trácht	t̪ˠ ɾˠ ɑː x t̪ˠ
@@ -12515,6 +13296,9 @@ tseamróg	tʲ a mˠ ɾˠ oː ɡ
 tseanbhean	tʲ a nˠ vʲ a nˠ
 tseanbhean	tʲ a n̪ˠ ə vʲ a n̪ˠ
 tseilg	tʲ ɛ lʲ ɪ ɟ
+tsiopa	tʲ ɨ̞ pˠ ə
+tsiopa	tʲ ɯ pˠ ə
+tsiopa	tʲ ʊ pˠ ə
 tslabhradh	t̪ˠ lˠ a u ɾˠ u
 tslabhradh	t̪ˠ l̪ˠ a u ɾˠ u
 tsluaigh	t̪ˠ lˠ u ə j
@@ -12525,6 +13309,27 @@ tsláinte	t̪ˠ l̪ˠ a n̠ʲ tʲ ə
 tsláinte	t̪ˠ l̪ˠ ɑː n̠ʲ tʲ ə
 tsláinte	t̪ˠ l̪ˠ ə i n̠ʲ tʲ ə
 tsléibh	tʲ lʲ eː vʲ
+tsnaidhm	t̪ˠ ɾˠ iː mʲ
+tsnaidhm	t̪ˠ ɾˠ ĩː mʲ
+tsneachta	tʲ nʲ a x t̪ˠ ə
+tsneachta	tʲ nʲ ã x t̪ˠ ə
+tsneachta	tʲ ɾʲ a x t̪ˠ ə
+tsneachta	tʲ ɾʲ æː x t̪ˠ ə
+tsnua	t̪ˠ n̪ˠ uː
+tsnua	t̪ˠ n̪ˠ uː ə
+tsnua	t̪ˠ ɾˠ ũː
+tsnua	t̪ˠ ɾˠ ũː ə
+tsnámh	t̪ˠ n̪ˠ ɑː vˠ
+tsnámh	t̪ˠ n̪ˠ ɑ̃ː vˠ
+tsnámh	t̪ˠ ɾˠ ãː w
+tsnámh	t̪ˠ ɾˠ ɑ̃ː vˠ
+tsnátha	t̪ˠ n̪ˠ ɑː
+tsnátha	t̪ˠ n̪ˠ ɑː h ə
+tsnátha	t̪ˠ ɾˠ ãː
+tsnátha	t̪ˠ ɾˠ ɑː
+tsnáthaid	t̪ˠ n̪ˠ ɑː dʲ
+tsnáthaid	t̪ˠ ɾˠ ã h ə dʲ
+tsnáthaid	t̪ˠ ɾˠ ɑ̃ː dʲ
 tsuim	t̪ˠ a i mʲ
 tsuim	t̪ˠ iː mʲ
 tsuim	t̪ˠ ɪ mʲ
@@ -12548,6 +13353,7 @@ tuaithe	t̪ˠ u ə j
 tuama	t̪ˠ u ə mˠ ə
 tuarastal	t̪ u ə ɾˠ ə sˠ t̪ ə lˠ
 tuarastal	t̪ u ə ɾˠ ə sˠ t̪ ə l̪ˠ
+tuartha	t̪ˠ u ə ɾˠ h ə
 tuath	t̪ˠ u ə
 tuathail	t̪ˠ u ə f ə lʲ
 tuathail	t̪ˠ u ə h ə lʲ
@@ -12557,6 +13363,8 @@ tuathal	t̪ˠ u ə h ə lˠ
 tuathal	t̪ˠ u ə h ə l̪ˠ
 tubaiste	t̪ˠ ə bˠ ɑː ʃ tʲ ə
 tuga	t̪ˠ ʊ ɡ ə
+tugaim	t̪ˠ ʊ ɡ ə mʲ
+tugaim	t̪ˠ ʌ ɡ ə mˠ
 tugann	tˠ ʊ ɡ ə n̪ˠ
 tuig	t̪ˠ ɨ̞ ɟ
 tuig	t̪ˠ ɪ ɟ
@@ -12587,6 +13395,7 @@ tuirseach	t̪ˠ ɔ ɾˠ ʃ ə x
 tuirseach	t̪ˠ ə ɾˠ ʃ a x
 tuirseach	t̪ˠ ɨ̞ ɾˠ sˠ a x
 tuiscint	t̪ˠ ɪ ʃ c ɪ nʲ tʲ
+tuisligh	t̪ˠ ɾˠ ɪ ʃ l̠ʲ i
 tuismigh	t̪ˠ ɪ ʃ m i
 tuismigh	t̪ˠ ɪ ʃ m iː
 tuismigh	t̪ˠ ɪ ʃ m ə
@@ -12601,6 +13410,8 @@ tura	t̪ˠ ʌ ɾˠ ə
 turadh	t̪ˠ ʊ ɾˠ uː
 turadh	t̪ˠ ʊ ɾˠ ə
 turadh	t̪ˠ ʌ ɾˠ u
+turas	t̪ˠ ə ɾˠ ʊ sˠ
+turas	t̪ˠ ə ɾˠ ʌ sˠ
 turas	t̪ˠ ʊ ɾˠ ə sˠ
 turas	t̪ˠ ʌ ɾˠ ə sˠ
 turscar	t̪ˠ ʊ ɾˠ sˠ k ə ɾˠ
@@ -12618,7 +13429,8 @@ tá	t̪ˠ aː
 tá	t̪ˠ ɑː
 tábhacht	t̪ˠ aː w a x t̪ˠ
 tábhacht	t̪ˠ ɑː x t̪ˠ
-táille	t̪ˠ æː l̠ʲ ə
+táille	t̪ˠ aː l̠ʲ ə
+táille	t̪ˠ ɑː lʲ ə
 táille	t̪ˠ ɑː l̠ʲ ə
 táilliúir	t̪ˠ aː l̠ʲ u ɾˠ
 táilliúir	t̪ˠ ɑ l̠ʲ uː ɾʲ
@@ -12677,19 +13489,16 @@ téim	tʲ ə i mʲ
 téis	tʲ eː ʃ
 téite	tʲ eː tʲ ə
 tí	tʲ iː
-tífidh	tʲ iː fʲ i
-tífidh	tʲ iː fʲ ə
-tím	tʲ iː mˠ
 tíocht	tʲ i ə x t̪ˠ
 tíogar	tʲ iː ɡ ə ɾˠ
 tíolacadh	tʲ i ə l̪ˠ ə k ə
 tíolacthaí	tʲ i ə l̪ˠ ə k i
 tíor	tʲ iː ɾˠ
+tíortha	tʲ iː ɾˠ h i
 tíortha	tʲ iː ɾˠ h ə
 tír	tʲ iː ɾʲ
 tíre	tʲ iː ɾʲ ə
-tírghráthóir	tʲ iː ɾʲ ɡ ɾˠ aː tʲ oː ɾʲ
-títhear	tʲ i h ə ɾˠ
+tírghráthóir	tʲ iː ɾʲ ɣ ɾˠ aː h oː ɾʲ
 tóg	t̪ˠ oː ɡ
 tóga	t̪ˠ oː ɡ ə
 tóga	t̪ˠ ɔː ɡ ə
@@ -12705,12 +13514,16 @@ tógálaí	t̪ˠ oː ɡ aː lˠ iː
 tóig	t̪ˠ oː ɟ
 tóigeáil	t̪ˠ oː ɟ ɑː lʲ
 tóin	t̪ˠ oː nʲ
+tóin	t̪ˠ oː n̪ˠ
 tóin	t̪ˠ uː nʲ
+tóin	t̪ˠ uː n̪ˠ
 tóir	t̪ˠ oː ɾʲ
 tóir	t̪ˠ ɔː ɾʲ
 tóireacha	t̪ˠ oː ɾʲ ə x ə
 tóireacha	t̪ˠ ɔː ɾʲ a h ə
 tóirse	t̪ˠ oː ɾˠ ʃ ə
+tón	t̪ˠ oː n̪ˠ
+tón	t̪ˠ uː n̪ˠ
 tóra	t̪ˠ oː ɾˠ ə
 tóra	t̪ˠ ɔː ɾˠ ə
 tórramh	t̪ˠ oː ɾˠ uː
@@ -12730,6 +13543,7 @@ uachta	u ə x t̪ˠ ə
 uachtar	u ə x t̪ˠ ə ɾˠ
 uachtarán	u ə x t̪ˠ ə ɾˠ ɑː nˠ
 uafás	u ə fˠ ɑː sˠ
+uafás	uː fˠ ɑː sˠ
 uafás	uː h a sˠ
 uafás	uː h ɑː sˠ
 uafás	uː ɑː sˠ
@@ -12749,7 +13563,7 @@ uaiféalta	u ə fʲ iː a̯ l̪ˠ t̪ˠ ə
 uaigh	u ə
 uaigh	u ə ɟ
 uaighe	u ə j
-uaigneach	u ə ɟ nʲ a h
+uaigneach	u ə ɟ nʲ a x
 uaigneach	u ə ɟ nʲ ə x
 uaigneach	u ə ɟ ɪ nʲ ə x
 uaigneas	u ə ɟ nʲ ə sˠ
@@ -12808,9 +13622,8 @@ uathlathaí	u ə lˠ ə h iː
 uathlathaí	u ə l̪ˠ ə h iː
 uathu	w oː bˠ
 uathusan	w oː p s ə n
-ubh	u vˠ
-ubh	uː
 ubh	ɔ vˠ
+ubh	ɞ vˠ
 ubh	ɨ̞ fʲ
 ubh	ɨ̞ vʲ
 ucht	ɔ x t̪ˠ
@@ -12820,6 +13633,8 @@ udalán	uː d̪ˠ ə lˠ a nˠ
 uibhe	iː
 uibhe	ɞ vʲ ə
 uibhe	ɪ vʲ ə
+uiginn	ɪ ɟ ɪ n̠ʲ
+uigneacha	ɪ ɟ n̠ʲ a x ə
 uile	ɪ lʲ ə
 uileag	ə lʲ ɞ ɡ
 uileag	ə lʲ ʊ ɡ
@@ -12869,10 +13684,14 @@ umar	ʌ mˠ ə ɾˠ
 umat	ʊ mˠ ə t̪ˠ
 umhal	u ə l̪ˠ
 umhal	uː lˠ
+umhal	uː l̪ˠ
 umhal	ũː lˠ
+umhal	ũː l̪ˠ
 umhlú	uː lˠ uː
 umhlú	uː l̪ˠ uː
 umhlú	ũː l u
+uncail	uː ŋ k ə lʲ
+uncail	ʊ ŋ k ə lʲ
 ung	ʌ ŋ ɡ
 ungáiris	ʊ ŋˠ ɡ aː rʲ ɪ ʃ
 unsa	ʌ n̪ˠ sˠ ə
@@ -12885,13 +13704,14 @@ urla	uː ɾˠ l̪ˠ ə
 urla	ɔ ɾˠ l̪ˠ ə
 urla	ʌ ɾˠ l̪ˠ ə
 urlabhra	ʌ ɾˠ l̪ˠ u
-urlár	uː ɾˠ l̪ˠ ɑː ɾˠ
-urlár	ə u ɾˠ l̪ˠ ɑː ɾˠ
+urlár	a u ɾˠ l̪ˠ ɑː ɾˠ
+urlár	ʊ ɾˠ l̪ˠ ɑː ɾˠ
 urlár	ʌ ɾˠ l̪ˠ a ɾˠ
 urnaí	uː ɾˠ n̪ˠ iː
 urnaí	ʌ ɾˠ n̪ˠ i
 urra	ʊ ɾˠ ə
 urraim	ɪ ɾʲ ə mʲ
+urramach	ʌ ɾˠ ə mˠ a x
 ursa	ʊ ɾˠ sˠ ə
 ursa	ʌ ɾˠ sˠ ə
 urú	ʊ ɾˠ uː
@@ -12913,6 +13733,7 @@ veist	vʲ ɛ ʃ tʲ ə
 veiste	vʲ ɛ ʃ tʲ ə
 vicipéid	vʲ ɪ c ɪ pʲ eː dʲ
 victeoiria	vʲ ɪ c tʲ oː ɾʲ i ə
+voiceless	v ɔ ɪ s l ə s
 volaifis	w ɔ l̪ˠ ə fʲ ɪ ʃ
 vác	vˠ ɑː k
 vác	w æː k
@@ -12921,6 +13742,7 @@ vása	vˠ ɑː sˠ ə
 vása	w æː sˠ ə
 vása	w ɑː sˠ ə
 vé	vʲ eː
+vín	vʲ iː nʲ
 vóta	vˠ oː t̪ˠ ə
 vóta	w oː t̪ˠ ə
 vóta	w ɔː t̪ˠ ə
@@ -12932,8 +13754,13 @@ zae	z eː
 ábalta	ɑː bˠ ə l̪ˠ t̪ˠ ə
 ábaltacht	aː bˠ ə l̪ˠ t̪ˠ a x t̪ˠ
 ábaltacht	ɑː bˠ ə l̪ˠ t̪ˠ ə x t̪ˠ
+ábhal	aː w ə lˠ
+ábhal	aː w ə l̪ˠ
+ábhal	ɑː vˠ ə l̪ˠ
+ábhal	ɑː w ə lˠ
+ábhal	ɑː w ə l̪ˠ
 ábhar	a u ɾˠ
-ábhar	æː w ə ɾˠ
+ábhar	aː w ə ɾˠ
 ábhar	ɑː vˠ ə ɾˠ
 ábhar	ɑː w ə ɾˠ
 ádh	aː
@@ -13016,10 +13843,11 @@ zae	z eː
 án	æː nˠ
 án	ɑː nˠ
 án	ɑː n̪ˠ
-ár	æː ɾˠ
+ár	aː ɾˠ
 ár	ɑː ɾˠ
 ár	ə
 ár	ə ɾˠ
+ár	ɛ ɾʲ
 ára	ɑː ɾˠ ə
 árainn	ɑː ɾˠ ə n̠ʲ
 árannach	ɑː ɾˠ ə n̪ˠ ə x
@@ -13069,7 +13897,7 @@ zae	z eː
 éadaí	i a̯ d̪ˠ iː
 éadbhard	eː d̪ˠ w ə ɾˠ d̪ˠ
 éadbhard	iː a̯ d̪ˠ vˠ ə ɾˠ d̪ˠ
-éadmhar	ɛ ə d̪ˠ u ɾˠ
+éadmhar	eː d̪ˠ u ɾˠ
 éadoimhne	eː d̪ˠ ɨ̞̃ vʲ nʲ ə
 éadomhain	eː d̪ˠ o nʲ
 éadroime	eː d̪ˠ ɾˠ ə mʲ ə
@@ -13131,6 +13959,7 @@ zae	z eː
 éigiall	eː ɟ i ə l̪ˠ
 éigin	eː ɟ ɪ nʲ
 éigint	eː ɟ ɪ n̠ʲ tʲ
+éigipt	eː ɟ ɪ pʲ tʲ
 éigéille	eː ɟ eː l̠ʲ ə
 éileamh	eː lʲ u
 éileamh	eː lʲ uː
@@ -13181,8 +14010,9 @@ zae	z eː
 íomháigh	ĩː w ã i ç
 íomháigheanna	ĩː w ã i ç ə n̪ˠ i
 íosa	iː sˠ ə
-íosfadh	iː s ə tʲ
-íosfadh	iː s ə x
+íosfadh	iː sˠ u
+íosfadh	iː sˠ ə tʲ
+íosfadh	iː sˠ ə x
 íosfaidh	iː s iː
 íosfaidh	iː s ə
 íosánach	iː sˠ æ nˠ a h
