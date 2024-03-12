@@ -221,7 +221,7 @@
 𐌱𐌹𐌵𐌹𐌼𐌰𐌽	b i kʷ i m a n
 𐌱𐌹𐌵𐌹𐌼𐌹𐌸	b i kʷ i m i θ
 𐌱𐌹𐌸𐌴	b i θ eː
-𐌱𐌹𐌸𐌴𐌷	b i θ eː x
+𐌱𐌹𐌸𐌴𐌷	b i θ eː h
 𐌱𐌹𐌸𐍅𐌰𐌷𐌰𐌽	b i θ w a h a n
 𐌱𐌹𐌸𐍅𐌰𐌷𐌰𐌽𐌳𐍃	b i θ w a h a n d s
 𐌱𐌹𐌺𐌿𐌺𐌾𐌰𐌽	b i k u k j a n
@@ -295,7 +295,7 @@
 𐌱𐌻𐌴𐌹𐌸𐌴𐌹𐌽𐍉	b l iː θ iː n oː
 𐌱𐌻𐌴𐌹𐌸𐌾𐌰𐌽𐌳𐌰𐌽𐍃	b l iː θ j a n d a n s
 𐌱𐌻𐌴𐌹𐌸𐌾𐌰𐌽𐌳𐍃	b l iː θ j a n d s
-𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽	b l i ɡ ɡ w a n
+𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽	b l i ɡ ɡʷ a n
 𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽𐌳	b l i ɡ ɡ w a n d
 𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽𐌳𐌰𐌼	b l i ɡ ɡ w a n d s
 𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽𐌳𐌰𐌽𐍃	b l i ɡ ɡ w a n d a n s
@@ -783,6 +783,7 @@
 𐌷𐌹𐌽𐌳𐌿𐌼𐌹𐍃𐍄𐍃	h i n d u m i s t s
 𐌷𐌹𐌽𐌳𐌿𐌼𐌹𐍃𐍄𐍉	h i n d u m i s t oː
 𐌷𐌻𐌰𐌹𐍅	h l ɛː w
+𐌷𐌻𐌰𐌹𐍆𐍃	h l ɛː f s
 𐌷𐌻𐌰𐍃	h l a s
 𐌷𐌻𐌰𐍃𐌰𐌽𐌰	h l a s a n a
 𐌷𐌻𐌰𐍃𐌴𐌹	h l a s iː
@@ -818,11 +819,18 @@
 𐌷𐍂𐌿𐌺𐌾𐌰𐌽	h r uː k j a n
 𐌷𐍉𐌻𐍉𐌸	h oː l oː θ
 𐌷𐍉𐌻𐍉𐌽	h oː l oː n
+𐌸𐌰𐌳𐌴𐌹	θ a d iː
 𐌸𐌰𐌷𐍄𐌰	θ aː h t a
+𐌸𐌰𐌸𐍂𐍉𐌴𐌹	θ a θ r oː iː
+𐌸𐌰𐌸𐍂𐍉𐌷	θ a θ r oː h
+𐌸𐌰𐌸𐍂𐍉𐌸𐌸𐌰𐌽	θ a θ r oː θ θ a n
+𐌸𐌰𐌹𐍂𐌷𐌲𐌰𐌻𐌴𐌹𐌺𐍉𐌳𐌰	θ ɛ r h ɡ a l iː k oː d a
+𐌸𐌰𐌹𐍂𐌷𐌲𐌰𐌻𐌴𐌹𐌺𐍉𐌽	θ ɛ r h ɡ a l iː k oː n
 𐌸𐌰𐌹𐍂𐌺𐍉	θ ɛ r k oː
 𐌸𐌰𐌽	θ a n
 𐌸𐌰𐌽𐌳𐌴	θ a n d eː
 𐌸𐌰𐌽𐌴𐌹	θ a n iː
+𐌸𐌰𐌽𐌽𐌿	θ a n n u
 𐌸𐌰𐌿𐍂𐌱𐌰𐌽	θ ɔ r β a n
 𐌸𐌰𐌿𐍂𐌽𐌴𐌹𐌽𐌰	θ ɔ r n iː n a
 𐌸𐌰𐌿𐍂𐌽𐌴𐌹𐌽𐌰𐌽	θ ɔ r n iː n a n
@@ -834,6 +842,9 @@
 𐌸𐌰𐌿𐍂𐌽𐌿𐍃	θ ɔ r n u s
 𐌸𐌰𐌿𐍂𐍃𐍄𐌴𐌹	θ ɔ r s t iː
 𐌸𐌰𐍂	θ a r
+𐌸𐌰𐍂𐌿𐌷	θ a r u h
+𐌸𐌰𐍄𐌰𐌹𐌽	θ a t a i n
+𐌸𐌰𐍄𐌰𐍈𐌰𐌷	θ a t a ʍ a h
 𐌸𐌴𐌹𐌷𐌰𐌽	θ iː h a n
 𐌸𐌴𐌹𐌽𐍃	θ iː n s
 𐌸𐌴𐌹𐍈𐍉	θ iː ʍ oː
@@ -1000,7 +1011,7 @@
 𐌻𐌿𐍆𐍄𐌿𐍃	l u f t u s
 𐌼𐌰𐌲𐌰𐌽	m a ɣ a n
 𐌼𐌰𐌸𐌰	m a θ a
-𐌼𐌰𐌹𐌼𐌱𐍂𐌰𐌽𐌰	m ɛː m b r a n a
+𐌼𐌰𐌹𐌼𐌱𐍂𐌰𐌽𐌰	m ɛ m b r a n a
 𐌼𐌰𐌹𐍃	m ɛː s
 𐌼𐌰𐌹𐍄𐌰𐌽	m ɛː t a n
 𐌼𐌰𐌻𐍉	m a l oː
@@ -1170,6 +1181,8 @@
 𐌿𐍃𐌱𐌰𐌻𐌸𐌴𐌹	u s b a l θ iː
 𐌿𐍃𐌱𐌰𐌻𐌸𐌴𐌹𐌽𐍃	u s b a l θ iː n s
 𐌿𐍃𐌱𐌴𐌹𐌳𐌰𐌽	u s b iː d a n
+𐌿𐍃𐌱𐌴𐌹𐍃𐌽𐌰𐌹	u s b iː s n ɛː
+𐌿𐍃𐌱𐌴𐌹𐍃𐌽𐍃	u s b iː s n s
 𐌿𐍃𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽	u s b l i ɡ ɡ w a n
 𐌿𐍃𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽𐌳𐌰𐌽𐍃	u s b l i ɡ ɡ w a n d a n s
 𐌿𐍃𐌱𐌻𐌹𐌲𐌲𐍅𐌰𐌽𐌳𐍃	u s b l i ɡ ɡ w a n d s
@@ -1187,6 +1200,9 @@
 𐌿𐍃𐌸𐍅𐌰𐌷𐌰𐌽	u s θ w a h a n
 𐌿𐍃𐌼𐌰𐌹𐍄𐌰𐌽	u s m ɛː t a n
 𐌿𐍃𐌼𐌰𐌹𐍄𐌰𐌽𐍃	ɡ a b ɔ r a n s
+𐌿𐍃𐍃𐍄𐌰𐌲𐌲	u s s t a ŋ ɡ
+𐌿𐍃𐍃𐍄𐌰𐌲𐌲𐌰𐌽	u s s t a ŋ ɡ a n
+𐌿𐍃𐍅𐌰𐌲𐌹𐌳𐌰𐌹	u s w a ɡ i d ɛː
 𐌿𐍃𐍅𐌰𐌲𐌾𐌰𐌽	u s w a ɡ j a n
 𐌿𐍃𐍅𐌰𐌽𐌳𐌾𐌰𐌽	u s w a n d j a n
 𐌿𐍃𐍆𐌿𐌻𐌻𐌽𐌰𐌽	u s ɸ u l l n a n
@@ -1206,7 +1222,7 @@
 𐌿𐍆𐍃𐌰𐌲𐌵𐌹𐌸𐍃	u f s a n kʷ i θ s
 𐌿𐍆𐍃𐌰𐌲𐌵𐌾𐌰𐌽	u f s a n kʷ j a n
 𐌿𐍆𐍃𐍄𐍂𐌰𐌿𐌾𐌰𐌽	u ɸ s t r ɔː j a n
-𐍀𐌰𐌹𐌳𐌰	p ɛ d a
+𐍀𐌰𐌹𐌳𐌰	p ɛː d a
 𐍀𐌰𐍂𐌰𐍃𐌺𐌰𐌹𐍅𐌴	p a r a s k ɛ w eː
 𐍀𐌴𐌹𐌺𐌰𐌱𐌰𐌲𐌼𐌴	p iː k a b a ɡ m eː
 𐍀𐌴𐌹𐌺𐌰𐌱𐌰𐌲𐌼𐍃	p iː k a b a ɡ m s
@@ -1342,6 +1358,7 @@
 𐍄𐌿𐌲𐌲𐌻	t u n ɡ l
 𐍄𐌿𐌽𐌳𐌽𐌰𐌽	t u n d n a n
 𐍄𐌿𐌽𐌳𐌽𐌰𐌿	t u n d n ɔː
+𐍄𐍂𐌹𐌲𐌲𐍅𐌰	t r i ɡ ɡʷ a
 𐍄𐍂𐌹𐌲𐌲𐍅𐍃	t r i ɡ ɡʷ s
 𐍄𐍂𐌹𐌿	t r i u̯
 𐍄𐍂𐌹𐍅𐌰𐌼	t r i w a m

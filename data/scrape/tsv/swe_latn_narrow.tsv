@@ -9,6 +9,7 @@ anden	² ä n̪ː d̪ ɛ̠ n̪
 anden	¹ ä n̪ː d̪ ɛ̠ n̪
 andetag	a nː d e t aː ɡ
 apa	² ɒ̜ː p a
+arbete	a rː b eː t ɛ̠
 arrangemang	ɑ r ɑ ŋ ɧ ɛ m ɑ ŋ
 attityd	a t̪ ɪ ¹ t̪ʰ yː d̪
 avfärda	ɑː v f æː ɖ a
@@ -21,6 +22,7 @@ bakbord	b aː k b uʷː ɖ
 barn	b ɑː ɳ
 barnmorska	² b ɑː ɳ m ʊ ʂ k a
 behålla	b ɛ h ɔ̌ lː ä
+berg	b æ r j
 bjuda	² b ʝ ʉ̟ː d̪ a
 björk	b j œ̞ r k
 björk	b j ɵ r k
@@ -92,6 +94,7 @@ fotboll	² f uː β̞ ɔ l
 frihet	f r iː h e ə̯ t
 frisbee	f r ɪ sː β̞ ɪ
 frisbee	f r ɪ sː β̞ ʏ
+from	f r ʊ mː
 främmat	² f r ɛ mː a t
 furnera	f ɵ ɳ eː r a
 furste	² f ɵ ʂː ʈ ɛ
@@ -159,8 +162,10 @@ hyscha	h ʏ ʂ ʂ a
 härlig	h æː ɭ ɪ ɡ
 hålla	h ɔ̂ lː ä
 hård	h o ə̯ ɖ
+hård	h oː ɖ
+hård	h oː ɽ
 hårt	h o ə̯ ʈ
-höna	² h ø ə̯ n̪ a
+höna	² h ø ə̯ n a
 höra	² h œ̞ː r a
 hörsel	h œ̞ ʂ ə l
 hörsel	h ɵ ʂ ə l
@@ -170,6 +175,10 @@ ihop	ɪ h ʊ̝ u p
 illa	ɪ l l a
 ilska	ɪ̂ lː s k ä
 ilsken	ɪ̂ lː s k ɛ n
+inga	ɪ ŋː â
+ingen	ɪ ŋː ɛ̂ n
+ingenting	ɪ ŋː ɛ n tʰ ɪ̂ ŋː
+inget	ɪ ŋː ɛ̂ t
 is	iː s̪
 jacka	j a kʲː a
 jag	j ɒ̜ː ɡ
@@ -183,13 +192,14 @@ jörgen	j œ̞ r ɡ ɛ n
 jörgen	j ɵ r ɡ ɛ n
 kajsa	² k a͜ɪ s a
 kaka	k ɑː ˧˩ k a ˥˩
-kalifornien	kʰ a l̪ ɪ f uː ɳ ɪ ə n̪
+kalifornien	kʰ a l ɪ f uː ɳ ɪ ə n
 kam	kʰ a m
 kanske	² kʰ a ŋː ɧ 𝆑ʷ ɛ
 kanske	² kʰ a ɳː ʂ ɛ
 kappa	cʰ a pː a
 karl	k ɑː l
 karl	k ɑː ɭ
+karlskrona	k a ɭ s k r ûː n a
 karta	kʰ ɑː ʈ a
 kebnekaise	k ɛ b n ɛ k a j s ɛ
 kimitoön	t̠ ʃ i m i t o øː n
@@ -224,7 +234,6 @@ lade	l ɑː ˥˧ d ɛ ˩
 land	l̪ a n̪ː d̪
 lasse	l a sː ə
 legend	l ə ɡ ɛ n d
-lek	l̪ i e̯ kʰ
 lian	l ɪ ɑː n
 liksom	¹ l̪ iː k s̪ ɔ m
 liksom	¹ l̪ ɪ kː s̪ ɔ m
@@ -251,6 +260,8 @@ medtrafikant	m eː d t r a f i k a n t
 moll	m ɔ lː
 mors	m uː ʂ
 motgång	² m ọː t ɡ ɔ ŋː
+motsvarighet	² m oː t s v aː r i ɡ h eː t
+motsvarighet	² m ọː t s v aː r i ɡ h eː t
 mumie	m ʉ̟ː m ɪ ə
 mun	m ɵ nː
 musik	m ɵ s iː k
@@ -266,6 +277,7 @@ mört	m ɵ ʈː
 nordanvinden	n uː ɖ a ɱ v ɪ nˑ d ɛ n
 norrman	² n ɔ rː m a nː
 nyköping	n ŷː ɕ øː p ɪ ŋ
+nå	n o ə̯
 nörd	n œ̞ː ɖ
 nött	n œ tː
 oflyt	úː f l ýː t
@@ -369,7 +381,7 @@ svart	¹ s v̥ a ʈː
 svartis	² s v a ʈ iː s
 svartis	¹ s v a ʈ ɪ s
 svenne	s v ɛ̀ nː ɛ
-sverige	¹ s̪ v æ r j ɛ̠
+sverige	s̪ v æ r j ɛ̠
 svärd	s v̥ æː ɖ
 svår	¹ s̪ v̥ oː r
 syll	s ʏ lː
@@ -388,7 +400,6 @@ tordas	² t uː ɖ a sː
 tordes	² t uː ɖ ɛ sː
 tornedalen	tʰ o ə̯ ɳ ə d ɑː l ə n
 tornedalsfinska	tʰ o ə̯ ɳ ə d ɑː l s f ɪ n s k a
-torsdag	tʰ uː ʂ d̥ a
 torsdag	tʰ uː ʂ d̥ ɑː ɡ
 tragedi	t r a ʂ ɛ d iː
 trast	¹ t̪ r a s̪ː t̪
@@ -421,7 +432,8 @@ usch	ɵ ʂː
 uttal	ʉ tʰː ɑː l
 vacker	v a cː ɛ̠ r
 vad	v ɒ̜ː d̪
-vapen	¹ v ɒ̜ː p ɛ̠ n̪
+valhall	v ɒː l h ä lː
+vapen	¹ v ɒ̜ː p ɛ̠ n
 var	v ɒ̜ː r
 varför	¹ v a rː f œ̞ r
 varför	¹ v ɑː r f œ̞ r
@@ -439,7 +451,7 @@ vind	v ɪ nː d
 vindskydd	v ɪ n d ɧ ʏ d
 värd	v æː r d
 värd	v æː ɖ
-värde	² v æ ɖ ɛ
+värde	² v æː ɖ ɛ
 värdera	v æ ɖ eː r a
 värld	v æː r d
 värld	v æː ɖ
@@ -461,7 +473,6 @@ zlatan	s l aː t a n
 åt	o ə̯ t
 ödsla	œ́ː d̥ s l á
 ömtålig	² œ mː t̪ o ə̯ l̪ ɪ ɡ
-öppen	² œ pː ɛ n̪
 öra	² œ̞ː r a
 öresund	œ r ɛ s ɵ nː d
 öresundsbron	œː r ɛ ² s ɵ nː d s b r uː n

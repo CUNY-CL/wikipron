@@ -24,16 +24,7 @@ aq	ɑ χ
 arfa	ɑ r f ɑ
 arqa	ɑ r q ɑ
 arqa	ɑ r χ ɑ
-at	a tʰ
-at	ɑ tʰ
-at	ɑ t͡s
-at	ɑ t͡sʰ
-at	ɑ ʒʰ
-at	ɑʰ
-at	ɑʰ tʰ
-at	ɑː tʰ
-at	ɑ̥ tʰ
-at	ˀɑ̥ tʼ
+at	ˀɑ̥ tʰ
 atıq	a ʝʰ i χ
 atıq	ɑ t ɨ χ
 atıq	ɑ tʰ ə χ
@@ -47,6 +38,9 @@ ayaq	ɑ j e x
 ayaq	ɑ j e χ
 ayaq	ɑ j ɑ x
 ayaq	ɑ j ɑ χ
+aze	ɑ z i
+aze	ɑː z e
+aze	ɑː z i
 açıq	ɑ t ʃ
 açıq	ɑ t ʃ ɨ χ
 açıq	ɑː t ʃ i x
@@ -120,16 +114,19 @@ bir	p e ɹ
 bir	p i r
 bir	p i ɹ
 bir	p ə ɹ
+borsuq	p o r s u χ
+boy	p o iʲ
+boy	p o j ɨ
 boya	p o j ɑ
 boyaq	p o j ɑ χ
 boğas	p o ʁ a s
 boğas	p o ʁ o s
 boğas	p o ʁ ɑ s
 boğas	p o ʁ ɘ s
-boğdaq	p o ʁ t a χ
+boğdaq	p o ʁ t ɑ χ
 boğdaq	p o ʁ t ɘ χ
-boğdaq	p o ʁ ɨ r t a ɣ i
-boğdaq	p o χ t a χ
+boğdaq	p o ʁ ɨ r t ɑ ɣ i
+boğdaq	p o χ t ɑ χ
 boğunaq	p o ʁ u n ɑ χ
 boğunaq	p oː ɢ ɨ n ɑ χ
 boğunaq	p oː ʁ ɨ n ɨ χ
@@ -154,6 +151,8 @@ buzı	p uː z ɨ
 buzı	p ɨ z u
 buğu	p u q u
 buğu	p u ʁ u
+bögrek	p oː ɡ ɹ e h
+bögrek	p y ɣ r e x
 büri	p o ɹ e
 büri	p u r e
 büri	p u r e r
@@ -168,6 +167,9 @@ büri	p uː ʐ e
 büri	p y ɹ e
 büri	p yː r i
 büri	p ø r i
+can	ʒ ɑ n
+can	ʒ ɑː n
+can	ʝ ɑ n
 cüyin	t ʃ y i n
 cüyin	ʒ y v i n
 cüyin	ʒ ø v æ n
@@ -182,10 +184,18 @@ dadı	t ɑ tʰ
 dadı	t ɑː d ɨ
 dal	t ɑ l
 damaq	t ɑ m ɑ χ
+damır	t a m u r
+damır	t a m ɨ r
+damır	t aː m u ɹ
 danru	t ɑ n r u
 daqıl	t ɑ ʁ ɨ l
 daqıl	t ɑ χ ɨ l
 daqıl	t ɑː χ ɨ l
+dat	t ɑ t
+dat	t ɑʰ
+dat	t ɑʰ t
+dat	t ɑː
+dat	t ɑː t
 daz	t ɑ z
 dağ	t ɑ ʁ
 dağıl	t ɑ ʁ ɑ l
@@ -212,9 +222,14 @@ dodaq	t ɑ t ə χ
 dodaq	t ɕ i ɑ t ɑ ʁ
 dodaq	t ɕ i ɑ t ɑ χ
 dodaq	t ɕ i ɑ tʰ ɑ χ
+dor	t o r
+dor	tʰ o r
 dova	t o v ɑ
 dova	t o w ɑ
 dova	t u ɑ
+dovan	t o v ɑ n
+dovan	t o v ɨ n
+dovan	t oː n
 dovaq	t o v ɑ χ
 dovaq	t o w ɑ χ
 dovaq	t oː χ
@@ -235,6 +250,8 @@ doñıs	t o ŋ ɨ s
 doñıs	t ɑ ŋ u s
 duzaq	t u z a χ
 duzaq	t u z ɑ χ
+döt	t i o tʰ
+döt	t ø tʰ
 döve	t oː v e
 döve	t y v i
 döve	t ø j e
@@ -305,9 +322,6 @@ eñse	e n s e
 eñse	e ŋ s e
 gabaq	q ɑ b ɑ χ
 gaca	q ɑ ʝ ɑ
-gadın	q ɑ d ɨ n
-gadın	q ɑː d e n
-gadın	q ɑː d ɨ n
 gan	q ɑ n
 gan	q ɑː n
 gana	q ɑ n ɑ
@@ -338,15 +352,29 @@ geme	k e m i
 geme	k e m ɑ
 geme	k i m i
 geme	k æ m æ
+go	k o
+go	k oː
+go	q oː
 goduq	q o d o χ
-goduq	q o d u χ
-goduq	q o d ɑ χ
+goduq	q o t u χ
+goduq	q o t ɑ χ
 goduq	q u d u χ
+gohu	k a f u
+gohu	k o f u
+gohu	k o h o
+gohu	k o h u
+gohu	k oː h o
+gohu	k oː h oː
+gohu	q aː f u
 gol	q o l
 gonaq	q o n ɑ χ
 gonaq	q o n ə χ
 gonaq	q o n ɨ χ
 gonaq	q u n ə χ
+goq	k o x
+goq	q o χ
+goq	q oː χ
+goq	qʰ o χ
 goy	k o j
 goy	q o j
 goşluq	q o ʃ l ɨ χ
@@ -390,6 +418,17 @@ gömür	k ø m y r
 göre	k ø r e
 göre	k ø r ø
 görges	k ø ɣ æ s
+göñni	k o ŋ l y
+göñni	k o ŋ n i
+göñni	k o ŋ n ɨ
+göñni	k o ŋ n ɯ
+göñni	k oː n ɨ
+göñni	k oː ŋ n ɨ
+göñni	k u ŋ n i
+göñni	k uː n e ŋ
+göñni	k y ŋ y l
+göñni	k ø ŋ n i
+göñni	ɡ oː n e
 güntiz	k u n t i s i
 güntiz	k u n t i z
 güntiz	k u n t y s i
@@ -425,17 +464,7 @@ her	h e r
 her	h e ɹ
 her	h æ r
 her	h ɑ
-ice	i t ʃ a
-ice	i t ʃ i
-ice	i ʒ e
-ice	i ʒ i
-ice	i ʒ u
-ice	i ʒ ɑ
-ice	i ʝ e
-ice	i ʝ i
-ice	i ʝ y
-ice	i ʝ æ
-ice	i ʝ ɑ
+ice	e ʝ ɑ
 igir	i ɣ ɨ r
 ik	i x
 ili	e l e
@@ -452,9 +481,6 @@ inci	i n ʒ i
 inci	i n ʝ e
 inci	i n ʝ i
 incik	i n ʝ i x
-inek	i n e x
-inek	i n i x
-inek	i n æ kʰ
 ini	i n e
 ini	i n i
 ini	i n ɨ
@@ -468,6 +494,10 @@ işd	i ʃ t u r
 işd	i ʃ t u ɹ
 işd	i̥ tʰ
 işd	i̥ ɕ tʰ
+kele	kʰ e l e
+kele	kʰ e l l e
+kele	kʰ e l l i
+kele	kʰ e l ɑː
 kiyik	k i j ɨ χ
 kiyik	kʰ i j i x
 kiyik	kʰ i j ɨ χ
@@ -525,6 +555,12 @@ muñısgarcaq	m u ŋ ɢ ɨ s kʰ ɑ r t ʃ ɑ χ
 muñısgarcaq	m u ŋ ɨ s q ɑ r d ʒ e χ
 muñısgarcaq	m u ŋ ɨ s q ɑ r d ʒ ɑ χ
 muñısgarcaq	m u ŋ ɨ s q ɑ r d ʒ ɨ χ
+mören	m o r e n
+mören	m oː r e n
+mören	m oː ɹ e n
+mören	m u r e n
+mören	m ø r æ n
+mören	m ø r ø n
 nañ	n e ŋ
 nañ	n i ŋ
 nañ	n ɑ ŋ
@@ -571,6 +607,8 @@ qarın	k ɑ r ɨ n
 qarın	k ɑː r ɨ n
 qarın	q ɑ r ɯ n
 qarın	qʰ ɑ r ɨ n
+qona	χ o n a
+qona	χ oː n a
 qorğa	x o r ɨ h ɑ
 qorğa	χ o r ɢ ɑː
 qorğa	χ o r ɢ ɨ
@@ -598,6 +636,7 @@ qısga	χ ɨ s q ɑ
 qısga	χ ɨ s q ɨ
 qısıraq	χ ə s ɨ r ə χ
 qısıraq	χ ɨ s ɨ r ɑ χ
+qısıraq	χ ɨ s ɨ r ɨ χ
 rallan	ɹ ɑ l l ɑ n
 samsaq	s ɑ m s u χ
 samsaq	s ɑ m s ɑ χ
@@ -659,6 +698,7 @@ socı	s uː ʝ i
 sola	s o l a
 solaq	s o l o χ
 solaq	s o l ɑ χ
+soq	s oː χ
 sovan	s o v ɑ n
 sovan	s o v ɨ n
 sovan	s o w ɑ n
@@ -686,6 +726,12 @@ toraq	t oː r u χ
 toraq	t oː r ɑ χ
 toraq	t oː r ɨ χ
 toraq	tʰ o r ɑ χ
+torma	t o r m ɑ
+tormu	tʰ o r m u
+torı	t o r ɨ
+torı	t u r ɨ
+torı	tʰ o r i
+torı	tʰ o r u
 tox	tʰ o χ
 tülügü	t y l i ɡ u
 tülügü	t y l y ɡ o
@@ -709,21 +755,28 @@ uruq	o r u χ
 uruq	o r ɨ χ
 uruq	oː r ɨ χ
 uruq	u r u χ
+usla	u s l ɑ
+usla	v u s l ɑ
+usla	v u s l ɑː
 uş	u ɕ
 uş	u ʃ
 uş	y ɕ
 vaq	p ɑ χ
 vaq	v ɑ χ
-var	b a r
 var	b ɑː r
 var	p ɑ r
-var	p ɑ ɹ
 var	p ɑː
 var	v ɑ r
 var	v ɑ ɹ
-var	v ɑː
 var	v ɑː r
 var	v ɑː ɹ
+varğusı	p ɑ r ʁ u
+varğusı	p ɑ ɹ ʁ u
+varğusı	v ɑ r ʁ u
+varğusı	v ɑ ɹ ʁ u
+varğusı	v ɑː r ʁ u
+varğusı	v ɑː ɹ ʁ u
+varğusı	v ɑː ʁ u
 vol	p o l
 vol	v o l
 yafraq	j a f r a χ
@@ -775,14 +828,6 @@ yağla	j ɑ ʁ l ɑ
 yağla	j ɑ χ l ɑ
 yağmur	j ɑ ʁ m u r
 yağmur	j ɑ ʁ m u ɹ
-yağırnı	j ɑ r ɢ ɨ
-yağırnı	j ɑ ʁ n ɑ ʃ
-yağırnı	j ɑ ʁ n ɨ
-yağırnı	j ɑ ʁ r ɑ
-yağırnı	j ɑ ʁ r ɨ
-yağırnı	j ɑ ʁ r ɨ n
-yağırnı	j ɑ ʁ ɨ r n i
-yağırnı	j ɑ ʁ ɨ ɹ
 yedimiş	j e t i m i ʃ
 yedimiş	j e tʰ m i ʃ
 yekşembe	j æ k ʃ æ m b æ
@@ -838,9 +883,8 @@ yıy	j ɨ j
 çadır	t ʃ ɑ d ɨ r
 çadır	t ʃ ɑː d ə r
 çala	t ʃ ɑ l ɑ
-çiçek	t ʃ i t ʃ e x
-çiçek	t ʃ i t ʃ i x
-çiçek	t͡s iː t͡s e x
+çiçek	t ɕ i t ɕ e x
+çiçek	t ɕ i t ɕ i x
 çiçek	ʒ i ʒ e x
 çiçek	ʝ i ʝ e x
 çöp	t ʃ y pʰ
