@@ -21,6 +21,7 @@ ang_latn_narrow.tsv	ang	Old English (ca. 450-1100)	Old English	Latin		False	Narr
 aot_latn_broad.tsv	aot	Atong (India)	Atong (India)	Latin		False	Broad	181
 apw_latn_narrow.tsv	apw	Western Apache	Western Apache	Latin		False	Narrow	147
 ara_arab_broad.tsv	ara	Arabic	Arabic	Arabic		False	Broad	12524
+ara_arab_narrow.tsv	ara	Arabic	Arabic	Arabic		False	Narrow	116
 arc_hebr_broad.tsv	arc	Official Aramaic (700-300 BCE)	Aramaic	Hebrew		False	Broad	1165
 arg_latn_broad.tsv	arg	Aragonese	Aragonese	Latin		False	Broad	296
 ary_arab_broad.tsv	ary	Moroccan Arabic	Moroccan Arabic	Arabic		False	Broad	2043
@@ -95,12 +96,12 @@ egy_latn_broad.tsv	egy	Egyptian (Ancient)	Egyptian	Latin		False	Broad	4046
 ell_grek_broad.tsv	ell	Modern Greek (1453-)	Greek	Greek		False	Broad	15104
 ell_grek_broad_filtered.tsv	ell	Modern Greek (1453-)	Greek	Greek		True	Broad	14692
 ell_grek_narrow.tsv	ell	Modern Greek (1453-)	Greek	Greek		False	Narrow	343
-eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	77751
-eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	77113
-eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	1748
-eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	76055
-eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	75397
-eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	2440
+eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	77694
+eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	77060
+eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	1751
+eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	75848
+eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	75198
+eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	2433
 enm_latn_broad.tsv	enm	Middle English (1100-1500)	Middle English	Latin		False	Broad	10507
 epo_latn_broad.tsv	epo	Esperanto	Esperanto	Latin		False	Broad	3952
 epo_latn_narrow.tsv	epo	Esperanto	Esperanto	Latin		False	Narrow	16878
@@ -265,6 +266,7 @@ mal_mlym_broad.tsv	mal	Malayalam	Malayalam	Malayalam		False	Broad	6636
 mal_mlym_narrow.tsv	mal	Malayalam	Malayalam	Malayalam		False	Narrow	357
 mar_deva_broad.tsv	mar	Marathi	Marathi	Devanagari		False	Broad	2654
 mar_deva_narrow.tsv	mar	Marathi	Marathi	Devanagari		False	Narrow	595
+mch_latn_narrow.tsv	mch	Maquiritari	Maquiritari	Latin		False	Narrow	1450
 mdf_cyrl_broad.tsv	mdf	Moksha	Moksha	Cyrillic		False	Broad	132
 mfe_latn_broad.tsv	mfe	Morisyen	Mauritian Creole	Latin		False	Broad	206
 mga_latn_broad.tsv	mga	Middle Irish (900-1200)	Middle Irish	Latin		False	Broad	312
@@ -272,8 +274,8 @@ mic_latn_broad.tsv	mic	Mi'kmaq	Mi'kmaq	Latin		False	Broad	195
 mic_latn_narrow.tsv	mic	Mi'kmaq	Mi'kmaq	Latin		False	Narrow	193
 mkd_cyrl_narrow.tsv	mkd	Macedonian	Macedonian	Cyrillic		False	Narrow	62040
 mlg_latn_broad.tsv	mlg	Malagasy	Malagasy	Latin		False	Broad	186
-mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	18438
-mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	18348
+mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	18312
+mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	14313
 mnc_mong_narrow.tsv	mnc	Manchu	Manchu	Mongolian		False	Narrow	1461
 mns_cyrl_narrow.tsv	mns	Mansi	Mansi	Cyrillic		False	Narrow	237
 mnw_mymr_broad.tsv	mnw	Mon	Mon	Myanmar		False	Broad	1162
@@ -323,6 +325,7 @@ ofs_latn_broad.tsv	ofs	Old Frisian	Old Frisian	Latin		False	Broad	174
 okm_hang_broad.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	Hangul		False	Broad	595
 okm_hang_narrow.tsv	okm	Middle Korean (10th-16th cent.)	Middle Korean	Hangul		False	Narrow	244
 olo_latn_broad.tsv	olo	Livvi	Livvi	Latin		False	Broad	265
+ori_orya_broad.tsv	ori	Oriya (macrolanguage)	Oriya	Oriya		False	Broad	569
 orv_cyrl_broad.tsv	orv	Old Russian	Old East Slavic	Cyrillic		False	Broad	1042
 osp_latn_broad.tsv	osp	Old Spanish	Old Spanish	Latin		False	Broad	616
 osx_latn_broad.tsv	osx	Old Saxon	Old Saxon	Latin		False	Broad	251
@@ -420,6 +423,7 @@ tgk_cyrl_narrow.tsv	tgk	Tajik	Tajik	Cyrillic		False	Narrow	646
 tgl_latn_broad.tsv	tgl	Tagalog	Tagalog	Latin		False	Broad	17768
 tgl_latn_narrow.tsv	tgl	Tagalog	Tagalog	Latin		False	Narrow	19344
 tha_thai_broad.tsv	tha	Thai	Thai	Thai		False	Broad	16606
+tkl_latn_broad.tsv	tkl	Tokelau	Tokelauan	Latin		False	Broad	375
 tkl_latn_narrow.tsv	tkl	Tokelau	Tokelauan	Latin		False	Narrow	372
 ton_latn_broad.tsv	ton	Tonga (Tonga Islands)	Tongan	Latin		False	Broad	168
 tpw_latn_broad.tsv	tpw	Tupí	Old Tupi	Latin		False	Broad	349
@@ -457,6 +461,7 @@ wlm_latn_broad.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Broad	154
 wln_latn_broad.tsv	wln	Walloon	Walloon	Latin		False	Broad	2526
 xal_cyrl_broad.tsv	xal	Kalmyk	Kalmyk	Cyrillic		False	Broad	328
 xho_latn_narrow.tsv	xho	Xhosa	Xhosa	Latin		False	Narrow	878
+xsl_latn_broad.tsv	xsl	South Slavey	South Slavey	Latin		False	Broad	115
 xsl_latn_narrow.tsv	xsl	South Slavey	South Slavey	Latin		False	Narrow	138
 ybi_deva_broad.tsv	ybi	Yamphu	Yamphu	Devanagari		False	Broad	136
 ycl_latn_narrow.tsv	ycl	Lolopo	Lolopo	Latin		False	Narrow	109

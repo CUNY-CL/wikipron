@@ -16,6 +16,9 @@
 'n'	n̩
 'n'	ə n
 'rales	ɹ ɑː l i z
+<<<<<<< HEAD
+=======
+>>>>>>> bad2358 (English scrape after #511 (#515))
 aa	ɑ ʔ ɑ
 abear	ə b ɛ ɚ
 able	e ɪ̯ b ɫ̩
@@ -182,7 +185,6 @@ autumn	ɔ ɾ ɪ̈ m
 availability	ə v e ɪ l ə b ɪ l ɪ t ɪ
 avocado	æ v ə k ɑ ɾ o ʊ
 avocado	ɑ v ə k ɑ ɾ o ʊ
-aw	ɔ̃ː ~ ɒ̃ː
 awara	æ w ɑ ɹ ʌ
 awara	ɑ w ʌ ɹ ʌ
 aye	æ e̯
@@ -350,9 +352,7 @@ camp	kʰ ɛ ə m p
 can	kʰ n̩
 can	kʰ æ n
 can	kʰ ə n
-can	kʰ ɛ ə n ~ kʰ e ə n
 can't	kʰ æ n ʔ
-can't	kʰ ẽ ə̃ n ʔ ~ kʰ ɪ̃ ə̃ n ʔ
 can't	kʰ ẽ ɪ̃ n t
 can't	kʰ ẽ ɪ̃ n ʔ
 canada	kʰ e ə n ə d ə
@@ -941,7 +941,6 @@ goiter	ɡ ɔ ɪ ɾ ɚ
 golden	ɡ ə ɫ d n̩
 gon	ɡ õ ʊ
 gonna	ɡ o ʊ ɪ n ə
-gonna	ɡ o ʊ ɪ ŋ t ə
 good	ɡ ɪ̈ d
 good	ɡ ʊ̈ d
 gotta	ɡ ɑ ɾ ə
@@ -1098,7 +1097,6 @@ informative	ɪ n f ɔ ɹ m ə ɾ ɪ v
 inhalation	ɪ n ɦ ə l e ɪ ʃ n̩
 input	ɪ m p ʊ t
 input	ɪ n p ʊ t
-inscripturating	ɪ n s k ɹ ɪ p t͡ʃ ə ɹ e ɪ ɾ ɪ ŋ
 insensible	ɪ n s ɛ n̥ s ɪ b l̩
 insolvency	ɪ n s ɒ l v n̩ s i
 installation	ɪ n s t ə l e ɪ ʃ ə n
@@ -1210,7 +1208,6 @@ kumara	kʰ ʉː m ə ɹʷ ɐ
 l	l
 l	w
 l	ɫ
-la	ɛ ɫ l e j
 ladder	l æ ɾ ɚ
 lady	l e ɪ ɾ i
 lah	l ä ˨
@@ -1281,7 +1278,6 @@ maa	m æ̰ː ~ m æˀ æˀ æ
 madder	m æ ɾ ɚ
 mailed	m e ɪ ɫ d
 maintenance	m ẽ ɪ̃ n ʔ ə n ə n s
-makati	m ə k ɑ d ɪ
 make	m e ɪ kʲ
 malinois	m æ l ɪ n w ɑː
 malleable	m a ɫ i ə b ə ɫ
@@ -2330,9 +2326,6 @@ wear	w ɛ ɹ
 weighted	w e ɪ ɾ ɪ d
 welp	w ɛ l p̚
 went	w ɛ n ʔ t̚
-weren't	w ɝ n
-weren't	w ɝ̃ ʔ
-weren't	w ɝ̃ ʔ t̚
 westside	w ɛ s s a ɪ d
 westside	w ɛ s t s a ɪ d
 wetting	w ɛ ɾ ɪ ŋ
