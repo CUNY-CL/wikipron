@@ -33,6 +33,7 @@ Unreleased
 
 -   Added KPI computation to `generate_summary.py`. (\#465)
 -   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
+-   Added a phonefilter for Bengali (Rarhi variety) #526
 
 #### Changed
 
