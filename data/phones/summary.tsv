@@ -1,6 +1,6 @@
 ady_narrow.phones	ady	Adyghe	Adyghe	Narrow	67
 afr_broad.phones	afr	Afrikaans	Afrikaans	Broad	61
-aze_narrow.phones	aze	Azerbaijani	Azerbaijani	Narrow	54
+aze_narrow.phones	aze	Azerbaijani	Azerbaijani	Narrow	56
 bul_broad.phones	bul	Bulgarian	Bulgarian	Broad	52
 cym_nw_broad.phones	cym	Welsh	Welsh (North Wales)	Broad	63
 cym_sw_broad.phones	cym	Welsh	Welsh (South Wales)	Broad	55
@@ -22,7 +22,7 @@ khm_broad.phones	khm	Khmer	Khmer	Broad	73
 kor_narrow.phones	kor	Korean	Korean	Narrow	61
 lat_clas_broad.phones	lat	Latin	Latin (Classical)	Broad	36
 lav_narrow.phones	lav	Latvian	Latvian	Narrow	89
-mlt_broad.phones	mlt	Maltese	Maltese	Broad	61
+mlt_broad.phones	mlt	Maltese	Maltese	Broad	62
 mya_broad.phones	mya	Burmese	Burmese	Broad	70
 nld_broad.phones	nld	Dutch	Dutch	Broad	50
 nob_broad.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Broad	54
