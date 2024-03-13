@@ -5,8 +5,8 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/afr_broad.phones) | afr | Afrikaans | Afrikaans | Broad | 61 |
 | [phone](phones/aze_narrow.phones) | aze | Azerbaijani | Azerbaijani | Narrow | 56 |
 | [phone](phones/bul_broad.phones) | bul | Bulgarian | Bulgarian | Broad | 52 |
-| [phone](phones/cym_nw_broad.phones) | cym | Welsh | Welsh (North Wales) | Broad | 63 |
-| [phone](phones/cym_sw_broad.phones) | cym | Welsh | Welsh (South Wales) | Broad | 55 |
+| [phone](phones/cym_nw_broad.phones) | cym | Welsh | Welsh (North Wales) | Broad | 64 |
+| [phone](phones/cym_sw_broad.phones) | cym | Welsh | Welsh (South Wales) | Broad | 56 |
 | [phone](phones/deu_broad.phones) | deu | German | German | Broad | 83 |
 | [phone](phones/ell_broad.phones) | ell | Modern Greek (1453-) | Greek | Broad | 33 |
 | [phone](phones/eng_uk_broad.phones) | eng | English | English (UK, Received Pronunciation) | Broad | 64 |
