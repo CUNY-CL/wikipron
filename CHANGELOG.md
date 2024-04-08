@@ -12,6 +12,7 @@ Unreleased
 
 ### Under `data/`
 
+-   Fixes excessive line wrapping. (\#529)
 -   Big scrape for 2024. (\#514)
 
 ### Under `src/` and elsewhere
