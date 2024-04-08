@@ -16,6 +16,8 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Upgrades `black` for Dependabot. (\#530)
+
 #### Added
 
 -   Remove the case-folding attributes for the big scrape. (\#469)
