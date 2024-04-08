@@ -17,6 +17,8 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Removes Min Nan (`nan`) custom selector. (\#529)
+
 #### Added
 
 -   Remove the case-folding attributes for the big scrape. (\#469)
