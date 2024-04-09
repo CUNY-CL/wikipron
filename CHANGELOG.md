@@ -33,10 +33,11 @@ Unreleased
 
 -   Added KPI computation to `generate_summary.py`. (\#465)
 -   Added "ː"-suffixed characters to list of valid IPAs. (\#497)
--   Added a phonefilter for Bengali (Rarhi variety) #526
+-   Added Bengali (`ben`) phonelist. (\#526)
 
 #### Changed
 
+-   Updated JSON to introduce Bengali dialect (Rarh and Dhaka). (\#526)
 -   Updated Maltese (`mlt`) phonelist. (\#517)
 -   Fixed path bug in `generate_summary.py`. (\#517)
 -   Fixed CLI arg bug in `list_phones.py`. (\#516)
