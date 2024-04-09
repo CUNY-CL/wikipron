@@ -37,23 +37,11 @@ def _detect_best_script_name(
 
     Example: "ژۇرنال" -> ("Arabic", 1.0).
     """
-    script_counts: DefaultDict[
-        str,
-        float,
-    ] = collections.defaultdict(float)
+    script_counts: DefaultDict[str, float] = collections.defaultdict(float)
     for char in word:
         script_counts[unicodedataplus.script(char)] += 1.0
-    script_probs = [
-        (
-            s,
-            script_counts[s] / len(word),
-        )
-        for s in script_counts
-    ]
-    script_probs.sort(
-        key=operator.itemgetter(1),
-        reverse=True,
-    )
+    script_probs = [(s, script_counts[s] / len(word)) for s in script_counts]
+    script_probs.sort(key=operator.itemgetter(1), reverse=True)
     if strict and len(script_probs) != 1:
         return None
     else:
@@ -79,26 +67,14 @@ def _get_alias(
 
 
 def _remove_mismatch_ids(
-    script_dict: Dict[
-        str,
-        Dict[
-            str,
-            str,
-        ],
-    ]
+    script_dict: Dict[str, Dict[str, str]]
 ) -> Dict[str, Dict[str, str]]:
     """Removes [key:value] pairs when the key does not
     match the ISO 15924 code alias for script.
     """
     remove = []
-    for (
-        key,
-        value,
-    ) in script_dict["script"].items():
-        value = value.replace(
-            " ",
-            "_",
-        )
+    for key, value in script_dict["script"].items():
+        value = value.replace(" ", "_")
         if _get_alias(value) != key:
             remove.append(key)
     for i in remove:
@@ -107,11 +83,7 @@ def _remove_mismatch_ids(
 
 
 def main():
-    with open(
-        LANGUAGES_PATH,
-        "r",
-        encoding="utf-8",
-    ) as source:
+    with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
     for filename in os.listdir(TSV_DIRECTORY):
         if filename.endswith(".tsv"):
@@ -126,10 +98,7 @@ def main():
             ) as source:
                 for line in source:
                     if line is not None:
-                        word = line.split(
-                            "\t",
-                            1,
-                        )[0]
+                        word = line.split("\t", 1)[0]
                         script = _detect_best_script_name(word)
                         if script is not None:
                             if "script" not in lang:
