@@ -20,6 +20,7 @@ keywords = [
     "Wiktionary",
 ]
 dependencies = [
+    'lxml_html_clean',
     'python-iso639 >= 2022.11.27',
     'requests',
     'requests-html',
