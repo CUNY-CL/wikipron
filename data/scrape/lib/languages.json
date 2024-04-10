@@ -282,6 +282,10 @@
         "iso639_name": "Bengali",
         "wiktionary_name": "Bengali",
         "wiktionary_code": "bn",
+        "dialect": {
+            "rarh": "Rarh | Standard Bengali",
+            "dhaka": "Dhaka"
+        },
         "script": {
             "beng": "Bengali"
         }
