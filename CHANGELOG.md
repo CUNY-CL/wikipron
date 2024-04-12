@@ -12,6 +12,7 @@ Unreleased
 
 ### Under `data/`
 
+-   Adds Bengali (`ben`) phonelists and dialects. (\#533)
 -   Fixes excessive line wrapping. (\#529)
 -   Big scrape for 2024. (\#514)
 
