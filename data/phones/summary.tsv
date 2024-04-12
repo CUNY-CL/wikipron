@@ -1,8 +1,8 @@
 ady_narrow.phones	ady	Adyghe	Adyghe	Narrow	67
 afr_broad.phones	afr	Afrikaans	Afrikaans	Broad	61
 aze_narrow.phones	aze	Azerbaijani	Azerbaijani	Narrow	54
-ben_dhaka_broad.phones	ben	Bengali	Bengali (Dhaka)	Broad	80
-ben_rarh_broad.phones	ben	Bengali	Bengali (Rarh, Standard Bengali)	Broad	94
+ben_dhaka_broad.phones	ben	Bengali	Bengali (Dhaka)	Broad	98
+ben_rarh_broad.phones	ben	Bengali	Bengali (Rarh, Standard Bengali)	Broad	99
 bul_broad.phones	bul	Bulgarian	Bulgarian	Broad	52
 cym_nw_broad.phones	cym	Welsh	Welsh (North Wales)	Broad	63
 cym_sw_broad.phones	cym	Welsh	Welsh (South Wales)	Broad	55
