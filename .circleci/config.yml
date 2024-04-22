@@ -77,7 +77,7 @@ workflows:
           command-run: flake8 --extend-ignore E203 data src tests
       - pre-build:
           name: black
-          command-run: black --line-length=79 --check data src tests
+          command-run: black --line-length 79 --check data src tests
       - pre-build:
           name: mypy
           command-run: mypy --install-types --ignore-missing-imports --non-interactive src tests
