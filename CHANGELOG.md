@@ -12,6 +12,9 @@ Unreleased
 
 ### Under `data/`
 
+#### Changed
+
+-   Repeats big scrape after \#523. (\#536)
 -   Fixes excessive line wrapping. (\#529)
 -   Big scrape for 2024. (\#514)
 
