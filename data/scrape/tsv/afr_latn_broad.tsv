@@ -1,6 +1,120 @@
 'is	ə s
 'n	ə
-a	ɑː
+A	ɑː
+AWB	aː v i ə b i ə
+Aarde	ɑː r d ə
+Afrika	ɑ f ɾ i k ä
+Afrikaander	a f r i k ɑː n d ə r
+Afrikaans	a f r i k ɑː n s
+Afrikaans	a f r i k ɑ̃ː s
+Afrikaner	a f r i k ɑː n ə r
+Amerika	a m ɪ ə r ə k a
+Amerikaner	a m ɪ ə̯ r i k ɑː n ə r
+André	a n d r ə i
+B	b ɪ ə
+Barnard	b a r n a r t
+Blignault	b l i n œ u
+Blignault	b l ɨ x n œ u t
+Bloemfontein	b l u m f ɔ n t ə i̯ n
+Boer	b uː r
+Boland	b ʊ ə̯ l a n t
+Bolands	b ʊ ə̯ l a n t s
+Botha	b u ə t a
+Brasilië	b r a z ɪ l i ə
+C	s ɪ ə
+Cilliers	s ə l j e ə
+Coetzee	k u t s e ə
+Coetzee	k u t s ɪ ə
+Coetzer	k u t s ə r
+D	d ɪ ə
+Duits	d œ i̯ t s
+E	ɪ ə
+Engels	ɛ̃ˑ ŋ ə l s
+F	ɛ f
+Fouché	f u ʃ e ə
+Fourie	f u r i
+Francois	f r a n s w a
+G	χ ɪ ə
+God	χ ɔ t
+Griekeland	χ r i k ə l a n t
+Grové	x r u v e ə
+H	ɦ ɑː
+Hauptfleisch	ɦ o ə f l i s
+Hauptfleisch	ɦ o ə f l i ʃ
+Hauptfleisch	ɦ u f l i s
+Hough	ɦ œ u x
+I	i
+J	j ɛ
+Jesus	j ɪ ə̯ s œ s
+Johannesburg	j ʊ ə ɦ a n ə s b œ r χ
+Joubert	j u b æː r
+K	k ɑː
+Kaaps	k ɑː p s
+Kaapstad	k ɑː p s t a t
+Katoliek	k a t ʊ ə̯ l i k
+Krige	k r i x ə
+Kruger	k r y j ə r
+Kuba	k y b a
+L	ɛ l
+Labuschagne	l a b u s k a x n ə
+Labuschagne	l æ b u ʃ ə i n
+Laubscher	l œ u p ʃ ə r
+Lesotho	l ə s u t u
+M	ɛ m
+Malan	m a l a n
+Malan	m a l a ŋ
+Malherbe	m a l ɦ ɛ r b ə
+Marais	m a r ɛː
+Masedonië	m ɑ s ə d ʊ ə n i j ə
+Meintjes	m ə i ɲ c i s
+N	ɛ n
+NAVO	n ɑː f o ə̯
+Naudé	n œ u d e ə
+Nederland	n ɪ ə̯ d ə r l a n t
+Nigeries	n i χ ɪ ə̯ r i s
+Nortje	n ɔ r k e ə
+O	ʊ ə
+Ora	ʊ ə r a
+P	p ɪ ə
+Pienaar	p i n aː r
+Pieter	p i t ə r
+Pole	p ʊ ə l ə
+Pools	p ʊ ə l s
+Pretoria	p r ə t ʊ ə r i a
+Q	k i
+R	ɛ r
+Rooikappie	r oː i̯ k ɑ p i
+S	ɛ s
+Schalk	s k a l k
+Schoeman	s k u m a n
+Schuster	ʃ u s t ə r
+Schutte	s k œ ə t ə
+Skotland	s k ɔ t l a n t
+Smuts	s m a t s
+Smuts	s m œ t s
+Spanje	s p a n j ə
+Swede	s v ɛ d ə
+T	t ɪ ə
+Tanzanië	t ɑ n z ɑː n i ə
+Terblanche	t ə r b l aː n ʃ
+Theo	t i u
+Theron	t r o n
+Theron	t r ɔ n
+Tsjeggies	t ʃ ɛ χ i s
+U	y
+V	f ɪ ə
+Viljoen	f ə l j u n
+Visagie	f ə s aː s i
+Visagie	f ə s aː x i
+Viviers	v ə v ə j e ə
+Vrydag	f r ə i d a χ
+W	v ɪ ə
+Wilhelm	v ə l ɦ ɛ l ə m
+Woensdag	v u n s d a χ
+X	ɛ k s
+Y	ə ɪ̯
+Z	z ɛ t
+Zambië	z a m b i ə
 aag	ɑː χ
 aalbessie	ɑː l b ɛ s i
 aalfuik	ɑː l f œ i k
@@ -34,16 +148,11 @@ advies	a t f i s
 afgaan	a f χ ɑː n
 afgeleë	a f χ ə l ɪ ə
 aflaai	a f l ɑː i̯
-afrika	ɑ f ɾ i k ä
-afrikaander	a f r i k ɑː n d ə r
-afrikaans	a f r i k ɑː n s
-afrikaans	a f r i k ɑ̃ː s
-afrikaner	a f r i k ɑː n ə r
 afsaag	a f s ɑː χ
 afslaandak	a f s l ɑː n d a k
 afstand	a f s t a n t
 aftands	a f t a n t s
-afwesig	a f v ɪ ə̯ s ə x
+afwesig	a f v ɪ ə̯ s ə χ
 afwesigheid	a f v ɪ ə̯ s ə x ɦ ə i̯ t
 ag	a χ
 agt	a χ t
@@ -54,14 +163,11 @@ alledaags	a l ə d ɑː χ s
 almal	a l m a l
 altaar	a l t ɑː r
 altyd	a l t ə i̯ t
-amerika	a m ɪ ə r ə k a
-amerikaner	a m ɪ ə̯ r i k ɑː n ə r
 amp	a m p
 amper	a m p ə r
 an	a n
 ander	ɑ n d ɛ r
 andersyds	a n d ə r s ə i̯ t s
-andré	a n d r ə i
 anime	a ɲ i m ɛ
 anker	a ŋ k ə r
 antenne	a n t ɛ n n ə
@@ -84,8 +190,6 @@ assegaai	a s ə χ ɑː i̯
 assit	a s ə t
 asyn	a s ə i n
 avontuur	a f ɔ n t y r
-awb	aː v i ə b i ə
-b	b ɪ ə
 baadjie	b ɑː ɪ̯ k i
 baai	b ɑː i̯
 baarmoeder	b ɑː r m u d ə r
@@ -102,7 +206,6 @@ bandana	b a n d a n a
 bandopnemer	b a n t ɔ p n ɪ ə̯ m ə r
 bang	b a ŋ
 bank	b a ŋ k
-barnard	b a r n a r t
 bed	b ɛ t
 bediende	b ə d i n d ə
 bedkussing	b ɛ t k œ s ə ŋ
@@ -168,8 +271,6 @@ blaker	b l ɑː k ə r
 blank	b l a ŋ k
 blanke	b l a ŋ k ə
 blaps	b l a p s
-blignault	b l i n œ u
-blignault	b l ɨ x n œ u t
 bliksem	b l ə k s ə m
 bliksemstraal	b l ə k s ə m s t r ɑː l
 blind	b l ə n t
@@ -177,7 +278,6 @@ bloed	b l u t
 bloedbank	b l u t b a ŋ k
 bloedgroep	b l u t χ r u p
 bloedoortapping	b l u t ʊ ə̯ r t a p ə ŋ
-bloemfontein	b l u m f ɔ n t ə i̯ n
 blom	b l ɔ m
 blou	b l œ u̯
 bloubok	b l œ u b ɔ k
@@ -200,8 +300,6 @@ bofbal	b ɔ̯ f b a l
 bok	b ɔ k
 bokwiet	b ɔ k v i t
 bol	b ɔ l
-boland	b ʊ ə̯ l a n t
-bolands	b ʊ ə̯ l a n t s
 bom	b ɔ m
 bome	b ʊ ə m ə
 boogskutter	b ʊ ə̯ χ s k œ t ə r
@@ -220,7 +318,6 @@ boswagter	b ɔ s v a χ t ə r
 boswerker	b ɔ s v ɛ r k ə r
 bot	b ɔ t
 bote	b ʊ ə t ə
-botha	b u ə t a
 botter	b ɔ t ə r
 bou	b œ u̯
 bouval	b œ u̯ f a l
@@ -230,7 +327,6 @@ braaivleis	b r ɑː i f l ə i s
 braak	b r ɑː k
 brand	b r a n t
 branderplank	b r a n d ə r p l a ŋ k
-brasilië	b r a z ɪ l i ə
 bredie	b r ɪ ə̯ d i
 breed	b r ɪ ə̯ t
 breek	b r ɪ ə̯ k
@@ -274,13 +370,7 @@ byna	b ə i̯ n a
 byrie	b ə i̯ r i
 byt	b ɛ i t
 byvoorbeeld	b ə i f ʊ ə r b ɪ ə l t
-c	s ɪ ə
 chemie	x ɛ m i
-cilliers	s ə l j e ə
-coetzee	k u t s e ə
-coetzee	k u t s ɪ ə
-coetzer	k u t s ə r
-d	d ɪ ə
 daagliks	d ɑː χ l ə k s
 daai	d ɑː i̯
 daaiman	d ɑː i̯ m ə n
@@ -390,12 +480,10 @@ duinebesie	d œ i̯ n ə b ɪ ə̯ s i
 duisend	d œ i̯ s ə n t
 duister	d œ i s t ə r
 duisternis	d œ i̯ s t ə r n ə s
-duits	d œ i̯ t s
 duskant	d œ s k a n t
 dwaal	d v ɑː l
 dwaalleer	d v ɑː l ɪ ə̯ r
 dwarsoor	d v a r s ʊ ə̯ r
-e	ɪ ə
 edelman	ɪ ə̯ d ə l m a n
 een	e ə̯ n
 een	ɪ ə̯ n
@@ -426,7 +514,6 @@ elf	ɛ l f
 en	ə n
 en	ɛ n
 enersyds	ɪ ə̯ n ə r s ə i̯ t s
-engels	ɛ̃ˑ ŋ ə l s
 engte	ɛ ŋ t ə
 enkel	ɛ ŋ k ə l
 ensiklopedie	ɛ n s i k l ʊ ə p ə d i
@@ -442,7 +529,6 @@ ertjie	ɛ r k i
 erts	ɛ r t s
 esel	ɪ ə s ə l
 ewig	ɪ ə v ə x
-f	ɛ f
 fabriek	f a b r i k
 fantasie	f a n t a s i
 fantasie	f a n t ə s i
@@ -463,12 +549,8 @@ fopnuus	f ɔ p n y s
 formule	f ɔ r m y l ə
 forseer	f ɔ r s ɪ ə̯ r
 foto	f ʊ ə̯ t ʊ ə̯
-fouché	f u ʃ e ə
-fourie	f u r i
 fouteer	f œ u t ɪ ə̯ r
 framboos	f r ɑ m b u ə̯ s
-francois	f r a n s w a
-g	χ ɪ ə
 g'n	χ ə n
 gaan	χ ɑː n
 gaas	χ ɑː s
@@ -544,7 +626,6 @@ glas	χ l a s
 gletser	χ l ɛ t s ə r
 glimlag	χ l ə m l a χ
 glo	χ l ʊ ə
-god	χ ɔ t
 godsdiens	χ ɔ t s d i n s
 goed	χ u t
 goedkeur	χ u t k ɪ ø r
@@ -558,7 +639,6 @@ graf	χ r a f
 granaat	χ r a n ɑː t
 grasieus	χ r a s i ɪ ø s
 grens	χ r ɛ n s
-griekeland	χ r i k ə l a n t
 groente	χ r u n t ə
 groep	χ r u p
 groet	χ r u t
@@ -568,10 +648,8 @@ groot	χ r ʊ ə t
 grootmens	χ r ʊ ə̯ t m ɛ n s
 groottoon	χ r ʊ ə t t ʊ ə n
 grot	χ r ɔ t
-grové	x r u v e ə
 gruweldaad	χ r y v ə l d ɑː t
 guur	χ yː r
-h	ɦ ɑː
 haai	ɦ ɑː i
 haakspeld	ɦ ɑː k s p ɛ l t
 haan	ɦ ɑː n
@@ -596,9 +674,6 @@ hangmat	ɦ a ŋ m a t
 hartaanval	ɦ a r t ɑː n f a l
 hartlik	ɦ a r t ə l ə k
 hartoorplanting	ɦ a r t ʊ ə̯ r p l a n t ə ŋ
-hauptfleisch	ɦ o ə f l i s
-hauptfleisch	ɦ o ə f l i ʃ
-hauptfleisch	ɦ u f l i s
 hawe	ɦ ɑː v ə
 heelal	ɦ ɪ ə̯ l a l
 hef	ɦ ɛ f
@@ -648,7 +723,6 @@ horing	ɦ ʊ ə r ə ŋ
 horlosie	ɦ ɔ r l ʊ ə̯ s i
 hospitaal	ɦ ɔ s p i t ɑː l
 hou	ɦ œ u
-hough	ɦ œ u x
 huis	ɦ œ i s
 huise	h œ i s ə
 huisves	ɦ œ i̯ s f ɛ s
@@ -662,7 +736,6 @@ hy	ɦ ə i
 hys	ɦ ə i̯ s
 hysbak	ɦ ə i̯ s b a k
 hê	ɦ ɛː
-i	i
 iemand	i m a n t
 iets	i t s
 iewers	i v ə r s
@@ -686,34 +759,27 @@ invloedsfeer	ə n f l u t s f ɪ ə̯ r
 inwoner	ə n v ʊ ə n ə r
 is	ə s
 issie	ə s i
-j	j ɛ
 ja	j aː
 jaar	j ɑː r
 jaart	j ɑː r t
-jag	j a χ
+jag	j ɑ χ
 jammer	j a m ə r
 jare	j ɑː r ə
 jas	j a s
 jellievis	d ʒ ɛ l i f ə s
-jesus	j ɪ ə̯ s œ s
 jil	j ə l
 joel	j u l
 jogurt	j o x œ r t
-johannesburg	j ʊ ə ɦ a n ə s b œ r χ
 joint	d ʒ ɔ i̯ n t
 jok	j ɔ k
 jong	j ɔ ŋ
 jonk	j ɔ ŋ k
 jou	j œ u
-joubert	j u b æː r
 juis	j œ i̯ s
 julle	j œ l ə
 jy	j ə i
-k	k ɑː
 kaal	k ɑː l
 kaaldans	k ɑː l d a n s
-kaaps	k ɑː p s
-kaapstad	k ɑː p s t a t
 kaart	k ɑː r t
 kaas	k ɑː s
 kaaskoek	k ɑː s k u k
@@ -744,7 +810,6 @@ kardoes	k a r d u s
 karre	k a r ə
 kas	k a s
 kat	k a t
-katoliek	k a t ʊ ə̯ l i k
 keel	k ɪ ə̯ l
 keiser	k ə i̯ s ə r
 kelder	k ɛ l d ə r
@@ -863,18 +928,15 @@ krag	k r a χ
 kreukel	k r ɪ ø k ə l
 kreupelhout	k r ɪ ø p ə l ɦ œ u̯ t
 kriek	k r i k
-krige	k r i x ə
 krimp	k r ə m p
 krimpvark	k r ə m p f a r k
 kroeg	k r u χ
 kroon	k r ʊ ə̯ n
-kruger	k r y j ə r
 kruid	k r œ i̯ t
 kruip	k r œ i̯ p
 kruis	k r œ ɪ̯ s
 kruk	k r œ k
 kry	k r ə i
-kuba	k y b a
 kuier	k œ i̯ ə r
 kultuur	k œ l t y r
 kurk	k œ r k
@@ -885,14 +947,11 @@ kweekskool	k v ɪ ə̯ k s k ʊ ə̯ l
 kwessie	k v ɛ s i
 kwik	k v ə k
 kwyl	k v ə i̯ l
-l	ɛ l
 laag	l ɑː χ
 laagste	l ɑː χ s t ə
 laai	l ɑː i̯
 laat	l ɑː t
 laatmiddag	l ɑː t m ə d a χ
-labuschagne	l a b u s k a x n ə
-labuschagne	l æ b u ʃ ə i n
 lae	l ɑː ə
 laer	l ɑː ə r
 lafhartig	l a f ɦ a r t ə χ
@@ -910,7 +969,6 @@ lap	l a p
 lasterveldtog	l a s t ə r f ɛ l t ɔ χ
 lastig	l a s t ə x
 lat	l a t
-laubscher	l œ u p ʃ ə r
 lawaglas	l ɑː v ə χ l a s
 lede	l ɪ ə d ə
 leef	l ɪ ə̯ f
@@ -927,7 +985,6 @@ lelik	l ɪ ə̯ l ə k
 lemoen	l ə m u n
 leraar	l ɪ ə̯ r ɑː r
 les	l ɛ s
-lesotho	l ə s u t u
 letter	l ɛ t ə r
 letterkunde	l ɛ t ə r k œ n d ə
 letterkundig	l ɛ t ə r k œ n d ə x
@@ -970,7 +1027,6 @@ lys	l ə i s
 lyste	l ə i s t ə
 lywe	l ə i v ə
 lê	l ɛː
-m	ɛ m
 ma'	m a
 maagd	m ɑː χ t
 maak	m ɑː k
@@ -991,19 +1047,14 @@ majoor	m ə j ʊ ə̯ r
 makeer	m a k eː r
 makou	m a k œ u̯
 makou	m ə k œ u̯
-malan	m a l a n
-malan	m a l a ŋ
-malherbe	m a l ɦ ɛ r b ə
 mamparra	m a m p a r a
 man	m a n
 mang	m a ŋ
 mantel	m a n t ə l
 mar	m a r
-marais	m a r ɛː
 mark	m a r k
 maroela	m a r u l a
 mas	m a s
-masedonië	m ɑ s ə d ʊ ə n i j ə
 massa	m a s a
 matras	m a t r a s
 mee	m ɪ ə̯
@@ -1011,7 +1062,6 @@ meersinnig	m ɪ ə̯ r s ə n ə x
 meester	m ɪ ə̯ s t ə r
 meetkunde	m ɪ ə̯ t k œ n d ə
 meetkundig	m ɪ ə̯ t k œ n d ə χ
-meintjes	m ə i ɲ c i s
 meisie	m ə i s i
 melk	m ɛ l k
 melkskommel	m ɛ l k s k ɔ m ə l
@@ -1071,7 +1121,6 @@ mus	m œ s
 my	m ə i
 myne	m ə i n ə
 môre	m ɔː r ə
-n	ɛ n
 naald	n ɑː l t
 naamval	n aː m f ɑ l
 nader	n ɑː d ə r
@@ -1082,10 +1131,7 @@ naguil	n a χ œ i̯ l
 nasie	n ɑː s i
 natuur	n a t y r
 natuurlik	n a t y r l ə k
-naudé	n œ u d e ə
-navo	n ɑː f o ə̯
 naweek	n ɑː v ɪ ə̯ k
-nederland	n ɪ ə̯ d ə r l a n t
 nedersetting	n ɪ ə̯ d ə r s ɛ t ə ŋ
 nee	n i əː
 neerdaal	n ɪ ə̯ r d ɑː l
@@ -1099,7 +1145,6 @@ neutraal	n ɪ ø t r ɑː l
 nie	n i
 nie	‿ i
 nier	n i r
-nigeries	n i χ ɪ ə̯ r i s
 niks	n ə k s
 nis	n ə s
 nog	n ɔ χ
@@ -1109,7 +1154,6 @@ nooi	n oː i̯
 nooit	n oː i t
 noordwaarts	n ʊ ə̯ r t v ɑː r t s
 noot	n ʊ ə̯ t
-nortje	n ɔ r k e ə
 nou	n œ u
 noudat	n œ u̯ d a t
 noukeurig	n œ u̯ k ɪ ø r ə χ
@@ -1119,7 +1163,6 @@ nuus	n y s
 nuut	n i t
 nuut	n y t
 nè	n ɛ
-o	ʊ ə
 oefen	u f ə n
 oek	u k
 oerknal	u r k n a l
@@ -1176,6 +1219,7 @@ oorblyfsel	ʊ ə̯ r b l ə i̯ f s ə l
 oorledene	ʊ ə̯ r l ɪ ə̯ d ə n ə
 oorlog	ʊ ə r l ɔ χ
 oorly	ʊ ə̯ r l ə ɪ̯
+oormôre	u ə̯ r m ɔː r ə
 oorname	ʊ ə̯ r n ɑː m ə
 oorslaan	ʊ ə r s l aː n
 oorspoel	ʊ ə̯ r s p u l
@@ -1187,7 +1231,6 @@ open	ʊ ə̯ p ə n
 opname	ɔ p n ɑː m ə
 opstand	ɔ p s t a n t
 opstandeling	ɔ p s t a n d ə l ɪ ŋ
-ora	ʊ ə r a
 oranje	o r ɑ ɲ ə
 orde	ɔ r d ə
 ordentlik	ɔ r d ɛ n t l ə k
@@ -1203,7 +1246,6 @@ ounooi	œ u n oː i̯
 outisme	œ u̯ t ə s m ə
 outjie	œ u k i
 outonomie	œ u t ʊ ə n ʊ ə m i
-p	p ɪ ə
 paal	p ɑː l
 padda	p a d a
 padda	p a r a
@@ -1233,11 +1275,9 @@ persoonlikheid	p ə r s ʊ ə̯ n l ə k ɦ ə i̯ t
 petrol	p ɛ t r ɔ l
 piek	p i k
 piemp	p i m p
-pienaar	p i n aː r
 pienk	p i ŋ k
 piering	p i r ə ŋ
 piesang	p i s a ŋ
-pieter	p i t ə r
 pil	p ə l
 pla	p l ɑː
 plaas	p l ɑː s
@@ -1259,12 +1299,10 @@ poekoe	p u k u
 poes	p u s
 pofadder	p ɔ f a d ə r
 polder	p ɔ l d ə r
-pole	p ʊ ə l ə
 polisie	p ʊ ə̯ l i s i
 polisiekantoor	p ʊ ə̯ l i s i k a n t ʊ ə̯ r
 pols	p ɔ l s
 pomp	p ɔ m p
-pools	p ʊ ə l s
 poot	p ʊ ə̯ t
 portret	p ɔ r t r ɛ t
 positief	p ʊ ə̯ s i t i f
@@ -1277,7 +1315,6 @@ praktyk	p r a k t ə i̯ k
 preek	p r ɪ ə̯ k
 prent	p r ɛ n t
 presies	p r ə s i s
-pretoria	p r ə t ʊ ə r i a
 prinses	p r ə n s ɛ s
 produk	p r ʊ ə̯ d œ k
 profeet	p r ʊ ə f ɪ ə t
@@ -1294,8 +1331,6 @@ pyne	p ə i n ə
 pynlik	p ə i̯ n l ə k
 pynstiller	p ə i̯ n s t ə l ə r
 pyp	p ə i p
-q	k i
-r	ɛ r
 raadpleeg	r ɑː t p l ɪ ə̯ χ
 raaf	r ɑː f
 raai	r ɑː i
@@ -1345,7 +1380,6 @@ rond	r ɔ n t
 roofdier	r ʊ ə̯ f d i r
 rooi	r oː i̯
 rooibos	r oː i̯ b ɔ s
-rooikappie	r oː i̯ k ɑ p i
 rook	r ʊ ə̯ k
 room	r ʊ ə̯ m
 roos	r ʊ ə̯ s
@@ -1365,7 +1399,6 @@ ry	r ə i
 rykdom	r ə i̯ k d ɔ m
 rym	r ə i̯ m
 rûe	r œː
-s	ɛ s
 s'n	s ə n
 saal	s ɑː l
 saam	s ɑː m
@@ -1387,10 +1420,6 @@ samevatting	s ɑː m ə f a t ə ŋ
 sand	s a n t
 sandkasteel	s a n t k a s t ɪ ə̯ l
 sappig	s a p ə χ
-schalk	s k a l k
-schoeman	s k u m a n
-schuster	ʃ u s t ə r
-schutte	s k œ ə t ə
 se	s ə
 sebra	s ɛ b r a
 sedertdien	s ɪ ə̯ d ə r t d i n
@@ -1469,7 +1498,6 @@ skoon	s k ʊ ə̯ n
 skoorsteen	s k ʊ ə̯ r s t ɪ ə̯ n
 skoot	s k ʊ ə t
 skootrekenaar	s k ʊ ə t r ɪ ə̯ k ə n ɑː r
-skotland	s k ɔ t l a n t
 skottel	s k ɔ t ə l
 skottelgoed	s k ɔ t ə l χ u t
 skrif	s k r ə f
@@ -1500,8 +1528,6 @@ smid	s m ə t
 smokkelhuis	s m ɔ k ə l ɦ œ i̯ s
 smokkie	s m ɔ k i
 smous	s m œ u̯ s
-smuts	s m a t s
-smuts	s m œ t s
 snaaks	s n ɑː k s
 snags	s n a χ s
 snawel	s n ɑː v ə l
@@ -1541,7 +1567,6 @@ sout	s œ u̯ t
 spaarsamig	s p ɑː r s ɑː m ə χ
 spaarvark	s p ɑː r f a r k
 spaarwiel	s p ɑː r v i l
-spanje	s p a n j ə
 speel	s p ɪ ə̯ l
 speelgrond	s p ɪ ə l χ r ɔ n t
 spel	s p ɛ l
@@ -1610,6 +1635,8 @@ stug	s t œ χ
 stuk	s t œ k
 subsidie	s œ p s i d i
 sug	s œ χ
+suid	s œ i t
+suid	s œ ʏ̯ t
 suidwaarts	s œ i̯ t v ɑː r t s
 suig	s œ i χ
 suigstokkie	s œ i̯ χ s t ɔ k i
@@ -1619,7 +1646,6 @@ suster	s œ s t ə r
 suur	s y r
 swaan	s v ɑː n
 swaartekrag	s v ɑː r t ə k r a χ
-swede	s v ɛ d ə
 sweep	s v ɪ ə̯ p
 sweet	s v ɪ ə̯ t
 swembad	s v ə m b a t
@@ -1629,7 +1655,6 @@ sy	s ə i
 syfer	s ə i f ə r
 sê	s ɛː
 sôe	s oː ə
-t	t ɪ ə
 taal	t ɑː l
 taalbeleid	t ɑː l b ə l ə i̯ t
 taalgeleerde	t ɑː l χ ə l ɪ ə̯ r d ə
@@ -1642,7 +1667,6 @@ tamatie	t a m ɑː t i
 tandeborsel	t a n d ə b ɔ r s ə l
 tandepasta	t a n d ə p a s t a
 tandepasta	t a n ə p a s t a
-tanzanië	t ɑ n z ɑː n i ə
 te	t ə
 teater	t ɪ ə̯ ɑː t ə r
 tee	t ɪ ə̯
@@ -1665,10 +1689,6 @@ telefoonhokkie	t ɛ l ə f ʊ ə̯ n h ɔ k i
 telefoonhokkie	t ɪ ə̯ l ə f ʊ ə̯ n h ɔ k i
 telg	t ɛ l χ
 telluur	t ɛ l y r
-terblanche	t ə r b l aː n ʃ
-theo	t i u
-theron	t r o n
-theron	t r ɔ n
 tiekie	t i k i
 tiekieboks	t i k i b ɔ k s
 tiet	t i t
@@ -1703,7 +1723,6 @@ treindrywer	t r ə i̯ n d r ə i̯ v ə r
 trek	t r æ k
 tronk	t r ɔ ŋ k
 tsaar	t͡s ɑː r
-tsjeggies	t ʃ ɛ χ i s
 tuin	t œ i̯ n
 tuis	t œ i̯ s
 tuiste	t œ i̯ s t ə
@@ -1729,7 +1748,6 @@ universiteit	y n i v ɛ r s i t ə i̯ t
 ure	y r ə
 uur	y r
 uurglas	y r χ l a s
-v	f ɪ ə
 vaal	f ɑː l
 vaart	f ɑː r t
 vaartuig	f ɑː r t œ i̯ χ
@@ -1815,7 +1833,6 @@ vesel	v ɪ ə̯ s ə l
 veselperske	v ɪ ə̯ s ə l p ɛ r s k ə
 veteraanmotor	f ɪ ə̯ t ə r ɑː n m ʊ ə̯ t ə r
 vi'	f ə
-viljoen	f ə l j u n
 vind	f ə n t
 vinger	f ə ŋ ə r
 vink	f ə ŋ k
@@ -1823,12 +1840,9 @@ viool	f i ʊ ə̯ l
 vir	f ə r
 virrie	f ə r i
 vis	f ə s
-visagie	f ə s aː s i
-visagie	f ə s aː x i
 visarend	f ə s ɑː r ə n t
 visse	f ə s ə
 visser	f ə s ə r
-viviers	v ə v ə j e ə
 vlak	f l a k
 vlakte	f l a k t ə
 vlam	f l a m
@@ -1893,7 +1907,6 @@ vrot	f r ɔ t
 vrou	f r œ u̯
 vrug	f r œ χ
 vrugteskommel	f r œ χ t ə s k ɔ m ə l
-vrydag	f r ə i d a χ
 vuis	f œ i s
 vuiste	f œ i s t ə
 vulkaan	v œ l k ɑː n
@@ -1916,7 +1929,6 @@ vyandig	f ə i̯ a n d ə χ
 vyeboom	f ə i̯ ə b u ə̯ m
 vyg	f ə i̯ χ
 vygie	f ə i̯ χ i
-w	v ɪ ə
 wa	v ɑː
 waagmoedig	v ɑː χ m u d ə χ
 waar	v ɑː r
@@ -1973,7 +1985,6 @@ wild	v ə l t
 wildebees	v ə l d ə b ɪ ə s
 wildtuin	v ə l t œ i̯ n
 wilg	v ə l χ
-wilhelm	v ə l ɦ ɛ l ə m
 wind	v ə n t
 winkel	v ə ŋ k ə l
 winkelsentrum	v ə ŋ k ə l s ɛ n t r œ m
@@ -1981,7 +1992,6 @@ winter	v ə n t ə r
 wisselkoers	v ə s ə l k uː r s
 wit	v ə t
 witman	v ə t m a n
-woensdag	v u n s d a χ
 wolk	v ɔ l k
 wonder	v ɔ n d ə r
 wonder	v ɔ n ə r
@@ -2003,14 +2013,10 @@ wynruit	v ə i̯ n r œ i̯ t
 wysheid	v ə i̯ s ɦ ə i̯ t
 wêreld	v ɛː r ə l t
 wîe	v əː ə
-x	ɛ k s
-y	ə ɪ̯
 ysig	ə i̯ s ə χ
 yslik	ə i̯ s l ə k
 yster	ə i s t ə r
 ystervark	ə i̯ s t ə r f a r k
 yt	ə i̯ t
 ytie	ə i̯ t i
-z	z ɛ t
-zambië	z a m b i ə
 zol	z ɔ l

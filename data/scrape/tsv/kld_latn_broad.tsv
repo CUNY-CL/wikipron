@@ -1,3 +1,11 @@
+Baalaay	b aː l aː j
+Bulawaa	b u l a v aː
+Gabudhaa	ɡ a b u d aː
+Gamilaraay	ɡ̊ a m i l a ɻ aː j
+Milaygiin	m i l a ɪ̯ ɡ iː n
+Yarraanbaa	j a r aː n b aː
+Yarraanbarra	j a r aː n b a r a
+Yuurrila	j uː r i l a
 baa	b aː
 baadal	b aː d a l
 baadali	b aː d a l i
@@ -5,7 +13,6 @@ baadhal	b aː d a l
 baadi	b aː d i
 baadjin	b aː d͡ʒ i n
 baagii	b aː ɡ iː
-baalaay	b aː l aː j
 baaldharradharra	b aː l d̪ a r a d̪ a r a
 baaluu	b aː l uː
 baama	b aː m a
@@ -58,7 +65,6 @@ barriga	b a r i ɡ a
 bawili	b a w i l i
 bawurra	b a w u r a
 bayn	b a j n
-baynbaa	b a j n b aː
 bibubibu	b i b u b i b u
 bigibila	b i ɡ i b i l a
 biiba	b iː b a
@@ -78,7 +84,6 @@ bugu	b u ɡ u
 bulaarr	b u l aː r
 bulaarra	b u l aː r a
 bulanggi	b u l a ŋ ɡ i
-bulawaa	b u l a v aː
 buligaa	b u l i ɡ aː
 buliirral	b u l iː r a l
 buluuy	b u l uː j
@@ -184,7 +189,6 @@ gaba	ɡ a b a
 gaban	ɡ a b a n
 gabangaarr	ɡ a b a ɳ aː r
 gabi	ɡ a b i
-gabudhaa	ɡ a b u d aː
 gadhaa	ɡ a d̪ aː
 gaga	ɡ a ɡ a
 gagali	ɡ a ɡ a l i
@@ -194,7 +198,6 @@ galay	ɡ a l a j
 gali	ɡ a l i
 galibaraay	ɡ a l i b a ɻ aː j
 gamil	ɡ o m i l
-gamilaraay	ɡ̊ a m i l a ɻ aː j
 ganaay	ɡ a n aː j
 ganay	ɡ a n a j
 ganungawu	ɡ a n u n ɡ a v u
@@ -280,6 +283,8 @@ guwiirra	ɡ u v iː r a
 guya	ɡ u j a
 guyaarr	ɡ u j aː r
 guyan	ɡ u j a n
+maRawal	m a r a w a l
+maRawal	m a ɻ a w a l
 maa	m aː
 maal	m aː l
 maala	m aː l a
@@ -305,8 +310,6 @@ maniilay	m a n iː l a j
 manumadhaay	m a n u m a d̪ a jː
 mara	m a ɻ a
 marabin	m a ɽ a b i n
-marawal	m a r a w a l
-marawal	m a ɻ a w a l
 mari	m a ɻ i
 marigiirr	m a ɽ i ɡ iː r
 mayabuu	m a j a b uː
@@ -315,7 +318,6 @@ mayrraa	m a j r aː
 miirrmiirr	m iː r m iː r
 mila	m i l a
 milambaraay	m i l a m b a ɻ aː j
-milaygiin	m i l a ɪ̯ ɡ iː n
 minya	m i ɲ a
 minyaaya	m i n j aː j a
 minyagu	m i ɲ a ɡ u
@@ -458,8 +460,6 @@ yaraay	j a ɻ aː j
 yaray	j a ɻ a j
 yarraaman	j a r aː m a n
 yarraan	j a r aː n
-yarraanbaa	j a r aː n b aː
-yarraanbarra	j a r aː n b a r a
 yarragaa	j a r a ɡ aː
 yarral	j a r a l
 yarrangan	j a r a ŋ a n
@@ -512,5 +512,4 @@ yuularaay	j uː l a ɻ aː j
 yuulmal	j uː l m a l
 yuulngin	j uː l ŋ i n
 yuundu	j uː n d u
-yuurrila	j uː r i l a
 yuuruu	j uː ɻ uː

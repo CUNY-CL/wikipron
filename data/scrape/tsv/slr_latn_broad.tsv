@@ -1,28 +1,30 @@
 aba	ɑ b ɑ
 adı	ɑː d ɨ
 adı	ɑː d ɯ
-agel	ɑ k e iʲ
-agel	ɑ k i iʲ
-agel	ɑʰ k e iʲ
-aqdar	a x t a r
-aqdar	a x t ə r
-aqdar	a x tʰ a r
+agelgüsi	ɑ k e iʲ
+agelgüsi	ɑ k i iʲ
+agelgüsi	ɑʰ k e iʲ
+aqdarğusı	a x t a r
+aqdarğusı	a x t ə r
+aqdarğusı	a x tʰ a r
+aqğusı	ɑ χ ʁ u s ɨ
 at	ɑ tʰ
-at	ɑʰ
+atğusı	ɑ tʰ
+atğusı	ɑʰ
 aylağusı	ɑ j l ɑ ʁ u s ɨ
 bağ	p ɑ ʁ
-bağla	p ɑ ʁ l ɑ
+bağlağusı	p ɑ ʁ l ɑ
 bağzuq	p o ʁ ɨ r s ɨ χ
 bağzuq	p ɑ ʁ z u χ
 bağzuq	p ɑ ʁ ɨ z u χ
 başga	p ɑ ʃ q ɑ
 beynianqan	p e j n ɑ ŋ χ ɑ n
+bilgüsi	p i l ɣ y s i
 birge	p i r ɣ e
 birge	p i r ɣ i
 birge	p i r ɣ ɑ r
 birge	p y r ɣ e
 borsuq	b o r s u ɡ
-boy	p o j
 bulud	p u l u t
 burmaq	p i r m ɑ
 burmaq	p ɨ r m ɨ χ
@@ -46,10 +48,6 @@ dovşan	t oʷ ʃ æ n
 dovşan	t oː ʃ a n
 dovşan	t oː ʃ e n
 dovşan	t oːʷ ʃ a n
-dum	t o m ɨ
-dum	t u m
-dum	t u m u
-dum	t u m ɨ
 duz	t u z
 duz	tʰ u s
 düge	t i u ɣ e
@@ -68,6 +66,8 @@ gumuş	k u m ɨ ʃ
 gumuş	kʰ u m ɨ ʃ
 gumuş	kʰ y m ɨ ɕ
 gumuş	qʰ u m u ʃ
+göşegüsi	k y ʃ e ɣ y s i
+göşegüsi	k ø ʃ e ɣ y s i
 gürgüncük	k u r ɣ u n d͡ʒ u x
 gürgüncük	k u r ɣ u n ʒ u x
 gürgüncük	k u r ɣ u n ʒʰ u x
@@ -88,8 +88,8 @@ incik	e n ʝ é
 inek	i n e x
 inek	i n i x
 inek	i n æ kʰ
+işdegüsi	i ʃ t e ɣ y s i
 işgi	i ʃ k i
-kele	k e l i iʲ
 kiyne	kʰ eʲ n
 kiyne	kʰ eʲ n e
 kiyne	kʰ eʲ n u r
@@ -102,13 +102,38 @@ kiyne	kʰ iʲ n i
 kiyne	kʰ iʲ n u ɹ
 kiyne	kʰ iʲ n ɨ
 kiyne	kʰ iː n
+kürlük	kʰ u l i x
+kürlük	kʰ u r l i x
+kürlük	kʰ u r l y x
+kürlük	kʰ y r l i x
+kürlük	kʰ y r l y x
+kürlük	qʰ u l l ɨ χ
 mişaq	m i ʃ ɑ χ
+poñ	pʰ o ŋ
 puldır	pʰ u l d ɨ r
 puldır	pʰ ʊ l d ɨ ɹ
 purnı	pʰ u r n ɨ
+qoşmaq	χ o ɕ m ɑ χ
+qusaq	qʰ u s ɑ χ
+qusaq	χ u s ɑ ɣ i
+qusaq	χ u s ɑ χ
+sanduq	s a n d u χ
+saqsıq	s ɑ χ s ɨ χ
 sinigi	s i n i ɣ i
 sinigi	s ɪ n ɪ ɣ ɪ
+siçirağusı	s i t͡ɕ r ɑ
+siçirağusı	s i ʝ i r ɑ
+siçirağusı	s i ʝ r ɑ
+solaq	s o l o χ
+solaq	s o l u χ
+solaq	s o l ɑ χ
+solaq	s u l u χ
 sorma	s o r m ɑ
+soğulcañ	s o ʁ o l ʝ ɑ ŋ
+soğulcañ	s o ʁ u l ʝ ɑ ŋ
+soğulcañ	s o ʁ ɑ l ʝ ɑ ŋ
+soğulcañ	s o ʁ ɨ l ʝ ɑ ŋ
+soğulcañ	s o ʁ ɨ r t͡ʂ ɑ ŋ
 söyingüsi	s o j i n ɣ y s i
 söyingüsi	s ø j i n ɣ y s i
 sıqsağan	s ɨ χ s i ʁ ɑ n
@@ -120,6 +145,13 @@ sırnaq	s i r n ɑ χ
 sırnaq	s ɨ r n ɑ χ
 tırna	tʰ i r n ɑ
 tırna	tʰ ɨ r n ɑ
+urqan	o r χ ɑ n
+urqan	u r u χ ɑ n
+urqan	u r χ ɑ n
+urqan	u r χ ə n
+uslağusı	u s l ɑ ʁ u s ɨ
+uvğusı	uː ʁ u s ɨ
+uşaq	u ʃ ɑ χ
 yaqşi	j ɑ χ ʃ i
 yarasan	j e r s ɑ n
 yağırnı	j ɑ ʁ ɨ r n i
@@ -127,10 +159,24 @@ yağırnı	j ɑ ʁ ɨ r n ɨ
 yekşembe	j e s ʃ e m b e
 yekşembe	j e x ʃ e m
 yekşembe	j e x ʃ e m b e
+yigüsi	j e
+yigüsi	j i
 yiligüş	j i l i ɣ y ʃ
+yiy	j i j
+yiy	j iː
+yorğan	j o r ʁ ɑ n
 yüz	j y z
-çik	t͡ɕ e x
-çik	t͡ɕ i h
-çik	t͡ɕ i x
+çenegüsi	t͡ʃ e n e ɣ y s i
+çikgüsi	t͡ɕ e x
+çikgüsi	t͡ɕ i h
+çikgüsi	t͡ɕ i x
+çira	t͡ʃ i r ɑː
+çiraluk	t͡ʃ i r ɑ l u χ
+çirik	t͡ʃ i r i x
 çiçek	t͡s iː t͡s e x
-çıq	t͡ɕ ɨ χ ~ t͡ɕ i χ
+çıqğusı	t͡ɕ ɨ χ ~ t͡ɕ i χ
+üldürgüsi	y l d e r ɣ y s i
+üldürgüsi	y l d i r ɣ y s i
+üldürgüsi	y l d y r ɣ y s i
+üldürgüsi	y l d ɨ r ɣ y s i
+üldürgüsi	ø l d y r ɣ y s i

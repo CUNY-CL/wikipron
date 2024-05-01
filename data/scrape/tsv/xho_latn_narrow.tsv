@@ -1,5 +1,5 @@
+Mandela	m a n d ɛː l a
 aba	âː ɓ a
-abo	âː ɓ o
 amafutha	á m á f ûː tʰ a
 amandla	á m áːⁿ d̥ ɮ a̤
 amanzi	á m âːⁿ d̥ z i̤
@@ -22,7 +22,6 @@ eso	êː s o
 ewe	eː w é
 ezi	êː z̥ i̤
 ezo	êː z̥ o̤
-fa	f á
 funa	f ûː n a
 fuya	f úː j a
 gcoba	ɡ̊ ǀ ǒ̤ː ɓ a
@@ -39,6 +38,9 @@ hlanza	ɬ áːⁿ d̥ z a̤
 hleka	ɬ eː k a
 hleze	ɬ éː z̥ e̤
 hlonipha	ɬ o n iː pʰ a
+iCawa	í k ǀ áː w a
+iKapa	í k áː p a
+iMelika	í m é l iː k a
 ibala	í ɓ âː l a
 ibandla	í ɓ âːⁿ d̥ ɮ a̤
 ibele	í ɓ éː l e
@@ -107,7 +109,6 @@ ijam	í d̥ ʒ ǎ̤ː m̩
 ijezi	í d̥ ʒ e̤ː z̥ ǐ̤
 ijogo	í d̥ ʒ ǒ̤ː ɡ̊ o̤
 ikampu	í k áːᵐ p u
-ikapa	í k áː p a
 ikati	í k áː t i
 ikawusi	í k á w úː s i
 ikeki	í k éː k i
@@ -154,7 +155,6 @@ imbongolo	íᵐ b̥ ǒ̤ᵑ ɡ̊ o̤ː l o
 imbovane	íᵐ b̥ ǒ̤ v̥ aː n é
 imbuzi	íᵐ b̥ ṳː z̥ ǐ̤
 imela	í m éː l a
-imelika	í m é l iː k a
 imfazwe	íᶬ p̪ f áː z̥ʷ e̤
 imfene	íᶬ p̪ f eː n e
 imfihlo	íᶬ p̪ f îː ɬ o
@@ -284,8 +284,6 @@ inqanawa	í ŋ ǃ á n áː w a
 inqawa	í ŋ ǃ áː w a
 inqina	í ŋ ǃ í n a
 inqwelo	í ŋ ǃʷ éː l o
-intaba	í i n t a b a
-intaba	íⁿ t aː ɓ a
 intaka	íⁿ t aː k a
 intakumba	íⁿ t á k uːᵐ b̥ ǎ̤
 intambo	íⁿ t aːᵐ b̥ o̤
@@ -384,6 +382,9 @@ isenzo	í s éːⁿ d̥ z o̤
 isepha	í s éː pʰ a
 ishishini	í ʃ i ʃ iː n í
 ishumi	í ʃ ûː m i
+isiNgesi	í s íᵑ ɡ̊ e̤᷈ː s i
+isiSuthu	í s í s ûː tʰ u
+isiZulu	í s í z̥ ṳː l u
 isibane	í s í ɓ aː n e
 isibaya	í s i ɓ âː j a
 isibhakabhaka	í s í b̥ a̤ k a b̥ ǎ̤ː k a
@@ -422,7 +423,6 @@ isilonda	í s í l oːⁿ d̥ a̤
 isilwanyana	í s í lʷ á ɲ aː n a
 isimemo	í s í m êː m o
 isimo	í s îː m o
-isingesi	í s íᵑ ɡ̊ e̤᷈ː s i
 isingqala	í s í ŋ ǃ a̤᷈ː l a
 isinhanha	í s í n a̤ː n a̤
 isinqe	í s iː ŋ ǃ é
@@ -441,7 +441,6 @@ isiqwane	í s í k ǃʷ aː n e
 isirhofu	í s í x óː f u
 isisa	í s íː s a
 isisu	í s íː s u
-isisuthu	í s í s ûː tʰ u
 isitalato	í s í t á l áː t o
 isitampu	í s í t áːᵐ p u
 isithombe	í s í tʰ óːᵐ b̥ e̤
@@ -457,7 +456,6 @@ isivatho	í s í v̥ a̤ː tʰ o
 isixeko	í s í k ǁ eː k o
 isiza	í s íː z̥ a̤
 isiziba	í s í z̥ i̤ː ɓ a
-isizulu	í s í z̥ ṳː l u
 isizwe	í s íː z̥ʷ e̤
 isofa	í s oː f á
 isoldathi	í s o l d̥ ǎ̤ː tʰ i
@@ -525,7 +523,6 @@ luma	l uː m a
 luphala	l u pʰ aː l a
 lwa	lʷ a
 mamela	m a m eː l a
-mandela	m a n d ɛː l a
 mema	m eː m a
 mh	m̩᷈ːʱ
 mhlawumbi	m̩ ɬ á w úːᵐ b̥ ǐ̤
@@ -591,6 +588,13 @@ tsiba	t s îː ɓ a
 tya	c á
 tyisa	c íː s a
 tywa	cʷ âː
+uLwesibini	ú lʷ é s í ɓ iː n í
+uLwesihlanu	ú lʷ é s í ɬ âː n u
+uLwesine	ú lʷ é s íː n e
+uLwesithathu	ú lʷ é s í tʰ âː tʰ u
+uMgqibelo	ú ḿ̩ ɡ̊ ǃ ǐ̤ ɓ êː l o
+uMvulo	ú ḿ̩ v̥ ṳː l o
+uThixo	ú tʰ íː k ǁ ó
 ubambo	ú ɓ aːᵐ b̥ o̤
 ubani	ú ɓ áː n í
 ubawo	ú ɓ aː w ó
@@ -670,11 +674,10 @@ uluvo	ú l úː v̥ o̤
 ulwaluko	ú lʷ á l uː k o
 ulwandle	ú lʷ âːⁿ d̥ ɮ e̤
 ulwazi	ú lʷ âː z̥ i̤
-ulwesibini	ú lʷ é s í ɓ iː n í
-ulwesihlanu	ú lʷ é s í ɬ âː n u
-ulwesine	ú lʷ é s íː n e
-ulwesithathu	ú lʷ é s í tʰ âː tʰ u
 ulwimi	ú lʷ îː m i
+umSuthu	ú ḿ̩ s ûː tʰ u
+umThwa	ú m̩ː tʰʷ á
+umZulu	ú ḿ̩ z̥ ṳː l u
 umakhi	ú m âː kʰ i
 umakhulu	ú m á kʰ ûː l u
 umalume	ú m á l ûː m e
@@ -709,7 +712,6 @@ umgangatho	ú ḿ̩ ɡ̊ ǎ̤ᵑ ɡ̊ a̤ː tʰ o
 umgca	ú ḿ̩ː ɡ̊ ǀ a̤
 umgcobo	ú ḿ̩ ɡ̊ ǀ o̤᷈ː ɓ o
 umgodi	ú ḿ̩ ɡ̊ o̤ː d̥ ǐ̤
-umgqibelo	ú ḿ̩ ɡ̊ ǃ ǐ̤ ɓ êː l o
 umgqomo	ú ḿ̩ ɡ̊ ǃ o̤ː m ó
 umgqumo	ú ḿ̩ ɡ̊ ǃ ṳː m o
 umgubo	ú ḿ̩ ɡ̊ ṳ᷈ː ɓ o
@@ -791,7 +793,6 @@ umsila	ú ḿ̩ s îː l a
 umsindo	ú ḿ̩ s îːⁿ d̥ o̤
 umso	ú m̩ː s ó
 umsonto	ú ḿ̩ s oːⁿ t o
-umsuthu	ú ḿ̩ s ûː tʰ u
 umtha	ú ḿ̩ː tʰ a
 umthambo	ú ḿ̩ tʰ áːᵐ b̥ o̤
 umthamo	ú ḿ̩ tʰ áː m o
@@ -800,11 +801,9 @@ umthetho	ú ḿ̩ tʰ êː tʰ o
 umthi	ú m̩ː tʰ í
 umthombo	ú ḿ̩ tʰ ôːᵐ b̥ o̤
 umthunzi	ú ḿ̩ tʰ ûːⁿ d̥ z i̤
-umthwa	ú m̩ː tʰʷ á
 umthwalo	ú ḿ̩ tʰʷ áː l o
 umtshato	ú ḿ̩ t ʃʰ aː t o
 umtya	ú m̩ː c á
-umvulo	ú ḿ̩ v̥ ṳː l o
 umvundla	ú ḿ̩ v̥ ṳ᷈ːⁿ d̥ ɮ a̤
 umvuzo	ú ḿ̩ v̥ ṳː z̥ o̤
 umxoxozi	ú ḿ̩ k ǁ ó k ǁ óː z̥ i̤
@@ -815,8 +814,8 @@ umzantsi	ú ḿ̩ z̥ ǎ̤ːⁿ t s i
 umzekelo	ú ḿ̩ z̥ ě̤ k êː l o
 umzi	ú ḿ̩ː z̥ i̤
 umzimba	ú ḿ̩ z̥ i̤᷈ːᵐ b̥ ǎ̤
+umzingeli	ú ḿ̩ z̥ i̤ᵑ ɡ̊ ě̤ː l i
 umzukulwana	ú ḿ̩ z̥ ṳ k u lʷ âː n a
-umzulu	ú ḿ̩ z̥ ṳː l u
 uncedo	ú ŋ ǀ eː d̥ o̤
 uncumo	ú ŋ ǀ ûː m o
 undwendwe	úⁿ d̥ʷ ě̤ːⁿ d̥ʷ e̤
@@ -851,7 +850,6 @@ usuku	ú s ûː k u
 uswazi	ú sʷ aː z̥ i̤
 uthando	ú tʰ âːⁿ d̥ o̤
 uthango	ú tʰ âːᵑ ɡ̊ o̤
-uthixo	ú tʰ íː k ǁ ó
 uthuli	ú tʰ uː l i
 utshaba	ú t ʃʰ aː ɓ a
 utsotsi	ú t s oː t s í

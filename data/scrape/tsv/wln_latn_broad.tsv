@@ -1,4 +1,3 @@
-A	a
 Abraham	a b ʀ a h a m
 Abråm	a b ʀ ɔː m
 Achinne	a ʃ ɛ̃ n
@@ -100,7 +99,6 @@ Biômont	b j oː m ɔ̃
 Bjén	b ʒ ẽ
 Blegné	b l ɛ ɲ e
 Blémont	b l e m ɔ̃
-Bnoet	b n w ɛ
 Bodî	b ɔ d iː
 Boledjî	b ɔ l ɛ d͡ʒ iː
 Bolindje	b ɔ l ɛ̃ t͡ʃ
@@ -130,6 +128,7 @@ Budapesse	b y d a p ɛ s
 Bulgåreye	b y l ɡ ɔː ʀ ɛ j
 Burnet	b y ʀ n ɛ
 Burnot	b y ʀ n ɔ
+Burton	b y ʀ t ɔ̃
 Bwer	b w ɛ ʀ
 Bweron	b w ɛ ʀ ɔ̃
 Bâbe	b aː p
@@ -138,6 +137,8 @@ Bådwin	b ɔː d w ɛ̃
 Båre	b ɔː ʀ
 Béleul	b e l ø l
 Bê	b ɛː
+Bêdjo	b ɛ d͡ʒ o
+Bêdjot	b ɛ d͡ʒ ɔ
 Bêrt	b ɛ ʀ
 Bêrtine	b ɛ ʀ t i n
 Bêtri	b ɛː t ʀ i
@@ -821,7 +822,6 @@ Palmire	p a l m i ʀ
 Pancrace	p ã k ʀ a s
 Paragway	p a ʀ a ɡ w a j
 Parfondveye	p a ʀ f ɔ̃ d v ɛ j
-Paris	p a ʀ i
 Perou	p ɛ ʀ u
 Perwé	p ɛ ʀ w e
 Peråd	p ɛ ʀ ɔː
@@ -1053,9 +1053,9 @@ Walcoû	w a l k uː
 Walin	w a l ɛ̃
 Walon	w a l ɔ̃
 Walonreye	w a l ɔ n ʀ ɛ j
+Walonreye	w a l ɔ n ʀ ɛː j
 Wancene	w ã s ɛ n
 Wande	w ã t
-Wareme	w a ʀ ɛ m
 Warnin	w a ʀ n ɛ̃
 Warnotte	w a ʀ n ɔ t
 Warnî	w a ʀ n iː
@@ -1064,6 +1064,7 @@ Wavreye	w a v ʀ ɛ j
 Wazedje	w a z ɛ t͡ʃ
 Wegniye	w ɛ ɲ i j
 Welin	w ɛ l ɛ̃
+Welkenrote	w ɛ l k ɛ n ʀ ɔ t
 Werotte	w ɛ ʀ ɔ t
 Wiccionaire	w i k s j o n ɛ ʀ
 Wiket	w i k ɛ
@@ -1119,6 +1120,8 @@ Zâvier	z aː v j e
 Zéfir	z e f i ʀ
 Zélîye	z e l iː j
 a poenne	a p w ɛ̃ n
+a pîs dischås	a p iː d i s k ɔː
+a pîs dschås	a p iː t ʃ ɔː
 abagant	a b a ɡ ɑ̃
 abaguer	a b a ɡ e
 abandner	a b ɑ̃ n n e
@@ -1131,6 +1134,7 @@ abressî	a b ʀ ɛ s iː
 abrocaedje	a b ʀ ɔ k ɛ t͡ʃ
 abrodjî	a b ʀ ɔ d͡ʒ iː
 abwesson	a b w ɛ s ɔ̃
+aclairi	a k l ɛː ʀ i
 acoûtchî	a k uː t͡ʃ iː
 acpagnmint	a k p a ɲ m ɛ̃
 acroere	a k ʀ w ɛː ʀ
@@ -1168,6 +1172,7 @@ alårdji	a l ɔː ʀ d͡ʒ i
 alôye	a l o j
 amagnî	a m a ɲ iː
 amon	a m ɔ̃
+amoûr	a m uː ʀ
 ancyin	ã s j ɛ̃
 ancyin	ã ʃ ɛ̃
 anichtaedje	a n i ʃ t ɛ t͡ʃ
@@ -1224,6 +1229,8 @@ awè idêye	a w ɛ iː d ɛː j
 awè l' gozî come ene tchåsse	a w ɛ ‿ l ‿ ɡ ɔ z iː ‿ k ɔ m ‿ ɛ n ‿ t͡ʃ ɔː s
 awè ptchî	a w ɛ p t͡ʃ iː
 ayir	a j iː ʀ
+baloujhe	b a l uː ç
+baloujhe	b a l uː ʃ
 barakî	b a ʀ a k iː
 barakî	b a ʀ a k j ɛ
 basti	b a s t i
@@ -1268,6 +1275,7 @@ bouxhon	b u ʃ ɔ̃
 bouxhî	b u ʃ iː
 bouxhî l’ martchî djus	b u ʃ iː ‿ l ‿ m a ʀ t͡ʃ iː ‿ d͡ʒ y
 boyeas	b ɔ j a
+boûre	b uː ʀ
 branscater	b ʀ ã s k a t e
 bresse	b ʀ ɛ s
 bresseu	b ʀ ɛ s øː
@@ -1369,6 +1377,7 @@ coxhe	k ɔ ç
 coxhe	k ɔ χ
 coûcasse	k uː k a s
 coûkî	k uː k iː
+coûr	k uː ʀ
 coûtchî	k uː t͡ʃ iː
 crawate	k ʀ a w a t
 creyance	k ʀ ɛ j ã s
@@ -1419,6 +1428,7 @@ dater	d a t e
 decimbe	d ɛ s ɛ̃ p
 deujhinme	d øː ʒ ɛ̃ m
 deus	d øː
+di	d i
 diale	d j a l
 dicweli	d i k w ɛ l i
 dicåce	d i k ɔː s
@@ -1543,6 +1553,7 @@ ercandjî	ɛ ʀ k ã d͡ʒ iː
 erirece	ɛ ʀ i ʀ ɛ s
 eriråcion	ɛ ʀ iː ʀ ɔː s j ɔ̃
 ermagnî	ɛ ʀ m a ɲ iː
+erwangnî	ɛ ʀ w ã ɲ iː
 esblawter	ɛ s b l a w t e
 esbåtche	ɛ z b ɔː t͡ʃ
 espagnol	ɛ s p a ɲ ɔ l
@@ -1683,6 +1694,7 @@ hatrea	h a t ʀ j a
 hatrea	h a t ʀ ɛː
 hawayin	h a w a j ɛ̃
 hawe	h a w
+hawer	h a w e
 hay	h a j
 hayduk	h a j d y k
 hiner	h i n e
@@ -1924,7 +1936,6 @@ ombrire	ɔ̃ b ʀ iː ʀ
 ome	u m
 ome	ɔ m
 omrin	ɔ m ʀ ɛ̃
-on	ɔ̃
 ongue	ɔ̃ k
 onk	ɔ̃ k
 onze	ɔ̃ s
@@ -1948,6 +1959,7 @@ oxhitrawôze	ɔ ʃ i t ʀ a w oː s
 oû	uː
 pa	p a
 pacyince	p a s j ɛ̃ s
+pan	p ɑ̃
 papî	p a p iː
 parexhe	p a ʀ ɛ ʃ
 parint	p a ʀ ɛ̃
@@ -2013,7 +2025,6 @@ pretchî	p ʀ ɛ t͡ʃ iː
 prezintrece	p ʀ ɛ z ɛ̃ t ʀ ɛ s
 prijhon	p ʀ iː ʒ ɔ̃
 prince	p ʀ ɛ̃ s
-prono	p ʀ ɔ n ɔ
 prononcî	p ʀ ɔ n ɔ̃ s iː
 prononçaedje	p ʀ ɔ n ɔ̃ s ɛ t͡ʃ
 proteyene	p ʀ ɔ t ɛ j ɛ n
@@ -2068,6 +2079,8 @@ ricepåve	ʀ i s ɛ p ɔː f
 ricmincî	ʀ i k m ɛ̃ s iː
 ridant	ʀ i d ã
 rifrin	ʀ i f ʀ ɛ̃
+rigangnè	ʀ i ɡ ã ɲ ɛ
+rigangnî	ʀ i ɡ ã ɲ iː
 riglati	ʀ i ɡ l a t i
 rigne	ʀ i ɲ
 rilaver	ʀ i l a v e
@@ -2089,6 +2102,7 @@ rischandixhaedje	ʀ i s k ã d i ʃ ɛ t͡ʃ
 rivey	ʀ i v ɛ j
 rivoleur	ʀ i v ɔ l øː ʀ
 riwaitaedje	ʀ i w ɛː t ɛ t͡ʃ
+riwangnî	ʀ i w ã ɲ iː
 rixhorbi	ʀ i ʃ ɔ ʀ b i
 riçure	ʀ i s yː ʀ
 riçuvinne	ʀ i s yː v ɛ̃ n
@@ -2110,6 +2124,7 @@ roumin	ʀ u m ɛ̃
 rovyî	ʀ ɔ v j iː
 rujhe	ʀ yː ʃ
 rwaitaedje	ʀ w ɛː t ɛ t͡ʃ
+rwangnî	ʀ w ã ɲ iː
 rådisse	ʀ ɔː d i s
 rålmint	ʀ ɔː l m ɛ̃
 råskignoû	ʀ ɔː s k i ɲ uː
@@ -2185,6 +2200,8 @@ sinagrêye	s i n a ɡ ʀ ɛː j
 singnî	s ɛ̃ ɲ iː
 singulî	s ɛ̃ ɡ y l iː
 sinonime	s i n ɔ n i m
+sins	s ɛ̃
+sins	s ɛ̃ z ‿
 sinse	s ɛ̃ s
 sinti	s ɛ̃ t i
 siponte	s i p ɔ̃ t
@@ -2283,6 +2300,7 @@ tchimijhe	t͡ʃ i m iː ç
 tchimijhî	t͡ʃ i m iː ʒ iː
 tchiminêye	t͡ʃ i m i n ɛː j
 tchimnå	t͡ʃ i m n ɔː
+tchin	t ʃ ɛ̃
 tchinne	t͡ʃ ɛ̃ n
 tchive	t͡ʃ iː f
 tchivea	t͡ʃ i v j a
@@ -2364,7 +2382,6 @@ trompete	t ʀ ɔ̃ p ɛ t
 trouk	t ʀ u k
 trover ene pire k' est ronde et plate et cwårêye	t ʀ ɔ v e ɛ n p iː ʀ k ɛ ʀ ɔ̃ t ɛ p l a t ɛ k w ɔː ʀ ɛː j
 tråculer	t ʀ ɔː k y l e
-trén	t r ẽ
 trîxhe	t ʀ iː ç
 trô	t ʀ õ
 tuzer	t y z e
@@ -2440,6 +2457,7 @@ wayea	w a j ɛː
 wayimer	w a j i m e
 wesse	w ɛ s
 wåfe	w ɔː f
+wågnî	w ɔː ɲ iː
 wåkeu	w ɔː k øː
 wåkî	w ɔː k iː
 wårder	w ɔː ʀ d e
@@ -2466,6 +2484,7 @@ zûner	z yː n e
 Åblén	ɔː b l ẽ
 Åbri	ɔː b ʀ i
 Åbriyon	ɔ b ʀ i j ɔ̃
+Åbriyot	ɔ b ʀ i j ɔ
 Åbwin	ɔ b w ɛ̃
 Åcosse	ɔː k ɔ s
 Ådjî	ɔː d͡ʒ iː
