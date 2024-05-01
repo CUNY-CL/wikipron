@@ -12,6 +12,7 @@ Unreleased
 
 ### Under `data/`
 
+-   Big scrape after \#469 (no case-folding). (\#536)
 -   Big scrape for 2024. (\#514)
 
 ### Under `src/` and elsewhere
