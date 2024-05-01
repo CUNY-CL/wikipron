@@ -1,3 +1,28 @@
+Beóllán	bʲ eː o̯ l͈ aː n
+Beóllán	bʲ e̯ oː l͈ aː n
+Brega	bʲ rʲ e ɣ ə
+Bréfne	bʲ rʲ eː fʲ nʲ ə
+Colmán	k o l m aː n
+Cúalu	k u ə̯ l u
+Cúalu	k u ə̯ l ə
+Eithne	e h nʲ ə
+Eithne	e θʲ nʲ ə
+Laigin	l͈ a ɣʲ ə nʲ
+Laignib	l͈ a ɣʲ nʲ ə vʲ
+Laigniu	l͈ a ɣʲ nʲ u
+Laigniu	l͈ a ɣʲ nʲ ə
+Medb	mʲ e ð v
+Medb	mʲ ɛ ɣ v
+Meidb	mʲ e ðʲ ə vʲ
+Meidb	mʲ e ɣʲ ə vʲ
+Mide	mʲ i ðʲ ə
+Mide	mʲ i ɣʲ ə
+Midi	mʲ i ðʲ ə
+Midi	mʲ i ɣʲ ə
+Ulad	u l ə ð
+Ulad	u l ə ɣ
+Ulaid	u l ə ðʲ
+Ulaid	u l ə ɣʲ
 abacc	a v ə k
 abaid	a b ə ɣʲ
 abbán	a b aː n
@@ -8,6 +33,7 @@ aimsir	a mʲ ɕ ə rʲ
 ainm	a nʲ ə mʲ
 airdircus	a r͈ ðʲ ə r k u s
 airdircus	a r͈ ɣʲ ə r k ə s
+aitire	a tʲ i rʲ ə
 amra	a ṽ r ə
 amrán	a ṽ r aː n
 ardáili	a r d aː lʲ ə
@@ -20,31 +46,30 @@ beirid	bʲ e rʲ ə ɣʲ
 benagán	bʲ e n ə ɡ aː n
 bered	bʲ e rʲ e ð
 bered	bʲ e rʲ e ɣ
-beóllán	bʲ eː o̯ l͈ aː n
-beóllán	bʲ e̯ oː l͈ aː n
 blasta	b l a s t ə
 boga	b o ɣ ə
 botach	b o d a x
 botach	b o d ə x
 boí	b ɯː
-brega	bʲ rʲ e ɣ ə
 bregda	bʲ rʲ e ɣ ð ə
 bregda	bʲ rʲ e ɣ ə
 brocc	b r o k
 bruiden	b r u ðʲ ə n
 bruiden	b r u ɣʲ ə n
-bréfne	bʲ rʲ eː fʲ nʲ ə
 brígmar	bʲ rʲ iː ɣ ṽ ə r
 báid	b aː ðʲ
 báid	b aː ɣʲ
 bás	b aː s
 cach	k a x
+cairde	k a r͈ʲ dʲ ə
 caittín	k a tʲ iː nʲ
+calma	k a l m ə
 cana	k a n ə
 cara	k a r ə
 carait	k a r ə dʲ
 carat	k a r ə d
 cathaige	k a θ a ɣʲ e
+cathaigecht	k a h ə ɣʲ ə x t
 cathaigecht	k a θ ə ɣʲ ə x t
 cellach	kʲ e l͈ a x
 cellach	kʲ e l͈ ə x
@@ -73,7 +98,6 @@ clocán	k l o ɡ aː n
 cnocán	k n o k aː n
 coire	k o rʲ ə
 coiri	k o ɾʲ ə
-colmán	k o l m aː n
 comalta	k o ṽ a l͈ t a
 comflaithius	k o ṽ l a hʲ u s
 comflaithius	k o ṽ l a θʲ u s
@@ -97,8 +121,6 @@ cíchech	kʲ iː xʲ ə x
 cóiced	k oː ɡʲ e ð
 cóiced	k oː ɡʲ e ɣ
 cú	k uː
-cúalu	k u ə̯ l u
-cúalu	k u ə̯ l ə
 dam	d a ṽ
 dana	d a n a
 deog	dʲ e o̯ ɣ
@@ -129,8 +151,6 @@ drúis	d r uː ɕ
 dóendachtach	d ɯː n͈ a x t a x
 dóendachtach	d ɯː n͈ ə x t ə x
 ecla	e ɡ l ə
-eithne	e h nʲ ə
-eithne	e θʲ nʲ ə
 fer	fʲ e r
 ferchuitred	fʲ e r x u dʲ rʲ e ð
 ferchuitred	fʲ e r x u dʲ rʲ e ɣ
@@ -186,10 +206,6 @@ ithid	i hʲ i ɣʲ
 ithid	i θʲ i ðʲ
 lagdaigid	l͈ a ɣ d ə ɣʲ ə ðʲ
 lagdaigid	l͈ a ɣ d ə ɣʲ ə ɣʲ
-laigin	l͈ a ɣʲ ə nʲ
-laignib	l͈ a ɣʲ nʲ ə vʲ
-laigniu	l͈ a ɣʲ nʲ u
-laigniu	l͈ a ɣʲ nʲ ə
 lem	l͈ʲ e ṽ
 lennán	l͈ʲ e n͈ aː n
 lethar	l͈ʲ e θ ə r
@@ -209,14 +225,6 @@ mathgamain	m a h ɣ ə ṽ ə nʲ
 mathgamain	m a θ ɣ ə ṽ ə nʲ
 mboga	m o ɣ ə
 mbás	m aː s
-medb	mʲ e ð v
-medb	mʲ ɛ ɣ v
-meidb	mʲ e ðʲ ə vʲ
-meidb	mʲ e ɣʲ ə vʲ
-mide	mʲ i ðʲ ə
-mide	mʲ i ɣʲ ə
-midi	mʲ i ðʲ ə
-midi	mʲ i ɣʲ ə
 midlach	mʲ i ð l a x
 midlach	mʲ i ð l ə x
 midlach	mʲ i ɣ l a x
@@ -225,10 +233,10 @@ muide	m u ðʲ ə
 muide	m u ɣʲ ə
 méin	mʲ eː nʲ
 míanaige	mʲ iː ə̯ n ə ɣʲ ə
-nhérinn	n͈ʲ eː rʲ ə n͈ʲ
+nHérinn	n͈ʲ eː rʲ ə n͈ʲ
 nigid	n͈ʲ i ɣʲ ə ðʲ
 nigid	n͈ʲ i ɣʲ ə ɣʲ
-nérinn	n͈ʲ eː rʲ ə n͈ʲ
+nÉrinn	n͈ʲ eː rʲ ə n͈ʲ
 ní	n͈ʲ iː
 nóedenán	n͈ ɯː ðʲ ə n aː n
 nóedenán	n͈ ɯː ɣʲ ə n aː n
@@ -289,19 +297,16 @@ túathach	t uː ə̯ h a x
 túathach	t uː ə̯ h ə x
 túathach	t uː ə̯ θ a x
 túathach	t uː ə̯ θ ə x
+uball	u v ə l͈
 uile	u lʲ ə
 uili	u lʲ ə
-ulad	u l ə ð
-ulad	u l ə ɣ
-ulaid	u l ə ðʲ
-ulaid	u l ə ɣʲ
+Érinn	eː rʲ ə n͈ʲ
+Ériu	eː rʲ i u̯
+Ériu	eː rʲ u
+Ériu	eː rʲ ə
 áe	ɯː
 áel	ɯː l
 áillecán	aː l͈ʲ ə ɡ aː n
-érinn	eː rʲ ə n͈ʲ
-ériu	eː rʲ i u̯
-ériu	eː rʲ u
-ériu	eː rʲ ə
 íarthar	i ə r h ə r
 íarthar	i ə r θ ə r
 íarthur	i ə r h u r

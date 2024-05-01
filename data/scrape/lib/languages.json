@@ -133,7 +133,8 @@
         "script": {
             "armi": "Imperial Aramaic",
             "hebr": "Hebrew",
-            "syrc": "Syriac"
+            "syrc": "Syriac",
+            "hatr": "Hatran"
         }
     },
     "hye": {
@@ -352,7 +353,8 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han"
+            "hani": "Han",
+            "zzzz": "Unknown"
         }
     },
     "crx": {

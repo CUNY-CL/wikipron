@@ -1,3 +1,71 @@
+A	a
+Aŝgabaton	a ʃ ɡ a b a t o n
+B	b
+B	b o
+Budapeŝton	b u d a p e ʃ t o n
+C	t s
+C	t s o
+D	d
+D	d o
+Dipatrino	d i p a t r i n o
+DĴ	d o ʒ o
+E	e
+Elizabeta	e l i z a b e t a
+Esperanta	e s p e r a n t a
+F	f
+F	f o
+G	ɡ
+G	ɡ o
+Gotenburgo	ɡ o t e n b u r ɡ o
+H	h
+H	h o
+Hamburgo	h a m b u r ɡ o
+I	i
+IJK	i j o k o
+IK	i k o
+J	j
+J	j o
+Jeriko	j e r i k o
+Jerikon	j e r i k o n
+K	k
+K	k o
+Karnatako	k a r n a t a k o
+Korsiko	k o r s i k o
+Kristo	k r i s t o
+Kriŝno	k r i ʃ n o
+L	l
+L	l o
+Levidoj	l e v i d o j
+M	m
+M	m o
+Mohamedo	m o h a m e d o
+Muzon	m u z o n
+N	n
+N	n o
+Nombroj	n o m b r o j
+Novjorko	n o v j o r k o
+Novjorkon	n o v j o r k o n
+O	o
+P	p
+P	p o
+PMEG	p o m o e ɡ o
+R	r
+R	r o
+S	s
+S	s o
+Sanskrito	s a n s k r i t o
+Sparto	s p a r t o
+T	t
+T	t o
+Tanaĥo	t a n a x o
+U	u
+UEA	u e a
+V	v
+V	v o
+Virgulinsuloj	v i r ɡ u l i n s u l o j
+Volapukon	v o l a p u k o n
+Z	z
+Z	z o
 a	a
 abdikanta	a b d i k a n t a
 abdikantan	a b d i k a n t a n
@@ -312,7 +380,6 @@ amputi	a m p u t i
 amuzoparko	a m u z o p a r k o
 amuzparko	a m u z p a r k o
 anakondo	a n a k o n d o
-anekdoto	a n e k d o t o
 anekdotoj	a n e k d o t o j
 anekdotojn	a n e k d o t o j n
 anekdoton	a n e k d o t o n
@@ -582,7 +649,6 @@ aĉetoto	a t ʃ e t o t o
 aĉetoton	a t ʃ e t o t o n
 aĉetu	a t ʃ e t u
 aĉetus	a t ʃ e t u s
-aŝgabaton	a ʃ ɡ a b a t o n
 aŭdaci	a w d a t͡s i
 aŭdeble	a w d e b l e
 aŭtenta	a w t e n t a
@@ -859,7 +925,6 @@ bruto	b r u t o
 bubacho	b u b a t͡ʃ o
 bubacxo	b u b a t͡ʃ o
 bubo	b u b o
-budapeŝton	b u d a p e ʃ t o n
 burgo	b u r ɡ o
 buŝa	b u ʃ a
 buŝan	b u ʃ a n
@@ -1063,7 +1128,6 @@ diference	d i f e r e n t͡s e
 difini	d i f i n i
 difinita	d i f i n i t a
 dikfingro	d i k f i n ɡ r o
-dipatrino	d i p a t r i n o
 disciplinanta	d i s t s i p l i n a n t a
 disciplinantan	d i s t s i p l i n a n t a n
 disciplinante	d i s t s i p l i n a n t e
@@ -1167,7 +1231,6 @@ dunon	d u n o n
 duope	d u o p e
 duopo	d u o p o
 dupleksa	d u p l e k s a
-dĵ	d o ʒ o
 e	e
 eblo	e b l o
 eburon	e b u r o n
@@ -1402,7 +1465,6 @@ elektrolito	e l e k t r o l i t o
 elektrolizi	e l e k t r o l i z i
 elektrolizo	e l e k t r o l i z o
 elektroskopo	e l e k t r o s k o p o
-elizabeta	e l i z a b e t a
 ellabori	e l l a b o r i
 elpensi	e l p e n s i
 elsaluti	e l s a l u t i
@@ -1475,7 +1537,6 @@ erare	e r a r e
 erotike	e r o t i k e
 escepti	e s t͡s e p t i
 eskali	e s k a l i
-esperanta	e s p e r a n t a
 esperantismo	e s p e r a n t i s m o
 esperas	e s p e r a s
 espereble	e s p e r e b l e
@@ -1828,7 +1889,6 @@ glutu	ɡ l u t u
 glutus	ɡ l u t u s
 gondolisto	ɡ o n d o l i s t o
 gorĝa	ɡ o r d͡ʒ a
-gotenburgo	ɡ o t e n b u r ɡ o
 granita	ɡ r a n i t a
 granito	ɡ r a n i t o
 grasa	ɡ r a s a
@@ -1858,7 +1918,6 @@ h	h
 h	h o
 ha	h a
 hajloŝtormo	h a j l o ʃ t o r m o
-hamburgo	h a m b u r ɡ o
 harkovrita	h a r k o v r i t a
 harpo	h a r p o
 havaja	h a v a j a
@@ -1917,8 +1976,6 @@ i	i
 ico	i t s o
 idilio	i d i l i o
 igas	i ɡ a s
-ijk	i j o k o
-ik	i k o
 ilin	i l i n
 iluziisto	i l u z i i s t o
 iluzio	i l u z i o
@@ -2013,8 +2070,6 @@ j	j
 j	j o
 jaraĝa	j a r a d͡ʒ a
 jaspo	j a s p o
-jeriko	j e r i k o
-jerikon	j e r i k o n
 jesa	j e s a
 jese	j e s e
 jhaudo	ʒ a w d o
@@ -2064,7 +2119,6 @@ karavanserajo	k a r a v a n s e r a j o
 karavanserajon	k a r a v a n s e r a j o n
 karbola	k a r b o l a
 kare	k a r e
-karnatako	k a r n a t a k o
 karoto	k a r o t o
 kartografo	k a r t o ɡ r a f o
 kasisto	k a s i s t o
@@ -2101,7 +2155,6 @@ kluzo	k l u z o
 kluzon	k l u z o n
 kokosnukso	k o k o s n u k s o
 kokospalmo	k o k o s p a l m o
-kolbasobulko	k o l b a s o b u l k o
 kolokvo	k o l o k v o
 koloreco	k o l o r e t s o
 kombi	k o m b i
@@ -2187,7 +2240,6 @@ korkokverko	k o r k o k v e r k o
 koroida	k o r o i d a
 koroido	k o r o i d o
 korpo	k o r p o
-korsiko	k o r s i k o
 korto	k o r t o
 korupti	k o r u p t i
 kosinuso	k o s i n u s o
@@ -2205,10 +2257,8 @@ kristaliganto	k r i s t a l i ɡ a n t o
 kristaligate	k r i s t a l i ɡ a t e
 kristaligite	k r i s t a l i ɡ i t e
 kristaligote	k r i s t a l i ɡ o t e
-kristo	k r i s t o
 krizopraso	k r i z o p r a s o
 krizoprason	k r i z o p r a s o n
-kriŝno	k r i ʃ n o
 kromatoforo	k r o m a t o f o r o
 kromatoforon	k r o m a t o f o r o n
 kropo	k r o p o
@@ -2355,7 +2405,6 @@ legeble	l e ɡ e b l e
 legio	l e ɡ i o
 lekcii	l e k t s i i
 leki	l e k i
-levidoj	l e v i d o j
 liaj	l i a j
 liajn	l i a j n
 lian	l i a n
@@ -2612,7 +2661,6 @@ mobilizi	m o b i l i z i
 moderna	m o d e r n a
 modesta	m o d e s t a
 modeste	m o d e s t e
-mohamedo	m o h a m e d o
 mola	m o l a
 moldavo	m o l d a v o
 molega	m o l e ɡ a
@@ -2740,7 +2788,6 @@ nomantan	n o m a n t a n
 nomas	n o m a s
 nomata	n o m a t a
 nombro	n o m b r o
-nombroj	n o m b r o j
 nomi	n o m i
 nominta	n o m i n t a
 nomintan	n o m i n t a n
@@ -2760,8 +2807,6 @@ normo	n o r m o
 novao	n o v a o
 novfaŝismo	n o v f a ʃ i s m o
 novjartago	n o v j a r t a ɡ o
-novjorko	n o v j o r k o
-novjorkon	n o v j o r k o n
 novliberalismo	n o v l i b e r a l i s m o
 novnaziismo	n o v n a z i i s m o
 nuboplena	n u b o p l e n a
@@ -2986,7 +3031,6 @@ pluva	p l u v a
 pluvarbaro	p l u v a r b a r o
 pluvas	p l u v a s
 pluvnubo	p l u v n u b o
-pmeg	p o m o e ɡ o
 polonio	p o l o n i o
 polusa	p o l u s a
 polva	p o l v a
@@ -3157,7 +3201,6 @@ puŝo	p u ʃ o
 r	r
 r	r o
 radiofonio	r a d i o f o n i o
-radios	r a d i o s
 radiumo	r a d i u m o
 radiuso	r a d i u s o
 rajtigo	r a j t i ɡ o
@@ -3301,7 +3344,6 @@ sandalon	s a n d a l o n
 sangavida	s a n ɡ a v i d a
 sangi	s a n ɡ i
 sanigas	s a n i ɡ a s
-sanskrito	s a n s k r i t o
 sapon	s a p o n
 sapumanta	s a p u m a n t a
 sapumantan	s a p u m a n t a n
@@ -3458,7 +3500,6 @@ sonon	s o n o n
 soula	s o u l a
 spaca	s p a t s a
 sparko	s p a r k o
-sparto	s p a r t o
 specife	s p e t s i f e
 specifi	s p e t͡s i f i
 speso	s p e s o
@@ -3545,7 +3586,6 @@ tadorno	t a d o r n o
 taksuso	t a k s u s o
 taktike	t a k t i k e
 talidomido	t a l i d o m i d o
-tanaĥo	t a n a x o
 tanu	t a n u
 taverno	t a v e r n o
 teksto	t e k s t o
@@ -3564,7 +3604,6 @@ terkrusto	t e r k r u s t o
 termon	t e r m o n
 terpenon	t e r p e n o n
 tetrozo	t e t r o z o
-time	t i m e
 timo	t i m o
 tinko	t i n k o
 tirante	t i r a n t e
@@ -3603,7 +3642,6 @@ tuso	t u s o
 tuteco	t u t e t s o
 tutmonda	t u t m o n d a
 u	u
-uea	u e a
 unua	u n u a
 ununbio	u n u n b i o
 ununheksio	u n u n h e k s i o
@@ -3657,7 +3695,6 @@ vikion	v i k i o n
 violento	v i o l e n t o
 viperon	v i p e r o n
 vipi	v i p i
-virgulinsuloj	v i r ɡ u l i n s u l o j
 virkapro	v i r k a p r o
 viruso	v i r u s o
 viskoza	v i s k o z a
@@ -3672,7 +3709,6 @@ volantan	v o l a n t a n
 volante	v o l a n t e
 volanto	v o l a n t o
 volanton	v o l a n t o n
-volapukon	v o l a p u k o n
 volas	v o l a s
 volata	v o l a t a
 volatan	v o l a t a n
@@ -3729,6 +3765,8 @@ zorgonto	z o r ɡ o n t o
 zorgos	z o r ɡ o s
 zorgu	z o r ɡ u
 zorgus	z o r ɡ u s
+Ĉ	t ʃ
+Ĉ	t ʃ o
 ĉ	t ʃ
 ĉ	t ʃ o
 ĉarma	t͡ʃ a r m a
@@ -3751,7 +3789,6 @@ zorgus	z o r ɡ u s
 ĉiamverdo	t ʃ i a m v e r d o
 ĉiaokaze	t͡ʃ i a o k a z e
 ĉirkaŭi	t͡ʃ i r k a w i
-ĉiu	t ʃ i u
 ĉiumonate	t͡ʃ i u m o n a t e
 ĉiuspeca	t͡ʃ i u s p e t͡s a
 ĉiutage	t͡ʃ i u t a ɡ e
@@ -3790,6 +3827,8 @@ zorgus	z o r ɡ u s
 ĉizoton	t ʃ i z o t o n
 ĉizu	t ʃ i z u
 ĉizus	t ʃ i z u s
+Ĝ	d ʒ
+Ĝ	d ʒ o
 ĝ	d ʒ
 ĝ	d ʒ o
 ĝenanta	d ʒ e n a n t a
@@ -3827,6 +3866,8 @@ zorgus	z o r ɡ u s
 ĝenus	d ʒ e n u s
 ĝui	d͡ʒ u i
 ĝuste	d ʒ u s t e
+Ĥ	x
+Ĥ	x o
 ĥ	x
 ĥ	x o
 ĥaosa	x a o s a
@@ -3834,11 +3875,15 @@ zorgus	z o r ɡ u s
 ĥaoso	x a o s o
 ĥimera	x i m e r a
 ĥirurga	x i r u r ɡ a
+Ĵ	ʒ
+Ĵ	ʒ o
 ĵ	ʒ
 ĵ	ʒ o
 ĵaluze	ʒ a l u z e
 ĵetkubo	ʒ e t k u b o
 ĵurnalon	ʒ u r n a l o n
+Ŝ	ʃ
+Ŝ	ʃ o
 ŝ	ʃ
 ŝ	ʃ o
 ŝakalon	ʃ a k a l o n
@@ -3946,6 +3991,8 @@ zorgus	z o r ɡ u s
 ŝovus	ʃ o v u s
 ŝtipo	ʃ t i p o
 ŝŝ	ʃ ʃ
+Ŭ	w
+Ŭ	w o
 ŭ	w
 ŭ	w o
 ŭonbulismo	v o n b u l i s m o
