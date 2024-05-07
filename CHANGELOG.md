@@ -14,6 +14,7 @@ Unreleased
 
 #### Changed
 
+-   Fixes table alignment. (\#539)
 -   Repeats big scrape after \#523. (\#536)
 -   Fixes excessive line wrapping. (\#529)
 -   Big scrape for 2024. (\#514)
