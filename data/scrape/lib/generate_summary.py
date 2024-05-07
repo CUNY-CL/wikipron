@@ -143,7 +143,7 @@ def main() -> None:
             "| Narrow/Broad | # of entries |",
             file=sink,
         )
-        print("| :---- |" * 8 + " ----: |", file=sink)
+        print("| :---- " * 8 + "| ----: |", file=sink)
         for (
             link,
             code,
