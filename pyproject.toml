@@ -22,7 +22,7 @@ keywords = [
 dependencies = [
     'lxml_html_clean',
     'python-iso639 >= 2022.11.27',
-    'requests',
+    'requests >= 2.32.0',
     'requests-html',
     'segments >= 2.2.0, < 3',
 ]
