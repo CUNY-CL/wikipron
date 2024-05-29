@@ -7,9 +7,7 @@
 # are a number of points I am unsure about. The transcriptions did not always
 # match the orthography in the expected way, and due to the lack of data, I 
 # could not tell if this was due to allophony, inconsistent orthography, or
-# errors in the transcription. Additionally, some phones listed in the sources
-# (such as /c/ and /ɟ/) did not appear in the data, or appeared only a handful
-# of times. I'm also unsure whether all vowels and consonants have long 
+# errors in the transcription. I'm also unsure whether all vowels and consonants have long 
 # counterparts, or only some.
 #####
 # CONSONANTS
@@ -40,6 +38,8 @@ t͡ʃ
 d͡ʒ
 ʃ
 ʒ
+c
+ɟ
 ç
 j
 k  # Apparently, only occurs in loanwords. Nevertheless, it is very common in the data.
