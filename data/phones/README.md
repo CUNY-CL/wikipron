@@ -30,7 +30,7 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/mlt_broad.phones) | mlt | Maltese | Maltese | Broad | 61 |
 | [phone](phones/mya_broad.phones) | mya | Burmese | Burmese | Broad | 70 |
 | [phone](phones/nld_broad.phones) | nld | Dutch | Dutch | Broad | 50 |
-| [phone](phones/nob_broad.phones) | nob | Norwegian Bokmål | Norwegian Bokmål | Broad | 54 |
+| [phone](phones/nob_broad.phones) | nob | Norwegian Bokmål | Norwegian Bokmål | Broad | 72 |
 | [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 55 |
 | [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 48 |
 | [phone](phones/ron_narrow.phones) | ron | Romanian | Romanian | Narrow | 51 |

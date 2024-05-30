@@ -460,7 +460,8 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han"
+            "hani": "Han",
+            "zzzz": "Unknown"
         }
     },
     "cho": {
