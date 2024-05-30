@@ -24,11 +24,14 @@
 ܐܪܒܥܣܪ	a r b a ʕ s a r
 ܐܫܘܛ	ə ʃ w ə tˤ
 ܐܫܢܐ	ə ʃ n e
+ܐܫܩܕ	ʔ ə ʃ q a ð
 ܐܫܬܐ	ə ʃ t o
 ܐܫܬܝ	ə ʃ t i
 ܐܫܬܥܣܪ	ə ʃ t a ʕ s a r
 ܒܩܐ	b o q o
 ܒܪܬܐ	b a r θ o
+ܒܫܡ	b ə t͡ʃ m e
+ܒܫܡ	b ə t͡ʃ ə m
 ܓܒ	ɡ a b
 ܓܘܪܐ	ɡ a w r o
 ܓܝܗܢܐ	ɡ i h ɑ n e
@@ -37,6 +40,8 @@
 ܓܢܢܐ	ɡ ɑ n o n o
 ܓܢܬܐ	ɡ a n θ e
 ܓܢܬܐ	ɡ a n θ o
+ܓܫܪܐ	ɡ ə ʃ r e
+ܓܫܪܐ	ɡ ə ʃ r o
 ܔܪܔܐ	d͡ʒ ə r d͡ʒ o
 ܕܘܓܠܐ	d u ɡ l e
 ܕܘܓܠܐ	d u ɡ l o
@@ -76,13 +81,22 @@
 ܟܓܬ	k a ɣ a t
 ܟܓܬ	k a ɣ a t a t
 ܟܓܬ	k a ɣ a t e
+ܟܝܐ	k y e
+ܟܝܐ	k y o
 ܟܝܝܣܐ	k a y i s o
 ܟܠܒܐ	k a l b o
+ܟܠܠܐ	k a l l ɑ
+ܟܠܠܐ	k a l l ɑ u a t
+ܟܠܠܐ	k a l l ɑ u e
 ܟܡܐ	k o m o
 ܟܫܫܟܐ	k a t͡ʃ t͡ʃ ə k a t
 ܟܫܫܟܐ	k a t͡ʃ t͡ʃ ə k e
 ܟܬܘܐ	k θ o w e
 ܟܬܘܐ	k θ o w o
+ܟܬܦܐ	k a t f o
+ܟܬܦܐ	k a t f o θ e
+ܟܬܦܐ	k a θ p o
+ܟܬܦܐ	k a θ p o θ e
 ܠܚܡܐ	l a ħ m o
 ܡܐ	m o
 ܡܓܠܝܘܢ	m ɡ a l y u n
@@ -93,10 +107,13 @@
 ܢܝܣܢ	n i s ə n
 ܣܘܪܓܕܐ	s u r ɡ o ð e
 ܣܘܪܓܕܐ	s u r ɡ o ð o
+ܣܟܡܒܝܠ	s k a m b i l
 ܣܥܐ	s a ʕ a
 ܣܥܬ	s a ʕ a t
 ܣܬܘܐ	s a θ w o
 ܥܙܪܐ	ʕ ə z r o
+ܥܣܟܪ	ʕ a s e k ə r
+ܥܣܟܪ	ʕ a s k a r
 ܥܣܪܐ	ʕ a sˤ r o
 ܥܣܪܝ	ʕ ə ʃ r i
 ܨܢܝـܝܐ	sˤ a n i j e
@@ -125,6 +142,8 @@
 ܫܢܛܐ	ʃ a n tˤ a
 ܫܥܐ	ʃ o ʕ e
 ܫܥܬܐ	ʃ o ʕ θ o
+ܫܩܡܩ	t͡ʃ ə q m a q
+ܫܩܡܩ	t͡ʃ ə q m a q a t
 ܫܬܐ	ʃ a t o
 ܬܠܝܬܝܐ	t l i θ o j o
 ܬܠܬܐ	t l o θ o

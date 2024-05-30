@@ -6,7 +6,7 @@ mypy==1.1.1
 pytest==7.2.0
 python-iso639==2022.11.27
 requests-html==0.10.0
-requests==2.31.0
+requests==2.32.0
 segments==2.2.1
 setuptools==65.6.3
 twine==4.0.1
