@@ -5,7 +5,7 @@
   * Broad transcription files: 23
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 4,311,133
+* Pronunciations: 4,311,168
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -327,9 +327,9 @@
 | [TSV](tsv/nmy_latn_narrow.tsv) | nmy | Namuyi | Namuyi | Latin |  | False | Narrow | 356 |
 | [TSV](tsv/nno_latn_broad.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | Latin |  | False | Broad | 4,693 |
 | [TSV](tsv/nno_latn_narrow.tsv) | nno | Norwegian Nynorsk | Norwegian Nynorsk | Latin |  | False | Narrow | 940 |
-| [TSV](tsv/nob_latn_broad.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | Latin |  | False | Broad | 3,189 |
-| [TSV](tsv/nob_latn_broad_filtered.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | Latin |  | True | Broad | 2,116 |
-| [TSV](tsv/nob_latn_narrow.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | Latin |  | False | Narrow | 675 |
+| [TSV](tsv/nob_latn_broad.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | Latin |  | False | Broad | 3,207 |
+| [TSV](tsv/nob_latn_broad_filtered.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | Latin |  | True | Broad | 2,703 |
+| [TSV](tsv/nob_latn_narrow.tsv) | nob | Norwegian Bokmål | Norwegian Bokmål | Latin |  | False | Narrow | 692 |
 | [TSV](tsv/non_latn_broad.tsv) | non | Old Norse | Old Norse | Latin |  | False | Broad | 240 |
 | [TSV](tsv/nor_latn_broad.tsv) | nor | Norwegian | Norwegian | Latin |  | False | Broad | 1,397 |
 | [TSV](tsv/nrf_latn_broad.tsv) | nrf | Jèrriais | Norman | Latin |  | False | Broad | 186 |
