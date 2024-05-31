@@ -315,9 +315,9 @@ nld_latn_narrow.tsv	nld	Dutch	Dutch	Latin		False	Narrow	693
 nmy_latn_narrow.tsv	nmy	Namuyi	Namuyi	Latin		False	Narrow	356
 nno_latn_broad.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	Latin		False	Broad	4693
 nno_latn_narrow.tsv	nno	Norwegian Nynorsk	Norwegian Nynorsk	Latin		False	Narrow	940
-nob_latn_broad.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Broad	3189
-nob_latn_broad_filtered.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		True	Broad	2116
-nob_latn_narrow.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Narrow	675
+nob_latn_broad.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Broad	3207
+nob_latn_broad_filtered.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		True	Broad	2703
+nob_latn_narrow.tsv	nob	Norwegian Bokmål	Norwegian Bokmål	Latin		False	Narrow	692
 non_latn_broad.tsv	non	Old Norse	Old Norse	Latin		False	Broad	240
 nor_latn_broad.tsv	nor	Norwegian	Norwegian	Latin		False	Broad	1397
 nrf_latn_broad.tsv	nrf	Jèrriais	Norman	Latin		False	Broad	186

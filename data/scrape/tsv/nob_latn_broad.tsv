@@ -1,3 +1,5 @@
+A	a
+A	ɑː
 ABC	ɑː b ɛ s eː
 AD	a nː ʊ d ʊ m iː n ɪ
 AD	ɑː d eː
@@ -13,6 +15,7 @@ Angola	ɑ ŋ ɡ u l ɑ
 Arendal	ɑː ɳ̩ d ɑː l
 Arendal	ɑː ʁ n̩ d ɑː l
 Argentina	ɑ ɾ ɡ ə n t ɪː n ɑ
+Armenia	ɑ ɾ m ɛː n j ɑ
 Aruba	ɑ ɾ ʉː b ɑ
 Australia	æ ʉ s t ɾ ɑː l j ɑ
 B	b
@@ -37,6 +40,7 @@ Christiansand	k r ɪ s t ɪ a n s a n
 Christianssand	k r ɪ s t ɪ a n s a n
 Christianssund	k r ɪ s t j a n s ʉ n
 Copenhagen	k o ʊ p ə n h e ɪ ɡ ə n
+Cuba	kʰ ʉ̀ː b ɑ
 DD	d eː d eː
 DD	d eː d ɑː ɡ
 DD	d eː d ɑː ɡ n̩
@@ -97,13 +101,14 @@ Köln	k œ l n
 København	ç øː b n̩ h a ʋ n
 København	ç øː p n̩ h a ʋ n
 London	l ɔ n d ɔ n
+Longyearbyen	l ɔ ŋ j eː r b yː ə n
 Lund	l ʉ n
 MM	m ɔː n ə d
 MM	ɛ m ɛ m
 Molde	m ɔ l d ə
 Mosjøen	m uː ʃ ø ə n
 Moskva	m ɔ s k ʋ a
-Norge	n ɔ ɾ ɡ ə
+Norge	n o r ɡ e
 OL	uː e l
 Olav	uː l ɑ ʋ
 Oslo	ʊ s l ʊ
@@ -141,6 +146,8 @@ Trondheim	t r ɔ n h æ ɪ m
 Trondhjem	t r ɔ n j ə m
 Valdres	ʋ a l d r ə s
 Warszawa	v ɑ r ʃ ɑː v ɑ
+a	a
+a	ɑː
 ab	ɑ b eː
 ab	ɑː b
 ab	ɑː b ə
@@ -461,6 +468,7 @@ abkhasere	a b k ɑː s ə r ə
 abkhaseren	a b k ɑː s ə r n̩
 abkhaserne	a b k ɑː s ə ɳ ə
 abkhaserne	a b k ɑː s ə ʁ n ə
+abkhasier	a b k ɑː s ɪ ə r
 abkhasisk	a b k ɑː s ɪ s k
 abkhasiske	a b k ɑː s ɪ s k ə
 abkhasisken	a b k ɑː s ɪ s k n̩
@@ -1248,7 +1256,6 @@ ajournert	a ʃ ʉ ɳ eː ʈ
 ajournert	a ʃ ʉ ʁ n eː ʁ t
 ajournerte	a ʃ ʉ ɳ eː ʈ ə
 ajournerte	a ʃ ʉ ʁ n eː ʁ t ə
-akhasier	a k ɑː s ɪ ə r
 akhasiere	a k ɑː s ɪ ə r ə
 akhasieren	a k ɑː s ɪ ə r n̩
 akhasierne	a k ɑː s ɪ ə ɳ ə
@@ -1538,6 +1545,7 @@ bord	b o r d
 bord	b uː ɽ
 bord	b uː ɾ
 bornert	b u ɳ eː ʈ
+bra	b ɾ ɑː
 brannbil	b r ɑ n b iː l
 brekkjern	b r e k j æː r n
 bresje	b r ɛ ʃ ə
@@ -1691,6 +1699,8 @@ duingene	d ʉː ɪ ŋ ə n ə
 duinger	d ʉː ɪ ŋ ə r
 dumming	d u m m i ŋ
 dusin	d ʉ s iː n
+dverg	d v æ r ɡ
+dverg	d v ɛ r ɡ
 dvergbjørk	d ʋ ê ɾ ɡ b j ø ɾ k
 dyp	d yː p
 dyr	d yː r
@@ -1707,6 +1717,7 @@ dåp	d oː p
 dårskap	d oː r s k ɑː p
 døgn	d ø j n
 døgn	d ø ŋ n
+dør	d øː r
 døv	d øː ʋ
 edderkopp	e d e r k o p
 egg	ɛ ɡ
@@ -2358,6 +2369,7 @@ klammest	k l a mː ə s t
 klammeste	k l a mː ə s t ə
 klamt	k l a m t
 klassekamerat	k l a s s e k a m m e r aː t
+klasseværelse	k l ɑ s ə ʋ æ̂ː ɾ ɛ l s ɛ
 klaustrofobi	k l æ ʉ s t r u f u b iː
 klaustrofobi	k ɽ æ ʉ s t r u f u b iː
 klem	k l ɛ m
@@ -2420,6 +2432,7 @@ krydder	k r y d e r
 kryptovaluta	k r y p t u v a l ʉ t a
 kråke	² k r oː k ə
 kråkesølv	k r oː k e s ø lː
+kubbe	² k ʉ bː ə
 kul	k ʉː l
 kule	k ʉː l ə
 kult	k ʉ l t
@@ -2476,7 +2489,7 @@ latskap	l aː t s k aː p
 laug	l æ ʉ̯ ɡ
 lege	l eː ɡ ɛ
 legemlig	l êː ɡ e m l i
-legge	l ê ɡ e
+legge	l ê ɡː e
 lei	l æ ɪ̯
 lekt	l eː k t
 lekt	l ɛ k t
@@ -2562,6 +2575,7 @@ mesterverk	m e s t e r v æ r k
 middagshvil	m i d a ɡ s v iː l
 middagskvil	m i d a ɡ s k v iː l
 middelalderlitteratur	m i d e l a l d e r l i t e r a t ʉː r
+millimeter	m ɪ lː ɪ m eː t ə r
 min	m iː n
 min	m ɪ n
 mitt	m ɪ tː
@@ -2570,7 +2584,6 @@ mjøden	m j øː d n̩
 mjødene	m j øː d n̩ ə
 mjøder	m j øː d ə r
 mm	m ɔː n ə d
-mm	m ɪ lː ɪ m eː t ə r
 mm	mː
 mm	mː m̩
 mm	ə m
@@ -2752,6 +2765,8 @@ påfallende	¹ p oː f ɑ l n̩ ə
 pønk	p ø ŋ k
 pønker	p ø ŋ k ə ɾ
 rabatt	r ɑ b ɑ t
+rad	r aː
+rad	r aː d
 radiobil	r ɑː d j u b iː l
 raja	r ɑ d ʃ ɑ
 raja	r ɑ ɪ̯ j ɑ
@@ -2795,12 +2810,13 @@ rune	r ʉː n ə
 ruse	r ʉː s ə
 rute	ɾ ʉ̂ː t e
 rå	ɾ oː
-råvare	ɾ oː s t ɔ f
+råstoff	ɾ oː s t ɔ f
 ræv	r æː v
 rød	ɾ øː
 rødgaupe	r øː ɡ æ ʉ p ə
 rødrev	r øː r eː v
 røyk	r œ ʏ̯ k
+røyksopp	r ø y k s ɔ p
 safari	s ɑ f ɑː r ɪ
 sagn	s a ŋ n
 salisyl	s a l ɪ s yː l
@@ -3011,6 +3027,7 @@ topp	t ɔ pː
 torden	t u r d e n
 tort	t u ʈ
 tosk	t o s k
+totomling	t u t u m l ɪ ŋ
 trang	t ɾ ɑ ŋ
 transkripsjon	t r a n s k r i p ʂ ùː n
 tre	t ɾ eː
@@ -3023,6 +3040,7 @@ tronfrasigelsen	t ɾ uː n f ɾ ɑ s iː ə l s ə n
 tronfrasigelsene	t ɾ uː n f ɾ ɑ s iː ə l s ə n ə
 tronfrasigelser	t ɾ uː n f ɾ ɑ s iː ə l s ə r
 trost	t r o s t
+tru	t r ʉː
 tuja	t ʉː j ɑ
 turebasse	t ʉː r ə b a sː ə
 turebassen	t ʉː r ə b a sː n̩
