@@ -21,6 +21,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Upgrades `requests` for Dependabot. (\#541, \#544)
 -   Upgrades `black` for Dependabot. (\#530)
 -   Removes Min Nan (`nan`) custom selector. (\#529)
 
