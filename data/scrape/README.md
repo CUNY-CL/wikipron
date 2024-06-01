@@ -5,7 +5,7 @@
   * Broad transcription files: 23
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 4,311,168
+* Pronunciations: 4,311,273
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -42,9 +42,9 @@
 | [TSV](tsv/ast_latn_broad.tsv) | ast | Asturian | Asturian | Latin |  | False | Broad | 1,018 |
 | [TSV](tsv/ast_latn_narrow.tsv) | ast | Asturian | Asturian | Latin |  | False | Narrow | 986 |
 | [TSV](tsv/ayl_arab_broad.tsv) | ayl | Libyan Arabic | Libyan Arabic | Arabic |  | False | Broad | 163 |
-| [TSV](tsv/aze_latn_broad.tsv) | aze | Azerbaijani | Azerbaijani | Latin |  | False | Broad | 367 |
-| [TSV](tsv/aze_latn_narrow.tsv) | aze | Azerbaijani | Azerbaijani | Latin |  | False | Narrow | 4,137 |
-| [TSV](tsv/aze_latn_narrow_filtered.tsv) | aze | Azerbaijani | Azerbaijani | Latin |  | True | Narrow | 3,499 |
+| [TSV](tsv/aze_latn_broad.tsv) | aze | Azerbaijani | Azerbaijani | Latin |  | False | Broad | 383 |
+| [TSV](tsv/aze_latn_narrow.tsv) | aze | Azerbaijani | Azerbaijani | Latin |  | False | Narrow | 4,226 |
+| [TSV](tsv/aze_latn_narrow_filtered.tsv) | aze | Azerbaijani | Azerbaijani | Latin |  | True | Narrow | 4,011 |
 | [TSV](tsv/bak_cyrl_broad.tsv) | bak | Bashkir | Bashkir | Cyrillic |  | False | Broad | 179 |
 | [TSV](tsv/bak_cyrl_narrow.tsv) | bak | Bashkir | Bashkir | Cyrillic |  | False | Narrow | 2,184 |
 | [TSV](tsv/ban_bali_broad.tsv) | ban | Balinese | Balinese | Balinese |  | False | Broad | 410 |
