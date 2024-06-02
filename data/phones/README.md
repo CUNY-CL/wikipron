@@ -3,7 +3,7 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | :---- | :---- | :---- | :---- | :---- | ----: |
 | [phone](phones/ady_narrow.phones) | ady | Adyghe | Adyghe | Narrow | 67 |
 | [phone](phones/afr_broad.phones) | afr | Afrikaans | Afrikaans | Broad | 61 |
-| [phone](phones/aze_narrow.phones) | aze | Azerbaijani | Azerbaijani | Narrow | 54 |
+| [phone](phones/aze_narrow.phones) | aze | Azerbaijani | Azerbaijani | Narrow | 56 |
 | [phone](phones/ben_dhaka_broad.phones) | ben | Bengali | Bengali (Dhaka) | Broad | 98 |
 | [phone](phones/ben_rarh_broad.phones) | ben | Bengali | Bengali (Rarh, Standard Bengali) | Broad | 99 |
 | [phone](phones/bul_broad.phones) | bul | Bulgarian | Bulgarian | Broad | 52 |

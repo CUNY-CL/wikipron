@@ -30,9 +30,9 @@ asm_beng_broad.tsv	asm	Assamese	Assamese	Bengali		False	Broad	2925
 ast_latn_broad.tsv	ast	Asturian	Asturian	Latin		False	Broad	1018
 ast_latn_narrow.tsv	ast	Asturian	Asturian	Latin		False	Narrow	986
 ayl_arab_broad.tsv	ayl	Libyan Arabic	Libyan Arabic	Arabic		False	Broad	163
-aze_latn_broad.tsv	aze	Azerbaijani	Azerbaijani	Latin		False	Broad	367
-aze_latn_narrow.tsv	aze	Azerbaijani	Azerbaijani	Latin		False	Narrow	4137
-aze_latn_narrow_filtered.tsv	aze	Azerbaijani	Azerbaijani	Latin		True	Narrow	3499
+aze_latn_broad.tsv	aze	Azerbaijani	Azerbaijani	Latin		False	Broad	383
+aze_latn_narrow.tsv	aze	Azerbaijani	Azerbaijani	Latin		False	Narrow	4226
+aze_latn_narrow_filtered.tsv	aze	Azerbaijani	Azerbaijani	Latin		True	Narrow	4011
 bak_cyrl_broad.tsv	bak	Bashkir	Bashkir	Cyrillic		False	Broad	179
 bak_cyrl_narrow.tsv	bak	Bashkir	Bashkir	Cyrillic		False	Narrow	2184
 ban_bali_broad.tsv	ban	Balinese	Balinese	Balinese		False	Broad	410
