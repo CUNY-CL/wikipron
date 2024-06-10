@@ -49,10 +49,9 @@ the [fork and pull](../../CONTRIBUTING.md) model for contributions.
     phones/phonemes to remove. For the phones or phonemes to retain, remove the
     comments of counts and example word-pronunciation pairs.
 3.  For a broadly transcribed list, add comments about allophony.
-4.  In [`../scrape`](../scrape) run 
-    ```./scrape.py --restriction=<your-lang> && ./postprocess```
-    This may take a while.
-5.  Run [`postprocess`](postprocess).
+4.  Run [`postprocess`](postprocess).
+5.  In [`../scrape`](../scrape) run `./scrape --restriction=<your-lang> &&
+    ./postprocess`. This may take a while.
 6.  Add the `.phones` file, the filtered `.tsv` file(s), and the summary files
     using `git add`. The `.phones` file must use the [NFC Unicode 
     normalization](https://en.wikipedia.org/wiki/Unicode_equivalence#Normalization).

@@ -12,11 +12,16 @@ Unreleased
 
 ### Under `data/`
 
+#### Changed
+
+-   Fixes table alignment. (\#539)
+-   Repeats big scrape after \#523. (\#536)
 -   Fixes excessive line wrapping. (\#529)
 -   Big scrape for 2024. (\#514)
 
 ### Under `src/` and elsewhere
 
+-   Upgrades `requests` for Dependabot. (\#541, \#544)
 -   Upgrades `black` for Dependabot. (\#530)
 -   Removes Min Nan (`nan`) custom selector. (\#529)
 

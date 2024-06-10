@@ -84,10 +84,7 @@ def main() -> None:
             "| Narrow/broad | # of phones |",
             file=sink,
         )
-        print(
-            "| :---- | :----: | :----: | :----: | :----: | :----: |",
-            file=sink,
-        )
+        print("| :---- " * 5 + "| ----: |", file=sink)
         for link, code, iso_name, wiki_name, ph, count in readme_list:
             print(
                 f"| {link} | {code} | {iso_name} | {wiki_name} | {ph} "

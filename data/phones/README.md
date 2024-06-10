@@ -1,11 +1,11 @@
 See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Narrow/broad | # of phones |
-| :---- | :----: | :----: | :----: | :----: | :----: |
+| :---- | :---- | :---- | :---- | :---- | ----: |
 | [phone](phones/ady_narrow.phones) | ady | Adyghe | Adyghe | Narrow | 67 |
 | [phone](phones/afr_broad.phones) | afr | Afrikaans | Afrikaans | Broad | 61 |
-| [phone](phones/aze_narrow.phones) | aze | Azerbaijani | Azerbaijani | Narrow | 54 |
-| [phone](phones/ben_dhaka_broad.phones) | ben | Bengali | Bengali (Dhaka) | Broad | 80 |
-| [phone](phones/ben_rarh_broad.phones) | ben | Bengali | Bengali (Rarh, Standard Bengali) | Broad | 94 |
+| [phone](phones/aze_narrow.phones) | aze | Azerbaijani | Azerbaijani | Narrow | 56 |
+| [phone](phones/ben_dhaka_broad.phones) | ben | Bengali | Bengali (Dhaka) | Broad | 98 |
+| [phone](phones/ben_rarh_broad.phones) | ben | Bengali | Bengali (Rarh, Standard Bengali) | Broad | 99 |
 | [phone](phones/bul_broad.phones) | bul | Bulgarian | Bulgarian | Broad | 52 |
 | [phone](phones/cym_nw_broad.phones) | cym | Welsh | Welsh (North Wales) | Broad | 63 |
 | [phone](phones/cym_sw_broad.phones) | cym | Welsh | Welsh (South Wales) | Broad | 55 |
@@ -30,7 +30,7 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/mlt_broad.phones) | mlt | Maltese | Maltese | Broad | 61 |
 | [phone](phones/mya_broad.phones) | mya | Burmese | Burmese | Broad | 70 |
 | [phone](phones/nld_broad.phones) | nld | Dutch | Dutch | Broad | 50 |
-| [phone](phones/nob_broad.phones) | nob | Norwegian Bokmål | Norwegian Bokmål | Broad | 54 |
+| [phone](phones/nob_broad.phones) | nob | Norwegian Bokmål | Norwegian Bokmål | Broad | 72 |
 | [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 55 |
 | [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 48 |
 | [phone](phones/ron_narrow.phones) | ron | Romanian | Romanian | Narrow | 51 |
