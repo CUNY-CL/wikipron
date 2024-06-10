@@ -18,6 +18,7 @@ Unreleased
 -   Repeats big scrape after \#523. (\#536)
 -   Fixes excessive line wrapping. (\#529)
 -   Big scrape for 2024. (\#514)
+-   Upstream cleaning for Bengali data. (\#547)
 
 ### Under `src/` and elsewhere
 

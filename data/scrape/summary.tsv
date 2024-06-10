@@ -44,13 +44,13 @@ bcl_latn_narrow.tsv	bcl	Central Bikol	Bikol Central	Latin		False	Narrow	4936
 bdq_latn_broad.tsv	bdq	Bahnar	Bahnar	Latin		False	Broad	193
 bel_cyrl_narrow.tsv	bel	Belarusian	Belarusian	Cyrillic		False	Narrow	5516
 ben_beng_broad.tsv	ben	Bengali	Bengali	Bengali		False	Broad	6666
-ben_beng_dhaka_broad.tsv	ben	Bengali	Bengali	Bengali	Dhaka	False	Broad	4784
-ben_beng_dhaka_broad_filtered.tsv	ben	Bengali	Bengali	Bengali	Dhaka	True	Broad	3653
-ben_beng_dhaka_narrow.tsv	ben	Bengali	Bengali	Bengali	Dhaka	False	Narrow	4093
+ben_beng_dhaka_broad.tsv	ben	Bengali	Bengali	Bengali	Dhaka	False	Broad	7873
+ben_beng_dhaka_broad_filtered.tsv	ben	Bengali	Bengali	Bengali	Dhaka	True	Broad	6405
+ben_beng_dhaka_narrow.tsv	ben	Bengali	Bengali	Bengali	Dhaka	False	Narrow	7382
 ben_beng_narrow.tsv	ben	Bengali	Bengali	Bengali		False	Narrow	5933
-ben_beng_rarh_broad.tsv	ben	Bengali	Bengali	Bengali	Rarh, Standard Bengali	False	Broad	4903
-ben_beng_rarh_broad_filtered.tsv	ben	Bengali	Bengali	Bengali	Rarh, Standard Bengali	True	Broad	3879
-ben_beng_rarh_narrow.tsv	ben	Bengali	Bengali	Bengali	Rarh, Standard Bengali	False	Narrow	4224
+ben_beng_rarh_broad.tsv	ben	Bengali	Bengali	Bengali	Rarh, Standard Bengali	False	Broad	7873
+ben_beng_rarh_broad_filtered.tsv	ben	Bengali	Bengali	Bengali	Rarh, Standard Bengali	True	Broad	6426
+ben_beng_rarh_narrow.tsv	ben	Bengali	Bengali	Bengali	Rarh, Standard Bengali	False	Narrow	7382
 bjb_latn_broad.tsv	bjb	Banggarla	Barngarla	Latin		False	Broad	136
 blt_tavt_narrow.tsv	blt	Tai Dam	Tai Dam	Tai Viet		False	Narrow	239
 bod_tibt_broad.tsv	bod	Tibetan	Tibetan	Tibetan		False	Broad	2699

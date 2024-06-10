@@ -5,7 +5,7 @@
   * Broad transcription files: 23
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 4,311,273
+* Pronunciations: 4,323,779
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -56,13 +56,13 @@
 | [TSV](tsv/bdq_latn_broad.tsv) | bdq | Bahnar | Bahnar | Latin |  | False | Broad | 193 |
 | [TSV](tsv/bel_cyrl_narrow.tsv) | bel | Belarusian | Belarusian | Cyrillic |  | False | Narrow | 5,516 |
 | [TSV](tsv/ben_beng_broad.tsv) | ben | Bengali | Bengali | Bengali |  | False | Broad | 6,666 |
-| [TSV](tsv/ben_beng_dhaka_broad.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Broad | 4,784 |
-| [TSV](tsv/ben_beng_dhaka_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | True | Broad | 3,653 |
-| [TSV](tsv/ben_beng_dhaka_narrow.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Narrow | 4,093 |
+| [TSV](tsv/ben_beng_dhaka_broad.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Broad | 7,873 |
+| [TSV](tsv/ben_beng_dhaka_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | True | Broad | 6,405 |
+| [TSV](tsv/ben_beng_dhaka_narrow.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Narrow | 7,382 |
 | [TSV](tsv/ben_beng_narrow.tsv) | ben | Bengali | Bengali | Bengali |  | False | Narrow | 5,933 |
-| [TSV](tsv/ben_beng_rarh_broad.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Broad | 4,903 |
-| [TSV](tsv/ben_beng_rarh_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | True | Broad | 3,879 |
-| [TSV](tsv/ben_beng_rarh_narrow.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Narrow | 4,224 |
+| [TSV](tsv/ben_beng_rarh_broad.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Broad | 7,873 |
+| [TSV](tsv/ben_beng_rarh_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | True | Broad | 6,426 |
+| [TSV](tsv/ben_beng_rarh_narrow.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Narrow | 7,382 |
 | [TSV](tsv/bjb_latn_broad.tsv) | bjb | Banggarla | Barngarla | Latin |  | False | Broad | 136 |
 | [TSV](tsv/blt_tavt_narrow.tsv) | blt | Tai Dam | Tai Dam | Tai Viet |  | False | Narrow | 239 |
 | [TSV](tsv/bod_tibt_broad.tsv) | bod | Tibetan | Tibetan | Tibetan |  | False | Broad | 2,699 |
