@@ -121,6 +121,7 @@ asgetigiaeth	a s k ɛ tʰ ɪ ɡ j a i̯ θ
 asgetigiaeth	a s k ɛ tʰ ɪ ɡ j ɛ θ
 asgwrn	a s k ʊ r n
 astatin	a s t a tʰ ɪ n
+astell	a s t ɛ ɬ
 astrus	a s t r ɪ s
 astrusi	a s t r ɪ s i
 astud	a s t ɪ d
@@ -162,7 +163,7 @@ bochgoch	b ɔ χ k ɔ χ
 bonclust	b ɔ ŋ k l ɪ s t
 bonclustiad	b ɔ ŋ k l ɪ s t j a d
 bonclustio	b ɔ ŋ k l ɪ s t j ɔ
-braster	b r a s d ɛ r
+braster	b r a s t ɛ r
 brasterog	b r a s t eː r ɔ ɡ
 brasterog	b r a s t ɛ r ɔ ɡ
 brechdan	b r ɛ χ t a n
@@ -176,6 +177,8 @@ bwytaist	b ɪ t ɛ s t
 bysbrint	b ə s p r ɪ n t
 cachgi	kʰ a χ k i
 caifn	kʰ a i̯ v n̩
+callestr	k a ɬ ɛ s t
+callestr	k a ɬ ɛ s t r
 camddealltwriaeth	k a m ð ɛ a ɬ t ʊ r j a i̯ θ
 camddealltwriaeth	k a m ð ɛ a ɬ t ʊ r j ɛ θ
 camesgor	kʰ a m ɛ s k ɔ r
@@ -207,6 +210,7 @@ chestyll	χ ɛ s t ɪ ɬ
 chist	χ ɪ s t
 chwedl	χ w ɛ d l̩
 chwestiwn	χ w̥ʰ ɛ s t j ʊ n
+chwistl	χ w ɪ s t l̩
 cist	kʰ ɪ s t
 ciwcymbr	kʰ ɪ u̯ kʰ ə m b r̩
 cledr	k lʰ ɛ d r̩
@@ -214,6 +218,7 @@ clust	k l ɪ s t
 clustdlws	k lʰ ɪ s t l ʊ s
 clustiog	kʰ l ɪ s t j ɔ ɡ
 clustog	kʰ l ɪ s t ɔ ɡ
+clwbfwsogl	k l ʊ b v ʊ s ɔ ɡ l̩
 clwyfdy	kʰ l ʊ i̯ f t i
 cochgam	kʰ ɔ χ k a m
 codaist	kʰ oː d a i̯ s t
@@ -345,6 +350,7 @@ desgiau	d ɛ s k j a i̯
 desgiau	d ɛ s k j ɛ
 dest	d eː s t
 dest	d ɛ s t
+diffeithdir	d ɪ f e i̯ θ t ɪ r
 dinistrio	d ɪ n ɪ s t r j o
 dirwestol	d ɪ r w ɛ s t ɔ l
 disgo	d ɪ s k ɔ
@@ -452,6 +458,9 @@ esgyn	ɛ s k ɪ n
 esgyrn	ɛ s k ɪ r n
 est	eː s t
 est	ɛ s t
+esteriad	ɛ s t ɛ r j a t
+esteru	ɛ s t eː r ɨ
+esteru	ɛ s t ɛ r ɨ
 estron	ɛ s t r ɔ n
 estrys	ɛ s t r ɪ s
 estyn	ɛ s t ɪ n
@@ -473,16 +482,21 @@ gestyll	ɡ ɛ s t ɪ ɬ
 gist	ɡ ɪ s t
 glasglwyf	ɡ l a s k l u i̯ v
 glasgoch	ɡ l a s k ɔ χ
+glastwr	ɡ l a s t ʊ r
+glastwraidd	ɡ l a s t uː r a i̯ ð
+glastwraidd	ɡ l a s t ʊ r a i̯ ð
 glaswellt	ɡ l a s w ɛ ɬ t
 glaswst	ɡ l a s ʊ s t
 glöyn	ɡ l ɔ w ɪ n
 gobr	ɡ ɔ b r̩
+gogr	ɡ ɔ ɡ r̩
 golosg	ɡ oː l ɔ s k
 golosg	ɡ ɔ l ɔ s k
 gonest	ɡ oː n ɛ s t
 gonest	ɡ ɔ n ɛ s t
 gorasgellu	ɡ ɔ r a s k ɛ ɬ i
 gorchaifn	ɡ ɔ r χ a i̯ v n̩
+gorfanadl	ɡ ɔ r v aː n a d l̩
 gornest	ɡ ɔ r n ɛ s t
 gornestau	ɡ ɔ r n ɛ s t a i̯
 gornestau	ɡ ɔ r n ɛ s t ɛ
@@ -627,7 +641,7 @@ malltod	m a ɬ t ɔ t
 mapgoll	m a p k ɔ ɬ
 marchgacwn	m a r χ k a kʰ ʊ n
 marchgacynen	m a r χ k a k ə n ɛ n
-marddanadl	d aː n a d l̩
+marddanadl	m a r ð aː n a d l̩
 marwddanadl	m a r w ð aː n a d l̩
 masg	m a s k
 masgau	m a s k a i̯
@@ -642,6 +656,7 @@ melltith	m ɛ ɬ t ɪ θ
 melltithio	m ɛ ɬ t ɪ θ j ɔ
 melltithion	m ɛ ɬ t ɪ θ j ɔ n
 melyster	m ɛ l ə s t ɛ r
+merysbren	m ɛ r ə s p r ɛ n
 metr	m ɛ t r̩
 mhasbort	m̥ʰ a s p ɔ r tʰ
 mhasta	m̥ʰ a s t a
@@ -684,6 +699,11 @@ odl	ɔ d l̩
 ofn	ɔ v n̩
 ombwdsmon	ɔ m b ʊ t s m ɔ n
 ongl	ɔ ŋ l̩
+osgiliad	ɔ s k ɪ l j a t
+osgiliadu	ɔ s k ɪ l aː d i
+osgiliadu	ɔ s k ɪ l j aː d i
+osgiliadur	ɔ s k ɪ l j aː d ʊ r
+osgled	ɔ s k l ɛ t
 osgoi	ɔ s k ɔ i̯
 palimpsest	pʰ a l ɪ m pʰ s ɛ s t
 pasbort	pʰ a s p ɔ r tʰ
@@ -711,6 +731,7 @@ posteri	pʰ ɔ s t ɛ r i
 postio	pʰ ɔ s t j ɔ
 postmon	pʰ ɔ s t m o n
 postmyn	pʰ ɔ s t m ɪ n
+presgripsiwn	p r ɛ s k r ɪ p ʃ ʊ n
 prifgost	p r̥ʰ ɪ v ɡ ɔ s t
 prifodl	p r iː v ɔ d l̩
 prifodl	p r ɪ v ɔ d l̩
@@ -754,8 +775,6 @@ rhisgl	r̥ ɪ s k ɪ l
 rhisgl	r̥ ɪ ʃ k ɪ l
 rhosb	r̥ ɔ s p
 rhostio	r̥ ɔ s t j ɔ
-rhostog	r̥ ɔ s t ɔ ɡ
-rhostogion	r̥ ɔ s t ɔ ɡ j ɔ n
 rhuddygl	r̥ ɪ ð ɪ ɡ l̩
 rhwystr	r̥ʰ ʊ i̯ s t r̩
 rhwystr	r̥ʰ ʊ i̯ s t ɪ r
@@ -772,6 +791,7 @@ rhwystredigaethau	r̥ʰ ʊ i̯ s t r ɛ d ɪ ɡ e i̯ θ ɛ
 rhwystro	r̥ʰ ʊ i̯ s t r ɔ
 salamandr	s a l a m a n d r̩
 sawdl	s a u̯ d l̩
+sba	s p aː
 sbageti	s p a ɡ ɛ t i
 sbaner	s p aː n ɛ r
 sbectol	s p ɛ k t ɔ l
@@ -793,6 +813,7 @@ sbonciwr	s p ɔ ŋ k jʰ u r
 sbort	s p ɔ r tʰ
 sbot	s p ɔ t
 sbring	s p r ɪ ŋ
+sbriws	s p r ɪ u̯ s
 sbwliau	s p ʊ l j a i̯
 sbwliau	s p ʊ l j ɛ
 sbwlio	s p ʊ l j ɔ
@@ -1009,6 +1030,7 @@ ysgubor	ə s k iː b ɔ r
 ysgubor	ə s k ɪ b ɔ r
 ysguthan	s k ɪ θ a n
 ysguthan	ə s k ɪ θ a n
+ysgwyd	ə s k w ɪ d
 ysgwydd	ə s k w ɪ ð
 ysgwydd	ə s k ʊ i̯ ð
 ystad	ə s t a d
