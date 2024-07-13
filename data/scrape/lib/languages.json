@@ -141,8 +141,8 @@
         "wiktionary_name": "Armenian",
         "wiktionary_code": "hy",
         "dialect": {
-            "w": "Western Armenian, standard",
-            "e": "Eastern Armenian, standard"
+            "w": "Western Armenian",
+            "e": "Eastern Armenian"
         },
         "script": {
             "armn": "Armenian",
@@ -2584,10 +2584,10 @@
         "skip_spaces_pron": false,
         "dialect": {
             "hanoi": "Hà Nội",
-            "hcmc": "Hồ Chí Minh City",
+            "ht": "Hà Tĩnh",
             "hue": "Huế",
-            "tc": "Vinh, Thanh Chương",
-            "ht": "Hà Tĩnh"
+            "saigon": "Saigon",
+            "tc": "Vinh, Thanh Chương"
         },
         "script": {
             "latn": "Latin"
