@@ -1,26 +1,21 @@
 # Based on https://en.wikipedia.org/wiki/Armenian_language#Phonology
 # And based on the pronunciation script from Wiktionary: https://en.wiktionary.org/wiki/Module:hy-pronunciation
 #
-# Vowels.
+# Vowels; these have been recently reworked upstream to use acute accents.
 ɑ
-ɛ
+ɑ́
+e
+é
 ə
+ə́
+o
+ó
 i
-ɔ
+í
 u
-ʏ # allophone that is automatically transcribed from word-medial յու /ju/
-#
-# Older entries might contain [o] or [e]. These have been fixed. You shouldn't find these phones anymore. 
-#
-# Long vowels: A sequence of identical heterosyllabic vowels is phonetically pronounced as one long vowel. Armenian does not have phonemic vowel length. But these are very rare. The only attested case on Wiktionary is the following.
-ɛː
-# The other types of long vowels are not found on Wiktionary as of Jan 2021. This is largely because long vowels are mostly in loanwords and borrowings, which Wiktionary underreports. At some point in the future, the Armenian users might add some entries which contain these sequences.
-ɑː
-əː
-iː
-ɔː
-uː
-#
+ú
+ʏ  # Allophone that is automatically transcribed from word-medial յու /ju/.
+ʏ́
 # Consonants.
 m
 n
@@ -41,13 +36,13 @@ s
 z
 ʃ
 ʒ
-χ  
+χ
 ʁ
 h
 l
 j
 ɾ
-# Western Armenian doesn't have phonemic voiceless unaspirated stops. But the hy-pron script generetes unaspirated consonants after the /s/ segment 
+# Western Armenian doesn't have phonemic voiceless unaspirated stops. But the hy-pron script generetes unaspirated consonants after the /s/ segment
 p
 t
 k
@@ -56,7 +51,7 @@ t͡ʃ
 #
 # Past errors: some instances of [χ] were incorrectly transcribed as [x].
 # Past errors: some affricates were missing a tie-bar.
-#  * <ց> [tʃʰ] 
+#  * <ց> [tʃʰ]
 #  * <չ> [tsʰ]
 #  These were fixed.
 #
@@ -80,7 +75,7 @@ zː
 lː
 ɾː
 #
-# As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have 
+# As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have
 # following long consonants.
 t͡ʃʰː
 d͡zː
@@ -96,16 +91,16 @@ kː
 t͡sː
 t͡ʃː
 # These are all just an accidental gap. The above long consonants can exist in theory
-# exist in Armenian. At some point in the future, the Armenian users might add some 
+# exist in Armenian. At some point in the future, the Armenian users might add some
 # entries which contain these sequences.
 #
 # Western Armenian's phoneme inventory differs from Eastern Armenian in the following way:
 # 1) Eastern Armenian has a trill grapheme ռ and a flap grapheme ր. In Western Armenian,
 # both graphemes are pronounced as a flap. Western Armenian does not have a trill.
-# 2) The graphemes for voiceless unaspirated stops+affricates are pronounced as voiceless 
-# unaspirated in Eastern Armenian, but as voiced in Western Armenian: կապ [kap] in 
+# 2) The graphemes for voiceless unaspirated stops+affricates are pronounced as voiceless
+# unaspirated in Eastern Armenian, but as voiced in Western Armenian: կապ [kap] in
 # Eastern, [gab] in Western.
-# 3) The graphemes for voiced stops+affricates are pronounced as voiced in Eastern 
+# 3) The graphemes for voiced stops+affricates are pronounced as voiced in Eastern
 # Armenian, but as voiceless aspirated in Western Armenian: գահ [gah] in Eastern, [kʰah] # in Western.
 # * The graphemes for voiceless aspirated stops+affricates are pronounced as voiceless aspirated in both dialects:  քուն [kʰun] in both.
 
