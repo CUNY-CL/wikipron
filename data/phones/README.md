@@ -18,7 +18,7 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/hin_broad.phones) | hin | Hindi | Hindi | Broad | 64 |
 | [phone](phones/hun_narrow.phones) | hun | Hungarian | Hungarian | Narrow | 86 |
 | [phone](phones/hye_e_narrow.phones) | hye | Armenian | Armenian (Eastern Armenian) | Narrow | 74 |
-| [phone](phones/hye_w_narrow.phones) | hye | Armenian | Armenian (Western Armenian) | Narrow | 73 |
+| [phone](phones/hye_w_narrow.phones) | hye | Armenian | Armenian (Western Armenian) | Narrow | 75 |
 | [phone](phones/isl_broad.phones) | isl | Icelandic | Icelandic | Broad | 71 |
 | [phone](phones/ita_broad.phones) | ita | Italian | Italian | Broad | 32 |
 | [phone](phones/jpn_narrow.phones) | jpn | Japanese | Japanese | Narrow | 64 |

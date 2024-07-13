@@ -42,6 +42,7 @@ h
 l
 j
 ɾ
+r
 # Western Armenian doesn't have phonemic voiceless unaspirated stops. But the hy-pron script generetes unaspirated consonants after the /s/ segment
 p
 t
@@ -74,7 +75,7 @@ zː
 ʁː
 lː
 ɾː
-#
+r
 # As an accidental gap,  as of Jan 2021, there are no Wiktionary entries that have
 # following long consonants.
 t͡ʃʰː
