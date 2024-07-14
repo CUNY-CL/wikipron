@@ -31,13 +31,13 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/mya_broad.phones) | mya | Burmese | Burmese | Broad | 70 |
 | [phone](phones/nld_broad.phones) | nld | Dutch | Dutch | Broad | 50 |
 | [phone](phones/nob_broad.phones) | nob | Norwegian Bokmål | Norwegian Bokmål | Broad | 72 |
-| [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 43 |
-| [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 48 |
+| [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 45 |
+| [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 44 |
 | [phone](phones/ron_narrow.phones) | ron | Romanian | Romanian | Narrow | 51 |
 | [phone](phones/slv_broad.phones) | slv | Slovenian | Slovene | Broad | 48 |
 | [phone](phones/spa_ca_broad.phones) | spa | Spanish | Spanish (Castilian) | Broad | 29 |
 | [phone](phones/spa_la_broad.phones) | spa | Spanish | Spanish (Latin America) | Broad | 28 |
 | [phone](phones/tur_narrow.phones) | tur | Turkish | Turkish | Narrow | 51 |
 | [phone](phones/vie_hanoi_narrow.phones) | vie | Vietnamese | Vietnamese (Hà Nội) | Narrow | 54 |
-| [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 53 |
-| [phone](phones/vie_saigon_narrow.phones) | vie | Vietnamese | Vietnamese (Saigon) | Narrow | 50 |
+| [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 54 |
+| [phone](phones/vie_saigon_narrow.phones) | vie | Vietnamese | Vietnamese (Saigon) | Narrow | 53 |

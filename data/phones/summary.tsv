@@ -28,13 +28,13 @@ mlt_broad.phones	mlt	Maltese	Maltese	Broad	61
 mya_broad.phones	mya	Burmese	Burmese	Broad	70
 nld_broad.phones	nld	Dutch	Dutch	Broad	50
 nob_broad.phones	nob	Norwegian Bokmål	Norwegian Bokmål	Broad	72
-por_bz_broad.phones	por	Portuguese	Portuguese (Brazil)	Broad	43
-por_po_broad.phones	por	Portuguese	Portuguese (Portugal)	Broad	48
+por_bz_broad.phones	por	Portuguese	Portuguese (Brazil)	Broad	45
+por_po_broad.phones	por	Portuguese	Portuguese (Portugal)	Broad	44
 ron_narrow.phones	ron	Romanian	Romanian	Narrow	51
 slv_broad.phones	slv	Slovenian	Slovene	Broad	48
 spa_ca_broad.phones	spa	Spanish	Spanish (Castilian)	Broad	29
 spa_la_broad.phones	spa	Spanish	Spanish (Latin America)	Broad	28
 tur_narrow.phones	tur	Turkish	Turkish	Narrow	51
 vie_hanoi_narrow.phones	vie	Vietnamese	Vietnamese (Hà Nội)	Narrow	54
-vie_hue_narrow.phones	vie	Vietnamese	Vietnamese (Huế)	Narrow	53
-vie_saigon_narrow.phones	vie	Vietnamese	Vietnamese (Saigon)	Narrow	50
+vie_hue_narrow.phones	vie	Vietnamese	Vietnamese (Huế)	Narrow	54
+vie_saigon_narrow.phones	vie	Vietnamese	Vietnamese (Saigon)	Narrow	53

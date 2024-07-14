@@ -15,6 +15,9 @@ u
 j
 w
 # Nasalized vowels and glides.
+# Note the upstream template occasionally generates "double-nasalization",
+# i.e., vowels followed by two combining tildes. This is ignored since 
+# it's not clear what this means.
 ɐ̃
 ẽ
 ĩ
@@ -42,6 +45,8 @@ z
 b
 f
 ɡ
+kʷ
+ɡʷ  # This gu in European, apparently.
 d͡ʒ
 v
 ɻ
