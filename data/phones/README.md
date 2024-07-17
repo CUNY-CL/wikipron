@@ -17,8 +17,8 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/hbs_broad.phones) | hbs | Serbo-Croatian | Serbo-Croatian | Broad | 65 |
 | [phone](phones/hin_broad.phones) | hin | Hindi | Hindi | Broad | 64 |
 | [phone](phones/hun_narrow.phones) | hun | Hungarian | Hungarian | Narrow | 86 |
-| [phone](phones/hye_e_narrow.phones) | hye | Armenian | Armenian (Eastern Armenian, standard) | Narrow | 72 |
-| [phone](phones/hye_w_narrow.phones) | hye | Armenian | Armenian (Western Armenian, standard) | Narrow | 72 |
+| [phone](phones/hye_e_narrow.phones) | hye | Armenian | Armenian (Eastern Armenian) | Narrow | 74 |
+| [phone](phones/hye_w_narrow.phones) | hye | Armenian | Armenian (Western Armenian) | Narrow | 75 |
 | [phone](phones/isl_broad.phones) | isl | Icelandic | Icelandic | Broad | 71 |
 | [phone](phones/ita_broad.phones) | ita | Italian | Italian | Broad | 32 |
 | [phone](phones/jpn_narrow.phones) | jpn | Japanese | Japanese | Narrow | 64 |
@@ -31,13 +31,13 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/mya_broad.phones) | mya | Burmese | Burmese | Broad | 70 |
 | [phone](phones/nld_broad.phones) | nld | Dutch | Dutch | Broad | 50 |
 | [phone](phones/nob_broad.phones) | nob | Norwegian Bokmål | Norwegian Bokmål | Broad | 72 |
-| [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 55 |
-| [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 48 |
+| [phone](phones/por_bz_broad.phones) | por | Portuguese | Portuguese (Brazil) | Broad | 45 |
+| [phone](phones/por_po_broad.phones) | por | Portuguese | Portuguese (Portugal) | Broad | 44 |
 | [phone](phones/ron_narrow.phones) | ron | Romanian | Romanian | Narrow | 51 |
 | [phone](phones/slv_broad.phones) | slv | Slovenian | Slovene | Broad | 48 |
 | [phone](phones/spa_ca_broad.phones) | spa | Spanish | Spanish (Castilian) | Broad | 29 |
-| [phone](phones/spa_la_broad.phones) | spa | Spanish | Spanish (Latin America) | Broad | 27 |
+| [phone](phones/spa_la_broad.phones) | spa | Spanish | Spanish (Latin America) | Broad | 28 |
 | [phone](phones/tur_narrow.phones) | tur | Turkish | Turkish | Narrow | 51 |
 | [phone](phones/vie_hanoi_narrow.phones) | vie | Vietnamese | Vietnamese (Hà Nội) | Narrow | 54 |
-| [phone](phones/vie_hcmc_narrow.phones) | vie | Vietnamese | Vietnamese (Hồ Chí Minh City) | Narrow | 50 |
-| [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 53 |
+| [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 54 |
+| [phone](phones/vie_saigon_narrow.phones) | vie | Vietnamese | Vietnamese (Saigon) | Narrow | 54 |

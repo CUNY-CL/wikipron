@@ -14,7 +14,8 @@ Unreleased
 
 #### Changed
 
--   Fixes dialect xpath selector. (\#545)
+-   Rescrapes dialect data after \#548. (\#551)
+-   Fixes dialect XPath selector. (\#548)
 -   Fixes table alignment. (\#539)
 -   Repeats big scrape after \#523. (\#536)
 -   Fixes excessive line wrapping. (\#529)
