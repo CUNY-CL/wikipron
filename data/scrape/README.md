@@ -5,7 +5,7 @@
   * Broad transcription files: 25
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 3,883,365
+* Pronunciations: 3,883,371
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -460,12 +460,12 @@
 | [TSV](tsv/urd_arab_narrow.tsv) | urd | Urdu | Urdu | Arabic |  | False | Narrow | 104 |
 | [TSV](tsv/urk_thai_broad.tsv) | urk | Urak Lawoi' | Urak Lawoi' | Thai |  | False | Broad | 565 |
 | [TSV](tsv/urk_thai_narrow.tsv) | urk | Urak Lawoi' | Urak Lawoi' | Thai |  | False | Narrow | 565 |
-| [TSV](tsv/vie_latn_hanoi_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Narrow | 23,318 |
-| [TSV](tsv/vie_latn_hanoi_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Narrow | 23,318 |
-| [TSV](tsv/vie_latn_hue_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | False | Narrow | 26,370 |
-| [TSV](tsv/vie_latn_hue_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | True | Narrow | 26,355 |
-| [TSV](tsv/vie_latn_saigon_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | False | Narrow | 27,230 |
-| [TSV](tsv/vie_latn_saigon_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | True | Narrow | 25,972 |
+| [TSV](tsv/vie_latn_hanoi_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Narrow | 23,320 |
+| [TSV](tsv/vie_latn_hanoi_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Narrow | 23,320 |
+| [TSV](tsv/vie_latn_hue_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | False | Narrow | 26,372 |
+| [TSV](tsv/vie_latn_hue_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | True | Narrow | 26,357 |
+| [TSV](tsv/vie_latn_saigon_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | False | Narrow | 27,232 |
+| [TSV](tsv/vie_latn_saigon_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | True | Narrow | 27,221 |
 | [TSV](tsv/vol_latn_broad.tsv) | vol | Volapük | Volapük | Latin |  | False | Broad | 388 |
 | [TSV](tsv/vol_latn_narrow.tsv) | vol | Volapük | Volapük | Latin |  | False | Narrow | 564 |
 | [TSV](tsv/vot_latn_broad.tsv) | vot | Votic | Votic | Latin |  | False | Broad | 2,118 |

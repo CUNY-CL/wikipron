@@ -448,12 +448,12 @@ urd_arab_broad.tsv	urd	Urdu	Urdu	Arabic		False	Broad	4493
 urd_arab_narrow.tsv	urd	Urdu	Urdu	Arabic		False	Narrow	104
 urk_thai_broad.tsv	urk	Urak Lawoi'	Urak Lawoi'	Thai		False	Broad	565
 urk_thai_narrow.tsv	urk	Urak Lawoi'	Urak Lawoi'	Thai		False	Narrow	565
-vie_latn_hanoi_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	False	Narrow	23318
-vie_latn_hanoi_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	True	Narrow	23318
-vie_latn_hue_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	False	Narrow	26370
-vie_latn_hue_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	True	Narrow	26355
-vie_latn_saigon_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Saigon	False	Narrow	27230
-vie_latn_saigon_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Saigon	True	Narrow	25972
+vie_latn_hanoi_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	False	Narrow	23320
+vie_latn_hanoi_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	True	Narrow	23320
+vie_latn_hue_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	False	Narrow	26372
+vie_latn_hue_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	True	Narrow	26357
+vie_latn_saigon_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Saigon	False	Narrow	27232
+vie_latn_saigon_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Saigon	True	Narrow	27221
 vol_latn_broad.tsv	vol	Volapük	Volapük	Latin		False	Broad	388
 vol_latn_narrow.tsv	vol	Volapük	Volapük	Latin		False	Narrow	564
 vot_latn_broad.tsv	vot	Votic	Votic	Latin		False	Broad	2118
