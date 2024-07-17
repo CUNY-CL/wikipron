@@ -16,8 +16,6 @@
 Adam	æ ɾ m̩
 Adam	æ ɾ ə m
 Alder	ɔː l d ə
-Allah	ʔ a lˤ lˤ ɑː h
-Allah	ʔ ɑ lˤ lˤ a
 Andrew	eᵊ n d̠ ɹ̠ ˔ʷ ʊ̈ u
 Andrew	æ n d̠ ɹ̠ʷ ˔ ʊ̈ u
 Aristotle	æ ɹ ɪ s t ɒ tᵊ ɫ̩
@@ -27,8 +25,6 @@ Atlanta	æ t l æ n ə
 Atlanta	æ t l æ ɾ̃ ə
 Augustan	ɔː ɡ ʌ s t n̩
 Baedeker	b e ɪ d ɪ k ə
-Balt	b ɑ l t
-Balt	b ɔː l t
 Bashkortostan	b a ʃ k o̞ː ɹ t ə ʉ̯ s t æ n
 Bastille	b æ s t ɪ ə ɫ
 Beatle	b iː t ə ɫ
@@ -36,6 +32,8 @@ Bill	b ɪ ɫ
 Breault	b ɹ o ʊ̯
 Brighton	b ɹ a ɪ̯ ʔ ə n
 Britain	b ɹ ɪ t n̩
+CALAX	k ɐ l a k s
+CAVITEX	k ɐ v iː t ɛ k s
 Cain	kʰ e ɪ n
 Cambodia	k æ m b o ʊ d i ə
 Chance	t͡ʃʰ æ n s ~ t͡ʃʰ a n s
@@ -60,6 +58,7 @@ Diggle	d ɪ ɡ ə ɫ
 Diggles	d ɪ ɡ ə ɫ z
 Disibodenberg	d ɪ z ɪ b ə ʊ d n̩ b ɛ ɚ k
 Dunn	d ɐ n
+EDSA	ʔ ɛː d s ɐ
 Edinburgh	ɛ d n̩ b ə ɹ ə
 El	ɛ ɫ
 Fitz	f ɪ t s
@@ -73,11 +72,8 @@ Humvee	h ʌ m β iː
 Humvee	h ʌ ɱ v iː
 Hydra	h a ɪ̯ d ɹ ə
 Hydra	h a ɪ̯ d͡ʒ ɹ ə
-I	a ɪ̯
-I	aː
-I	ɑ e̯
+I	ɑ j
 IPA	a ɪ pʰ iː e ɪ
-IRA	a ɪ ɹ ə
 Ireland	a ɪ ɚ l ə n d
 Ireland	ä ɪ ɚ ɫ ɪ̈ n d
 Ireland	ɑ ɚ l ə n d
@@ -89,19 +85,22 @@ Italy	i t ɐ l i
 Italy	ɪ t ə l i
 Italy	ɪ ɾ ə l i
 Jacobinism	d͡ʒ æ k ə b ɪ n ɪ z m̩
-K	kʰ e ɪ
+Kastner	kʰ æ s t̚ n ə ɹ
 Katy	kʰ e ɪ̯ ɾ i
 Kebnekaise	k ɛ b n ə k a i s ə
-Khmer	kʰ ə m ɛ ɹ
 Koizumi	kʰ ɔ i̯ z u m i
 Korea	kʰ ɵ ɹ iː ə
-L	l
-L	ɫ
-LA	ɛ ɫ l e j
 Lambrusco	l æ m b ɹ ʊ s k ə ʊ
+Langevin	l ɛ ə ŋ ə v ɪ n
 Lycra	l a ɪ k ɹ ə
 MASH	m a ʃ
 Malinois	m æ l ɪ n w ɑː
+Mandelson	m a n d l̩ s n̩
+Mandelson	m a n d l̩ s ə n
+Maximilian	m æ k s ɪ m ɪ l j ə n
+Mendelson	m ɛ n d l̩ s n̩
+Mendelson	m ɛ n d l̩ s ə n
+Menderson	m ɛ n d ɚ s n̩
 Metairie	m ɛ ɾ ə ɹ i
 Michael	m ɐ ɪ k ɫ̩
 Michigander	m ɪ ʃ ə ɡ æ n d ɚ
@@ -111,48 +110,43 @@ Moneyball	m ɐ n i b ɔː l
 Montagnard	m ɒ n t ə n j ɑː d
 Montagnard	m ɒ̃ⁿ t ə n j ɑː d
 MyKad	m a ɪ kʰ ɑː d
+NAIAX	n ɐ ʔ iː ɐ k s
+NAIAX	n ɐ ʔ ɪ aː ʔ ɛ k s
+NLEX	ʔ ɛː n l ɛ k s
 Nancy	n ɛ ə n s i
 Nauruan	n ɑː uː ɹ uː n̩
-Nazi	n äː t s i
 Newcastle	n j ʉ kʰ a s ɫ̩
 Newcastle	n j ʉ kʰ ɑː s ɫ̩
 Ng	ŋ̍
 Nippon	n ɪ p ɒ n
-OUCA	a ʊ ↗︎ k ɑːː
 PAL	pʰ æ l
 Paddy	pʰ æ ɾ i
 Park	pʰ ɑː k
 Patrick	pʰ æ t̠ ɹ̠̊ ˔ʷ ɪ k̚
-Peleg	pʰ ɛ l ɛ ɡ
 Philadelphia	f ɪ ɫ ə d ɜ ɫ f i ə
 Pulliam	pʰ ʊ ɫ i m̩
 Pulliam	pʰ ʊ ɫ j ə̃ m
 Putler	p uː t l ə
 Pyrrha	pʰ ɪ ɹ̠ ə
-Quenya	kʷ w ɛ ɲ j a
+Quart	k a ʁ
+Quart	k w a ɾ t
 Quinn	kʰ w̥ ɪ n
 Rhene	ɹ̥ iː n iː
 Samantha	s ə m ɛ ə n θ ə
 Shalë	ʃ aː l
 Siberia	s a ɪ b ɪ ə ɹ ɪ ə
 Siberian	s a ɪ b ɪ ə ɹ ɪ ə n
-Slovak	s l ɑ v ə k
 Subaru	s u̟ w b ə ɹ u̟ w
 Subaru	s ʉ w b ə ɹ ʉ w
-Sui	s u̯ e ɪ̯
-T	t
-T	tʰ
-T	t̬
-T	ɾ
-T	ʔ
+TESDA	t ɛː s d ɐ
 Tagore	tʰ ə ɡ ɔː
 Talib	tʰ æ l ɪ b
 Telangana	t̪ ɛ l ə ŋ ɡ ɑː n ə
 Throwends	θ ɹʷ ə ʊ̯ ə n d z
 Transcaucasia	t ɹ æ n s k ɔː k e ɪ z j ə
 Transcaucasia	t ɹ æ n s k ɔː k e ɪ ʒ ə
-UNTAC	j u ɛ n t ɪ ɛ j s iː
-UNTAET	j u ɛ n t i ɛ j ɪ t iː
+Türkiye	t uː ɹ k i j ə
+Union	u n i̯ oː n
 Utter	ɐ t ə
 Venedotian	v ɛ n ɪ d ə ʊ ʃ n̩
 Vlach	v l æ k
@@ -174,6 +168,7 @@ accommodator	ə k ɒ m ə d e ɪ t ə
 accreditation	ə k ɹ ɛ d ɪ t e ɪ ʃ ə n
 acknowledge	ə k n ɒ l ɨ̞ d͡ʒ
 acknowledge	ə ɡ n ɒ l ɨ̞ d͡ʒ
+acrally	æ k r ə l ɪ
 added	a d ə d
 added	a d ɪ d
 added	æ ɾ ə d
@@ -183,10 +178,9 @@ administrative	ə d m ɪ n ɪ s t̠ ɹ̠̊ ˔ʷ ə tʰ ɪ v
 aeroplane	ɛ ə̯ ɹ ə p l e ɪ̯ n
 aerose	i ɹ ə ʊ z
 agglutinin	ə ɡ l uː ʔ n̩ ɪ n
-ah	ä ˨
+agh	æː x
 aight	a ɪ̯ ʔ
 aight	ə ɪ̯ ʔ
-alacrity	ə l æ k ɹ ɨ t i
 alban	a l b n̩
 albicant	a l b ɪ k n̩ t
 album	a ɫ b̚ m̩
@@ -203,7 +197,7 @@ alpha	æ ɫ f ə
 alternately	ɔː l t ɜ ɹ n ə t l ɪ
 am	a m
 am	æ m
-amatory	æ m ə t ɔ ɚ̯ i
+amatory	æ m ə t ɔ ɹ i
 amatory	ɑː m ə t ə ɹ ɪ
 amazing	ə m e ɪ̯ z ɪ ŋ
 amphibious	æ m f ɪ b i ə s
@@ -211,22 +205,21 @@ an	ɛ ə n
 analects	æ n ə l ɛ k t s
 analytical	æ n ə l ɪ t ɪ k ɫ̩
 angsts	e ɪ ŋ k s t s
-anthropomorphic	æ̃ n̪ θ ɹ̠ ə pʰ ə m ɔ ɹ̠ f ɪ̈ k
 aphorism	æ f ə ɹ ɪ z m̩
 apple	æ p ɫ̩
 appled	æ p ɫ̩ d
+approachable	ə p ɹ ə ʊ t͡ʃ ə b l̩
 approximation	ə p ɹ ɒ k s ɪ m e ɪ ʃ n̩
 arbitration	ɑː b ə t̠͡ɹ̠ e ɪ ʃ n̩
-arborvitae	ɑ ɹ b ɚ v a ɪ ɾ i
-arborvitae	ɑ ɹ b ɚ v ə ɪ ɾ i
 argh	ɑ ɣː
 argh	ɑ ɹ ɣ
 article	ɑː tʰ ɪ kʰ ə ɫ
 artificial	ɑː r t ɪ f ɪ ʃ l
-atend	ə tʰ ɛ n d
+asked	ɑː s k̚ t
 atom	æ ɾ m̩
 atom	æ ɾ ə m
 attend	ə tʰ ɛ n d
+attestable	ə t ɛ s t ə b ɫ̩
 attic	æ ɾ ɪ k
 attraction	ə t ɹ æ k ʃ ɪ̈ n
 attraction	ə t͡ʃ ɹ æ k ʃ ɪ̈ n
@@ -234,6 +227,7 @@ aula	ɔː l a
 aunt	a n t
 aunt	aː n t
 aunt	e ə n t
+aunt	ä n t
 aunt	äː n t
 aunt	æ n t
 aunt	ɐː n t
@@ -241,11 +235,12 @@ aunt	ɑː n t
 aunt	ɒː n t
 aunt	ɛ ə n t
 availability	ə v e ɪ l ə b ɪ l ɪ t ɪ
-aw	ɔ̃ː ~ ɒ̃ː
 awara	æ w ɑː ɹ ʌ
 awara	ɒ w ʌ ɹ ʌ
 aye	æ e̯
 ayuh	ˀe ɪ ʌˀ
+b'y	b ɤ i̯
+b'y	b ʌ i̯
 baa	b æ̰ˀ æ̰ˀ æ̰ˀ æ̰ˀ
 baa	b æ̰ː
 baa	b ɑː
@@ -256,8 +251,6 @@ backspin	b æ k s p ɪ n
 bacterial	b æ k t ɪ ə ɹ i ə ɫ
 bagel	b e ɪ ɡ ɫ̩
 bagful	b æ ɡ f ʊ ɫ
-bail	b e ə̯ ɫ
-bail	b e ɪ̯ ə ɫ
 bald	b ɒ ʊ l d
 bald	b ɔː ɫ d
 baldric	b ɔː ɫ d ɹ ɪ k
@@ -267,13 +260,7 @@ banana	b ə n ɑː n ɐ
 bank	b e ɪ ŋ k
 baptize	b a p t a j z
 baptize	b æ p t a j z
-barn	b a ɾ n
-barn	b aː n
-barn	b ɐː n
-barn	b ɑ ɹ n
-barn	b ɑ ɻ n
 barn	b ɑː n
-barn	b ɒ ə n
 barrel	b æ ɹ ə ɫ
 basal	b e ɪ s ə ɫ
 bashful	b æ ʃ f ə ɫ
@@ -305,7 +292,9 @@ better	b e ʔ ə
 better	b ɛ tʰ ə
 betther	b ɛ t̪ ɚ
 betting	b ɛ ɾ ɪ ŋ
+bill	b ɪ o̯
 bill	b ɪ ɫ
+bill	b ɪ ʊ̯
 bitey	b a ɪ̯ ɾ i
 bitter	b ɪ tʰ ə
 bitter	b ɪ ʔ ə
@@ -320,6 +309,7 @@ blurple	b l əː p l̩
 bockety	b ɑ k ə t iː
 bold	b ɒ ʊ ɫ d
 boldly	b ɒ ʊ l d l i
+bolster	b ɒ ʊ l s t ə
 bolt	b ɔ ʊ ɫ t
 bookcase	b ʊ ʔ k̚ k e ɪ s
 boot	b uː t
@@ -339,7 +329,6 @@ bramble	b ɹ ɛ ə m b l̩
 bramble	b ɹ ɛ ə m b ə l
 break	b ɹʷ e ɪ̯ k
 brew	b ɹ ʉ w
-brr	ʙ̩ː
 buccopalatal	b ʌ kʰ o ʊː pʰ æː l ə ɾ ɫ̩
 buffer	b ɐ f ə ɹ
 bumboclaat	b ʌ m b ə k l ɑ t
@@ -371,10 +360,18 @@ can	kʰ a n
 can	kʰ n̩
 can	kʰ æ n
 can	kʰ ə n
-can't	kʰ ɑ̃ː n t
+can't	k aː n t
+can't	k aː ɳ ʈ
+can't	k äː n t
+can't	k æ n t ~ k ɛ ə n t ~ k e ə n t
+can't	k ɐː n t
+can't	k ɑ n t
+can't	k ɑː n t
+can't	kʰ ẽ ɪ̃ n t
+can't	kʰ ẽ ɪ̃ n ʔ
+canonical	k ə n ɒ n ɪ k l̩
 cap	kʰ æ p
-captain	k æ p m̩
-captain	k æ p n̩
+capital	kʰ æ p ɪ ɾ ɫ̩
 caramba	k a ɹ a m b a
 card	kʰ ɑː d
 carload	kʰ ɑː l ə ʊ d
@@ -395,8 +392,6 @@ causality	kʰ oː z̥ æ l ɪ t ɪ
 causation	kʰ oː z̥ e ɪ ʃ ə n
 cause	kʰ oː z̥
 caused	kʰ oː z̥ d
-cauterize	kʰ ɑ ɾ ə ɹ a ɪ z
-cauterize	kʰ ɔ ɾ ə ɹ a ɪ z
 ceili	k e ɪ l i
 ceramah	t͡ʃ ə r a m ʌ
 chai	χ a i̯
@@ -423,7 +418,6 @@ check	t͡ʃ ɛ k̚
 child	t͡ʃ a ɪ̯ ɫ d
 child	t͡ʃ a ɪ̯ ɫ̩ d
 children	t ʃ ɪ l ɹ ə n
-children	t͡ʃ ɪ l d̠ ɹ̠ ̝ʷ ə n
 choo	t ʃ uː
 chorea	kʰ ɵ ɹ iː ə
 cicada	s ɪ kʰ e ɪ̯ d ə
@@ -458,12 +452,8 @@ cold	kʰ ɔ ʊ ɫ d
 collaboration	kʰ ə l æ b ə ɹ e ɪ̯ ʃ ə n
 colonelcy	kʰ əː n l̩ s i
 colt	k ɔ ʊ l t
-come	k m
-come	k m̩
-come	k ə m
 come	kʰ ɐ m
 comfortable	kʰ ɐ ɱ f t ɘ b ɫ̩
-comfortable	kʰ ʌ ɱ f t ə̥ b ɫ̩
 comfy	kʰ ʌ m p f i
 comfy	kʰ ʌ ɱ f i
 comment	kʰ ɒ m ɛ n t
@@ -478,46 +468,37 @@ comptroller	k ə m p t ɹ o ʊ l ə ɹ
 comptroller	k ə m t ɹ o ʊ l ə ɹ
 concede	k ə n s ɪ i d
 concoct	kʰ ə ŋ kʰ ɒ k t
-confident	kʰ ɒ ɱ f ə d n̩ t
+confident	kʰ ɔ ɱ f ɪ d ə n t
 confirmation	kʰ ɒ ɱ f ə m e ɪ ʃ n̩
 conservancy	k ə n s ɜː v ə n s ɪ
 constellation	k ɒ n s t ə l e ɪ ʃ n̩
 contestant	k ə n tʰ ɛ s t ə n t
 contestation	k ɒ n t ɛ s t e ɪ ʃ n̩
-contribute	k ə n t ɹ ɪ b j ə ɾ
 conversation	kʰ ɒ ɱ v ə s e ɪ ʃ n̩
 convert	kʰ ɒ ɱ v ə t
 convert	kʰ ə̥ ɱ v ɜː t
 coolly	k uʷ ɫ l i
 coolly	k ʉː l i
-cot	K ɒ ʔ
-cot	K ɔ t
-cot	K ɔ ʔ
-cot	kʰ ɒ ʔ t
-cot	kʰ ɔ t
-cot	kʰ ɔ ʔ
 cougar	kʰ uː ɡ ə
 coulda	kʰ ʊ d ə
 couldn't	k ʊ n ʔ
 countable	kʰ ã ʊ̯̃ n ɾ ə b ɫ̩
 country	kʰ ʌ n t̠ ɹ̠̊ ˔ʷ i
 craytur	k ɹ eː t̪ ə ɹ
-creation	k ɹ iːʲ e ɪ ʃ ɘ n
+creation	k ɹ iʲ e ɪ ʃ ɘ n
 creep	kʰ ɹ iː p
 crew	k ɹ u ʊ̯
 crisscross	k ɹ ɪ s k ɹ ɒ s
 crisscross	k ɹ ɪ s k ɹ ɔ s
 cryptography	k ɹ̥ ɪ p tʰ ɒ ɡ ɹ ə f iː
-cuddleologist	k ʌ d ə l ɒ l ə d͡ʒ ɪ s t
-cue	c j̊ uː
-cue	k j̊ ʉː
-culprit	kʰ ʌ ɫ p ɹ̥ ɪ t
 cult	kʰ ʌ l t
 cunt	kʰ ʌ̃ n t
+curl	kʰ əː ɫ
 cursor	kʰ ɜː s ə
 curve	kʰ ɜː v
 cycle	s a ɪ k l̩
 cymbal	s ɪ m b ɫ̩
+dabble	d æ b l̩
 dance	d ɑː n s
 dandle	d æ n d ə ɫ
 dangleberry	d æ ŋ ɡ ə ɫ b ɛ ɹ i
@@ -552,7 +533,7 @@ decahedral	d ɛ k ə h iː d ɹ ə ɫ
 decalcification	d iː k æ ɫ s ɪ f ɪ k e ɪ ʃ ə n
 decalcifier	d iː k æ ɫ s ɪ f a ɪ ə ɹ
 decalcify	d iː k æ ɫ s ɪ f a ɪ
-decalcifying	d iː k æ ɫ s ɪ f a ɪ j ɪ ŋ ɡ
+decalcifying	d iː k æ l s ɪ f a ɪ ɪ ŋ ɡ
 decalcomania	d iː k æ ɫ k ə m e ɪ n ɪ ə
 decanormal	d ɛ k ə n ɔː m ə ɫ
 decaprenyl	d ɛ k ə p ɹ iː n a ɪ ɫ
@@ -688,6 +669,7 @@ dissemble	d ɪ s ɛ m b ɫ̩
 dittander	d ɪ t æ n d ə
 divinyl	d a ɪ v a ɪ n ɪ ɫ
 divisible	d ɪ v ɪ z ɪ b ə ɫ
+doesn't	d ʌ z n̩ t
 dojo	d ə ʊ̯ d͡ʒ ə ʊ̯
 dolphin	d ɒ l̥ f ɪ n
 don't	d ə ʊ̯ n t̚
@@ -697,7 +679,8 @@ dope	d ə ʊ p
 dower	d a ʊ ə ɹ
 drag	d͡ɹ̝ ˗ʷ æˑ ɡ
 dragging	d͡ʒ ɹ æ ɡ ɪ ŋ
-drain	d͡ʒ ɹ e ɪ n
+drain	d ɹ e̞ ɪ̯ n
+drain	d̥ ɹ ẽː n
 dream	d̠͡ɹ̠ ˔ʷ ɪ i̯ m
 dream	d͡ʒ ɹ iː m
 dreaming	d͡ʒ ɹ iː m ɪ ŋ
@@ -705,7 +688,6 @@ dreams	d͡ʒ ɹ iː m z
 dried	d͡ʒ ɹ a ɪ d
 drill	d ɹ ɪ ɫ
 drink	d̠ ɹ̠ ˔ʷ ɪ ŋ k
-drive	d̠ ɹ̠ ̝ʷ a ɪ v
 drive	d͡ʒ ɹ a ɪ v
 drown	d̠͡ɹ̠ ˔ʷ a ʊ n
 drug	d̠͡ɹ̠ ˔ʷ ʌ ɡ
@@ -717,18 +699,13 @@ dry	d͡ʒ ɹ a ɪ̯
 drying	d͡ʒ ɹ a ɪ ɪ ŋ
 dually	d ʒ uː ə l i
 dump	d ɐ m̥ p
-eaten	i ʔ n̩
 eaten	iː t n̩
+eaten	iː ʔ n̩
 edible	ɛ d ɪ b ɫ̩
 edition	ɪ d ɪ ʃ n̩
-editor	ɛˑ ɾ ɪ t ɚ
-editor	ɛˑ ɾ ɪ ɾ ɚ
-eh	e ɪ ˧˨
-eh	e ɪ ˩˦
-eh	e ˦˧
-eh	e ˧
 eh	ɛː
 el	ɛ ɫ
+embattle	ə m b æ ɾ ə l
 emphasis	e ɱ f ə s ə s
 emphasis	e ɱ f ə s ɪ s
 emphasis	ɛ ɱ f ə s ə s
@@ -737,6 +714,7 @@ emphasize	ɛ ɱ f ə s a ɪ z
 enabled	ɛ n e ɪ b ə ɫ d
 encephalic	ɛ n s ə f æ l ɪ k̚
 encouragement	ɪ n k ʌ ɹ ɪ d͡ʒ m ə n t
+enrichment	ɪ n ɹ ɪ t͡ʃ m n̩ t
 ensign	ɛ n s n̩
 ensnarl	ɛ n s n ɑ ɚ̯ ɫ
 ensnarl	ɛ n s n ɑː ɫ
@@ -747,6 +725,7 @@ epitomic	e p iː t ɔ m ɪ k
 epitomic	ɛ p ɪ t ɑ m ɪ k
 epitomic	ɛ p ɪ t ɒ m ɪ k
 era	ɪ ə̯ ɹ ə
+errable	ɛ r ə b ɫ̩
 essential	ə s ɛ n t ʃ ə l
 eugh	ə x
 eugh	ɜː
@@ -792,6 +771,7 @@ firstborn	f ɜː s t b ɔː n
 firstborn	f ɝ s t b ɔ ɚ̯ n
 fitra	f ɪ t ɾ a
 fitra	f ɪ tˤ ɾ a
+flag	f ɫ æ ɡ
 flaithiúlach	f l æ h uː l ə x
 flizz	f l ɪ z
 flouted	f l a ʊ̯ ɾ ɨ d
@@ -802,7 +782,9 @@ fold	f ɔ ʊ ɫ d
 fondling	f ɒ n d ɫ̩ ɪ ŋ
 foot	f ɤ t
 foot	f ɤ̈ t̚
+foot	f ɯ̽ t̚
 foot	f ɵ ʔ t
+foot	f ʉ t
 foot	f ʉ̞ ʔ t
 foot	f ʊ t
 foot	f ʊ tʰ
@@ -849,14 +831,13 @@ goal	ɡ ɒ ʊ ɫ
 gold	ɡ ɒ ʊ ɫ d
 gold	ɡ ɔ ʊ ɫ d
 golden	ɡ ɒ ʊ̯ ɫ d n̩
-gon	ɡ õ ʊ
 gonna	ɡ o ʊ ɪ n ə
-gonna	ɡ o ʊ ɪ ŋ t ə
 gotta	ɡ ɒ ʔ ə
 gowk	ɡ æ ʊ̯ˀ k
 gramophone	ɡ ɹ æ m ə f ə ʊ n
 grass	ɡ ɹ̠ a s
 grass	ɡ ɹ̠ e ə s
+grass	ɡ ɹ̠ ä s
 grass	ɡ ɹ̠ äː s
 grass	ɡ ɹ̠ æ s
 grass	ɡ ɹ̠ ɐː s
@@ -884,16 +865,17 @@ hat	h a t
 health	h ɛ l̪ θ
 heighten	h a ɪ̯ t n̩
 heighten	h a ɪ̯ ʔ n̩
-herepath	h ɛ ɹ ə pʰ ɑː θ
 hero	h ɪ ə ɹ ə ʊ ~ ç ɪ ə ɹ ə ʊ
 hexadecile	h ɛ k s ə d iː s a ɪ ɫ
+hi	h a ɪ̯
 hibernate	h ɑ ɪ b ə n ɛ ɪ t
 hibernation	h a ɪ b əː n e ɪ ʃ n̩
 high	h a ɪ̯
+hill	h ɪ o̯
 hill	h ɪ ɫ
+hill	h ɪ ʊ̯
 hiller	h ɪ l ə ɹ
 him	ɪ̈ m
-hinoki	h i n o k i
 hitherto	h ɪ ð ə tʰ uː
 hmm	m̥ m̩ ˦˨
 hmmm	m̥ m̩ː ˦˨
@@ -912,8 +894,6 @@ homophobe	h ɒ m ə f ə ʊ b
 homophobe	h ə ʊ m ə f ə ʊ b
 hood	h ɪ̈ d
 hood	h ʊ̈ d
-hoose	h ʉ s ~ h ʏ s
-hor	h ɔˑ ˨
 hordesman	h ɔː d z m n̩
 housemother	h a ʊ s m ɐ ð ə ɹ
 hubris	ç j u̟ː b ɹ̠ʷ ɪ s
@@ -942,6 +922,7 @@ háček	h ɑ ə t͡ʃ ɛ k
 háček	h ɑː t͡ʃ ɛ k
 háček	ɦ ɑː t͡ʃ ɛ k
 iced	a ɪ̯ s t
+idol	a ɪ d l̩
 imperialism	ɪ m p ɪ ə ɹ i ə l ɪ z m̩
 important	ɪ m pʰ ɔː t ə n t̚
 important	ɪ m pʰ ɔː ʔ n̩ ʔ
@@ -965,40 +946,34 @@ intentional	ɪ n tʰ ɛ n ʃ n̩ ɫ̩
 international	ɪ n t ə n æ ʃ ə n ə ɫ
 interpretable	ɪ n t ɜː p ɹ ɪ t ə b l̩
 investigate	ɪ n v ɛ s t ɪ ɡ e ɪ̯ t
+isn't	ɪ z n̩ t
 it	ɪ t
 it	ɪ̈ t
 iteration	ɪ t ə ɹ e ɪ ʃ n̩
 ith	a ɪ̯ θ
-jar	d͡ʒ aː ɹ
 jar	d͡ʒ ɑː ɹ
 jarring	d͡ʒ aː r ɪ ŋ
 jarring	d͡ʒ ɑː r ɪ ŋ
 joged	d͡ʒ o ɡ ə d
 joget	d͡ʒ o ɡ ɛ t
+jokingly	d ʒ ə ʊ k ɪ ŋ l ɪ
 judgemental	d͡ʒ ʌ d͡ʒ m ɛ n t l̩
 jump	d͡ʒ ɐ m̥ p
-jury	d͡ʒ ʊ ə ɹ̠ i
 kamp	kʰ e ə m p
 kamp	kʰ ɛ ə m p
 kana	kʰ ɑː n ə
-karaoke	e ɪ
-karaoke	e̞
-karaoke	iː
-karaoke	æ
-karaoke	ɑː
-karaoke	ɛ
 karma	k ɑː m ə
 keep	kʰ i p̚
 keloid	k iː l ɔ ɪ d
 kept	kʰ ɛ p t̚
 kettle	kʰ ɛ tᵊ ɫ̩
-key	cʰ i̞ i̯
-key	kʲʰ i̞ i̯
 kiasu	k j ã ˨ s u
 kick	kʰ ɪ k
 kiddie	kʰ ɘ ɾ iː
 kiddie	kʰ ɪ ɾ i
+kill	kʰ ɪ o̯
 kill	kʰ ɪ ɫ
+kill	kʰ ɪ ʊ̯
 killer	kʰ ɪ l ə ɹ
 kiss	kʰ ɪ s
 kissper	kʰ ɪ s p ə
@@ -1021,12 +996,12 @@ lastborn	l ɑː s t b ɔː n
 learner	l ɝ n ɚ
 leaven	l ɛ v n̩
 leeway	l iː w e ɪ
-leh	l ɛ ˦
 lesson	l ɛ s n̩
 li'l	l ɪ ɫ
 li'l	l ɪ ɫ̩
 liable	l a ɪ̯ ə b ə ɫ
 liable	l a ɪ̯ ə b ɫ̩
+liably	l a ɪ̯ ə b l i
 libre	l i b ʁ
 licensed	l a ɪ s n̩ s t
 lighten	l a ɪ t n̩
@@ -1034,23 +1009,18 @@ lighten	l a ɪ ʔ n̩
 listen	l ɪ s n̩
 little	l ɪ tʰ ɫ̩
 loofball	l ʊ ʔ f̚ b ɔː l
-love	l ɘ v
-love	l ɘ ʋ
-love	l ʌ v
-love	ɫ ä v ~ ɫ ɐ v
-love	ɫ ʌ v
 luck	l ɐ k
 lulls	l ɐ ɫ z
 lulls	ɫ ʌ ɫ z
 lunch	l ʌ̃ n t͡ʃ
-maa	m æ̰ː ~ m æˀ æˀ æ
+lymph	l ɪ m p f
 madder	m a d ə ɹ
 madhhab	m æ ð h æ b
 mailed	m e ɪ ɫ d
 maintenance	m ẽ ɪ̃ n ʔ ə n ə n s
 make	m e ɪ kʲ
-mald	m oː ɫ d
 mald	m ɒ ʊ ɫ d
+mald	m ɔː ɫ d
 malleable	m a ɫ i ə b ə ɫ
 malleable	m æ ɫ i ə b ɫ̩
 malleable	m ɛ ɫ i ə b ɫ̩
@@ -1058,9 +1028,9 @@ mamaliga	m ə m ə l i ɡ ə
 man	m e ə n
 man	m ɛ ə n
 man	m ẽ ə̃ n
-manis	m a n i s
 mawky	m ɔː k i
 maybe	m e ɪ̯ b i
+meaningful	m iː n ɪ ŋ f l̩
 mechanism	m ɛ k ə n ɪ z m̩
 medal	m e ɾ ɫ̩
 medal	m ɛ d ɫ̩
@@ -1082,18 +1052,17 @@ midst	m ɪ t s t
 mightn't	m a ɪ ʔ n̩ ʔ
 mile	m a ɪ̯ ɫ
 milkshake	m ɪ ɫ k ʃ e ɪ k
+mill	m ɪ o̯
 mill	m ɪ ɫ
+mill	m ɪ ʊ̯
 million	m ɪ ʎ ə n
 mindful	m ʌ ɪ n d f l̩
 misperception	m ɪ s p ə s ɛ p ʃ n̩
-misshapen	m ɪ ʃ ʃ e ɪ p ə n
-mission	m ɪ ʃ n̩
 mister	m ɪ s t ə ɹ
 mmm	m̩ː
 molasses	m ə l æ s ɪ z
 money	m ɐ n i
 morning	m oː n ɪ ŋ
-mother	m ɐ ð ə ɹ
 motlopi	m ə ʊ t̚ l ə ʊ p i
 mount	m a ʊ n t
 mount	m a ʊ n ʔ
@@ -1117,6 +1086,8 @@ nah	n ẽː
 nail	n e ɪ̯ ɫ
 nares	n ɛ ə ɹ i z
 narration	n ə ɹ e ɪ ʃ n̩
+nature	n a e̯ t ʃ ɐ
+nature	n æ e̯ t ʃ ɐ
 nautical	n ɔː t ɪ k l̩
 need	n ɪ i̯ d
 nextborn	n ɛ k s t b ɔ ɚ̯ n
@@ -1125,12 +1096,12 @@ niggard	n ɪ ɡ ə d
 niggered	n ɪ ɡ ə d
 nighttime	n a ɪ ʔ t a ɪ m
 nine	n a ɪ̯ n
+nitrogen	n ɐ ɪ tʰ ɹ ə d͡ʒ ə n
 nizz	n ɪ z
 nominal	n ɒ m ɪ n l̩
 nonalphanumeric	n ɑ n æ l f ə n u m ɛ ɚ̯ ɪ k
 nonalphanumeric	n ɒ n æ l f ə n j uː m ɛ ɹ ɪ k
-nonna	n ɔ nː ɐ
-nonna	n ɔ nː ə
+noodle	n uː d l̩
 nope	n o ʊ p̚
 normalization	n ɔː m ə l a ɪ z e ɪ ʃ n̩
 normalization	n ɔː m ə l ə z e ɪ ʃ n̩
@@ -1146,9 +1117,8 @@ numeration	n j uː m ə ɹ e ɪ ʃ ə n
 numeration	n u m ɚ e ɪ ʃ ə n
 numerical	n j u m ɛ ɹ ɪ k l̩
 nut	n ɐ t
+nuttin	n ʌ ʕ ɪ̃ n
 nymphid	n ɪ m f ɪ d
-o'th'	ə ʔ
-o'th'	əˑ
 obnubilation	ɒ b n j uː b ɪ l e ɪ ʃ n̩
 observable	ə b z ɜː v ə b ɫ̩
 octagram	ɑ k t ə ɡ ɹ æ m
@@ -1164,8 +1134,8 @@ oni	o ʊ n iː
 oop	ɤ p
 ope	o ʊ p̚
 oplan	ɒ pʰ l̥ æ n
+orange	ɒ ɹ ɪ n d͡ʒ
 otaku	ə ʊ̯ tʰ ɑː kʰ uː
-other	ɐ ð ə
 our	ɑ ɹ
 our	ɑ ˞
 outta	a ʊ t ə
@@ -1176,11 +1146,11 @@ outta	æː ɾ ə
 outta	ʌ ʊ ɾ ə
 ovated	ə ʊ̯ v e ɪ̯ t ɪ d
 ovation	ə ʊ v e ɪ ʃ n̩
+oversea	ə ʊ̯ v ə s iː
+oversee	ə ʊ̯ v ə s iː
 pack	pʰ æ k
 package	pʰ a k ɛ d͡ʒ
 paddle	pʰ æ ɾ ɫ̩
-pah	pʼ a
-pah	pʼ aʰ
 pail	pʰ e ə ɫ
 pail	pʰ e ɪ̯ ɫ
 pale	pʰ e ə ɫ
@@ -1255,13 +1225,17 @@ pit	pʰ ɪ ʔ t
 pitcher	p ɪ ʔ t͡ʃ ə
 pittance	pʰ ɪ ʔ n̩ s
 pizza	pʰ i t s ə
+pizzadilla	pʰ i t s ə d i j ə
+pizzadilla	pʰ i t s ə d iː l j ə
+pizzarito	pʰ i t s ə r iː t ə ʊ
+pizzarito	pʰ i t s ə ɹ iː t ə ʊ
 place	p l̥ e ɪ s
 plack	pʰ l̥ a k
 plack	pʰ l̥ æ k
 plague	pʰ l̥ e ɪ ɡ
 plain	p l̥ e ɪ n
-plan	pʰ l̥ æ n
 plant	pʰ l̥ ɑː n t
+plastic	pʰ l a s t ɪ k
 plate	pʰ l̥ e ɪ t
 play	pʰ l̥ e ɪ̯
 poem	pʰ ə ʊ̯ ɪ m
@@ -1295,10 +1269,12 @@ principles	p ɹ ɪ n s ɪ p l̩ z
 prism	pʰ ɹ̠̊ ɪ z m̩
 prison	pʰ ɹ̠̊ ɪ z n̩
 processors	p ɹ ə ʊ s ɛ s ə z
+pronto	pʰ ɹ ɒ n tʰ ə ʊ̯
 pronunciation	pʰ ɹ ə n ʌ n s i e ɪ ʃ ə n
 propaganda	p ɹ ɑ p ə ɡ ɛ ə̯ n d ə
 propaganda	p ɹ ɒ p ə ɡ æ n d ə
 propaganda	p ɹ ɔ p ə ɡ a n d ə
+prudential	p ɹ uː d ɛ n ʃ l̩
 ptui	p͡tʼʰ
 ptui	p͡tʼʰ ə̥
 pulchritude	pʰ ʌ ɫ k ɹ ə t j uː d
@@ -1313,14 +1289,13 @@ putt	pʰ ɐ t
 putting	pʰ ʊ t ɪ ŋ
 putting	pʰ ʊ ɾ ɪ ŋ
 putting	pʰ ʌ t ɪ ŋ
-qibla	q i b l a
 quaint	kʰ w e ɪ̯ n t
 queen	kʰ w̥ iː n
 quesadilla	kʰ e ɪ̯ s ə d iː l j ə
 quesarito	kʰ e ɪ̯ s ə r iː t ə ʊ
 quesarito	kʰ e ɪ̯ s ə ɹ iː t ə ʊ
 quick	kʰ w̥ ɪ k
-quid	kʰ w̥ ɪ d
+quid	kʰ w̥ ɪ d̥
 quiescent	k w a ɪ̯ ɛ s n̩ t
 quiescent	k w i ɛ s n̩ t
 quiff	kʰ w̥ ɪ f
@@ -1346,9 +1321,11 @@ reasoned	ɹ iː z n̩ d
 reconnoiter	ɹʷ ɛ k ə n ɔ ɪ̯ tʰ ə
 reconnoitre	ɹʷ ɛ k ə n ɔ ɪ̯ tʰ ə
 red	ɻʷ ɛˑ d̥
+refill	ɹʷ ɪ i̯ f ɪ ɫ
 region	ɹ iː d͡ʒ n̩
 rehabilitation	ɹ iː ə b ɪ l ɪ t e ɪ ʃ n̩
 rehearse	ɹ ɪ h ɜː s
+relatable	ɹ ɪ l e ɪ t ə b l̩
 relationship	ɹ ɪ l e ɪ ʃ n̩ ʃ ɪ p
 relative	ɹ ɛ l ə tʰ ɪ v
 relative	ɹ ɛ l ə ɾ ɪ v
@@ -1364,9 +1341,6 @@ revision	ɹ ɪ v ɪ ʒ n̩
 reëvoke	ɹ iː ʔ i v ə ʊ k
 rhotic	ɹ ə ʊ̯ tʰ ɪ k
 rhythm	ɹ ɪ ð m̩
-ridden	ɹʷ ɪ d n̩
-ridden	ɹʷ ɪ d̚ n̩
-ridden	ɹʷ ɪ ɾ n̩
 rider	ɹ̠ a ɪ d ə
 right	ɹ a ɪ t
 rocks	ɹʷ ɑ k s
@@ -1375,9 +1349,7 @@ rocky	ɹʷ ɒ k i
 role	ɹʷ ɒ ʊ ɫ
 roll	ɹ̠ʷ ɒ ʊ ɫ
 rose	ɹ̠ʷ ə ʊ z̥
-rub	ɹ ɐ b
 rubbed	ɹ ʌˑ b̚ d̥
-rubber	ɹ ɐ b ə ɹ
 rubbers	ɹ ɐ b ə z
 ruin	ɹ u w ɪ n
 ruler	ɹ ʉ w l ə
@@ -1413,6 +1385,7 @@ sentence	s ɛ n t n̩ t s
 sentence	s ɛ n ʔ n̩ t s
 shawty	ʃ ɔː ɾ i
 shellfish	ʃ ɛ ɫˑ f ɪ ʃ
+shoddy	ʃ ɔ ɾ i
 shouldn't	ʃ ʊ n ʔ
 shuyookh	ʃ u j uː x
 shuyookh	ʃ ʊ j uː x
@@ -1420,15 +1393,17 @@ sibyl	s ɪ b ɫ̩
 sigmatism	s ɪ ɡ m ʌ t ɪ z m
 simple	s ɪ m p l̩
 sixth	s ɪ k s t̪
-sixth	s ɪ k s θ
+sixth	s ɪ k θ
 skeletal	s k ə l iː t l̩
 skeletal	s k ɛ l ɪ t l̩
 sket	s k ɛ t
 sket	s k ɛ ʔ
 sketty	s k ɛ t i
 sketty	s k ɛ ʔ i
+skill	s k ɪ o̯
+skill	s k ɪ ɫ
+skill	s k ɪ ʊ̯
 skillful	s k ɪ ɫ f ə ɫ
-skrrt	s k ɹ̩ ʔ ˥
 skweee	s k w iː
 slang	s l e ɪ ŋ
 slaten	s l e ɪ t n̩
@@ -1456,6 +1431,9 @@ somnambulistic	s ɒ m n æ m b j ʊ l ɪ s t ɪ k
 sorta	s ɔː t ə
 sotto	s o tː o
 soul	s ɒ ʊ ɫ
+spill	s p ɪ o̯
+spill	s p ɪ ɫ
+spill	s p ɪ ʊ̯
 spose	s p ə ʊ̯ z
 squamation	s k w e ɪ m e ɪ ʃ n̩
 squander	s k w ɒ n d ə
@@ -1463,6 +1441,7 @@ squee	s k w iː
 stability	s t ə b ɪ l ɪ ɾ i
 staff	s t a f
 staff	s t e ə f
+staff	s t ä f
 staff	s t äː f
 staff	s t æ f
 staff	s t ɐː f
@@ -1475,11 +1454,12 @@ steel	s t iː ɫ
 steven	s t e ɪ̯ v n̩
 steven	s t iː v n̩
 steven	s t ɛ v n̩
+still	s t ɪ o̯
 still	s t ɪ ɫ
+still	s t ɪ ʊ̯
 stope	s t o ʊ p
 streets	ʃ t͡ʃ ɹ i t͡s
 strident	s t ɹ a ɪ dˀ n t
-strike	s t iː ɹ̠ ʌ ɪ̯ kʰ
 stripboard	s t ɹ ɪʰ b ɔ ə d
 stripboard	s t ɹ ɪʰ b ɔː d
 strong	s t̠͡ɹ̠ ɒ ŋ
@@ -1511,11 +1491,6 @@ symphony	s ɪ ɱ f ə n i
 syndical	s ɪ n d ɪ k l̩
 syntagms	s ɪ n t æ m z
 systematic	s ɪ s t ə m æ ɾ ɪ k
-t	t
-t	tʰ
-t	t̬
-t	ɾ
-t	ʔ
 t'	t̚
 t'	ʔ
 t'	ː
@@ -1526,9 +1501,12 @@ take	tʰ e ɪ̯ k
 talked	tʰ ɔː k t
 tall	tʰ oː ɫ
 tampon	tʰ æ m p ɒ n
-tank	t ɛ ə ŋ k
+tank	tʰ e ɪ ŋ k
 tap	tʰ æ p
 tape	tʰ e ɪ̯ p
+tattoo	tʰ a tʰ uː
+tattoo	tʰ æ tʰ uː
+tattoo	tʰ æ ɾ uː
 tea	tʰ iː
 teal	t iː ɫ
 teared	t i ɚ̯ d
@@ -1536,6 +1514,7 @@ teared	t ɛ ɚ̯ d
 teared	t ɛː d
 teared	t ɪː d
 tech	tʰ ɛ k
+technical	t ɛ k n ɪ k l̩
 technological	t ɛ k n ə l ɒ d͡ʒ ɪ k l̩
 tej	t ɛ d͡ʒ
 tell	tʰ ɛ l
@@ -1546,13 +1525,11 @@ tenth	tʰ ɛ n̪ θ
 terabyte	tʰ ɛ ɹ ə b a ɪ̯ t
 test	tʰ ɛ s t
 testable	tʰ ɛ s t ə b l̩
-than	ð n̩
-them	d̪ ɛ m
-them	d̪ ʌ m
+tests	tʰ ɛ s t̚ s
+theoretical	θ ɪ ə̯ ɹ ɛ t ɪ k l̩
 theosophy	θ ɪ ɒ s ə f ɪ
 thickalicious	θ ɪ k ə l ɪ ʃ ə s
 thickie	θ ɪ k i
-thin	θ ɪ n
 think	f ɪ ŋ k
 think	θ æ ŋ k
 think	θ ɪ ŋ k
@@ -1568,7 +1545,6 @@ thrill	θ ɹ̥ ɪ ɫ
 thrill	θ ɾ̪̊ ɪ l
 thrill	θ ɾ̪̊ ɪ ɫ
 throne	θ ɹ ə ʊ n
-through	θ ɾ̪̊ ɵ ʉ
 throw	θ ɾ̪̊ ə ʊ
 tidbit	tʰ ɪ d̚ b ɪ t̚
 tighten	tʰ a ɪ̯ t n̩
@@ -1618,10 +1594,9 @@ trig	t̠ʰ ɹ̠̊ ɪ ɡ
 trill	t̠ʰ ɹ̠̊ ɪ l
 trim	t̠ʰ ɹ̠̊ ɪ m
 trinal	t ɹ ʌ ɪ n̩ l
-trip	tʰ ɹ ɪ pʰ
+trip	tʰ ɹ ɪ p
+trivial	t͡ʃ ɹ ɪ v i ə l
 trope	t ɹ̥ ə ʊ p
-truck	t ɹ ʌ k
-truck	t͡ʃ ɹ ʌ k
 true	t̠ ɹ̠̊ ˔ʷ u̠ː
 trust	t ɹ ɐ s t
 trust	t ɹ ʌ s t
@@ -1632,17 +1607,17 @@ try	t̠͡ɹ̠̊ ˔ʷ a ɪ̯
 try	t͡ʃ ɹ a ɪ̯
 tss	t͡sːː
 tucker	tʰ ʌ k ə
-tumult	t ʌ m ʌ l t̰̚
 tut	ǀ
 twain	tʰ w̥ e ɪ n
 twat	tʰ w̥ æ t
-twelfth	tʰ w̥ ɛ l f θ
-twelfth	tʰ w̥ ɛ lʷ f
-twelfth	tʰ w̥ ɛ l̪ θ
+twelfth	tʰ w̥ ɛ ɤ θ
+twelfth	tʰ w̥ ɛ ɫ f θ
+twelfth	tʰ w̥ ɛ ɫʷ f
 twelve	t w̥ ɛ ɫ v
 twentieth	t w̥ ɛ̃ n t i ə θ
 twenty	t w̥ ɛ̃ n t i
 twerk	t w̥ ɜː k
+twerking	t w̥ ɜː k ɪ ŋ
 twice	t w̥ a ɪ s
 twill	t w ɪ ɫ
 twin	t w̥ ɪ n
@@ -1675,9 +1650,6 @@ ugh	ʌ ʀ̊
 ugh	ʌ χ
 ugh	ʌ᷈
 ugh	χ
-uhh	ɐː
-uhh	əː
-uhh	ə̃ː
 unacceptable	ɐ n æ k s ɛ p t ə b ɫ̩
 unacceptable	ɐ n ə k s ɛ p t ə b ɫ̩
 under	ɐ n d ə ɹ
@@ -1685,6 +1657,7 @@ underutilize	ɐ n d ə j uː t ɪ l a ɪ z
 unfair	ɐ n f ɛ ə ɹ
 unfair	ɐ n f ɛː ɹ
 unfeasible	ʌ n f iː z ə b ɫ̩
+ungoogleable	ʌ n ɡ uː ɡ ɫ̩ ə b ɫ̩
 unilateral	j ʉː n ə ɫ æ ɾ ɚ ɻ ɫ̩
 unilateral	j ʉː n ɪ l æ t ə ɹ ɫ̩
 unilateral	j ʉː n ɪ l æ t͡ʃ ɹ ɫ̩
@@ -1696,34 +1669,35 @@ up	ɐ ʔ p
 useful	j uː s f l̩
 usher	ʌ ʃ ə ɹ
 utter	ɐ t ə
+uwu	ʉː w̟ ʉ w
 vajazzle	v ə d͡ʒ æ z l̩
 vale	v e ɪ ɫ
 vegetable	v ɛ d͡ʒ t ə b l̩
 vegetables	v ɛ d͡ʒ t ə b l̩ z
 verbal	v ɜː b ɫ̩
 versatile	v ɜː s ə t a ɪ ɫ
-veto	v iː tʰ o ʊ
-veto	v iː ɾ o ʊ
-vicissitude	v a ɪ s ɪ s ɪ t uː d
-vicissitude	v ɪ s ɪ s ɪ t j uː d
 vicissity	v a ɪ s ɪ s ɨ t i
 vicissity	v ɪ s ɪ s ɨ t i
 victual	v ɪ t ɫ̩
 victuals	v ɪ t ɫ̩ z
 vindical	v ɪ n d ɪ k l̩
+vinyl	v a ɪ n l̩
 virtually	v ɝ t͡ʃ u ə ɫ i
 vision	v ɪ ʒ n̩
 vocab	v ə ʊ k a b
 volitional	v ɒ l ɪ ʃ n̩ l
 volitional	v ɒ l ɪ ʃ n̩ l̩
+waffle	w ɒ f ɫ̩
 wah	w aːː
 wah	w äːː ˦˨
 wah	w æːː
+wah	w æ̃̂ːː
 wail	w e ɪ ɫ
 wain	w eː n
 waistband	w e ɪ s t b æ n d
 waiting	w e ɪ̯ ɾ ɪ ŋ
 wale	w e ɪ ɫ
+walkable	w ɔː k ə b ɫ̩
 wasn't	w ɒ n ʔ
 wasn't	w ɒ z n̩ ʔ
 wealth	w ɛ l̪ θ
@@ -1750,10 +1724,9 @@ width	w ɪ d̪ θ
 wieldy	w ɪ ə l d ɪ
 wild	w a ɪ̯ ɫ d
 wild	w a ɪ̯ ɫ̩ d
+will	w ɪ o̯
 will	w ɪ ɫ
-winter	w ɪ n tʰ ɚ
-winter	w ɪ n ɚ
-winter	w ɪ ɾ̃ ɚ
+will	w ɪ ʊ̯
 work	w œː k
 work	w ɔː k
 work	w ɚ k
@@ -1768,9 +1741,6 @@ wouldn't	w ʊ ʔ n̩ t
 wow	w a ʊ̯
 wrake	ɹ e ɪ̯ kʰ
 writer	ɹ̠ a ɪ t ə
-written	ɹ ɪ ɾ n̩
-written	ɹ ɪ ʔ n̩
-written	ɹ ɪ ʔ t̚ n̩
 yatt	j a t
 yatt	j æ t
 ye	j iː
@@ -1787,4 +1757,3 @@ zayum	z æ̙ j ə m
 ziti	z i ɾ i
 zooplasty	z ə ʊ ə p l æ s t i
 zun	z ʌ n
-zzz	zːːː

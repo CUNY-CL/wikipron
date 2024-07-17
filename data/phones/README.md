@@ -40,4 +40,4 @@ See the [HOWTO](HOWTO.md) for the steps to generate phone lists.
 | [phone](phones/tur_narrow.phones) | tur | Turkish | Turkish | Narrow | 51 |
 | [phone](phones/vie_hanoi_narrow.phones) | vie | Vietnamese | Vietnamese (Hà Nội) | Narrow | 54 |
 | [phone](phones/vie_hue_narrow.phones) | vie | Vietnamese | Vietnamese (Huế) | Narrow | 54 |
-| [phone](phones/vie_saigon_narrow.phones) | vie | Vietnamese | Vietnamese (Saigon) | Narrow | 53 |
+| [phone](phones/vie_saigon_narrow.phones) | vie | Vietnamese | Vietnamese (Saigon) | Narrow | 54 |
