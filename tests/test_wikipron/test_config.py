@@ -217,18 +217,20 @@ def test_spanish_dialect_selection():
     response = html_session.get(
         _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
     )
-    # Construct two configs to demonstrate the Spain and Latin American dialect (non-)selection.
+    # Construct two configs to demonstrate  dialect (non-)selection.
     config_only_spain = config_factory(key="es", dialect="Spain | Castilian")
     config_only_la = config_factory(key="es", dialect="Latin America")
     config_any_dialect = config_factory(key="es")
     # Apply each config's XPath selector.
-    results_only_spain = response.html.xpath(config_only_spain.pron_xpath_selector)
+    results_only_spain = response.html.xpath(
+        config_only_spain.pron_xpath_selector
+    )
     results_only_la = response.html.xpath(config_only_la.pron_xpath_selector)
     results_any_dialect = response.html.xpath(
         config_any_dialect.pron_xpath_selector
     )
     assert (
-        len(results_any_dialect)  # containing both Spain and Latin American results
+        len(results_any_dialect)  # containing both all results
         > len(results_only_spain)  # containing only the Spain result
         == len(results_only_la)  # containing only the LA result
         > 0
