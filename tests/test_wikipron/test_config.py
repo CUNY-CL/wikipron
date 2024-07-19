@@ -154,6 +154,7 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '  span[@class = "IPA"]\n'
                 "  and\n"
                 '  (span[contains(@class, "ib-content")]//a[text() = "US"]\n'  # noqa: E501
+                '   or span[contains(@class, "ib-content") and (text() = "US")]\n'  # noqa: E501
                 '   or count(span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -171,6 +172,7 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '  span[@class = "IPA"]\n'
                 "  and\n"
                 '  (span[contains(@class, "ib-content")]//a[text() = "General American" or text() = "US"]\n'  # noqa: E501
+                '   or span[contains(@class, "ib-content") and (text() = "General American" or text() = "US")]\n'  # noqa: E501
                 '   or count(span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -202,6 +204,33 @@ def test_american_english_dialect_selection():
     assert (
         len(results_any_dialect)  # containing both US and non-US results
         > len(results_only_us)  # containing only the US result
+        > 0
+    )
+
+
+@pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
+def test_spanish_dialect_selection():
+    # Pick a word for which Wiktionary has dialect-specified pronunciations
+    # for both Castilian and Latin American Spanish.
+    word = "códice"
+    html_session = requests_html.HTMLSession()
+    response = html_session.get(
+        _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
+    )
+    # Construct two configs to demonstrate the Spain and Latin American dialect (non-)selection.
+    config_only_spain = config_factory(key="es", dialect="Spain | Castilian")
+    config_only_la = config_factory(key="es", dialect="Latin America")
+    config_any_dialect = config_factory(key="es")
+    # Apply each config's XPath selector.
+    results_only_spain = response.html.xpath(config_only_spain.pron_xpath_selector)
+    results_only_la = response.html.xpath(config_only_la.pron_xpath_selector)
+    results_any_dialect = response.html.xpath(
+        config_any_dialect.pron_xpath_selector
+    )
+    assert (
+        len(results_any_dialect)  # containing both Spain and Latin American results
+        > len(results_only_spain)  # containing only the Spain result
+        == len(results_only_la)  # containing only the LA result
         > 0
     )
 

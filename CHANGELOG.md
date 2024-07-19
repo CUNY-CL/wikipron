@@ -10,7 +10,22 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 Unreleased
 ----------
 
-(n/a)
+### Under `data/`
+
+#### Changed
+
+-   Updated Spanish configuration to include "Spain" in Castilian dialect selection. (\#553)
+
+### Under `src/` and elsewhere
+
+#### Changed
+
+-   Updated dialect selector to account for dialects without links. (\#553)
+
+#### Added
+
+-   Added test for Spanish dialect selection. (\#553)
+
 
 [1.3.2] - 2024-07-17
 --------------------
