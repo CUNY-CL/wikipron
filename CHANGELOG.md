@@ -10,6 +10,9 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 Unreleased
 ----------
 
+[1.3.3] - 2024-07-27
+--------------------
+
 ### Under `data/`
 
 #### Changed
