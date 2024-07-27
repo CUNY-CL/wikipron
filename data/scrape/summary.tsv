@@ -397,12 +397,12 @@ slv_latn_narrow.tsv	slv	Slovenian	Slovene	Latin		False	Narrow	131
 sme_latn_broad.tsv	sme	Northern Sami	Northern Sami	Latin		False	Broad	4103
 sms_latn_broad.tsv	sms	Skolt Sami	Skolt Sami	Latin		False	Broad	113
 snd_arab_broad.tsv	snd	Sindhi	Sindhi	Arabic		False	Broad	121
-spa_latn_ca_broad.tsv	spa	Spanish	Spanish	Latin	Castilian	False	Broad	80517
-spa_latn_ca_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Castilian	True	Broad	80498
-spa_latn_ca_narrow.tsv	spa	Spanish	Spanish	Latin	Castilian	False	Narrow	80511
-spa_latn_la_broad.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Broad	80518
-spa_latn_la_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Latin America	True	Broad	80499
-spa_latn_la_narrow.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Narrow	80512
+spa_latn_ca_broad.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	False	Broad	99056
+spa_latn_ca_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	True	Broad	99043
+spa_latn_ca_narrow.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	False	Narrow	99002
+spa_latn_la_broad.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Broad	99051
+spa_latn_la_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Latin America	True	Broad	99038
+spa_latn_la_narrow.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Narrow	98997
 sqi_latn_broad.tsv	sqi	Albanian	Albanian	Latin		False	Broad	1997
 sqi_latn_narrow.tsv	sqi	Albanian	Albanian	Latin		False	Narrow	935
 srd_latn_broad.tsv	srd	Sardinian	Sardinian	Latin		False	Broad	690
