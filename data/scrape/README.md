@@ -5,7 +5,7 @@
   * Broad transcription files: 25
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 3,883,371
+* Pronunciations: 3,957,419
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -18,6 +18,7 @@
 | [TSV](tsv/acw_arab_narrow.tsv) | acw | Hijazi Arabic | Hijazi Arabic | Arabic |  | False | Narrow | 711 |
 | [TSV](tsv/ady_cyrl_narrow.tsv) | ady | Adyghe | Adyghe | Cyrillic |  | False | Narrow | 5,121 |
 | [TSV](tsv/ady_cyrl_narrow_filtered.tsv) | ady | Adyghe | Adyghe | Cyrillic |  | True | Narrow | 4,893 |
+| [TSV](tsv/afb_arab_broad.tsv) | afb | Gulf Arabic | Gulf Arabic | Arabic |  | False | Broad | 719 |
 | [TSV](tsv/afb_arab_broad.tsv) | afb | Gulf Arabic | Gulf Arabic | Arabic |  | False | Broad | 719 |
 | [TSV](tsv/afr_latn_broad.tsv) | afr | Afrikaans | Afrikaans | Latin |  | False | Broad | 2,022 |
 | [TSV](tsv/afr_latn_broad_filtered.tsv) | afr | Afrikaans | Afrikaans | Latin |  | True | Broad | 1,982 |
@@ -409,12 +410,12 @@
 | [TSV](tsv/sme_latn_broad.tsv) | sme | Northern Sami | Northern Sami | Latin |  | False | Broad | 4,103 |
 | [TSV](tsv/sms_latn_broad.tsv) | sms | Skolt Sami | Skolt Sami | Latin |  | False | Broad | 113 |
 | [TSV](tsv/snd_arab_broad.tsv) | snd | Sindhi | Sindhi | Arabic |  | False | Broad | 121 |
-| [TSV](tsv/spa_latn_ca_broad.tsv) | spa | Spanish | Spanish | Latin | Castilian | False | Broad | 80,517 |
-| [TSV](tsv/spa_latn_ca_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Castilian | True | Broad | 80,498 |
-| [TSV](tsv/spa_latn_ca_narrow.tsv) | spa | Spanish | Spanish | Latin | Castilian | False | Narrow | 80,511 |
-| [TSV](tsv/spa_latn_la_broad.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Broad | 80,518 |
-| [TSV](tsv/spa_latn_la_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Latin America | True | Broad | 80,499 |
-| [TSV](tsv/spa_latn_la_narrow.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Narrow | 80,512 |
+| [TSV](tsv/spa_latn_ca_broad.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | False | Broad | 99,056 |
+| [TSV](tsv/spa_latn_ca_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | True | Broad | 99,043 |
+| [TSV](tsv/spa_latn_ca_narrow.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | False | Narrow | 99,002 |
+| [TSV](tsv/spa_latn_la_broad.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Broad | 99,051 |
+| [TSV](tsv/spa_latn_la_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Latin America | True | Broad | 99,038 |
+| [TSV](tsv/spa_latn_la_narrow.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Narrow | 98,997 |
 | [TSV](tsv/sqi_latn_broad.tsv) | sqi | Albanian | Albanian | Latin |  | False | Broad | 1,997 |
 | [TSV](tsv/sqi_latn_narrow.tsv) | sqi | Albanian | Albanian | Latin |  | False | Narrow | 935 |
 | [TSV](tsv/srd_latn_broad.tsv) | srd | Sardinian | Sardinian | Latin |  | False | Broad | 690 |
