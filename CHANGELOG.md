@@ -15,6 +15,7 @@ Unreleased
 #### Changed
 
 -   Updated Spanish configuration to include "Spain" in Castilian dialect selection. (\#553)
+-   Rescrapes Spanish dialect data. (\#553)
 
 ### Under `src/` and elsewhere
 
