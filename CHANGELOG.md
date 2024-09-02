@@ -9,6 +9,16 @@ Versioning](http://semver.org/spec/v2.0.0.html).
 
 Unreleased
 ----------
+[1.3.4] - 2024-09-1
+--------------------
+### Under `data/`
+
+#### Changed
+
+-   Updated English data and made corrections to the pronunciation transcriptions, 
+    removing ɾ, tʰ, y where needed. (\#555)
+-   Rescrapes General American and UK Received Pronunciation data. (\#555)
+
 
 [1.3.3] - 2024-07-27
 --------------------
