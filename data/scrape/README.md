@@ -5,7 +5,7 @@
   * Broad transcription files: 25
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 3,957,419
+* Pronunciations: 3,958,916
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -18,7 +18,6 @@
 | [TSV](tsv/acw_arab_narrow.tsv) | acw | Hijazi Arabic | Hijazi Arabic | Arabic |  | False | Narrow | 711 |
 | [TSV](tsv/ady_cyrl_narrow.tsv) | ady | Adyghe | Adyghe | Cyrillic |  | False | Narrow | 5,121 |
 | [TSV](tsv/ady_cyrl_narrow_filtered.tsv) | ady | Adyghe | Adyghe | Cyrillic |  | True | Narrow | 4,893 |
-| [TSV](tsv/afb_arab_broad.tsv) | afb | Gulf Arabic | Gulf Arabic | Arabic |  | False | Broad | 719 |
 | [TSV](tsv/afb_arab_broad.tsv) | afb | Gulf Arabic | Gulf Arabic | Arabic |  | False | Broad | 719 |
 | [TSV](tsv/afr_latn_broad.tsv) | afr | Afrikaans | Afrikaans | Latin |  | False | Broad | 2,022 |
 | [TSV](tsv/afr_latn_broad_filtered.tsv) | afr | Afrikaans | Afrikaans | Latin |  | True | Broad | 1,982 |
@@ -115,12 +114,12 @@
 | [TSV](tsv/ell_grek_broad.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | False | Broad | 15,241 |
 | [TSV](tsv/ell_grek_broad_filtered.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | True | Broad | 14,825 |
 | [TSV](tsv/ell_grek_narrow.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | False | Narrow | 342 |
-| [TSV](tsv/eng_latn_uk_broad.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Broad | 78,775 |
-| [TSV](tsv/eng_latn_uk_broad_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Broad | 78,142 |
-| [TSV](tsv/eng_latn_uk_narrow.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Narrow | 1,759 |
-| [TSV](tsv/eng_latn_us_broad.tsv) | eng | English | English | Latin | US, General American | False | Broad | 77,341 |
-| [TSV](tsv/eng_latn_us_broad_filtered.tsv) | eng | English | English | Latin | US, General American | True | Broad | 76,692 |
-| [TSV](tsv/eng_latn_us_narrow.tsv) | eng | English | English | Latin | US, General American | False | Narrow | 2,504 |
+| [TSV](tsv/eng_latn_uk_broad.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Broad | 79,409 |
+| [TSV](tsv/eng_latn_uk_broad_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Broad | 78,752 |
+| [TSV](tsv/eng_latn_uk_narrow.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Narrow | 1,787 |
+| [TSV](tsv/eng_latn_us_broad.tsv) | eng | English | English | Latin | US, General American | False | Broad | 78,117 |
+| [TSV](tsv/eng_latn_us_broad_filtered.tsv) | eng | English | English | Latin | US, General American | True | Broad | 77,566 |
+| [TSV](tsv/eng_latn_us_narrow.tsv) | eng | English | English | Latin | US, General American | False | Narrow | 2,563 |
 | [TSV](tsv/enm_latn_broad.tsv) | enm | Middle English (1100-1500) | Middle English | Latin |  | False | Broad | 10,525 |
 | [TSV](tsv/epo_latn_broad.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Broad | 3,999 |
 | [TSV](tsv/epo_latn_narrow.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Narrow | 17,209 |
