@@ -175,7 +175,8 @@ class Config:
         else:
             dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(
                 dialects_text=" or ".join(
-                    f'text() = "{d.strip()}"' for d in dialect.split("|")
+                    f'contains(text(), "{d.strip()}")'
+                    for d in dialect.split("|")
                 )
             )
             logging.info("Dialect(s): %r", dialect)

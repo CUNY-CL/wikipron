@@ -153,8 +153,8 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[contains(@class, "ib-content")]//a[text() = "US"]\n'  # noqa: E501
-                '   or span[contains(@class, "ib-content") and (text() = "US")]\n'  # noqa: E501
+                '  (span[contains(@class, "ib-content")]//a[contains(text(), "US")]\n'  # noqa: E501
+                '   or span[contains(@class, "ib-content") and (contains(text(), "US"))]\n'  # noqa: E501
                 '   or count(span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
@@ -171,8 +171,8 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 "  and\n"
                 '  span[@class = "IPA"]\n'
                 "  and\n"
-                '  (span[contains(@class, "ib-content")]//a[text() = "General American" or text() = "US"]\n'  # noqa: E501
-                '   or span[contains(@class, "ib-content") and (text() = "General American" or text() = "US")]\n'  # noqa: E501
+                '  (span[contains(@class, "ib-content")]//a[contains(text(), "General American") or contains(text(), "US")]\n'  # noqa: E501
+                '   or span[contains(@class, "ib-content") and (contains(text(), "General American") or contains(text(), "US"))]\n'  # noqa: E501
                 '   or count(span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
