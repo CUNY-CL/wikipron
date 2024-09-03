@@ -18,6 +18,10 @@ Unreleased
     removing ɾ, tʰ, y where needed. (\#555)
 -   Rescrapes General American and UK Received Pronunciation data. (\#555)
 
+### Under `src/` and elsewhere
+
+-   Updated dialect selector to use contains logic rather than exact match (\#557)
+
 [1.3.3] - 2024-07-27
 --------------------
 
