@@ -81,8 +81,8 @@ branch by the author.
 If you would like to help avoid wasting free Internet resources
 (every push triggers a new CI autobuild),
 you can run the following checks locally before pushing commits:
-* `mypy --ignore-missing-imports wikipron/ tests/ data/`
-* `flake8 wikipron/ tests/`
-* `black --line-length=79 --check wikipron/ tests/ data/`
+* `mypy --ignore-missing-imports src/wikipron/ tests/ data/`
+* `flake8 src/wikipron/ tests/`
+* `black --line-length=79 --check src/wikipron/ tests/ data/`
     * You can fix any errors by running the same command without `--check`
 * `pytest tests/`
