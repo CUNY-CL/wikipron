@@ -356,8 +356,7 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han",
-            "zzzz": "Unknown"
+            "hani": "Han"
         }
     },
     "crx": {
@@ -461,8 +460,7 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han",
-            "zzzz": "Unknown"
+            "hani": "Han"
         }
     },
     "cho": {
@@ -2787,4 +2785,5 @@
             "latn": "Latin"
         }
     }
+
 }
