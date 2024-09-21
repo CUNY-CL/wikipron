@@ -45,7 +45,7 @@ jobs:
           name: Show installed Python packages
           command: pip list -v
       - run:
-          name: Run python tests
+          name: Run Python tests
           command: |
               pytest -vv tests --junitxml /tmp/testxml/report.xml
       - store_test_results:
@@ -66,7 +66,7 @@ jobs:
             pip install -r requirements.txt && \
             pip install . && \
             pip list && \
-            pytest
+            pytest -vv tests
 
 workflows:
   version: 2
