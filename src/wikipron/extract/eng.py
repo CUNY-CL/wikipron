@@ -29,7 +29,6 @@ def yield_eng_pron(
             pron = pron.replace("r", "ɹ")
             pron = re.sub(r"ə ɹ$", "ɚ", pron)
             yield pron
-        # yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_eng(
