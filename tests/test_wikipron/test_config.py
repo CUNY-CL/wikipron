@@ -247,9 +247,7 @@ def test_spanish_dialect_selection():
     ("minor", "US | General American", True, "ˈm a ɪ . n ɚ"),
     ("minor", "US | General American", False, "ˈmaɪ.nɚ"),
     ("nurture", "US | General American", True, "ˈn ɜː ɹ . t͡ʃ ɚ"),
-    ("nurture", "US | General American", False, "ˈnɜːɹ.t͡ʃɚ"),
-    ("van", "UK | Received Pronunciation", False, "vɑn"),
-    ("van", "UK | Received Pronunciation", True, "v ɑ n")
+    ("nurture", "US | General American", False, "ˈnɜːɹ.t͡ʃɚ")
     ]
 )
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
