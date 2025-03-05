@@ -20,6 +20,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Drops Python 3.8 support and adds Python 3.13 support. (\#562)
 -   Updated dialect selector to use contains logic rather than exact match (\#557)
 
 [1.3.3] - 2024-07-27

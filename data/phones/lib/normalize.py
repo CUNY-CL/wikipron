@@ -13,9 +13,10 @@ import unicodedata
 
 
 def main(args: argparse.Namespace) -> None:
-    with open(args.path, "r") as source, tempfile.NamedTemporaryFile(
-        mode="w+", delete=False
-    ) as sink:
+    with (
+        open(args.path, "r") as source,
+        tempfile.NamedTemporaryFile(mode="w+", delete=False) as sink,
+    ):
         for line in source:
             print(unicodedata.normalize(args.norm, line), end="", file=sink)
     shutil.move(sink.name, args.path)
