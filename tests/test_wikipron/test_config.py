@@ -265,26 +265,6 @@ def test_english_pron(word, dialect, segment, expected_pron):
     assert pron == expected_pron
 
 
-# @pytest.mark.parametrize(
-#     "word, dialect, expected_pron",
-#     [("minor", "General American", "ˈmaɪ.nɚ"),
-#      ("nurture", "US", "ˈnɜːɹ.t͡ʃɚ")
-#     ]
-# )
-# def test_eng_final_er(word, dialect, expected_pron):
-#     # open html
-#     html_session = requests_html.HTMLSession()
-#     response = html_session.get(
-#         _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
-#     )
-#     # create config with dialect
-#     config = config_factory(key="en", dialect=dialect)
-#     # download pronunciations
-#     results = response.html.xpath(config.pron_xpath_selector)
-#     match = re.fullmatch(r"IPA\(key\):\s/(.+?)/", results[0].text)
-#     assert match and match.group(1) == expected_pron
-
-
 @pytest.mark.parametrize(
     "expected_language, keys",
     [

@@ -13,7 +13,6 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-# Select pron from within this li
 _PRON_XPATH_TEMPLATE = """
     //div[@class="vsHide"]
         //ul
