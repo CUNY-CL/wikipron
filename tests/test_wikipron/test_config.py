@@ -240,15 +240,16 @@ def test_spanish_dialect_selection():
 # Text English pronunciation
 @pytest.mark.parametrize(
     "word, dialect, segment, expected_pron",
-    [("keratin", "US | General American", True, "ˈk ɛ ɹ ə t ɪ n"),
-    ("keratin", "US | General American", False, "ˈkɛɹətɪn"),
-    ("Likert", "UK | Received Pronunciation", True, "ˈl ɪ k . ə ɹ t"),
-    ("Likert", "UK | Received Pronunciation", False, "ˈlɪk.əɹt"),
-    ("minor", "US | General American", True, "ˈm a ɪ . n ɚ"),
-    ("minor", "US | General American", False, "ˈmaɪ.nɚ"),
-    ("nurture", "US | General American", True, "ˈn ɜː ɹ . t͡ʃ ɚ"),
-    ("nurture", "US | General American", False, "ˈnɜːɹ.t͡ʃɚ")
-    ]
+    [
+        ("keratin", "US | General American", True, "ˈk ɛ ɹ ə t ɪ n"),
+        ("keratin", "US | General American", False, "ˈkɛɹətɪn"),
+        ("Likert", "UK | Received Pronunciation", True, "ˈl ɪ k . ə ɹ t"),
+        ("Likert", "UK | Received Pronunciation", False, "ˈlɪk.əɹt"),
+        ("minor", "US | General American", True, "ˈm a ɪ . n ɚ"),
+        ("minor", "US | General American", False, "ˈmaɪ.nɚ"),
+        ("nurture", "US | General American", True, "ˈn ɜː ɹ . t͡ʃ ɚ"),
+        ("nurture", "US | General American", False, "ˈnɜːɹ.t͡ʃɚ"),
+    ],
 )
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 def test_english_pron(word, dialect, segment, expected_pron):
