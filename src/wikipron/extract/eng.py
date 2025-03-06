@@ -6,7 +6,7 @@ import typing
 import requests_html
 import re
 
-from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
+from wikipron.extract.default import yield_pron
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
