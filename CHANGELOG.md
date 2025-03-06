@@ -14,6 +14,7 @@ Unreleased
 
 #### Changed
 
+-   Adds custom English extractor to increase the consistency of English r. (\#561)
 -   Updated English data and made corrections to the pronunciation transcriptions, 
     removing ɾ, tʰ, y where needed. (\#555)
 -   Rescrapes General American and UK Received Pronunciation data. (\#555)

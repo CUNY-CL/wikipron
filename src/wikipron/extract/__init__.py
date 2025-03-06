@@ -1,5 +1,6 @@
 from wikipron.extract.blt import extract_word_pron_blt
 from wikipron.extract.cmn import extract_word_pron_cmn
+from wikipron.extract.eng import extract_word_pron_eng
 from wikipron.extract.jpn import extract_word_pron_jpn
 from wikipron.extract.khb import extract_word_pron_lu
 from wikipron.extract.khm import extract_word_pron_khmer
@@ -15,6 +16,7 @@ from wikipron.extract.yue import extract_word_pron_yue
 EXTRACTION_FUNCTIONS = {
     "Cantonese": extract_word_pron_yue,
     "Chinese": extract_word_pron_cmn,
+    "English": extract_word_pron_eng,
     "Japanese": extract_word_pron_jpn,
     "Khmer": extract_word_pron_khmer,
     "Latin": extract_word_pron_latin,
