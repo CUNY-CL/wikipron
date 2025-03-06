@@ -13,20 +13,18 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-_PRON_XPATH_TEMPLATE = """
-    //div[@class="vsHide"]
-        //ul
-            //li[(a[@title="w:English"])]
-"""
+IPA_XPATH_SELECTOR = '//span[@class = "IPA"]'
 
 
 def yield_eng_pron(
     request: requests_html, config: "Config"
 ) -> "Iterator[str]":
-    for li_container in request.html.xpath(_PRON_XPATH_TEMPLATE):
+    for li_container in request.html.xpath(config.pron_xpath_selector):
         for pron in yield_pron(li_container, IPA_XPATH_SELECTOR, config):
+            # replaces the trilled /r/ with /ɹ/
             pron = pron.replace("r", "ɹ")
-            pron = re.sub(r"ə ɹ$", "ɚ", pron)
+            # replaces word final /əɹ/ with /ɚ/
+            pron = re.sub(r"ə ?ɹ$", "ɚ", pron)
             yield pron
 
 
