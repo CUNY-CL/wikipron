@@ -21,9 +21,9 @@ def yield_eng_pron(
 ) -> "Iterator[str]":
     for li_container in request.html.xpath(config.pron_xpath_selector):
         for pron in yield_pron(li_container, IPA_XPATH_SELECTOR, config):
-            # replaces the trilled /r/ with /ɹ/
+            # Replaces the trilled /r/ with /ɹ/.
             pron = pron.replace("r", "ɹ")
-            # replaces word final /əɹ/ with /ɚ/
+            # Replaces word-final /əɹ/ with /ɚ/.
             pron = re.sub(r"ə ?ɹ$", "ɚ", pron)
             yield pron
 
