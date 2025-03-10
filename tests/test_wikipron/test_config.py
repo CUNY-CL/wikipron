@@ -256,9 +256,7 @@ def test_english_pron(word, dialect, segment, expected_pron):
     response = html_session.get(
         _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
     )
-    # create config with dialect
     config = config_factory(key="en", dialect=dialect, segment=segment)
-    # extract pronunciation
     pairs = config.extract_word_pron(word, response, config)
     _, pron = next(pairs)
     assert pron == expected_pron
