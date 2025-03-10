@@ -237,7 +237,6 @@ def test_spanish_dialect_selection():
     )
 
 
-# Text English pronunciation
 @pytest.mark.parametrize(
     "word, dialect, segment, expected_pron",
     [
