@@ -448,6 +448,8 @@ urd_arab_broad.tsv	urd	Urdu	Urdu	Arabic		False	Broad	4493
 urd_arab_narrow.tsv	urd	Urdu	Urdu	Arabic		False	Narrow	104
 urk_thai_broad.tsv	urk	Urak Lawoi'	Urak Lawoi'	Thai		False	Broad	565
 urk_thai_narrow.tsv	urk	Urak Lawoi'	Urak Lawoi'	Thai		False	Narrow	565
+uzb_latn_broad.tsv	uzb	Uzbek	Uzbek	Latin		False	Broad	293
+uzb_latn_narrow.tsv	uzb	Uzbek	Uzbek	Latin		False	Narrow	175
 vie_latn_hanoi_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	False	Narrow	23320
 vie_latn_hanoi_narrow_filtered.tsv	vie	Vietnamese	Vietnamese	Latin	Hà Nội	True	Narrow	23320
 vie_latn_hue_narrow.tsv	vie	Vietnamese	Vietnamese	Latin	Huế	False	Narrow	26372

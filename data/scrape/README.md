@@ -1,11 +1,11 @@
-* Languages: 306
-  * Broad transcription files: 309
-  * Narrow transcription files: 174
+* Languages: 307
+  * Broad transcription files: 310
+  * Narrow transcription files: 175
 * Dialects: 17
   * Broad transcription files: 25
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 3,958,916
+* Pronunciations: 3,959,384
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -460,6 +460,8 @@
 | [TSV](tsv/urd_arab_narrow.tsv) | urd | Urdu | Urdu | Arabic |  | False | Narrow | 104 |
 | [TSV](tsv/urk_thai_broad.tsv) | urk | Urak Lawoi' | Urak Lawoi' | Thai |  | False | Broad | 565 |
 | [TSV](tsv/urk_thai_narrow.tsv) | urk | Urak Lawoi' | Urak Lawoi' | Thai |  | False | Narrow | 565 |
+| [TSV](tsv/uzb_latn_broad.tsv) | uzb | Uzbek | Uzbek | Latin |  | False | Broad | 293 |
+| [TSV](tsv/uzb_latn_narrow.tsv) | uzb | Uzbek | Uzbek | Latin |  | False | Narrow | 175 |
 | [TSV](tsv/vie_latn_hanoi_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Narrow | 23,320 |
 | [TSV](tsv/vie_latn_hanoi_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Narrow | 23,320 |
 | [TSV](tsv/vie_latn_hue_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | False | Narrow | 26,372 |

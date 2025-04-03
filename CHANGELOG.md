@@ -12,6 +12,8 @@ Unreleased
 
 ### Under `data/`
 
+-  Adds Uzbek (`uzb`). (\#565)
+
 #### Changed
 
 -   Adds custom English extractor to increase the consistency of English r. (\#561)
