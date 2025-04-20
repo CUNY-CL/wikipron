@@ -13,6 +13,7 @@ Unreleased
 ### Under `data/`
 
 -  Adds Uzbek (`uzb`). (\#565)
+-  Updates English (`eng`). (\#568)
 
 #### Changed
 
