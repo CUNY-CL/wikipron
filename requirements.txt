@@ -8,6 +8,6 @@ python-iso639==2022.11.27
 requests-html==0.10.0
 requests==2.32.3
 segments==2.2.1
-setuptools==70.0.0
+setuptools==78.1.1
 twine==6.1.0
 unicodedataplus==16.0.0.post1
