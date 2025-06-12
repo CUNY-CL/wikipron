@@ -280,3 +280,15 @@ def test_language(expected_language, keys):
     for key in keys:
         config = config_factory(key=key)
         assert config.language == expected_language, f"key = {key}"
+
+def variants(pron: str) -> List[str]:
+    pieces = []
+    for elem in re.split(r"(\(.+?\))", pron):
+        if elem.startswith("(") and elem.endswith(")"):
+            pieces.append((elem[1:-1], ""))
+        else:
+            pieces.append((elem,))
+    results = [""]
+    for piece in pieces:
+        results = [prefix + suffix for prefix, suffix in itertools.product(results, piece)]
+    return results
