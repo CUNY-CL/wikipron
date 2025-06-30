@@ -2,8 +2,9 @@ import datetime
 import functools
 import logging
 import re
+import itertools
 
-from typing import Callable, Optional
+from typing import Callable, Optional, Union, List
 
 import iso639
 import segments
@@ -66,11 +67,12 @@ class Config:
         skip_spaces_word: bool = True,
         skip_spaces_pron: bool = True,
         skip_parens: bool = True,
+        variants: bool = False,
     ):
         self.language: str = self._get_language(key)
         self.casefold: Callable[[str], str] = self._get_casefold(casefold)
-        self.process_pron: Callable[[str], str] = self._get_process_pron(
-            stress, syllable_boundaries, segment, tone
+        self.process_pron: Callable[[str], Union[str, List[str], None]] = self._get_process_pron(
+            stress, syllable_boundaries, segment, tone, variants
         )
         self.cut_off_date: str = self._get_cut_off_date(cut_off_date)
         self.ipa_regex: str = _PHONES_REGEX if narrow else _PHONEMES_REGEX
@@ -142,7 +144,22 @@ class Config:
         syllable_boundaries: bool,
         segment: bool,
         tone: bool,
-    ) -> Callable[[str], str]:
+        variants: bool,
+    ) -> Callable[[str], Union[str, List[str]]]:
+        
+        def _variants(pron:str) -> List[str]:
+                
+            pieces = []
+            for elem in re.split(r"(\(.+?\))", pron):
+                if elem.startswith("(") and elem.endswith(")"):
+                    pieces.append((elem[1:-1], ""))
+                else:
+                    pieces.append((elem,))
+            results = [""]
+            for piece in pieces:
+                results = [prefix + suffix for prefix, suffix in itertools.product(results, piece)]
+            return results
+        
         processors = []
         if not stress:
             processors.append(functools.partial(re.sub, r"[ˈˌ]", ""))
@@ -155,16 +172,18 @@ class Config:
             processors.append(
                 functools.partial(segments.Tokenizer(), ipa=True)
             )
+        if variants:
+            processors.append(_variants)
         prosodic_markers = frozenset(["ˈ", "ˌ", "."])
 
         def wrapper(pron: str):
             for processor in processors:
                 pron = processor(pron)
-            # GH-59: Skip prons that are empty, or have only stress marks or
-            # syllable boundaries.
+            
             if any(ch not in prosodic_markers for ch in pron):
                 return pron
-
+            # GH-59: Skip prons that are empty, or have only stress marks or
+            # syllable boundaries.
         return wrapper
 
     def _get_pron_xpath_selector(
