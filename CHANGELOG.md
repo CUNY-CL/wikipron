@@ -26,6 +26,8 @@ Unreleased
 
 -   Drops Python 3.8 support and adds Python 3.13 support. (\#562)
 -   Updated dialect selector to use contains logic rather than exact match (\#557)
+-   Updated XPath selectors to use `contains` for the `IPA` class to accommodate Wikipedia CSS changes.
+-   Updated Received Pronunciation for "Likert" in tests to match current Wiktionary data.
 
 [1.3.3] - 2024-07-27
 --------------------
