@@ -15,7 +15,7 @@ _IPA_XPATH_SELECTOR = """
     @title = "wikipedia:Shan phonology"
   ]]]
   and
-  span[@class = "IPA"]
+  span[contains(@class, "IPA")]
 ]
 """
 

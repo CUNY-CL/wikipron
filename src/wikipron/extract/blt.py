@@ -15,7 +15,7 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
     @title = "wikipedia:{language} phonology"
   ]]]
   and
-  span[@class = "IPA"]
+  span[contains(@class, "IPA")]
 ]
 """
 

@@ -136,7 +136,7 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '    @title = "wikipedia:English phonology"\n'
                 "  ]]]\n"
                 "  and\n"
-                '  span[@class = "IPA"]\n'
+                '  span[contains(@class, "IPA")]\n'
                 "  \n"
                 "]\n"
             ),
@@ -151,7 +151,7 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '    @title = "wikipedia:English phonology"\n'
                 "  ]]]\n"
                 "  and\n"
-                '  span[@class = "IPA"]\n'
+                '  span[contains(@class, "IPA")]\n'
                 "  and\n"
                 '  (span[contains(@class, "ib-content")]//a[contains(text(), "US")]\n'  # noqa: E501
                 '   or span[contains(@class, "ib-content") and (contains(text(), "US"))]\n'  # noqa: E501
@@ -169,7 +169,7 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '    @title = "wikipedia:English phonology"\n'
                 "  ]]]\n"
                 "  and\n"
-                '  span[@class = "IPA"]\n'
+                '  span[contains(@class, "IPA")]\n'
                 "  and\n"
                 '  (span[contains(@class, "ib-content")]//a[contains(text(), "General American") or contains(text(), "US")]\n'  # noqa: E501
                 '   or span[contains(@class, "ib-content") and (contains(text(), "General American") or contains(text(), "US"))]\n'  # noqa: E501
@@ -242,8 +242,8 @@ def test_spanish_dialect_selection():
     [
         ("keratin", "US | General American", True, "ˈk ɛ ɹ ə t ɪ n"),
         ("keratin", "US | General American", False, "ˈkɛɹətɪn"),
-        ("Likert", "UK | Received Pronunciation", True, "ˈl ɪ k . ə ɹ t"),
-        ("Likert", "UK | Received Pronunciation", False, "ˈlɪk.əɹt"),
+        ("Likert", "UK | Received Pronunciation", True, "ˈl ɪ k . ə t"),
+        ("Likert", "UK | Received Pronunciation", False, "ˈlɪk.ət"),
         ("minor", "US | General American", True, "ˈm a ɪ . n ɚ"),
         ("minor", "US | General American", False, "ˈmaɪ.nɚ"),
         ("nurture", "US | General American", True, "ˈn ɜː ɹ . t͡ʃ ɚ"),
