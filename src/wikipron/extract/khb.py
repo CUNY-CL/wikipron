@@ -19,7 +19,7 @@ _IPA_XPATH_SELECTOR = """
     @title = "wikipedia:Lü phonology"
   ]]]
   and
-  span[@class = "IPA"]
+  span[contains(@class, "IPA")]
 ]
 """
 

@@ -72,7 +72,7 @@ _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE = """
 //li[
   sup[a[@title = "Appendix:Latin pronunciation"]]
   and
-  span[@class = "IPA"]
+  span[contains(@class, "IPA")]
   and
   span[@class = "ib-content" and a[{dialects_text}]]
 ]

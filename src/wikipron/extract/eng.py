@@ -13,7 +13,7 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-IPA_XPATH_SELECTOR = '//span[@class = "IPA"]'
+IPA_XPATH_SELECTOR = '//span[contains(@class, "IPA")]'
 
 
 def yield_eng_pron(
