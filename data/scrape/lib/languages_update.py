@@ -18,7 +18,6 @@ from typing import Dict, DefaultDict, Optional
 
 import unicodedataplus  # type: ignore
 
-
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
@@ -67,7 +66,7 @@ def _get_alias(
 
 
 def _remove_mismatch_ids(
-    script_dict: Dict[str, Dict[str, str]]
+    script_dict: Dict[str, Dict[str, str]],
 ) -> Dict[str, Dict[str, str]]:
     """Removes [key:value] pairs when the key does not
     match the ISO 15924 code alias for script.

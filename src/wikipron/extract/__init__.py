@@ -10,7 +10,6 @@ from wikipron.extract.tha import extract_word_pron_thai
 from wikipron.extract.vie import extract_word_pron_vie
 from wikipron.extract.yue import extract_word_pron_yue
 
-
 # All extraction functions must have the exact same function signature.
 # The key has to be the language name used by Wiktionary.
 EXTRACTION_FUNCTIONS = {

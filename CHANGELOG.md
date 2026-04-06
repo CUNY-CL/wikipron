@@ -24,6 +24,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Drops Python 3.9 support and adds Python 3.14 support. (\#576)
 -   Drops Python 3.8 support and adds Python 3.13 support. (\#562)
 -   Updated dialect selector to use contains logic rather than exact match (\#557)
 -   Updated XPath selectors to use `contains` for the `IPA` class to accommodate Wikipedia CSS changes.

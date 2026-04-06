@@ -7,7 +7,6 @@ from wikipron.extract import EXTRACTION_FUNCTIONS
 
 from . import can_connect_to_wiktionary, config_factory
 
-
 SmokeTestLanguage = collections.namedtuple(
     "SmokeTestLanguage", ("key", "wik_name", "config_params")
 )

@@ -12,7 +12,6 @@ from typing import Any, Dict
 
 import requests
 
-
 _THIS_DIR = os.path.dirname(__file__)
 WORTSCHATZ_DICT_PATH = os.path.join(_THIS_DIR, "wortschatz_languages.json")
 

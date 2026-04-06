@@ -11,7 +11,6 @@ from typing import Dict, List
 
 import requests
 
-
 _THIS_DIR = os.path.dirname(__file__)
 UNIMORPH_DICT_PATH = os.path.join(_THIS_DIR, "unimorph_languages.json")
 

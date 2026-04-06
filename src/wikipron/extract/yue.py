@@ -7,7 +7,6 @@ import requests_html
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
-
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
     from wikipron.typing import Iterator, WordPronPair
