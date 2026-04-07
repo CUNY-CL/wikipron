@@ -5,7 +5,6 @@ import argparse
 
 import pynini
 
-
 TOKEN_TYPES = ["byte", "utf8"]
 
 

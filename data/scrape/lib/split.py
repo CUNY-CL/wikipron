@@ -12,7 +12,6 @@ import os
 
 import regex  # type: ignore
 
-
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)

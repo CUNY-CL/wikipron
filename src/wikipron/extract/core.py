@@ -7,7 +7,6 @@ import unicodedata
 
 import requests_html
 
-
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
     from wikipron.typing import Iterator
@@ -16,7 +15,7 @@ if typing.TYPE_CHECKING:
 def _skip_pron(pron: str, skip_spaces: bool) -> bool:
     if "-" in pron:
         return True
-    if skip_spaces and (" " in pron or "\u00A0" in pron):
+    if skip_spaces and (" " in pron or "\u00a0" in pron):
         return True
     return False
 

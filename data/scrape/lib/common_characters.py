@@ -17,7 +17,6 @@ from typing import Dict, List, Optional
 import regex  # type: ignore
 import unicodedataplus  # type: ignore
 
-
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 COMMON_CHARS_PATH = os.path.join(LIB_DIRECTORY, "common_chars.json")

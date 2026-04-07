@@ -6,7 +6,6 @@ import wikipron
 from wikipron.config import Config
 from wikipron.cli import _get_cli_args
 
-
 _TERMINAL_COMMAND = "wikipron"
 
 

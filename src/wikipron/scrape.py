@@ -31,7 +31,7 @@ def _skip_word(word: str, skip_spaces: bool) -> bool:
     if word.startswith("*"):
         return True
     # Skips multiword examples.
-    if skip_spaces and (" " in word or "\u00A0" in word):
+    if skip_spaces and (" " in word or "\u00a0" in word):
         return True
     # Skips examples containing a dash.
     if "-" in word:
