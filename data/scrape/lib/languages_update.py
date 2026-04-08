@@ -8,11 +8,11 @@ in each language's TSV file. Script entries are also updated
 to reflect such that script key entries match ISO 15924 aliases.
 """
 
+import collections
 import logging
 import json
 import operator
 import os
-from collections import defaultdict
 
 import unicodedataplus  # type: ignore
 
@@ -34,7 +34,9 @@ def _detect_best_script_name(
 
     Example: "ژۇرنال" -> ("Arabic", 1.0).
     """
-    script_counts: defaultdict[str, float] = defaultdict(float)
+    script_counts: collections.defaultdict[str, float] = (
+        collections.defaultdict(float)
+    )
     for char in word:
         script_counts[unicodedataplus.script(char)] += 1.0
     script_probs = [(s, script_counts[s] / len(word)) for s in script_counts]

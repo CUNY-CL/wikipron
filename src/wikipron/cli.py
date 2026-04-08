@@ -108,7 +108,7 @@ def _get_cli_args(args: list[str]) -> argparse.Namespace:
         choices=["skip", "show", "expand"],
         default="expand",
         help=(
-            "handlies parenthesized content in transcriptions: "
+            "handles parenthesized content in transcriptions: "
             "'skip' removes content in parentheses, "
             "'show' keeps parentheses as-is, and "
             "'expand' generates all variants"
