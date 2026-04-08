@@ -7,7 +7,6 @@ import logging
 import os
 import time
 
-from typing import Dict, List
 
 import requests
 
@@ -15,7 +14,7 @@ _THIS_DIR = os.path.dirname(__file__)
 UNIMORPH_DICT_PATH = os.path.join(_THIS_DIR, "unimorph_languages.json")
 
 
-def download(data_to_grab: Dict[str, List[str]]) -> Dict[str, List[str]]:
+def download(data_to_grab: dict[str, list[str]]) -> dict[str, list[str]]:
     to_retry = {}
     os.makedirs("tsv", exist_ok=True)
     for language, urls in data_to_grab.items():

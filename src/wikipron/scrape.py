@@ -3,7 +3,7 @@ import time
 import unicodedata
 from importlib.metadata import version
 
-from typing import Any, Dict
+from typing import Any
 
 import requests
 import requests_html
@@ -86,7 +86,7 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)
     )
-    requests_params: Dict[str, Any] = {
+    requests_params: dict[str, Any] = {
         "action": "query",
         "format": "json",
         "list": "categorymembers",

@@ -8,7 +8,7 @@ import os
 import tarfile
 import time
 
-from typing import Any, Dict
+from typing import Any
 
 import requests
 
@@ -16,7 +16,7 @@ _THIS_DIR = os.path.dirname(__file__)
 WORTSCHATZ_DICT_PATH = os.path.join(_THIS_DIR, "wortschatz_languages.json")
 
 
-def download(data_to_grab: Dict[str, Any]) -> Dict[str, Any]:
+def download(data_to_grab: dict[str, Any]) -> dict[str, Any]:
     to_retry = {}
     os.makedirs("tgz", exist_ok=True)
     for language in data_to_grab:

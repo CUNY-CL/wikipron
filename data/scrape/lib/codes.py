@@ -23,7 +23,6 @@ import json
 import os
 import re
 
-from typing import Dict, List
 
 import iso639
 import requests
@@ -50,7 +49,7 @@ PHONES_DIRECTORY = os.path.join(
 URL = "https://en.wiktionary.org/w/api.php"
 
 
-def _get_language_categories() -> List[str]:
+def _get_language_categories() -> list[str]:
     """Get the list of language categories from Wiktionary.
 
     A category looks like "Category:Bengali terms with IPA pronunciation".
@@ -80,7 +79,7 @@ def _get_language_categories() -> List[str]:
     return language_categories
 
 
-def _get_language_sizes(categories: List[str]) -> Dict[str, int]:
+def _get_language_sizes(categories: list[str]) -> dict[str, int]:
     """Get the map from a language to its number of pronunciation entries."""
     language_sizes = {}
     # MediaWiki API can retrieve sizes for multiple categories at a time,

@@ -14,8 +14,6 @@ import json
 import operator
 import os
 
-from typing import Dict, DefaultDict, Optional
-
 import unicodedataplus  # type: ignore
 
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
@@ -27,7 +25,7 @@ TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 def _detect_best_script_name(
     word: str,
     strict: bool = True,
-) -> Optional[str]:
+) -> str | None:
     """Returns the most likely script name (rather than ISO 15924 code) the
     word belongs to along with the corresponding confidence expressed as a
     maximum likelihood estimate computed over the `word` sample. If `strict`
@@ -36,7 +34,9 @@ def _detect_best_script_name(
 
     Example: "ژۇرنال" -> ("Arabic", 1.0).
     """
-    script_counts: DefaultDict[str, float] = collections.defaultdict(float)
+    script_counts: collections.defaultdict[str, float] = (
+        collections.defaultdict(float)
+    )
     for char in word:
         script_counts[unicodedataplus.script(char)] += 1.0
     script_probs = [(s, script_counts[s] / len(word)) for s in script_counts]
@@ -66,8 +66,8 @@ def _get_alias(
 
 
 def _remove_mismatch_ids(
-    script_dict: Dict[str, Dict[str, str]],
-) -> Dict[str, Dict[str, str]]:
+    script_dict: dict[str, dict[str, str]],
+) -> dict[str, dict[str, str]]:
     """Removes [key:value] pairs when the key does not
     match the ISO 15924 code alias for script.
     """

@@ -3,8 +3,6 @@ import json
 import pytest
 import os
 
-from typing import Set
-
 from data.scrape.lib.languages_update import _detect_best_script_name
 from data.scrape.lib.split import _generalized_check
 
@@ -242,7 +240,7 @@ _SMOKE_TEST_LANGUAGES = [
 ]
 
 
-def _collect_scripts() -> Set[str]:
+def _collect_scripts() -> set[str]:
     scripts = set()
     with open(_LANGUAGES, "r") as source:
         languages = json.load(source)
