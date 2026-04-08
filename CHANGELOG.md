@@ -24,6 +24,10 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Replaces `--skip-parens`/`--no-skip-parens` with `--parens` accepting
+    `skip`, `show`, or `expand`. The `expand` option generates all
+    pronunciation variants from parenthesized content and is the new
+    default. This is a breaking change for a v2 release. (\#577)
 -   Drops Python 3.9 support and adds Python 3.14 support. (\#576)
 -   Drops Python 3.8 support and adds Python 3.13 support. (\#562)
 -   Updated dialect selector to use contains logic rather than exact match (\#557)

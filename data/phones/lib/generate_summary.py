@@ -6,7 +6,7 @@ import logging
 import operator
 import os
 
-from typing import Any, Dict
+from typing import Any
 
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 PHONES_DIRECTORY = os.path.normpath(os.path.join(LIB_DIRECTORY, os.pardir))
@@ -18,7 +18,7 @@ LANGUAGES_PATH = os.path.normpath(
 )
 
 
-def _handle_wiki_name(language: Dict[str, Any], file_path: str) -> str:
+def _handle_wiki_name(language: dict[str, Any], file_path: str) -> str:
     name = language["wiktionary_name"]
     if "dialect" in language:
         key = file_path[file_path.index("_") + 1 : file_path.rindex("_")]

@@ -13,7 +13,6 @@ import logging
 import random
 import unicodedata
 
-from typing import Dict, List, Set
 
 import ipapy
 
@@ -30,10 +29,10 @@ _suffixed_other_valid_ipa = frozenset(
 OTHER_VALID_IPA = _other_valid_ipa | _suffixed_other_valid_ipa
 
 
-def _count_phones(filepath: str) -> Dict[str, Set[str]]:
+def _count_phones(filepath: str) -> dict[str, set[str]]:
     """Count the phones in the given TSV file.
 
-    phone_to_examples as Dict[str, Set[str]] is the most straightforward
+    phone_to_examples as dict[str, set[str]] is the most straightforward
     data structure for our purposes. It's not memory-efficient
     (with the same word-pron pair appearing in different phones' sets),
     but anything fancier doesn't seem worth the work.
@@ -52,7 +51,7 @@ def _count_phones(filepath: str) -> Dict[str, Set[str]]:
     return phone_to_examples
 
 
-def _pick_examples_for_display(examples: Set[str]) -> List[str]:
+def _pick_examples_for_display(examples: set[str]) -> list[str]:
     """Pick examples of word-pron pairs for display.
 
     We could have exposed the maximum number of examples to display
@@ -65,7 +64,7 @@ def _pick_examples_for_display(examples: Set[str]) -> List[str]:
     return random.sample(list(examples), n_examples)
 
 
-def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
+def _check_ipa_phonemes(phone_to_examples: dict[str, set[str]], filepath: str):
     """Given the phonemes checks whether they are represented in the IPA.
 
     This will catch problematic phonemes, according to the current IPA standard
@@ -103,7 +102,7 @@ def _check_ipa_phonemes(phone_to_examples: Dict[str, Set[str]], filepath: str):
 
 
 def main(args: argparse.Namespace):
-    phone_to_examples: Dict[str, Set[str]] = _count_phones(args.tsv_path)
+    phone_to_examples: dict[str, set[str]] = _count_phones(args.tsv_path)
     for phone, examples in sorted(
         phone_to_examples.items(), key=lambda x: len(x[1]), reverse=True
     ):

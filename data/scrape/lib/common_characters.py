@@ -12,7 +12,6 @@ import json
 import os
 import unicodedata
 
-from typing import Dict, List, Optional
 
 import regex  # type: ignore
 import unicodedataplus  # type: ignore
@@ -42,7 +41,7 @@ COMMON_ACCEPTED = [
 
 
 def _extend_regex(
-    accepted_chars: List[str], common_chars: Dict[str, Dict[str, str]]
+    accepted_chars: list[str], common_chars: dict[str, dict[str, str]]
 ) -> str:
     extension = [r"\s", "’", "ʔ", "ʻ"]
     for char_type, symbol in common_chars.items():
@@ -59,7 +58,7 @@ def _extend_regex(
     return "".join(extension)
 
 
-def _is_common(word: str) -> Optional[str]:
+def _is_common(word: str) -> str | None:
     """Returns any Common characters."""
     for char in word:
         if unicodedataplus.script(char) == "Common":
@@ -70,7 +69,7 @@ def _is_common(word: str) -> Optional[str]:
     return None
 
 
-def _inherited_check(word: str) -> Optional[str]:
+def _inherited_check(word: str) -> str | None:
     """Returns any Inherited characters."""
     for char in word:
         if unicodedataplus.script(char) == "Inherited":
@@ -83,7 +82,7 @@ def _inherited_check(word: str) -> Optional[str]:
 
 def main(args: argparse.Namespace) -> None:
     # Creates a dictionary of special characters contained in each file.
-    common_chars: Dict[str, Dict[str, Dict[str, str]]] = {}
+    common_chars: dict[str, dict[str, dict[str, str]]] = {}
     for src in sorted(os.listdir(TSV_DIRECTORY)):
         iso639_code = src[: src.index("_")]
         path_remainder = src[src.index("_") + 1 :]
@@ -109,7 +108,7 @@ def main(args: argparse.Namespace) -> None:
             with open(COMMON_CHARS_PATH, "w", encoding="utf-8") as sink:
                 json.dump(common_chars, sink, ensure_ascii=False, indent=4)
     # Creates global common_chars common/inherited set.
-    global_common_chars: Dict[str, Dict[str, str]] = {}
+    global_common_chars: dict[str, dict[str, str]] = {}
     global_common_chars["Common"] = {}
     global_common_chars["Inherited"] = {}
     for symbol in common_chars.values():

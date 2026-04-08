@@ -7,7 +7,6 @@ import json
 import logging
 import os
 
-from typing import Dict
 
 from grab_wortschatz_data import WORTSCHATZ_DICT_PATH
 
@@ -15,7 +14,7 @@ from grab_wortschatz_data import WORTSCHATZ_DICT_PATH
 def write_frequency_tsv(
     wiki_tsv_prefix: str,
     level: str,
-    frequencies_dict: Dict[str, int],
+    frequencies_dict: dict[str, int],
     args: argparse.Namespace,
 ) -> None:
     # Complete WikiPron TSV paths.

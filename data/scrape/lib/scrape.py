@@ -8,7 +8,8 @@ import logging
 import os
 import re
 
-from typing import Any, Dict, FrozenSet, Iterator, Optional
+from collections.abc import Iterator
+from typing import Any
 
 import wikipron  # type: ignore
 
@@ -33,7 +34,7 @@ def _phones_reader(path: str) -> Iterator[str]:
             yield line.rstrip()
 
 
-def _filter(word: str, pron: str, phones: FrozenSet[str]) -> bool:
+def _filter(word: str, pron: str, phones: frozenset[str]) -> bool:
     # Determines if gloss is valid given phone set.
     these_phones = frozenset(pron.split())
     bad_phones = these_phones - phones
@@ -46,10 +47,10 @@ def _filter(word: str, pron: str, phones: FrozenSet[str]) -> bool:
 
 
 def _call_scrape(
-    lang_settings: Dict[str, str],
+    lang_settings: dict[str, str],
     config: wikipron.Config,
     tsv_path: str,
-    phones_set: Optional[FrozenSet[str]] = None,
+    phones_set: frozenset[str] | None = None,
     tsv_filtered_path: str = "",
 ) -> None:
     with open(tsv_path, "w", encoding="utf-8") as source:
@@ -70,7 +71,7 @@ def _call_scrape(
 
 
 def build_scraping_config(
-    config_settings: Dict[str, Any], path_affix: str, phones_path_affix: str
+    config_settings: dict[str, Any], path_affix: str, phones_path_affix: str
 ) -> None:
     # Configures broad TSV.
     broad_config = wikipron.Config(**config_settings)
@@ -169,6 +170,7 @@ def main(args: argparse.Namespace) -> None:
     wikipron_accepted_settings = {
         "skip_spaces_pron": True,
         "skip_spaces_word": True,
+        "parens": "expand",
     }
     for code in codes_sorted:
         language_settings = languages[code]

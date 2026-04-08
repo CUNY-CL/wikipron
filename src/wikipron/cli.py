@@ -2,14 +2,13 @@ import argparse
 import logging
 import sys
 
-from typing import List
 
 import wikipron
 from wikipron.config import Config
 from wikipron.scrape import scrape
 
 
-def _get_cli_args(args: List[str]) -> argparse.Namespace:
+def _get_cli_args(args: list[str]) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=wikipron.__doc__)
     parser.add_argument(
         "key", help="key (i.e., ISO 639 code or name) for the language"
@@ -105,16 +104,16 @@ def _get_cli_args(args: List[str]) -> argparse.Namespace:
         help="removes tones from the transcriptions",
     )
     parser.add_argument(
-        "--skip-parens",
-        action="store_true",
-        default=True,
-        help="removes parentheses from the transcriptions",
-    )
-    parser.add_argument(
-        "--no-skip-parens",
-        action="store_false",
-        dest="skip_parens",
-        help="includes parentheses in the transcriptions",
+        "--parens",
+        choices=["skip", "show", "expand"],
+        default="expand",
+        help=(
+            "handlies parenthesized content in transcriptions: "
+            "'skip' removes content in parentheses, "
+            "'show' keeps parentheses as-is, and "
+            "'expand' generates all variants"
+            " (default: %(default)s)"
+        ),
     )
     return parser.parse_args(args)
 

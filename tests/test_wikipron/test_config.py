@@ -262,6 +262,17 @@ def test_english_pron(word, dialect, segment, expected_pron):
     assert pron == expected_pron
 
 
+@pytest.mark.parametrize("parens", ["skip", "show", "expand"])
+def test_parens_attribute(parens):
+    config = config_factory(parens=parens)
+    assert config.parens == parens
+
+
+def test_parens_invalid():
+    with pytest.raises(ValueError):
+        config_factory(parens="invalid")
+
+
 @pytest.mark.parametrize(
     "expected_language, keys",
     [

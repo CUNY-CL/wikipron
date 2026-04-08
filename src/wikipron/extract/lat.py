@@ -43,7 +43,6 @@ In the underlying HTML, the Latin entry pages are in two different forms.
 
 import itertools
 import typing
-from typing import List
 
 import requests_html
 
@@ -85,7 +84,7 @@ _WORD_XPATH_TEMPLATE = """
 """
 
 
-def _get_tags(request: requests_html) -> List[str]:
+def _get_tags(request: requests_html) -> list[str]:
     """Extract the Latin Etymology ID tags from the table of contents."""
     tags = []
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):

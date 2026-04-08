@@ -1,7 +1,6 @@
 import os
 import tempfile
 
-from typing import List
 
 import pytest
 
@@ -70,7 +69,7 @@ def test_file_creation(
     iso_key: str,
     dialect_affix: str,
     phones: bool,
-    expected_file_name: List[str],
+    expected_file_name: list[str],
 ):
     """Check whether scrape.build_scraping_config() outputs TSVs with
     expected file names based on presence or absence of dialect specification

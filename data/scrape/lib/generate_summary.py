@@ -5,7 +5,7 @@ import json
 import logging
 import operator
 import os
-from typing import Any, Dict, Set
+from typing import Any
 
 import pandas
 
@@ -17,7 +17,7 @@ README_PATH = os.path.join(SCRAPE_DIRECTORY, "README.md")
 TSV_DIRECTORY = os.path.join(SCRAPE_DIRECTORY, "tsv")
 
 
-def _handle_modifiers(language: Dict[str, Any], file_path: str):
+def _handle_modifiers(language: dict[str, Any], file_path: str):
     dialects = language.get("dialect", {})
     start = file_path.index("_") + 1
     if "broad" in file_path:
@@ -36,8 +36,8 @@ def _handle_modifiers(language: Dict[str, Any], file_path: str):
 def main() -> None:
     with open(LANGUAGES_PATH, "r", encoding="utf-8") as source:
         languages = json.load(source)
-    unique_iso_codes: Set[str] = set()  # Stores unique ISO 639-2 codes.
-    unique_scripts: Set[str] = set()  # Stores unique scripts.
+    unique_iso_codes: set[str] = set()  # Stores unique ISO 639-2 codes.
+    unique_scripts: set[str] = set()  # Stores unique scripts.
     readme_list = []
     summaries = []
     for file_path in os.listdir(TSV_DIRECTORY):

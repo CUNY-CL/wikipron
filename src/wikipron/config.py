@@ -3,7 +3,7 @@ import functools
 import logging
 import re
 
-from typing import Callable, Optional
+from collections.abc import Callable
 
 import iso639
 import segments
@@ -58,15 +58,19 @@ class Config:
         casefold: bool = False,
         stress: bool = True,
         syllable_boundaries: bool = True,
-        cut_off_date: Optional[str] = None,
+        cut_off_date: str | None = None,
         narrow: bool = False,
-        dialect: Optional[str] = None,
+        dialect: str | None = None,
         segment: bool = True,
         tone: bool = True,
         skip_spaces_word: bool = True,
         skip_spaces_pron: bool = True,
-        skip_parens: bool = True,
+        parens: str = "expand",
     ):
+        if parens not in ("skip", "show", "expand"):
+            raise ValueError(
+                f"parens must be 'skip', 'show', or 'expand': {parens!r}"
+            )
         self.language: str = self._get_language(key)
         self.casefold: Callable[[str], str] = self._get_casefold(casefold)
         self.process_pron: Callable[[str], str] = self._get_process_pron(
@@ -83,7 +87,7 @@ class Config:
         )
         self.skip_spaces_word: bool = skip_spaces_word
         self.skip_spaces_pron: bool = skip_spaces_pron
-        self.skip_parens: bool = skip_parens
+        self.parens: str = parens
         self.restart_key = None
 
     def _get_language(self, key: str) -> str:
@@ -106,7 +110,7 @@ class Config:
         logging.info("Language: %r", language)
         return language
 
-    def _get_cut_off_date(self, cut_off_date_str: Optional[str]) -> str:
+    def _get_cut_off_date(self, cut_off_date_str: str | None) -> str:
         today = datetime.date.today()
         if not cut_off_date_str:
             logging.info("No cut-off date specified")
@@ -168,7 +172,7 @@ class Config:
         return wrapper
 
     def _get_pron_xpath_selector(
-        self, language: str, dialect: Optional[str]
+        self, language: str, dialect: str | None
     ) -> str:
         if not dialect:
             dialect_selector = ""
