@@ -12,9 +12,9 @@ In the underlying HTML, the Latin entry pages are in two different forms.
    a Latin entry page organizes the "homographs" in terms of "Etymologies".
    Each etymology has its own (correct) orthographic form and pronunciations:
 
-   <h3>
-       <span class="mw-headline" id = "Etymology_1">Etymology 1</span>
-   </h3>
+   <div class="mw-heading mw-heading3">
+       <h3 id="Etymology_1">Etymology 1</h3>
+   </div>
    <p>
        <!-- The orthographic form we want. -->
        <strong class="Latn headword" lang="la">...</strong>
@@ -28,9 +28,9 @@ In the underlying HTML, the Latin entry pages are in two different forms.
    structure is very similar, with everything moved up one level,
    from <h3> for an etymology to <h2> for Latin.
 
-   <h2>
-       <span class="mw-headline" id = "Latin">Latin</span>
-   </h2>
+   <div class="mw-heading mw-heading2">
+       <h2 id="Latin">Latin</h2>
+   </div>
    <p>
        <!-- The orthographic form we want. -->
        <strong class="Latn headword" lang="la">...</strong>
@@ -62,8 +62,9 @@ _TOC_ETYMOLOGY_XPATH_SELECTOR = """
 """
 
 _PRON_XPATH_TEMPLATE = """
-//{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
-  /following-sibling::ul[1]
+//div[{heading}[@id = "{tag}"]]
+  /following-sibling::ul
+    [descendant::a[@title = "Appendix:Latin pronunciation"]][1]
     {dialect_selector}
 """
 
@@ -73,14 +74,14 @@ _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE = """
   and
   span[contains(@class, "IPA")]
   and
-  span[@class = "ib-content" and a[{dialects_text}]]
+  span[contains(@class, "ib-content") and a[{dialects_text}]]
 ]
 """
 
 _WORD_XPATH_TEMPLATE = """
-//{heading}[span[@class = "mw-headline" and @id = "{tag}"]]
+//div[{heading}[@id = "{tag}"]]
   /following-sibling::p
-    /strong[@class = "Latn headword" and @lang = "la"][1]
+    //strong[@class = "Latn headword" and @lang = "la"][1]
 """
 
 
@@ -124,9 +125,7 @@ def _yield_latin_pron(
             )
         )
     else:
-        dialect_selector = (
-            '[descendant::a[@title = "Appendix:Latin pronunciation"]]'
-        )
+        dialect_selector = ""
     pron_xpath_selector = _PRON_XPATH_TEMPLATE.format(
         heading=heading, tag=tag, dialect_selector=dialect_selector
     )
