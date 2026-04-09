@@ -24,6 +24,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Updates Latin XPath selectors. (\#578)
 -   Replaces `--skip-parens`/`--no-skip-parens` with `--parens` accepting
     `skip`, `show`, or `expand`. The `expand` option generates all
     pronunciation variants from parenthesized content and is the new
