@@ -5,6 +5,8 @@ actually used by wikipron are implemented: HTMLSession.get() for HTTP
 requests and .html.xpath() for XPath-based HTML parsing.
 """
 
+from __future__ import annotations
+
 from typing import Literal, overload
 
 import requests
