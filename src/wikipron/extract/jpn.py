@@ -16,7 +16,7 @@ of each are given.
 import itertools
 import typing
 
-from wikipron.html_utils import HTMLResponse
+from wikipron.html_utils import Element, HTMLResponse
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
@@ -37,14 +37,14 @@ def yield_jpn_pron(request: HTMLResponse, config: "Config") -> "Iterator[str]":
     # For simplicity, just want to grab the first transcription.
     # Will encounter words that have no transcription.
     pron_element = request.html.xpath(config.pron_xpath_selector, first=True)
-    if pron_element:
+    if isinstance(pron_element, Element):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
 def yield_jpn_word(word: str, request: HTMLResponse) -> "Iterator[str]":
     # Again for simplicity, only grabbing first "sub"-word.
     word_element = request.html.xpath(_WORD_XPATH_SELECTOR, first=True)
-    if word_element:
+    if isinstance(word_element, str):
         # Remove text within title element for empty links
         word = word_element.rstrip(" (page does not exist)")
 

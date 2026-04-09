@@ -24,7 +24,7 @@ class HTMLTree:
         selector: str,
         *,
         first: Literal[True],
-    ) -> "Element | None": ...
+    ) -> "Element | str | None": ...
 
     @overload
     def xpath(
@@ -32,17 +32,17 @@ class HTMLTree:
         selector: str,
         *,
         first: Literal[False] = ...,
-    ) -> list["Element | str"]: ...
+    ) -> list["Element"]: ...
 
     def xpath(
         self,
         selector: str,
         *,
         first: bool = False,
-    ) -> list["Element | str"] | "Element" | str | None:
+    ) -> list["Element"] | "Element" | str | None:
         results = self._element.xpath(selector)
-        wrapped: list[Element | str] = [
-            Element(r) if hasattr(r, "tag") else r for r in results
+        wrapped: list[Element] = [
+            Element(r) for r in results if hasattr(r, "tag")
         ]
         if first:
             return wrapped[0] if wrapped else None
