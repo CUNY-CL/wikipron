@@ -3,7 +3,7 @@
 import itertools
 import typing
 
-import requests_html
+from wikipron.html_utils import HTMLResponse
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
@@ -20,15 +20,13 @@ _PRON_XPATH_TEMPLATE = """
 """
 
 
-def yield_cmn_pron(
-    request: requests_html, config: "Config"
-) -> "Iterator[str]":
+def yield_cmn_pron(request: HTMLResponse, config: "Config") -> "Iterator[str]":
     for li_container in request.html.xpath(_PRON_XPATH_TEMPLATE):
         yield from yield_pron(li_container, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_cmn(
-    word: str, request: requests_html, config: "Config"
+    word: str, request: HTMLResponse, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     prons = yield_cmn_pron(request, config)

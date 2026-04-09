@@ -44,7 +44,7 @@ In the underlying HTML, the Latin entry pages are in two different forms.
 import itertools
 import typing
 
-import requests_html
+from wikipron.html_utils import HTMLResponse
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
@@ -85,7 +85,7 @@ _WORD_XPATH_TEMPLATE = """
 """
 
 
-def _get_tags(request: requests_html) -> list[str]:
+def _get_tags(request: HTMLResponse) -> list[str]:
     """Extract the Latin Etymology ID tags from the table of contents."""
     tags = []
     for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
@@ -98,7 +98,7 @@ def _get_tags(request: requests_html) -> list[str]:
     return tags
 
 
-def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[str]":
+def _yield_latin_word(request: HTMLResponse, tag: str) -> "Iterator[str]":
     heading = "h2" if tag == "Latin" else "h3"
     word_xpath_selector = _WORD_XPATH_TEMPLATE.format(heading=heading, tag=tag)
     try:
@@ -115,7 +115,7 @@ def _yield_latin_word(request: requests_html, tag: str) -> "Iterator[str]":
 
 
 def _yield_latin_pron(
-    request: requests_html, config: "Config", tag: str
+    request: HTMLResponse, config: "Config", tag: str
 ) -> "Iterator[str]":
     heading = "h2" if tag == "Latin" else "h3"
     if config.dialect:
@@ -134,7 +134,7 @@ def _yield_latin_pron(
 
 
 def extract_word_pron_latin(
-    word: str, request: requests_html, config: "Config"
+    word: str, request: HTMLResponse, config: "Config"
 ) -> "Iterator[WordPronPair]":
     # For Latin, we don't use the title word from the Wiktionary page,
     # because it never has macrons (necessary for Latin vowel length).

@@ -17,7 +17,8 @@ def can_connect_to_wiktionary() -> bool:
     """Check whether WAN connection to Wiktionary is available."""
     try:
         requests.get(
-            "https://en.wiktionary.org/wiki/linguistics", headers=HTTP_HEADERS
+            "https://en.wiktionary.org/wiki/linguistics",
+            headers=HTTP_HEADERS,
         )
     except (
         requests.exceptions.ConnectionError,

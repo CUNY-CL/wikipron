@@ -24,6 +24,9 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+-   Optimizes scraping with exponential backoff, session reuse, and API timeout. (\#579)
+-   Replaces the unmaintained requests_html package with requests and lxml. (\#579)
+-   Drops Python 3.10 support. (\#579)
 -   Updates Latin XPath selectors. (\#578)
 -   Replaces `--skip-parens`/`--no-skip-parens` with `--parens` accepting
     `skip`, `show`, or `expand`. The `expand` option generates all

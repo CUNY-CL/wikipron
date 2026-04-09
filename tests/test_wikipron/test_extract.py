@@ -1,25 +1,29 @@
 import pytest
-import requests_html
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
-from wikipron.extract.core import _expand_parens, _skip_parens, _skip_pron
+from wikipron.extract.core import (
+    _expand_parens,
+    _skip_parens,
+    _skip_pron,
+)
 from wikipron.extract.default import extract_word_pron_default
+from wikipron.html_utils import HTMLResponse
 
 
 @pytest.mark.parametrize(
-    "func", tuple(EXTRACTION_FUNCTIONS.values()) + (extract_word_pron_default,)
+    "func",
+    tuple(EXTRACTION_FUNCTIONS.values()) + (extract_word_pron_default,),
 )
 def test_extraction_functions_have_the_same_signature(func):
     expected_annotations = {
         "word": str,
-        "request": requests_html,
+        "request": HTMLResponse,
         "config": "Config",
         "return": "Iterator[WordPronPair]",
     }
     actual_annotations = func.__annotations__
-    assert expected_annotations == actual_annotations, (
-        f"{func.__qualname__} does not have the expected function signature.",
-    )
+    msg = f"{func.__qualname__}: unexpected function signature."
+    assert expected_annotations == actual_annotations, msg
 
 
 @pytest.mark.parametrize(
@@ -31,7 +35,7 @@ def test_extraction_functions_have_the_same_signature(func):
         # Spaces in Chinese prons are not skipped.
         ("ɕjɛ tu", "cmn", False, False),
         # Non-breaking spaces are not skipped.
-        ("zinda ɡi", "per", False, False),
+        ("zinda ɡi", "per", False, False),
     ],
 )
 def test__skip_pron(pron, iso639_key, skip_spaces, expected):
@@ -60,7 +64,10 @@ def test__skip_parens(pron, expected):
         ("ən(d)iː", ["əndiː", "əniː"]),
         (
             "mɪskæɹəktəɹ(a)ɪzeɪʃən",
-            ["mɪskæɹəktəɹaɪzeɪʃən", "mɪskæɹəktəɹɪzeɪʃən"],
+            [
+                "mɪskæɹəktəɹaɪzeɪʃən",
+                "mɪskæɹəktəɹɪzeɪʃən",
+            ],
         ),
         (
             "a(b)c(d)e",

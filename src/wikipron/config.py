@@ -6,7 +6,7 @@ import re
 from collections.abc import Callable
 
 import iso639
-import segments
+import segments  # type: ignore[import-untyped]
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.default import extract_word_pron_default

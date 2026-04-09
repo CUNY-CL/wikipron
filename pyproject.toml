@@ -7,7 +7,7 @@ name = "wikipron"
 version = "1.3.3"
 description = "Scraping grapheme-to-phoneme data from Wiktionary"
 readme = "README.md"
-requires-python = ">= 3.10"
+requires-python = ">= 3.11"
 license = { text = "Apache 2.0" }
 authors = [ { name = "WikiPron authors", email = "kylebgorman@gmail.com" } ]
 keywords = [
@@ -20,11 +20,16 @@ keywords = [
     "Wiktionary",
 ]
 dependencies = [
-    'lxml_html_clean',
+    'ipapy >= 0.0.9.0',
+    'lxml >= 5.0.0',
+    'pandas >= 2.2.0',
+    'prettytable >= 2.0.0',
+    'pynini >= 2.1.0; sys_platform == "linux"',
     'python-iso639 >= 2022.11.27',
+    'regex >= 2019.12.9',
     'requests >= 2.32.3',
-    'requests-html',
     'segments >= 2.2.0, < 3',
+    'unicodedataplus >= 15.0.0',
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -33,12 +38,24 @@ classifiers = [
     "Environment :: Console",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
     "Topic :: Text Processing :: Linguistic",
+]
+
+[project.optional-dependencies]
+dev = [
+    'black',
+    'build',
+    'flake8',
+    'mypy',
+    'pytest',
+    'setuptools',
+    'twine',
+    'types-lxml',
+    'types-requests',
 ]
 
 [project.scripts]
