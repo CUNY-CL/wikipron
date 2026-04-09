@@ -27,6 +27,7 @@ HTTP_HEADERS = {
 }
 
 # Exponential backoff parameters for retrying after connection errors.
+# Formula of delay: min(BASE * 2^retries + random(0, 1), MAX)
 _BACKOFF_BASE = 5  # seconds
 _BACKOFF_MAX = 300  # seconds
 
