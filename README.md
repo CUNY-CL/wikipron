@@ -152,18 +152,26 @@ yourself, you may obtain the latest source code through GitHub and `git`:
 
 1.  Create a fork of the `wikipron` repo on your GitHub account.
 
-2.  Locally, make sure you are in some sort of a virtual environment (venv,
-    virtualenv, conda, etc).
-
-3.  Download and install the library in the "editable" mode together with the
-    core and dev dependencies within the virtual environment:
+2.  Clone from your fork:
 
     ```bash
     git clone https://github.com/<your-github-username>/wikipron.git
     cd wikipron
-    pip install -U pip setuptools
-    pip install -r requirements.txt
-    pip install --no-deps -e .
+    ```
+
+3.  Set up a Python virtual environment. We recommend using [uv](https://docs.astral.sh/uv/):
+
+    ```bash
+    uv python install 3.14
+    uv venv --python 3.14
+    source .venv/bin/activate
+    ```
+
+4.  Install WikiPron in the "editable" mode together with the
+    core and dev dependencies:
+
+    ```bash
+    uv pip install -e ".[dev]"
     ```
 
 We keep track of notable changes in

@@ -7,7 +7,7 @@ import typing
 import unicodedata
 
 
-import requests_html
+from wikipron.html_utils import HTMLTree
 
 if typing.TYPE_CHECKING:
     from wikipron.config import Config
@@ -45,7 +45,7 @@ def _expand_parens(pron: str) -> list[str]:
 
 
 def yield_pron(
-    request_html: requests_html.Element,
+    request_html: HTMLTree,
     ipa_xpath_selector: str,
     config: "Config",
 ) -> "Iterator[str]":

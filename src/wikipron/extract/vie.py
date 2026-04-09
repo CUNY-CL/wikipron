@@ -3,7 +3,7 @@
 import itertools
 import typing
 
-import requests_html
+from wikipron.html_utils import HTMLResponse
 
 from wikipron.extract.default import yield_pron, IPA_XPATH_SELECTOR
 
@@ -32,14 +32,14 @@ if typing.TYPE_CHECKING:
 
 
 def extract_pron(
-    request: requests_html, selector: str, config: "Config"
+    request: HTMLResponse, selector: str, config: "Config"
 ) -> "Iterator[str]":
     for pron_element in request.html.xpath(selector):
         yield from yield_pron(pron_element, IPA_XPATH_SELECTOR, config)
 
 
 def extract_word_pron_vie(
-    word: str, request: requests_html, config: "Config"
+    word: str, request: HTMLResponse, config: "Config"
 ) -> "Iterator[WordPronPair]":
     if config.dialect:
         dialect_selector = _DIALECT_XPATH_SELECTOR_TEMPLATE.format(
@@ -48,7 +48,8 @@ def extract_word_pron_vie(
             )
         )
         selector = _PRON_XPATH_SELECTOR_TEMPLATE.format(
-            language=config.language, dialect_selector=dialect_selector
+            language=config.language,
+            dialect_selector=dialect_selector,
         )
         prons = extract_pron(request, selector, config)
     else:

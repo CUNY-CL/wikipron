@@ -2,9 +2,10 @@ import datetime
 import re
 
 import pytest
-import requests_html
+import requests
 
 from wikipron.config import _PHONEMES_REGEX, _PHONES_REGEX
+from wikipron.html_utils import HTMLResponse
 from wikipron.scrape import _PAGE_TEMPLATE, HTTP_HEADERS
 
 from . import can_connect_to_wiktionary, config_factory
@@ -189,10 +190,10 @@ def test_american_english_dialect_selection():
     # Pick a word for which Wiktionary has dialect-specified pronunciations
     # for both US and non-US English.
     word = "mocha"
-    html_session = requests_html.HTMLSession()
-    response = html_session.get(
-        _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
-    )
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
+    raw = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
+    response = HTMLResponse(raw)
     # Construct two configs to demonstrate the US dialect (non-)selection.
     config_only_us = config_factory(key="en", dialect="US | American English")
     config_any_dialect = config_factory(key="en")
@@ -213,11 +214,10 @@ def test_spanish_dialect_selection():
     # Pick a word for which Wiktionary has dialect-specified pronunciations
     # for both Castilian and Latin American Spanish.
     word = "códice"
-    html_session = requests_html.HTMLSession()
-    response = html_session.get(
-        _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
-    )
-    # Construct two configs to demonstrate  dialect (non-)selection.
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
+    raw = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
+    response = HTMLResponse(raw)
     config_only_spain = config_factory(key="es", dialect="Spain | Castilian")
     config_only_la = config_factory(key="es", dialect="Latin America")
     config_any_dialect = config_factory(key="es")
@@ -252,10 +252,10 @@ def test_spanish_dialect_selection():
 )
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 def test_english_pron(word, dialect, segment, expected_pron):
-    html_session = requests_html.HTMLSession()
-    response = html_session.get(
-        _PAGE_TEMPLATE.format(word=word), headers=HTTP_HEADERS
-    )
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
+    raw = session.get(_PAGE_TEMPLATE.format(word=word), timeout=10)
+    response = HTMLResponse(raw)
     config = config_factory(key="en", dialect=dialect, segment=segment)
     pairs = config.extract_word_pron(word, response, config)
     _, pron = next(pairs)

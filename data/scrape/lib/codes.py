@@ -26,9 +26,9 @@ import re
 
 import iso639
 import requests
-import requests_html  # type: ignore
 
 import wikipron
+from wikipron.html_utils import HTMLResponse
 from wikipron.scrape import HTTP_HEADERS
 
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
@@ -123,13 +123,14 @@ def _scrape_wiktionary_language_code(lang_title: str) -> str:
             ]//td
                 /code
     """
-    session = requests_html.HTMLSession()
-    language_page = session.get(
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
+    response = session.get(
         f"https://en.wiktionary.org/wiki/Category:{lang_title}_language",
         timeout=10,
-        headers=HTTP_HEADERS,
     )
-    return language_page.html.xpath(lang_code_selector)[0].text
+    page = HTMLResponse(response)
+    return page.html.xpath(lang_code_selector)[0].text
 
 
 def _check_language_code_against_wiki(

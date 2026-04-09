@@ -3,7 +3,7 @@
 import itertools
 import typing
 
-import requests_html
+from wikipron.html_utils import HTMLResponse
 
 from wikipron.extract.default import yield_pron
 
@@ -25,7 +25,7 @@ if typing.TYPE_CHECKING:
 
 
 def extract_word_pron_shan(
-    word: str, request: requests_html, config: "Config"
+    word: str, request: HTMLResponse, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     prons = yield_pron(request.html, _IPA_XPATH_SELECTOR, config)

@@ -1,3 +1,4 @@
+import random
 import re
 import time
 import unicodedata
@@ -6,9 +7,9 @@ from importlib.metadata import version
 from typing import Any
 
 import requests
-import requests_html
 
 from wikipron.config import Config
+from wikipron.html_utils import HTMLResponse
 from wikipron.typing import Iterator, WordPronPair
 
 # Queries for the MediaWiki backend.
@@ -24,6 +25,10 @@ HTTP_HEADERS = {
         f"requests/{requests.__version__}"
     ),
 }
+
+# Exponential backoff parameters for retrying after connection errors.
+_BACKOFF_BASE = 5  # seconds
+_BACKOFF_MAX = 300  # seconds
 
 
 def _skip_word(word: str, skip_spaces: bool) -> bool:
@@ -46,8 +51,9 @@ def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word > cut_off_date
 
 
-def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
-    session = requests_html.HTMLSession()
+def _scrape_once(
+    data, session: requests.Session, config: Config
+) -> Iterator[WordPronPair]:
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
@@ -56,9 +62,8 @@ def _scrape_once(data, config: Config) -> Iterator[WordPronPair]:
             timestamp, config.cut_off_date
         ):
             continue
-        request = session.get(
-            _PAGE_TEMPLATE.format(word=title), timeout=10, headers=HTTP_HEADERS
-        )
+        response = session.get(_PAGE_TEMPLATE.format(word=title), timeout=10)
+        request = HTMLResponse(response)
 
         for word, pron in config.extract_word_pron(title, request, config):
             # Pronunciation processing is done in NFD-space;
@@ -74,11 +79,9 @@ def _language_name_for_scraping(language):
     We'll keep this function as simple as possible, until it becomes too
     complicated and requires refactoring.
     """
-    return (
-        "Chinese"
-        if language == "Cantonese" or language == "Min Nan"
-        else language
-    )
+    if language == "Cantonese" or language == "Min Nan":
+        return "Chinese"
+    return language
 
 
 def scrape(config: Config) -> Iterator[WordPronPair]:
@@ -94,14 +97,18 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
         "cmlimit": "500",
         "cmprop": "ids|title|timestamp|sortkey",
     }
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
+    retries = 0
     while True:
-        data = requests.get(
-            "https://en.wiktionary.org/w/api.php?",
-            params=requests_params,
-            headers=HTTP_HEADERS,
-        ).json()
         try:
-            yield from _scrape_once(data, config)
+            data = session.get(
+                "https://en.wiktionary.org/w/api.php?",
+                params=requests_params,
+                timeout=30,
+            ).json()
+            yield from _scrape_once(data, session, config)
+            retries = 0
             if "continue" not in data:
                 break
             continue_code = data["continue"]["cmcontinue"]
@@ -115,7 +122,9 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             requests.exceptions.ConnectionError,
         ):
             requests_params.update({"cmstarthexsortkey": config.restart_key})
-            # 5 minute timeout. Immediately restarting after the
-            # connection has dropped appears to have led to
-            # 'Connection reset by peer' errors.
-            time.sleep(300)
+            delay = min(
+                _BACKOFF_BASE * (2**retries) + random.uniform(0, 1),
+                _BACKOFF_MAX,
+            )
+            time.sleep(delay)
+            retries += 1

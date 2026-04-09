@@ -3,7 +3,8 @@
 import itertools
 import typing
 
-import requests_html
+from wikipron.html_utils import HTMLResponse
+
 import re
 
 from wikipron.extract.default import yield_pron
@@ -16,9 +17,7 @@ if typing.TYPE_CHECKING:
 IPA_XPATH_SELECTOR = '//span[contains(@class, "IPA")]'
 
 
-def yield_eng_pron(
-    request: requests_html, config: "Config"
-) -> "Iterator[str]":
+def yield_eng_pron(request: HTMLResponse, config: "Config") -> "Iterator[str]":
     for li_container in request.html.xpath(config.pron_xpath_selector):
         for pron in yield_pron(li_container, IPA_XPATH_SELECTOR, config):
             # Replaces the trilled /r/ with /ɹ/.
@@ -29,7 +28,7 @@ def yield_eng_pron(
 
 
 def extract_word_pron_eng(
-    word: str, request: requests_html, config: "Config"
+    word: str, request: HTMLResponse, config: "Config"
 ) -> "Iterator[WordPronPair]":
     words = itertools.repeat(word)
     prons = yield_eng_pron(request, config)
