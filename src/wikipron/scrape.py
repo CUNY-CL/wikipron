@@ -127,6 +127,7 @@ def iter_page_responses(
         except (
             requests.exceptions.Timeout,
             requests.exceptions.ConnectionError,
+            requests.exceptions.JSONDecodeError,
         ):
             requests_params.update({"cmstarthexsortkey": config.restart_key})
             delay = min(

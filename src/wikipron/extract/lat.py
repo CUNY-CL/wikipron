@@ -53,13 +53,7 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-_TOC_ETYMOLOGY_XPATH_SELECTOR = """
-//a[@href = "#Latin"]
-  /following-sibling::ul
-    /li
-      /a
-        [starts-with(@href, "#Etymology")]
-"""
+_HEADING_XPATH_SELECTOR = '//div[contains(@class, "mw-heading")]'
 
 _PRON_XPATH_TEMPLATE = """
 //div[{heading}[@id = "{tag}"]]
@@ -74,7 +68,9 @@ _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE = """
   and
   span[contains(@class, "IPA")]
   and
-  span[contains(@class, "ib-content") and a[{dialects_text}]]
+  .//span[(contains(@class, "ib-content")
+           or contains(@class, "label-content"))
+          and a[{dialects_text}]]
 ]
 """
 
@@ -86,13 +82,25 @@ _WORD_XPATH_TEMPLATE = """
 
 
 def _get_tags(request: HTMLResponse) -> list[str]:
-    """Extract the Latin Etymology ID tags from the table of contents."""
+    """Extract the Latin Etymology ID tags from the page content."""
     tags = []
-    for a_element in request.html.xpath(_TOC_ETYMOLOGY_XPATH_SELECTOR):
-        tag = a_element.attrs["href"].lstrip("#")
-        tags.append(tag)
-    # If the entry doesn't have etymology sections, we target the "Latin"
-    # language section directly.
+    found_latin = False
+    for heading in request.html.xpath(_HEADING_XPATH_SELECTOR):
+        h2s = heading.xpath("h2")
+        if h2s:
+            tag_id = h2s[0].attrs.get("id", "")
+            if tag_id == "Latin":
+                found_latin = True
+            elif found_latin:
+                break
+            continue
+        if not found_latin:
+            continue
+        h3s = heading.xpath("h3")
+        if h3s:
+            tag_id = h3s[0].attrs.get("id", "")
+            if tag_id.startswith("Etymology"):
+                tags.append(tag_id)
     if not tags:
         tags = ["Latin"]
     return tags
@@ -121,7 +129,8 @@ def _yield_latin_pron(
     if config.dialect:
         dialect_selector = _PRON_WITH_DIALECT_XPATH_SELECTOR_TEMPLATE.format(
             dialects_text=" or ".join(
-                f'text() = "{d.strip()}"' for d in config.dialect.split("|")
+                f'contains(text(), "{d.strip()}")'
+                for d in config.dialect.split("|")
             )
         )
     else:

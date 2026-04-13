@@ -241,11 +241,11 @@ kxd_latn_broad.tsv	kxd	Brunei	Brunei Malay	Latin		False	Broad	351
 kyu_kali_broad.tsv	kyu	Western Kayah	Western Kayah	Kayah Li		False	Broad	128
 lad_latn_broad.tsv	lad	Ladino	Ladino	Latin		False	Broad	120
 lao_laoo_narrow.tsv	lao	Lao	Lao	Lao		False	Narrow	4180
-lat_latn_clas_broad.tsv	lat	Latin	Latin	Latin	Classical	False	Broad	36066
-lat_latn_clas_broad_filtered.tsv	lat	Latin	Latin	Latin	Classical	True	Broad	35200
-lat_latn_clas_narrow.tsv	lat	Latin	Latin	Latin	Classical	False	Narrow	36068
-lat_latn_eccl_broad.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Broad	34974
-lat_latn_eccl_narrow.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Narrow	35564
+lat_latn_clas_broad.tsv	lat	Latin	Latin	Latin	Classical	False	Broad	25711
+lat_latn_clas_broad_filtered.tsv	lat	Latin	Latin	Latin	Classical	True	Broad	5461
+lat_latn_clas_narrow.tsv	lat	Latin	Latin	Latin	Classical	False	Narrow	102730
+lat_latn_eccl_broad.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Broad	33485
+lat_latn_eccl_narrow.tsv	lat	Latin	Latin	Latin	Ecclesiastical	False	Narrow	141209
 lav_latn_narrow.tsv	lav	Latvian	Latvian	Latin		False	Narrow	1355
 lav_latn_narrow_filtered.tsv	lav	Latvian	Latvian	Latin		True	Narrow	1255
 lif_limb_broad.tsv	lif	Limbu	Limbu	Limbu		False	Broad	108
