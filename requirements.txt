@@ -106,7 +106,7 @@ pyparsing==3.3.2
     # via rdflib
 pyproject-hooks==1.2.0
     # via build
-pytest==9.0.2
+pytest==9.0.3
     # via wikipron (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via
