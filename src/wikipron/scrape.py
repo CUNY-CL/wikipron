@@ -90,8 +90,9 @@ def iter_page_responses(
     HTMLResponse into (word, pron) pairs themselves (typically by
     calling ``config.extract_word_pron``).
 
-    Only the language/dialect/cut-off-date/skip-spaces-word settings
-    on ``config`` are consulted; ``narrow`` and ``ipa_regex`` are not.
+    Only the language/cut-off-date/skip-spaces-word settings
+    on ``config`` are consulted; ``narrow``, ``dialect``, and
+    ``ipa_regex`` are not.
     """
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)

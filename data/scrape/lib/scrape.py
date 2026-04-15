@@ -54,9 +54,10 @@ def scrape_multi(
 ) -> Iterator[tuple[int, tuple[str, str]]]:
     """Run extractors from several configs against a single page fetch.
 
-    All configs must share language, dialect, cut_off_date, and
+    All configs must share language, cut_off_date, and
     skip_spaces_word — anything that affects which pages get fetched.
-    Only post-parse-filtering settings (notably ``narrow``) may differ.
+    Only post-parse-filtering settings (notably ``narrow`` and
+    ``dialect``) may differ.
     Yields ``(config_index, (word, pron))`` so callers can route each
     pair to the right output bucket.
     """
@@ -66,7 +67,6 @@ def scrape_multi(
     for other in configs[1:]:
         for attr in (
             "language",
-            "dialect",
             "cut_off_date",
             "skip_spaces_word",
         ):
@@ -114,7 +114,7 @@ def _call_scrape_multi(
 
 def build_scraping_config(
     config_settings: dict[str, Any], path_affix: str, phones_path_affix: str
-) -> None:
+) -> tuple[list[wikipron.Config], list[dict[str, Any]]]:
     broad_config = wikipron.Config(**config_settings)
     narrow_config = wikipron.Config(narrow=True, **config_settings)
     output_specs: list[dict[str, Any]] = []
@@ -150,7 +150,7 @@ def build_scraping_config(
         narrow_spec["phones_set"] = frozenset(_phones_reader(phones_narrow))
         narrow_spec["tsv_filtered_path"] = f"{path_affix}narrow_filtered.tsv"
     output_specs.append(narrow_spec)
-    _call_scrape_multi([broad_config, narrow_config], output_specs)
+    return [broad_config, narrow_config], output_specs
 
 
 def main(args: argparse.Namespace) -> None:
@@ -218,23 +218,30 @@ def main(args: argparse.Namespace) -> None:
             "cut_off_date": cut_off_date,
             **wikipron_accepted_settings,
         }
+        all_configs: list[wikipron.Config] = []
+        all_specs: list[dict[str, Any]] = []
         if "dialect" not in language_settings:
-            build_scraping_config(
+            configs, specs = build_scraping_config(
                 config_settings,
                 f"{TSV_DIRECTORY}/{config_settings['key']}_",
                 f"{PHONES_DIRECTORY}/{config_settings['key']}_",
             )
+            all_configs.extend(configs)
+            all_specs.extend(specs)
         else:
             for dialect_key, dialect_value in language_settings[
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
-                build_scraping_config(
+                configs, specs = build_scraping_config(
                     config_settings,
                     f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
                     f"{PHONES_DIRECTORY}/"
                     f"{config_settings['key']}_{dialect_key}_",
                 )
+                all_configs.extend(configs)
+                all_specs.extend(specs)
+        _call_scrape_multi(all_configs, all_specs)
         remaining.remove(code)
         with open(UNSCRAPED_JSON_FILENAME, "w") as f:
             unscraped = {

@@ -82,11 +82,12 @@ def test_file_creation(
             write_dummy_phones_files(
                 f"{temp_dir}/phones", iso_key, dialect_affix
             )
-        scrape.build_scraping_config(
+        configs, specs = scrape.build_scraping_config(
             config_settings={"key": iso_key},
             path_affix=f"{temp_dir}/tsv/{iso_key}_{dialect_affix}",
             phones_path_affix=f"{temp_dir}/phones/{iso_key}_{dialect_affix}",
         )
+        scrape._call_scrape_multi(configs, specs)
         tsv_contents = os.listdir(f"{temp_dir}/tsv")
 
     for produced_file in tsv_contents:
