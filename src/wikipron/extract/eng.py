@@ -14,7 +14,7 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-IPA_XPATH_SELECTOR = '//span[contains(@class, "IPA")]'
+IPA_XPATH_SELECTOR = './/span[contains(@class, "IPA")]'
 
 
 def yield_eng_pron(request: HTMLResponse, config: "Config") -> "Iterator[str]":
