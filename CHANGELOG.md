@@ -12,8 +12,11 @@ Unreleased
 
 ### Under `data/`
 
--  Adds Uzbek (`uzb`). (\#565)
+-  Updates Latin (`lat`). (\#580)
+-  Implements multi-config scraping, avoiding redundant HTTP requests for the same
+   Wiktionary page for all combinations of broad/narrow transcriptions and dialects. (\#580)
 -  Updates English (`eng`). (\#568)
+-  Adds Uzbek (`uzb`). (\#565)
 
 #### Changed
 
