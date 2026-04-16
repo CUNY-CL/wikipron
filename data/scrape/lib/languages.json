@@ -1242,8 +1242,7 @@
         "wiktionary_code": "la",
         "dialect": {
             "clas": "Classical",
-            "eccl": "Ecclesiastical",
-            "vulg": "Vulgar"
+            "eccl": "Ecclesiastical"
         },
         "script": {
             "latn": "Latin",
