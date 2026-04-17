@@ -1,9 +1,15 @@
 {
+    "cel-bry-pro": {
+        "wiktionary_name": "Proto-Brythonic"
+    },
+    "gem-pro": {
+        "wiktionary_name": "Proto-Germanic"
+    },
+    "gmq-scy": {
+        "wiktionary_name": "Scanian"
+    },
     "gmw-cfr": {
         "wiktionary_name": "Central Franconian"
-    },
-    "nds-de": {
-        "wiktionary_name": "German Low German"
     },
     "gmw-jdt": {
         "wiktionary_name": "Jersey Dutch"
@@ -11,23 +17,11 @@
     "grk-mar": {
         "wiktionary_name": "Mariupol Greek"
     },
-    "zlw-ocs": {
-        "wiktionary_name": "Old Czech"
-    },
-    "roa-opt": {
-        "wiktionary_name": "Old Galician-Portuguese"
-    },
-    "zlw-opl": {
-        "wiktionary_name": "Old Polish"
-    },
     "map-pro": {
         "wiktionary_name": "Proto-Austronesian"
     },
-    "cel-bry-pro": {
-        "wiktionary_name": "Proto-Brythonic"
-    },
-    "gem-pro": {
-        "wiktionary_name": "Proto-Germanic"
+    "nds-de": {
+        "wiktionary_name": "German Low German"
     },
     "poz-mly-pro": {
         "wiktionary_name": "Proto-Malayic"
@@ -35,7 +29,13 @@
     "poz-pro": {
         "wiktionary_name": "Proto-Malayo-Polynesian"
     },
-    "gmq-scy": {
-        "wiktionary_name": "Scanian"
+    "roa-opt": {
+        "wiktionary_name": "Old Galician-Portuguese"
+    },
+    "zlw-ocs": {
+        "wiktionary_name": "Old Czech"
+    },
+    "zlw-opl": {
+        "wiktionary_name": "Old Polish"
     }
 }

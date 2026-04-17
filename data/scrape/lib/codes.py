@@ -202,10 +202,11 @@ def main() -> None:
                     **core_settings,
                 }
             _check_language_code_against_wiki(iso639_code, wiktionary_name)
+    dump_kwargs = {"indent": 4, "ensure_ascii": False, "sort_keys": True}
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
-        json.dump(new_languages, sink, indent=4, ensure_ascii=False)
+        json.dump(new_languages, sink, **dump_kwargs)  # type: ignore[arg-type]
     with open(UNMATCHED_LANGUAGES_PATH, "w", encoding="utf-8") as sink:
-        json.dump(unmatched_languages, sink, indent=4, ensure_ascii=False)
+        json.dump(unmatched_languages, sink, **dump_kwargs)  # type: ignore[arg-type]  # noqa: E501
 
 
 if __name__ == "__main__":
