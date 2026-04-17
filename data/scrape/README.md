@@ -1,11 +1,11 @@
 * Languages: 307
-  * Broad transcription files: 310
+  * Broad transcription files: 307
   * Narrow transcription files: 175
 * Dialects: 17
-  * Broad transcription files: 25
+  * Broad transcription files: 22
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 3,965,953
+* Pronunciations: 3,904,091
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -253,11 +253,8 @@
 | [TSV](tsv/kyu_kali_broad.tsv) | kyu | Western Kayah | Western Kayah | Kayah Li |  | False | Broad | 128 |
 | [TSV](tsv/lad_latn_broad.tsv) | lad | Ladino | Ladino | Latin |  | False | Broad | 120 |
 | [TSV](tsv/lao_laoo_narrow.tsv) | lao | Lao | Lao | Lao |  | False | Narrow | 4,180 |
-| [TSV](tsv/lat_latn_clas_broad.tsv) | lat | Latin | Latin | Latin | Classical | False | Broad | 36,066 |
-| [TSV](tsv/lat_latn_clas_broad_filtered.tsv) | lat | Latin | Latin | Latin | Classical | True | Broad | 35,200 |
-| [TSV](tsv/lat_latn_clas_narrow.tsv) | lat | Latin | Latin | Latin | Classical | False | Narrow | 36,068 |
-| [TSV](tsv/lat_latn_eccl_broad.tsv) | lat | Latin | Latin | Latin | Ecclesiastical | False | Broad | 34,974 |
-| [TSV](tsv/lat_latn_eccl_narrow.tsv) | lat | Latin | Latin | Latin | Ecclesiastical | False | Narrow | 35,564 |
+| [TSV](tsv/lat_latn_clas_narrow.tsv) | lat | Latin | Latin | Latin | Classical | False | Narrow | 41,312 |
+| [TSV](tsv/lat_latn_eccl_narrow.tsv) | lat | Latin | Latin | Latin | Ecclesiastical | False | Narrow | 39,498 |
 | [TSV](tsv/lav_latn_narrow.tsv) | lav | Latvian | Latvian | Latin |  | False | Narrow | 1,355 |
 | [TSV](tsv/lav_latn_narrow_filtered.tsv) | lav | Latvian | Latvian | Latin |  | True | Narrow | 1,255 |
 | [TSV](tsv/lif_limb_broad.tsv) | lif | Limbu | Limbu | Limbu |  | False | Broad | 108 |

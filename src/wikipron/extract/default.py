@@ -12,7 +12,7 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-IPA_XPATH_SELECTOR = '//span[contains(@class, "IPA")]'
+IPA_XPATH_SELECTOR = './/span[contains(@class, "IPA")]'
 
 
 def _yield_phn(request: HTMLResponse, config: "Config") -> "Iterator[str]":

@@ -2,16 +2,19 @@
 """Runs the big scrape."""
 
 import argparse
+import contextlib
 import datetime
 import json
 import logging
 import os
 import re
+import unicodedata
 
 from collections.abc import Iterator
 from typing import Any
 
-import wikipron  # type: ignore
+import wikipron
+from wikipron.scrape import iter_page_responses
 
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
@@ -46,37 +49,81 @@ def _filter(word: str, pron: str, phones: frozenset[str]) -> bool:
         return True
 
 
-def _call_scrape(
-    lang_settings: dict[str, str],
-    config: wikipron.Config,
-    tsv_path: str,
-    phones_set: frozenset[str] | None = None,
-    tsv_filtered_path: str = "",
+def scrape_multi(
+    configs: list[wikipron.Config],
+) -> Iterator[tuple[int, tuple[str, str]]]:
+    """Run extractors from several configs against a single page fetch.
+
+    All configs must share language, cut_off_date, and
+    skip_spaces_word — anything that affects which pages get fetched.
+    Only post-parse-filtering settings (notably ``narrow`` and
+    ``dialect``) may differ.
+    Yields ``(config_index, (word, pron))`` so callers can route each
+    pair to the right output bucket.
+    """
+    if not configs:
+        return
+    lead = configs[0]
+    for other in configs[1:]:
+        for attr in (
+            "language",
+            "cut_off_date",
+            "skip_spaces_word",
+        ):
+            if getattr(other, attr) != getattr(lead, attr):
+                raise ValueError(
+                    f"scrape_multi configs must agree on {attr!r}: "
+                    f"{getattr(lead, attr)!r} vs {getattr(other, attr)!r}"
+                )
+    for title, request in iter_page_responses(lead):
+        for idx, config in enumerate(configs):
+            for word, pron in config.extract_word_pron(title, request, config):
+                yield idx, (word, unicodedata.normalize("NFC", pron))
+
+
+def _call_scrape_multi(
+    configs: list[wikipron.Config],
+    output_specs: list[dict[str, Any]],
 ) -> None:
-    with open(tsv_path, "w", encoding="utf-8") as source:
-        scrape_results = wikipron.scrape(config)
-        # Given phones, opens up a second TSV for scraping.
-        if phones_set:
-            with open(
-                tsv_filtered_path, "w", encoding="utf-8"
-            ) as source_filtered:
-                for word, pron in scrape_results:
-                    line = f"{word}\t{pron}"
-                    if _filter(word, pron, phones_set):
-                        print(line, file=source_filtered)
-                    print(line, file=source)
-        else:
-            for word, pron in scrape_results:
-                print(f"{word}\t{pron}", file=source)
+    with contextlib.ExitStack() as stack:
+        sources = [
+            stack.enter_context(open(spec["tsv_path"], "w", encoding="utf-8"))
+            for spec in output_specs
+        ]
+        filtered_sources: list[Any] = []
+        for spec in output_specs:
+            if spec["phones_set"] is not None:
+                filtered_sources.append(
+                    stack.enter_context(
+                        open(
+                            spec["tsv_filtered_path"],
+                            "w",
+                            encoding="utf-8",
+                        )
+                    )
+                )
+            else:
+                filtered_sources.append(None)
+        for idx, (word, pron) in scrape_multi(configs):
+            line = f"{word}\t{pron}"
+            print(line, file=sources[idx])
+            phones_set = output_specs[idx]["phones_set"]
+            if phones_set is not None and _filter(word, pron, phones_set):
+                print(line, file=filtered_sources[idx])
 
 
 def build_scraping_config(
     config_settings: dict[str, Any], path_affix: str, phones_path_affix: str
-) -> None:
-    # Configures broad TSV.
+) -> tuple[list[wikipron.Config], list[dict[str, Any]]]:
     broad_config = wikipron.Config(**config_settings)
-    broad_path = f"{path_affix}broad.tsv"
-    # Checks for broad phones file.
+    narrow_config = wikipron.Config(narrow=True, **config_settings)
+    output_specs: list[dict[str, Any]] = []
+    # Broad bucket.
+    broad_spec: dict[str, Any] = {
+        "tsv_path": f"{path_affix}broad.tsv",
+        "phones_set": None,
+        "tsv_filtered_path": None,
+    }
     phones_broad = f"{phones_path_affix}broad.phones"
     if os.path.exists(phones_broad):
         logging.info(
@@ -84,21 +131,15 @@ def build_scraping_config(
             config_settings["key"],
             phones_broad,
         )
-        broad_path_filtered = f"{path_affix}broad_filtered.tsv"
-        phoneme_set = frozenset(_phones_reader(phones_broad))
-        _call_scrape(
-            config_settings,
-            broad_config,
-            broad_path,
-            phoneme_set,
-            broad_path_filtered,
-        )
-    else:
-        _call_scrape(config_settings, broad_config, broad_path)
-    # Configures narrow TSV.
-    narrow_config = wikipron.Config(narrow=True, **config_settings)
-    narrow_path = f"{path_affix}narrow.tsv"
-    # Checks for narrow phones file.
+        broad_spec["phones_set"] = frozenset(_phones_reader(phones_broad))
+        broad_spec["tsv_filtered_path"] = f"{path_affix}broad_filtered.tsv"
+    output_specs.append(broad_spec)
+    # Narrow bucket.
+    narrow_spec: dict[str, Any] = {
+        "tsv_path": f"{path_affix}narrow.tsv",
+        "phones_set": None,
+        "tsv_filtered_path": None,
+    }
     phones_narrow = f"{phones_path_affix}narrow.phones"
     if os.path.exists(phones_narrow):
         logging.info(
@@ -106,17 +147,10 @@ def build_scraping_config(
             config_settings["key"],
             phones_narrow,
         )
-        narrow_path_filtered = f"{path_affix}narrow_filtered.tsv"
-        phone_set = frozenset(_phones_reader(phones_narrow))
-        _call_scrape(
-            config_settings,
-            narrow_config,
-            narrow_path,
-            phone_set,
-            narrow_path_filtered,
-        )
-    else:
-        _call_scrape(config_settings, narrow_config, narrow_path)
+        narrow_spec["phones_set"] = frozenset(_phones_reader(phones_narrow))
+        narrow_spec["tsv_filtered_path"] = f"{path_affix}narrow_filtered.tsv"
+    output_specs.append(narrow_spec)
+    return [broad_config, narrow_config], output_specs
 
 
 def main(args: argparse.Namespace) -> None:
@@ -184,23 +218,30 @@ def main(args: argparse.Namespace) -> None:
             "cut_off_date": cut_off_date,
             **wikipron_accepted_settings,
         }
+        all_configs: list[wikipron.Config] = []
+        all_specs: list[dict[str, Any]] = []
         if "dialect" not in language_settings:
-            build_scraping_config(
+            configs, specs = build_scraping_config(
                 config_settings,
                 f"{TSV_DIRECTORY}/{config_settings['key']}_",
                 f"{PHONES_DIRECTORY}/{config_settings['key']}_",
             )
+            all_configs.extend(configs)
+            all_specs.extend(specs)
         else:
             for dialect_key, dialect_value in language_settings[
                 "dialect"
             ].items():
                 config_settings["dialect"] = dialect_value
-                build_scraping_config(
+                configs, specs = build_scraping_config(
                     config_settings,
                     f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
                     f"{PHONES_DIRECTORY}/"
                     f"{config_settings['key']}_{dialect_key}_",
                 )
+                all_configs.extend(configs)
+                all_specs.extend(specs)
+        _call_scrape_multi(all_configs, all_specs)
         remaining.remove(code)
         with open(UNSCRAPED_JSON_FILENAME, "w") as f:
             unscraped = {

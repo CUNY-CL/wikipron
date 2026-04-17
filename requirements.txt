@@ -11,7 +11,7 @@ beautifulsoup4==4.14.3
     # via types-lxml
 black==26.3.1
     # via wikipron (pyproject.toml)
-build==1.4.2
+build==1.4.3
     # via wikipron (pyproject.toml)
 certifi==2026.2.25
     # via requests
@@ -51,9 +51,9 @@ keyring==25.7.0
     # via twine
 language-tags==1.2.0
     # via csvw
-librt==0.8.1
+librt==0.9.0
     # via mypy
-lxml==5.4.0
+lxml==6.0.4
     # via wikipron (pyproject.toml)
 markdown-it-py==4.0.0
     # via rich
@@ -61,11 +61,11 @@ mccabe==0.7.0
     # via flake8
 mdurl==0.1.2
     # via markdown-it-py
-more-itertools==11.0.1
+more-itertools==11.0.2
     # via
     #   jaraco-classes
     #   jaraco-functools
-mypy==1.20.0
+mypy==1.20.1
     # via wikipron (pyproject.toml)
 mypy-extensions==1.1.0
     # via
@@ -106,7 +106,7 @@ pyparsing==3.3.2
     # via rdflib
 pyproject-hooks==1.2.0
     # via build
-pytest==9.0.2
+pytest==9.0.3
     # via wikipron (pyproject.toml)
 python-dateutil==2.9.0.post0
     # via
@@ -140,7 +140,7 @@ rfc3986==1.5.0
     # via
     #   csvw
     #   twine
-rich==14.3.3
+rich==15.0.0
     # via twine
 rpds-py==0.30.0
     # via

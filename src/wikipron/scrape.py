@@ -52,9 +52,9 @@ def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word > cut_off_date
 
 
-def _scrape_once(
+def _iter_page_responses_once(
     data, session: requests.Session, config: Config
-) -> Iterator[WordPronPair]:
+) -> "Iterator[tuple[str, HTMLResponse]]":
     for member in data["query"]["categorymembers"]:
         title = member["title"]
         timestamp = member["timestamp"]
@@ -64,13 +64,7 @@ def _scrape_once(
         ):
             continue
         response = session.get(_PAGE_TEMPLATE.format(word=title), timeout=10)
-        request = HTMLResponse(response)
-
-        for word, pron in config.extract_word_pron(title, request, config):
-            # Pronunciation processing is done in NFD-space;
-            # we convert back to NFC afterwards.
-            normalized_pron = unicodedata.normalize("NFC", pron)
-            yield word, normalized_pron
+        yield title, HTMLResponse(response)
 
 
 def _language_name_for_scraping(language):
@@ -85,8 +79,21 @@ def _language_name_for_scraping(language):
     return language
 
 
-def scrape(config: Config) -> Iterator[WordPronPair]:
-    """Scrapes with a given configuration."""
+def iter_page_responses(
+    config: Config,
+) -> "Iterator[tuple[str, HTMLResponse]]":
+    """Yield (page_title, HTMLResponse) for each candidate word.
+
+    Handles MediaWiki category pagination, exponential backoff on
+    transient errors, per-word skip filters, and ``restart_key``
+    bookkeeping. Does NOT run any extractor — callers convert each
+    HTMLResponse into (word, pron) pairs themselves (typically by
+    calling ``config.extract_word_pron``).
+
+    Only the language/cut-off-date/skip-spaces-word settings
+    on ``config`` are consulted; ``narrow``, ``dialect``, and
+    ``ipa_regex`` are not.
+    """
     category = _CATEGORY_TEMPLATE.format(
         language=_language_name_for_scraping(config.language)
     )
@@ -108,7 +115,7 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
                 params=requests_params,
                 timeout=30,
             ).json()
-            yield from _scrape_once(data, session, config)
+            yield from _iter_page_responses_once(data, session, config)
             retries = 0
             if "continue" not in data:
                 break
@@ -121,6 +128,7 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
         except (
             requests.exceptions.Timeout,
             requests.exceptions.ConnectionError,
+            requests.exceptions.JSONDecodeError,
         ):
             requests_params.update({"cmstarthexsortkey": config.restart_key})
             delay = min(
@@ -129,3 +137,12 @@ def scrape(config: Config) -> Iterator[WordPronPair]:
             )
             time.sleep(delay)
             retries += 1
+
+
+def scrape(config: Config) -> Iterator[WordPronPair]:
+    """Scrapes with a given configuration."""
+    for title, request in iter_page_responses(config):
+        for word, pron in config.extract_word_pron(title, request, config):
+            # Pronunciation processing is done in NFD-space;
+            # we convert back to NFC afterwards.
+            yield word, unicodedata.normalize("NFC", pron)
