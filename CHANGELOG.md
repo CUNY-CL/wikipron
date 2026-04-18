@@ -12,9 +12,10 @@ Unreleased
 
 ### Under `data/`
 
--  Updates Latin (`lat`). (\#580)
+-  Sort `languages.json` and `unmatched_languages.json` by keys alphabetically. (\#582)
+-  Updates Latin (`lat`). (\#581)
 -  Implements multi-config scraping, avoiding redundant HTTP requests for the same
-   Wiktionary page for all combinations of broad/narrow transcriptions and dialects. (\#580)
+   Wiktionary page for all combinations of broad/narrow transcriptions and dialects. (\#581)
 -  Updates English (`eng`). (\#568)
 -  Adds Uzbek (`uzb`). (\#565)
 
