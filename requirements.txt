@@ -53,7 +53,7 @@ language-tags==1.2.0
     # via csvw
 librt==0.9.0
     # via mypy
-lxml==6.0.4
+lxml==6.1.0
     # via wikipron (pyproject.toml)
 markdown-it-py==4.0.0
     # via rich
