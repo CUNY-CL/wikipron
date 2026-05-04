@@ -51,6 +51,9 @@ _SMOKE_TEST_LANGUAGES = [
     ),
     SmokeTestLanguage("yue", "Cantonese", {"skip_spaces_pron": False}),
     SmokeTestLanguage("blt", "Tai Dam", {"narrow": True}),
+    # Min Nan pronunciations are non-IPA romanizations (POJ, Peng'im,
+    # Leizhou Pinyin) and may contain spaces in multi-syllable forms.
+    SmokeTestLanguage("nan", "Min Nan", {"skip_spaces_pron": False}),
 ]
 
 

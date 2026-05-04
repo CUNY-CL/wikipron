@@ -76,10 +76,11 @@ LANGUAGE_CODES = {
     # Middle Dutch. Would be "Middle Dutch (ca. 1050-1350)" in ISO 639-3.
     "dum": "Middle Dutch",
     "middle dutch": "Middle Dutch",
-    # Min Nan. Would be "Min Nan Chinese" in ISO 639-3.
+    # Min Nan / Southern Min. Would be "Min Nan Chinese" in ISO 639-3.
     "nan": "Min Nan",
     "min nan": "Min Nan",
     "min nan chinese": "Min Nan",
+    "southern min": "Min Nan",
     # North Frisian. Would be "Northern Frisian" in ISO 639-3.
     "frr": "North Frisian",
     "north frisian": "North Frisian",

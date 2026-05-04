@@ -1663,7 +1663,9 @@
         "wiktionary_code": "nan",
         "skip_spaces_pron": false,
         "dialect": {
-            "xi": "Xiamen"
+            "hokkien": "Hokkien",
+            "teochew": "Teochew",
+            "leizhou": "Leizhou"
         },
         "script": {
             "zyyy": "Common",
