@@ -45,6 +45,12 @@ def _selector_for(dialect: typing.Optional[str]) -> str:
 def extract_word_pron_nan(
     word: str, request: HTMLResponse, config: "Config"
 ) -> "Iterator[WordPronPair]":
+    # Min Nan pronunciations on Wiktionary are non-IPA romanizations
+    # (POJ, Peng'im, Leizhou Pinyin), so the broad-vs-narrow IPA
+    # distinction does not apply; emit nothing for narrow runs to
+    # avoid producing duplicates of the broad output.
+    if config.narrow:
+        return
     selector = _selector_for(config.dialect)
     words = itertools.repeat(word)
     prons = (

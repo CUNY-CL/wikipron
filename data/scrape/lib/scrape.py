@@ -86,8 +86,15 @@ def _call_scrape_multi(
     output_specs: list[dict[str, Any]],
 ) -> None:
     with contextlib.ExitStack() as stack:
+        # buffering=1 → line-buffered, so partial output is visible
+        # on disk immediately. Without it, with many output sinks
+        # (e.g., several dialects x broad/narrow), per-file buffers
+        # can sit unflushed for hours and a long-running scrape
+        # looks dead from the outside.
         sources = [
-            stack.enter_context(open(spec["tsv_path"], "w", encoding="utf-8"))
+            stack.enter_context(
+                open(spec["tsv_path"], "w", encoding="utf-8", buffering=1)
+            )
             for spec in output_specs
         ]
         filtered_sources: list[Any] = []
@@ -99,6 +106,7 @@ def _call_scrape_multi(
                             spec["tsv_filtered_path"],
                             "w",
                             encoding="utf-8",
+                            buffering=1,
                         )
                     )
                 )
