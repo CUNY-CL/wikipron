@@ -11,6 +11,7 @@ the Zhengzhang Shangfang anchor.
 """
 
 import itertools
+import re
 import typing
 
 from wikipron.extract.core import yield_pron
@@ -147,17 +148,25 @@ _SINOLOGICAL_IPA_XPATHS: dict[str, dict[str, str]] = {
 }
 
 
+def _normalize(key: str) -> str:
+    # Match keys leniently: lowercase + strip everything that isn't
+    # an ASCII letter or digit. So "Jian'ou", "jian-ou", "Jian Ou",
+    # and "jianou" all resolve to "jianou".
+    return re.sub(r"[^a-z0-9]+", "", key.lower())
+
+
 def _selectors(language: str, dialect: str | None) -> list[str]:
     table = _SINOLOGICAL_IPA_XPATHS[language]
     if not dialect:
         return list(table.values())
-    key = dialect.strip().lower()
-    if key not in table:
-        raise ValueError(
-            f"Unsupported dialect for {language!r}: {dialect!r}. "
-            f"Expected one of {sorted(table)}."
-        )
-    return [table[key]]
+    normalized = _normalize(dialect)
+    for key, xpath in table.items():
+        if _normalize(key) == normalized:
+            return [xpath]
+    raise ValueError(
+        f"Unsupported dialect for {language!r}: {dialect!r}. "
+        f"Expected one of {sorted(table)}."
+    )
 
 
 def extract_word_pron_zho(
