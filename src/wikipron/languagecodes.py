@@ -173,9 +173,56 @@ LANGUAGE_CODES = {
     "laboya": "Laboya",
     "lamboya": "Laboya",
     # Mandarin Chinese. Would be "Mandarin Chinese" in ISO 639-3.
-    "cmn": "Chinese",
-    "chinese": "cmn",
-    "mandarin chinese": "cmn",
+    "cmn": "Mandarin",
+    "chinese": "Mandarin",
+    "mandarin": "Mandarin",
+    "mandarin chinese": "Mandarin",
+    # Gan Chinese.
+    "gan": "Gan",
+    "gan chinese": "Gan",
+    # Hakka Chinese.
+    "hak": "Hakka",
+    "hakka": "Hakka",
+    "hakka chinese": "Hakka",
+    # Jin Chinese. Would be "Jinyu Chinese" in ISO 639-3.
+    "cjy": "Jin",
+    "jin": "Jin",
+    "jin chinese": "Jin",
+    "jinyu chinese": "Jin",
+    # Northern Min Chinese. Would be "Min Bei Chinese" in ISO 639-3.
+    "mnp": "Northern Min",
+    "northern min": "Northern Min",
+    "min bei chinese": "Northern Min",
+    # Eastern Min Chinese. Would be "Min Dong Chinese" in ISO 639-3.
+    "cdo": "Eastern Min",
+    "eastern min": "Eastern Min",
+    "min dong chinese": "Eastern Min",
+    # Puxian Min Chinese. Would be "Pu-Xian Chinese" in ISO 639-3.
+    "cpx": "Puxian Min",
+    "puxian min": "Puxian Min",
+    "pu-xian chinese": "Puxian Min",
+    # Leizhou Chinese / Leizhou Min.
+    "luh": "Leizhou Min",
+    "leizhou min": "Leizhou Min",
+    "leizhou chinese": "Leizhou Min",
+    # Southern Pinghua.
+    "csp": "Southern Pinghua",
+    "southern pinghua": "Southern Pinghua",
+    # Wu Chinese.
+    "wuu": "Wu",
+    "wu": "Wu",
+    "wu chinese": "Wu",
+    # Xiang Chinese.
+    "hsn": "Xiang",
+    "xiang": "Xiang",
+    "xiang chinese": "Xiang",
+    # Old Chinese.
+    "och": "Old Chinese",
+    "old chinese": "Old Chinese",
+    # Middle Chinese. Would be "Late Middle Chinese" in ISO 639-3.
+    "ltc": "Middle Chinese",
+    "middle chinese": "Middle Chinese",
+    "late middle chinese": "Middle Chinese",
     # Abkhaz. Would be "Abkhazian" in ISO 639-3.
     "abk": "Abkhaz",
     "abkhaz": "Abkhaz",

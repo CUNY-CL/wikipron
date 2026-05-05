@@ -374,6 +374,22 @@
             "mymr": "Myanmar"
         }
     },
+    "cdo": {
+        "iso639_name": "Min Dong Chinese",
+        "wiktionary_name": "Eastern Min",
+        "wiktionary_code": "cdo",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "fuzhou": "Fuzhou"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "ceb": {
         "iso639_name": "Cebuano",
         "wiktionary_name": "Cebuano",
@@ -433,6 +449,22 @@
             "latn": "Latin"
         }
     },
+    "cjy": {
+        "iso639_name": "Jinyu Chinese",
+        "wiktionary_name": "Jin",
+        "wiktionary_code": "cjy",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "taiyuan": "Taiyuan"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "ckb": {
         "iso639_name": "Central Kurdish",
         "wiktionary_name": "Central Kurdish",
@@ -440,6 +472,22 @@
         "script": {
             "arab": "Arabic",
             "latn": "Latin"
+        }
+    },
+    "cmn": {
+        "iso639_name": "Mandarin Chinese",
+        "wiktionary_name": "Mandarin",
+        "wiktionary_code": "cmn",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "standard": "Standard"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
         }
     },
     "cnk": {
@@ -474,6 +522,22 @@
             "latn": "Latin"
         }
     },
+    "cpx": {
+        "iso639_name": "Pu-Xian Chinese",
+        "wiktionary_name": "Puxian Min",
+        "wiktionary_code": "cpx",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "putian": "Putian"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "crk": {
         "iso639_name": "Plains Cree",
         "wiktionary_name": "Plains Cree",
@@ -497,6 +561,22 @@
         "wiktionary_code": "csb",
         "script": {
             "latn": "Latin"
+        }
+    },
+    "csp": {
+        "iso639_name": "Southern Pinghua",
+        "wiktionary_name": "Southern Pinghua",
+        "wiktionary_code": "csp",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "nanning": "Nanning"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
         }
     },
     "cym": {
@@ -744,6 +824,22 @@
             "latn": "Latin"
         }
     },
+    "gan": {
+        "iso639_name": "Gan Chinese",
+        "wiktionary_name": "Gan",
+        "wiktionary_code": "gan",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "nanchang": "Nanchang"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "gla": {
         "iso639_name": "Scottish Gaelic",
         "wiktionary_name": "Scottish Gaelic",
@@ -850,6 +946,22 @@
             "latn": "Latin"
         }
     },
+    "hak": {
+        "iso639_name": "Hakka Chinese",
+        "wiktionary_name": "Hakka",
+        "wiktionary_code": "hak",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "meixian": "Meixian"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "hat": {
         "iso639_name": "Haitian",
         "wiktionary_name": "Haitian Creole",
@@ -924,6 +1036,22 @@
         "wiktionary_code": "hsb",
         "script": {
             "latn": "Latin"
+        }
+    },
+    "hsn": {
+        "iso639_name": "Xiang Chinese",
+        "wiktionary_name": "Xiang",
+        "wiktionary_code": "hsn",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "changsha": "Changsha"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
         }
     },
     "hts": {
@@ -1415,6 +1543,22 @@
             "zyyy": "Common"
         }
     },
+    "ltc": {
+        "iso639_name": "Late Middle Chinese",
+        "wiktionary_name": "Middle Chinese",
+        "wiktionary_code": "ltc",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "zhengzhang": "Zhengzhang"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "ltg": {
         "iso639_name": "Latgalian",
         "wiktionary_name": "Latgalian",
@@ -1429,6 +1573,22 @@
         "wiktionary_code": "lb",
         "script": {
             "latn": "Latin"
+        }
+    },
+    "luh": {
+        "iso639_name": "Leizhou Chinese",
+        "wiktionary_name": "Leizhou Min",
+        "wiktionary_code": "luh",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "leizhou": "Leizhou"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
         }
     },
     "lut": {
@@ -1569,6 +1729,22 @@
             "mong": "Mongolian"
         }
     },
+    "mnp": {
+        "iso639_name": "Min Bei Chinese",
+        "wiktionary_name": "Northern Min",
+        "wiktionary_code": "mnp",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "jianou": "Jian'ou"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "mns": {
         "iso639_name": "Mansi",
         "wiktionary_name": "Mansi",
@@ -1664,8 +1840,7 @@
         "skip_spaces_pron": false,
         "dialect": {
             "hokkien": "Hokkien",
-            "teochew": "Teochew",
-            "leizhou": "Leizhou"
+            "teochew": "Teochew"
         },
         "script": {
             "zyyy": "Common",
@@ -1826,6 +2001,22 @@
         "wiktionary_code": "ny",
         "script": {
             "latn": "Latin"
+        }
+    },
+    "och": {
+        "iso639_name": "Old Chinese",
+        "wiktionary_name": "Old Chinese",
+        "wiktionary_code": "och",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "zhengzhang": "Zhengzhang"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
         }
     },
     "oci": {
@@ -2647,6 +2838,22 @@
             "latn": "Latin"
         }
     },
+    "wuu": {
+        "iso639_name": "Wu Chinese",
+        "wiktionary_name": "Wu",
+        "wiktionary_code": "wuu",
+        "skip_spaces_pron": false,
+        "dialect": {
+            "shanghai": "Shanghai"
+        },
+        "script": {
+            "zyyy": "Common",
+            "latn": "Latin",
+            "hira": "Hiragana",
+            "hani": "Han",
+            "bopo": "Bopomofo"
+        }
+    },
     "xal": {
         "iso639_name": "Kalmyk",
         "wiktionary_name": "Kalmyk",
@@ -2731,6 +2938,9 @@
             "hira": "Hiragana",
             "bopo": "Bopomofo",
             "hani": "Han"
+        },
+        "dialect": {
+            "standard": "Standard"
         }
     },
     "yux": {
