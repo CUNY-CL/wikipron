@@ -1,11 +1,11 @@
-* Languages: 307
-  * Broad transcription files: 307
+* Languages: 321
+  * Broad transcription files: 325
   * Narrow transcription files: 175
-* Dialects: 17
-  * Broad transcription files: 22
+* Dialects: 31
+  * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 3,904,091
+* Pronunciations: 4,351,593
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -73,6 +73,7 @@
 | [TSV](tsv/cat_latn_broad.tsv) | cat | Catalan | Catalan | Latin |  | False | Broad | 176 |
 | [TSV](tsv/cat_latn_narrow.tsv) | cat | Catalan | Catalan | Latin |  | False | Narrow | 92,225 |
 | [TSV](tsv/cbn_thai_broad.tsv) | cbn | Nyahkur | Nyah Kur | Thai |  | False | Broad | 151 |
+| [TSV](tsv/cdo_hani_fuzhou_broad.tsv) | cdo | Min Dong Chinese | Eastern Min | Han | Fuzhou | False | Broad | 9,099 |
 | [TSV](tsv/ceb_latn_broad.tsv) | ceb | Cebuano | Cebuano | Latin |  | False | Broad | 2,953 |
 | [TSV](tsv/ceb_latn_narrow.tsv) | ceb | Cebuano | Cebuano | Latin |  | False | Narrow | 2,822 |
 | [TSV](tsv/ces_latn_narrow.tsv) | ces | Czech | Czech | Latin |  | False | Narrow | 43,717 |
@@ -81,16 +82,21 @@
 | [TSV](tsv/cho_latn_broad.tsv) | cho | Choctaw | Choctaw | Latin |  | False | Broad | 124 |
 | [TSV](tsv/chr_cher_broad.tsv) | chr | Cherokee | Cherokee | Cherokee |  | False | Broad | 103 |
 | [TSV](tsv/cic_latn_broad.tsv) | cic | Chickasaw | Chickasaw | Latin |  | False | Broad | 286 |
+| [TSV](tsv/cjy_hani_taiyuan_broad.tsv) | cjy | Jinyu Chinese | Jin | Han | Taiyuan | False | Broad | 4,524 |
 | [TSV](tsv/ckb_arab_broad.tsv) | ckb | Central Kurdish | Central Kurdish | Arabic |  | False | Broad | 288 |
+| [TSV](tsv/cmn_hani_standard_broad.tsv) | cmn | Mandarin Chinese | Mandarin | Han | Standard | False | Broad | 168,655 |
+| [TSV](tsv/cmn_latn_standard_broad.tsv) | cmn | Mandarin Chinese | Mandarin | Latin | Standard | False | Broad | 228 |
 | [TSV](tsv/cnk_latn_broad.tsv) | cnk | Khumi Chin | Khumi Chin | Latin |  | False | Broad | 350 |
 | [TSV](tsv/cop_copt_broad.tsv) | cop | Coptic | Coptic | Coptic |  | False | Broad | 820 |
 | [TSV](tsv/cor_latn_broad.tsv) | cor | Cornish | Cornish | Latin |  | False | Broad | 174 |
 | [TSV](tsv/cor_latn_narrow.tsv) | cor | Cornish | Cornish | Latin |  | False | Narrow | 706 |
 | [TSV](tsv/cos_latn_broad.tsv) | cos | Corsican | Corsican | Latin |  | False | Broad | 476 |
+| [TSV](tsv/cpx_hani_putian_broad.tsv) | cpx | Pu-Xian Chinese | Puxian Min | Han | Putian | False | Broad | 8,762 |
 | [TSV](tsv/crk_latn_broad.tsv) | crk | Plains Cree | Plains Cree | Latin |  | False | Broad | 108 |
 | [TSV](tsv/crk_latn_narrow.tsv) | crk | Plains Cree | Plains Cree | Latin |  | False | Narrow | 144 |
 | [TSV](tsv/crx_cans_broad.tsv) | crx | Carrier | Carrier | Canadian Aboriginal |  | False | Broad | 175 |
 | [TSV](tsv/csb_latn_broad.tsv) | csb | Kashubian | Kashubian | Latin |  | False | Broad | 818 |
+| [TSV](tsv/csp_hani_nanning_broad.tsv) | csp | Southern Pinghua | Southern Pinghua | Han | Nanning | False | Broad | 1,289 |
 | [TSV](tsv/cym_latn_nw_broad.tsv) | cym | Welsh | Welsh | Latin | North Wales | False | Broad | 10,320 |
 | [TSV](tsv/cym_latn_nw_broad_filtered.tsv) | cym | Welsh | Welsh | Latin | North Wales | True | Broad | 10,248 |
 | [TSV](tsv/cym_latn_nw_narrow.tsv) | cym | Welsh | Welsh | Latin | North Wales | False | Narrow | 1,006 |
@@ -143,6 +149,7 @@
 | [TSV](tsv/fro_latn_broad.tsv) | fro | Old French (842-ca. 1400) | Old French | Latin |  | False | Broad | 929 |
 | [TSV](tsv/frr_latn_broad.tsv) | frr | Northern Frisian | North Frisian | Latin |  | False | Broad | 167 |
 | [TSV](tsv/fry_latn_broad.tsv) | fry | Western Frisian | West Frisian | Latin |  | False | Broad | 1,061 |
+| [TSV](tsv/gan_hani_nanchang_broad.tsv) | gan | Gan Chinese | Gan | Han | Nanchang | False | Broad | 3,623 |
 | [TSV](tsv/gla_latn_broad.tsv) | gla | Scottish Gaelic | Scottish Gaelic | Latin |  | False | Broad | 3,131 |
 | [TSV](tsv/gla_latn_narrow.tsv) | gla | Scottish Gaelic | Scottish Gaelic | Latin |  | False | Narrow | 162 |
 | [TSV](tsv/gle_latn_broad.tsv) | gle | Irish | Irish | Latin |  | False | Broad | 14,379 |
@@ -161,6 +168,7 @@
 | [TSV](tsv/guj_gujr_broad.tsv) | guj | Gujarati | Gujarati | Gujarati |  | False | Broad | 2,058 |
 | [TSV](tsv/gur_latn_broad.tsv) | gur | Farefare | Farefare | Latin |  | False | Broad | 104 |
 | [TSV](tsv/guw_latn_broad.tsv) | guw | Gun | Gun | Latin |  | False | Broad | 682 |
+| [TSV](tsv/hak_hani_meixian_broad.tsv) | hak | Hakka Chinese | Hakka | Han | Meixian | False | Broad | 6,673 |
 | [TSV](tsv/hat_latn_broad.tsv) | hat | Haitian | Haitian Creole | Latin |  | False | Broad | 1,456 |
 | [TSV](tsv/hau_latn_broad.tsv) | hau | Hausa | Hausa | Latin |  | False | Broad | 1,937 |
 | [TSV](tsv/hau_latn_narrow.tsv) | hau | Hausa | Hausa | Latin |  | False | Narrow | 1,912 |
@@ -180,6 +188,7 @@
 | [TSV](tsv/hrx_latn_broad.tsv) | hrx | Hunsrik | Hunsrik | Latin |  | False | Broad | 1,713 |
 | [TSV](tsv/hsb_latn_broad.tsv) | hsb | Upper Sorbian | Upper Sorbian | Latin |  | False | Broad | 357 |
 | [TSV](tsv/hsb_latn_narrow.tsv) | hsb | Upper Sorbian | Upper Sorbian | Latin |  | False | Narrow | 150 |
+| [TSV](tsv/hsn_hani_changsha_broad.tsv) | hsn | Xiang Chinese | Xiang | Han | Changsha | False | Broad | 6,129 |
 | [TSV](tsv/hts_latn_broad.tsv) | hts | Hadza | Hadza | Latin |  | False | Broad | 335 |
 | [TSV](tsv/hun_latn_narrow.tsv) | hun | Hungarian | Hungarian | Latin |  | False | Narrow | 62,497 |
 | [TSV](tsv/hun_latn_narrow_filtered.tsv) | hun | Hungarian | Hungarian | Latin |  | True | Narrow | 62,429 |
@@ -269,9 +278,11 @@
 | [TSV](tsv/lmy_latn_narrow.tsv) | lmy | Lamboya | Laboya | Latin |  | False | Narrow | 129 |
 | [TSV](tsv/lou_latn_broad.tsv) | lou | Louisiana Creole | Louisiana Creole | Latin |  | False | Broad | 240 |
 | [TSV](tsv/lsi_latn_broad.tsv) | lsi | Lashi | Lashi | Latin |  | False | Broad | 324 |
+| [TSV](tsv/ltc_hani_zhengzhang_broad.tsv) | ltc | Late Middle Chinese | Middle Chinese | Han | Zhengzhang | False | Broad | 19,968 |
 | [TSV](tsv/ltg_latn_narrow.tsv) | ltg | Latgalian | Latgalian | Latin |  | False | Narrow | 444 |
 | [TSV](tsv/ltz_latn_broad.tsv) | ltz | Luxembourgish | Luxembourgish | Latin |  | False | Broad | 4,090 |
 | [TSV](tsv/ltz_latn_narrow.tsv) | ltz | Luxembourgish | Luxembourgish | Latin |  | False | Narrow | 2,654 |
+| [TSV](tsv/luh_hani_leizhou_broad.tsv) | luh | Leizhou Chinese | Leizhou Min | Han | Leizhou | False | Broad | 1,933 |
 | [TSV](tsv/lut_latn_broad.tsv) | lut | Lushootseed | Lushootseed | Latin |  | False | Broad | 121 |
 | [TSV](tsv/lwl_thai_broad.tsv) | lwl | Eastern Lawa | Eastern Lawa | Thai |  | False | Broad | 253 |
 | [TSV](tsv/lzz_geor_broad.tsv) | lzz | Laz | Laz | Georgian |  | False | Broad | 305 |
@@ -294,6 +305,7 @@
 | [TSV](tsv/mlt_latn_broad.tsv) | mlt | Maltese | Maltese | Latin |  | False | Broad | 18,391 |
 | [TSV](tsv/mlt_latn_broad_filtered.tsv) | mlt | Maltese | Maltese | Latin |  | True | Broad | 18,361 |
 | [TSV](tsv/mnc_mong_narrow.tsv) | mnc | Manchu | Manchu | Mongolian |  | False | Narrow | 1,467 |
+| [TSV](tsv/mnp_hani_jianou_broad.tsv) | mnp | Min Bei Chinese | Northern Min | Han | Jian'ou | False | Broad | 3,685 |
 | [TSV](tsv/mnw_mymr_broad.tsv) | mnw | Mon | Mon | Myanmar |  | False | Broad | 1,079 |
 | [TSV](tsv/mon_cyrl_broad.tsv) | mon | Mongolian | Mongolian | Cyrillic |  | False | Broad | 3,477 |
 | [TSV](tsv/mon_cyrl_narrow.tsv) | mon | Mongolian | Mongolian | Cyrillic |  | False | Narrow | 806 |
@@ -308,6 +320,8 @@
 | [TSV](tsv/mww_latn_broad.tsv) | mww | Hmong Daw | White Hmong | Latin |  | False | Broad | 419 |
 | [TSV](tsv/mya_mymr_broad.tsv) | mya | Burmese | Burmese | Myanmar |  | False | Broad | 6,075 |
 | [TSV](tsv/mya_mymr_broad_filtered.tsv) | mya | Burmese | Burmese | Myanmar |  | True | Broad | 6,062 |
+| [TSV](tsv/nan_hani_hokkien_broad.tsv) | nan | Min Nan Chinese | Min Nan | Han | Hokkien | False | Broad | 46,238 |
+| [TSV](tsv/nan_hani_teochew_broad.tsv) | nan | Min Nan Chinese | Min Nan | Han | Teochew | False | Broad | 16,378 |
 | [TSV](tsv/nap_latn_broad.tsv) | nap | Neapolitan | Neapolitan | Latin |  | False | Broad | 201 |
 | [TSV](tsv/nap_latn_narrow.tsv) | nap | Neapolitan | Neapolitan | Latin |  | False | Narrow | 455 |
 | [TSV](tsv/nav_latn_broad.tsv) | nav | Navajo | Navajo | Latin |  | False | Broad | 329 |
@@ -334,6 +348,7 @@
 | [TSV](tsv/nrf_latn_broad.tsv) | nrf | Jèrriais | Norman | Latin |  | False | Broad | 186 |
 | [TSV](tsv/nup_latn_broad.tsv) | nup | Nupe-Nupe-Tako | Nupe | Latin |  | False | Broad | 442 |
 | [TSV](tsv/nya_latn_broad.tsv) | nya | Nyanja | Chichewa | Latin |  | False | Broad | 830 |
+| [TSV](tsv/och_hani_zhengzhang_broad.tsv) | och | Old Chinese | Old Chinese | Han | Zhengzhang | False | Broad | 19,608 |
 | [TSV](tsv/oci_latn_broad.tsv) | oci | Occitan (post 1500) | Occitan | Latin |  | False | Broad | 580 |
 | [TSV](tsv/oci_latn_narrow.tsv) | oci | Occitan (post 1500) | Occitan | Latin |  | False | Narrow | 349 |
 | [TSV](tsv/ofs_latn_broad.tsv) | ofs | Old Frisian | Old Frisian | Latin |  | False | Broad | 170 |
@@ -474,6 +489,7 @@
 | [TSV](tsv/wiy_latn_broad.tsv) | wiy | Wiyot | Wiyot | Latin |  | False | Broad | 152 |
 | [TSV](tsv/wlm_latn_broad.tsv) | wlm | Middle Welsh | Middle Welsh | Latin |  | False | Broad | 151 |
 | [TSV](tsv/wln_latn_broad.tsv) | wln | Walloon | Walloon | Latin |  | False | Broad | 2,545 |
+| [TSV](tsv/wuu_hani_shanghai_broad.tsv) | wuu | Wu Chinese | Wu | Han | Shanghai | False | Broad | 14,143 |
 | [TSV](tsv/xal_cyrl_broad.tsv) | xal | Kalmyk | Kalmyk | Cyrillic |  | False | Broad | 328 |
 | [TSV](tsv/xho_latn_narrow.tsv) | xho | Xhosa | Xhosa | Latin |  | False | Narrow | 876 |
 | [TSV](tsv/xsl_latn_narrow.tsv) | xsl | South Slavey | South Slavey | Latin |  | False | Narrow | 137 |
@@ -484,7 +500,9 @@
 | [TSV](tsv/yor_latn_broad.tsv) | yor | Yoruba | Yoruba | Latin |  | False | Broad | 5,199 |
 | [TSV](tsv/yrk_cyrl_narrow.tsv) | yrk | Nenets | Tundra Nenets | Cyrillic |  | False | Narrow | 233 |
 | [TSV](tsv/yue_hani_broad.tsv) | yue | Yue Chinese | Cantonese | Han |  | False | Broad | 102,453 |
+| [TSV](tsv/yue_hani_standard_broad.tsv) | yue | Yue Chinese | Cantonese | Han | Standard | False | Broad | 116,020 |
 | [TSV](tsv/yue_latn_broad.tsv) | yue | Yue Chinese | Cantonese | Latin |  | False | Broad | 432 |
+| [TSV](tsv/yue_latn_standard_broad.tsv) | yue | Yue Chinese | Cantonese | Latin | Standard | False | Broad | 547 |
 | [TSV](tsv/yux_cyrl_narrow.tsv) | yux | Southern Yukaghir | Southern Yukaghir | Cyrillic |  | False | Narrow | 200 |
 | [TSV](tsv/zha_latn_broad.tsv) | zha | Zhuang | Zhuang | Latin |  | False | Broad | 1,405 |
 | [TSV](tsv/zho_hani_broad.tsv) | zho | Chinese | Chinese | Han |  | False | Broad | 158,873 |

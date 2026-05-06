@@ -487,7 +487,9 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "hani": "Han",
-            "bopo": "Bopomofo"
+            "bopo": "Bopomofo",
+            "grek": "Greek",
+            "zzzz": "Unknown"
         }
     },
     "cnk": {
@@ -1847,7 +1849,8 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "hani": "Han",
-            "bopo": "Bopomofo"
+            "bopo": "Bopomofo",
+            "zzzz": "Unknown"
         }
     },
     "nap": {
@@ -2851,7 +2854,8 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "hani": "Han",
-            "bopo": "Bopomofo"
+            "bopo": "Bopomofo",
+            "zzzz": "Unknown"
         }
     },
     "xal": {
@@ -2937,7 +2941,8 @@
             "latn": "Latin",
             "hira": "Hiragana",
             "bopo": "Bopomofo",
-            "hani": "Han"
+            "hani": "Han",
+            "zzzz": "Unknown"
         },
         "dialect": {
             "standard": "Standard"
