@@ -12,7 +12,7 @@ Unreleased
 
 ### Under `data/`
 
--  Adds Chinese varities (`zho`). (\#584)
+-  Adds Chinese varieties (`zho`). (\#584)
 -  Sorts `languages.json` and `unmatched_languages.json` by keys alphabetically. (\#582)
 -  Updates Latin (`lat`). (\#581)
 -  Implements multi-config scraping, avoiding redundant HTTP requests for the same
