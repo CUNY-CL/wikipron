@@ -50,34 +50,34 @@ def yield_pron(
     config: "Config",
 ) -> "Iterator[str]":
     for ipa_element in request_html.xpath(ipa_xpath_selector):
-        m = re.search(config.ipa_regex, ipa_element.text)
-        if not m:
-            continue
-        pron = m.group(1)
-        if config.parens == "skip":
-            prons_to_process = [_skip_parens(pron)]
-        elif config.parens == "expand":
-            prons_to_process = _expand_parens(pron)
-        else:  # "show"
-            prons_to_process = [pron]
-        for pron in prons_to_process:
-            if _skip_pron(pron, config.skip_spaces_pron):
-                continue
-            try:
-                # All pronunciation processing is done in
-                # NFD-space.
-                pron = unicodedata.normalize("NFD", pron)
-                pron = config.process_pron(pron)
-            except IndexError:
-                logging.info(
-                    "IndexError processing %s in %s",
-                    pron,
-                    config.language,
-                )
-                continue
-            if pron:
-                # The segments package inserts a # in-between
-                # spaces.
-                if not config.skip_spaces_pron:
-                    pron = pron.replace(" #", "")
-                yield pron
+        # Use findall (not search) so spans holding multiple bracketed
+        # values (e.g. Sinological IPA "/d͡zi³⁵/, /d͡zi¹¹/, /no³⁵/")
+        # yield every value, not just the first.
+        for raw_pron in re.findall(config.ipa_regex, ipa_element.text):
+            if config.parens == "skip":
+                prons_to_process = [_skip_parens(raw_pron)]
+            elif config.parens == "expand":
+                prons_to_process = _expand_parens(raw_pron)
+            else:  # "show"
+                prons_to_process = [raw_pron]
+            for pron in prons_to_process:
+                if _skip_pron(pron, config.skip_spaces_pron):
+                    continue
+                try:
+                    # All pronunciation processing is done in
+                    # NFD-space.
+                    pron = unicodedata.normalize("NFD", pron)
+                    pron = config.process_pron(pron)
+                except IndexError:
+                    logging.info(
+                        "IndexError processing %s in %s",
+                        pron,
+                        config.language,
+                    )
+                    continue
+                if pron:
+                    # The segments package inserts a # in-between
+                    # spaces.
+                    if not config.skip_spaces_pron:
+                        pron = pron.replace(" #", "")
+                    yield pron

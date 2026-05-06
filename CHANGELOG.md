@@ -12,7 +12,8 @@ Unreleased
 
 ### Under `data/`
 
--  Sort `languages.json` and `unmatched_languages.json` by keys alphabetically. (\#582)
+-  Adds Chinese varieties (`zho`). (\#584)
+-  Sorts `languages.json` and `unmatched_languages.json` by keys alphabetically. (\#582)
 -  Updates Latin (`lat`). (\#581)
 -  Implements multi-config scraping, avoiding redundant HTTP requests for the same
    Wiktionary page for all combinations of broad/narrow transcriptions and dialects. (\#581)

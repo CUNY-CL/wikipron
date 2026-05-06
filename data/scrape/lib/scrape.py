@@ -14,7 +14,10 @@ from collections.abc import Iterator
 from typing import Any
 
 import wikipron
-from wikipron.scrape import iter_page_responses
+from wikipron.scrape import (
+    _language_name_for_scraping,
+    iter_page_responses,
+)
 
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
@@ -54,8 +57,11 @@ def scrape_multi(
 ) -> Iterator[tuple[int, tuple[str, str]]]:
     """Run extractors from several configs against a single page fetch.
 
-    All configs must share language, cut_off_date, and
+    All configs must resolve to the same Wiktionary scraping category
+    (per ``_language_name_for_scraping``) and share cut_off_date and
     skip_spaces_word — anything that affects which pages get fetched.
+    Configs may differ in ``language`` itself when several varieties
+    sit under the same scraping category (e.g. all Chinese varieties).
     Only post-parse-filtering settings (notably ``narrow`` and
     ``dialect``) may differ.
     Yields ``(config_index, (word, pron))`` so callers can route each
@@ -64,12 +70,16 @@ def scrape_multi(
     if not configs:
         return
     lead = configs[0]
+    lead_category = _language_name_for_scraping(lead.language)
     for other in configs[1:]:
-        for attr in (
-            "language",
-            "cut_off_date",
-            "skip_spaces_word",
-        ):
+        if _language_name_for_scraping(other.language) != lead_category:
+            raise ValueError(
+                "scrape_multi configs must share a scraping category: "
+                f"{lead.language!r} (-> {lead_category!r}) vs "
+                f"{other.language!r} "
+                f"(-> {_language_name_for_scraping(other.language)!r})"
+            )
+        for attr in ("cut_off_date", "skip_spaces_word"):
             if getattr(other, attr) != getattr(lead, attr):
                 raise ValueError(
                     f"scrape_multi configs must agree on {attr!r}: "
@@ -86,8 +96,15 @@ def _call_scrape_multi(
     output_specs: list[dict[str, Any]],
 ) -> None:
     with contextlib.ExitStack() as stack:
+        # buffering=1 for line-buffered, so partial output is visible
+        # on disk immediately. Without it, with many output sinks
+        # (e.g., several dialects x broad/narrow), per-file buffers
+        # can sit unflushed for hours and a long-running scrape
+        # looks dead from the outside.
         sources = [
-            stack.enter_context(open(spec["tsv_path"], "w", encoding="utf-8"))
+            stack.enter_context(
+                open(spec["tsv_path"], "w", encoding="utf-8", buffering=1)
+            )
             for spec in output_specs
         ]
         filtered_sources: list[Any] = []
@@ -99,6 +116,7 @@ def _call_scrape_multi(
                             spec["tsv_filtered_path"],
                             "w",
                             encoding="utf-8",
+                            buffering=1,
                         )
                     )
                 )
@@ -201,54 +219,80 @@ def main(args: argparse.Namespace) -> None:
         cut_off_date = datetime.date.today().isoformat()
     codes_sorted = sorted((restriction_set - exclude_set) & unscraped_codes)
     remaining = codes_sorted.copy()
-    wikipron_accepted_settings = {
-        "skip_spaces_pron": True,
-        "skip_spaces_word": True,
-        "parens": "expand",
-    }
+    # Group codes by their Wiktionary scraping category so that
+    # varieties sharing one category (e.g. all Chinese varieties under
+    # "Chinese terms with IPA pronunciation") are scraped in a single
+    # pass over that category instead of fetching it once per code.
+    groups: dict[str, list[str]] = {}
     for code in codes_sorted:
-        language_settings = languages[code]
-        for k, v in language_settings.items():
-            if k in wikipron_accepted_settings:
-                wikipron_accepted_settings[k] = v
-        config_settings = {
-            "key": code,
-            "stress": False,
-            "syllable_boundaries": False,
-            "cut_off_date": cut_off_date,
-            **wikipron_accepted_settings,
-        }
+        cat = _language_name_for_scraping(languages[code]["wiktionary_name"])
+        groups.setdefault(cat, []).append(code)
+    for codes_in_group in groups.values():
         all_configs: list[wikipron.Config] = []
         all_specs: list[dict[str, Any]] = []
-        if "dialect" not in language_settings:
-            configs, specs = build_scraping_config(
-                config_settings,
-                f"{TSV_DIRECTORY}/{config_settings['key']}_",
-                f"{PHONES_DIRECTORY}/{config_settings['key']}_",
+        for code in codes_in_group:
+            configs, specs = _build_configs_for_code(
+                code, languages[code], cut_off_date
             )
             all_configs.extend(configs)
             all_specs.extend(specs)
-        else:
-            for dialect_key, dialect_value in language_settings[
-                "dialect"
-            ].items():
-                config_settings["dialect"] = dialect_value
-                configs, specs = build_scraping_config(
-                    config_settings,
-                    f"{TSV_DIRECTORY}/{config_settings['key']}_{dialect_key}_",
-                    f"{PHONES_DIRECTORY}/"
-                    f"{config_settings['key']}_{dialect_key}_",
-                )
-                all_configs.extend(configs)
-                all_specs.extend(specs)
         _call_scrape_multi(all_configs, all_specs)
-        remaining.remove(code)
+        for code in codes_in_group:
+            remaining.remove(code)
         with open(UNSCRAPED_JSON_FILENAME, "w") as f:
             unscraped = {
                 "cut_off_date": cut_off_date,
                 "unscraped": sorted(remaining),
             }
             json.dump(unscraped, f, indent=4)
+
+
+def _build_configs_for_code(
+    code: str,
+    language_settings: dict[str, Any],
+    cut_off_date: str,
+) -> tuple[list[wikipron.Config], list[dict[str, Any]]]:
+    """Build the (configs, specs) tuple for a single ISO code.
+
+    Honors per-language overrides of ``skip_spaces_pron``,
+    ``skip_spaces_word``, and ``parens`` from languages.json.
+    """
+    accepted = {
+        "skip_spaces_pron": True,
+        "skip_spaces_word": True,
+        "parens": "expand",
+    }
+    for k, v in language_settings.items():
+        if k in accepted:
+            accepted[k] = v
+    config_settings: dict[str, Any] = {
+        "key": code,
+        "stress": False,
+        "syllable_boundaries": False,
+        "cut_off_date": cut_off_date,
+        **accepted,
+    }
+    configs: list[wikipron.Config] = []
+    specs: list[dict[str, Any]] = []
+    if "dialect" not in language_settings:
+        c, s = build_scraping_config(
+            config_settings,
+            f"{TSV_DIRECTORY}/{code}_",
+            f"{PHONES_DIRECTORY}/{code}_",
+        )
+        configs.extend(c)
+        specs.extend(s)
+    else:
+        for dialect_key, dialect_value in language_settings["dialect"].items():
+            config_settings["dialect"] = dialect_value
+            c, s = build_scraping_config(
+                config_settings,
+                f"{TSV_DIRECTORY}/{code}_{dialect_key}_",
+                f"{PHONES_DIRECTORY}/{code}_{dialect_key}_",
+            )
+            configs.extend(c)
+            specs.extend(s)
+    return configs, specs
 
 
 if __name__ == "__main__":

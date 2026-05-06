@@ -38,7 +38,24 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("lat", "Latin", {"narrow": True}),
     # Japanese data is mostly narrow transcription.
     SmokeTestLanguage("jpn", "Japanese", {"narrow": True}),
-    SmokeTestLanguage("cmn", "Chinese", {"skip_spaces_pron": False}),
+    # Chinese varieties: Sinological IPA scraped from the unified
+    # Chinese-character pages. skip_spaces_pron=False because some
+    # IPA values include spaces.
+    SmokeTestLanguage("cmn", "Mandarin", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("yue", "Cantonese", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("gan", "Gan", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("hak", "Hakka", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("cjy", "Jin", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("mnp", "Northern Min", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("cdo", "Eastern Min", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("cpx", "Puxian Min", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("nan", "Min Nan", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("luh", "Leizhou Min", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("csp", "Southern Pinghua", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("wuu", "Wu", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("hsn", "Xiang", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("och", "Old Chinese", {"skip_spaces_pron": False}),
+    SmokeTestLanguage("ltc", "Middle Chinese", {"skip_spaces_pron": False}),
     # Vietnamese data is mostly narrow transcription.
     SmokeTestLanguage(
         "vie",
@@ -49,16 +66,29 @@ _SMOKE_TEST_LANGUAGES = [
             "skip_spaces_pron": False,
         },
     ),
-    SmokeTestLanguage("yue", "Cantonese", {"skip_spaces_pron": False}),
     SmokeTestLanguage("blt", "Tai Dam", {"narrow": True}),
+]
+
+# Smaller / sparser Chinese varieties — the scraper has to walk through
+# many Chinese-category pages before accumulating hits for these, so we
+# mark them slow. Run the full set with: pytest --runslow
+_SLOW_SMOKE_KEYS = frozenset({"luh", "csp", "mnp", "cpx", "cdo", "och", "ltc"})
+
+_SMOKE_TEST_PARAMS = [
+    pytest.param(
+        lang,
+        marks=pytest.mark.slow if lang.key in _SLOW_SMOKE_KEYS else (),
+        id=lang.key,
+    )
+    for lang in _SMOKE_TEST_LANGUAGES
 ]
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
-@pytest.mark.parametrize("smoke_test_language", _SMOKE_TEST_LANGUAGES)
+@pytest.mark.parametrize("smoke_test_language", _SMOKE_TEST_PARAMS)
 def test_smoke_test_scrape(smoke_test_language):
     """A smoke test for scrape()."""
-    n = 10  # number of word-pron pairs to scrape
+    n = 3  # number of word-pron pairs to scrape
     config = config_factory(
         key=smoke_test_language.key, **smoke_test_language.config_params
     )

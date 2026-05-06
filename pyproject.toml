@@ -74,3 +74,6 @@ namespaces = false
 [tool.pytest.ini_options]
 addopts = "-vv --durations=0 --strict-markers"
 testpaths = ["tests"]
+markers = [
+    "slow: scrapes lots of Wiktionary pages; pass --runslow to include",
+]

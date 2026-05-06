@@ -8,6 +8,7 @@ env/
 .idea/
 .DS_Store
 .vscode/
+uv.lock
 
 # Temporary data files.
 **/tars
@@ -15,4 +16,4 @@ env/
 data/frequencies/tsv/*
 data/frequencies/tgz/*
 data/morphology/tsv/*
-data/scrape/unscraped.json
+data/scrape/lib/unscraped.json

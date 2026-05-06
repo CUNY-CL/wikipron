@@ -67,6 +67,32 @@ def _iter_page_responses_once(
         yield title, HTMLResponse(response)
 
 
+# All living + dead Chinese varieties whose pronunciations are scraped
+# from the unified Chinese-character pages, and whose Wiktionary
+# category for scraping is therefore "Chinese terms with IPA
+# pronunciation" (the macrolanguage). One walk over that category feeds
+# every variety's TSV.
+_CHINESE_VARIETY_NAMES = frozenset(
+    {
+        "Cantonese",
+        "Eastern Min",
+        "Gan",
+        "Hakka",
+        "Jin",
+        "Leizhou Min",
+        "Mandarin",
+        "Middle Chinese",
+        "Min Nan",
+        "Northern Min",
+        "Old Chinese",
+        "Puxian Min",
+        "Southern Pinghua",
+        "Wu",
+        "Xiang",
+    }
+)
+
+
 def _language_name_for_scraping(language):
     """Handle cases where X is under a "macrolanguage" on Wiktionary.
 
@@ -74,7 +100,7 @@ def _language_name_for_scraping(language):
     We'll keep this function as simple as possible, until it becomes too
     complicated and requires refactoring.
     """
-    if language == "Cantonese" or language == "Min Nan":
+    if language in _CHINESE_VARIETY_NAMES:
         return "Chinese"
     return language
 

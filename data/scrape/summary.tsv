@@ -61,6 +61,7 @@ bul_cyrl_narrow.tsv	bul	Bulgarian	Bulgarian	Cyrillic		False	Narrow	42309
 cat_latn_broad.tsv	cat	Catalan	Catalan	Latin		False	Broad	176
 cat_latn_narrow.tsv	cat	Catalan	Catalan	Latin		False	Narrow	92225
 cbn_thai_broad.tsv	cbn	Nyahkur	Nyah Kur	Thai		False	Broad	151
+cdo_hani_fuzhou_broad.tsv	cdo	Min Dong Chinese	Eastern Min	Han	Fuzhou	False	Broad	9099
 ceb_latn_broad.tsv	ceb	Cebuano	Cebuano	Latin		False	Broad	2953
 ceb_latn_narrow.tsv	ceb	Cebuano	Cebuano	Latin		False	Narrow	2822
 ces_latn_narrow.tsv	ces	Czech	Czech	Latin		False	Narrow	43717
@@ -69,16 +70,21 @@ che_cyrl_broad.tsv	che	Chechen	Chechen	Cyrillic		False	Broad	172
 cho_latn_broad.tsv	cho	Choctaw	Choctaw	Latin		False	Broad	124
 chr_cher_broad.tsv	chr	Cherokee	Cherokee	Cherokee		False	Broad	103
 cic_latn_broad.tsv	cic	Chickasaw	Chickasaw	Latin		False	Broad	286
+cjy_hani_taiyuan_broad.tsv	cjy	Jinyu Chinese	Jin	Han	Taiyuan	False	Broad	4524
 ckb_arab_broad.tsv	ckb	Central Kurdish	Central Kurdish	Arabic		False	Broad	288
+cmn_hani_standard_broad.tsv	cmn	Mandarin Chinese	Mandarin	Han	Standard	False	Broad	168655
+cmn_latn_standard_broad.tsv	cmn	Mandarin Chinese	Mandarin	Latin	Standard	False	Broad	228
 cnk_latn_broad.tsv	cnk	Khumi Chin	Khumi Chin	Latin		False	Broad	350
 cop_copt_broad.tsv	cop	Coptic	Coptic	Coptic		False	Broad	820
 cor_latn_broad.tsv	cor	Cornish	Cornish	Latin		False	Broad	174
 cor_latn_narrow.tsv	cor	Cornish	Cornish	Latin		False	Narrow	706
 cos_latn_broad.tsv	cos	Corsican	Corsican	Latin		False	Broad	476
+cpx_hani_putian_broad.tsv	cpx	Pu-Xian Chinese	Puxian Min	Han	Putian	False	Broad	8762
 crk_latn_broad.tsv	crk	Plains Cree	Plains Cree	Latin		False	Broad	108
 crk_latn_narrow.tsv	crk	Plains Cree	Plains Cree	Latin		False	Narrow	144
 crx_cans_broad.tsv	crx	Carrier	Carrier	Canadian Aboriginal		False	Broad	175
 csb_latn_broad.tsv	csb	Kashubian	Kashubian	Latin		False	Broad	818
+csp_hani_nanning_broad.tsv	csp	Southern Pinghua	Southern Pinghua	Han	Nanning	False	Broad	1289
 cym_latn_nw_broad.tsv	cym	Welsh	Welsh	Latin	North Wales	False	Broad	10320
 cym_latn_nw_broad_filtered.tsv	cym	Welsh	Welsh	Latin	North Wales	True	Broad	10248
 cym_latn_nw_narrow.tsv	cym	Welsh	Welsh	Latin	North Wales	False	Narrow	1006
@@ -131,6 +137,7 @@ fra_latn_narrow.tsv	fra	French	French	Latin		False	Narrow	254
 fro_latn_broad.tsv	fro	Old French (842-ca. 1400)	Old French	Latin		False	Broad	929
 frr_latn_broad.tsv	frr	Northern Frisian	North Frisian	Latin		False	Broad	167
 fry_latn_broad.tsv	fry	Western Frisian	West Frisian	Latin		False	Broad	1061
+gan_hani_nanchang_broad.tsv	gan	Gan Chinese	Gan	Han	Nanchang	False	Broad	3623
 gla_latn_broad.tsv	gla	Scottish Gaelic	Scottish Gaelic	Latin		False	Broad	3131
 gla_latn_narrow.tsv	gla	Scottish Gaelic	Scottish Gaelic	Latin		False	Narrow	162
 gle_latn_broad.tsv	gle	Irish	Irish	Latin		False	Broad	14379
@@ -149,6 +156,7 @@ gsw_latn_broad.tsv	gsw	Swiss German	Alemannic German	Latin		False	Broad	468
 guj_gujr_broad.tsv	guj	Gujarati	Gujarati	Gujarati		False	Broad	2058
 gur_latn_broad.tsv	gur	Farefare	Farefare	Latin		False	Broad	104
 guw_latn_broad.tsv	guw	Gun	Gun	Latin		False	Broad	682
+hak_hani_meixian_broad.tsv	hak	Hakka Chinese	Hakka	Han	Meixian	False	Broad	6673
 hat_latn_broad.tsv	hat	Haitian	Haitian Creole	Latin		False	Broad	1456
 hau_latn_broad.tsv	hau	Hausa	Hausa	Latin		False	Broad	1937
 hau_latn_narrow.tsv	hau	Hausa	Hausa	Latin		False	Narrow	1912
@@ -168,6 +176,7 @@ hin_deva_narrow.tsv	hin	Hindi	Hindi	Devanagari		False	Narrow	22296
 hrx_latn_broad.tsv	hrx	Hunsrik	Hunsrik	Latin		False	Broad	1713
 hsb_latn_broad.tsv	hsb	Upper Sorbian	Upper Sorbian	Latin		False	Broad	357
 hsb_latn_narrow.tsv	hsb	Upper Sorbian	Upper Sorbian	Latin		False	Narrow	150
+hsn_hani_changsha_broad.tsv	hsn	Xiang Chinese	Xiang	Han	Changsha	False	Broad	6129
 hts_latn_broad.tsv	hts	Hadza	Hadza	Latin		False	Broad	335
 hun_latn_narrow.tsv	hun	Hungarian	Hungarian	Latin		False	Narrow	62497
 hun_latn_narrow_filtered.tsv	hun	Hungarian	Hungarian	Latin		True	Narrow	62429
@@ -257,9 +266,11 @@ lmo_latn_narrow.tsv	lmo	Lombard	Lombard	Latin		False	Narrow	375
 lmy_latn_narrow.tsv	lmy	Lamboya	Laboya	Latin		False	Narrow	129
 lou_latn_broad.tsv	lou	Louisiana Creole	Louisiana Creole	Latin		False	Broad	240
 lsi_latn_broad.tsv	lsi	Lashi	Lashi	Latin		False	Broad	324
+ltc_hani_zhengzhang_broad.tsv	ltc	Late Middle Chinese	Middle Chinese	Han	Zhengzhang	False	Broad	19968
 ltg_latn_narrow.tsv	ltg	Latgalian	Latgalian	Latin		False	Narrow	444
 ltz_latn_broad.tsv	ltz	Luxembourgish	Luxembourgish	Latin		False	Broad	4090
 ltz_latn_narrow.tsv	ltz	Luxembourgish	Luxembourgish	Latin		False	Narrow	2654
+luh_hani_leizhou_broad.tsv	luh	Leizhou Chinese	Leizhou Min	Han	Leizhou	False	Broad	1933
 lut_latn_broad.tsv	lut	Lushootseed	Lushootseed	Latin		False	Broad	121
 lwl_thai_broad.tsv	lwl	Eastern Lawa	Eastern Lawa	Thai		False	Broad	253
 lzz_geor_broad.tsv	lzz	Laz	Laz	Georgian		False	Broad	305
@@ -282,6 +293,7 @@ mlg_latn_broad.tsv	mlg	Malagasy	Malagasy	Latin		False	Broad	185
 mlt_latn_broad.tsv	mlt	Maltese	Maltese	Latin		False	Broad	18391
 mlt_latn_broad_filtered.tsv	mlt	Maltese	Maltese	Latin		True	Broad	18361
 mnc_mong_narrow.tsv	mnc	Manchu	Manchu	Mongolian		False	Narrow	1467
+mnp_hani_jianou_broad.tsv	mnp	Min Bei Chinese	Northern Min	Han	Jian'ou	False	Broad	3685
 mnw_mymr_broad.tsv	mnw	Mon	Mon	Myanmar		False	Broad	1079
 mon_cyrl_broad.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Broad	3477
 mon_cyrl_narrow.tsv	mon	Mongolian	Mongolian	Cyrillic		False	Narrow	806
@@ -296,6 +308,8 @@ mtq_latn_broad.tsv	mtq	Muong	Muong	Latin		False	Broad	144
 mww_latn_broad.tsv	mww	Hmong Daw	White Hmong	Latin		False	Broad	419
 mya_mymr_broad.tsv	mya	Burmese	Burmese	Myanmar		False	Broad	6075
 mya_mymr_broad_filtered.tsv	mya	Burmese	Burmese	Myanmar		True	Broad	6062
+nan_hani_hokkien_broad.tsv	nan	Min Nan Chinese	Min Nan	Han	Hokkien	False	Broad	46238
+nan_hani_teochew_broad.tsv	nan	Min Nan Chinese	Min Nan	Han	Teochew	False	Broad	16378
 nap_latn_broad.tsv	nap	Neapolitan	Neapolitan	Latin		False	Broad	201
 nap_latn_narrow.tsv	nap	Neapolitan	Neapolitan	Latin		False	Narrow	455
 nav_latn_broad.tsv	nav	Navajo	Navajo	Latin		False	Broad	329
@@ -322,6 +336,7 @@ nor_latn_broad.tsv	nor	Norwegian	Norwegian	Latin		False	Broad	1397
 nrf_latn_broad.tsv	nrf	Jèrriais	Norman	Latin		False	Broad	186
 nup_latn_broad.tsv	nup	Nupe-Nupe-Tako	Nupe	Latin		False	Broad	442
 nya_latn_broad.tsv	nya	Nyanja	Chichewa	Latin		False	Broad	830
+och_hani_zhengzhang_broad.tsv	och	Old Chinese	Old Chinese	Han	Zhengzhang	False	Broad	19608
 oci_latn_broad.tsv	oci	Occitan (post 1500)	Occitan	Latin		False	Broad	580
 oci_latn_narrow.tsv	oci	Occitan (post 1500)	Occitan	Latin		False	Narrow	349
 ofs_latn_broad.tsv	ofs	Old Frisian	Old Frisian	Latin		False	Broad	170
@@ -462,6 +477,7 @@ wbk_latn_broad.tsv	wbk	Waigali	Waigali	Latin		False	Broad	112
 wiy_latn_broad.tsv	wiy	Wiyot	Wiyot	Latin		False	Broad	152
 wlm_latn_broad.tsv	wlm	Middle Welsh	Middle Welsh	Latin		False	Broad	151
 wln_latn_broad.tsv	wln	Walloon	Walloon	Latin		False	Broad	2545
+wuu_hani_shanghai_broad.tsv	wuu	Wu Chinese	Wu	Han	Shanghai	False	Broad	14143
 xal_cyrl_broad.tsv	xal	Kalmyk	Kalmyk	Cyrillic		False	Broad	328
 xho_latn_narrow.tsv	xho	Xhosa	Xhosa	Latin		False	Narrow	876
 xsl_latn_narrow.tsv	xsl	South Slavey	South Slavey	Latin		False	Narrow	137
@@ -471,12 +487,10 @@ yid_hebr_broad.tsv	yid	Yiddish	Yiddish	Hebrew		False	Broad	3572
 yid_hebr_narrow.tsv	yid	Yiddish	Yiddish	Hebrew		False	Narrow	346
 yor_latn_broad.tsv	yor	Yoruba	Yoruba	Latin		False	Broad	5199
 yrk_cyrl_narrow.tsv	yrk	Nenets	Tundra Nenets	Cyrillic		False	Narrow	233
-yue_hani_broad.tsv	yue	Yue Chinese	Cantonese	Han		False	Broad	102453
-yue_latn_broad.tsv	yue	Yue Chinese	Cantonese	Latin		False	Broad	432
+yue_hani_standard_broad.tsv	yue	Yue Chinese	Cantonese	Han	Standard	False	Broad	116020
+yue_latn_standard_broad.tsv	yue	Yue Chinese	Cantonese	Latin	Standard	False	Broad	547
 yux_cyrl_narrow.tsv	yux	Southern Yukaghir	Southern Yukaghir	Cyrillic		False	Narrow	200
 zha_latn_broad.tsv	zha	Zhuang	Zhuang	Latin		False	Broad	1405
-zho_hani_broad.tsv	zho	Chinese	Chinese	Han		False	Broad	158873
-zho_latn_broad.tsv	zho	Chinese	Chinese	Latin		False	Broad	174
 zom_latn_broad.tsv	zom	Zou	Zou	Latin		False	Broad	142
 zul_latn_broad.tsv	zul	Zulu	Zulu	Latin		False	Broad	1743
 zza_latn_narrow.tsv	zza	Zaza	Zazaki	Latin		False	Narrow	199
