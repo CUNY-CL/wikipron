@@ -2,7 +2,6 @@
 #    uv pip compile pyproject.toml --extra dev -o requirements.txt
 attrs==26.1.0
     # via
-    #   csvw
     #   jsonschema
     #   referencing
 babel==2.18.0
@@ -11,17 +10,17 @@ beautifulsoup4==4.14.3
     # via types-lxml
 black==26.3.1
     # via wikipron (pyproject.toml)
-build==1.4.3
+build==1.5.0
     # via wikipron (pyproject.toml)
-certifi==2026.2.25
+certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.2
+click==8.3.3
     # via black
 cssselect==1.4.0
     # via types-lxml
-csvw==3.7.0
+csvw==4.0.0
     # via segments
 docutils==0.22.4
     # via readme-renderer
@@ -29,7 +28,7 @@ flake8==7.3.0
     # via wikipron (pyproject.toml)
 id==1.6.1
     # via twine
-idna==3.11
+idna==3.13
     # via requests
 iniconfig==2.3.0
     # via pytest
@@ -51,9 +50,9 @@ keyring==25.7.0
     # via twine
 language-tags==1.2.0
     # via csvw
-librt==0.9.0
+librt==0.10.0
     # via mypy
-lxml==6.0.4
+lxml==6.1.0
     # via wikipron (pyproject.toml)
 markdown-it-py==4.0.0
     # via rich
@@ -65,17 +64,17 @@ more-itertools==11.0.2
     # via
     #   jaraco-classes
     #   jaraco-functools
-mypy==1.20.1
+mypy==1.20.2
     # via wikipron (pyproject.toml)
 mypy-extensions==1.1.0
     # via
     #   black
     #   mypy
-nh3==0.3.4
+nh3==0.3.5
     # via readme-renderer
 numpy==2.4.4
     # via pandas
-packaging==26.0
+packaging==26.2
     # via
     #   black
     #   build
@@ -83,7 +82,7 @@ packaging==26.0
     #   twine
 pandas==3.0.2
     # via wikipron (pyproject.toml)
-pathspec==1.0.4
+pathspec==1.1.1
     # via
     #   black
     #   mypy
@@ -112,7 +111,7 @@ python-dateutil==2.9.0.post0
     # via
     #   csvw
     #   pandas
-python-iso639==2026.1.31
+python-iso639==2026.4.20
     # via wikipron (pyproject.toml)
 pytokens==0.4.1
     # via black
@@ -131,7 +130,6 @@ regex==2026.4.4
 requests==2.33.1
     # via
     #   wikipron (pyproject.toml)
-    #   csvw
     #   requests-toolbelt
     #   twine
 requests-toolbelt==1.0.0
@@ -162,7 +160,7 @@ types-html5lib==1.1.11.20260408
     # via types-lxml
 types-lxml==2026.2.16
     # via wikipron (pyproject.toml)
-types-requests==2.33.0.20260408
+types-requests==2.33.0.20260503
     # via wikipron (pyproject.toml)
 types-webencodings==0.5.0.20260408
     # via types-html5lib
@@ -181,5 +179,5 @@ urllib3==2.6.3
     #   requests
     #   twine
     #   types-requests
-wcwidth==0.6.0
+wcwidth==0.7.0
     # via prettytable
