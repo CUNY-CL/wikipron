@@ -1,11 +1,11 @@
 * Languages: 321
-  * Broad transcription files: 325
+  * Broad transcription files: 323
   * Narrow transcription files: 175
 * Dialects: 31
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 4,351,593
+* Pronunciations: 4,248,708
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -499,9 +499,7 @@
 | [TSV](tsv/yid_hebr_narrow.tsv) | yid | Yiddish | Yiddish | Hebrew |  | False | Narrow | 346 |
 | [TSV](tsv/yor_latn_broad.tsv) | yor | Yoruba | Yoruba | Latin |  | False | Broad | 5,199 |
 | [TSV](tsv/yrk_cyrl_narrow.tsv) | yrk | Nenets | Tundra Nenets | Cyrillic |  | False | Narrow | 233 |
-| [TSV](tsv/yue_hani_broad.tsv) | yue | Yue Chinese | Cantonese | Han |  | False | Broad | 102,453 |
 | [TSV](tsv/yue_hani_standard_broad.tsv) | yue | Yue Chinese | Cantonese | Han | Standard | False | Broad | 116,020 |
-| [TSV](tsv/yue_latn_broad.tsv) | yue | Yue Chinese | Cantonese | Latin |  | False | Broad | 432 |
 | [TSV](tsv/yue_latn_standard_broad.tsv) | yue | Yue Chinese | Cantonese | Latin | Standard | False | Broad | 547 |
 | [TSV](tsv/yux_cyrl_narrow.tsv) | yux | Southern Yukaghir | Southern Yukaghir | Cyrillic |  | False | Narrow | 200 |
 | [TSV](tsv/zha_latn_broad.tsv) | zha | Zhuang | Zhuang | Latin |  | False | Broad | 1,405 |

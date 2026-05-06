@@ -487,9 +487,7 @@ yid_hebr_broad.tsv	yid	Yiddish	Yiddish	Hebrew		False	Broad	3572
 yid_hebr_narrow.tsv	yid	Yiddish	Yiddish	Hebrew		False	Narrow	346
 yor_latn_broad.tsv	yor	Yoruba	Yoruba	Latin		False	Broad	5199
 yrk_cyrl_narrow.tsv	yrk	Nenets	Tundra Nenets	Cyrillic		False	Narrow	233
-yue_hani_broad.tsv	yue	Yue Chinese	Cantonese	Han		False	Broad	102453
 yue_hani_standard_broad.tsv	yue	Yue Chinese	Cantonese	Han	Standard	False	Broad	116020
-yue_latn_broad.tsv	yue	Yue Chinese	Cantonese	Latin		False	Broad	432
 yue_latn_standard_broad.tsv	yue	Yue Chinese	Cantonese	Latin	Standard	False	Broad	547
 yux_cyrl_narrow.tsv	yux	Southern Yukaghir	Southern Yukaghir	Cyrillic		False	Narrow	200
 zha_latn_broad.tsv	zha	Zhuang	Zhuang	Latin		False	Broad	1405
