@@ -1,11 +1,11 @@
-* Languages: 321
-  * Broad transcription files: 323
+* Languages: 320
+  * Broad transcription files: 321
   * Narrow transcription files: 175
 * Dialects: 31
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 4,248,708
+* Pronunciations: 4,089,661
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -503,8 +503,6 @@
 | [TSV](tsv/yue_latn_standard_broad.tsv) | yue | Yue Chinese | Cantonese | Latin | Standard | False | Broad | 547 |
 | [TSV](tsv/yux_cyrl_narrow.tsv) | yux | Southern Yukaghir | Southern Yukaghir | Cyrillic |  | False | Narrow | 200 |
 | [TSV](tsv/zha_latn_broad.tsv) | zha | Zhuang | Zhuang | Latin |  | False | Broad | 1,405 |
-| [TSV](tsv/zho_hani_broad.tsv) | zho | Chinese | Chinese | Han |  | False | Broad | 158,873 |
-| [TSV](tsv/zho_latn_broad.tsv) | zho | Chinese | Chinese | Latin |  | False | Broad | 174 |
 | [TSV](tsv/zom_latn_broad.tsv) | zom | Zou | Zou | Latin |  | False | Broad | 142 |
 | [TSV](tsv/zul_latn_broad.tsv) | zul | Zulu | Zulu | Latin |  | False | Broad | 1,743 |
 | [TSV](tsv/zza_latn_narrow.tsv) | zza | Zaza | Zazaki | Latin |  | False | Narrow | 199 |

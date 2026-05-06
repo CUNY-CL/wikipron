@@ -2964,18 +2964,6 @@
             "latn": "Latin"
         }
     },
-    "zho": {
-        "iso639_name": "Chinese",
-        "wiktionary_name": "Chinese",
-        "wiktionary_code": "zh",
-        "script": {
-            "zyyy": "Common",
-            "latn": "Latin",
-            "hira": "Hiragana",
-            "bopo": "Bopomofo",
-            "hani": "Han"
-        }
-    },
     "zom": {
         "iso639_name": "Zou",
         "wiktionary_name": "Zou",

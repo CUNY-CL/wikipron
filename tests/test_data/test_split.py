@@ -237,6 +237,14 @@ _SMOKE_TEST_LANGUAGES = [
             ("wikipron", False),
         ],
     ),
+    SmokeTestScript(
+        "Unknown",
+        [
+            ("", True),
+            ("a", False),
+            ("wikipron", False),
+        ],
+    ),
 ]
 
 

@@ -96,7 +96,7 @@ def _call_scrape_multi(
     output_specs: list[dict[str, Any]],
 ) -> None:
     with contextlib.ExitStack() as stack:
-        # buffering=1 → line-buffered, so partial output is visible
+        # buffering=1 for line-buffered, so partial output is visible
         # on disk immediately. Without it, with many output sinks
         # (e.g., several dialects x broad/narrow), per-file buffers
         # can sit unflushed for hours and a long-running scrape

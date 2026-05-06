@@ -491,8 +491,6 @@ yue_hani_standard_broad.tsv	yue	Yue Chinese	Cantonese	Han	Standard	False	Broad	1
 yue_latn_standard_broad.tsv	yue	Yue Chinese	Cantonese	Latin	Standard	False	Broad	547
 yux_cyrl_narrow.tsv	yux	Southern Yukaghir	Southern Yukaghir	Cyrillic		False	Narrow	200
 zha_latn_broad.tsv	zha	Zhuang	Zhuang	Latin		False	Broad	1405
-zho_hani_broad.tsv	zho	Chinese	Chinese	Han		False	Broad	158873
-zho_latn_broad.tsv	zho	Chinese	Chinese	Latin		False	Broad	174
 zom_latn_broad.tsv	zom	Zou	Zou	Latin		False	Broad	142
 zul_latn_broad.tsv	zul	Zulu	Zulu	Latin		False	Broad	1743
 zza_latn_narrow.tsv	zza	Zaza	Zazaki	Latin		False	Narrow	199
