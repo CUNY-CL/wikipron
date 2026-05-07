@@ -22,6 +22,8 @@ def test_language_coverage():
     """
     categories = _get_language_categories()
     sizes = _get_language_sizes(categories)
+    unhandled = []
+    mismatched = []
     for language, size in sizes.items():
         if size < _MIN_LANGUAGE_SIZE:
             continue
@@ -37,14 +39,22 @@ def test_language_coverage():
         try:
             language_inferred = wikipron.Config(key=language_code).language
         except ValueError:
-            warnings.warn(f'WikiPron cannot handle "{language}".')
+            unhandled.append(language)
             continue
         if language_inferred != language:
-            warnings.warn(
-                f'WikiPron resolves the key "{language_code}" to '
-                f'"{language_inferred}", '
-                f'which is not "{language}" on Wiktionary.'
-            )
+            mismatched.append((language_code, language_inferred, language))
+    if unhandled:
+        joined = ", ".join(f'"{lang}"' for lang in unhandled)
+        warnings.warn(f"WikiPron cannot handle {joined}.")
+    if mismatched:
+        details = "; ".join(
+            f'"{code}" -> "{inferred}" (not "{language}")'
+            for code, inferred, language in mismatched
+        )
+        warnings.warn(
+            f"WikiPron resolves keys to languages not on Wiktionary: "
+            f"{details}."
+        )
 
 
 def test_language_codes_dict_keys():
