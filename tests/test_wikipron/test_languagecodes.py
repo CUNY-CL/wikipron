@@ -27,9 +27,13 @@ def test_language_coverage():
     for language, size in sizes.items():
         if size < _MIN_LANGUAGE_SIZE:
             continue
-        if language in ("Mon", "Translingual"):
+        if language in ("Hokkien", "Mon", "Translingual"):
             # "mon" is the ISO 639 code for Mongolian, but there is also
             # the Mon language (ISO 639 code: "mnw").
+            # "Hokkien" is a variety of Min Nan; LANGUAGE_CODES maps it
+            # to the existing Min Nan handler rather than as its own
+            # language (see the "hokkien" dialect under nan in
+            # languages.json).
             continue
         try:
             language_code = iso639.Language.match(language).part3
