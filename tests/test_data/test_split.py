@@ -238,6 +238,15 @@ _SMOKE_TEST_LANGUAGES = [
         ],
     ),
     SmokeTestScript(
+        "Yi",
+        [
+            ("ꆈꌠ", True),
+            ("ꆈꌠꉙ", True),
+            ("Հայոց", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
         "Unknown",
         [
             ("", True),
