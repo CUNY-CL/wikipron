@@ -30,7 +30,8 @@
         "wiktionary_name": "Iraqi Arabic",
         "wiktionary_code": "acm",
         "script": {
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "hebr": "Hebrew"
         }
     },
     "acw": {
@@ -1480,7 +1481,8 @@
         "wiktionary_code": "kru",
         "script": {
             "deva": "Devanagari",
-            "latn": "Latin"
+            "latn": "Latin",
+            "zzzz": "Unknown"
         }
     },
     "ksw": {
@@ -2208,7 +2210,8 @@
         "wiktionary_name": "Ossetian",
         "wiktionary_code": "os",
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "geor": "Georgian"
         }
     },
     "osx": {
