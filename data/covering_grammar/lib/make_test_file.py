@@ -15,9 +15,9 @@ from data.scrape.lib.codes import LOGGING_PATH
 
 def main(args: argparse.Namespace) -> None:
     with contextlib.ExitStack() as stack:
-        gf = stack.enter_context(open(args.gold, "r"))
-        pf = stack.enter_context(open(args.pred, "r"))
-        wf = stack.enter_context(open(args.out, "w"))
+        gf = stack.enter_context(open(args.gold, "r", encoding="utf-8"))
+        pf = stack.enter_context(open(args.pred, "r", encoding="utf-8"))
+        wf = stack.enter_context(open(args.out, "w", encoding="utf-8"))
         for lineno, (g_line, p_line) in enumerate(zip(gf, pf), 1):
             g_word, g_pron = g_line.rstrip().split("\t", 2)
             p_word, p_pron = p_line.rstrip().split("\t", 2)

@@ -31,7 +31,7 @@ def write_frequency_tsv(
             wiki_tsv = csv.reader(
                 wiki_file, delimiter="\t", quoting=csv.QUOTE_NONE
             )
-            with open(sink_path, "w") as source:
+            with open(sink_path, "w", encoding="utf-8") as source:
                 # Our TSVs may be two or three columns
                 # depending on if merge.py has been run.
                 for word, pron, *prev_count in wiki_tsv:

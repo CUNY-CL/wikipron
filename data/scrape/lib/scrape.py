@@ -206,7 +206,7 @@ def main(args: argparse.Namespace) -> None:
     else:
         exclude_set = frozenset()
     if not args.fresh and os.path.exists(UNSCRAPED_JSON_FILENAME):
-        with open(UNSCRAPED_JSON_FILENAME) as f:
+        with open(UNSCRAPED_JSON_FILENAME, encoding="utf-8") as f:
             unscraped_json = json.load(f)
         unscraped_codes = frozenset(unscraped_json["unscraped"])
         cut_off_date = unscraped_json["cut_off_date"]
@@ -239,7 +239,7 @@ def main(args: argparse.Namespace) -> None:
         _call_scrape_multi(all_configs, all_specs)
         for code in codes_in_group:
             remaining.remove(code)
-        with open(UNSCRAPED_JSON_FILENAME, "w") as f:
+        with open(UNSCRAPED_JSON_FILENAME, "w", encoding="utf-8") as f:
             unscraped = {
                 "cut_off_date": cut_off_date,
                 "unscraped": sorted(remaining),

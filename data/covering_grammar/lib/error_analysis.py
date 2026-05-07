@@ -54,7 +54,7 @@ def main(args: argparse.Namespace) -> None:
         total_records = 0
         error_log_dir = log()
         today_timestamp = get_current_timestamp()
-        with open(args.test_path, "r") as source:
+        with open(args.test_path, "r", encoding="utf-8") as source:
             with open(
                 os.path.join(error_log_dir, today_timestamp + ".log"),
                 "w",
