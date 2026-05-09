@@ -5,7 +5,7 @@
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 42
-* Pronunciations: 4,089,661
+* Pronunciations: 4,144,678
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -392,7 +392,7 @@
 | [TSV](tsv/ron_latn_narrow.tsv) | ron | Romanian | Romanian | Latin |  | False | Narrow | 6,127 |
 | [TSV](tsv/ron_latn_narrow_filtered.tsv) | ron | Romanian | Romanian | Latin |  | True | Narrow | 6,033 |
 | [TSV](tsv/rup_latn_narrow.tsv) | rup | Macedo-Romanian | Aromanian | Latin |  | False | Narrow | 175 |
-| [TSV](tsv/rus_cyrl_narrow.tsv) | rus | Russian | Russian | Cyrillic |  | False | Narrow | 411,651 |
+| [TSV](tsv/rus_cyrl_narrow.tsv) | rus | Russian | Russian | Cyrillic |  | False | Narrow | 466,668 |
 | [TSV](tsv/sah_cyrl_broad.tsv) | sah | Yakut | Yakut | Cyrillic |  | False | Broad | 213 |
 | [TSV](tsv/san_deva_broad.tsv) | san | Sanskrit | Sanskrit | Devanagari |  | False | Broad | 13,390 |
 | [TSV](tsv/san_deva_narrow.tsv) | san | Sanskrit | Sanskrit | Devanagari |  | False | Narrow | 1,226 |
