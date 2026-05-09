@@ -406,7 +406,7 @@ ron_latn_narrow_filtered.tsv	ron	Romanian	Romanian	Latin		True	Narrow	6033
 rsk_cyrl_narrow.tsv	rsk	Ruthenian	Pannonian Rusyn	Cyrillic		False	Narrow	6695
 rue_cyrl_narrow.tsv	rue	Rusyn	Carpathian Rusyn	Cyrillic		False	Narrow	107
 rup_latn_narrow.tsv	rup	Macedo-Romanian	Aromanian	Latin		False	Narrow	175
-rus_cyrl_narrow.tsv	rus	Russian	Russian	Cyrillic		False	Narrow	411651
+rus_cyrl_narrow.tsv	rus	Russian	Russian	Cyrillic		False	Narrow	466668
 sah_cyrl_broad.tsv	sah	Yakut	Yakut	Cyrillic		False	Broad	213
 san_deva_broad.tsv	san	Sanskrit	Sanskrit	Devanagari		False	Broad	13390
 san_deva_narrow.tsv	san	Sanskrit	Sanskrit	Devanagari		False	Narrow	1226
