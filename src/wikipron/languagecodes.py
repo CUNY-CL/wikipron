@@ -94,10 +94,12 @@ LANGUAGE_CODES = {
     # Old High German. Would be "Old High German (ca. 750-1050)" in ISO 639-3.
     "goh": "Old High German",
     "old high german": "Old High German",
-    # Old Portuguese. Not an ISO 639 language.
-    "old portuguese": "Old Portuguese",
-    "roa-opt": "Old Portuguese",
-    "opt": "Old Portuguese",  # TODO: Drop this? opt is Opata in ISO 639-3.
+    # Old Galician-Portuguese. Not an ISO 639 language. Wiktionary renamed
+    # this from "Old Portuguese".
+    "roa-opt": "Old Galician-Portuguese",
+    "old portuguese": "Old Galician-Portuguese",
+    "old galician-portuguese": "Old Galician-Portuguese",
+    "opt": "Old Galician-Portuguese",  # TODO: Drop? opt is Opata in ISO 639-3.  # noqa: E501
     # Old Tupi. Would be "Tupí" in ISO 639-3.
     "tpw": "Old Tupi",
     "old tupi": "Old Tupi",
@@ -266,10 +268,10 @@ LANGUAGE_CODES = {
     "tyv": "Tuvan",
     "tuvan": "Tuvan",
     "tuvinian": "Tuvan",
-    # Bikol Central. Would be "Central Bikol" in ISO 639-3.
-    "bcl": "Bikol Central",
-    "bikol central": "Bikol Central",
-    "central bikol": "Bikol Central",
+    # Central Bikol. Wiktionary renamed this from "Bikol Central".
+    "bcl": "Central Bikol",
+    "bikol central": "Central Bikol",
+    "central bikol": "Central Bikol",
     # Kyrgyz. Would be "Kirghiz" in ISO 639-3.
     "kir": "Kyrgyz",
     "kyrgyz": "Kyrgyz",
@@ -309,28 +311,278 @@ LANGUAGE_CODES = {
     "nyahkur": "Nyah Kur",
     # Not-already-mentioned languages from languages.json that have
     # a difference between their iso639 and Wiktionary name.
+    # Acehnese. Would be "Achinese" in ISO 639-3.
+    "ace": "Acehnese",
+    "acehnese": "Acehnese",
+    "achinese": "Acehnese",
+    # Ainu. Would be "Ainu (Japan)" in ISO 639-3.
     "ain": "Ainu",
+    "ainu": "Ainu",
+    # Aromanian. Would be "Macedo-Romanian" in ISO 639-3.
     "rup": "Aromanian",
+    "aromanian": "Aromanian",
+    "macedo-romanian": "Aromanian",
+    # Barngarla. Would be "Banggarla" in ISO 639-3.
     "bjb": "Barngarla",
+    "barngarla": "Barngarla",
+    "banggarla": "Barngarla",
+    # Carpathian Rusyn. Would be "Rusyn" in ISO 639-3.
+    "rue": "Carpathian Rusyn",
+    "rusyn": "Carpathian Rusyn",
+    "carpathian rusyn": "Carpathian Rusyn",
+    # Chichewa. Would be "Nyanja" in ISO 639-3.
     "nya": "Chichewa",
+    "chichewa": "Chichewa",
+    "nyanja": "Chichewa",
+    # East Circassian. Wiktionary renamed this from "Kabardian".
+    "kbd": "East Circassian",
+    "kabardian": "East Circassian",
+    "east circassian": "East Circassian",
+    # Franco-Provençal. Would be "Arpitan" in ISO 639-3.
+    "frp": "Franco-Provençal",
+    "franco-provençal": "Franco-Provençal",
+    "arpitan": "Franco-Provençal",
+    # Guaraní.
     "grn": "Guaraní",
+    "guarani": "Guaraní",
+    "guaraní": "Guaraní",
+    # Gullah. Would be "Sea Island Creole English" in ISO 639-3.
+    "gul": "Gullah",
+    "gullah": "Gullah",
+    "sea island creole english": "Gullah",
+    # Haitian Creole. Would be "Haitian" in ISO 639-3.
     "hat": "Haitian Creole",
+    "haitian creole": "Haitian Creole",
+    "haitian": "Haitian Creole",
+    # Iraqi Arabic. Would be "Mesopotamian Arabic" in ISO 639-3.
+    "acm": "Iraqi Arabic",
+    "iraqi arabic": "Iraqi Arabic",
+    "mesopotamian arabic": "Iraqi Arabic",
+    # Juba Arabic. Would be "Sudanese Creole Arabic" in ISO 639-3.
+    "pga": "Juba Arabic",
+    "juba arabic": "Juba Arabic",
+    "sudanese creole arabic": "Juba Arabic",
+    # Juǀ'hoan.
     "ktz": "Juǀ'hoan",
+    "juǀ'hoan": "Juǀ'hoan",
+    # Kalami. Would be "Gawri" in ISO 639-3.
+    "gwc": "Kalami",
+    "kalami": "Kalami",
+    "gawri": "Kalami",
+    # Kapampangan. Would be "Pampanga" in ISO 639-3.
     "pam": "Kapampangan",
+    "kapampangan": "Kapampangan",
+    "pampanga": "Kapampangan",
+    # Kari'na. Would be "Galibi Carib" in ISO 639-3.
+    "car": "Kari'na",
+    "kari'na": "Kari'na",
+    "galibi carib": "Kari'na",
+    # Konkani.
     "kok": "Konkani",
+    "konkani": "Konkani",
+    # Kurtöp. Would be "Kurtokha" in ISO 639-3.
+    "xkz": "Kurtöp",
+    "kurtöp": "Kurtöp",
+    "kurtokha": "Kurtöp",
+    # Kurux. Would be "Kurukh" in ISO 639-3.
+    "kru": "Kurux",
+    "kurux": "Kurux",
+    "kurukh": "Kurux",
+    # Kwak'wala. Would be "Kwakiutl" in ISO 639-3.
     "kwk": "Kwak'wala",
+    "kwak'wala": "Kwak'wala",
+    "kwakiutl": "Kwak'wala",
+    # Maguindanao. Would be "Maguindanaon" in ISO 639-3.
+    "mdh": "Maguindanao",
+    "maguindanao": "Maguindanao",
+    "maguindanaon": "Maguindanao",
+    # Malay. Would be "Malay (macrolanguage)" in ISO 639-3.
     "msa": "Malay",
+    "malay": "Malay",
+    # Māori. Wiktionary writes it with a macron.
+    "mri": "Māori",
+    "maori": "Māori",
+    "māori": "Māori",
+    # Middle High German. Would be "Middle High German (ca. 1050-1500)" in
+    # ISO 639-3.
+    "gmh": "Middle High German",
+    "middle high german": "Middle High German",
+    # Nepali. Would be "Nepali (macrolanguage)" in ISO 639-3.
     "nep": "Nepali",
+    "nepali": "Nepali",
+    # Nheengatu. Would be "Nhengatu" in ISO 639-3.
+    "yrl": "Nheengatu",
+    "nheengatu": "Nheengatu",
+    "nhengatu": "Nheengatu",
+    # North Levantine Arabic. Would be "Levantine Arabic" in ISO 639-3.
+    "apc": "North Levantine Arabic",
+    "north levantine arabic": "North Levantine Arabic",
+    "levantine arabic": "North Levantine Arabic",
+    # Nuosu. Wiktionary renamed this from "Sichuan Yi".
+    "iii": "Nuosu",
+    "nuosu": "Nuosu",
+    "sichuan yi": "Nuosu",
+    # Nupe. Would be "Nupe-Nupe-Tako" in ISO 639-3.
     "nup": "Nupe",
+    "nupe": "Nupe",
+    "nupe-nupe-tako": "Nupe",
+    # Nǀuu. Would be "Nǁng" in ISO 639-3.
+    "ngh": "Nǀuu",
+    "nǀuu": "Nǀuu",
+    "nǁng": "Nǀuu",
+    # Ojibwe. Would be "Ojibwa" in ISO 639-3.
+    "oji": "Ojibwe",
+    "oj": "Ojibwe",
+    "ojibwe": "Ojibwe",
+    "ojibwa": "Ojibwe",
+    # Old East Slavic. Would be "Old Russian" in ISO 639-3.
     "orv": "Old East Slavic",
+    "old east slavic": "Old East Slavic",
+    "old russian": "Old East Slavic",
+    # Old Javanese. Would be "Kawi" in ISO 639-3.
     "kaw": "Old Javanese",
+    "old javanese": "Old Javanese",
+    "kawi": "Old Javanese",
+    # Oriya. Would be "Oriya (macrolanguage)" in ISO 639-3.
     "ori": "Oriya",
+    "oriya": "Oriya",
+    # Ossetian. Would be "Iron Ossetic" in ISO 639-3.
+    "oss": "Ossetian",
+    "os": "Ossetian",
+    "ossetian": "Ossetian",
+    "iron ossetic": "Ossetian",
+    # Palula. Wiktionary renamed this from "Phalura".
+    "phl": "Palula",
+    "palula": "Palula",
+    "phalura": "Palula",
+    # Pannonian Rusyn. Would be "Ruthenian" in ISO 639-3.
+    "rsk": "Pannonian Rusyn",
+    "pannonian rusyn": "Pannonian Rusyn",
+    "ruthenian": "Pannonian Rusyn",
+    # Paraguayan Guarani. Would be "Paraguayan Guaraní" in ISO 639-3.
+    "gug": "Paraguayan Guarani",
+    "paraguayan guarani": "Paraguayan Guarani",
+    "paraguayan guaraní": "Paraguayan Guarani",
+    # Pichinglis. Would be "Fernando Po Creole English" in ISO 639-3.
+    "fpe": "Pichinglis",
+    "pichinglis": "Pichinglis",
+    "fernando po creole english": "Pichinglis",
+    # Rapa Nui. Would be "Rapanui" in ISO 639-3.
     "rap": "Rapa Nui",
+    "rapa nui": "Rapa Nui",
+    "rapanui": "Rapa Nui",
+    # Romani. Would be "Romany" in ISO 639-3.
     "rom": "Romani",
+    "romani": "Romani",
+    "romany": "Romani",
+    # Sassarese. Would be "Sassarese Sardinian" in ISO 639-3.
     "sdc": "Sassarese",
+    "sassarese": "Sassarese",
+    "sassarese sardinian": "Sassarese",
+    # Senhaja de Srair. iso639's name uses the same spelling.
+    "sjs": "Senhaja de Srair",
+    "senhaja de srair": "Senhaja de Srair",
+    "senhaja berber": "Senhaja de Srair",
+    # Sinhalese. Would be "Sinhala" in ISO 639-3.
     "sin": "Sinhalese",
+    "sinhalese": "Sinhalese",
+    "sinhala": "Sinhalese",
+    # South Levantine Arabic.
+    "ajp": "South Levantine Arabic",
+    "south levantine arabic": "South Levantine Arabic",
+    # Swahili. Would be "Swahili (macrolanguage)" in ISO 639-3.
     "swa": "Swahili",
+    "swahili": "Swahili",
+    # Tashelhit. Would be "Tachelhit" in ISO 639-3.
+    "shi": "Tashelhit",
+    "tashelhit": "Tashelhit",
+    "tachelhit": "Tashelhit",
+    # Tokelauan. Would be "Tokelau" in ISO 639-3.
     "tkl": "Tokelauan",
+    "tokelauan": "Tokelauan",
+    "tokelau": "Tokelauan",
+    # Tsuut'ina. Would be "Sarsi" in ISO 639-3.
     "srs": "Tsuut'ina",
+    "tsuut'ina": "Tsuut'ina",
+    "sarsi": "Tsuut'ina",
+    # Ulwa (Nicaragua). iso639's name is "Ulwa".
+    "ulw": "Ulwa (Nicaragua)",
+    "ulwa": "Ulwa (Nicaragua)",
+    "ulwa (nicaragua)": "Ulwa (Nicaragua)",
+    # Venetan. Would be "Venetian" in ISO 639-3.
+    "vec": "Venetan",
+    "venetan": "Venetan",
+    "venetian": "Venetan",
+    # Waray-Waray. Would be "Waray (Philippines)" in ISO 639-3.
+    "war": "Waray-Waray",
+    "waray-waray": "Waray-Waray",
+    "waray (philippines)": "Waray-Waray",
+    # West Circassian. Wiktionary renamed this from "Adyghe".
+    "ady": "West Circassian",
+    "adyghe": "West Circassian",
+    "west circassian": "West Circassian",
+    # Western Pwo. Would be "Pwo Western Karen" in ISO 639-3.
+    "pwo": "Western Pwo",
+    "western pwo": "Western Pwo",
+    "pwo western karen": "Western Pwo",
+    # Ye'kwana. Wiktionary renamed this from "Maquiritari".
+    "mch": "Ye'kwana",
+    "ye'kwana": "Ye'kwana",
+    "maquiritari": "Ye'kwana",
+    # Yola.
+    "yol": "Yola",
+    "yola": "Yola",
+    # Yucatec Maya. Would be "Yucateco" in ISO 639-3.
     "yua": "Yucatec Maya",
+    "yucatec maya": "Yucatec Maya",
+    "yucateco": "Yucatec Maya",
+    # Languages whose Wiktionary code has no ISO 639 mapping.
+    # Black Speech. Constructed language.
+    "art-bsp": "Black Speech",
+    "black speech": "Black Speech",
+    # Champenois.
+    "roa-cha": "Champenois",
+    "champenois": "Champenois",
+    # Chungli Ao.
+    "njo-jgl": "Chungli Ao",
+    "chungli ao": "Chungli Ao",
+    # Eastern Khanty.
+    "kca-eas": "Eastern Khanty",
+    "eastern khanty": "Eastern Khanty",
+    # Jersey Dutch.
+    "gmw-jdt": "Jersey Dutch",
+    "jersey dutch": "Jersey Dutch",
+    # Komi-Yazva.
+    "urj-kya": "Komi-Yazva",
+    "komi-yazva": "Komi-Yazva",
+    # Mariupol Greek.
+    "grk-mar": "Mariupol Greek",
+    "mariupol greek": "Mariupol Greek",
+    # Northern Khanty.
+    "kca-nor": "Northern Khanty",
+    "northern khanty": "Northern Khanty",
+    # Northern Mansi.
+    "mns-nor": "Northern Mansi",
+    "northern mansi": "Northern Mansi",
+    # Old Czech.
+    "zlw-ocs": "Old Czech",
+    "old czech": "Old Czech",
+    # Old Polish.
+    "zlw-opl": "Old Polish",
+    "old polish": "Old Polish",
+    # Sarawak Malay.
+    "poz-sml": "Sarawak Malay",
+    "sarawak malay": "Sarawak Malay",
+    # Slovincian.
+    "zlw-slv": "Slovincian",
+    "slovincian": "Slovincian",
+    # Solon.
+    "tuw-sol": "Solon",
+    "solon": "Solon",
+    # Hokkien. Wiktionary's separate "Hokkien" (nan-hbl) category is a
+    # variety of Min Nan; resolve it to the existing Min Nan handler. The
+    # "hokkien" dialect under nan in languages.json continues to handle
+    # the variety-specific scrape.
+    "hokkien": "Min Nan",
+    "nan-hbl": "Min Nan",
 }

@@ -238,6 +238,15 @@ _SMOKE_TEST_LANGUAGES = [
         ],
     ),
     SmokeTestScript(
+        "Yi",
+        [
+            ("ꆈꌠ", True),
+            ("ꆈꌠꉙ", True),
+            ("Հայոց", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
         "Unknown",
         [
             ("", True),
@@ -250,7 +259,7 @@ _SMOKE_TEST_LANGUAGES = [
 
 def _collect_scripts() -> set[str]:
     scripts = set()
-    with open(_LANGUAGES, "r") as source:
+    with open(_LANGUAGES, "r", encoding="utf-8") as source:
         languages = json.load(source)
     for lang in languages:
         if "script" in languages[lang]:
