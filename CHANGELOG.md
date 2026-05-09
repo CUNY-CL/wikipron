@@ -12,7 +12,7 @@ Unreleased
 
 ### Under `data/`
 
--  Updates Russian data. (\#586)
+-  Updates Russian (`rus`). (\#586)
 -  Adds the following new languages (\#585):
     * Achinese (`ace`)
     * Mesopotamian Arabic (`acm`)
