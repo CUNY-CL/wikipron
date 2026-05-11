@@ -173,7 +173,7 @@ unicodedataplus==16.0.0.post1
     # via wikipron (pyproject.toml)
 uritemplate==4.2.0
     # via csvw
-urllib3==2.6.3
+urllib3==2.7.0
     # via
     #   id
     #   requests
