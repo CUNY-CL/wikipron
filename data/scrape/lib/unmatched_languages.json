@@ -1,4 +1,7 @@
 {
+    "art-bsp": {
+        "wiktionary_name": "Black Speech"
+    },
     "cel-bry-pro": {
         "wiktionary_name": "Proto-Brythonic"
     },
@@ -17,11 +20,23 @@
     "grk-mar": {
         "wiktionary_name": "Mariupol Greek"
     },
+    "kca-eas": {
+        "wiktionary_name": "Eastern Khanty"
+    },
+    "kca-nor": {
+        "wiktionary_name": "Northern Khanty"
+    },
     "map-pro": {
         "wiktionary_name": "Proto-Austronesian"
     },
+    "mns-nor": {
+        "wiktionary_name": "Northern Mansi"
+    },
     "nds-de": {
         "wiktionary_name": "German Low German"
+    },
+    "njo-jgl": {
+        "wiktionary_name": "Chungli Ao"
     },
     "poz-mly-pro": {
         "wiktionary_name": "Proto-Malayic"
@@ -29,13 +44,28 @@
     "poz-pro": {
         "wiktionary_name": "Proto-Malayo-Polynesian"
     },
+    "poz-sml": {
+        "wiktionary_name": "Sarawak Malay"
+    },
+    "roa-cha": {
+        "wiktionary_name": "Champenois"
+    },
     "roa-opt": {
         "wiktionary_name": "Old Galician-Portuguese"
+    },
+    "tuw-sol": {
+        "wiktionary_name": "Solon"
+    },
+    "urj-kya": {
+        "wiktionary_name": "Komi-Yazva"
     },
     "zlw-ocs": {
         "wiktionary_name": "Old Czech"
     },
     "zlw-opl": {
         "wiktionary_name": "Old Polish"
+    },
+    "zlw-slv": {
+        "wiktionary_name": "Slovincian"
     }
 }
