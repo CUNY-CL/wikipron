@@ -699,7 +699,8 @@
             "zyyy": "Common",
             "latn": "Latin",
             "grek": "Greek",
-            "hebr": "Hebrew"
+            "hebr": "Hebrew",
+            "cyrl": "Cyrillic"
         }
     },
     "enm": {
@@ -2185,7 +2186,8 @@
             "po": "Portugal"
         },
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         }
     },
     "pox": {
@@ -2466,7 +2468,8 @@
             "ca": "Castilian | Spain"
         },
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         }
     },
     "sqi": {

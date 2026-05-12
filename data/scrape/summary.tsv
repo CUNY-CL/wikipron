@@ -108,12 +108,12 @@ egy_latn_broad.tsv	egy	Egyptian (Ancient)	Egyptian	Latin		False	Broad	4046
 ell_grek_broad.tsv	ell	Modern Greek (1453-)	Greek	Greek		False	Broad	15241
 ell_grek_broad_filtered.tsv	ell	Modern Greek (1453-)	Greek	Greek		True	Broad	14825
 ell_grek_narrow.tsv	ell	Modern Greek (1453-)	Greek	Greek		False	Narrow	342
-eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	82261
-eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	81576
-eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	1958
-eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	81323
-eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	80740
-eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	2903
+eng_latn_uk_broad.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Broad	101464
+eng_latn_uk_broad_filtered.tsv	eng	English	English	Latin	UK, Received Pronunciation	True	Broad	100309
+eng_latn_uk_narrow.tsv	eng	English	English	Latin	UK, Received Pronunciation	False	Narrow	3324
+eng_latn_us_broad.tsv	eng	English	English	Latin	US, General American	False	Broad	101371
+eng_latn_us_broad_filtered.tsv	eng	English	English	Latin	US, General American	True	Broad	100101
+eng_latn_us_narrow.tsv	eng	English	English	Latin	US, General American	False	Narrow	5212
 enm_latn_broad.tsv	enm	Middle English (1100-1500)	Middle English	Latin		False	Broad	10525
 epo_latn_broad.tsv	epo	Esperanto	Esperanto	Latin		False	Broad	3999
 epo_latn_narrow.tsv	epo	Esperanto	Esperanto	Latin		False	Narrow	17209
@@ -129,8 +129,8 @@ fao_latn_narrow.tsv	fao	Faroese	Faroese	Latin		False	Narrow	1175
 fas_arab_broad.tsv	fas	Persian	Persian	Arabic		False	Broad	554
 fas_arab_narrow.tsv	fas	Persian	Persian	Arabic		False	Narrow	34033
 fax_latn_broad.tsv	fax	Fala	Fala	Latin		False	Broad	538
-fin_latn_broad.tsv	fin	Finnish	Finnish	Latin		False	Broad	158880
-fin_latn_narrow.tsv	fin	Finnish	Finnish	Latin		False	Narrow	158871
+fin_latn_broad.tsv	fin	Finnish	Finnish	Latin		False	Broad	173449
+fin_latn_narrow.tsv	fin	Finnish	Finnish	Latin		False	Narrow	199754
 fra_latn_broad.tsv	fra	French	French	Latin		False	Broad	80943
 fra_latn_broad_filtered.tsv	fra	French	French	Latin		True	Broad	80690
 fra_latn_narrow.tsv	fra	French	French	Latin		False	Narrow	254
@@ -362,12 +362,12 @@ phl_latn_broad.tsv	phl	Phalura	Phalura	Latin		False	Broad	2144
 pjt_latn_narrow.tsv	pjt	Pitjantjatjara	Pitjantjatjara	Latin		False	Narrow	124
 pms_latn_broad.tsv	pms	Piemontese	Piedmontese	Latin		False	Broad	866
 pol_latn_broad.tsv	pol	Polish	Polish	Latin		False	Broad	132558
-por_latn_bz_broad.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Broad	139198
-por_latn_bz_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Brazil	True	Broad	139160
-por_latn_bz_narrow.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Narrow	72663
-por_latn_po_broad.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Broad	73236
-por_latn_po_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Portugal	True	Broad	49149
-por_latn_po_narrow.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Narrow	27795
+por_latn_bz_broad.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Broad	185526
+por_latn_bz_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Brazil	True	Broad	185296
+por_latn_bz_narrow.tsv	por	Portuguese	Portuguese	Latin	Brazil	False	Narrow	106570
+por_latn_po_broad.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Broad	85969
+por_latn_po_broad_filtered.tsv	por	Portuguese	Portuguese	Latin	Portugal	True	Broad	58184
+por_latn_po_narrow.tsv	por	Portuguese	Portuguese	Latin	Portugal	False	Narrow	32758
 pox_latn_broad.tsv	pox	Polabian	Polabian	Latin		False	Broad	307
 ppl_latn_broad.tsv	ppl	Pipil	Pipil	Latin		False	Broad	264
 pqm_latn_broad.tsv	pqm	Malecite-Passamaquoddy	Malecite-Passamaquoddy	Latin		False	Broad	151
@@ -409,12 +409,12 @@ slv_latn_narrow.tsv	slv	Slovenian	Slovene	Latin		False	Narrow	131
 sme_latn_broad.tsv	sme	Northern Sami	Northern Sami	Latin		False	Broad	4103
 sms_latn_broad.tsv	sms	Skolt Sami	Skolt Sami	Latin		False	Broad	113
 snd_arab_broad.tsv	snd	Sindhi	Sindhi	Arabic		False	Broad	121
-spa_latn_ca_broad.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	False	Broad	99056
-spa_latn_ca_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	True	Broad	99043
-spa_latn_ca_narrow.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	False	Narrow	99002
-spa_latn_la_broad.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Broad	99051
-spa_latn_la_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Latin America	True	Broad	99038
-spa_latn_la_narrow.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Narrow	98997
+spa_latn_ca_broad.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	False	Broad	132292
+spa_latn_ca_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	True	Broad	127979
+spa_latn_ca_narrow.tsv	spa	Spanish	Spanish	Latin	Castilian, Spain	False	Narrow	132300
+spa_latn_la_broad.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Broad	128524
+spa_latn_la_broad_filtered.tsv	spa	Spanish	Spanish	Latin	Latin America	True	Broad	128464
+spa_latn_la_narrow.tsv	spa	Spanish	Spanish	Latin	Latin America	False	Narrow	128528
 sqi_latn_broad.tsv	sqi	Albanian	Albanian	Latin		False	Broad	1997
 sqi_latn_narrow.tsv	sqi	Albanian	Albanian	Latin		False	Narrow	935
 srd_latn_broad.tsv	srd	Sardinian	Sardinian	Latin		False	Broad	690
