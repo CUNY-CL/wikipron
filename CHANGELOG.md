@@ -12,6 +12,11 @@ Unreleased
 
 ### Under `data/`
 
+-  Updates the following languages (\#588):
+    * English (`eng`)
+    * Finnish (`fin`)
+    * Portuguese (`por`)
+    * Spanish (`spa`)
 -  Updates Russian (`rus`). (\#586)
 -  Adds the following new languages (\#585):
     * Achinese (`ace`)

@@ -110,7 +110,9 @@ def main():
                                 )
                             _remove_mismatch_ids(lang)
     with open(LANGUAGES_PATH, "w", encoding="utf-8") as sink:
-        json.dump(languages, sink, ensure_ascii=False, indent=4)
+        json.dump(
+            languages, sink, ensure_ascii=False, indent=4, sort_keys=True
+        )
 
 
 if __name__ == "__main__":
