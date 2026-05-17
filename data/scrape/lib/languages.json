@@ -1813,7 +1813,8 @@
     "mkd": {
         "iso639_name": "Macedonian",
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "latn": "Latin"
         },
         "wiktionary_code": "mk",
         "wiktionary_name": "Macedonian"
