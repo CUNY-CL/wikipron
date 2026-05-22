@@ -293,8 +293,8 @@ arguments `--skip-parens`/`--no-skip-parens` with `--parens` (\#577).
     * Zulu (`zul`)
     * Zaza (`zza`)
 -  Removes the following languages (\#590):
-    * Guarani (`grn`) -- replaced by Paraguayan Guaraní (`gug`)
-    * Tabaru (`tby`) -- updated upstream data no longer makes the 100-item threshold
+    * Guarani (`grn`), which has been replaced by Paraguayan Guaraní (`gug`).
+    * Tabaru (`tby`). Updated upstream data no longer makes the 100-item threshold.
 -  Updates the following languages (\#589):
     * Bulgarian (`bul`)
     * Catalan (`cat`)
