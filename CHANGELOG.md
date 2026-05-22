@@ -14,7 +14,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
-[2.0.0] - 2026-05-27
+[2.0.0] - 2026-05-22
 --------------------
 
 This release has incremented the major version number to v2
