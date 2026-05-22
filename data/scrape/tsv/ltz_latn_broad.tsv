@@ -1,4 +1,5 @@
 't	t
+A	aː
 Aachtel	aː χ t e l
 Aadler	aː d l ɐ
 Aalbes	aː l b e s
@@ -17,6 +18,7 @@ Aarbechtsdokter	aː r b e χ t s d o k t ɐ
 Aarbechtsdoktesch	aː r b e χ t s d o k t ə ʃ
 Aarbechtserlabnes	aː r b e χ t s e r l aː b n e s
 Aarm	aː r m
+Aarmut	aː m u t
 Aarmut	aː ʀ m u t
 Aart	aː r t
 Aasch	aː ʃ
@@ -25,6 +27,7 @@ Aascht	aː ʃ t
 Aaxt	aː k s t
 Aaxten	aː k s t ə n
 Aband	aː b ɑ n t
+Absurditéit	ɑ p z u ʀ d i t ə ɪ̯ t
 Abt	ɑ p t
 Abänn	aː b æ n
 Adler	aː d l e r
@@ -39,12 +42,12 @@ Alphabet	ɑ l f ɑ b eː t
 Alstad	aː l ʃ t aː t
 Alzem	a l t s e m
 Ambulanz	ɑ m b u l ɑ n t͡s
-Ameis	aː m a i̯ s
 Ament	a m æ n t
 Ananas	a n a n a s
 Anchois	ã ʃ v aː
 Andeelung	a n d eː l u ŋ
 Angscht	a ŋ ʃ t
+Animatioun	a n i m a s j e u̯ n
 Animatioun	a n i m a t s j e u̯ n
 Antigel	a n t i ʒ æ l
 Apdikt	a p d i k t
@@ -66,16 +69,21 @@ Atelier	ɑ t ə l j eː
 Aubergine	o b e r ʒ i n
 Aubergine	o b æ r ʒ i n
 Auteur	oː t øː e ʀ
+Auteur	oː t øː ʀ
+Aviatioun	a v j a s j e u̯ n
 Aviatioun	a v j a t s j e u̯ n
 Avion	a v j õ
 Awanderung	a v a n d e ʀ u ŋ
+Awar	a v aː
 Awar	a v aː ʀ
 Awunner	a v u n e ʀ
-Baach	b aː χ
 Baachfrell	b aː χ f ʀ æ l
 Baachnénga	b aː χ n e ŋ aː
+Baarf	b aː f
 Baarf	b aː ʀ f
+Baarmhäerzegkeet	b aː m h eː ʀ t s e χ k eː t
 Baarmhäerzegkeet	b aː ʀ m h eː ʀ t s e χ k eː t
+Baart	b aː t
 Baart	b aː ʀ t
 Baatsch	b aː t ʃ
 Bad	b aː t
@@ -88,7 +96,6 @@ Bampiipsert	b aː m p iː p s e ʀ t
 Band	b a n t
 Band	b æ n t
 Bandscheif	b a n t ʃ a i̯ f
-Bank	b a ŋ k
 Bankrott	b a ŋ k ʀ o t
 Bann	b a n
 Bascht	b a ʃ t
@@ -116,6 +123,7 @@ Bensin	b æ n z iː n
 Beruff	b e ʀ u f
 Beréierung	b e ʀ e i̯ ʀ u ŋ
 Besserung	b æ s e ʀ u ŋ
+Bestanddeel	b e ʃ t a n d eː l
 Bestanddeel	b e ʃ t a n t d eː l
 Bestiechung	b ə ʃ t i ə̯ ɕ u ŋ
 Besuch	b e z u χ
@@ -129,8 +137,8 @@ Bewonnerung	b e v o n e ʀ u ŋ
 Bewäis	b e v æ i̯ s
 Bezeechnung	b e t s eː χ n u ŋ
 Bezuch	b e t s u χ
+Bibel	b i b e l
 Bibel	b iː b e l
-Biber	b iː b e r
 Bibliothecaire	b i b l j o t e k ɛː ʁ
 Bic	b i k
 Bich	b i χ
@@ -143,15 +151,17 @@ Bidet	b i d e
 Bier	b iː r
 Bierg	b i ə̯ χ
 Bierger	b i e̯ ʁ e r
-Biesem	b i e̯ z e m
 Bifdeck	b i f d æ k
 Bigel	b i ʁ e l
-Biischt	b iː ʃ t
 Bijoutier	b i ʒ u t j e
 Bild	b i l t
 Bildschierm	b i l t ʃ i e̯ m
+Billard	b i j aː
+Billard	b i j aː ʀ
+Billard	b i l j aː
 Billard	b i l j aː ʀ
 Bindestréch	b i n d e ʃ t ʀ e χ
+Bing	b i ŋ
 Biologie	b i o l o ʒ i
 Blat	b l aː t
 Blatlaus	b l aː t l æ u̯ s
@@ -179,7 +189,6 @@ Bomm	b o m
 Bommel	b o m e l
 Bond	b o n t
 Bong	b o ŋ
-Bord	b oː e ʀ
 Botanik	b o t aː n i k
 Bott	b o t
 Botte	b o t
@@ -195,20 +204,18 @@ Boun	b e u̯ n
 Bouneschlupp	b e u̯ n e ʃ l u p
 Bourse	b u ʀ s
 Bouss	b e u̯ s
+Box	b o k s
 Brach	b ʀ a χ
 Brak	b ʀ aː k
 Branntewäin	b r a n t e v æ i̯ n
 Braut	b r æ u̯ t
 Brautrank	b ʀ æ u̯ t ʀ a ŋ k
-Breet	b ʀ eː t
 Bremsspur	b ʀ æ m s ʃ p uː ʀ
 Brennes	b ʀ æ n e s
 Bretzel	b ʀ æ t s e l
 Bridder	b ʀ i d e ʀ
 Briecheisen	b r i e̯ χ a i̯ z e n
-Briet	b ʀ i e̯ t
 Brigang	b ʀ i ɡ a ŋ
-Britt	b ʀ i t
 Broch	b ʀ o χ
 Bromee	b ʀ o m eː
 Brongbrëschtchen	b ʀ o ŋ b ʀ e ʃ t χ e n
@@ -217,7 +224,6 @@ Brosch	b ʀ o ʃ
 Broscht	b ʀ o ʃ t
 Brot	b ʀ oː t
 Brout	b r e u̯ t
-Bruck	b ʀ u k
 Brudder	b ʀ u d e ʀ
 Bräi	b ʀ æ i̯
 Bräit	b r æ i̯ t
@@ -234,6 +240,7 @@ Brëtsch	b ʀ e t ʃ
 Buch	b u χ
 Buedduch	b u e̯ t d u χ
 Buedem	b u e̯ d e m
+Buedzëmmer	b u e̯ t s e m e ʀ
 Buedzëmmer	b u e̯ t t s e m e ʀ
 Buer	b uː r
 Buerg	b u e̯ χ
@@ -246,19 +253,19 @@ Bunn	b u n
 Bus	b u s
 Buschauffeur	b uː s ʃ oː f ɐ
 Buschtaf	b u ʃ t aː f
+Busgare	b u s ɡ aː
 Busgare	b u s ɡ aː ʀ
 Buttek	b u t e k
-Buuscht	b uː ʃ t
 Bäcker	b æ k e ʀ
 Bäckeschdosen	b æ k e ʃ d o z e n
 Bäileed	b æ i̯ l eː t
 Bäll	b æ l
-Bänk	b æ ŋ k
 Béchs	b e k s
 Béi	b e i̯
 Béifchen	b e i̯ f χ e n
 Bëbee	b e b eː
 Bësch	b e ʃ
+Bëschof	b e ʃ o f
 Bëschof	b e ʃ oː f
 Bëss	b e s
 Bëtong	b e t o ŋ
@@ -280,13 +287,17 @@ Chimie	ʃ i m i
 Chlor	k l oː r
 Choix	ʃ v a
 Choufleur	ʃ uː f l øː e ʀ
+Choufleur	ʃ uː f l øː ʀ
 Christus	k ʀ i s t u s
 Chrëschtdag	k ʀ e ʃ t d aː χ
 Chrëschtentum	k ʀ e ʃ t e n t uː m
 Chômage	ʃ oː m aː ʃ
+Collaboratioun	k o l a b o ʀ a s j e u̯ n
 Collaboratioun	k o l a b o ʀ a t s j e u̯ n
+Comptoir	k õ t v aː
 Comptoir	k õ t v aː ʀ
 Computer	k o m p j uː t e ʀ
+Constitutioun	k o n s t i t u s j e u̯ n
 Constitutioun	k o n s t i t u t s j e u̯ n
 Cours	k uː r
 Coursen	k uː r e n
@@ -295,9 +306,11 @@ Da	d a
 Daach	d aː χ
 Daachliicht	d aː χ l iː χ t
 Daachzill	d aː χ t͡s i l
+Daarm	d aː m
 Daarm	d aː ʀ m
 Dachs	d a k s
 Daf	d aː f
+Dafheet	d aː f eː t
 Dafheet	d aː f h eː t
 Dag	d aː χ
 Daimchen	d a i̯ m χ e n
@@ -305,16 +318,15 @@ Damm	d a m
 Damp	d a m p
 Danz	d a n s
 Dapp	d a p
+Dar	d aː
 Dar	d aː ʀ
 Dattel	d a t e l
 Datz	d a t s
 Dauer	d a u̯ e ʀ
-Dauf	d a u̯ f
+Dauer	d a u̯ ʀ
 Deckel	d æ k e l
 Deckelsmouk	d æ k e l s m e u̯ k
 Decken	d æ k e n
-Deeg	d eː χ
-Deel	d eː l
 Dekorateur	d e k o ʁ ɑ t øː ɐ̯
 Denn	d æ n
 Dezember	d e t s æ m b e ʀ
@@ -324,7 +336,6 @@ Dichter	d i χ t e ʀ
 Dictionnaire	d i k s j o n eː r
 Dictionnairen	d i k s j o n eː r e n
 Diddeleng	d i d e l e ŋ
-Dier	d iː r
 Dierfer	d i e̯ f e r
 Digel	d i ʁ e l
 Dikrech	d i k ʀ e χ
@@ -333,14 +344,15 @@ Dimmer	d i m e r
 Dir	d iː r
 Distanz	d i s t ɑ n t͡s
 Diwwi	d i v i
-Do	d o
 Doft	d o f t
 Doheem	d o h eː m
 Dokter	d o k t e ʀ
 Dolmetscher	d o l m æ t͡ʃ ɐ
 Doloun	d oː l e u̯ n
 Doléiner	d oː l e i̯ n e r
+Dommheet	d o m eː t
 Dommheet	d o m h eː t
+Donkelheet	d o ŋ k e l eː t
 Donkelheet	d o ŋ k e l h eː t
 Donner	d o n e r
 Donst	d o n s t
@@ -387,6 +399,7 @@ Dueder	d u e̯ d e ʀ
 Duercherneen	d u e̯ χ e ʀ n eː n
 Duerchmiesser	d u ə̯ ɕ m i ə̯ s ɐ
 Duerf	d u e̯ f
+Dugend	d u ʁ e n t
 Dugend	d uː ʁ e n t
 Dunn	d u n
 Dusch	d u ʃ
@@ -402,8 +415,10 @@ Dänemark	d æː n e m a ʀ k
 Dänn	d æ n
 Dännemees	d æ n e m eː s
 Däreldéier	d eː ʀ e l d e i̯ e ʀ
+Däreldéier	d eː ʀ e l d e i̯ ʀ
 Déckt	d e k t
 Déier	d e i̯ e ʀ
+Déier	d e i̯ ʀ
 Déif	d e i̯ f
 Déifferdeng	d e i̯ f e ʀ d e ŋ
 Déift	d e i̯ f t
@@ -414,7 +429,6 @@ Dëll	d e l
 Dëlpes	d ə l p e s
 Dësch	d e ʃ
 Dëschelduch	d e ʃ e l d u χ
-Dëschtel	d e ʃ t e l
 Dëschtennis	d e ʃ t æ n i s
 E	e
 E	eː
@@ -422,6 +436,7 @@ E	æ
 E	ə
 Eck	æ k
 Eckzant	æ k t s a n t
+Educatioun	eː d y k a s j e u̯ n
 Educatioun	eː d y k a t s j e u̯ n
 Ee	eː
 Eech	eː χ
@@ -433,17 +448,18 @@ Eefeu	eː f ɔ ɪ
 Eegennumm	eː ʁ e n n u m
 Eegiel	eː ɡ i e̯ l
 Eemer	eː m e ʀ
+Eenhar	eː n h aː
 Eenhar	eː n h aː ʀ
 Eesch	eː ʃ
 Eescht	eː ʃ t
 Eess	eː s
-Eeter	eː t e ʀ
 Eewäiss	eː v æ i̯ s
 Eeër	eː e r
 Eeërschuel	e e ʀ ʃ u e̯ l
 Eeërstack	e e ʀ ʃ t a k
 Ekipp	eː k i p
 Ekipp	æ k i p
+Elaboratioun	eː l a b o ʀ a s j e u̯ n
 Elaboratioun	eː l a b o ʀ a t s j e u̯ n
 Elch	æ l χ
 Elefant	e l e f a n t
@@ -454,6 +470,7 @@ Elteren	æ l t e ʀ e n
 Elterenhaus	æ l t e ʀ e n h æ u̯ s
 Email	e m a i̯
 Email	eː m a i̯
+Emissioun	e m i s j e u̯ n
 Emissioun	eː m i s j e u̯ n
 England	æ ŋ l a n t
 Englesch	æ ŋ l e ʃ
@@ -470,6 +487,7 @@ Epicier	e p i s j eː
 Epidemie	e p i d e m iː
 Epidemiolog	e p i d e m i o l oː k
 Epidemiologie	e p i d e m i o l o ɡ iː
+Erbaarmen	e ʀ b aː m e n
 Erbaarmen	e ʀ b aː ʀ m e n
 Erfolleg	e r f o l e χ
 Erfolleger	e r f o l e ʁ e r
@@ -481,9 +499,12 @@ Estland	æ s t l a n t
 Etapp	e t a p
 Etapp	eː t a p
 Ettelbréck	æ t e l b r e k
+Etude	eː t y t
 Etude	eː t yː t
+Exploitatioun	æ k s p l v a t a s j e u̯ n
 Exploitatioun	æ k s p l v a t a t s j e u̯ n
 Faarf	f aː r f
+Faart	f aː t
 Faart	f aː ʀ t
 Faaschtenzäit	f aː ʃ t e n t s æ i̯ t
 Faass	f aː s
@@ -497,17 +518,20 @@ Famill	f a m i l
 Fanger	f a ŋ e ʀ
 Fangernol	f a ŋ e ʀ n oː l
 Fangerspëtz	f a ŋ e ʀ ʃ p e t s
+Far	f aː
 Far	f aː ʀ
 Fascht	f a ʃ t
 Fassad	f a s aː t
+Faszinatioun	f a s t s i n a s j e u̯ n
 Faszinatioun	f a s t s i n a t s j e u̯ n
 Fatz	f a t s
 Fauscht	f æ u̯ ʃ t
 Fee	f eː
 Feeler	f eː l e ʀ
-Feescht	f eː ʃ t
 Feierblumm	f a i̯ e ʀ b l u m
+Feierblumm	f a i̯ ʀ b l u m
 Feierdag	f a i̯ e ʀ d aː χ
+Feierdag	f a i̯ ʀ d aː χ
 Feigling	f ɑ ɪ̯ ʑ l i ŋ
 Feil	f a i̯ l
 Feind	f a i̯ n t
@@ -523,13 +547,10 @@ Fierkel	f i e̯ k e l
 Fierschter	f i e̯ ʀ ʃ t e ʀ
 Fies	f i e̯ s
 Fiffi	f i f i
-Fig	f iː k
-Figebam	f iː ɡ e b aː m
 Figur	f i ɡ uː ʀ
 Fiicht	f iː χ t
 Fiichtegkeet	f iː χ t e χ k eː t
 Fiischt	f iː ʃ t
-Fillen	f i l e n
 Fils	f i s
 Filssen	f i s e n
 Filz	f i l s
@@ -538,6 +559,7 @@ Finn	f i n
 Fisemreen	f i z e m ʀ eː n
 Fitteng	f i t æ ŋ
 Fixfeier	f i k s f a i̯ e ʀ
+Fixfeier	f i k s f a i̯ ʀ
 Fixspoun	f i k s ʃ p e u̯ n
 Fixspéin	f i k s ʃ p ɜ ɪ̯ n
 Flack	f l a k
@@ -560,9 +582,11 @@ Flillek	f l i l e k
 Flom	f l oː m
 Floss	f l o s
 Flott	f l o t
-Flou	f l e u̯
 Flouer	f l e u̯ e ʀ
+Flouer	f l e u̯ ʀ
 Flouernumm	f l e u̯ e ʀ n u m
+Flouernumm	f l e u̯ ʀ n u m
+Floumaart	f l e u̯ m aː t
 Floumaart	f l e u̯ m aː ʀ t
 Fluch	f l u χ
 Fluchfeld	f l u χ f æ l t
@@ -575,7 +599,6 @@ Flächen	f l æ ɕ ə n
 Fläiss	f l æ i̯ s
 Fläsch	f l æ ʃ
 Fléck	f l e k
-Fléi	f l e i̯
 Fléimouk	f l e i̯ m e u̯ k
 Fléiwel	f l e ɪ̯ v ə l
 Flënt	f l e n t
@@ -599,6 +622,7 @@ Frack	f r a k
 Frang	f ʀ ɑ ŋ
 Frankräich	f ʀ a ŋ k ʀ æ i̯ χ
 Frascht	f ʀ a ʃ t
+Frechheet	f ʀ æ χ eː t
 Frechheet	f ʀ æ χ h eː t
 Freed	f ʀ eː t
 Frell	f ʀ æ l
@@ -611,17 +635,16 @@ Frust	f ʀ u s t
 Fruucht	f ʀ uː χ t
 Fräsch	f r æ ʃ
 Fréijoer	f r e i̯ j oː e r
+Fréijoer	f r e i̯ j oː r
 Frënd	f ʀ e n t
 Fudder	f u d e ʀ
 Fuedem	f u e̯ d e m
-Fuer	f uː ʀ
 Fuererflucht	f uː ʀ e ʀ f l u χ t
 Fuerplang	f uː ʀ p l a ŋ
 Fuerz	f u e̯ t s
 Fuite	f v i t
 Fuuss	f uː s
 Fächer	f æ χ e r
-Fähr	f eː ʀ
 Fäil	f æ i̯ l
 Fäischt	f æ i̯ ʃ t
 Fändel	f æ n d e l
@@ -629,11 +652,12 @@ Féiss	f e i̯ s
 Féiwer	f e i̯ v e r
 Fënnefeck	f e n e f æ k
 Fënnefecker	f e n e f æ k e r
-Fënster	f e n s t e r
 Fësch	f e ʃ
 Fëscher	f e ʃ e ʀ
 Gaalgen	ɡ aː l ʁ e n
+Gaardeboun	ɡ aː d e b e u̯ n
 Gaardeboun	ɡ aː ʀ d e b e u̯ n
+Gaarf	ɡ aː f
 Gaarf	ɡ aː ʀ f
 Gaascht	ɡ aː ʃ t
 Gaass	ɡ aː s
@@ -650,7 +674,6 @@ Gebeess	ɡ e b eː s
 Gebiet	ɡ e b i e̯ t
 Gebitt	ɡ e b i t
 Gebot	ɡ e b oː t
-Gebuert	ɡ e b uː ʀ t
 Geck	ɡ æ k
 Gedanken	ɡ e d a ŋ k e n
 Gediechtnes	ɡ e d i e̯ χ t n e s
@@ -672,7 +695,6 @@ Geheechnes	ɡ e h eː χ n e s
 Geheimnis	ɡ e h a i̯ m n i s
 Gehier	ɡ e h iː r
 Gei	ɡ a i̯
-Gel	ʒ æ l
 Geld	ɡ æ l t
 Gellecht	ɡ æ l e χ t
 Gelänner	ɡ ə l æ n ɐ
@@ -691,8 +713,8 @@ Geräischer	ɡ e ʀ æ i̯ ʃ e ʀ
 Gerücht	ɡ e r y χ t
 Gerüchter	ɡ e r y χ t e r
 Geschenk	ɡ ə ʃ æ ŋ k
-Geschicht	ɡ e ʃ i χ t
 Geschlechtsverkéier	ɡ e ʃ l æ χ t s f e ʀ k e i̯ e ʀ
+Geschlechtsverkéier	ɡ e ʃ l æ χ t s f e ʀ k e i̯ ʀ
 Geschmaach	ɡ e ʃ m aː χ
 Geschäft	ɡ ə ʃ æ f t
 Gesell	ɡ e z æ l
@@ -749,12 +771,13 @@ Granatapel	ɡ ʀ a n aː t aː p ə l
 Grand	ɡ ʀ a n t
 Grapp	ɡ ʀ a p
 Gras	ɡ ʀ aː s
+Graskaarp	ɡ ʀ aː s k aː p
 Graskaarp	ɡ ʀ aː s k aː ʀ p
+Gravitatioun	ɡ ʀ a v i t a s j e u̯ n
 Gravitatioun	ɡ ʀ a v i t a t s j e u̯ n
 Gravitéit	ɡ ʀ a v i t e i̯ t
 Greef	ɡ ʀ eː f
 Grenz	ɡ ʁ æ n t͡s
-Griich	ɡ ʀ iː χ
 Griicheland	ɡ ʀ iː χ e l a n t
 Griichesch	ɡ ʀ iː χ e ʃ
 Grill	ɡ ʀ i l
@@ -771,13 +794,13 @@ Grondel	ɡ ʀ o n d e l
 Grott	ɡ ʀ o t
 Grouf	ɡ ʀ e u̯ f
 Grouss	ɡ ʀ e u̯ s
+Groussherzogtum	ɡ ʀ ə u s h ɛ ʀ t s oː χ t u m
 Groussmamm	ɡ ʀ e u̯ s m a m
 Grousspapp	ɡ ʀ e u̯ s p a p
 Gruef	ɡ r u e̯ f
 Grupp	ɡ ʀ u p
 Gréif	ɡ ʀ e i̯ f
 Gréiwemaacher	ɡ ʀ e i̯ v e m aː χ e ʀ
-Grëff	ɡ ʀ e f
 Grënner	ɡ ʀ e n e ʀ
 Grëtz	ɡ ʀ e t s
 Guckuck	ɡ u k u k
@@ -800,6 +823,8 @@ Gëtter	ɡ e t e r
 Haaptfach	h aː p t f a χ
 Haaptsaach	h aː p t z aː χ
 Haaptstad	h aː p t ʃ t aː t
+Haaptstad	h aː p ʃ t aː t
+Haarz	h aː t s
 Haarz	h aː ʀ t s
 Haass	h aː s
 Hackernoss	h a k e ʀ n o s
@@ -828,6 +853,7 @@ Handyen	h æ n d i e n
 Hanf	h ɑ n f
 Hank	h a ŋ k
 Happ	h a p
+Har	h aː
 Har	h aː ʀ
 Hardenne	h ɑ ʁ d æ n
 Harespel	h a ʀ æ s p e l
@@ -836,6 +862,7 @@ Harf	h a r f
 Hatt	h a t
 Hauf	h a u̯ f
 Hausdéier	h æ u̯ s d e i̯ e ʀ
+Hausdéier	h æ u̯ s d e i̯ ʀ
 Haut	h æ u̯ t
 Hautdokter	h a u̯ t d o k t e ʀ
 Hauwemees	h a u̯ v e m eː s
@@ -848,7 +875,6 @@ Heem	h eː m
 Heemecht	h eː m e χ t
 Heemechtshaus	h eː m e χ t s h æ u̯ s
 Heeschnapp	h eː ʃ n a p
-Heesprénger	h eː ʃ p ʀ e ŋ ɐ
 Heet	h eː t
 Heizkierper	h a i̯ t s k i e̯ p e ʀ
 Held	h æ l t
@@ -876,27 +902,35 @@ Hiewel	h i e̯ v e l
 Himmel	h i m e l
 Himmelräich	h i m e l ʀ æ i̯ χ
 Himmelsdéierchen	h i m e l s d e i̯ e ʀ χ e n
-Hirsch	h i ʀ ʃ
+Himmelsdéierchen	h i m e l s d e i̯ ʀ χ e n
 Historiker	h i s t oː ʀ i k e ʀ
 Hitt	h i t
 Hiwwel	h i v e l
 Ho	h o
 Hoer	h oː e r
 Hoerbiischt	h oː e ʀ b iː ʃ t
+Hoerbiischt	h oː ʀ b iː ʃ t
 Hoff	h o f
 Hol	h oː l
 Holland	h o l a n t
 Hollännesch	h o l æ n e ʃ
 Holz	h o l s
+Homard	h o m aː
 Homard	h o m aː ʀ
+Homard	o m aː
+Homard	o m aː ʀ
 Hond	h o n t
 Hong	h o ŋ
 Honger	h o ŋ e ʀ
 Honnert	h o n e ʀ t
 Horaire	h o ʀ eː ʀ
 Horaire	h oː ʀ eː ʀ
+Horaire	o ʀ eː ʀ
+Horaire	oː ʀ eː ʀ
 Hotel	h o t æ l
 Hotel	h oː t æ l
+Hotel	o t æ l
+Hotel	oː t æ l
 Hott	h o t
 Houeren	h e u̯ r e n
 Houf	h e u̯ f
@@ -904,8 +938,6 @@ Houfeisen	h e u̯ f a i̯ z e n
 Houfert	h e u̯ f e ʀ t
 Houfschmadd	h e u̯ f ʃ m a t
 Houscht	h e u̯ ʃ t
-Huer	h uː ʀ
-Hues	h u e̯ s
 Huesenziwwi	h u e̯ z e n t s i v i
 Huewer	h u e̯ v e ʀ
 Hummer	h u m e r
@@ -913,7 +945,6 @@ Hunn	h u n
 Hunneg	h u n e χ
 Hutt	h u t
 Huwwel	h u v e l
-Häerd	h eː r t
 Häerz	h eː r t s
 Häerzer	h eː r t s e r
 Häll	h æ l
@@ -921,11 +952,9 @@ Hällewull	h æ l e v u l
 Hämmel	h æ m ə l
 Hämmelfleesch	h æ m e l f l eː ʃ
 Händchen	h æ n t χ e n
-Händsch	h æ n t ʃ
 Hänn	h æ n
 Hännercher	h æ n ɐ ɕ ɐ
 Här	h eː r
-Härchen	h eː r χ e n
 Härcher	h eː r χ e r
 Hären	h eː r e n
 Härercher	h eː r e r χ e r
@@ -958,12 +987,15 @@ Iessläffel	i e̯ s l æ f e l
 Iesszëmmer	i e̯ s t s e m e ʀ
 Iewen	i e̯ v e n
 Igel	i ʁ e l
+Imaginatioun	i m a ʒ i n a s j e u̯ n
 Imaginatioun	i m a ʒ i n a t s j e u̯ n
+Improvisatioun	æ̃ p ʀ o v i z a s j e u̯ n
 Improvisatioun	æ̃ p ʀ o v i z a t s j e u̯ n
 Indien	i n d i e n
 Indien	i n d j e n
 Infektioun	i n f æ k s j o ʊ̯ n
 Ingenieur	æ̃ ʒ e n j øː e ʀ
+Ingenieur	æ̃ ʒ e n j øː ʀ
 Insekt	i n z æ k t
 Insel	i n z e l
 Inspekter	i n s p æ k t ɐ
@@ -983,8 +1015,11 @@ Jo	j o
 Joer	j oː e r
 Joer	ʒ oː e r
 Joerdausend	j oː e ʀ d a u̯ z e n t
+Joerdausend	j oː ʀ d a u̯ z e n t
 Joerhonnert	j oː e ʀ h o n e ʀ t
+Joerhonnert	j oː ʀ h o n e ʀ t
 Joerzéngt	j oː e ʀ t s e ŋ t
+Joerzéngt	j oː ʀ t s e ŋ t
 Joffer	j o f e ʀ
 Joffer	ʒ o f e ʀ
 Jomer	j oː m e ʀ
@@ -994,6 +1029,7 @@ Jongfra	j o ŋ f ʀ aː
 Joreszäit	j oː ʀ e s t s æ i̯ t
 Juck	j u k
 Judd	j u t
+Jugend	j u ʁ e n t
 Jugend	j uː ʁ e n t
 Jugendchômage	j uː ʁ e n t ʃ oː m aː ʃ
 Juli	j uː l i
@@ -1005,6 +1041,7 @@ Jus	ʒ y
 Jéngelchen	j e ŋ e l χ e n
 Kaalwer	k aː l v e r
 Kaarp	k aː ʀ p
+Kaart	k aː t
 Kaart	k aː ʀ t
 Kaascht	k aː ʃ t
 Kabes	k aː b e s
@@ -1027,7 +1064,6 @@ Kanoun	k ɑ n ə ʊ̯ n
 Kanton	k ɑ n t oː n
 Kanäl	k ɑ n æ l
 Kanéil	k ɑ n ɜ ɪ̯ l
-Kanéngchen	k a n e ŋ χ e n
 Kap	k aː p
 Kapell	k ɑ p æ l
 Kapellen	k ɑ p æ l ə n
@@ -1048,6 +1084,7 @@ Kauzekäpp	k ɑ ʊ̯ t͡s ə k æ p
 Kaweechelchen	k aː v eː ɕ ə l ɕ ə n
 Kaweechelcher	k aː v eː ɕ ə l ɕ ɐ
 Kaz	k aː t s
+Kazena	k aː t s ə n aː
 Kazena	k aː t s ə n ʔ aː
 Keel	k eː l
 Keelt	k eː l t
@@ -1075,7 +1112,6 @@ Kinnek	k i n e k
 Kinneken	k i n e k e n
 Kinnekräich	k i n e ɡ ʁ æː ɪ̯ ɕ
 Kinnigin	k i n i ɡ i n
-Klack	k l a k
 Klam	k l aː m
 Klamer	k l aː m ɐ
 Klang	k l ɑ ŋ
@@ -1085,7 +1121,6 @@ Klass	k l ɑ s
 Kleed	k l eː t
 Klett	k l æ t
 Klierf	k l i e̯ f
-Klo	k l oː
 Klouschter	k l ə ʊ̯ ʃ t ɐ
 Kläckelchen	k l æ k e l χ e n
 Kléi	k l ɜ ɪ̯
@@ -1123,6 +1158,7 @@ Koméit	k o m ɜ ɪ̯ t
 Konn	k o n
 Konscht	k o n ʃ t
 Konstellatioun	k o n s t æ l ɑ s j ə ʊ̯ n
+Konstitutioun	k o n s t i t u s j o u̯ n
 Konstitutioun	k o n s t i t u t s j o u̯ n
 Kont	k o n t
 Kontroll	k o n t ʁ o l
@@ -1152,14 +1188,13 @@ Krazert	k ʀ aː t͡s ɐ t
 Krees	k ʀ eː s
 Kreesch	k ʀ eː ʃ
 Kreesverkéier	k r eː s f ə r k e i̯ e r
-Krich	k ʀ i ɕ
+Kreesverkéier	k r eː s f ə r k e i̯ r
 Kriibs	k ʀ iː p s
 Krimi	k ʀ i m i
 Kristall	k ʁ i s t ɑ l
 Krokodil	k ʁ o k o d iː l
 Krom	k ʀ oː m
 Kromm	k ʀ o m
-Krop	k ʀ oː p
 Krou	k ʀ ə ʊ̯
 Kroun	k r e u̯ n
 Krunn	k ʀ u n
@@ -1170,7 +1205,6 @@ Krämp	k ʀ æ m p
 Kréchel	k ʁ ə ɕ ə l
 Kréi	k ʀ ɜ ɪ̯
 Kréiena	k ʀ ɜ ɪ̯ ə n aː
-Kréischel	k ʀ ɜ ɪ̯ ʃ ə l
 Krëpp	k ʀ ə p
 Krëppchen	k ʀ ə p ɕ ə n
 Krëppebësser	k ʀ ə p ə b ə s ɐ
@@ -1184,7 +1218,6 @@ Kuel	k u ə l
 Kuelestoff	k u ə l ə ʃ t o f
 Kuer	k uː r
 Kueren	k uː r e n
-Kummer	k u m ɐ
 Kupplung	k u p l u ŋ
 Kurv	k u r f
 Kusin	k u z i n
@@ -1243,7 +1276,6 @@ Leem	l eː m
 Leescht	l eː ʃ t
 Leeschten	l eː ʃ t ə n
 Leeschtung	l eː ʃ t u ŋ
-Leier	l ɑ ɪ̯ ɐ
 Leif	l a i̯ f
 Leit	l ɑ ɪ̯ t
 Lektioun	l æ k s j ə ʊ n
@@ -1252,14 +1284,17 @@ Lidd	l i t
 Lieder	l i e̯ d e r
 Liewen	l i ə̯ v ə n
 Liewer	l i e̯ v e r
-Ligen	l i ʁ e n
 Liibling	l iː b l i ŋ
 Liicht	l iː ɕ t
+Liichttuerm	l iː χ t t u ə̯ m
 Liichttuerm	l iː χ t t u ə̯ ʀ m
+Liichttuerm	l iː χ t u ə̯ m
+Liichttuerm	l iː χ t u ə̯ ʀ m
 Limburgesch	l i m b u ə̯ j ə ʃ
 Limonad	l i m o n aː t
 Linn	l i n
 Lissabon	l i s ɑ b o n
+Living	l i v i ŋ
 Liwwerung	l i v ə ʁ u ŋ
 Lo	l oː
 Locher	l o χ ɐ
@@ -1270,8 +1305,6 @@ Lorber	l o ʁ b ɐ
 Lorberblat	l o ʁ b ɐ b l aː t
 Loscht	l o ʃ t
 Loun	l e u̯ n
-Lous	l ə ʊ̯ s
-Loyer	l w ɑ j eː
 Luchs	l u k s
 Lued	l u ə̯ t
 Luef	l u ə̯ f
@@ -1284,12 +1317,10 @@ Lycéesschüler	l i s eː s ʃ yː l e r
 Lycéeën	l i s eː ə n
 Lächer	l æ χ e r
 Läffel	l æ f ə l
-Läich	l æː ɪ̯ ɕ
 Läif	l æ i̯ f
 Läim	l æː ɪ̯ m
 Läimer	l æː ɪ̯ m ɐ
 Längt	l æ ŋ t
-Léck	l e k
 Léier	l ɜ ɪ̯ ɐ
 Léift	l e ɪ̯ f t
 Léisung	l ɜ ɪ̯ z u ŋ
@@ -1298,9 +1329,7 @@ Léngt	l e ŋ t
 Lëns	l ə n s
 Lëppestëft	l ə p ə ʃ t ə f t
 Lëps	l ə p s
-Lësch	l ə ʃ
 Lëscht	l e ʃ t
-Lëtsch	l ə t ʃ
 Lëtzebuerger	l e t s e b u e̯ ʁ e r
 Lëtzebuergesch	l e t s e b u e̯ ʁ e ʃ
 Maach	m aː χ
@@ -1317,7 +1346,6 @@ Mango	m ɑ ŋ ɡ oː
 Mann	m ɑ n
 Mantel	m ɑ n t ə l
 Mapp	m ɑ p
-Marder	m aː d ɐ
 Margréitchen	m a ʁ ɡ ʁ ɜ ɪ̯ t ɕ ə n
 Marionett	m ɑ ʀ j o n æ t
 Markéierstëft	m ɑ ʀ k ɜ ɪ̯ ɐ ʃ t ə f t
@@ -1325,7 +1353,6 @@ Maroun	m ɑ ʀ ə ʊ̯ n
 Marqueur	m ɑ ʀ k øː ʀ
 Masch	m ɑ ʃ
 Maschinn	m ɑ ʃ i n
-Mass	m a s
 Massendénger	m ɑ s ə n d e ŋ ɐ
 Matt	m ɑ t
 Mattant	m ɑ t ɑ n t
@@ -1389,13 +1416,11 @@ Motocyclist	m oː t o s i k l i s t
 Motorrad	m oː t o ʀ ʀ aː t
 Motorsee	m oː t o ʁ z eː
 Moud	m ə ʊ̯ t
-Mouk	m ə ʊ̯ k
 Moul	m ə ʊ̯ l
 Mound	m ə ʊ̯ n t
 Mount	m ə ʊ̯ n t
 Mous	m ə ʊ̯ s
 Mudder	m u d ɐ
-Muecht	m u ə ɕ t
 Muerch	m uː ə̯ ɕ
 Muerd	m uː ə̯ t
 Mueren	m uː r e n
@@ -1416,8 +1441,6 @@ Méckefänkert	m e k ə f æ ŋ k ɐ t
 Méi	m ɜ ɪ
 Méint	m ɜ ɪ̯ n t
 Méiw	m e i̯ f
-Mëllech	m e l e χ
-Mëllechmann	m e l e χ m a n
 Mëlz	m ə l t͡s
 Mënsch	m e n ʃ
 Mënschlechkeet	m e n ʃ l e χ k eː t
@@ -1452,18 +1475,17 @@ Nervesee	n æ ʀ v ə z eː
 Netz	n æ t͡s
 Netzwierk	n æ t͡s v i ə̯ ʀ k
 Neveu	n e v ø
+Neveuen	n e v ø e n
 Neveuen	n e v øː e n
 Nidderkuer	n i d ɐ k uː ə̯
 Nidderlanden	n i d e ʀ l a n d ə n
 Nidderträchtegkeet	n i d ɐ t ʀ æ ɕ t ə ɕ k eː t
-Nier	n iː r
 Niess	n i e̯ s
 Niessen	n i e̯ s e n
 Niewefloss	n i ə v ə f l o s
 Nilpäerd	n iː l p ɛː ə t
 Nimm	n i m
 Nitt	n i t
-Niwwel	n i v ə l
 Nodeel	n oː d eː l
 Nohëllef	n oː h ə l ə f
 Nol	n oː l
@@ -1483,7 +1505,6 @@ Nout	n ə ʊ̯ t
 Nouvelle	n u v æ l
 Nuddel	n u d ə l
 Nuecht	n u e̯ χ t
-Nuechtegailchen	n u ə̯ χ t e ɡ ɑ ɪ̯ l χ e n
 Nuef	n u ə f
 Nuesen	n u ə z ə n
 Nuesschnappech	n u ə̯ s ʃ n ɑ p ə ɕ
@@ -1497,9 +1518,9 @@ Néiesch	n ɜ ɪ̯ ə ʃ
 Nénga	n e ŋ aː
 Nëssert	n ə s ɐ t
 Nëwwi	n e v i
+Nëwwien	n e v i e n
 Nëwwien	n e v iː e n
 Ochs	o k s
-Oder	oː d ɐ
 Odermëllech	oː d ɐ m ə l ə ɕ
 Offall	o f f ɑ l
 Offer	o f ɐ
@@ -1525,6 +1546,7 @@ Opsaz	o p z aː t͡s
 Optrieden	o p t ʀ i ə̯ d ə n
 Optrëtt	o p t ʀ ə t
 Orange	o ʁ ɑ̃ː ʃ
+Orangëbam	o ʁ ɑ̃ː ʃ ə b aː m
 Orientéierungslaf	o ʀ j ə n t ɜ ɪ̯ ə ʀ u ŋ z l aː f
 Origine	o ʀ i ʒ i n
 Osten	o s t ə n
@@ -1585,6 +1607,7 @@ Pijen	p iː ʒ ə n
 Pilger	p i l ʑ ɐ
 Pilgerfaart	p i l ʑ ɐ f aː χ t
 Pill	p i l
+Pimpampel	p i m p ɑ m p ə l
 Pinguin	p i ŋ ɡ u iː n
 Pissblumm	p i z b l u m
 Pistoul	p i s t ə ʊ̯ l
@@ -1613,7 +1636,6 @@ Polizist	p o l i t͡s i s t
 Polizistin	p o l i t͡s i s t i n
 Polver	p o l f e r
 Polver	p o l v e r
-Pompjee	p o m p j eː
 Pompjeesgefier	p o m p j eː z ɡ ə f iː ə̯
 Pond	p o n t
 Poopst	p oː p s t
@@ -1643,7 +1665,6 @@ Prouf	p ʀ ə ʊ̯ f
 Provënz	p ʁ oː v ə n t͡s
 Pruecht	p r u e̯ χ t
 Präis	p ʀ æː ɪ̯ s
-Prënz	p ʀ ə n t͡s
 Publikatioun	p u b l i k ɑ s j ə ʊ̯ n
 Puer	p u ɐ
 Pull	p u l
@@ -1655,7 +1676,7 @@ Päerdscourse	p ɛː ə̯ t s k u ʀ s
 Päif	p æː ɪ̯ f
 Päifint	p æː ɪ̯ v i n t
 Päinetsch	p æː ɪ̯ n ə t͡ʃ
-Päiperlek	p æː ɪ̯ p ɐ l ə k
+Päiperlek	p æː ɪ̯ p ɐ l e k
 Pällem	p æ l ə m
 Pärel	p ɛː ʀ ə l
 Péil	p ɜ ɪ̯ l
@@ -1682,7 +1703,6 @@ Rand	ʀ ɑ n t
 Rank	ʀ ɑ ŋ k
 Rapfen	ʀ ɑ p f ə n
 Rapp	ʀ ɑ p
-Rapport	ʀ ɑ p oː ʀ
 Rass	ʀ ɑ s
 Rat	r aː t
 Raum	r æ u̯ m
@@ -1696,7 +1716,6 @@ Reck	ʀ æ k
 Reebou	r eː b e u̯
 Reeboufrell	ʀ eː b ə ʊ̯ f ʀ æ l
 Reebéi	ʀ eː b ɜ ɪ̯
-Reech	r eː χ
 Reef	ʀ eː f
 Reegel	r eː ʁ e l
 Reemantel	ʀ eː m ɑ n t ə l
@@ -1761,7 +1780,6 @@ Rutt	ʀ u t
 Räer	ʀ ɛː ə
 Räich	ʀ æː ɪ̯ ɕ
 Räif	ʀ æː ɪ̯ f
-Räis	ʀ æː ɪ̯ s
 Réck	r e k
 Réckstrank	ʀ e k ʃ t ʀ ɑ ŋ k
 Réi	r e i̯
@@ -1801,7 +1819,6 @@ Sauermous	z ɑ ʊ̯ ɐ m ə ʊ̯ s
 Sauerstoff	z ɑ ʊ̯ ɐ ʃ t o f
 Saumon	s oː m õː
 Saz	z aː t s
-Schabloun	ʃ ɑ b l ə ʊ n
 Schach	ʃ ɑ χ
 Schachfigur	ʃ ɑ χ f i ɡ u ə̯
 Schaf	ʃ aː f
@@ -1813,10 +1830,8 @@ Schan	ʃ aː n
 Schank	ʃ ɑ ŋ k
 Schantjen	ʃ ɑ n t χ e n
 Scharlach	ʃ ɑ ʀ l ɑ χ
-Schatz	ʃ ɑ t͡s
 Schauer	ʃ ɑ ʊ̯ ɐ
 Schaum	ʃ æː ʊ̯ m
-Schaz	ʃ aː t s
 Scheed	ʃ eː t
 Scheedenagank	ʃ eː d ə n ɑ ɡ ɑ ŋ k
 Scheedung	ʃ eː d u ŋ
@@ -1827,7 +1842,6 @@ Scheif	ʃ a i̯ f
 Schell	ʃ æ l
 Schenkel	ʃ æ ŋ k ə l
 Schiertech	ʃ iː ʀ t e χ
-Schiet	ʃ i ə̯ t
 Schifer	ʃ iː f e r
 Schimt	ʃ i m t
 Schimtlëps	ʃ i m d l ə p s
@@ -1839,7 +1853,6 @@ Schlaken	ʃ l aː k ə n
 Schlamm	ʃ l ɑ m
 Schlapp	ʃ l ɑ p
 Schlass	ʃ l a s
-Schleef	ʃ l eː f
 Schlei	ʃ l ɑ ɪ̯
 Schleider	ʃ l ɑ ɪ d ɐ
 Schlitt	ʃ l i t
@@ -1858,7 +1871,6 @@ Schläiss	ʃ l æː ɪ̯ s
 Schléck	ʃ l e k
 Schléi	ʃ l ɜ ɪ̯
 Schléier	ʃ l ɜ ɪ̯ ɐ
-Schléif	ʃ l ɜ ɪ f
 Schlëff	ʃ l ə f
 Schlëssel	ʃ l e s e l
 Schmadd	ʃ m a t
@@ -1869,6 +1881,7 @@ Schnapp	ʃ n a p
 Schnatt	ʃ n ɑ t
 Schnatz	ʃ n ɑ t s
 Schnauer	ʃ n a u̯ e r
+Schnauer	ʃ n a u̯ r
 Schnaueren	ʃ n a u̯ r e n
 Schnauftubak	ʃ n æː ʊ̯ f t u b aː k
 Schneid	ʃ n ɑ ɪ̯ t
@@ -1877,6 +1890,7 @@ Schneiderfësch	ʃ n ɑ ɪ̯ d ɐ f ə ʃ
 Schniewel	ʃ n i ə̯ v ə l
 Schnieweldéier	ʃ n i ə̯ v ə l d ɜ ɪ̯ ɐ
 Schnouer	ʃ n e u̯ e r
+Schnouer	ʃ n e u̯ r
 Schnuddel	ʃ n u d ə l
 Schnuddelhong	ʃ n u d ə l h o ŋ
 Schnéi	ʃ n ɜ ɪ
@@ -1897,7 +1911,6 @@ Schnëtt	ʃ n ə t
 Schnëtz	ʃ n ə t s
 Schnëtzel	ʃ n ə t s ə l
 Schockelasbotter	ʃ o k ə l aː z b o t ɐ
-Schof	ʃ oː f
 Schold	ʃ o l t
 Schong	ʃ o ŋ
 Schongbiischt	ʃ o ŋ b i ʃ t
@@ -1910,16 +1923,12 @@ Schouss	ʃ ə ʊ̯ s
 Schouster	ʃ ə ʊ̯ s t ɐ
 Schrack	ʃ r a k
 Schrauf	ʃ ʀ ɑ ʊ̯ f
-Schrauwenzéier	ʃ r a u̯ v e n t s e i̯ e r
 Schreifmaschinn	ʃ ʀ a ɪ v m ɑ ʃ i n
-Schräin	ʃ ʀ æː ɪ̯ n
-Schräiner	ʃ ʀ æː ɪ̯ n ɐ
 Schrëft	ʃ ʀ ə f t
 Schrëftgeléierten	ʃ ʀ ə v d ɡ ə l ɜ ɪ̯ ɐ t ə n
-Schrëftsteller	ʃ ʀ e f t ʃ t æ l ɐ
 Schrëtt	ʃ r e t
-Schued	ʃ u ə̯ t
 Schuel	ʃ u e̯ l
+Schwaarm	ʃ w aː m
 Schwaarm	ʃ w aː ʀ m
 Schwaart	ʃ v aː χ t
 Schwaarzbier	ʃ v aː r t s b iː r
@@ -1929,12 +1938,9 @@ Schwangerschaft	ʃ w ɑ ŋ ɐ ʃ ɑ f t
 Schwanz	ʃ w ɑ n t͡s
 Schwanzmees	ʃ w ɑ n d͡z m eː s
 Schweess	ʃ w eː s
-Schweeër	ʃ v eː e r
 Schwell	ʃ w æ l
 Schwiefel	ʃ v i e̯ f e l
 Schwier	ʃ w iː ə̯
-Schwoer	ʃ v o e r
-Schwoeren	ʃ v o e r e n
 Schwong	ʃ w o ŋ
 Schwonk	ʃ w o ŋ k
 Schwäert	ʃ v eː r t
@@ -1943,18 +1949,12 @@ Schwäin	ʃ v æ i̯ n
 Schwäiz	ʃ v æː ɪ̯ t͡s
 Schwämm	ʃ v æ m
 Schwänz	ʃ w æ n t͡s
-Schwéiermamm	ʃ v e i̯ e r m a m
-Schwéierpapp	ʃ v e i̯ e r p a p
-Schwéiesch	ʃ v e i̯ e ʃ
-Schwéieschen	ʃ v e i̯ e ʃ e n
 Schwéngchen	ʃ v e ŋ χ e n
 Schwéngefleesch	ʃ v e ŋ e f l eː ʃ
-Schwëster	ʃ v e s t e r
 Schäin	ʃ æː ɪ̯ n
 Schäiss	ʃ æː ɪ̯ s
 Schätz	ʃ æ t͡s
 Schéier	ʃ ɜ ɪ̯ ɐ
-Schéifer	ʃ ɜ ɪ̯ f ɐ
 Schëff	ʃ ə f
 Schëld	ʃ ə l t
 Schëller	ʃ ə l ɐ
@@ -1972,7 +1972,6 @@ Seel	z eː l
 Seem	z eː m
 Seen	z eː n
 Seid	z ɑ ɪ̯ t
-Sekonn	z ə k o n
 Sensatioun	s ãː s ɑ s j ə ʊ̯ n
 Setzgromper	z æ t s ɡ ʀ o m p ɐ
 Sich	z i ɕ
@@ -2024,12 +2023,12 @@ Spigel	ʃ p i ʁ e l
 Spigelee	ʃ p i ʑ ə l eː
 Spigelkaarp	ʃ p i ʑ ə l k aː p
 Spill	ʃ p i l
+Spillkaart	ʃ p i l k aː t
 Spillkaart	ʃ p i l k aː χ t
 Spinat	ʃ p i n aː t
 Spioun	ʃ p i ə ʊ̯ n
 Spoun	ʃ p e u̯ n
 Sprachwuert	ʃ p ʀ a χ v u e̯ t
-Sprass	ʃ p ʀ ɑ s
 Sprenz	ʃ p ʀ æ n t͡s
 Spriecher	ʃ p ʀ i ə̯ χ ɐ
 Sproch	ʃ p ʀ o χ
@@ -2038,11 +2037,8 @@ Spronk	ʃ p r o ŋ k
 Sprooch	ʃ p ʀ oː χ
 Sproochgebitt	ʃ p r oː χ ɡ e b i t
 Spréif	ʃ p ʀ ɜ ɪ f
-Sprénger	ʃ p ʁ e ŋ ɐ
-Sprëss	ʃ p ʀ ə s
 Sprëtz	ʃ p ʀ ə t s
 Spuenesch	ʃ p u ə̯ n ə ʃ
-Spuenien	ʃ p u ə̯ n j ə n
 Spuenier	ʃ p u ə̯ n i ɐ
 Spuer	ʃ p uː ə̯
 Spuerk	ʃ p uː ə̯ k
@@ -2055,10 +2051,8 @@ Späicher	ʃ p æː ɪ̯ ɕ ɐ
 Spëtz	ʃ p ə t s
 Spëtzt	ʃ p ə t s t
 Staang	ʃ t aː ŋ
-Stack	ʃ t a k
 Stad	ʃ t aː t
 Stadmauer	ʃ t aː d m ɑ ʊ̯ ə
-Staf	ʃ t aː f
 Stall	ʃ t ɑ l
 Stam	ʃ t aː m
 Stamm	ʃ t ɑ m
@@ -2076,7 +2070,6 @@ Steeën	ʃ t eː ə n
 Steier	ʃ t ɑ ɪ̯ ɐ
 Steng	ʃ t æ ŋ
 Stied	ʃ t i e̯ t
-Stiedchen	ʃ t i e̯ t χ e n
 Stier	ʃ t iː r
 Stieren	ʃ t iː r e n
 Stiermer	ʃ t iː ə̯ m ɐ
@@ -2093,16 +2086,13 @@ Stouss	ʃ t ə ʊ̯ s
 Strand	ʃ t ʀ ɑ n t
 Strapp	ʃ t ʁ ɑ p
 Strategie	ʃ t ʁ a t e ʒ iː
-Strauch	ʃ t r æː ʊ̯ χ
 Strauss	ʃ t r a u̯ s
 Strauss	ʃ t r æ u̯ s
 Streck	ʃ t ʀ æ k
 Strief	ʃ t ʀ i ə f
-Strigel	ʃ t ʀ i ʑ ə l
 Stronk	ʃ t ʀ o ŋ k
 Strooss	ʃ t ʀ oː s
 Stroossbuerg	ʃ t r oː s b u e̯ χ
-Stroum	ʃ t ʀ ə ʊ̯ m
 Strumm	ʃ t ʀ u m
 Sträif	ʃ t ʀ æː ɪ̯ f
 Sträit	ʃ t ʀ æː ɪ̯ t
@@ -2124,6 +2114,7 @@ Stéck	ʃ t e k
 Stécker	ʃ t e k ɐ
 Stéckstoff	ʃ t e k ʃ t o f
 Stéier	ʃ t e i̯ e r
+Stéier	ʃ t e i̯ r
 Stéieren	ʃ t e i̯ r e n
 Stéifkand	ʃ t ɜ ɪ̯ f k ɑ n t
 Stéifmamm	ʃ t ɜ ɪ̯ f m ɑ m
@@ -2132,15 +2123,14 @@ Stéit	ʃ t ɜ ɪ̯ t
 Stëbs	ʃ t ə p s
 Stëft	ʃ t ə f t
 Stëmm	ʃ t ə m
+Su	z uː
 Succès	s y k s ɛ
 Sucht	z u χ t
-Suedel	z u ə̯ d ə l
 Suel	z u ə l
 Suerg	z u e̯ χ
 Summer	z u m e r
 Summerwee	z u m ɐ v eː
 Symptom	s i m p t oː m
-Säit	z æː ɪ̯ t
 Séchel	z ə ɕ ə l
 Séi	z e i̯
 Séihond	z ɜ ɪ̯ h o n t
@@ -2153,7 +2143,6 @@ Sënn	z e n
 Sëtz	z ə t s
 Süden	z yː d ə n
 Taart	t aː χ t
-Taass	t aː s
 Tallong	t ɑ l o ŋ
 Tast	t ɑ s t
 Tatta	t ɑ t a
@@ -2161,7 +2150,6 @@ Tatz	t ɑ t s
 Taxichauffeur	t ɑ k s i ʃ oː f ɐ
 Televisioun	t ə l ə v i z j ə ʊ̯ n
 Tempel	t æ m p ə l
-Tennis	t æ n i s
 Teppech	t æ p ə ɕ
 Terrass	t æ ʀ ɑ s
 Thees	t eː s
@@ -2173,7 +2161,6 @@ Tomat	t o m aː t
 Tomatejus	t o m aː t ə ʒ yː
 Tosch	t o ʃ
 Toun	t ə ʊ̯ n
-Tournevis	t u r n e v i s
 Trach	t r a χ
 Traisch	t ʀ æː ɪ̯ ʃ
 Traité	t r e t e
@@ -2183,16 +2170,15 @@ Trapp	t ʁ ɑ p
 Tratt	t ʀ ɑ t
 Trauer	t ʀ ɑ ʊ̯ ɐ
 Traufel	t ʀ ɑ ʊ̯ f ə l
-Trausch	t ʀ æː ʊ̯ ʃ
 Trei	t ʀ a i̯
 Tromm	t ʀ o m
 Troun	t ʀ ə ʊ̯ n
 Trouscht	t ʀ ə ʊ̯ ʃ t
-Träip	t r æ i̯ p
 Tréin	t ʀ ɜ ɪ̯ n
 Trëtt	t ʀ ə t
 Trëtz	t ʀ ə t s
 Trüffel	t ʀ y f ə l
+Tubak	t u b a k
 Tubak	t u b aː k
 Tuerm	t u ə̯ m
 Tulp	t u l p
@@ -2219,6 +2205,7 @@ Uerder	uː ə̯ d ɐ
 Uerdnung	uː ə̯ d n u ŋ
 Uergel	uː ə̯ ʑ ə l
 Uergelbauer	u e̯ ʀ ɣ e l b a u̯ e ʀ
+Uergelbauer	u e̯ ʀ ɣ e l b a u̯ ʀ
 Uergelspiller	uː ə̯ ʑ ə l ʃ p i l ɐ
 Uert	u e̯ t
 Uess	u ə̯ s
@@ -2229,7 +2216,6 @@ Ufank	u f ɑ ŋ k
 Ufro	u f ʀ oː
 Ulaf	u l aː f
 Ulm	u l m
-Universitéit	u n i v æ ʁ s i t ɜ ɪ̯ t
 Ursaach	uː ʀ z aː χ
 Usproch	u ʃ p ʀ o χ
 Usprooch	u ʃ p ʀ oː χ
@@ -2295,7 +2281,6 @@ Wanterint	v ɑ n t ə ʀ i n t
 Wanterpanewippchen	v ɑ n t ɐ p aː n ə v i p ɕ ə n
 Watt	v ɑ t
 Wecker	v æ k ə
-Wee	v eː
 Weed	v eː t
 Ween	v eː n
 Weeschësser	v eː ʃ ə s ɐ
@@ -2325,12 +2310,11 @@ Wirschtchen	v i r ʃ t χ e n
 Wirschtercher	v i r ʃ t e r χ e r
 Wisel	v i z ə l
 Wisepiipsert	v iː z ə p i p s ɐ t
-Wiss	v i s
+Wittfra	v i t f ʀ aː
 Witz	v i t͡s
 Wo	v oː
 Woch	v o χ
 Woll	v o l
-Wollef	v o l ə f
 Wollek	v o l ə k
 Wollekekrazert	v o l ə k ə k ʀ aː t͡s ɐ t
 Wolz	v o l t s
@@ -2373,12 +2357,10 @@ Wëllen	v ə l ə n
 Wënzer	v ə n t͡s ɐ
 Wësch	v ə ʃ
 Wëssen	v ə s ə n
-Wüst	v yː s t
 Zaang	t s aː ŋ
 Zack	t s ɑ k
 Zalot	t s a l oː t
 Zam	t s aː m
-Zammermann	t͡s ɑ m ɐ m ɑ n
 Zander	t͡s ɑ n d ɐ
 Zant	t s ɑ n t
 Zap	t͡s aː p
@@ -2412,8 +2394,6 @@ Zodi	t͡s oː d iː
 Zoll	t s o l
 Zomm	t͡s o m
 Zon	t͡s oː n
-Zong	t͡s o ŋ
-Zonk	t s o ŋ k
 Zooss	t s oː s
 Zoossiss	t͡s oː s i s
 Zopp	t͡s o p
@@ -2453,7 +2433,7 @@ aarm	aː r m
 aartlech	aː r t l e χ
 abiméiert	ɑ b i m ɜ ɪ̯ ɐ t
 ablécklech	ɑ p l e k l e χ
-abonnéieren	ɑ b o n ɜ ɪ̯ ə ʀ ə n
+abonéieren	ɑ b o n ɜ ɪ̯ ə ʀ ə n
 absichtlech	ɑ p z i χ t l e χ
 abstrakt	ɑ p s t ʀ ɑ k t
 absurd	ɑ p z u ʀ t
@@ -2471,6 +2451,7 @@ alignéieren	ɑ l i n j ɜ ɪ̯ ə ʀ ə n
 allefalls	ɑ l ə f ɑ l s
 allenenn	ɑ l ə n æ n
 allerdéngs	ɑ l ɐ d e ŋ s
+allmächteg	ɑ l m æ ɕ t e ɕ
 amplaz	a m p l aː t s
 an	a n
 anchecken	a n t ʃ æ k e n
@@ -2481,6 +2462,7 @@ andreiwen	a n d ʀ a i̯ v e n
 androen	a n d ʀ o e n
 aner	aː n e ʀ
 anescht	aː n e ʃ t
+apaart	a p aː t
 apaart	a p aː ʀ t
 aplaz	a p l aː t s
 aschléissen	a ʃ l e i̯ s e n
@@ -2488,6 +2470,7 @@ aschätzen	a ʃ æ t s e n
 asetzen	a z æ t s e n
 ausfroen	æː ʊ s f ʀ oː ə n
 awanderen	a v a n d e ʀ e n
+awar	a v aː
 awar	a v aː ʀ
 awer	aː v e ʀ
 baang	b aː ŋ
@@ -2541,6 +2524,7 @@ bieden	b i e̯ d e n
 biergen	b i e̯ ʁ e n
 biergof	b iː ʀ χ oː f
 biergop	b i ə̯ ʀ χ o p
+biergop	b i ə̯ χ o p
 biewen	b i e̯ v e n
 biichten	b iː χ t e n
 biischten	b iː ʃ t ə n
@@ -2593,7 +2577,6 @@ brooch	b ʀ oː χ
 brot	b ʀ oː t
 bréchs	b ʀ e χ s
 brécht	b r e χ t
-bréien	b ʀ e i̯ e n
 bréit	b ʀ e i̯ t
 bréits	b ʀ e i̯ t s
 bréngen	b r e ŋ e n
@@ -2611,7 +2594,6 @@ bäisst	b æ i̯ s t
 bécken	b e k e n
 béid	b e i̯ t
 béiden	b e i̯ d e n
-béien	b e i̯ e n
 béis	b e i̯ s
 béissen	b e i̯ s e n
 bëlleg	b e l e χ
@@ -2634,6 +2616,7 @@ daf	d aː f
 dafstomm	d aː f ʃ t o m
 dangen	d a ŋ e n
 danken	d a ŋ k e n
+dann	d a
 dann	d a n
 danzen	d a n t s e n
 daper	d aː p e ʀ
@@ -2657,7 +2640,7 @@ dees	d eː s
 deet	d eː t
 degustéieren	d eː ɡ y s t e i̯ ʀ e n
 deier	d a i̯ e ʀ
-deiten	d a i̯ t e n
+deier	d a i̯ ʀ
 dem	d e m
 den	d e n
 deng	d e ŋ
@@ -2668,7 +2651,6 @@ denken	d æ ŋ k e n
 der	d e r
 derhanner	d e ʀ h a n e ʀ
 dicht	d i χ t
-dichteg	d i χ t e χ
 dier	d iː r
 diktéieren	d i k t e i̯ ʀ e n
 dillen	d i l e n
@@ -2681,7 +2663,6 @@ dobannen	d o b a n e n
 dobaussen	d o b æ u̯ s e n
 dobäi	d o b æ i̯
 doduerch	d o d u e̯ χ
-doen	d oː e n
 dofir	d o f iː ʀ
 doften	d o f t e n
 dogéint	d o ɡ e i̯ n t
@@ -2715,7 +2696,6 @@ dozou	d o t s e u̯
 dozou	d oː t s e u̯
 draleeën	d ʀ a l e e n
 dran	d ʀ a n
-dreemen	d r eː m e n
 dreeën	d r eː e n
 dreif	d ʀ a i̯ f
 dreifs	d ʀ a i̯ f s
@@ -2758,7 +2738,6 @@ duercherneen	d uː ʀ χ e ʀ n eː n
 duerchsetzen	d u e̯ χ z æ t s e n
 duerleeën	d uː ʀ l e e n
 duerno	d u e̯ n o
-dunn	d u n
 duschen	d u ʃ e n
 duuss	d uː s
 däerfen	d eː ʀ f e n
@@ -2772,7 +2751,7 @@ déck	d e k
 déi	d e i̯
 déi	d i
 déif	d e i̯ f
-déijéineg	d e i̯ ʒ e i̯ n e χ
+déijéineg	d e ɪ̯ ʁ e ɪ̯ n e χ
 déngen	d e ŋ e n
 dëllen	d e l e n
 dëmpen	d e m p e n
@@ -2790,10 +2769,9 @@ eedel	eː d e l
 eegen	eː ʁ e n
 eegentlech	eː ʁ e n t l e χ
 eekelen	eː k e l e n
-eelef	eː l e f
 eeleft	eː l e f t
 eemol	eː m oː l
-een	eː n
+eeneeëg	eː n eː e χ
 eenegen	eː n e ʁ e n
 eent	eː n t
 eenzel	eː n t s e l
@@ -2801,13 +2779,11 @@ eescht	eː ʃ t
 eesäiteg	eː z æ i̯ t e χ
 eeteren	eː t e ʀ e n
 effikass	æ f i k a s
-einfach	ɑ ɪ̯ n f ɑ χ
 eleng	e l æ ŋ
 ellen	æ l e n
 ellent	æ l e n t
 elo	e l o
 em	e m
-en	e n
 endlech	æ n t l e χ
 eneen	e n eː n
 eng	æ ŋ
@@ -2835,6 +2811,7 @@ entwéckelen	æ n t v e k e l e n
 entwëschen	æ n t v e ʃ e n
 eppes	æ p e s
 eraleeën	e ʀ a l e e n
+erbaarmen	e ʀ b aː m e n
 erbaarmen	e ʀ b aː ʀ m e n
 erfrëschen	e ʀ f ʀ e ʃ e n
 ergätzen	e ʀ ɡ æ t s e n
@@ -2851,6 +2828,7 @@ eropsetzen	e ʀ o p z æ t͡s e n
 ersetzen	e ʀ z æ t͡s e n
 erstaunlech	ɐ ʃ t ɑ ʊ̯ n l ə ɕ
 erstécken	e ʀ ʃ t e k e n
+erwaarden	e ʀ v aː d e n
 erwaarden	e ʀ v aː ʀ d e n
 erwëschen	e ʀ v e ʃ e n
 erzéien	e ʀ t s e i̯ e n
@@ -2892,7 +2870,7 @@ feststellen	f æ s t ʃ t æ l e n
 fidderen	f i d e ʀ e n
 fierwen	f i e̯ v e n
 fiicht	f iː χ t
-fillen	f i l e n
+fir	f e
 fir	f e ʀ
 fir	f iː ʀ
 firwat	f i ə̯ v aː t
@@ -2903,6 +2881,7 @@ flaach	f l aː χ
 fladderen	f l a d e ʀ e n
 flappseg	f l ɑ p s ə ɕ
 flechten	f l æ χ t e n
+flirten	f l œː t e n
 flirten	f l œː ʀ t e n
 flitt	f l i t
 flitts	f l i t s
@@ -2921,7 +2900,6 @@ fofzeg	f o f t s e χ
 fofzéng	f o f t s e ŋ
 fofzéngt	f o f t s e ŋ t
 follegen	f o l e ʁ e n
-fonnt	f o n t
 fooschen	f oː ʃ e n
 formatéieren	f o ʀ m a t e i̯ ʀ e n
 formidabel	f o ʀ m i d aː b e l
@@ -2940,6 +2918,7 @@ frou	f r e u̯
 fräi	f r æ i̯
 fréi	f r e i̯
 fréier	f r e i̯ e r
+fréier	f r e i̯ r
 fréieren	f r e i̯ r e n
 frësch	f r e ʃ
 frëss	f ʀ e s
@@ -2976,7 +2955,6 @@ gebrauchen	ɡ e b ʀ æ u̯ χ e n
 gebroden	ɡ e b ʀ oː d e n
 gebräichlech	ɡ e b ʀ æ i̯ χ l e χ
 gebueden	ɡ e b u e̯ d e n
-gebuer	ɡ e b uː r
 gedoen	ɡ e d o e n
 gedriwwen	ɡ e d r i v e n
 gedroen	ɡ e d ʀ o e n
@@ -3009,7 +2987,6 @@ geléngen	ɡ e l e ŋ e n
 gemaach	ɡ e m aː χ
 gemeng	ɡ e m æ ŋ
 gemidden	ɡ e m i d e n
-genee	ɡ e n eː
 genuch	ɡ e n u χ
 genéieren	ʒ e n e i̯ ʀ e n
 genéissen	ɡ e n e i̯ s e n
@@ -3089,14 +3066,12 @@ guddem	ɡ u d e m
 gudden	ɡ u d e n
 gudder	ɡ u d e ʀ
 guer	ɡ uː r
-gutt	ɡ u t
 gäisselen	ɡ æ i̯ s e l e n
 gäizen	ɡ æ i̯ t s e n
 gär	ɡ eː r
 géi	ɡ e i̯
 géint	ɡ e i̯ n t
 géinteneen	ɡ e i̯ n t e n eː n
-géintiwwer	ɡ e i̯ n t i v e ʀ
 géissen	ɡ e i̯ s e n
 gëllen	ɡ e l e n
 gënnen	ɡ e n e n
@@ -3106,9 +3081,9 @@ haalt	h aː l t
 haaptsächlech	h aː p t z æ χ l e χ
 haart	h aː r t
 haassen	h aː s e n
+hachéieren	a ʃ e i̯ ʀ e n
 hachéieren	h a ʃ e i̯ ʀ e n
 hafteg	h ɑ f t ə ɕ
-haiteg	h a i̯ t e χ
 hal	h aː l
 halen	h aː l e n
 hallef	h a l e f
@@ -3127,6 +3102,7 @@ hat	h aː t
 hatt	h a t
 haut	h a u̯ t
 hautdesdaags	h a u̯ t d e s d aː χ s
+hautdesdaags	h a u̯ t e s d aː χ s
 heefen	h eː f e n
 heelen	h eː l e n
 heem	h eː m
@@ -3136,12 +3112,10 @@ heeschen	h eː ʃ e n
 heet	h eː t
 heften	h æ f t e n
 hei	h a i̯
-heiansdo	h a i̯ a n s d o
 hell	h æ l
 hellblo	h æ l b l o
 helleg	h æ l e χ
 hellegspriechen	h æ l e χ ʃ p ʀ i e̯ χ e n
-herrlech	h æ ʀ l e χ
 hessesch	h æ s e ʃ
 hexen	h æ k s e n
 hicken	h i k e n
@@ -3191,7 +3165,6 @@ hëllefen	h e l e f e n
 hëls	h e l s
 hëlt	h e l t
 hëlzen	h e l t s e n
-hënt	h e n t
 hëtzen	h e t s e n
 ideal	i d e aː l
 ideal	i d i aː l
@@ -3232,6 +3205,7 @@ jong	j o ŋ
 jongléieren	ʒ o ŋ ɡ l e i̯ ʀ e n
 jonk	j o ŋ k
 jorelaang	j oː ə̯ ʀ ə l aː ŋ
+jorelaang	j oː ʀ ə l aː ŋ
 jot	j oː t
 jot	ʒ oː t
 jubiléieren	j u b i l e i̯ ʀ e n
@@ -3284,6 +3258,7 @@ klëmms	k l ə m s
 klëmmt	k l ə m t
 knapps	k n ɑ p s
 knieden	k n i ə̯ d ə n
+knäipen	k n æ i̯ p e n
 knécken	k n e k ə n
 knëppen	k n ə p ə n
 kollen	k o l e n
@@ -3326,7 +3301,6 @@ krëmmen	k ʀ ə m ə n
 kucken	k u k ə n
 kuerz	k u e̯ t s
 käichen	k æː ɪ̯ ɕ ə n
-kämmen	k æ m ə n
 käppen	k æ p ə n
 kéim	k ɜ ɪ̯ m
 kéimen	k ɜ ɪ̯ m ə n
@@ -3419,6 +3393,7 @@ mann	m ɑ n
 markéieren	m ɑ ʀ k ɜ ɪ̯ ə ʀ ə n
 maschinell	m ɑ ʃ i n æ l
 mat	m ɑ t
+mateneen	m ɑ d e n eː n
 matfillen	m ɑ t f i l ə n
 matt	m ɑ t
 matzen	m ɑ t͡s ə n
@@ -3445,6 +3420,7 @@ moer	m oː e r
 mof	m oː f
 molen	m oː l ə n
 momentan	m oː m ə n t aː n
+monter	m o n t ɐ
 moossen	m oː s ə n
 muench	m u ə n ɕ
 muer	m uː r
@@ -3478,7 +3454,6 @@ nei	n a i̯
 nennen	n æ n ə n
 net	n e t
 netzen	n æ t s ə n
-ni	n iː
 nidder	n i d ɐ
 nidderlännesch	n i d ɐ l æ n ə ʃ
 nieft	n i ə f t
@@ -3503,7 +3478,6 @@ néngt	n e ŋ t
 nëmmen	n e m e n
 ob	o p
 och	o χ
-oder	oː d ɐ
 of	oː f
 offléissen	o f f l ɜ ɪ̯ s ə n
 offälleg	o f f æ l ə ɕ
@@ -3516,6 +3490,7 @@ ofsetzen	oː v z æ t s ə n
 ofspriechen	oː f ʃ p ʀ i ə̯ χ e n
 onbaarmhäerzeg	o n b aː ʀ m h eː ʀ t͡s e χ
 onbedéngt	o n b ə d e ŋ t
+onerwaart	o n ɐ v aː t
 onerwaart	o n ɐ v aː χ t
 ongutt	o n ɡ u t
 onnatierlech	o n n a t iː ʀ l e χ
@@ -3549,6 +3524,7 @@ perséinlech	p e r z e i̯ n l e χ
 plangen	p l ɑ ŋ ə n
 platt	p l ɑ t
 plazeweis	p l aː t͡s ə v ɑ ɪ̯ s
+plo	p l oː
 ploen	p l oː e n
 plädéieren	p l æ d ɜ ɪ̯ ə ʀ ə n
 plécken	p l e k ə n
@@ -3562,11 +3538,12 @@ propper	p ʀ o p ɐ
 puer	p u ɐ̯
 päifen	p æː ɪ̯ f ə n
 pësperen	p ə s p ə ʀ ə n
-queesch	k v eː ʃ
+quiitschen	k v iː t ʃ ə n
 quëllen	k v e l e n
 raachen	ʀ aː χ ə n
 raaft	ʀ aː f t
 rabbelen	ʀ ɑ b ə l ə n
+raf	ʀ aː f
 rafen	r aː f e n
 rappen	ʀ ɑ p ə n
 raschten	ʀ ɑ ʃ t ə n
@@ -3609,8 +3586,6 @@ rout	r e u̯ t
 rueden	ʀ u ə̯ d ə n
 ruffen	ʀ u f ə n
 räich	r æ i̯ χ
-räif	ʀ æː ɪ̯ f
-räifen	ʀ æː ɪ̯ f ə n
 räissen	r æ i̯ s e n
 réi	r e i̯
 réieren	ʀ ɜ ɪ̯ ə ʀ ə n
@@ -3625,8 +3600,6 @@ sat	z aː t
 sauer	z a u̯ e r
 saufen	z æ u̯ f e n
 schaarf	ʃ aː ʀ f
-schafen	ʃ aː f ə n
-schaffen	ʃ ɑ f ə n
 schalen	ʃ aː l ə n
 scheeden	ʃ eː d ə n
 schei	ʃ a i̯
@@ -3667,14 +3640,13 @@ schwaach	ʃ w aː χ
 schwaarz	ʃ v aː r t s
 schweessen	ʃ v eː s e n
 schwieren	ʃ w i ə̯ ʀ ə n
-schwätzen	ʃ v æ t s e n
 schwéier	ʃ w ɜ ɪ̯ ɐ
 schwëllen	ʃ w ə l ə n
+schäinbar	ʃ æː ɪ̯ n b aː
 schäinbar	ʃ æː ɪ̯ n b aː ʀ
 schäissen	ʃ æ i̯ s e n
 schécken	ʃ e k ə n
 schéin	ʃ ɜ ɪ̯ n
-schéissen	ʃ ɜ ɪ̯ s ə n
 schéngen	ʃ e ŋ e n
 schëlleg	ʃ e l e χ
 schënnen	ʃ ə n ə n
@@ -3737,6 +3709,7 @@ staark	ʃ t aː r k
 stamen	ʃ t aː m ə n
 steeën	ʃ t eː ə n
 steiwen	ʃ t ɑ ɪ v ə n
+stellen	ʃ t æ l ə n
 stengeg	ʃ t æ ŋ ə ɕ
 stengen	ʃ t æ ŋ ə n
 stiechen	ʃ t i ə ɕ ə n
@@ -3767,6 +3740,7 @@ säit	z æː ɪ̯ t
 sécher	z e χ e r
 séien	z ɜ ɪ̯ ə n
 séier	z e i̯ e r
+séier	z e i̯ r
 séileg	z ɜ ɪ l ə ɕ
 séiss	z e i̯ s
 séissen	z ɜ ɪ̯ s e n
@@ -3776,7 +3750,6 @@ sëndegen	z e n d e ʁ e n
 sëtzen	z ə t s ə n
 taaschten	t aː ʃ t ə n
 tommelen	t o m ə l ə n
-topeg	t oː p ə ɕ
 toufen	t ə ʊ̯ f e n
 trauen	t ʀ a u̯ e n
 trauereg	t r a u̯ r e χ
@@ -3800,7 +3773,6 @@ tëscht	t e ʃ t
 ubauen	u b ɑ ʊ̯ ə n
 uechten	u ə̯ χ t e n
 uechtzéngt	u ə̯ ɕ t͡s e ŋ t
-uerg	uː ə̯ ɕ
 uewen	u ə v ə n
 ufillen	u f i l ə n
 ufänken	u f æ ŋ k ə n
@@ -3917,7 +3889,6 @@ wiesselen	v i ə̯ s ə l ə n
 wiewen	v i ə̯ v ə n
 wiiss	v iː s
 wiisst	v iː s t
-winnen	v i n ə n
 woen	v oː e n
 wond	v o n t
 wonneren	v o n ə ʀ ə n
@@ -3926,11 +3897,12 @@ wossten	v o s t ə n
 wou	v e u̯
 wou	v u
 wouer	v e u̯ e r
+wouer	v e u̯ r
 wousst	v ə ʊ̯ s t
 woussten	v ə ʊ̯ s t ə n
+wuer	v u ə̯
 wuer	v u ə̯ ʀ
 wuess	v u ə s
-wuessen	v u ə̯ s ə n
 wuesst	v u ə s t
 wullen	v u l ə n
 wunnen	v u n ə n
@@ -3952,7 +3924,6 @@ wéint	v ɜ ɪ n t
 wéisst	v ɜ ɪ̯ s t
 wéissten	v ɜ ɪ̯ s t ə n
 wénken	v e ŋ k ə n
-wëllen	v ə l ə n
 wënnen	v ə n ə n
 wënschen	v ə n ʃ ə n
 wëschen	v ə ʃ ə n
@@ -3973,7 +3944,7 @@ zeien	t͡s ɑ ɪ̯ ə n
 zersetzen	t͡s ɐ z æ t s ə n
 zeréck	t s e r e k
 zerécksetzen	t s ə ʀ e k z æ t s ə n
-zesummen	t͡s ə z u m ə n
+zesummen	t͡s e z u m e n
 zevill	t͡s ə f i l
 zidderen	t͡s i d ə ʁ ə n
 zielen	t͡s i ə l ə n
@@ -4003,7 +3974,6 @@ zweeeeëg	t s v eː eː e χ
 zweemol	t͡s w eː m oː l
 zweet	t͡s w eː t
 zweiwelen	t s v a i̯ v e l e n
-zwielef	t s w i ə̯ l ə f
 zwieleft	t͡s w i ə̯ l ə f t
 zwitscher	t͡s w i t͡ʃ ɐ
 zwitscheren	t͡s w i t͡ʃ ə ʀ ə n
@@ -4039,6 +4009,7 @@ zënter	t s ə n t ɐ
 Äntwert	æ n t v e ʀ t
 Äppel	æ p ə l
 Äppeljus	æ p e l ʒ y
+Äppeltaart	æ p e l t aː t
 Äppeltaart	æ p e l t aː ʀ t
 Äppeltäsch	æ p e l t æ ʃ
 Äppelviz	æ p e l f iː t s
@@ -4067,7 +4038,6 @@ zënter	t s ə n t ɐ
 äiskal	æ i̯ s k aː l
 änneren	æ n e ʀ e n
 äntweren	æ n t v e ʀ e n
-är	eː ʀ
 äusseren	o i̯ s e r e n
 äusserlech	o i̯ s e r l e χ
 ë	ə

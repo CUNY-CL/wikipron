@@ -129,7 +129,8 @@
     "ang": {
         "iso639_name": "Old English (ca. 450-1100)",
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "runr": "Runic"
         },
         "wiktionary_code": "ang",
         "wiktionary_name": "Old English"
@@ -172,6 +173,7 @@
         "iso639_name": "Official Aramaic (700-300 BCE)",
         "script": {
             "armi": "Imperial Aramaic",
+            "hatr": "Hatran",
             "hebr": "Hebrew",
             "syrc": "Syriac"
         },
@@ -319,7 +321,8 @@
         },
         "iso639_name": "Bengali",
         "script": {
-            "beng": "Bengali"
+            "beng": "Bengali",
+            "deva": "Devanagari"
         },
         "wiktionary_code": "bn",
         "wiktionary_name": "Bengali"
@@ -586,7 +589,8 @@
     "crx": {
         "iso639_name": "Carrier",
         "script": {
-            "cans": "Canadian Aboriginal"
+            "cans": "Canadian Aboriginal",
+            "latn": "Latin"
         },
         "wiktionary_code": "crx",
         "wiktionary_name": "Carrier"
@@ -716,7 +720,8 @@
     "ell": {
         "iso639_name": "Modern Greek (1453-)",
         "script": {
-            "grek": "Greek"
+            "grek": "Greek",
+            "latn": "Latin"
         },
         "wiktionary_code": "el",
         "wiktionary_name": "Greek"
@@ -780,7 +785,8 @@
     "evn": {
         "iso639_name": "Evenki",
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "mong": "Mongolian"
         },
         "wiktionary_code": "evn",
         "wiktionary_name": "Evenki"
@@ -806,6 +812,7 @@
         "script": {
             "arab": "Arabic",
             "cyrl": "Cyrillic",
+            "latn": "Latin",
             "zinh": "Inherited"
         },
         "skip_spaces_pron": false,
@@ -1103,7 +1110,9 @@
     "hin": {
         "iso639_name": "Hindi",
         "script": {
-            "deva": "Devanagari"
+            "arab": "Arabic",
+            "deva": "Devanagari",
+            "grek": "Greek"
         },
         "wiktionary_code": "hi",
         "wiktionary_name": "Hindi"
@@ -1290,7 +1299,9 @@
         "script": {
             "hani": "Han",
             "hira": "Hiragana",
-            "kana": "Katakana"
+            "kana": "Katakana",
+            "latn": "Latin",
+            "zyyy": "Common"
         },
         "wiktionary_code": "ja",
         "wiktionary_name": "Japanese"
@@ -1445,7 +1456,9 @@
     "kok": {
         "iso639_name": "Konkani (macrolanguage)",
         "script": {
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "knda": "Kannada",
+            "latn": "Latin"
         },
         "wiktionary_code": "kok",
         "wiktionary_name": "Konkani"
@@ -1454,6 +1467,7 @@
         "iso639_name": "Korean",
         "script": {
             "hang": "Hangul",
+            "hani": "Han",
             "latn": "Latin"
         },
         "wiktionary_code": "ko",
@@ -1731,7 +1745,8 @@
         "iso639_name": "Maithili",
         "script": {
             "beng": "Bengali",
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "tirh": "Tirhuta"
         },
         "wiktionary_code": "mai",
         "wiktionary_name": "Maithili"
@@ -1933,6 +1948,7 @@
     "mww": {
         "iso639_name": "Hmong Daw",
         "script": {
+            "hmng": "Pahawh Hmong",
             "latn": "Latin"
         },
         "wiktionary_code": "mww",
@@ -2009,7 +2025,8 @@
     "new": {
         "iso639_name": "Newari",
         "script": {
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "newa": "Newa"
         },
         "wiktionary_code": "new",
         "wiktionary_name": "Newar"
@@ -2474,9 +2491,12 @@
     "san": {
         "iso639_name": "Sanskrit",
         "script": {
+            "beng": "Bengali",
             "deva": "Devanagari",
+            "gujr": "Gujarati",
             "latn": "Latin",
             "mlym": "Malayalam",
+            "orya": "Oriya",
             "shrd": "Sharada",
             "sinh": "Sinhala",
             "zyyy": "Common"
@@ -2577,7 +2597,8 @@
     "sjd": {
         "iso639_name": "Kildin Sami",
         "script": {
-            "cyrl": "Cyrillic"
+            "cyrl": "Cyrillic",
+            "zyyy": "Common"
         },
         "wiktionary_code": "sjd",
         "wiktionary_name": "Kildin Sami"
@@ -2593,7 +2614,9 @@
     "skr": {
         "iso639_name": "Saraiki",
         "script": {
-            "arab": "Arabic"
+            "arab": "Arabic",
+            "deva": "Devanagari",
+            "mult": "Multani"
         },
         "wiktionary_code": "skr",
         "wiktionary_name": "Saraiki"
@@ -2642,7 +2665,8 @@
         "iso639_name": "Sindhi",
         "script": {
             "arab": "Arabic",
-            "deva": "Devanagari"
+            "deva": "Devanagari",
+            "sind": "Khudawadi"
         },
         "wiktionary_code": "sd",
         "wiktionary_name": "Sindhi"
@@ -2712,7 +2736,8 @@
     "swe": {
         "iso639_name": "Swedish",
         "script": {
-            "latn": "Latin"
+            "latn": "Latin",
+            "zyyy": "Common"
         },
         "wiktionary_code": "sv",
         "wiktionary_name": "Swedish"
@@ -2763,6 +2788,7 @@
     "tel": {
         "iso639_name": "Telugu",
         "script": {
+            "brah": "Brahmi",
             "telu": "Telugu"
         },
         "wiktionary_code": "te",
@@ -2855,6 +2881,8 @@
     "tuk": {
         "iso639_name": "Turkmen",
         "script": {
+            "arab": "Arabic",
+            "cyrl": "Cyrillic",
             "latn": "Latin"
         },
         "wiktionary_code": "tk",
@@ -3084,6 +3112,7 @@
     "xho": {
         "iso639_name": "Xhosa",
         "script": {
+            "grek": "Greek",
             "latn": "Latin"
         },
         "wiktionary_code": "xh",

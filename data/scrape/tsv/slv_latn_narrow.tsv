@@ -1,3 +1,5 @@
+A	â
+A	ǎ
 B	b̪
 B	p
 C	d͡z
@@ -6,9 +8,28 @@ E	è̞
 E	é̞
 E	ɪ̀
 E	ɪ́
+F	f ə
+F	f ə̂
 F	v
+F	ɛ f
+F	ɛ̂ f
 G	k
+G	x
+G	ɡ eː
+G	ɡ êː
+G	ɡ ěː
+G	ɡ ə
+G	ɡ ə̂
+G	ɣ êː
+G	ɣ ěː
+G	ɣ ə̂
+H	x aː
+H	x âː
+H	x ǎː
+H	x ə
+H	x ə̂
 H	ɣ
+I	iː
 I	îː
 I	ǐː
 I	ɪ
@@ -24,28 +45,36 @@ abonma	a b o n m aː
 abonma	a b o n m âː
 abstrakten	a p s t ɾ aː k t ə n
 abstrakten	a p s t ɾ áː k t ə̀ n
+abstrakten	a p s t ɾ áː k t ɛ̀ n
+abstrakten	a p s t ʀ áː k t ə̀ n
 admiral	a d m i ɾ aː l
 admiral	a d m i ɾ âː l
+admiral	a d m i ʀ âː l
 adresar	a d ɾ e s aː ɾ
 adresar	a d ɾ e s ǎː ɾ
+adresar	a d ʀ e s ǎː ʀ
 agencija	a ɡ e n t͡s iː j a
 agencija	a ɡ e n t͡s íː j à
 agencija	a ɡ eː n t͡s i j a
 agencija	a ɡ èː n t͡s i j á
+agencija	a ɣ e n t͡s íː j à
+agencija	a ɣ èː n t͡s i j á
 agonija	a ɡ o n iː j a
 agonija	a ɡ o n íː j à
-akademija	a k a d e m iː j a
-akademija	a k a d e m íː j à
+agonija	a ɣ o n íː j à
 akril	a k ɾ iː l
 akril	a k ɾ íː l
+akril	a k ʀ íː l
 akrobat	a k ɾ o b aː t
 akrobat	a k ɾ o b âː t
+akrobat	a k ʀ o b âː t
 akrobatka	a k ɾ o b aː t k a
 akrobatka	a k ɾ o b áː t k à
+akrobatka	a k ʀ o b áː t k à
 b	b̪
 b	p
 c	d͡z
-d	p
+d	d
 e	è̞
 e	é̞
 e	ɪ̀
@@ -53,13 +82,31 @@ e	ɪ́
 e	ẽ̀ː
 e	ẽ́ː
 f	f
+f	f ə
+f	f ə̂
 f	v
+f	ɛ f
+f	ɛ̂ f
 g	k
+g	x
+g	ɡ eː
+g	ɡ êː
+g	ɡ ěː
+g	ɡ ə
+g	ɡ ə̂
+g	ɣ êː
+g	ɣ ěː
+g	ɣ ə̂
 h	x
+h	x aː
+h	x âː
+h	x ǎː
 h	x ə
 h	x ə́
+h	x ə̂
 h	ɣ
 i	i
+i	iː
 i	î
 i	îː
 i	ǐː
@@ -71,6 +118,8 @@ i	ɪ̂
 i	ɪ̂ː
 i	ɪ̌ː
 krvi	k ə ɾ ʋ i
+o̭	ò̞ː
+o̭	ó̞ː
 Ä	ɛ́ː
 Ì	ɪ
 Ì	ɪ̂
@@ -101,7 +150,7 @@ krvi	k ə ɾ ʋ i
 č	d͡ʒ
 Đ	t͡ɕ
 Đ	t͡ʃ
-đ	d͉
+đ	d̞
 đ	t͡ɕ
 đ	t͡ʃ
 ė	ɪ͈
@@ -112,8 +161,8 @@ krvi	k ə ɾ ʋ i
 ī	ɪ́ː
 ī	ɪ̂ː
 ī	ɪ̌ː
-ƀ	b͉
-ǥ	ɡ͉
+ƀ	b̞
+ǥ	ɡ̞
 ȁ	â
 ȃ	âː
 ȅ	ɛ̂

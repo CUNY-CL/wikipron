@@ -1,9 +1,13 @@
 Botswana	ɓ ôː t͡sʼʷ aː n a
-Dladla	ɮʱ aː ɮ a
-Dlamini	ɮʱ a m iː n i
+Dladla	ɮ aː ɮ a
+Dlamini	ɮ a m îː n i
 KwaZulu	ɠ w á z uː l u
-Madlala	m a ɮʱ aː l a
-Ndlovu	ⁿɮʱ oː v u
+Madlala	m a ɮ aː l a
+Ndlovu	n ɮ oː v u
+Nkosi	n k ôː s i
+Thobani	tʰ o ɓ aː n i
+Thuli	tʰ uː l i
+abaThwa	á ɓ aː tʰ w á
 abantu	a ɓ áː n t u
 amabele	a m á ɓ eː l é
 amabele	á m a ɓ éː l e
@@ -40,8 +44,8 @@ cwilisa	ǀ w i l iː s a
 dabuka	d a ɓ uː ɠ a
 dana	d aː n a
 dla	ɮ a
-dlala	ɮʱ aː l a
-dlwengula	ɮ w e n ɡ uː l a
+dlala	ɮ âː l a
+dlwengula	ɮ w e n ɡ úː l a
 duma	d úː m a
 dwa	d w a
 eGoli	ɛ ɡ ɔː l i
@@ -50,6 +54,7 @@ ebuza	e ɓ uː z a
 eluka	e l uː ɠ a
 engeza	e n ɡ eː z a
 ethwasa	e tʰ w aː s a
+fa	f á
 funa	f ûː n a
 futhi	f uː tʰ i
 futhi	f úː tʰ i
@@ -64,7 +69,7 @@ gqama	ᶢǃʱ aː m a
 gqamuka	ᶢǃʱ a m úː ɠ a
 gqekeza	ᶢǃʱ e ɠ eː z a
 gqola	ᶢǃʱ oː l a
-gqula	ᶢǃʱ uː l a
+gqula	ᶢǃʱ ûː l a
 gqwala	ᶢǃʱ w aː l a
 gwansa	ɡ w aː n s a
 gwavuma	ɡ w a v uː m a
@@ -75,8 +80,6 @@ gwinqa	ɡ w iːᵑ ǃ a
 gwinya	ɡ w iː ɲ a
 gxeka	ᶢǁʱ eː ɠ a
 gxila	ᶢǁʱ iː l a
-hamba kahle	h á m b a ɠ aː ɬ é
-hambani kahle	h a m b á n i ɠ aː ɬ é
 hawu	h ǎː w u
 hlafuna	ɬ a f uː n a
 hleka	ɬ eː ɠ a
@@ -98,6 +101,7 @@ iSonto	íː s oː n t o
 iSulumani	îː s u l ú m aː n i
 iSwazi	íː s w aː z i
 iTheku	îː tʰ êː ɠ u
+iYurobhu	i j úː r ɔ b u
 ibala	îː ɓ âː l a
 ibalazwe	îː ɓ a l áː z w e
 ibandla	í ɓ âː n ɮ a
@@ -530,6 +534,7 @@ inso	îː n s ó
 insundu	í n s ûː n d u
 inswelakalo	í n s w e l á ɠ aː l o
 inswelo	í n s w éː l o
+intaba	í n t aː ɓ a
 intaka	í n t aː ɠ a
 intambo	í n t aː m b o
 intamo	í n t aː m o
@@ -841,6 +846,7 @@ isithwathwa	i s í tʰ w aː tʰ w a
 isitimela	i s i t í m eː l a
 isitini	í s i t íː n i
 isitofu	í s i t óː f u
+isitolo	í s i t ôː l o
 isitsha	i s íː t ʃ a
 isitshalo	í s i t ʃ áː l o
 isitulo	í s i t úː l o
@@ -902,22 +908,55 @@ izaba	í z aː ɓ á
 izabulo	í z a ɓ úː l o
 izala	íː z aː l a
 izambane	iː z á m b aː n e
+izandla	i z áː n ɮ a
+izando	i z áː n d o
 izembe	íː z eː m b e
+izenzo	i z éː n z o
+izibaya	í z i ɓ âː j a
+izibindi	í z i ɓ îː n d i
+izibongo	i z i ɓ ôː n ɡ o
+izibunu	í z i ɓ úː n u
+izidingo	i z i d îː n ɡ ó
+izidlele	i z í ɮ eː l e
+izidlo	í z iː ɮ ó
+izidumbu	i z í d uː m b ú
+izifo	í z iː f ó
+izifuba	í z i f ûː ɓ a
+izifundo	í z i f úː n d o
+izigcawu	i z íᶢ ǀʱ aː w ú
+izigidi	i z í ɡ iː d i
 izigqoko	ì z íᶢ ǃʱ ɔ̀ː ɠ ò
+izigubhu	í z i ɡ úː b u
+izihlahla	i z i ɬ âː ɬ a
 izihlalo	i z i ɬ âː l o
+izihlangu	i z i ɬ âː n ɡ ú
+izihloko	í z i ɬ ôː ɠ o
+izikhumba	i z i kʰ ûː m b a
+izikhwenene	i z i kʰ w e n êː n e
 iziko	îː z îː ɠ o
+izilevu	i z i l êː v u
+izilima	í z i l îː m a
+izilo	i z íː l o
+izilonda	i z i l ôː n d a
+izilwane	i z i l w âː n e
+izimemo	í z i m êː m o
+izimo	í z iː m ó
 izimu	îː z îː m u
 izinga	íː z iː n ɡ a
 izinhloni	í z i n ɬ ôː n i
 izinkabi	í z ì ŋ k âː ɓ ì
 izinkamba	ì z ì ŋ k âː m b à
+izinqe	í z iːᵑ ǃ é
 izinsizwa	í z ì n s íː z w à
 izintini	i z i n t î n í
 izintombi	ì z ì n t ôː m b í
 izinyo	îː z îː ɲ o
+izipho	í z iː pʰ ó
 izipho	íː z iː pʰ o
+iziqalo	í z i ǃ âː l o
 izitha	íː z iː tʰ á
 izolo	íː z oː l o
+izono	í z ôː n o
 izu	îː z ûː
 izulu	íː z uː l u
 izwamoya	îː z w a m ôː j a
@@ -937,6 +976,7 @@ kanye	ɠ aː ɲ e
 ke	ɠ e
 ke	ɠ é
 khama	kʰ aː m a
+khanya	kʰ aː ɲ a
 khiqiza	kʰ i ǃ íː z a
 khona	kʰ oː n á
 khulu	kʰ ûː l u
@@ -954,8 +994,6 @@ labaya	l aː ɓ a j âː
 labo	l áː ɓ o
 lahla	l áː ɬ a
 lala	l áː l a
-lala kahle	l á l a ɠ aː ɬ é
-lalani kahle	l a l á n i ɠ aː ɬ é
 lapha	l áː pʰ a
 lapho	l áː pʰ o
 lawaya	l aː w a j âː
@@ -976,7 +1014,8 @@ lezo	l éː z o
 libala	l i ɓ aː l a
 lo	l o
 lo	l ó
-loba	l oː ɓ a
+loba	l óː ɓ a
+loba	l ôː ɓ a
 lobo	l óː ɓ o
 lobu	l ó ɓ u
 lobuya	l oː ɓ u j âː
@@ -1002,6 +1041,8 @@ mhlophe	m̩ ɬ ôː pʰ e
 mina	m iː n á
 muntu	m ùː n t ù
 musa	mʱ úː s a
+na	n a
+na	n á
 nakanjani	n a ɠ á ɲ d ʒ aː n í
 namhlanje	n á m̩ ɬ áː ɲ d ʒ é
 nceda	ᵑǀ eː d a
@@ -1027,11 +1068,8 @@ ngoba	n ɡ óː ɓ a
 ngokuba	n ɡ o ɠ úː ɓ a
 ngomuso	n ɡ o m ûː s ó
 ngqongqoza	ᵑǃʱ oᵑ ǃʱ óː z a
-nihambe kahle	n í h a m b e ɠ aː ɬ é
-nilale kahle	n í l a l e ɠ aː ɬ é
 nina	n iː n á
 ningi	n îː n ɡ i
-nisale kahle	n í s a l e ɠ aː ɬ é
 njalo	ɲ d ʒ áː l o
 njani	ɲ d ʒ aː n í
 nke	n k e
@@ -1072,7 +1110,7 @@ qagela	ǃ a ɡ éː l a
 qala	ǃ âː l a
 qalaza	ǃ a l áː z a
 qamba	ǃ âː m b a
-qamela	ǃ a m eː l a
+qamela	ǃ a m éː l a
 qaphela	ǃ a pʰ éː l a
 qaqa	ǃ aː ǃ a
 qaqamba	ǃ a ǃ aː m b a
@@ -1116,8 +1154,6 @@ quleka	ǃ u l éː ɠ a
 qumba	ǃ uː m b a
 qwasha	ǃ w aː ʃ a
 qwashaza	ǃ w a ʃ áː z a
-sala kahle	s á l a ɠ aː ɬ é
-salani kahle	s a l á n i ɠ aː ɬ é
 sanibona	s a n i ɓ óː n a
 sanibonani	s a n i ɓ o n áː n i
 sawubona	s a w u ɓ óː n a
@@ -1300,7 +1336,6 @@ ugwava	ú ɡ w aː v á
 ugwayi	ú ɡ w aː j í
 ugxa	úːᶢ ǁʱ a
 uhabhu	ûː h áː b u
-uhambe kahle	ú h a m b e ɠ aː ɬ é
 uhambo	ûː h áː m b o
 uhele	ûː h êː l e
 uhhafu	ú ɦ áː f u
@@ -1328,6 +1363,7 @@ ukhokho	ú kʰ óː kʰ o
 ukholwase	ú kʰ ó l w aː s e
 ukhongolose	ú kʰ o n ɡ o l ôː s e
 ukhonkolo	u kʰ ó n k oː l o
+ukhonkolo	u kʰ óⁿ kʼ oː l o
 ukhophe	úː kʰ oː pʰ e
 ukhozi	ûː kʰ ôː z i
 ukhuni	ûː kʰ ûː n i
@@ -1384,7 +1420,6 @@ ukuzibulala	ú ɠ u z i ɓ ú l áː l a
 ukuzigqaja	u ɠ ú z iᶢ ǃʱ áː d ʒ a
 ukwi	ûː k w í
 ukwindla	ú ɠ w iː n ɮ á
-ulale kahle	ú l a l e ɠ aː ɬ é
 uletisi	ú l é t iː s i
 ulimi	ûː l îː m i
 ulwandle	ûː l w âː n ɮ e
@@ -1411,6 +1446,7 @@ umame	ú m aː m é
 umashiqela	ú m a ʃ i ǃ êː l a
 umata	ú m áː t a
 umbala	ú m̩ ɓ âː l a
+umbane	u ḿ̩ ɓ aː n e
 umbayimbayi	ú m b a j i m b áː j i
 umbhali	ú m̩ b âː l i
 umbhalo	ú m̩ b âː l o
@@ -1612,7 +1648,6 @@ umunca	úː m uːᵑ ǀ a
 umunqa	u m úːᵑ ǃ a
 umunswi	ú m uː n s w í
 umuntu	u m úː n t u
-umuntu ngumuntu ngabantu	u m u n t u n ɡ u m u n t u n ɡ a ɓ aː n t u
 umunwe	u m úː n w e
 umunyu	u m úː ɲ u
 umusa	ú m uː s á
@@ -1683,7 +1718,6 @@ uqhezu	úː ǃʰ eː z ú
 uqhoqhoqho	u ǃʰ ó ǃʰ oː ǃʰ o
 uqhwishi	ú ǃʰ w iː ʃ i
 uqobo	úː ǃ oː ɓ o
-usale kahle	ú s a l e ɠ aː ɬ é
 usana	ûː s áː n a
 usapho	úː s aː pʰ o
 usawoti	u s á w oː t i
@@ -1718,6 +1752,7 @@ vuya	v uː j a
 wena	w eː n á
 wololo	w ó l o l ôː
 wona	w oː n á
+x	ǁ
 xega	ǁ eː ɡ a
 xegisa	ǁ e ɡ iː s a
 xhapha	ǁʰ aː pʰ a
