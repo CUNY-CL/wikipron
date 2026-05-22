@@ -12,6 +12,17 @@ Unreleased
 
 ### Under `data/`
 
+-  Updates the following languages (\#589):
+    * Bulgarian (`bul`)
+    * Catalan (`cat`)
+    * Czech (`ces`)
+    * German (`deu`)
+    * French (`fra`)
+    * Ancient Greek (`grc`)
+    * Hungarian (`hun`)
+    * Italian (`ita`)
+    * Macedonian (`mkd`)
+    * Polish (`pol`)
 -  Updates the following languages (\#588):
     * English (`eng`)
     * Finnish (`fin`)
