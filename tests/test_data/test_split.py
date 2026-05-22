@@ -247,6 +247,70 @@ _SMOKE_TEST_LANGUAGES = [
         ],
     ),
     SmokeTestScript(
+        "Tirhuta",
+        [
+            ("𑒧𑒻𑒟𑒱𑒪𑒲", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Brahmi",
+        [
+            ("𑀪𑀺𑀓𑁆𑀔𑀼", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Hatran",
+        [
+            ("𐣠𐣡𐣢", True),
+            ("ܐܒܝܕܘܬܐ", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Khudawadi",
+        [
+            ("𑊰𑊱𑊲", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Multani",
+        [
+            ("𑊀𑊁𑊂", True),
+            ("ਲੂੰਬੜੀ", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Newa",
+        [
+            ("𑐀𑐁𑐂", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Pahawh Hmong",
+        [
+            ("𖬀𖬁𖬂", True),
+            ("กะเตาแด็ร", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
+        "Runic",
+        [
+            ("ᚠᚢᚦᚨᚱᚲ", True),
+            ("ब्राह्मिक", False),
+            ("wikipron", False),
+        ],
+    ),
+    SmokeTestScript(
         "Unknown",
         [
             ("", True),
