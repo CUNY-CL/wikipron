@@ -1,11 +1,11 @@
-* Languages: 346
+* Languages: 347
   * Broad transcription files: 338
-  * Narrow transcription files: 207
+  * Narrow transcription files: 208
 * Dialects: 31
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 41
-* Pronunciations: 5,171,296
+* Pronunciations: 5,172,522
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -228,6 +228,7 @@
 | [TSV](tsv/izh_latn_narrow.tsv) | izh | Ingrian | Ingrian | Latin |  | False | Narrow | 15,833 |
 | [TSV](tsv/jam_latn_broad.tsv) | jam | Jamaican Creole English | Jamaican Creole | Latin |  | False | Broad | 415 |
 | [TSV](tsv/jav_java_broad.tsv) | jav | Javanese | Javanese | Javanese |  | False | Broad | 1,266 |
+| [TSV](tsv/jje_hang_narrow.tsv) | jje | Jejueo | Jeju | Hangul |  | False | Narrow | 1,226 |
 | [TSV](tsv/jpn_hani_narrow.tsv) | jpn | Japanese | Japanese | Han |  | False | Narrow | 31,339 |
 | [TSV](tsv/jpn_hani_narrow_filtered.tsv) | jpn | Japanese | Japanese | Han |  | True | Narrow | 16,767 |
 | [TSV](tsv/jpn_hira_narrow.tsv) | jpn | Japanese | Japanese | Hiragana |  | False | Narrow | 4,665 |

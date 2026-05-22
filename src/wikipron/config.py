@@ -22,6 +22,8 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
     @title = "Appendix:{language} pronunciation"
     or
     @title = "wikipedia:{language} phonology"
+    or
+    @title = "w:{language} language"
   ]]]
   and
   span[contains(@class, "IPA")]
