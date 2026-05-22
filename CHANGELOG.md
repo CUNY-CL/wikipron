@@ -17,6 +17,10 @@ Unreleased
 [2.0.0] - 2026-05-27
 --------------------
 
+This release has incremented the major version number to v2
+due to the breaking change of replacing the configuration
+arguments `--skip-parens`/`--no-skip-parens` with `--parens` (\#577).
+
 ### Under `data/`
 
 -  Updates the following languages (\#590):
@@ -94,7 +98,6 @@ Unreleased
     * Middle Low German (`gml`)
     * Old High German (ca. 750-1050) (`goh`)
     * Gothic (`got`)
-    * Guarani (`grn`)
     * Swiss German (`gsw`)
     * Gujarati (`guj`)
     * Farefare (`gur`)
@@ -249,7 +252,6 @@ Unreleased
     * Sylheti (`syl`)
     * Silesian (`szl`)
     * Tamil (`tam`)
-    * Tabaru (`tby`)
     * Telugu (`tel`)
     * Ternate (`tft`)
     * Tajik (`tgk`)
@@ -290,6 +292,9 @@ Unreleased
     * Zou (`zom`)
     * Zulu (`zul`)
     * Zaza (`zza`)
+-  Removes the following languages (\#590):
+    * Guarani (`grn`) -- replaced by Paraguayan Guaraní (`gug`)
+    * Tabaru (`tby`) -- updated upstream data no longer makes the 100-item threshold
 -  Updates the following languages (\#589):
     * Bulgarian (`bul`)
     * Catalan (`cat`)
