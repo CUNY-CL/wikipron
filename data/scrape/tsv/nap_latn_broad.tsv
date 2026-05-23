@@ -10,8 +10,8 @@ abbate	a b b a t ə
 abbiccià	a b b i t t͡ʃ a
 addore	a d d o r ɐ
 americano	a m e r i k a n ə
-arcepelaco	a r t͡ʃ ə p e l a k ə
-arcepiscopo	a r t ʃ ə p i ʃ k o p ə
+arcepelaco	a r t ʃ ə p e l ə k ə
+arcepiscopo	a r t ʃ ə p i ʃ k ə p ə
 archemista	a r k ə m i s t ə
 archetettura	a r k ə t e t t u r ə
 arvulo	a r v u l ə
@@ -29,14 +29,18 @@ capa	k a p ə
 cape	k a p ə
 castariello	k a s t a r j e l l ə
 ce	t ʃ e
+ce	ʃ e
 cerasa	t͡ʃ ə r a s ɐ
 chesta	k e s t ə
+chiammare	k j a m a
 chiammare	k j a m m a
 chiatto	k j a t t ə
 chiù	k j u
 ciucciaria	t͡ʃ u t t͡ʃ a r i ə
+ciuccio	t͡ʃ u t t͡ʃ
 ciuccio	t͡ʃ u t t͡ʃ ə
 civo	t͡ʃ i v ə
+craje	k r a j
 craje	k r a j ə
 crapa	k r a p ə
 cravone	k r a v o n ə
@@ -50,10 +54,16 @@ dduje	d d u j ə
 e	e
 eine	e i n ɐ
 essa	e s s ə
+esse	e s s ə
+esso	e s s ə
 evera	ɛ v ə ɾ ə
+fa	f a
 faccio	f a t t͡ʃ ə
 facimme	f a t ʃ i m m ə
+facimme	f a ʃ i m m ə
 facite	f a t ʃ iː t ə
+facite	f a ʃ iː t ə
+faje	f a j
 faje	f a j ə
 fanno	f a n n ə
 fatica	f a t i k ɐ
@@ -64,12 +74,15 @@ fuoco	f o k o
 fuoco	f u͡o k o
 fuoco	f ɔ k o
 gelo	d͡ʒ ɛ l ə
-gruosso	ɡ r w o s s ə
 gròlia	ɡ r ɔ l j a
 guagliona	w a ʝː oː n ə
 guagliona	ɡ w a ʎː o n ə
+guaglione	w a ʎː o n ə
+guaglione	w a ʝː oː n
 guaglione	w a ʝː oː n ə
 guaglione	ɡ w a ʎː o n ə
+guagliune	w a ʎː uː n ə
+guagliune	w a ʝː uː n
 guagliune	w a ʝː uː n ə
 guagliune	ɡ w a ʎː uː n ə
 guagliuni	w a ʝː uː n i
@@ -90,26 +103,34 @@ lavoro	l a v ə r ə
 le	l e
 lente	l ɛ n t ə
 li	i
+lo	l o
 lu	l u
 luna	l u n a
 mammana	m a m m a n ə
+mana	m a n ə
 mannaggia	m a n n a d d ʒ ə
 mare	m a r ə
 me	m e
 mee	m e ə
 meje	m e j ə
+mene	m e n
 mene	m e n ə
+mia	m i
 mia	m i ə
 mieje	m i ə j ə
+mio	m i
 mio	m i ə
 monnezza	m m o n n e t t s ə
+monnezza	m o n n e t t s ə
 mugliera	m u ʎ ʎ ɛ r ə
 mulignana	m u l i ɲ ɲ a n ə
+munnia	m u n n i j ɑ
 muzzarella	m u t t͡s a r ɛ l l ə
 napulitano	n a p u l i t a n ə
+natrella	n a t r ɛ l l ə
 nce	n t͡ʃ ə
 nemmicculo	n e m m i kː ə l ə
-nenna	n e n n a
+nenna	n e n n ə
 ngoppe	ŋ ɡ ɔ p p ɐ
 nisciuno	n i ʃ ʃ u n ə
 nonna	n ɔ n n ə
@@ -118,6 +139,7 @@ nu	n u
 nuje	n u j ə
 nustierzu	n u s t j e r t͡s u
 nzieme	n t s j e m ə
+o	o
 o	oː
 pane	p a n ə
 pastiera	p a s t j eː r ə
@@ -129,7 +151,8 @@ perzona	p e r t͡s o n ɐ
 perzone	p e r t͡s o n ɐ
 pesante	p ə s a n t ɐ
 piccati	p i k k aː t ɐ
-piccerillo	p i t t ʃ ə ɾ i l l ə
+piccerillo	p i t t ʃ ə r i l l ə
+piscopo	p i ʃ k ə p ə
 piste	p i s t ɐ
 pisto	p i s t ə
 pizza	p i t t͡s ə
@@ -139,6 +162,7 @@ priato	p r i a t ə
 pummarola	p u m m a r ɔ l ə
 purchiacca	p u r k j a k k ə
 rapillo	r a p i lː ə
+rilogio	r i l ɔ d d ʒ ə
 sacco	s a k k ə
 sartanio	s a r t a n j ɐ
 scella	ʃ e l l ə
@@ -162,6 +186,7 @@ stu	s t u
 sujo	s u j ə
 sujo	s ɔ j ə
 suoje	s u ə̯ j ə
+sèi	s ɛ j
 sèi	s ɛ j ə
 tanno	t̪ a n n ə
 tauto	t̪ a u t̪ ɐ
@@ -197,5 +222,10 @@ vita	v i t ə
 viulino	v j u l i n ə
 vuje	v u j ə
 vunnella	v u n n ɛ l l ɐ
+vuònculo	v w o ŋ k ə l ə
+vuònculo	w o ŋ k ə l ə
+zoccola	t s ɔ kː ə l ə
+zompare	t͡s u m p a
 zuppa	t͡s u p p ə
+ê	eː
 ô	oː

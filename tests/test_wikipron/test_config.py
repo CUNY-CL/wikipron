@@ -135,6 +135,8 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
+                "    or\n"
+                '    @title = "w:English language"\n'
                 "  ]]]\n"
                 "  and\n"
                 '  span[contains(@class, "IPA")]\n'
@@ -150,6 +152,8 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
+                "    or\n"
+                '    @title = "w:English language"\n'
                 "  ]]]\n"
                 "  and\n"
                 '  span[contains(@class, "IPA")]\n'
@@ -168,6 +172,8 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 '    @title = "Appendix:English pronunciation"\n'
                 "    or\n"
                 '    @title = "wikipedia:English phonology"\n'
+                "    or\n"
+                '    @title = "w:English language"\n'
                 "  ]]]\n"
                 "  and\n"
                 '  span[contains(@class, "IPA")]\n'
