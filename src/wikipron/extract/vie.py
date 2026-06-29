@@ -22,8 +22,8 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
 
 _DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
-    '  (span[contains(@class, "ib-content")]//a[{dialects_text}]\n'
-    '   or count(span[contains(@class, "ib-content")]) = 0)'
+    '  (.//span[contains(@class, "ib-content")]//a[{dialects_text}]\n'
+    '   or count(.//span[contains(@class, "ib-content")]) = 0)'
 )
 
 if typing.TYPE_CHECKING:
