@@ -326,6 +326,10 @@ LANGUAGE_CODES = {
     "bjb": "Barngarla",
     "barngarla": "Barngarla",
     "banggarla": "Barngarla",
+    # Blackfoot. Would be "Siksika" in ISO 639-3.
+    "bla": "Blackfoot",
+    "blackfoot": "Blackfoot",
+    "siksika": "Blackfoot",
     # Carpathian Rusyn. Would be "Rusyn" in ISO 639-3.
     "rue": "Carpathian Rusyn",
     "rusyn": "Carpathian Rusyn",
@@ -497,6 +501,9 @@ LANGUAGE_CODES = {
     "shi": "Tashelhit",
     "tashelhit": "Tashelhit",
     "tachelhit": "Tashelhit",
+    # Tewa. Would be "Tewa (USA)" in ISO 639-3.
+    "tew": "Tewa",
+    "tewa": "Tewa",
     # Tokelauan. Would be "Tokelau" in ISO 639-3.
     "tkl": "Tokelauan",
     "tokelauan": "Tokelauan",
