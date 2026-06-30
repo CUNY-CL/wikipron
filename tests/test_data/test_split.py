@@ -346,7 +346,7 @@ def test_script_coverage(observed_scripts, known_scripts):
         ), f"{script} must be included in the smoke test."
 
 
-@pytest.mark.parametrize("smoke_test_script,", _SMOKE_TEST_LANGUAGES)
+@pytest.mark.parametrize("smoke_test_script", _SMOKE_TEST_LANGUAGES)
 def test_smoke_test_script(smoke_test_script):
     """Checks whether the scripts we'd like to split are appropriately handled
     by the Unicode script property."""
@@ -357,7 +357,7 @@ def test_smoke_test_script(smoke_test_script):
         )
 
 
-@pytest.mark.parametrize("smoke_test_script,", _SMOKE_TEST_LANGUAGES)
+@pytest.mark.parametrize("smoke_test_script", _SMOKE_TEST_LANGUAGES)
 def test_script_detection_strict(smoke_test_script):
     """Checks whether the scripts we'd like to split are correctly detected
     given the samples."""
