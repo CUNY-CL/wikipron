@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "wikipron"
-version = "2.0.0"
+version = "2.1.0"
 description = "Scraping grapheme-to-phoneme data from Wiktionary"
 readme = "README.md"
 requires-python = ">= 3.11"

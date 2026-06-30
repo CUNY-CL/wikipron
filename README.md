@@ -130,8 +130,7 @@ for word, pron in wikipron.scrape(config):
 
 ## Data
 
-We also make available [a database](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using
-WikiPron.
+We also make available [a database](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using WikiPron.
 
 ## Models
 
