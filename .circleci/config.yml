@@ -18,12 +18,16 @@ jobs:
     steps:
       - checkout
       - run:
-          # Install the dev dependencies, but not the wikipron package itself.
-          # A fresh checkout has no venv, so install into the image's Python
-          # with --system.
+          name: Create virtual environment and install dev dependencies
+          # Install the dev dependencies (but not the wikipron package itself)
+          # into a uv-managed venv. Persist activation to later steps via
+          # $BASH_ENV so the installed tools (flake8, black, ...) are on PATH
+          # -- CircleCI sources $BASH_ENV before every step.
           command: |
-              uv pip install --system -r pyproject.toml --group dev && \
-              uv pip list --system -v
+              uv venv
+              echo "source $PWD/.venv/bin/activate" >> "$BASH_ENV"
+              uv pip install -r pyproject.toml --group dev
+              uv pip list -v
       - run:
           command: << parameters.command-run >>
 
@@ -37,15 +41,19 @@ jobs:
       - checkout
       - run:
           name: Build source distribution and install package from it
+          # Build the sdist+wheel, then install the wheel (not the source) into
+          # a uv-managed venv so the tests run against the built artifact.
+          # Persist activation to later steps via $BASH_ENV -- CircleCI sources
+          # $BASH_ENV before every step.
           command: |
-              # Install dev deps (for build + pytest), then build and install
-              # the wheel so the tests run against the built artifact.
-              uv pip install --system -r pyproject.toml --group dev && \
-              uv build && \
-              uv pip install --system dist/`ls dist/ | grep .whl`
+              uv venv
+              echo "source $PWD/.venv/bin/activate" >> "$BASH_ENV"
+              uv build
+              uv pip install dist/`ls dist/ | grep .whl`
+              uv pip install pytest
       - run:
           name: Show installed Python packages
-          command: uv pip list --system -v
+          command: uv pip list -v
       - run:
           name: Run Python tests
           command: |
