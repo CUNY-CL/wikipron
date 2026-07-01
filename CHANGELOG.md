@@ -14,6 +14,32 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+[2.1.0] - 2026-07-01
+--------------------
+
+### Under `data/`
+
+-  Adds Tewa (`tew`). (\#592)
+-  Updates the following languages (\#592):
+    * Bengali (`ben`)
+    * Welsh (`cym`)
+    * English (`eng`)
+    * Armenian (`hye`)
+    * Portuguese (`por`)
+    * Spanish (`spa`)
+    * Vietnamese (`vie`)
+-  Removes the non-dialect Bengali (`ben`) broad and narrow files, now that
+   Bengali is scraped entirely as its Rarh and Dhaka dialects. (\#592)
+-  Removes stale Malay (`msa`) Arabic narrow/broad and Uighur (`uig`) Arabic broad
+   files that should have been removed earlier. (\#592)
+
+### Under `src/` and elsewhere
+
+-   Fixes the default dialect XPath selector to match `ib-content` spans nested
+    inside `<li>`, using `.//span` instead of `span`. The same fix is applied to
+    the Vietnamese extractor. (\#592)
+-   Adds Blackfoot (`bla`) and Tewa (`tew`) to `languagecodes.py`. (\#592)
+
 [2.0.0] - 2026-05-22
 --------------------
 

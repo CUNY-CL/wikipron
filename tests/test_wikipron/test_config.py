@@ -3,9 +3,10 @@ import re
 
 import pytest
 import requests
+from lxml import html as lxml_html
 
 from wikipron.config import _PHONEMES_REGEX, _PHONES_REGEX
-from wikipron.html_utils import HTMLResponse
+from wikipron.html_utils import HTMLResponse, HTMLTree
 from wikipron.scrape import _PAGE_TEMPLATE, HTTP_HEADERS
 
 from . import can_connect_to_wiktionary, config_factory
@@ -158,9 +159,9 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 "  and\n"
                 '  span[contains(@class, "IPA")]\n'
                 "  and\n"
-                '  (span[contains(@class, "ib-content")]//a[contains(text(), "US")]\n'  # noqa: E501
-                '   or span[contains(@class, "ib-content") and (contains(text(), "US"))]\n'  # noqa: E501
-                '   or count(span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
+                '  (.//span[contains(@class, "ib-content")]//a[contains(text(), "US")]\n'  # noqa: E501
+                '   or .//span[contains(@class, "ib-content") and (contains(text(), "US"))]\n'  # noqa: E501
+                '   or count(.//span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
         ),
@@ -178,9 +179,9 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 "  and\n"
                 '  span[contains(@class, "IPA")]\n'
                 "  and\n"
-                '  (span[contains(@class, "ib-content")]//a[contains(text(), "General American") or contains(text(), "US")]\n'  # noqa: E501
-                '   or span[contains(@class, "ib-content") and (contains(text(), "General American") or contains(text(), "US"))]\n'  # noqa: E501
-                '   or count(span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
+                '  (.//span[contains(@class, "ib-content")]//a[contains(text(), "General American") or contains(text(), "US")]\n'  # noqa: E501
+                '   or .//span[contains(@class, "ib-content") and (contains(text(), "General American") or contains(text(), "US"))]\n'  # noqa: E501
+                '   or count(.//span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
                 "]\n"
             ),
         ),
@@ -189,6 +190,51 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
 def test_pron_xpath_selector(dialect, expected_pron_xpath_selector):
     config = config_factory(key="en", dialect=dialect)
     assert config.pron_xpath_selector == expected_pron_xpath_selector
+
+
+# GH-591: On some pages (e.g. Bengali হুমায়রা) Wiktionary wraps the dialect
+# label in <span class="usage-label-accent">, so <span class="ib-content"> is a
+# grandchild of the <li>, not a direct child. The dialect XPath must use the
+# descendant axis (.//span) to find it; otherwise the count(...)=0 fallback
+# fires for every entry and all dialects leak into every dialect's output file.
+_BENGALI_DIALECT_HTML = """
+<ul>
+<li>
+<span class="usage-label-accent">
+<span class="ib-brac label-brac">(</span>
+<span class="ib-content label-content">
+<a title="w:West Bengali dialect">Rarh</a>
+</span>
+<span class="ib-brac label-brac">)</span>
+</span>
+<sup><a title="wikipedia:Bengali phonology">key</a></sup>
+<span class="IPA nowrap">/humaḛɾa/</span>
+</li>
+<li>
+<span class="usage-label-accent">
+<span class="ib-brac label-brac">(</span>
+<span class="ib-content label-content">
+<a title="w:Dhaka">Dhaka</a>
+</span>
+<span class="ib-brac label-brac">)</span>
+</span>
+<sup><a title="wikipedia:Bengali phonology">key</a></sup>
+<span class="IPA nowrap">/humaḛɹa/</span>
+</li>
+</ul>
+"""
+
+
+def test_bengali_dialect_outer_wrapper_selection():
+    tree = HTMLTree(lxml_html.fromstring(_BENGALI_DIALECT_HTML))
+    config_rarh = config_factory(key="ben", dialect="Rarh | Standard Bengali")
+    config_dhaka = config_factory(key="ben", dialect="Dhaka")
+    config_any = config_factory(key="ben")
+    # No dialect: both pronunciations are selected.
+    assert len(tree.xpath(config_any.pron_xpath_selector)) == 2
+    # Each dialect filter selects only its own li (the bug selected both).
+    assert len(tree.xpath(config_rarh.pron_xpath_selector)) == 1
+    assert len(tree.xpath(config_dhaka.pron_xpath_selector)) == 1
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")

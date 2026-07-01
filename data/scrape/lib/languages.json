@@ -345,6 +345,14 @@
         "wiktionary_code": "bjb",
         "wiktionary_name": "Barngarla"
     },
+    "bla": {
+        "iso639_name": "Siksika",
+        "script": {
+            "latn": "Latin"
+        },
+        "wiktionary_code": "bla",
+        "wiktionary_name": "Blackfoot"
+    },
     "blt": {
         "iso639_name": "Tai Dam",
         "script": {
@@ -2793,6 +2801,14 @@
         },
         "wiktionary_code": "te",
         "wiktionary_name": "Telugu"
+    },
+    "tew": {
+        "iso639_name": "Tewa (USA)",
+        "script": {
+            "latn": "Latin"
+        },
+        "wiktionary_code": "tew",
+        "wiktionary_name": "Tewa"
     },
     "tft": {
         "iso639_name": "Ternate",

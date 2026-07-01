@@ -1,11 +1,11 @@
-* Languages: 347
-  * Broad transcription files: 338
-  * Narrow transcription files: 208
+* Languages: 348
+  * Broad transcription files: 336
+  * Narrow transcription files: 207
 * Dialects: 31
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 41
-* Pronunciations: 5,172,522
+* Pronunciations: 5,188,783
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -60,14 +60,12 @@
 | [TSV](tsv/bcl_latn_narrow.tsv) | bcl | Central Bikol | Central Bikol | Latin |  | False | Narrow | 5,450 |
 | [TSV](tsv/bdq_latn_broad.tsv) | bdq | Bahnar | Bahnar | Latin |  | False | Broad | 198 |
 | [TSV](tsv/bel_cyrl_narrow.tsv) | bel | Belarusian | Belarusian | Cyrillic |  | False | Narrow | 7,259 |
-| [TSV](tsv/ben_beng_broad.tsv) | ben | Bengali | Bengali | Bengali |  | False | Broad | 6,666 |
-| [TSV](tsv/ben_beng_dhaka_broad.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Broad | 10,957 |
-| [TSV](tsv/ben_beng_dhaka_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | True | Broad | 8,864 |
-| [TSV](tsv/ben_beng_dhaka_narrow.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Narrow | 11,043 |
-| [TSV](tsv/ben_beng_narrow.tsv) | ben | Bengali | Bengali | Bengali |  | False | Narrow | 5,933 |
-| [TSV](tsv/ben_beng_rarh_broad.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Broad | 10,969 |
-| [TSV](tsv/ben_beng_rarh_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | True | Broad | 8,908 |
-| [TSV](tsv/ben_beng_rarh_narrow.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Narrow | 11,047 |
+| [TSV](tsv/ben_beng_dhaka_broad.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Broad | 7,144 |
+| [TSV](tsv/ben_beng_dhaka_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | True | Broad | 5,477 |
+| [TSV](tsv/ben_beng_dhaka_narrow.tsv) | ben | Bengali | Bengali | Bengali | Dhaka | False | Narrow | 6,842 |
+| [TSV](tsv/ben_beng_rarh_broad.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Broad | 7,391 |
+| [TSV](tsv/ben_beng_rarh_broad_filtered.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | True | Broad | 6,788 |
+| [TSV](tsv/ben_beng_rarh_narrow.tsv) | ben | Bengali | Bengali | Bengali | Rarh, Standard Bengali | False | Narrow | 7,077 |
 | [TSV](tsv/bjb_latn_broad.tsv) | bjb | Banggarla | Barngarla | Latin |  | False | Broad | 136 |
 | [TSV](tsv/blt_tavt_narrow.tsv) | blt | Tai Dam | Tai Dam | Tai Viet |  | False | Narrow | 250 |
 | [TSV](tsv/bod_tibt_broad.tsv) | bod | Tibetan | Tibetan | Tibetan |  | False | Broad | 3,621 |
@@ -102,12 +100,12 @@
 | [TSV](tsv/crx_cans_broad.tsv) | crx | Carrier | Carrier | Canadian Aboriginal |  | False | Broad | 175 |
 | [TSV](tsv/csb_latn_broad.tsv) | csb | Kashubian | Kashubian | Latin |  | False | Broad | 2,830 |
 | [TSV](tsv/csp_hani_nanning_broad.tsv) | csp | Southern Pinghua | Southern Pinghua | Han | Nanning | False | Broad | 1,289 |
-| [TSV](tsv/cym_latn_nw_broad.tsv) | cym | Welsh | Welsh | Latin | North Wales | False | Broad | 17,213 |
-| [TSV](tsv/cym_latn_nw_broad_filtered.tsv) | cym | Welsh | Welsh | Latin | North Wales | True | Broad | 17,074 |
-| [TSV](tsv/cym_latn_nw_narrow.tsv) | cym | Welsh | Welsh | Latin | North Wales | False | Narrow | 1,308 |
-| [TSV](tsv/cym_latn_sw_broad.tsv) | cym | Welsh | Welsh | Latin | South Wales | False | Broad | 19,909 |
-| [TSV](tsv/cym_latn_sw_broad_filtered.tsv) | cym | Welsh | Welsh | Latin | South Wales | True | Broad | 19,662 |
-| [TSV](tsv/cym_latn_sw_narrow.tsv) | cym | Welsh | Welsh | Latin | South Wales | False | Narrow | 1,409 |
+| [TSV](tsv/cym_latn_nw_broad.tsv) | cym | Welsh | Welsh | Latin | North Wales | False | Broad | 17,434 |
+| [TSV](tsv/cym_latn_nw_broad_filtered.tsv) | cym | Welsh | Welsh | Latin | North Wales | True | Broad | 17,291 |
+| [TSV](tsv/cym_latn_nw_narrow.tsv) | cym | Welsh | Welsh | Latin | North Wales | False | Narrow | 1,346 |
+| [TSV](tsv/cym_latn_sw_broad.tsv) | cym | Welsh | Welsh | Latin | South Wales | False | Broad | 20,202 |
+| [TSV](tsv/cym_latn_sw_broad_filtered.tsv) | cym | Welsh | Welsh | Latin | South Wales | True | Broad | 19,940 |
+| [TSV](tsv/cym_latn_sw_narrow.tsv) | cym | Welsh | Welsh | Latin | South Wales | False | Narrow | 1,456 |
 | [TSV](tsv/dan_latn_broad.tsv) | dan | Danish | Danish | Latin |  | False | Broad | 4,773 |
 | [TSV](tsv/dan_latn_narrow.tsv) | dan | Danish | Danish | Latin |  | False | Narrow | 9,139 |
 | [TSV](tsv/deu_latn_broad.tsv) | deu | German | German | Latin |  | False | Broad | 60,277 |
@@ -125,12 +123,12 @@
 | [TSV](tsv/ell_grek_broad.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | False | Broad | 19,601 |
 | [TSV](tsv/ell_grek_broad_filtered.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | True | Broad | 19,133 |
 | [TSV](tsv/ell_grek_narrow.tsv) | ell | Modern Greek (1453-) | Greek | Greek |  | False | Narrow | 328 |
-| [TSV](tsv/eng_latn_uk_broad.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Broad | 101,464 |
-| [TSV](tsv/eng_latn_uk_broad_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Broad | 100,309 |
-| [TSV](tsv/eng_latn_uk_narrow.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Narrow | 3,324 |
-| [TSV](tsv/eng_latn_us_broad.tsv) | eng | English | English | Latin | US, General American | False | Broad | 101,371 |
-| [TSV](tsv/eng_latn_us_broad_filtered.tsv) | eng | English | English | Latin | US, General American | True | Broad | 100,101 |
-| [TSV](tsv/eng_latn_us_narrow.tsv) | eng | English | English | Latin | US, General American | False | Narrow | 5,212 |
+| [TSV](tsv/eng_latn_uk_broad.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Broad | 99,724 |
+| [TSV](tsv/eng_latn_uk_broad_filtered.tsv) | eng | English | English | Latin | UK, Received Pronunciation | True | Broad | 98,597 |
+| [TSV](tsv/eng_latn_uk_narrow.tsv) | eng | English | English | Latin | UK, Received Pronunciation | False | Narrow | 2,838 |
+| [TSV](tsv/eng_latn_us_broad.tsv) | eng | English | English | Latin | US, General American | False | Broad | 100,932 |
+| [TSV](tsv/eng_latn_us_broad_filtered.tsv) | eng | English | English | Latin | US, General American | True | Broad | 99,645 |
+| [TSV](tsv/eng_latn_us_narrow.tsv) | eng | English | English | Latin | US, General American | False | Narrow | 5,443 |
 | [TSV](tsv/enm_latn_broad.tsv) | enm | Middle English (1100-1500) | Middle English | Latin |  | False | Broad | 18,272 |
 | [TSV](tsv/epo_latn_broad.tsv) | epo | Esperanto | Esperanto | Latin |  | False | Broad | 41,287 |
 | [TSV](tsv/est_latn_broad.tsv) | est | Estonian | Estonian | Latin |  | False | Broad | 2,903 |
@@ -204,12 +202,12 @@
 | [TSV](tsv/hun_latn_narrow.tsv) | hun | Hungarian | Hungarian | Latin |  | False | Narrow | 64,764 |
 | [TSV](tsv/hun_latn_narrow_filtered.tsv) | hun | Hungarian | Hungarian | Latin |  | True | Narrow | 64,689 |
 | [TSV](tsv/huu_latn_narrow.tsv) | huu | Murui Huitoto | Murui Huitoto | Latin |  | False | Narrow | 440 |
-| [TSV](tsv/hye_armn_e_broad.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | False | Broad | 18,011 |
-| [TSV](tsv/hye_armn_e_narrow.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | False | Narrow | 18,419 |
-| [TSV](tsv/hye_armn_e_narrow_filtered.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | True | Narrow | 18,349 |
-| [TSV](tsv/hye_armn_w_broad.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian | False | Broad | 17,160 |
-| [TSV](tsv/hye_armn_w_narrow.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian | False | Narrow | 17,535 |
-| [TSV](tsv/hye_armn_w_narrow_filtered.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian | True | Narrow | 17,471 |
+| [TSV](tsv/hye_armn_e_broad.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | False | Broad | 18,060 |
+| [TSV](tsv/hye_armn_e_narrow.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | False | Narrow | 18,465 |
+| [TSV](tsv/hye_armn_e_narrow_filtered.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | True | Narrow | 18,395 |
+| [TSV](tsv/hye_armn_w_broad.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian | False | Broad | 17,189 |
+| [TSV](tsv/hye_armn_w_narrow.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian | False | Narrow | 17,561 |
+| [TSV](tsv/hye_armn_w_narrow_filtered.tsv) | hye | Armenian | Armenian | Armenian | Western Armenian | True | Narrow | 17,497 |
 | [TSV](tsv/iba_latn_broad.tsv) | iba | Iban | Iban | Latin |  | False | Broad | 584 |
 | [TSV](tsv/iba_latn_narrow.tsv) | iba | Iban | Iban | Latin |  | False | Narrow | 179 |
 | [TSV](tsv/ido_latn_broad.tsv) | ido | Ido | Ido | Latin |  | False | Broad | 7,874 |
@@ -332,8 +330,6 @@
 | [TSV](tsv/mqs_latn_broad.tsv) | mqs | West Makian | West Makian | Latin |  | False | Broad | 791 |
 | [TSV](tsv/mri_latn_broad.tsv) | mri | Maori | Māori | Latin |  | False | Broad | 1,005 |
 | [TSV](tsv/mri_latn_narrow.tsv) | mri | Maori | Māori | Latin |  | False | Narrow | 1,012 |
-| [TSV](tsv/msa_arab_ara_broad.tsv) | msa | Malay (macrolanguage) | Malay | Arabic |  | False | Broad | 628 |
-| [TSV](tsv/msa_arab_ara_narrow.tsv) | msa | Malay (macrolanguage) | Malay | Arabic |  | False | Narrow | 220 |
 | [TSV](tsv/msa_arab_narrow.tsv) | msa | Malay (macrolanguage) | Malay | Arabic |  | False | Narrow | 106 |
 | [TSV](tsv/msa_latn_broad.tsv) | msa | Malay (macrolanguage) | Malay | Latin |  | False | Broad | 6,672 |
 | [TSV](tsv/msa_latn_narrow.tsv) | msa | Malay (macrolanguage) | Malay | Latin |  | False | Narrow | 7,581 |
@@ -404,12 +400,12 @@
 | [TSV](tsv/pms_latn_broad.tsv) | pms | Piemontese | Piedmontese | Latin |  | False | Broad | 921 |
 | [TSV](tsv/pol_latn_broad.tsv) | pol | Polish | Polish | Latin |  | False | Broad | 157,042 |
 | [TSV](tsv/pol_latn_narrow.tsv) | pol | Polish | Polish | Latin |  | False | Narrow | 13,825 |
-| [TSV](tsv/por_latn_bz_broad.tsv) | por | Portuguese | Portuguese | Latin | Brazil | False | Broad | 185,526 |
-| [TSV](tsv/por_latn_bz_broad_filtered.tsv) | por | Portuguese | Portuguese | Latin | Brazil | True | Broad | 185,296 |
-| [TSV](tsv/por_latn_bz_narrow.tsv) | por | Portuguese | Portuguese | Latin | Brazil | False | Narrow | 106,570 |
-| [TSV](tsv/por_latn_po_broad.tsv) | por | Portuguese | Portuguese | Latin | Portugal | False | Broad | 85,969 |
-| [TSV](tsv/por_latn_po_broad_filtered.tsv) | por | Portuguese | Portuguese | Latin | Portugal | True | Broad | 58,184 |
-| [TSV](tsv/por_latn_po_narrow.tsv) | por | Portuguese | Portuguese | Latin | Portugal | False | Narrow | 32,758 |
+| [TSV](tsv/por_latn_bz_broad.tsv) | por | Portuguese | Portuguese | Latin | Brazil | False | Broad | 187,660 |
+| [TSV](tsv/por_latn_bz_broad_filtered.tsv) | por | Portuguese | Portuguese | Latin | Brazil | True | Broad | 187,421 |
+| [TSV](tsv/por_latn_bz_narrow.tsv) | por | Portuguese | Portuguese | Latin | Brazil | False | Narrow | 107,827 |
+| [TSV](tsv/por_latn_po_broad.tsv) | por | Portuguese | Portuguese | Latin | Portugal | False | Broad | 86,986 |
+| [TSV](tsv/por_latn_po_broad_filtered.tsv) | por | Portuguese | Portuguese | Latin | Portugal | True | Broad | 58,890 |
+| [TSV](tsv/por_latn_po_narrow.tsv) | por | Portuguese | Portuguese | Latin | Portugal | False | Narrow | 33,217 |
 | [TSV](tsv/pox_latn_broad.tsv) | pox | Polabian | Polabian | Latin |  | False | Broad | 321 |
 | [TSV](tsv/ppl_latn_broad.tsv) | ppl | Pipil | Pipil | Latin |  | False | Broad | 283 |
 | [TSV](tsv/pqm_latn_broad.tsv) | pqm | Malecite-Passamaquoddy | Malecite-Passamaquoddy | Latin |  | False | Broad | 151 |
@@ -459,12 +455,12 @@
 | [TSV](tsv/sms_latn_broad.tsv) | sms | Skolt Sami | Skolt Sami | Latin |  | False | Broad | 119 |
 | [TSV](tsv/snd_arab_broad.tsv) | snd | Sindhi | Sindhi | Arabic |  | False | Broad | 362 |
 | [TSV](tsv/snd_arab_narrow.tsv) | snd | Sindhi | Sindhi | Arabic |  | False | Narrow | 414 |
-| [TSV](tsv/spa_latn_ca_broad.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | False | Broad | 132,292 |
-| [TSV](tsv/spa_latn_ca_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | True | Broad | 127,979 |
-| [TSV](tsv/spa_latn_ca_narrow.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | False | Narrow | 132,300 |
-| [TSV](tsv/spa_latn_la_broad.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Broad | 128,524 |
-| [TSV](tsv/spa_latn_la_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Latin America | True | Broad | 128,464 |
-| [TSV](tsv/spa_latn_la_narrow.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Narrow | 128,528 |
+| [TSV](tsv/spa_latn_ca_broad.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | False | Broad | 136,717 |
+| [TSV](tsv/spa_latn_ca_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | True | Broad | 132,321 |
+| [TSV](tsv/spa_latn_ca_narrow.tsv) | spa | Spanish | Spanish | Latin | Castilian, Spain | False | Narrow | 136,725 |
+| [TSV](tsv/spa_latn_la_broad.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Broad | 132,305 |
+| [TSV](tsv/spa_latn_la_broad_filtered.tsv) | spa | Spanish | Spanish | Latin | Latin America | True | Broad | 132,249 |
+| [TSV](tsv/spa_latn_la_narrow.tsv) | spa | Spanish | Spanish | Latin | Latin America | False | Narrow | 132,308 |
 | [TSV](tsv/sqi_latn_broad.tsv) | sqi | Albanian | Albanian | Latin |  | False | Broad | 5,376 |
 | [TSV](tsv/sqi_latn_narrow.tsv) | sqi | Albanian | Albanian | Latin |  | False | Narrow | 1,628 |
 | [TSV](tsv/srd_latn_broad.tsv) | srd | Sardinian | Sardinian | Latin |  | False | Broad | 722 |
@@ -484,6 +480,8 @@
 | [TSV](tsv/tam_taml_narrow.tsv) | tam | Tamil | Tamil | Tamil |  | False | Narrow | 7,347 |
 | [TSV](tsv/tel_telu_broad.tsv) | tel | Telugu | Telugu | Telugu |  | False | Broad | 5,117 |
 | [TSV](tsv/tel_telu_narrow.tsv) | tel | Telugu | Telugu | Telugu |  | False | Narrow | 1,600 |
+| [TSV](tsv/tew_latn_broad.tsv) | tew | Tewa (USA) | Tewa | Latin |  | False | Broad | 106 |
+| [TSV](tsv/tew_latn_narrow.tsv) | tew | Tewa (USA) | Tewa | Latin |  | False | Narrow | 105 |
 | [TSV](tsv/tft_latn_broad.tsv) | tft | Ternate | Ternate | Latin |  | False | Broad | 297 |
 | [TSV](tsv/tft_latn_narrow.tsv) | tft | Ternate | Ternate | Latin |  | False | Narrow | 988 |
 | [TSV](tsv/tgk_cyrl_broad.tsv) | tgk | Tajik | Tajik | Cyrillic |  | False | Broad | 3,269 |
@@ -507,7 +505,6 @@
 | [TSV](tsv/tzm_tfng_broad.tsv) | tzm | Central Atlas Tamazight | Central Atlas Tamazight | Tifinagh |  | False | Broad | 690 |
 | [TSV](tsv/tzm_tfng_narrow.tsv) | tzm | Central Atlas Tamazight | Central Atlas Tamazight | Tifinagh |  | False | Narrow | 819 |
 | [TSV](tsv/uby_cyrl_narrow.tsv) | uby | Ubykh | Ubykh | Cyrillic |  | False | Narrow | 1,317 |
-| [TSV](tsv/uig_arab_ara_broad.tsv) | uig | Uighur | Uyghur | Arabic |  | False | Broad | 260 |
 | [TSV](tsv/uig_arab_broad.tsv) | uig | Uighur | Uyghur | Arabic |  | False | Broad | 2,674 |
 | [TSV](tsv/ukr_cyrl_narrow.tsv) | ukr | Ukrainian | Ukrainian | Cyrillic |  | False | Narrow | 53,021 |
 | [TSV](tsv/ulw_latn_broad.tsv) | ulw | Ulwa | Ulwa (Nicaragua) | Latin |  | False | Broad | 103 |
@@ -518,12 +515,12 @@
 | [TSV](tsv/uzb_latn_broad.tsv) | uzb | Uzbek | Uzbek | Latin |  | False | Broad | 345 |
 | [TSV](tsv/uzb_latn_narrow.tsv) | uzb | Uzbek | Uzbek | Latin |  | False | Narrow | 234 |
 | [TSV](tsv/vec_latn_broad.tsv) | vec | Venetian | Venetan | Latin |  | False | Broad | 141 |
-| [TSV](tsv/vie_latn_hanoi_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Narrow | 17,028 |
-| [TSV](tsv/vie_latn_hanoi_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Narrow | 17,028 |
-| [TSV](tsv/vie_latn_hue_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | False | Narrow | 18,615 |
-| [TSV](tsv/vie_latn_hue_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | True | Narrow | 18,611 |
-| [TSV](tsv/vie_latn_saigon_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | False | Narrow | 19,996 |
-| [TSV](tsv/vie_latn_saigon_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | True | Narrow | 19,993 |
+| [TSV](tsv/vie_latn_hanoi_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | False | Narrow | 24,796 |
+| [TSV](tsv/vie_latn_hanoi_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Hà Nội | True | Narrow | 24,796 |
+| [TSV](tsv/vie_latn_hue_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | False | Narrow | 27,206 |
+| [TSV](tsv/vie_latn_hue_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Huế | True | Narrow | 27,193 |
+| [TSV](tsv/vie_latn_saigon_narrow.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | False | Narrow | 29,363 |
+| [TSV](tsv/vie_latn_saigon_narrow_filtered.tsv) | vie | Vietnamese | Vietnamese | Latin | Saigon | True | Narrow | 29,354 |
 | [TSV](tsv/vol_latn_broad.tsv) | vol | Volapük | Volapük | Latin |  | False | Broad | 446 |
 | [TSV](tsv/vol_latn_narrow.tsv) | vol | Volapük | Volapük | Latin |  | False | Narrow | 560 |
 | [TSV](tsv/vot_latn_broad.tsv) | vot | Votic | Votic | Latin |  | False | Broad | 2,915 |

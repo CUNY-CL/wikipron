@@ -2,8 +2,6 @@
 Aberystwyth	a b ɛ r ə s t w ɪ θ
 Aberystwyth	a b ɛ r ə s t ʊ i̯ θ
 Affganistan	a f ɡ a n ɪ s t a n
-Aifft	a i f t
-Aifft	ə r a i f t
 Awst	a u̯ s t
 Awstralia	a u̯ s t r a l j a
 Awstria	a u̯ s t r j a
@@ -62,11 +60,10 @@ Sgandinafaidd	s k a n d ɪ n a v a i̯ ð
 Sgandinafia	s k a n d ɪ n a v j a
 Sgythia	s k ə θ j a
 Sosban	s ɔ s p a n
-Swistir	s w ɪ s t ɪ r
-Swistir	ə s w ɪ s t ɪ r
 Wysg	ʊ i̯ s k
 Ysbaen	ə s p a i̯ n
 Ystradwel	ə s t r a d w ɛ l
+Ystwyth	ə s t ʊ i̯ θ
 abl	a b l̩
 abostl	a b ɔ s t l̩
 abostol	a b ɔ s t ɔ l
@@ -100,33 +97,46 @@ alltudiad	a ɬ t ɪ d j a d
 amethyst	a m ɛ θ ɪ s t
 amholiticaidd	a m ɦ ɔ l ɪ tʰ ɪ kʰ a i̯ ð
 amhrydlon	a m ɦ r ə d l ɔ n
+amlbriod	a m a l b r iː ɔ d
+amlbriod	a m l̩ b r iː ɔ d
 amldduw	a m a l ð ɪ u̯
 amldduw	a m l̩ ð ɪ u̯
 amldduw	aː m a l ð ɪ u̯
 amldduw	aː m l̩ ð ɪ u̯
+amlffurf	a m a l f ɪ r v
+amlffurf	aː m a l f ɪ r v
 amlgellog	a m l̩ ɡ ɛ ɬ ɔ ɡ
-amlhau	a m l̩ h a i̯
+amlhad	a m a l h aː d
+amlhau	a m a l h a i̯
 amlieithog	a m a l j e ɪ θ ɔ ɡ
 amlieithog	a m l̩ j e ɪ θ ɔ ɡ
 amlochrog	a m l ɔ χ r ɔ ɡ
 amlochrog	a m l̩ ɔ χ r ɔ ɡ
 amlosgi	a m l ɔ s k i
+amlweddog	a m a l w eː ð ɔ ɡ
+amlweddog	a m a l w ɛ ð ɔ ɡ
 amobr	a m ɔ b r̩
 anabl	a n a b l̩
 anabl	aː n a b l̩
 anaml	a n a m l̩
 anaml	aː n a m l̩
+anamlder	a n a m a l d ɛ r
+anamlder	a n aː m a l d ɛ r
 anawsterau	a n a u̯ s t eː r a i̯
 anawsterau	a n a u̯ s t eː r ɛ
 anawsterau	a n a u̯ s t ɛ r a i̯
 anawsterau	a n a u̯ s t ɛ r ɛ
+anedl	a n ɛ d ɛ l
+anedl	aː n ɛ d ɛ l
 anesboniadwy	a n ɛ s p ɔ n j a d ʊ ɨ̯
 anesboniadwy	a n ɛ s p ɔ n j aː d ʊ ɨ̯
 anesgusodol	a n ɛ s k ɪ s oː d ɔ l
 anesgusodol	a n ɛ s k ɪ s ɔ d ɔ l
 anfoesgar	a n v ɔ i̯ s k a r
+anfynychder	a n v ə n ə χ t ɛ r
 anghofuster	a ŋ h ɔ v ɪ s t ɛ r
 anghraff	a ŋ̊ r̥ a f
+anghyfleustra	a ŋ̊ h ə v l e i̯ s t r a
 anghywir	a ŋ ɦ ə w ɪ r
 anhawdd	a n ɦ a u̯ ð
 anhawster	a n h a u̯ s t ɛ r
@@ -135,8 +145,12 @@ anhwylustod	a n̥ h ʊ i̯ l ɪ s t ɔ d
 anhyfedr	a n h ə v ɛ d r̩
 anhyfedr	a n h ə v ɛ d ɛ r
 anhysbys	a n h ə s p ɪ s
+anhysbysyn	a n̥ h ə s p ə s ɪ n
 annhaclus	a n ɦ a k l ɪ s
 annhacluso	a n ɦ a k l ɪ s ɔ
+annisgwyl	a n ɪ s k ʊ i̯ l
+annisgybledig	a n ɪ s k ə b l eː d ɪ ɡ
+annisgybledig	a n ɪ s k ə b l ɛ d ɪ ɡ
 anrhydedd	a n ɦ r ə d ɛ ð
 anrhydeddu	a n ɦ r ə d eː ð i
 anrhydeddu	a n ɦ r ə d ɛ ð i
@@ -203,8 +217,6 @@ awtistig	a u̯ tʰ ɪ s t ɪ ɡ
 bachgen	b a χ k ɛ n
 bachgennes	b a χ k ɛ n ɛ s
 bachgennyn	b a χ k ɛ n ɪ n
-balchder	b a l χ t a r
-balchder	b a l χ t ɛ r
 banadl	b a n a d l̩
 banadl	b aː n a d l̩
 basbort	b a s p ɔ r tʰ
@@ -229,6 +241,7 @@ bloesgedd	b l ɔ i̯ s k ɛ ð
 bloesgi	b l ɔ i̯ s k i
 bloesgni	b l ɔ i̯ s k n i
 bobl	b ɔ b l̩
+bochdew	b ɔ χ t ɛ u̯
 bochgoch	b ɔ χ k ɔ χ
 bonclust	b ɔ ŋ k l ɪ s t
 bonclustiad	b ɔ ŋ k l ɪ s t j a d
@@ -273,6 +286,7 @@ casgen	kʰ a s k ɛ n
 casgennu	kʰ a s k ɛ n i
 casgliad	kʰ a s k l j a d
 casglu	kʰ a s k l i
+casglwr	kʰ a s k l ʊ r
 cast	kʰ a s t
 castan	k a s t a n
 castanwydd	kʰ a s t a n w ɪ ð
@@ -282,6 +296,7 @@ castanwydden	k a s t a n w ɪ ð ɛ n
 castell	kʰ a s t ɛ ɬ
 castelli	kʰ a s t ɛ ɬ i
 castiog	kʰ a s t j ɔ ɡ
+cathl	kʰ a θ l̩
 cefn	kʰ ɛ v n̩
 cefngoch	k ɛ v ŋ̩ ɡ ɔ χ
 ceifn	kʰ e i̯ v n̩
@@ -306,6 +321,7 @@ chwibl	χ w ɪ b l̩
 chwistl	χ w ɪ s t l̩
 cist	kʰ ɪ s t
 ciwcymbr	kʰ ɪ u̯ kʰ ə m b r̩
+clafr	k l a v r̩
 clasgu	kʰ l a s k i
 cledr	k lʰ ɛ d r̩
 clochdy	k l ɔ χ t i
@@ -347,7 +363,9 @@ costio	kʰ ɔ s t j ɔ
 costrel	kʰ ɔ s t r ɛ l
 crasboeth	kʰ r a s p ɔ ɨ̯ θ
 crasboethder	kʰ r a s p ɔ ɨ̯ θ t ɛ r
+cregynwisg	kʰ r ɛ ɡ ə n w ɪ s k
 crocbren	kʰ r ɔ k p r ɛ n
+croesbren	kʰ r ɔ i̯ s p r ɛ n
 croesgad	k r ɔ i̯ s k a d
 croestoriad	k r ɔ ɨ̯ s t ɔ r ɪ
 croestorri	k r ɔ i̯ s t ɔ r i
@@ -405,6 +423,7 @@ cymhwyster	kʰ ə m h ʊ i̯ s t ɛ r
 cymysg	kʰ ə m ɪ s k
 cymysgedd	kʰ ə m ə s k ɛ ð
 cymysglyd	kʰ ə m ə s k l ɪ d
+cynghlo	k ə ŋ̊ ɬ ɔ
 cynhyrfiad	k ə n ɦ ə r v j a t
 cynhyrfu	k ə n ɦ ə r v i
 cysb	kʰ ɪ s p
@@ -464,6 +483,7 @@ cywasgu	k ə w a s k i
 cêbl	k eː b l̩
 cêbl	k eː b ɛ l
 dadl	d a d l̩
+dafn	d a v n̩
 dallt	d a ɬ t
 danadl	d a n a d l̩
 danadl	d aː n a d l̩
@@ -494,7 +514,9 @@ diesgeulus	d i ɛ s k e i̯ l ɪ s
 diffeithdir	d ɪ f e i̯ θ t ɪ r
 dinistrio	d ɪ n ɪ s t r j o
 dirwestol	d ɪ r w ɛ s t ɔ l
+disbwyll	d ɪ s p ʊ i̯ ɬ
 disbyddu	d ɪ s p ə ð i
+disgloff	d ɪ s k l ɔ f
 disgo	d ɪ s k ɔ
 disgotec	d ɪ s k ɔ tʰ ɛ kʰ
 disgrifiad	d ɪ s k r ɪ v j a d
@@ -532,6 +554,8 @@ diystyriol	d iː ə s t ə r j ɔ l
 diystyrllyd	d iː ə s t ə r ɬ ɪ d
 diystyru	d iː ə s t ə r i
 dodrefn	d ɔ d r ɛ v n̩
+dofn	d ɔ v n̩
+dogn	d ɔ ɡ n̩
 dosbarth	d ɔ s p a r θ
 dosbarthau	d ɔ s b a r θ a i̯
 dosbarthau	d ɔ s b a r θ ɛ
@@ -544,6 +568,7 @@ dosbarthol	d ɔ s p a r θ ɔ l
 dosbarthu	d ɔ s p a r θ i
 dosbarthwr	d ɔ s p a r θ ʊ r
 dosbarthwyr	d ɔ s p a r θ w ɪ r
+drastig	d r a s t ɪ k
 dreidl	d r e i̯ d l̩
 drost	d r ɔ s t
 drysgoed	d r ə s k ɔ i̯ d
@@ -568,12 +593,15 @@ dysprosiwm	d ɪ s p r ɔ s j ʊ m
 echdoe	ɛ χ t ɔ i̯
 echdoriad	ɛ χ t ɔ r j a d
 echdorri	ɛ χ t ɔ r i
+echdynnyn	ɛ χ t ə n ɪ n
 edn	ɛ d n̩
 egr	ɛ ɡ r̩
 egyllt	eː ɡ ɪ ɬ t
 egyllt	ɛ ɡ ɪ ɬ t
 einsteiniwm	a i̯ n s t a i̯ n j ʊ m
 einsteiniwm	e i̯ n s t e i̯ n j ʊ m
+eistedd	e i̯ s t ɛ ð
+eistedd	ɪ s t a
 eistedd	ɪ s t ɛ
 eistedd	ɪ ʃ t ɛ
 eisteddfodau	e i̯ s t ɛ ð v oː d a i̯
@@ -695,6 +723,7 @@ gostyngaidd	ɡ ɔ s t ə ŋ a i̯ ð
 gwadn	ɡ w a d n̩
 gwallt	ɡ w a ɬ t
 gwasg	ɡ w a s k
+gwasgariad	ɡ w a s k a r j a d
 gwasgaru	ɡ w a s k a r i
 gwasgaru	ɡ w a s k aː r i
 gwasgfa	ɡ w a s k v a
@@ -727,6 +756,8 @@ gwrthgyferbyniad	ɡ ʊ r θ k ə v ɛ r b ə n j a d
 gwrthgyferbyniol	ɡ ʊ r θ k ə v ɛ r b ə n j ɔ l
 gwrthgyferbynnu	ɡ ʊ r θ k ə v ɛ r b ə n i
 gwrthgymdeithasol	ɡ ʊ r θ k ə m d e i̯ θ a s ɔ l
+gwrysg	ɡ r ɪ s k
+gwrysg	ɡ w r ɪ s k
 gwsberen	ɡ ʊ s p eː r ɛ n
 gwsberen	ɡ ʊ s p ɛ r ɛ n
 gwsberis	ɡ ʊ s p ɛ r ɪ s
@@ -804,6 +835,7 @@ lestr	l ɛ s t r̩
 lifft	l ɪ f t
 lifftiau	l ɪ f t j a i̯
 lifftiau	l ɪ f t j ɛ
+lipstic	l ɪ p s t ɪ k
 llaethdai	ɬ e i̯ θ t a i̯
 llaethdy	ɬ e i̯ θ t i
 llathr	ɬ a θ r̩
@@ -828,6 +860,7 @@ llosg	ɬ ɔ s k
 llosgfynydd	ɬ ɔ s k v ə n ɪ ð
 llosgi	ɬ ɔ s k i
 llosgol	ɬ ɔ s k ɔ l
+llosgwr	ɬ ɔ s k ʊ r
 llosgydd	ɬ ɔ s k ɪ ð
 llost	ɬ ɔ s t
 llostchwydd	ɬ ɔ s t χ w ɪ ð
@@ -903,12 +936,14 @@ mwnwgl	m ʊ n ʊ ɡ l̩
 mwsg	m ʊ s k
 mwst	m ʊ s t
 mwstasiog	m ʊ s t a ʃ ɔ ɡ
+mwstro	m ʊ s t r ɔ
 mynachdai	m ə n a χ t a i̯
 mynachdy	m ə n a χ t i
 mynededig	m ə n ɛ d eː d ɪ ɡ
 mysg	m ɪ s k
 mysgu	m ə s k i
 nabl	n a b l̩
+nacr	n a k a r
 neidr	n e i̯ d r̩
 neilltuad	n e i̯ ɬ t iː a d
 neithdar	n e i̯ θ t a r
@@ -957,7 +992,9 @@ pedrongl	pʰ ɛ d r ɔ ŋ l̩
 pedrsill	pʰ ɛ d r̩ s ɪ ɬ
 pellter	pʰ ɛ ɬ t ɛ r
 pendrist	pʰ ɛ n d r ɪ s t
+penffestr	p ɛ n f a s t
 penffestr	p ɛ n f ɛ s t
+penffestr	p ɛ n f ɛ s t r̩
 penysgafn	p ɛ n ə s k a v n
 penysgawn	p ɛ n ə s k a u̯ n
 perarogl	p ɛ r a r ɔ ɡ l̩
@@ -977,6 +1014,7 @@ pistol	pʰ ɪ s t ɔ l
 piston	p ɪ s t ɔ n
 plastig	pʰ l a s t ɪ k
 plisg	pʰ l ɪ s k
+plisgyn	pʰ l ɪ s k ɪ n
 pobl	pʰ ɔ b l̩
 post	pʰ ɔ s t
 poster	pʰ ɔ s t ɛ r
@@ -1030,6 +1068,7 @@ rhestr	r̥ʰ ɛ s t ɛ r
 rhestrau	r̥ʰ ɛ s t r a i̯
 rhestrau	r̥ʰ ɛ s t r ɛ
 rhestri	r̥ʰ ɛ s t r i
+rhisgl	r̥ ɪ s k l̩
 rhisgl	r̥ ɪ s k ɪ l
 rhisgl	r̥ ɪ ʃ k ɪ l
 rhosb	r̥ ɔ s p
@@ -1073,6 +1112,8 @@ sbeislyd	s p e i̯ s l ɪ d
 sbel	s p ɛ l
 sbelio	s p ɛ l j ɔ
 sbelt	s p ɛ l t
+sbigog	s p iː ɡ ɔ ɡ
+sbigog	s p ɪ ɡ ɔ ɡ
 sbio	s p iː ɔ
 sbleisio	s p l e i̯ s j ɔ
 sbleisio	s p l e i̯ ʃ ɔ
@@ -1166,6 +1207,7 @@ sobr	s ɔ b r̩
 sosban	s ɔ s p a n
 spleinsio	s p l e i̯ n s j ɔ
 spleinsio	s p l e i̯ n ʃ ɔ
+stadiwm	s t a d j ʊ m
 staen	s t a i̯ n
 stafell	s t a v ɛ ɬ
 stafell	s t aː v ɛ ɬ
@@ -1193,10 +1235,12 @@ storïau	s t ɔ r iː a i̯
 storïau	s t ɔ r iː ɛ
 strach	s t r aː χ
 straeon	s t r e i̯ ɔ n
+stranc	s t r a ŋ k
 streic	s t r e i̯ kʰ
 streiciau	s t r e i̯ k j̊ʰ a i̯
 streiciau	s t r e i̯ k j̊ʰ ɛ
 streicio	s t r e i̯ k j̊ʰ ɔ
+streifio	s t r e i̯ v j ɔ
 streip	s t r e i̯ pʰ
 streulio	s t r e i̯ l j ɔ
 strontiwm	s t r ɔ n t jʰ ʊ m
@@ -1279,7 +1323,7 @@ tristwch	tʰ r ɪ s t ʊ χ
 tristáu	tʰ r ɪ s t a ɨ̯
 trwbl	t r̥ʰ ʊ b l̩
 trwsgl	t r ʊ s k l̩
-trychwibl	t r ə χ w ɪ b l̩
+trwstan	tʰ r ʊ s t a n
 twngsten	tʰ ʊ ŋ s t ɛ n
 tyst	tʰ ɪ s t
 uchder	ɪ χ t ɛ r
@@ -1356,6 +1400,7 @@ ysgawen	ə s k a u̯ ɛ n
 ysgawn	ə s k a u̯ n
 ysgeiddig	ə s k e i̯ ð ɪ ɡ
 ysgerbwd	ə s k ɛ r b ʊ t
+ysgithredd	ə s k ɪ θ r ɛ ð
 ysglodyn	s k l oː d ɪ n
 ysglodyn	s k l ɔ d ɪ n
 ysglodyn	ə s k l oː d ɪ n
@@ -1395,6 +1440,7 @@ ystlys	ə s t l ɪ s
 ystlysfwrdd	ə s t l ə s v ʊ r ð
 ystod	ə s t ɔ d
 ystrad	ə s t r a d
+ystranc	ə s t r a ŋ k
 ystranciog	ə s t r a ŋ k j ɔ ɡ
 ystryw	ə s t r ɪ u̯
 ystrywgar	ə s t r ə u̯ ɡ a r
@@ -1407,3 +1453,4 @@ ystyried	ə s t ə r j ɛ d
 ystyriol	ə s t ə r j ɔ l
 ystyrol	ə s t ə r ɔ l
 ystên	ə s t eː n
+ỿ	ə

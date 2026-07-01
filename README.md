@@ -14,7 +14,7 @@ dictionaries mined using this tool.
 
 -   [Command-line tool](#command-line-tool)
 -   [Python API](#python-api)
--   [Data](#data)
+-   [Data](#data) of over 5 million word pronunciation pairs from 348 languages
 -   [Models](#models)
 -   [Development](#development)
 
@@ -130,9 +130,7 @@ for word, pron in wikipron.scrape(config):
 
 ## Data
 
-We also make available [a database of over 3 million word/pronunciation
-pairs](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using
-WikiPron.
+We also make available [a database](https://github.com/CUNY-CL/wikipron/tree/master/data) mined using WikiPron.
 
 ## Models
 
