@@ -21,7 +21,10 @@ require further processing before being imported by scrape_and_write.py:
 import logging
 import json
 import os
+import random
 import re
+import time
+from typing import Any
 
 
 import iso639
@@ -48,6 +51,39 @@ PHONES_DIRECTORY = os.path.join(
 )
 URL = "https://en.wiktionary.org/w/api.php"
 
+# Bounded exponential backoff for transient Wiktionary API errors.
+# Delay formula: min(BASE * 2^retries + random(0, 1), MAX).
+_MAX_RETRIES = 5
+_BACKOFF_BASE = 1  # seconds
+_BACKOFF_MAX = 30  # seconds
+
+
+def _get_json(
+    session: requests.Session, params: dict[str, str]
+) -> dict[str, Any]:
+    """GET the MediaWiki API and return decoded JSON, with retries.
+
+    Wiktionary occasionally responds with an empty body or a non-JSON
+    error page (e.g. when momentarily rate-limited), which makes
+    ``.json()`` raise ``JSONDecodeError``. Retry a bounded number of
+    times with exponential backoff; on the final attempt any error
+    propagates to the caller.
+    """
+    for retry in range(_MAX_RETRIES):
+        try:
+            return session.get(URL, params=params, timeout=30).json()
+        except (
+            requests.exceptions.Timeout,
+            requests.exceptions.ConnectionError,
+            requests.exceptions.JSONDecodeError,
+        ):
+            delay = min(
+                _BACKOFF_BASE * (2**retry) + random.uniform(0, 1),
+                _BACKOFF_MAX,
+            )
+            time.sleep(delay)
+    return session.get(URL, params=params, timeout=30).json()
+
 
 def _get_language_categories() -> list[str]:
     """Get the list of language categories from Wiktionary.
@@ -64,11 +100,11 @@ def _get_language_categories() -> list[str]:
         "cmtitle": "Category:Terms with IPA pronunciation by language",
         "cmlimit": "500",
     }
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
     language_categories = []
     while True:
-        data = requests.get(
-            URL, params=requests_params, headers=HTTP_HEADERS
-        ).json()
+        data = _get_json(session, requests_params)
         for member in data["query"]["categorymembers"]:
             category = member["title"]
             language_categories.append(category)
@@ -81,6 +117,8 @@ def _get_language_categories() -> list[str]:
 
 def _get_language_sizes(categories: list[str]) -> dict[str, int]:
     """Get the map from a language to its number of pronunciation entries."""
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
     language_sizes = {}
     # MediaWiki API can retrieve sizes for multiple categories at a time,
     # but would complain about too many language categories for each API call.
@@ -93,9 +131,7 @@ def _get_language_sizes(categories: list[str]) -> dict[str, int]:
             "prop": "categoryinfo",
             "titles": "|".join(categories[start:end]),
         }
-        data = requests.get(
-            URL, params=requests_params, headers=HTTP_HEADERS
-        ).json()
+        data = _get_json(session, requests_params)
         for page in data["query"]["pages"].values():
             size = page["categoryinfo"]["size"]
             language_search = re.search(
