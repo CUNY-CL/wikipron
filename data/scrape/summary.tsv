@@ -318,7 +318,6 @@ mon_mong_broad.tsv	mon	Mongolian	Mongolian	Mongolian		False	Broad	175
 mqs_latn_broad.tsv	mqs	West Makian	West Makian	Latin		False	Broad	791
 mri_latn_broad.tsv	mri	Maori	Māori	Latin		False	Broad	1005
 mri_latn_narrow.tsv	mri	Maori	Māori	Latin		False	Narrow	1012
-msa_arab_ara_broad.tsv	msa	Malay (macrolanguage)	Malay	Arabic		False	Broad	628
 msa_arab_narrow.tsv	msa	Malay (macrolanguage)	Malay	Arabic		False	Narrow	106
 msa_latn_broad.tsv	msa	Malay (macrolanguage)	Malay	Latin		False	Broad	6672
 msa_latn_narrow.tsv	msa	Malay (macrolanguage)	Malay	Latin		False	Narrow	7581

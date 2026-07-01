@@ -30,7 +30,7 @@ Unreleased
     * Vietnamese (`vie`)
 -  Removes the non-dialect Bengali (`ben`) broad and narrow files, now that
    Bengali is scraped entirely as its Rarh and Dhaka dialects. (\#592)
--  Removes stale Malay (`msa`) Arabic narrow and Uighur (`uig`) Arabic broad
+-  Removes stale Malay (`msa`) Arabic narrow/broad and Uighur (`uig`) Arabic broad
    files that should have been removed earlier. (\#592)
 
 ### Under `src/` and elsewhere

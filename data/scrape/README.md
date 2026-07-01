@@ -1,11 +1,11 @@
 * Languages: 348
-  * Broad transcription files: 337
+  * Broad transcription files: 336
   * Narrow transcription files: 207
 * Dialects: 31
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 41
-* Pronunciations: 5,189,411
+* Pronunciations: 5,188,783
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -330,7 +330,6 @@
 | [TSV](tsv/mqs_latn_broad.tsv) | mqs | West Makian | West Makian | Latin |  | False | Broad | 791 |
 | [TSV](tsv/mri_latn_broad.tsv) | mri | Maori | Māori | Latin |  | False | Broad | 1,005 |
 | [TSV](tsv/mri_latn_narrow.tsv) | mri | Maori | Māori | Latin |  | False | Narrow | 1,012 |
-| [TSV](tsv/msa_arab_ara_broad.tsv) | msa | Malay (macrolanguage) | Malay | Arabic |  | False | Broad | 628 |
 | [TSV](tsv/msa_arab_narrow.tsv) | msa | Malay (macrolanguage) | Malay | Arabic |  | False | Narrow | 106 |
 | [TSV](tsv/msa_latn_broad.tsv) | msa | Malay (macrolanguage) | Malay | Latin |  | False | Broad | 6,672 |
 | [TSV](tsv/msa_latn_narrow.tsv) | msa | Malay (macrolanguage) | Malay | Latin |  | False | Narrow | 7,581 |
