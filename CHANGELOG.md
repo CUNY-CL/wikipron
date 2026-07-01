@@ -14,7 +14,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
-[2.1.0] - 2026-06-30
+[2.1.0] - 2026-07-01
 --------------------
 
 ### Under `data/`

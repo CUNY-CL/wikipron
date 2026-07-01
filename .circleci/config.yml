@@ -1,7 +1,7 @@
 version: 2.1
 
 orbs:
-  win: circleci/windows@5.0
+  win: circleci/windows@5.1.1
 
 
 jobs:
@@ -13,14 +13,17 @@ jobs:
     docker:
       # Use the latest Python 3.x image from CircleCI that WikiPron supports.
       # See: https://circleci.com/developer/images/image/cimg/python
+      # (cimg/python ships uv pre-installed.)
       - image: cimg/python:3.14
-        auth:
-          username: $DOCKERHUB_USERNAME
-          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
-          command: pip install -r requirements.txt
+          # Install the dev dependencies, but not the wikipron package itself.
+          # A fresh checkout has no venv, so install into the image's Python
+          # with --system.
+          command: |
+              uv pip install --system -r pyproject.toml --group dev && \
+              uv pip list --system -v
       - run:
           command: << parameters.command-run >>
 
@@ -30,20 +33,19 @@ jobs:
         type: string
     docker:
       - image: cimg/python:<< parameters.python-version >>
-        auth:
-          username: $DOCKERHUB_USERNAME
-          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
           name: Build source distribution and install package from it
           command: |
-              pip install -r requirements.txt && \
-              python -m build && \
-              pip install dist/`ls dist/ | grep .whl`
+              # Install dev deps (for build + pytest), then build and install
+              # the wheel so the tests run against the built artifact.
+              uv pip install --system -r pyproject.toml --group dev && \
+              uv build && \
+              uv pip install --system dist/`ls dist/ | grep .whl`
       - run:
           name: Show installed Python packages
-          command: pip list -v
+          command: uv pip list --system -v
       - run:
           name: Run Python tests
           command: |
@@ -62,9 +64,12 @@ jobs:
           name: Run tests on Windows
           shell: bash.exe
           command: |
+            # The Windows image has Python + pip but not uv. pip's --group
+            # (PEP 735) needs pip >= 25.1, so upgrade pip first.
             python --version && \
-            pip install -r requirements.txt && \
-            pip install . && \
+            python -m pip install --upgrade pip && \
+            pip --version && \
+            pip install -e . --group dev && \
             pip list && \
             pytest -vv tests
 
@@ -84,7 +89,7 @@ workflows:
       - pre-build:
           name: twine
           command-run: |
-            python -m build && \
+            uv build && \
             twine check dist/`ls dist/ | grep .tar.gz` && \
             twine check dist/`ls dist/ | grep .whl`
       - build-python:

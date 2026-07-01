@@ -45,10 +45,9 @@ classifiers = [
     "Topic :: Text Processing :: Linguistic",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     'black',
-    'build',
     'flake8',
     'mypy',
     'pytest',
