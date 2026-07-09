@@ -14,7 +14,11 @@ if typing.TYPE_CHECKING:
     from wikipron.typing import Iterator, WordPronPair
 
 
-IPA_XPATH_SELECTOR = './/span[contains(@class, "IPA")]'
+# Direct-child (not descendant) so a general-outer <li> does not also scoop the
+# IPA of accent variants nested in sub-<li>s; each variant is matched on its
+# own line. Matches the base selector, which likewise keys on a direct-child
+# IPA.
+IPA_XPATH_SELECTOR = 'span[contains(@class, "IPA")]'
 
 
 def yield_eng_pron(request: HTMLResponse, config: "Config") -> "Iterator[str]":

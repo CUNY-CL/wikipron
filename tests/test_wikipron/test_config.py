@@ -161,7 +161,11 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 "  and\n"
                 '  (.//span[contains(@class, "ib-content")]//a[contains(text(), "US")]\n'  # noqa: E501
                 '   or .//span[contains(@class, "ib-content") and (contains(text(), "US"))]\n'  # noqa: E501
-                '   or count(.//span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
+                '   or ancestor::li//span[contains(@class, "ib-content")]//a[contains(text(), "US")]\n'  # noqa: E501
+                '   or ancestor::li//span[contains(@class, "ib-content") and (contains(text(), "US"))]\n'  # noqa: E501
+                '   or (count(.//span[contains(@class, "ib-content")][.//a])\n'  # noqa: E501
+                '       - count(.//li//span[contains(@class, "ib-content")][.//a]) = 0\n'  # noqa: E501
+                '       and count(ancestor::li//span[contains(@class, "ib-content")][.//a]) = 0))\n'  # noqa: E501
                 "]\n"
             ),
         ),
@@ -181,7 +185,11 @@ def test_ipa_regex(narrow, ipa_regex, word_in_ipa):
                 "  and\n"
                 '  (.//span[contains(@class, "ib-content")]//a[contains(text(), "General American") or contains(text(), "US")]\n'  # noqa: E501
                 '   or .//span[contains(@class, "ib-content") and (contains(text(), "General American") or contains(text(), "US"))]\n'  # noqa: E501
-                '   or count(.//span[contains(@class, "ib-content")]) = 0)\n'  # noqa: E501
+                '   or ancestor::li//span[contains(@class, "ib-content")]//a[contains(text(), "General American") or contains(text(), "US")]\n'  # noqa: E501
+                '   or ancestor::li//span[contains(@class, "ib-content") and (contains(text(), "General American") or contains(text(), "US"))]\n'  # noqa: E501
+                '   or (count(.//span[contains(@class, "ib-content")][.//a])\n'  # noqa: E501
+                '       - count(.//li//span[contains(@class, "ib-content")][.//a]) = 0\n'  # noqa: E501
+                '       and count(ancestor::li//span[contains(@class, "ib-content")][.//a]) = 0))\n'  # noqa: E501
                 "]\n"
             ),
         ),
@@ -235,6 +243,132 @@ def test_bengali_dialect_outer_wrapper_selection():
     # Each dialect filter selects only its own li (the bug selected both).
     assert len(tree.xpath(config_rarh.pron_xpath_selector)) == 1
     assert len(tree.xpath(config_dhaka.pron_xpath_selector)) == 1
+
+
+# A general pronunciation whose only label is a non-accent qualifier ("strong
+# form" -- plain text, not an <a> link) must be kept for a dialect, while a
+# sibling line tagged with a different accent is excluded.
+_UNLINKED_QUALIFIER_HTML = """
+<ul>
+<li>
+<span class="ib-brac">(</span>
+<span class="ib-content">
+<span class="usage-label-accent">strong form</span>
+</span>
+<span class="ib-brac">)</span>
+<sup><a title="Appendix:English pronunciation">key</a></sup>
+<span class="IPA">/ˈstrɒŋ/</span>
+</li>
+<li>
+<span class="ib-brac">(</span>
+<span class="ib-content"><span class="usage-label-accent">
+<a title="w:Received Pronunciation">UK</a>
+</span></span>
+<span class="ib-brac">)</span>
+<sup><a title="Appendix:English pronunciation">key</a></sup>
+<span class="IPA">/ˈjuːkeɪ/</span>
+</li>
+</ul>
+"""
+
+
+def test_unlinked_qualifier_dialect_selection():
+    tree = HTMLTree(lxml_html.fromstring(_UNLINKED_QUALIFIER_HTML))
+    config_us = config_factory(key="en", dialect="US | General American")
+    config_any = config_factory(key="en")
+    # No dialect: both lines are selected.
+    assert len(tree.xpath(config_any.pron_xpath_selector)) == 2
+    # US: the "strong form" line carries no accent label of its own, so it is
+    # kept as a general pronunciation; the UK-tagged line is excluded.
+    us_nodes = tree.xpath(config_us.pron_xpath_selector)
+    assert len(us_nodes) == 1
+    assert "strong form" in us_nodes[0].text
+    assert "UK" not in us_nodes[0].text
+
+
+# Wiktionary can place the accent label on an outer <li> and the IPA on inner
+# <li>s (there-type). Each inner line must inherit the ancestor's accent.
+_NESTED_ACCENT_OUTER_HTML = """
+<ul>
+<li>
+<span class="ib-content"><span class="usage-label-accent">
+<a title="w:American English">US</a>
+</span></span>
+<ul>
+<li>
+<span class="ib-content">
+<span class="usage-label-accent">strong form</span>
+</span>
+<sup><a title="Appendix:English pronunciation">key</a></sup>
+<span class="IPA">/ðɛɹ/</span>
+</li>
+</ul>
+</li>
+<li>
+<span class="ib-content"><span class="usage-label-accent">
+<a title="w:Received Pronunciation">UK</a>
+</span></span>
+<ul>
+<li>
+<span class="ib-content">
+<span class="usage-label-accent">strong form</span>
+</span>
+<sup><a title="Appendix:English pronunciation">key</a></sup>
+<span class="IPA">/ðɛə/</span>
+</li>
+</ul>
+</li>
+</ul>
+"""
+
+
+def test_nested_accent_outer_dialect_selection():
+    tree = HTMLTree(lxml_html.fromstring(_NESTED_ACCENT_OUTER_HTML))
+    config_us = config_factory(key="en", dialect="US | General American")
+    config_uk = config_factory(key="en", dialect="UK | Received Pronunciation")
+    config_any = config_factory(key="en")
+    assert len(tree.xpath(config_any.pron_xpath_selector)) == 2
+    # Each inner line inherits its accent from the enclosing <li>.
+    us_nodes = tree.xpath(config_us.pron_xpath_selector)
+    uk_nodes = tree.xpath(config_uk.pron_xpath_selector)
+    assert len(us_nodes) == 1 and "/ðɛɹ/" in us_nodes[0].text
+    assert len(uk_nodes) == 1 and "/ðɛə/" in uk_nodes[0].text
+
+
+# A general pronunciation on an outer <li> with accent variants nested in
+# sub-<li>s (bus/cookie-type). The general line is kept (its own labels,
+# ignoring the nested variants', contain no accent); the nested non-US variant
+# is excluded.
+_GENERAL_OUTER_NESTED_ACCENT_HTML = """
+<ul>
+<li>
+<sup><a title="Appendix:English pronunciation">key</a></sup>
+<span class="IPA">/bʌs/</span>
+<ul>
+<li>
+<span class="ib-content"><span class="usage-label-accent">
+<a title="w:English language">Northern England</a>
+</span></span>
+<sup><a title="Appendix:English pronunciation">key</a></sup>
+<span class="IPA">/bʊs/</span>
+</li>
+</ul>
+</li>
+</ul>
+"""
+
+
+def test_general_outer_dialect_selection():
+    tree = HTMLTree(lxml_html.fromstring(_GENERAL_OUTER_NESTED_ACCENT_HTML))
+    config_us = config_factory(key="en", dialect="US | General American")
+    config_any = config_factory(key="en")
+    # No dialect: both the general line and the nested variant are selected.
+    assert len(tree.xpath(config_any.pron_xpath_selector)) == 2
+    # US: only the general outer line is kept; the nested "Northern England"
+    # variant is excluded (its own accent label does not match US).
+    us_nodes = tree.xpath(config_us.pron_xpath_selector)
+    assert len(us_nodes) == 1
+    assert "/bʌs/" in us_nodes[0].text
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
