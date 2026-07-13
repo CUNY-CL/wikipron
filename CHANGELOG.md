@@ -14,6 +14,34 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
+[2.2.0] - 2026-07-14
+--------------------
+
+### Under `data/`
+
+-  Updates the following languages, re-scraped with the corrected dialect
+   selector (\#593):
+    * Bengali (`ben`)
+    * Welsh (`cym`)
+    * English (`eng`)
+    * Armenian (`hye`)
+    * Latin (`lat`)
+    * Portuguese (`por`)
+    * Spanish (`spa`)
+    * Vietnamese (`vie`)
+
+### Under `src/` and elsewhere
+
+-  Fixes the dialect XPath selector so that pronunciations nested under an
+   accent header (as many common words are on Wiktionary) are matched by the
+   accent label on their enclosing `<li>`, and refines the "no accent"
+   fallback so that a general outer `<li>` no longer scoops the general
+   pronunciations of its accent-specific sub-variants. (\#593)
+-  Changes the default and English IPA extractors to select direct-child
+   `IPA` spans instead of any descendant, so that each accent variant is
+   extracted on its own line rather than the outer `<li>` also picking up the
+   IPA of nested variants. (\#593)
+
 [2.1.0] - 2026-07-01
 --------------------
 
