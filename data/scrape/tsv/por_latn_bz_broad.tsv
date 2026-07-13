@@ -230,6 +230,7 @@ Adolfo	a d o w f o
 Adolfo	a d o w f u
 Adomnan	a d õ n ɐ̃
 Adonai	a d o n a j
+Adri	a d ɾ i
 Adria	a d ɾ i a
 Adria	a d ɾ i ɐ
 Adriana	a d ɾ i ɐ n a
@@ -240,6 +241,12 @@ Adrianna	a d ɾ i ɐ n a
 Adrianna	a d ɾ i ɐ̃ n ɐ
 Adrianna	a d ɾ j ɐ n a
 Adrianna	a d ɾ j ɐ̃ n ɐ
+Adriannas	a d ɾ i ɐ n a s
+Adriannas	a d ɾ i ɐ̃ n ɐ s
+Adriannas	a d ɾ i ɐ̃ n ɐ ʃ
+Adriannas	a d ɾ j ɐ n a s
+Adriannas	a d ɾ j ɐ̃ n ɐ s
+Adriannas	a d ɾ j ɐ̃ n ɐ ʃ
 Adriano	a d ɾ i ɐ n o
 Adriano	a d ɾ i ɐ̃ n u
 Adriano	a d ɾ j ɐ n o
@@ -248,6 +255,8 @@ Adrianópolis	a d ɾ i a n ɔ p o l i s
 Adrianópolis	a d ɾ i a n ɔ p o l i ʃ
 Adrianópolis	a d ɾ j a n ɔ p o l i s
 Adrianópolis	a d ɾ j a n ɔ p o l i ʃ
+Adris	a d ɾ i s
+Adris	a d ɾ i ʃ
 Adrião	a d ɾ i ɐ̃ w̃
 Adrião	a d ɾ j ɐ̃ w̃
 Adustina	a d u s t͡ʃ i n a
@@ -4952,6 +4961,8 @@ Graziellas	ɡ ɾ a z i ɛ l ɐ ʃ
 Graziellas	ɡ ɾ a z j ɛ l a s
 Graziellas	ɡ ɾ a z j ɛ l ɐ s
 Graziellas	ɡ ɾ a z j ɛ l ɐ ʃ
+Grazis	ɡ ɾ a z i s
+Grazis	ɡ ɾ a z i ʃ
 Graziéis	ɡ ɾ a z i ɛ j s
 Graziéis	ɡ ɾ a z i ɛ j ʃ
 Graziéis	ɡ ɾ a z j ɛ j s
@@ -5750,6 +5761,7 @@ Jaú	ʒ a u
 Jean	ʒ e ɐ̃
 Jean	ʒ ɐ̃
 Jedi	ʒ e d a j
+Jehová	ʒ e o v a
 Jenifer	d͡ʒ e n i f e ʁ
 Jenifer	d͡ʒ ẽ n i f e ɻ
 Jenifer	d͡ʒ ẽ n i f e ɾ
@@ -6279,6 +6291,7 @@ Lisboa	l i z b o w ɐ
 Lisboa	l i z b o ɐ
 Lisboa	l i ʒ b o w ɐ
 Lisboa	l i ʒ b o ɐ
+Lisboa	l ɨ ʒ b o ɐ
 Listenstaine	l i s t ẽ s t a j n e
 Listenstaine	l i s t ẽ s t a j n i
 Listenstaine	l i ʃ t ẽ ʃ t a j n i
@@ -7775,6 +7788,7 @@ Otniel	o t͡ʃ n i ɛ w
 Otniel	o t͡ʃ n j ɛ w
 Oto	ɔ t o
 Oto	ɔ t u
+Ottawa	o t a w a
 Ottawa	o t a w ɐ
 Otávio	o t a v i o
 Otávio	o t a v i u
@@ -10355,6 +10369,11 @@ Wolfgang	v o w f ɡ ɐ̃ ɡ
 Wuhan	w u ʁ ɐ̃
 Wyoming	w a j o m ĩ
 Wyoming	w a j õ m ĩ
+X	k s
+X	s
+X	z
+X	ɡ z
+X	ʃ
 X	ʃ i s
 X	ʃ i ʃ
 Xana	ʃ ɐ n a
@@ -13290,6 +13309,8 @@ achar	a ʃ a
 achar	a ʃ a ɻ
 achar	a ʃ a ɾ
 achar	a ʃ a ʁ
+achar	ɐ ʃ a
+achar	ɐ ʃ a ɹ
 achara	a ʃ a ɾ a
 achara	a ʃ a ɾ ɐ
 acharam	a ʃ a ɾ ɐ̃ w̃
@@ -13936,6 +13957,10 @@ acontecer	a k õ t e s e ɾ
 acontecer	a k õ t e s e ʁ
 acontecer	a k õ t ɛ s e
 acontecer	a k õ t ɛ s e h
+acontecer	ɐ k ũ t i s e
+acontecer	ɐ k ũ t i s e ɹ
+acontecer	ɐ k ũ t s e
+acontecer	ɐ k ũ t s e ɹ
 acontecera	a k õ t e s e ɾ a
 acontecera	a k õ t e s e ɾ ɐ
 aconteceram	a k õ t e s e ɾ ɐ̃ w̃
@@ -20688,6 +20713,7 @@ altivolante	a w t͡ʃ i v o l ɐ̃ t e
 altivolante	a w t͡ʃ i v o l ɐ̃ t͡ʃ i
 alto	a w t o
 alto	a w t u
+alto	a w tʷ
 altos	a w t o s
 altos	a w t u s
 altos	a w t u ʃ
@@ -21502,6 +21528,14 @@ ambiciona	ɐ̃ b i s i o n a
 ambiciona	ɐ̃ b i s i õ n ɐ
 ambiciona	ɐ̃ b i s j o n a
 ambiciona	ɐ̃ b i s j õ n ɐ
+ambicionar	ɐ̃ b i s i o n a
+ambicionar	ɐ̃ b i s i o n a ɻ
+ambicionar	ɐ̃ b i s i o n a ɾ
+ambicionar	ɐ̃ b i s i o n a ʁ
+ambicionar	ɐ̃ b i s j o n a
+ambicionar	ɐ̃ b i s j o n a ɻ
+ambicionar	ɐ̃ b i s j o n a ɾ
+ambicionar	ɐ̃ b i s j o n a ʁ
 ambiciono	ɐ̃ b i s i o n o
 ambiciono	ɐ̃ b i s i õ n u
 ambiciono	ɐ̃ b i s j o n o
@@ -22074,6 +22108,7 @@ amigdaloide	a m i ɡ i d a l ɔ j d e
 amigdaloide	a m i ɡ i d a l ɔ j d͡ʒ i
 amigo	a m i ɡ o
 amigo	a m i ɡ u
+amigo	ɐ m i ɡʷ
 amigona	a m i ɡ o n a
 amigona	a m i ɡ õ n ɐ
 amigos	a m i ɡ o s
@@ -24258,6 +24293,12 @@ angustiar	ɐ̃ ɡ u ʃ t͡ʃ i a
 angustiar	ɐ̃ ɡ u ʃ t͡ʃ i a ʁ
 angustiar	ɐ̃ ɡ u ʃ t͡ʃ j a
 angustiar	ɐ̃ ɡ u ʃ t͡ʃ j a ʁ
+angustiosamente	ɐ̃ ɡ u s t͡ʃ i ɔ z a m ẽ t e
+angustiosamente	ɐ̃ ɡ u s t͡ʃ i ɔ z a m ẽ t͡ʃ i
+angustiosamente	ɐ̃ ɡ u s t͡ʃ j ɔ z a m ẽ t e
+angustiosamente	ɐ̃ ɡ u s t͡ʃ j ɔ z a m ẽ t͡ʃ i
+angustiosamente	ɐ̃ ɡ u ʃ t͡ʃ i ɔ z a m ẽ t͡ʃ i
+angustiosamente	ɐ̃ ɡ u ʃ t͡ʃ j ɔ z a m ẽ t͡ʃ i
 angustioso	ɐ̃ ɡ u s t͡ʃ i o z o
 angustioso	ɐ̃ ɡ u s t͡ʃ i o z u
 angustioso	ɐ̃ ɡ u s t͡ʃ j o z o
@@ -24589,6 +24630,7 @@ anjos	ɐ̃ ʒ u ʃ
 ankerita	ɐ̃ k e ɾ i t a
 ankerita	ɐ̃ k e ɾ i t ɐ
 ano	ɐ n o
+ano	ɐ nʷ
 ano	ɐ̃ n u
 anoa	a n o a
 anoa	a n o ɐ
@@ -31108,7 +31150,10 @@ aqueias	a k ɛ j ɐ s
 aqueias	a k ɛ j ɐ ʃ
 aquela	a k ɛ l a
 aquela	a k ɛ l ɐ
+aquelar	a k e l a
+aquelar	a k e l a ɻ
 aquelar	a k e l a ɾ
+aquelar	a k e l a ʁ
 aquelarre	a k e l a ʁ e
 aquelarre	a k e l a ʁ i
 aquelas	a k ɛ l a s
@@ -34340,7 +34385,10 @@ artimanha	a ɻ t͡ʃ i m ɐ̃ ɲ ɐ
 artimanha	a ɾ t͡ʃ i m ɐ̃ ɲ ɐ
 artimanha	a ʁ t͡ʃ i m ɐ ɲ a
 artimanha	a ʁ t͡ʃ i m ɐ̃ ɲ ɐ
+artista	a h t i ʃ t ɐ
+artista	a ɹ t i s t ɐ
 artista	a ɻ t͡ʃ i s t ɐ
+artista	a ɾ t i s t ɐ
 artista	a ɾ t͡ʃ i s t ɐ
 artista	a ʁ t͡ʃ i s t a
 artista	a ʁ t͡ʃ i s t ɐ
@@ -35445,6 +35493,8 @@ assumir	a s u m i
 assumir	a s u m i ɻ
 assumir	a s u m i ɾ
 assumir	a s u m i ʁ
+assunceno	a s ũ s e n o
+assunceno	a s ũ s ẽ n u
 assunto	a s ũ t o
 assunto	a s ũ t u
 assunção	a s ũ s ɐ̃ w̃
@@ -38381,6 +38431,7 @@ açúcar	a s u k a ʁ
 açúcar	a s u k ɐ ɻ
 açúcar	a s u k ɐ ɾ
 açúcar	a s u k ɐ ʁ
+açúcar	ɐ s u k ɐ ɹ
 açúcares	a s u k a ɾ e s
 açúcares	a s u k a ɾ i s
 açúcares	a s u k a ɾ i ʃ
@@ -44821,6 +44872,8 @@ búzio	b u z i o
 búzio	b u z i u
 búzio	b u z j o
 búzio	b u z j u
+c	k
+c	s
 c	s e
 ca	k a
 caabopoxi	k a a b o p o ʃ i
@@ -44936,6 +44989,7 @@ cabestrear	k a b e ʃ t ɾ e a ʁ
 cabeu	k a b e w
 cabeça	k a b e s a
 cabeça	k a b e s ɐ
+cabeça	k ɐ b e s ɐ
 cabeçada	k a b e s a d a
 cabeçada	k a b e s a d ɐ
 cabeçal	k a b e s a w
@@ -45292,6 +45346,7 @@ cadeirão	k a d e j ɾ ɐ̃ w̃
 cadeirão	k a d e ɾ ɐ̃ w̃
 cadela	k a d ɛ l a
 cadela	k a d ɛ l ɐ
+cadela	k ɐ d ɛ l ɐ
 cadelizar	k a d e l i z a
 cadelizar	k a d e l i z a ɻ
 cadelizar	k a d e l i z a ɾ
@@ -45564,6 +45619,8 @@ cairmos	k a i ɾ m u s
 cairmos	k a i ʁ m o s
 cairmos	k a i ʁ m u s
 cairmos	k a i ʁ m u ʃ
+cairo	k a j ɾ u
+cairo	k ã j ɾ u
 cairota	k a j ɾ ɔ t a
 cairota	k a j ɾ ɔ t ɐ
 cairá	k a i ɾ a
@@ -46976,6 +47033,11 @@ cantalupo	k ɐ̃ t a l u p o
 cantalupo	k ɐ̃ t a l u p u
 cantanhedense	k ɐ̃ t ɐ ɲ e d ẽ s e
 cantanhedense	k ɐ̃ t ɐ̃ ɲ e d ẽ s i
+cantante	k ɐ̃ t ɐ̃ t e
+cantante	k ɐ̃ t ɐ̃ t͡ʃ i
+cantantes	k ɐ̃ t ɐ̃ t e s
+cantantes	k ɐ̃ t ɐ̃ t͡ʃ i s
+cantantes	k ɐ̃ t ɐ̃ t͡ʃ i ʃ
 cantar	k ɐ̃ t a
 cantar	k ɐ̃ t a ɻ
 cantar	k ɐ̃ t a ɾ
@@ -47134,6 +47196,8 @@ capaz	k a p a j s
 capaz	k a p a j ʃ
 capaz	k a p a s
 capaz	k a p a ʃ
+capaz	k ɐ p a j s
+capaz	k ɐ p a s
 capazes	k a p a z e s
 capazes	k a p a z i s
 capazes	k a p a z i ʃ
@@ -47449,6 +47513,8 @@ caracas	k a ɾ a k ɐ ʃ
 caracha	k a ɾ a t͡ʃ ɐ
 caracha	k ɐ ɾ a t͡ʃ ɐ
 caracol	k a ɾ a k ɔ w
+caracoleta	k a ɾ a k o l e t a
+caracoleta	k a ɾ a k o l e t ɐ
 caractere	k a ɾ a k i t ɛ ɾ i
 caractere	k a ɾ a k t ɛ ɾ e
 caractere	k a ɾ a k t ɛ ɾ i
@@ -48262,6 +48328,7 @@ carnaúba	k a ɻ n a u b ɐ
 carnaúba	k a ɾ n a u b ɐ
 carnaúba	k a ʁ n a u b a
 carnaúba	k a ʁ n a u b ɐ
+carne	k a ɹ nʲ
 carne	k a ɻ n i
 carne	k a ɾ n i
 carne	k a ʁ n e
@@ -50810,6 +50877,7 @@ cerefólio	s e ɾ e f ɔ l j o
 cerefólio	s e ɾ e f ɔ l j u
 cereja	s e ɾ e ʒ a
 cereja	s e ɾ e ʒ ɐ
+cereja	s i ɾ e ʒ ɐ
 cereja	s ɛ ɾ e ʒ a
 cerejeira	s e ɾ e ʒ e j ɾ a
 cerejeira	s e ɾ e ʒ e j ɾ ɐ
@@ -54427,10 +54495,25 @@ cobiça	k o b i s a
 cobiça	k o b i s ɐ
 cobiçado	k o b i s a d o
 cobiçado	k o b i s a d u
+cobiçador	k o b i s a d o ɻ
+cobiçador	k o b i s a d o ɾ
+cobiçador	k o b i s a d o ʁ
 cobiçar	k o b i s a
 cobiçar	k o b i s a ɻ
 cobiçar	k o b i s a ɾ
 cobiçar	k o b i s a ʁ
+cobiçosa	k o b i s ɔ z a
+cobiçosa	k o b i s ɔ z ɐ
+cobiçosamente	k o b i s ɔ z a m ẽ t e
+cobiçosamente	k o b i s ɔ z a m ẽ t͡ʃ i
+cobiçosas	k o b i s ɔ z a s
+cobiçosas	k o b i s ɔ z ɐ s
+cobiçosas	k o b i s ɔ z ɐ ʃ
+cobiçoso	k o b i s o z o
+cobiçoso	k o b i s o z u
+cobiçosos	k o b i s ɔ z o s
+cobiçosos	k o b i s ɔ z u s
+cobiçosos	k o b i s ɔ z u ʃ
 cobogó	k o b o ɡ ɔ
 cobogós	k o b o ɡ ɔ s
 cobogós	k o b o ɡ ɔ ʃ
@@ -55115,6 +55198,8 @@ colocar	k o l o k a
 colocar	k o l o k a ɻ
 colocar	k o l o k a ɾ
 colocar	k o l o k a ʁ
+colocar	k u l u k a
+colocar	k u l u k a ɹ
 colocar	k ɔ l ɔ k a
 colocar	k ɔ l ɔ k a h
 colocara	k o l o k a ɾ a
@@ -55469,6 +55554,7 @@ comendador	k o m ẽ d a d o ɾ
 comendador	k o m ẽ d a d o ʁ
 comendo	k o m ẽ d o
 comendo	k o m ẽ d u
+comensal	k o m ẽ s a w
 comensalismo	k o m ẽ s a l i z m o
 comensalismo	k o m ẽ s a l i z m u
 comensalismo	k o m ẽ s a l i ʒ m u
@@ -55548,6 +55634,18 @@ comerciante	k o m e ʁ s i ɐ̃ t e
 comerciante	k o m e ʁ s i ɐ̃ t͡ʃ i
 comerciante	k o m e ʁ s j ɐ̃ t e
 comerciante	k o m e ʁ s j ɐ̃ t͡ʃ i
+comerciar	k o m e ɻ s i a
+comerciar	k o m e ɻ s i a ɻ
+comerciar	k o m e ɻ s j a
+comerciar	k o m e ɻ s j a ɻ
+comerciar	k o m e ɾ s i a
+comerciar	k o m e ɾ s i a ɾ
+comerciar	k o m e ɾ s j a
+comerciar	k o m e ɾ s j a ɾ
+comerciar	k o m e ʁ s i a
+comerciar	k o m e ʁ s i a ʁ
+comerciar	k o m e ʁ s j a
+comerciar	k o m e ʁ s j a ʁ
 comerei	k o m e ɾ e j
 comereis	k o m e ɾ e j s
 comereis	k o m e ɾ e j ʃ
@@ -55676,6 +55774,7 @@ começo	k o m e s o
 começo	k o m e s u
 começo	k o m ɛ s o
 começo	k o m ɛ s u
+começo	k u m e s u
 começo	k ɔ m e s u
 começos	k o m e s o s
 começos	k o m e s u s
@@ -55705,6 +55804,7 @@ comicidade	k o m i s i d a d͡ʒ i
 comida	k o m i d a
 comida	k o m i d ɐ
 comida	k u m i d a
+comida	k u m i d ɐ
 comidas	k o m i d a s
 comidas	k o m i d ɐ s
 comidas	k o m i d ɐ ʃ
@@ -56735,6 +56835,8 @@ comunhão	k o m u ɲ ɐ̃ w̃
 comunhão	k o m ũ ɲ ɐ̃ w̃
 comunicabilidade	k o m u n i k a b i l i d a d e
 comunicabilidade	k o m u n i k a b i l i d a d͡ʒ i
+comunicacional	k o m u n i k a s i o n a w
+comunicacional	k o m u n i k a s j o n a w
 comunicado	k o m u n i k a d o
 comunicado	k o m u n i k a d u
 comunicado	k u m u n i k a d u
@@ -57871,6 +57973,8 @@ conhecer	k o ɲ e s e h
 conhecer	k o ɲ e s e ʁ
 conhecer	k o ɲ ɛ s e
 conhecer	k o ɲ ɛ s e h
+conhecer	k u ɲ i s e
+conhecer	k u ɲ i s e ɹ
 conhecer	k õ ɲ e s e
 conhecer	k õ ɲ e s e ɻ
 conhecer	k õ ɲ e s e ɾ
@@ -58107,6 +58211,7 @@ conseguir	k õ s e ɡ i ɾ
 conseguir	k õ s e ɡ i ʁ
 conseguir	k õ s i ɡ i
 conseguir	k õ s i ɡ i h
+conseguir	k õ s i ɡ i ɹ
 conseguir	k õ s ɛ ɡ i
 conseguir	k õ s ɛ ɡ i h
 conseguira	k õ s e ɡ i ɾ a
@@ -59423,6 +59528,10 @@ controlo	k õ t ɾ o l u
 controlo	k õ t ɾ ɔ l o
 controlo	k õ t ɾ ɔ l u
 controlável	k õ t ɾ o l a v e w
+controversamente	k õ t ɾ o v ɛ ɻ s a m ẽ t͡ʃ i
+controversamente	k õ t ɾ o v ɛ ɾ s a m ẽ t͡ʃ i
+controversamente	k õ t ɾ o v ɛ ʁ s a m ẽ t e
+controversamente	k õ t ɾ o v ɛ ʁ s a m ẽ t͡ʃ i
 controverso	k õ t ɾ o v ɛ ɻ s u
 controverso	k õ t ɾ o v ɛ ɾ s u
 controverso	k õ t ɾ o v ɛ ʁ s o
@@ -59744,6 +59853,8 @@ convolvulácea	k õ v o w v u l a s e ɐ
 convosco	k õ v o s k o
 convosco	k õ v o s k u
 convosco	k õ v o ʃ k u
+convulsamente	k õ v u w s a m ẽ t e
+convulsamente	k õ v u w s a m ẽ t͡ʃ i
 convulsar	k õ v u w s a
 convulsar	k õ v u w s a ɻ
 convulsar	k õ v u w s a ɾ
@@ -60066,6 +60177,7 @@ corar	k o ɾ a ɾ
 corar	k o ɾ a ʁ
 corará	k o ɾ a ɾ a
 coração	k o ɾ a s ɐ̃ w̃
+coração	k u ɾ a s ɐ̃ w̃
 coração	k ɔ ɾ a s ɐ̃ w̃
 coraçãozinho	k o ɾ a s ɐ̃ w̃ z i ɲ o
 coraçãozinho	k o ɾ a s ɐ̃ w̃ z ĩ ɲ u
@@ -60109,6 +60221,7 @@ corcéis	k o ɾ s ɛ j s
 corcéis	k o ʁ s ɛ j s
 corcéis	k o ʁ s ɛ j ʃ
 corda	k ɔ ɻ d ɐ
+corda	k ɔ ɾ d a
 corda	k ɔ ɾ d ɐ
 corda	k ɔ ʁ d a
 corda	k ɔ ʁ d ɐ
@@ -60809,6 +60922,7 @@ cortina	k o ɾ t͡ʃ ĩ n ɐ
 cortina	k o ʁ t͡ʃ i n a
 cortina	k o ʁ t͡ʃ ĩ n ɐ
 cortina	k u h t i n ɐ
+cortina	k u ɹ t͡ʃ i n ɐ
 cortina	k u ɻ t͡ʃ ĩ n ɐ
 cortina	k u ɾ t͡ʃ ĩ n ɐ
 cortina	k u ʁ t͡ʃ ĩ n ɐ
@@ -61137,6 +61251,7 @@ cotilédone	k o t͡ʃ i l ɛ d o n e
 cotilédone	k o t͡ʃ i l ɛ d o n i
 cotinga	k o t͡ʃ ĩ ɡ a
 cotinga	k o t͡ʃ ĩ ɡ ɐ
+cotista	k o t i ʃ t a
 cotista	k o t͡ʃ i s t a
 cotista	k o t͡ʃ i s t ɐ
 cotista	k o t͡ʃ i ʃ t ɐ
@@ -64165,6 +64280,7 @@ dançar	d ɐ̃ s a
 dançar	d ɐ̃ s a ɻ
 dançar	d ɐ̃ s a ɾ
 dançar	d ɐ̃ s a ʁ
+dançaram	d ɐ̃ s a ɾ ɐ̃ w̃
 dançarei	d ɐ̃ s a ɾ e j
 dançarina	d ɐ̃ s a ɾ i n a
 dançarina	d ɐ̃ s a ɾ ĩ n ɐ
@@ -65229,6 +65345,10 @@ deixar	d e ʃ a
 deixar	d e ʃ a ɻ
 deixar	d e ʃ a ɾ
 deixar	d e ʃ a ʁ
+deixar	d i j ʃ a
+deixar	d i j ʃ a ɹ
+deixar	d i ʃ a
+deixar	d i ʃ a ɹ
 deixar	d ɛ j ʃ a
 deixar	d ɛ j ʃ a h
 deixara	d e j ʃ a ɾ a
@@ -72011,6 +72131,7 @@ desmaiar	d e z m a j a ɾ
 desmaiar	d e z m a j a ʁ
 desmaiar	d e ʒ m a j a
 desmaiar	d e ʒ m a j a ʁ
+desmaiar	d ɨ ʒ m ɐ i̯ a ɾ
 desmaiar	d͡ʒ i z m a j a
 desmaiar	d͡ʒ i z m a j a ɻ
 desmaiar	d͡ʒ i z m a j a ɾ
@@ -74502,6 +74623,7 @@ destratem	d e ʃ t ɾ a t ẽ j̃
 destrato	d i ʃ t ɾ a t u
 destrato	d͡ʒ i s t ɾ a t o
 destrato	d͡ʒ i s t ɾ a t u
+destrato	d͡ʒ i ʃ t ɾ a t u
 destravar	d e s t ɾ a v a
 destravar	d e s t ɾ a v a ɻ
 destravar	d e s t ɾ a v a ɾ
@@ -75152,6 +75274,15 @@ deteriorar	d e t e ɾ j o ɾ a ɾ
 deteriorar	d e t e ɾ j o ɾ a ʁ
 deterioração	d e t e ɾ i o ɾ a s ɐ̃ w̃
 deterioração	d e t e ɾ j o ɾ a s ɐ̃ w̃
+determinada	d e t e ɻ m i n a d ɐ
+determinada	d e t e ɾ m i n a d ɐ
+determinada	d e t e ʁ m i n a d a
+determinada	d e t e ʁ m i n a d ɐ
+determinadas	d e t e ɻ m i n a d ɐ s
+determinadas	d e t e ɾ m i n a d ɐ s
+determinadas	d e t e ʁ m i n a d a s
+determinadas	d e t e ʁ m i n a d ɐ s
+determinadas	d e t e ʁ m i n a d ɐ ʃ
 determinado	d e t e ɻ m i n a d u
 determinado	d e t e ɾ m i n a d u
 determinado	d e t e ʁ m i n a d o
@@ -75159,6 +75290,11 @@ determinado	d e t e ʁ m i n a d u
 determinador	d e t e ɻ m i n a d o ɻ
 determinador	d e t e ɾ m i n a d o ɾ
 determinador	d e t e ʁ m i n a d o ʁ
+determinados	d e t e ɻ m i n a d u s
+determinados	d e t e ɾ m i n a d u s
+determinados	d e t e ʁ m i n a d o s
+determinados	d e t e ʁ m i n a d u s
+determinados	d e t e ʁ m i n a d u ʃ
 determinante	d e t e ɻ m i n ɐ̃ t͡ʃ i
 determinante	d e t e ɾ m i n ɐ̃ t͡ʃ i
 determinante	d e t e ʁ m i n ɐ̃ t e
@@ -76174,6 +76310,9 @@ digerível	d͡ʒ i ʒ e ɾ i v e w
 digestibilidade	d͡ʒ i ʒ e s t͡ʃ i b i l i d a d e
 digestibilidade	d͡ʒ i ʒ e s t͡ʃ i b i l i d a d͡ʒ i
 digestibilidade	d͡ʒ i ʒ e ʃ t͡ʃ i b i l i d a d͡ʒ i
+digestiva	d͡ʒ i ʒ e s t͡ʃ i v a
+digestiva	d͡ʒ i ʒ e s t͡ʃ i v ɐ
+digestiva	d͡ʒ i ʒ e ʃ t͡ʃ i v ɐ
 digestivo	d͡ʒ i ʒ e s t͡ʃ i v o
 digestivo	d͡ʒ i ʒ e s t͡ʃ i v u
 digestivo	d͡ʒ i ʒ e ʃ t͡ʃ i v u
@@ -76496,6 +76635,7 @@ dinheiro	d i ɲ e j ɾ u
 dinheiro	d i ɲ e ɾ u
 dinheiro	d͡ʒ i ɲ e j ɾ o
 dinheiro	d͡ʒ i ɲ e ɾ o
+dinheiro	d͡ʒ i ɲ e ɾʷ
 dinheiro	d͡ʒ ĩ ɲ e j ɾ u
 dinheiro	d͡ʒ ĩ ɲ e ɾ u
 dinheirão	d͡ʒ i ɲ e j ɾ ɐ̃ w̃
@@ -77563,6 +77703,9 @@ distribuição	d͡ʒ i s t ɾ i b u i s ɐ̃ w̃
 distribuição	d͡ʒ i s t ɾ i b u j s ɐ̃ w̃
 distribuição	d͡ʒ i ʃ t ɾ i b u i s ɐ̃ w̃
 distribuição	d͡ʒ i ʃ t ɾ i b u j s ɐ̃ w̃
+distributivo	d͡ʒ i s t ɾ i b u t͡ʃ i v o
+distributivo	d͡ʒ i s t ɾ i b u t͡ʃ i v u
+distributivo	d͡ʒ i ʃ t ɾ i b u t͡ʃ i v u
 distrital	d͡ʒ i s t ɾ i t a w
 distrital	d͡ʒ i ʃ t ɾ i t a w
 distrito	d͡ʒ i s t ɾ i t o
@@ -77961,6 +78104,7 @@ dizendo	d͡ʒ i z ẽ d u
 dizer	d i z e
 dizer	d i z e h
 dizer	d͡ʒ i z e
+dizer	d͡ʒ i z e ɹ
 dizer	d͡ʒ i z e ɻ
 dizer	d͡ʒ i z e ɾ
 dizer	d͡ʒ i z e ʁ
@@ -86340,6 +86484,7 @@ entravo	ẽ t ɾ a v o
 entravo	ẽ t ɾ a v u
 entre	ẽ t ɾ e
 entre	ẽ t ɾ i
+entre	ẽ t ɾʲ
 entreaberto	ẽ t ɾ e a b ɛ ɻ t u
 entreaberto	ẽ t ɾ e a b ɛ ɾ t u
 entreaberto	ẽ t ɾ e a b ɛ ʁ t o
@@ -94705,6 +94850,11 @@ estadunidenses	e s t a d u n i d ẽ s i s
 estadunidenses	e ʃ t a d u n i d ẽ s i ʃ
 estadunidenses	i s t a d u n i d ẽ s i s
 estadunidenses	i ʃ t a d u n i d ẽ s i ʃ
+estafa	e s t a f a
+estafa	e s t a f ɐ
+estafa	e ʃ t a f ɐ
+estafa	i s t a f ɐ
+estafa	i ʃ t a f ɐ
 estafado	e s t a f a d o
 estafado	e s t a f a d u
 estafado	e ʃ t a f a d u
@@ -99174,6 +99324,9 @@ exarar	e z a ɾ a
 exarar	e z a ɾ a ɻ
 exarar	e z a ɾ a ɾ
 exarar	e z a ɾ a ʁ
+exasperadamente	e z a s p e ɾ a d a m ẽ t e
+exasperadamente	e z a s p e ɾ a d a m ẽ t͡ʃ i
+exasperadamente	e z a ʃ p e ɾ a d a m ẽ t͡ʃ i
 exasperar	e z a s p e ɾ a
 exasperar	e z a s p e ɾ a ɻ
 exasperar	e z a s p e ɾ a ɾ
@@ -99545,6 +99698,7 @@ exemplificar	e z ẽ p l i f i k a ɾ
 exemplificar	e z ẽ p l i f i k a ʁ
 exemplo	e z ẽ p l o
 exemplo	e z ẽ p l u
+exemplo	i z ẽ p lʷ
 exemplo	ɛ z ẽ p l u
 exemplos	e z ẽ p l o s
 exemplos	e z ẽ p l u s
@@ -101801,6 +101955,8 @@ falar	f a l a
 falar	f a l a ɻ
 falar	f a l a ɾ
 falar	f a l a ʁ
+falar	f ɐ l a
+falar	f ɐ l a ɹ
 falara	f a l a ɾ a
 falara	f a l a ɾ ɐ
 falaram	f a l a ɾ ɐ̃ w̃
@@ -102895,6 +103051,8 @@ fedor	f e d o
 fedor	f e d o ɻ
 fedor	f e d o ɾ
 fedor	f e d o ʁ
+fedora	f e d o ɾ a
+fedora	f e d o ɾ ɐ
 fedorenta	f e d o ɾ ẽ t a
 fedorenta	f e d o ɾ ẽ t ɐ
 fedorento	f e d o ɾ ẽ t o
@@ -102929,6 +103087,8 @@ feijoada	f e ʒ u a d ɐ
 feijoada	f e ʒ w a d ɐ
 feijão	f e j ʒ ɐ̃ w̃
 feijão	f e ʒ ɐ̃ w̃
+feijão	f i j ʒ ɐ̃ w̃
+feijão	f i ʒ ɐ̃ w̃
 feijão	f ɛ j ʒ ɐ̃ w̃
 feijãozinho	f e j ʒ ɐ̃ w̃ z i ɲ o
 feijãozinho	f e j ʒ ɐ̃ w̃ z ĩ ɲ u
@@ -103987,6 +104147,8 @@ filhinha	f i ʎ i ɲ a
 filhinha	f i ʎ ĩ ɲ ɐ
 filhinho	f i ʎ i ɲ o
 filhinho	f i ʎ ĩ ɲ u
+filho	f i j
+filho	f i jʷ
 filho	f i ʎ o
 filho	f i ʎ u
 filhona	f i ʎ o n a
@@ -105291,6 +105453,7 @@ fogaça	f o ɡ a s ɐ
 fogem	f ɔ ʒ ẽ j̃
 fogo	f o ɡ o
 fogo	f o ɡ u
+fogo	f o ɡʷ
 fogos	f ɔ ɡ o s
 fogos	f ɔ ɡ u s
 fogos	f ɔ ɡ u ʃ
@@ -106793,6 +106956,9 @@ frequente	f ɾ e k w ẽ t e
 frequente	f ɾ e k w ẽ t͡ʃ i
 frequentemente	f ɾ e k w ẽ t e m ẽ t e
 frequentemente	f ɾ e k w ẽ t͡ʃ i m ẽ t͡ʃ i
+frequentes	f ɾ e k w ẽ t e s
+frequentes	f ɾ e k w ẽ t͡ʃ i s
+frequentes	f ɾ e k w ẽ t͡ʃ i ʃ
 frequento	f ɾ e k w ẽ t o
 frequento	f ɾ e k w ẽ t u
 frequentíssimo	f ɾ e k w ẽ t͡ʃ i s i m o
@@ -108538,6 +108704,7 @@ ganhador	ɡ ɐ ɲ a d o ʁ
 ganhador	ɡ ɐ̃ ɲ a d o ɻ
 ganhador	ɡ ɐ̃ ɲ a d o ɾ
 ganhador	ɡ ɐ̃ ɲ a d o ʁ
+ganhar	ɡ a ɲ a ɾ
 ganhar	ɡ ɐ ɲ a
 ganhar	ɡ ɐ ɲ a ʁ
 ganhar	ɡ ɐ̃ ɲ a
@@ -109355,6 +109522,8 @@ gentinha	ʒ ẽ t͡ʃ i ɲ a
 gentinha	ʒ ẽ t͡ʃ ĩ ɲ ɐ
 gentio	ʒ ẽ t͡ʃ i u
 gentio	ʒ ẽ t͡ʃ i w
+gentleman	ʒ ẽ t l e m ɐ̃
+gentleman	ʒ ẽ t l e m ẽ j̃
 gentrificar	ʒ ẽ t ɾ i f i k a
 gentrificar	ʒ ẽ t ɾ i f i k a ɻ
 gentrificar	ʒ ẽ t ɾ i f i k a ɾ
@@ -110669,6 +110838,8 @@ gostar	ɡ o s t a ɾ
 gostar	ɡ o s t a ʁ
 gostar	ɡ o ʃ t a
 gostar	ɡ o ʃ t a ʁ
+gostar	ɡ u s t a
+gostar	ɡ u s t a ɹ
 gostar	ɡ ɔ ʃ t a
 gostar	ɡ ɔ ʃ t a h
 gostara	ɡ o s t a ɾ a
@@ -111854,6 +112025,10 @@ guerrilheiro	ɡ e ʁ i ʎ e j ɾ o
 guerrilheiro	ɡ e ʁ i ʎ e j ɾ u
 guerrilheiro	ɡ e ʁ i ʎ e ɾ o
 guerrilheiro	ɡ e ʁ i ʎ e ɾ u
+guetizar	ɡ e t͡ʃ i z a
+guetizar	ɡ e t͡ʃ i z a ɻ
+guetizar	ɡ e t͡ʃ i z a ɾ
+guetizar	ɡ e t͡ʃ i z a ʁ
 gueto	ɡ e t o
 gueto	ɡ e t u
 gugla	ɡ u ɡ l a
@@ -112096,6 +112271,9 @@ gérmen	ʒ ɛ ɻ m ẽ j̃
 gérmen	ʒ ɛ ɾ m ẽ j̃
 gérmen	ʒ ɛ ʁ m ẽ j̃
 gê	ʒ e
+gêiser	ʒ e j z e ɻ
+gêiser	ʒ e j z e ɾ
+gêiser	ʒ e j z e ʁ
 gêmeo	ʒ e m i o
 gêmeo	ʒ e m j o
 gêmeo	ʒ ẽ m i u
@@ -119743,8 +119921,10 @@ inteirinho	ĩ t e ɾ i ɲ o
 inteirinho	ĩ t e ɾ ĩ ɲ u
 inteiro	ĩ t e j ɾ o
 inteiro	ĩ t e j ɾ u
+inteiro	ĩ t e j ɾʷ
 inteiro	ĩ t e ɾ o
 inteiro	ĩ t e ɾ u
+inteiro	ĩ t e ɾʷ
 inteiro	ĩ t ɛ j ɾ u
 inteiro	ĩ t ɛ ɾ u
 inteiros	ĩ t e j ɾ o s
@@ -121825,7 +122005,11 @@ iônico	i o n i k o
 iônico	i õ n i k u
 iônico	j o n i k o
 iônico	j õ n i k u
+iúca	j u k a
+iúca	j u k ɐ
 iúpi	j u p i
+j	ʒ
+j	ʒ ɔ t ɐ
 jabiru	ʒ a b i ɾ u
 jaborandi	ʒ a b o ɾ ɐ̃ d͡ʒ i
 jabota	ʒ a b ɔ t a
@@ -122221,6 +122405,12 @@ jazz	d͡ʒ ɛ j s
 jazz	d͡ʒ ɛ j ʃ
 jazz	d͡ʒ ɛ s
 jazz	d͡ʒ ɛ ʃ
+jazzista	d͡ʒ e z i s t a
+jazzista	d͡ʒ e z i s t ɐ
+jazzista	d͡ʒ e z i ʃ t ɐ
+jazzístico	d͡ʒ e z i s t͡ʃ i k o
+jazzístico	d͡ʒ e z i s t͡ʃ i k u
+jazzístico	d͡ʒ e z i ʃ t͡ʃ i k u
 jaça	ʒ a s a
 jaça	ʒ a s ɐ
 jaçanã	ʒ a s a n ɐ̃
@@ -122249,6 +122439,7 @@ jeitinho	ʒ e j t͡ʃ i ɲ o
 jeitinho	ʒ e j t͡ʃ ĩ ɲ u
 jeito	ʒ e j t o
 jeito	ʒ e j t u
+jeito	ʒ e j tʷ
 jeitoso	ʒ e j t o z o
 jeitoso	ʒ e j t o z u
 jeje	ʒ e ʒ e
@@ -122982,7 +123173,6 @@ kantiano	k ɐ̃ t͡ʃ j ɐ n o
 kantiano	k ɐ̃ t͡ʃ j ɐ̃ n u
 karaoke	k a ɾ a o k e
 karaokê	k a ɾ a o k e
-karaté	k a ɾ a t ɛ
 kardecismo	k a ɻ d e s i z m u
 kardecismo	k a ɾ d e s i z m u
 kardecismo	k a ʁ d e s i z m o
@@ -123311,6 +123501,7 @@ ladino	l a d͡ʒ i n o
 ladino	l a d͡ʒ ĩ n u
 lado	l a d o
 lado	l a d u
+lado	l a dʷ
 lados	l a d o s
 lados	l a d u s
 lados	l a d u ʃ
@@ -124575,6 +124766,8 @@ lembrando	l ẽ b ɾ ɐ̃ d o
 lembrando	l ẽ b ɾ ɐ̃ d u
 lembrança	l ẽ b ɾ ɐ̃ s a
 lembrança	l ẽ b ɾ ɐ̃ s ɐ
+lembrar	l ĩ b ɾ a
+lembrar	l ĩ b ɾ a ɹ
 lembrar	l ẽ b ɾ a
 lembrar	l ẽ b ɾ a h
 lembrar	l ẽ b ɾ a ɻ
@@ -124964,6 +125157,8 @@ levar	l e v a
 levar	l e v a ɻ
 levar	l e v a ɾ
 levar	l e v a ʁ
+levar	l i v a
+levar	l i v a ɹ
 levar	l ɛ v a
 levar	l ɛ v a h
 levara	l e v a ɾ a
@@ -126377,6 +126572,7 @@ longitudinalmente	l õ ʒ i t u d͡ʒ i n a w m ẽ t e
 longitudinalmente	l õ ʒ i t u d͡ʒ i n a w m ẽ t͡ʃ i
 longo	l õ ɡ o
 longo	l õ ɡ u
+longo	l õ ɡʷ
 longos	l õ ɡ o s
 longos	l õ ɡ u s
 longos	l õ ɡ u ʃ
@@ -126713,6 +126909,7 @@ lufar	l u f a ʁ
 lufas	l u f a s
 lufas	l u f ɐ s
 lufas	l u f ɐ ʃ
+lugar	l u ɡ a ɹ
 lugar	l u ɡ a ɻ
 lugar	l u ɡ a ɾ
 lugar	l u ɡ a ʁ
@@ -126749,6 +126946,7 @@ lulo	l u l u
 lulopetismo	l u l o p e t͡ʃ i z m o
 lulopetismo	l u l u p e t͡ʃ i z m u
 lulopetismo	l u l u p e t͡ʃ i ʒ m u
+lulu	l u l u
 lumbago	l ũ b a ɡ o
 lumbago	l ũ b a ɡ u
 lume	l u m e
@@ -126763,10 +126961,20 @@ luminescência	l u m i n e s ẽ s i ɐ
 luminescência	l u m i n e s ẽ s j a
 luminescência	l u m i n e s ẽ s j ɐ
 luminol	l u m i n ɔ w
+luminosa	l u m i n ɔ z a
+luminosa	l u m i n ɔ z ɐ
+luminosamente	l u m i n ɔ z a m ẽ t e
+luminosamente	l u m i n ɔ z a m ẽ t͡ʃ i
+luminosas	l u m i n ɔ z a s
+luminosas	l u m i n ɔ z ɐ s
+luminosas	l u m i n ɔ z ɐ ʃ
 luminosidade	l u m i n o z i d a d e
 luminosidade	l u m i n o z i d a d͡ʒ i
 luminoso	l u m i n o z o
 luminoso	l u m i n o z u
+luminosos	l u m i n ɔ z o s
+luminosos	l u m i n ɔ z u s
+luminosos	l u m i n ɔ z u ʃ
 luminária	l u m i n a ɾ i a
 luminária	l u m i n a ɾ i ɐ
 luminária	l u m i n a ɾ j a
@@ -128544,6 +128752,10 @@ mandarim	m ɐ̃ d a ɾ ĩ
 mandarina	m ɐ̃ d a ɾ i n a
 mandarina	m ɐ̃ d a ɾ ĩ n ɐ
 mandará	m ɐ̃ d a ɾ a
+mandatar	m ɐ̃ d a t a
+mandatar	m ɐ̃ d a t a ɻ
+mandatar	m ɐ̃ d a t a ɾ
+mandatar	m ɐ̃ d a t a ʁ
 mandato	m ɐ̃ d a t o
 mandato	m ɐ̃ d a t u
 mandatário	m ɐ̃ d a t a ɾ i o
@@ -129495,6 +129707,10 @@ margarina	m a ɻ ɡ a ɾ ĩ n ɐ
 margarina	m a ɾ ɡ a ɾ ĩ n ɐ
 margarina	m a ʁ ɡ a ɾ i n a
 margarina	m a ʁ ɡ a ɾ ĩ n ɐ
+margarita	m a ɻ ɡ a ɾ i t ɐ
+margarita	m a ɾ ɡ a ɾ i t ɐ
+margarita	m a ʁ ɡ a ɾ i t a
+margarita	m a ʁ ɡ a ɾ i t ɐ
 margem	m a ɻ ʒ ẽ j̃
 margem	m a ɾ ʒ ẽ j̃
 margem	m a ʁ ʒ ẽ j̃
@@ -129515,6 +129731,10 @@ margrave	m a ɻ ɡ ɾ a v i
 margrave	m a ɾ ɡ ɾ a v i
 margrave	m a ʁ ɡ ɾ a v e
 margrave	m a ʁ ɡ ɾ a v i
+marguerita	m a ɻ ɡ e ɾ i t ɐ
+marguerita	m a ɾ ɡ e ɾ i t ɐ
+marguerita	m a ʁ ɡ e ɾ i t a
+marguerita	m a ʁ ɡ e ɾ i t ɐ
 marianinha	m a ɾ i a n i ɲ a
 marianinha	m a ɾ i a n ĩ ɲ ɐ
 marianinha	m a ɾ j a n i ɲ a
@@ -132080,6 +132300,7 @@ metralhada	m e t ɾ a ʎ a d a
 metralhada	m e t ɾ a ʎ a d ɐ
 metralhadora	m e t ɾ a ʎ a d o ɾ a
 metralhadora	m e t ɾ a ʎ a d o ɾ ɐ
+metralhadora	m i t ɾ a ʎ ɐ d o ɾ ɐ
 metralhadora	m ɛ t ɾ a ʎ a d o ɾ ɐ
 metralhar	m e t ɾ a ʎ a
 metralhar	m e t ɾ a ʎ a ɻ
@@ -133168,6 +133389,8 @@ misogamia	m i z o ɡ a m i a
 misogamia	m i z o ɡ a m i ɐ
 misoginia	m i z o ʒ i n i a
 misoginia	m i z o ʒ i n i ɐ
+misologia	m i z o l o ʒ i a
+misologia	m i z o l o ʒ i ɐ
 misoneísmo	m i z o n e i z m o
 misoneísmo	m i z o n e i z m u
 misoneísmo	m i z o n e i ʒ m u
@@ -133299,6 +133522,8 @@ misógina	m i z ɔ ʒ i n a
 misógina	m i z ɔ ʒ i n ɐ
 misógino	m i z ɔ ʒ i n o
 misógino	m i z ɔ ʒ i n u
+misólogo	m i z ɔ l o ɡ o
+misólogo	m i z ɔ l o ɡ u
 misósofa	m i z ɔ s o f a
 misósofa	m i z ɔ s o f ɐ
 misósofo	m i z ɔ s o f o
@@ -134888,6 +135113,8 @@ mortíferos	m o ɾ t͡ʃ i f e ɾ u s
 mortíferos	m o ʁ t͡ʃ i f e ɾ o s
 mortíferos	m o ʁ t͡ʃ i f e ɾ u s
 mortíferos	m o ʁ t͡ʃ i f e ɾ u ʃ
+morubixaba	m o ɾ u b i ʃ a b a
+morubixaba	m o ɾ u b i ʃ a b ɐ
 morugem	m o ɾ u ʒ ẽ j̃
 morupeteca	m o ɾ u p e t ɛ k a
 morupeteca	m o ɾ u p e t ɛ k ɐ
@@ -135411,6 +135638,7 @@ mulato	m u l a t o
 mulato	m u l a t u
 muleta	m u l e t a
 muleta	m u l e t ɐ
+mulher	m u j ɛ ɹ
 mulher	m u ʎ ɛ ɻ
 mulher	m u ʎ ɛ ɾ
 mulher	m u ʎ ɛ ʁ
@@ -135700,6 +135928,7 @@ mundividência	m ũ d͡ʒ i v i d ẽ s j a
 mundividência	m ũ d͡ʒ i v i d ẽ s j ɐ
 mundo	m ũ d o
 mundo	m ũ d u
+mundo	m ũ dʷ
 mundos	m ũ d o s
 mundos	m ũ d u s
 mundos	m ũ d u ʃ
@@ -136585,6 +136814,11 @@ napa	n a p ɐ
 napalm	n a p a w m
 napalm	n a p a w m e
 napalm	n a p a w m i
+napalms	n a p a w m e s
+napalms	n a p a w m i s
+napalms	n a p a w m i ʃ
+napalms	n a p a w m s
+napalms	n a p a w m ʃ
 naperom	n a p e ɾ õ
 naperon	n a p e ɾ õ
 naperão	n a p e ɾ ɐ̃ w̃
@@ -138169,6 +138403,7 @@ noitada	n o j t a d a
 noitada	n o j t a d ɐ
 noite	n o j t e
 noite	n o j t i
+noite	n o j t͡ʃ
 noite	n o j t͡ʃ i
 noites	n o j t e s
 noites	n o j t͡ʃ i s
@@ -138224,6 +138459,7 @@ nojo	n o ʒ u
 noma	n o m a
 noma	n õ m ɐ
 nome	n o m e
+nome	n o mʲ
 nome	n õ m i
 nomeadamente	n o m e a d a m ẽ t e
 nomeadamente	n o m e a d a m ẽ t͡ʃ i
@@ -138580,6 +138816,7 @@ noviço	n o v i s o
 noviço	n o v i s u
 novo	n o v o
 novo	n o v u
+novo	n o vʷ
 novos	n ɔ v o s
 novos	n ɔ v u s
 novos	n ɔ v u ʃ
@@ -138971,6 +139208,9 @@ nútria	n u t ɾ i a
 nútria	n u t ɾ i ɐ
 nútria	n u t ɾ j a
 nútria	n u t ɾ j ɐ
+o	o
+o	u
+o	ɔ
 oaristo	o a ɾ i s t o
 oaristo	o a ɾ i s t u
 oaristo	o a ɾ i ʃ t u
@@ -140176,6 +140416,8 @@ olhar	o ʎ a
 olhar	o ʎ a ɻ
 olhar	o ʎ a ɾ
 olhar	o ʎ a ʁ
+olhar	u j a
+olhar	u j a ɹ
 olhar	ɔ ʎ a
 olhar	ɔ ʎ a h
 olhara	o ʎ a ɾ a
@@ -140576,6 +140818,16 @@ opera	o p ɛ ɾ a
 opera	o p ɛ ɾ ɐ
 operacional	o p e ɾ a s i o n a w
 operacional	o p e ɾ a s j o n a w
+operacionalizar	o p e ɾ a s i o n a l i z a
+operacionalizar	o p e ɾ a s i o n a l i z a ɻ
+operacionalizar	o p e ɾ a s i o n a l i z a ɾ
+operacionalizar	o p e ɾ a s i o n a l i z a ʁ
+operacionalizar	o p e ɾ a s j o n a l i z a
+operacionalizar	o p e ɾ a s j o n a l i z a ɻ
+operacionalizar	o p e ɾ a s j o n a l i z a ɾ
+operacionalizar	o p e ɾ a s j o n a l i z a ʁ
+operacionalização	o p e ɾ a s i o n a l i z a s ɐ̃ w̃
+operacionalização	o p e ɾ a s j o n a l i z a s ɐ̃ w̃
 operada	o p e ɾ a d a
 operada	o p e ɾ a d ɐ
 operador	o p e ɾ a d o ɻ
@@ -141312,6 +141564,30 @@ orientadora	o ɾ j ẽ t a d o ɾ a
 orientadora	o ɾ j ẽ t a d o ɾ ɐ
 oriental	o ɾ i ẽ t a w
 oriental	o ɾ j ẽ t a w
+orientalismo	o ɾ i ẽ t a l i z m o
+orientalismo	o ɾ i ẽ t a l i z m u
+orientalismo	o ɾ i ẽ t a l i ʒ m u
+orientalismo	o ɾ j ẽ t a l i z m o
+orientalismo	o ɾ j ẽ t a l i z m u
+orientalismo	o ɾ j ẽ t a l i ʒ m u
+orientalismos	o ɾ i ẽ t a l i z m o s
+orientalismos	o ɾ i ẽ t a l i z m u s
+orientalismos	o ɾ i ẽ t a l i ʒ m u ʃ
+orientalismos	o ɾ j ẽ t a l i z m o s
+orientalismos	o ɾ j ẽ t a l i z m u s
+orientalismos	o ɾ j ẽ t a l i ʒ m u ʃ
+orientalista	o ɾ i ẽ t a l i s t a
+orientalista	o ɾ i ẽ t a l i s t ɐ
+orientalista	o ɾ i ẽ t a l i ʃ t ɐ
+orientalista	o ɾ j ẽ t a l i s t a
+orientalista	o ɾ j ẽ t a l i s t ɐ
+orientalista	o ɾ j ẽ t a l i ʃ t ɐ
+orientalistas	o ɾ i ẽ t a l i s t a s
+orientalistas	o ɾ i ẽ t a l i s t ɐ s
+orientalistas	o ɾ i ẽ t a l i ʃ t ɐ ʃ
+orientalistas	o ɾ j ẽ t a l i s t a s
+orientalistas	o ɾ j ẽ t a l i s t ɐ s
+orientalistas	o ɾ j ẽ t a l i ʃ t ɐ ʃ
 orientalizar	o ɾ i ẽ t a l i z a
 orientalizar	o ɾ i ẽ t a l i z a ɻ
 orientalizar	o ɾ i ẽ t a l i z a ɾ
@@ -141324,6 +141600,7 @@ orientalmente	o ɾ i ẽ t a w m ẽ t e
 orientalmente	o ɾ i ẽ t a w m ẽ t͡ʃ i
 orientalmente	o ɾ j ẽ t a w m ẽ t e
 orientalmente	o ɾ j ẽ t a w m ẽ t͡ʃ i
+orientalmente	ɔ ɾ j ẽ t a w m ẽ t͡ʃ i
 orientar	o ɾ i ẽ t a
 orientar	o ɾ i ẽ t a ɻ
 orientar	o ɾ i ẽ t a ɾ
@@ -142642,6 +142919,9 @@ pagador	p a ɡ a d o ɾ
 pagador	p a ɡ a d o ʁ
 pagamento	p a ɡ a m ẽ t o
 pagamento	p a ɡ a m ẽ t u
+pagamentos	p a ɡ a m ẽ t o s
+pagamentos	p a ɡ a m ẽ t u s
+pagamentos	p a ɡ a m ẽ t u ʃ
 pagando	p a ɡ ɐ̃ d o
 pagando	p a ɡ ɐ̃ d u
 paganismo	p a ɡ a n i z m o
@@ -144242,6 +144522,7 @@ parta	p a ɾ t ɐ
 parta	p a ʁ t a
 parta	p a ʁ t ɐ
 parte	p a h t i
+parte	p a ɹ t͡ʃ
 parte	p a ɻ t͡ʃ i
 parte	p a ɾ t͡ʃ i
 parte	p a ʁ t e
@@ -145187,6 +145468,7 @@ paçoquinha	p a s ɔ k i ɲ a
 paçoquinha	p a s ɔ k ĩ ɲ ɐ
 país	p a i s
 país	p a i ʃ
+país	p ɐ i s
 países	p a i z e s
 países	p a i z i s
 países	p a i z i ʃ
@@ -145205,6 +145487,12 @@ pecador	p e k a d o ɾ
 pecador	p e k a d o ʁ
 pecadora	p e k a d o ɾ a
 pecadora	p e k a d o ɾ ɐ
+pecadoras	p e k a d o ɾ a s
+pecadoras	p e k a d o ɾ ɐ s
+pecadoras	p e k a d o ɾ ɐ ʃ
+pecadores	p e k a d o ɾ e s
+pecadores	p e k a d o ɾ i s
+pecadores	p e k a d o ɾ i ʃ
 pecados	p e k a d o s
 pecados	p e k a d u s
 pecados	p e k a d u ʃ
@@ -145296,6 +145584,8 @@ pedalar	p e d a l a
 pedalar	p e d a l a ɻ
 pedalar	p e d a l a ɾ
 pedalar	p e d a l a ʁ
+pedale	p e d a l e
+pedale	p e d a l i
 pedante	p e d ɐ̃ t e
 pedante	p e d ɐ̃ t͡ʃ i
 pedantice	p e d ɐ̃ t͡ʃ i s e
@@ -145494,6 +145784,8 @@ pegar	p e ɡ a
 pegar	p e ɡ a ɻ
 pegar	p e ɡ a ɾ
 pegar	p e ɡ a ʁ
+pegar	p i ɡ a
+pegar	p i ɡ a ɹ
 pegar	p ɛ ɡ a
 pegar	p ɛ ɡ a h
 pegara	p e ɡ a ɾ a
@@ -146755,6 +147047,8 @@ perguntar	p e ɾ ɡ ũ t a
 perguntar	p e ɾ ɡ ũ t a ɾ
 perguntar	p e ʁ ɡ ũ t a
 perguntar	p e ʁ ɡ ũ t a ʁ
+perguntar	p i ɹ ɡ ũ t a
+perguntar	p i ɹ ɡ ũ t a ɹ
 perguntar	p ɛ ɦ ɡ ũ t a
 perguntar	p ɛ ɦ ɡ ũ t a h
 perguntara	p e ɻ ɡ ũ t a ɾ ɐ
@@ -148169,6 +148463,8 @@ pichota	p i ʃ ɔ t ɐ
 pickles	p i k l e s
 pickles	p i k l i s
 pickles	p i k l i ʃ
+picle	p i k l e
+picle	p i k l i
 picles	p i k l e s
 picles	p i k l i s
 picles	p i k l i ʃ
@@ -149604,6 +149900,16 @@ plúmbeo	p l ũ b i u
 plúmbeo	p l ũ b j u
 plúmbico	p l ũ b i k o
 plúmbico	p l ũ b i k u
+plúrima	p l u ɾ i m a
+plúrima	p l u ɾ i m ɐ
+plúrimas	p l u ɾ i m a s
+plúrimas	p l u ɾ i m ɐ s
+plúrimas	p l u ɾ i m ɐ ʃ
+plúrimo	p l u ɾ i m o
+plúrimo	p l u ɾ i m u
+plúrimos	p l u ɾ i m o s
+plúrimos	p l u ɾ i m u s
+plúrimos	p l u ɾ i m u ʃ
 pneu	p e n e w
 pneu	p i n e w
 pneu	p n e w
@@ -150183,6 +150489,10 @@ polir	p o l i
 polir	p o l i ɻ
 polir	p o l i ɾ
 polir	p o l i ʁ
+polir	p u l i
+polir	p u l i h
+polir	p ɔ l i
+polir	p ɔ l i h
 polirá	p o l i ɾ a
 polissacarídeo	p ɔ l i s a k a ɾ i d e o
 polissacarídeo	p ɔ l i s a k a ɾ i d e u
@@ -150986,6 +151296,7 @@ porrete	p o ʁ e t͡ʃ i
 porrigem	p o ʁ i ʒ ẽ j̃
 porro	p o ʁ o
 porro	p o ʁ u
+porta	p ɔ ɹ t ɐ
 porta	p ɔ ɻ t ɐ
 porta	p ɔ ɾ t ɐ
 porta	p ɔ ʁ t a
@@ -151704,6 +152015,9 @@ povos	p ɔ v o s
 povos	p ɔ v u s
 povos	p ɔ v u ʃ
 povão	p o v ɐ̃ w̃
+powerbank	p a w e ɻ b ẽ k i
+powerbank	p a w e ɾ b ẽ k i
+powerbank	p a w e ʁ b ẽ k i
 powerpoint	p a w e ʁ p ɔ j̃ t
 powerpoint	p a w e ʁ p ɔ j̃ t͡ʃ
 poxa	p o ʃ a
@@ -151992,6 +152306,7 @@ precisar	p ɾ e s i z a ɻ
 precisar	p ɾ e s i z a ɾ
 precisar	p ɾ e s i z a ʁ
 precisar	p ɾ i s i z a
+precisar	p ɾ i s i z a ɹ
 precisar	p ɾ i s i z a ɻ
 precisar	p ɾ i s i z a ɾ
 precisar	p ɾ i s i z a ʁ
@@ -152306,6 +152621,8 @@ prefixar	p ɾ e f i k s a
 prefixar	p ɾ e f i k s a ɻ
 prefixar	p ɾ e f i k s a ɾ
 prefixar	p ɾ e f i k s a ʁ
+prefixo	p ɾ e f i k i s o
+prefixo	p ɾ e f i k i s u
 prefixo	p ɾ e f i k s o
 prefixo	p ɾ e f i k s u
 prefácio	p ɾ e f a s i o
@@ -152324,6 +152641,7 @@ pregado	p ɾ e ɡ a d u
 pregador	p ɾ e ɡ a d o ɻ
 pregador	p ɾ e ɡ a d o ɾ
 pregador	p ɾ e ɡ a d o ʁ
+pregador	p ɾ ɛ ɡ a d o ɦ
 pregadora	p ɾ e ɡ a d o ɾ a
 pregadora	p ɾ e ɡ a d o ɾ ɐ
 pregados	p ɾ e ɡ a d o s
@@ -154876,6 +155194,7 @@ próximas	p ɾ ɔ s i m ɐ s
 próximas	p ɾ ɔ s i m ɐ ʃ
 próximo	p ɾ ɔ s i m o
 próximo	p ɾ ɔ s i m u
+próximo	p ɾ ɔ s i mʷ
 próximos	p ɾ ɔ s i m o s
 próximos	p ɾ ɔ s i m u s
 próximos	p ɾ ɔ s i m u ʃ
@@ -155927,6 +156246,7 @@ périplo	p ɛ ɾ i p l o
 périplo	p ɛ ɾ i p l u
 pérola	p ɛ ɾ o l a
 pérola	p ɛ ɾ o l ɐ
+pérola	p ɛ ɾ u l ɐ
 pérola	p ɛ ɾ ɔ l a
 pérseo	p ɛ ɻ s e u
 pérseo	p ɛ ɾ s e u
@@ -156330,6 +156650,7 @@ quartinho	k w a ɻ t͡ʃ ĩ ɲ u
 quartinho	k w a ɾ t͡ʃ ĩ ɲ u
 quartinho	k w a ʁ t͡ʃ i ɲ o
 quartinho	k w a ʁ t͡ʃ ĩ ɲ u
+quarto	k w a ɹ tʷ
 quarto	k w a ɻ t u
 quarto	k w a ɾ t u
 quarto	k w a ʁ t o
@@ -156652,6 +156973,8 @@ querer	k e ɾ e h
 querer	k e ɾ e ɻ
 querer	k e ɾ e ɾ
 querer	k e ɾ e ʁ
+querer	k i ɾ e
+querer	k i ɾ e ɹ
 querer	k ɛ ɾ e
 querer	k ɛ ɾ e h
 quererei	k e ɾ e ɾ e j
@@ -156778,6 +157101,7 @@ quetognata	k e t o ɡ i n a t a
 quetognata	k e t o ɡ i n a t ɐ
 quetognata	k e t o ɡ u i n a t a
 quetognata	k e t o ɡ u i n a t ɐ
+quetzal	k e t z a w
 quezila	k e z i l a
 quezila	k e z i l ɐ
 quezília	k e z i l i a
@@ -157175,6 +157499,7 @@ quotidiano	k w o t͡ʃ i d͡ʒ i ɐ n o
 quotidiano	k w o t͡ʃ i d͡ʒ i ɐ̃ n u
 quotidiano	k w o t͡ʃ i d͡ʒ j ɐ n o
 quotidiano	k w o t͡ʃ i d͡ʒ j ɐ̃ n u
+quotista	k w o t i ʃ t a
 quotista	k w o t͡ʃ i s t a
 quotista	k w o t͡ʃ i s t ɐ
 quotista	k w o t͡ʃ i ʃ t ɐ
@@ -157206,7 +157531,7 @@ quício	k i s j u
 química	k i m i k a
 química	k ĩ m i k ɐ
 químico	k i m i k o
-químico	k ĩ m i k u
+químico	k i m i k u
 quíntuplo	k ĩ t u p l o
 quíntuplo	k ĩ t u p l u
 quíton	k i t õ
@@ -159463,6 +159788,14 @@ redondo	ʁ e d õ d u
 redor	ʁ e d ɔ ɻ
 redor	ʁ e d ɔ ɾ
 redor	ʁ e d ɔ ʁ
+redpillado	ʁ ɛ d e p i l a d o
+redpillado	ʁ ɛ d͡ʒ i p i l a d u
+redpillar	ʁ ɛ d e p i l a
+redpillar	ʁ ɛ d e p i l a ʁ
+redpillar	ʁ ɛ d͡ʒ i p i l a
+redpillar	ʁ ɛ d͡ʒ i p i l a ɻ
+redpillar	ʁ ɛ d͡ʒ i p i l a ɾ
+redpillar	ʁ ɛ d͡ʒ i p i l a ʁ
 redrar	ʁ e d ɾ a
 redrar	ʁ e d ɾ a ɻ
 redrar	ʁ e d ɾ a ɾ
@@ -162912,6 +163245,8 @@ ricamente	ʁ i k a m ẽ t e
 ricamente	ʁ i k a m ẽ t͡ʃ i
 ricaço	ʁ i k a s o
 ricaço	ʁ i k a s u
+ricina	ʁ i s i n a
+ricina	ʁ i s ĩ n ɐ
 rico	ʁ i k o
 rico	ʁ i k u
 ricochetear	ʁ i k o ʃ e t e a
@@ -163246,6 +163581,7 @@ rocódromo	ʁ o k ɔ d ɾ o m u
 rocódromos	ʁ o k ɔ d ɾ o m o s
 rocódromos	ʁ o k ɔ d ɾ o m u s
 rocódromos	ʁ o k ɔ d ɾ o m u ʃ
+roda	r ɔ d ɐ
 roda	ʁ ɔ d a
 roda	ʁ ɔ d ɐ
 rodada	ʁ o d a d a
@@ -164268,6 +164604,8 @@ rês	ʁ e j s
 rês	ʁ e j ʃ
 rês	ʁ e s
 rês	ʁ e ʃ
+rícino	ʁ i s i n o
+rícino	ʁ i s i n u
 rígida	ʁ i ʒ i d a
 rígida	ʁ i ʒ i d ɐ
 rígidas	ʁ i ʒ i d a s
@@ -164369,6 +164707,8 @@ saber	s a b e
 saber	s a b e ɻ
 saber	s a b e ɾ
 saber	s a b e ʁ
+saber	s ɐ b e
+saber	s ɐ b e ɹ
 saberei	s a b e ɾ e j
 saberem	s a b e ɾ ẽ j̃
 saberemos	s a b e ɾ e m o s
@@ -166494,6 +166834,7 @@ selos	s e l u ʃ
 selva	s ɛ w v a
 selva	s ɛ w v ɐ
 selvagem	s e w v a ʒ ẽ j̃
+selvagem	s i w v a ʒ
 selvagem	s ɛ w v a ʒ ẽ j̃
 selvageria	s e w v a ʒ e ɾ i a
 selvageria	s e w v a ʒ e ɾ i ɐ
@@ -166508,6 +166849,7 @@ selêucida	s e l e w s i d ɐ
 sem	s ẽ j̃
 semana	s e m ɐ n a
 semana	s e m ɐ̃ n ɐ
+semana	s i m ɐ n ɐ
 semana	s ɛ m ɐ n a
 semanal	s e m a n a w
 semanalmente	s e m a n a w m ẽ t e
@@ -167404,7 +167746,9 @@ sertã	s e ʁ t ɐ̃
 sertão	s e ɻ t ɐ̃ w̃
 sertão	s e ɾ t ɐ̃ w̃
 sertão	s e ʁ t ɐ̃ w̃
+serva	s ɛ ɹ v ɐ
 serva	s ɛ ɻ v ɐ
+serva	s ɛ ɾ v a
 serva	s ɛ ɾ v ɐ
 serva	s ɛ ʁ v a
 serva	s ɛ ʁ v ɐ
@@ -167780,8 +168124,6 @@ shawarma	ʃ a w a ɻ m ɐ
 shawarma	ʃ a w a ɾ m ɐ
 shawarma	ʃ a w a ʁ m a
 shawarma	ʃ a w a ʁ m ɐ
-sheik	ʃ e j k e
-sheik	ʃ e j k i
 shibari	ʃ i b a ɾ i
 shift	ʃ i f i t͡ʃ i
 shift	ʃ i f t͡ʃ
@@ -173675,6 +174017,7 @@ tardas	t a ʁ d a s
 tardas	t a ʁ d ɐ s
 tardas	t a ʁ d ɐ ʃ
 tarde	t a ɦ d i
+tarde	t a ɹ d͡ʒ
 tarde	t a ɻ d͡ʒ i
 tarde	t a ɾ d͡ʒ i
 tarde	t a ʁ d e
@@ -174094,6 +174437,9 @@ taxímetros	t a k s ĩ m e t ɾ u s
 taxímetros	t a k s ĩ m e t ɾ u ʃ
 taça	t a s a
 taça	t a s ɐ
+taças	t a s a s
+taças	t a s ɐ s
+taças	t a s ɐ ʃ
 tb	t ɐ̃ b ẽ j̃
 tbm	t ɐ̃ b ẽ j̃
 tchadiano	t͡ʃ a d͡ʒ i ɐ n o
@@ -175978,6 +176324,7 @@ tiple	t͡ʃ i p l i
 tipo	t i p u
 tipo	t͡ʃ i p o
 tipo	t͡ʃ i p u
+tipo	t͡ʃ i pʷ
 tipografia	t͡ʃ i p o ɡ ɾ a f i a
 tipografia	t͡ʃ i p o ɡ ɾ a f i ɐ
 tipográfica	t͡ʃ i p o ɡ ɾ a f i k a
@@ -176698,6 +177045,8 @@ tornar	t o ɾ n a
 tornar	t o ɾ n a ɾ
 tornar	t o ʁ n a
 tornar	t o ʁ n a ʁ
+tornar	t u ɹ n a
+tornar	t u ɹ n a ɹ
 tornar	t ɔ ɦ n a
 tornar	t ɔ ɦ n a h
 tornara	t o ɻ n a ɾ ɐ
@@ -177263,6 +177612,8 @@ trabalhar	t ɾ a b a ʎ a h
 trabalhar	t ɾ a b a ʎ a ɻ
 trabalhar	t ɾ a b a ʎ a ɾ
 trabalhar	t ɾ a b a ʎ a ʁ
+trabalhar	t ɾ ɐ b ɐ j a
+trabalhar	t ɾ ɐ b ɐ j a ɹ
 trabalhara	t ɾ a b a ʎ a ɾ a
 trabalhara	t ɾ a b a ʎ a ɾ ɐ
 trabalharei	t ɾ a b a ʎ a ɾ e j
@@ -178366,6 +178717,8 @@ trazer	t ɾ a z e
 trazer	t ɾ a z e ɻ
 trazer	t ɾ a z e ɾ
 trazer	t ɾ a z e ʁ
+trazer	t ɾ ɐ z e
+trazer	t ɾ ɐ z e ɹ
 trazes	t ɾ a z e s
 trazes	t ɾ a z i s
 trazes	t ɾ a z i ʃ
@@ -178607,6 +178960,7 @@ trevo	t ɾ e v o
 trevo	t ɾ e v u
 trevoso	t ɾ e v o z o
 trevoso	t ɾ e v o z u
+treze	t r ɐ z
 treze	t ɾ e z e
 treze	t ɾ e z i
 trezena	t ɾ e z e n a
@@ -178922,6 +179276,10 @@ tripeiro	t ɾ i p e ɾ o
 tripeiro	t ɾ i p e ɾ u
 tripla	t ɾ i p l a
 tripla	t ɾ i p l ɐ
+triplex	t ɾ i p l ɛ k i s
+triplex	t ɾ i p l ɛ k i ʃ
+triplex	t ɾ i p l ɛ k s
+triplex	t ɾ i p l ɛ k ʃ
 triplicar	t ɾ i p l i k a
 triplicar	t ɾ i p l i k a ɻ
 triplicar	t ɾ i p l i k a ɾ
@@ -179539,6 +179897,11 @@ tríduo	t ɾ i d w u
 tríodo	t ɾ i o d o
 tríodo	t ɾ i o d u
 tríplex	t ɾ i p l ɛ k s
+tríplice	t ɾ i p l i s e
+tríplice	t ɾ i p l i s i
+tríplices	t ɾ i p l i s e s
+tríplices	t ɾ i p l i s i s
+tríplices	t ɾ i p l i s i ʃ
 tríptico	t ɾ i p i t͡ʃ i k u
 tríptico	t ɾ i p t͡ʃ i k o
 tríptico	t ɾ i p t͡ʃ i k u
@@ -180049,6 +180412,8 @@ twist	t u i s t͡ʃ
 twist	t u i s t͡ʃ i
 twist	t w i s t͡ʃ
 twist	t w i s t͡ʃ i
+txopela	t͡ʃ o p ɛ l a
+txopela	t͡ʃ o p ɛ l ɐ
 tzar	t z a ɻ
 tzar	t z a ɾ
 tzar	t z a ʁ
@@ -180686,6 +181051,7 @@ unificar	u n i f i k a ɻ
 unificar	u n i f i k a ɾ
 unificar	u n i f i k a ʁ
 unificação	u n i f i k a s ɐ̃ w̃
+uniforme	u n i f ɔ ɹ mʲ
 uniforme	u n i f ɔ ɻ m i
 uniforme	u n i f ɔ ɾ m i
 uniforme	u n i f ɔ ʁ m e
@@ -181135,6 +181501,7 @@ usando	u z ɐ̃ d o
 usando	u z ɐ̃ d u
 usar	u z a
 usar	u z a h
+usar	u z a ɹ
 usar	u z a ɻ
 usar	u z a ɾ
 usar	u z a ʁ
@@ -182460,6 +182827,7 @@ velhinha	v ɛ ʎ i ɲ a
 velhinha	v ɛ ʎ ĩ ɲ ɐ
 velhinho	v ɛ ʎ i ɲ o
 velhinho	v ɛ ʎ ĩ ɲ u
+velho	v ɛ j u
 velho	v ɛ ʎ o
 velho	v ɛ ʎ u
 velhos	v ɛ ʎ o s
@@ -182483,6 +182851,12 @@ velocidade	v e l o s i d a d͡ʒ i
 velocidades	v e l o s i d a d e s
 velocidades	v e l o s i d a d͡ʒ i s
 velocidades	v e l o s i d a d͡ʒ i ʃ
+velociraptor	v e l o s i ʁ a p i t o ɻ
+velociraptor	v e l o s i ʁ a p i t o ɾ
+velociraptor	v e l o s i ʁ a p i t o ʁ
+velociraptor	v e l o s i ʁ a p t o ɻ
+velociraptor	v e l o s i ʁ a p t o ɾ
+velociraptor	v e l o s i ʁ a p t o ʁ
 velocista	v e l o s i s t a
 velocista	v e l o s i s t ɐ
 velocista	v e l o s i ʃ t ɐ
@@ -182859,6 +183233,7 @@ verdades	v e ʁ d a d͡ʒ i s
 verdades	v e ʁ d a d͡ʒ i ʃ
 verde	v e h d i
 verde	v e ɻ d͡ʒ i
+verde	v e ɾ d e
 verde	v e ɾ d͡ʒ i
 verde	v e ʁ d e
 verde	v e ʁ d͡ʒ i
@@ -184836,6 +185211,7 @@ vivente	v i v ẽ t e
 vivente	v i v ẽ t͡ʃ i
 viver	v i v e
 viver	v i v e h
+viver	v i v e ɹ
 viver	v i v e ɻ
 viver	v i v e ɾ
 viver	v i v e ʁ
@@ -185198,6 +185574,8 @@ volúpia	v o l u p i ɐ
 volúpia	v o l u p j a
 volúpia	v o l u p j ɐ
 volúvel	v o l u v e w
+vombate	v õ b a t e
+vombate	v õ b a t͡ʃ i
 vomitado	v o m i t a d o
 vomitado	v o m i t a d u
 vomitar	v o m i t a
@@ -185586,7 +185964,10 @@ vômico	v õ m i k u
 vômito	v o m i t o
 vômito	v õ m i t u
 w	d a b l i u
+w	d a b l i w
 w	d a b l j u
+w	v
+w	w
 wafer	w e j f e ɻ
 wafer	w e j f e ɾ
 wafer	w e j f e ʁ
@@ -186068,6 +186449,7 @@ xixas	ʃ i ʃ ɐ s
 xixas	ʃ i ʃ ɐ ʃ
 xixi	ʃ i ʃ i
 xodó	ʃ o d ɔ
+xodó	ʃ ɔ d ɔ
 xofrango	ʃ o f ɾ ɐ̃ ɡ o
 xofrango	ʃ o f ɾ ɐ̃ ɡ u
 xofrangos	ʃ o f ɾ ɐ̃ ɡ o s
@@ -186113,6 +186495,16 @@ xumbregar	ʃ ũ b ɾ e ɡ a ɾ
 xumbregar	ʃ ũ b ɾ e ɡ a ʁ
 xurumbambo	ʃ u ɾ ũ b ɐ̃ b o
 xurumbambo	ʃ u ɾ ũ b ɐ̃ b u
+xuxar	ʃ u ʃ a
+xuxar	ʃ u ʃ a ɻ
+xuxar	ʃ u ʃ a ɾ
+xuxar	ʃ u ʃ a ʁ
+xuxialismo	ʃ u ʃ i a l i z m o
+xuxialismo	ʃ u ʃ i a l i z m u
+xuxialismo	ʃ u ʃ i a l i ʒ m u
+xuxialismo	ʃ u ʃ j a l i z m o
+xuxialismo	ʃ u ʃ j a l i z m u
+xuxialismo	ʃ u ʃ j a l i ʒ m u
 xuxinha	ʃ u ʃ i ɲ a
 xuxinha	ʃ u ʃ ĩ ɲ ɐ
 xuá	ʃ u a
@@ -186153,7 +186545,9 @@ xênon	ʃ ẽ n õ
 xícara	ʃ i k a ɾ a
 xícara	ʃ i k a ɾ ɐ
 xô	ʃ o
+y	i
 y	i p s i l õ
+y	j
 yakisoba	j a k i s o b a
 yakisoba	j a k i s o b ɐ
 yakuza	j a k u z a
@@ -187656,5 +188050,6 @@ zíper	z i p e ʁ
 úvea	u v j ɐ
 úvula	u v u l a
 úvula	u v u l ɐ
+ü	w
 ę	ĩ
 ę	ẽ j̃
