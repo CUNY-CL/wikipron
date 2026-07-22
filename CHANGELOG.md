@@ -43,7 +43,9 @@ Unreleased
    extracted on its own line rather than the outer `<li>` also picking up the
    IPA of nested variants. (\#593)
 -  Updates the dialect XPath selector for Thai,
-   for the new Wiktionary's table layout (\#593)
+   for the new Wiktionary's table layout. (\#593)
+-  Adds `verify_rescrape.py`, a script for verifying a re-scraped TSV doesn't
+   have major regression issues. (\#593)
 
 [2.1.0] - 2026-07-01
 --------------------
