@@ -476,7 +476,7 @@ tgk_cyrl_broad.tsv	tgk	Tajik	Tajik	Cyrillic		False	Broad	3269
 tgk_cyrl_narrow.tsv	tgk	Tajik	Tajik	Cyrillic		False	Narrow	3280
 tgl_latn_broad.tsv	tgl	Tagalog	Tagalog	Latin		False	Broad	28295
 tgl_latn_narrow.tsv	tgl	Tagalog	Tagalog	Latin		False	Narrow	33062
-tha_thai_broad.tsv	tha	Thai	Thai	Thai		False	Broad	17432
+tha_thai_broad.tsv	tha	Thai	Thai	Thai		False	Broad	18416
 tkl_latn_narrow.tsv	tkl	Tokelau	Tokelauan	Latin		False	Narrow	340
 ton_latn_broad.tsv	ton	Tonga (Tonga Islands)	Tongan	Latin		False	Broad	175
 tpw_latn_broad.tsv	tpw	Tupí	Old Tupi	Latin		False	Broad	375

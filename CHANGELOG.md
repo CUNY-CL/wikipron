@@ -14,7 +14,7 @@ Unreleased
 
 ### Under `src/` and elsewhere
 
-[2.2.0] - 2026-07-14
+[2.2.0] - 2026-07-22
 --------------------
 
 ### Under `data/`
@@ -28,6 +28,7 @@ Unreleased
     * Latin (`lat`)
     * Portuguese (`por`)
     * Spanish (`spa`)
+    * Thai (`tha`)
     * Vietnamese (`vie`)
 
 ### Under `src/` and elsewhere
@@ -41,6 +42,8 @@ Unreleased
    `IPA` spans instead of any descendant, so that each accent variant is
    extracted on its own line rather than the outer `<li>` also picking up the
    IPA of nested variants. (\#593)
+-  Updates the dialect XPath selector for Thai,
+   for the new Wiktionary's table layout (\#593)
 
 [2.1.0] - 2026-07-01
 --------------------
