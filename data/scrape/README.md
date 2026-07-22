@@ -5,7 +5,7 @@
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 41
-* Pronunciations: 5,225,073
+* Pronunciations: 5,224,186
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -488,7 +488,7 @@
 | [TSV](tsv/tgk_cyrl_narrow.tsv) | tgk | Tajik | Tajik | Cyrillic |  | False | Narrow | 3,280 |
 | [TSV](tsv/tgl_latn_broad.tsv) | tgl | Tagalog | Tagalog | Latin |  | False | Broad | 28,295 |
 | [TSV](tsv/tgl_latn_narrow.tsv) | tgl | Tagalog | Tagalog | Latin |  | False | Narrow | 33,062 |
-| [TSV](tsv/tha_thai_broad.tsv) | tha | Thai | Thai | Thai |  | False | Broad | 18,319 |
+| [TSV](tsv/tha_thai_broad.tsv) | tha | Thai | Thai | Thai |  | False | Broad | 17,432 |
 | [TSV](tsv/tkl_latn_narrow.tsv) | tkl | Tokelau | Tokelauan | Latin |  | False | Narrow | 340 |
 | [TSV](tsv/ton_latn_broad.tsv) | ton | Tonga (Tonga Islands) | Tongan | Latin |  | False | Broad | 175 |
 | [TSV](tsv/tpw_latn_broad.tsv) | tpw | Tupí | Old Tupi | Latin |  | False | Broad | 375 |
