@@ -5,6 +5,7 @@ import time
 
 import pytest
 
+from wikipron import Config
 from wikipron.scrape import scrape, _skip_word, _skip_date
 from wikipron.extract import EXTRACTION_FUNCTIONS
 
@@ -93,7 +94,9 @@ _SMOKE_TEST_PARAMS = [
 _SMOKE_TEST_TIMEOUT_SECONDS = 60
 
 
-def _collect_pairs(config, n, timeout):
+def _collect_pairs(
+    config: Config, n: int, timeout: float
+) -> tuple[list[tuple[str, str]], bool]:
     """Collect up to ``n`` (word, pron) pairs from ``scrape(config)``.
 
     Give up after ``timeout`` seconds and return ``(pairs, timed_out)``. The
@@ -113,7 +116,7 @@ def _collect_pairs(config, n, timeout):
             pair_queue.put(sentinel)
 
     threading.Thread(target=worker, daemon=True).start()
-    pairs: list = []
+    pairs: list[tuple[str, str]] = []
     deadline = time.monotonic() + timeout
     while len(pairs) < n:
         remaining = deadline - time.monotonic()

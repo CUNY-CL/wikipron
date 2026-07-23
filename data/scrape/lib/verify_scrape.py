@@ -20,8 +20,8 @@ file::
     ./lib/verify_scrape.py tsv/tha_thai_broad.tsv --against v2.2.0
     ./lib/verify_scrape.py tsv/tha_thai_broad.tsv --old /tmp/old.tsv
 
-To tell genuine Wiktionary attrition from a partial scrape, probe a
-sample of the dropped words against live Wiktionary -- if they still
+To distinguish genuine Wiktionary attrition from a partial scrape, probe
+a sample of the dropped words against live Wiktionary -- if they still
 extract with the current code, they were skipped, not deleted upstream
 (``--key``/``--narrow`` are inferred from the filename when omitted)::
 
@@ -34,10 +34,12 @@ sampled drops still extract), else 0, so it can gate a workflow.
 
 import argparse
 import collections
+import operator
 import os
 import subprocess
 import sys
 import unicodedata
+from collections.abc import Iterable, Iterator
 
 import requests
 
@@ -50,12 +52,13 @@ def _nfc(text: str) -> str:
     return unicodedata.normalize("NFC", text)
 
 
-def _read_working(path: str) -> list[str]:
+def _read_working(path: str) -> Iterator[str]:
     with open(path, encoding="utf-8") as source:
-        return source.read().splitlines()
+        for line in source:
+            yield line.rstrip("\n")
 
 
-def _read_git(ref: str, path: str) -> list[str]:
+def _read_git(ref: str, path: str) -> Iterator[str]:
     toplevel = subprocess.run(
         ["git", "rev-parse", "--show-toplevel"],
         capture_output=True,
@@ -69,10 +72,10 @@ def _read_git(ref: str, path: str) -> list[str]:
         text=True,
         check=True,
     )
-    return shown.stdout.splitlines()
+    yield from shown.stdout.splitlines()
 
 
-def _pairs(lines: list[str]) -> list[tuple[str, str]]:
+def _pairs(lines: Iterable[str]) -> list[tuple[str, str]]:
     # (word, pron) for non-empty TSV lines; words NFC-normalized so a
     # normalization difference is not mistaken for a dropped word.
     out = []
@@ -122,7 +125,7 @@ def _dropped_runs(
     if start is not None:
         runs.append((start, len(old_order) - 1))
     sized = [(old_order[a], old_order[b], b - a + 1) for a, b in runs]
-    sized.sort(key=lambda run: -run[2])
+    sized.sort(key=operator.itemgetter(2), reverse=True)
     return sized
 
 
