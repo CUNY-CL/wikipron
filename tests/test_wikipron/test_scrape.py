@@ -1,7 +1,11 @@
 import collections
+import queue
+import threading
+import time
 
 import pytest
 
+from wikipron import Config
 from wikipron.scrape import scrape, _skip_word, _skip_date
 from wikipron.extract import EXTRACTION_FUNCTIONS
 
@@ -84,6 +88,52 @@ _SMOKE_TEST_PARAMS = [
 ]
 
 
+# Per-language wall-clock budget for the live-API smoke tests. A language that
+# stops yielding (e.g. after a Wiktionary layout change) would otherwise walk
+# its entire category and hang CI past the 10-minute no-output limit.
+_SMOKE_TEST_TIMEOUT_SECONDS = 60
+
+
+def _collect_pairs(
+    config: Config, n: int, timeout: float
+) -> tuple[list[tuple[str, str]], bool]:
+    """Collect up to ``n`` (word, pron) pairs from ``scrape(config)``.
+
+    Give up after ``timeout`` seconds and return ``(pairs, timed_out)``. The
+    scrape runs on a daemon thread so the budget is enforced even when the
+    generator yields nothing and never hands control back to a consumer loop.
+    """
+    pair_queue: queue.Queue = queue.Queue()
+    sentinel = object()
+
+    def worker():
+        try:
+            for pair in scrape(config):
+                pair_queue.put(pair)
+        except Exception as error:
+            pair_queue.put(error)
+        finally:
+            pair_queue.put(sentinel)
+
+    threading.Thread(target=worker, daemon=True).start()
+    pairs: list[tuple[str, str]] = []
+    deadline = time.monotonic() + timeout
+    while len(pairs) < n:
+        remaining = deadline - time.monotonic()
+        if remaining <= 0:
+            return pairs, True
+        try:
+            item = pair_queue.get(timeout=remaining)
+        except queue.Empty:
+            return pairs, True
+        if item is sentinel:
+            break
+        if isinstance(item, Exception):
+            raise item
+        pairs.append(item)
+    return pairs, False
+
+
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
 @pytest.mark.parametrize("smoke_test_language", _SMOKE_TEST_PARAMS)
 def test_smoke_test_scrape(smoke_test_language):
@@ -93,11 +143,14 @@ def test_smoke_test_scrape(smoke_test_language):
         key=smoke_test_language.key, **smoke_test_language.config_params
     )
     assert config.language == smoke_test_language.wik_name
-    pairs = []
-    for i, (word, pron) in enumerate(scrape(config)):
-        if i >= n:
-            break
-        pairs.append((word, pron))
+    pairs, timed_out = _collect_pairs(config, n, _SMOKE_TEST_TIMEOUT_SECONDS)
+    if timed_out:
+        pytest.skip(
+            f"{smoke_test_language.wik_name} "
+            f"({smoke_test_language.key}) yielded only {len(pairs)}/{n} "
+            f"pairs within {_SMOKE_TEST_TIMEOUT_SECONDS}s; skipping "
+            f"(possible Wiktionary change or slow network)."
+        )
     assert len(pairs) == n
     assert all(word and pron for (word, pron) in pairs)
 

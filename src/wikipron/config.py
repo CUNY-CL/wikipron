@@ -30,11 +30,24 @@ _PRON_XPATH_SELECTOR_TEMPLATE = """
   {dialect_selector}
 ]
 """
+# A pronunciation <li>/<p> is kept for a dialect if a matching accent label
+# (an <a> link, e.g. "US" -> American English) sits on the line itself or on an
+# enclosing <li> (Wiktionary nests accent-specific prons under an accent
+# header), or -- the "no accent" fallback -- if the line carries no linked
+# accent label of its own (ignoring labels inside nested <li> sub-variants) and
+# none on any ancestor <li>. That fallback keeps general prons whose only
+# labels are non-accent qualifiers ("strong form", "weak form", "colloquial"),
+# which are plain text rather than links. See GH-591 for the descendant-axis
+# (.//) requirement.
 _DIALECT_XPATH_SELECTOR_TEMPLATE = (
     "and\n"
     '  (.//span[contains(@class, "ib-content")]//a[{dialects_text}]\n'
     '   or .//span[contains(@class, "ib-content") and ({dialects_text})]\n'
-    '   or count(.//span[contains(@class, "ib-content")]) = 0)'
+    '   or ancestor::li//span[contains(@class, "ib-content")]//a[{dialects_text}]\n'  # noqa: E501
+    '   or ancestor::li//span[contains(@class, "ib-content") and ({dialects_text})]\n'  # noqa: E501
+    '   or (count(.//span[contains(@class, "ib-content")][.//a])\n'
+    '       - count(.//li//span[contains(@class, "ib-content")][.//a]) = 0\n'
+    '       and count(ancestor::li//span[contains(@class, "ib-content")][.//a]) = 0))'  # noqa: E501
 )
 _PHONEMES_REGEX = r"/(.+?)/"
 _PHONES_REGEX = r"\[(.+?)\]"
