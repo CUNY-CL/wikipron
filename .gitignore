@@ -17,3 +17,6 @@ data/frequencies/tsv/*
 data/frequencies/tgz/*
 data/morphology/tsv/*
 data/scrape/lib/unscraped.json
+
+# Unfiltered Spanish scrape kept by data/scrape/lib/spa_exceptions.py.
+data/scrape/spa_raw/

@@ -19,6 +19,11 @@ from wikipron.scrape import (
     iter_page_responses,
 )
 
+try:
+    from . import spa_exceptions
+except ImportError:
+    import spa_exceptions  # type: ignore[import-not-found,no-redef]
+
 LIB_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
 LANGUAGES_PATH = os.path.join(LIB_DIRECTORY, "languages.json")
 SCRAPE_DIRECTORY = os.path.dirname(LIB_DIRECTORY)
@@ -237,6 +242,8 @@ def main(args: argparse.Namespace) -> None:
             all_configs.extend(configs)
             all_specs.extend(specs)
         _call_scrape_multi(all_configs, all_specs)
+        if "spa" in codes_in_group:
+            spa_exceptions.apply()
         for code in codes_in_group:
             remaining.remove(code)
         with open(UNSCRAPED_JSON_FILENAME, "w", encoding="utf-8") as f:
@@ -292,6 +299,47 @@ def _build_configs_for_code(
             )
             configs.extend(c)
             specs.extend(s)
+    if code == "spa":
+        c, s = _build_spa_stressed_configs(
+            config_settings, language_settings["dialect"]
+        )
+        configs.extend(c)
+        specs.extend(s)
+    return configs, specs
+
+
+def _build_spa_stressed_configs(
+    config_settings: dict[str, Any], dialects: dict[str, str]
+) -> tuple[list[wikipron.Config], list[dict[str, Any]]]:
+    """Builds the extra stressed broad scrape used by spa_exceptions.
+
+    These are scraped alongside the regular buckets from the same page
+    fetches, and are written to spa_raw/ rather than tsv/.
+    """
+    os.makedirs(spa_exceptions.RAW_DIRECTORY, exist_ok=True)
+    configs: list[wikipron.Config] = []
+    specs: list[dict[str, Any]] = []
+    for dialect_key, dialect_value in dialects.items():
+        configs.append(
+            wikipron.Config(
+                **{
+                    **config_settings,
+                    "dialect": dialect_value,
+                    "stress": True,
+                }
+            )
+        )
+        specs.append(
+            {
+                "tsv_path": spa_exceptions.raw_path(
+                    spa_exceptions.RAW_DIRECTORY,
+                    dialect_key,
+                    spa_exceptions.STRESSED_BUCKET,
+                ),
+                "phones_set": None,
+                "tsv_filtered_path": None,
+            }
+        )
     return configs, specs
 
 
