@@ -12,6 +12,10 @@ Unreleased
 
 ### Under `data/`
 
+-   Spanish (`spa`) scrape keeps only words with a pronunciation not
+    predicted by regular spelling rules (mostly loanwords), and exports them
+    as respellings for kokoro.cpp (\#595).
+
 ### Under `src/` and elsewhere
 
 [2.2.0] - 2026-07-22
