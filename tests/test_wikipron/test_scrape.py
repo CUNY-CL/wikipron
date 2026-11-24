@@ -185,9 +185,9 @@ def test__skip_word(word, skip_spaces, expected):
 @pytest.mark.parametrize(
     "date_from_word, cut_off_date, expected",
     [
-        ("2019-10-15", "2019-10-20", False),
-        ("2019-10-20", "2019-10-20", False),
-        ("2019-10-25", "2019-10-20", True),
+        ("2019-10-15T11:22:33Z", "2019-10-20", False),
+        ("2019-10-20T11:22:33Z", "2019-10-20", False),
+        ("2019-10-25T11:22:33Z", "2019-10-20", True),
     ],
 )
 def test__skip_date(date_from_word, cut_off_date, expected):

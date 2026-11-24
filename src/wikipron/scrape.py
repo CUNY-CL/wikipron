@@ -49,7 +49,9 @@ def _skip_word(word: str, skip_spaces: bool) -> bool:
 
 
 def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
-    return date_from_word > cut_off_date
+    # Wiktionary's category-link timestamps carry a time,
+    # but we only care about the date from YYYY-MM-DD (first 10 characters).
+    return date_from_word[:10] > cut_off_date
 
 
 def _iter_page_responses_once(
