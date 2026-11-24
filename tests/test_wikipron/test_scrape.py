@@ -4,9 +4,17 @@ import threading
 import time
 
 import pytest
+import requests
 
 from wikipron import Config
-from wikipron.scrape import scrape, _skip_word, _skip_date
+from wikipron.scrape import (
+    _PAGE_TEMPLATE,
+    _iter_page_responses_once,
+    _skip_date,
+    _skip_word,
+    _word_from_title,
+    scrape,
+)
 from wikipron.extract import EXTRACTION_FUNCTIONS
 
 from . import can_connect_to_wiktionary, config_factory
@@ -192,3 +200,66 @@ def test__skip_word(word, skip_spaces, expected):
 )
 def test__skip_date(date_from_word, cut_off_date, expected):
     assert _skip_date(date_from_word, cut_off_date) == expected
+
+
+@pytest.mark.parametrize(
+    "title, expected",
+    [
+        ("a/languages A to L", "a"),
+        ("a/languages M to Z", "a"),
+        ("i/languages M to Z", "i"),
+        # Ordinary titles are unchanged.
+        ("kot", "kot"),
+        ("a", "a"),
+        # Only the "/languages X to Y" suffix is a split page.
+        ("a/languages", "a/languages"),
+        ("a/languages A to L/extra", "a/languages A to L/extra"),
+        ("a/something else", "a/something else"),
+    ],
+)
+def test__word_from_title(title, expected):
+    assert _word_from_title(title) == expected
+
+
+class _StubSession:
+    """Records requested URLs instead of fetching them."""
+
+    def __init__(self):
+        self.urls = []
+
+    def get(self, url, timeout):
+        self.urls.append(url)
+        return requests.Response()
+
+
+def test__iter_page_responses_once_split_pages():
+    """Split-page subpages are fetched by title but yielded as the word."""
+    titles = [
+        "a/languages A to L",
+        "a phrase",
+        "a/languages M to Z",
+        "kot",
+    ]
+    data = {
+        "query": {
+            "categorymembers": [
+                {
+                    "title": title,
+                    "timestamp": "2019-10-15T11:22:33Z",
+                    "sortkey": str(i),
+                }
+                for i, title in enumerate(titles)
+            ]
+        }
+    }
+    session = _StubSession()
+    config = config_factory(key="pol", cut_off_date="2019-10-20")
+    words = [
+        word for word, _ in _iter_page_responses_once(data, session, config)
+    ]
+    # The multiword title is still skipped, without a fetch.
+    assert words == ["a", "a", "kot"]
+    assert session.urls == [
+        _PAGE_TEMPLATE.format(word=title)
+        for title in ("a/languages A to L", "a/languages M to Z", "kot")
+    ]

@@ -17,6 +17,9 @@ from wikipron.typing import Iterator, WordPronPair
 _CATEGORY_TEMPLATE = "Category:{language} terms with IPA pronunciation"
 # Selects the content on the page.
 _PAGE_TEMPLATE = "https://en.wiktionary.org/wiki/{word}"
+# Titles of per-language subpages of a split page, e.g.,
+# "a/languages A to L" (see _word_from_title).
+_SPLIT_PAGE_REGEX = re.compile(r"(?P<word>.+)/languages [A-Z] to [A-Z]")
 # Http headers for api call
 HTTP_HEADERS = {
     "User-Agent": (
@@ -54,19 +57,34 @@ def _skip_date(date_from_word: str, cut_off_date: str) -> bool:
     return date_from_word[:10] > cut_off_date
 
 
+def _word_from_title(title: str) -> str:
+    """Maps a category member's page title to the word it is an entry for.
+
+    Wiktionary splits a few very large pages (e.g., "a", "i") by language
+    into subpages titled "a/languages A to L", "a/languages M to Z", etc.,
+    and the language categories list those subpage titles. For such a
+    subpage, the word is the part before "/languages"; any other title is
+    the word itself.
+    """
+    match = _SPLIT_PAGE_REGEX.fullmatch(title)
+    return match.group("word") if match else title
+
+
 def _iter_page_responses_once(
     data, session: requests.Session, config: Config
 ) -> "Iterator[tuple[str, HTMLResponse]]":
     for member in data["query"]["categorymembers"]:
         title = member["title"]
+        word = _word_from_title(title)
         timestamp = member["timestamp"]
         config.restart_key = member["sortkey"]
-        if _skip_word(title, config.skip_spaces_word) or _skip_date(
+        if _skip_word(word, config.skip_spaces_word) or _skip_date(
             timestamp, config.cut_off_date
         ):
             continue
+        # Fetches the page by its title (or the subpage, for a split page).
         response = session.get(_PAGE_TEMPLATE.format(word=title), timeout=10)
-        yield title, HTMLResponse(response)
+        yield word, HTMLResponse(response)
 
 
 # All living + dead Chinese varieties whose pronunciations are scraped
@@ -110,7 +128,11 @@ def _language_name_for_scraping(language):
 def iter_page_responses(
     config: Config,
 ) -> "Iterator[tuple[str, HTMLResponse]]":
-    """Yield (page_title, HTMLResponse) for each candidate word.
+    """Yield (word, HTMLResponse) for each candidate word.
+
+    The word is normally the page title, but for a per-language subpage of a
+    split page (e.g., "a/languages A to L"), it is the entry word ("a"),
+    while the response is the subpage's.
 
     Handles MediaWiki category pagination, exponential backoff on
     transient errors, per-word skip filters, and ``restart_key``

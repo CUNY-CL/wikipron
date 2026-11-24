@@ -17,7 +17,13 @@ Unreleased
 -  Fixes the cut-off date filter, which compared full category-link
    timestamps (e.g., `2026-11-24T11:22:33Z`) against a date string and so
    always skipped pages stamped on the cut-off day itself.
-   Now only the date part is now compared.
+   Now only the date part is compared.
+-  Scrapes split pages: Wiktionary has moved most language sections of very
+   large pages (e.g., "a" and "i") to subpages such as
+   "a/languages A to L" and "a/languages M to Z", which the language
+   categories list instead of the main page. These subpages are now fetched
+   and their pronunciations attributed to the word ("a"); previously they
+   were skipped as multiword titles.
 
 [2.2.0] - 2026-07-22
 --------------------
