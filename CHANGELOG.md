@@ -24,6 +24,10 @@ Unreleased
    categories list instead of the main page. These subpages are now fetched
    and their pronunciations attributed to the word ("a"); previously they
    were skipped as multiword titles.
+-  Adds a Polish extractor that skips pronunciation lines labelled
+   "Middle Polish" (16th-18th c.), which were previously scraped as ordinary
+   Polish pronunciations (e.g., `który` got `k t o r ɨ` next to modern
+   `k t u r ɘ`).
 
 [2.2.0] - 2026-07-22
 --------------------

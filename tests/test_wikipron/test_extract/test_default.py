@@ -1,5 +1,4 @@
 import pytest
-import requests
 
 from wikipron.extract import EXTRACTION_FUNCTIONS
 from wikipron.extract.core import (
@@ -11,7 +10,7 @@ from wikipron.extract.default import extract_word_pron_default
 from wikipron.extract.eng import extract_word_pron_eng
 from wikipron.html_utils import HTMLResponse
 
-from . import config_factory
+from .. import _offline_response, config_factory
 
 
 @pytest.mark.parametrize(
@@ -107,14 +106,6 @@ _GENERAL_OUTER_NESTED_ACCENT_HTML = """
 </li>
 </ul>
 """
-
-
-def _offline_response(html: str) -> HTMLResponse:
-    response = requests.Response()
-    # Declare the charset so libxml2 decodes the bytes as UTF-8 (real
-    # Wiktionary pages carry a <meta charset> in their <head>).
-    response._content = ('<meta charset="utf-8">' + html).encode("utf-8")
-    return HTMLResponse(response)
 
 
 @pytest.mark.parametrize(

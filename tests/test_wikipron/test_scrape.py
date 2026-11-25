@@ -48,6 +48,8 @@ _SMOKE_TEST_LANGUAGES = [
     SmokeTestLanguage("tha", "Thai", {}),
     # Latin data is narrow transcription only.
     SmokeTestLanguage("lat", "Latin", {"narrow": True}),
+    # Polish uses a custom extractor (skips "Middle Polish" lines).
+    SmokeTestLanguage("pol", "Polish", {}),
     # Japanese data is mostly narrow transcription.
     SmokeTestLanguage("jpn", "Japanese", {"narrow": True}),
     # Chinese varieties: Sinological IPA scraped from the unified
