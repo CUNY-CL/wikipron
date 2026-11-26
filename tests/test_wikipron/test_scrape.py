@@ -1,4 +1,6 @@
 import collections
+import http.server
+import logging
 import queue
 import threading
 import time
@@ -8,7 +10,9 @@ import requests
 
 from wikipron import Config
 from wikipron.scrape import (
+    _BACKOFF_MAX,
     _PAGE_TEMPLATE,
+    _make_session,
     _iter_page_responses_once,
     _skip_date,
     _skip_word,
@@ -112,13 +116,19 @@ def _collect_pairs(
     Give up after ``timeout`` seconds and return ``(pairs, timed_out)``. The
     scrape runs on a daemon thread so the budget is enforced even when the
     generator yields nothing and never hands control back to a consumer loop.
+    On return, the thread is told to stop, and it does so at its next pair,
+    otherwise it would keep walking the whole category in the background for
+    the rest of the test session, hitting Wiktionary's rate limit.
     """
     pair_queue: queue.Queue = queue.Queue()
     sentinel = object()
+    stop = threading.Event()
 
     def worker():
         try:
             for pair in scrape(config):
+                if stop.is_set():
+                    break
                 pair_queue.put(pair)
         except Exception as error:
             pair_queue.put(error)
@@ -128,20 +138,23 @@ def _collect_pairs(
     threading.Thread(target=worker, daemon=True).start()
     pairs: list[tuple[str, str]] = []
     deadline = time.monotonic() + timeout
-    while len(pairs) < n:
-        remaining = deadline - time.monotonic()
-        if remaining <= 0:
-            return pairs, True
-        try:
-            item = pair_queue.get(timeout=remaining)
-        except queue.Empty:
-            return pairs, True
-        if item is sentinel:
-            break
-        if isinstance(item, Exception):
-            raise item
-        pairs.append(item)
-    return pairs, False
+    try:
+        while len(pairs) < n:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                return pairs, True
+            try:
+                item = pair_queue.get(timeout=remaining)
+            except queue.Empty:
+                return pairs, True
+            if item is sentinel:
+                break
+            if isinstance(item, Exception):
+                raise item
+            pairs.append(item)
+        return pairs, False
+    finally:
+        stop.set()
 
 
 @pytest.mark.skipif(not can_connect_to_wiktionary(), reason="need Internet")
@@ -231,7 +244,9 @@ class _StubSession:
 
     def get(self, url, timeout):
         self.urls.append(url)
-        return requests.Response()
+        response = requests.Response()
+        response.status_code = 200
+        return response
 
 
 def test__iter_page_responses_once_split_pages():
@@ -265,3 +280,156 @@ def test__iter_page_responses_once_split_pages():
         _PAGE_TEMPLATE.format(word=title)
         for title in ("a/languages A to L", "a/languages M to Z", "kot")
     ]
+
+
+def test__iter_page_responses_once_logs_error_status(caplog):
+    """An error response (after any retries) is logged, not silent."""
+
+    class _NotFoundSession(_StubSession):
+        def get(self, url, timeout):
+            response = super().get(url, timeout)
+            response.status_code = 404
+            return response
+
+    data = {
+        "query": {
+            "categorymembers": [
+                {
+                    "title": "kot",
+                    "timestamp": "2019-10-15T11:22:33Z",
+                    "sortkey": "0",
+                }
+            ]
+        }
+    }
+    config = config_factory(key="pol", cut_off_date="2019-10-20")
+    with caplog.at_level(logging.WARNING):
+        words = [
+            word
+            for word, _ in _iter_page_responses_once(
+                data, _NotFoundSession(), config
+            )
+        ]
+    assert words == ["kot"]
+    assert f"HTTP 404 for {_PAGE_TEMPLATE.format(word='kot')}" in caplog.text
+
+
+def _record_sleeps(monkeypatch):
+    """Records time.sleep calls made on this thread, without sleeping.
+
+    Calls from other threads (e.g., a smoke test's scrape that has not
+    stopped yet) sleep as usual and are not recorded.
+    """
+    sleeps = []
+    this_thread = threading.get_ident()
+    real_sleep = time.sleep
+
+    def fake_sleep(seconds):
+        if threading.get_ident() == this_thread:
+            sleeps.append(seconds)
+        else:
+            real_sleep(seconds)
+
+    monkeypatch.setattr(time, "sleep", fake_sleep)
+    return sleeps
+
+
+@pytest.fixture
+def status_server(monkeypatch):
+    """A local HTTP server that answers with a given sequence of responses.
+
+    Yields a function that takes a list of (status, headers) pairs, one per
+    request, and returns the server's URL and the list of request paths.
+    """
+    # Keeps requests to the local server off any proxy set in the environment.
+    monkeypatch.setenv("NO_PROXY", "127.0.0.1")
+    responses = []
+    paths = []
+
+    class Handler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):
+            paths.append(self.path)
+            status, headers = responses.pop(0)
+            self.send_response(status)
+            for key, value in headers.items():
+                self.send_header(key, value)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+
+        def log_message(self, *args):
+            pass
+
+    server = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    thread = threading.Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+
+    def serve(sequence):
+        responses[:] = sequence
+        return f"http://127.0.0.1:{server.server_port}/kot", paths
+
+    yield serve
+    server.shutdown()
+    server.server_close()
+
+
+@pytest.mark.parametrize(
+    "statuses, expected_status, expected_requests",
+    [
+        # Success: one request.
+        ([200], 200, 1),
+        # Rate limited, then success: the page is refetched.
+        ([429, 503, 200], 200, 3),
+        # Not retryable: returned as is.
+        ([404], 404, 1),
+        # Retries run out: the error response is returned, not raised.
+        ([503] * 11, 503, 11),
+    ],
+)
+def test__make_session_retries(
+    monkeypatch, status_server, statuses, expected_status, expected_requests
+):
+    sleeps = _record_sleeps(monkeypatch)
+    url, paths = status_server([(status, {}) for status in statuses])
+    response = _make_session().get(url, timeout=10)
+    assert response.status_code == expected_status
+    assert len(paths) == expected_requests
+    # No wait before the first retry; then exponential backoff from ~5 s,
+    # capped.
+    if expected_requests > 2:
+        assert sleeps[0] == pytest.approx(5, abs=1)
+        assert all(sleep <= _BACKOFF_MAX for sleep in sleeps)
+
+
+@pytest.mark.parametrize(
+    "retry_after, expected_sleeps",
+    [
+        ("200", [200]),
+        # Longer than _BACKOFF_MAX: capped.
+        ("100000", [_BACKOFF_MAX]),
+    ],
+)
+def test__make_session_honors_retry_after(
+    monkeypatch, status_server, retry_after, expected_sleeps
+):
+    sleeps = _record_sleeps(monkeypatch)
+    url, _ = status_server([(429, {"Retry-After": retry_after}), (200, {})])
+    assert _make_session().get(url, timeout=10).status_code == 200
+    assert sleeps == expected_sleeps
+
+
+@pytest.mark.parametrize("retry_after", ["soon", "-5", "\u00b2"])
+def test__make_session_ignores_bad_retry_after(
+    monkeypatch, status_server, retry_after
+):
+    sleeps = _record_sleeps(monkeypatch)
+    url, paths = status_server(
+        [
+            (429, {"Retry-After": retry_after}),
+            (429, {"Retry-After": retry_after}),
+            (200, {}),
+        ]
+    )
+    assert _make_session().get(url, timeout=10).status_code == 200
+    assert len(paths) == 3
+    # Falls back to the backoff: none before the first retry, then ~5 s.
+    assert sleeps == [pytest.approx(5, abs=1)]

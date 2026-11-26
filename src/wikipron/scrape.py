@@ -1,3 +1,4 @@
+import logging
 import random
 import re
 import time
@@ -7,6 +8,10 @@ from importlib.metadata import version
 from typing import Any
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.exceptions import InvalidHeader
+from urllib3.response import BaseHTTPResponse
+from urllib3.util.retry import Retry
 
 from wikipron.config import Config
 from wikipron.html_utils import HTMLResponse
@@ -29,10 +34,55 @@ HTTP_HEADERS = {
     ),
 }
 
-# Exponential backoff parameters for retrying after connection errors.
-# Formula of delay: min(BASE * 2^retries + random(0, 1), MAX)
+# Exponential backoff parameters. The category loop in iter_page_responses,
+# which restarts after a request fails for good (e.g., retries ran out on
+# connection errors), waits min(BASE * 2^retries + random(0, 1), MAX). For
+# the per-request retries, see _RETRY.
 _BACKOFF_BASE = 5  # seconds
 _BACKOFF_MAX = 300  # seconds
+
+
+class _Retry(Retry):
+    """Falls back to the backoff on an unparsable Retry-After header.
+
+    Plain Retry raises InvalidHeader on such a header (e.g., "soon"), which
+    the scrape loop does not catch, so the scrape would crash.
+    """
+
+    def get_retry_after(self, response: BaseHTTPResponse) -> float | None:
+        try:
+            return super().get_retry_after(response)
+        except InvalidHeader:
+            return None
+
+
+# Retries for each HTTP request (page fetches and category queries) on
+# connection errors, timeouts, rate limiting (429), and transient server
+# errors (5xx). An error response (e.g., 429 when Wiktionary rate-limits the
+# scraper) is an HTML page with no pronunciations, so without retrying, the
+# word would be silently dropped. urllib3 retries the first time at once,
+# then after about 5, 10, 20, ... seconds (plus up to 1 second of jitter),
+# up to MAX. A Retry-After header replaces the backoff and is also capped at
+# MAX. When retries run out on an error status, the error response is
+# returned, not raised (see _iter_page_responses_once).
+_RETRY = _Retry(
+    total=10,
+    status_forcelist=(429, 500, 502, 503, 504),
+    backoff_factor=_BACKOFF_BASE / 2,
+    backoff_jitter=1.0,
+    backoff_max=_BACKOFF_MAX,
+    retry_after_max=_BACKOFF_MAX,
+    raise_on_status=False,
+)
+
+
+def _make_session() -> requests.Session:
+    session = requests.Session()
+    session.headers.update(HTTP_HEADERS)
+    adapter = HTTPAdapter(max_retries=_RETRY)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
 
 
 def _skip_word(word: str, skip_spaces: bool) -> bool:
@@ -83,7 +133,13 @@ def _iter_page_responses_once(
         ):
             continue
         # Fetches the page by its title (or the subpage, for a split page).
-        response = session.get(_PAGE_TEMPLATE.format(word=title), timeout=10)
+        url = _PAGE_TEMPLATE.format(word=title)
+        response = session.get(url, timeout=10)
+        # An error response (after retries, if retryable) has no
+        # pronunciations, so the word is dropped; logs it so that the drop is
+        # visible.
+        if response.status_code >= 400:
+            logging.warning("HTTP %d for %s", response.status_code, url)
         yield word, HTMLResponse(response)
 
 
@@ -155,8 +211,7 @@ def iter_page_responses(
         "cmlimit": "500",
         "cmprop": "ids|title|timestamp|sortkey",
     }
-    session = requests.Session()
-    session.headers.update(HTTP_HEADERS)
+    session = _make_session()
     retries = 0
     while True:
         try:

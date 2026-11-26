@@ -30,6 +30,7 @@ dependencies = [
     'requests >= 2.32.3',
     'segments >= 2.2.0, < 3',
     'unicodedataplus >= 15.0.0',
+    'urllib3 >= 2.6.3',
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",

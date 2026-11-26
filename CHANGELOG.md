@@ -28,6 +28,11 @@ Unreleased
    "Middle Polish" (16th-18th c.), which were previously scraped as ordinary
    Polish pronunciations (e.g., `który` got `k t o r ɨ` next to modern
    `k t u r ɘ`).
+-  Retries HTTP requests that get rate limited (HTTP 429) or a transient
+   server error (HTTP 5xx), via urllib3's `Retry` on the requests session,
+   with exponential backoff that honors `Retry-After`. Requires
+   `urllib3 >= 2.6.3`. Previously an error page was parsed as a page with no
+   pronunciations, so the word was silently dropped.
 
 [2.2.0] - 2026-07-22
 --------------------
