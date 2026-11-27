@@ -12,6 +12,10 @@ Unreleased
 
 ### Under `data/`
 
+-  Updates Hungarian (`hun`), re-scraped with the split-page, cut-off date,
+   and retry fixes below. Restores `a` and words previously dropped by the
+   cut-off date (e.g., `is`, `megállóhely`).
+
 ### Under `src/` and elsewhere
 
 -  Fixes the cut-off date filter, which compared full category-link

@@ -187,8 +187,8 @@ hrx_latn_broad.tsv	hrx	Hunsrik	Hunsrik	Latin		False	Broad	2108
 hsb_latn_broad.tsv	hsb	Upper Sorbian	Upper Sorbian	Latin		False	Broad	1130
 hsn_hani_changsha_broad.tsv	hsn	Xiang Chinese	Xiang	Han	Changsha	False	Broad	6129
 hts_latn_broad.tsv	hts	Hadza	Hadza	Latin		False	Broad	335
-hun_latn_narrow.tsv	hun	Hungarian	Hungarian	Latin		False	Narrow	64764
-hun_latn_narrow_filtered.tsv	hun	Hungarian	Hungarian	Latin		True	Narrow	64689
+hun_latn_narrow.tsv	hun	Hungarian	Hungarian	Latin		False	Narrow	65461
+hun_latn_narrow_filtered.tsv	hun	Hungarian	Hungarian	Latin		True	Narrow	65382
 huu_latn_narrow.tsv	huu	Murui Huitoto	Murui Huitoto	Latin		False	Narrow	440
 hye_armn_e_broad.tsv	hye	Armenian	Armenian	Armenian	Eastern Armenian	False	Broad	18090
 hye_armn_e_narrow.tsv	hye	Armenian	Armenian	Armenian	Eastern Armenian	False	Narrow	18495

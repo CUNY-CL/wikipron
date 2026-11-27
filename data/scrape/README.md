@@ -5,7 +5,7 @@
   * Broad transcription files: 38
   * Narrow transcription files: 22
 * Scripts: 41
-* Pronunciations: 5,225,170
+* Pronunciations: 5,225,867
 
 
 | Link | ISO 639-3 Code | ISO 639 Language Name | Wiktionary Language Name | Script | Dialect | Filtered | Narrow/Broad | # of entries |
@@ -199,8 +199,8 @@
 | [TSV](tsv/hsb_latn_broad.tsv) | hsb | Upper Sorbian | Upper Sorbian | Latin |  | False | Broad | 1,130 |
 | [TSV](tsv/hsn_hani_changsha_broad.tsv) | hsn | Xiang Chinese | Xiang | Han | Changsha | False | Broad | 6,129 |
 | [TSV](tsv/hts_latn_broad.tsv) | hts | Hadza | Hadza | Latin |  | False | Broad | 335 |
-| [TSV](tsv/hun_latn_narrow.tsv) | hun | Hungarian | Hungarian | Latin |  | False | Narrow | 64,764 |
-| [TSV](tsv/hun_latn_narrow_filtered.tsv) | hun | Hungarian | Hungarian | Latin |  | True | Narrow | 64,689 |
+| [TSV](tsv/hun_latn_narrow.tsv) | hun | Hungarian | Hungarian | Latin |  | False | Narrow | 65,461 |
+| [TSV](tsv/hun_latn_narrow_filtered.tsv) | hun | Hungarian | Hungarian | Latin |  | True | Narrow | 65,382 |
 | [TSV](tsv/huu_latn_narrow.tsv) | huu | Murui Huitoto | Murui Huitoto | Latin |  | False | Narrow | 440 |
 | [TSV](tsv/hye_armn_e_broad.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | False | Broad | 18,090 |
 | [TSV](tsv/hye_armn_e_narrow.tsv) | hye | Armenian | Armenian | Armenian | Eastern Armenian | False | Narrow | 18,495 |
